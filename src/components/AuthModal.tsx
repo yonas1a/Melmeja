@@ -62,7 +62,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       onClose();
     } catch (err: any) {
       console.error(err);
-      setErrorMsg(err.message || 'Failed to sign in with Google. Please try again.');
+      if (err.code === 'auth/unauthorized-domain' || err.message?.includes('unauthorized-domain')) {
+        setErrorMsg('Unauthorized Domain: Please add your current domain (e.g., localhost) to Firebase Console -> Authentication -> Settings -> Authorized Domains.');
+      } else {
+        setErrorMsg(err.message || 'Failed to sign in with Google. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
@@ -110,7 +114,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       }
     } catch (err: any) {
       console.error(err);
-      if (err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password' || err.code === 'auth/invalid-credential') {
+      if (err.code === 'auth/unauthorized-domain' || err.message?.includes('unauthorized-domain')) {
+        setErrorMsg('Unauthorized Domain: Please add your current domain/IP to Firebase Console -> Authentication -> Settings -> Authorized Domains.');
+      } else if (err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password' || err.code === 'auth/invalid-credential') {
         setErrorMsg('Invalid email or password credentials.');
       } else if (err.code === 'auth/email-already-in-use') {
         setErrorMsg('This email address is already registered. Please sign in.');
