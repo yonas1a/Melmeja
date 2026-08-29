@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section Animation</title>
+    <style>
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            background: transparent !important;
+            width: 100vw;
+            height: 100vh;
+        }
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent !important;
+            overflow: hidden !important;
+        }
+        .hero-content {
+            position: relative;
+            width: 700px;
+            height: 520px;
+            left: -160px;
+            transform-origin: 15% center;
+            transform: scale(2.1);
+        }
+        .hero-image {
+            width: 700px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            will-change: transform, opacity;
+        }
+
+        img#img2 {
+            animation: imgLoop 12s 3s linear infinite;
+            opacity: 0;
+        }
+        #img3 {
+            animation: imgLoop 12s 6s linear infinite;
+            opacity: 0;
+        }
+        #img4 {
+            animation: imgLoop 12s 9s linear infinite;
+            opacity: 0;
+        }
+        #img5 {
+            animation: imgLoop 12s 12s linear infinite;
+            opacity: 0;
+        }
+
+        @keyframes imgLoop {
+            0% {
+                transform: translate(-260px, 185px);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translate(250px, -120px);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 1400px) {
+            .hero-content {
+                transform: scale(1.8);
+                left: -120px;
+            }
+        }
+        @media (max-width: 1100px) {
+            .hero-content {
+                transform: scale(1.4);
+                left: -80px;
+            }
+        }
+        @media (max-width: 800px) {
+            .hero-content {
+                transform: scale(1.0);
+                left: 0px;
+                transform-origin: center center;
+            }
+        }
+        @media (max-width: 550px) {
+            .hero-content {
+                transform: scale(0.75);
+                left: 0px;
+                transform-origin: center center;
+            }
+        }
+        @media (max-width: 400px) {
+            .hero-content {
+                transform: scale(0.58);
+                left: 0px;
+                transform-origin: center center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-content">
+            <img id="img1" src="Design/door.png" alt="Hero Image" class="hero-image">
+            <img id="img2" src="Design/hat.png" alt="Hero Image" class="hero-image">
+            <img id="img3" src="Design/exam.png" alt="Hero Image" class="hero-image">
+            <img id="img4" src="Design/laptop.png" alt="Hero Image" class="hero-image">
+            <img id="img5" src="Design/Book1.png" alt="Hero Image" class="hero-image">
+            <img id="img6" src="Design/door part.png" alt="Hero Image" class="hero-image">
+        </div>
+    </section>  
+</body>
+</html>
