@@ -254,7 +254,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onOpenAuth
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25 }}
-              className="lg:col-span-6 relative w-full h-[520px] sm:h-[640px] lg:h-[760px] flex items-center justify-center pointer-events-none -mt-24"
+              className="lg:col-span-6 relative w-full h-[380px] xs:h-[420px] sm:h-[540px] lg:h-[760px] flex items-center justify-center pointer-events-none mt-2 lg:-mt-24"
             >
               {/* Moving Big Blurred #0d8400 Green Circle */}
               <motion.div
@@ -269,7 +269,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onOpenAuth
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[380px] h-[380px] sm:w-[500px] sm:h-[500px] lg:w-[580px] lg:h-[580px] rounded-full bg-[#0d8400] blur-[110px] pointer-events-none z-0"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] lg:w-[580px] lg:h-[580px] rounded-full bg-[#0d8400] blur-[85px] sm:blur-[110px] pointer-events-none z-0"
               />
 
               <iframe
