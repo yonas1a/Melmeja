@@ -1,0 +1,1245 @@
+[
+
+  {
+    "question": "According to Pascal's Principle, if an external pressure is applied to an enclosed incompressible fluid, that pressure is:",
+    "options": [
+      "Transmitted to the container walls only.",
+      "Uniformly transmitted to all parts of the fluid and the enclosing walls.",
+      "Transmitted only to the lowest points of the fluid.",
+      "Reduced by the time it reaches the container walls."
+    ],
+    "answer": 1,
+    "explanation": "Pascal's Principle states that pressure applied to an enclosed fluid is transmitted undiminished to every portion of the fluid and the walls of the containing vessel.\n\n This principle is the basis for hydraulic systems."
+  },
+  {
+    "question": "Which of the following statements best defines an ideal fluid in the study of fluid dynamics?",
+    "options": [
+      "A fluid that is viscous and compressible.",
+      "A fluid that is non-viscous and incompressible.",
+      "A fluid that exhibits laminar flow only.",
+      "A fluid with a very high surface tension."
+    ],
+    "answer": 1,
+    "explanation": "An ideal fluid is a theoretical concept used to simplify fluid dynamics problems.\n\n It is defined as a fluid that is incompressible (density is constant) and non-viscous (no internal friction)."
+  },
+  {
+    "question": "The pressure at a depth (h) below the surface of a liquid with density (ρ) is given by the formula:",
+    "options": [
+      "P = ρh",
+      "P = ρgh",
+      "P = P_atm + ρh",
+      "P = P_atm + ρgh"
+    ],
+    "answer": 3,
+    "explanation": "The absolute pressure (P) at a depth (h) in a fluid is the sum of the atmospheric pressure (P_atm) and the gauge pressure (ρgh). \nThe term ρgh represents the pressure due to the fluid column above that depth."
+  },
+
+
+  {
+    "question": "A hydraulic lift has a small piston of area 5cm² and a large piston of area 500cm². If a force of 100N is applied to the small piston, what is the maximum load the large piston can lift?",
+    "options": [
+      "100N",
+      "1000N",
+      "10,000N",
+      "50,000N"
+    ],
+    "answer": 2,
+    "explanation": "From Pascal's Principle, P1 = P2, so F1/A1 = F2/A2.\n F2 = F1 * (A2/A1) = \n100N * (500cm²/5cm²) = \n100N * 100 = \n10,000N."
+  },
+  {
+    "question": "What is the gauge pressure at a depth of 10m in water? (Density of water = 1000kg/m³, g = 10m/s²)",
+    "options": [
+      "100Pa",
+      "10,000Pa",
+      "100,000Pa",
+      "1,000,000Pa"
+    ],
+    "answer": 2,
+    "explanation": "Gauge pressure P_g = ρgh. P_g =\n (1000kg/m³) * (10m/s²) * (10m) = 100,000Pa.\n This is equivalent to 1 atmosphere of pressure."
+  },
+  {
+    "question": "The buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object. This is a statement of:",
+    "options": [
+      "Pascal's Principle",
+      "Bernoulli's Principle",
+      "Archimedes' Principle",
+      "The Continuity Equation"
+    ],
+    "answer": 2,
+    "explanation": "Archimedes' Principle states that an object partially or fully immersed in a fluid is buoyed up by a force equal to the weight of the fluid that the object displaces."
+  },
+  {
+    "question": "A solid object weighs 50N in air and 30N when fully submerged in water. What is the magnitude of the buoyant force acting on the object?",
+    "options": [
+      "20N",
+      "30N",
+      "50N",
+      "80N"
+    ],
+    "answer": 0,
+    "explanation": "Buoyant Force (Fb) = Weight in Air (Wair) - Apparent Weight in Water (Wwater).\n F_b = 50N - 30N =\n 20N."
+  },
+
+  {
+    "question": "For a floating object, the buoyant force is:",
+    "options": [
+      "Greater than its weight.",
+      "Less than its weight.",
+      "Equal to its weight.",
+      "Dependent on the density of the object, not the fluid."
+    ],
+    "answer": 2,
+    "explanation": "An object that is floating (in equilibrium) must have a net force of zero. \n\nTherefore, the upward buoyant force must be exactly equal to the downward force of gravity (its weight)."
+  },
+  {
+    "question": "The rate of flow of a fluid through a pipe is constant. If the pipe narrows, how must the fluid's speed change to satisfy the **Equation of Continuity**?",
+    "options": [
+      "The speed must decrease.",
+      "The speed must remain constant.",
+      "The speed must increase.",
+      "The speed's change depends on the fluid's density."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The Equation of Continuity for an incompressible fluid is a direct consequence of the conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Mass",
+      "Volume"
+    ],
+    "answer": 2,
+    "explanation": "The Equation of Continuity (A₁v₁ = A₂v₂) for an incompressible fluid essentially states that the mass of fluid entering a section of pipe must equal the mass leaving the section in the same time, which is a statement of the conservation of mass."
+  },
+
+  {
+    "question": "A balloon filled with helium rises in the air. This is an example of:",
+    "options": [
+      "Pascal's Principle",
+      "Archimedes' Principle (Buoyancy)",
+      "Surface Tension",
+      "Bernoulli's Principle"
+    ],
+    "answer": 1,
+    "explanation": "The balloon rises because the buoyant force exerted by the displaced air is greater than the total weight of the balloon and the helium. \n\nThis is an application of Archimedes' Principle."
+  },
+
+
+  {
+    "question": "The force of attraction between molecules of the **same** kind (e.g., water-water) is called:",
+    "options": [
+      "Adhesion",
+      "Capillary action",
+      "Cohesion",
+      "Viscosity"
+    ],
+    "answer": 2,
+    "explanation": "Cohesion is the attractive force between molecules of the same substance. \nAdhesion is the attractive force between molecules of different substances."
+  },
+  {
+    "question": "The apparent weight of a solid object fully submerged in a fluid is zero. This implies that:",
+    "options": [
+      "The object's density is less than the fluid's density.",
+      "The object's density is greater than the fluid's density.",
+      "The object's density is equal to the fluid's density.",
+      "The fluid is an ideal fluid."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+
+
+
+  {
+    "question": "Which of the following describes Streamline (or Laminar) flow?",
+    "options": [
+      "Fluid particles move in irregular, random paths.",
+      "Fluid layers mix freely with each other.",
+      "Fluid velocity at any point remains constant in time.",
+      "It only occurs at very high fluid speeds."
+    ],
+    "answer": 2,
+    "explanation": "In streamline flow, the fluid velocity at any point in the flow remains constant over time.\n\n The fluid particles follow smooth paths, and the paths of the different particles do not cross."
+  },
+
+
+
+
+  {
+    "question": "A fluid flow where the velocity, pressure, and density at any point do not change with time is called:",
+    "options": [
+      "Turbulent flow",
+      "Vortical flow",
+      "Unsteady flow",
+      "Steady flow"
+    ],
+    "answer": 3,
+    "explanation": "Steady flow (or laminar flow) is characterized by fluid properties like velocity and pressure remaining constant at any given point over time."
+  },
+  {
+    "question": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      "Manometer",
+      "Hydrometer",
+      "Barometer",
+      "Anemometer"
+    ],
+    "answer": 2,
+    "explanation": "A barometer is an instrument specifically designed to measure atmospheric pressure.\n\n A manometer measures the pressure of a gas relative to atmospheric pressure."
+  },
+  {
+    "question": "Two objects of the same volume but different masses are completely submerged in a fluid. Which object experiences the greater buoyant force?",
+    "options": [
+      "The object with greater mass.",
+      "The object with lesser mass.",
+      "They experience the same buoyant force.",
+      "The one that is denser."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "What is the total mass of water in a rectangular tank that is 2m long, 1m wide, and filled to a depth of 0.5m? (Density of water = 1000kg/m³)",
+    "options": [
+      "100kg",
+      "500kg",
+      "1000kg",
+      "2000kg"
+    ],
+    "answer": 1,
+    "explanation": "Volume V = length * width * height = \n2m * 1m * 0.5m = 1m³.\n Mass m = Density * Volume. \nm = 1000kg/m³ * 1m³ = 500kg."
+  },
+  {
+    "question": "If the flow speed of water in a pipe is doubled, how does the flow rate (volume per unit time) change?",
+    "options": [
+      "It is halved.",
+      "It remains the same.",
+      "It is doubled.",
+      "It is quadrupled."
+    ],
+    "answer": 2,
+    "explanation": "Flow rate (Q) is defined as Q = Av, where A is the area and v is the speed.\n\n If the area A is constant and the speed v is doubled, the flow rate Q must also be doubled."
+  },
+
+  {
+    "question": "A fluid moves through a horizontal pipe. If the pressure decreases in one section, what must happen to the speed of the fluid in that section?",
+    "options": [
+      "It decreases.",
+      "It remains constant.",
+      "It increases.",
+      "It becomes turbulent."
+    ],
+    "answer": 2,
+    "explanation": "From Bernoulli's equation (P + 1/2ρv² = constant for horizontal flow), pressure (P) and speed (v) are inversely related. \n\nIf the pressure decreases, the speed must increase."
+  },
+
+  {
+    "question": "What happens to the level of water in a swimming pool when a large ship floats in it?",
+    "options": [
+      "The water level decreases.",
+      "The water level remains the same.",
+      "The water level increases.",
+      "It depends on the ship's material."
+    ],
+    "answer": 2,
+    "explanation": "According to Archimedes' Principle, the ship displaces a volume of water whose weight is equal to the ship's weight.\n\n This displaced water raises the water level in the pool."
+  },
+
+  {
+    "question": "If the depth of a fluid in a container is quadrupled, how does the gauge pressure at the bottom change?",
+    "options": [
+      "It is halved.",
+      "It remains the same.",
+      "It is doubled.",
+      "It is quadrupled."
+    ],
+    "answer": 3,
+    "explanation": "Gauge pressure P_g = ρgh. \n\nSince P_g is directly proportional to depth h, quadrupling the depth quadruples the gauge pressure."
+  },
+
+
+
+
+
+  {
+    "question": "If a piece of wood floats with 80% of its volume submerged in water, the density of the wood is:",
+    "options": [
+      "800 kg/m³",
+      "200 kg/m³",
+      "1000 kg/m³",
+      "1250 kg/m³"
+    ],
+    "answer": 0,
+    "explanation": "For a floating object, W_object = F_buoyant.\n ρ_object * V_total * g = ρ_fluid * V_submerged * g.\n So, ρ_object = ρ_fluid * (V_submerged / V_total).\n ρ_object = 1000 kg/m³ * 0.80 = 800 kg/m³."
+  },
+  {
+    "question": "The velocity of a fluid is highest at the center of a pipe and lowest near the walls. This is characteristic of:",
+    "options": [
+      "Turbulent flow",
+      "Non-viscous flow",
+      "Laminar flow (viscous fluid)",
+      "Ideal fluid flow"
+    ],
+    "answer": 2,
+    "explanation": "In a real, viscous fluid flowing through a pipe (laminar flow), friction with the walls causes the velocity to be zero at the walls and maximum at the center.\n An ideal fluid would have uniform velocity."
+  },
+
+
+
+
+  {
+    "question": "Water flows into a cylindrical tank with a radius of 0.5m at a rate of 0.1m³/s. How fast is the water level rising (v)?",
+    "options": [
+      "0.127m/s",
+      "0.0127m/s",
+      "1.27m/s",
+      "12.7m/s"
+    ],
+    "answer": 0,
+    "explanation": "Flow Rate Q = Area A * Speed v. \nThe area of the tank is A = πr² = π(0.5m)² = 0.25π m².\n Speed v = Q/A =\n 0.1m³/s / (0.25π m²) ≈ \n0.127m/s."
+  },
+  {
+    "question": "Which type of flow is characterized by the formation of **eddies** and rapid, irregular mixing of fluid layers?",
+    "options": [
+      "Laminar flow",
+      "Streamline flow",
+      "Turbulent flow",
+      "Ideal flow"
+    ],
+    "answer": 2,
+    "explanation": "Turbulent flow is characterized by chaotic changes in pressure and flow velocity. \nIt includes swirling regions known as eddies or vortices, which cause mixing."
+  },
+  {
+    "question": "In a hydraulic press, the ratio of the force output to the force input is determined by the:",
+    "options": [
+      "Density of the fluid.",
+      "Viscosity of the fluid.",
+      "Ratio of the areas of the two pistons.",
+      "Volume of the fluid in the system."
+    ],
+    "answer": 2,
+    "explanation": "The force multiplication factor, or mechanical advantage, in a hydraulic system is the ratio of the output area to the input area (F_out/F_in = A_out/A_in)."
+  },
+
+
+  {
+    "question": "An object has a weight of 100N and a volume of 0.02m³. If it is submerged in water (density 1000kg/m³, g = 10m/s²), will it sink or float?",
+    "options": [
+      "Float (Buoyant Force > Weight)",
+      "Sink (Buoyant Force < Weight)",
+      "Be suspended (Buoyant Force = Weight)",
+      "Cannot be determined without knowing the object's density."
+    ],
+    "answer": 1,
+    "explanation": "Buoyant Force F_b = ρ_fluid * V_displaced * g. \nF_b = 1000kg/m³ * 0.02m³ * 10m/s² = 200N.\n Since the object's Weight (100N) is less than the Buoyant Force (200N), the object will float."
+  },
+  {
+    "question": "The pressure head in Bernoulli's equation refers to the term:",
+    "options": [
+      "ρgh",
+      "v²/2g",
+      "P/ρg",
+      "P/ρ"
+    ],
+    "answer": 2,
+    "explanation": "When Bernoulli's equation is divided by ρg, it yields terms with units of length (head).\n\n P/ρg is the pressure head, v²/2g is the velocity head, and h is the elevation head."
+  },
+  {
+    "question": "The maximum stress a container material can withstand before failing under tension is called:",
+    "options": [
+      "Compressive strength",
+      "Shear modulus",
+      "Bulk modulus",
+      "Tensile strength"
+    ],
+    "answer": 3,
+    "explanation": "Tensile strength is the resistance of a material to breaking under tension (pulling/stretching force).\n\n It is a critical factor when designing containers for high-pressure fluids."
+  },
+  {
+    "question": "The force per unit area tangential to the surface of a fluid element that resists relative motion between adjacent layers is called:",
+    "options": [
+      "Normal stress",
+      "Shear stress",
+      "Pressure",
+      "Tension"
+    ],
+    "answer": 1,
+    "explanation": "Shear stress is the component of stress coplanar with a material's cross-section. In fluids, it is the force that resists flow and is proportional to the viscosity and velocity gradient."
+  },
+
+
+  {
+    "question": "A liquid is flowing in a horizontal pipe. At a certain point, the diameter is halved. What happens to the flow speed at that point?",
+    "options": [
+      "It is doubled.",
+      "It is quadrupled.",
+      "It is reduced by a factor of four.",
+      "It is halved."
+    ],
+    "answer": 1,
+    "explanation": "From the Continuity Equation, A₁v₁ = A₂v₂. \nArea A = π(d/2)².\n If the diameter (d) is halved, the area (A) is reduced by a factor of 4.\n Therefore, the speed (v) must be multiplied by a factor of 4."
+  },
+  {
+    "question": "The absolute pressure in a tire gauge reads 300,000 Pa. If atmospheric pressure is 100,000 Pa, what is the **gauge pressure**?",
+    "options": [
+      "400,000 Pa",
+      "300,000 Pa",
+      "200,000 Pa",
+      "100,000 Pa"
+    ],
+    "answer": 2,
+    "explanation": "Gauge Pressure = Absolute Pressure - Atmospheric Pressure.\n\n P_gauge = 300,000 Pa - 100,000 Pa =\n 200,000 Pa."
+  },
+
+
+
+
+  {
+    "question": "In a liquid, if the atmospheric pressure above the surface increases, the pressure at a depth (h) below the surface:",
+    "options": [
+      "Decreases.",
+      "Remains the same.",
+      "Increases by the same amount.",
+      "Increases by a smaller amount."
+    ],
+    "answer": 2,
+    "explanation": "Absolute pressure P = P_atm + ρgh. \n\nIf P_atm increases by an amount ΔP, the pressure P at depth h will also increase by the same amount ΔP, as the gauge pressure (ρgh) remains unchanged."
+  },
+  {
+    "question": "The main component of the total energy per unit volume of a moving fluid that relates to its motion is the:",
+    "options": [
+      "Potential energy head (ρgh)",
+      "Pressure energy head (P)",
+      "Kinetic energy head (1/2ρv²)",
+      "Thermal energy"
+    ],
+    "answer": 2,
+    "explanation": "Bernoulli's equation P + ρgh + 1/2ρv² = constant. \n\nThe term 1/2ρv² represents the kinetic energy per unit volume, which is directly dependent on the fluid's speed (v)."
+  },
+  {
+    "question": "What happens to the buoyant force on a submerged object as the object is lowered deeper into the fluid?",
+    "options": [
+      "It increases linearly.",
+      "It decreases linearly.",
+      "It remains constant.",
+      "It first increases then decreases."
+    ],
+    "answer": 2,
+    "explanation": "For a fully submerged object, the buoyant force (F_b = ρ_fluid * V_object * g) depends only on the fluid density, the object's volume, and gravity.\n\n Since these remain constant, the buoyant force remains constant regardless of the depth."
+  },
+  {
+    "question": "If a fluid is determined to be incompressible, what does this imply about its density?",
+    "options": [
+      "Density is zero.",
+      "Density changes with pressure.",
+      "Density is independent of pressure.",
+      "Density is dependent on temperature only."
+    ],
+    "answer": 2,
+    "explanation": "An incompressible fluid is one whose volume and, therefore, density do not change when the pressure acting on it changes.\n\n Liquids are generally treated as incompressible fluids."
+  },
+
+
+  {
+    "question": "Which one of the following is a unit of mass flow rate?",
+    "options": [
+      "kg/s",
+      "m³/s",
+      "N/s",
+      "Pa·s"
+    ],
+    "answer": 0,
+    "explanation": "Mass flow rate is the mass of fluid flowing through a section per unit time. Its unit is kg/s. m³/s is the unit for volume flow rate."
+  },
+
+  {
+    "question": "If the gauge pressure at a certain depth in water is P, the gauge pressure at the same depth in a liquid that is half as dense will be:",
+    "options": [
+      "4P",
+      "2P",
+      "P",
+      "P/2"
+    ],
+    "answer": 3,
+    "explanation": "Gauge pressure P_g = ρgh. \n\nSince P_g is directly proportional to density ρ, if the density is halved, the gauge pressure will be P/2."
+  },
+
+  {
+    "question": "In the study of fluid mechanics, the term dynamic pressure in Bernoulli's equation refers to:",
+    "options": [
+      "P",
+      "ρgh",
+      "1/2ρv²",
+      "P + ρgh"
+    ],
+    "answer": 2,
+    "explanation": "The term 1/2ρv² is called the dynamic pressure.\n\n It is related to the kinetic energy of the fluid motion."
+  },
+  {
+    "question": "A fluid flow is considered unsteady if:",
+    "options": [
+      "The flow is non-viscous.",
+      "The flow is incompressible.",
+      "The velocity at a given point changes with time.",
+      "The fluid is moving."
+    ],
+    "answer": 2,
+    "explanation": "Unsteady flow is when the velocity, pressure, and density at any point in the flow field change with respect to time."
+  },
+  {
+    "question": "Which of the following describes the relationship between absolute pressure (P_abs) and gauge pressure (P_gauge)?",
+    "options": [
+      "P_abs = P_gauge - P_atm",
+      "P_gauge = P_abs + P_atm",
+      "P_abs = P_gauge + P_atm",
+      "P_abs = P_gauge / P_atm"
+    ],
+    "answer": 2,
+    "explanation": "Absolute pressure is the total pressure relative to a perfect vacuum, and it is the sum of the gauge pressure (pressure above atmospheric) and the atmospheric pressure (P_atm)."
+  },
+
+
+  {
+    "question": "What is the unit of volume flow rate (Q) in SI units?",
+    "options": [
+      "m/s",
+      "m²",
+      "m³/s",
+      "kg·m/s"
+    ],
+    "answer": 2,
+    "explanation": "Volume flow rate is the volume of fluid passing a point per unit time. \nIts unit is m³/s."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The concept of terminal velocity in a fluid is achieved when the fluid's viscous drag force is balanced by:",
+    "options": [
+      "The gravitational force only.",
+      "The sum of gravitational force and buoyant force.",
+      "The difference between gravitational force and buoyant force.",
+      "The fluid's pressure."
+    ],
+    "answer": 2,
+    "explanation": "For an object falling in a fluid, terminal velocity is reached when the net force is zero: F\n_net = F_gravity - F_buoyant - F_drag = 0.\n So, F_drag = F_gravity - F_buoyant."
+  },
+  {
+    "question": "A manometer measures the pressure of a gas in a container. The gauge pressure is 5000 Pa. If the atmospheric pressure is 100,000 Pa, what is the gas's absolute pressure?",
+    "options": [
+      "95,000 Pa",
+      "100,000 Pa",
+      "105,000 Pa",
+      "500,000 Pa"
+    ],
+    "answer": 2,
+    "explanation": "Absolute Pressure = Gauge Pressure + Atmospheric Pressure.\n P_abs = 5000 Pa + 100,000 Pa \n= 105,000 Pa."
+  },
+
+
+  {
+    "question": "Which of the following is an example of laminar flow?",
+    "options": [
+      "Smoke rising from a fire.",
+      "Water rushing over a waterfall.",
+      "Blood flowing in a small capillary.",
+      "Rapids in a river."
+    ],
+    "answer": 2,
+    "explanation": "Laminar flow is smooth and orderly.\n Blood flow in narrow capillaries is typically laminar. \nThe other options describe turbulent or highly complex flows."
+  },
+
+  {
+    "question": "If an object is placed in a fluid and remains suspended (neither sinking nor floating), its specific gravity is:",
+    "options": [
+      "Less than 1.",
+      "Greater than 1.",
+      "Equal to the specific gravity of the fluid.",
+      "Dependent on the object's shape."
+    ],
+    "answer": 2,
+    "explanation": "Specific gravity is the ratio of a substance's density to the density of a reference fluid (usually water). \n\nIf an object is suspended, its density equals the fluid's density, so their specific gravities are equal."
+  },
+  {
+    "question": "A liquid is flowing in a wide pipe. It then flows into a section where the radius is reduced by a factor of 3. How many times greater is the new flow speed?",
+    "options": [
+      "3 times",
+      "6 times",
+      "9 times",
+      "27 times"
+    ],
+    "answer": 2,
+    "explanation": "Area is proportional to r².\n If r is reduced by 3, Area A is reduced by 3² = 9. \n\nFrom A₁v₁ = A₂v₂, the speed v must be multiplied by 9."
+  },
+  {
+    "question": "Which of the following is a dimensionally correct expression for **pressure energy** per unit volume in a fluid?",
+    "options": [
+      "ρgh",
+      "1/2ρv²",
+      "P",
+      "P/ρ"
+    ],
+    "answer": 2,
+    "explanation": "The three terms in Bernoulli's equation (P + ρgh + 1/2ρv² = constant) are all dimensionally equivalent to energy per unit volume (J/m³), or pressure (N/m² = Pa).\n\n The term P is often referred to as the pressure energy per unit volume."
+  },
+  {
+    "question": "The weight of a solid object is 10N. When fully submerged in water, its apparent weight is 6N. What is the density of the solid relative to water (Specific Gravity)?",
+    "options": [
+      "1.5",
+      "2.0",
+      "2.5",
+      "4.0"
+    ],
+    "answer": 2,
+    "explanation": "Buoyant force F_b = 10N - 6N = 4N.\n\n Specific Gravity = (Weight in Air) / (Buoyant Force) =\n 10N / 4N = 2.5. \nThis means the object is 2.5 times denser than water."
+  },
+
+
+  {
+    "question": "For a fluid in steady flow, the streamlines:",
+    "options": [
+      "May cross each other.",
+      "Indicate the path of a particle in the fluid.",
+      "Are always perpendicular to the fluid's velocity.",
+      "Only exist in turbulent flow."
+    ],
+    "answer": 1,
+    "explanation": "In steady flow, streamlines do not cross each other, and they indicate the path that a small element of the fluid will follow.\n\n The tangent to a streamline at any point gives the direction of the fluid's velocity at that point."
+  },
+  {
+    "question": "The increase in fluid pressure with depth is independent of:",
+    "options": [
+      "The density of the fluid.",
+      "The acceleration due to gravity (g).",
+      "The shape and size of the container.",
+      "The depth itself (h)."
+    ],
+    "answer": 2,
+    "explanation": "The gauge pressure (ρgh) depends only on density, gravity, and depth, not on the overall shape or volume of the containing vessel (provided the liquid is continuous)."
+  },
+  {
+    "question": "Which of the following describes the behavior of a bubble of air released at the bottom of a deep lake?",
+    "options": [
+      "Its volume decreases as it rises.",
+      "Its volume remains constant.",
+      "Its volume increases as it rises.",
+      "Its volume change depends on the water temperature."
+    ],
+    "answer": 2,
+    "explanation": "As the bubble rises, the surrounding water pressure (P = P_atm + ρgh) decreases because the depth (h) decreases.\n\n According to Boyle's law (P ∝ 1/V), the volume of the bubble increases as the pressure decreases."
+  },
+  {
+    "question": "The concept of Pressure is best described as a measure of:",
+    "options": [
+      "The total force exerted by a fluid.",
+      "The weight of the fluid column.",
+      "The concentration of force per unit area.",
+      "The density of the fluid."
+    ],
+    "answer": 2,
+    "explanation": "Pressure is fundamentally defined as the magnitude of the normal force (F) exerted by a fluid divided by the area (A) over which the force is distributed (P = F/A)."
+  },
+
+
+
+
+  {
+    "question": "The ratio of an object's weight in air to the buoyant force it experiences when submerged in a liquid is equal to the object's:",
+    "options": [
+      "Density.",
+      "Volume.",
+      "Specific weight.",
+      "Specific gravity (relative to the liquid)."
+    ],
+    "answer": 3,
+    "explanation": "Specific Gravity (SG) = ρ_object / ρ_liquid.\n SG = (W_air / (V * g)) / (F_b / (V * g)) \n= W_air / F_b.\n\n The ratio of the object's weight in air to the buoyant force is its specific gravity relative to the liquid."
+  },
+
+
+  {
+    "question": "A liquid is described as having a large surface tension. This means:",
+    "options": [
+      "It has low viscosity.",
+      "Its adhesive forces are stronger than its cohesive forces.",
+      "It requires a large force to break its surface film.",
+      "It easily wets a surface."
+    ],
+    "answer": 2,
+    "explanation": "Surface tension is a measure of the energy required to increase the surface area of a liquid, or the force per unit length needed to break the surface film.\n\n A large surface tension means the surface film is difficult to break."
+  },
+
+  {
+    "question": "A diver descends to a depth of 50m in seawater. If the atmospheric pressure is 100,000 Pa, and the gauge pressure at 50m is 500,000 Pa, what is the absolute pressure on the diver?",
+    "options": [
+      "100,000 Pa",
+      "400,000 Pa",
+      "500,000 Pa",
+      "600,000 Pa"
+    ],
+    "answer": 3,
+    "explanation": "Absolute Pressure = Gauge Pressure + Atmospheric Pressure.\n P_abs = 500,000 Pa + 100,000 Pa =\n 600,000 Pa."
+  },
+  {
+    "question": "If the density of a fluid is 800 kg/m³, and the acceleration due to gravity is 10 m/s², what is the **specific weight** of the fluid?",
+    "options": [
+      "800 N/m³",
+      "8000 N/m³",
+      "80 N/m²",
+      "8 N/m³"
+    ],
+    "answer": 1,
+    "explanation": "Specific weight (γ) is the weight per unit volume, which is γ = ρg.\n γ = 800 kg/m³ * 10 m/s² = \n8000 N/m³."
+  },
+  {
+    "question": "When a hot air balloon is floating at a constant altitude, the net vertical force on the balloon is:",
+    "options": [
+      "Equal to the gravitational force.",
+      "Equal to the buoyant force.",
+      "Zero.",
+      "Dependent on the wind speed."
+    ],
+    "answer": 2,
+    "explanation": "Since the balloon is floating at a constant altitude, it is in equilibrium (constant velocity, zero acceleration). \nTherefore, the net force acting on it is zero. \nThe buoyant force equals the total weight."
+  },
+
+
+  {
+    "question": "The tendency of two different molecules (e.g., water-glass) to attract each other is called:",
+    "options": [
+      "Cohesion",
+      "Adhesion",
+      "Tension",
+      "Viscosity"
+    ],
+    "answer": 1,
+    "explanation": "Adhesion is the attractive force between unlike molecules.\n\n This is why water sticks to glass, leading to a concave meniscus."
+  },
+  {
+    "question": "If the velocity head (v²/2g) of a fluid in a pipe is 5m, what is the speed of the fluid (g = 10 m/s²)?",
+    "options": [
+      "5 m/s",
+      "10 m/s",
+      "√5 m/s",
+      "2√5 m/s"
+    ],
+    "answer": 1,
+    "explanation": "Velocity head = v²/2g. \n5m = v² / (2 * 10 m/s²). \nv² = 5 * 20 = 100 m²/s².\n v = 10 m/s."
+  },
+
+
+
+
+  {
+    "question": "Which of the following describes the relationship between Specific Gravity and Density?",
+    "options": [
+      "Specific gravity is always greater than density.",
+      "Specific gravity is the product of density and gravity.",
+      "Specific gravity is the ratio of a substance's density to a reference density.",
+      "Specific gravity is the ratio of an object's volume to its mass."
+    ],
+    "answer": 2,
+    "explanation": "Specific gravity (or relative density) is a dimensionless quantity, which is the ratio of the density of a substance to the density of a standard substance (e.g., water at 4°C)."
+  },
+  {
+    "question": "In the process of flotation, the weight of the object is equal to:",
+    "options": [
+      "The weight of the object's submerged volume.",
+      "The weight of the fluid it displaces.",
+      "The weight of the entire fluid container.",
+      "The pressure at the base of the object."
+    ],
+    "answer": 1,
+    "explanation": "According to Archimedes' Principle, for an object to float (be in equilibrium), the buoyant force must equal the object's weight.\n\n The buoyant force is the weight of the fluid displaced."
+  },
+  {
+    "question": "The equation P + ρgh + 1/2ρv² = constant is mathematically derived by applying the principle of:",
+    "options": [
+      "Conservation of mass.",
+      "Conservation of momentum.",
+      "Conservation of energy.",
+      "Conservation of charge."
+    ],
+    "answer": 2,
+    "explanation": "Bernoulli's equation is essentially a statement of the conservation of mechanical energy (work-energy theorem) applied to an ideal fluid element flowing along a streamline."
+  },
+  {
+    "question": "If a solid block weighs 10N in air and 8N in a fluid, what is the weight of the fluid displaced?",
+    "options": [
+      "2N",
+      "8N",
+      "10N",
+      "18N"
+    ],
+    "answer": 0,
+    "explanation": "The weight of the fluid displaced is equal to the buoyant force (Archimedes' Principle).\n\n Buoyant Force = Weight in Air - Apparent Weight =\n 10N - 8N = \n2N."
+  },
+
+
+
+  {
+    "question": "The principle of flotation requires that the density of the floating object must be:",
+    "options": [
+      "Equal to the fluid density.",
+      "Greater than the fluid density.",
+      "Less than the fluid density.",
+      "Independent of the fluid density."
+    ],
+    "answer": 2,
+    "explanation": "An object floats when the buoyant force is equal to its weight, which occurs only if the object's average density is less than the fluid's density (allowing it to displace a volume of fluid equal to its weight before being fully submerged)."
+  },
+
+  {
+    "question": "A liquid flows through a pipe. If the viscous drag force increases, what happens to the velocity gradient across the flow?",
+    "options": [
+      "It decreases.",
+      "It remains the same.",
+      "It increases.",
+      "It depends on the fluid density."
+    ],
+    "answer": 2,
+    "explanation": "Viscous drag (shear stress) is proportional to the product of viscosity and the velocity gradient (rate of change of velocity with distance).\n\n If the viscous drag force increases (and assuming viscosity is constant), the velocity gradient must increase."
+  },
+  {
+    "question": "The total energy head (P/ρg + h + v²/2g) in Bernoulli's equation represents:",
+    "options": [
+      "The total force in the fluid.",
+      "The total mechanical energy per unit weight.",
+      "The mass flow rate.",
+      "The absolute pressure."
+    ],
+    "answer": 1,
+    "explanation": "Dividing Bernoulli's equation by ρg converts all terms into units of length (head). \n\nThe sum of these terms is the total head, which represents the total mechanical energy per unit weight of the fluid."
+  },
+
+
+
+  {
+    "question": "The manometer is a device used to measure:",
+    "options": [
+      "Fluid flow rate.",
+      "Fluid density.",
+      "Pressure difference.",
+      "Fluid viscosity."
+    ],
+    "answer": 2,
+    "explanation": "A manometer, typically a U-tube containing a liquid, measures the difference in pressure between two points (or between a point and the atmosphere)."
+  },
+
+  {
+    "question": "What is the total force exerted on a square window (side length 0.5m) by a water pressure of 100,000 Pa?",
+    "options": [
+      "25,000 N",
+      "50,000 N",
+      "100,000 N",
+      "200,000 N"
+    ],
+    "answer": 0,
+    "explanation": "Force F = Pressure P * Area A.\n Area A = 0.5m * 0.5m = 0.25m².\n F = 100,000 Pa * 0.25m² = \n25,000 N."
+  },
+
+  {
+    "question": "The continuity equation for an incompressible fluid does not apply to a flow where:",
+    "options": [
+      "The pipe is horizontal.",
+      "The fluid is water.",
+      "Fluid leaks out through the pipe walls.",
+      "The flow is steady."
+    ],
+    "answer": 2,
+    "explanation": "The continuity equation assumes that the mass flow rate is constant throughout the pipe. \n\nIf fluid leaks out, mass is lost from the control volume, and the equation A₁v₁ = A₂v₂ is no longer valid."
+  },
+
+
+
+
+
+
+
+  {
+    "question": "If two objects of the same mass but different volumes are fully submerged in water, which statement is correct?",
+    "options": [
+      "The denser object has the larger buoyant force.",
+      "They have the same buoyant force.",
+      "The object with the larger volume has the larger buoyant force.",
+      "The object with the smaller volume sinks faster."
+    ],
+    "answer": 2,
+    "explanation": "Buoyant force (F_b) depends on the volume of displaced fluid (F_b = ρ_fluid * V_displaced * g). \n\nSince both are fully submerged, the object with the larger volume will displace more fluid and experience the larger buoyant force."
+  },
+
+  {
+    "question": "Which of the following is a non-SI unit commonly used for pressure?",
+    "options": [
+      "Joule (J)",
+      "Newton (N)",
+      "Atmosphere (atm)",
+      "Kilogram (kg)"
+    ],
+    "answer": 2,
+    "explanation": "The Atmosphere (atm) is a common non-SI unit for pressure, defined as the average atmospheric pressure at sea level. 1 atm ≈ 101,325 Pa."
+  },
+  {
+    "question": "The Continuity Equation can be written as A₁v₁ = A₂v₂ only if the fluid is assumed to be:",
+    "options": [
+      "Viscous.",
+      "Compressible.",
+      "Non-viscous.",
+      "Incompressible."
+    ],
+    "answer": 3,
+    "explanation": "The equation A₁v₁ = A₂v₂ (Volume Flow Rate is constant) is a simplification of the mass continuity equation (ρ₁A₁v₁ = ρ₂A₂v₂).\n\n It requires the density to be constant (ρ₁ = ρ₂), meaning the fluid must be incompressible."
+  },
+
+
+  {
+    "question": "The difference between the pressure at the bottom of a lake and the atmospheric pressure is called the:",
+    "options": [
+      "Absolute pressure.",
+      "Vapor pressure.",
+      "Gauge pressure.",
+      "Hydrostatic pressure."
+    ],
+    "answer": 2,
+    "explanation": "Gauge pressure is defined as the absolute pressure minus the atmospheric pressure. \n\nAt the bottom of a lake, P_gauge = P_absolute - P_atm = ρgh."
+  },
+
+
+
+
+
+
+  {
+    "question": "What is the pressure due to a column of water 1m high (Density = 1000kg/m³, g = 10m/s²)?",
+    "options": [
+      "100 Pa",
+      "1000 Pa",
+      "10,000 Pa",
+      "100,000 Pa"
+    ],
+    "answer": 2,
+    "explanation": "Pressure P = ρgh.\n P = (1000 kg/m³) * (10 m/s²) * (1 m) = \n10,000 Pa."
+  },
+  {
+    "question": "Which one of the following is NOT an assumption of the ideal fluid model for Bernoulli's equation?",
+    "options": [
+      "The flow is steady.",
+      "The fluid is viscous.",
+      "The fluid is incompressible.",
+      "The fluid is non-viscous."
+    ],
+    "answer": 1,
+    "explanation": "The ideal fluid model assumes the fluid is non-viscous (no internal friction).\n\n Viscosity is a property of a real, non-ideal fluid."
+  },
+
+
+  {
+    "question": "If a capillary tube is immersed in water and then replaced by a tube of half the diameter, the height of the water rise will:",
+    "options": [
+      "Be halved.",
+      "Be doubled.",
+      "Be quadrupled.",
+      "Remain the same."
+    ],
+    "answer": 1,
+    "explanation": "Capillary rise (h) is inversely proportional to the radius (r) of the tube (h ∝ 1/r). \n\nHalving the diameter (and thus the radius) will double the height of the water rise."
+  },
+
+  {
+    "question": "In a liquid flow, the existence of a **velocity gradient** (change in velocity with distance) is a characteristic of:",
+    "options": [
+      "Non-viscous flow.",
+      "Incompressible flow.",
+      "Viscous flow.",
+      "Turbulent flow only."
+    ],
+    "answer": 2,
+    "explanation": "A velocity gradient is essential for shear stress and viscous effects to occur. \n\nViscosity is the constant of proportionality relating shear stress to the velocity gradient."
+  },
+
+
+  {
+    "question": "Which term in Bernoulli's equation is zero if the flow is through a horizontal pipe and the height difference is neglected?",
+    "options": [
+      "P",
+      "ρgh",
+      "1/2ρv²",
+      "P + 1/2ρv²"
+    ],
+    "answer": 1,
+    "explanation": "The term ρgh represents the gravitational potential energy per unit volume.\n\n If the pipe is horizontal, the change in height (h) is zero, and this term becomes a constant and can be neglected or canceled out in the equation."
+  },
+
+
+  {
+    "question": "The total force exerted on the bottom of a container by a fluid at rest depends on the fluid's:",
+    "options": [
+      "Volume, but not depth.",
+      "Depth and density, but not the container's shape.",
+      "Container's shape, but not depth.",
+      "Viscosity and temperature."
+    ],
+    "answer": 1,
+    "explanation": "The pressure at the bottom is P = P_atm + ρgh.\n The force F = P*A_bottom. \n\nThe gauge force (ρgh*A_bottom) depends on depth and density, not the shape of the container above the bottom surface."
+  },
+  {
+    "question": "A liquid flows at a constant speed of 2m/s in a pipe of radius 0.1m. What is the volume flow rate (Q)? (Use π ≈ 3.14)",
+    "options": [
+      "0.0628 m³/s",
+      "0.314 m³/s",
+      "0.00628 m³/s",
+      "0.628 m³/s"
+    ],
+    "answer": 0,
+    "explanation": "Volume Flow Rate Q = Av.\n Area A = πr² = 3.14 * (0.1m)² =\n 3.14 * 0.01 m² = 0.0314 m².\n Q = 0.0314 m² * 2 m/s = \n0.0628 m³/s."
+  },
+
+
+  {
+    "question": "In a horizontal pipe, the work done by pressure forces on a fluid element is converted into:",
+    "options": [
+      "Gravitational potential energy.",
+      "Thermal energy only.",
+      "Kinetic energy.",
+      "Mechanical work done by an external pump."
+    ],
+    "answer": 2,
+    "explanation": "In a horizontal pipe (constant height), the pressure term (P) and the kinetic energy term (1/2ρv²) are conserved (P + 1/2ρv² = constant).\n\n Thus, work done by pressure forces is directly converted into kinetic energy of the fluid motion."
+  },
+
+
+
+
+  {
+    "question": "The total volume of a fully submerged object is 1m³. The buoyant force on it in water (ρ=1000kg/m³, g=10m/s²) is:",
+    "options": [
+      "100 N",
+      "1000 N",
+      "10,000 N",
+      "100,000 N"
+    ],
+    "answer": 3,
+    "explanation": "Buoyant Force F_b = ρ_fluid * V_displaced * g.\n F_b = 1000 kg/m³ * 1 m³ * 10 m/s² =\n 10,000 N (or 10kN)."
+  },
+
+
+  {
+    "question": "A fluid moves from a small pipe to a larger pipe. The flow speed and pressure in the larger pipe:",
+    "options": [
+      "Speed increases, Pressure increases.",
+      "Speed decreases, Pressure decreases.",
+      "Speed increases, Pressure decreases.",
+      "Speed decreases, Pressure increases."
+    ],
+    "answer": 3,
+    "explanation": "Continuity (Av = constant) dictates that an increase in Area (A) causes a decrease in Speed (v).\n\n Bernoulli's principle (P + 1/2ρv² = constant for horizontal flow) dictates that a decrease in speed causes an increase in pressure (P)."
+  },
+
+  {
+    "question": "The total potential energy per unit volume of a fluid in Bernoulli's equation is the sum of:",
+    "options": [
+      "Pressure head and velocity head.",
+      "Pressure head and elevation head.",
+      "Static pressure (P) and gravitational potential energy (ρgh).",
+      "Dynamic pressure and static pressure."
+    ],
+    "answer": 2,
+    "explanation": "The two potential energy terms per unit volume in Bernoulli's equation are the static pressure (P, or flow work energy) and the gravitational potential energy per unit volume (ρgh, or elevation potential energy)."
+  },
+  {
+    "question": "For a fluid in a closed container, if the volume of the container is halved while the temperature remains constant, the pressure of a **gas** inside the container will:",
+    "options": [
+      "Be halved.",
+      "Remain the same.",
+      "Be doubled.",
+      "Be quadrupled."
+    ],
+    "answer": 2,
+    "explanation": "For an ideal gas at constant temperature, pressure is inversely proportional to volume (P ∝ 1/V, Boyle's Law).\n\n Halving the volume doubles the pressure."
+  },
+
+
+
+
+  {
+    "question": "The total upward force on an object submerged in a fluid is always due to the pressure difference between the top and bottom of the object. This is a restatement of:",
+    "options": [
+      "Pascal's Principle.",
+      "Bernoulli's Principle.",
+      "Archimedes' Principle (Buoyancy).",
+      "The Hydrostatic Paradox."
+    ],
+    "answer": 2,
+    "explanation": "The buoyant force arises because the pressure at the bottom of a submerged object is greater than the pressure at the top (P=P₀+ρgh), creating a net upward force.\n\n Archimedes' Principle states this net force is equal to the weight of the fluid displaced."
+  },
+
+
+
+
+  {
+    "question": "The Continuity Equation can be written in the most general form as:",
+    "options": [
+      "P + ρgh + 1/2ρv² = constant",
+      "F_buoyant = ρ_fluid * V_displaced * g",
+      "ρAv = constant",
+      "F/A = constant"
+    ],
+    "answer": 2,
+    "explanation": "The most general form of the continuity equation states that the mass flow rate (ρAv) is constant at all sections of a tube of flow, based on the conservation of mass.\n\n If the fluid is incompressible (ρ is constant), it simplifies to Av = constant."
+  },
+
+
+  {
+    "question": "A fluid flow is best described as turbulent when:",
+    "options": [
+      "Its speed is very low.",
+      "Its viscosity is very high.",
+      "The Reynolds number is high.",
+      "The streamlines are parallel."
+    ],
+    "answer": 2,
+    "explanation": "A high Reynolds number (Re) indicates that inertial forces dominate viscous forces, leading to chaotic, eddy-forming, turbulent flow."
+  },
+  {
+    "question": "If the pressure at the surface of a fluid-filled container is doubled, the gauge pressure at a depth (h) will:",
+    "options": [
+      "Be halved.",
+      "Remain the same.",
+      "Be doubled.",
+      "Be quadrupled."
+    ],
+    "answer": 1,
+    "explanation": "Gauge pressure is defined as P_gauge = P_absolute - P_atm.\n\n Doubling the surface pressure (which is P_atm) would change the absolute pressure everywhere, but the gauge pressure (pressure due to the fluid column, ρgh) remains the same."
+  },
+  {
+    "question": "A liquid flows through a pipe. If the viscous drag force increases, what happens to the velocity gradient across the flow?",
+    "options": [
+      "It decreases.",
+      "It remains the same.",
+      "It increases.",
+      "It depends on the fluid density."
+    ],
+    "answer": 2,
+    "explanation": "Viscous drag (shear stress) is proportional to the product of viscosity and the velocity gradient (rate of change of velocity with distance).\n\n If the viscous drag force increases (and assuming viscosity is constant), the velocity gradient must increase."
+  },
+  {
+    "question": "The total energy head (P/ρg + h + v²/2g) in Bernoulli's equation represents:",
+    "options": [
+      "The total force in the fluid.",
+      "The total mechanical energy per unit weight.",
+      "The mass flow rate.",
+      "The absolute pressure."
+    ],
+    "answer": 1,
+    "explanation": "Dividing Bernoulli's equation by ρg converts all terms into units of length (head). \n\nThe sum of these terms is the total head, which represents the total mechanical energy per unit weight of the fluid."
+  },
+
+
+  {
+    "question": "A fluid moves through a horizontal pipe. If the pressure decreases in one section, what must happen to the speed of the fluid in that section?",
+    "options": [
+      "It decreases.",
+      "It remains constant.",
+      "It increases.",
+      "It becomes turbulent."
+    ],
+    "answer": 2,
+    "explanation": "From Bernoulli's equation (P + 1/2ρv² = constant for horizontal flow), pressure (P) and speed (v) are inversely related. \n\nIf the pressure decreases, the speed must increase."
+  },
+
+  {
+    "question": "What happens to the level of water in a swimming pool when a large ship floats in it?",
+    "options": [
+      "The water level decreases.",
+      "The water level remains the same.",
+      "The water level increases.",
+      "It depends on the ship's material."
+    ],
+    "answer": 2,
+    "explanation": "According to Archimedes' Principle, the ship displaces a volume of water whose weight is equal to the ship's weight.\n\n This displaced water raises the water level in the pool."
+  },
+  {
+    "question": "The manometer is a device used to measure:",
+    "options": [
+      "Fluid flow rate.",
+      "Fluid density.",
+      "Pressure difference.",
+      "Fluid viscosity."
+    ],
+    "answer": 2,
+    "explanation": "A manometer, typically a U-tube containing a liquid, measures the difference in pressure between two points (or between a point and the atmosphere)."
+  },
+  {
+    "question": "A solid object weighs 50N in air and 30N when fully submerged in water. What is the magnitude of the buoyant force acting on the object?",
+    "options": [
+      "20N",
+      "30N",
+      "50N",
+      "80N"
+    ],
+    "answer": 0,
+    "explanation": "Buoyant Force (Fb) = Weight in Air (Wair) - Apparent Weight in Water (Wwater).\n F_b = 50N - 30N =\n 20N."
+  },
+
+  {
+    "question": "For a floating object, the buoyant force is:",
+    "options": [
+      "Greater than its weight.",
+      "Less than its weight.",
+      "Equal to its weight.",
+      "Dependent on the density of the object, not the fluid."
+    ],
+    "answer": 2,
+    "explanation": "An object that is floating (in equilibrium) must have a net force of zero. \n\nTherefore, the upward buoyant force must be exactly equal to the downward force of gravity (its weight)."
+  },
+  {
+    "question": "The rate of flow of a fluid through a pipe is constant. If the pipe narrows, how must the fluid's speed change to satisfy the **Equation of Continuity**?",
+    "options": [
+      "The speed must decrease.",
+      "The speed must remain constant.",
+      "The speed must increase.",
+      "The speed's change depends on the fluid's density."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The Equation of Continuity for an incompressible fluid is a direct consequence of the conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Mass",
+      "Volume"
+    ],
+    "answer": 2,
+    "explanation": "The Equation of Continuity (A₁v₁ = A₂v₂) for an incompressible fluid essentially states that the mass of fluid entering a section of pipe must equal the mass leaving the section in the same time, which is a statement of the conservation of mass."
+  }
+]

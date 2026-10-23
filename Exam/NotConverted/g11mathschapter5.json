@@ -1,0 +1,695 @@
+[
+
+
+
+
+
+
+
+  {
+    "question": "Which operation gives scalar quantity?",
+    "options": [ "Cross product", "Vector addition","Dot product", "Vector subtraction"],
+    "answer": 2,
+    "explanation": "Dot product results in a scalar."
+  },
+
+  {
+    "question": "Which operation gives a vector quantity?",
+    "options": ["Cross product", "Dot product", "Scalar multiplication", "Division"],
+    "answer": 0,
+    "explanation": "Cross product results in a vector."
+  },
+  {
+    "question": "Dot product formula is:",
+    "options": [ "a×b = |a||b|cosθ", "a·b = |a||b|sinθ", "a+b = |a||b|","a·b = |a||b|cosθ"],
+    "answer": 3,
+    "explanation": "Dot product uses cosine of angle."
+  },
+  {
+    "question": "Cross product formula is:",
+    "options": [ "a·b = |a||b|sinθ", "a×b = |a||b|cosθ","a×b = |a||b|sinθ", "a+b = sinθ"],
+    "answer": 2,
+    "explanation": "Cross product uses sine of angle."
+  },
+  {
+    "question": "If two vectors are perpendicular, dot product is:",
+    "options": [ "1", "Negative","0", "Infinity"],
+    "answer": 2,
+    "explanation": "cos90° = 0."
+  },
+  {
+    "question": "If two vectors are parallel, cross product is:",
+    "options": ["0", "1", "Maximum", "Negative"],
+    "answer": 0,
+    "explanation": "sin0° = 0."
+  },
+
+  {
+    "question": "Magnitude of vector (i + j) is:",
+    "options": [ "1","√2", "2", "0"],
+    "answer": 1,
+    "explanation": "√(1²+1²)=√2."
+  },
+  {
+    "question": "Unit vector in direction of a is:",
+    "options": ["a/|a|", "|a|a", "a²", "1/a"],
+    "answer": 0,
+    "explanation": "Divide vector by its magnitude."
+  },
+
+
+  {
+    "question": "Direction of cross product is given by:",
+    "options": [ "Left-hand rule", "Clock rule","Right-hand rule", "Random"],
+    "answer": 2,
+    "explanation": "Right-hand rule determines direction."
+  },
+
+  {
+    "question": "If a = (1,0,0), b = (0,1,0), a×b is:",
+    "options": [ "(1,1,0)", "(0,1,1)", "(1,0,1)","(0,0,1)"],
+    "answer": 3,
+    "explanation": "i × j = k."
+  },
+  {
+    "question": "i · i equals:",
+    "options": [ "0","1", "-1", "i"],
+    "answer": 1,
+    "explanation": "Magnitude of unit vector is 1."
+  },
+  {
+    "question": "i × i equals:",
+    "options": [ "1", "i", "-1","0"],
+    "answer": 3,
+    "explanation": "Cross product of same vector is zero."
+  },
+  {
+    "question": "Work done is an example of:",
+    "options": ["Dot product", "Cross product", "Vector sum", "None"],
+    "answer": 0,
+    "explanation": "Work = force · displacement."
+  },
+
+
+  {
+    "question": "If a·b = |a||b|, angle between them is:",
+    "options": ["0°", "90°", "180°", "45°"],
+    "answer": 0,
+    "explanation": "Maximum dot product occurs at 0°."
+  },
+  {
+    "question": "If a·b = -|a||b|, angle is:",
+    "options": [ "0°", "90°","180°", "45°"],
+    "answer": 2,
+    "explanation": "Vectors are opposite direction."
+  },
+  {
+    "question": "Magnitude of cross product is zero when vectors are:",
+    "options": [ "Perpendicular", "Equal", "Opposite","Parallel"],
+    "answer": 3,
+    "explanation": "sin0° = 0."
+  },
+
+
+
+
+
+
+
+  {
+    "question": "If a = (2,3), b = (4,1), dot product is:",
+    "options": [ "10", "11","12", "9"],
+    "answer": 1,
+    "explanation": "2×4 + 3×1 = 8 + 3 = 11."
+  },
+  {
+    "question": "If a = (1,2,3), magnitude is:",
+    "options": [ "√6", "6", "√14","14"],
+    "answer": 2,
+    "explanation": "√(1+4+9)=√14."
+  },
+  {
+    "question": "Two vectors are orthogonal when:",
+    "options": ["Dot product is zero", "Cross product is zero", "Same direction", "Same magnitude"],
+    "answer": 0,
+    "explanation": "Orthogonal means perpendicular."
+  },
+  {
+    "question": "Cross product is maximum when angle is:",
+    "options": ["90°", "0°", "180°", "45°"],
+    "answer": 0,
+    "explanation": "sinθ is maximum at 90°."
+  },
+  {
+    "question": "Dot product is maximum when angle is:",
+    "options": [ "90°", "180°", "0°","45°"],
+    "answer": 2,
+    "explanation": "cosθ is maximum at 0°."
+  },
+  {
+    "question": "A vector with magnitude 1 is called:",
+    "options": [ "Zero vector","Unit vector", "Position vector", "Null vector"],
+    "answer": 1,
+    "explanation": "Unit vector has magnitude 1."
+  },
+
+    {
+      "question": "A particle moves from point A(1,2,3) to B(4,6,8). What is its displacement vector?",
+      "options": [ "(5,4,3)", "(3,5,4)", "(4,3,5)","(3,4,5)"],
+      "answer": 3,
+      "explanation": "Displacement = B - A = \n(4-1, 6-2, 8-3) = \n(3,4,5)."
+    },
+    {
+      "question": "Find the magnitude of vector a = (2, -3, 6).",
+      "options": [ "5", "7","6", "11"],
+      "answer": 1,
+      "explanation": "√(4 + 9 + 36) = √49 = 7."
+    },
+    {
+      "question": "If a = (1,2,3) and b = (2,1,0), compute a · b.",
+      "options": [ "6", "5", "3","4"],
+      "answer": 3,
+      "explanation": "1×2 + 2×1 + 3×0 = 4."
+    },
+    {
+      "question": "If vectors a and b are perpendicular, what is a · b?",
+      "options": [ "1", "Maximum","0", "Negative"],
+      "answer": 1,
+      "explanation": "Dot product is zero for perpendicular vectors."
+    },
+    {
+      "question": "Find angle between vectors a and b if a · b = |a||b|.",
+      "options": [ "90°", "180°","0°", "45°"],
+      "answer": 2,
+      "explanation": "cosθ = 1 implies θ = 0°."
+    },
+
+    {
+      "question": "If a · b = -|a||b|, the vectors are:",
+      "options": [ "Perpendicular", "Same direction", "Random","Opposite directions"],
+      "answer": 3,
+      "explanation": "cosθ = -1 implies θ = 180°."
+    },
+    {
+      "question": "Find a × b if a = i and b = j.",
+      "options": [ "-k", "0","k", "i+j"],
+      "answer": 2,
+      "explanation": "i × j = k."
+    },
+    {
+      "question": "Find i × k.",
+      "options": ["-j", "j", "i", "0"],
+      "answer": 0,
+      "explanation": "Right-hand rule gives i × k = -j."
+    },
+    {
+      "question": "If a × b = 0, then vectors are:",
+      "options": ["Parallel", "Perpendicular", "Equal magnitude", "Orthogonal always"],
+      "answer": 0,
+      "explanation": "Cross product zero means parallel vectors."
+    },
+    {
+      "question": "Area of parallelogram formed by vectors a and b is:",
+      "options": ["|a × b|", "a · b", "|a + b|", "|a - b|"],
+      "answer": 0,
+      "explanation": "Magnitude of cross product gives area."
+    },
+
+    {
+      "question": "If a = (1,0,0), b = (0,2,0), a × b is:",
+      "options": [ "(0,2,0)", "(2,0,0)","(0,0,2)", "(1,1,0)"],
+      "answer": 2,
+      "explanation": "i × 2j = 2k."
+    },
+    {
+      "question": "If vectors are parallel, their cross product is:",
+      "options": [ "1", "Maximum", "Negative","0"],
+      "answer": 3,
+      "explanation": "sin0° = 0."
+    },
+    {
+      "question": "If vectors are perpendicular, dot product is:",
+      "options": [ "1","0", "Maximum", "Negative"],
+      "answer": 1,
+      "explanation": "cos90° = 0."
+    },
+    {
+      "question": "Find projection of a on b is given by:",
+      "options": ["(a·b)/|b|", "(a×b)/|b|", "|a||b|", "a+b"],
+      "answer": 0,
+      "explanation": "Scalar projection formula."
+    },
+    {
+      "question": "Vector projection of a on b is:",
+      "options": ["(a·b/|b|²)b", "a·b", "a×b", "a+b"],
+      "answer": 0,
+      "explanation": "Standard projection formula."
+    },
+
+
+
+      {
+        "question": "If a · b = 0 and a × b = 0, then:",
+        "options": [ "Both are unit vectors", "They are perpendicular","At least one vector is zero", "They are parallel"],
+        "answer": 2,
+        "explanation": "Only possible if one is zero vector."
+      },
+
+
+      {
+        "question": "If a = (2,2,2), b = (1,1,1), then a × b is:",
+        "options": [ "Unit vector", "Non-zero", "i+j+k","Zero vector"],
+        "answer": 3,
+        "explanation": "They are parallel."
+      },
+      {
+        "question": "If magnitude of cross product is zero, vectors are:",
+        "options": [ "Perpendicular", "Equal","Parallel", "Unit"],
+        "answer": 2,
+        "explanation": "Parallel vectors."
+      },
+      {
+        "question": "The dot product measures:",
+        "options": ["Projection", "Area", "Volume", "Direction only"],
+        "answer": 0,
+        "explanation": "Measures how much one vector aligns with another."
+      },
+      {
+        "question": "Cross product measures:",
+        "options": [ "Scalar projection","Perpendicular area effect", "Magnitude only", "Distance"],
+        "answer": 1,
+        "explanation": "Represents area + perpendicular direction."
+      },
+      {
+        "question": "If a = (0,0,1), b = (1,0,0), a × b equals:",
+        "options": [ "(1,1,0)", "(0,0,0)", "(1,0,1)","(0,1,0)"],
+        "answer": 3,
+        "explanation": "k × i = j."
+      },
+
+      {
+        "question": "If unit vectors i, j, k form right-hand system, i × j × k equals:",
+        "options": ["Scalar triple product = 1", "0", "-1", "i"],
+        "answer": 0,
+        "explanation": "i·(j×k)=1."
+      },
+      {
+        "question": "If a = (1,0,0), b = (1,1,0), angle between them is:",
+        "options": ["45°", "90°", "0°", "60°"],
+        "answer": 0,
+        "explanation": "cosθ = 1/√2 ⇒ 45°."
+      },
+      {
+        "question": "If vectors are identical, dot product equals:",
+        "options": [ "0","|a|²", "1", "-1"],
+        "answer": 1,
+        "explanation": "a·a = |a|²."
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "question": "If vectors are opposite, dot product equals:",
+        "options": ["- |a||b|", "0", "+|a||b|", "1"],
+        "answer": 0,
+        "explanation": "cos180° = -1."
+      },
+      {
+        "question": "If a = (x,y,z), a · a represents:",
+        "options": [ "Direction", "Angle","Magnitude squared", "Area"],
+        "answer": 2,
+        "explanation": "Sum of squares gives |a|²."
+      },
+
+      {
+        "question": "If a × b = 0 and both non-zero, then:",
+        "options": ["Vectors are collinear", "Perpendicular", "Orthogonal", "Random"],
+        "answer": 0,
+        "explanation": "They lie on same line."
+      },
+      {
+        "question": "If projection of a on b equals a, then:",
+        "options": [ "Perpendicular","Vectors are parallel", "Opposite", "Zero"],
+        "answer": 1,
+        "explanation": "a lies fully along b."
+      },
+      {
+        "question": "If vectors form triangle, resultant depends on:",
+        "options": [ "Only magnitude", "Only direction", "Origin","Angle between them"],
+        "answer": 3,
+        "explanation": "Angle controls resultant size."
+      },
+
+        {
+          "question": "If a = (1,2,3), b = (2,-1,1), find a · b.",
+          "options": ["3", "4", "5", "6"],
+          "answer": 0,
+          "explanation": "1×2 + 2×(-1) + 3×1 = 2 - 2 + 3 = 3."
+        },
+        {
+          "question": "If a = (2,1,0), b = (1,3,0), the angle between them is:",
+          "options": [ "Right angle", "Obtuse","Acute", "Zero"],
+          "answer": 2,
+          "explanation": "Dot product = 2×1 + 1×3 = 5 > 0, so acute angle."
+        },
+        {
+          "question": "If a · b = 0 and both are non-zero vectors, they are:",
+          "options": [ "Parallel", "Collinear", "Equal","Orthogonal"],
+          "answer": 3,
+          "explanation": "Zero dot product means perpendicular vectors."
+        },
+        {
+          "question": "If |a × b| = |a||b|, angle between a and b is:",
+          "options": ["90°", "0°", "180°", "45°"],
+          "answer": 0,
+          "explanation": "sinθ = 1 ⇒ θ = 90°."
+        },
+        {
+          "question": "If a × b = 0, then a and b are:",
+          "options": [ "Perpendicular", "Equal","Parallel", "Unit vectors"],
+          "answer": 2,
+          "explanation": "Cross product zero implies collinearity."
+        },
+
+        {
+          "question": "Scalar triple product a · (b × c) represents:",
+          "options": [ "Area of triangle","Volume of parallelepiped", "Length", "Angle"],
+          "answer": 1,
+          "explanation": "It gives signed volume."
+        },
+        {
+          "question": "If a · (b × c) = 0, then vectors are:",
+          "options": ["Coplanar", "Parallel", "Perpendicular", "Equal"],
+          "answer": 0,
+          "explanation": "Zero scalar triple product means same plane."
+        },
+        {
+          "question": "Vector triple product a × (b × c) equals:",
+          "options": [ "a(b·c)", "b×c", "0","b(a·c) - c(a·b)"],
+          "answer": 3,
+          "explanation": "BAC-CAB identity."
+        },
+        {
+          "question": "If a = i + j + k, magnitude is:",
+          "options": ["√3", "3", "√2", "1"],
+          "answer": 0,
+          "explanation": "√(1+1+1)=√3."
+        },
+        {
+          "question": "Unit vector in direction of (2,2,1) is:",
+          "options": [ "(2,2,1)/√9", "(1,1,1)","(2,2,1)/3", "(2,2,1)/√5"],
+          "answer": 2,
+          "explanation": "Magnitude = √(4+4+1)=3."
+        },
+
+        {
+          "question": "If a = (1,0,0), b = (0,1,0), c = (0,0,1), then a · (b × c) is:",
+          "options": ["1", "0", "-1", "2"],
+          "answer": 0,
+          "explanation": "i·(j×k)=1."
+        },
+        {
+          "question": "If two vectors are parallel, their dot product is:",
+          "options": ["±|a||b|", "0", "1", "Always positive"],
+          "answer": 0,
+          "explanation": "Depends on same or opposite direction."
+        },
+        {
+          "question": "Projection of a on b is zero when:",
+          "options": [ "Parallel", "Equal","Vectors are perpendicular", "Opposite"],
+          "answer": 2,
+          "explanation": "No component in that direction."
+        },
+        {
+          "question": "If a · a = 25, magnitude of a is:",
+          "options": ["5", "25", "10", "√25"],
+          "answer": 0,
+          "explanation": "Magnitude = √(a·a) = 5."
+        },
+        {
+          "question": "If |a| = 3, |b| = 4, and angle = 0°, a · b equals:",
+          "options": ["12", "0", "7", "1"],
+          "answer": 0,
+          "explanation": "3×4×cos0 = 12."
+        },
+
+        {
+          "question": "If angle between vectors is 180°, dot product is:",
+          "options": [ "0","- |a||b|", "+|a||b|", "1"],
+          "answer": 1,
+          "explanation": "cos180° = -1."
+        },
+        {
+          "question": "If a = (3,4,0), b = (4,-3,0), dot product is:",
+          "options": [ "25","0", "7", "12"],
+          "answer": 1,
+          "explanation": "3×4 + 4×(-3)=12-12=0."
+        },
+        {
+          "question": "If vectors are orthogonal, projection is:",
+          "options": ["Zero", "Maximum", "One", "Negative"],
+          "answer": 0,
+          "explanation": "No component along direction."
+        },
+
+        {
+          "question": "If a = (1,2,3), b = (3,2,1), a × b is:",
+          "options": [ "Zero vector", "Scalar", "Unit vector","Non-zero vector"],
+          "answer": 3,
+          "explanation": "Not parallel ⇒ cross product non-zero."
+        },
+
+        {
+          "question": "If a × b = c, then c is:",
+          "options": [ "Parallel to a", "Parallel to b","Perpendicular to both a and b", "Scalar"],
+          "answer": 2,
+          "explanation": "Cross product gives perpendicular vector."
+        },
+
+        {
+          "question": "If a · b < 0, angle is:",
+          "options": ["Obtuse", "Acute", "Right", "Zero"],
+          "answer": 0,
+          "explanation": "cosθ < 0 implies obtuse angle."
+        },
+        {
+          "question": "If a · b = 0 and a × b = 0, then:",
+          "options": [ "Both are unit vectors", "They are perpendicular","At least one vector is zero", "They are parallel"],
+          "answer": 2,
+          "explanation": "Only possible if one is zero vector."
+        },
+        {
+          "question": "If vectors lie in same plane, scalar triple product is:",
+          "options": ["0", "1", "Maximum", "Negative"],
+          "answer": 0,
+          "explanation": "Coplanar vectors give zero volume."
+        },
+
+        {
+          "question": "If a = (2,2,2), b = (1,1,1), then a × b is:",
+          "options": [ "Unit vector","Zero vector", "Non-zero", "i+j+k"],
+          "answer": 1,
+          "explanation": "They are parallel."
+        },
+        {
+          "question": "If magnitude of cross product is zero, vectors are:",
+          "options": ["Parallel", "Perpendicular", "Equal", "Unit"],
+          "answer": 0,
+          "explanation": "Parallel vectors."
+        },
+        {
+          "question": "The dot product measures:",
+          "options": [ "Area", "Volume", "Direction only","Projection"],
+          "answer": 3,
+          "explanation": "Measures how much one vector aligns with another."
+        },
+        {
+          "question": "Cross product measures:",
+          "options": [ "Scalar projection","Perpendicular area effect", "Magnitude only", "Distance"],
+          "answer": 1,
+          "explanation": "Represents area + perpendicular direction."
+        },
+        {
+          "question": "If a = (0,0,1), b = (1,0,0), a × b equals:",
+          "options": [ "(1,1,0)", "(0,0,0)", "(1,0,1)","(0,1,0)"],
+          "answer": 3,
+          "explanation": "k × i = j."
+        },
+
+        {
+          "question": "If unit vectors i, j, k form right-hand system, i × j × k equals:",
+          "options": ["Scalar triple product = 1", "0", "-1", "i"],
+          "answer": 0,
+          "explanation": "i·(j×k)=1."
+        },
+        {
+          "question": "If a = (1,0,0), b = (1,1,0), angle between them is:",
+          "options": ["45°", "90°", "0°", "60°"],
+          "answer": 0,
+          "explanation": "cosθ = 1/√2 ⇒ 45°."
+        },
+
+        {
+          "question": "If vectors are identical, dot product equals:",
+          "options": [ "0","|a|²", "1", "-1"],
+          "answer": 1,
+          "explanation": "a·a = |a|²."
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "question": "If vectors are opposite, dot product equals:",
+          "options": [ "0", "+|a||b|","- |a||b|", "1"],
+          "answer": 2,
+          "explanation": "cos180° = -1."
+        },
+        {
+          "question": "If a = (x,y,z), a · a represents:",
+          "options": [ "Direction", "Angle", "Area","Magnitude squared"],
+          "answer": 3,
+          "explanation": "Sum of squares gives |a|²."
+        },
+
+        {
+          "question": "If a × b = 0 and both non-zero, then:",
+          "options": ["Vectors are collinear", "Perpendicular", "Orthogonal", "Random"],
+          "answer": 0,
+          "explanation": "They lie on same line."
+        },
+        {
+          "question": "If projection of a on b equals a, then:",
+          "options": [ "Perpendicular", "Opposite","Vectors are parallel", "Zero"],
+          "answer": 1,
+          "explanation": "a lies fully along b."
+        },
+        {
+          "question": "If vectors form triangle, resultant depends on:",
+          "options": ["Angle between them", "Only magnitude", "Only direction", "Origin"],
+          "answer": 0,
+          "explanation": "Angle controls resultant size."
+        },
+
+          {
+            "question": "A particle moves from point A(2, -1, 3) to point B(5, 3, -2). What is the displacement vector and its magnitude?",
+            "options": ["(3,4,-5), √50", "(3,2,-1), √14", "(2,4,-5), √45", "(3,4,5), √50"],
+            "answer": 0,
+            "explanation": "Displacement = (5-2, 3-(-1), -2-3) = (3,4,-5), magnitude = √(9+16+25)=√50."
+          },
+          {
+            "question": "A force vector F = (4, 2, -1) acts on an object with displacement d = (1, -3, 2). Find the work done by the force.",
+            "options": [ "6", "-4","12", "-12"],
+            "answer": 1,
+            "explanation": "Work = F·d =\n 4×1 + 2×(-3) + (-1)×2 = \n4 - 6 - 2 = -4"
+          },
+          {
+            "question": "Two vectors a = (1,2,3) and b = (2,1,4) form an angle θ. If a·b = 16 and |a| = √14, |b| = √21, find cosθ.",
+            "options": [ "16/√14", "√294/16", "1/2","16/√294"],
+            "answer": 3,
+            "explanation": "cosθ = (a·b)/(|a||b|)=16/√(14×21)=16/√294."
+          },
+          {
+            "question": "A unit vector in the direction of vector a = (6, 2, 3) is:",
+            "options": [ "(6,2,3)/√49", "(3,1,1.5)","(6,2,3)/7", "(2,6,3)/7"],
+            "answer": 2,
+            "explanation": "Magnitude = √(36+4+9)=√49=7."
+          },
+          {
+            "question": "Find the projection of vector a = (2,3,4) on vector b = (1,0,2).",
+            "options": ["(10/5)b", "(8/5)b", "(6/5)b", "(4/5)b"],
+            "answer": 0,
+            "explanation": "a·b=2×1+3×0+4×2=10, |b|²=5, projection=(10/5)b."
+          },
+
+          {
+            "question": "If a force of magnitude 10 N makes an angle of 60° with displacement of 5 m, find work done.",
+            "options": ["50 J", "10 J", "30 J","25 J"],
+            "answer": 3,
+            "explanation": "Work = 10×5×cos60° = 50×1/2 = 25 J."
+          },
+          {
+            "question": "A vector a = (3, -4, 0). Find its unit vector.",
+            "options": ["(3/5, -4/5, 0)", "(3, -4, 0)", "(4/5, 3/5, 0)", "(5,0,0)"],
+            "answer": 0,
+            "explanation": "Magnitude = 5, so divide each component by 5."
+          },
+          {
+            "question": "If vectors a and b satisfy |a × b| = 0, then they must be:",
+            "options": ["Parallel", "Perpendicular", "Equal", "Orthogonal"],
+            "answer": 0,
+            "explanation": "Cross product zero implies parallel vectors."
+          },
+          {
+            "question": "The area of a parallelogram formed by vectors a and b is 12. If |a| = 4 and |b| = 6, find angle between them.",
+            "options": [ "60°", "90°", "45°","30°"],
+            "answer": 3,
+            "explanation": "Area = |a||b|sinθ = 24sinθ = 12 → sinθ = 1/2 → θ=30°."
+          },
+          {
+            "question": "If a = (1,2,3) and b = (2,4,6), then vectors are:",
+            "options": [ "Perpendicular","Parallel", "Orthogonal", "Unit vectors"],
+            "answer": 1,
+            "explanation": "b = 2a, so they are parallel."
+          },
+
+          {
+            "question": "Find a × b where a = (1,0,2), b = (2,1,0).",
+            "options": ["(-2,4,1)", "(2,-4,1)", "(1,2,3)", "(0,0,0)"],
+            "answer": 0,
+            "explanation": "Determinant method gives (-2,4,1)."
+          },
+          {
+            "question": "If a · b = 0 and |a| = 5, |b| = 10, what is angle between them?",
+            "options": [ "0°", "180°", "45°","90°"],
+            "answer": 3,
+            "explanation": "Dot product zero implies perpendicular vectors."
+          },
+          {
+            "question": "If position vectors of points A and B are a = (1,2,3) and b = (4,0,1), find AB.",
+            "options": [ "(5,2,4)", "(3,2,2)", "(3,-2,-2)","(4,-2,-2)"],
+            "answer": 2,
+            "explanation": "AB = b - a = (3,-2,-2)."
+          }
+
+
+
+
+
+
+        ]

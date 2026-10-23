@@ -1,0 +1,55 @@
+{
+  "id": "m2017_socialg11u8_melmeja",
+  "title": "Mathematics Grade 11 Practice Questions 2017",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Mathematics Grade 11 Practice Questions 2017 - 2 multiple choice questions. Ethiopian national exam preparation material.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2017",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg11u8_melmeja_1",
+      "examId": "m2017_socialg11u8_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "16) In how many ways can the name for vertices of a triangle be given if different order by using letters A, B, C, D, E?",
+      "options": [
+        "60",
+        "120",
+        "20",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A triangle has 3 vertices. We need to choose and arrange 3 unique letters from the 5 available letters (A, B, C, D, E). Since the order of the vertices matters (naming $\\triangle ABC$ is distinct from $\\triangle BAC$), this is a **Permutation** problem: $P(n, k) = \\frac{n!}{(n-k)!}$. Here $n=5$ (total letters) and $k=3$ (vertices of a triangle). $P(5, 3) = \\frac{5!}{(5-3)!} = \\frac{5!}{2!} = 5 \\times 4 \\times 3 = 60$. There are 60 ways to name the vertices.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u8_melmeja_2",
+      "examId": "m2017_socialg11u8_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describe combination of objects?",
+      "options": [
+        "The number of ways of arranging $n$ objects taking $n$ at a time considering the order of the objects.",
+        "The number of ways of arranging the seat of $n$ people in a circle.",
+        "The number of ways of choosing $r$ objects from $n$ objects disregarding the order of selection.",
+        "The number of ways of arrangement of $n$ objects in a specific order using $r$ objects at a time."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "**Combination** is a method of counting the number of ways to **choose** or **select** items from a larger set where the **order of selection does not matter**.\n- Option C: 'The number of ways of choosing $r$ objects from $n$ objects **disregarding the order of selection**' is the precise definition of a combination ($C(n, r)$ or $\begin{pmatrix} n \\ r end{pmatrix}$). \n- Options A and D describe **Permutation**, which is about **arrangement** where order **does matter**.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[
+{
+  "question": "13. Consider two balls A and B are projected with the same velocity, $v_0$ at angles $\\theta_1$ and $\\theta_2$, respectively, $0^{\\circ} < \\theta_1 < 45^{\\circ}$ and $45^{\\circ} < \\theta_2 < 90^{\\circ}$. Which one of the following statements is correct about the motion of the balls?",
+  "options": [
+    "Ball A takes longer time than ball B to reach its maximum height.",
+    "The range of ball A is smaller than its maximum height.",
+    "The two balls cover equal ranges when $\\theta_1 + \\theta_2 = 90^{\\circ}$.",
+    "Both balls have equal speed at their respective maximum height."
+  ],
+  "answer": 2,
+  "explanation": "For a projectile launched with initial velocity $v_0$, the **range ($R$)** is given by $R = \\frac{v_0^2 \\sin(2\\theta)}{g}$. The ranges will be equal if the launch angles are **complementary**, meaning they sum to $90^{\\circ}$ (i.e., $\\theta_1 + \\theta_2 = 90^{\\circ}$), because $\\sin(2\\theta_1) = \\sin(2(90^{\\circ} - \\theta_2)) = \\sin(180^{\\circ} - 2\\theta_2) = \\sin(2\\theta_2)$."
+},
+{
+"question": "14. A car initially traveling at speed of $20 \\text{ m/s}$ undergoes a constant deceleration of magnitude $1.5 \\text{ m/s}^2$. If the radius of each tire is $0.3 \\text{ m}$, how many revolutions does each tire make, without slipping, before the car comes to rest?",
+"options": [
+"70.77 rev",
+"444.4 rev",
+"133.33 rev",
+"44.44 rev"
+],
+"answer": 0,
+"explanation": "The number of revolutions ($N$) is the total distance traveled ($d$) divided by the circumference ($C$) of the tire, $N = d/C$.\n\n1.  **Find Distance ($d$):** Use $v_f^2 = v_i^2 + 2ad$:\n    $$0^2 = (20)^2 + 2(-1.5)d \\implies 0 = 400 - 3d$$\n    $$d = \\frac{400}{3} \\text{ m}$$\n\n2.  **Find Circumference ($C$):** $C = 2\\pi r$\n    $$C = 2\\pi (0.3 \\text{ m}) = 0.6\\pi \\text{ m}$$\n\n3.  **Find Revolutions ($N$):**\n    $$N = \\frac{400/3}{0.6\\pi} = \\frac{400}{1.8\\pi} \\approx 70.73 \\text{ revolutions}$$\nThis is closest to $70.77 \\text{ rev}$."
+},
+
+{
+"question": "15. A constant tangential force is applied on a rim of uniform solid disk of mass $m = 50 \\text{ kg}$ and radius $r = 0.5 \\text{ m}$. If the angular speed of the disk changes by $1 \\text{ rev/s}$ within $2.0 \\text{ s}$, what is the magnitude of the torque produced by the force? (moment of inertia of disk $I = \\frac{mr^2}{2}$)",
+"options": [
+"39.3 Nm",
+"19.6 Nm",
+"8.25 Nm",
+"3.125 Nm"
+],
+"answer": 1,
+"explanation": "The torque ($\tau$) is calculated using the formula $\\tau = I\\alpha$.\n\n1.  **Calculate Angular Acceleration ($\\alpha$):**\n    $$\\alpha = \\frac{\\Delta\\omega}{\\Delta t} = \\frac{1 \\text{ rev/s}}{2.0 \\text{ s}} = 0.5 \\text{ rev/s}^2$$\n    Convert to $\\text{rad/s}^2$: $\\alpha = 0.5 \\times 2\\pi \\approx \\pi \\text{ rad/s}^2$\n\n2.  **Calculate Moment of Inertia ($I$):**\n    $$I = \\frac{mr^2}{2} = \\frac{(50 \\text{ kg})(0.5 \\text{ m})^2}{2} = 6.25 \\text{ kg} \\cdot \\text{m}^2$$\n\n3.  **Calculate Torque ($\\tau$):**\n    $$\\tau = I\\alpha = (6.25 \\text{ kg} \\cdot \\text{m}^2) \\times (\\pi \\text{ rad/s}^2) \\approx 19.63 \\text{ Nm}$$"
+}
+]

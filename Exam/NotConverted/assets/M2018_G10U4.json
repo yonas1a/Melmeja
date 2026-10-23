@@ -1,0 +1,35 @@
+[
+{
+  "question": " Which one of the following is the value of sin(-600°)?",
+  "options": [
+    "1/2",
+    "√3/2",
+    "-1/2",
+    "-√3/2"
+  ],
+  "answer": 1,
+  "explanation": "Add 720° to -600° to get a positive coterminal angle:\n\n -600° + 720° = 120°.\n\n Therefore, sin(-600°) = sin(120°) = sin(60°) = √3/2."
+},
+{
+"question": " Which one of the following is correct about trigonometric values of angles?",
+"options": [
+"cos(157°) = cos(23°)",
+"cos(157°) = sin(23°)",
+"sin(157°) = sin(23°)",
+"tan(157°) = tan(23°)"
+],
+"answer": 2,
+"explanation": "Since 157° = 180° - 23°, we use the identity sin(180° - θ) = sin(θ).\n\n Therefore, sin(157°) = sin(23°)."
+},
+{
+"question": " Let x be an angle in the second quadrant. If tan x = -√3, then which of the following is true about the other trigonometric values of angle x?",
+"options": [
+"sec x = -2",
+"cot x = √3 / 3",
+"sin x = 1/2",
+"csc x = -2√3 / 3"
+],
+"answer": 0,
+"explanation": "Since x is in the second quadrant, sin x is positive and cos x is negative.\n\n Given tan x = -√3, the reference angle is 60°.\n\n Therefore, cos x = -1/2 and sin x = √3/2.\n\n Hence, sec x = 1/cos x = -2."
+}
+]

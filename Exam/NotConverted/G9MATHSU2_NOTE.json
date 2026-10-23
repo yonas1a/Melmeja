@@ -1,0 +1,143 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 2: THE NUMBER SYSTEM",
+"notes": "✓ The number system includes natural numbers, integers, rational numbers, irrational numbers and real numbers.\n\n◆ Main sets:\nℕ → Natural numbers\nℤ → Integers\nℚ → Rational numbers\nI → Irrational numbers\nℝ → Real numbers\n\n✓ Relationship:\nℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ\n\n✓ Both rational and irrational numbers are real numbers:\nℝ = ℚ ∪ I."
+},
+{
+"type": "note",
+"title": "2.1 NATURAL NUMBERS AND INTEGERS",
+"notes": "✓ Natural numbers → Positive counting numbers.\n\nℕ = {1, 2, 3, 4, ...}\n\n✓ Integers → Positive numbers, zero and negative numbers.\n\nℤ = {..., −3, −2, −1, 0, 1, 2, 3, ...}\n\n✓ Every natural number is an integer, but not every integer is a natural number.\n\nExample:\n3 ∈ ℕ and ℤ\n0 ∈ ℤ but 0 ∉ ℕ\n−5 ∈ ℤ but −5 ∉ ℕ."
+},
+{
+"type": "note",
+"title": "EUCLID'S DIVISION LEMMA",
+"notes": "✓ For positive integers a and b, division gives:\n\na = bq + r\n\n◆ Where:\na → dividend\nb → divisor\nq → quotient\nr → remainder\n\n✓ Condition:\n0 ≤ r < b\n\nExample:\n128 ÷ 6 gives quotient 21 and remainder 2.\n\n✓ Therefore:\n128 = 6(21) + 2."
+},
+{
+"type": "note",
+"title": "PRIME AND COMPOSITE NUMBERS",
+"notes": "✓ Prime number → A natural number greater than 1 having exactly two positive factors: 1 and itself.\n\nExample: 2, 3, 5, 7, 11, 13.\n\n✓ Composite number → A natural number greater than 1 having more than two factors.\n\nExample: 4, 6, 8, 9, 10, 12.\n\n✓ Important:\n1 is neither prime nor composite.\n2 is the only even prime number."
+},
+{
+"type": "note",
+"title": "DIVISIBILITY TESTS",
+"notes": "✓ A number is divisible by:\n\n2 → its last digit is even.\n3 → the sum of its digits is divisible by 3.\n4 → its last two digits are divisible by 4.\n5 → its last digit is 0 or 5.\n6 → it is divisible by both 2 and 3.\n8 → its last three digits are divisible by 8.\n9 → the sum of its digits is divisible by 9.\n10 → its last digit is 0.\n\nExample:\n2,334 is divisible by 2 because its last digit is 4.\nIt is divisible by 3 because 2 + 3 + 3 + 4 = 12, and 12 is divisible by 3."
+},
+{
+"type": "note",
+"title": "PRIME FACTORIZATION",
+"notes": "✓ Prime factorization → Expressing a composite number as a product of prime numbers.\n\nExample:\n72 = 2 × 2 × 2 × 3 × 3\n\n✓ Therefore:\n72 = 2³ × 3².\n\n✓ Fundamental Theorem of Arithmetic → Every composite number can be expressed as a product of primes, and this factorization is unique.\n\nExample:\n456 = 2³ × 3 × 19."
+},
+{
+"type": "note",
+"title": "GREATEST COMMON FACTOR (GCF)",
+"notes": "✓ Common factor → A number that is a factor of two or more numbers.\n\n✓ GCF/HCF → The greatest common factor of two or more natural numbers.\n\nExample:\nFactors of 36 = {1,2,3,4,6,9,12,18,36}\nFactors of 56 = {1,2,4,7,8,14,28,56}\n\nCommon factors = {1,2,4}\n\n✓ Therefore:\nGCF(36,56) = 4.\n\n✓ Using prime factorization, take the common prime factors with the smallest powers."
+},
+{
+"type": "note",
+"title": "LEAST COMMON MULTIPLE (LCM)",
+"notes": "✓ LCM → The smallest positive number that is a multiple of each of the given numbers.\n\nExample:\nMultiples of 6: 6, 12, 18, 24, 30, ...\nMultiples of 15: 15, 30, 45, ...\n\n✓ Therefore:\nLCM(6,15) = 30.\n\n✓ Using prime factorization, take every prime factor with the greatest power appearing in the numbers.\n\n✓ For two positive integers:\nGCF(a,b) × LCM(a,b) = a × b."
+},
+{
+"type": "note",
+"title": "2.2 RATIONAL NUMBERS",
+"notes": "✓ Rational number → Any number that can be written in the form:\n\np/q\n\nwhere p and q are integers and q ≠ 0.\n\n✓ The set of rational numbers is denoted by ℚ.\n\nℚ = {p/q : p,q ∈ ℤ and q ≠ 0}\n\nExamples:\n3/4, −6, 0, −13/10 are rational.\n\n✓ Every natural number and every integer is rational because:\n6 = 6/1\n0 = 0/1\n−5 = −5/1."
+},
+{
+"type": "note",
+"title": "TYPES OF FRACTIONS",
+"notes": "◆ Proper fraction → Numerator is smaller than denominator.\nExample: 7/8.\n\n◆ Improper fraction → Numerator is greater than or equal to denominator.\nExample: 7/3.\n\n◆ Mixed fraction → A whole number together with a proper fraction.\nExample: 5 1/4.\n\n✓ Converting mixed to improper:\n5 1/4 = (5 × 4 + 1)/4 = 21/4."
+},
+{
+"type": "note",
+"title": "DECIMAL REPRESENTATION OF RATIONAL NUMBERS",
+"notes": "✓ A rational number written as a decimal can be:\n\n◆ 1 Terminating decimal → Decimal ends after a finite number of digits.\nExample:\n3/5 = 0.6\n\n◆ 2 Repeating decimal → A digit or group of digits repeats indefinitely.\nExample:\n5/9 = 0.555...\n\n✓ Bar notation is used to show repetition:\n1/3 = 0.3̅\n23/99 = 0.23̅\n\n✓ Every rational number has either a terminating or repeating decimal representation."
+},
+{
+"type": "note",
+"title": "CONVERTING TERMINATING DECIMALS TO FRACTIONS",
+"notes": "✓ A terminating decimal can be converted to a fraction by using a denominator of 10, 100, 1000, etc.\n\nExample:\n7.3 = 73/10.\n\nExample:\n−0.18 = −18/100 = −9/50.\n\n◆ Rule:\n1 decimal place → denominator 10.\n2 decimal places → denominator 100.\n3 decimal places → denominator 1000."
+},
+{
+"type": "note",
+"title": "LOCATING RATIONAL NUMBERS ON THE NUMBER LINE",
+"notes": "✓ Integers can be placed directly on a number line.\n\n✓ Fractions can be converted to decimal form and then located.\n\nExample:\n4/3 = 1.3̅\n−5/2 = −2.5\n\n✓ Therefore, 4/3 is located between 1 and 2, while −5/2 is located between −3 and −2."
+},
+{
+"type": "note",
+"title": "2.3 IRRATIONAL NUMBERS",
+"notes": "✓ Irrational number → A decimal number that is neither terminating nor repeating.\n\nExamples:\n√2, √3, √5, π.\n\n✓ If a is a natural number that is not a perfect square, then √a is irrational.\n\nExamples:\n√25 = 5 → rational.\n√36 = 6 → rational.\n√7 → irrational.\n√11 → irrational.\n√18 → irrational.\n\n✓ 22/7 is rational because it is written as a ratio of integers, even though it is commonly used as an approximation of π."
+},
+{
+"type": "note",
+"title": "PRINCIPAL SQUARE ROOT",
+"notes": "✓ The radical sign √ is used for square roots.\n\n✓ The principal square root of a positive number is the positive value whose square gives the original number.\n\nExamples:\n√4 = 2\n√9 = 3\n−√9 = −3\n√0.0016 = 0.04\n\n✓ For positive a and b:\nIf a < b, then √a < √b.\n\nExample:\n5 < 6, therefore √5 < √6."
+},
+{
+"type": "note",
+"title": "LOCATING IRRATIONAL NUMBERS",
+"notes": "✓ Irrational numbers such as √2 can be located on the number line geometrically.\n\nFor √2:\n1² + 1² = c²\nc² = 2\nc = √2\n\n✓ Construct a right triangle with both perpendicular sides of length 1. The hypotenuse has length √2. Transfer this length to the number line using a compass.\n\n✓ √2 ≈ 1.4142, so √2 lies between 1 and 2."
+},
+{
+"type": "note",
+"title": "OPERATIONS ON IRRATIONAL NUMBERS",
+"notes": "✓ Irrational numbers can be added, subtracted, multiplied and divided, but the result is not always irrational.\n\n✓ For positive a and b:\n√a × √b = √(ab).\n\nExample:\n√2 × √3 = √6.\n\nExample:\n(2 + √2)(1 + √5)\n= 2 + 2√5 + √2 + √10.\n\n✓ Important:\nThe product of two irrational numbers can be rational or irrational.\n\nExample:\n√2 × √2 = 2 → rational.\n√2 × √3 = √6 → irrational."
+},
+{
+"type": "note",
+"title": "LIKE RADICALS",
+"notes": "✓ Like radicals → Radicals having the same radicand and the same index.\n\nExamples:\n2√5 and √5 are like radicals.\n2√5/3 and √5 are like radicals.\n\n√2 and √3 are not like radicals.\n\n✓ Only like radicals can be combined directly through addition or subtraction.\n\nExample:\n√3 + √12\n= √3 + 2√3\n= 3√3."
+},
+{
+"type": "note",
+"title": "SIMPLIFYING RADICAL EXPRESSIONS",
+"notes": "✓ To simplify a radical, factor the radicand into a perfect square and another factor.\n\nExample:\n√18 = √(9 × 2)\n= 3√2.\n\nExample:\n√12 = √(4 × 3)\n= 2√3.\n\nExample:\n2√18 − √2 + √8\n= 6√2 − √2 + 2√2\n= 7√2."
+},
+{
+"type": "note",
+"title": "2.4 REAL NUMBERS",
+"notes": "✓ Real numbers → Numbers that are either rational or irrational.\n\n✓ The set of real numbers is denoted by ℝ.\n\nℝ = ℚ ∪ I\n\n✓ Every point on the number line corresponds to a real number.\n\n◆ Real numbers include:\n• Natural numbers\n• Integers\n• Rational numbers\n• Irrational numbers.\n\nExamples:\n−4 → rational and real.\n3/5 → rational and real.\n√2 → irrational and real.\nπ → irrational and real."
+},
+{
+"type": "note",
+"title": "COMPARING REAL NUMBERS",
+"notes": "✓ For any two real numbers a and b, exactly one of the following is true:\n\na < b, a = b, or a > b.\n\n✓ This is the trichotomy property.\n\n✓ Transitive property:\nIf a < b and b < c, then a < c.\n\n✓ For non-negative real numbers:\nIf a² < b², then a < b.\n\n✓ For positive a and b:\nIf a < b, then √a < √b."
+},
+{
+"type": "note",
+"title": "OPERATIONS ON REAL NUMBERS",
+"notes": "✓ Rational numbers are closed under addition, subtraction, multiplication and division by a non-zero rational number.\n\n✓ Irrational numbers satisfy the commutative, associative and distributive laws for addition and multiplication, but their results are not always irrational.\n\n◆ Important results:\n✓ Rational + Irrational = Irrational.\n✓ Rational − Irrational = Irrational.\n✓ Non-zero Rational × Irrational = Irrational.\n✓ Non-zero Rational ÷ Irrational = Irrational.\n\nExample:\n5√3 + 2√2 + √2 − 4√3\n= √3 + 3√2."
+},
+{
+"type": "note",
+"title": "2.4.4 UPPER AND LOWER BOUNDS",
+"notes": "✓ When a number is rounded, its actual value lies within a range.\n\n✓ Lower bound → The smallest possible value before rounding.\n✓ Upper bound → The largest boundary value before rounding.\n\n◆ To find bounds:\n1. Identify the place value of the stated accuracy.\n2. Divide that place value by 2.\n3. Subtract this amount for the lower bound.\n4. Add this amount for the upper bound.\n\nExample:\n872 kg to the nearest kilogram.\nHalf of 1 kg = 0.5 kg.\n\n✓ Lower bound = 872 − 0.5 = 871.5 kg.\n✓ Upper bound = 872 + 0.5 = 872.5 kg.\n\n✓ Therefore:\n871.5 ≤ w < 872.5."
+},
+{
+"type": "note",
+"title": "BOUNDS TO DECIMAL PLACES",
+"notes": "Example:\n10.7 correct to 1 decimal place.\n\nHalf of 0.1 = 0.05.\n\n✓ Lower bound:\n10.7 − 0.05 = 10.65\n\n✓ Upper bound:\n10.7 + 0.05 = 10.75\n\n✓ Therefore:\n10.65 ≤ x < 10.75.\n\n◆ For a value rounded to the nearest unit, use ±0.5.\n◆ For the nearest tenth, use ±0.05.\n◆ For the nearest hundredth, use ±0.005."
+},
+{
+"type": "note",
+"title": "BOUNDS IN CALCULATIONS",
+"notes": "✓ Bounds can be used to determine the possible range of calculated quantities such as sums, differences, products and areas.\n\nExample:\nIf a length is 10.5 m to the nearest metre, then:\n10 ≤ length < 11.\n\n✓ For an area, use the appropriate lower and upper bounds of each dimension and calculate the corresponding minimum and maximum possible values."
+},
+{
+"type": "note",
+"title": "2.4.5 SCIENTIFIC NOTATION",
+"notes": "✓ Scientific notation, also called standard notation, writes a number as:\n\na × 10ⁿ\n\nwhere:\n1 ≤ a < 10\nand n is an integer.\n\n✓ Used for very large or very small numbers.\n\nExamples:\n1,856,700,000 = 1.8567 × 10⁹\n0.000000314 = 3.14 × 10⁻⁷."
+},
+{
+"type": "note",
+"title": "CONVERTING SCIENTIFIC NOTATION",
+"notes": "✓ To convert an ordinary number to scientific notation:\n\n1. Move the decimal point until exactly one non-zero digit remains before it.\n2. Count the number of places moved.\n3. Large number → positive exponent.\n4. Small number → negative exponent.\n\nExample:\n5,370,000 = 5.37 × 10⁶.\n\nExample:\n0.00000017 = 1.7 × 10⁻⁷.\n\n✓ To convert back, move the decimal point according to the exponent."
+},
+{
+"type": "note",
+"title": "UNIT 2 QUICK FORMULA SHEET",
+"notes": "◆ Euclid's division form:\n✓ a = bq + r, 0 ≤ r < b.\n\n◆ Prime factorization:\n✓ Composite number = product of prime factors.\n\n◆ GCF × LCM:\n✓ GCF(a,b) × LCM(a,b) = ab.\n\n◆ Rational number:\n✓ p/q, where p,q ∈ ℤ and q ≠ 0.\n\n◆ Decimal representations:\n✓ Terminating decimal → ends.\n✓ Repeating decimal → repeats indefinitely.\n\n◆ Irrational decimal:\n✓ Neither terminating nor repeating.\n\n◆ Real numbers:\n✓ ℝ = ℚ ∪ I.\n\n◆ Radical multiplication:\n✓ √a × √b = √ab, for positive a,b.\n\n◆ Bounds:\n✓ Lower bound = rounded value − half of place value.\n✓ Upper bound = rounded value + half of place value.\n\n◆ Scientific notation:\n✓ a × 10ⁿ, where 1 ≤ a < 10."
+}
+]

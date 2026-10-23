@@ -1,0 +1,1131 @@
+[
+  {
+    "question": "Two point charges, +4 microcoulomb and -8 microcoulomb, are placed 20 centimeters apart. What is the magnitude of the electrostatic force between them? (Use k = 9.0 x 10⁹ N m²/C²)",
+    "options": [
+      "72.0 Newton",
+      "3.6 Newton",
+      "7.2 Newton",
+      "0.72 Newton"
+    ],
+    "answer": 2,
+    "explanation": "Coulomb's Law: F = k |q1 q2| / r². \n\nF = (9.0 x 10⁹) x (4 x 10⁻⁶) x (8 x 10⁻⁶) / (0.20)².\n\n F = (288 x 10^-3) / 0.04 =\n\n 7.2 Newton."
+  },
+
+  {
+    "question": "Which of the following is NOT a property of electric charge?",
+    "options": [
+      "Electric charge is conserved.",
+      "Electric charge is quantized.",
+      "Like charges attract and unlike charges repel.",
+      "Charge can be transferred by conduction or induction."
+    ],
+    "answer": 2,
+    "explanation": "The fundamental law of electrostatics states that like charges repel and unlike charges attract.\n\n Option C states the opposite (Like charges attract), making it the incorrect statement."
+  },
+  {
+    "question": "Two point charges are separated by a distance r. If the distance between them is doubled (2r) and both charges are doubled (2q1 and 2q2), the new electrostatic force will be:",
+    "options": [
+      "The same as the original force F.",
+      "Half the original force F/2.",
+      "Twice the original force 2F.",
+      "Four times the original force 4F."
+    ],
+    "answer": 0,
+    "explanation": "The original force is F = k q1 q2 / r².\n\n The new force is F' = k (2q1) (2q2) / (2r)² = k (4 q1 q2) / (4r²) =\n\n k q1 q2 / r².\n\n So, F' = F."
+  },
+  {
+    "question": "If two identical charges repel each other with a force F in vacuum, what will be the repulsive force if they are immersed in an oil with a relative permittivity (dielectric constant) k=4?",
+    "options": [
+      "4F",
+      "F / 4",
+      "F",
+      "F / 16"
+    ],
+    "answer": 1,
+    "explanation": "The electric force in a medium is F_medium = F_vacuum / k.\n\n The new force is F / 4."
+  },
+  {
+    "question": "The electric field strength E at a point is defined as the:",
+    "options": [
+      "Work done per unit charge on a test charge.",
+      "Potential energy per unit charge.",
+      "Electrostatic force per unit positive test charge.",
+      "Electric potential per unit distance."
+    ],
+    "answer": 2,
+    "explanation": "The electric field strength is defined as the electrostatic force experienced by a unit positive test charge placed at that point.\n\n E = F / q."
+  },
+  {
+    "question": "An electron is placed in a uniform electric field that points vertically upward. In which direction will the electron accelerate?",
+    "options": [
+      "Vertically upward.",
+      "Vertically downward.",
+      "To the right.",
+      "To the left."
+    ],
+    "answer": 1,
+    "explanation": "Since the electron has a negative charge, the force F = qE will be in the direction opposite to the electric field E.\n\n If E is upward, the force and acceleration are downward."
+  },
+  {
+    "question": "A point charge of +6.0 microcoulomb creates an electric field. What is the magnitude of the electric field at a distance of 3.0 cm from the charge? (Use k = 9.0 x 10^9 N m^2/C^2)",
+    "options": [
+      "6.0 x 10^7 N/C",
+      "1.8 x 10^7 N/C",
+      "3.6 x 10^7 N/C",
+      "6.0 x 10^5 N/C"
+    ],
+    "answer": 0,
+    "explanation": "E = k |Q| / r².\n E = (9.0 x 10^9) x (6.0 x 10^-6) / (0.03)² =\n\n 6.0 x 10^7 N/C."
+  },
+  {
+    "question": "Which statement about electric field lines is CORRECT?",
+    "options": [
+      "They can cross each other, especially near a point charge.",
+      "They always originate from negative charges and terminate on positive charges.",
+      "The density of lines is proportional to the electric potential.",
+      "They are always perpendicular to the surface of a charged conductor."
+    ],
+    "answer": 3,
+    "explanation": "Electric field lines never cross, originate from positive charges, and their density represents the field strength. \n\nThey are always perpendicular to the surface of a charged conductor in electrostatic equilibrium."
+  },
+  {
+    "question": "A uniform electric field of 500 N/C exists between two parallel plates separated by 2.0 cm. What is the potential difference between the plates?",
+    "options": [
+      "10000 Volt",
+      "1000 Volt",
+      "100 Volt",
+      "10 Volt"
+    ],
+    "answer": 3,
+    "explanation": "The relationship between uniform electric field and potential difference is V = E d. \n\nV = (500 N/C) x (0.02 m) = 10 Volt."
+  },
+  {
+    "question": "If the electric potential at a point in space is zero, which of the following MUST be true about the electric field at that same point?",
+    "options": [
+      "The electric field must also be zero.",
+      "The electric field must be directed radially outward.",
+      "The electric field is non-zero and constant.",
+      "The electric field could be zero or non-zero."
+    ],
+    "answer": 3,
+    "explanation": "The electric field is the negative gradient of the potential. If V = 0, the gradient dV/dr is not necessarily 0. \n\nFor example, at a point midway between two equal and opposite charges, the potential V = 0, but the electric field E is non-zero."
+  },
+
+  {
+    "question": "Which of the following lines are perpendicular to the electric field lines at every point?",
+    "options": [
+      "Lines connecting two charges.",
+      "Equipotential lines.",
+      "Lines of force.",
+      "Lines of current flow."
+    ],
+    "answer": 1,
+    "explanation": "Equipotential surfaces (and lines in 2D) are always perpendicular to the electric field lines. \n\nThe electric field is the direction of the steepest decrease in potential."
+  },
+  {
+    "question": "What happens to the electric potential energy of a system of two opposite charges if the distance between them is increased?",
+    "options": [
+      "It increases (becomes less negative).",
+      "It decreases (becomes more negative).",
+      "It remains the same.",
+      "It becomes zero."
+    ],
+    "answer": 0,
+    "explanation": "The electric potential energy for opposite charges is negative: PE = -k |q1 q2| / r.\n\n As r increases, the magnitude of the negative energy decreases, which means the energy *increases* (moves closer to zero)."
+  },
+  {
+    "question": "A charged particle with charge 2e is accelerated from rest through a potential difference of V. What is its final kinetic energy?",
+    "options": [
+      "eV / 2",
+      "2e V",
+      "e V",
+      "V / 2e"
+    ],
+    "answer": 1,
+    "explanation": "The change in kinetic energy equals the work done by the electric field, which is W = qV. Here, the charge q = 2e, so the kinetic energy gained is KE = 2e V."
+  },
+  {
+    "question": "A dipole is placed in a uniform electric field. The net force on the dipole is zero, but the net torque is non-zero. This condition occurs when:",
+    "options": [
+      "The dipole moment is parallel to the electric field.",
+      "The dipole moment is perpendicular to the electric field.",
+      "The electric field is non-uniform.",
+      "The electric field is zero."
+    ],
+    "answer": 1,
+    "explanation": "The net force on a dipole in a uniform E-field is always zero. \n\nThe torque (Torque = p E sin(theta)) is maximum (non-zero) when the dipole moment p is perpendicular to the electric field E (theta = 90 degrees)."
+  },
+  {
+    "question": "The electric flux through a closed surface depends only on the net charge enclosed. This is a statement of:",
+    "options": [
+      "Coulomb's Law",
+      "Gauss's Law",
+      "Ohm's Law",
+      "Kirchhoff's Junction Rule"
+    ],
+    "answer": 1,
+    "explanation": "Gauss's Law states that the total electric flux through any closed surface is equal to Q_enclosed / epsilon_naught."
+  },
+  {
+    "question": "If a hollow metal sphere is given a positive charge, the electric field inside the sphere is:",
+    "options": [
+      "Non-zero and points inward.",
+      "Non-zero and points outward.",
+      "Zero everywhere.",
+      "Varies inversely with the square of the distance from the center."
+    ],
+    "answer": 2,
+    "explanation": "In an electrostatic equilibrium, the electric field inside a conductor (like a hollow metal sphere) is zero.\n\n The excess charge resides on the outer surface."
+  },
+
+  {
+    "question": "The permittivity of free space, epsilon_naught, has the unit:",
+    "options": [
+      "Farad per meter (F/m)",
+      "Newton meter squared per Coulomb squared (N m^2/C^2)",
+      "Volt meter per Coulomb (V m/C)",
+      "Ohm meter (Ohm m)"
+    ],
+    "answer": 0,
+    "explanation": "The capacitance of a parallel plate capacitor is C = epsilon_naught A / d.\n\n The unit is C d / A, which is Farad per meter (F/m)."
+  },
+  {
+    "question": "If a current of 2.0 Amperes flows through a conductor, how much charge passes through a cross-section of the conductor in 15 seconds?",
+    "options": [
+      "7.5 Coulomb",
+      "30 Coulomb",
+      "15 Coulomb",
+      "30 Ampere"
+    ],
+    "answer": 1,
+    "explanation": "Current I = Q / t.\n\n Charge Q = I t.\n\n Q = (2.0 A) x (15 s) = 30 Coulomb."
+  },
+  {
+    "question": "Which one of the following factors does NOT affect the resistance of a wire?",
+    "options": [
+      "The length of the wire.",
+      "The cross-sectional area of the wire.",
+      "The type of material (resistivity).",
+      "The voltage applied across the wire."
+    ],
+    "answer": 3,
+    "explanation": "Resistance R is a property of the conductor's geometry and material (R = rho L/A).\n\n Applied voltage changes the current, but not the resistance itself (for an ohmic conductor)."
+  },
+  {
+    "question": "A resistor of 10 Ohm is connected to a 20 Volt battery. What is the power dissipated by the resistor?",
+    "options": [
+      "40 Watt",
+      "200 Watt",
+      "0.5 Watt",
+      "2 Watt"
+    ],
+    "answer": 0,
+    "explanation": "Power P = V² / R. P =\n\n (20 V)² / 10 Ohm =\n\n 400 / 10 = 40 Watt."
+  },
+  {
+    "question": "Three resistors of 6 Ohm, 3 Ohm, and 2 Ohm are connected in series. What is the equivalent resistance of the combination?",
+    "options": [
+      "0.91 Ohm",
+      "1.0 Ohm",
+      "11 Ohm",
+      "18 Ohm"
+    ],
+    "answer": 2,
+    "explanation": "For series connection, R_eq = R1 + R2 + R3. R_eq =\n\n 6 Ohm + 3 Ohm + 2 Ohm \n= 11 Ohm."
+  },
+  {
+    "question": "Three resistors of 6 Ohm, 3 Ohm, and 2 Ohm are connected in parallel. What is the equivalent resistance of the combination?",
+    "options": [
+      "0.91 Ohm",
+      "1.0 Ohm",
+      "11 Ohm",
+      "18 Ohm"
+    ],
+    "answer": 1,
+    "explanation": "For parallel connection, \n\n1/R_eq = 1/6 + 1/3 + 1/2 = 1/6 + 2/6 + 3/6 = 6/6 = 1.\n\n So, R_eq = 1.0 Ohm."
+  },
+  {
+    "question": "The terminal voltage (V) of a real battery with EMF and internal resistance r when supplying a current I is given by:",
+    "options": [
+      "V = EMF + I r",
+      "V = I r",
+      "V = EMF / (I r)",
+      "V = EMF - I r"
+    ],
+    "answer": 3,
+    "explanation": "When a battery is supplying current, there is a voltage drop (I r) across the internal resistance.\n\n The terminal voltage is EMF minus this drop: V = EMF - I r."
+  },
+  {
+    "question": "Kirchhoff's Junction Rule is a consequence of the conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Charge",
+      "Mass"
+    ],
+    "answer": 2,
+    "explanation": "The Junction Rule (sum of currents in equals sum of currents out) is a statement of the conservation of electric charge."
+  },
+  {
+    "question": "Kirchhoff's Loop Rule is a consequence of the conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Charge",
+      "Mass"
+    ],
+    "answer": 0,
+    "explanation": "The Loop Rule (sum of potential changes around a closed loop is zero) is a statement of the conservation of energy."
+  },
+  {
+    "question": "In a series circuit, what is the proper way to connect an ammeter to measure the current?",
+    "options": [
+      "In parallel with the resistor.",
+      "In series with the resistor.",
+      "In parallel with the voltage source.",
+      "Anywhere in the circuit."
+    ],
+    "answer": 1,
+    "explanation": "An ammeter measures current flow and must be connected in series so that the entire current passes through it.\n It has very low internal resistance."
+  },
+  {
+    "question": "In a parallel circuit, what is the proper way to connect a voltmeter to measure the potential difference across a resistor?",
+    "options": [
+      "In series with the resistor.",
+      "In parallel with the resistor.",
+      "In series with the voltage source.",
+      "At the junction point only."
+    ],
+    "answer": 1,
+    "explanation": "A voltmeter measures potential difference (voltage) and must be connected in parallel with the component being measured. It has very high internal resistance."
+  },
+  {
+    "question": "A Wheatstone bridge is in balance when R1=10 Ohm, R2=20 Ohm, and R3=30 Ohm. What is the value of the unknown resistance R4?",
+    "options": [
+      "15 Ohm",
+      "60 Ohm",
+      "45 Ohm",
+      "50 Ohm"
+    ],
+    "answer": 1,
+    "explanation": "The balance condition is R1 / R2 = R3 / R4. \n10 / 20 = 30 / R4\n. R4 = 2 x 30 = 60 Ohm."
+  },
+  {
+    "question": "The EMF of a cell is always greater than its terminal potential difference (V) when the cell is:",
+    "options": [
+      "Connected to an external circuit (discharging).",
+      "Being charged by an external source.",
+      "Not connected to an external circuit (open circuit).",
+      "Short-circuited."
+    ],
+    "answer": 0,
+    "explanation": "When discharging, the terminal voltage is V = EMF - I r. Since I > 0, V is less than the EMF."
+  },
+  {
+    "question": "A 100 Watt light bulb operates on a 220 Volt line. What is the resistance of the bulb?",
+    "options": [
+      "484 Ohm",
+      "2.2 Ohm",
+      "22000 Ohm",
+      "48.4 Ohm"
+    ],
+    "answer": 0,
+    "explanation": "Power P = V² / R. \n\nR = V² / P.\n\n R = (220 V)² / 100 W = \n\n48400 / 100 = 484 Ohm."
+  },
+
+  {
+    "question": "Three identical bulbs are connected in parallel to a voltage source. If one bulb burns out, what happens to the power drawn by the remaining two bulbs?",
+    "options": [
+      "It decreases.",
+      "It increases.",
+      "It remains the same.",
+      "It becomes zero."
+    ],
+    "answer": 2,
+    "explanation": "In a parallel connection, the voltage across each bulb remains the same (equal to the source voltage).\n\n Since P = V²/R, the power drawn by the remaining bulbs is unchanged."
+  },
+  {
+    "question": "What is the primary reason that electric appliances in a household are connected in parallel?",
+    "options": [
+      "To reduce the overall power consumption.",
+      "To ensure the same current flows through all appliances.",
+      "To provide the same operating voltage to all appliances.",
+      "To increase the total resistance of the circuit."
+    ],
+    "answer": 2,
+    "explanation": "Parallel connection ensures all appliances receive the full potential difference (voltage) of the power source and operate independently."
+  },
+  {
+    "question": "A wire of resistance R is cut into three equal pieces. The three pieces are then connected in parallel. What is the equivalent resistance of the parallel combination?",
+    "options": [
+      "R / 3",
+      "3 R",
+      "R / 9",
+      "9 R"
+    ],
+    "answer": 2,
+    "explanation": "Each piece has a resistance R' = R/3. \n\nIn parallel: 1/R_eq = 3 / R'.\n R_eq = R' / 3.\n\n R_eq = (R/3) / 3 = R/9."
+  },
+  {
+    "question": "Which of the following materials is typically used as a dielectric in a capacitor?",
+    "options": [
+      "Copper",
+      "Air",
+      "Graphite",
+      "Iron"
+    ],
+    "answer": 1,
+    "explanation": "A dielectric is an electrical insulator. \n\nAir, paper, or plastic are common dielectrics.\n\n Copper, graphite, and iron are conductors."
+  },
+  {
+    "question": "The primary function of a capacitor in an electronic circuit is to:",
+    "options": [
+      "Oppose the flow of alternating current.",
+      "Dissipate electric energy as heat.",
+      "Store electric charge and energy.",
+      "Maintain a constant current."
+    ],
+    "answer": 2,
+    "explanation": "A capacitor is a device designed to store electric charge and electric potential energy."
+  },
+  {
+    "question": "The capacitance of a parallel plate capacitor is NOT dependent on:",
+    "options": [
+      "The area of the plates.",
+      "The distance between the plates.",
+      "The potential difference across the plates.",
+      "The dielectric constant of the material between the plates."
+    ],
+    "answer": 2,
+    "explanation": "Capacitance C = epsilon_naught k A / d.\n\n It is a geometrical and material property, independent of the voltage V and charge Q."
+  },
+  {
+    "question": "Two capacitors, C1 = 2 microFarad and C2 = 4 microFarad, are connected in series. What is the equivalent capacitance?",
+    "options": [
+      "6 microFarad",
+      "1.33 microFarad",
+      "0.67 microFarad",
+      "8 microFarad"
+    ],
+    "answer": 1,
+    "explanation": "In series: 1/C_eq = 1/C1 + 1/C2 = \n1/2 + 1/4 = 3/4.\n\n C_eq = 4/3 microFarad approx 1.33 microFarad."
+  },
+  {
+    "question": "Two capacitors, C1 = 2 microFarad and C2 = 4 microFarad, are connected in parallel. What is the equivalent capacitance?",
+    "options": [
+      "6 microFarad",
+      "1.33 microFarad",
+      "0.67 microFarad",
+      "8 microFarad"
+    ],
+    "answer": 0,
+    "explanation": "In parallel: C_eq = C1 + C2 = \n2 microFarad + 4 microFarad = 6 microFarad."
+  },
+
+  {
+    "question": "A parallel plate capacitor is connected to a battery (constant voltage). If a dielectric material is inserted between the plates, what happens to the charge stored on the plates?",
+    "options": [
+      "It remains the same.",
+      "It decreases.",
+      "It increases.",
+      "It becomes zero."
+    ],
+    "answer": 2,
+    "explanation": "Since the voltage V is constant (connected to battery), and the capacitance C increases with the dielectric (C' = k C), the charge Q = C V must increase."
+  },
+  {
+    "question": "An isolated parallel plate capacitor has a charge Q. If the distance between the plates is doubled, what happens to the electric field E between the plates?",
+    "options": [
+      "It is doubled.",
+      "It is halved.",
+      "It remains the same.",
+      "It is quadrupled."
+    ],
+    "answer": 2,
+    "explanation": "The electric field E in a parallel plate capacitor is E = charge density / epsilon_naught = Q / (epsilon_naught A).\n\n Since Q and A are constant, E remains the same."
+  },
+  {
+    "question": "The relative permittivity (dielectric constant k) of a material is defined as the ratio of the capacitance with the dielectric (C) to the capacitance without the dielectric (C_0). Which of the following is true for all dielectric materials?",
+    "options": [
+      "k < 1",
+      "k = 1",
+      "k > 1",
+      "k = 0"
+    ],
+    "answer": 2,
+    "explanation": "Any dielectric material inserted between the plates will increase the capacitance, so C > C_0, which means k = C/C_0 is greater than 1."
+  },
+  {
+    "question": "In a series connection of capacitors, which quantity is the same for all capacitors?",
+    "options": [
+      "Potential difference.",
+      "Charge.",
+      "Energy stored.",
+      "Capacitance."
+    ],
+    "answer": 1,
+    "explanation": "In a series connection, the charge Q that flows from the battery is stored on every plate of every capacitor: Q_1 = Q_2 = Q_total."
+  },
+
+  {
+    "question": "The SI unit of resistivity is:",
+    "options": [
+      "Ohm-meter (Ohm m)",
+      "Ohm per meter (Ohm / m)",
+      "Ohm per square meter (Ohm / m^2)",
+      "Ohm (Ohm)"
+    ],
+    "answer": 0,
+    "explanation": "From the formula R = rho L/A, resistivity rho = R A / L.\n\n The unit is (Ohm) (m²) / (m) = Ohm m."
+  },
+  {
+    "question": "In metals, what happens to the resistance as the temperature increases?",
+    "options": [
+      "It decreases.",
+      "It increases.",
+      "It remains the same.",
+      "It first decreases then increases."
+    ],
+    "answer": 1,
+    "explanation": "For most metals, an increase in temperature increases the thermal vibrations of the lattice, which increases the scattering of conduction electrons, thereby increasing the resistance."
+  },
+  {
+    "question": "An ideal voltmeter should have:",
+    "options": [
+      "Zero resistance.",
+      "Infinite resistance.",
+      "Low resistance.",
+      "Resistance equal to the circuit being measured."
+    ],
+    "answer": 1,
+    "explanation": "To measure the potential difference accurately without drawing any current from the circuit, an ideal voltmeter must have infinite internal resistance."
+  },
+  {
+    "question": "The process of charging a body by touching it with another charged body is called:",
+    "options": [
+      "Induction",
+      "Polarization",
+      "Conduction",
+      "Friction"
+    ],
+    "answer": 2,
+    "explanation": "Charging by conduction involves the direct transfer of charge through physical contact."
+  },
+
+  {
+    "question": "The SI unit of electric potential is:",
+    "options": [
+      "Joule per Coulomb (J/C)",
+      "Volt-meter (V m)",
+      "Newton per Coulomb (N/C)",
+      "Coulomb per second (C/s)"
+    ],
+    "answer": 0,
+    "explanation": "Potential V is defined as work (Joule) per unit charge (Coulomb), V = W/Q.\n\n One Joule per Coulomb is defined as one Volt (V)."
+  },
+  {
+    "question": "If an object is positively charged, it has:",
+    "options": [
+      "Gained protons.",
+      "Lost electrons.",
+      "Gained electrons.",
+      "Lost protons."
+    ],
+    "answer": 1,
+    "explanation": "A positive charge results from a deficit of electrons, as protons are tightly bound in the nucleus and are not easily transferred during charging."
+  },
+
+  {
+    "question": "How does an increase in the length of a parallel plate capacitor's wires affect its capacitance?",
+    "options": [
+      "It increases the capacitance.",
+      "It decreases the capacitance.",
+      "It has no effect on the capacitance.",
+      "It depends on the wire material."
+    ],
+    "answer": 2,
+    "explanation": "Capacitance C = epsilon_naught k A / d depends only on the geometry of the plates and the dielectric.\n\n The connecting wires are external and do not affect the capacitance value."
+  },
+  {
+    "question": "In a parallel circuit containing two resistors, R1 and R2, the current I1 through R1 is 2.0 A and the current I2 through R2 is 3.0 A. What is the total current leaving the source, according to Kirchhoff's Junction Rule?",
+    "options": [
+      "5.0 A",
+      "1.0 A",
+      "6.0 A",
+      "0.6 A"
+    ],
+    "answer": 0,
+    "explanation": "The total current I is the sum of the currents in the parallel branches: I = I1 + I2 = \n2.0 A + 3.0 A = 5.0 A."
+  },
+  {
+    "question": "A cell with an EMF of 1.5 V and internal resistance of 0.5 Ohm is connected to an external resistance of 2.5 Ohm. What is the current flowing in the circuit?",
+    "options": [
+      "0.5 A",
+      "0.6 A",
+      "3.0 A",
+      "5.0 A"
+    ],
+    "answer": 0,
+    "explanation": "Total resistance R_total = R_ext + r =\n 2.5 Ohm + 0.5 Ohm = 3.0 Ohm.\n\\n Current I = EMF / R_total =\n 1.5 V / 3.0 Ohm = 0.5 A."
+  },
+  {
+    "question": "What is the direction of conventional electric current?",
+    "options": [
+      "From negative to positive terminal.",
+      "From positive to negative terminal.",
+      "In the direction of electron flow.",
+      "Perpendicular to the electric field."
+    ],
+    "answer": 1,
+    "explanation": "Conventional current is defined as the flow of positive charge, which is from the positive terminal to the negative terminal, opposite to the flow of electrons."
+  },
+  {
+    "question": "If the electric potential is constant throughout a region of space, what can be concluded about the electric field in that region?",
+    "options": [
+      "It is constant and non-zero.",
+      "It is zero.",
+      "It is perpendicular to the potential gradient.",
+      "It is zero only if the charge density is zero."
+    ],
+    "answer": 1,
+    "explanation": "Electric field E is the negative gradient of the potential, E = -dV/dr. \n\nIf the potential V is constant, dV/dr = 0, so the electric field E is zero."
+  },
+  {
+    "question": "The time rate of change of electric energy dissipated in a resistor is called:",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance",
+      "Power"
+    ],
+    "answer": 3,
+    "explanation": "Power is the rate at which energy is transferred or dissipated: P = E/t.\n\n In a resistor, it's the rate of thermal energy dissipation: P = I² R."
+  },
+  {
+    "question": "A potentiometer is mainly used for:",
+    "options": [
+      "Measuring high currents.",
+      "Comparing the EMFs of two cells.",
+      "Measuring the resistance of a conductor.",
+      "Measuring the power dissipated in a circuit."
+    ],
+    "answer": 1,
+    "explanation": "The potentiometer is a device used to measure and compare unknown EMFs or potential differences accurately without drawing any current from the source being measured."
+  },
+  {
+    "question": "The maximum electric field that a dielectric can withstand without breakdown is called:",
+    "options": [
+      "Dielectric constant",
+      "Permittivity",
+      "Dielectric strength",
+      "Capacitance"
+    ],
+    "answer": 2,
+    "explanation": "Dielectric strength is the maximum electric field an insulating material can tolerate before it loses its insulating properties and starts conducting (electric breakdown)."
+  },
+  {
+    "question": "If a capacitor C1 is charged and then disconnected from the battery, and then connected in parallel to an uncharged capacitor C2, what is true about the final charge distribution?",
+    "options": [
+      "C1 retains all its original charge.",
+      "The total charge is divided equally between C1 and C2.",
+      "C1 and C2 have the same final charge.",
+      "The final charge ratio is Q1/Q2 = C1/C2."
+    ],
+    "answer": 3,
+    "explanation": "When connected in parallel, the final potential difference V across both capacitors is equal.\n\n Since Q = C V, the charge is proportional to the capacitance: Q1/Q2 = C1/C2."
+  },
+  {
+    "question": "A charged particle moves perpendicular to a uniform electric field. Which of the following describes the particle's path?",
+    "options": [
+      "Straight line.",
+      "Circle.",
+      "Helix.",
+      "Parabola."
+    ],
+    "answer": 3,
+    "explanation": "The electric force (F = qE) causes constant acceleration in the direction of the field, while the initial velocity is perpendicular. \n\nThis results in a parabolic trajectory."
+  },
+  {
+    "question": "In the equation E = V/d, for a uniform electric field, the unit of V/d is:",
+    "options": [
+      "Volt meter (V m)",
+      "Newton (N)",
+      "Volt per meter (V/m)",
+      "Joule (J)"
+    ],
+    "answer": 2,
+    "explanation": "The electric field E is measured in Newton per Coulomb (N/C), which is dimensionally equivalent to Volt per meter (V/m)."
+  },
+  {
+    "question": "What is the purpose of an electric fuse in a household circuit?",
+    "options": [
+      "To increase the overall voltage.",
+      "To decrease the total power consumption.",
+      "To prevent excessive current flow.",
+      "To change AC to DC."
+    ],
+    "answer": 2,
+    "explanation": "A fuse is a safety device that melts and breaks the circuit when the current exceeds a predetermined safe value, thus preventing damage from overheating."
+  },
+  {
+    "question": "If the net electric flux through a Gaussian surface is zero, it means:",
+    "options": [
+      "The electric field is zero everywhere on the surface.",
+      "The net charge enclosed by the surface is zero.",
+      "The surface is uncharged.",
+      "The electric potential is zero everywhere inside the surface."
+    ],
+    "answer": 1,
+    "explanation": "According to Gauss's Law, Flux = Q_enclosed / epsilon_naught. If the flux is zero, the net charge enclosed must be zero."
+  },
+  {
+    "question": "A cell with an EMF of 1.5 V and internal resistance r is short-circuited. If the current is 5.0 A, what is the internal resistance r?",
+    "options": [
+      "0.3 Ohm",
+      "0.5 Ohm",
+      "7.5 Ohm",
+      "3.3 Ohm"
+    ],
+    "answer": 0,
+    "explanation": "For a short circuit, external resistance is zero. Current I = EMF / r.\n\n r = EMF / I =\n 1.5 V / 5.0 A = 0.3 Ohm."
+  },
+
+  {
+    "question": "In a series circuit containing two capacitors C1 and C2, the voltage across C1 is V1 and across C2 is V2. Which of the following ratios is correct?",
+    "options": [
+      "V1 / V2 = C1 / C2",
+      "V1 / V2 = C2 / C1",
+      "V1 / V2 = (C1 / C2)^2",
+      "V1 / V2 = 1"
+    ],
+    "answer": 1,
+    "explanation": "In series, the charge Q is the same.\n V = Q/C.\n Thus V1 / V2 = (Q/C1) / (Q/C2) =\n C2 / C1."
+  },
+  {
+    "question": "A 20 microFarad capacitor is charged to 100 Volt. How much energy is stored in the capacitor?",
+    "options": [
+      "0.1 Joule",
+      "0.2 Joule",
+      "1.0 Joule",
+      "2.0 Joule"
+    ],
+    "answer": 0,
+    "explanation": "Energy U = 1/2 C V². \n\nU = 1/2 (20 x 10^-6 F) (100 V)^2 \n= 0.1 Joule."
+  },
+
+  {
+    "question": "An ideal ammeter has a resistance of:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "One Ohm",
+      "Depends on the circuit"
+    ],
+    "answer": 0,
+    "explanation": "An ideal ammeter is connected in series and should have zero internal resistance to avoid affecting the current it measures."
+  },
+  {
+    "question": "When a positive charge is released from rest in a non-uniform electric field, the charge will move in the direction of:",
+    "options": [
+      "Increasing electric potential.",
+      "Decreasing electric potential.",
+      "Constant electric potential.",
+      "Opposite to the electric field lines."
+    ],
+    "answer": 1,
+    "explanation": "A positive charge moves in the direction of the electric field lines, which is the direction of decreasing electric potential."
+  },
+  {
+    "question": "The total equivalent capacitance of a parallel connection of four identical capacitors of capacitance C is:",
+    "options": [
+      "C / 4",
+      "4 C",
+      "C^4",
+      "1 / (4 C)"
+    ],
+    "answer": 1,
+    "explanation": "For parallel connection, C_eq = C1 + C2 + C3 + C4.\n\n C_eq = 4 C."
+  },
+  {
+    "question": "What is the ratio of the potential difference to the current in an ohmic conductor?",
+    "options": [
+      "Power",
+      "Resistivity",
+      "Resistance",
+      "Conductivity"
+    ],
+    "answer": 2,
+    "explanation": "Ohm's Law is V = I R.\n\n The ratio V/I is the resistance R."
+  },
+
+  {
+    "question": "In a parallel plate capacitor, a dielectric is inserted while the battery is disconnected. Which quantity remains unchanged?",
+    "options": [
+      "Capacitance",
+      "Voltage",
+      "Charge",
+      "Electric Field"
+    ],
+    "answer": 2,
+    "explanation": "Since the capacitor is disconnected from the battery, it is isolated, and the charge Q on the plates must be conserved (remain unchanged)."
+  },
+  {
+    "question": "A hollow conducting sphere of radius R is charged positively. The electric potential on the outer surface of the sphere is V. What is the electric potential at the center of the sphere?",
+    "options": [
+      "0",
+      "V",
+      "2V",
+      "V/2"
+    ],
+    "answer": 1,
+    "explanation": "The electric potential is constant throughout the volume of a conductor in electrostatic equilibrium, and is equal to the potential on the surface: V_center = V_surface = V."
+  },
+  {
+    "question": "The time constant (tau) of an RC series circuit is given by:",
+    "options": [
+      "R / C",
+      "C / R",
+      "R C",
+      "R + C"
+    ],
+    "answer": 2,
+    "explanation": "The time constant tau of an RC circuit is the product of the resistance R and the capacitance C: tau = R C.\n\n It represents the time taken for the charge to reach 63 percent of its maximum value."
+  },
+
+  {
+    "question": "Two cells, each with EMF of 1.5 V and internal resistance of 0.1 Ohm, are connected in series aiding (positive to negative). What is the total EMF of the combination?",
+    "options": [
+      "1.5 Volt",
+      "3.0 Volt",
+      "0.0 Volt",
+      "0.2 Volt"
+    ],
+    "answer": 1,
+    "explanation": "In series aiding, the total EMF is the sum of the individual EMFs: EMF_total = EMF1 + EMF2 =\n 1.5 V + 1.5 V = 3.0 Volt.\n\n The total internal resistance is 0.2 Ohm."
+  },
+
+
+  {
+    "question": "Kirchhoff's Loop Rule, when applied to a closed circuit, states that the algebraic sum of:",
+    "options": [
+      "All currents entering a junction is zero.",
+      "The change in potential around the loop is zero.",
+      "The power supplied equals the power consumed.",
+      "The net charge is conserved."
+    ],
+    "answer": 1,
+    "explanation": "The Loop Rule states that the algebraic sum of the changes in potential (voltage drops and EMFs) around any closed loop in a circuit must be zero."
+  },
+  {
+    "question": "If current density J in a conductor is related to the electric field E by J = sigma E, the quantity sigma (conductivity) is the reciprocal of:",
+    "options": [
+      "Resistance R",
+      "Resistivity rho",
+      "Potential V",
+      "Current I"
+    ],
+    "answer": 1,
+    "explanation": "Conductivity (sigma) is the reciprocal of resistivity (rho), where resistivity is the intrinsic property opposing current flow. J = E/rho."
+  },
+  {
+    "question": "The resistivity of a conductor is:",
+    "options": [
+      "Dependent on its length and cross-sectional area.",
+      "Independent of its temperature.",
+      "A constant for a given material and temperature.",
+      "The reciprocal of resistance."
+    ],
+    "answer": 2,
+    "explanation": "Resistivity (rho) is an intrinsic property of the material.\n\n It depends on the type of material and temperature, but not on the geometry (length or area) of the sample."
+  },
+
+  {
+    "question": "Electric field lines and equipotential surfaces are related such that:",
+    "options": [
+      "Field lines are parallel to equipotential surfaces.",
+      "Field lines are perpendicular to equipotential surfaces.",
+      "Field lines only intersect equipotential surfaces at acute angles.",
+      "There is no direct relationship between them."
+    ],
+    "answer": 1,
+    "explanation": "The electric field E is always perpendicular to the equipotential surface at every point. \n\nThe electric force does no work on a charge moving along an equipotential surface."
+  },
+  {
+    "question": "The electric potential of the Earth is conventionally taken to be:",
+    "options": [
+      "Positive (+infinity)",
+      "Negative (-infinity)",
+      "Zero",
+      "Proportional to the charge on the Earth"
+    ],
+    "answer": 2,
+    "explanation": "The Earth is so large that it can be considered a vast source or sink of electrons. \n\nIt is taken as the reference point for electric potential, conventionally set to zero."
+  },
+  {
+    "question": "A positive charge q is placed in an electric field E. The force F experienced by the charge is given by:",
+    "options": [
+      "F = E / q",
+      "F = q / E",
+      "F = q E",
+      "F = q^2 E"
+    ],
+    "answer": 2,
+    "explanation": "The electric field is defined as force per unit charge: E = F / q.\n\n Therefore, the force is F = q E."
+  },
+  {
+    "question": "When a dielectric material is inserted between the plates of a capacitor, the electric field between the plates (E) changes to E/k, where k is the dielectric constant. This reduction is primarily due to:",
+    "options": [
+      "Corona discharge.",
+      "The magnetic field induced in the dielectric.",
+      "Polarization charges induced on the dielectric surface.",
+      "Increased conductivity of the dielectric."
+    ],
+    "answer": 2,
+    "explanation": "The external electric field polarizes the dielectric, inducing surface charges of opposite sign that create an internal electric field that opposes the external field, thus reducing the net field."
+  },
+  {
+    "question": "The electron-volt (eV) is a unit of:",
+    "options": [
+      "Current",
+      "Electric potential",
+      "Energy",
+      "Charge"
+    ],
+    "answer": 2,
+    "explanation": "An electron-volt is the energy gained by an electron (or any particle with elementary charge e) when accelerated through an electric potential difference of one Volt. 1 eV = 1.6 x 10^-19 Joule."
+  },
+  {
+    "question": "A non-ideal battery is connected to a resistor R. If the terminal voltage V is equal to the EMF, the current I in the circuit must be:",
+    "options": [
+      "Non-zero and small.",
+      "Zero.",
+      "Non-zero and large.",
+      "Equal to the EMF divided by the internal resistance."
+    ],
+    "answer": 1,
+    "explanation": "The terminal voltage V = EMF - I r.\n\n If V = EMF, then I r must be zero. Since the internal resistance r is non-zero, the current I must be zero (open circuit)."
+  },
+  {
+    "question": "The fundamental reason why electric charge is quantized is that:",
+    "options": [
+      "Charge is always conserved.",
+      "The gravitational force is much weaker than the electric force.",
+      "Charge can only exist as discrete multiples of the elementary charge e.",
+      "Like charges repel each other."
+    ],
+    "answer": 2,
+    "explanation": "Charge quantization means that any observable electric charge Q is an integer multiple of the elementary charge e (Q = n e)."
+  },
+
+
+  {
+    "question": "Compared to connecting identical light bulbs in series, connecting them in parallel to the same voltage source will result in:",
+    "options": [
+      "Less total current and dimmer bulbs.",
+      "Less total current and brighter bulbs.",
+      "More total current and dimmer bulbs.",
+      "More total current and brighter bulbs."
+    ],
+    "answer": 3,
+    "explanation": "Parallel connection has lower total resistance, hence more total current.\n\n Since each bulb receives the full voltage, the power (P = V²/R) and brightness of each individual bulb are higher than in the series connection."
+  },
+  {
+    "question": "Which of the following expressions is NOT equivalent to electric power P?",
+    "options": [
+      "P = I V",
+      "P = I^2 R",
+      "P = V^2 / R",
+      "P = R / I^2"
+    ],
+    "answer": 3,
+    "explanation": "The standard power formulas are P = I V, P = I² R, and P = V² / R.\n\n The expression P = R / I² is incorrect."
+  },
+
+  {
+    "question": "To convert a galvanometer into a voltmeter, a very high resistance (multiplier) must be connected:",
+    "options": [
+      "In series with the galvanometer.",
+      "In parallel with the galvanometer.",
+      "In parallel with the power supply.",
+      "In series with the external circuit."
+    ],
+    "answer": 0,
+    "explanation": "A voltmeter must have high total resistance. Connecting a high multiplier resistance in series limits the current through the sensitive galvanometer coil when placed across a high potential difference."
+  },
+  {
+    "question": "In a DC circuit that has reached steady state, a capacitor acts as an:",
+    "options": [
+      "Ideal resistor.",
+      "Open circuit.",
+      "Ideal wire.",
+      "Inductor."
+    ],
+    "answer": 1,
+    "explanation": "In a steady-state DC circuit, a capacitor is fully charged, and no more current flows through its branch.\n\n It acts as an open circuit (infinite resistance)."
+  },
+  {
+    "question": "What is the work done by the electric field when a charge is moved along an equipotential surface?",
+    "options": [
+      "Non-zero and positive.",
+      "Non-zero and negative.",
+      "Zero.",
+      "Depends on the magnitude of the charge."
+    ],
+    "answer": 2,
+    "explanation": "Work done W = -q Delta V.\n\n Since the potential difference (Delta V) between any two points on an equipotential surface is zero, the work done is zero."
+  },
+  {
+    "question": "The inverse square nature of Coulomb's law is mathematically similar to that of:",
+    "options": [
+      "Newton's Law of Viscosity.",
+      "Ohm's Law.",
+      "Newton's Law of Universal Gravitation.",
+      "Hooke's Law."
+    ],
+    "answer": 2,
+    "explanation": "Both Coulomb's Law (electric force) and Newton's Law of Universal Gravitation (gravitational force) state that the force is inversely proportional to the square of the distance between the two interacting bodies."
+  },
+  {
+    "question": "In a conductor, the electric charges that are free to move and responsible for current flow are:",
+    "options": [
+      "Protons.",
+      "Bound electrons.",
+      "Positive ions.",
+      "Conduction electrons."
+    ],
+    "answer": 3,
+    "explanation": "In metallic conductors, the outermost valence electrons are delocalized and free to move throughout the material, forming a 'sea of electrons' which are the conduction electrons."
+  },
+
+
+  {
+    "question": "A potentiometer works on the principle that the potential drop across any length of a uniform wire carrying a constant current is:",
+    "options": [
+      "Inversely proportional to its resistance.",
+      "Directly proportional to the resistance of the wire.",
+      "Independent of the length of the wire.",
+      "Independent of the current."
+    ],
+    "answer": 1,
+    "explanation": "From Ohm's Law, V = I R.\n\n Since R is proportional to length L (R = rho L/A) and I is constant, the potential drop V is directly proportional to the resistance, and thus the length, of the wire."
+  },
+
+  {
+    "question": "In a series circuit consisting of a battery and three different resistors, R1, R2, and R3, which quantity is the same across all three resistors?",
+    "options": [
+      "The voltage drop across them.",
+      "The electric current passing through them.",
+      "The power dissipated by them.",
+      "The resistance value."
+    ],
+    "answer": 1,
+    "explanation": "In a series circuit, the current is the same at all points in the circuit: \n\nI1 = I2 = I3 = I_total."
+  },
+  {
+    "question": "The unit Farad (F) is equivalent to:",
+    "options": [
+      "Joule per Volt (J/V)",
+      "Coulomb per Volt (C/V)",
+      "Volt per Coulomb (V/C)",
+      "Ohm second (Ohm s)"
+    ],
+    "answer": 1,
+    "explanation": "Capacitance C = Q / V. \n\nThe unit Farad is equal to Coulomb per Volt (C/V)."
+  },
+
+
+  {
+    "question": "The unit of electric flux (Phi_E) is:",
+    "options": [
+      "Volt meter (V m)",
+      "Newton per Coulomb (N/C)",
+      "Volt per meter (V/m)",
+      "Newton meter squared per Coulomb (N m^2/C)"
+    ],
+    "answer": 3,
+    "explanation": "Electric flux Phi_E = E A.\n\n The unit is (N/C) (m²) = N m²/C."
+  },
+
+  {
+    "question": "An isolated positive point charge is surrounded by a spherical Gaussian surface. If the radius of the sphere is doubled, the electric flux through the surface will:",
+    "options": [
+      "Be halved.",
+      "Be doubled.",
+      "Remain the same.",
+      "Be quadrupled."
+    ],
+    "answer": 2,
+    "explanation": "According to Gauss's Law, the electric flux depends only on the net charge enclosed, not on the size or shape of the Gaussian surface.\n The flux remains the same."
+  },
+  {
+    "question": "The current carried by a conductor is proportional to:",
+    "options": [
+      "The resistance R.",
+      "The potential difference V.",
+      "The cross-sectional area A.",
+      "The length L."
+    ],
+    "answer": 1,
+    "explanation": "According to Ohm's Law (V = I R), the current I is directly proportional to the potential difference V (for a fixed resistance R)."
+  },
+  {
+    "question": "If a dielectric is inserted into a capacitor while the battery is connected, the voltage V across the plates will:",
+    "options": [
+      "Increase.",
+      "Decrease.",
+      "Remain the same.",
+      "Be halved."
+    ],
+    "answer": 2,
+    "explanation": "Since the battery is connected, the capacitor remains connected to a source of constant potential difference (voltage V).\n The voltage remains the same."
+  },
+
+  {
+    "question": "The total equivalent resistance of two unequal resistors connected in parallel is always:",
+    "options": [
+      "Greater than the larger resistance.",
+      "Less than the smaller resistance.",
+      "Equal to the average of the two resistances.",
+      "Equal to the sum of the two resistances."
+    ],
+    "answer": 1,
+    "explanation": "For any parallel combination, the equivalent resistance is always smaller than the smallest individual resistance."
+  },
+
+  {
+    "question": "The electric field inside a non-conducting charged sphere of radius R varies with the distance r from the center as:",
+    "options": [
+      "E is proportional to 1 / r²",
+      "E is proportional to r",
+      "E is proportional to r²",
+      "E is zero"
+    ],
+    "answer": 1,
+    "explanation": "For a uniformly charged non-conducting sphere, Gauss's law shows that E is proportional to r inside the sphere (r < R)."
+  },
+
+
+  {
+    "question": "The phenomenon where charge accumulates on the surface of a conductor is best explained by:",
+    "options": [
+      "Ohm's Law.",
+      "The conservation of energy.",
+      "The inverse square law.",
+      "The mutual repulsion of like charges."
+    ],
+    "answer": 3,
+    "explanation": "The mutual repulsion of like charges (which are free to move in a conductor) pushes them as far apart as possible, which is the outer surface of the conductor."
+  },
+
+  {
+    "question": "A system of three point charges has an electric potential energy U. If the charges are moved so that the distance between every pair is halved, the new potential energy will be:",
+    "options": [
+      "U / 2",
+      "2 U",
+      "U / 4",
+      "4 U"
+    ],
+    "answer": 1,
+    "explanation": "Electric potential energy U is proportional to 1/r (U = k q1 q2 / r).\n\n If all distances r are halved, the potential energy is doubled: U' is proportional to 1 / (r/2), so U' = 2 U."
+  }
+]

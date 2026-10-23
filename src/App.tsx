@@ -145,6 +145,7 @@ function AppContent() {
         {currentView === 'admin' && (
           <AdminDashboard
             onNavigate={handleNavigate}
+            onOpenAuth={handleOpenAuth}
           />
         )}
       </main>

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Which of the following statement defines geometric progression?",
+    "options": [
+      "It is a sequence in which the difference between consecutive terms is a positive constant.",
+      "It is a sequence in which the difference between consecutive terms is a non-zero constant.",
+      "It is a sequence in which the ratio between consecutive terms is a positive constant.",
+      "It is a sequence in which the ratio between consecutive terms is a nonzero constant."
+    ],
+    "answer": 3,
+    "explanation": "A geometric progression (or geometric sequence) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio (r). \n\nThis means the ratio between consecutive terms is a nonzero constant."
+  },
+  {
+    "question": "Given the sequence 3, 6, 12, 24, .... Then what is the 10th partial sum of the sequence?",
+    "options": [
+      "3075",
+      "1023",
+      "1027",
+      "3069"
+    ],
+    "answer": 3,
+    "explanation": "Step 1: Identify the sequence type. The sequence is geometric with first term a = 3 and common ratio r = 2.\n\nStep 2: Use the formula for the sum of first n terms of a geometric sequence: S_n = a(r^n - 1)/(r - 1)\n\nStep 3: Substitute values for n = 10:\n\nS_10 = 3(2^10 - 1)/(2 - 1) = 3(1024 - 1)/1 = 3 × 1023 = 3069."
+  },
+
+  {
+    "question": "Which of the following statement is true about the given infinite series?",
+    "options": [
+      "A ∑ from (n= 1 to n=∞) (4/3)ⁿ is convergent.",
+      "B ∑ from (n= 1 to n=∞)  2ⁿ is divergent.",
+      "C ∑ from (n= 1 to n=∞) (-1)ⁿ (2/5)ⁿ is divergent.",
+      "D ∑ from (n= 1 to n=∞) (-1)ⁿ (2)ⁿ  is convergent."
+    ],
+    "answer": 1,
+    "explanation": "A geometric series converges only if |r| < 1.\n\n2ⁿ grows without bound, so the series is divergent (true statement)"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which one of the following is an onto function from ℝ onto ℝ?",
+    "options": [
+      "A. f(x) = |x - 1|",
+      "B. f(x) = √(x² + 1)",
+      "C. f(x) = 2x - 3x²",
+      "D. f(x) = 5x³ + 1"
+    ],
+    "answer": 3,
+    "explanation": " A function f: ℝ → ℝ is onto if its range covers all real numbers. \n\n- f(x) = |x - 1| → range [0, ∞) ❌\n\n- f(x) = √(x² + 1) → range [1, ∞) ❌\n\n- f(x) = 2x - 3x² → quadratic with maximum → range limited ❌\n\n- f(x) = 5x³ + 1 → cubic → range ℝ ✅. Therefore, option D is onto."
+  },
+  {
+    "question": "Which one of the following pairs of functions is an inverse of each other in their respective domains?",
+    "options": [
+      "A. f(x) = x³ - 1 and g(x) = ∛(x + 1)",
+      "B. f(x) = x + 1/ x-1 and g(x) = x - 1/x + 1",
+      "C. f(x) =∛(x + 1) and g(x) = x² - 9",
+      "D. f(x) = x⁵  and g(x) = 1/x⁵"
+    ],
+    "answer": 0,
+    "explanation": "Two functions f and g are inverses if f(g(x)) = x and g(f(x)) = x.\n\n For option A: f(g(x)) = (∛(x + 1))³ - 1 = x and g(f(x)) = ∛((x³ - 1) + 1) = x.\n\n Therefore, option A is correct.."
+  }
+]

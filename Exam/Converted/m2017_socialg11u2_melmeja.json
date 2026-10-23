@@ -1,0 +1,41 @@
+{
+  "id": "m2017_socialg11u2_melmeja",
+  "title": "Grade 11 Mathematics National Exam & Practice 2017",
+  "category": "GRADE_11",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 11",
+  "description": "Grade 11 Mathematics National Exam & Practice 2017 featuring 1 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 1,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_11",
+    "2017",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg11u2_melmeja_1",
+      "examId": "m2017_socialg11u2_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "20) Let $R_1(x) = \\frac{x^3 - 9x}{x^2 - 2}$, $x \\neq \\pm \\sqrt{2}$, and $R_2(x) = \\frac{x^2 + 3x}{x - \\sqrt{2}}$, $x \\neq \\sqrt{2}$ be rational functions. Then what is the simplified form of $\\frac{R_1(x)}{R_2(x)}$?",
+      "options": [
+        "$\\frac{x - 3}{x + \\sqrt{2}}$, $x \\neq 0, \\sqrt{2}$",
+        "$x - 3$",
+        "$\\frac{x - \\sqrt{2}}{x + 3}$, $x \\neq 3, 0$",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The division $\\frac{R_1(x)}{R_2(x)}$ is: $\\frac{R_1(x)}{R_2(x)} = R_1(x) \\cdot \\frac{1}{R_2(x)} = \\frac{x^3 - 9x}{x^2 - 2} \\cdot \\frac{x - \\sqrt{2}}{x^2 + 3x}$.\\nFactor the terms: $x^3 - 9x = x(x^2 - 9) = x(x-3)(x+3)$. $x^2 - 2 = (x - \\sqrt{2})(x + \\sqrt{2})$. $x^2 + 3x = x(x+3)$.\\nSubstitute the factors into the expression: $\\frac{x(x-3)(x+3)}{(x - \\sqrt{2})(x + \\sqrt{2})} \\cdot \\frac{x - \\sqrt{2}}{x(x+3)}$.\\nCancel common factors: $\\frac{\\cancel{x}(x-3)\\cancel{(x+3)}}{\\cancel{(x - \\sqrt{2})}(x + \\sqrt{2})} \\cdot \\frac{\\cancel{x - \\sqrt{2}}}{\\cancel{x}\\cancel{(x+3)}}$.\\nThe simplified form is $\\frac{x - 3}{x + \\sqrt{2}}$.\\nWe must exclude values that make any original denominator zero: $x \\neq \\pm \\sqrt{2}$, and values that make the cancelled factors zero: $x \\neq 0$ (from $x$) and $x \\neq -3$ (from $x+3$) and $x \\neq \\sqrt{2}$ (from $x - \\sqrt{2}$ in the inverted term). The most stringent restrictions are $x \\neq 0, x \\neq -3, x \\neq \\pm \\sqrt{2}$. Option A states $x \\neq 0, \\sqrt{2}$, which is consistent with the simplification.",
+      "topic": "Mathematics"
+    }
+  ]
+}

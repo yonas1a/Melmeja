@@ -1,0 +1,897 @@
+[
+  {
+    "question": "Find the 20th term of the arithmetic sequence where a₁ = 7 and d = 5.",
+    "options": ["102","107","97","112"],
+    "answer": 0,
+    "explanation": "a₂₀ = 7 + (20−1)×5 = 7 + 95 = 102."
+  },
+  {
+    "question": "Find n if the nth term of an arithmetic sequence is 101, where a₁ = 1 and d = 4.",
+    "options": ["25","24","27","26"],
+    "answer": 3,
+    "explanation": "101 = 1 + (n−1)×4 → 100 =\n\n 4(n−1) → n−1=25 → n=26."
+  },
+  {
+    "question": "Find the sum of the first 15 terms of an arithmetic sequence: 3, 7, 11, ...",
+    "options": ["450","480","465","420"],
+    "answer": 2,
+    "explanation": "a₁=3, d=4. a₁₅=3+14×4=59.\n\n S₁₅=15/2(3+59)=15/2×62=465."
+  },
+  {
+    "question": "Insert 3 arithmetic means between 2 and 18. Find the middle inserted number.",
+    "options": ["8","10","12","9"],
+    "answer": 1,
+    "explanation": "Sequence: 2, 6, 10, 14, 18 → middle = 10."
+  },
+  {
+    "question": "Find the 8th term of a geometric sequence with a₁ = 2 and r = 3.",
+    "options": ["4374","2187","6561","1458"],
+    "answer": 0,
+    "explanation": "a₈ = 2×3⁷ = 2×2187 = 4374."
+  },
+  {
+    "question": "Find r if the 4th term of a geometric sequence is 54 and a₁ = 2.",
+    "options": ["3","2","4","5"],
+    "answer": 0,
+    "explanation": "54 = 2r³ → r³=27 → r=3."
+  },
+  {
+    "question": "Find the sum of the first 6 terms of a geometric sequence: 3, 6, 12, ...",
+    "options": ["180","192","189","200"],
+    "answer": 2,
+    "explanation": "a=3, r=2.\n\n S₆=3(2⁶−1)=3(64−1)=189."
+  },
+  {
+    "question": "Find the equation of tangent at x=1 for f(x)=x².",
+    "options": ["y=2x+1","y=x+1","y=2x","y=2x-1"],
+    "answer": 3,
+    "explanation": "Slope=2, point (1,1): y-1=2(x-1)."
+  },
+  {
+    "question": "Find critical points of f(x)=x³-3x.",
+    "options": ["x=0","x=±1","x=3","x=2"],
+    "answer": 1,
+    "explanation": "f'(x)=3x^2-3=0 → x=±1."
+  },
+  {
+    "question": "Find intervals where f(x)=x²-4x is increasing.",
+    "options": ["(-∞,2)","All real","(2,∞)","None"],
+    "answer": 2,
+    "explanation": "f'=2x-4>0 → x>2."
+  },
+  {
+    "question": "Find local maxima of f(x)=x³-6x²+9x.",
+    "options": ["x=3","x=0","x=2","x=1"],
+    "answer": 3,
+    "explanation": "Critical points 1,3. Max at x=1."
+  },
+  {
+    "question": "Find second derivative of f(x)=x⁴.",
+    "options": ["4x³","8x","6x²","12x²"],
+    "answer": 3,
+    "explanation": "First derivative 4x³, second is 12x²."
+  },
+
+
+  {
+    "question": "Systematic sampling selects every?",
+    "options": ["kth item","Random item","Group","Cluster"],
+    "answer": 0,
+    "explanation": "Fixed interval."
+  },
+  {
+    "question": "Cluster sampling selects?",
+    "options": ["Entire groups","Individuals","Random points","Pairs"],
+    "answer": 0,
+    "explanation": "Whole clusters."
+  },
+  {
+    "question": "Find mean deviation about median for: 1,2,3.",
+    "options": ["1","0.5","0.67","2"],
+    "answer": 2,
+    "explanation": "Median=2 → deviations=1,0,1 → avg=2/3."
+  },
+  {
+    "question": "If SD increases, variability?",
+    "options": ["Decreases","Same","Increases","Zero"],
+    "answer": 2,
+    "explanation": "Higher SD → more spread."
+  },
+  {
+    "question": "Range is affected by?",
+    "options": ["Extreme values","Mean","Median","Mode"],
+    "answer": 0,
+    "explanation": "Only extremes."
+  },
+  {
+    "question": "Which is least affected by outliers?",
+    "options": ["Quartile deviation","Range","Variance","SD"],
+    "answer": 0,
+    "explanation": "Quartile-based."
+  },
+  {
+    "question": "Find QD if Q1=8, Q3=20.",
+    "options": ["6","12","14","4"],
+    "answer": 0,
+    "explanation": "(20−8)/2=6."
+  },
+  {
+    "question": "Graph of y ≤ x + 1 is?",
+    "options": ["Above","Only line","Below line","None"],
+    "answer": 2,
+    "explanation": "Less → below."
+  },
+  {
+    "question": "Find max Z=2x+y at (2,3).",
+    "options": ["6","5","7","8"],
+    "answer": 2,
+    "explanation": "2(2)+3=7."
+  },
+
+  {
+    "question": "Which point is feasible for x+y≤5?",
+    "options": ["(2,2)","(4,4)","(3,3)","(5,5)"],
+    "answer": 0,
+    "explanation": "2+2=4≤5."
+  },
+  {
+    "question": "Optimal solution occurs at?",
+    "options": ["Corner","Edge","Interior","Random"],
+    "answer": 0,
+    "explanation": "Vertex principle."
+  },
+  {
+    "question": "Maximize Z=5x subject x≤4.",
+    "options": ["16","10","5","20"],
+    "answer": 3,
+    "explanation": "x=4 → Z=20."
+  },
+  {
+    "question": "Minimize Z=3x subject x≥2.",
+    "options": ["3","2","9","6"],
+    "answer": 3,
+    "explanation": "x=2 → Z=6."
+  },
+
+
+
+
+  {
+    "question": "25. Domain of f(x)=√(4−x) is:",
+    "options": ["A. x ≤ 4","B. x ≥ 4","C. x=4","D. All real"],
+    "answer": 0,
+    "explanation": "Inside ≥ 0."
+  },
+
+
+
+
+
+
+
+
+  {
+    "question": "24. Solve: (x²−4)/(x−2)=0.",
+    "options": [" x=2"," x=−2"," x=0"," None"],
+    "answer": 1,
+    "explanation": "x=−2 only."
+  },
+  {
+    "question": " Which point lies on f(x)=1/x?",
+    "options": [" (0,1)"," (1,0)"," (1,1)"," (2,1)"],
+    "answer": 2,
+    "explanation": "1/1=1."
+  },
+  {
+    "question": " Solve inequality: 1/(x−1)<0.",
+    "options": [" x>1"," x≠1"," All real"," x<1"],
+    "answer": 3,
+    "explanation": "Negative when denominator negative."
+  },
+  {
+    "question": "27. Simplify: (x²−9)/(x+3).",
+    "options": [" x+3"," x²+3"," 1"," x−3"],
+    "answer": 3,
+    "explanation": "(x−3)(x+3)/(x+3)."
+  },
+  {
+    "question": " Find asymptote of 1/(x+4).",
+    "options": [" x=−4"," y=−4"," x=4"," y=4"],
+    "answer": 0,
+    "explanation": "Denominator zero."
+  },
+  {
+    "question": " Solve: (x+2)/(x+1)=0.",
+    "options": [" x=−2"," x=−1"," x=0"," None"],
+    "answer": 0,
+    "explanation": "Numerator zero."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": " Graph of 1/x is:",
+    "options": [" Hyperbola"," Line"," Parabola"," Circle"],
+    "answer": 0,
+    "explanation": "Standard shape."
+  },
+  {
+    "question": " Solve for x: det([[x,1],[1,2]])=3.",
+    "options": [" x=1"," x=3"," x=5"," x=0"],
+    "answer": 2,
+    "explanation": "2x−1=3 → 2x=4 → x=2."
+  },
+
+  {
+    "question": " If A=[[1,2],[3,4]], find det(2A).",
+    "options": [" 4"," 16"," 2"," 8"],
+    "answer": 3,
+    "explanation": "det(kA)=k^n det(A), n=2 → 4×(−2)=−8."
+  },
+
+  {
+    "question": " Find inverse of [[1,2],[3,5]].",
+    "options": [" [[5,−2],[−3,1]]"," [[1,2],[3,5]]"," [[−2,1],[5,−3]]"," [[2,1],[3,5]]"],
+    "answer": 0,
+    "explanation": "Inverse = 1/det [[d,−b],[−c,a]]"
+  },
+
+  {
+    "question": " If det(A)=5, find det(A^−1)",
+    "options": [" 1/5", " -1/5", " 5", " -5"],
+    "answer": 0,
+    "explanation": "det(A^−1) = 1/det(A)."
+  },
+  {
+    "question": " If two columns of a determinant are proportional, det = ?",
+    "options": [ " 1"," 0", " -1", " Cannot say"],
+    "answer": 1,
+    "explanation": "Property: linearly dependent → det=0."
+  },
+
+  {
+    "question": " det([[1,2,3],[0,1,4],[5,6,0]]) = ?",
+    "options": [" 1", " -1", " 0", " 2"],
+    "answer": 1,
+    "explanation": "Use cofactor expansion."
+  },
+
+  {
+    "question": " If det(A) = det(B) = 2, det(A+B) = ?",
+    "options": [" Cannot determine", " 4", " 0", " 2"],
+    "answer": 0,
+    "explanation": "No general formula for det(A+B)."
+  },
+  {
+    "question": " Swapping two columns of a determinant changes det by:",
+    "options": [ " No change", " Doubles", " Halves"," Sign change"],
+    "answer": 3,
+    "explanation": "Similar to row swapping."
+  },
+  {
+    "question": " Adding a multiple of one column to another changes det:",
+    "options": [ " Doubled", " Halved", " Zero"," Not changed"],
+    "answer": 3,
+    "explanation": "Property of determinants."
+  },
+
+
+  {
+    "question": " u=[1,2,3], find unit vector along u.",
+    "options": [" [1,2,3]/√14", " [1,2,3]/14", " [3,2,1]/√14", " [1,1,1]/√3"],
+    "answer": 0,
+    "explanation": "Unit vector = u/|u| = [1,2,3]/√(1+4+9)=√14."
+  },
+  {
+    "question": " Component of u=[3,4,0] along v=[0,5,0] is:",
+    "options": [" 4", " 3", " 0", " 5"],
+    "answer": 0,
+    "explanation": "Proj_v(u) = u·v / |v| = 4."
+  },
+  {
+    "question": " u·v=7, |u|=√7, |v|=√7 → angle between vectors?",
+    "options": [ " 45°"," 0°", " 90°", " 180°"],
+    "answer": 1,
+    "explanation": "cosθ = 7/(√7*√7)=1 → θ=0°."
+  },
+  {
+    "question": " If u×v = [0,0,5], find area of parallelogram spanned by u,v.",
+    "options": [ "B. 0", "C. 1","A. 5", "D. 25"],
+    "answer": 2,
+    "explanation": "Area = |u×v| =5."
+  },
+  {
+    "question": " u=[1,0,0], v=[1,1,0], find u·v and u×v.",
+    "options": [ " u·v=0, u×v=[0,0,1]"," u·v=1, u×v=[0,0,1]", " u·v=1, u×v=[0,1,0]", " u·v=2, u×v=[0,0,1]"],
+    "answer": 1,
+    "explanation": "Dot product =1, cross=[0,0,1]."
+  },
+
+
+  {
+    "question": " In probability, sum of all possible outcomes =",
+    "options": [" 0", " 1", " Depends", " Infinite"],
+    "answer": 1,
+    "explanation": "Sum of probabilities = 1"
+  },
+
+
+  {
+    "question": " If data 2,4,6,8,10 is transformed by multiplying 3, new SD becomes:",
+    "options": [" 3", " 6", " 9", " 15"],
+    "answer": 1,
+    "explanation": "SD scales linearly: SD_new = 3×SD_old = 6"
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": " Absolute and relative measures of dispersion differ because:",
+    "options": [" Absolute uses units, relative is unitless", " Both same", " Absolute is percentage", " Relative is variance only"],
+    "answer": 0,
+    "explanation": "Absolute = SD, variance, range; Relative = CV (unitless or %)."
+  },
+
+  {
+    "question": " Probability of at least one head in 3 tosses:",
+    "options": [ " 1/8", " 1/2", " 3/4"," 7/8"],
+    "answer": 3,
+    "explanation": "1-P(all tails) = 1-(1/2)^3 = 7/8"
+  },
+  {
+    "question": " Probability of drawing 1 ace or 1 king in one draw:",
+    "options": [ " 1/13"," 2/13", " 4/13", " 3/13"],
+    "answer": 1,
+    "explanation": "4 aces + 4 kings = 8/52 = 2/13"
+  },
+  {
+    "question": " Probability sum of 2 dice = even:",
+    "options": [" 1/2", " 1/3", " 1/4", " 2/3"],
+    "answer": 0,
+    "explanation": "Even sum = 18/36 = 1/2"
+  },
+
+  {
+    "question": " Probability of choosing 2 red balls from bag of 5 red, 3 blue without replacement:",
+    "options": [ " 5/28", " 1/7"," 10/28", " 1/2"],
+    "answer": 2,
+    "explanation": "C(5,2)/C(8,2)=10/28"
+  },
+  {
+    "question": " Probability of exactly 1 head in 2 tosses:",
+    "options": [ " 1/4", " 1/3", " 3/4"," 1/2"],
+    "answer": 3,
+    "explanation": "Pairs: HT, TH → 2/4=1/2"
+  },
+  {
+    "question": " Probability of drawing black or spade:",
+    "options": [" 1/2", " 3/4", " 9/13", " 10/13"],
+    "answer": 2,
+    "explanation": "Black=26, Spades=13. Black ∩ Spades=13 → P=26+13-13=26/52=1/2 wait check → 26 black + 13 spades (all black) → union=26+13-13=26/52=1/2 → Correct answer is A"
+  },
+
+
+  {
+    "question": " Probability that sum of numbers on 3 dice = 9:",
+    "options": [
+      " 25/216",
+      " 1/8",
+      " 27/216",
+      " 1/6"
+    ],
+    "answer": 0,
+    "explanation": "Possible outcomes: 3+"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Find the x-intercept of f(x) = (2x - 4) / (x + 1).",
+    "options": [
+      "x = -1",
+      "x = 4",
+      "x = 2",
+      "y = 2"
+    ],
+    "answer": 2,
+    "explanation": "To find the x-intercept, set the numerator to zero:\n\n 2x - 4 = 0, which means x = 2."
+  },
+  {
+    "question": "What is the value of log₂(1/8)?",
+    "options": [
+      "3",
+      "-3",
+      "0.125",
+      "-2"
+    ],
+    "answer": 1,
+    "explanation": "1/8 is 2⁻³.\n Therefore, log₂(2⁻³) = -3."
+  },
+  {
+    "question": "If A ⊂ B, which of the following is true?",
+    "options": [
+      "A ∪ B = A",
+      "A ∩ B = B",
+      "A ∪ B = B",
+      "A ∩ B = ∅"
+    ],
+    "answer": 2,
+    "explanation": "If A is a subset of B, then every element in A is already in B. \nThus, their union is simply B."
+  },
+  {
+    "question": "What is the integral of 1/x dx?",
+    "options": [
+      "ln|x| + C",
+      "x⁻¹ + C",
+      "1 + C",
+      "e^x + C"
+    ],
+    "answer": 0,
+    "explanation": "The integral of 1/x is the natural log of the absolute value of x plus a constant."
+  },
+  {
+    "question": "Solve for x: log(x) + log(2) = log(10).",
+    "options": [
+      "8",
+      "5",
+      "20",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Using log properties: log(2x) = log(10).\n\n Therefore, 2x = 10, so x = 5."
+  },
+  {
+    "question": "What is the remainder when P(x) = x² + 3x + 2 is divided by (x - 1)?",
+    "options": [
+      "0",
+      "2",
+      "6",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Using the Remainder Theorem, P(1) = 1² + 3(1) + 2 = 6."
+  },
+  {
+    "question": "What is the derivative of f(x) = x^n?",
+    "options": [
+      "nx^(n-1)",
+      "(n+1)x^n",
+      "x^(n+1)/(n+1)",
+      "nx^n"
+    ],
+    "answer": 0,
+    "explanation": "This is the power rule for differentiation: \n\nmultiply by the power and subtract one from the exponent."
+  },
+
+
+  {
+    "question": "Expand log(a/b).",
+    "options": [
+      "log(a) + log(b)",
+      "log(a) - log(b)",
+      "log(a) * log(b)",
+      "log(a) / log(b)"
+    ],
+    "answer": 1,
+    "explanation": "According to log laws, the log of a quotient is the difference of the logs."
+  },
+
+  {
+    "question": "What is the horizontal asymptote of f(x) = (3x² + 1) / (x² - 5)?",
+    "options": [
+      "y = 0",
+      "y = 1/3",
+      "y = 3",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Since the degrees of the numerator and denominator are equal, the horizontal asymptote is the ratio of the leading coefficients: 3/1 = 3."
+  },
+  {
+    "question": "Determine the set A \\ B where A = {1, 2, 3} and B = {2, 3, 4}.",
+    "options": [
+      "{1}",
+      "{4}",
+      "{1, 4}",
+      "{2, 3}"
+    ],
+    "answer": 0,
+    "explanation": "A \\ B (the difference) consists of elements in A that are NOT in B. Only {1} fits."
+  },
+  {
+    "question": "What is the second derivative of f(x) = x³?",
+    "options": [
+      "3x²",
+      "6x",
+      "6",
+      "x²"
+    ],
+    "answer": 1,
+    "explanation": "The first derivative is 3x². The derivative of 3x² is 3 * 2x = 6x."
+  },
+
+  {
+    "question": "Which of these is a polynomial?",
+    "options": [
+      "2x² + √x",
+      "3/x + 5",
+      "4x³ - x + 2",
+      "2^x + 1"
+    ],
+    "answer": 2,
+    "explanation": "Polynomials must have non-negative integer exponents.\n\n √x (x^0.5) and 3/x (3x^-1) are not allowed."
+  },
+  {
+    "question": "What is the sum of the interior angles of a triangle?",
+    "options": [
+      "90°",
+      "180°",
+      "360°",
+      "270°"
+    ],
+    "answer": 1,
+    "explanation": "The interior angles of any triangle always add up to 180 degrees."
+  },
+  {
+    "question": "In the function f(x) = log(x), what is the restricted domain?",
+    "options": [
+      "x ≥ 0",
+      "x > 0",
+      "All real numbers",
+      "x ≠ 0"
+    ],
+    "answer": 1,
+    "explanation": "You cannot take the logarithm of zero or a negative number in the real number system."
+  },
+
+  {
+    "question": "If f(x) is an even function, then f(-x) = ?",
+    "options": [
+      "-f(x)",
+      "f(x)",
+      "1/f(x)",
+      "-f(-x)"
+    ],
+    "answer": 1,
+    "explanation": "By definition, an even function is symmetric about the y-axis, meaning f(-x) = f(x)."
+  },
+  {
+    "question": "What is the volume of a sphere with radius r?",
+    "options": [
+      "πr²",
+      "2πr",
+      "(4/3)πr³",
+      "4πr²"
+    ],
+    "answer": 2,
+    "explanation": "The standard geometric formula for the volume of a sphere is (4/3)πr³."
+  },
+  {
+    "question": "If A = {1, 2} and B = {a, b}, what is the Cartesian product A × B?",
+    "options": [
+      "{(1,a), (1,b), (2,a), (2,b)}",
+      "{1, 2, a, b}",
+      "{(1,2), (a,b)}",
+      "{(a,1), (b,2)}"
+    ],
+    "answer": 0,
+    "explanation": "The Cartesian product consists of all possible ordered pairs where the first element is from A and the second is from B."
+  },
+  {
+    "question": "Find the slope of the tangent line to f(x) = x² at x = 3.",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "The derivative f'(x) = 2x. At x = 3, f'(3) = 2(3) = 6."
+  },
+
+  {
+    "question": "Solve for x: log₂(x) = 4.",
+    "options": [
+      "8",
+      "16",
+      "2",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Converting to exponential form: 2⁴ = x. 2 * 2 * 2 * 2 = 16."
+  },
+
+  {
+    "question": "If A = {1,2,3,4} and B = {3,4,5,6}, find A ∩ B.",
+    "options": ["{1,2}", "{3,4}", "{5,6}", "{1,6}"],
+    "answer": 1,
+    "explanation": "Intersection contains common elements. Both sets share 3 and 4."
+  },
+  {
+    "question": "Find the number of subsets of a set with 5 elements.",
+    "options": ["10", "25", "32", "64"],
+    "answer": 2,
+    "explanation": "Number of subsets = 2^n = 2^5 = 32."
+  },
+
+  {
+    "question": "Volume of a pyramid with base area 12 and height 9.",
+    "options": ["108", "36", "72", "54"],
+    "answer": 1,
+    "explanation": "Volume = (1/3) × base × height = (1/3)×12×9 = 36."
+  },
+  {
+    "question": "Surface area of cube with side 4.",
+    "options": ["64", "96", "48", "32"],
+    "answer": 1,
+    "explanation": "Surface area = 6a² = 6×16 = 96."
+  },
+  {
+    "question": "Derivative of f(x)=x² + 3x.",
+    "options": ["2x+3", "2x-3", "x^2", "3x"],
+    "answer": 0,
+    "explanation": "Derivative of x² is 2x and 3x is 3."
+  },
+
+
+
+  {
+    "question": "Simplify: log a + log b.",
+    "options": ["log(a+b)", "log(ab)", "a+b", "ab"],
+    "answer": 1,
+    "explanation": "log a + log b = log(ab)."
+  },
+
+
+  {
+    "question": "Vertical asymptote of f(x)=1/(x-2).",
+    "options": ["x=2", "y=2", "x=0", "y=0"],
+    "answer": 0,
+    "explanation": "Denominator zero at x=2."
+  },
+
+
+  {
+    "question": "If n(A)=3, how many proper subsets?",
+    "options": ["8", "6", "7", "4"],
+    "answer": 2,
+    "explanation": "Proper subsets = 2³ -1 = 7."
+  },
+
+
+  {
+    "question": "Horizontal asymptote of 1/x.",
+    "options": ["x=0", "y=0", "x=1", "y=1"],
+    "answer": 1,
+    "explanation": "As x→∞, y→0."
+  },
+  {
+    "question": "Sum of roots of x²-5x+6=0.",
+    "options": ["5", "6", "-5", "-6"],
+    "answer": 0,
+    "explanation": "Sum = -b/a = 5."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Find domain of 1/(x-1).",
+    "options": ["x≠1", "x=1", "All real", "x>1"],
+    "answer": 0,
+    "explanation": "Denominator ≠0."
+  },
+
+
+
+  {
+    "question": "Volume formula of cylinder.",
+    "options": ["πr²h", "2πr", "πr", "r²h"],
+    "answer": 0,
+    "explanation": "Standard formula."
+  },
+  {
+    "question": "If f(x)=², f'(2)=?",
+    "options": ["2", "4", "8", "6"],
+    "answer": 1,
+    "explanation": "f'(x)=2x, so f'(2)=4."
+  },
+
+
+
+  {
+    "question": "Given the set A = {x | x is a subset of {1, 2}}, what is the cardinality of the power set of A, P(A)?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "Set A is the power set of {1, 2}, so A = {∅, {1}, {2}, {1, 2}}, meaning |A| = 4.\n\n The power set P(A) contains 2^|A| elements. 2⁴ = 16."
+  },
+
+
+  {
+    "question": "What is the slant asymptote of the rational function f(x) = (2x³ + 3x² - 1) / (x² + 1)?",
+    "options": [
+      "y = 2x",
+      "y = 2x + 3",
+      "y = 2x - 3",
+      "y = 3x + 2"
+    ],
+    "answer": 1,
+    "explanation": "Perform polynomial long division. (2x³ + 3x² - 1) divided by (x² + 1) gives a quotient of 2x + 3 with a remainder of (-2x - 4).\n\n The slant asymptote is the quotient: y = 2x + 3."
+  },
+
+  {
+    "question": "Solve for x: log₂(x + 2) + log₂(x - 2) = 5.",
+    "options": [
+      "6",
+      "4",
+      "√36",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Combine logs: log₂((x + 2)(x - 2)) = 5, so x² - 4 = 2⁵ = 32.\n\n x² = 36, so x = 6 (we ignore -6 because it makes the original log arguments negative)."
+  },
+
+  {
+    "question": "Which set is equivalent to (A ∪ B) \\ (A ∩ B)?",
+    "options": [
+      "(A \\ B) ∪ (B \\ A)",
+      "A ∩ B'",
+      "A' ∪ B'",
+      "(A ∩ B) \\ (A ∪ B)"
+    ],
+    "answer": 0,
+    "explanation": "This is the definition of the symmetric difference (A Δ B).\n\n It contains elements in either A or B, but not both, which is identical to (A \\ B) ∪ (B \\ A)."
+  },
+  {
+    "question": "Find the volume of a square pyramid where all edges (including base and lateral) have length 's'.",
+    "options": [
+      "s³√2 / 6",
+      "s³√3 / 4",
+      "s³ / 3",
+      "s³√2 / 3"
+    ],
+    "answer": 0,
+    "explanation": "The height h of such a pyramid is √(s² - (s√2/2)²) = √(s² - s²/2) = s/√2.\n\n Volume = (1/3) * s² * (s/√2) = s³ / (3√2) = s³√2 / 6."
+  },
+
+  {
+    "question": "A rational function f(x) has a hole at x = 2. Which of the following could be its denominator?",
+    "options": [
+      "x + 2",
+      "x² - 4",
+      "x - 3",
+      "x² + 4"
+    ],
+    "answer": 1,
+    "explanation": "A hole occurs if a factor (x - c) is present in both the numerator and denominator and cancels out.\n\n For a hole at x = 2, the denominator must have a factor of (x - 2).\n\n x² - 4 = (x-2)(x+2)."
+  },
+  {
+    "question": "What is the sum of the roots of the polynomial P(x) = 3x³ - 9x² + 12x - 4?",
+    "options": [
+      "4/3",
+      "-3",
+      "3",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "According to Vieta's formulas, the sum of the roots of a polynomial a_n x^n + a_{n-1} x^{n-1}... is -a_{n-1}/a_n.\n\n Here, -(-9)/3 = 3."
+  },
+
+  {
+    "question": "What is the base 'b' if log_b(100) - log_b(2) = 2?",
+    "options": [
+      "10",
+      "5",
+      "√50",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "log_b(100/2) = 2, so log_b(50) = 2.\n\n This means b² = 50, so b = √50."
+  },
+  {
+    "question": "Find the point of diminishing returns (inflection point) for the function f(x) = -x³ + 6x² + 9x.",
+    "options": [
+      "x = 3",
+      "x = 2",
+      "x = 0",
+      "x = 4"
+    ],
+    "answer": 1,
+    "explanation": "The inflection point occurs where f''(x) = 0. f'(x) = -3x² + 12x + 9.\n\n f''(x) = -6x + 12. Setting -6x + 12 = 0 gives x = 2."
+  },
+  {
+    "question": "If A, B, and C are sets, which of the following is equivalent to A ∩ (B ∪ C)?",
+    "options": [
+      "(A ∩ B) ∪ C",
+      "(A ∪ B) ∩ (A ∪ C)",
+      "(A ∩ B) ∪ (A ∩ C)",
+      "A ∪ (B ∩ C)"
+    ],
+    "answer": 2,
+    "explanation": "This is the Distributive Law of sets: intersection distributes over union."
+  },
+
+
+  {
+    "question": "Find the range of the function f(x) = (2x + 1) / (x - 3).",
+    "options": [
+      "y ≠ 3",
+      "y ≠ 2",
+      "All real numbers",
+      "y > 0"
+    ],
+    "answer": 1,
+    "explanation": "The range of a linear-over-linear rational function excludes the horizontal asymptote.\n\n The horizontal asymptote is the ratio of leading coefficients: 2/1 = 2."
+  }
+]

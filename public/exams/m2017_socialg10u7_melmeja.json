@@ -1,0 +1,73 @@
+{
+  "id": "m2017_socialg10u7_melmeja",
+  "title": "Grade 10 Mathematics National Exam & Practice 2017",
+  "category": "GRADE_10",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 10",
+  "description": "Grade 10 Mathematics National Exam & Practice 2017 featuring 3 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 3,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_10",
+    "2017",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg10u7_melmeja_1",
+      "examId": "m2017_socialg10u7_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "28) A spherical fuel container with radius $3 \\text{ m}$ is filled with fuel. What is the amount (in $\\text{m}^3$) of fuel in the container?",
+      "options": [
+        "$18\\pi$",
+        "$9\\pi$",
+        "$36\\pi$",
+        "$\\frac{12}{3}\\pi$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The amount of fuel in the container is equal to the **Volume ($V$) of the sphere**. The formula for the volume of a sphere with radius $r$ is $V = \\frac{4}{3}\\pi r^3$. The radius is given as $r = 3 \\text{ m}$. \\n$V = \\frac{4}{3}\\pi (3 \\text{ m})^3 = \\frac{4}{3}\\pi (27 \\text{ m}^3)$. \\n$V = 4\\pi \\cdot \\frac{27}{3} = 4\\pi \\cdot 9 = 36\\pi \\text{ m}^3$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u7_melmeja_2",
+      "examId": "m2017_socialg10u7_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What is the surface area (in $\text{cm}^2$) of leather material required for a spherical shape ball of radius $25 \text{ cm}$?",
+      "options": [
+        "$1250pi$",
+        "$2500pi$",
+        "$100pi$",
+        "$625pi$"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The formula for the **surface area ($A$) of a sphere** with radius ($r$) is $A = 4pi r^2$.\n\nGiven radius $r = 25 \text{ cm}$.\n$$A = 4pi (25)^2$$\n$$A = 4pi (625)$$\n$$A = 2500pi \text{ cm}^2$$\n\nThis matches Option B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u7_melmeja_3",
+      "examId": "m2017_socialg10u7_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements defines frustum of a pyramid?",
+      "options": [
+        "It is a surface in space all points of which are equidistant from a point.",
+        "It is part of a pyramid included between the base of the pyramid and a horizontal cross-section made by the plane parallel to the base.",
+        "It is part of a cone included between the base of the cone and a plane parallel to the base.",
+        "It is part of a pyramid excluded the base of the pyramid and a horizontal cross-section made by the plane slant to the base."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A **frustum** (of a pyramid or cone) is the portion that remains after cutting off the top part by a plane parallel to the base. Statement B is the correct definition for a frustum of a **pyramid** . Statement C defines a frustum of a **cone**. Statement A defines a sphere.",
+      "topic": "Mathematics"
+    }
+  ]
+}

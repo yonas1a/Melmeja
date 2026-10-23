@@ -1,0 +1,116 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 7: STATISTICS",
+"notes": "✓ Statistics → the branch of mathematics concerned with collecting, organizing, presenting, analyzing and interpreting data.\n\n◆ Data → information collected for a purpose.\n\n→ Statistics helps us summarize large amounts of information and make decisions from data.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.1 TYPES OF DATA",
+"notes": "Data can be classified according to the nature of the information and how values are obtained.\n\n✓ Qualitative data → describes qualities or categories rather than numerical measurements.\n\nExamples → gender, colour, occupation, type of vehicle.\n\n✓ Quantitative data → numerical data that can be counted or measured.\n\nExamples → age, height, income, number of students.\n\n◆ Qualitative → categorical.\n◆ Quantitative → numerical.",
+"image": null
+},
+{
+"type": "note",
+"title": "DISCRETE AND CONTINUOUS DATA",
+"notes": "Quantitative data can be divided into discrete and continuous data.\n\n✓ Discrete data → takes separate, countable values.\n\nExamples → number of children, number of books, number of cars.\n\n✓ Continuous data → can take any value within an interval and is usually obtained by measurement.\n\nExamples → height, weight, temperature, time.\n\n◆ Discrete → counted.\n◆ Continuous → measured.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.2 INTRODUCTION TO GROUPED DATA",
+"notes": "✓ Grouped data → data organized into classes or intervals with their corresponding frequencies.\n\n◆ Class interval → a range of values forming one group.\n◆ Frequency (f) → number of observations in a class.\n◆ Class mark/midpoint (m) → middle value of a class.\n\nClass mark:\nm = (lower limit + upper limit)/2\n\nExample:\nClass 20–29:\nm = (20+29)/2 = 24.5.\n\n→ Grouping makes large data sets easier to summarize and analyze.",
+"image": null
+},
+{
+"type": "note",
+"title": "CLASS BOUNDARIES AND CLASS WIDTH",
+"notes": "◆ Class limits → smallest and largest stated values in a class.\n\n◆ Class boundaries → values separating continuous classes.\n\nFor classes 10–19 and 20–29:\nBoundaries are 9.5–19.5 and 19.5–29.5.\n\n✓ Class width (i) → difference between consecutive lower boundaries or consecutive upper boundaries.\n\nExample:\n10–19 has width 10.\n\n→ Class width is important when drawing histograms and calculating grouped measures.",
+"image": null
+},
+{
+"type": "note",
+"title": "FREQUENCY DISTRIBUTION",
+"notes": "✓ Frequency distribution → a table showing classes and the number of observations belonging to each class.\n\n◆ Frequency → f\n◆ Cumulative frequency → cf\n◆ Class mark → m\n\nExample:\nClass | f | cf\n10–19 | 4 | 4\n20–29 | 6 | 10\n30–39 | 8 | 18\n\n→ Cumulative frequency is obtained by continuously adding frequencies.\n\n4 → 4+6=10 → 10+8=18.",
+"image": "frequency_distribution.png"
+},
+{
+"type": "note",
+"title": "7.3 GRAPHICAL REPRESENTATION OF GROUPED DATA",
+"notes": "✓ Grouped data can be represented graphically to make patterns easier to see.\n\nMain graphs:\n1. Histogram\n2. Frequency polygon\n3. Cumulative frequency curve (ogive)\n\nDifferent graphs provide different information.\n\n◆ Histogram → frequency distribution.\n◆ Frequency polygon → shape and comparison of distributions.\n◆ Ogive → cumulative frequencies and locations such as median and quartiles.",
+"image": "statistics_graphs.png"
+},
+{
+"type": "note",
+"title": "HISTOGRAM",
+"notes": "✓ Histogram → a graph used to represent the frequency distribution of continuous or grouped data.\n\n◆ Class intervals are placed on the horizontal axis.\n◆ Frequencies are represented on the vertical axis.\n◆ Rectangles are joined without gaps for continuous data.\n\nExample:\nIf the class intervals are 10–19, 20–29 and 30–39, each interval is represented by a connected bar.\n\n→ Height of each bar represents frequency when class widths are equal.",
+"image": "histogram.png"
+},
+{
+"type": "note",
+"title": "FREQUENCY POLYGON",
+"notes": "✓ Frequency polygon → a graph obtained by plotting class marks against frequencies and joining the points with straight lines.\n\n◆ Horizontal axis → class marks.\n◆ Vertical axis → frequencies.\n\nExample:\nFor classes 10–19, 20–29, 30–39:\nClass marks → 14.5, 24.5, 34.5.\n\nPlot:\n(14.5,f₁), (24.5,f₂), (34.5,f₃)\n\n→ Frequency polygons are useful for comparing two or more distributions.",
+"image": "frequency_polygon.png"
+},
+{
+"type": "note",
+"title": "OGIVE: CUMULATIVE FREQUENCY CURVE",
+"notes": "✓ Ogive → a graph representing cumulative frequency.\n\n◆ Less-than ogive → uses upper class boundaries and cumulative frequencies.\n◆ Greater-than ogive → uses lower class boundaries and descending cumulative frequencies.\n\nAn ogive can be used to estimate:\n◆ median\n◆ quartiles\n◆ percentiles.\n\n→ The horizontal axis represents class boundaries and the vertical axis represents cumulative frequency.",
+"image": "ogive.png"
+},
+{
+"type": "note",
+"title": "7.4 MEASURES OF CENTRAL TENDENCY",
+"notes": "✓ Measure of central tendency → a value used to represent the center or typical value of a data set.\n\nMain measures:\n\n◆ Mean → arithmetic average.\n◆ Median → middle value when data is arranged in order.\n◆ Mode → most frequently occurring value.\n\nDifferent measures are useful in different situations.\n\n◆ Mean uses every observation.\n◆ Median is less affected by extreme values.\n◆ Mode identifies the most common value or category.",
+"image": null
+},
+{
+"type": "note",
+"title": "MEAN OF GROUPED DATA",
+"notes": "For grouped data, the exact individual values are unknown, so the class mark is used as a representative value.\n\n✓ Mean:\nx̄ = Σfm / Σf\n\nWhere:\nf → frequency\nm → class mark\nΣf → total frequency\nΣfm → sum of frequency × class mark.\n\nExample:\nIf Σfm = 1575 and Σf = 100:\n\nx̄ = 1575/100 = 15.75.\n\n→ The grouped mean is an estimate based on class marks.",
+"image": null
+},
+{
+"type": "note",
+"title": "MEDIAN OF GROUPED DATA",
+"notes": "✓ Median → the value that divides ordered data into two equal parts.\n\nFor grouped data, first locate the median class containing n/2 observations.\n\nFormula:\nMedian = Bₗ + [(n/2 − cfᵦ)/fᶜ] × i\n\nWhere:\n◆ Bₗ → lower boundary of median class\n◆ n → total frequency\n◆ cfᵦ → cumulative frequency before median class\n◆ fᶜ → frequency of median class\n◆ i → class width.\n\n→ The median class is the class containing the n/2-th observation.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUARTILES, DECILES AND PERCENTILES",
+"notes": "✓ These measures describe the position of observations within a data set.\n\n◆ Quartiles → divide data into 4 equal parts.\nQ₁, Q₂, Q₃\n\n◆ Deciles → divide data into 10 equal parts.\nD₁, D₂, …, D₉\n\n◆ Percentiles → divide data into 100 equal parts.\nP₁, P₂, …, P₉₉\n\nQ₂ = median.\nD₅ = median.\nP₅₀ = median.\n\n→ For grouped data, locate the appropriate position first, then use the grouped-data formula.",
+"image": null
+},
+{
+"type": "note",
+"title": "GROUPED QUARTILE, DECILE & PERCENTILE FORMULAS",
+"notes": "For grouped data:\n\n◆ Quartile:\nQₖ = Bₗ + [(kn/4 − cfᵦ)/fᶜ] × i\n\n◆ Decile:\nDⱼ = Bₗ + [(jn/10 − cfᵦ)/fᶜ] × i\n\n◆ Percentile:\nPⱼ = Bₗ + [(jn/100 − cfᵦ)/fᶜ] × i\n\nWhere:\n◆ Bₗ → lower boundary of relevant class\n◆ n → total frequency\n◆ cfᵦ → cumulative frequency before the class\n◆ fᶜ → frequency of the class\n◆ i → class width.",
+"image": null
+},
+{
+"type": "note",
+"title": "MODE AND MODAL CLASS",
+"notes": "✓ Mode → the value occurring most frequently.\n\n✓ Modal class → class with the highest frequency.\n\nFor grouped data:\n\nMode = Bₗ + [d₁/(d₁+d₂)] × i\n\nWhere:\nd₁ = modal frequency − preceding frequency\nd₂ = modal frequency − succeeding frequency\ni = class width.\n\nExample:\nIf the class 40–49 has the highest frequency, 40–49 is the modal class.\n\n→ Mode is especially useful for identifying the most common value.",
+"image": null
+},
+{
+"type": "note",
+"title": "INTERPRETING MEAN, MEDIAN AND MODE",
+"notes": "✓ The relationship between mean, median and mode gives information about the shape of a distribution.\n\n◆ Symmetric distribution:\nMean ≈ Median ≈ Mode.\n\n◆ Right-skewed distribution:\nMode < Median < Mean.\n\n◆ Left-skewed distribution:\nMean < Median < Mode.\n\n→ Extreme values strongly affect the mean but usually have less effect on the median.\n\nTherefore, the median is often more appropriate when data contains extreme values.",
+"image": "skewed_distributions.png"
+},
+{
+"type": "note",
+"title": "INTERQUARTILE RANGE & POSITION",
+"notes": "✓ Interquartile range (IQR) → spread of the middle 50% of the data.\n\nIQR = Q₃ − Q₁\n\n→ A larger IQR indicates greater spread among the middle half of the data.\n\nQuartiles describe position:\n◆ Q₁ → 25% of observations are below it.\n◆ Q₂ → 50% are below it.\n◆ Q₃ → 75% are below it.\n\nP₈₀ → approximately 80% of observations are below the 80th percentile.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 7 KEY FORMULAS & QUICK REVISION",
+"notes": "◆ Class mark:\nm = (lower limit + upper limit)/2\n\n◆ Grouped mean:\nx̄ = Σfm/Σf\n\n◆ Grouped median:\nMedian = Bₗ + [(n/2 − cfᵦ)/fᶜ] × i\n\n◆ Quartile:\nQₖ = Bₗ + [(kn/4 − cfᵦ)/fᶜ] × i\n\n◆ Decile:\nDⱼ = Bₗ + [(jn/10 − cfᵦ)/fᶜ] × i\n\n◆ Percentile:\nPⱼ = Bₗ + [(jn/100 − cfᵦ)/fᶜ] × i\n\n◆ Grouped mode:\nMode = Bₗ + [d₁/(d₁+d₂)] × i\n\n◆ Interquartile range:\nIQR = Q₃ − Q₁\n\n◆ Data → information.\n◆ Frequency → number of observations.\n◆ Histogram → grouped frequency graph.\n◆ Frequency polygon → class marks against frequency.\n◆ Ogive → cumulative frequency graph.\n◆ Mean → average.\n◆ Median → middle position.\n◆ Mode → most frequent value.\n◆ Quartiles/deciles/percentiles → measures of position."
+}
+]

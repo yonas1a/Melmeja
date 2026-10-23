@@ -1,0 +1,329 @@
+{
+  "id": "m2015_g12_merged_melmeja",
+  "title": "Mathematics Grade 12 Practice Questions 2015 (7 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Combined 7 chapter files (M2015_G12U1.json, M2015_G12U2.json, M2015_G12U3.json, M2015_G12U4.json, M2015_G12U5.json, M2015_G12U6.json, M2015_G12U7.json) into one exam. 19 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 19,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2015",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_m2015_g12u1_melmeja_1",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "If the 6th and the 11th term of an arithmetic sequence are 35 and 75 respectively, then what is the sum of the first 31 terms of the sequence?",
+      "options": [
+        "840",
+        "2635",
+        "724",
+        "3565"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Let the first term be a and common difference d. \n\n6th term: a + 5d = 35 11th term: a + 10d = 75 \n\nSubtract: 5d = 40 → d = 8 \n\nThen a + 5*8 = 35 → a = -5 \n\n S31 = 31/2 * [2a + (31-1)d] \n= 31/2 * [2(-5) + 30*8]\n = 31/2 * [230] \n= 31*115 = 3565",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_2",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What is the fifth term of the sequence {2ⁿ + 4n -5} where n=0 to n= ∞?",
+      "options": [
+        "15",
+        "47",
+        "17",
+        "27"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The general term is an = 2ⁿ + 4n - 5.\n\n The fifth term corresponds to n = 4.\n\n Compute: a4 = 2⁴+ 4*4 - 5 \n= 16 + 16 - 5 \n= 27.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_3",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "What is the value of lim ((x² - 1)/(x - 1)) as x approaches 1?",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "lim (x² - 1)/(x - 1) as x → 1\n\nFactor numerator: x² - 1 = (x - 1)(x + 1)\n\nCancel (x - 1)\n\nExpression becomes x + 1\n\nSubstitute x = 1 → 2",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_4",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Let the sequence {an} converges to 3 while {bn} converges to -1. Then the sequence {an - bn} converges to",
+      "options": [
+        "1/3",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If lim an = 3 and lim bn = -1,\n then lim (an - bn) =\n lim an - lim bn =\n 3 - (-1) = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_5",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following numbers is the upper bounds of the sequence",
+      "imageUrl": "images/M2015_43.png",
+      "diagramUrl": "images/M2015_43.png",
+      "options": [
+        "4",
+        "1",
+        "0",
+        "3/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_6",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the value of a so that the function given by f(x) = { ax + 1 for x ≥ 1  ;   x² - 4 for x < 1 } is continuous at 1?",
+      "options": [
+        "1",
+        "-1",
+        "-4",
+        "4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_7",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = 5x³ + 2x - sin(x) + e^x. What is the value of f'(0)?",
+      "options": [
+        "4",
+        "-1",
+        "1",
+        "2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Differentiate f(x): f'(x) = 15x² + 2 - cos(x) + e^x.\n\n Evaluate at x = 0: \n\nf'(0) = 15*0² + 2 - cos(0) + e^0 =\n\n 0 + 2 - 1 + 1 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_8",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = 1 / √x and g(x) = 2 - (1 / 6x³) be two functions. For what values of x do the graphs of f and g have tangent lines of the same slope?",
+      "options": [
+        "1 / 4",
+        "4",
+        "1",
+        "√3 / 2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f(x)=x^(-1/2) ⇒ f'(x)=(-1/2)x^(-3/2)\ng(x)=2-(1/6)x^3 ⇒ g'(x)=-(1/2)x^2\nSet slopes equal: (-1/2)x^(-3/2)=-(1/2)x^2\nCancel -1/2: x^(-3/2)=x^2\nSolve: x^(7/2)=1 ⇒ x=1",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_9",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes the mechanical meaning of derivative?",
+      "options": [
+        "Slope of tangent line",
+        "Instantaneous rate of change",
+        "Area under the curve",
+        "Gradient of graphs of functions"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The derivative of a function at a point represents the slope of the tangent line at that point, which is also interpreted as the instantaneous rate of change of the function.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_10",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "Let f and g be differentiable functions and h(x) = g(f(3x + 1)). If f'(1) = f(1)= 2 and g'(2) = 1, then what is the value of h'(0)?",
+      "options": [
+        "4",
+        "6",
+        "1",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By the chain rule:\n h'(x) = g'(f(3x + 1)) · f'(3x + 1) · 3.\n\n At x = 0: h'(0) = g'(f(1)) · f'(1) · 3 =\n\n g'(2) · 2 · 3 = \n\n1 · 2 · 3 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_11",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "What is the value of a number in the interval (0, 1) that satisfies the Mean Value Theorem for the function f(x) = 3x² - 5x + 1?",
+      "options": [
+        "1",
+        "5 / 6",
+        "3 / 5",
+        "1 / 2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mean Value Theorem: f'(c) = [f(1) - f(0)] / (1 - 0)\nf(x) = 3x² - 5x + 1\nf(1) = 3 - 5 + 1 = -1\nf(0) = 1\nSlope = (-1 - 1) = -2\nf'(x) = 6x - 5\n6c - 5 = -2\n6c = 3\nc = 1/2",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_12",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Water is running into a conical tank which is pointed down at a constant rate of 6π cm³/sec. The cone has height of 10 cm and a base radius 5 cm, then how fast is the water level rising when the water reaches 2 cm deep?",
+      "options": [
+        "6 / π cm/sec",
+        "4 cm/sec",
+        "6 cm/sec",
+        "4 / π cm/sec"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Volume V = (1/3)πr²h, r = h/2 ⟹ V = (1/12)πh³.\n\n Differentiate: dV/dt = (1/4)πh² dh/dt.\n\n Given dV/dt = 6π, h = 2: 6π = π dh/dt ⟹ \n\ndh/dt = 6 cm/sec.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_13",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Let F be the anti-derivative of f. Then which of the following is NOT true about F and f?",
+      "options": [
+        "∫ [ d/dx f(x) dx ] = f(x) + c",
+        "∫ [ F(x) dx ] = f(x) + c",
+        "F'(x) = f(x)",
+        "d/dx ∫F(x)dx = F(x)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By definition, if F is an anti-derivative of f, then F' = f.\n\n- Option 1: ∫[d/dx f(x) dx] = f(x) + C ✅ True, since integration reverses differentiation.\n\n- Option 2: ∫[F(x) dx] = f(x) + C ❌ False, because the integral of F(x) is not f(x), it would be ∫F(x) dx = some new function + C.\n\n- Option 3: F'(x) = f(x) ✅ True by definition.\n\n- Option 4: d/dx ∫ F(x) dx = F(x) ✅ True by the Fundamental Theorem of Calculus.\n\n Hence, option 2 is NOT true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_14",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "What is the area of the region bounded by the graph of f(x) = x² - 4 and the x-axis in square units?",
+      "options": [
+        "32 / 3",
+        "16 / 3",
+        "32",
+        "16"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The graph intersects the x-axis at x = -2 and x = 2.\n\n Between these points, f(x) ≤ 0, so the area is ∫ from -2 to 2 of |x² - 4| dx =\n\n ∫ from -2 to 2 of (4 - x²) dx =\n\n [4x - x³/3] from -2 to 2 = \n(8 - 8/3) - (-8 + 8/3) \n= 32/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_15",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Let f be a continuous function on [0, 1] and let F be an anti-derivative of f with F(1) = -11 and F(0) = 11. Then ∫ f(x)dx from 0 to 1 of  is equal to",
+      "options": [
+        "22",
+        "0",
+        "11",
+        "-22"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "According to the Fundamental Theorem of Calculus :-\n\n if F is an anti-derivative of a continuous function f on the interval [a, b], then Integral from a to b of f(x) dx = F(b) - F(a).\n\n Here, a = 0 and b = 1, \nwith F(1) = -11 and F(0) = 11.\n-11 - 11 = -22.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_16",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equal to ∫ 3cos 3xdx?",
+      "options": [
+        "-sinx + c",
+        "sinx + c",
+        "sin3x + c",
+        "1/3 sin(3x) + c"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is solved using the u-substitution method for integration.\n\n Let u = 3x, which means du = 3 dx.\n\n The integral becomes Integral of cos(u) du. \n\nThe antiderivative of cos(u) is sin(u).\n\nSubstituting back u = 3x gives sin(3x) + c.\n The answer is sin(3x) + c.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_17",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Which of the following assertions is true applying the Principle of Mathematical Induction?",
+      "options": [
+        "3 + 5 + 7 + ... + (2n + 1) = n² for n ≥ 1",
+        "2 + 3 + 4 + ... + n = n(n + 1)/2 + 1 for n ≥ 2",
+        "n! ≥ 2^n for n ≥ 0",
+        "1 + 2 + 2^2 + ... + 2^(n-2) = 2^(n-1) - 1 for n > 0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " Check each option using small values or formulae: \n\n- Option 1 is false (3 ≠ 1^2 for n=1). \n\n- Option 2 is false (sum from 2 to n = n(n+1)/2 - 1, not +1). \n\n- Option 3 is false (1! < 2^1). \n\n- Option 4 is true: geometric series 1 + 2 + 2^2 + ... + 2^(n-2) has sum 2^(n-1) - 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_18",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Which of the following set of equations define the xz-plane?",
+      "options": [
+        "{ (x, y, z) | x, y, z ∈ ℝ and z = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and x = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and y = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and x = z = 0 }"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The xz-plane is the two-dimensional surface in three-dimensional space that contains the x-axis and the z-axis.\n\n Any point (x, y, z) on this plane must have its y-coordinate equal to zero.\n\n Therefore, the xz-plane is defined by the equation y = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12u1_melmeja_19",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "What is the coordinates of the midpoint of the line segment joining (-1, -3, 3) and (-1, 5, -7) in space?",
+      "options": [
+        "(-1, 3, 5)",
+        "(-1, 1, -2)",
+        "(1, 4, 3)",
+        "(-1, 3, -9/2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " Mx = (-1 + (-1)) / 2 = \n-2 / 2 = \n-1. \n\nMy = (-3 + 5) / 2 = \n2 / 2 = \n1.\n\n Mz = (3 + (-7)) / 2 =\n -4 / 2 =\n -2.\n\n The midpoint is (-1, 1, -2).",
+      "topic": "Mathematics"
+    }
+  ]
+}

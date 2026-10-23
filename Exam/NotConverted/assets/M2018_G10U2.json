@@ -1,0 +1,35 @@
+[
+{
+  "question": " If b is a fixed positive number, which one of the following is true about graphs of the given linear functions?",
+  "options": [
+    "The graph of f(x) = 2x - b is decreasing.",
+    "The graph of f(x) = -2x + b is increasing.",
+    "The graph of f(x) = bx is horizontal.",
+    "The graph of f(x) = -2x - b is straight line."
+  ],
+  "answer": 3,
+  "explanation": "Every function of the form f(x) = mx + c, where m and c are constants, has a straight-line graph.\n\n Here, f(x) = -2x - b has slope -2 and y-intercept -b, so its graph is a straight line.\n\n The other options are false:\n\n f(x) = 2x - b is increasing,\n\n f(x) = -2x + b is decreasing,\n\n and f(x) = bx is increasing because b > 0."
+},
+{
+"question": " What are the vertex and line of symmetry of the function y = 2x² - 4x + 3 respectively?",
+"options": [
+"(1, 1) and x = 1",
+"(-1, 1) and x = -1",
+"(-2, 3/2) and x = -2",
+"(2, -8) and x = 2"
+],
+"answer": 0,
+"explanation": "For a quadratic function y = ax² + bx + c, the x-coordinate of the vertex is x = -b/(2a).\n\n Here, a = 2 and b = -4, \n\nso x = -(-4)/(2 × 2) = 1.\n\n Substituting x = 1 gives \ny = 2(1)² - 4(1) + 3 = 1. \n\nTherefore, the vertex is (1, 1), and the line of symmetry is x = 1."
+},
+{
+"question": " Which one of the following is the degree of the polynomial function f defined by f(x) = x²(x - 4)(x² + 2)?",
+"options": [
+"2",
+"4",
+"5",
+"3"
+],
+"answer": 2,
+"explanation": "The degree of a product of non-zero polynomials is the sum of their degrees.\n\n The factor x² has degree 2, (x - 4) has degree 1, and (x² + 2) has degree 2.\n\n Therefore, the degree is 2 + 1 + 2 = 5."
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+  "question": "A unit vector is defined as",
+  "options": [
+    "a vector of magnitude zero, with arbitrary direction.",
+    "a small vector in the direction of a given vector.",
+    "a vector of magnitude one, with no unit.",
+    "a vector of magnitude one, with specified unit."
+  ],
+  "answer": 2,
+  "explanation": "A unit vector is a vector whose magnitude is exactly 1.\n\nIt has no physical unit and is mainly used to specify direction.\n\nFor example, î, ĵ, and k̂ are unit vectors along the x, y, and z axes respectively."
+},
+{
+  "question": "Given two vectors P⃗ = -5î + 3ĵ and Q⃗ = 2î + ĵ, what is the dot product of the vectors?",
+  "options": [
+    "-13",
+    "7",
+    "-7",
+    "13"
+  ],
+  "answer": 2,
+  "explanation": "The dot product of two vectors is found by multiplying corresponding components and adding the results.\n\nP⃗ · Q⃗ = (-5)(2) + (3)(1).\n\nTherefore, P⃗ · Q⃗ = -10 + 3 = -7."
+},
+{
+"question": "Which one of the following statements is correct about graphical and algebraical representation of a vector? Vector is represented",
+"options": [
+"graphically by an arrow in which the length of the arrow represents the magnitude of the vector to the appropriate chosen scale.",
+"graphically by an arrow in which the length of the arrow is equal to the magnitude of the vector.",
+"algebraically by a segment line in which the length of the segment line represents the magnitude of the vector.",
+"graphically by a bold letter A or with an arrow over the letter like A⃗."
+],
+"answer": 0,
+"explanation": "A vector is represented graphically by a directed arrow.\n\nThe direction of the arrow represents the direction of the vector, while its length represents the magnitude according to a chosen scale.\n\nThe actual arrow length does not necessarily equal the numerical magnitude unless the scale is one unit of length per unit of magnitude."
+},
+{
+"question": "Three velocity vectors that are drawn by the scale of 1 cm to a velocity of 10 m/s is shown in figure below.\n\nWhat is the resultant velocity of the three velocity vectors?",
+"options": [
+"20√2 m/s at 45° from the positive x-axis",
+"10√41 m/s at 45° from the positive x-axis",
+"10 m/s to the negative y-axis",
+"50 m/s to the negative y-axis"
+],
+"answer": 3,
+"explanation": "Add the x-components and y-components of the three velocity vectors separately.\n\nThe x-components are -2 cm, +2 cm, and 0 cm, giving a resultant x-component of 0 cm.\n\nThe y-components are 0 cm, -1.5 cm, and -3.5 cm according to the figure, giving a resultant y-component of -5 cm.\n\nUsing the scale 1 cm = 10 m/s, the resultant magnitude is 5 × 10 = 50 m/s.\n\nSince the x-component is zero and the y-component is negative, the direction is along the negative y-axis.",
+"image": "images/P2018_54.png"
+}
+]

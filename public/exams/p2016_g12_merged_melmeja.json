@@ -1,0 +1,233 @@
+{
+  "id": "p2016_g12_merged_melmeja",
+  "title": "Grade 12 Physics Comprehensive Exam 2016 (5 Chapters Combined)",
+  "category": "GRADE_12",
+  "subCategory": "Physics",
+  "department": "Physics",
+  "grade": "Grade 12",
+  "description": "Comprehensive examination bank combining 5 chapters (13 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 30,
+  "totalQuestions": 13,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "GRADE_12",
+    "2016",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2016",
+  "questions": [
+    {
+      "id": "q_p2016_g12u1_melmeja_1",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "26. Which one of the following statements does **NOT** describe the relationship of physics with biology?",
+      "options": [
+        "Physics and biology used to study how air vibrates in vocal cords.",
+        "Physics and biology are interrelated to each other in the study of vision and color detection.",
+        "Newtonian mechanics and biology are used to explain why cheetah is fastest animal.",
+        "Both physics and biology are mainly concerned in the interaction of large number of particles."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Statements A, B, and C all describe areas of **biomechanics, bioacoustics, or bio-optics** where physics principles are applied to biological systems. Statement D is incorrect: while physics (statistical mechanics) deals with the interaction of a large number of particles, biology is primarily concerned with life, organisms, and cellular processes, making the stated commonality weak or irrelevant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_2",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "27. Which one of the following is a correct relation of physics with medicine?",
+      "options": [
+        "Medicine is a branch of physics dealing with nuclear reaction.",
+        "Modern medical imaging instrument are developed with knowledge of medicine and later used by physics.",
+        "discipline called medical physics deals with principles of physics in medical diagnosis.",
+        "Physics is a branch of medicine that sets standards during medical diagnosis."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The discipline of **Medical Physics** (or Biomedical Physics) is specifically concerned with applying the principles and methods of physics (like nuclear, wave, and quantum mechanics) to the prevention, diagnosis, and treatment of human diseases. This includes the technology behind X-rays, MRI, ultrasound, and radiation therapy .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_3",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "13. Consider two balls A and B are projected with the same velocity, $v_0$ at angles $\\theta_1$ and $\\theta_2$, respectively, $0^{\\circ} < \\theta_1 < 45^{\\circ}$ and $45^{\\circ} < \\theta_2 < 90^{\\circ}$. Which one of the following statements is correct about the motion of the balls?",
+      "options": [
+        "Ball A takes longer time than ball B to reach its maximum height.",
+        "The range of ball A is smaller than its maximum height.",
+        "The two balls cover equal ranges when $\\theta_1 + \\theta_2 = 90^{\\circ}$.",
+        "Both balls have equal speed at their respective maximum height."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a projectile launched with initial velocity $v_0$, the **range ($R$)** is given by $R = \\frac{v_0^2 \\sin(2\\theta)}{g}$. The ranges will be equal if the launch angles are **complementary**, meaning they sum to $90^{\\circ}$ (i.e., $\\theta_1 + \\theta_2 = 90^{\\circ}$), because $\\sin(2\\theta_1) = \\sin(2(90^{\\circ} - \\theta_2)) = \\sin(180^{\\circ} - 2\\theta_2) = \\sin(2\\theta_2)$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_4",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "14. A car initially traveling at speed of $20 \\text{ m/s}$ undergoes a constant deceleration of magnitude $1.5 \\text{ m/s}^2$. If the radius of each tire is $0.3 \\text{ m}$, how many revolutions does each tire make, without slipping, before the car comes to rest?",
+      "options": [
+        "70.77 rev",
+        "444.4 rev",
+        "133.33 rev",
+        "44.44 rev"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The number of revolutions ($N$) is the total distance traveled ($d$) divided by the circumference ($C$) of the tire, $N = d/C$.\n\n1.  **Find Distance ($d$):** Use $v_f^2 = v_i^2 + 2ad$:\n    $$0^2 = (20)^2 + 2(-1.5)d \\implies 0 = 400 - 3d$$\n    $$d = \\frac{400}{3} \\text{ m}$$\n\n2.  **Find Circumference ($C$):** $C = 2\\pi r$\n    $$C = 2\\pi (0.3 \\text{ m}) = 0.6\\pi \\text{ m}$$\n\n3.  **Find Revolutions ($N$):**\n    $$N = \\frac{400/3}{0.6\\pi} = \\frac{400}{1.8\\pi} \\approx 70.73 \\text{ revolutions}$$\nThis is closest to $70.77 \\text{ rev}$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_5",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "15. A constant tangential force is applied on a rim of uniform solid disk of mass $m = 50 \\text{ kg}$ and radius $r = 0.5 \\text{ m}$. If the angular speed of the disk changes by $1 \\text{ rev/s}$ within $2.0 \\text{ s}$, what is the magnitude of the torque produced by the force? (moment of inertia of disk $I = \\frac{mr^2}{2}$)",
+      "options": [
+        "39.3 Nm",
+        "19.6 Nm",
+        "8.25 Nm",
+        "3.125 Nm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The torque ($\tau$) is calculated using the formula $\\tau = I\\alpha$.\n\n1.  **Calculate Angular Acceleration ($\\alpha$):**\n    $$\\alpha = \\frac{\\Delta\\omega}{\\Delta t} = \\frac{1 \\text{ rev/s}}{2.0 \\text{ s}} = 0.5 \\text{ rev/s}^2$$\n    Convert to $\\text{rad/s}^2$: $\\alpha = 0.5 \\times 2\\pi \\approx \\pi \\text{ rad/s}^2$\n\n2.  **Calculate Moment of Inertia ($I$):**\n    $$I = \\frac{mr^2}{2} = \\frac{(50 \\text{ kg})(0.5 \\text{ m})^2}{2} = 6.25 \\text{ kg} \\cdot \\text{m}^2$$\n\n3.  **Calculate Torque ($\\tau$):**\n    $$\\tau = I\\alpha = (6.25 \\text{ kg} \\cdot \\text{m}^2) \\times (\\pi \\text{ rad/s}^2) \\approx 19.63 \\text{ Nm}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_6",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "60. A substance with a mass of $2 \\text{ kg}$ has a volume of $2.5 \\times 10^{-3} \\text{ m}^3$. What is the relative density of the substance?",
+      "options": [
+        "1.25",
+        "80",
+        "0.8",
+        "1.0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Relative density ($RD$) is the ratio of the density of the substance ($\\rho_{sub}$) to the density of water ($\\rho_{water} = 1000 \\text{ kg/m}^3$).\n\n1.  **Calculate the Density of the Substance ($\\rho_{sub}$):**\n$$\\rho_{sub} = \\frac{\\text{Mass}}{\\text{Volume}} = \\frac{2 \\text{ kg}}{2.5 \\times 10^{-3} \\text{ m}^3} = 800 \\text{ kg/m}^3$$\n\n2.  **Calculate Relative Density:**\n$$RD = \\frac{\\rho_{sub}}{\\rho_{water}} = \\frac{800 \\text{ kg/m}^3}{1000 \\text{ kg/m}^3} = 0.8$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_7",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "11. The gauge pressure at a point in a fluid at rest is defined as",
+      "options": [
+        "the sum of absolute pressure and atmospheric pressure.",
+        "the actual pressure at a given point relative to absolute pressure.",
+        "the atmospheric pressure difference between sea level and the local area at which the fluid exists.",
+        "the pressure difference between the absolute pressure and the atmospheric pressure."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The **gauge pressure** ($P_g$) is the pressure measured relative to the surrounding atmospheric pressure ($P_{atm}$). It is the difference between the absolute pressure ($P_{abs}$) and the atmospheric pressure: $P_g = P_{abs} - P_{atm}$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_8",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "12. How do we use manometer to measure pressure of a given gas? We use in such a way that",
+      "options": [
+        "the pressure at the surface of open end manometer is the same as the gas pressure in closed tube.",
+        "the principle of the hydrostatic equilibrium is considered to measure the pressure of unknown gas.",
+        "the gauge pressure in a fluid in the open end equals the gas pressure in closed tube.",
+        "the gauge pressure equals the atmospheric pressure."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A manometer is a device that uses a column of fluid to measure pressure. The measurement is fundamentally based on the **principle of hydrostatic equilibrium**, which states that the pressure is the same at all points at the same horizontal level within a continuous fluid at rest . This principle is applied to the fluid levels to determine the pressure of the unknown gas relative to the atmospheric pressure (gauge pressure).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_9",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "16. A loop of $0.1 \\text{ m}$ wide in diameter is placed in $xy$-plane in uniform magnetic field of $0.6 \\text{ T}$ that is perpendicular to the plane of the loop. What is the net magnetic flux through the coil?",
+      "options": [
+        "5.6 \\times 10^{-2} Wb",
+        "1.9 \\times 10^{-2} Wb",
+        "9.4 \\times 10^{-3} Wb",
+        "4.7 \\times 10^{-3} Wb"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Magnetic flux ($Phi_B$) is given by $\\Phi_B = B A \\cos\\theta$.\n\n1.  **Determine $\\cos\\theta$:** Since the magnetic field is **perpendicular to the plane of the loop**, it is parallel to the area vector ($\\mathbf{A}$), so $\\theta = 0^{\\circ}$ and $\\cos(0^{\\circ}) = 1$.\n\n2.  **Calculate Area ($A$):** Diameter $d = 0.1 \\text{ m}$, so radius $r = 0.05 \\text{ m}$.\n    $$A = \\pi r^2 = \\pi (0.05 \\text{ m})^2 = 0.0025\\pi \\text{ m}^2$$\n\n3.  **Calculate Flux ($Phi_B$):**\n    $$\\Phi_B = (0.6 \\text{ T}) \\times (0.0025\\pi \\text{ m}^2) \\times 1 \\approx 0.00471 \\text{ Wb} \\approx 4.7 \\times 10^{-3} \\text{ Wb}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_10",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "18. A $12 \\text{ V}$ voltage source is connected across the primary coil of a transformer having $600 \\text{ turns}$. If the secondary coil of a transformer has $1000 \\text{ turns}$, what voltage appears across the secondary coil?",
+      "options": [
+        "7.2 V",
+        "72.0 V",
+        "20.0 V",
+        "12.0 V"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For an ideal transformer, the ratio of the voltages ($V$) equals the ratio of the number of turns ($N$): $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$.\n\n1.  **Substitute values:** $V_p = 12 \\text{ V}$, $N_p = 600$, $N_s = 1000$.\n2.  **Calculate $V_s$:**\n    $$V_s = V_p \\times \\frac{N_s}{N_p} = 12 \\text{ V} \\times \\frac{1000}{600} = 12 \\text{ V} \\times \\frac{5}{3} = 20 \\text{ V}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_11",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "19. Which one of the following statements differentiates emitter, collector and base of a transistor?",
+      "options": [
+        "The emitter region is heavily doped as compared with base and collector.",
+        "The collector region is heavily doped as compared with emitter and base.",
+        "The base region is heavily doped as compared with base and collector.",
+        "The three parts, emitter, base and collector are equally doped."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In a bipolar junction transistor (BJT), the three regions are doped to different concentrations: the **emitter** is the **most heavily doped** region to maximize the injection of charge carriers; the collector is moderately doped; and the base is very lightly doped.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_12",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "39. In an experiment to determine the direction of the magnetic field around a long straight current-carrying wire, a student placed a small compass at point P, as shown in the diagram. If the direction of the current in the wire is directed **out-of-the page**, then the magnetic needle of the compass will point",
+      "options": [
+        "downward.",
+        "to the right.",
+        "upward.",
+        "to the left."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use the **Right-Hand Rule (RHR)** for a straight wire: Point the thumb of your right hand in the direction of the current (out-of-the page, or towards you). Curl your fingers; they indicate the direction of the magnetic field ($\\mathbf{B}$) lines, which form counter-clockwise circles around the wire . Since point **P** is directly **above** the wire, the tangent to the counter-clockwise field line at P points **to the left**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g12u1_melmeja_13",
+      "examId": "p2016_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "20. The following figure shows a switch of circuit consisting of a battery source, two switches represented by letters A and B, and a light bulb Y. Which one of the following logic get can be represented by equivalent switch circuit?",
+      "options": [
+        "NOR",
+        "NAND",
+        "OR",
+        "AND"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In the circuit shown , the switches A and B are connected in **parallel** (A || B). The light bulb Y will light up (output 1) if switch A **OR** switch B (or both) is closed (input 1). This 'either/or' configuration is the definition of an **OR gate**.",
+      "topic": "Physics"
+    }
+  ]
+}

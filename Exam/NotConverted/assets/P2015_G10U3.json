@@ -1,0 +1,13 @@
+[
+  {
+    "question": "A 64 V battery is connected to a series combination of 3 kΩ  bulb and 4kΩ electric iron. If the current in the circuit is 8mA, what is the internal resistance of the battery?",
+    "options": [
+      "1kΩ",
+      "7kΩ",
+      "8kΩ",
+      "15kΩ"
+    ],
+    "answer": 0,
+    "explanation": "The total resistance in the circuit is the sum of the external resistances and the internal resistance of the battery: Rtotal = Rbulb + Riron + r.\n\nGiven:\\nRbulb = 3 kΩ, Riron = 4 kΩ, I = 8 mA = 0.008 A, V = 64 V\n\nTotal resistance using Ohm's law: Rtotal = V / I = 64 / 0.008 = 8000 Ω = 8 kΩ\n\nThe sum of external resistances: 3 kΩ + 4 kΩ = 7 kΩ\n\nInternal resistance r = Rtotal - (Rbulb + Riron) = 8 kΩ - 7 kΩ = 1 kΩ"
+  }
+]

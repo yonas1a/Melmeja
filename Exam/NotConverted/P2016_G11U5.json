@@ -1,0 +1,13 @@
+[
+{
+  "question": "58. A block of mass $20 \\text{ kg}$ is pushed horizontally, at constant speed, along a rough horizontal floor over a distance of $5 \\text{ m}$. If coefficient of kinetic friction between the block and the surface is $0.4$, what is the amount of work done by friction?",
+  "options": [
+    "-40 J",
+    "-400 J",
+    "-1000 J",
+    "-100 J"
+  ],
+  "answer": 1,
+  "explanation": "Work done by friction ($W_f$) is given by $W_f = F_f d \\cos(\\theta)$. Since friction opposes motion, $\\theta = 180^{\\circ}$, so $W_f = -F_f d$. \n\n1.  **Friction Force ($F_f$):** $F_f = \\mu_k N = \\mu_k m g$ (since $N=mg$ on a horizontal surface). \n$$F_f = (0.4) \\times (20 \\text{ kg}) \\times (10 \\text{ m/s}^2) = 80 \\text{ N}$$\n2.  **Work Done:**\n$$W_f = -(80 \\text{ N}) \\times (5 \\text{ m}) = -400 \\text{ J}$$"
+}
+]

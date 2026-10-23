@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Let z1, z2,and z3 be complex numbers. Then which of the following is NOT necessarily true?",
+    "options": [
+      "(z1.z2)z3 = z1 (z2.z3)",
+      "(z1.z2)z3 = (z2.z1).z3",
+      "z1 - (z2 - z3) = (z1-z2)-z3 ",
+      "z1-  (z2 + z3) = (z1 - z2)-z3"
+    ],
+    "answer": 2,
+    "explanation": "Multiplication of complex numbers is associative and commutative, so options 1 and 2 are true.\n\n Subtraction is NOT associative: z1 - (z2 - z3) = z1 - z2 + z3 ≠ (z1 - z2) - z3, so option 3 is NOT necessarily true.\n\n Option 4 uses addition/subtraction correctly, so it is true."
+  },
+  {
+    "question": "Which of the following complex numbers corresponds to the point (-3, -1) in the Argand plane?",
+    "options": [
+      "-3 - i",
+      "-1 - 3i",
+      "3 + i",
+      "-3+i"
+    ],
+    "answer": 0,
+    "explanation": "In the Argand plane, a complex number z = x + yi corresponds to the point (x, y).\n\n Here, x = -3 and y = -1.\n so the complex number is -3 - i."
+  }
+]

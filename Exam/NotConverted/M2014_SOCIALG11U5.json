@@ -1,0 +1,35 @@
+[
+{
+  "question": "16) Consider the grouped frequency table for students' weight in a certain school. What is the mean weight of the students?",
+  "options": [
+    "$43.8 \\text{ kg}$",
+    "$45.5 \\text{ kg}$",
+    "$41.5 \\text{ kg}$",
+    "$43 \\text{ kg}$"
+  ],
+  "answer": 0,
+  "explanation": "To find the mean ($\\bar{x}$) of grouped data, we use the formula $\\bar{x} = \\frac{\\sum f \\cdot x_m}{\\sum f}$, where $f$ is the frequency and $x_m$ is the class midpoint.\\n\\n| Weight (kg) | $f$ | $x_m$ | $f \\cdot x_m$ |\\n|---|---|---|---|\\n| $31 - 35$ | $3$ | $33$ | $99$ |\\n| $36 - 40$ | $5$ | $38$ | $190$ |\\n| $41 - 45$ | $6$ | $43$ | $258$ |\\n| $46 - 50$ | $7$ | $48$ | $336$ |\\n| $51 - 55$ | $4$ | $53$ | $212$ |\\n\\n$\\sum f = 25$.\\n$\\sum f \\cdot x_m = 1095$.\\nMean $\\bar{x} = \\frac{1095}{25} = 43.8 \\text{ kg}$."
+},
+{
+"question": "44) The following table shows the test scores of $20$ students in a class. What is the variance of the given data?",
+"options": [
+"$18.45$",
+"$19.45$",
+"$16.2$",
+"$17.2$"
+],
+"answer": 1,
+"explanation": "To find the variance ($\\sigma^2$) for grouped data, use the formula $\\sigma^2 = \\frac{\\sum f(x_m - \\bar{x})^2}{\\sum f}$.\\n1. **Find the total frequency ($\\sum f$) and midpoints ($x_m$):** $\\sum f = 3+5+5+3+4 = 20$. \\nClass Midpoints ($x_m$): $1, 4, 7, 10, 13$. (E.g., for $0-2$, $x_m = \\frac{0+2}{2} = 1$).\\n2. **Find the mean ($\\bar{x} = \\frac{\\sum f x_m}{\\sum f}$):** \\n$\\sum f x_m = 3(1) + 5(4) + 5(7) + 3(10) + 4(13) = 3 + 20 + 35 + 30 + 52 = 140$. \\n$\\bar{x} = \\frac{140}{20} = 7$.\\n3. **Find the sum of squared deviations ($\\sum f(x_m - \\bar{x})^2$):**\\n| $x_m$ | $f$ | $x_m - \\bar{x}$ | $(x_m - \\bar{x})^2$ | $f(x_m - \\bar{x})^2$ |\\n|---|---|---|---|---|\\n| $1$ | $3$ | $-6$ | $36$ | $3(36) = 108$ |\\n| $4$ | $5$ | $-3$ | $9$ | $5(9) = 45$ |\\n| $7$ | $5$ | $0$ | $0$ | $5(0) = 0$ |\\n| $10$ | $3$ | $3$ | $9$ | $3(9) = 27$ |\\n| $13$ | $4$ | $6$ | $36$ | $4(36) = 144$ |\\n$\\sum f(x_m - \\bar{x})^2 = 108 + 45 + 0 + 27 + 144 = 324$.\\n4. **Calculate Variance ($\\sigma^2$):** $\\sigma^2 = \\frac{324}{20} = 16.2$. (Option C is correct.)"
+},
+{
+"question": "45) If two cards are drawn one after the other from a well shuffled pack of cards, then which one of the following is an independent event?",
+"options": [
+"Drawing a king in the first draw and a queen in the second draw without replacing the first.",
+"Drawing a king in the first draw and a queen in the second draw by replacing the first.",
+"Drawing kings in both draws without replacing the first.",
+"Drawn queens in both draws without replacing the first."
+],
+"answer": 1,
+"explanation": "Two events are **independent** if the outcome of the first event does not affect the probability of the second event. This condition is met when the first card drawn is **replaced** before the second draw, restoring the deck to its original state.\\n- Options A, C, and D describe drawing **without replacing** the first card. In these cases, the sample space (total number of cards) changes, making the second draw **dependent** on the first.\\n- Option B describes drawing **by replacing** the first card. The probability of drawing a queen in the second draw is $\\frac{4}{52}$ regardless of what was drawn first. This is an **independent event**."
+}
+]

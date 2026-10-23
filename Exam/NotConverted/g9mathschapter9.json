@@ -1,0 +1,988 @@
+[
+  {
+    "question": "The weights, in kilograms, of five students are 50, 52, 58, 60, and 65. What is the arithmetic mean weight of the students?",
+    "options": [
+      "57.0 kg",
+      "58.0 kg",
+      "56.5 kg",
+      "59.5 kg"
+    ],
+    "answer": 0,
+    "explanation": "The arithmetic mean is the sum of the values divided by the number of values. \nMean = (50 + 52 + 58 + 60 + 65) / 5 =\n 285 / 5 \n= 57.0 kg."
+  },
+  {
+    "question": "Find the mode of the following data set: 12, 15, 13, 15, 16, 17, 15, 12, 18.",
+    "options": [
+      "12",
+      "15",
+      "13",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "The mode is the value that appears most frequently in the data set.\n The number 15 appears three times, which is more than any other value."
+  },
+  {
+    "question": "The scores of seven students in a quiz are 15, 12, 18, 11, 20, 16, 14. What is the median score?",
+    "options": [
+      "14",
+      "16",
+      "15",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "First, sort the data: 11, 12, 14, 15, 16, 18, 20. Since there are 7 data points (an odd number), the median is the middle value, which is the 4th term, 15."
+  },
+  {
+    "question": "If the mean of five numbers is 18, and four of the numbers are 12, 20, 25, and 14, what is the fifth number?",
+    "options": [
+      "19",
+      "21",
+      "17",
+      "23"
+    ],
+    "answer": 0,
+    "explanation": "The total sum of the five numbers must be Mean times N: 18 times 5 = 90.\n\n The sum of the four known numbers is 12 + 20 + 25 + 14 = 71.\n\n The fifth number is 90 - 71 = 19."
+  },
+  {
+    "question": "A data set has a mean of 45. If each value in the set is increased by 5 and then multiplied by 2, what is the new mean?",
+    "options": [
+      "95",
+      "100",
+      "90",
+      "50"
+    ],
+    "answer": 1,
+    "explanation": "The new mean is calculated by applying the transformation to the original mean: New Mean = (Original Mean + 5) times 2. \nNew Mean = (45 + 5) times 2 = 50 * 2 = 100."
+  },
+  {
+    "question": "Which measure of central tendency is most appropriate for describing the typical value in a highly skewed distribution with extreme outliers?",
+    "options": [
+      "Arithmetic Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "answer": 1,
+    "explanation": "The median is the least affected by extreme values (outliers) in a distribution, making it the most representative measure for skewed data."
+  },
+  {
+    "question": "The monthly electricity consumption (in kWh) for a household over six months was 110, 115, 120, 125, 130, 140. Find the median consumption.",
+    "options": [
+      "120 kWh",
+      "125 kWh",
+      "122.5 kWh",
+      "127.5 kWh"
+    ],
+    "answer": 2,
+    "explanation": "The data is already sorted. Since there are 6 data points (an even number), the median is the average of the two middle terms (3rd and 4th terms):\n (120 + 125) / 2 = 122.5 kWh."
+  },
+  {
+    "question": "In a frequency distribution, the sum of the products of each class mark (x) and its corresponding frequency (f) is 450, and the total number of observations (sum of f) is 25. What is the mean?",
+    "options": [
+      "18",
+      "15",
+      "20",
+      "22.5"
+    ],
+    "answer": 0,
+    "explanation": "The mean (x̄) for a frequency distribution is calculated as the sum of (f times x) divided by the sum of f.\n x̄ = 450 / 25 = 18."
+  },
+  {
+    "question": "Which measure of central tendency is suitable for qualitative data, such as determining the most popular car color?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Standard Deviation"
+    ],
+    "answer": 2,
+    "explanation": "Only the mode can be used for nominal (qualitative) data, as it simply finds the most frequent category."
+  },
+  {
+    "question": "If the distribution of scores in a test is negatively skewed, which of the following relationships between the measures of central tendency is typically true?",
+    "options": [
+      "Mean = Median = Mode",
+      "Mode less than Median less than Mean",
+      "Mean less than Median less than Mode",
+      "Mean greater than Mode greater than Median"
+    ],
+    "answer": 2,
+    "explanation": "In a negatively (left) skewed distribution, the tail is on the left, pulling the mean towards it.\n\n The order is typically Mean less than Median less than Mode."
+  },
+  {
+    "question": "A class of 30 students has an average score of 60 in a mathematics exam. If a new student joins the class with a score of 90, what is the new total number of points for the class?",
+    "options": [
+      "1830",
+      "1890",
+      "1860",
+      "2700"
+    ],
+    "answer": 1,
+    "explanation": "The total score of the original 30 students is 30 times 60 = 1800. \nThe new student adds 90 points.\n The new total score is 1800 + 90 = 1890."
+  },
+  {
+    "question": "What is the range of the data set: 8, 15, 12, 25, 10, 5, 30?",
+    "options": [
+      "25",
+      "30",
+      "5",
+      "22"
+    ],
+    "answer": 0,
+    "explanation": "The range is the difference between the maximum and minimum values. \nMaximum = 30, Minimum = 5. Range = 30 - 5 = 25."
+  },
+  {
+    "question": "The data set is 5, 5, 5, 5, 5. What is the standard deviation?",
+    "options": [
+      "1",
+      "5",
+      "0",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "Since all values are identical, there is no variation in the data, meaning there is no deviation from the mean.\n Therefore, the standard deviation is 0."
+  },
+  {
+    "question": "If the variance of a data set is 4, and every observation in the data set is multiplied by 5, what will be the new variance?",
+    "options": [
+      "20",
+      "100",
+      "400",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "If a data set is multiplied by a constant 'c', the new variance is c squared times the original variance.\n\n New Variance = 5² * 4 = 25 * 4 = 100."
+  },
+  {
+    "question": "A data set has a standard deviation of 8. If 15 is added to every observation in the data set, what is the new standard deviation?",
+    "options": [
+      "8",
+      "15",
+      "23",
+      "64"
+    ],
+    "answer": 0,
+    "explanation": "Adding a constant value to every data point shifts the entire distribution but does not change its spread (dispersion).\n Thus, the standard deviation remains 8."
+  },
+  {
+    "question": "Which of the following is always TRUE about the sum of the deviations of each value of a population from the mean?",
+    "options": [
+      "It is always positive.",
+      "It is always negative.",
+      "It is always zero.",
+      "It depends on the data set."
+    ],
+    "answer": 2,
+    "explanation": "A fundamental property of the arithmetic mean is that the sum of the deviations of all observations from the mean is always zero: Summation of (xᵢ - x̄) = 0."
+  },
+
+  {
+    "question": "If the standard deviation of a data set is 4, what is the variance?",
+    "options": [
+      "2",
+      "8",
+      "16",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Variance is the square of the standard deviation. \n\nVariance = (Standard Deviation)² = 4² = 16."
+  },
+  {
+    "question": "A researcher collects data on the heights of students. If all the students are exactly 160 cm tall, what is the value of the range?",
+    "options": [
+      "160 cm",
+      "Undefined",
+      "1 cm",
+      "0 cm"
+    ],
+    "answer": 3,
+    "explanation": "Range = Maximum value - Minimum value. \nSince Max = 160 cm and Min = 160 cm, the Range = \n160 - 160 = 0 cm."
+  },
+  {
+    "question": "Which of the following measures the average squared deviation of each observation from the mean?",
+    "options": [
+      "Standard Deviation",
+      "Variance",
+      "Range",
+      "Mode"
+    ],
+    "answer": 1,
+    "explanation": "This is the definition of Variance."
+  },
+  {
+    "question": "A fair six-sided die is rolled. What is the probability of getting a number greater than 4?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 1,
+    "explanation": "The sample space is {1, 2, 3, 4, 5, 6} (6 outcomes).\n The favorable outcomes (greater than 4) are {5, 6} (2 outcomes). \n\nProbability = 2/6 = 1/3."
+  },
+  {
+    "question": "A card is drawn from a well-shuffled deck of 52 playing cards. What is the probability of drawing a red face card?",
+    "options": [
+      "1/13",
+      "3/26",
+      "3/52",
+      "1/4"
+    ],
+    "answer": 1,
+    "explanation": "There are 3 face cards (Jack, Queen, King) in each of the 4 suits.\n Red suits are Hearts and Diamonds.\n Total red face cards = 3 + 3 = 6.\n Probability = 6/52 = 3/26."
+  },
+  {
+    "question": "Two fair coins are tossed. What is the probability of getting exactly one head?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "The sample space is {HH, HT, TH, TT} (4 outcomes).\n Favorable outcomes (exactly one head) are {HT, TH} (2 outcomes).\n Probability = 2/4 = 1/2."
+  },
+  {
+    "question": "Two fair dice are rolled. What is the probability that the sum of the numbers on the upper faces is 7?",
+    "options": [
+      "1/6",
+      "7/36",
+      "1/12",
+      "1/9"
+    ],
+    "answer": 0,
+    "explanation": "The total number of outcomes is 6 times 6 = 36.\n Favorable outcomes with a sum of 7 are: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1).\n There are 6 favorable outcomes.\n Probability = 6/36 = 1/6."
+  },
+  {
+    "question": "A bag contains 4 red and 6 blue marbles. Two marbles are drawn without replacement. What is the probability that the second marble drawn is blue, GIVEN that the first one was red?",
+    "options": [
+      "6/10",
+      "6/9",
+      "4/10",
+      "4/9"
+    ],
+    "answer": 1,
+    "explanation": "If the first marble was red, the bag now contains 3 red and 6 blue marbles, for a total of 9 marbles.\n\n The probability of the second being blue is 6 (blue marbles left) / 9 (total marbles left) = \n6/9 (or 2/3)."
+  },
+  {
+    "question": "The probability that event A occurs is P(A) = 0.6. What is the probability that event A does NOT occur, P(A prime)?",
+    "options": [
+      "0.4",
+      "0.6",
+      "0.2",
+      "1.0"
+    ],
+    "answer": 0,
+    "explanation": "The probability of the complement event is P(A prime) \n\n= 1 - P(A) = 1 - 0.6 = 0.4."
+  },
+  {
+    "question": "For any event E in a sample space S, which of the following is always true?",
+    "options": [
+      "P(E) greater than 1",
+      "P(E) = 0",
+      "0 less than or equal to P(E) less than or equal to 1",
+      "P(E) less than 0"
+    ],
+    "answer": 2,
+    "explanation": "The probability of any event must be a number between 0 and 1, inclusive.\n\n This is one of the fundamental axioms of probability."
+  },
+  {
+    "question": "If A and B are mutually exclusive events, with P(A) = 0.3 and P(B) = 0.5, what is P(A or B)?",
+    "options": [
+      "0.15",
+      "0.8",
+      "0.2",
+      "0.5"
+    ],
+    "answer": 1,
+    "explanation": "For mutually exclusive events, P(A or B) = P(A) + P(B).\n\n P(A or B) = 0.3 + 0.5 = **0.8**."
+  },
+  {
+    "question": "If A and B are independent events, with P(A) = 0.4 and P(B) = 0.7, what is P(A and B)?",
+    "options": [
+      "0.28",
+      "1.1",
+      "0.3",
+      "0.55"
+    ],
+    "answer": 0,
+    "explanation": "For independent events, P(A and B) = P(A) times P(B).\n\n P(A and B) = 0.4 * 0.7 = 0.28."
+  },
+
+  {
+    "question": "Two fair dice are rolled. What is the probability that the product of the numbers on the upper faces is 1?",
+    "options": [
+      "1/36",
+      "2/36",
+      "1/18",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "The total number of outcomes is 36. \nThe only pair whose product is 1 is (1, 1).\n Probability = 1/36."
+  },
+  {
+    "question": "Two fair dice are rolled. What is the probability that the product of the numbers on the upper faces is odd?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3"
+    ],
+    "answer": 0,
+    "explanation": "The product of two integers is odd only if BOTH integers are odd.\n P(Odd) = 3/6 = 1/2.\n P(Odd and Odd) = P(Odd) times P(Odd) = \n1/2 * 1/2 = 1/4."
+  },
+  {
+    "question": "A spinner is divided into 3 equal parts labeled 8, 9, and 10. What is the probability of spinning an 8, given that the arrow landed on an even number?",
+    "options": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "The reduced sample space (even numbers) is E = {8, 10}. \nThere are 2 possible outcomes.\n The event of spinning an 8 is {8}, which is 1 outcome.\n Conditional Probability = 1/2."
+  },
+  {
+    "question": "In a symmetric distribution, which of the following is true?",
+    "options": [
+      "Mean less than Median",
+      "Mean greater than Mode",
+      "Mean = Median = Mode",
+      "Mode is not defined"
+    ],
+    "answer": 2,
+    "explanation": "For a perfectly symmetric distribution (like the normal distribution), the three measures of central tendency coincide: Mean equals Median equals Mode."
+  },
+  {
+    "question": "If the range of a data set is 15, and the smallest value is 5, what is the largest value?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "Range = Largest Value - Smallest Value. \n\n15 = Largest Value - 5.\n Largest Value \n= 15 + 5 = 20."
+  },
+
+
+  {
+    "question": "For events A and B, P(A) = 0.5, P(B) = 0.3, and P(A and B) = 0.1. What is P(A or B)?",
+    "options": [
+      "0.9",
+      "0.8",
+      "0.7",
+      "0.5"
+    ],
+    "answer": 2,
+    "explanation": "The Addition Rule: P(A or B) = P(A) + P(B) - P(A and B).\n P(A or B) = 0.5 + 0.3 - 0.1\n = 0.7."
+  },
+  {
+    "question": "What is the standard deviation for the data set 1, 2, 3, 4, 5?",
+    "options": [
+      "√2",
+      "2",
+      "√2.5",
+      "√1.5"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "If the mean of two numbers is 10, and their range is 4, what are the two numbers?",
+    "options": [
+      "8 and 12",
+      "6 and 14",
+      "4 and 16",
+      "10 and 10"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is NOT a measure of dispersion?",
+    "options": [
+      "Range",
+      "Variance",
+      "Median",
+      "Standard Deviation"
+    ],
+    "answer": 2,
+    "explanation": "The Median is a measure of central tendency, while the others measure dispersion (spread)."
+  },
+  {
+    "question": "A box contains 5 red, 3 green, and 2 blue pens. If one pen is chosen at random, what is the probability that it is a red or a blue pen?",
+    "options": [
+      "7/10",
+      "3/10",
+      "5/10",
+      "2/10"
+    ],
+    "answer": 0,
+    "explanation": "Total pens = 10. \n\nThe events are mutually exclusive.\n P(Red or Blue) = P(Red) + P(Blue) =\n 5/10 + 2/10 = 7/10."
+  },
+  {
+    "question": "If the conditional probability P(A|B) is equal to P(A), then events A and B are considered to be:",
+    "options": [
+      "Mutually Exclusive",
+      "Dependent",
+      "Independent",
+      "Complementary"
+    ],
+    "answer": 2,
+    "explanation": "The definition of independent events is that the occurrence of one event does not affect the probability of the other, i.e., P(A|B) = P(A)."
+  },
+  {
+    "question": "What is the median of the first 5 prime numbers: 2, 3, 5, 7, 11?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "The data is already sorted.\n\n Since there are 5 numbers (odd), the median is the middle term, which is the 3rd term: 5."
+  },
+
+
+  {
+    "question": "What happens to the variance of a data set if every observation is reduced by 5?",
+    "options": [
+      "It decreases by 25.",
+      "It remains the same.",
+      "It increases by 5.",
+      "It decreases by the square root of 5."
+    ],
+    "answer": 1,
+    "explanation": "Adding or subtracting a constant from every observation shifts the data but does not change the spread, thus the variance remains the same."
+  },
+
+  {
+    "question": "If the data set {x, x+2, x+4} has a mean of 12, what is the value of x?",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "Mean = Sum / N.\n (x + (x+2) + (x+4)) / 3 = 12.\n (3x + 6) / 3 = 12.\n x + 2 = 12.\n x = 10."
+  },
+  {
+    "question": "Which of the following is a unitless measure of dispersion?",
+    "options": [
+      "Variance",
+      "Standard Deviation",
+      "Range",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": "Variance is in units squared. Standard Deviation and Range are in the same units as the data.\n\n None of the listed measures are unitless in a general sense."
+  },
+  {
+    "question": "What is the sample space when a coin is tossed and a die is rolled simultaneously?",
+    "options": [
+      "12 outcomes",
+      "8 outcomes",
+      "6 outcomes",
+      "2 outcomes"
+    ],
+    "answer": 0,
+    "explanation": "The total number of outcomes is the product of the individual outcomes: 2 (for the coin) * 6 (for the die) =\n 12 outcomes."
+  },
+  {
+    "question": "Given two events A and B, P(A) = 0.6, P(B) = 0.5, and P(A or B) = 0.8. What is P(A and B)?",
+    "options": [
+      "0.3",
+      "0.4",
+      "0.2",
+      "0.1"
+    ],
+    "answer": 0,
+    "explanation": "P(A and B) = P(A) + P(B) - P(A or B).\n P(A and B) = \n0.6 + 0.5 - 0.8\n = 0.3."
+  },
+  {
+    "question": "If all observations in a data set are tripled, how does the standard deviation change?",
+    "options": [
+      "It is tripled.",
+      "It is squared.",
+      "It remains the same.",
+      "It is divided by 3."
+    ],
+    "answer": 0,
+    "explanation": "If a data set is multiplied by a constant 'c', the new standard deviation is 'c' times the original standard deviation.\n Since c=3, the standard deviation is tripled."
+  },
+  {
+    "question": "In a card game, what is the probability of drawing a 'Jack' or a '7' from a deck of 52 cards?",
+    "options": [
+      "4/52",
+      "8/52",
+      "1/26",
+      "1/13"
+    ],
+    "answer": 1,
+    "explanation": "There are 4 Jacks and 4 Sevens.\n The events are mutually exclusive.\n P(Jack or 7) = 4/52 + 4/52 = \n8/52 (or 2/13)."
+  },
+
+
+  {
+    "question": "If the mean of a data set is 50 and its standard deviation is 5, and then 10 is added to every score, what is the new standard deviation?",
+    "options": [
+      "60",
+      "5",
+      "15",
+      "50"
+    ],
+    "answer": 1,
+    "explanation": "Adding a constant to every value does not affect the spread of the data.\n Thus, the standard deviation remains 5."
+  },
+
+  {
+    "question": "A fair coin is tossed three times. What is the probability of getting at least one tail?",
+    "options": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "The sample space has 2³ = 8 outcomes.\n P(at least one tail) = 1 - P(No tails) = 1 - P(HHH) =\n 1 - 1/8 = 7/8."
+  },
+  {
+    "question": "If the variance of a data set is 9, what is the standard deviation?",
+    "options": [
+      "9",
+      "81",
+      "3",
+      "4.5"
+    ],
+    "answer": 2,
+    "explanation": "Standard Deviation is the square root of the variance.\n SD = √9 = 3."
+  },
+  {
+    "question": "A pair of dice is rolled. What is the probability that the sum of the numbers on the upper faces is 10 or more?",
+    "options": [
+      "1/12",
+      "1/9",
+      "1/6",
+      "5/36"
+    ],
+    "answer": 1,
+    "explanation": "Total outcomes = 36. \nFavorable outcomes (sum greater than or equal to 10) are: (4, 6), (5, 5), (6, 4), (5, 6), (6, 5), (6, 6). \nThere are 6 favorable outcomes.\n P = 6/36 = 1/6."
+  },
+
+  {
+    "question": "Which of the following describes the characteristic of the mean?",
+    "options": [
+      "It is the middle value when data is ordered.",
+      "It is the most frequently occurring value.",
+      "It is sensitive to extreme values.",
+      "It can be used for nominal data."
+    ],
+    "answer": 2,
+    "explanation": "The arithmetic **Mean** uses all values in its calculation and is, therefore, heavily sensitive to extreme values (outliers)."
+  },
+  {
+    "question": "A card is drawn from a deck of 52 cards. What is the probability that it is a diamond or a face card?",
+    "options": [
+      "22/52",
+      "16/52",
+      "25/52",
+      "19/52"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+
+  {
+    "question": "If two events A and B are independent, and P(A) = 0.5 and P(B) = 0.4, what is the probability P(A or B)?",
+    "options": [
+      "0.20",
+      "0.70",
+      "0.90",
+      "0.10"
+    ],
+    "answer": 1,
+    "explanation": "P(A and B) = P(A) times P(B) = \n0.5 * 0.4 = 0.20. \nP(A or B) = P(A) + P(B) - P(A and B)\n = 0.5 + 0.4 - 0.20 =\n 0.70."
+  },
+
+
+  {
+    "question": "A fair six-sided die is rolled. What is the probability of getting an even number or a prime number?",
+    "options": [
+      "1/6",
+      "2/3",
+      "5/6",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "Even numbers E = {2, 4, 6} (3 outcomes). \n\nPrime numbers P = {2, 3, 5} (3 outcomes).\n E and P = {2} (1 outcome)\n. P(E or P) = P(E) + P(P) - P(E and P) = \n3/6 + 3/6 - 1/6\n = 5/6."
+  },
+  {
+    "question": "If a data set has an odd number of observations, the median is always the:",
+    "options": [
+      "Average of the two middle values",
+      "The most frequent value",
+      "Middle value after arranging the data",
+      "The difference between the maximum and minimum"
+    ],
+    "answer": 2,
+    "explanation": "For an odd number of observations, the **median** is the single value exactly in the middle after the data has been arranged in order."
+  },
+  {
+    "question": "What is the key disadvantage of using the range as a measure of dispersion?",
+    "options": [
+      "It requires tedious calculations.",
+      "It is not defined for all data types.",
+      "It only depends on two extreme values.",
+      "It is always a non-positive number."
+    ],
+    "answer": 2,
+    "explanation": "The range ignores the distribution of the values in between and is solely determined by the two extreme values (Maximum and Minimum), making it highly sensitive to outliers."
+  },
+  {
+    "question": "Consider the data 4, 4, 4, 4. What is the median?",
+    "options": [
+      "0",
+      "4",
+      "2",
+      "Undefined"
+    ],
+    "answer": 1,
+    "explanation": "Since all values are 4, the median (middle value) is 4."
+  },
+  {
+    "question": "If P(A) = 0.5 and P(B|A) = 0.6, what is P(A and B)?",
+    "options": [
+      "0.30",
+      "0.10",
+      "0.80",
+      "0.40"
+    ],
+    "answer": 0,
+    "explanation": "By the multiplication rule, P(A and B) = P(A) times P(B|A).\n\n P(A and B) = 0.5 * 0.6 = 0.30."
+  },
+  {
+    "question": "What is the median for the data set: 10, 15, 8, 20, 12, 11?",
+    "options": [
+      "11",
+      "12.5",
+      "11.5",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "Sort the data: 8, 10, 11, 12, 15, 20.\n There are 6 terms (even).\n Median = (11 + 12) / 2 = \n11.5."
+  },
+  {
+    "question": "Two fair dice are rolled. What is the probability that the product of the numbers on the upper faces is less than 6?",
+    "options": [
+      "10/36",
+      "11/36",
+      "5/18",
+      "1/4"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "If the sum of a set of 10 observations is 150, what is the mean of the data set?",
+    "options": [
+      "15",
+      "150",
+      "10",
+      "1.5"
+    ],
+    "answer": 0,
+    "explanation": "Mean = Sum of observations / Number of observations.\n Mean = 150 / 10 = 15."
+  },
+  {
+    "question": "Which measure of central tendency requires the data to be ordered before it can be calculated?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "answer": 1,
+    "explanation": "The Median is defined as the middle value, which necessitates ordering the data first."
+  },
+  {
+    "question": "If a card is drawn from a deck, what is the probability that it is a black card or an Ace?",
+    "options": [
+      "28/52",
+      "26/52",
+      "30/52",
+      "27/52"
+    ],
+    "answer": 3,
+    "explanation": "P(Black) = 26/52.\n P(Ace) = 4/52.\n P(Black and Ace) = 2/52 (Ace of Club, Ace of Spade).\n P(B or A) = 26/52 + 4/52 - 2/52 = 28/52 (or 7/13)."
+  },
+
+  {
+    "question": "What is the standard deviation for the data set 5, 5, 5?",
+    "options": [
+      "5",
+      "0",
+      "25",
+      "Square root of 5"
+    ],
+    "answer": 1,
+    "explanation": "Since there is no variation in the data, the standard deviation is 0."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "If a data set is transformed by dividing every value by 2, and the original range was 20, what is the new range?",
+    "options": [
+      "20",
+      "40",
+      "10",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "If a data set is divided by a constant 'c', the new range is the original range divided by 'c'.\n New Range = 20 / 2 = 10."
+  },
+  {
+    "question": "In a survey, 40% of people prefer tea, and 30% prefer coffee. If 10% prefer both, what percentage prefer tea or coffee?",
+    "options": [
+      "80%",
+      "70%",
+      "60%",
+      "50%"
+    ],
+    "answer": 0,
+    "explanation": "P(T or C) =\n P(T) + P(C) - P(T and C) =\n 40% + 30% - 10% =\n 60%."
+  },
+  {
+    "question": "What is the median of the following frequency distribution: {2, 2, 3, 4, 4, 4, 5}?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "4.5"
+    ],
+    "answer": 2,
+    "explanation": "The data is already sorted and has 7 observations (odd).\n\n The median is the (7+1)/2 =\n 4th value, which is 4."
+  },
+  {
+    "question": "If the mean of a data set is 20, and every observation is doubled, what is the new mean?",
+    "options": [
+      "20",
+      "40",
+      "30",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "If every value is multiplied by 'c', the new mean is 'c' times the original mean.\n New Mean = 2 * 20 = 40."
+  },
+  {
+    "question": "Which of the following is an unstable measure of central tendency?",
+    "options": [
+      "Median",
+      "Mode",
+      "Mean",
+      "Range"
+    ],
+    "answer": 2,
+    "explanation": "The Mean is considered unstable because it is highly affected by extreme values (outliers)."
+  },
+  {
+    "question": "A box contains 2 red and 8 white balls. If two balls are drawn with replacement, what is the probability that they are both red?",
+    "options": [
+      "1/5",
+      "1/25",
+      "4/100",
+      "1/45"
+    ],
+    "answer": 1,
+    "explanation": "P(Red) = 2/10 = 1/5. \nSince it is with replacement, P(Both Red) = (1/5) * (1/5) = \n1/25."
+  },
+  {
+    "question": "If the variance of a data set is 25, and every observation is increased by 10, what is the new variance?",
+    "options": [
+      "35",
+      "25",
+      "15",
+      "325"
+    ],
+    "answer": 1,
+    "explanation": "Adding a constant to every value does not affect the spread of the data.\n The variance remains 25."
+  },
+  {
+    "question": "In a card game, what is the probability of drawing a 'Red' card or a 'King'?",
+    "options": [
+      "26/52",
+      "30/52",
+      "28/52",
+      "32/52"
+    ],
+    "answer": 2,
+    "explanation": "P(Red) = 26/52. \nP(King) = 4/52. \nP(Red and King) = 2/52 (King of Hearts, King of Diamonds).\n P(R or K) = 26/52 + 4/52 - 2/52 = 28/52 (or 7/13)."
+  },
+  {
+    "question": "What is the median of the first five composite numbers: 4, 6, 8, 9, 10?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "7.4"
+    ],
+    "answer": 1,
+    "explanation": "The data is sorted and has 5 terms.\n\n The median is the 3rd term, which is 8."
+  },
+  {
+    "question": "The range of the set {10, 2, 5, 8, 20, x} is 25. If x is the smallest value, what is the value of x?",
+    "options": [
+      "5",
+      "2",
+      "-5",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "The largest known value is 20. If x is the smallest, then Range = 20 - x.\n 25 = 20 - x.\n x = 20 - 25 = -5."
+  },
+  {
+    "question": "If P(A) = 0.4, P(B) = 0.5, and A and B are mutually exclusive, what is P(A and B)?",
+    "options": [
+      "0.20",
+      "0.90",
+      "0",
+      "0.10"
+    ],
+    "answer": 2,
+    "explanation": "If A and B are mutually exclusive, they cannot occur together, so P(A and B) = 0."
+  },
+
+  {
+    "question": "Two fair dice are rolled. What is the probability that the numbers on the upper faces are equal (a double)?",
+    "options": [
+      "1/36",
+      "1/6",
+      "1/12",
+      "5/36"
+    ],
+    "answer": 1,
+    "explanation": "The doubles are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6).\n\n There are 6 favorable outcomes out of 36. \nP = 6/36 = 1/6."
+  },
+  {
+    "question": "Which one of the following is NOT true about the median?",
+    "options": [
+      "It is affected by extreme values.",
+      "It is a positional measure.",
+      "It is the second quartile (Q2).",
+      "It can be found for open-ended class intervals."
+    ],
+    "answer": 0,
+    "explanation": "The median is a resistant measure; it is NOT significantly affected by extreme values, unlike the mean."
+  },
+  {
+    "question": "If the data set is {1, 2, 3}, and a constant 'c' is added to each value, resulting in {1+c, 2+c, 3+c}, how does the standard deviation change?",
+    "options": [
+      "It changes by 'c'.",
+      "It changes by c squared.",
+      "It remains the same.",
+      "It is multiplied by 'c'."
+    ],
+    "answer": 2,
+    "explanation": "Adding a constant to every data point does not change the spread, thus the standard deviation remains the same."
+  },
+
+  {
+    "question": "The ages of employees are 25, 30, 25, 40, 30, 25. What is the mode of the ages?",
+    "options": [
+      "25 and 30",
+      "25",
+      "30",
+      "40"
+    ],
+    "answer": 1,
+    "explanation": "The age 25 appears 3 *, which is the most frequent.\n The mode is 25."
+  },
+  {
+    "question": "If the range of a set of data is 0, what can be concluded about the data values?",
+    "options": [
+      "The mean is 0.",
+      "All values are the same.",
+      "The median is 0.",
+      "The data is bimodal."
+    ],
+    "answer": 1,
+    "explanation": "Range = Max - Min. \nIf Range = 0, then Max = Min, meaning all values are the same."
+  },
+  {
+    "question": "A jar contains 10 pens: 4 black and 6 blue. If a pen is chosen, and then a second one is chosen without replacement, what is the probability that the first is black and the second is blue?",
+    "options": [
+      "2/15",
+      "4/15",
+      "6/25",
+      "1/2"
+    ],
+    "answer": 1,
+    "explanation": "P(1st Black) = 4/10.\n P(2nd Blue | 1st Black) = 6/9 (6 blue left out of 9 total).\n P(B and B) = (4/10) * (6/9) = 24/90 =\n 4/15."
+  },
+
+  {
+    "question": "The data 1, 3, 5, 7, 9 are the first five odd numbers. What is their mean?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "4.5"
+    ],
+    "answer": 1,
+    "explanation": "Mean = (1 + 3 + 5 + 7 + 9) / 5 =\n 25 / 5 = 5."
+  },
+
+  {
+    "question": "A fair die is rolled. What is the probability that a 1, 4, 5, or 6 will be on the upper face?",
+    "options": [
+      "1/6",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "answer": 1,
+    "explanation": "The favorable outcomes are {1, 4, 5, 6}, which is 4 outcomes.\n P = 4/6 = 2/3."
+  },
+  {
+    "question": "The median of the data set {1, 10, 20} is 10. If the value 1 is replaced by 0, what is the new median?",
+    "options": [
+      "10",
+      "1",
+      "0",
+      "20"
+    ],
+    "answer": 0,
+    "explanation": "The new set is {0, 10, 20}.\n The sorted order remains the same, and the middle value is still 10."
+  },
+  {
+    "question": "Which of the following is an appropriate measure of dispersion for the set of all human body temperatures in degrees Celsius?",
+    "options": [
+      "Mode",
+      "Mean",
+      "Standard Deviation",
+      "Median"
+    ],
+    "answer": 2,
+    "explanation": "The Standard Deviation is the most widely used and informative measure of dispersion for continuous, interval/ratio data like temperature."
+  }
+  ]

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Consider a system of two point masses M1 and M2 with M2 = 0.5 M1. The two masses are located on the x-y plane as shown in the figure below. Which one of the following alternatives indicates the position of **center of mass** of the system? (Q5)",
+    "options": [
+      "(5, 4) cm",
+      "(5/3, 4) cm",
+      "(16/3,11/3) cm",
+      "(5/3, 6/3) cm"
+    ],
+    "answer": 2,
+    "image": "images/P2015_5.png",
+    "explanation": ""
+  },
+  {
+    "question": "A 30kg rigid body has a moment of inertia 45 kgm² about its center of mass. What is the moment of inertia when it rotates through an axis 2m away and parallel to the axis through the center of mass?",
+    "options": [
+      "90 kgm²",
+      "165 kgm²",
+      "180 kgm²",
+      "105 kgm²"
+    ],
+    "answer": 1,
+    "explanation": "Using the parallel axis theorem: I = I_cm + Md²\n\nWhere:-  I_cm = 45 kg·m² (moment of inertia about center of mass)\n\n- M = 30 kg (mass of the body)\n\n- d = 2 m (distance between axes)\n\nI = 45 + 30*(2)² = 45 + 30*4 = 45 + 120 = 165 kg·m²\n\nTherefore, the moment of inertia about the new axis is 165 kg·m²."
+  },
+  {
+    "question": "A force F = (i -3k) N acts on a wooden bar and drags the bar through a displacement of r = 4i m. What is the torque due to the force in N.m?",
+    "options": [
+      "4i + 12j",
+      "-12j",
+      "12j",
+      "12k"
+    ],
+    "answer": 2,
+    "explanation": "Torque τ = r × F (cross product of position vector and force vector). \n\nGiven r = 4i, F = i - 3k.\n\nCompute determinant: τ = 12j N·m."
+  }
+]

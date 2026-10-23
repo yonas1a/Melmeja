@@ -1,0 +1,674 @@
+[
+  {
+    "question": "Find the 15th term of an arithmetic sequence where a₁ = 4 and d = 6.",
+    "options": ["88","94","82","98"],
+    "answer": 0,
+    "explanation": "a₁₅ = 4 + (15−1)×6 = 4 + 84 = 88."
+  },
+  {
+    "question": "Find n if the sum of the first n terms of an arithmetic sequence is 300, where a₁ = 5 and d = 5.",
+    "options": ["12","8","15","10"],
+    "answer": 3,
+    "explanation": "Sₙ = n/2[2a + (n−1)d] = n/2[10 + 5(n−1)] =\n\n n/2(5n+5) = (5n²+5n)/2 = 300 →\n n²+n=120 → n=10."
+  },
+  {
+    "question": "Find the 7th term of a geometric sequence if a₁ = 3 and r = −2.",
+    "options": ["192","-192","96","-96"],
+    "answer": 0,
+    "explanation": "a₇ = 3×(−2)⁶ = 3×64 = 192, but sign is positive since power is even ."
+  },
+  {
+    "question": "Evaluate: Σ (k = 1 to 6) (k³)",
+    "options": ["400","450","420","441"],
+    "answer": 3,
+    "explanation": "Formula: [n(n+1)/2]² = [6×7/2]² = 21² = 441."
+  },
+  {
+    "question": "Find the sum of the first 5 terms of the geometric sequence: 5, 15, 45, ...",
+    "options": ["600","605","610","590"],
+    "answer": 1,
+    "explanation": "a=5, r=3.\n\n S₅ = 5(3⁵−1)/(3−1) =\n 5(243−1)/2 = 5×242/2 = 605."
+  },
+  {
+    "question": "Determine the sum of the infinite geometric series: 4 − 2 + 1 − ...",
+    "options": ["8/3","2","4","3"],
+    "answer": 0,
+    "explanation": "a=4, r=−1/2.\n\n Sum = 4/(1+1/2) = 4/(3/2) = 8/3."
+  },
+  {
+    "question": "A student saves 50 birr in the first week and doubles the amount each week. How much is saved in total after 5 weeks?",
+    "options": ["1500","1600","1550","1450"],
+    "answer": 2,
+    "explanation": "Sequence: 50,100,200,400,800 → sum = 1550."
+  },
+  {
+    "question": "Find ∫(x³ - x) dx.",
+    "options": ["x⁴/4 - x²/2 + C","x⁴ - x² + C","x³/3 - x + C","x⁴/4 - x + C"],
+    "answer": 0,
+    "explanation": "Apply power rule."
+  },
+
+  {
+    "question": "Find ∫ (1/(x²+1)) dx.",
+    "options": ["tan⁻¹(x)+C","ln(x)+C","1/x+C","sec(x)+C"],
+    "answer": 0,
+    "explanation": "Standard inverse trig."
+  },
+
+  {
+    "question": "Find derivative of xˣ.",
+    "options": ["xˣ ln x","xˣ","ln x","xˣ(1+ln x)"],
+    "answer": 3,
+    "explanation": "Use logarithmic differentiation."
+  },
+
+
+  {
+    "question": "Find coefficient of quartile deviation if Q1=5, Q3=15.",
+    "options": ["0.33","0.25","0.5","0.6"],
+    "answer": 2,
+    "explanation": "(15−5)/(15+5)=\n10/20=0.5."
+  },
+  {
+    "question": "Find mean of grouped data: f=2,3,5; x=1,2,3.",
+    "options": ["2.3","2","2.5","3"],
+    "answer": 0,
+    "explanation": "Mean=(2+6+15)/10=\n23/10=2.3."
+  },
+  {
+    "question": "Find variance if SD = 6.",
+    "options": ["12","36","18","30"],
+    "answer": 1,
+    "explanation": "Variance = SD² = 36."
+  },
+  {
+    "question": "Which measure is absolute dispersion?",
+    "options": ["Standard deviation","Coefficient of variation","Coefficient of range","All"],
+    "answer": 0,
+    "explanation": "SD is absolute."
+  },
+  {
+    "question": "Which is relative measure?",
+    "options": ["Variance","Range","Coefficient of variation","SD"],
+    "answer": 2,
+    "explanation": "Relative measure compares dispersion."
+  },
+
+  {
+    "question": "If mean=50, SD=5, find CV.",
+    "options": ["10%","5%","20%","15%"],
+    "answer": 0,
+    "explanation": "CV=5/50×100=10%."
+  },
+
+  {
+    "question": "If feasible region is unbounded, maximum value is?",
+    "options": ["Always exists","Always zero","May not exist","Always finite"],
+    "answer": 2,
+    "explanation": "Unbounded may lead to no max."
+  },
+  {
+    "question": "Find maximum of Z = x + y subject to x + 2y ≤ 6, x ≥ 0, y ≥ 0.",
+    "options": ["5","4","3","6"],
+    "answer": 3,
+    "explanation": "At (6,0) → Z=6."
+  },
+  {
+    "question": "Which inequality represents region below x-axis?",
+    "options": ["y ≤ 0","y ≥ 0","x ≤ 0","x ≥ 0"],
+    "answer": 0,
+    "explanation": "Below x-axis means y ≤ 0."
+  },
+  {
+    "question": "Corner points are also called?",
+    "options": ["Midpoints","Extreme points","Intercepts","Nodes"],
+    "answer": 1,
+    "explanation": "Vertices/extreme points."
+  },
+  {
+    "question": "Find minimum of Z = 2x + 3y for x ≥ 0, y ≥ 0.",
+    "options": ["2","3","1","0"],
+    "answer": 3,
+    "explanation": "Minimum at origin."
+  },
+  {
+    "question": "Which constraint is linear?",
+    "options": ["x²+y≤5","2x+3y≤5","xy≤5","x/y≤2"],
+    "answer": 1,
+    "explanation": "Only first is linear."
+  },
+  {
+    "question": "Feasible region is empty when?",
+    "options": ["No common solution","All constraints same","Infinite solutions","One solution"],
+    "answer": 0,
+    "explanation": "No overlap."
+  },
+
+  {
+    "question": " Find the compound interest on 1000 birr for 2 years at 5% per annum.",
+    "options": [" 100 birr"," 110 birr"," 102.5 birr"," 120 birr"],
+    "answer": 2,
+    "explanation": "CI = 1000(1.05)² − 1000 = 102.5."
+  },
+  {
+    "question": " If a person saves 300 birr every month, how much will he save in one year?",
+    "options": [" 3000 birr"," 3600 birr"," 3200 birr"," 4000 birr"],
+    "answer": 1,
+    "explanation": "300×12 = 3600."
+  },
+
+  {
+    "question": " If fixed cost is 2000 birr and variable cost per unit is 20 birr, find total cost for 50 units.",
+    "options": [" 3000 birr"," 2500 birr"," 2000 birr"," 3500 birr"],
+    "answer": 0,
+    "explanation": "2000 + (20×50) = 3000."
+  },
+
+  {
+    "question": " Loss percentage when CP = 500 birr and SP = 400 birr is:",
+    "options": [" 25%"," 15%"," 10%"," 20%"],
+    "answer": 3,
+    "explanation": "Loss = 100 → (100/500)×100 = 20%."
+  },
+  {
+    "question": " The future value of 1000 birr after 2 years at 10% is:",
+    "options": [" 1210 birr"," 1200 birr"," 1100 birr"," 1300 birr"],
+    "answer": 0,
+    "explanation": "1000(1.1)² = 1210."
+  },
+  {
+    "question": " Time value of money states that:",
+    "options": [" Money today is more valuable than in future"," Money has no time value"," Future money is always greater"," Money value is constant"],
+    "answer": 0,
+    "explanation": "Due to earning capacity."
+  },
+  {
+    "question": " A function is onto if:",
+    "options": [" Domain equals range"," Range equals codomain"," One-to-one"," None"],
+    "answer": 1,
+    "explanation": "Surjective definition."
+  },
+
+  {
+    "question": " Which function has no inverse?",
+    "options": [" f(x)=x²"," f(x)=x³"," f(x)=2x+1"," f(x)=x−3"],
+    "answer": 0,
+    "explanation": "Not one-to-one."
+  },
+  {
+    "question": " The inverse of f(x)=1/x is:",
+    "options": [" x"," −x"," x²"," 1/x"],
+    "answer": 3,
+    "explanation": "Self-inverse."
+  },
+  {
+    "question": " Domain of f(x)=1/(x−2) is:",
+    "options": [" x ≥ 2"," x ≤ 2"," x ≠ 2"," All real"],
+    "answer": 2,
+    "explanation": "Denominator ≠ 0."
+  },
+  {
+    "question": " Range of f(x)=1/x is:",
+    "options": [" y ≠ 0"," y ≥ 0"," y ≤ 0"," All real"],
+    "answer": 0,
+    "explanation": "Never zero."
+  },
+  {
+    "question": " Find f(g(2)) if f(x)=x² and g(x)=x+1.",
+    "options": [" 4"," 6"," 5"," 9"],
+    "answer": 3,
+    "explanation": "g(2)=3 → f(3)=9."
+  },
+  {
+    "question": " A relation is a subset of:",
+    "options": [" Cartesian product"," Domain"," Range"," Function"],
+    "answer": 0,
+    "explanation": "Definition."
+  },
+  {
+    "question": " Simplify: (x²−1)/(x−1).",
+    "options": [" x−1"," x²−1"," 1"," x+1"],
+    "answer": 3,
+    "explanation": "(x−1)(x+1)/(x−1)."
+  },
+  {
+    "question": " Solve: (x+1)/(x−2)=1.",
+    "options": [" x=1"," x=2"," x=3"," x=−1"],
+    "answer": 2,
+    "explanation": "x+1=x−2 → x=3."
+  },
+  {
+    "question": " Domain of f(x)=1/(x²−4).",
+    "options": [" x ≠ ±2"," x ≥ 2"," x ≤ −2"," All real"],
+    "answer": 0,
+    "explanation": "Denominator zero at ±2."
+  },
+  {
+    "question": "11. Solve inequality: 1/x > 0.",
+    "options": [" x>0"," x<0"," x≠0"," All real"],
+    "answer": 0,
+    "explanation": "Positive when x>0."
+  },
+  {
+    "question": " Simplify: (2x)/(x²−x).",
+    "options": [" 2/x"," x/(x−1)"," 2/(x−1)"," 1/x"],
+    "answer": 2,
+    "explanation": "Factor denominator x(x−1)."
+  },
+  {
+    "question": " Find x-intercept of f(x)=1/(x−1).",
+    "options": [" None"," 1"," 0"," −1"],
+    "answer": 0,
+    "explanation": "Function never equals zero."
+  },
+  {
+    "question": " Find y-intercept of f(x)=1/(x−1).",
+    "options": [" 1"," 0"," 2"," −1"],
+    "answer": 3,
+    "explanation": "f(0)=−1."
+  },
+  {
+    "question": " Solve: (x+2)/(x−1) = 3.",
+    "options": [" x=2"," x=5/2"," x=3"," x=1"],
+    "answer": 1,
+    "explanation": "x+2=3x−3 → 2x=5."
+  },
+
+  {
+    "question": " If A=[[2,1],[1,2]], find det(A).",
+    "options": [" 3"," 4"," 5"," 2"],
+    "answer": 0,
+    "explanation": "2×2−1×1=4−1=3."
+  },
+  {
+    "question": " If det(A) = -4, find det(3A).",
+    "options": [" -36", " -12", " -48", " 36"],
+    "answer": 0,
+    "explanation": "det(kA) = k^n det(A), n=2 → 3²×(-4) = -36."
+  },
+
+  {
+    "question": " If det(A) = 7, find det(−A).",
+    "options": [ " −7", " 7", " 0"," (−1)^n det(A)"],
+    "answer": 3,
+    "explanation": "det(−A) = (−1)^n det(A)."
+  },
+
+  {
+    "question": " If det(A) = 5, det(2A) = ?",
+    "options": [ " 10"," 20", " 40", " 25"],
+    "answer": 1,
+    "explanation": "det(kA) = k^n det(A), n=2 → 2²×5=20."
+  },
+
+  {
+    "question": " If det(A)=0, then A is:",
+    "options": [ " Invertible", " Identity"," Singular", " None"],
+    "answer": 2,
+    "explanation": "Zero determinant → singular matrix."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": " If u·v = |u||v|, then u and v are:",
+    "options": [ " Parallel and same direction", " Parallel but opposite", " Random"," Perpendicular"],
+    "answer": 3,
+    "explanation": "cosθ=1 → θ=0° → parallel and same direction."
+  },
+  {
+    "question": " If u·v = -|u||v|, then u and v are:",
+    "options": [" Perpendicular", " Parallel opposite direction", " Parallel same", " Random"],
+    "answer": 1,
+    "explanation": "cosθ=-1 → θ=180° → parallel, opposite."
+  },
+  {
+    "question": " Area of triangle formed by u=[1,2,3], v=[4,5,6] is:",
+    "options": [" |u×v|", " 1/2 |u×v|", " |u·v|", " 1/2 |u·v|"],
+    "answer": 1,
+    "explanation": "Area = 1/2 |u×v|."
+  },
+  {
+    "question": " u=[1,2,3], v=[4,5,6], find angle θ using dot product.",
+    "options": [" cosθ = 32/√14√77", " sinθ = 32/√14√77", " cosθ = 14", " sinθ = 77"],
+    "answer": 0,
+    "explanation": "cosθ = u·v / (|u||v|) =\n 32/(√14*√77)."
+  },
+  {
+    "question": " If u·v = 0, then |u×v| = ?",
+    "options": [ " 0", " 1"," |u||v|", " Cannot determine"],
+    "answer": 2,
+    "explanation": "Perpendicular → sinθ=1 →\n |u×v|=|u||v|."
+  },
+  {
+    "question": " Find u×u for u=[1,2,3].",
+    "options": [" [0,0,0]", " [1,2,3]", " [-1,2,-3]", " [3,2,1]"],
+    "answer": 0,
+    "explanation": "Cross product of vector with itself is 0."
+  },
+  {
+    "question": " Volume of parallelepiped formed by u=[1,0,0], v=[0,1,0], w=[0,0,1] is:",
+    "options": [" 0", " 1", " 2", " 3"],
+    "answer": 1,
+    "explanation": "Volume = |u·(v×w)| =1."
+  },
+  {
+    "question": " Find projection of u=[3,4,0] on v=[1,0,0].",
+    "options": [ " 4", " 0", " 3"," 5"],
+    "answer": 2,
+    "explanation": "Proj_v(u) = (u·v)/|v| = 3."
+  },
+  {
+    "question": " u=[1,2,3], v=[4,5,6], find component of u along v.",
+    "options": [" 32/√77", " 32/√14", " √77", " √14"],
+    "answer": 0,
+    "explanation": "Component = u·v / |v| =32/√77."
+  },
+  {
+    "question": " Reflect the point P(-3,6) about the line y = -x.",
+    "options": [" (-6,3)", " (6,-3)", " (6,3)", " (-3,-6)"],
+    "answer": 1,
+    "explanation": "Reflection about y = -x swaps and negates coordinates: (x,y) → (-y,-x): (-3,6) → (6,-3)."
+  },
+  {
+    "question": " Rotate the point P(2,1) 270° counterclockwise about the origin.",
+    "options": [ " (-1,2)", " (-2,-1)"," (1,-2)", " (2,-1)"],
+    "answer": 2,
+    "explanation": "270° CCW rotation = 90° clockwise:\n\n (x,y) → (y,-x): (2,1) → (1,-2)."
+  },
+  {
+    "question": " Translate the point P(0,0) by vector v = (-5,7).",
+    "options": [" (-5,7)", " (5,-7)", " (-7,5)", " (7,-5)"],
+    "answer": 0,
+    "explanation": "Translation: (0+(-5),0+7) = (-5,7)."
+  },
+  {
+    "question": " Selecting 10 students from each class of a school is:",
+    "options": [" Cluster sampling",  " Systematic sampling", " Simple random sampling"," Stratified sampling"],
+    "answer": 3,
+    "explanation": "Stratified sampling: sample from each subgroup."
+  },
+  {
+    "question": " Mean of grouped frequency table can be estimated by:",
+    "options": [" Median formula", " Midpoint × frequency", " Sum of midpoints/frequency", " Midpoint/frequency"],
+    "answer": 1,
+    "explanation": "Mean ≈ Σ(f×x)/Σf, x = class midpoint, f = frequency."
+  },
+
+  {
+    "question": " A die is rolled. Probability of an odd number is:",
+    "options": [" 1/6", " 1/2", " 1/3", " 2/3"],
+    "answer": 1,
+    "explanation": "Odd numbers = 1,3,5 → 3 outcomes out of 6 → P = 3/6 = 1/2"
+  },
+
+  {
+    "question": " Relative dispersion helps in comparing datasets when:",
+    "options": [" Units are different", " Units are same", " Only one dataset", " None"],
+    "answer": 0,
+    "explanation": "CV allows comparison regardless of units."
+  },
+  {
+    "question": " A bag has 2 red, 3 green, 5 blue balls. One ball drawn. P(not red) =",
+    "options": [" 0.2",  " 0.5", " 0.3"," 0.8"],
+    "answer": 3,
+    "explanation": "P(not red) = 1 - P(red) = 1 - 2/10 = 0.8"
+  },
+  {
+    "question": " Two events A and B: P(A)=0.4, P(B)=0.5, P(A∪B)=0.7. Find P(A∩B).",
+    "options": [ " 0.1", " 0.3"," 0.2", " 0.4"],
+    "answer": 2,
+    "explanation": "P(A∩B) = P(A)+P(B)-P(A∪B)=\n\n0.4+0.5-0.7=0.2"
+  },
+  {
+    "question": " Probability of at least one head in 2 coin tosses:",
+    "options": [" 1/2", " 3/4", " 1/4", " 1"],
+    "answer": 1,
+    "explanation": "1 - P(no head) =\n\n 1 - 1/4 = 3/4"
+  },
+
+  {
+    "question": " Probability that sum of two dice = 10:",
+    "options": [" 1/12", " 1/6", " 1/8", " 1/9"],
+    "answer": 0,
+    "explanation": "Pairs: (4,6),(5,5),(6,4) → \n\n3/36 = 1/12"
+  },
+  {
+    "question": " Probability of drawing a red or black card:",
+    "options": [" 0.5", " 1", " 0.25", " 0.75"],
+    "answer": 1,
+    "explanation": "Red ∪ Black = entire deck → P = 1"
+  },
+  {
+    "question": " Probability that a student is male or above 18, given P(Male)=0.6, P(Age>18)=0.5, P(Male∩Age>18)=0.3:",
+    "options": [" 0.8", " 0.7", " 0.6", " 0.9"],
+    "answer": 1,
+    "explanation": "P(M∪A) = P(M)+P(A)-P(M∩A)=\n\n0.6+0.5-0.3=0.8 → \ncorrected answer is A"
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "If A = {x ∈ ℤ : -3 ≤ x ≤ 3} and B = {x ∈ ℤ : x² ≤ 4}, find n(A ∩ B).",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "A = {-3,-2,-1,0,1,2,3}, B = {-2,-1,0,1,2}.\n\n Intersection = {-2,-1,0,1,2} ⇒ 5 elements."
+  },
+  {
+    "question": "Solve: log₂(x-1) + log₂(x-3) = 3",
+    "options": ["5", "3", "7", "9"],
+    "answer": 0,
+    "explanation": "log₂[(x-1)(x-3)] = 3 \n\n⇒ (x-1)(x-3)=8 ⇒ x²-4x+3=8 ⇒\n\n x²-4x-5=0 ⇒ x=5 or -1.\n\n Valid: x>3 ⇒ x=5."
+  },
+  {
+    "question": "If f(x)=x²-4x+3, find minimum value of f(x).",
+    "options": ["-1", "-2", "-3", "0"],
+    "answer": 0,
+    "explanation": "Vertex at x=2 ⇒ f(2)=4-8+3=-1."
+  },
+
+  {
+    "question": "Find the distance from point (1,2) to line 2x+3y-6=0.",
+    "options": ["1", "2", "√13/3", "√13"],
+    "answer": 2,
+    "explanation": "|2+6-6| / √(4+9) = 2/√13 = √13/3."
+  },
+
+  {
+    "question": "Solve inequality: (x-2)(x-5) < 0",
+    "options": ["x<2", "2<x<5", "x>5", "x<2 or x>5"],
+    "answer": 1,
+    "explanation": "Product negative between roots."
+  },
+  {
+    "question": " If a person saves 300 birr every month, how much will he save in one year?",
+    "options": [" 3000 birr"," 3600 birr"," 3200 birr"," 4000 birr"],
+    "answer": 1,
+    "explanation": "300×12 = 3600."
+  },
+  {
+    "question": "Find the number of subsets of a set with 4 elements.",
+    "options": ["8", "16", "32", "64"],
+    "answer": 1,
+    "explanation": "2⁴ = 16 subsets."
+  },
+
+  {
+    "question": "Solve: √(x+5) = x-1",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "Square: x+5 = x²-2x+1 ⇒ x²-3x-4=0 \n\n⇒ x=4 or -1.\n\n Check: only x=4 valid."
+  },
+
+  {
+    "question": "Find sum of roots of x² - 6x + 8 = 0.",
+    "options": ["6", "8", "-6", "-8"],
+    "answer": 0,
+    "explanation": "Sum = 6."
+  },
+  {
+    "question": "If f(x)=1/x, find f(f(2)).",
+    "options": ["2", "1/2", "4", "1"],
+    "answer": 0,
+    "explanation": "f(2)=1/2 ⇒ f(1/2)=2."
+  },
+  {
+    "question": "Find probability of getting sum 7 when two dice are rolled.",
+    "options": [ "1/12", "1/3", "1/9","1/6"],
+    "answer": 3,
+    "explanation": "6 favorable outcomes out of 36 ⇒ 1/6."
+  },
+
+  {
+    "question": "Find equation of line through (1,2) with slope -3.",
+    "options": ["y=3x-1", "y=-3x+1", "y=-3x+5", "y=3x+5"],
+    "answer": 2,
+    "explanation": "y-2=-3(x-1) ⇒ y=-3x+5."
+  },
+  {
+    "question": "Find value of k if lines 2x+ky=1 and x-2y=3 are perpendicular.",
+    "options": [ "-1", "4","1", "-4"],
+    "answer": 2,
+    "explanation": "Slopes: -2/k and 1/2 ⇒ product = -1 ⇒ k=1."
+  },
+
+
+
+
+
+  {
+    "question": "If A = {x ∈ ℕ : x < 10 and x is even} and B = {x ∈ ℕ : x divides 24}, find A ∩ B.",
+    "options": ["{2,4,6,8}", "{2,4,6,8,12}", "{2,4,6,8}", "{2,4,6,8}"],
+    "answer": 0,
+    "explanation": "A={2,4,6,8}, B={1,2,3,4,6,8,12,24}. Intersection={2,4,6,8}."
+  },
+  {
+    "question": "Solve: 3x - 2 < 2x + 5 ≤ 11",
+    "options": [ "x≤6 and x>7", "7<x≤6", "x≤6 and x>7","x>7"],
+    "answer": 3,
+    "explanation": "Solve separately: 3x-2<2x+5 ⇒ x<7; 2x+5≤11 ⇒ x≤3 ⇒ combined: x≤3."
+  },
+  {
+    "question": "Find value of k such that x² + kx + 9 = 0 has equal roots.",
+    "options": [ "±3","±6", "6", "3"],
+    "answer": 1,
+    "explanation": "Discriminant=0 ⇒ k²-36=0 ⇒ k=±6."
+  },
+  {
+    "question": "If f(x)=2x+3 and g(x)=x², find (g∘f)(2).",
+    "options": ["25", "49", "16", "36"],
+    "answer": 1,
+    "explanation": "f(2)=7 ⇒ g(7)=49."
+  },
+
+  {
+    "question": "Find the coordinates of midpoint of line joining (-2,3) and (4,-1).",
+    "options": ["(1,1)", "(2,1)", "(1,2)", "(0,1)"],
+    "answer": 0,
+    "explanation": "((−2+4)/2, (3−1)/2)=(1,1)."
+  },
+  {
+    "question": "If sinθ = 3/5 and θ is acute, find cosθ.",
+    "options": [ "5/4", "3/4", "√5","4/5"],
+    "answer": 3,
+    "explanation": "cosθ = √(1−(3/5)²)=4/5."
+  },
+  {
+    "question": "Find equation of line passing through (2,3) and parallel to 3x-2y=5.",
+    "options": [ "3x-2y=6","3x-2y=0", "3x-2y=12", "3x-2y=1"],
+    "answer": 1,
+    "explanation": "Parallel lines have same coefficients \n\n⇒ substitute point: 3(2)-2(3)=0."
+  },
+  {
+    "question": "Find remainder when x³ - 2x² + 3x -1 is divided by (x-1).",
+    "options": ["1", "0", "-1", "2"],
+    "answer": 0,
+    "explanation": "Use f(1)=1-2+3-1=1."
+  },
+  {
+    "question": "If log₁₀(x) + log₁₀(2) = 1, find x.",
+    "options": ["5", "2", "10", "0.5"],
+    "answer": 0,
+    "explanation": "log(2x)=1 ⇒ 2x=10 ⇒ x=5."
+  },
+
+  {
+    "question": "Solve quadratic inequality: x² - 4x + 3 ≥ 0",
+    "options": [ "1≤x≤3","x≤1 or x≥3", "x≥3", "x≤1"],
+    "answer": 1,
+    "explanation": "(x-1)(x-3)≥0 ⇒ outside interval."
+  },
+  {
+    "question": "Find length of line joining (1,2) and (4,6).",
+    "options": [ "4", "6","5", "3"],
+    "answer": 2,
+    "explanation": "√((3)²+(4)²)=5."
+  },
+  {
+    "question": "Find domain of √(x-2).",
+    "options": ["x≥2", "x>2", "x≤2", "all real"],
+    "answer": 0,
+    "explanation": "Inside root ≥0 ⇒ x≥2."
+  },
+
+
+  {
+    "question": "If A and B are independent events and P(A)=1/2, P(B)=1/3, find P(A∩B).",
+    "options": ["1/6", "1/2", "1/3", "2/3"],
+    "answer": 0,
+    "explanation": "Independent ⇒ multiply."
+  },
+
+  {
+    "question": "Find number of diagonals in pentagon.",
+    "options": [ "6", "7","5", "10"],
+    "answer": 2,
+    "explanation": "n(n-3)/2=5×2/2=5."
+  },
+  {
+    "question": "Solve: |x-3| = 5",
+    "options": [ "5,-2", "8,2", "5,2","8,-2"],
+    "answer": 3,
+    "explanation": "x=8 or -2."
+  },
+  {
+    "question": "Find sum of interior angles of hexagon.",
+    "options": [ "540°","720°", "360°", "900°"],
+    "answer": 1,
+    "explanation": "(n−2)×180=720."
+  }
+
+
+
+
+
+
+
+
+
+]

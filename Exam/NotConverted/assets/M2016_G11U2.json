@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Which one of the following is the range of the function f(x) = 2x - 1 / x + 3 ?",
+    "options": [
+      " ℝ\\{-1/3}",
+      "ℝ\\{1/2}",
+      "ℝ\\{-3}",
+      "ℝ\\{2}"
+    ],
+    "answer": 3,
+    "explanation": "Let y = (2x - 1)/(x + 3). To find the range, solve for x in terms of y.\n\n y(x + 3) = 2x - 1\n\n⇒ yx + 3y = 2x - 1\n\n⇒ yx - 2x = -1 - 3y\n\n⇒ x(y - 2) = -(1 + 3y)\n\n⇒ x = -(1 + 3y)/(y - 2)\n\nThis expression is defined for all real y except when y - 2 = 0, i.e., y ≠ 2. Therefore, the range of f is all real numbers except 2.\n\nSo, the correct answer is ℝ \\ {2}."
+  }
+]

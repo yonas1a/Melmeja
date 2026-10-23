@@ -1,0 +1,24 @@
+[
+  {
+    "question": " Let A and B be two sets that contain 15 and 17 elements respectively. If A ∩ B contains 10 elements, what is the number of elements in A∪B?",
+    "options": [
+      "42",
+      "32",
+      "22",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": " n(A ∪ B) = n(A) + n(B) - n(A ∩ B).\n\n Substituting the given values: 15 + 17 - 10 = 22.\n\n Therefore, A ∪ B has 22 elements."
+  },
+  {
+    "question": " Let S, R and T be any three sets. Which one of the following is NOT true about the union of the sets?",
+    "options": [
+      "S ∪ R = R ∪ S",
+      "S ∪ T = T",
+      "(S ∪ R) ∪ T = T ∪ (R ∪ S)",
+      "S ∪ S = S"
+    ],
+    "answer": 1,
+    "explanation": "For sets, union has the following properties: \n\n1) Commutative: S ∪ R = R ∪ S ✅\n\n2) Associative: (S ∪ R) ∪ T = S ∪ (R ∪ T) ✅\n\n3) Idempotent: S ∪ S = S ✅\n\nHowever, S ∪ T = T is only true if S is a subset of T. In general, this is NOT always true, so this option is the one that is NOT true."
+  }
+]

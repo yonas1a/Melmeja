@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Let f(x) = x³ + 2x + 1 and g(x) = x² - 1 be given two polynomial functions. Then which of the following is true?",
+    "options": [
+      "f(x) + g(x) = x³ + x²",
+      "f(x) - g(x) = x³ - x² + 2x",
+      "f(x)g(x) = x⁵ + x³ + x² - 2x - 1",
+      "f(x) / g(x) = (x² + 1) / (x - 1)"
+    ],
+    "answer": 2,
+    "explanation": "1. f(x) + g(x) = x³ + x² + 2x, not x³ + x² → false.\n\n2. f(x) - g(x) = x³ - x² + 2x + 2, not x³ - x² + 2x → false.\n\n3. Multiplication: (x³ + 2x + 1)(x² - 1) expands to x⁵ + x³ + x² - 2x - 1 → Option C is correct.\n\n4. Division: f(x)/g(x) = (x³ + 2x + 1)/(x² - 1), not (x² + 1)/(x - 1) → false.\n\nTherefore, the true statement is Option C."
+  },
+
+  {
+    "question": "Let a, b ∈ R such that a < b and f be a polynomial function. Then which one of the following statements states the location theorem?",
+    "options": [
+      "If f(a) and f(b) have the same signs, then there is at least one zero of f between a and b.",
+      "If f(a) and f(b) have the same signs, then there exists a unique zero of f between a and b.",
+      "If f(a) and f(b) have opposite signs, then there is a unique zero of f between a and b.",
+      "If f(a) and f(b) have opposite signs, then there is at least one zero of f between a and b."
+    ],
+    "answer": 3,
+    "explanation": "If f(a) and f(b) have opposite signs, the function must cross the x-axis somewhere between them. \n\nTherefore, there is at least one zero in (a, b). Option D is correct."
+  }
+]

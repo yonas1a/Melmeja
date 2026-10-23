@@ -1,0 +1,195 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 2: INTRODUCTION TO CALCULUS",
+"notes": "✓ Calculus → a branch of mathematics concerned with change, motion, limits, derivatives, integrals and accumulation.\n\n◆ Differential calculus → studies rates of change and derivatives.\n◆ Integral calculus → studies accumulation, area and anti-derivatives.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.1 INTRODUCTION TO DERIVATIVES",
+"notes": "✓ Derivative → measures the instantaneous rate of change of a function.\n\nRate of change describes how one quantity changes in relation to another.\n\n◆ Positive rate → graph slopes upward.\n◆ Negative rate → graph slopes downward.\n◆ Zero rate → graph is horizontal.\n\n→ Derivative connects the rate of change of a function with the gradient of its tangent line.",
+"image": null
+},
+{
+"type": "note",
+"title": "AVERAGE RATE OF CHANGE",
+"notes": "✓ Average rate of change → change in the output divided by change in the input over an interval.\n\nFor y = f(x) on [a,b]:\nAverage rate of change = [f(b) − f(a)]/(b − a)\n\n→ Geometrically → slope of the secant line joining (a,f(a)) and (b,f(b)).\n\nA secant line intersects a curve at two points.",
+"image": null
+},
+{
+"type": "note",
+"title": "INSTANTANEOUS RATE OF CHANGE",
+"notes": "✓ Instantaneous rate of change → rate of change at a particular point or instant.\n\nFor y = f(x) at x = a:\nf'(a) = lim(h→0) [f(a+h) − f(a)]/h\n\n→ It is obtained by allowing the change in x to approach zero.\n\nGeometrically → gradient of the tangent line at the point.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRADIENT, SECANT & TANGENT",
+"notes": "◆ Gradient → measure of the steepness and direction of a line.\n◆ Secant line → line that intersects a graph at two points.\n◆ Tangent line → line that touches a curve at a point and gives the curve's instantaneous direction there.\n\n✓ Slope of tangent = derivative at the point of tangency.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.1.4 DEFINITION OF DERIVATIVE",
+"notes": "✓ The derivative of f(x) at x = a is the gradient of the tangent line to the graph of y = f(x) at (a,f(a)).\n\nDefinition:\nf'(a) = lim(h→0) [f(a+h) − f(a)]/h\n\nIf the derivative exists at a point, the function is differentiable at that point.\n\nf'(x) represents the derivative as a function of x.",
+"image": null
+},
+{
+"type": "note",
+"title": "BASIC DERIVATIVE RULES",
+"notes": "✓ Constant rule:\nd/dx(c) = 0\n\n✓ Power rule:\nd/dx(xⁿ) = nxⁿ⁻¹\n\n◆ Constant multiple rule:\nd/dx[kf(x)] = kf'(x)\n\n◆ Sum rule:\nd/dx[f(x)+g(x)] = f'(x)+g'(x)\n\n◆ Difference rule:\nd/dx[f(x)−g(x)] = f'(x)−g'(x)\n\n→ Differentiate each term separately and apply the appropriate rule.",
+"image": null
+},
+{
+"type": "note",
+"title": "PRODUCT RULE",
+"notes": "✓ For two differentiable functions f(x) and g(x):\n\n[f(x)g(x)]' = f'(x)g(x) + f(x)g'(x)\n\n→ Product rule → derivative of the first × second + first × derivative of the second.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUOTIENT RULE",
+"notes": "✓ For g(x) ≠ 0:\n\n[f(x)/g(x)]' = [g(x)f'(x) − f(x)g'(x)]/[g(x)]²\n\n→ Quotient rule → denominator × derivative of numerator − numerator × derivative of denominator, all divided by denominator².",
+"image": null
+},
+{
+"type": "note",
+"title": "CHAIN RULE",
+"notes": "✓ Chain rule → used to differentiate a composition of functions.\n\nIf y = f(g(x)):\ndy/dx = f'(g(x)) · g'(x)\n\n→ Differentiate the outer function while keeping the inner function, then multiply by the derivative of the inner function.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.2 APPLICATIONS OF DERIVATIVES",
+"notes": "✓ Derivatives can be used to study:\n\n◆ Increasing and decreasing functions\n◆ Critical numbers\n◆ Relative maximum and minimum values\n◆ Absolute maximum and minimum values\n◆ Equations of tangent and normal lines\n◆ Related rates\n◆ Maximum and minimum/optimization problems\n◆ Applications in real-life and business situations.",
+"image": null
+},
+{
+"type": "note",
+"title": "INCREASING & DECREASING FUNCTIONS",
+"notes": "✓ Increasing function → its rate of change is positive; typically f'(x) > 0.\n\n✓ Decreasing function → its rate of change is negative; typically f'(x) < 0.\n\n◆ Constant function → rate of change is zero.\n\n→ The sign of the first derivative helps determine where a function increases or decreases.",
+"image": null
+},
+{
+"type": "note",
+"title": "CRITICAL NUMBERS",
+"notes": "✓ Critical number → a number c in the domain of f for which:\n\nf'(c) = 0, or\nf'(c) does not exist.\n\nCritical numbers are important when searching for relative and absolute extreme values.\n\n→ Always make sure that c belongs to the domain of the function.",
+"image": null
+},
+{
+"type": "note",
+"title": "RELATIVE MAXIMUM & MINIMUM",
+"notes": "✓ Relative/local maximum → f(c) is greater than nearby function values.\n\n✓ Relative/local minimum → f(c) is smaller than nearby function values.\n\nExtreme values can occur at critical numbers.\n\n→ A critical number does not automatically mean a maximum or minimum; the behavior of the derivative must be examined.",
+"image": null
+},
+{
+"type": "note",
+"title": "FIRST DERIVATIVE TEST",
+"notes": "✓ For a critical number c:\n\n◆ If f'(x) changes from + to − at c → relative maximum.\n◆ If f'(x) changes from − to + at c → relative minimum.\n◆ If f'(x) does not change sign → neither a relative maximum nor a relative minimum.\n\n→ Use a sign chart for f'(x) around each critical number.",
+"image": null
+},
+{
+"type": "note",
+"title": "ABSOLUTE MAXIMUM & MINIMUM",
+"notes": "✓ Absolute maximum → greatest value of f on the specified interval.\n\n✓ Absolute minimum → least value of f on the specified interval.\n\nFor a closed interval [a,b], evaluate the function at:\n1. Critical numbers inside the interval.\n2. The endpoints a and b.\n\n→ Compare all resulting values to determine the absolute maximum and minimum.",
+"image": null
+},
+{
+"type": "note",
+"title": "EQUATIONS OF TANGENT & NORMAL LINES",
+"notes": "✓ For y = f(x) at x = a:\n\nTangent slope = f'(a).\n\nTangent line:\ny − f(a) = f'(a)(x − a)\n\n◆ Normal line → line perpendicular to the tangent.\n\nNormal slope = −1/f'(a), when f'(a) ≠ 0.\n\n→ The tangent gives the direction of the curve; the normal is perpendicular to it.",
+"image": null
+},
+{
+"type": "note",
+"title": "RELATED RATES",
+"notes": "✓ Related rates → problems involving quantities that change with time and are related by an equation.\n\nGeneral method:\n1. Write the relationship between the quantities.\n2. Differentiate both sides with respect to time t.\n3. Substitute the known values.\n4. Solve for the required rate.\n\nCommon examples → changing radius, area, volume, distance, speed and other physical quantities.",
+"image": null
+},
+{
+"type": "note",
+"title": "MAXIMUM & MINIMUM / OPTIMIZATION",
+"notes": "✓ Optimization → finding the greatest or least possible value of a quantity.\n\nGeneral steps:\n1. Define the quantity to maximize or minimize.\n2. Express it as a function of one variable.\n3. Find the derivative.\n4. Find critical numbers.\n5. Test the critical numbers and relevant endpoints.\n6. State the required maximum or minimum.\n\nApplications include area, volume, production, cost, revenue and profit.",
+"image": null
+},
+{
+"type": "note",
+"title": "DERIVATIVES IN BUSINESS",
+"notes": "✓ Derivatives can describe marginal quantities in economics.\n\n◆ Marginal cost → C'(x), change in total cost from producing additional units.\n◆ Marginal revenue → R'(x), change in total revenue.\n◆ Marginal profit → P'(x), change in profit.\n\nProfit:\nP(x) = R(x) − C(x)\n\nTherefore:\nP'(x) = R'(x) − C'(x).",
+"image": null
+},
+{
+"type": "note",
+"title": "2.3 ∫ INTRODUCTION TO INTEGRATION",
+"notes": "✓ Integration → reverse process of differentiation and a method for finding accumulated quantities such as area.\n\n◆ Anti-differentiation → finding a function from its derivative.\n◆ Integral → represents an accumulation or total quantity.\n◆ Definite integral → produces a numerical value over an interval.\n◆ Indefinite integral → represents a family of anti-derivatives.",
+"image": null
+},
+{
+"type": "note",
+"title": "AREA UNDER A CURVE",
+"notes": "✓ The area under a curve can be approximated by dividing an interval into smaller subintervals and using rectangles.\n\n→ More rectangles with smaller widths → better approximation.\n\nThe sum of rectangle areas forms a Riemann sum.\n\n→ As the number of rectangles increases and their widths approach zero, the approximation approaches the exact area represented by a definite integral.",
+"image": null
+},
+{
+"type": "note",
+"title": "Σ RIEMANN SUM",
+"notes": "✓ Riemann sum → sum used to approximate the area under a function on an interval.\n\nIf [a,b] is divided into n subintervals of width Δx:\n\nRiemann sum ≈ Σ f(xᵢ)Δx\n\n◆ Δx → width of each subinterval.\n◆ f(xᵢ) → height of the corresponding rectangle.\n\n→ Increasing the number of subintervals improves the approximation.",
+"image": null
+},
+{
+"type": "note",
+"title": "∫ ANTI-DERIVATIVES",
+"notes": "✓ Anti-derivative → a function F(x) whose derivative is f(x).\n\nIf F'(x) = f(x), then F(x) is an anti-derivative of f(x).\n\nBecause the derivative of a constant is zero:\n\n∫f(x)dx = F(x) + C\n\n◆ C → constant of integration.\n\n→ The indefinite integral represents all anti-derivatives of the function.",
+"image": null
+},
+{
+"type": "note",
+"title": "BASIC INTEGRATION RULES",
+"notes": "✓ Constant:\n∫c dx = cx + C\n\n✓ Power rule:\n∫xⁿ dx = xⁿ⁺¹/(n+1) + C, n ≠ −1\n\n◆ Constant multiple:\n∫kf(x)dx = k∫f(x)dx\n\n◆ Sum:\n∫[f(x)+g(x)]dx = ∫f(x)dx + ∫g(x)dx\n\n→ Integration is reverse differentiation, so always check an integral by differentiating your answer.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.3.3 DEFINITE INTEGRALS",
+"notes": "✓ Definite integral → integral evaluated between two limits a and b.\n\nIf F'(x) = f(x), then:\n∫ₐᵇ f(x)dx = F(b) − F(a)\n\n◆ a → lower limit.\n◆ b → upper limit.\n\n→ Evaluating a definite integral gives a numerical value.",
+"image": null
+},
+{
+"type": "note",
+"title": "PROPERTIES OF DEFINITE INTEGRALS",
+"notes": "✓ Important properties:\n\n◆ ∫ₐᵃ f(x)dx = 0\n\n◆ ∫ₐᵇ f(x)dx = −∫ᵇₐ f(x)dx\n\n◆ ∫ₐᵇ [f(x)+g(x)]dx = ∫ₐᵇf(x)dx + ∫ₐᵇg(x)dx\n\n◆ ∫ₐᵇ kf(x)dx = k∫ₐᵇf(x)dx\n\n◆ ∫ₐᵇ f(x)dx = ∫ₐᶜ f(x)dx + ∫𝑐ᵇ f(x)dx.",
+"image": null
+},
+{
+"type": "note",
+"title": "DEFINITE INTEGRAL & AREA",
+"notes": "✓ A definite integral gives signed area (net area).\n\n◆ Region above the x-axis → contributes positively.\n◆ Region below the x-axis → contributes negatively.\n\n◆ If the area above is greater → integral is positive.\n◆ If the area below is greater → integral is negative.\n◆ Equal areas above and below → integral is zero.\n\n→ For total geometric area, areas below the x-axis must be treated as positive areas.",
+"image": null
+},
+{
+"type": "note",
+"title": "FUNDAMENTAL THEOREM OF CALCULUS",
+"notes": "✓ The Fundamental Theorem of Calculus connects differentiation and integration.\n\nIf F'(x) = f(x), then:\n∫ₐᵇ f(x)dx = F(b) − F(a)\n\n→ Differentiation and integration are inverse processes.\n\nIt allows definite integrals to be evaluated using anti-derivatives instead of limits of sums.",
+"image": null
+},
+{
+"type": "note",
+"title": "APPLICATIONS OF INTEGRATION",
+"notes": "✓ Integration can be used to find:\n\n◆ Area under curves\n◆ Area between curves/regions\n◆ Accumulated quantities\n◆ Distance traveled from velocity\n◆ Total cost from marginal cost\n◆ Other quantities obtained by accumulating a rate.\n\n→ If a rate function is known, integration can be used to obtain the accumulated quantity.",
+"image": null
+},
+{
+"type": "note",
+"title": "VELOCITY, DISTANCE & INTEGRATION",
+"notes": "✓ If v(t) is velocity:\n\nChange in position = ∫ₐᵇ v(t)dt\n\nIf the initial position is known:\nPosition at b = initial position + ∫ₐᵇv(t)dt\n\n→ Integrating velocity gives displacement.\n→ Integrating speed gives distance when the velocity does not change sign over the interval.",
+"image": null
+},
+{
+"type": "note",
+"title": " UNIT 2 KEY FORMULAS",
+"notes": "Average rate of change = [f(b) − f(a)]/(b − a)\n\nDerivative definition:\nf'(a) = lim(h→0)[f(a+h) − f(a)]/h\n\nPower rule:\nd/dx(xⁿ) = nxⁿ⁻¹\n\nProduct rule:\n(fg)' = f'g + fg'\n\nQuotient rule:\n(f/g)' = (gf' − fg')/g²\n\nChain rule:\n(f(g(x)))' = f'(g(x))g'(x)\n\nTangent line:\ny − f(a) = f'(a)(x − a)\n\nNormal slope:\n−1/f'(a)\n\nIndefinite integral:\n∫f(x)dx = F(x)+C\n\nPower integral:\n∫xⁿdx = xⁿ⁺¹/(n+1)+C, n ≠ −1\n\nFundamental Theorem:\n∫ₐᵇf(x)dx = F(b)−F(a), where F'(x)=f(x)\n\nProfit:\nP(x)=R(x)−C(x)\n\nMarginal profit:\nP'(x)=R'(x)−C'(x)",
+"image": null
+}
+]

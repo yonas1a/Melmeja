@@ -1,0 +1,36 @@
+[
+  {
+    "question": "If the fifth and the tenth terms of a geometric sequence are 640 and 20 respectively, then which of the following numbers are the first term and the common ratio of the given geometric sequence, respectively?",
+    "options": [
+      "A. 10240 and 2",
+      "B. 10240 and 1/2",
+      "C. 1024 and 2",
+      "D. 1024 and 1/2"
+    ],
+    "answer": 1,
+    "explanation": "a5 = ar⁴ and a10 = ar⁹.\n Dividing gives r^5 = 20/640 =\n 1/32, so r = 1/2.\n Then a = 640 × 16 = 10240."
+  },
+  {
+    "question": "Which one of the following is equal to the sum of :-",
+    "options": [
+      "A. 1093",
+      "B. 1092",
+      "C. 1088",
+      "D. 1079"
+    ],
+    "answer": 1,
+    "image": "images/M2016_47.png",
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is equal to the sum  ∑2n² where n = 1 to n = 5?",
+    "options": [
+      "A. 2 + 4 + 6 + 8 + 10",
+      "B. 2 + 8 + 18 + 32 + 50",
+      "C. 2 + 8 + 16 + 32 + 64",
+      "D. 2 + 4 + 8 + 16 + 32"
+    ],
+    "answer": 1,
+    "explanation": "Evaluate 2n² for n = 1 to 5:\n 2(1²)=2, 2(2²)=8, 2(3²)=18, 2(4²)=32, 2(5²)=50,\n\n so the sum is 2 + 8 + 18 + 32 + 50."
+  }
+]

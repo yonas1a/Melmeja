@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Given A = {x ∈ ℕ: x < 3} and B is the set of all possible factors of 13. Then which one of the following is equal to B x A?",
+    "options": [
+      "{(1, 2), (13, 1), (13, 2)}",
+      "{(1, 1), (13, 2)}",
+      "{(1, 1), (1, 2), (13, 1), (13, 2)}",
+      "{(1, 1), (2,1), (1, 13), (2, 13)}"
+    ],
+    "answer": 2,
+    "explanation": "A = {1, 2}  B = {1, 13}.\n\n B × A = {(1,1), (1,2), (13,1), (13,2)}. "
+  }
+]

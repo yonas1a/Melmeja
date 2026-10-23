@@ -1,0 +1,132 @@
+[
+  {
+    "type": "note",
+    "title": "📘 UNIT 8: GEO-SPATIAL INFORMATION AND DATA PROCESSING",
+    "notes": "Geo-spatial information deals with information connected to locations on Earth's surface."
+  },
+  {
+    "type": "note",
+    "title": "🗺️ 8.1 REPRESENTATION OF RELIEF FEATURES ON TOPOGRAPHIC MAPS",
+    "notes": "Relief :- the difference in elevation between the highest and lowest points of a landscape.\n\n🌍 Relief features include :-\n⛰️ Mountains\n🏔️ Hills\n🏞️ Plateaus\n〰️ Ridges\n🌊 Valleys\n⬇️ Depressions\n🪨 Gorges\n🔺 Spurs\n🏔️ Cliffs\n\n🗺️ Topographic map :- a detailed and accurate two-dimensional representation of natural and human-made features on the Earth's surface.\n\n⭐ Important elements :-\n🔹 Colors\n🔹 Symbols\n🔹 Lines\n🔹 Letters and numbers\n🔹 Scale\n🔹 Contours\n🔹 Elevations"
+  },
+  {
+    "type": "note",
+    "title": "📏 8.1.1 CONTOURS AND HACHURES",
+    "notes": "Hachures :- short, disconnected lines drawn in the direction of the ground slope or water flow.\n\n🔹 Thick, closely spaced hachures → steep slope.\n🔹 Thin, widely spaced hachures → gentle slope.\n\n⚠️ Limitation :- hachures do not show exact elevation or precise gradient.\n\nContour :- an imaginary line joining places having equal elevation above a datum or mean sea level.\n\n⭐ Mean sea level (MSL) :- the average sea level used as a common reference for measuring height."
+  },
+  {
+    "type": "note",
+    "title": "📐 8.1.2 TYPES AND PROPERTIES OF CONTOURS",
+    "notes": "🔹 Index contour :- every fifth contour is normally drawn heavier and is used as a reference for elevation.\n\n🔹 Intermediate contour :- thinner contour lines between index contours.\n\n📌 Common contour intervals :-\n• 20 m interval on 1:50,000 topographic sheets.\n• 100 m interval on 1:250,000 topographic sheets.\n\n⭐ General properties :-\n1️⃣ Contours normally do not cross or merge except in very steep/vertical features such as cliffs.\n2️⃣ Contours never branch.\n3️⃣ Values increase toward higher ground.\n4️⃣ Evenly spaced contours → uniform slope.\n5️⃣ Widely spaced contours → gentle slope.\n6️⃣ Closely spaced contours → steep slope.\n7️⃣ Contours are generated from spot heights.\n\n📍 Spot height :- a point showing the exact elevation of a particular location."
+  },
+  {
+    "type": "note",
+    "title": "⛰️ 8.1.3 MAJOR RELIEF FEATURES AND CONTOUR REPRESENTATION",
+    "notes": "⛰️ Hill :- rounded elevated land; represented by concentric closed contours with increasing elevation toward the center.\n\n🏔️ Mountain :- higher and more prominent elevated land; elongated closed contours with increasing values toward the center can represent mountain ranges.\n\n〰️ Ridge :- long, narrow high ground with two or more peaks; usually represented by elongated/elliptical contours.\n\n🌊 Valley :- long, narrow depression commonly formed by rivers; contour lines form V shapes pointing upstream toward higher ground.\n\n🪜 Saddle :- a low point or dip between areas of higher ground.\n\n⬇️ Depression :- low ground surrounded by higher ground; closed contours have short tick marks pointing toward the center.\n\n🏞️ Plateau :- elevated land with a broad, relatively flat top; represented by closed contours that are often roughly rectangular with increasing elevation toward the center.\n\n🏔️ Gorge :- very steep, narrow valley formed by river erosion; represented by closely converging contours along the river course.\n\n🔺 Spur :- projection of higher ground from a ridge; U/V-shaped contours point away from high ground.\n\n🧱 Cliff :- very steep or nearly vertical slope; contours become extremely close together or merge."
+  },
+  {
+    "type": "note",
+    "title": "🚧 8.1.3.1 CUTS AND FILLS",
+    "notes": "✂️ Cut :- a man-made lowering of raised land, commonly produced for roads or railways.\n\n🔹 Represented by a contour along the cut with tick marks pointing toward the lower ground.\n\n🏗️ Fill :- a man-made raised area created by filling a low area, commonly for roads or railways.\n\n🔹 Represented by a contour along the filled area with tick marks pointing toward lower ground.\n\n⭐ Both are human-made modifications of relief represented on topographic maps."
+  },
+  {
+    "type": "note",
+    "title": "🌊 8.1.4 DRAINAGE BASINS AND CATCHMENTS",
+    "notes": "Drainage basin / catchment :- the entire geographical area drained by a main river and its tributaries.\n\n🌊 Main river :- the longest or principal river in a basin.\n\n〰️ Tributaries :- smaller streams that flow into the main river.\n\n🔗 Drainage system :- a system consisting of river basins whose rivers flow in a particular direction.\n\n⭐ Contour maps can be used to identify drainage basins and drainage patterns."
+  },
+  {
+    "type": "note",
+    "title": "🌿 8.1.4.1 DRAINAGE PATTERNS",
+    "notes": "🌳 Dendritic pattern :- tree-like branching pattern; commonly develops over relatively homogeneous rock.\n\n🌿 Trellis pattern :- roughly parallel main streams with short tributaries; associated with alternating hard and soft rocks and structural controls such as folding and faulting.\n\n☀️ Radial pattern :- streams flow outward in different directions from a raised central feature.\n\n⬇️ Centripetal pattern :- streams flow from surrounding higher land toward a central basin.\n\n⭐ Drainage patterns provide clues about geology, relief and the structure of the landscape."
+  },
+  {
+    "type": "note",
+    "title": "💻 8.2 BASIC CONCEPTS OF GEOGRAPHIC INFORMATION SYSTEM (GIS)",
+    "notes": "GIS :- a computer-based system for capturing, preparing, storing, checking, retrieving, manipulating, analyzing and displaying geographically referenced or geospatial data.\n\n⭐ GIS integrates geographical data with computer technology to identify :-\n🔹 Relationships\n🔹 Patterns\n🔹 Trends\n\n📊 Results can be presented through maps, charts and other visual forms."
+  },
+  {
+    "type": "note",
+    "title": "🌍 8.2.1 DEFINITION AND IMPORTANCE OF GIS",
+    "notes": "GIS supports planning, management and decision-making in many fields.\n\n⭐ Major applications :-\n🌱 Land-use planning\n🌳 Natural-resource management\n🌍 Environmental management\n🚚 Transportation planning\n🏙️ Urban development\n🌾 Agricultural planning\n💧 Irrigation management\n🦌 Wildlife management\n🚨 Disaster management\n🏥 Public health\n👥 Population studies\n🛒 Market planning\n\n📊 GIS can combine census data, socioeconomic information, roads, cities, administrative boundaries, infrastructure and other spatial information.\n\n⭐ GIS helps visualize complex information and identify spatial relationships, patterns and trends."
+  },
+  {
+    "type": "note",
+    "title": "🗺️ 8.2.1.1 EXAMPLES OF GIS USE",
+    "notes": "GIS can be used to :-\n\n🏫 Identify suitable locations for schools.\n🏥 Select locations for hospitals and health facilities.\n🏙️ Identify suitable areas for urban development.\n🚚 Plan transportation networks.\n🚨 Manage emergency services.\n🌳 Monitor vegetation destruction.\n⛰️ Identify areas at high risk of slope erosion.\n🪨 Examine relationships between rock type and relief.\n🌾 Identify suitable agricultural areas.\n🐾 Manage wildlife and conservation areas.\n🌊 Support disaster management.\n💧 Manage irrigation and water resources.\n\n⭐ GIS provides spatial evidence for better planning and decision-making."
+  },
+  {
+    "type": "note",
+    "title": "🧩 8.2.2 COMPONENTS OF GIS",
+    "notes": "GIS works through the integration of five major components :-\n\n1️⃣ Hardware 🖥️\n2️⃣ Software 💿\n3️⃣ Data 📊\n4️⃣ People 👥\n5️⃣ Methods 📋\n\n⭐ These components must work together for an effective GIS."
+  },
+  {
+    "type": "note",
+    "title": "🖥️ 8.2.2.1 HARDWARE",
+    "notes": "Hardware :- physical equipment used to perform GIS tasks.\n\n📥 Input hardware :-\n🖥️ Computers\n📡 GPS devices\n📱 Mobile phones\n📠 Scanners\n✏️ Digitizers\n\n📤 Output hardware :-\n🖨️ Printers\n📐 Plotters\n💾 Hard disks/storage devices\n\n⭐ Computers used for GIS require adequate processor speed, memory and storage capacity."
+  },
+  {
+    "type": "note",
+    "title": "💿 8.2.2.2 SOFTWARE",
+    "notes": "GIS software provides tools for :-\n🔹 Data input\n🔹 Data storage\n🔹 Data management\n🔹 Data analysis\n🔹 Data visualization\n\nExamples :-\n🗺️ ArcGIS\n🗺️ ArcView\n🗺️ ArcInfo\n🆓 QGIS\n\nArcGIS desktop environment includes :-\n📍 ArcMap\n📁 ArcCatalog\n🌐 ArcScene\n🌍 ArcGlobe\n\n🗄️ DBMS :- Database Management System used to organize, store, manipulate, maintain and integrate databases."
+  },
+  {
+    "type": "note",
+    "title": "📊 8.2.2.3 GIS DATA",
+    "notes": "Data is the most important component of GIS.\n\nGIS data can be collected from :-\n📍 Field surveys\n🛰️ Remote sensing\n📡 GPS\n📄 Existing maps\n🏢 Data-provider organizations\n\nTwo major spatial data models :-\n\n🔲 Raster data :- represents information as a grid of cells/pixels.\nUsed for continuous phenomena such as :-\n⛰️ Elevation\n📐 Slope\n🧭 Aspect\n🌱 Soil\n🌿 Vegetation\n🌡️ Temperature\n🌧️ Rainfall\n\n📍 Vector data :- represents discrete geographical features using points, lines and polygons."
+  },
+  {
+    "type": "note",
+    "title": "📍 8.2.2.4 VECTOR DATA",
+    "notes": "Vector data represents geographical features using geometry.\n\n📍 Point :- zero-dimensional feature.\nExamples :- wells, airports, cities, schools and health posts.\n\n〰️ Line / Polyline :- represents linear features.\nExamples :- roads, rivers and boundaries.\n\n⬛ Polygon :- represents features covering an area.\nExamples :- lakes, national parks, administrative boundaries, watersheds and land-use areas.\n\n⭐ Polygon features can be used to calculate perimeter and area.\n\n📁 Shapefile :- can store a single feature geometry type.\n\n🗂️ Feature dataset :- collection of feature classes sharing a common coordinate system within a geodatabase."
+  },
+  {
+    "type": "note",
+    "title": "📋 8.2.2.5 ATTRIBUTE / NON-SPATIAL DATA",
+    "notes": "Attribute data :- additional information describing a geographic feature but independent of its geometric shape or location.\n\nExample for a lake :-\n🌊 Name\n📏 Area\n📐 Depth\n💧 Water quality\n🧪 Pollution level\n📦 Volume\n\n⭐ GIS links spatial data with attribute data so that geographic features can be analyzed together with their descriptive information."
+  },
+  {
+    "type": "note",
+    "title": "👥 8.2.2.6 PEOPLE AND METHODS",
+    "notes": "👥 People :- the people who operate, manage, analyze and use GIS.\n\nGIS users :-\n🔹 Browse geographic databases.\n🔹 Perform professional services.\n🔹 Analyze information.\n🔹 Make decisions.\n\nGIS specialists :-\n🔹 Collect data.\n🔹 Manage data.\n🔹 Analyze data.\n🔹 Design and maintain GIS systems.\n🔹 Provide technical support.\n\n📋 Methods :- procedures, rules, models and operating practices used to make GIS work effectively.\n\n⭐ GIS has limited value without skilled people and appropriate methods."
+  },
+  {
+    "type": "note",
+    "title": "🖥️ 8.3 ARCMAP AND MAIN TOOLS",
+    "notes": "ArcMap :- a primary application in the ArcGIS desktop environment used to add data, create maps, perform analysis, edit GIS data, use geoprocessing tools and integrate GPS field data.\n\n📄 MXD (Map Exchange Document) :- ArcMap document containing the map, references to GIS datasets, symbology, labels and other map elements.\n\n⚠️ An MXD does not store the actual GIS data; it stores references to the data sources.\n\n⭐ ArcMap is mainly used for :-\n🗺️ Mapping\n📊 Data display\n🔎 Querying\n📐 Analysis\n✏️ Editing\n🔗 Data integration"
+  },
+  {
+    "type": "note",
+    "title": "📂 8.3.1 OPENING, SAVING AND CLOSING ARCMAP DOCUMENTS",
+    "notes": "▶️ Opening ArcMap :- click the ArcMap icon from the Start Menu or open an existing .mxd document.\n\n💾 Saving :- save the map document to a selected location; ArcMap automatically uses the .mxd extension.\n\n📦 Map package :- can save a map together with its related data for sharing.\n\n❌ Closing :- use File → Close.\n\n⭐ Opening a new map also closes the current map."
+  },
+  {
+    "type": "note",
+    "title": "🧰 8.3.2 ARCMAP MENUS AND MAIN TOOLS",
+    "notes": "🆕 New Project :- opens a blank ArcMap document.\n\n📂 Open Project :- opens an existing document.\n\n💾 Save Project :- saves the ArcMap document.\n\n🖨️ Print :- prints the map view.\n\n➕ Add Layers / Add Data :- adds GIS data to the map.\n\n📁 ArcCatalog :- manages GIS data such as creating, copying and deleting shapefiles.\n\n🧰 ArcToolbox :- provides geoprocessing tools.\n\n🔍 Zoom In :- enlarges the map view.\n\n🔎 Zoom Out :- reduces the map view.\n\n↔️ Fixed Zoom In/Out :- changes the map extent by a fixed amount.\n\n✋ Pan :- moves the map view in the desired direction.\n\n🌍 Full Extent :- displays the full geographic extent of the available data.\n\n☑️ Select Element :- selects features using shapes such as circle, rectangle, line or polygon.\n\n🔎 Identify :- queries information about a selected geographic feature.\n\n🔍 Find :- performs a text/string search for features.\n\n📍 Add XY :- places a point and generates its X and Y coordinates.\n\n📏 Measure :- measures distance between locations in specified units."
+  },
+  {
+    "type": "note",
+    "title": "🧰 8.3.2.1 ARCTOOLBOX",
+    "notes": "ArcToolbox :- an integrated application for accessing and organizing geoprocessing tools, models and scripts.\n\n⭐ Important toolboxes :-\n📊 Analysis Toolbox → overlays, buffers, statistics and proximity analysis.\n🗺️ Cartography Toolbox → map production and cartographic standards.\n🔄 Conversion Toolbox → converts data between formats.\n📁 Coverage Toolbox → processes coverage data.\n🗂️ Data Management Toolbox → manages feature classes, datasets, layers and raster structures.\n📍 Geocoding Toolbox → creates and manages address locators and geocoding.\n📏 Linear Referencing Toolbox → creates and manages linear-referencing data.\n🧮 Spatial Analyst Toolbox → analyzes raster/cell-based data and integrates raster and vector analysis.\n\n📦 Toolbox → contains toolsets and tools.\n🧰 Toolset → logical collection of tools.\n🔧 Tool → individual geoprocessing operation."
+  },
+  {
+    "type": "note",
+    "title": "📊 8.3.3 ADDING, REMOVING AND DISPLAYING DATA",
+    "notes": "➕ Adding data :-\n1️⃣ Use ArcCatalog to browse and drag data into the project.\n2️⃣ Use the Add Data button.\n\nData can include :-\n📁 Shapefiles\n🗄️ Geodatabases\n📊 Tabular data\n🌐 Online data services\n🗺️ Basemaps\n\n📚 Table of Contents (TOC) :- list of data layers in the ArcMap window.\n\nLayer order generally places :-\n📍 Points above\n〰️ Lines\n⬛ Polygons\n🔲 Raster datasets\n\n➖ Removing data :- right-click the layer in the Table of Contents → Remove."
+  },
+  {
+    "type": "note",
+    "title": "🗺️ 8.3.3.1 DATA VIEW AND LAYOUT VIEW",
+    "notes": "🗺️ Data View :-\n🔹 Used for exploring geographic data.\n🔹 Displays and queries map data.\n🔹 Works with real-world coordinates and measurements.\n\n📄 Layout View :-\n🔹 Used to prepare the map for presentation/printing.\n🔹 Organizes titles, north arrows, scale bars and data frames.\n🔹 Works mainly with page space.\n\n⭐ Switch between them through View → Data View or View → Layout View."
+  },
+  {
+    "type": "note",
+    "title": "🧠 UNIT 8 KEY CONCEPTS",
+    "notes": "📏 Relief :- difference in elevation between the highest and lowest points of a landscape.\n\n🗺️ Topographic map :- detailed two-dimensional representation of natural and human-made features.\n\n〰️ Contour :- line joining points of equal elevation.\n\n📍 Spot height :- exact elevation of a particular point.\n\n📌 Index contour :- heavier reference contour, normally every fifth contour.\n\n📏 Contour interval :- vertical difference between consecutive contour lines.\n\n💻 GIS :- computer-based system for capturing, storing, managing, analyzing and displaying geospatial data.\n\n🧩 GIS components :- hardware + software + data + people + methods.\n\n🔲 Raster :- grid/cell representation of spatial information.\n\n📍 Vector :- spatial representation using points, lines and polygons.\n\n📋 Attribute data :- descriptive information associated with spatial features.\n\n🖥️ ArcMap :- ArcGIS application for mapping, displaying, editing and analyzing geographic data.\n\n📄 MXD :- ArcMap map document that stores map information and references to datasets.\n\n📁 ArcCatalog :- GIS data management tool.\n\n🧰 ArcToolbox :- collection of geoprocessing tools.\n\n📚 Table of Contents :- list of map layers.\n\n🗺️ Data View :- geographic data exploration and analysis.\n\n📄 Layout View :- map composition and presentation."
+  },
+  {
+    "type": "note",
+    "title": "⭐ UNIT 8 QUICK REVISION",
+    "notes": "📌 Relief is represented on topographic maps mainly through hachures and contour lines.\n\n📌 Hachures show slope direction and relative steepness but do not give exact elevation.\n\n📌 Contours join places of equal elevation.\n\n📌 Widely spaced contours → gentle slope.\n📌 Closely spaced contours → steep slope.\n📌 Evenly spaced contours → uniform slope.\n\n📌 Hill → concentric closed contours with increasing values toward the center.\n\n📌 Valley → V-shaped contours pointing upstream/high ground.\n\n📌 Depression → closed contours with tick marks pointing toward lower ground.\n\n📌 Spur → U/V-shaped contours pointing away from high ground.\n\n📌 Cliff → contours extremely close together or merging.\n\n📌 A drainage basin is the area drained by a main river and its tributaries.\n\n📌 Dendritic drainage → tree-like branching.\n📌 Trellis drainage → alternating hard/soft rocks and structural control.\n📌 Radial drainage → flows outward from high ground.\n📌 Centripetal drainage → flows inward toward a central basin.\n\n📌 GIS integrates hardware, software, data, people and methods.\n\n📌 Raster data represents information using cells; vector data uses points, lines and polygons.\n\n📌 Attribute data describes geographic features.\n\n📌 GIS is useful in agriculture, transportation, urban planning, disaster management, environmental management, health, wildlife and natural-resource management.\n\n📌 ArcMap is used to add, display, edit, analyze and map GIS data.\n\n📌 MXD stores the map and references to datasets rather than the actual datasets.\n\n📌 ArcCatalog manages GIS data, while ArcToolbox provides geoprocessing tools.\n\n📌 Data View is mainly for geographic exploration and analysis; Layout View is for arranging the map for presentation.\n\n⭐ Core idea :- Topographic maps represent Earth's relief through contour patterns, while GIS uses computers, spatial data and analytical tools to understand, manage and visualize geographic information."
+  }
+]

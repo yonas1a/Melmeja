@@ -1,0 +1,48 @@
+[
+  {
+    "question": "In rolling a fair die, what is the probability of obtaining 3 or 5?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "1/6"
+    ],
+    "answer": 1,
+    "explanation": "A fair die has 6 sides, so the total number of possible outcomes is 6. \n\nThese outcomes are {1, 2, 3, 4, 5, 6}.\n\nThe 'favorable' outcomes (the ones we want) are '3' or '5'.\n\n There are 2 favorable outcomes.\n\nProbability is calculated as (Favorable Outcomes) / (Total Outcomes), which is 2 / 6.\n\n This fraction simplifies to 1/3."
+  },
+  {
+    "question": "Which of the following pairs of events are dependent?",
+    "options": [
+      "Drawing two balls successively from a box containing balls having the same size and shape with replacement.",
+      "Any events obtaining from tossing a coin and rolling a die at the same time.",
+      "Tossing two coins simultaneously and obtaining head from one and tail from the other.",
+      "Drawing two cards one after the other from a well shuffled pack of cards **without replacement**."
+    ],
+    "answer": 3,
+    "explanation": "Events are dependent if the outcome of the first event affects the probability of the second event."
+  },
+  {
+    "question": "Which of the following is the variance of the data given as: 2, 3, 4, 5, 7?",
+    "options": [
+      "2.96",
+      "2.46",
+      "3.70",
+      "3.06"
+    ],
+    "answer": 3,
+
+    "explanation": "Variance formula: σ² = Σ(xi - x̄)² / n.\n\n Mean x̄ = (2+3+4+5+7)/5 = 4.2.\n\n Squared deviations: (2-4.2)²=4.84, (3-4.2)²=1.44, (4-4.2)²=0.04, (5-4.2)²=0.64, (7-4.2)²=7.84.\n Sum = 14.8. \nDivide by n = 5: 14.8/5 = 2.96.\n\n Therefore, variance = 2.96."
+  },
+  {
+    "question": "The following is the distribution of the marks of students obtained in Mathematics test out of 50. What is the first quartile of the distribution?",
+    "options": [
+      "26.5",
+      "27.5",
+      "28",
+      "26"
+    ],
+    "answer": 3,
+    "explanation": "",
+    "image": "images/M2014_64.png"
+  }
+]

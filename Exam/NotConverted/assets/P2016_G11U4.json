@@ -1,0 +1,35 @@
+[
+{
+  "question": "53. Which of the following statement describes inertia of an object?",
+  "options": [
+    "It makes to change state of rest of the object.",
+    "is a physical quantity which has a unit of mass.",
+    "increases with increasing mass of the object.",
+    "increases with an increasing velocity of the object."
+  ],
+  "answer": 2,
+  "explanation": "**Inertia** is the property of an object that resists any change in its state of motion (or rest). The quantitative measure of inertia is **mass**. Therefore, the inertia of an object increases proportionally with its mass."
+},
+{
+"question": "42. Which of the following is correct about impulse?",
+"options": [
+"During momentum change final momentum of an object is along the impulse on the object.",
+"The direction of the impulse is in the same direction to change in the momentum of the object.",
+"The impulse is smaller than change of momentum which caused by the applied force.",
+"Impulse due to a force exerted for short time is equal to impulse due to the same force exerted for a long time."
+],
+"answer": 1,
+"explanation": "According to the **Impulse-Momentum Theorem**, the **Impulse** ($\\mathbf{J}$) exerted on an object is equal to the **change in its momentum** ($\\Delta\\mathbf{p}$). Since both are vector quantities, their directions must be the same: $\\mathbf{J} = \\Delta\\mathbf{p}$. ."
+},
+{
+"question": "57. A person of mass $75 \\text{ kg}$ experiences a net force of $400 \\text{ N}$ when placed in an upward accelerating lift. What is its apparent weight?",
+"options": [
+"400 N",
+"750 N",
+"350 N",
+"1150 N"
+],
+"answer": 3,
+"explanation": "The **apparent weight** ($N$) is the normal force exerted by the lift floor on the person. According to Newton's Second Law ($sum F = F_{net}$) and taking upward as positive:\n$$F_{net} = N - W_{\\text{real}} \\quad \\text{where} \\quad W_{\\text{real}} = m g$$\n\n1.  **Calculate Real Weight ($W_{\\text{real}}$):** $W_{\\text{real}} = (75 \\text{ kg})(10 \\text{ m/s}^2) = 750 \\text{ N}$\n2.  **Calculate Apparent Weight ($N$):** $N = F_{net} + W_{\\text{real}} = 400 \\text{ N} + 750 \\text{ N} = 1150 \\text{ N}$"
+}
+]

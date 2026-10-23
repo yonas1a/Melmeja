@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Which one of the following is the simplified form of (4x⁴ - 64) / (2 - x) for x ≠ 2?",
+    "options": [
+      "4(x - 2)(x² - 4)",
+      "4(x + 2)(x² + 4)",
+      "-4(x - 2)(x² + 4)",
+      "-4(x + 2)(x² + 4)"
+    ],
+    "answer": 3,
+
+
+    "explanation": " Factor the numerator: 4x⁴ - 64 = 4(x⁴ - 16) = 4(x⁴ - 4)(x² + 4) = 4(x - 2)(x + 2)(x² + 4). \n\nThe denominator is 2 - x = -(x - 2).\n\n Simplify the fraction: (4(x - 2)(x + 2)(x² + 4)) / (-(x - 2)) = \n\n-4(x + 2)(x² + 4).\n\n Therefore, the simplified form is -4(x + 2)(x² + 4)."
+  },
+  {
+    "question": "Which one of the following is NOT true about the graph of f(x) = 5 + {|x| / x+1} ?",
+    "options": [
+      "y = 4 is its horizontal asymptote.",
+      "x = -1 is its vertical asymptote of f.",
+      "y = 5 + x is its oblique asymptote.",
+      "y = 6 is its horizontal asymptote of f."
+    ],
+    "answer": 2,
+
+    "explanation": "Vertical asymptote occurs where denominator = 0 \n x+1=0 → x=-1. \n\nHorizontal asymptotes: as x→+∞, f(x)→5 + 1 = 6; as x→-∞, f(x)→5 - 1 = 4.\n\n Oblique asymptote occurs only if no horizontal asymptote exists.\n\n Since horizontal asymptotes exist, f(x) has no oblique asymptote.\n\n Therefore, the statement 'y = 5 + x is its oblique asymptote' is NOT true."
+  }
+]

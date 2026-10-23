@@ -1,0 +1,36 @@
+[
+{
+  "question": "If the magnitude of magnetic field produced at a distance of 2 cm from a long straight current carrying wire is 1.2 T, then what is the magnitude of magnetic field at a distance of 3 cm from the wire?",
+  "options": [
+    "1.2 T",
+    "0.6 T",
+    "1.8 T",
+    "0.8 T"
+  ],
+  "answer": 3,
+  "explanation": "The magnetic field around a long straight current-carrying wire is inversely proportional to the distance from the wire, so B ∝ 1/r.\n\nTherefore, B₂ = B₁(r₁/r₂).\n\nSubstituting the values gives B₂ = 1.2 × (2/3) = 0.8 T."
+},
+{
+"question": "Which one of the following statements is correct about the property of magnetic field lines?",
+"options": [
+"Outside a bar magnets, magnetic field lines emerge from the south pole and enter to the north pole.",
+"Magnetic field lines cross each other.",
+"Magnetic field lines form closed loops.",
+"Magnetic field lines are closer to each other in a region where the magnetic field is weaker."
+],
+"answer": 2,
+"explanation": "Magnetic field lines always form continuous closed loops.\n\nOutside a bar magnet, they travel from the north pole toward the south pole, while inside the magnet they return from south to north.\n\nMagnetic field lines do not cross one another because crossing would imply two different field directions at the same point."
+},
+{
+"question": "An electron moving at speed of 5.0 × 10⁷ m/s along the positive x-axis enters a uniform magnetic field of 1.5 T directed along the negative y-axis as shown in the figure below.\n\nWhat is the magnetic force exerted on the electron at the moment it enters into the uniform magnetic field?",
+"options": [
+"8.0 x 10⁻¹² N, directed out of the page",
+"1.2 x 10⁻¹¹ N, directed in to the page",
+"1.2 x 10⁻¹¹ N, directed out of the page",
+"8.0 x 10⁻¹² N, directed in to the page"
+],
+"answer": 1,
+"explanation": "The magnitude of the magnetic force is F = |q|vBsinθ.\n\nThe velocity and magnetic field are perpendicular, so θ = 90° and sin90° = 1.\n\nTherefore, F = (1.6 × 10⁻¹⁹)(5.0 × 10⁷)(1.5) = 1.2 × 10⁻¹¹ N.\n\nUsing the right-hand rule for a positive charge, v⃗ × B⃗ points out of the page.\n\nBecause an electron is negatively charged, the force direction is opposite, so it points into the page.",
+"image": "images/P2018_48.png"
+}
+]

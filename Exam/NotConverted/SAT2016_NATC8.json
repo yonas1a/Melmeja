@@ -1,0 +1,201 @@
+[
+{
+  "question": "Directions: This section contains 25 quantitative reasoning items which consists of algebra, sequences, geometry, comprises of quantities, probability and statistics altogether. Solve each of the problems given in question 36 - 60 according to their specific instruction and choose the correct answer from the given alternatives.\n\n For what value(s) of k, does the system of linear equations {(2x + 3y = 1)  (kx + 6y = -3)} have a unique solution?",
+  "options": [
+    "k = -4",
+    "k ≠ 4",
+    "k = 4",
+    "k ≠ -4"
+  ],
+  "answer": 1,
+  "explanation": "A system of two linear equations has a unique solution if the determinant of its coefficient matrix is not equal to zero (determinant ≠ 0).\n\n The coefficient matrix is [[2, 3], [k, 6]].\n\n Its determinant is (2 × 6) − (3 × k) = 12 − 3k.\n\n For a unique solution, 12 − 3k ≠ 0. Solving 12 − 3k ≠ 0 gives 3k ≠ 12, so k ≠ 4."
+},
+{
+"question": "If 3x² + 1 / 3x + 6 = (x² / x+2) - 3, then what is the value of 1 / 9x + 1?",
+"options": [
+"-1/5",
+"1/20",
+"-1/18",
+"1/18"
+],
+"answer": 2,
+"explanation": "Simplify (3x² + 1)/(3x + 6) = (x²/(x + 2)) − 3.\n\n Since 3x + 6 = 3(x + 2), rewrite both sides with denominator (x + 2). Multiply through to get 3x² + 1 = 3(x² − 3x − 6).\n\n Simplifying gives 1 = −9x − 18, so x = −19/9. Then 9x + 1 = −18, hence 1/(9x + 1) = −1/18."
+},
+{
+"question": "The difference of two numbers is 10, and the sum of three times the larger number and twice the smaller number is 55. Then which one of the following is the value of the larger number?",
+"options": [
+"14",
+"15",
+"6",
+"5"
+],
+"answer": 1,
+"explanation": "Let the larger number be x and the smaller be y.\n\n Then x − y = 10 and 3x + 2y = 55. From the first equation, y = x − 10.\n\n Substitute into the second: 3x + 2(x − 10) = 55 → 3x + 2x − 20 = 55 → 5x = 75 → x = 15."
+},
+{
+"question": "What present of 16 is 12?",
+"options": [
+"70%",
+"50%",
+"25%",
+"75%"
+],
+"answer": 3,
+"explanation": "To find what percent 12 is of 16, compute (12/16) × 100%.\n\n 12 ÷ 16 = 0.75, and 0.75 × 100% = 75%."
+},
+{
+"question": "One root of the equation 2x² + 1 = h - 5x, (where h is a constant) is four times the other root. What are the roots of the given equation?",
+"options": [
+"2 and -8",
+"2 and 8",
+"-1/2 and -2",
+"1/2 and 2"
+],
+"answer": 2,
+"explanation": "Rewrite the equation as 2x² + 5x + (1 − h) = 0.\n\n- Let the roots be r and 4r.\n\n- Using sum of roots: r + 4r = 5r = −(5/2), so r = −1/2 and 4r = −2. (These satisfy the quadratic for some constant h.)"
+},
+{
+"question": "How many different four letter words which start with vowel can be formed from the word MATH if the letters cannot be used more than once?",
+"options": [
+"24",
+"18",
+"8",
+"6"
+],
+"answer": 3,
+"explanation": "The word MATH has 4 distinct letters: M, A, T, H. The only vowel is A, so the word must start with A.\n\n The remaining 3 letters (M, T, H) can be arranged in 3! = 6 ways.\n\n Therefore, 6 different four-letter words can be formed."
+},
+{
+"question": "A bag contains 15 balls, numbered 1 through 15. What is the probability of selecting a number that is **odd** or a multiple of 4?",
+"options": [
+"1/3",
+"11/15",
+"1/5",
+"8/15"
+],
+"answer": 1,
+"explanation": "Total balls = 15. Odd numbers from 1 to 15 are 1,3,5,7,9,11,13,15 (8 numbers).\n\n Multiples of 4 are 4,8,12 (3 numbers). There is no overlap because multiples of 4 are even.\n\n So favorable outcomes = 8 + 3 = 11. Probability = 11/15."
+},
+{
+"question": "Let Δ ABC be an isosceles triangle with <C = 90°. If the length of side AC is 4 cm, then what is the length of side AB in centimeters?",
+"options": [
+"4√2",
+"8",
+"4",
+"2√2"
+],
+"answer": 0,
+"explanation": "Since ΔABC is isosceles with ∠C = 90°, the two legs AC and BC are equal.\n\n Using the Pythagorean theorem: AB² = AC² + BC² = 4² + 4² = 16 + 16 = 32.\n\n So AB = √32 = 4√2 cm."
+},
+{
+"question": "Which one of the following can **NOT** be the degree measure of each interior angle of a regular polygon?",
+"options": [
+"140°",
+"105°",
+"120°",
+"135°"
+],
+"answer": 1,
+"explanation": "The measure of each interior angle of a regular polygon with n sides is given by: ((n−2)×180)/n.\n\n Check each option:n- 140° → n = 9 sides ✅\n\n- 105° → n = 360/(180−105) = 360/75 = 4.8 ❌ (not integer)\n\n- 120° → n = 6 sides ✅\n\n- 135° → n = 8 sides ✅\n\nSo 105° cannot be an interior angle of a regular polygon."
+},
+
+{
+"question": "If f(x) = 10²ˣ⁻¹, then which one of the following is equal to f⁻¹(x)?",
+"options": [
+"log√x + 1/2",
+"1og√x - 1/2",
+"log(2x-1)",
+"log x + 1/2"
+],
+"answer": 0,
+"explanation": "We have f(x) = 10²ˣ⁻¹. To find f⁻¹(x), let y = 10²ˣ⁻¹. Take log base 10: log y = 2x − 1 → 2x = log y + 1 → x = (log y + 1)/2 = log√y + 1/2.\n\n So, f⁻¹(x) = log√x + 1/2."
+},
+{
+"question": "Which one of the following is NOT true about the graph of the function f(x) = 7/5^x?",
+"options": [
+"Its $y$-intercept is 1.",
+"Its range is the set of all real numbers.",
+"It is an increasing function.",
+"Its domain is the set of all real numbers."
+],
+"answer": 1,
+"explanation": ""
+},
+{
+"question": "What are the values of y and z, respectively, in the sequence: 1, -1/3, 1/7, -1/15, 1/31, -1/63, y, z,...?",
+"options": [
+"1/127 and -1/255",
+"1/127 and -1/227",
+"1/129 and -1/227",
+"1/129 and -1/255"
+],
+"answer": 0,
+"explanation": "Observe the denominators: 1, 3, 7, 15, 31, 63… These are 2ⁿ⁻¹: 2¹⁻¹=1,  2²⁻¹ =3,  2³⁻¹=7,  2⁴⁻¹=15,  2⁵⁻¹=31,  2⁶⁻¹=63.\n\n Next terms: 2⁷⁻¹=127 and 2⁸⁻¹=255.\n\n  The signs alternate: +, −, +, −… So y = 1/127, z = −1/255."
+},
+{
+"question": "Which one of the following is the value of x in the sequence 23, 34, 56, 89, x, 188,....?",
+"options": [
+"100",
+"144",
+"111",
+"133"
+],
+"answer": 3,
+"explanation": "The sequence increases by differences that grow by 11 each time: 34-23=11, 56-34=22, 89-56=33, so the next difference is 44.\n\n Therefore, x = 89 + 44 = 133."
+},
+{
+"question": "What is the rationalizing factor of the denominator of 1 / ³√4 ?",
+"options": [
+"³√2",
+"2",
+"√2",
+"3√2"
+],
+"answer": 0,
+"explanation": "To rationalize 1/∛4, note that ∛4 = ∛(2²).\n\n Multiply numerator and denominator by ∛2 to get (∛2)/(∛8) = (∛2)/2, so the rationalizing factor is ∛2."
+},
+{
+"question": "If 3x - 2 = 3 - 5x, then which one of the following is equal to 7 - 4x?",
+"options": [
+"-9/2",
+"19/2",
+"9/2",
+"13/2"
+],
+"answer": 0,
+"explanation": "Solve 3x - 2 = 3 - 5x → \n 8x = 5 \n  → x = 5/8.\n\n Then 7 - 4x = 7 - 4*(5/8) = 7 - 5/2 = 9/2."
+},
+{
+"question": "The greatest common factor and least common multiple of two numbers are 12 and 336, respectively. If one of the numbers is 84, then which one of the following is the other number?",
+"options": [
+"48",
+"96",
+"36",
+"72"
+],
+"answer": 0,
+"explanation": "Using the formula GCF × LCM = a × b: 12 × 336 =\n 84 × x → 4032 = 84 × x →   \n\n x = 4032 / 84 = 48."
+},
+{
+"question": "How many numbers in the set {-8, -5, -3, -1, 0, 2, 5, 7, 8} satisfy the condition |5 - 3x| < 11?",
+"options": [
+"3",
+"6",
+"4",
+"5"
+],
+"answer": 3,
+"explanation": "Solve |5 - 3x| < 11 → -11 < 5 - 3x < 11 → -2 < x < 16/3.\n\n Numbers in the set satisfying this are -1, 0, 2, 5 → 4 numbers."
+},
+{
+"question": "A father is 32 years old and his son is 8 years old now. In how many years will the father be three times as old as his son?",
+"options": [
+"3",
+"6",
+"5",
+"4"
+],
+"answer": 3,
+"explanation": "Let x be the number of years. Then 32 + x = 3(8 + x) → \n32 + x = 24 + 3x →\n 8 = 2x → x = 4."
+}
+]

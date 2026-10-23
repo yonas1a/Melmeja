@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is the acceleration due to gravity at an altitude equal to the radius of the Earth? (gE is the gravitational acceleration on the surface of the Earth)",
+    "options": [
+      "gE/4",
+      "gE/9",
+      "3gE",
+      "gE/4"
+    ],
+    "answer": 3,
+    "explanation": "The acceleration due to gravity at a height h above the Earth's surface is given by:\n\ngh = gE * (R / (R + h))²\n\nHere, h = R (radius of the Earth), so:\n\ngh = gE * (R / (R + R))² = gE * (R / 2R)² = gE * (1/2)² = gE / 4\n\nTherefore, the acceleration due to gravity at an altitude equal to the Earth's radius is gE/4."
+  }
+]

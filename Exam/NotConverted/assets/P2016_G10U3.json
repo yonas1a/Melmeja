@@ -1,0 +1,25 @@
+[
+  {
+    "question": "32. Which one of the following statements is correct about the resistance of a conducting wire? The resistance of the wire is",
+    "options": [
+      "directly proportional to the square of its length.",
+      "directly proportional to the square of its cross-sectional area.",
+      "inversely proportional to its cross-sectional area.",
+      "inversely proportional to its length."
+    ],
+    "answer": 2,
+    "explanation": "The resistance ($R$) of a conductor is given by the formula $R = \\rho \\frac{L}{A}$, where $\\rho$ is resistivity, $L$ is length, and $A$ is the cross-sectional area. The formula shows that resistance is **inversely proportional to the cross-sectional area** ($R \\propto 1/A$) and directly proportional to the length ($R \\propto L$). ."
+  },
+{
+  "question": "37. Three resistors are connected between points a and b as shown in the figure below. The effective resistance of the circuit is",
+  "options": [
+    "11.0 kΩ",
+    "1.0 Ω",
+    "11.0 Ω",
+    "1.0 kΩ"
+  ],
+  "answer": 3,
+  "explanation": "The three resistors ($3 \\text{ k}Omega$, $6 \\text{ k}Omega$, and $2 \\text{ k}Omega$) are connected in a **parallel** circuit. The effective resistance ($R_{eq}$) is found using the formula for parallel resistance:\n$$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}$$ \n$$\\frac{1}{R_{eq}} = \\frac{1}{3 \\text{ k}\\Omega} + \\frac{1}{6 \\text{ k}\\Omega} + \\frac{1}{2 \\text{ k}\\Omega} = \\frac{2}{6 \\text{ k}\\Omega} + \\frac{1}{6 \\text{ k}\\Omega} + \\frac{3}{6 \\text{ k}\\Omega}$$ \n$$\\frac{1}{R_{eq}} = \\frac{6}{6 \\text{ k}\\Omega} = \\frac{1}{1 \\text{ k}\\Omega}$$ \n$$R_{eq} = 1 \\text{ k}\\Omega$$"
+}
+
+]

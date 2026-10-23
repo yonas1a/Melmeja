@@ -1,0 +1,1112 @@
+[
+  {
+    "question": "What is the definition of a polygon?",
+    "options": [
+      "A simple closed plane figure formed by three or more curved lines.",
+      "A simple closed plane figure formed by three or more line segments.",
+      "An open plane figure formed by line segments.",
+      "A solid figure with flat faces."
+    ],
+    "answer": 1,
+  "explanation": "A polygon is a simple closed plane figure formed by three or more line segments joined end to end. "
+  },
+  {
+    "question": "Which of the following describes a convex polygon?",
+    "options": [
+      "At least one interior angle is greater than 180°.",
+      "All interior angles are less than 180°.",
+      "It must have exactly four sides.",
+      "All sides must be equal."
+    ],
+    "answer": 1,
+  "explanation": "A polygon is convex when the measure of each interior angle is less than 180 degrees. "
+  },
+  {
+    "question": "What is the formula for the sum of the interior angles of an n-sided convex polygon?",
+    "options": [
+      "n * 180°",
+      "(n - 1) * 180°",
+      "(n - 2) * 180°",
+      "360°"
+    ],
+    "answer": 2,
+  "explanation": "The sum of the measure of interior angles of an n-sided polygon is equal to (n - 2) * 180°. "
+  },
+  {
+    "question": "Calculate the sum of the interior angles of a convex hexagon.",
+    "options": [
+      "540°",
+      "720°",
+      "900°",
+      "1080°"
+    ],
+    "answer": 1,
+    "explanation": "A hexagon has 6 sides (n=6). \n\nUsing the formula (n - 2) * 180°, the sum is (6 - 2) * 180° = 4 * 180° = 720°."
+  },
+  {
+    "question": "The sum of the interior angles of a convex polygon is 1440°. How many sides does the polygon have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Let n be the number of sides. (n - 2) * 180° = 1440°.\n\nDivide by 180°: n - 2 = 1440 / 180 = 8.\n So, n = 8 + 2 = 10 sides."
+  },
+  {
+    "question": "What is the sum of the exterior angles of any convex polygon, taking one at each vertex?",
+    "options": [
+      "180°",
+      "(n - 2) * 180°",
+      "n * 180°",
+      "360°"
+    ],
+    "answer": 3,
+  "explanation": "For any n-sided convex polygon, the sum of the measure of exterior angles (one at each vertex) is always 360°."
+  },
+  {
+    "question": "What defines a regular polygon?",
+    "options": [
+      "All sides are equal.",
+      "All interior angles are equal.",
+      "It is both equilateral and equiangular.",
+      "It has an even number of sides."
+    ],
+    "answer": 2,
+  "explanation": "A polygon is said to be regular if it is equiangular (having equal angles) and equilateral (having equal sides). "
+  },
+  {
+    "question": "What is the measure of each interior angle of a regular pentagon?",
+    "options": [
+      "90°",
+      "108°",
+      "120°",
+      "135°"
+    ],
+    "answer": 1,
+    "explanation": "A pentagon has 5 sides (n=5). \nEach interior angle = [(n-2) * 180°] / n =\n [(5-2) * 180°] / 5 = \n[3 * 180°] / 5 = \n540° / 5 = 108°."
+  },
+  {
+    "question": "What is the measure of each exterior angle of a regular hexagon?",
+    "options": [
+      "45°",
+      "60°",
+      "72°",
+      "90°"
+    ],
+    "answer": 1,
+    "explanation": "A hexagon has 6 sides (n=6).\nEach exterior angle = 360° / n \n= 360° / 6 = 60°."
+  },
+  {
+    "question": "If each interior angle of a regular polygon measures 144°, how many sides does it have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Let n be the number of sides. Each interior angle = [(n-2) * 180°] / n.\n\n So, 144 = (n-2)*180 / n => 144n = 180n - 360 => 360 = 36n => n = 10.\n\n Alternatively, each exterior angle = 180° - 144° = 36°.\n n = 360° / 36° = 10."
+  },
+  {
+    "question": "What is the relationship between an interior angle and its corresponding exterior angle at any vertex of a convex polygon?",
+    "options": [
+      "They are equal.",
+      "Their sum is 90°.",
+      "Their sum is 180°.",
+      "Their sum is 360°."
+    ],
+    "answer": 2,
+ "explanation": "At each vertex of a convex polygon, the sum of the interior angle and its corresponding exterior angle is 180°. "
+  },
+  {
+    "question": "How many lines of symmetry does a regular octagon have?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "An n-sided regular polygon has n lines of symmetry. \nAn octagon has 8 sides, so it has 8 lines of symmetry."
+  },
+  {
+    "question": "Which regular polygon has 5 lines of symmetry?",
+    "options": [
+      "Square",
+      "Regular Pentagon",
+      "Regular Hexagon",
+      "Equilateral Triangle"
+    ],
+    "answer": 1,
+    "explanation": "An n-sided regular polygon has n lines of symmetry.\n\nA regular pentagon has 5 sides, thus 5 lines of symmetry."
+  },
+  {
+    "question": "For a regular polygon with an odd number of sides, each line of symmetry connects a vertex to:",
+    "options": [
+      "Another vertex",
+      "The midpoint of the opposite side",
+      "The midpoint of an adjacent side",
+      "The center only"
+    ],
+    "answer": 1,
+  "explanation": "If n is odd, the line of symmetry connects a vertex to the midpoint of the opposite side. "
+  },
+  {
+    "question": "For a regular polygon with an even number of sides, lines of symmetry connect:",
+    "options": [
+      "Vertex to vertex only",
+      "Midpoint of side to midpoint of opposite side only",
+      "Both vertex to opposite vertex AND midpoint of side to midpoint of opposite side",
+      "Vertex to midpoint of adjacent side"
+    ],
+    "answer": 2,
+ "explanation": "If n is even, the lines of symmetry connect opposite vertices and the midpoints of opposite sides."
+  },
+  {
+    "question": "What is the name of the line segment from the center of a regular polygon perpendicular to one of its sides?",
+    "options": [
+      "Radius",
+      "Diagonal",
+      "Apothem",
+      "Altitude"
+    ],
+    "answer": 2,
+  "explanation": "The line segment from the center perpendicular to the sides of a regular polygon is called an apothem."
+  },
+  {
+    "question": "What is the measure of the central angle of a regular decagon?",
+    "options": [
+      "30°",
+      "36°",
+      "45°",
+      "60°"
+    ],
+    "answer": 1,
+    "explanation": "A decagon has 10 sides (n=10).\n\nThe measure of each central angle is 360° / n = 360° / 10 = 36°. "
+  },
+  {
+    "question": "If the measure of a central angle of a regular polygon is 40°, how many sides does it have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Let n be the number of sides. Central angle = 360° / n.\n\nSo, 40° = 360° / n => n = 360 / 40 = 9 sides."
+  },
+  {
+    "question": "A circle that passes through all vertices of a polygon is called:",
+    "options": [
+      "Incircle",
+      "Circumcircle",
+      "Tangent circle",
+      "Central circle"
+    ],
+    "answer": 1,
+    "explanation": "A circle passing through all vertices of a polygon is called a circumcircle.\n\nThe polygon is inscribed in the circle."
+  },
+  {
+    "question": "A circle that is tangent to all sides of a polygon is called:",
+    "options": [
+      "Incircle",
+      "Circumcircle",
+      "Secant circle",
+      "Vertex circle"
+    ],
+    "answer": 0,
+    "explanation": "A circle tangent to all sides of a polygon is called an incircle.\n\nThe polygon is circumscribed about the circle."
+  },
+  {
+    "question": "The radius of the incircle of a regular polygon is equal to the:",
+    "options": [
+      "Side length",
+      "Radius of the circumcircle",
+      "Apothem",
+      "Diameter"
+    ],
+    "answer": 2,
+ "explanation": "The radius of the incircle is the apothem of the regular polygon."
+  },
+  {
+    "question": "What is the perimeter of a regular pentagon if one side measures 8 cm?",
+    "options": [
+      "32 cm",
+      "40 cm",
+      "48 cm",
+      "64 cm"
+    ],
+    "answer": 1,
+    "explanation": "A pentagon has 5 sides. \n\nPerimeter P = n * s = 5 * 8 cm = 40 cm."
+  },
+  {
+    "question": "The perimeter of a regular octagon is 96 meters. What is the length of each side?",
+    "options": [
+      "8 m",
+      "10 m",
+      "12 m",
+      "16 m"
+    ],
+    "answer": 2,
+    "explanation": "An octagon has 8 sides. \n\nSide length s = Perimeter / n = 96 m / 8 = 12 m."
+  },
+  {
+    "question": "What is the formula for the area of a regular n-gon with apothem 'a' and perimeter 'P'?",
+    "options": [
+      "A = a * P",
+      "A = (1/2) * a * P",
+      "A = a² * P",
+      "A = a * P²"
+    ],
+    "answer": 1,
+  "explanation": "The area of a regular n-gon is given by A = (1/2) * apothem * Perimeter = (1/2) * a * P."
+  },
+  {
+    "question": "Calculate the area of a regular hexagon with side length 6 cm and apothem 3√3 cm.",
+    "options": [
+      "27√3 cm²",
+      "54√3 cm²",
+      "108 cm²",
+      "36 cm²"
+    ],
+    "answer": 1,
+    "explanation": "Perimeter P = n * s = 6 * 6 cm = 36 cm.\n\n Area A = (1/2) * a * P = (1/2) * (3√3 cm) * (36 cm) =\n 54√3 cm²."
+  },
+  {
+    "question": "The area of a regular pentagon is 50 cm² and its apothem is 4 cm. What is its perimeter?",
+    "options": [
+      "12.5 cm",
+      "25 cm",
+      "50 cm",
+      "100 cm"
+    ],
+    "answer": 1,
+    "explanation": "Area A = (1/2) * a * P.\n\n So, 50 cm² = (1/2) * (4 cm) * P => 50 cm² = (2 cm) * P => \nP = 50 cm² / 2 cm = 25 cm."
+  },
+  {
+    "question": "Which statement is true about the relationship between the radius (r) and apothem (a) of a regular polygon (n>2)?",
+    "options": [
+      "a > r",
+      "a = r",
+      "a < r",
+      "It depends on the number of sides."
+    ],
+    "answer": 2,
+    "explanation": "The apothem is the perpendicular distance from the center to a side, while the radius goes to a vertex. \n\nIn the right triangle formed by the apothem, half a side, and the radius (hypotenuse), the apothem is always shorter than the radius. "
+  },
+  {
+    "question": "What shape is formed by connecting the center of a regular n-gon to two adjacent vertices?",
+    "options": [
+      "Equilateral triangle",
+      "Right-angled triangle",
+      "Isosceles triangle",
+      "Scalene triangle"
+    ],
+    "answer": 2,
+ "explanation": "Connecting the center to two adjacent vertices forms an isosceles triangle, as the two radii connecting the center to the vertices are equal."
+  },
+  {
+    "question": "For which regular polygon is the triangle formed by the center and two adjacent vertices an equilateral triangle?",
+    "options": [
+      "Square",
+      "Regular Pentagon",
+      "Regular Hexagon",
+      "Regular Octagon"
+    ],
+    "answer": 2,
+    "explanation": "In a regular hexagon, the central angle is 360°/6 = 60°.\n\n Since the triangle formed is isosceles with the two equal sides being radii, the base angles are also (180°-60°)/2 = 60°.\nThus, it's an equilateral triangle. "
+  },
+  {
+    "question": "What is the name of a polygon with 7 sides?",
+    "options": [
+      "Hexagon",
+      "Heptagon",
+      "Octagon",
+      "Nonagon"
+    ],
+    "answer": 1,
+  "explanation": "A polygon with 7 sides is called a heptagon. "
+  },
+  {
+    "question": "What is the name of a polygon with 9 sides?",
+    "options": [
+      "Heptagon",
+      "Octagon",
+      "Nonagon",
+      "Decagon"
+    ],
+    "answer": 2,
+ "explanation": "A polygon with 9 sides is called a nonagon."
+  },
+  {
+    "question": "Can a concave polygon be regular?",
+    "options": [
+      "Yes, always",
+      "Yes, if it has equal sides",
+      "Yes, if it has equal angles",
+      "No, never"
+    ],
+    "answer": 3,
+    "explanation": "A regular polygon must be convex because all interior angles must be equal and less than 180°.\n\nConcave polygons have at least one interior angle greater than 180°. "
+  },
+  {
+    "question": "What is the sum of the interior angles of a convex nonagon?",
+    "options": [
+      "1080°",
+      "1260°",
+      "1440°",
+      "1620°"
+    ],
+    "answer": 1,
+    "explanation": "A nonagon has 9 sides (n=9). \n\nSum = (n - 2) * 180° = \n(9 - 2) * 180° = 7 * 180° = 1260°."
+  },
+  {
+    "question": "If the sum of the interior angles of a convex polygon is 900°, what is the name of the polygon?",
+    "options": [
+      "Pentagon",
+      "Hexagon",
+      "Heptagon",
+      "Octagon"
+    ],
+    "answer": 2,
+  "explanation": "(n - 2) * 180° = 900° => n - 2 = 900 / 180 = 5 => n = 7.\n\n A 7-sided polygon is a heptagon. "
+  },
+  {
+    "question": "What is the measure of each interior angle of a regular decagon?",
+    "options": [
+      "135°",
+      "140°",
+      "144°",
+      "150°"
+    ],
+    "answer": 2,
+    "explanation": "A decagon has 10 sides (n=10).\n\n Angle = [(10-2) * 180°] / 10 =\n [8 * 180°] / 10 = \n1440° / 10 = 144°."
+  },
+  {
+    "question": "What is the measure of each exterior angle of a regular nonagon?",
+    "options": [
+      "30°",
+      "36°",
+      "40°",
+      "45°"
+    ],
+    "answer": 2,
+    "explanation": "A nonagon has 9 sides (n=9). \n\nExterior angle = 360° / n =\n 360° / 9 = 40°. "
+  },
+  {
+    "question": "If each exterior angle of a regular polygon measures 24°, how many sides does it have?",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "n = 360° / (Exterior Angle) =\n 360° / 24° = 15 sides."
+  },
+  {
+    "question": "A regular polygon has an interior angle of 150°. What type of polygon is it?",
+    "options": [
+      "Octagon",
+      "Nonagon",
+      "Decagon",
+      "Dodecagon (12-sided)"
+    ],
+    "answer": 3,
+    "explanation": "Exterior angle = 180° - 150° = 30°. \n\nNumber of sides n = 360° / 30° = 12. \nIt is a dodecagon."
+  },
+  {
+    "question": "How many diagonals can be drawn from one vertex of a convex heptagon?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "From one vertex of an n-gon, you can draw diagonals to all other vertices except itself and the two adjacent vertices.\n\n So, n - 3 diagonals. For a heptagon (n=7), 7 - 3 = 4 diagonals."
+  },
+  {
+    "question": "In a regular polygon, the measure of each central angle is equal to the measure of:",
+    "options": [
+      "Each interior angle",
+      "Each exterior angle",
+      "Half the interior angle",
+      "180° minus the interior angle"
+    ],
+    "answer": 1,
+  "explanation": "Both the central angle and the exterior angle of a regular n-gon are equal to 360°/n."
+  },
+  {
+    "question": "What is the perimeter of a regular nonagon with side length 5 cm?",
+    "options": [
+      "35 cm",
+      "40 cm",
+      "45 cm",
+      "50 cm"
+    ],
+    "answer": 2,
+    "explanation": "A nonagon has 9 sides. \nP = n * s = 9 * 5 cm = 45 cm."
+  },
+  {
+    "question": "The perimeter of a regular decagon is 120 units. Find the side length.",
+    "options": [
+      "10 units",
+      "12 units",
+      "15 units",
+      "20 units"
+    ],
+    "answer": 1,
+    "explanation": "A decagon has 10 sides. \ns = P / n = \n120 / 10 = 12 units."
+  },
+  {
+    "question": "A regular octagon has an apothem of 10 cm and a perimeter of 64 cm. Calculate its area.",
+    "options": [
+      "160 cm²",
+      "320 cm²",
+      "640 cm²",
+      "1280 cm²"
+    ],
+    "answer": 1,
+  "explanation": "Area A = (1/2) * a * P = (1/2) * (10 cm) * (64 cm) =\n 320 cm²."
+  },
+  {
+    "question": "The area of a regular polygon is 150 m² and its perimeter is 60 m. What is the length of its apothem?",
+    "options": [
+      "2.5 m",
+      "5 m",
+      "7.5 m",
+      "10 m"
+    ],
+    "answer": 1,
+    "explanation": "A = (1/2) * a * P => \n150 = (1/2) * a * 60 \n\n=> 150 = 30 * a => a = 150 / 30 = 5 m."
+  },
+  {
+    "question": "Which of these is always a regular polygon?",
+    "options": [
+      "Rhombus",
+      "Rectangle",
+      "Square",
+      "Isosceles Triangle"
+    ],
+    "answer": 2,
+  "explanation": "A square has all sides equal (equilateral) and all angles equal to 90° (equiangular), making it a regular polygon."
+  },
+  {
+    "question": "If a regular polygon is inscribed in a circle, the distance from the center to any vertex is the:",
+    "options": [
+      "Apothem",
+      "Side length",
+      "Radius of the circumcircle",
+      "Diameter of the incircle"
+    ],
+    "answer": 2,
+  "explanation": "The distance from the center to a vertex of an inscribed polygon is the radius of the circumscribing circle. "
+  },
+  {
+    "question": "Consider a regular hexagon inscribed in a circle. What is the relationship between the side length (s) and the radius (r) of the circumcircle?",
+    "options": [
+      "s = r/2",
+      "s = r",
+      "s = r√3",
+      "s = 2r"
+    ],
+    "answer": 1,
+    "explanation": "A regular hexagon can be divided into 6 equilateral triangles with vertices at the center. \n\nTherefore, the side length is equal to the radius. "
+  },
+  {
+    "question": "What is the apothem (a) of a square with side length (s)?",
+    "options": [
+      "a = s",
+      "a = s/2",
+      "a = s√2",
+      "a = s√2 / 2"
+    ],
+    "answer": 1,
+    "explanation": "The apothem connects the center to the midpoint of a side.\n\n In a square, this distance is half the side length, a = s/2."
+  },
+  {
+    "question": "What is the area of a square with side length 8 units?",
+    "options": [
+      "16 units²",
+      "32 units²",
+      "64 units²",
+      "128 units²"
+    ],
+    "answer": 2,
+    "explanation": "Area of a square = side * side = s² = 8² = 64 units²."
+  },
+  {
+    "question": "What is the perimeter of an equilateral triangle with side length 10 cm?",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "30 cm",
+      "10√3 cm"
+    ],
+    "answer": 2,
+    "explanation": "An equilateral triangle is a regular 3-gon.\n P = n * s = 3 * 10 cm = \n30 cm."
+  },
+  {
+    "question": "The sum of interior angles of a polygon is 1800°. How many vertices does it have?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "Sum = (n-2)*180 = 1800 => n-2 = 10 => n = 12. \n\nThe number of vertices equals the number of sides."
+  },
+  {
+    "question": "An exterior angle of a regular polygon is 18°. What is the measure of each interior angle?",
+    "options": [
+      "18°",
+      "152°",
+      "162°",
+      "172°"
+    ],
+    "answer": 2,
+    "explanation": "Interior angle + Exterior angle = 180°. \n\nInterior angle = 180° - 18° = 162°."
+  },
+  {
+    "question": "How many sides does the regular polygon from the previous question (exterior angle 18°) have?",
+    "options": [
+      "10",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "Number of sides n = 360° / Exterior Angle =\n\n 360° / 18° = 20."
+  },
+  {
+    "question": "A regular pentagon has a perimeter of 75 mm. What is the length of one side?",
+    "options": [
+      "10 mm",
+      "12.5 mm",
+      "15 mm",
+      "25 mm"
+    ],
+    "answer": 2,
+    "explanation": "A pentagon has 5 sides.\n\n Side length s = P / n =\n\n 75 mm / 5 = 15 mm."
+  },
+  {
+    "question": "A regular polygon has 12 sides. What is the sum of its interior angles?",
+    "options": [
+      "1620°",
+      "1800°",
+      "1980°",
+      "2160°"
+    ],
+    "answer": 1,
+ "explanation": "n = 12.\n Sum = (n - 2) * 180° = \n(12 - 2) * 180°\n = 10 * 180° = 1800°."
+  },
+  {
+    "question": "What is the measure of each interior angle of a regular 12-sided polygon (dodecagon)?",
+    "options": [
+      "140°",
+      "144°",
+      "150°",
+      "160°"
+    ],
+    "answer": 2,
+    "explanation": "Sum = 1800°. \nEach angle = Sum / n =\n 1800° / 12 = 150°."
+  },
+  {
+    "question": "What is the measure of each exterior angle of a regular dodecagon?",
+    "options": [
+      "24°",
+      "30°",
+      "36°",
+      "45°"
+    ],
+    "answer": 1,
+    "explanation": "Exterior angle = 360° / n = \n360° / 12 = 30°."
+  },
+  {
+    "question": "A polygon where at least one interior angle is greater than 180° is called:",
+    "options": [
+      "Regular",
+      "Convex",
+      "Concave",
+      "Complex"
+    ],
+    "answer": 2,
+  "explanation": "A concave polygon has at least one interior angle whose measure is more than 180 degrees."
+  },
+  {
+    "question": "What is the minimum number of sides a polygon can have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "A polygon is formed by three or more line segments.\n\nThe simplest polygon is a triangle, which has 3 sides."
+  },
+  {
+    "question": "If a regular polygon has 15 sides, how many lines of symmetry does it have?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "An n-sided regular polygon has n lines of symmetry. \n\nThus, a 15-sided regular polygon has 15 lines of symmetry."
+  },
+  {
+    "question": "What is the measure of the central angle of an equilateral triangle?",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "answer": 2,
+    "explanation": "An equilateral triangle is a regular 3-gon.\n\n Central angle = 360° / n \n= 360° / 3 =\n 120°."
+  },
+  {
+    "question": "What is the measure of the central angle of a square?",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": 2,
+    "explanation": "A square is a regular 4-gon.\n Central angle = 360° / n \n= 360° / 4\n = 90°."
+  },
+  {
+    "question": "Calculate the area of a square with apothem 3 cm.",
+    "options": [
+      "9 cm²",
+      "18 cm²",
+      "27 cm²",
+      "36 cm²"
+    ],
+    "answer": 3,
+    "explanation": "For a square, apothem a = s/2.\n So, s = 2a = 2 * 3 cm = 6 cm.\n Area = s² = (6 cm)² =\n 36 cm²."
+  },
+  {
+    "question": "Calculate the perimeter of a square with apothem 5 m.",
+    "options": [
+      "20 m",
+      "25 m",
+      "40 m",
+      "50 m"
+    ],
+    "answer": 2,
+    "explanation": "For a square, a = s/2 => s = 2a = 2 * 5 m = 10 m.\n\n Perimeter P = 4 * s = 4 * 10 m =\n 40 m."
+  },
+  {
+    "question": "A regular hexagon has a perimeter of 48 units. What is its side length?",
+    "options": [
+      "6 units",
+      "8 units",
+      "12 units",
+      "16 units"
+    ],
+    "answer": 1,
+    "explanation": "A hexagon has 6 sides.\n s = P / n = \n48 / 6 =\n 8 units."
+  },
+  {
+    "question": "Calculate the apothem of a regular hexagon with side length 10 cm.",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "5√3 cm",
+      "10√3 cm"
+    ],
+    "answer": 2,
+    "explanation": "A regular hexagon is composed of 6 equilateral triangles.\n The apothem is the height of one of these triangles with side length s=10 cm.\n Height = (s√3)/2 = (10√3)/2 = 5√3 cm."
+  },
+  {
+    "question": "Calculate the area of a regular hexagon with side length 4 units.",
+    "options": [
+      "12√3 units²",
+      "24√3 units²",
+      "36√3 units²",
+      "48√3 units²"
+    ],
+    "answer": 1,
+    "explanation": "Area of hexagon = (3√3 / 2) * s².\n A = (3√3 / 2) * 4² = \n(3√3 / 2) * 16 =\n 24√3 units²."
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Can the sum of interior angles of a convex polygon be 1000°?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if it's regular",
+      "Only if it has 7 sides"
+    ],
+    "answer": 1,
+    "explanation": "The sum must be a multiple of 180° of the form (n-2)*180°. \n\n1000 / 180 is not an integer, so 1000° cannot be the sum of interior angles for any polygon."
+  },
+  {
+    "question": "The interior angles of a pentagon are 100°, 110°, 120°, 105°. What is the fifth angle?",
+    "options": [
+      "100°",
+      "105°",
+      "110°",
+      "115°"
+    ],
+    "answer": 1,
+    "explanation": "Sum of interior angles of a pentagon (n=5) is (5-2)*180° = 540°. \n\nThe sum of the four given angles is 100+110+120+105 = 435°.\n\n The fifth angle is 540° - 435° = 105°."
+  },
+  {
+    "question": "The exterior angles of a pentagon are x°, 2x°, 3x°, 4x°, 5x°. Find x.",
+    "options": [
+      "18°",
+      "24°",
+      "30°",
+      "36°"
+    ],
+    "answer": 1,
+  "explanation": "The sum of exterior angles is always 360°.\n\n x + 2x + 3x + 4x + 5x = 360° => \n15x = 360° =>\n x = 360 / 15 =\n 24°. "
+  },
+  {
+    "question": "In the previous question, what is the measure of the largest interior angle?",
+    "options": [
+      "60°",
+      "108°",
+      "120°",
+      "156°"
+    ],
+    "answer": 0,
+    "explanation": "The largest exterior angle is 5x = 5 * 24° = 120°.\n\n The corresponding interior angle is 180° - 120° = 60°."
+  },
+  {
+    "question": "Which statement about diagonals of a regular pentagon is true?",
+    "options": [
+      "All diagonals are equal in length.",
+      "No two diagonals are equal in length.",
+      "Diagonals from one vertex have different lengths.",
+      "Diagonals intersect outside the pentagon."
+    ],
+    "answer": 0,
+    "explanation": "Due to the symmetry of a regular pentagon, all diagonals connecting non-adjacent vertices have the same length."
+  },
+  {
+    "question": "A polygon has 10 sides. What is it called?",
+    "options": [
+      "Octagon",
+      "Nonagon",
+      "Decagon",
+      "Dodecagon"
+    ],
+    "answer": 2,
+  "explanation": "A polygon with 10 sides is called a decagon. "
+  },
+  {
+    "question": "A regular polygon has center O, and two adjacent vertices A and B. What is the name of angle AOB?",
+    "options": [
+      "Interior angle",
+      "Exterior angle",
+      "Central angle",
+      "Vertex angle"
+    ],
+    "answer": 2,
+ "explanation": "The angle formed at the center by two consecutive radii is the central angle."
+  },
+  {
+    "question": "If each interior angle of a regular polygon is 11 times its exterior angle, how many sides does it have?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "What is the name for a polygon where all interior angles are less than 180 degrees?",
+    "options": [
+      "Regular",
+      "Concave",
+      "Convex",
+      "Simple"
+    ],
+    "answer": 2,
+  "explanation": "A polygon is convex when the measure of each interior angle is less than 180 degrees."
+  },
+  {
+    "question": "A regular quadrilateral is commonly known as a:",
+    "options": [
+      "Rhombus",
+      "Rectangle",
+      "Square",
+      "Parallelogram"
+    ],
+    "answer": 2,
+    "explanation": "A regular quadrilateral must be equilateral (all sides equal) and equiangular (all angles equal). This describes a square."
+  },
+  {
+    "question": "The number of triangles formed by drawing diagonals from one vertex of an n-gon is:",
+    "options": [
+      "n",
+      "n - 1",
+      "n - 2",
+      "n - 3"
+    ],
+    "answer": 2,
+  "explanation": "Drawing all diagonals from one vertex divides the n-gon into n-2 triangles."
+  },
+  {
+    "question": "What is the sum of a central angle and an interior angle of a square?",
+    "options": [
+      "135°",
+      "180°",
+      "225°",
+      "270°"
+    ],
+    "answer": 1,
+    "explanation": "For a square (n=4): Central angle = 360/4 = 90°.\n\n Interior angle = (4-2)*180/4 = 90°.\n\n Sum = 90° + 90° = 180°."
+  },
+  {
+    "question": "What is the sum of an exterior angle and a central angle of a regular octagon?",
+    "options": [
+      "45°",
+      "90°",
+      "135°",
+      "180°"
+    ],
+    "answer": 1,
+    "explanation": "For a regular octagon (n=8): Exterior angle = 360/8 = 45°. \n\nCentral angle = 360/8 = 45°. Sum = 45° + 45° = 90°."
+  },
+  {
+    "question": "A regular polygon has apothem 'a' and side length 's'. The area of one isosceles triangle formed by the center and one side is:",
+    "options": [
+      "a * s",
+      "(1/2) * a * s",
+      "a * s²",
+      "(1/2) * a² * s"
+    ],
+    "answer": 1,
+    "explanation": "The isosceles triangle has base 's' and height 'a' (the apothem). \n\nIts area is (1/2) * base * height = (1/2) * s * a."
+  },
+  {
+    "question": "If the area of one isosceles triangle formed by the center and one side of a regular decagon is 15 cm², what is the area of the decagon?",
+    "options": [
+      "75 cm²",
+      "120 cm²",
+      "150 cm²",
+      "300 cm²"
+    ],
+    "answer": 2,
+    "explanation": "A decagon (n=10) is composed of 10 such congruent isosceles triangles.\n\nTotal Area = n * (Area of one triangle) = 10 * 15 cm² = 150 cm²."
+  },
+  {
+    "question": "Consider a regular polygon inscribed in a circle. As the number of sides increases infinitely, the polygon approaches what shape?",
+    "options": [
+      "A line segment",
+      "A point",
+      "The circle itself",
+      "An infinitely large square"
+    ],
+    "answer": 2,
+    "explanation": "As the number of sides of an inscribed regular polygon increases, it fills more of the circle, and its perimeter and area approach those of the circle."
+  },
+  {
+    "question": "Is it possible for a regular polygon to have an interior angle of 145°?",
+    "options": [
+      "Yes, if it has 12 sides",
+      "Yes, if it has 10 sides",
+      "No, because the calculation results in a non-integer number of sides",
+      "Yes, if it is concave"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The perimeter of an equilateral triangle is 24 units. What is its area?",
+    "options": [
+      "16 units²",
+      "16√3 units²",
+      "32 units²",
+      "32√3 units²"
+    ],
+    "answer": 1,
+    "explanation": "Side length s = P / 3 = 24 / 3 = 8 units.\n\n Area = (s²√3)/4 = (8²√3)/4 =\n (64√3)/4 = 16√3 units²."
+  },
+  {
+    "question": "A regular nonagon has side length 's' and apothem 'a'. What is its area?",
+    "options": [
+      "9as",
+      "(9/2)as",
+      "18as",
+      "(1/2)as"
+    ],
+    "answer": 1,
+    "explanation": "A nonagon has n=9 sides. Perimeter P = 9s.\n\n Area A = (1/2)aP =\n (1/2)a(9s) =\n (9/2)as."
+  },
+  {
+    "question": "The sum of interior angles of a convex polygon is equal to the sum of its exterior angles. What polygon is it?",
+    "options": [
+      "Triangle",
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Each interior angle of a regular polygon is 140°. How many diagonals does it have?",
+    "options": [
+      "20",
+      "27",
+      "35",
+      "44"
+    ],
+    "answer": 1,
+    "explanation": "Exterior angle = 180° - 140° = 40°.\n\n Number of sides n = 360° / 40° = 9. \n\nNumber of diagonals = n(n-3)/2 = 9(9-3)/2 =\n 9(6)/2 = 27."
+  },
+  {
+    "question": "Which of the following angle measures cannot be an interior angle of a regular polygon?",
+    "options": [
+      "60°",
+      "108°",
+      "150°",
+      "155°"
+    ],
+    "answer": 3,
+    "explanation": "If Interior = 155°, Exterior = 180° - 155° = 25°.\n\n n = 360° / 25° = 14.4, which is not an integer. \n\nThe others correspond to n=3, n=5, n=12."
+  },
+  {
+    "question": "The measure of each central angle of a regular polygon is 30°. How many sides does it have?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "n = 360° / Central Angle =\n\n 360° / 30° = 12 sides."
+  },
+  {
+    "question": "What is the area of an equilateral triangle inscribed in a circle of radius 6 cm?",
+    "options": [
+      "27√3 cm²",
+      "36√3 cm²",
+      "54√3 cm²",
+      "108 cm²"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "What is the perimeter of a square inscribed in a circle of radius R?",
+    "options": [
+      "4R",
+      "4R√2",
+      "8R",
+      "2R√2"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A regular dodecagon has side length 5. Its perimeter is:",
+    "options": [
+      "50",
+      "60",
+      "75",
+      "120"
+    ],
+    "answer": 1,
+    "explanation": "A dodecagon has 12 sides.\n P = n * s = 12 * 5 = 60."
+  },
+  {
+    "question": "If the apothem of a regular hexagon is 6√3, what is its side length?",
+    "options": [
+      "6",
+      "6√3",
+      "12",
+      "12√3"
+    ],
+    "answer": 2,
+    "explanation": "For a regular hexagon, apothem a = (s√3)/2. So, 6√3 = (s√3)/2. \nMultiplying by 2 gives 12√3 = s√3.\n Dividing by √3 gives s = 12."
+  },
+  {
+    "question": "Calculate the area of the regular hexagon from the previous question (apothem 6√3, side 12).",
+    "options": [
+      "108√3",
+      "216√3",
+      "432",
+      "432√3"
+    ],
+    "answer": 1,
+    "explanation": "Perimeter P = 6 * s = 6 * 12 = 72.\n\n Area A = (1/2) * a * P = (1/2) * (6√3) * 72 = 3√3 * 72 = 216√3."
+  },
+  {
+    "question": "The ratio of the measure of an interior angle to an exterior angle of a regular polygon is 5:1. Find the number of sides.",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "Let I be interior, E be exterior. \n\nI/E = 5/1 => I = 5E. Also I + E = 180°.\n\n So 5E + E = 180° => 6E = 180° => E = 30°.\n\n Number of sides n = 360° / E = 360° / 30° = 12."
+  },
+  {
+    "question": "The apothem of a square is 4 cm. What is the radius of its circumscribed circle?",
+    "options": [
+      "4 cm",
+      "4√2 cm",
+      "8 cm",
+      "8√2 cm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "The apothem of a regular hexagon is 2√3 units. What is its area?",
+    "options": [
+      "12√3 units²",
+      "24√3 units²",
+      "36√3 units²",
+      "48√3 units²"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+    {
+      "question": "A line of symmetry in a regular decagon (10 sides) can connect:",
+      "options": [
+        "A vertex to a non-opposite vertex",
+        "A vertex to the midpoint of a non-opposite side",
+        "A vertex to the opposite vertex",
+        "The midpoints of adjacent sides"
+      ],
+      "answer": 2,
+      "explanation": "A regular polygon with an even number of sides (n=10 for a decagon) has two types of lines of symmetry:\n\n those connecting opposite vertices and those connecting the midpoints of opposite sides. \n\nOption C, connecting a vertex to the opposite vertex, is one of these types."
+    },
+  {
+    "question": "The difference between the measure of an interior angle and an exterior angle of a regular polygon is 108°. How many sides does the polygon have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": ""
+  }
+  ]

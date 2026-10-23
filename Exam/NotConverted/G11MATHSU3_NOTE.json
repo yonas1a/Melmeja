@@ -1,0 +1,75 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 3: MATRICES",
+"notes": "✓ Matrix → a rectangular arrangement of numbers in rows and columns.\n\n◆ Row → horizontal arrangement.\n◆ Column → vertical arrangement.\n◆ Entry/element → a number inside a matrix.\n◆ Order → number of rows × number of columns.\n\nExample:\nA = [ 2  4  6 ]\n       [ 1  3  5 ]\n\nA is a 2 × 3 matrix.\nIt has 2 rows, 3 columns and 6 entries.",
+"image": "images/matrix_order.png"
+},
+{
+"type": "note",
+"title": "3.1  CONCEPTS AND TYPES OF MATRICES",
+"notes": "A matrix is written as A = [aᵢⱼ], where aᵢⱼ is the entry in row i and column j.\n\n◆ Row matrix → one row.\n◆ Column matrix → one column.\n◆ Square matrix → same number of rows and columns.\n◆ Rectangular matrix → different numbers of rows and columns.\n\nExample:\nA = [ 1  2  3 ]  → row matrix\n\nB = [ 1 ]        → column matrix\n       [ 2 ]\n\nC = [ 1  2 ]     → square matrix\n       [ 3  4 ]",
+"image": "images/matrix_types.png"
+},
+{
+"type": "note",
+"title": " SPECIAL MATRICES",
+"notes": "◆ Zero matrix → all entries are 0.\n\n◆ Identity matrix → square matrix with 1s on the main diagonal and 0s elsewhere.\n\nI₂ = [ 1  0 ]\n     [ 0  1 ]\n\n◆ Diagonal matrix → all entries outside the main diagonal are 0.\n\n[ 3  0  0 ]\n[ 0  5  0 ]\n[ 0  0  7 ]\n\n◆ Scalar matrix → diagonal matrix with equal diagonal entries.\n\n[ 4  0 ]\n[ 0  4 ]",
+"image": "special_matrices.png"
+},
+{
+"type": "note",
+"title": " SYMMETRIC AND TRIANGULAR MATRICES",
+"notes": "✓ Symmetric matrix → Aᵀ = A.\n\nExample:\nA = [ 2  3 ]\n       [ 3  5 ]\n\n◆ Upper triangular matrix → all entries below the main diagonal are 0.\n\n[ 2  4  5 ]\n[ 0  3  6 ]\n[ 0  0  7 ]\n\n◆ Lower triangular matrix → all entries above the main diagonal are 0.\n\n[ 2  0  0 ]\n[ 4  3  0 ]\n[ 5  6  7 ]",
+"image": "symmetric_triangular.png"
+},
+{
+"type": "note",
+"title": " 3.2 OPERATIONS ON MATRICES",
+"notes": "✓ Matrix addition and subtraction → corresponding entries are added or subtracted.\n\n→ Matrices must have the same order.\n\nExample:\nA = [ 1  2 ]    B = [ 5  6 ]\n       [ 3  4 ]           [ 7  8 ]\n\nA + B = [ 6   8 ]\n            [10  12 ]\n\nA − B = [ −4  −4 ]\n            [ −4  −4 ]\n\n✓ Scalar multiplication → multiply every entry by the scalar.\n\n2A = [ 2  4 ]\n        [ 6  8 ]",
+"image": "matrix_addition.png"
+},
+{
+"type": "note",
+"title": " MATRIX MULTIPLICATION",
+"notes": "✓ Matrix multiplication is possible when:\n\n→ Columns of the first matrix = rows of the second matrix.\n\nIf A is m × p and B is p × n:\nAB is m × n.\n\nExample:\nA = [ 1  2 ]    B = [ 5  6 ]\n       [ 3  4 ]            [ 7  8 ]\n\nAB = [19  22]\n         [43  50]\n\n→ Each entry is found by multiplying a row of A by a column of B.\n\nGenerally:\nAB ≠ BA.",
+"image": "matrix_multiplication.png"
+},
+{
+"type": "note",
+"title": " TRANSPOSE OF A MATRIX",
+"notes": "✓ Transpose → interchange rows and columns.\n\nThe transpose of A is written Aᵀ.\n\nExample:\nA = [ 1  2  3 ]\n        [ 4  5  6 ]\n\nAᵀ = [ 1  4 ]\n         [ 2  5 ]\n        [ 3  6 ]\n\nIf A is m × n, then Aᵀ is n × m.\n\nImportant properties:\n(Aᵀ)ᵀ = A\n\n(A + B)ᵀ = Aᵀ + Bᵀ\n\n(AB)ᵀ = BᵀAᵀ.",
+"image": "matrix_transpose.png"
+},
+{
+"type": "note",
+"title": " 3.3 ELEMENTARY ROW OPERATIONS",
+"notes": "✓ Elementary row operations are used to transform matrices and solve systems of equations.\n\n1. Row interchange:\nR₁ ↔ R₂\n\n2. Row multiplication:\nR₁ → kR₁, k ≠ 0\n\n3. Row replacement:\nR₂ → R₂ + kR₁\n\nExample:\n[ 1  2 ]\n[ 3  4 ]\n\nR₂ → R₂ − 3R₁\n\n[ 1   2 ]\n[ 0  −2 ]\n\n→ These operations are the basis of Gaussian elimination.",
+"image": "row_operations.png"
+},
+{
+"type": "note",
+"title": " SYSTEMS OF LINEAR EQUATIONS",
+"notes": "✓ A system of linear equations contains two or more linear equations involving the same variables.\n\nExample:\nx + y = 5\nx − y = 1\n\nIt can be written in matrix form as:\n\nAX = B\n\nA = [ 1   1 ]\n       [ 1  −1 ]\n\nX = [ x ]\n       [ y ]\n\nB = [ 5 ]\n       [ 1 ]\n\n→ The system can be solved using an augmented matrix and row operations.",
+"image": "linear_system_matrix.png"
+},
+{
+"type": "note",
+"title": " GAUSSIAN ELIMINATION & SOLUTIONS",
+"notes": "✓ Gaussian elimination → use elementary row operations to reduce an augmented matrix to Row Echelon Form (REF), then solve by back-substitution.\n\n◆ One solution → unique solution.\n◆ No solution → contradiction such as 0 = 5.\n◆ Infinitely many solutions → at least one free variable and no contradiction.\n\nExample:\n[ 1  1 | 5 ]\n[ 1 −1 | 1 ]\n\nR₂ → R₂ − R₁:\n\n[ 1   1 | 5 ]\n[ 0  −2 | −4 ]\n\nTherefore:\ny = 2 and x = 3.\n\nSolution = (3, 2).",
+"image": "gaussian_elimination.png"
+},
+{
+"type": "note",
+"title": " INVERSE OF A MATRIX",
+"notes": "✓ Inverse of A → a matrix A⁻¹ satisfying:\n\nAA⁻¹ = A⁻¹A = I.\n\n◆ A matrix with an inverse is called non-singular/invertible.\n◆ A matrix without an inverse is singular.\n\nTo find an inverse using row operations:\n\n[A | I] → [I | A⁻¹]\n\nExample:\nA = [ 1  2 ]\n    [ 3  7 ]\n\nStart with:\n[ 1  2 | 1  0 ]\n[ 3  7 | 0  1 ]\n\n→ Reduce the left side to I. The right side becomes A⁻¹.",
+"image": "matrix_inverse.png"
+},
+{
+"type": "note",
+"title": " UNIT 3 KEY FORMULAS & QUICK REVISION",
+"notes": "◆ Order → rows × columns.\n\n◆ Matrix addition/subtraction → same order required.\n\n◆ Matrix multiplication → columns of A = rows of B.\n\n◆ If A is m × p and B is p × n → AB is m × n.\n\n◆ Identity → AI = IA = A.\n\n◆ Transpose → rows ↔ columns.\n\n◆ Symmetric → Aᵀ = A.\n\n◆ Row operations → interchange, multiplication, replacement.\n\n◆ Linear system → AX = B.\n\n◆ Augmented matrix → [A | B].\n\n◆ Gaussian elimination → REF + back-substitution.\n\n◆ Inverse → AA⁻¹ = A⁻¹A = I.\n\n◆ Inverse by row operations → [A | I] → [I | A⁻¹].\n\n✓ Remember: Matrix multiplication is generally NOT commutative: AB ≠ BA.",
+"image": "matrix_summary.png"
+}
+]

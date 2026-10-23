@@ -1,0 +1,1215 @@
+[
+  {
+    "question": "How many ways can 3 students be arranged in a circle?",
+    "options": [
+
+      "6",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "(n−1)! = 2! = 2."
+  },
+  {
+    "question": "A bag has 2 red and 3 blue balls. Two are drawn. Probability both are red?",
+    "options": [
+
+      "1/5",
+      "1/3",
+      "2/5",
+      "1/10"
+    ],
+    "answer": 3,
+    "explanation": "2C2/5C2 = 1/10."
+  },
+  {
+    "question": "A school offers 4 different science clubs, 3 mathematics clubs, and 2 language clubs. A student must choose exactly one club. How many different choices does the student have in total?",
+    "options": [
+
+      "12",
+      "24",
+      "9",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "By addition principle: 4 + 3 + 2 = 9 total choices."
+  },
+  {
+    "question": "A student can choose a shirt from 5 options and trousers from 4 options. How many different outfits can be formed?",
+    "options": [
+      "20",
+      "9",
+      "25",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "By multiplication principle: 5 × 4 = 20 outfits."
+  },
+  {
+    "question": "A password consists of 3 digits, each from 0–9, and repetition is allowed. How many different passwords are possible?",
+    "options": [
+
+      "720",
+      "1000",
+      "900",
+      "999"
+    ],
+    "answer": 1,
+    "explanation": "10 choices per digit → 10³ = 1000."
+  },
+  {
+    "question": "How many ways can 5 students line up in a straight line?",
+    "options": [
+
+      "60",
+      "24",
+      "120",
+      "100"
+    ],
+    "answer": 2,
+    "explanation": "Permutation: 5! = 120."
+  },
+  {
+    "question": "In how many ways can 4 books be arranged on a shelf?",
+    "options": [
+      "24",
+      "16",
+      "12",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "4! = 24 arrangements."
+  },
+
+  {
+    "question": "How many ways can 3 students be selected from 8 students?",
+    "options": [
+
+      "24",
+      "64",
+      "72",
+      "56"
+    ],
+    "answer": 3,
+    "explanation": "Combination: 8C3 = 56."
+  },
+  {
+    "question": "How many different 2-letter words can be formed from the letters A, B, C, D without repetition?",
+    "options": [
+      "12",
+      "16",
+      "8",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "Permutation: 4P2 = 4×3 = 12."
+  },
+  {
+    "question": "How many ways can a president and vice president be selected from 6 students?",
+    "options": [
+      "30",
+      "15",
+      "36",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Order matters: 6P2 = 30."
+  },
+
+  {
+    "question": "How many diagonals does a hexagon have?",
+    "options": [
+
+      "6",
+      "12",
+      "9",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "n(n−3)/2 = 6×3/2 = 9."
+  },
+
+  {
+    "question": "In binomial expansion of (x + y)⁴, how many terms are there?",
+    "options": [
+
+      "4",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "Number of terms = n+1 = 5."
+  },
+  {
+    "question": "Find the coefficient of x² in (x + 2)³.",
+    "options": [
+
+      "6",
+      "12",
+      "8",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "3C2 × x² × 2¹ =\n 3 × 2 = 12."
+  },
+  {
+    "question": "What is the middle term in expansion of (a + b)⁶?",
+    "options": [
+      "4th term",
+      "3rd term",
+      "5th term",
+      "2nd term"
+    ],
+    "answer": 0,
+    "explanation": "Middle term = (n/2 + 1) = 4th term."
+  },
+  {
+    "question": "Find probability of getting head when a fair coin is tossed.",
+    "options": [
+
+      "1/3",
+      "1/4",
+      "1/2",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "2 outcomes → probability = 1/2."
+  },
+  {
+    "question": "A die is rolled. What is probability of getting a number greater than 4?",
+    "options": [
+      "1/3",
+      "1/2",
+      "1/6",
+      "2/3"
+    ],
+    "answer": 0,
+    "explanation": "Outcomes {5,6} → 2/6 = 1/3."
+  },
+
+  {
+    "question": "If a card is drawn from a deck, what is probability of drawing an ace?",
+    "options": [
+      "1/13",
+      "1/4",
+      "1/52",
+      "4/13"
+    ],
+    "answer": 0,
+    "explanation": "4 aces out of 52 cards → 1/13."
+  },
+  {
+    "question": "Two coins are tossed. What is probability of getting exactly one head?",
+    "options": [
+
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Outcomes: HT, TH → 2/4 = 1/2."
+  },
+  {
+    "question": "A bag has 3 red and 2 blue balls. Probability of red ball is:",
+    "options": [
+
+      "2/5",
+      "1/2",
+      "3/2",
+      "3/5"
+    ],
+    "answer": 3,
+    "explanation": "Favorable 3 out of 5 total."
+  },
+  {
+    "question": "If P(A) = 0.3, what is P(not A)?",
+    "options": [
+
+      "0.3",
+      "1.3",
+      "0.7",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "Complement rule: 1 - 0.3 = 0.7."
+  },
+  {
+    "question": "In how many ways can letters of word 'MATH' be arranged?",
+    "options": [
+
+      "12",
+      "24",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "4! = 24."
+  },
+
+  {
+    "question": "How many ways can 2 people be selected from 5?",
+    "options": [
+
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "5C2 = 10."
+  },
+  {
+    "question": "Expand (x + 1)³ and find coefficient of x.",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "3x² + 3x + 1 → coefficient of x is 3."
+  },
+  {
+    "question": "A number is chosen from 1 to 10. Probability of even number is:",
+    "options": [
+      "1/2",
+      "1/5",
+      "2/5",
+      "3/5"
+    ],
+    "answer": 0,
+    "explanation": "Even numbers = 5 out of 10 → 1/2."
+  },
+  {
+    "question": "How many permutations of 4 letters from 6 distinct letters?",
+    "options": [
+      "360",
+      "120",
+      "240",
+      "720"
+    ],
+    "answer": 0,
+    "explanation": "6P4 = 6×5×4×3 = 360."
+  },
+  {
+    "question": "What is probability of impossible event?",
+    "options": [
+
+      "1",
+      "1/2",
+      "-1",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": "Impossible event has probability 0."
+  },
+
+
+  {
+    "question": "Find coefficient of x³ in (x + 2)^5.",
+    "options": [
+      "80",
+      "40",
+      "60",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "5C3 × 2² = 10 × 4 = 40."
+  },
+  {
+    "question": "A box has 4 white and 6 black balls. Probability of black ball is:",
+    "options": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "6/10"
+    ],
+    "answer": 0,
+    "explanation": "6/10 = 3/5."
+  },
+  {
+    "question": "How many ways can 5 students choose a leader?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "Each student can be leader → 5 ways."
+  },
+  {
+    "question": "If P(A)=0.6, P(B)=0.5, and independent, find P(A∩B).",
+    "options": [
+
+      "0.1",
+      "1.1",
+      "0.3",
+      "0.5"
+    ],
+    "answer": 2,
+    "explanation": "0.6 × 0.5 = 0.3."
+  },
+
+
+    {
+      "question": "A student is choosing a password consisting of 2 letters followed by 3 digits. Letters are chosen from A, B, C, D (repetition allowed), and digits are from 0–9 (repetition allowed). How many different passwords are possible in total?",
+      "options": [
+        "16000",
+        "40,000",
+        "100,000",
+        "240,000"
+      ],
+      "answer": 0,
+      "explanation": "Letters: 4² = 16, \ndigits: 10³ = 1000 \n→ total = 16 × 1000 = 16000."
+    },
+    {
+      "question": "In a mathematics competition, 8 students are arranged in a row for a group photo. However, two particular students insist on standing together. How many possible arrangements are there if these two students must always be adjacent?",
+      "options": [
+
+        "40320",
+        "5040",
+        "10080",
+        "20160"
+      ],
+      "answer": 2,
+      "explanation": "Treat pair as one unit → 7! × 2 =\n 5040 × 2 = 10080."
+    },
+    {
+      "question": "From a group of 10 students, a teacher wants to select a president, vice president, and secretary where each position must be filled by different students and order matters. How many different ways can this be done?",
+      "options": [
+
+        "120",
+        "360",
+        "1000",
+        "720"
+      ],
+      "answer": 3,
+      "explanation": "Permutation: 10P3 = \n10 × 9 × 8 = 720."
+    },
+    {
+      "question": "A bag contains 5 red balls, 4 blue balls, and 3 green balls. Two balls are drawn at random without replacement. What is the probability that both balls drawn are of different colors?",
+      "options": [
+
+        "1/2",
+        "2/3",
+        "47/66",
+        "5/11"
+      ],
+      "answer": 2,
+      "explanation": "Compute total pairs and subtract same-color pairs → probability = 47/66."
+    },
+
+    {
+      "question": "In the expansion of (2x − 3)^5, find the coefficient of x^3 and determine which term it belongs to in the binomial expansion.",
+      "options": [
+        "-720, 3rd term",
+        "720, 4th term",
+        "-360, 2nd term",
+        "180, 5th term"
+      ],
+      "answer": 0,
+      "explanation": "General term T(r+1)=\n5C3(2x)³(-3)² \n→ coefficient = -720, 3rd term."
+    },
+    {
+      "question": "A fair die is rolled three times. What is the probability of getting exactly two prime numbers, given that prime numbers on a die are 2, 3, and 5?",
+      "options": [
+
+        "1/2",
+        "27/216",
+        "3/8",
+        "5/12"
+      ],
+      "answer": 1,
+      "explanation": "Use binomial probability: 3C2(3/6)²(3/6) =\n 27/216."
+    },
+    {
+      "question": "A student is solving a problem involving permutations of the word 'STATISTICS'. How many distinct arrangements can be made considering repeated letters?",
+      "options": [
+
+        "362880",
+        "50400",
+        "100800",
+        "25200"
+      ],
+      "answer": 1,
+      "explanation": "Total = 10!/(3!2!3!) =\n 50400."
+    },
+    {
+      "question": "A class contains 7 boys and 5 girls. A committee of 4 students is to be formed such that at least 2 girls are included. How many such committees can be formed?",
+      "options": [
+        "350",
+        "210",
+        "280",
+        "420"
+      ],
+      "answer": 0,
+      "explanation": "Cases: 2G2B + 3G1B + 4G0B \n→ total = 350."
+    },
+    {
+      "question": "If A and B are independent events with P(A)=0.4 and P(B)=0.5, what is the probability that exactly one of the events occurs?",
+      "options": [
+        "0.5",
+        "0.2",
+        "0.9",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "P(A only)+P(B only)=\n->0.4×0.5 + 0.5×0.6 =\n-> 0.2 + 0.3 =\n-> 0.5."
+    },
+
+    {
+      "question": "In how many ways can 6 people be seated around a circular table if two particular people must NOT sit next to each other?",
+      "options": [
+
+        "120",
+        "240",
+        "96",
+        "360"
+      ],
+      "answer": 2,
+      "explanation": "Total circular = 5! =120;\n-> subtract adjacent cases = 24 → 96."
+    },
+    {
+      "question": "A box contains 3 defective and 7 non-defective items. Two items are selected without replacement. What is the probability that at least one item is defective?",
+      "options": [
+        "13/15",
+        "7/15",
+        "1/3",
+        "2/5"
+      ],
+      "answer": 0,
+      "explanation": "Use complement: 1 − (7C2/10C2) =\n-> 13/15."
+    },
+    {
+      "question": "Find the coefficient of x^4 in the expansion of (x + 1/x)^6.",
+      "options": [
+        "15",
+        "20",
+        "10",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "General term gives coefficient 6C1 + 6C5 = 15."
+    },
+    {
+      "question": "A student answers a multiple-choice test with 5 questions, each having 4 options. If the student guesses all answers randomly, what is the probability of getting exactly 3 correct answers?",
+      "options": [
+
+        "1/4",
+        "5/16",
+        "405/1024",
+        "3/8"
+      ],
+      "answer": 2,
+      "explanation": "Binomial: 5C3(1/4)³(3/4)² =\n->405/1024."
+    },
+    {
+      "question": "From a group of 9 students, in how many ways can a team of 5 be selected such that two particular students are never selected together?",
+      "options": [
+
+        "84",
+        "100",
+        "126",
+        "72"
+      ],
+      "answer": 2,
+      "explanation": "Total 9C5 − cases with both included = 126."
+    },
+
+      {
+        "question": "In a class of 12 students, a teacher selects a group of 4 students for a project. However, two specific students refuse to be in the same group. How many valid groups are possible?",
+        "options": [
+
+          "420",
+          "360",
+          "330",
+          "495"
+        ],
+        "answer": 3,
+        "explanation": "Total 12C4 = 495. "
+      },
+      {
+        "question": "A fair die is rolled four times. What is the probability of getting exactly three numbers greater than 4?",
+        "options": [
+          "16/1296",
+          "1/6",
+          "1/3",
+          "5/36"
+        ],
+        "answer": 0,
+        "explanation": "Numbers >4 are {5,6} → p=2/6.\n-> Use binomial: 4C3(2/6)³(4/6)=\n->16/1296."
+      },
+      {
+        "question": "How many distinct permutations can be formed from the word 'COMBINATION'?",
+        "options": [
+
+          "3991680",
+          "4989600",
+          "1995840",
+          "665280"
+        ],
+        "answer": 1,
+        "explanation": "11 letters with repetitions: \n11!/(2!2!2!) =\n-> 4989600."
+      },
+      {
+        "question": "From a group of 7 men and 6 women, a committee of 5 is formed. In how many ways can it be formed if at least 3 women must be included?",
+        "options": [
+
+          "600",
+          "840",
+          "756",
+          "720"
+        ],
+        "answer": 2,
+        "explanation": "Cases: 3W2M + 4W1M + 5W0M = 756."
+      },
+
+      {
+        "question": "A box contains 6 red, 5 blue, and 4 green balls. Two balls are drawn without replacement. What is the probability that both are of different colors?",
+        "options": [
+
+          "1/2",
+          "2/3",
+          "5/9",
+          "74/91"
+        ],
+        "answer": 3,
+        "explanation": "Use complement of same-color pairs → result = 74/91."
+      },
+      {
+        "question": "Find the coefficient of x^2 in the expansion of (2x − 1)^5.",
+        "options": [
+
+          "80",
+          "-80",
+          "-40",
+          "160"
+        ],
+        "answer": 1,
+        "explanation": "Term: 5C3(2x)²(-1)³ = -80."
+      },
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "question": "A student answers 6 multiple-choice questions randomly (4 options each). What is the probability of getting exactly 2 correct answers?",
+        "options": [
+          "1215/4096",
+          "1/2",
+          "3/8",
+          "5/16"
+        ],
+        "answer": 0,
+        "explanation": "Binomial:\n-> 6C2(1/4)²(3/4)⁴ =\n-> 1215/4096."
+      },
+      {
+        "question": "How many ways can 8 students be arranged in a row such that two particular students are always together?",
+        "options": [
+
+          "40320",
+          "10080",
+          "5040",
+          "20160"
+        ],
+        "answer": 1,
+        "explanation": "Treat pair as unit → 7!×2 = 10080."
+      },
+      {
+        "question": "A bag contains 10 balls numbered 1–10. One ball is drawn. What is the probability that the number is a prime number?",
+        "options": [
+
+          "1/2",
+          "3/10",
+          "1/5",
+          "2/5"
+        ],
+        "answer": 3,
+        "explanation": "Primes: 2,3,5,7 \n→ 4/10 = \n2/5."
+      },
+
+      {
+        "question": "In how many ways can the letters of 'PROBABILITY' be arranged?",
+        "options": [
+          "4989600",
+          "3991680",
+          "2993760",
+          "1995840"
+        ],
+        "answer": 0,
+        "explanation": "11 letters with repetitions \n→ 11!/(2!2!) =\n 4989600."
+      },
+      {
+        "question": "A committee of 3 is selected from 5 boys and 4 girls. What is the probability that all selected are girls?",
+        "options": [
+
+          "1/9",
+          "1/21",
+          "2/9",
+          "1/12"
+        ],
+        "answer": 1,
+        "explanation": "4C3 / 9C3 =\n 4/84 = \n1/21."
+      },
+      {
+        "question": "A die is rolled twice. What is the probability that the sum is 7?",
+        "options": [
+          "1/6",
+          "1/12",
+          "1/9",
+          "1/8"
+        ],
+        "answer": 0,
+        "explanation": "6 favorable outcomes out of 36\n → 1/6."
+      },
+      {
+        "question": "From 9 students, how many ways can a president, vice president, and secretary be chosen?",
+        "options": [
+
+          "720",
+          "360",
+          "504",
+          "840"
+        ],
+        "answer": 2,
+        "explanation": "9P3 = 9×8×7 = 504."
+      },
+      {
+        "question": "Find probability of getting at least one head in 3 coin tosses.",
+        "options": [
+
+          "1/2",
+          "3/8",
+          "5/8",
+          "7/8"
+        ],
+        "answer": 3,
+        "explanation": "1 − (1/8) = 7/8."
+      },
+
+      {
+        "question": "In binomial expansion of (x + 2)⁶, what is the coefficient of x³?",
+        "options": [
+
+          "120",
+          "80",
+          "160",
+          "240"
+        ],
+        "answer": 2,
+        "explanation": "6C3 × 2³ =\n 20 × 8 = 160."
+      },
+      {
+        "question": "A box has 3 white, 4 black, and 5 red balls. One ball is drawn. What is probability it is not black?",
+        "options": [
+          "2/3",
+          "1/2",
+          "3/4",
+          "5/12"
+        ],
+        "answer": 0,
+        "explanation": "Non-black = 8/12 = 2/3."
+      },
+      {
+        "question": "How many 5-digit numbers can be formed using digits 1–6 without repetition?",
+        "options": [
+
+          "360",
+          "720",
+          "120",
+          "600"
+        ],
+        "answer": 1,
+        "explanation": "6P5 = 720."
+      },
+      {
+        "question": "A card is drawn from a deck. What is probability of drawing a heart or a king?",
+        "options": [
+
+          "1/2",
+          "1/4",
+          "4/13",
+          "3/13"
+        ],
+        "answer": 2,
+        "explanation": "P(H ∪ K) = \n13/52 + 4/52 − 1/52 =\n 16/52 = \n4/13."
+      },
+      {
+        "question": "How many subsets of a set with 6 elements contain at least 4 elements?",
+        "options": [
+          "22",
+          "32",
+          "16",
+          "26"
+        ],
+        "answer": 0,
+        "explanation": "6C4 + 6C5 + 6C6 =\n 15 + 6 + 1 = 22."
+      },
+
+      {
+        "question": "A fair die is rolled. What is probability of getting an even number or a number greater than 4?",
+        "options": [
+
+          "1/2",
+          "5/6",
+          "2/3",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "Even = {2,4,6}, >4 = {5,6} → union =\n 4/6 = 2/3."
+      },
+      {
+        "question": "In how many ways can 4 students sit in a row if two must not sit together?",
+        "options": [
+
+          "24",
+          "18",
+          "12",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Total 4! − adjacent cases = \n24 − 12 = 12."
+      },
+      {
+        "question": "Find probability that sum of two dice is less than or equal to 4.",
+        "options": [
+
+          "1/4",
+          "1/3",
+          "1/2",
+          "1/6"
+        ],
+        "answer": 3,
+        "explanation": "Favorable outcomes = 6 out of 36 → 1/6."
+      },
+      {
+        "question": "How many ways can letters of 'MATHS' be arranged?",
+        "options": [
+          "120",
+          "60",
+          "24",
+          "100"
+        ],
+        "answer": 0,
+        "explanation": "5! = 120."
+      },
+
+      {
+        "question": "A student selects 3 books from 10. How many selections if two specific books must be included?",
+        "options": [
+
+          "10",
+          "8",
+          "12",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Fix 2 books → choose 1 from remaining 8 → 8 ways."
+      },
+      {
+        "question": "Find number of ways to arrange 7 people around a circle.",
+        "options": [
+
+          "5040",
+          "120",
+          "360",
+          "720"
+        ],
+        "answer": 3,
+        "explanation": "(7−1)! = 720."
+      },
+
+      {
+        "question": "How many ways can 6 students be divided into two groups of 3?",
+        "options": [
+
+          "20",
+          "30",
+          "10",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "6C3/2 = 10."
+      },
+
+
+        {
+          "question": "A school is organizing an event where a student must first choose one club from 5 science clubs, then choose one activity from 4 sports activities, and finally select one leadership role from 3 available positions. Assuming all choices are independent, how many total possible ways can a student complete this selection process?",
+          "options": [
+            "60",
+            "12",
+            "20",
+            "30"
+          ],
+          "answer": 0,
+          "explanation": "By multiplication principle: 5 × 4 × 3 = 60."
+        },
+  {
+    "question": "A student is creating a secure password consisting of 2 uppercase letters followed by 3 digits. The letters are chosen from A to E without repetition, and digits are chosen from 0–9 with repetition allowed. How many different passwords can be formed under these conditions?",
+    "options": [
+      "4000",
+      "2000",
+      "3600",
+      "5000"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+        {
+          "question": "In a class of 10 students, a teacher wants to select a committee of 4 students, but two specific students refuse to be on the same committee together. How many valid committees can be formed under this restriction?",
+          "options": [
+
+            "210",
+            "196",
+            "180",
+            "150"
+          ],
+          "answer": 1,
+          "explanation": "Total 10C4 = 210; \n\nsubtract committees containing both special students \n→ 210 − 14 = 196."
+        },
+        {
+          "question": "A fair die is rolled three times in succession. What is the probability that exactly two of the outcomes are prime numbers, given that the prime numbers on the die are 2, 3, and 5?",
+          "options": [
+
+            "1/2",
+            "2/3",
+            "3/8",
+            "1/6"
+          ],
+          "answer": 2,
+          "explanation": "Binomial probability: 3C2(3/6)²(3/6) =\n\n 3 × (1/2)³ =\n 3/8."
+        },
+        {
+          "question": "From a group of 7 boys and 6 girls, a committee of 5 students is to be formed such that at least 3 girls are included in the committee. How many different committees satisfy this condition?",
+          "options": [
+
+            "600",
+            "840",
+            "756",
+            "720"
+          ],
+          "answer": 2,
+          "explanation": "Cases: 3G2B + 4G1B + 5G0B =\n 756 total ways."
+        },
+
+        {
+          "question": "In the expansion of (2x − 3)^5, a student is asked to find the coefficient of x^3 and identify which term in the expansion contains it. What is the correct coefficient and term position?",
+          "options": [
+
+            "720, 4th term",
+            "-360, 2nd term",
+            "-720, 3rd term",
+            "180, 5th term"
+          ],
+          "answer": 2,
+          "explanation": "Using binomial theorem, T3 gives coefficient -720."
+        },
+        {
+          "question": "A student answers a multiple-choice test consisting of 6 questions, each having 4 possible answers. If the student guesses randomly on all questions, what is the probability of getting exactly 3 correct answers?",
+          "options": [
+            "1215/4096",
+            "1/2",
+            "3/8",
+            "5/16"
+          ],
+          "answer": 0,
+          "explanation": "Binomial: 6C3(1/4)³(3/4)³ = \n\n1215/4096."
+        },
+        {
+          "question": "In how many different ways can the letters of the word 'STATISTICS' be arranged, considering that some letters are repeated multiple times?",
+          "options": [
+
+            "362880",
+            "25200",
+            "100800",
+            "50400"
+          ],
+          "answer": 3,
+          "explanation": "11 letters with repetitions: 11!/(3!3!2!) =\n 50400."
+        },
+        {
+          "question": "A box contains 4 red balls, 5 blue balls, and 6 green balls. Two balls are drawn randomly without replacement. What is the probability that both balls drawn are of different colors?",
+          "options": [
+
+            "1/2",
+            "2/3",
+            "74/91",
+            "5/9"
+          ],
+          "answer": 2,
+          "explanation": "Compute total minus same-color probability\n → 74/91."
+        },
+        {
+          "question": "A teacher selects a group of 5 students from a class of 12 students. However, two specific students must never be selected together in the same group. How many valid groups are possible under this restriction?",
+          "options": [
+
+            "495",
+            "400",
+            "462",
+            "350"
+          ],
+          "answer": 2,
+          "explanation": "Total 12C5 = 792 minus invalid groups containing both = 330 → 462."
+        },
+
+        {
+          "question": "A fair coin is tossed five times. What is the probability of getting exactly three heads in those five tosses?",
+          "options": [
+            "5/16",
+            "1/2",
+            "3/8",
+            "7/16"
+          ],
+          "answer": 0,
+          "explanation": "Binomial: 5C3(1/2)^5 = 10/32 = 5/16."
+        },
+        {
+          "question": "A student is asked to find the number of ways to arrange 8 students in a row such that two particular students must always sit together. What is the correct number of arrangements?",
+          "options": [
+
+            "40320",
+            "5040",
+            "10080",
+            "20160"
+          ],
+          "answer": 2,
+          "explanation": "Treat pair as unit: 7! × 2 = 10080."
+        },
+        {
+          "question": "From a standard deck of 52 cards, one card is drawn. What is the probability that the card is either a heart or a king?",
+          "options": [
+
+            "1/2",
+            "1/4",
+            "3/13",
+            "4/13"
+          ],
+          "answer": 3,
+          "explanation": "P(H ∪ K) =\n 13/52 + 4/52 − 1/52 = \n16/52 = \n4/13."
+        },
+        {
+          "question": "A number is selected randomly from the integers 1 to 20. What is the probability that the number is a multiple of 2 or a multiple of 3?",
+          "options": [
+            "13/20",
+            "1/2",
+            "3/5",
+            "2/5"
+          ],
+          "answer": 0,
+          "explanation": "Use inclusion-exclusion: multiples of 2 or 3 = 13 out of 20."
+        },
+        {
+          "question": "In how many ways can 6 students be seated around a circular table if two specific students must not sit next to each other?",
+          "options": [
+
+            "120",
+            "240",
+            "96",
+            "360"
+          ],
+          "answer": 2,
+          "explanation": "Total circular = 5! = 120;\n\n subtract adjacent cases = 24 → 96."
+        },
+
+        {
+          "question": "A bag contains 3 white, 4 black, and 5 red balls. Two balls are drawn without replacement. What is the probability that at least one ball drawn is white?",
+          "options": [
+            "2/3",
+            "1/2",
+            "3/5",
+            "5/6"
+          ],
+          "answer": 0,
+          "explanation": "Use complement: 1 − P(no white) =\n 1 − (9C2/12C2) \n= 2/3."
+        },
+        {
+          "question": "Find the coefficient of x³ in the expansion of (x + 1/x)⁶ and determine its value.",
+          "options": [
+
+            "15",
+            "10",
+            "20",
+            "30"
+          ],
+          "answer": 2,
+          "explanation": "Coefficient comes from symmetric terms \n\n→ 6C1 + 6C5 = 20."
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "question": "A student randomly guesses answers for 5 multiple-choice questions, each having 4 options. What is the probability of getting at least one correct answer?",
+          "options": [
+
+            "1/2",
+            "3/4",
+            "1023/1024",
+            "15/16"
+          ],
+          "answer": 2,
+          "explanation": "1 − (3/4)^5 =\n 1023/1024."
+        },
+        {
+          "question": "From a group of 9 students, a president, vice president, and secretary are to be selected. How many ways can this be done if each position must be filled by a different student?",
+          "options": [
+            "504",
+            "720",
+            "360",
+            "840"
+          ],
+          "answer": 0,
+          "explanation": "9P3 = 9 × 8 × 7 = 504."
+        },
+        {
+          "question": "A fair die is rolled. What is the probability that the outcome is either an even number or a prime number?",
+          "options": [
+            "5/6",
+            "2/3",
+            "1/2",
+            "3/4"
+          ],
+          "answer": 0,
+          "explanation": "Even or prime =\n {2,3,4,5,6} \n→ 5/6."
+        },
+
+        {
+          "question": "In how many ways can 10 students be divided into two groups of 5 students each?",
+          "options": [
+
+            "252",
+            "210",
+            "126",
+            "120"
+          ],
+          "answer": 2,
+          "explanation": "10C5 / 2 = \n252/2 = 126."
+        },
+        {
+          "question": "A student selects 3 books from 8 books such that two specific books are always included. How many selections are possible?",
+          "options": [
+
+            "8",
+            "6",
+            "10",
+            "12"
+          ],
+          "answer": 1,
+          "explanation": "Fix 2 books \n→ choose 1 from remaining 6 → 6 ways."
+        },
+        {
+          "question": "A coin is tossed three times. What is the probability of getting at least two heads?",
+          "options": [
+
+            "3/8",
+            "5/8",
+            "7/8",
+            "1/2"
+          ],
+          "answer": 3,
+          "explanation": "P(2H or 3H) =\n 3/8 + 1/8 = \n1/2."
+        },
+        {
+          "question": "In how many ways can 7 students be arranged in a circle?",
+          "options": [
+            "720",
+            "5040",
+            "120",
+            "360"
+          ],
+          "answer": 0,
+          "explanation": "(7−1)! = 720."
+        },
+        {
+          "question": "A bag contains 2 red and 3 blue balls. Two balls are drawn without replacement. What is the probability that both are red?",
+          "options": [
+            "1/10",
+            "1/5",
+            "1/3",
+            "2/5"
+          ],
+          "answer": 0,
+          "explanation": "2C2 / 5C2 = 1/10."
+        },
+
+        {
+          "question": "A student is solving a binomial expansion problem and is asked to find the coefficient of x^2 in (2x − 1)^6. What is the correct coefficient?",
+          "options": [
+
+            "120",
+            "240",
+            "160",
+            "200"
+          ],
+          "answer": 1,
+          "explanation": "."
+        },
+        {
+          "question": "From 6 boys and 5 girls, a group of 4 is selected such that at least one girl is included. How many such groups are possible?",
+          "options": [
+
+            "210",
+            "280",
+            "250",
+            "330"
+          ],
+          "answer": 3,
+          "explanation": "Total 11C4 = 330 ."
+        },
+        {
+          "question": "A fair die is rolled twice. What is the probability that the sum of the outcomes is equal to 8?",
+          "options": [
+
+            "1/6",
+            "1/12",
+            "5/36",
+            "1/9"
+          ],
+          "answer": 2,
+          "explanation": "Favorable outcomes = 5 out of 36 → 5/36."
+        },
+        {
+          "question": "How many ways can the letters of the word 'BALLOON' be arranged?",
+          "options": [
+            "1260",
+            "5040",
+            "2520",
+            "630"
+          ],
+          "answer": 0,
+          "explanation": "7!/(2!2!) = 1260."
+        },
+        {
+          "question": "A student randomly selects a number from 1 to 30. What is the probability that the number is divisible by 2 or 5?",
+          "options": [
+            "17/30",
+            "1/2",
+            "2/3",
+            "3/5"
+          ],
+          "answer": 0,
+          "explanation": "Inclusion-exclusion gives 17 favorable outcomes out of 30."
+        }
+      ]

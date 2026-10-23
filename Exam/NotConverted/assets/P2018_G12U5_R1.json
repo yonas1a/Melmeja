@@ -1,0 +1,37 @@
+[
+{
+  "question": "Considering the concentration of dopants in different section of a transistors, which one of the following describes a correct order from lowest to highest?",
+  "options": [
+    "Emitter, Base, Collector",
+    "Collector, Base, Emitter",
+    "Base, Emitter, Collector",
+    "Base, Collector, Emitter"
+  ],
+  "answer": 3,
+  "explanation": "In a bipolar junction transistor, the base is lightly doped, the collector is moderately doped, and the emitter is heavily doped.\n\nTherefore, the dopant concentration increases in the order Base, Collector, Emitter."
+},
+{
+"question": "Which of the following circuit diagrams correctly represents a transistor-configurations that is used to get both current and voltage gain?",
+"options": [
+"Common Collector configuration (Input at Base/Collector, Output at Emitter)",
+"Common Emitter configuration (Input at Base, Output at Collector, Emitter common)",
+"Common Base configuration (Input at Emitter, Output at Collector, Base common)",
+"Common Collector configuration (Input at Base, Output at Emitter)"
+],
+"answer": 1,
+"explanation": "The common-emitter configuration can provide both significant current gain and voltage gain.\n\nAs a result, it can provide substantial power amplification and is widely used in amplifier circuits.\n\nThe input is applied between the base and emitter, while the output is taken from the collector circuit.",
+"image": "images/P2018_22.png"
+},
+{
+"question": "Among the following analog circuits, consisting of two switches A and B, a lamp Y, and voltage source, which one functions as a NAND gate?",
+"options": [
+"Parallel switches in series with lamp Y (OR gate)",
+"Series switches in series with lamp Y (AND gate)",
+"Series switches A and B connected in parallel across lamp Y",
+"Parallel switches A and B connected in parallel across lamp Y (NOR gate)"
+],
+"answer": 2,
+"explanation": "A NAND gate produces a LOW output only when both inputs are HIGH.\n\nIn the given circuit, when both switches A and B are closed, the parallel path bypasses the lamp, causing the lamp to turn off.\n\nFor all other combinations, the lamp remains on.\n\nThus, the circuit behaves according to the NAND truth table.",
+"image": "images/P2018_23.png"
+}
+]

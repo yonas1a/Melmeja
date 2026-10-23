@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Standing wave is formed when two identical waves travelling in opposite directions in the same medium interfere with each other. If y1 and y2 are the interfering waves and y = y1 + y2 is the resulting standing wave, which of the following is a correct combination?",
+    "options": [
+      "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = Asin(kx)cos(2ωt)",
+      "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = 2Asin(kx)cos(ωt)",
+      "y1 = Asin(kx - ωt), y2 = Asin(kx -  ωt), y = 2Asin(kx)sin(ωt)",
+      "y1 = Asin(kx - ωt), y2 = Acos(kx +  ωt), y = 2Asin(kx -ωt)"
+    ],
+    "answer": 1,
+    "explanation": "{Two identical waves traveling in opposite directions are y1 = Asin(kx − ωt) and y2 = Asin(kx + ωt).\n\n Adding them using sinA + sinB = 2sin((A+B)/2)cos((A−B)/2) gives y = 2Asin(kx)cos(ωt), which matches option 2.}"
+  },
+  {
+    "question": "Which one of the following statements is correct about resonance in an oscillating object? ",
+    "options": [
+      "At resonance, the driving frequency is equal to the natural frequency and the amplitude becomes maximum.",
+      "Damping increases the amplitude and natural frequency of the oscillator.",
+      "Resonance occurs when the frequency of a periodic driving force is greater than the natural frequency of the oscillator.",
+      "Resonance occurs when the oscillator is subject to a constant driving force."
+    ],
+    "answer": 0,
+    "explanation": "Resonance in an oscillating system occurs when the frequency of the external periodic driving force matches the natural frequency of the system.\n\n At this point, the amplitude of oscillation becomes maximum. \n\nDamping actually reduces the amplitude and slightly lowers the natural frequency.\n\n Therefore, the correct statement is: 'At resonance, the driving frequency is equal to the natural frequency and the amplitude becomes maximum."
+  }
+]

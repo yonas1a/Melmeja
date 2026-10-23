@@ -1,0 +1,1185 @@
+[
+  {
+    "question": "Which of the following is the minimum and sufficient condition for two triangles to be congruent?",
+    "options": [
+      "All corresponding angles are equal (AAA).",
+      "Two pairs of corresponding sides are equal (SS).",
+      "Two pairs of corresponding sides and the included angle are equal (SAS).",
+      "All pairs of corresponding sides and all pairs of corresponding angles are proportional."
+    ],
+    "answer": 2,
+    "explanation": "The SAS (Side-Angle-Side) postulate is one of the four main postulates (SSS, SAS, ASA, AAS) that are necessary and sufficient to prove the congruence of two triangles."
+  },
+  {
+    "question": "If triangle ABC is congruent to triangle XYZ (ΔABC ≅ ΔXYZ), which of the following statements MUST be true?",
+    "options": [
+      "AC = XY",
+      "∠B = ∠Z",
+      "Perimeter of ΔABC is equal to perimeter of ΔXYZ.",
+      "Area of ΔABC is twice the area of ΔXYZ."
+    ],
+    "answer": 2,
+    "explanation": "Congruent triangles have equal corresponding parts, including all corresponding sides and angles (CPCTC).\n\n They also have equal perimeters and equal areas."
+  },
+  {
+    "question": "Two right-angled triangles are congruent if the hypotenuse and one leg of one triangle are equal to the corresponding hypotenuse and one leg of the other triangle. This is known as the:",
+    "options": [
+      "SAS postulate",
+      "AAS theorem",
+      "HL theorem",
+      "ASA postulate"
+    ],
+    "answer": 2,
+    "explanation": "The Hypotenuse-Leg (HL) theorem is a specific congruence condition for right-angled triangles."
+  },
+  {
+    "question": "Given ΔPQR and ΔSTU. If PQ = ST, QR = TU, and PR = SU, what congruence postulate proves ΔPQR ≅ ΔSTU?",
+    "options": [
+      "SAS",
+      "ASA",
+      "AAS",
+      "SSS"
+    ],
+    "answer": 3,
+    "explanation": "When all three pairs of corresponding sides are equal, the triangles are congruent by the Side-Side-Side (SSS) postulate."
+  },
+  {
+    "question": "In triangles ABC and DEF, if ∠A = ∠D, AB = DE, and ∠B = ∠E, what can be concluded?",
+    "options": [
+      "ΔABC is similar to ΔDEF.",
+      "ΔABC is congruent to ΔDEF by SAS.",
+      "ΔABC is congruent to ΔDEF by ASA.",
+      "The triangles cannot be proven congruent."
+    ],
+    "answer": 2,
+    "explanation": "The congruence is established by the Angle-Side-Angle (ASA) postulate, as the side (AB) is included between the two equal angles (∠A and ∠B)."
+  },
+  {
+    "question": "If two squares have sides of length 5 cm and 5 cm, respectively, they are:",
+    "options": [
+      "Similar but not congruent.",
+      "Congruent but not similar.",
+      "Both congruent and similar.",
+      "Neither congruent nor similar."
+    ],
+    "answer": 2,
+    "explanation": "Since all corresponding sides and all corresponding angles are equal, the squares are congruent.\n\n Congruent figures are always similar with a ratio of similarity of 1:1."
+  },
+  {
+    "question": "Which transformation maps a figure onto a congruent image?",
+    "options": [
+      "Dilation (with scale factor k ≠ 1)",
+      "Reflection",
+      "Stretch",
+      "Shear"
+    ],
+    "answer": 1,
+    "explanation": "Reflection is a rigid transformation (isometry), meaning it preserves size and shape, resulting in a congruent figure.\n\n Dilation results in a similar figure unless k=1."
+  },
+  {
+    "question": "In a quadrilateral ABCD, if ΔABC ≅ ΔCDA, which property of the quadrilateral is guaranteed?",
+    "options": [
+      "All sides are equal.",
+      "It is a kite.",
+      "It is a parallelogram.",
+      "It is a trapezoid."
+    ],
+    "answer": 2,
+    "explanation": "If ΔABC ≅ ΔCDA, then by CPCTC, AB = CD and BC = DA (opposite sides are equal), and ∠BAC = ∠DCA (alternate interior angles are equal, implying AB || CD).\n\n A quadrilateral with both pairs of opposite sides equal (or one pair equal and parallel) is a parallelogram."
+  },
+  {
+    "question": "To prove ΔABC ≅ ΔDEF using the ASA postulate, given that ∠A = ∠D and AC = DF, what additional condition is needed?",
+    "options": [
+      "BC = EF",
+      "AB = DE",
+      "∠C = ∠F",
+      "∠B = ∠E"
+    ],
+    "answer": 2,
+    "explanation": "ASA requires the side to be included between the two angles.\n\n Given ∠A and side AC, the other angle must be ∠C to make the side included (ASA). Thus, we need ∠C = ∠F."
+  },
+  {
+    "question": "What is the primary difference between congruency and similarity in geometric figures?",
+    "options": [
+      "Congruent figures must be triangles, similar figures can be any polygon.",
+      "Congruent figures have equal sides; similar figures have proportional sides.",
+      "Congruent figures must have the same orientation, similar figures do not.",
+      "Similar figures are always congruent, but congruent figures are not always similar."
+    ],
+    "answer": 1,
+    "explanation": "Congruent figures have the same size and shape (equal sides and equal angles). \n\nSimilar figures have the same shape but possibly different sizes (proportional sides and equal angles)."
+  },
+  {
+    "question": "Which condition is sufficient to prove that two triangles are similar?",
+    "options": [
+      "Corresponding sides are congruent (SSS).",
+      "Corresponding angles are equal (AAA).",
+      "Corresponding perimeters are equal.",
+      "Corresponding areas are equal."
+    ],
+    "answer": 1,
+    "explanation": "If the three pairs of corresponding angles are equal (AAA), the triangles are similar.\n\n If all three sides are congruent (SSS), the triangles are congruent, which is a special case of similarity (ratio 1:1)."
+  },
+  {
+    "question": "If ΔABC ~ ΔDEF with a ratio of similarity k = AB/DE = 2/3, and the perimeter of ΔABC is 18 cm, what is the perimeter of ΔDEF?",
+    "options": [
+      "12 cm",
+      "18 cm",
+      "27 cm",
+      "36 cm"
+    ],
+    "answer": 2,
+    "explanation": "The ratio of the perimeters of similar polygons is equal to the ratio of similarity of their corresponding sides. P(ΔABC) / P(ΔDEF) = 2/3.\n So, 18 / P(ΔDEF) = 2/3. P(ΔDEF) = 18 * (3/2) = 9 * 3 = 27 cm."
+  },
+  {
+    "question": "Two rectangles are always similar if:",
+    "options": [
+      "Their corresponding diagonals are equal.",
+      "Their corresponding sides are proportional.",
+      "They are squares.",
+      "They have the same area."
+    ],
+    "answer": 1,
+    "explanation": "Two rectangles are similar if their corresponding sides are proportional, meaning the ratio of the length to the width is the same for both. \n\nOption C, if they are squares, they are always similar because the ratio of length to width is 1:1 for both."
+  },
+  {
+    "question": "If ΔABC is a right-angled triangle with the right angle at B, and BD is the altitude to the hypotenuse AC, then:",
+    "options": [
+      "ΔABD ≅ ΔCBD",
+      "ΔABC ~ ΔABD only",
+      "ΔABD ~ ΔBCD only",
+      "ΔABC ~ ΔABD ~ ΔBCD"
+    ],
+    "answer": 3,
+    "explanation": "The geometric mean theorem states that the altitude drawn to the hypotenuse of a right-angled triangle divides the triangle into two smaller triangles that are similar to the original triangle and to each other (ΔABC ~ ΔABD and ΔABC ~ ΔBCD, and thus ΔABD ~ ΔBCD)."
+  },
+  {
+    "question": "Two equilateral triangles are always:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Congruent but not similar",
+      "Neither congruent nor similar"
+    ],
+    "answer": 1,
+    "explanation": "All equilateral triangles are similar because they are equiangular (all angles are 60°) and the ratio of their corresponding sides is constant."
+  },
+  {
+    "question": "The areas of two similar polygons are in the ratio 4:9. What is the ratio of their corresponding sides?",
+    "options": [
+      "4:9",
+      "16:81",
+      "2:3",
+      "4:3"
+    ],
+    "answer": 2,
+    "explanation": "If the ratio of the areas of two similar polygons is a²:b², then the ratio of their corresponding sides (or perimeters) is a:b.\n\n The ratio of the sides is the square root of the ratio of the areas. √(4/9) = 2/3.\n The ratio is 2:3."
+  },
+  {
+    "question": "In ΔABC, a line segment DE is drawn parallel to BC, where D is on AB and E is on AC. If AD = 3, DB = 6, and AE = 2, find the length of EC.",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "By the Basic Proportionality Theorem (Thales' Theorem), if a line is parallel to one side of a triangle, it divides the other two sides proportionally. AD/DB = AE/EC. \n\nSo, 3/6 = 2/EC. 1/2 = 2/EC. EC = 2 * 2 = 4."
+  },
+
+  {
+    "question": "In ΔABC and ΔXYZ, AB/XY = BC/YZ = CA/ZX. What is the relationship between the two triangles?",
+    "options": [
+      "Congruent by SSS",
+      "Similar by SSS Similarity",
+      "Congruent by SAS",
+      "Neither congruent nor similar"
+    ],
+    "answer": 1,
+    "explanation": "The proportionality of all three corresponding sides establishes the SSS Similarity criterion.\n\n Congruency is only established if the ratio is 1:1."
+  },
+  {
+    "question": "If a polygon P is similar to a polygon Q, and polygon Q is similar to a polygon R, then polygon P is similar to polygon R. This property is called:",
+    "options": [
+      "Reflexive property",
+      "Symmetric property",
+      "Transitive property",
+      "Closure property"
+    ],
+    "answer": 2,
+    "explanation": "The Transitive property of similarity states that if one figure is similar to a second, and the second is similar to a third, then the first is similar to the third."
+  },
+  {
+    "question": "In a triangle, an angle bisector divides the opposite side into two segments that are proportional to the other two sides. This is the:",
+    "options": [
+      "Thales' Theorem",
+      "Pythagorean Theorem",
+      "Angle Bisector Theorem",
+      "Midpoint Theorem"
+    ],
+    "answer": 2,
+    "explanation": "This statement describes the Triangle Angle Bisector Theorem."
+  },
+  {
+    "question": "In ΔABC, the angle bisector of ∠A meets BC at D. If AB = 6, AC = 9, and BC = 10, find the length of BD.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "By the Angle Bisector Theorem, BD/DC = AB/AC.\n BD/DC = 6/9 = 2/3. Let BD = 2x and DC = 3x.\n\n Since BC = BD + DC, 10 = 2x + 3x => 10 = 5x => x = 2.\n Therefore, BD = 2x = 2 * 2 = 4."
+  },
+  {
+    "question": "If two polygons have the same number of sides, they are similar if:",
+    "options": [
+      "All corresponding sides are proportional.",
+      "All corresponding angles are equal.",
+      "Both A and B are true.",
+      "Only A is true."
+    ],
+    "answer": 2,
+    "explanation": "For two polygons to be similar, two conditions must be met: \n\n1) Their corresponding angles must be equal, AND \n\n2) The lengths of their corresponding sides must be proportional."
+  },
+  {
+    "question": "If ΔABC ≅ ΔLMN, and ∠A = 40° and ∠M = 80°, what is the measure of ∠C?",
+    "options": [
+      "40°",
+      "60°",
+      "80°",
+      "120°"
+    ],
+    "answer": 1,
+    "explanation": "Since ΔABC ≅ ΔLMN, corresponding angles are equal: ∠A = ∠L = 40°, ∠B = ∠M = 80°.\n The sum of angles in a triangle is 180°.\n\n So, ∠C = 180° - (∠A + ∠B) = 180° - (40° + 80°) = 180° - 120° = 60°."
+  },
+  {
+    "question": "If the scale factor between two similar triangles is 1:4, and the area of the smaller triangle is 5 m², what is the area of the larger triangle?",
+    "options": [
+      "20 m²",
+      "40 m²",
+      "80 m²",
+      "100 m²"
+    ],
+    "answer": 2,
+    "explanation": "The ratio of the areas is the square of the ratio of the sides (scale factor). Ratio of Areas = (1/4)² = 1/16.\n\n Area_smaller / Area_larger = 1/16. 5 / Area_larger = 1/16.\n Area_larger = 5 * 16 = 80 m²."
+  },
+
+  {
+    "question": "Two circles are always:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Both congruent and similar",
+      "Neither congruent nor similar"
+    ],
+    "answer": 1,
+    "explanation": "All circles have the same shape.\n\n They are similar because the ratio of their radii (or diameters) is always a constant, which is the scale factor."
+  },
+
+  {
+    "question": "If two geometric figures are congruent, their areas are:",
+    "options": [
+      "In a ratio of 1:2",
+      "In a ratio of 1:1",
+      "In a ratio of 1:4",
+      "Proportional but not necessarily equal"
+    ],
+    "answer": 1,
+    "explanation": "Congruent figures have equal size and shape.\n\n Therefore, the ratio of their areas must be 1:1 (equal area)."
+  },
+  {
+    "question": "If ΔABC ~ ΔPQR, and AB/PQ = 3, which of the following is true?",
+    "options": [
+      "Perimeter(ΔABC) = 3 * Perimeter(ΔPQR)",
+      "Area(ΔABC) = 3 * Area(ΔPQR)",
+      "∠A = 3 * ∠P",
+      "AC = 3 * QR"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of the perimeters is equal to the ratio of the corresponding sides (scale factor).\n\n Since the scale factor is 3, Perimeter(ΔABC) / Perimeter(ΔPQR) = 3.\n Thus, Perimeter(ΔABC) = 3 * Perimeter(ΔPQR)."
+  },
+
+  {
+    "question": "In a right triangle, the altitude to the hypotenuse has length h. It divides the hypotenuse into two segments of length p and q. Which relationship is correct (Geometric Mean Theorem)?",
+    "options": [
+      "h = p + q",
+      "h² = p² + q²",
+      "h² = p * q",
+      "h = (p+q)/2"
+    ],
+    "answer": 2,
+    "explanation": "This is the Altitude Rule of the Geometric Mean Theorem: \n\nthe square of the altitude is equal to the product of the two segments it divides the hypotenuse into."
+  },
+  {
+    "question": "In the previous question, if p=4 and q=9, what is the length of the altitude h?",
+    "options": [
+      "5",
+      "6",
+      "6.5",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "Using the Altitude Rule: h² = p * q = 4 * 9 = 36.\n\n h = √36 = 6."
+  },
+  {
+    "question": "A photograph measuring 10 cm by 15 cm is enlarged to 20 cm by 30 cm. What is the scale factor of the enlargement?",
+    "options": [
+      "1/2",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Scale factor k = new dimension / old dimension.\n\n k = 20/10 = 2 or k = 30/15 = 2.\n\n The scale factor is 2."
+  },
+  {
+    "question": "The perimeter of two similar octagons are 40 cm and 60 cm. What is the ratio of their corresponding sides?",
+    "options": [
+      "2:3",
+      "4:9",
+      "1:2",
+      "3:4"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of the perimeters is equal to the ratio of their corresponding sides.\n\n Ratio = P1 / P2 =\n 40 / 60 = 4 / 6 = 2/3. \nThe ratio is 2:3."
+  },
+  {
+    "question": "If two triangles have two pairs of corresponding sides proportional, and one pair of non-included angles equal, are the triangles necessarily similar?",
+    "options": [
+      "Yes, by SAS Similarity.",
+      "Yes, by SSA Similarity.",
+      "No, this is an ambiguous case.",
+      "Yes, by AAA Similarity."
+    ],
+    "answer": 2,
+    "explanation": "The SSA (Side-Side-Angle) case is the ambiguous case in congruence and does not guarantee similarity either.\n\n Only SAS Similarity (where the angle is included) guarantees similarity."
+  },
+
+  {
+    "question": "If ΔABC ~ ΔPQR, and the ratio of their areas is 25:4, what is the ratio of the altitude from A to BC to the altitude from P to QR?",
+    "options": [
+      "5:2",
+      "25:4",
+      "625:16",
+      "2:5"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of corresponding altitudes is equal to the ratio of the corresponding sides (scale factor), which is the square root of the ratio of the areas. \n\nRatio of altitudes = √(25/4) = 5/2. \nThe ratio is 5:2."
+  },
+
+  {
+    "question": "If two figures have a ratio of similarity of 1, they must be:",
+    "options": [
+      "Similar only",
+      "Congruent only",
+      "Similar and Congruent",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "A ratio of similarity of k=1 means the corresponding sides are equal, and the angles are already equal (by similarity definition). \n\nEqual sides and equal angles means the figures are congruent.\n Congruency is a special case of similarity."
+  },
+
+  {
+    "question": "Which criterion cannot be used to prove the congruence of two triangles?",
+    "options": [
+      "AAA",
+      "SAS",
+      "AAS",
+      "SSS"
+    ],
+    "answer": 0,
+    "explanation": "The Angle-Angle-Angle (AAA) criterion proves similarity, but not congruence.\n\n Triangles with equal angles can be of different sizes."
+  },
+  {
+    "question": "In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the legs. This is the:",
+    "options": [
+      "Angle Bisector Theorem",
+      "Pythagorean Theorem",
+      "Thales' Theorem",
+      "Geometric Mean Theorem"
+    ],
+    "answer": 1,
+    "explanation": "This is the precise statement of the Pythagorean Theorem."
+  },
+  {
+    "question": "In the geometric mean theorem, the Leg Rule states that the square of a leg (b) is equal to the product of the segment of the hypotenuse adjacent to that leg (q) and the whole hypotenuse (c). Which equation represents this?",
+    "options": [
+      "b² = q * c",
+      "b² = q² + c²",
+      "b = q * c",
+      "c² = b² + q²"
+    ],
+    "answer": 0,
+    "explanation": "This is the Leg Rule: (Leg)² = (Adjacent Hypotenuse Segment) * (Whole Hypotenuse)."
+  },
+  {
+    "question": "If the areas of two similar triangles are 100 cm² and 49 cm², and a side of the larger triangle is 20 cm, what is the corresponding side of the smaller triangle?",
+    "options": [
+      "7 cm",
+      "10 cm",
+      "14 cm",
+      "16 cm"
+    ],
+    "answer": 2,
+    "explanation": "Ratio of sides = √(Ratio of areas) = √(100/49) = 10/7.\n\n Let s_small be the side of the smaller triangle.\n\n s_small / s_large = 7/10. s_small / 20 = 7/10.\n\n s_small = 20 * (7/10) = 2 * 7 = 14 cm."
+  },
+  {
+    "question": "In the similarity transformation, the perimeter of the image is 5 times the perimeter of the preimage. What is the area of the image compared to the area of the preimage?",
+    "options": [
+      "5 times larger",
+      "10 times larger",
+      "20 times larger",
+      "25 times larger"
+    ],
+    "answer": 3,
+    "explanation": "The scale factor (k) is the ratio of perimeters, k = 5.\n\n The ratio of the areas is k² = 5² = 25. \n\nThe area of the image is 25 times the area of the preimage."
+  },
+  {
+    "question": "Which of the following is true for two similar figures with a scale factor k ≠ 1?",
+    "options": [
+      "They are congruent.",
+      "Their perimeters are equal.",
+      "Their areas are equal.",
+      "Their corresponding angles are equal."
+    ],
+    "answer": 3,
+    "explanation": "By the definition of similarity, corresponding angles are equal, but the sizes (sides, perimeter, area) are different if the scale factor k is not 1."
+  },
+  {
+    "question": "What is the scale factor k of a dilation that maps a segment of length 15 units onto a segment of length 5 units?",
+    "options": [
+      "1/5",
+      "1/3",
+      "3",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Scale factor k = Image length / Preimage length = 5 / 15 = 1/3."
+  },
+
+  {
+    "question": "In two triangles, if one angle of the first triangle is equal to one angle of the second triangle, and the sides including these angles are proportional, then the triangles are similar by:",
+    "options": [
+      "AA Similarity",
+      "SAS Similarity",
+      "SSS Similarity",
+      "ASA"
+    ],
+    "answer": 1,
+    "explanation": "This is the definition of the Side-Angle-Side (SAS) Similarity criterion."
+  },
+  {
+    "question": "Given ΔABC with AB = 7, BC = 9, and AC = 12. Which set of side lengths corresponds to a triangle similar to ΔABC?",
+    "options": [
+      "14, 18, 20",
+      "3.5, 4.5, 6",
+      "10, 12, 15",
+      "6, 8, 10"
+    ],
+    "answer": 1,
+    "explanation": "A similar triangle must have side lengths proportional to 7, 9, 12.\n Checking option B: 3.5/7 = 0.5, 4.5/9 = 0.5, 6/12 = 0.5. \n\nThe scale factor is 0.5 (or 1/2), so the triangles are similar."
+  },
+  {
+    "question": "Two pentagons are congruent. Their corresponding diagonals are:",
+    "options": [
+      "Proportional in a ratio other than 1:1.",
+      "Equal in length.",
+      "Neither proportional nor equal.",
+      "Proportional only if the pentagons are regular."
+    ],
+    "answer": 1,
+    "explanation": "If two figures are congruent, all corresponding segments, including diagonals, are equal in length."
+  },
+
+  {
+    "question": "In an isosceles triangle ABC with base BC, the altitude AD is drawn. Which postulate proves that ΔABD ≅ ΔACD?",
+    "options": [
+      "SAS",
+      "ASA",
+      "HL",
+      "AAS"
+    ],
+    "answer": 2,
+    "explanation": "Since it is isosceles, AB=AC (Hypotenuse). AD is common (Leg).\n Both triangles are right-angled at D.\n\n Thus, the triangles are congruent by the Hypotenuse-Leg (HL) theorem."
+  },
+
+  {
+    "question": "What is the similarity statement for two triangles ΔABC and ΔDEF if AB/DE = BC/EF and ∠B = ∠E?",
+    "options": [
+      "ΔABC ~ ΔEDF",
+      "ΔABC ~ ΔDEF",
+      "ΔABC ≅ ΔDEF",
+      "ΔBAC ~ ΔEDF"
+    ],
+    "answer": 1,
+    "explanation": "The two proportional sides (AB and BC) include the equal angle (∠B).\n\n This satisfies the SAS Similarity criterion, and the corresponding vertices are A to D, B to E, and C to F.\n Thus, ΔABC ~ ΔDEF."
+  },
+  {
+    "question": "If two polygons are similar, and the ratio of their perimeters is 1:3, then the ratio of their corresponding altitudes is:",
+    "options": [
+      "1:3",
+      "1:9",
+      "3:1",
+      "1:√3"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of perimeters, corresponding sides, and corresponding altitudes are all equal to the scale factor (k).\n\n If the ratio of perimeters is 1:3, the ratio of the altitudes is also 1:3."
+  },
+
+  {
+    "question": "In two similar parallelograms, the ratio of their areas is 4:25. If the length of a diagonal in the smaller parallelogram is 8 cm, what is the length of the corresponding diagonal in the larger parallelogram?",
+    "options": [
+      "10 cm",
+      "16 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "answer": 2,
+    "explanation": "Ratio of sides (scale factor) = √(Ratio of areas) = √(4/25) = 2/5.\n\n The ratio of corresponding diagonals is also equal to the scale factor.\n\n Diagonal_smaller / Diagonal_larger = 2/5. 8 / Diagonal_larger = 2/5.\n Diagonal_larger = 8 * (5/2) = 4 * 5 = 20 cm."
+  },
+
+  {
+    "question": "Two triangles ΔPQR and ΔXYZ are similar. If ∠P = 70° and ∠Q = 50°, what is the measure of ∠Z?",
+    "options": [
+      "50°",
+      "60°",
+      "70°",
+      "120°"
+    ],
+    "answer": 1,
+    "explanation": "The sum of angles in ΔPQR is 180°.\n ∠R = 180° - (70° + 50°) = 60°.\n\n Since ΔPQR ~ ΔXYZ, the corresponding angle ∠Z = ∠R = 60°."
+  },
+  {
+    "question": "In ΔABC, D and E are points on AB and AC respectively such that DE || BC. If AD/AB = 1/4 and DE = 5 cm, find BC.",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "answer": 2,
+    "explanation": "Since DE || BC, ΔADE ~ ΔABC. \n\nThe ratio of corresponding sides is AD/AB = DE/BC. \n\n1/4 = 5 / BC. \nBC = 4 * 5 = 20 cm."
+  },
+
+  {
+    "question": "Which of the following is an example of an isometry (rigid transformation)?",
+    "options": [
+      "Dilation",
+      "Shear",
+      "Translation",
+      "Projection"
+    ],
+    "answer": 2,
+    "explanation": "An isometry is a transformation that preserves distance and angle measure.\n\n Translation, rotation, and reflection are isometries, and they map a figure onto a congruent figure."
+  },
+  {
+    "question": "Two similar pentagons have a ratio of corresponding side lengths 4:5. If the perimeter of the larger pentagon is 30 units, what is the perimeter of the smaller pentagon?",
+    "options": [
+      "20 units",
+      "24 units",
+      "37.5 units",
+      "40 units"
+    ],
+    "answer": 1,
+    "explanation": "Ratio of perimeters = Ratio of sides = 4/5.\n\n P_small / P_large = 4/5.\n P_small / 30 = 4/5.\n P_small = 30 * (4/5) =\n 6 * 4 = 24 units."
+  },
+  {
+    "question": "If ΔPQR is enlarged by a scale factor of 3 to form ΔSTU. If the area of ΔPQR is 10 m², what is the area of ΔSTU?",
+    "options": [
+      "30 m²",
+      "60 m²",
+      "90 m²",
+      "100 m²"
+    ],
+    "answer": 2,
+    "explanation": "Ratio of areas = (Scale factor)² = 3² = 9. Area_STU / Area_PQR = 9. Area_STU = 9 * Area_PQR = 9 * 10 m² = 90 m²."
+  },
+  {
+    "question": "In a right triangle, the two legs are 6 and 8. What is the length of the median to the hypotenuse?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "First find the hypotenuse c: c² = 6² + 8² = 36 + 64 = 100, so c = 10.\n\n The length of the median to the hypotenuse is half the length of the hypotenuse. \nMedian = c / 2 = 10 / 2 = 5."
+  },
+  {
+    "question": "Which statement is true regarding the sides of congruent triangles?",
+    "options": [
+      "The sides must be perpendicular.",
+      "The sides must be parallel.",
+      "The corresponding sides must be equal in length.",
+      "The corresponding sides must be proportional with a ratio of 2:1."
+    ],
+    "answer": 2,
+    "explanation": "By the definition of congruence, corresponding parts (including sides) must be equal in length."
+  },
+  {
+    "question": "Given two line segments AB and CD, if AB is congruent to CD, what is the relationship between their lengths?",
+    "options": [
+      "AB > CD",
+      "AB < CD",
+      "AB = CD",
+      "AB is proportional to CD"
+    ],
+    "answer": 2,
+    "explanation": "Congruent segments have the same length.\n\n The lengths are equal (AB = CD)."
+  },
+  {
+    "question": "If ΔABC ~ ΔXYZ and ∠A = 40°, ∠Y = 75°, what is ∠C?",
+    "options": [
+      "40°",
+      "65°",
+      "75°",
+      "115°"
+    ],
+    "answer": 1,
+    "explanation": "Since ΔABC ~ ΔXYZ, corresponding angles are equal: ∠A = ∠X = 40°, ∠B = ∠Y = 75°.\n\n The sum of angles in a triangle is 180°. \n\n∠C = 180° - (∠A + ∠B) = 180° - (40° + 75°) =\n 180° - 115° = 65°."
+  },
+
+  {
+    "question": "If two right triangles have an acute angle of one equal to an acute angle of the other, then the triangles are:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Isosceles",
+      "Equilateral"
+    ],
+    "answer": 1,
+    "explanation": "Since both triangles have a right angle (90°) and one pair of acute angles equal, the third pair of angles must also be equal.\n\n Thus, they are similar by the AA Similarity criterion."
+  },
+  {
+    "question": "A flagpole casts a shadow of 15 m. At the same time, a 2 m person casts a shadow of 3 m. How tall is the flagpole?",
+    "options": [
+      "7.5 m",
+      "10 m",
+      "12 m",
+      "22.5 m"
+    ],
+    "answer": 1,
+    "explanation": "This is solved using similar right triangles (one formed by the flagpole and its shadow, the other by the person and their shadow).\n\n Height_pole / Shadow_pole = Height_person / Shadow_person.\n\n H / 15 = 2 / 3.\n H = 15 * (2/3) = \n5 * 2 = 10 m."
+  },
+  {
+    "question": "If the ratio of the side lengths of two similar squares is 1:k, what is the ratio of their perimeters?",
+    "options": [
+      "1:k",
+      "1:k²",
+      "k:1",
+      "1:4k"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of perimeters is always equal to the ratio of corresponding sides (scale factor).\n\n If the side ratio is 1:k, the perimeter ratio is also 1:k."
+  },
+
+
+  {
+    "question": "If ΔABC ≅ ΔDEF, and the area of ΔABC is 15 cm², what is the area of ΔDEF?",
+    "options": [
+      "7.5 cm²",
+      "15 cm²",
+      "30 cm²",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "Congruent figures have the same area.\n\n The ratio of their areas is 1:1."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "In ΔXYZ, P is on XY and Q is on XZ such that XP = 3, PY = 6, XQ = 4, and QZ = 8. Which of the following is true?",
+    "options": [
+      "PQ || YZ",
+      "XQ/QZ = XY/XZ",
+      "ΔXPQ ~ ΔXZY",
+      "The side ratios are not proportional."
+    ],
+    "answer": 0,
+    "explanation": "Check proportionality: XP/PY = 3/6 = 1/2. XQ/QZ = 4/8 = 1/2.\n\n Since XP/PY = XQ/QZ, by the converse of the Basic Proportionality Theorem, PQ is parallel to YZ."
+  },
+  {
+    "question": "Given ΔABC and ΔDEF. AB=DE, BC=EF, and AC=DF. Which of the following is true about their heights (altitudes)?",
+    "options": [
+      "Altitude to AC is half of altitude to DF.",
+      "Altitude to AC is twice of altitude to DF.",
+      "Altitude to AC is equal to altitude to DF.",
+      "The altitudes are proportional with a ratio of 1:2."
+    ],
+    "answer": 2,
+    "explanation": "The triangles are congruent by SSS. \n\nCorresponding altitudes of congruent triangles are equal."
+  },
+  {
+    "question": "If the legs of a right triangle are 2 and 3, what is the length of the hypotenuse?",
+    "options": [
+      "√5",
+      "√13",
+      "5",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "By the Pythagorean theorem: c² = a² + b² = 2² + 3² = \n4 + 9 = 13.\n c = √13."
+  },
+
+  {
+    "question": "In a right triangle, one leg is 12 and the hypotenuse is 15. What is the length of the other leg?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "By the Pythagorean theorem: a² + b² = c².\n a² + 12² = 15².\n a² + 144 = 225. \na² = 225 - 144 = 81.\n a = √81 = 9."
+  },
+  {
+    "question": "Which congruence postulate requires the side to be located between the two known equal angles?",
+    "options": [
+      "AAS",
+      "ASA",
+      "SSS",
+      "HL"
+    ],
+    "answer": 1,
+    "explanation": "The Angle-Side-Angle (ASA) postulate requires the side to be the included side between the two angles."
+  },
+  {
+    "question": "If two geometric figures are similar with a scale factor of k, and the area of the image is A', and the area of the pre-image is A, then k is given by:",
+    "options": [
+      "A'/A",
+      "A/A'",
+      "√(A'/A)",
+      "(A'/A)²"
+    ],
+    "answer": 2,
+    "explanation": "The ratio of the areas is the square of the scale factor:\n A'/A = k².\n Therefore, k = √(A'/A)."
+  },
+  {
+    "question": "The three angles of a triangle are 30°, 60°, and 90°. Another triangle has angles 30°, 60°, and 90°. The two triangles are:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Neither similar nor congruent",
+      "Only if they have the same perimeter"
+    ],
+    "answer": 1,
+    "explanation": "Since all corresponding angles are equal (AAA), the triangles are similar."
+  },
+  {
+    "question": "Two triangles ΔPQR and ΔXYZ are similar. If ∠P = 70° and ∠Q = 50°, what is the measure of ∠Z?",
+    "options": [
+      "50°",
+      "60°",
+      "70°",
+      "120°"
+    ],
+    "answer": 1,
+    "explanation": "The sum of angles in ΔPQR is 180°.\n ∠R = 180° - (70° + 50°) = 60°.\n\n Since ΔPQR ~ ΔXYZ, the corresponding angle ∠Z = ∠R = 60°."
+  },
+  {
+    "question": "In ΔABC, D and E are points on AB and AC respectively such that DE || BC. If AD/AB = 1/4 and DE = 5 cm, find BC.",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "answer": 2,
+    "explanation": "Since DE || BC, ΔADE ~ ΔABC. \n\nThe ratio of corresponding sides is AD/AB = DE/BC. \n\n1/4 = 5 / BC. \nBC = 4 * 5 = 20 cm."
+  },
+
+  {
+    "question": "Which of the following is an example of an isometry (rigid transformation)?",
+    "options": [
+      "Dilation",
+      "Shear",
+      "Translation",
+      "Projection"
+    ],
+    "answer": 2,
+    "explanation": "An isometry is a transformation that preserves distance and angle measure.\n\n Translation, rotation, and reflection are isometries, and they map a figure onto a congruent figure."
+  },
+  {
+    "question": "In ΔABC, D is the midpoint of BC. A line segment DE is drawn parallel to AB and E is on AC. If AC = 10, find AE.",
+    "options": [
+      "2.5",
+      "5",
+      "7.5",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Since D is the midpoint of BC and DE || AB, by the converse of the Midpoint Theorem, E must be the midpoint of AC.\n\n AE = AC / 2 =\n 10 / 2 = 5."
+  },
+
+  {
+    "question": "Given two similar triangles, the ratio of their corresponding medians is equal to:",
+    "options": [
+      "The square of the ratio of their sides.",
+      "The ratio of their areas.",
+      "The ratio of their sides.",
+      "The cube of the ratio of their sides."
+    ],
+    "answer": 2,
+    "explanation": "The ratio of corresponding medians (and altitudes, and angle bisectors) is equal to the ratio of their corresponding sides (scale factor k)."
+  },
+  {
+    "question": "If two congruent figures are placed on a coordinate plane, they can be mapped onto each other using a sequence of:",
+    "options": [
+      "Dilation and reflection",
+      "Only dilation",
+      "Only rigid motions",
+      "Shear and stretch"
+    ],
+    "answer": 2,
+    "explanation": "Congruent figures can be mapped onto each other using only rigid motions (isometries): translation, rotation, and reflection."
+  },
+
+  {
+    "question": "Two circles have radii 3 cm and 9 cm. What is the ratio of their circumferences?",
+    "options": [
+      "1:3",
+      "1:9",
+      "3:1",
+      "9:1"
+    ],
+    "answer": 0,
+    "explanation": "Circles are similar, and the ratio of their circumferences (which is equivalent to their perimeters) is equal to the ratio of their radii (scale factor).\n\n Ratio = 3/9 = 1/3.\n The ratio is 1:3."
+  },
+  {
+    "question": "In a right triangle, the hypotenuse is divided into segments of length 3 and 12 by the altitude to the hypotenuse. What is the length of the shorter leg of the original triangle?",
+    "options": [
+      "3",
+      "6",
+      "3√5",
+      "6√3"
+    ],
+    "answer": 2,
+    "explanation": "Let the shorter leg be 'a' and the segments of the hypotenuse be p=3 (adjacent to 'a') and q=12.\n\n The whole hypotenuse c = p+q = 3+12 = 15.\n By the Leg Rule: a² = p * c = 3 * 15 = 45.\n a = √45 = √(9 * 5) =\n 3√5."
+  },
+
+  {
+    "question": "If ΔABC ≅ ΔXYZ by the SSS postulate, what is the perimeter of ΔXYZ if AB = 5, BC = 7, and AC = 9?",
+    "options": [
+      "12",
+      "21",
+      "24",
+      "42"
+    ],
+    "answer": 1,
+    "explanation": "Perimeter of ΔABC = 5 + 7 + 9 = 21. \n\nSince the triangles are congruent, their perimeters are equal. Perimeter of ΔXYZ = 21."
+  },
+
+  {
+    "question": "In two triangles, if AB = DE, BC = EF, and the altitude from A to BC equals the altitude from D to EF, are the triangles necessarily congruent?",
+    "options": [
+      "Yes, by SAS.",
+      "No, this is the SSA case, which is ambiguous.",
+      "Yes, by SSS.",
+      "Yes, because the altitude determines the height."
+    ],
+    "answer": 1,
+    "explanation": "This is a form of the Side-Side-Altitude (SSA) case.\n\n Knowing an altitude doesn't eliminate the ambiguity of the SSA case unless the triangle is right-angled or isosceles.\n\n Therefore, they are not *necessarily* congruent."
+  },
+  {
+    "question": "The areas of two similar triangles are 32 units² and 50 units². If the shortest side of the smaller triangle is 8 units, what is the shortest side of the larger triangle?",
+    "options": [
+      "10 units",
+      "12 units",
+      "16 units",
+      "25 units"
+    ],
+    "answer": 0,
+    "explanation": "Ratio of areas = 32/50 = 16/25.\n Ratio of sides = √(16/25) = 4/5.\n S_small / S_large = 4/5.\n 8 / S_large = 4/5.\n S_large = 8 * (5/4) = 2 * 5 = 10 units."
+  },
+  {
+    "question": "If a trapezoid is similar to another trapezoid, which of the following is true?",
+    "options": [
+      "Only the bases must be proportional.",
+      "Only the non-parallel sides must be proportional.",
+      "All corresponding sides are proportional and all corresponding angles are equal.",
+      "The diagonals must be equal."
+    ],
+    "answer": 2,
+    "explanation": "The conditions for similarity in any two non-regular polygons are proportional sides and equal corresponding angles."
+  },
+  {
+    "question": "The reflexive property of congruence states that:",
+    "options": [
+      "If Figure A ≅ Figure B, then Figure B ≅ Figure A.",
+      "If Figure A ≅ Figure B and Figure B ≅ Figure C, then Figure A ≅ Figure C.",
+      "Figure A ≅ Figure A.",
+      "Figure A is a reflection of itself."
+    ],
+    "answer": 2,
+    "explanation": "The reflexive property states that any figure is congruent to itself."
+  },
+  {
+    "question": "If ΔABC ~ ΔXYZ with k = 4, and M is the midpoint of BC, and N is the midpoint of YZ, what is the ratio of AM to XN?",
+    "options": [
+      "1:16",
+      "1:4",
+      "4:1",
+      "16:1"
+    ],
+    "answer": 2,
+    "explanation": "AM and XN are corresponding medians. The ratio of corresponding medians is equal to the scale factor of the triangles.\n AM/XN = k = 4/1. \nThe ratio is 4:1."
+  },
+
+  {
+    "question": "Which of the following is true for two similar polygons with scale factor k?",
+    "options": [
+      "Area_1 / Area_2 = k",
+      "Perimeter_1 / Perimeter_2 = k²",
+      "Diagonal_1 / Diagonal_2 = k",
+      "Angle_1 / Angle_2 = k"
+    ],
+    "answer": 2,
+    "explanation": "The ratio of corresponding linear segments (sides, perimeters, diagonals, altitudes, medians) is equal to the scale factor k."
+  },
+  {
+    "question": "In a right triangle, the altitude to the hypotenuse is 4 units. It divides the hypotenuse into two segments such that one is 4 times the other. What is the length of the shorter segment?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Let the segments be x and 4x. By the Altitude Rule: h² = x * (4x).\n 4² = 4x². 16 = 4x². \nx² = 4. x = 2.\n The length of the shorter segment is x = 2."
+  },
+  {
+    "question": "If two geometric figures can be mapped onto each other by a sequence of rigid motions and a dilation, they are:",
+    "options": [
+      "Congruent",
+      "Equilateral",
+      "Similar",
+      "Parallel"
+    ],
+    "answer": 2,
+    "explanation": "A sequence of rigid motions preserves size and shape (congruence). \n\nA dilation changes size but preserves shape (similarity).\n\n A figure is similar to another if and only if it can be mapped onto the other by a similarity transformation (rigid motion followed by dilation or vice versa)."
+  },
+  {
+    "question": "Which statement is NOT true about congruent figures?",
+    "options": [
+      "They have the same area.",
+      "They have the same perimeter.",
+      "They have the same shape.",
+      "They can be mapped by a dilation with k=2."
+    ],
+    "answer": 3,
+    "explanation": "Congruent figures are mapped by a dilation with a scale factor of k=1 or by rigid motions.\n\n A dilation with k=2 changes the size, resulting in a similar but not congruent figure."
+  },
+  {
+    "question": "If the ratio of the corresponding sides of two similar rectangles is 3:1, and the area of the smaller rectangle is 5 cm², what is the area of the larger rectangle?",
+    "options": [
+      "15 cm²",
+      "25 cm²",
+      "45 cm²",
+      "90 cm²"
+    ],
+    "answer": 2,
+    "explanation": "Scale factor k = Side_large / Side_small = 3/1 = 3. \nRatio of Areas = k² = 3² = 9.\n Area_large / Area_small = 9/1.\n Area_large / 5 = 9. \nArea_large = 9 * 5 = 45 cm²."
+  },
+
+  {
+    "question": "The concept of congruence is a special case of similarity where the scale factor is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Greater than 1"
+    ],
+    "answer": 1,
+    "explanation": "If the scale factor (ratio of corresponding sides) is 1, the figures are similar and have equal size, making them congruent."
+  },
+  {
+    "question": "If ΔPQR is a right triangle at Q, and QS is the altitude to PR. If PS = 16 and SR = 9, what is the length of the altitude QS?",
+    "options": [
+      "5",
+      "12",
+      "12.5",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "By the Altitude Rule: QS² = PS * SR.\n QS² = 16 * 9 = 144.\n QS = √144 = 12."
+  },
+  {
+    "question": "If two polygons are similar, the ratio of their corresponding sides is 5:2. If the smaller polygon has a perimeter of 10 units, what is the perimeter of the larger polygon?",
+    "options": [
+      "4 units",
+      "25 units",
+      "30 units",
+      "40 units"
+    ],
+    "answer": 1,
+    "explanation": "Ratio of sides = P_large / P_small = 5/2.\n P_large / 10 = 5/2.\n P_large = 10 * (5/2) =\n 5 * 5 = 25 units."
+  },
+  {
+    "question": "Which set of given information proves ΔABC ≅ ΔDEF by the ASA postulate?",
+    "options": [
+      "AB = DE, BC = EF, ∠A = ∠D",
+      "∠A = ∠D, ∠C = ∠F, AC = DF",
+      "∠B = ∠E, AC = DF, ∠C = ∠F",
+      "AB = DE, BC = EF, AC = DF"
+    ],
+    "answer": 1,
+    "explanation": "ASA requires two angles and the included side.\n\n Option B gives ∠A, side AC, and ∠C, which is exactly the ASA criterion."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The similarity ratio of two similar triangles is 1/3. If the area of the larger triangle is 72 cm², what is the area of the smaller triangle?",
+    "options": [
+      "8 cm²",
+      "18 cm²",
+      "24 cm²",
+      "216 cm²"
+    ],
+    "answer": 0,
+    "explanation": "Scale factor k = Side_small / Side_large = 1/3.\n Ratio of Areas = k² = (1/3)² = 1/9.\n Area_small / Area_large = 1/9. \nArea_small / 72 = 1/9. \nArea_small = 72 / 9 = 8 cm²."
+  },
+  {
+    "question": "If two polygons are similar, the ratio of their corresponding heights is k. The ratio of their corresponding diagonals is:",
+    "options": [
+      "k²",
+      "k",
+      "√k",
+      "2k"
+    ],
+    "answer": 1,
+    "explanation": "The ratio of all corresponding linear elements (sides, heights, medians, diagonals, perimeters) is the scale factor k."
+  },
+  {
+    "question": "In a triangle, a line parallel to a side divides the other two sides:",
+    "options": [
+      "Equally",
+      "Proportionally",
+      "Perpendicularly",
+      "Congruently"
+    ],
+    "answer": 1,
+    "explanation": "This is the statement of the Basic Proportionality Theorem (BPT)."
+  },
+  {
+    "question": "If two corresponding sides of two similar triangles are 9 and 6, and the perimeter of the smaller triangle is 18, what is the perimeter of the larger triangle?",
+    "options": [
+      "12",
+      "24",
+      "27",
+      "36"
+    ],
+    "answer": 2,
+    "explanation": "Scale factor k = Side_large / Side_small = 9/6 = 3/2.\n P_large / P_small = 3/2. \nP_large / 18 = 3/2. \nP_large = 18 * (3/2) = \n9 * 3 = 27."
+  },
+  {
+    "question": "For two regular octagons to be congruent, which condition is necessary and sufficient?",
+    "options": [
+      "The ratio of their side lengths is 1:2.",
+      "Their perimeters are proportional.",
+      "Their corresponding angles are equal.",
+      "Their corresponding side lengths are equal."
+    ],
+    "answer": 3,
+    "explanation": "Regular polygons have equal angles (135° for octagons).\n\n To be congruent, they must also have equal size, meaning their corresponding side lengths must be equal."
+  },
+  {
+    "question": "In ΔABC, D is the midpoint of AB and E is the midpoint of AC. Which similarity theorem proves that ΔADE ~ ΔABC?",
+    "options": [
+      "AA Similarity",
+      "SSS Similarity",
+      "SAS Similarity",
+      "HL Theorem"
+    ],
+    "answer": 2,
+    "explanation": "By the Midpoint Theorem, AD = 1/2 AB and AE = 1/2 AC, so AD/AB = AE/AC = 1/2.\n Also, ∠DAE = ∠BAC (common angle).\n\n Therefore, ΔADE ~ ΔABC by SAS Similarity."
+  },
+
+  {
+    "question": "In a right triangle, the legs are 5 and 12. What is the length of the hypotenuse?",
+    "options": [
+      "13",
+      "15",
+      "17",
+      "19"
+    ],
+    "answer": 0,
+    "explanation": "By the Pythagorean theorem: c² = a² + b² = 5² + 12² =\n 25 + 144 = 169.\n c = √169 = 13."
+  },
+
+
+  {
+    "question": "If two rhombi are similar, their corresponding angles must be:",
+    "options": [
+      "Proportional",
+      "Equal",
+      "Complementary",
+      "Supplementary"
+    ],
+    "answer": 1,
+    "explanation": "For any two similar polygons, the corresponding angles must be equal.\n\n This is one of the two main conditions for similarity."
+  },
+  {
+    "question": "Given ΔABC and ΔXYZ. AB=15, BC=20, ∠B=50°. XY=3, YZ=4, ∠Y=50°. The triangles are:",
+    "options": [
+      "Similar by SAS Similarity.",
+      "Congruent by SAS.",
+      "Similar by AA Similarity.",
+      "Neither similar nor congruent."
+    ],
+    "answer": 0,
+    "explanation": "Check the ratio of sides around the equal angle: AB/XY = 15/3 = 5. BC/YZ = 20/4 = 5. \n\nSince two corresponding sides are proportional (k=5) and the included angles are equal (∠B=∠Y=50°), the triangles are similar by SAS Similarity."
+  }
+  ]

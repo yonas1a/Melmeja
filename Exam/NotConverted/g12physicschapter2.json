@@ -1,0 +1,1151 @@
+[
+  {
+    "question": "According to Kepler's third law, the square of the orbital period (T²) of a planet is proportional to the cube of the average distance (r³) from the Sun. This relationship is:",
+    "options": [
+      "T² ∝ r",
+      "T² ∝ r²",
+      "T² ∝ r³",
+      "T ∝ r³"
+    ],
+    "answer": 2,
+    "explanation": "Kepler's Third Law (Law of Periods) states T² is directly proportional to r³, or T² = kr³."
+  },
+  {
+    "question": "The rotational kinetic energy of a body with moment of inertia I and angular velocity ω is:",
+    "options": [
+      "Iω",
+      "(1/2)Iω²",
+      "Iω²",
+      "(1/2)I²ω"
+    ],
+    "answer": 1,
+    "explanation": "The formula for rotational kinetic energy is KE_rot = (1/2)Iω²."
+  },
+  {
+    "question": "For a projectile launched from the ground, the horizontal range is maximum when the angle of projection with the horizontal is:",
+    "options": [
+      "90°",
+      "60°",
+      "45°",
+      "30°"
+    ],
+    "answer": 2,
+    "explanation": "The range formula R = (v₀² sin(2θ))/g is maximum when sin(2θ) is maximum, which is 1.\n\n This occurs when 2θ = 90°, so θ = 45°."
+  },
+  {
+    "question": "In the absence of air resistance, the horizontal acceleration of a projectile is:",
+    "options": [
+      "Equal to the acceleration due to gravity (g)",
+      "Opposite to the initial velocity",
+      "Zero",
+      "Maximum at the highest point"
+    ],
+    "answer": 2,
+    "explanation": "The only force acting on a projectile (neglecting air resistance) is gravity, which acts purely in the vertical direction.\n\n Thus, there is no force, and hence no acceleration, in the horizontal direction."
+  },
+  {
+    "question": "At the maximum height of a projectile's path, the vertical component of its velocity (vᵧ) is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Equal to the horizontal component (vₓ)",
+      "Increasing"
+    ],
+    "answer": 1,
+    "explanation": "At the peak of the trajectory, the projectile momentarily stops its upward motion before starting to fall, so its instantaneous vertical velocity is zero."
+  },
+  {
+    "question": "A projectile is thrown horizontally from the top of a cliff. Which of the following statements is true about its motion?",
+    "options": [
+      "Its vertical velocity is constant.",
+      "Its horizontal velocity continuously decreases.",
+      "Its vertical acceleration is zero.",
+      "Its horizontal velocity is constant."
+    ],
+    "answer": 3,
+    "explanation": "In projectile motion, the horizontal component of velocity remains constant because there is no horizontal acceleration (assuming no air resistance).\n\n The vertical velocity and acceleration are affected by gravity."
+  },
+
+  {
+    "question": "A stone is thrown with a speed of 20 m/s from a cliff 45 m high. How far from the base of the cliff does the stone land? (Take g = 10m/s²)",
+    "options": [
+      "30 m",
+      "60 m",
+      "90 m",
+      "120 m"
+    ],
+    "answer": 1,
+    "explanation": "First, find the time of flight (t) from the vertical distance: h = (1/2)gt². \n\n45 m = (1/2)(10m/s²)t². \nt² = 9 s², so t = 3 s.\n Then, find the range (R) from the horizontal motion: R = vₓt =\n (20 m/s)(3 s) = 60 m."
+  },
+  {
+    "question": "A ball is projected upward at an angle of 30° with an initial speed of 40 m/s. What is the maximum height reached? (Take g = 10m/s²)",
+    "options": [
+      "20 m",
+      "40 m",
+      "80 m",
+      "160 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A train is moving at 10 m/s. A passenger throws a ball vertically upward with a speed of 2 m/s relative to the train. The velocity of the ball relative to a person standing on the ground just after the throw is:",
+    "options": [
+      "12 m/s",
+      "8 m/s",
+      "√(104) m/s",
+      "√(96) m/s"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "A particle is moving in a circle of radius r. The time period (T) is the time required for one revolution. The linear speed (v) of the particle is given by:",
+    "options": [
+      "rT",
+      "2πr/T",
+      "T/(2πr)",
+      "2πT/r"
+    ],
+    "answer": 1,
+    "explanation": "Linear speed (v) is distance divided by time. \nThe distance for one revolution is the circumference (2πr), and the time is the period (T). \nSo, v = 2πr/T."
+  },
+  {
+    "question": "In uniform circular motion, the acceleration is directed:",
+    "options": [
+      "Along the tangent to the circle.",
+      "Away from the center of the circle.",
+      "Towards the center of the circle.",
+      "Zero, because the speed is constant."
+    ],
+    "answer": 2,
+    "explanation": "In uniform circular motion, the speed is constant, but the velocity direction is continuously changing. \n\nThis change in velocity means there is an acceleration, called centripetal acceleration, which is always directed towards the center of the circle."
+  },
+  {
+    "question": "If a particle moving in a circle has its speed doubled and the radius of the circle halved, the centripetal acceleration changes by a factor of:",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "Centripetal acceleration a_c = v²/r.\n\n New speed v' = 2v, new radius r' = r/2.\n The new acceleration is a_c' = (v')²/r' = (2v)² / (r/2) = \n(4v²) / (r/2) = 8(v²/r) = 8a_c. \nThe acceleration increases by a factor of 8."
+  },
+  {
+    "question": "A mass of 2 kg is whirled in a horizontal circle of radius 1.5 m by a string. If the angular speed is 4 rad/s, what is the tension in the string?",
+    "options": [
+      "12 N",
+      "24 N",
+      "32 N",
+      "48 N"
+    ],
+    "answer": 3,
+    "explanation": "The tension (T) provides the centripetal force (F_c). \nF_c = mrω².\n T = (2 kg) * (1.5 m) * (4 rad/s)² =\n 2 * 1.5 * 16 =\n 48 N."
+  },
+  {
+    "question": "The angular speed of the minute hand of a clock, in rad/s, is:",
+    "options": [
+      "π/30 rad/s",
+      "π/60 rad/s",
+      "π/1800 rad/s",
+      "π/3600 rad/s"
+    ],
+    "answer": 2,
+    "explanation": "The minute hand completes one revolution (2π radians) in 60 minutes, or 3600 seconds. \n\nAngular speed ω = 2π / T = \n2π / 3600 s = \nπ/1800 rad/s."
+  },
+  {
+    "question": "Which of Kepler's laws states that the line joining a planet and the Sun sweeps out equal areas during equal intervals of time?",
+    "options": [
+      "Law of Orbits",
+      "Law of Areas",
+      "Law of Periods",
+      "Law of Universal Gravitation"
+    ],
+    "answer": 1,
+    "explanation": "Kepler's Second Law is the Law of Areas, which is a statement of the conservation of angular momentum."
+  },
+
+  {
+    "question": "The Law of Universal Gravitation states that the gravitational force between two masses is proportional to:",
+    "options": [
+      "The product of the masses and the distance between them.",
+      "The product of the masses and the square of the distance between them.",
+      "The product of the masses and inversely proportional to the distance between them.",
+      "The product of the masses and inversely proportional to the square of the distance between them."
+    ],
+    "answer": 3,
+    "explanation": "The formula for gravitational force is F = G(m₁m₂/r²), which means it is directly proportional to the product of the masses and inversely proportional to the square of the distance between their centers."
+  },
+  {
+    "question": "The value of the Universal Gravitational Constant (G) depends on:",
+    "options": [
+      "The mass of the attracting bodies.",
+      "The distance between the bodies.",
+      "The medium between the bodies.",
+      "No factor; it is a universal constant."
+    ],
+    "answer": 3,
+    "explanation": "G is a fundamental physical constant and its value (approximately 6.67 x 10⁻¹¹ Nm²/kg²) does not depend on the masses, distance, or surrounding medium."
+  },
+  {
+    "question": "A projectile is fired with an initial velocity v₀ at an angle θ. The velocity of the projectile when it reaches its maximum height is:",
+    "options": [
+      "v₀",
+      "v₀ sinθ",
+      "v₀ cosθ",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "At maximum height, the vertical velocity is zero.\n\n The horizontal velocity (vₓ = v₀ cosθ) remains constant throughout the flight, which is the net velocity at the peak."
+  },
+  {
+    "question": "The centripetal force acting on a body of mass m moving in a circle of radius r with tangential velocity v is given by:",
+    "options": [
+      "mv/r",
+      "mv²r",
+      "mr/v",
+      "mv²/r"
+    ],
+    "answer": 3,
+    "explanation": "Centripetal force is the force required to keep an object in uniform circular motion, and its magnitude is F_c = mv²/r."
+  },
+
+
+  {
+    "question": "The angle between the velocity and acceleration vectors of a projectile at its maximum height is:",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": 2,
+    "explanation": "At maximum height, the velocity vector is purely horizontal (vₓ), and the acceleration (g) is purely vertical (downwards).\n\n The angle between them is 90°."
+  },
+  {
+    "question": "If the acceleration due to gravity on a planet is 'g' and the radius is 'R', the escape velocity (vₑ) from that planet is given by:",
+    "options": [
+      "√(gR)",
+      "√(2gR)",
+      "gR",
+      "2gR"
+    ],
+    "answer": 1,
+    "explanation": "The escape velocity is vₑ = sqrt(2GM/R).\n Since GM = gR², this simplifies to \nvₑ = √(2(gR²) / R) = √(2gR)."
+  },
+  {
+    "question": "The time of flight (T) of a projectile launched from the ground is proportional to which component of the initial velocity?",
+    "options": [
+      "Horizontal component (v₀ cosθ)",
+      "Vertical component (v₀ sinθ)",
+      "The initial speed (v₀)",
+      "The angle of projection (θ)"
+    ],
+    "answer": 1,
+    "explanation": "The formula is T = (2v₀ sinθ)/g. \n\nSince v₀ sinθ is the vertical component of the initial velocity (v₀ᵧ), \nthe time of flight is directly proportional to v₀ᵧ."
+  },
+
+  {
+    "question": "An object moves in uniform circular motion. The kinetic energy of the object:",
+    "options": [
+      "Increases linearly with time.",
+      "Is constant.",
+      "Decreases as it moves.",
+      "Changes direction continuously."
+    ],
+    "answer": 1,
+    "explanation": "In uniform circular motion, the speed (v) is constant. \n\nKinetic energy (KE = 1/2 mv²) depends only on mass and speed, so it remains constant."
+  },
+  {
+    "question": "Which of Kepler's laws is a consequence of the conservation of angular momentum?",
+    "options": [
+      "Law of Orbits",
+      "Law of Areas",
+      "Law of Periods",
+      "Law of Inertia"
+    ],
+    "answer": 1,
+    "explanation": "Kepler's Second Law (Law of Areas) is equivalent to the statement that the angular momentum of the planet about the Sun is conserved, as the gravitational force is a central force."
+  },
+  {
+    "question": "A projectile is launched with an initial speed of 10 m/s at an angle of 60° to the horizontal. What is its speed after 0.2 s? (Take g = 10m/s²)",
+    "options": [
+      "8.66 m/s",
+      "10 m/s",
+      "7.14 m/s",
+      "8.79 m/s"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+
+  {
+    "question": "A ball is projected upward at an angle of 53° with an initial speed of 50 m/s. How long does it take to reach the maximum height? (Take g = 10m/s² and sin(53°)≈0.8)",
+    "options": [
+      "2 s",
+      "4 s",
+      "5 s",
+      "8 s"
+    ],
+    "answer": 1,
+    "explanation": "Time to maximum height (t_max) is given by t_max = v₀ᵧ / g. \n\nv₀ᵧ = v₀ sinθ = 50 m/s * sin(53°) ≈ 50 * 0.8 = 40 m/s. \nt_max = 40 m/s / 10m/s² = 4 s."
+  },
+  {
+    "question": "If a river flows East at 3 m/s and a boat attempts to cross the river North at 4 m/s relative to the water, the speed of the boat relative to the ground is:",
+    "options": [
+      "1 m/s",
+      "5 m/s",
+      "7 m/s",
+      "12 m/s"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A particle undergoing uniform circular motion has a period of 4 seconds. Its angular speed (ω) is:",
+    "options": [
+      "4π rad/s",
+      "π/4 rad/s",
+      "π/2 rad/s",
+      "2π rad/s"
+    ],
+    "answer": 2,
+    "explanation": "Angular speed ω = 2π / T.\n ω = 2π / 4 s = \nπ/2 rad/s."
+  },
+  {
+    "question": "In projectile motion, the magnitude of the rate of change of speed is minimum:",
+    "options": [
+      "At the beginning of the flight.",
+      "Just before hitting the ground.",
+      "At the maximum height.",
+      "It is constant throughout the flight."
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Two stones are dropped from the same height. One is just released, and the other is thrown horizontally. Which one hits the ground first (ignoring air resistance)?",
+    "options": [
+      "The dropped one",
+      "The thrown one",
+      "They hit simultaneously",
+      "It depends on the initial horizontal speed"
+    ],
+    "answer": 2,
+    "explanation": "The time to hit the ground is determined by the vertical motion (h = 1/2 gt²). \n\nSince the initial vertical velocity is zero for both, and the vertical distance is the same, they hit the ground simultaneously."
+  },
+  {
+    "question": "An object on a turntable has a tangential speed of 2 m/s at a radius of 0.5 m. What is the centripetal acceleration?",
+    "options": [
+      "1 m/s²",
+      "2 m/s²",
+      "4 m/s²",
+      "8 m/s²"
+    ],
+    "answer": 3,
+    "explanation": "Centripetal acceleration a_c = v²/r.\n a_c = (2 m/s)² / 0.5 m =\n 4 m²/s² / 0.5 m =\n 8 m/s²."
+  },
+  {
+    "question": "A particle moves from position r₁ = (2i + 3j) m to r₂ = (5i - 1j) m. The displacement vector is:",
+    "options": [
+      "(7i + 2j) m",
+      "(3i - 4j) m",
+      "(-3i + 4j) m",
+      "(7i - 4j) m"
+    ],
+    "answer": 1,
+    "explanation": "Displacement Δr = r₂ - r₁.\n Δr = (5i - 1j) - (2i + 3j) = \n(5 - 2)i + (-1 - 3)j =\n (3i - 4j) m."
+  },
+  {
+    "question": "A satellite orbits the Earth at a height h above the surface. If Earth's radius is R, the acceleration due to gravity (g') at the satellite's position is given by:",
+    "options": [
+      "g(R/h)²",
+      "g((R + h)/R)²",
+      "g(R/(R + h))²",
+      "g(h/R)²"
+    ],
+    "answer": 2,
+    "explanation": "The acceleration due to gravity on the surface is g = GM/R². \nAt distance (R+h), it is g' = GM/(R+h)².\n Taking the ratio: g'/g = (R/(R+h))², so g' = g(R/(R + h))²."
+  },
+  {
+    "question": "Kepler's First Law implies that the distance of a planet from the Sun:",
+    "options": [
+      "Is constant.",
+      "Is maximum at perihelion.",
+      "Is minimum at aphelion.",
+      "Varies periodically."
+    ],
+    "answer": 3,
+    "explanation": "The Law of Orbits states that planets move in elliptical orbits with the Sun at one focus.\n\n In an ellipse, the distance between the planet and the focus (Sun) varies, being maximum at aphelion and minimum at perihelion, meaning it varies periodically."
+  },
+  {
+    "question": "If a vector F = 10 N is resolved into two perpendicular components, and one component is Fₓ = 6 N, the other component Fᵧ is:",
+    "options": [
+      "4 N",
+      "8 N",
+      "16 N",
+      "64 N"
+    ],
+    "answer": 1,
+    "explanation": "F² = Fₓ² + Fᵧ². \n10² = 6² + Fᵧ². \n100 = 36 + Fᵧ². \nFᵧ² = 64.\n Fᵧ = 8 N."
+  },
+  {
+    "question": "For a projectile, the total mechanical energy (KE + PE) is:",
+    "options": [
+      "Maximum at launch.",
+      "Minimum at maximum height.",
+      "Constant throughout the flight (ignoring air resistance).",
+      "Continuously decreases."
+    ],
+    "answer": 2,
+    "explanation": "Since the only force doing work is gravity (a conservative force), the total mechanical energy is conserved."
+  },
+  {
+    "question": "A satellite in a circular orbit has an orbital speed (vₒ) given by:",
+    "options": [
+      "sqrt(GM/r)",
+      "GM/r",
+      "sqrt(GM/r²)",
+      "GM/r²"
+    ],
+    "answer": 0,
+    "explanation": "By equating gravitational force to centripetal force: \nGMm/r² = mvₒ²/r.\n Solving for vₒ gives vₒ = √(GM/r)."
+  },
+  {
+    "question": "The property of an object to resist changes in its rotational state of motion is called:",
+    "options": [
+      "Momentum",
+      "Torque",
+      "Rotational inertia (Moment of Inertia)",
+      "Angular velocity"
+    ],
+    "answer": 2,
+    "explanation": "Rotational inertia, or Moment of Inertia (I), is the rotational analogue of mass (linear inertia) and measures an object's resistance to a change in its angular velocity."
+  },
+  {
+    "question": "If the acceleration due to gravity on the Earth's surface is 10m/s², what is the acceleration due to gravity at a height equal to the Earth's radius (R) above the surface?",
+    "options": [
+      "10m/s²",
+      "5m/s²",
+      "2.5m/s²",
+      "1.25m/s²"
+    ],
+    "answer": 2,
+    "explanation": "The distance from the center is r' = R + R = 2R.\n g' = GM/r'² = GM/(2R)² = \n(1/4) * (GM/R²) = (1/4)g.\n g' = (1/4)(10m/s²) \n= 2.5m/s²."
+  },
+  {
+    "question": "The angular acceleration (α) of a rigid body rotating about a fixed axis is defined as the time rate of change of:",
+    "options": [
+      "Angular displacement",
+      "Angular velocity",
+      "Tangential velocity",
+      "Centripetal acceleration"
+    ],
+    "answer": 1,
+    "explanation": "Angular acceleration is the time derivative of angular velocity, just as linear acceleration is the time derivative of linear velocity.\n α = dω/dt."
+  },
+  {
+    "question": "The linear speed (v) of a point on a rotating disk at a distance r from the axis is related to the angular speed (ω) by the equation:",
+    "options": [
+      "v = rω²",
+      "v = r/ω",
+      "v = rω",
+      "v = ω/r"
+    ],
+    "answer": 2,
+    "explanation": "The relationship between linear (tangential) speed (v) and angular speed (ω) is v = rω."
+  },
+  {
+    "question": "A wheel starts from rest and rotates with a constant angular acceleration of 2 rad/s². The angular speed after 5 seconds is:",
+    "options": [
+      "10 rad/s",
+      "5 rad/s",
+      "2 rad/s",
+      "25 rad/s"
+    ],
+    "answer": 0,
+    "explanation": "Using the kinematic equation: ω_f = ω_i + αt.\n ω_f = 0 + (2 rad/s²)(5 s)\n = 10 rad/s."
+  },
+  {
+    "question": "If a planet's average distance from the Sun is four times that of Earth, its orbital period is (in Earth years):",
+    "options": [
+      "2 years",
+      "8 years",
+      "16 years",
+      "64 years"
+    ],
+    "answer": 1,
+    "explanation": "Using Kepler's Third Law (T² ∝ r³): (T_p/T_e)² = (r_p/r_e)³.\n (T_p/1 year)² = (4/1)³.\n T_p² = 64.\n T_p = 8 years."
+  },
+  {
+    "question": "What is the physical quantity represented by the product of the Moment of Inertia (I) and Angular Velocity (ω)?",
+    "options": [
+      "Torque",
+      "Rotational Kinetic Energy",
+      "Angular Momentum",
+      "Angular Acceleration"
+    ],
+    "answer": 2,
+    "explanation": "Angular Momentum (L) is defined as L = Iω.\n\n This is the rotational equivalent of linear momentum (p = mv)."
+  },
+  {
+    "question": "The SI unit for angular momentum is:",
+    "options": [
+      "N m",
+      "J",
+      "kg m²/s",
+      "N s"
+    ],
+    "answer": 2,
+    "explanation": "Angular momentum L = Iω.\n The unit for moment of inertia (I) is kg m², and the unit for angular velocity (ω) is rad/s (or 1/s). \nTherefore, the unit for angular momentum is kg m²/s."
+  },
+  {
+    "question": "A force of 20 N is applied at the end of a lever arm of length 0.5 m, perpendicular to the arm. The magnitude of the torque produced is:",
+    "options": [
+      "10 N m",
+      "20 N m",
+      "40 N m",
+      "100 N m"
+    ],
+    "answer": 0,
+    "explanation": "Torque τ = Fd sinθ.\n Since the force is perpendicular, sin(90°) = 1.\n τ = (20 N)(0.5 m) =\n 10 N m."
+  },
+  {
+    "question": "The condition for a rigid body to be in rotational equilibrium is that the net:",
+    "options": [
+      "Force is zero.",
+      "Torque is zero.",
+      "Angular momentum is zero.",
+      "Kinetic energy is zero."
+    ],
+    "answer": 1,
+    "explanation": "A body is in rotational equilibrium when its angular acceleration is zero, which, according to Newton's second law for rotation (τ_net = Iα), means the net torque is zero."
+  },
+  {
+    "question": "Which statement best describes Kepler's Law of Orbits?",
+    "options": [
+      "Planets sweep out equal areas in equal times.",
+      "The square of the period is proportional to the cube of the radius.",
+      "Planets orbit the Sun in elliptical paths with the Sun at one focus.",
+      "The gravitational force is inversely proportional to the square of the distance."
+    ],
+    "answer": 2,
+    "explanation": "Kepler's First Law, the Law of Orbits, states that a planet's path is an ellipse with the Sun at one of the foci."
+  },
+  {
+    "question": "A projectile has the same horizontal range for two angles of projection, 40° and another angle. What is the other angle?",
+    "options": [
+      "10°",
+      "20°",
+      "50°",
+      "60°"
+    ],
+    "answer": 2,
+    "explanation": "Two launch angles that are complementary, meaning they add up to 90°, will produce the same range.\n\n 90° - 40° = 50°."
+  },
+  {
+    "question": "An object in uniform circular motion experiences a change in:",
+    "options": [
+      "Kinetic energy.",
+      "Speed.",
+      "Direction of velocity.",
+      "Angular speed."
+    ],
+    "answer": 2,
+    "explanation": "In uniform circular motion, speed and angular speed are constant, as is kinetic energy.\n\n However, the direction of velocity is continuously changing, which is why there is acceleration."
+  },
+
+
+  {
+    "question": "If the mass of the Earth were doubled while its radius remained the same, the acceleration due to gravity on its surface would:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The acceleration due to gravity is g = GM/R². \n\nSince g is directly proportional to the mass (M), doubling M will double the acceleration due to gravity."
+  },
+
+  {
+    "question": "If a projectile's launch speed is doubled, but the angle remains the same, the horizontal range is increased by a factor of:",
+    "options": [
+      "2",
+      "4",
+      "sqrt(2)",
+      "1/2"
+    ],
+    "answer": 1,
+    "explanation": "The range formula is R ∝ v₀².\n If v₀ is doubled, R' ∝ (2v₀)² = 4v₀².\n The range increases by a factor of **4**."
+  },
+  {
+    "question": "The quantity Torque is the rotational analogue of which linear quantity?",
+    "options": [
+      "Mass",
+      "Force",
+      "Momentum",
+      "Acceleration"
+    ],
+    "answer": 1,
+    "explanation": "Torque (τ) causes rotational acceleration (α) (τ = Iα), just as Force (F) causes linear acceleration (a) (F = ma).\n Thus, Torque is the rotational analogue of Force."
+  },
+
+
+
+  {
+    "question": "An airplane flies at 100 m/s with a heading of 60° North of East. The magnitude of the Eastward component of its velocity is:",
+    "options": [
+      "100 m/s",
+      "86.6 m/s",
+      "50 m/s",
+      "0 m/s"
+    ],
+    "answer": 2,
+    "explanation": "The Eastward component is the x-component: vₓ = v cosθ = 100 cos(60°) =\n 100 * 0.5 = 50 m/s."
+  },
+  {
+    "question": "Which planet moves fastest in its elliptical orbit around the Sun?",
+    "options": [
+      "The one closest to the Sun (Mercury).",
+      "The one farthest from the Sun (Neptune).",
+      "The largest one (Jupiter).",
+      "They all move at the same speed."
+    ],
+    "answer": 0,
+    "explanation": "Kepler's Second Law (Law of Areas) implies that a planet moves faster when it is closer to the Sun (at perihelion) and slower when farther away (at aphelion). \n\nTherefore, the planet closest to the Sun (Mercury) has the highest average orbital speed."
+  },
+  {
+    "question": "The centripetal force is a force that is always:",
+    "options": [
+      "Perpendicular to the velocity.",
+      "Parallel to the velocity.",
+      "Constant in magnitude and direction.",
+      "Directed outwards."
+    ],
+    "answer": 0,
+    "explanation": "Centripetal force is directed towards the center, while velocity is tangent to the circle.\n\n Thus, the centripetal force is always perpendicular to the velocity."
+  },
+  {
+    "question": "A body moves in a circle with a radius of 1 m and an angular speed of 2 rad/s. What is the frequency of its rotation?",
+    "options": [
+      "1/π Hz",
+      "π Hz",
+      "2 Hz",
+      "1/2π Hz"
+    ],
+    "answer": 0,
+    "explanation": "Angular speed ω = 2πf. \nTherefore, frequency f = ω / 2π\n = (2 rad/s) / 2π \n= 1/π Hz."
+  },
+
+
+  {
+    "question": "A satellite is launched into a circular orbit at a radius r. If its mass is doubled, the orbital speed required for the same orbit will:",
+    "options": [
+      "Double.",
+      "Halve.",
+      "Increase by sqrt(2).",
+      "Remain the same."
+    ],
+    "answer": 3,
+    "explanation": "The orbital speed formula vₒ = √(GM/r) shows that the orbital speed is independent of the mass (m) of the orbiting satellite.\n\n Thus, it will remain the same."
+  },
+  {
+    "question": "If the angular momentum of a rotating system is conserved, the net external quantity acting on the system must be zero. This quantity is:",
+    "options": [
+      "Net Force",
+      "Net Torque",
+      "Net Impulse",
+      "Net Work"
+    ],
+    "answer": 1,
+    "explanation": "Angular momentum (L) is conserved if the net external torque (τ_net) is zero, as τ_net = dL/dt."
+  },
+
+  {
+    "question": "If a planet's semi-major axis is 9 times that of Earth, its orbital period is:",
+    "options": [
+      "3 Earth years",
+      "9 Earth years",
+      "27 Earth years",
+      "81 Earth years"
+    ],
+    "answer": 2,
+    "explanation": "T² ∝ r³.\n (T_p/T_e)² = (r_p/r_e)³.\n (T_p/1)² = (9/1)³.\n T_p² = 729. \nT_p = √(729) = 7 Earth years."
+  },
+  {
+    "question": "The maximum height a projectile reaches when launched at 45° with speed v₀ is H. If it is launched at 90° with the same speed, the new maximum height is:",
+    "options": [
+      "H/2",
+      "H",
+      "2H",
+      "4H"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "What is the total angular displacement of an object that completes 5 revolutions?",
+    "options": [
+      "5 rad",
+      "10 rad",
+      "5π rad",
+      "10π rad"
+    ],
+    "answer": 3,
+    "explanation": "One revolution is 2π radians.\n 5 revolutions is 5 * 2π =\n 10π radians."
+  },
+  {
+    "question": "The total momentum of a projectile at any instant is always in the direction of its:",
+    "options": [
+      "Acceleration (downwards).",
+      "Initial velocity.",
+      "Instantaneous velocity.",
+      "Horizontal velocity."
+    ],
+    "answer": 2,
+    "explanation": "Momentum (p) is a vector defined as p = mv.\n\n Since mass (m) is a scalar, the direction of momentum is the same as the direction of the instantaneous velocity (v)."
+  },
+  {
+    "question": "The minimum launch speed required for a projectile to achieve a horizontal range (R) is obtained when the launch angle is:",
+    "options": [
+      "0°",
+      "30°",
+      "45°",
+      "60°"
+    ],
+    "answer": 2,
+    "explanation": "Range R = (v₀² sin(2θ))/g.\n To minimize v₀ for a given R, sin(2θ) must be maximized (sin(2θ) = 1), which occurs at θ = 45°."
+  },
+  {
+    "question": "The unit of angular acceleration is:",
+    "options": [
+      "rad/s",
+      "m/s²",
+      "rad/s²",
+      "m/s"
+    ],
+    "answer": 2,
+    "explanation": "Angular acceleration (α) is the rate of change of angular velocity (rad/s) over time (s), so the unit is rad/s²."
+  },
+  {
+    "question": "The total time of flight of a projectile launched at 30° from the ground is 4 s. What is the time it takes to go from its maximum height back to the ground?",
+    "options": [
+      "1 s",
+      "2 s",
+      "3 s",
+      "4 s"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of Kepler's laws mathematically relates the orbital period to the size of the orbit?",
+    "options": [
+      "Law of Orbits",
+      "Law of Areas",
+      "Law of Periods",
+      "Law of Conservation of Energy"
+    ],
+    "answer": 2,
+    "explanation": "Kepler's Third Law, the Law of Periods, states T² ∝ r³."
+  },
+  {
+    "question": "If the distance between the Earth and Moon is halved, the gravitational force between them will be:",
+    "options": [
+      "Halved.",
+      "Doubled.",
+      "Quadrupled (four times).",
+      "Quartered (one-fourth)."
+    ],
+    "answer": 2,
+    "explanation": "Gravitational force F ∝ 1/r². \n\nIf r is halved (r/2), F' ∝ 1/(r/2)² = \n1/(r²/4) = 4/r².\n The force will be quadrupled."
+  },
+
+  {
+    "question": "A wheel rotates 60 times in 1 minute. Its angular speed is:",
+    "options": [
+      "1 rad/s",
+      "π rad/s",
+      "2π rad/s",
+      "60 rad/s"
+    ],
+    "answer": 2,
+    "explanation": "Frequency f = 60 revolutions / 60 seconds = 1 Hz.\n\n Angular speed ω = 2πf = 2π * 1 =\n 2π rad/s."
+  },
+
+  {
+    "question": "Which angle of projection for a projectile will result in a maximum time of flight?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90° (Vertical launch)"
+    ],
+    "answer": 3,
+    "explanation": "Time of flight T ∝ sinθ.\n The time of flight is maximized when sinθ is maximized (sinθ = 1), which corresponds to a vertical launch (90°)."
+  },
+  {
+    "question": "If an object is launched horizontally from a height with speed v, its initial vertical velocity is:",
+    "options": [
+      "v",
+      "v cosθ",
+      "v sinθ",
+      "Zero"
+    ],
+    "answer": 3,
+    "explanation": "Since the launch is purely horizontal, the initial vertical component of velocity is zero."
+  },
+
+
+  {
+    "question": "The time of flight of a projectile depends entirely on its initial:",
+    "options": [
+      "Horizontal velocity.",
+      "Vertical velocity.",
+      "Horizontal displacement.",
+      "Maximum range."
+    ],
+    "answer": 1,
+    "explanation": "The vertical motion (governed by v₀ᵧ) determines how long the projectile stays in the air (Time of Flight T = 2v₀ᵧ/g).\n\n The horizontal motion is independent of this."
+  },
+  {
+    "question": "A boy ties a stone to a rope and whirls it in a horizontal circle. If the rope suddenly breaks, the stone will move:",
+    "options": [
+      "Inward towards the center.",
+      "Outward away from the center.",
+      "Tangent to the circle.",
+      "Vertical to the ground."
+    ],
+    "answer": 2,
+    "explanation": "When the centripetal force (tension in the rope) is removed, the stone will follow Newton's first law and move in a straight line, which is tangent to the circle at the point of release."
+  },
+  {
+    "question": "The direction of the centripetal force changes continuously in uniform circular motion. Therefore, centripetal force is a:",
+    "options": [
+      "Conservative force.",
+      "Non-conservative force.",
+      "Constant force.",
+      "Variable force."
+    ],
+    "answer": 3,
+    "explanation": "Although the magnitude F_c = mv²/r is constant, the direction of the force is continuously changing (towards the center).\n\n A force that changes direction is a variable force."
+  },
+  {
+    "question": "For a projectile launched at 30° with speed v₀, which of the following remains constant during the flight (ignoring air resistance)?",
+    "options": [
+      "Vertical speed.",
+      "Acceleration.",
+      "Kinetic Energy.",
+      "Vertical momentum."
+    ],
+    "answer": 1,
+    "explanation": "In projectile motion, the acceleration is due to gravity (g), which is always constant (10m/s² downwards)."
+  },
+  {
+    "question": "If a body rotates with constant angular acceleration, the relationship between angular displacement (Δθ), initial angular velocity (ω₀), and time (t) is:",
+    "options": [
+      "Δθ = ω₀t",
+      "Δθ = (1/2)αt²",
+      "Δθ = ω₀t + αt²",
+      "Δθ = ω₀t + (1/2)αt²"
+    ],
+    "answer": 3,
+    "explanation": "This is the rotational equivalent of the linear kinematic equation Δx = v₀t + (1/2)at².\n\n The equation is Δθ = ω₀t + (1/2)αt²."
+  },
+  {
+    "question": "The maximum velocity of a projectile launched at 30° with a speed of 20 m/s is:",
+    "options": [
+      "0 m/s",
+      "10 m/s",
+      "17.32 m/s",
+      "20 m/s"
+    ],
+    "answer": 3,
+    "explanation": "The speed is maximum at the start (launch) and minimum at the maximum height. \n\nThe maximum speed is the initial speed, which is 20 m/s."
+  },
+
+  {
+    "question": "If two masses M and 4M are separated by a distance d, the point where the net gravitational field is zero must be closer to:",
+    "options": [
+      "Mass M",
+      "Mass 4M",
+      "Midway between them",
+      "Cannot be determined"
+    ],
+    "answer": 0,
+    "explanation": "The gravitational field (g = GM/r²) is inversely proportional to the distance squared.\n\n For the fields to cancel, the point must be closer to the smaller mass (M), where the field is weaker to begin with."
+  },
+  {
+    "question": "Which of the following is an alternative formula for centripetal force (F_c)?",
+    "options": [
+      "mω²/r",
+      "mω²r",
+      "mωr",
+      "mr/ω"
+    ],
+    "answer": 1,
+    "explanation": "Starting from F_c = mv²/r and substituting v = rω, we get\n F_c = m(rω)²/r = \nmr²ω²/r = mω²r."
+  },
+  {
+    "question": "A ball is thrown at 45° and hits a target 100 m away. What is the required initial speed (v₀)? (Take g = 10m/s²)",
+    "options": [
+      "31.6 m/s",
+      "10 m/s",
+      "50 m/s",
+      "20 m/s"
+    ],
+    "answer": 0,
+    "explanation": "Range R = (v₀² sin(2θ))/g. \n100 m = (v₀² sin(90°))/10m/s².\n 100 = v₀²/10. \nv₀² = 1000.\n v₀ = √(1000) ≈ 31.6 m/s."
+  },
+  {
+    "question": "The angular momentum of a planet in an elliptical orbit about the Sun is:",
+    "options": [
+      "Constant throughout the orbit.",
+      "Maximum at aphelion.",
+      "Minimum at perihelion.",
+
+      "Continuously increasing."
+    ],
+    "answer": 0,
+    "explanation": "Kepler's Second Law is a direct consequence of the conservation of angular momentum, meaning it is constant."
+  },
+
+  {
+    "question": "The velocity of a point on the rim of a wheel is 10 m/s. If the radius is 1 m, the rotational frequency is:",
+    "options": [
+      "5/π Hz",
+      "10/π Hz",
+      "20/π Hz",
+      "10 Hz"
+    ],
+    "answer": 1,
+    "explanation": "f = v / (2πr) =\n (10 m/s) / (2π * 1 m)\n = 10/π Hz."
+  },
+  {
+    "question": "The weight of an object at the center of the Earth is:",
+    "options": [
+      "Maximum",
+      "Minimum but not zero",
+      "Zero",
+      "Infinite"
+    ],
+    "answer": 2,
+    "explanation": "At the center of the Earth, the net gravitational force is zero because mass is distributed symmetrically around the center. \n\nSince Weight W = mg, the weight is zero."
+  },
+  {
+    "question": "If a rigid body is rotating, all points on the body have the same:",
+    "options": [
+      "Tangential speed.",
+      "Tangential acceleration.",
+      "Linear displacement.",
+      "Angular speed."
+    ],
+    "answer": 3,
+    "explanation": "For a rigid body, all points rotate through the same angle in the same time, so they all have the same angular speed (ω)."
+  },
+
+  {
+    "question": "The net force on a projectile is always in the direction of its:",
+    "options": [
+      "Acceleration (g)",
+      "Velocity",
+      "Displacement",
+
+      "Initial velocity"
+    ],
+    "answer": 0,
+    "explanation": "By Newton's second law, F_net = ma.\n For a projectile (ignoring air resistance), the net force is the gravitational force, F_g = mg.\n\n Thus, the net force is always in the direction of the acceleration (g), which is vertically downwards."
+  },
+  {
+    "question": "The distance covered by a projectile in the horizontal direction is called the:",
+    "options": [
+      "Maximum height",
+      "Trajectory",
+      "Range",
+      "Time of flight"
+    ],
+    "answer": 2,
+    "explanation": "The maximum horizontal distance traveled by a projectile is called the range."
+  },
+
+  {
+    "question": "The formula for the orbital period (T) of a satellite in a circular orbit of radius r around a planet of mass M is:",
+    "options": [
+      "T = 2πr/vₒ",
+      "T = 2π √(r³/GM)",
+      "T = 2πr² / (GM)",
+      "Both A and B"
+    ],
+    "answer": 3,
+    "explanation": "T = distance/speed = 2πr/vₒ, which is option A.\n\n Also, from Kepler's third law T² = (4π²/GM)r³, \nso T = 2π √(r³/GM), which is option B. "
+  },
+  {
+    "question": "The SI unit for Torque is:",
+    "options": [
+      "Newton (N)",
+      "Joule (J)",
+      "Newton meter (N m)",
+      "Watt (W)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "If the angular speed of a rotating object is doubled, its rotational kinetic energy will increase by a factor of:",
+    "options": [
+      "2",
+      "4",
+      "√(2)",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "Rotational Kinetic Energy (KE_rot) = (1/2)Iω².\n KE_rot is proportional to ω².\n If ω is doubled, KE_rot' ∝ (2ω)² = 4ω².\n The energy increases by a factor of 4."
+  },
+  {
+    "question": "A river is flowing South at 2 m/s. A person swims West at 1.5 m/s relative to the water. The resultant direction of the person's velocity relative to the bank is:",
+    "options": [
+      "West of South",
+      "West of North",
+
+      "East of South",
+      "East of North"
+    ],
+    "answer": 0,
+    "explanation": "The person's velocity has a Southward component (from the river) and a Westward component (from swimming).\n\n The resultant velocity will be in the West of South quadrant."
+  },
+  {
+    "question": "The speed of a projectile is minimum:",
+    "options": [
+      "At launch.",
+      "At landing.",
+      "At the maximum height.",
+      "It is constant throughout the flight."
+    ],
+    "answer": 2,
+    "explanation": "The speed is v = √(vₓ² + vᵧ²). \n\nAt the maximum height, vᵧ = 0, so v_min = vₓ, which is the minimum speed."
+  },
+  {
+    "question": "Which one of the following is NOT a unit of angular velocity?",
+    "options": [
+      "radians per second (rad/s)",
+      "revolutions per minute (rpm)",
+
+      "degrees per second (°/s)",
+      "meters per second (m/s)"
+    ],
+    "answer": 3,
+    "explanation": "Angular velocity measures the rate of change of angle. \n\nMeters per second (m/s) is the unit of linear (tangential) speed."
+  },
+  {
+    "question": "In projectile motion, the minimum kinetic energy occurs at:",
+    "options": [
+      "Launch point.",
+      "Landing point.",
+      "Maximum height.",
+      "Half the time of flight."
+    ],
+    "answer": 2,
+    "explanation": "Kinetic energy KE = 1/2 mv². \n\nSince speed is minimum at the maximum height, the kinetic energy is also minimum at the maximum height."
+  },
+  {
+    "question": "The value of 'g' (acceleration due to gravity) is greatest at:",
+    "options": [
+      "The Earth's equator.",
+      "The Earth's poles.",
+      "A height of 100 km.",
+      "Deep in a mine."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+
+
+  {
+    "question": "The change in the orbital speed of a planet is maximum when it moves from:",
+    "options": [
+      "Aphelion to perihelion.",
+      "Perihelion to aphelion.",
+
+      "The mean distance to the Sun.",
+      "The change in speed is constant."
+    ],
+    "answer": 0,
+    "explanation": "The planet is moving slowest at aphelion and fastest at perihelion.\n\n The change from a lower speed to a higher speed (Aphelion to perihelion) involves the greatest positive acceleration (change in speed)."
+  },
+  {
+    "question": "The time to reach the maximum height of a projectile launched at 45° with an initial speed of 30 m/s is: (Take g = 10m/s²)",
+    "options": [
+      "1.5 s",
+      "2.12 s",
+      "3 s",
+      "4.24 s"
+    ],
+    "answer": 1,
+    "explanation": "Time to max height t_max = (v₀ sinθ)/g.\n\n t_max = (30 m/s * sin(45°)) / 10m/s² =\n (30 * 0.707) / 10 ≈ 2.12 s."
+  },
+
+  {
+    "question": "In the equation F = G(m₁m₂/r²), the term 'r' represents the distance between:",
+    "options": [
+      "The surfaces of the two objects.",
+      "The centers of the two objects.",
+      "The center of the first and the surface of the second.",
+      "The centers of the first and the surface of the second."
+    ],
+    "answer": 1,
+    "explanation": "The distance 'r' in Newton's Law of Universal Gravitation is the distance between the centers of mass of the two objects."
+  },
+  {
+    "question": "If a body rotates with constant angular acceleration, its total acceleration is:",
+    "options": [
+      "The tangential acceleration only.",
+      "The centripetal acceleration only.",
+      "The vector sum of tangential and centripetal accelerations.",
+      "Zero."
+    ],
+    "answer": 2,
+    "explanation": "Total acceleration is the vector sum of two components: \n\ntangential acceleration (a_t) (changing speed) and centripetal (or radial) acceleration (a_c) (changing direction)."
+  },
+  {
+    "question": "A projectile is launched from ground level. The vertical component of its velocity is maximum:",
+    "options": [
+      "At the maximum height.",
+      "At the point of launch.",
+      "At the midpoint of its range.",
+      "It is constant."
+    ],
+    "answer": 1,
+    "explanation": "The vertical speed is affected by gravity (vᵧ = v₀ᵧ - gt).\n\n Its magnitude is highest at the smallest t, which is at the point of launch and the point of landing."
+  },
+
+  {
+    "question": "The escape velocity from a planet is independent of the mass of the:",
+    "options": [
+      "Planet.",
+      "Object being launched.",
+      "Distance of the launch.",
+      "Planet's radius."
+    ],
+    "answer": 1,
+    "explanation": "Escape velocity vₑ = √(2GM/R). \n\nThe formula only depends on the mass (M) and radius (R) of the planet and the gravitational constant (G), but is independent of the mass of the object being launched."
+  }
+
+  ]

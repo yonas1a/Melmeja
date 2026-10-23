@@ -1,0 +1,45 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 2: TWO-DIMENSIONAL MOTION",
+"notes": "✓ Two-dimensional motion → Motion in a plane where position, velocity and acceleration may have both horizontal and vertical components.\n\n◆ Examples → Projectile motion, circular/rotational motion and planetary motion.\n\n✓ Kinematics → Describes motion without considering its causes.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.1 PROJECTILE MOTION",
+"notes": "✓ Projectile → An object thrown, fired or released that moves mainly under gravity after projection.\n\n◆ Examples → A kicked ball, bullet, javelin and water leaving a hose.\n\n✓ The motion can be separated into horizontal and vertical components.\n\n✓ Horizontal motion → Has zero acceleration when air resistance is ignored, so horizontal velocity remains constant.\n\n✓ Vertical motion → Has constant downward acceleration g ≈ 9.8 m/s².\n\n✓ The combination of the two motions produces a curved/parabolic path.\n\n◆ HORIZONTAL PROJECTILE\nFor an object projected horizontally:\nVₓ = V₀\nx = V₀t\nvᵧ = gt\ny = ½gt²\n\n◆ INCLINED PROJECTILE\nFor initial speed V₀ at angle θ:\nV₀ₓ = V₀cosθ\nV₀ᵧ = V₀sinθ\n\n✓ Horizontal displacement:\nx = V₀cosθ · t\n\n✓ Vertical displacement:\ny = V₀sinθ · t − ½gt²\n\n✓ Vertical velocity:\nvᵧ = V₀sinθ − gt\n\n✓ Maximum height:\nH = V₀²sin²θ / 2g\n\n✓ Time of flight:\nT = 2V₀sinθ / g\n\n✓ Range:\nR = V₀²sin2θ / g\n\n✓ At maximum height, vertical velocity becomes zero but horizontal velocity remains unchanged.\n\n✓ For the same launch and landing level, maximum range occurs at 45°.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.2 ROTATIONAL MOTION",
+"notes": "✓ Rotational motion → Occurs when a rigid object rotates about a fixed axis.\n\n◆ Examples → A rotating wheel, ceiling fan, flywheel and Earth rotating about its axis.\n\n✓ Rigid body → An object whose shape and distances between its particles remain constant.\n\n◆ ANGULAR DISPLACEMENT (Δθ)\n✓ Measures how much an object rotates from its initial to final angular position.\n\n✓ 1 revolution = 2π rad = 360°\n\n◆ ANGULAR VELOCITY (ω)\n✓ Rate of change of angular displacement:\nω = Δθ/Δt\n\n✓ It describes how quickly an object rotates.\n\n◆ ANGULAR ACCELERATION (α)\n✓ Rate of change of angular velocity:\nα = Δω/Δt\n\n✓ It describes how quickly rotational speed changes.\n\n◆ CONNECTION WITH LINEAR MOTION\n✓ s = rθ\n✓ v = rω\n✓ at = rα\n\n◆ CONSTANT ANGULAR ACCELERATION\n✓ ωf = ω₀ + αt\n✓ Δθ = ω₀t + ½αt²\n✓ ωf² = ω₀² + 2αΔθ\n✓ Δθ = ½(ω₀ + ωf)t\n\n✓ Points farther from the axis travel a greater distance and have greater linear speed, even though all points of a rigid body have the same angular velocity.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.3 ROTATIONAL DYNAMICS",
+"notes": "✓ Rotational dynamics → Studies the causes of rotational motion.\n\n✓ Just as force changes linear motion, torque changes rotational motion.\n\n◆ TORQUE (τ)\n✓ Torque → The turning effect of a force about an axis.\n\n✓ τ = rFsinθ\n\n✓ A larger force, longer lever arm or more suitable angle produces greater torque.\n\n✓ Maximum torque occurs when the force is perpendicular to the radius (θ = 90°).\n\n◆ MOMENT OF INERTIA (I)\n✓ Moment of inertia → The rotational equivalent of mass. It measures how strongly an object resists changes in its rotational motion.\n\n✓ For a point mass:\nI = mr²\n\n✓ For several particles:\nI = Σmr²\n\n✓ Its value depends on both the amount of mass and how far the mass is distributed from the axis.\n\n◆ NEWTON’S SECOND LAW FOR ROTATION\n✓ τnet = Iα\n\n✓ Thus, for the same torque, a larger moment of inertia produces a smaller angular acceleration.\n\n◆ LINEAR ↔ ROTATIONAL\n✓ Force F ↔ Torque τ\n✓ Mass m ↔ Moment of inertia I\n✓ Acceleration a ↔ Angular acceleration α\n\n✓ Torque is the cause of angular acceleration in the same way that force is the cause of linear acceleration.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.4 PLANETARY MOTION AND KEPLER’S LAWS",
+"notes": "✓ Planetary motion → Describes the movement of planets around the Sun.\n\n✓ Kepler developed three laws from observations of planetary motion.\n\n✓ Newton later explained these laws using gravity and his laws of motion.\n\n◆ HELIOCENTRIC MODEL\n✓ The Sun is at the center of the planetary system and planets revolve around it.\n\n◆ GEOCENTRIC MODEL\n✓ The Earth is considered the center, with the Sun and other celestial bodies moving around it.\n\n◆ KEPLER’S FIRST LAW — LAW OF ORBITS\n✓ Planets move in elliptical orbits with the Sun at one focus.\n\n◆ KEPLER’S SECOND LAW — LAW OF AREAS\n✓ The line joining a planet to the Sun sweeps out equal areas in equal time intervals.\n\n✓ Therefore:\nPlanet moves faster when closer to the Sun.\nPlanet moves slower when farther from the Sun.\n\n◆ KEPLER’S THIRD LAW — LAW OF PERIODS\n✓ The square of the orbital period is proportional to the cube of the average orbital radius:\n\nT² ∝ R³\n\n✓ Therefore:\nT₁²/T₂² = R₁³/R₂³\n\n✓ A planet farther from the Sun takes a longer time to complete one orbit.\n\n✓ Kepler’s laws also help describe the motion of moons and artificial satellites.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.5 NEWTON’S LAW OF UNIVERSAL GRAVITATION",
+"notes": "✓ Newton’s law of universal gravitation → Every mass attracts every other mass with a gravitational force.\n\n✓ This force acts along the line joining their centers.\n\n◆ GRAVITATIONAL FORCE\n✓ F = Gm₁m₂/r²\n\n◆ Where:\nG → Universal gravitational constant\nm₁, m₂ → Interacting masses\nr → Distance between their centers\n\n✓ The force:\nIncreases when either mass increases.\nDecreases as the square of distance increases.\nIs always attractive.\n\n◆ ACCELERATION DUE TO GRAVITY\n✓ For a body of mass M:\ng = GM/r²\n\n✓ Near Earth's surface:\ng ≈ 9.8 m/s²\n\n◆ GRAVITY AND ORBITAL MOTION\n✓ Gravity provides the centripetal force required for planets and satellites to remain in orbit.\n\n✓ Newton’s gravitational law therefore provides the physical explanation for Kepler’s laws.\n\n✓ Greater distance from a massive body → weaker gravitational attraction.\n\n✓ The same law applies to objects on Earth, planets around the Sun, moons around planets and artificial satellites.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 2: QUICK FORMULA SHEET",
+"notes": "◆ PROJECTILE MOTION\n✓ V₀ₓ = V₀cosθ\n✓ V₀ᵧ = V₀sinθ\n✓ x = V₀cosθ·t\n✓ y = V₀sinθ·t − ½gt²\n✓ vᵧ = V₀sinθ − gt\n✓ H = V₀²sin²θ/2g\n✓ T = 2V₀sinθ/g\n✓ R = V₀²sin2θ/g\n\n◆ ROTATIONAL MOTION\n✓ ω = Δθ/Δt\n✓ α = Δω/Δt\n✓ s = rθ\n✓ v = rω\n✓ at = rα\n✓ ωf = ω₀ + αt\n✓ Δθ = ω₀t + ½αt²\n✓ ωf² = ω₀² + 2αΔθ\n\n◆ ROTATIONAL DYNAMICS\n✓ τ = rFsinθ\n✓ I = mr²\n✓ I = Σmr²\n✓ τ = Iα\n\n◆ PLANETARY MOTION\n✓ T² ∝ R³\n✓ T₁²/T₂² = R₁³/R₂³\n\n◆ GRAVITATION\n✓ F = Gm₁m₂/r²\n✓ g = GM/r²",
+"image": null
+}
+]

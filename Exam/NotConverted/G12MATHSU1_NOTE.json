@@ -1,0 +1,163 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 1: SEQUENCES AND SERIES",
+"notes": "✓ Sequence → an ordered list of numbers arranged according to a definite rule.\n\nThe terms of a sequence are denoted by a₁, a₂, a₃, …, aₙ.\n\naₙ → the general term or nth term.\n\n◆ Finite sequence → has a finite number of terms.\n◆ Infinite sequence → continues without an end.\n\nA sequence can be represented by its terms, a formula for aₙ, a recursive rule, or a graph.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.1 SEQUENCES",
+"notes": "✓ A sequence is a function whose domain is a set of consecutive integers or natural numbers and whose range consists of the terms of the sequence.\n\nGeneral term → aₙ gives the value of any term when n is known.\n\nTo find terms from a formula → substitute n = 1, 2, 3, … into aₙ.\n\nExample: If aₙ = 2n − 1:\na₁ = 1, a₂ = 3, a₃ = 5, a₄ = 7, a₅ = 9.\n\n→ Graph of a sequence consists of isolated points (n, aₙ), because the domain consists of discrete integer values.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.1.1 RECURSIVE SEQUENCES",
+"notes": "✓ Recursive sequence → a sequence in which one or more terms are defined using terms that come before them.\n\nA recursive definition normally gives:\n1. Initial term(s)\n2. A rule for obtaining later terms.\n\nFibonacci sequence → 1, 1, 2, 3, 5, 8, …\nEach term after the first two is the sum of the two preceding terms:\nFₙ = Fₙ₋₁ + Fₙ₋₂.\n\nMulatu sequence → introduced by Ethiopian mathematician Professor Mulatu Lemma.\nM₀ = 4, M₁ = 1, and Mₙ = Mₙ₋₁ + Mₙ₋₂ for n ≥ 2.\n\nFibonacci and Mulatu sequences are examples of recursively defined sequences.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.2 ARITHMETIC AND GEOMETRIC SEQUENCES",
+"notes": "✓ Two important types of sequences are arithmetic and geometric sequences.\n\n◆ Arithmetic sequence → consecutive terms have a constant difference.\n◆ Geometric sequence → consecutive terms have a constant non-zero ratio.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.2.1 ARITHMETIC SEQUENCES",
+"notes": "✓ Arithmetic sequence → each term after the first is obtained by adding a fixed number, called the common difference d.\n\nExample: 2, 5, 8, 11, 14, …\nCommon difference: d = 3.\n\nCommon difference:\nd = aₙ − aₙ₋₁\n\nGeneral term:\naₙ = a₁ + (n − 1)d\n\nWhere:\n◆ a₁ → first term\n◆ d → common difference\n◆ n → position of the term\n◆ aₙ → nth term.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "ARITHMETIC SEQUENCE: IMPORTANT RULES",
+"notes": "✓ If a sequence is arithmetic:\n\na₂ = a₁ + d\na₃ = a₁ + 2d\na₄ = a₁ + 3d\naₙ = a₁ + (n − 1)d\n\nFinding d when two terms are known:\naₙ − aₘ = (n − m)d\n\nTherefore:\nd = (aₙ − aₘ)/(n − m)\n\n◆ If d > 0 → increasing sequence.\n◆ If d < 0 → decreasing sequence.\n◆ If d = 0 → constant sequence.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "ARITHMETIC MEAN",
+"notes": "✓ Arithmetic mean → the number inserted between two numbers to form an arithmetic sequence.\n\nIf a, m, b are consecutive terms of an arithmetic sequence:\nm − a = b − m\n\nTherefore:\nm = (a + b)/2\n\n→ To insert several arithmetic means, use the arithmetic-sequence formula and determine the required common difference.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.2.2 GEOMETRIC SEQUENCES",
+"notes": "✓ Geometric sequence → a sequence in which the ratio between consecutive terms is a non-zero constant.\n\nCommon ratio:\nr = aₙ/aₙ₋₁\n\nExample: 3, 6, 12, 24, 48, …\nr = 2.\n\nGeneral term:\naₙ = a₁rⁿ⁻¹\n\nWhere:\n◆ a₁ → first term\n◆ r → common ratio\n◆ n → position\n◆ aₙ → nth term.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "GEOMETRIC SEQUENCE: IMPORTANT RULES",
+"notes": "✓ For a geometric sequence:\n\na₂ = a₁r\na₃ = a₁r²\na₄ = a₁r³\naₙ = a₁rⁿ⁻¹\n\nIf two terms are known:\naₙ/aₘ = rⁿ⁻ᵐ\n\n◆ r > 1 → terms increase in magnitude when the first term is positive.\n◆ 0 < r < 1 → terms approach zero when continued indefinitely.\n◆ r < 0 → signs alternate between positive and negative.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "GEOMETRIC MEAN",
+"notes": "✓ Geometric mean → a number inserted between two non-zero numbers so that the resulting terms form a geometric sequence.\n\nIf a, m, b are consecutive geometric terms:\nm/a = b/m\n\nTherefore:\nm² = ab\n\nGeometric mean:\nm = √(ab)\n\n→ For appropriate signed values, the sign of m must also satisfy the required common ratio.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.3 Σ SIGMA NOTATION AND PARTIAL SUMS",
+"notes": "✓ Partial sum → the sum of the first n terms of a sequence.\n\nSₙ = a₁ + a₂ + a₃ + … + aₙ\n\n✓ Sigma notation → a concise way of writing a long sum using the Greek letter Σ.\n\nGeneral form:\nΣₖ₌ₘⁿ aₖ\n\nmeans:\naₘ + aₘ₊₁ + aₘ₊₂ + … + aₙ.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "Σ PROPERTIES OF SIGMA NOTATION",
+"notes": "✓ Important properties:\n\n◆ Constant multiple:\nΣ(caₖ) = cΣaₖ\n\n◆ Sum of two sequences:\nΣ(aₖ + bₖ) = Σaₖ + Σbₖ\n\n◆ Difference:\nΣ(aₖ − bₖ) = Σaₖ − Σbₖ\n\n◆ Constant:\nΣc = nc, when n terms are being summed.\n\n→ Sigma notation is useful for representing both finite sums and the partial sums used to study infinite series.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "TELESCOPING SEQUENCES",
+"notes": "✓ Telescoping sequence/series → a sum in which consecutive terms cancel when expanded.\n\nExample structure:\n(a₁ − a₂) + (a₂ − a₃) + (a₃ − a₄) + …\n\n→ Most intermediate terms cancel, leaving only the first and last terms.\n\nTelescoping is useful for finding partial sums quickly.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.3.2 SUM OF ARITHMETIC SEQUENCES",
+"notes": "✓ For an arithmetic sequence with first term a₁, last term aₙ, common difference d, and n terms:\n\nSum of first n terms:\nSₙ = n/2 [2a₁ + (n − 1)d]\n\nAlso:\nSₙ = n/2(a₁ + aₙ)\n\nSum of the first n natural numbers:\n1 + 2 + 3 + … + n = n(n + 1)/2\n\n→ These formulas can be used when the first term, last term, common difference, or number of terms is known.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "ARITHMETIC SUM PROBLEMS",
+"notes": "To solve an arithmetic-series problem:\n\n1. Identify a₁, d and n, or identify a₁ and aₙ.\n\n2. Find any missing term using:\naₙ = a₁ + (n − 1)d\n\n3. Use:\nSₙ = n/2(a₁ + aₙ)\n\n→ For a sequence whose terms represent quantities increasing or decreasing by a constant amount, the total is found using the arithmetic-series formula.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.3.3 SUM OF GEOMETRIC SEQUENCES",
+"notes": "✓ For a geometric sequence with first term a₁, common ratio r, and n terms:\n\nFinite geometric sum:\nSₙ = a₁(1 − rⁿ)/(1 − r),  r ≠ 1\n\nEquivalent form:\nSₙ = a₁(rⁿ − 1)/(r − 1)\n\nIf r = 1:\nSₙ = na₁.\n\n→ Use the formula when the terms form a geometric progression.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.4 INFINITE SERIES",
+"notes": "✓ Infinite series → the sum of infinitely many terms of a sequence.\n\nAn infinite sequence lists terms indefinitely.\n\nAn infinite series is formed by adding those terms.\n\nExample:\na₁ + a₂ + a₃ + …\n\n→ The partial sum Sₙ is used to investigate whether the infinite series approaches a finite value.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.4.1 CONVERGENCE AND DIVERGENCE",
+"notes": "✓ Convergent sequence → approaches a finite limit as n → ∞.\n\n◆ Divergent to +∞ → terms increase without bound.\n◆ Divergent to −∞ → terms decrease without bound.\n◆ Vibrating/oscillating sequence → does not approach a single limit because its values continue to oscillate.\n\nFor a geometric sequence aₙ = a₁rⁿ⁻¹:\n\n◆ |r| < 1 → aₙ → 0, so the sequence converges.\n◆ r = 1 → constant sequence.\n◆ r > 1 → diverges in magnitude.\n◆ r ≤ −1 → generally oscillates/diverges.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "INFINITE GEOMETRIC SERIES",
+"notes": "✓ For:\na₁ + a₁r + a₁r² + a₁r³ + …\n\nThe infinite geometric series converges only when:\n|r| < 1\n\nIts sum is:\nS∞ = a₁/(1 − r)\n\nIf |r| ≥ 1 → the infinite geometric series does not have a finite sum; it diverges or oscillates.\n\nExample:\n1 + 1/2 + 1/4 + 1/8 + …\n\nS∞ = 1/(1 − 1/2) = 2.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "RECURRING DECIMALS AS INFINITE SERIES",
+"notes": "✓ A recurring/repeating decimal can be represented as an infinite geometric series and converted into a fraction.\n\nExample:\n0.3333… = 0.3 + 0.03 + 0.003 + …\n\nThis is a geometric series with:\na₁ = 0.3 and r = 0.1.\n\nTherefore:\nS∞ = 0.3/(1 − 0.1) = 1/3.\n\n→ A repeating decimal can therefore be expressed as a rational number.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "1.5 APPLICATIONS OF SEQUENCES AND SERIES IN DAILY LIFE",
+"notes": "✓ Sequences and series are used to model real-life situations involving regular increases, decreases, growth, repeated changes and patterns.\n\n◆ Arithmetic sequences → situations with a constant increase or decrease.\n\nExamples → salaries increasing by a fixed amount, production increasing by a fixed number, regularly spaced quantities.\n\n◆ Geometric sequences → situations involving multiplication by a constant factor.\n\nExamples → percentage growth, depreciation, repeated reduction, compound-type growth, and repeated proportional changes.\n\n→ Choose arithmetic when the change is constant.\n→ Choose geometric when the ratio or percentage change is constant.",
+"image": null
+},
+
+{
+"type": "note",
+"title": "APPLICATION FORMULAS",
+"notes": "For regular fixed increases:\naₙ = a₁ + (n − 1)d\nSₙ = n/2(a₁ + aₙ)\n\nFor repeated proportional growth:\naₙ = a₁rⁿ⁻¹\n\nFor a geometric total:\nSₙ = a₁(1 − rⁿ)/(1 − r)\n\nFor an infinite geometric process with |r| < 1:\nS∞ = a₁/(1 − r)\n\n→ Word problems should first be translated into a sequence or series before choosing the formula.",
+"image": null
+},
+
+{
+"type": "note",
+"title": " UNIT 1 KEY TERMS & FORMULAS",
+"notes": "✓ Sequence → ordered list of numbers following a rule.\n\nGeneral term → aₙ, the nth term.\n\nRecursive sequence → terms defined using preceding terms.\n\nArithmetic sequence → constant difference d.\n\nArithmetic nth term → aₙ = a₁ + (n − 1)d.\n\nArithmetic sum → Sₙ = n/2(a₁ + aₙ).\n\nGeometric sequence → constant ratio r.\n\nGeometric nth term → aₙ = a₁rⁿ⁻¹.\n\nGeometric mean → m = √(ab).\n\nFinite geometric sum → Sₙ = a₁(1 − rⁿ)/(1 − r).\n\nPartial sum → sum of the first n terms.\n\nSigma notation → Σ, compact notation for sums.\n\nInfinite series → sum of infinitely many terms.\n\nConvergent → approaches a finite limit.\n\nDivergent → does not approach a finite limit.\n\nInfinite geometric sum → S∞ = a₁/(1 − r), when |r| < 1.",
+"image": null
+}
+]

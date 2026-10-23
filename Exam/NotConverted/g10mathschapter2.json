@@ -1,0 +1,1172 @@
+[
+  {
+    "question": "Which one of the following expressions is a polynomial function?",
+    "options": [
+      "f(x) = 3x² + 5x - 1 / x",
+      "g(x) = 4x^(1/2) + 2x + 7",
+      "h(x) = (x³ - 8) / (x + 2)",
+      "p(x) = 2x⁴ - x³ + 5x - 1"
+    ],
+    "answer": 3,
+    "explanation": "A polynomial function must have non-negative integer exponents.\n Options 0 and 2 are rational functions, and Option 1 has a non-integer exponent (1/2).\n Option 3 satisfies the definition."
+  },
+  {
+    "question": "What is the degree and leading coefficient of the polynomial P(x) = (x² + 3)(4x³ - 5)?",
+    "options": [
+      "Degree 6, Leading Coefficient 4",
+      "Degree 5, Leading Coefficient 4",
+      "Degree 5, Leading Coefficient 1",
+      "Degree 6, Leading Coefficient 12"
+    ],
+    "answer": 1,
+    "explanation": "To find the degree, multiply the highest degree terms: x² * 4x³ = 4x⁵. \nThe degree is 5 and the leading coefficient is 4."
+  },
+  {
+    "question": "If P(x) = 2x³ - x² + 3x - 5, what is the value of P(-1)?",
+    "options": [
+      "-11",
+      "-1",
+      "5",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "Using direct substitution: P(-1) = 2(-1)³ - (-1)² + 3(-1) - 5 = 2(-1) - 1 - 3 - 5 = -2 - 1 - 3 - 5 = -11."
+  },
+  {
+    "question": "According to the Remainder Theorem, when the polynomial P(x) is divided by (x - c), the remainder is:",
+    "options": [
+      "P(c)",
+      "P(-c)",
+      "0",
+      "x - c"
+    ],
+    "answer": 0,
+    "explanation": "The Remainder Theorem states that when a polynomial P(x) is divided by the linear factor (x - c), the remainder is equal to P(c)."
+  },
+  {
+    "question": "Find the remainder when P(x) = x⁴ - 2x² + 3 is divided by (x - 2).",
+    "options": [
+      "11",
+      "7",
+      "3",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "Using the Remainder Theorem: R = P(2) = (2)⁴ - 2(2)² + 3 = 16 - 2(4) + 3 = \n16 - 8 + 3 = 11."
+  },
+  {
+    "question": "Which of the following is a factor of P(x) = x³ + x² - 10x + 8?",
+    "options": [
+      "(x + 1)",
+      "(x - 2)",
+      "(x + 4)",
+      "(x - 4)"
+    ],
+    "answer": 1,
+    "explanation": "According to the Factor Theorem, if (x - c) is a factor, P(c) = 0.\n Check x = 2: P(2) = 2³ + 2² - 10(2) + 8 = 8 + 4 - 20 + 8 = 0.\n Thus, (x - 2) is a factor."
+  },
+  {
+    "question": "If (x + 3) is a factor of P(x) = x³ + 4x² + kx - 6, what is the value of k?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "By the Factor Theorem, P(-3) = 0.\n (-3)³ + 4(-3)² + k(-3) - 6 = 0.\n -27 + 4(9) - 3k - 6 = 0. \n-27 + 36 - 3k - 6 = 0.\n 3 - 3k = 0.\n 3k = 3, so k = 1."
+  },
+  {
+    "question": "What is the maximum number of real roots a polynomial of degree 4 can have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree n has exactly n roots (real or complex). \nTherefore, a degree 4 polynomial can have a maximum of 4 real roots."
+  },
+  {
+    "question": "Which one of the following could be the end behavior of a polynomial with an odd degree and a negative leading coefficient?",
+    "options": [
+      "As x → ∞, P(x) → ∞ and as x → -∞, P(x) → ∞",
+      "As x → ∞, P(x) → -∞ and as x → -∞, P(x) → ∞",
+      "As x → ∞, P(x) → ∞ and as x → -∞, P(x) → -∞",
+      "As x → ∞, P(x) → -∞ and as x → -∞, P(x) → -∞"
+    ],
+    "answer": 1,
+    "explanation": "For an odd degree polynomial, the ends go in opposite directions. \n\nWith a negative leading coefficient, the graph falls to the right (x → ∞, P(x) → -∞) and rises to the left (x → -∞, P(x) → ∞)."
+  },
+  {
+    "question": "The zero x = 3 has a multiplicity of 2 in the polynomial P(x). What does this imply about the graph of P(x) at x = 3?",
+    "options": [
+      "The graph crosses the x-axis.",
+      "The graph is undefined.",
+      "The graph touches the x-axis and turns around.",
+      "The graph has a vertical asymptote."
+    ],
+    "answer": 2,
+    "explanation": "If a zero has an even multiplicity, the graph touches the x-axis at that point and then turns back in the same direction."
+  },
+  {
+    "question": "Which polynomial has zeros at x = -1, x = 2, and x = 0?",
+    "options": [
+      "P(x) = x(x - 1)(x + 2)",
+      "P(x) = x(x + 1)(x - 2)",
+      "P(x) = (x + 1)²(x - 2)",
+      "P(x) = x²(x + 1)(x - 2)"
+    ],
+    "answer": 1,
+    "explanation": "The factors corresponding to the zeros -1, 2, and 0 are (x + 1), (x - 2), and (x - 0) or x.\n The polynomial is P(x) = x(x + 1)(x - 2)."
+  },
+  {
+    "question": "Find the quotient when x³ - 7x - 6 is divided by (x + 1).",
+    "options": [
+      "x² - x - 6",
+      "x² + x + 6",
+      "x² - 6",
+      "x² + x"
+    ],
+    "answer": 0,
+    "explanation": "Using synthetic division with c = -1: (-1) | 1, 0, -7, -6 → 1, -1, -6, 0. \nThe quotient is x² - x - 6."
+  },
+  {
+    "question": "What is the remainder when x¹⁰⁰ - 1 is divided by (x - 1)?",
+    "options": [
+      "100",
+      "2",
+      "1",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": "By the Remainder Theorem, R = P(1) = (1)¹⁰⁰ - 1 = 1 - 1 = 0. \nSince the remainder is 0, (x - 1) is a factor."
+  },
+  {
+    "question": "A polynomial has a local maximum at x = a and a local minimum at x = b. The number of turning points in the interval (a, b) is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "Local maximum and local minimum are themselves turning points.\n\n The function is monotonic (strictly decreasing) between a local maximum and the next local minimum, meaning there are no more turning points in the interval (a, b)."
+  },
+  {
+    "question": "Which term determines the end behavior of the polynomial P(x) = 3x⁵ - 4x³ + 7x - 2?",
+    "options": [
+      "-2",
+      "7x",
+      "-4x³",
+      "3x⁵"
+    ],
+    "answer": 3,
+    "explanation": "The end behavior of a polynomial is determined by its leading term, which is the term with the highest degree, 3x⁵."
+  },
+  {
+    "question": "If x = 1 is a zero of P(x) = x³ + ax² - 5x + 3, what is the value of a?",
+    "options": [
+      "1",
+      "0",
+      "5",
+      "-5"
+    ],
+    "answer": 0,
+    "explanation": "Since x = 1 is a zero, P(1) = 0. \n(1)³ + a(1)² - 5(1) + 3 = 0.\n 1 + a - 5 + 3 = 0.\n a - 1 = 0.\n a = 1."
+  },
+  {
+    "question": "The quadratic function f(x) = -2x² + 8x - 1 has a maximum value at which x-coordinate?",
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 8",
+      "x = 4"
+    ],
+    "answer": 0,
+    "explanation": "The x-coordinate of the vertex (where max/min occurs) is given by x = -b / (2a).\n Here, a = -2, b = 8.\n x = -8 / (2 * -2) = -8 / -4 = 2.\n Since a < 0, it is a maximum."
+  },
+  {
+    "question": "What is the least possible degree of a polynomial whose graph has 3 turning points?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "A polynomial of degree n can have at most n - 1 turning points.\n If there are 3 turning points, the minimum degree must be n - 1 = 3, so n = 4."
+  },
+  {
+    "question": "Which of the following is NOT a possible rational root of P(x) = 2x³ + x² - 4x + 3?",
+    "options": [
+      "1 / 2",
+      "3 / 2",
+      "2",
+      "-1"
+    ],
+    "answer": 2,
+    "explanation": "The possible rational roots are ±(factors of 3) / (factors of 2) =\n ±{1, 3} / {1, 2} = ±{1, 3, 1/2, 3/2}. \nThe value 2 is not in this set."
+  },
+  {
+    "question": "The polynomial P(x) = x⁴ + 1 is reducible over the set of:",
+    "options": [
+      "Real numbers",
+      "Rational numbers",
+      "Integers",
+      "Complex numbers"
+    ],
+    "answer": 3,
+    "explanation": "While x⁴ + 1 has no real roots, it can always be factored into two real quadratic factors.\n\n However, any polynomial of degree n can be completely factored into n linear factors over the complex numbers."
+  },
+  {
+    "question": "Find the remainder when P(x) = 5x³ - 2x² + 1 is divided by (x + 1).",
+    "options": [
+      "-2",
+      "4",
+      "-6",
+      "-8"
+    ],
+    "answer": 3,
+    "explanation": "R = P(-1) = 5(-1)³ - 2(-1)² + 1 =\n 5(-1) - 2(1) + 1 = \n-5 - 2 + 1 =\n -6."
+  },
+  {
+    "question": "How many distinct real roots does the polynomial P(x) = x³ - 3x² + 3x - 1 have?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "P(x) = x³ - 3x² + 3x - 1 is the expansion of (x - 1)³.\n It has one distinct real root, x = 1, with a multiplicity of 3."
+  },
+  {
+    "question": "What is the maximum value of the function f(x) = -x² + 6x - 2?",
+    "options": [
+      "7",
+      "6",
+      "-2",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "The x-coordinate of the maximum is x = -b / (2a) = \n-6 / (2 * -1) = 3. \nThe maximum value is f(3) = -(3)² + 6(3) - 2 = \n-9 + 18 - 2 = 7."
+  },
+  {
+    "question": "If P(x) is a polynomial such that P(2) = 0 and P(-3) = 5, then P(x) must be divisible by:",
+    "options": [
+      "(x - 3)",
+      "(x + 3)",
+      "(x - 2)",
+      "(x + 5)"
+    ],
+    "answer": 2,
+    "explanation": "Since P(2) = 0, the Factor Theorem implies that (x - 2) is a factor, meaning P(x) is divisible by (x - 2)."
+  },
+  {
+    "question": "The graph of the polynomial P(x) = x⁴ - 4x² passes through the point:",
+    "options": [
+      "(1, -3)",
+      "(2, 0)",
+      "(0, -4)",
+      "(-1, 5)"
+    ],
+    "answer": 1,
+    "explanation": "Check P(2): P(2) = (2)⁴ - 4(2)² = 16 - 4(4) = 16 - 16 = 0. \n\nThus, the point (2, 0) is on the graph."
+  },
+  {
+    "question": "If Q(x) is the quotient and R is the remainder when P(x) is divided by D(x), then P(x) = D(x)Q(x) + R. This statement is known as the:",
+    "options": [
+      "Factor Theorem",
+      "Rational Root Theorem",
+      "Division Algorithm for Polynomials",
+      "Fundamental Theorem of Algebra"
+    ],
+    "answer": 2,
+    "explanation": "This expression is the formal statement of the Division Algorithm for Polynomials."
+  },
+  {
+    "question": "For the polynomial P(x) = -5x⁶ + 2x⁴ - x + 9, the end behavior is:",
+    "options": [
+      "Up to the right, Up to the left",
+      "Down to the right, Up to the left",
+      "Up to the right, Down to the left",
+      "Down to the right, Down to the left"
+    ],
+    "answer": 3,
+    "explanation": "The degree is even (6) and the leading coefficient is negative (-5).\n\n For an even degree with a negative leading coefficient, both ends point down."
+  },
+
+  {
+    "question": "The polynomial P(x) = x² + 2x + 1 can be rewritten as:",
+    "options": [
+      "(x + 1)(x - 1)",
+      "(x + 1)²",
+      "(x² + 1)(x + 1)",
+      "(x² - 1)(x - 1)"
+    ],
+    "answer": 1,
+    "explanation": "This is a perfect square trinomial: x² + 2x + 1 = \n(x + 1)(x + 1) = (x + 1)²."
+  },
+
+  {
+    "question": "What is the degree of the zero polynomial P(x) = 0?",
+    "options": [
+      "0",
+      "1",
+      "Undefined",
+      "Negative infinity"
+    ],
+    "answer": 2,
+    "explanation": "The degree of the zero polynomial is typically considered **undefined** or, in some contexts, negative infinity, but 'Undefined' is the most common answer in a multiple-choice setting."
+  },
+  {
+    "question": "If P(x) = x² + 5x - 6, find the value of (P(3) - P(1)).",
+    "options": [
+      "18",
+      "10",
+      "28",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "P(3) = 3² + 5(3) - 6 = 9 + 15 - 6 = 18.\n P(1) = 1² + 5(1) - 6 = 1 + 5 - 6 = 0.\n P(3) - P(1) = 18 - 0 =\n 18."
+  },
+  {
+    "question": "Which of the following is equivalent to (x - 1)(x + 1)(x² + 1)?",
+    "options": [
+      "x³ - 1",
+      "x⁴ - 1",
+      "x³ + x² - x - 1",
+      "x⁴ + x² - 2x + 1"
+    ],
+    "answer": 1,
+    "explanation": "First, (x - 1)(x + 1) = x² - 1. \nThen (x² - 1)(x² + 1) = (x²)² - 1² \n= x⁴ - 1 (difference of squares)."
+  },
+  {
+    "question": "If 2x³ + kx² + 4x - 1 is divided by (x - 1), the remainder is 6. What is the value of k?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "-1"
+    ],
+    "answer": 3,
+    "explanation": "By the Remainder Theorem, P(1) = 6.\n 2(1)³ + k(1)² + 4(1) - 1 = 6. 2 + k + 4 - 1 = 6.\n k + 5 = 6. k = 1."
+  },
+  {
+    "question": "The sum of the roots of the cubic polynomial P(x) = 2x³ - 4x² + 5x - 1 is:",
+    "options": [
+      "-2",
+      "2",
+      "5 / 2",
+      "-5 / 2"
+    ],
+    "answer": 1,
+    "explanation": "For a cubic polynomial ax³ + bx² + cx + d, the sum of the roots is -b/a.\n Here, a = 2, b = -4.\n Sum = -(-4) / 2 = \n4 / 2 = 2."
+  },
+  {
+    "question": "What is the degree of the polynomial P(x) = 7?",
+    "options": [
+      "0",
+      "1",
+      "7",
+      "Undefined"
+    ],
+    "answer": 0,
+    "explanation": "A non-zero constant polynomial, like P(x) = 7, can be written as P(x) = 7x⁰, so its degree is 0."
+  },
+  {
+    "question": "Which one of the following is an example of a monomial?",
+    "options": [
+      "3x² + 1",
+      "x - 5",
+      "x / 2",
+      "x² + x - 1"
+    ],
+    "answer": 2,
+    "explanation": "A monomial is a polynomial with only one term.\n Options 0, 1, and 3 are binomials or trinomials.\n Option 2, x/2 = (1/2)x, is a monomial of degree 1."
+  },
+  {
+    "question": "If P(x) = x⁴ - 16, then the zeros of P(x) are:",
+    "options": [
+      "{2}",
+      "{-2, 2}",
+      "{-2, 2, -2i, 2i}",
+      "{-4, 4}"
+    ],
+    "answer": 2,
+    "explanation": "x⁴ - 16 = (x² - 4)(x² + 4) = \n(x - 2)(x + 2)(x - 2i)(x + 2i).\n The four roots (zeros) are -2, 2, -2i, and 2i."
+  },
+  {
+    "question": "What is the remainder when x²⁰²⁴ + 1 is divided by (x + 1)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "2024"
+    ],
+    "answer": 2,
+    "explanation": "R = P(-1) = (-1)²⁰²⁴ + 1. \nSince 2024 is an even number, (-1)²⁰²⁴ = 1. \nR = 1 + 1 = 2."
+  },
+  {
+    "question": "The graph of an even degree polynomial with a positive leading coefficient must have a minimum value that is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Absolute (or global)"
+    ],
+    "answer": 3,
+    "explanation": "An even degree polynomial with a positive leading coefficient opens upwards, meaning both ends go to infinity.\n It must therefore have an absolute minimum value."
+  },
+  {
+    "question": "If the multiplicity of a root is an odd number greater than 1, the graph of the polynomial at that root will:",
+    "options": [
+      "Touch the x-axis and turn around.",
+      "Cross the x-axis and flatten out (inflection point).",
+      "Be tangent to the x-axis.",
+      "Have a vertical asymptote."
+    ],
+    "answer": 1,
+    "explanation": "Odd multiplicity (e.g., 3, 5, 7) means the graph crosses the x-axis, but the higher multiplicity causes the graph to flatten out near the zero."
+  },
+  {
+    "question": "Find the product of the roots of the cubic polynomial P(x) = x³ - 7x² + 4x - 12.",
+    "options": [
+      "12",
+      "-12",
+      "4",
+      "-4"
+    ],
+    "answer": 0,
+    "explanation": "For a cubic polynomial ax³ + bx² + cx + d, the product of the roots is -d/a.\n\n Here, a = 1, d = -12.\n Product = -(-12) / 1 =\n 12."
+  },
+  {
+    "question": "If P(x) = (x² - 9)(x + 2), which of the following is NOT a zero of P(x)?",
+    "options": [
+      "3",
+      "-3",
+      "2",
+      "-2"
+    ],
+    "answer": 2,
+    "explanation": "Set the factors to zero: x² - 9 = 0 gives x = 3, x = -3.\n x + 2 = 0 gives x = -2.\n The zeros are {3, -3, -2}. \nThe value 2 is not a zero."
+  },
+  {
+    "question": "How many local maxima and minima can a polynomial of degree 5 have, at most?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "A polynomial of degree n can have at most n - 1 turning points (local extrema).\n For degree 5, the maximum is 5 - 1 = 4."
+  },
+  {
+    "question": "The result of (x³ - 5x² + 2x - 1) - (x³ - 3x² + 5x + 1) is:",
+    "options": [
+      "-2x² - 3x - 2",
+      "-8x² + 7x",
+      "-2x² - 3x",
+      "2x³ - 8x² - 3x - 2"
+    ],
+    "answer": 0,
+    "explanation": "Subtract term by term: (x³ - x³) + (-5x² - (-3x²)) + (2x - 5x) + (-1 - 1) =\n 0 - 2x² - 3x - 2."
+  },
+  {
+    "question": "The Rational Root Theorem provides a list of possible rational roots for P(x) = 6x³ - x² + 2x - 4. What is the value of P(1) in this context?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "The question asks for the evaluation of P(1), which can be one of the potential tests for a root.\n P(1) = 6(1)³ - (1)² + 2(1) - 4 =\n 6 - 1 + 2 - 4 = \n3."
+  },
+
+  {
+    "question": "If P(x) = x³ - 2x² + x - 2, then P(x) can be factored as:",
+    "options": [
+      "(x - 2)(x² + 1)",
+      "(x + 2)(x² - 1)",
+      "(x - 2)(x + 1)²",
+      "(x - 2)(x² - 1)"
+    ],
+    "answer": 0,
+    "explanation": "Factor by grouping: x²(x - 2) + 1(x - 2) =\n (x² + 1)(x - 2).\n P(x) = (x - 2)(x² + 1)."
+  },
+  {
+    "question": "For what values of x is the quadratic function f(x) = x² - 4x + 3 equal to zero?",
+    "options": [
+      "x = 1, x = 3",
+      "x = -1, x = 3",
+      "x = 1, x = -3",
+      "x = 0, x = 3"
+    ],
+    "answer": 0,
+    "explanation": "Factor the quadratic: x² - 4x + 3 = 0.\n (x - 1)(x - 3) = 0.\n The zeros are x = 1 and x = 3."
+  },
+  {
+    "question": "If P(x) has a zero at x = 5 with multiplicity 3, which of the following is true?",
+    "options": [
+      "(x + 5)³ is a factor of P(x).",
+      "P(5) is the remainder when divided by (x + 5).",
+      "(x - 5)³ is a factor of P(x).",
+      "The graph touches the x-axis at x = 5."
+    ],
+    "answer": 2,
+    "explanation": "A zero at x = 5 means (x - 5) is a factor.\n\n Multiplicity 3 means the factor is raised to the power of 3: (x - 5)³ is a factor."
+  },
+  {
+    "question": "The leading term of a polynomial is 3x⁸. What is the approximate value of P(x) when x is a very large positive number?",
+    "options": [
+      "Close to 0",
+      "A very large positive number",
+      "A very large negative number",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "Since the leading term has an even degree (8) and a positive coefficient (3), as x → ∞, P(x) → ∞ (a very large positive number)."
+  },
+  {
+    "question": "What is the remainder when x²⁰²⁵ - 1 is divided by (x + 1)?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "answer": 3,
+    "explanation": "R = P(-1) = (-1)²⁰²⁵ - 1. \nSince 2025 is an odd number, (-1)²⁰²⁵ = -1.\n R = -1 - 1 = -2."
+  },
+  {
+    "question": "The product of the roots of the quadratic equation 3x² - 5x - 2 = 0 is:",
+    "options": [
+      "5 / 3",
+      "-5 / 3",
+      "2 / 3",
+      "-2 / 3"
+    ],
+    "answer": 3,
+    "explanation": "For a quadratic ax² + bx + c, the product of the roots is c/a.\n Here, a = 3, c = -2.\n Product = -2 / 3."
+  },
+  {
+    "question": "If (x - a) is a factor of P(x), which equation must be true?",
+    "options": [
+      "P(a) = 1",
+      "P(0) = a",
+      "P(a) = 0",
+      "P(x) / (x - a) = 0"
+    ],
+    "answer": 2,
+    "explanation": "This is the statement of the Factor Theorem: (x - a) is a factor if and only if P(a) = 0."
+  },
+  {
+    "question": "What is the result of (x + 2)² - (x² + 4)?",
+    "options": [
+      "4x",
+      "4",
+      "2x² + 4x + 8",
+      "2x² + 8"
+    ],
+    "answer": 0,
+    "explanation": "(x + 2)² - (x² + 4) =\n (x² + 4x + 4) - (x² + 4) =\n x² - x² + 4x + 4 - 4 =\n 4x."
+  },
+
+
+
+  {
+    "question": "What is the smallest number of real roots that a polynomial of degree 5 must have?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Odd degree polynomials must have at least one real root because their end behaviors go in opposite directions (one end to -∞, the other to ∞), guaranteeing they must cross the x-axis."
+  },
+  {
+    "question": "If x³ - 6x² + 11x - 6 = (x - 1)(x - 2)(x - k), what is the value of k?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "The product of the roots is -d/a = -(-6)/1 = 6.\n The roots are 1, 2, and k.\n So, 1 * 2 * k = 6.\n 2k = 6, \nk = 3."
+  },
+  {
+    "question": "The factored form of x³ + 2x² - x - 2 is:",
+    "options": [
+      "(x - 1)(x + 1)(x + 2)",
+      "(x + 1)(x + 2)(x - 2)",
+      "x(x + 1)(x - 2)",
+      "(x² - 1)(x - 2)"
+    ],
+    "answer": 0,
+    "explanation": "Factor by grouping: x²(x + 2) - 1(x + 2) = \n(x² - 1)(x + 2) =\n (x - 1)(x + 1)(x + 2)."
+  },
+  {
+    "question": "If P(x) is a polynomial such that P(a) = 0, then the line x = a is a zero of the polynomial. This statement is:",
+    "options": [
+      "Always true",
+      "Always false",
+      "True only for odd degree polynomials",
+      "True only for even degree polynomials"
+    ],
+    "answer": 1,
+    "explanation": "A zero is an x-value (a point), not a line.\n The line x = a is a vertical line.\n The zero is x = a itself."
+  },
+  {
+    "question": "The graph of the polynomial P(x) = x⁴ - x² has how many turning points?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which is the correct set of possible rational roots for P(x) = 3x² + 2x - 5?",
+    "options": [
+      "±{1, 3, 5}",
+      "±{1, 5, 1/3, 5/3}",
+      "±{1, 3, 5, 3/5}",
+      "±{1, 5/3}"
+    ],
+    "answer": 1,
+    "explanation": "Possible rational roots are ±(factors of 5) / (factors of 3) = \n±{1, 5} / {1, 3} = \n±{1, 5, 1/3, 5/3}."
+  },
+  {
+    "question": "The result of dividing x³ - 1 by (x - 1) is:",
+    "options": [
+      "x² - 1",
+      "x² + x + 1",
+      "x² + 1",
+      "x² - x + 1"
+    ],
+    "answer": 1,
+    "explanation": "This is the difference of cubes factorization: x³ - 1 =\n (x - 1)(x² + x + 1).\n Dividing by (x - 1) gives x² + x + 1."
+  },
+
+  {
+    "question": "The number of non-real roots of a polynomial with real coefficients is always:",
+    "options": [
+      "Odd",
+      "Even",
+      "Prime",
+      "Non-zero"
+    ],
+    "answer": 1,
+    "explanation": "The Conjugate Root Theorem states that for a polynomial with real coefficients, non-real complex roots must occur in conjugate pairs.\n Therefore, their number must always be even."
+  },
+  {
+    "question": "The remainder when P(x) = x³ + 2x² - 5 is divided by (x + 2) is:",
+    "options": [
+      "3",
+      "-5",
+      "0",
+      "-2"
+    ],
+    "answer": 1,
+    "explanation": "R = P(-2) = (-2)³ + 2(-2)² - 5 =\n -8 + 2(4) - 5 = \n-8 + 8 - 5 =\n -5."
+  },
+
+  {
+    "question": "If P(x) = x³ + 3x² + 3x + 1, what is the multiplicity of the root x = -1?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "The polynomial is a perfect cube: P(x) = (x + 1)³.\n The root x = -1 is repeated 3 times, so its multiplicity is 3."
+  },
+
+
+
+
+  {
+    "question": "If P(x) = (x + 1)(x² - 4), then P(x) has a real root at:",
+    "options": [
+      "x = 4",
+      "x = -4",
+      "x = -1",
+      "x = 1 / 4"
+    ],
+    "answer": 2,
+    "explanation": "The factors are (x + 1), (x - 2), and (x + 2).\n The real roots are -1, 2, -2. \nx = -1 is one of the choices."
+  },
+  {
+    "question": "What is the remainder when x¹⁰ - 2 is divided by (x - 2)?",
+    "options": [
+      "1022",
+      "1024",
+      "1026",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "R = P(2) =\n 2¹⁰ - 2 = \n1024 - 2 = \n1022."
+  },
+  {
+    "question": "If f(x) = 4x + 1 and g(x) = x² - 3, then f(x)g(x) is a polynomial of degree:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "The degree of the product is the sum of the degrees: degree(f) = 1, degree(g) = 2.\n Degree(fg) = 1 + 2 = 3."
+  },
+  {
+    "question": "Which of the following is the best way to determine if a rational number c is a zero of P(x)?",
+    "options": [
+      "Check if P'(c) = 0.",
+      "Check if P(c) is the leading coefficient.",
+      "Check if P(c) = 0.",
+      "Check if P(x) is even or odd."
+    ],
+    "answer": 2,
+    "explanation": "A value c is a zero (or root) of a polynomial P(x) if and only if P(c) = 0."
+  },
+  {
+    "question": "The polynomial P(x) = x² + 4 has no real zeros. This is because:",
+    "options": [
+      "It is an odd function.",
+      "It is a constant function.",
+      "Its discriminant (b² - 4ac) is negative.",
+      "Its degree is even."
+    ],
+    "answer": 2,
+    "explanation": "For P(x) = x² + 4 (a=1, b=0, c=4), the discriminant is 0² - 4(1)(4) = -16.\n A negative discriminant indicates no real roots."
+  },
+  {
+    "question": "If the polynomial P(x) has 3 turning points, which of the following could be its degree?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "A polynomial of degree n can have at most n - 1 turning points.\n Since n - 1 = 3, the degree n must be 4."
+  },
+
+  {
+    "question": "The result of (2x³ - 5) + (x³ + 2x - 1) is:",
+    "options": [
+      "3x³ + 2x - 6",
+      "2x⁶ - 5",
+      "3x³ - 2x - 6",
+      "3x³ + 2x + 4"
+    ],
+    "answer": 0,
+    "explanation": "Combine like terms: (2x³ + x³) + 2x + (-5 - 1) =\n 3x³ + 2x - 6."
+  },
+
+
+  {
+    "question": "The term of degree 4 in the polynomial P(x) = (2x² + 1)(x² - 3) is:",
+    "options": [
+      "2x⁴",
+      "x⁴",
+      "-6x²",
+      "-3"
+    ],
+    "answer": 0,
+    "explanation": "The degree 4 term comes from multiplying the degree 2 terms: \n(2x²) * (x²) = 2x⁴."
+  },
+  {
+    "question": "What is the remainder when P(x) = x¹⁰⁰ - 1 is divided by (x + 1)?",
+    "options": [
+      "-2",
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "R = P(-1) =\n (-1)¹⁰⁰ - 1 =\n 1 - 1 = 0."
+  },
+
+  {
+    "question": "For a quadratic function f(x) = ax² + bx + c, the graph is a parabola that opens downward if:",
+    "options": [
+      "b > 0",
+      "a < 0",
+      "c < 0",
+      "b² - 4ac > 0"
+    ],
+    "answer": 1,
+    "explanation": "The direction a parabola opens is determined by the sign of the leading coefficient, a.\n If a < 0, the parabola opens downward."
+  },
+  {
+    "question": "If 3 is a root of P(x) = x² - kx + 6, what is the value of k?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Since 3 is a root, P(3) = 0.\n 3² - k(3) + 6 = 0.\n 9 - 3k + 6 = 0.\n 15 - 3k = 0.\n 3k = 15. k = 5."
+  },
+
+  {
+    "question": "What is the domain of any polynomial function?",
+    "options": [
+      "[0, ∞)",
+      "The set of real numbers (R)",
+      "The set of integers (Z)",
+      "R excluding the roots"
+    ],
+    "answer": 1,
+    "explanation": "Polynomial functions are defined for all real numbers.\n\n The domain is the set of all real numbers (R)."
+  },
+  {
+    "question": "The number of real zeros of the polynomial P(x) = x⁴ + 5 is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Since x⁴ is always non-negative, x⁴ + 5 is always greater than or equal to 5.\n\n It never equals zero, so there are 0 real zeros."
+  },
+  {
+    "question": "If P(x) = 2x + 1, and Q(x) = x - 3, find the value of P(x) - Q(x).",
+    "options": [
+      "x - 2",
+      "x + 4",
+      "3x - 2",
+      "3x + 4"
+    ],
+    "answer": 1,
+    "explanation": "P(x) - Q(x) =\n (2x + 1) - (x - 3) =\n 2x + 1 - x + 3 =\n x + 4."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Using the Remainder Theorem, what must the remainder be when P(x) = x³ - a³ is divided by (x - a)?",
+    "options": [
+      "2a³",
+      "0",
+      "-2a³",
+      "a³"
+    ],
+    "answer": 1,
+    "explanation": "R = P(a) = a³ - a³ = 0.\n\n This confirms (x - a) is a factor of (x³ - a³)."
+  },
+  {
+    "question": "The polynomial P(x) = x³ - 8 has a real root at x = 2. The other two roots are:",
+    "options": [
+      "Real and distinct",
+      "Real and repeated",
+      "Non-real and complex conjugates",
+      "Real and negative"
+    ],
+    "answer": 2,
+    "explanation": "The factorization is (x - 2)(x² + 2x + 4).\n\n The quadratic factor has a negative discriminant (-12), yielding two non-real complex conjugate roots."
+  },
+
+
+  {
+    "question": "Which of the following is the coefficient of x in the expansion of (x + 3)(x² - 2x + 5)?",
+    "options": [
+      "-1",
+      "-6",
+      "5",
+      "-2"
+    ],
+    "answer": 3,
+    "explanation": "The term with x comes from multiplying 3 * (-2x) and x * 5.\n Term in x = -6x + 5x = -x.\n The coefficient is -1."
+  },
+  {
+    "question": "The minimum value of the quadratic function f(x) = x² - 6x + 10 is:",
+    "options": [
+      "1",
+      "-1",
+      "3",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "The x-coordinate of the minimum is x = -b / (2a) = -(-6) / (2 * 1) = 3.\n\n The minimum value is f(3) = 3² - 6(3) + 10 = \n\n9 - 18 + 10 = 1."
+  },
+  {
+    "question": "What is the leading coefficient of the polynomial P(x) = (1 - 2x)(x + 4)x²?",
+    "options": [
+      "-2",
+      "1",
+      "2",
+      "-8"
+    ],
+    "answer": 0,
+    "explanation": "Multiply the leading terms of each factor: (-2x) * (x) * (x²) = -2x⁴.\n\n The leading coefficient is -2."
+  },
+  {
+    "question": "A polynomial is given by P(x) = x⁴. Which of the following is true?",
+    "options": [
+      "P(x) has four distinct real roots.",
+      "P(x) has a single root at x = 0 with multiplicity 4.",
+      "The graph crosses the x-axis at x = 0.",
+      "The degree is odd."
+    ],
+    "answer": 1,
+    "explanation": "P(x) = x * x * x * x. \n\nIt has one root at x = 0 with a multiplicity of 4 (even)."
+  },
+  {
+    "question": "If P(x) = (x² + 1)(x - 5), find the real zeros of P(x).",
+    "options": [
+      "{5}",
+      "{-1, 5}",
+      "{-i, i, 5}",
+      "{-5}"
+    ],
+    "answer": 0,
+    "explanation": "The factor (x² + 1) has only complex roots. \n\nThe only real zero comes from (x - 5) = 0, which is x = 5."
+  },
+  {
+    "question": "When P(x) = 2x³ + x² - 7x + 3 is divided by (x - 1), the remainder is:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "R = P(1) = 2(1)³ + (1)² - 7(1) + 3 = \n\n2 + 1 - 7 + 3 = -1."
+  },
+  {
+    "question": "If the sum of the roots of 3x² + kx - 4 = 0 is 2, what is the value of k?",
+    "options": [
+      "-6",
+      "6",
+      "2",
+      "-2"
+    ],
+    "answer": 0,
+    "explanation": "Sum of roots = -b/a. \nWe are given -k/3 = 2.\n So, -k = 6, and k = -6."
+  },
+  {
+    "question": "The number of local extrema a polynomial of degree 6 can have is:",
+    "options": [
+      "Exactly 5",
+      "At most 5",
+      "At least 1",
+      "At most 6"
+    ],
+    "answer": 1,
+    "explanation": "A polynomial of degree n can have at most n - 1 local extrema (turning points).\n For n = 6, the maximum is 5."
+  },
+
+  {
+    "question": "The smallest number of real roots a polynomial of degree 4 must have is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Even degree polynomials do not need to cross the x-axis.\n For example, P(x) = x⁴ + 1 has no real roots.\n The minimum number is 0."
+  },
+  {
+    "question": "What is the sum of the coefficients of the polynomial P(x) = 4x³ - 5x² + 2x - 1?",
+    "options": [
+      "0",
+      "-1",
+      "10",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "The sum of the coefficients is equal to P(1). \nP(1) = 4(1) - 5(1) + 2(1) - 1 = \n4 - 5 + 2 - 1 = 0."
+  },
+  {
+    "question": "If P(x) = (x - a)² + (x + a)², then the degree of P(x) is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "P(x) = (x² - 2ax + a²) + (x² + 2ax + a²) = 2x² + 2a².\n The highest power of x is 2.\n The degree is 2."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The Rational Root Theorem states that any rational root p / q must satisfy that p is a factor of the constant term and q is a factor of the:",
+    "options": [
+      "Root itself",
+      "Leading coefficient",
+      "Degree of the polynomial",
+      "Coefficient of x"
+    ],
+    "answer": 1,
+    "explanation": "q must be a factor of the leading coefficient."
+  },
+  {
+    "question": "The product of the roots of the cubic polynomial P(x) = 4x³ + x - 5 is:",
+    "options": [
+      "5 / 4",
+      "-5 / 4",
+      "1",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "Product of roots = -d/a. \nP(x) = 4x³ + 0x² + x - 5. \na = 4, d = -5. \nProduct = -(-5) / 4 = \n5 / 4."
+  },
+  {
+    "question": "If the graph of a polynomial P(x) crosses the x-axis at x = c, then the multiplicity of the root c must be:",
+    "options": [
+      "Even",
+      "Odd",
+      "Greater than 2",
+      "Equal to the degree"
+    ],
+    "answer": 1,
+    "explanation": "Crossing the x-axis indicates that the root has an odd multiplicity."
+  },
+  {
+    "question": "What is the vertex of the parabola f(x) = -x² + 4?",
+    "options": [
+      "(2, 0)",
+      "(0, 4)",
+      "(-2, 0)",
+      "(4, 0)"
+    ],
+    "answer": 1,
+    "explanation": "The x-coordinate is x = -b / (2a) = -0 / (2 * -1) = 0.\n The y-coordinate is f(0) = -(0)² + 4 = 4.\n The vertex is (0, 4)."
+  },
+  {
+    "question": "Which transformation shifts the graph of P(x) = x³ - 5 to P(x) = (x - 2)³ - 5?",
+    "options": [
+      "2 units up",
+      "2 units down",
+      "2 units left",
+      "2 units right"
+    ],
+    "answer": 3,
+    "explanation": "The change from x to (x - 2) is a horizontal shift of 2 units right."
+  },
+
+  {
+    "question": "The Remainder Theorem can be used when the divisor is a polynomial of degree:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Any degree"
+    ],
+    "answer": 1,
+    "explanation": "The Remainder Theorem is specifically for division by a linear factor, (x - c), which is a polynomial of degree 1."
+  },
+  {
+    "question": "If x⁴ - 8x² + 16 = 0, the distinct real roots are:",
+    "options": [
+      "{-4, 4}",
+      "{-2, 2}",
+      "{-4, -2, 2, 4}",
+      "{2, 4}"
+    ],
+    "answer": 1,
+    "explanation": "Let u = x². \nThe equation is u² - 8u + 16 = 0, or (u - 4)² = 0.\n So, u = 4 (multiplicity 2). x² = 4, which gives x = -2 and 2."
+  },
+
+
+
+
+  {
+    "question": "The graph of the polynomial P(x) = x³ - 4x must pass through:",
+    "options": [
+      "(-4, 0)",
+      "(0, 4)",
+      "(1, -3)",
+      "(2, 0)"
+    ],
+    "answer": 3,
+    "explanation": "P(2) = 2³ - 4(2) = 8 - 8 = 0.\n The point (2, 0) is on the graph."
+  },
+
+  {
+    "question": "If (x + 1) is a factor of P(x), what is the remainder when P(x) is divided by (x + 1)?",
+    "options": [
+      "P(1)",
+      "-1",
+      "0",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "By the Factor Theorem, if (x + 1) is a factor, the remainder R = P(-1) = 0."
+  },
+  {
+    "question": "The result of dividing x² - 5x + 6 by (x - 2) is:",
+    "options": [
+      "x + 3",
+      "x - 3",
+      "x + 2",
+      "x - 6"
+    ],
+    "answer": 1,
+    "explanation": "Using factoring: x² - 5x + 6 = (x - 2)(x - 3).\n Dividing by (x - 2) gives x - 3."
+  },
+  {
+    "question": "For a quadratic function f(x) = ax² + bx + c, the graph has exactly one real zero if:",
+    "options": [
+      "b² - 4ac > 0",
+      "b² - 4ac < 0",
+      "b² - 4ac = 0",
+      "a > 0"
+    ],
+    "answer": 2,
+    "explanation": "One real zero (a repeated root) occurs when the discriminant is zero: b² - 4ac = 0."
+  }
+  ]

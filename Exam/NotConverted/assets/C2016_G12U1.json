@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Which of the following is a Lewis acid?",
+    "options": [
+      "A. SO₄²⁻",
+      "B. SO₃²⁻",
+      "C. BF₃",
+      "D. NH₃"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The pH of a 0.10 M solution of an aqueous solution of a certain acid is 3. What is the value of the acid ionization constant (Ka) of the acid?",
+    "options": [
+      "A. 1 × 10⁻⁷",
+      "B. 1 × 10⁻⁵",
+      "C. 1 × 10⁻³",
+      "D. 1 × 10⁻¹"
+    ],
+    "answer": 1,
+    "explanation": "Step 1: Calculate [H⁺] from pH using [H⁺] = 1 × 10⁻³ M because pH = 3.\n\nStep 2: For a weak acid, Ka = [H⁺][A⁻] / [HA].\n\nSince [A⁻] = [H⁺] = 1 × 10⁻³ M and [HA] ≈ 0.10 M, we get Ka = (1 × 10⁻³ × 1 × 10⁻³) / 0.10 = 1 × 10⁻⁵"
+  },
+  {
+    "question": "The shift in the position of equilibrium caused by the addition of an ion already involved in the reaction is known as",
+    "options": [
+      "A. common-ion effect",
+      "B. buffer-ion effect",
+      "C. hydrolysis - effect",
+      "D. titration - effect"
+    ],
+    "answer": 0,
+    "explanation": "The common-ion effect occurs when an ion already present in the equilibrium mixture is added from an external source, causing the equilibrium to shift according to Le Chatelier's principle.\n\n This affects solubility or dissociation but does not involve buffers, hydrolysis, or titration."
+  },
+  {
+    "question": "Which of the following is CORRECT about equivalents of acids and bases?",
+    "options": [
+      "A. The volume of an acid or base required to reach the equivalence point during acid-base titration reaction.",
+      "B. The number of moles of an acid or base required to form a one molar aqueous acidic or basic solution.",
+      "C. It is the amount of a substance that is required to react with one mole of hydroxide ions in redox reactions.",
+      "D. It is the amount of a substance that is required to react with one mole of hydrogen ions in acid-base reactions."
+    ],
+    "answer": 3,
+    "explanation": "The equivalent of an acid or base is the amount of that substance which reacts with or supplies one mole of H⁺ (for acids) or OH⁻ (for bases) in acid-base reactions.\n\n Option A refers to titration volume, B describes molarity, and C incorrectly relates equivalents to redox reactions."
+  },
+  {
+    "question": "A 250 ml solution is formed from 24.5 g of sulfuric acid (H₂SO₄). What is the normality of this solution? (Mol. wt H₂SO₄ = 98 g/mol)",
+    "options": [
+      "A. 4.00 N",
+      "B. 2.00 N",
+      "C. 0.250 N",
+      "D. 0.125 N"
+    ],
+    "answer": 1,
+    "explanation": "Step 1: Moles of H₂SO₄ = 24.5 / 98 = 0.25 moles\n\nStep 2: Equivalents = 0.25 × 2 = 0.50 eq (since H₂SO₄ is diprotic)\n\nStep 3: Normality = 0.50 / 0.250 L = 2.00 N"
+  },
+  {
+    "question": "Which of the following reaction is used for the preparation of bases?",
+    "options": [
+      "A. Reaction of metal hydroxides with dilute acids.",
+      "B. Reaction of active metal oxides with water.",
+      "C. Heating of a salt with a less volatile acid.",
+      "D. Heating of carbonates with dilute acids."
+    ],
+    "answer": 1,
+    "explanation": "Bases (alkalis) can be prepared by **reacting active metal oxides with water** to form metal hydroxides.\n\n For example: Na₂O + H₂O → 2 NaOH. Option A produces salts, C produces salts or other products, and D produces carbon dioxide gas and salt, not bases."
+  },
+  {
+    "question": "Which of the following CORRECTLY describes conjugate acids and conjugate bases?",
+    "options": [
+      "A. Conjugate acid is a species formed after a removal of a proton from a base whereas conjugate base is formed after addition of proton to an acid.",
+      "B. Conjugate base is a species formed after removal of a proton from an acid whereas conjugate acid is formed after addition of a proton to a base.",
+      "C. Conjugate acid has one fewer hydrogen and one more minus charge than the corresponding acid.",
+      "D. Conjugate base has one more hydrogen and one fewer minus charge than the corresponding base."
+    ],
+    "answer": 1,
+    "explanation": "According to Brønsted–Lowry theory:\n- A conjugate base is formed when an acid donates (loses) a proton (H⁺).\n\n- A conjugate acid is formed when a base accepts (gains) a proton (H⁺).\n\nFor example: HA → H⁺ + A⁻ (A⁻ is the conjugate base of HA).\n\nSimilarly: NH₃ + H⁺ → NH₄⁺ (NH₄⁺ is the conjugate acid of NH₃)"
+  },
+  {
+    "question": "What is the pOH of pure water at 37 °C, where Kw equals 2.50 * 10⁻¹⁴ and pH is 6.8? (log²·⁵ = 0.4)",
+    "options": [
+      "A. 8.8",
+      "B. 8.2",
+      "C. 6.8",
+      "D. 7.5"
+    ],
+    "answer": 2,
+    "explanation": "pOH is calculated using pH + pOH = pKw. \n\nFirst, pKw = -log Kw = -log(2.5 × 10⁻¹⁴) = 13.6. \n\nThen, pOH = pKw - pH = 13.6 - 6.8 = 6.8."
+  },
+  {
+    "question": "The hydrogen ion concentration in a certain solution at 25° C is 1.0 * 10⁻⁸ M. What is the pOH of this solution?",
+    "options": [
+      "A. 8",
+      "B. 10",
+      "C. 2",
+      "D. 6"
+    ],
+    "answer": 3,
+    "explanation": "pH = -log[H⁺] = 8.\n\n Using pH + pOH = 14, pOH = 14 - 8 = 6"
+  }
+]

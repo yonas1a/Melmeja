@@ -1,0 +1,24 @@
+[
+{
+  "question": "27) Consider a line with equation $y = mx + b$. Which of the following is true?",
+  "options": [
+    "The line passes through the origin.",
+    "The line has no slope.",
+    "The line intersects the $x$ axis, if $m = 0$ and $b > 0$.",
+    "The line intersects the $y$ axis, if $m \\ne 0$ and $b > 0$."
+  ],
+  "answer": 3,
+  "explanation": "Let's analyze the properties of the line $y = mx + b$:\\n**A. Passes through the origin:** A line passes through the origin $(0, 0)$ if $0 = m(0) + b$, which means $b = 0$. The statement is only true when $b=0$.\\n**B. Has no slope:** A line with no slope (undefined slope) is a vertical line with equation $x = c$. The equation $y = mx + b$ represents lines with a defined slope $m$. (Only vertical lines have undefined slope.)\\n**C. Intersects the $x$-axis if $m = 0$ and $b > 0$:** If $m=0$, the equation is $y = b$. If $b > 0$, the line is a horizontal line (e.g., $y=5$) that is parallel to the $x$-axis and never intersects it. (Unless $b=0$, but the condition is $b>0$.)\\n**D. Intersects the $y$-axis if $m \\ne 0$ and $b > 0$:** The $y$-intercept is the point where the line crosses the $y$-axis, which occurs when $x=0$. Substituting $x=0$ gives $y = m(0) + b = b$. The $y$-intercept is $(0, b)$. Since $b$ is a real number, the line *always* intersects the $y$-axis at $y=b$, regardless of the value of $m$ (as long as the line is not vertical). The condition $b > 0$ ensures the intersection is above the $x$-axis, and the condition $m \\ne 0$ (not horizontal) is unnecessary but does not invalidate the fact that it intersects the $y$-axis at $b$. This statement is the most fundamentally **TRUE** statement regarding the $y$-intercept $b$."
+},
+{
+"question": "A line makes an angle of $145^{\\circ}$ with the positive $x$-axis. What is the slope of the line? (Given $\\tan 35^{\\circ} = 0.7$)",
+"options": [
+"-0.7",
+"0.7",
+"$\\frac{10}{7}$",
+"$-\\frac{10}{7}$"
+],
+"answer": 0,
+"explanation": "The **slope ($m$)** of a line is defined as the tangent of the angle $(\\theta)$ the line makes with the positive $x$-axis: $m = \\tan(\\theta)$.\n\nGiven $\\theta = 145^{\\circ}$, which is in the second quadrant.\n$$m = \\tan(145^{\\circ})$$\nWe use the identity $\\tan(180^{\\circ} - \\alpha) = -\\tan(\\alpha)$:\n$$m = \\tan(180^{\\circ} - 35^{\\circ}) = -\\tan(35^{\\circ})$$\n\nSubstituting the given value $\\tan 35^{\\circ} = 0.7$:\n$$m = -0.7$$\nOption A is the correct slope."
+}
+]

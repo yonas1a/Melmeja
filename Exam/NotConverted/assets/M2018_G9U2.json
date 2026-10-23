@@ -1,0 +1,47 @@
+[
+  {
+    "question": " Which one of the following is true about a given natural number?",
+    "options": [
+      "It is prime if it has more than two factors.",
+      "It is composite if it has exactly two factors.",
+      "It is prime if it has exactly three factors.",
+      "It is composite if it has more than two factors."
+    ],
+    "answer": 3,
+    "explanation": "A natural number is defined as a composite number if it has more than two distinct positive factors (unlike prime numbers, which have exactly two factors: 1 and itself)."
+  },
+  {
+    "question": " For a ≥ 0, which one of the following numbers is NOT equal to \"a²⁄₅\"?",
+    "options": [
+      "(\"a¹⁄₅\")²",
+      "\"(a⁵)\"\"¹⁄₂\"",
+      "⁵√a²",
+      "(⁵√a)²"
+    ],
+    "answer": 1,
+
+    "explanation": "Using exponent rules:\n a²⁄₅ can be written as (a¹⁄₅)², ⁵√(a²), and (⁵√a)².\n\n However, (a⁵)¹⁄₂ = a⁵⁄₂, which is not equal to a²⁄₅."
+  },
+  {
+    "question": " If a = -2√3 + 3√2 - 2 and b = -3√2 + 2, then a + b is equal to",
+    "options": [
+      "-2√3 - 6√2 + 4",
+      "-2√3 + 6√2",
+      "-2√3",
+      "2√3"
+    ],
+    "answer": 2,
+    "explanation": "Adding like terms:\n a + b = (-2√3 + 3√2 - 2) + (-3√2 + 2).\n\n The 3√2 and -3√2 cancel, while -2 and +2 cancel.\n Therefore, a + b = -2√3."
+  },
+  {
+    "question": " What is the value of x in the equation 3 ⁵√(3x)⁵ = 18?",
+    "options": [
+      "9",
+      "2",
+      "6",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "Using the rule ⁵√(a⁵) = a:\n\n 3⁵√(3x)⁵ = 3(3x) = 9x.\n Therefore, 9x = 18, \nso x = 2."
+  }
+  ]

@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Which one of the following statements describes the unusual behavior of water?",
+    "options": [
+      "The density of water at 0°C is less than its density at 4°C, since water molecules move further apart and form a second hydrogen bond with other water molecules.",
+      "As a temperature of water increases above 4°C, its density increases since water molecules move further apart to form a second hydrogen bond with other molecules.",
+      "At 0°C, water has larger density and smaller volume than its density and volume at 4°C.",
+      "As a temperature of water increases from 0°C to 4°C, its density increases since one molecule of water forms one hydrogen bond with another molecule."
+    ],
+    "answer": 0,
+    "explanation": "Water exhibits an unusual behavior in that its density is maximum at 4°C. From 0°C to 4°C, as ice melts and water warms, its density increases (volume decreases) because the hydrogen-bonded structure of ice breaks slightly, allowing molecules to come closer. \n\nAt 0°C, water has lower density and larger volume than at 4°C. This is correctly described in option 1, which states that at 0°C, water molecules are more spread out due to hydrogen bonding. \n\nOptions 2 and 3 are incorrect because density does not increase above 4°C due to hydrogen bonding; option 4 incorrectly describes hydrogen bonding formation."
+  },
+  {
+    "question": "A 40g of water at 50°C is poured into a well-insulated 30g of copper calorimeter at 20°C. The temperature of water at equilibrium becomes ",
+    "options": [
+      "52.4°C",
+      "47.9°C",
+      "35°C",
+      "30°C"
+    ],
+    "answer": 1,
+    "explanation": "Heat lost by water = heat gained by copper.\n\n mw*cw*(Twi - Tf) = mc*cc*(Tf - Tci). \n\nSubstituting: 40*4.2*(50 - Tf) = 30*0.4*(Tf - 20) \n\n→ 168*(50 - Tf) = 12*(T_f - 20). \n\nSolving gives Tf ≈ 47.9°C."
+  },
+  {
+    "question": "A slab of thermal insulator has a cross-section of 0.1 m² , a length of 2 cm, and thermal conductivity of 0.1 J/(m.s °C).  If the temperature difference between the opposite faces of the insulator is 100°C , the amount of heat flowing through the slab in 24 h is",
+    "options": [
+      "1.2 * 10³ ",
+      "4.32 * 10⁶",
+      "7.2 * 10³",
+      "5.0 * 10³"
+    ],
+    "answer": 1,
+    "explanation": "Given: A = 0.1 m², L = 0.02 m, k = 0.1 J/(m·s·°C), ΔT = 100°C, t = 24 h = 86400 s.\n\n Using Fourier's law: Q = k*A*ΔT*t / L. Step 1: k*A*ΔT = 0.1*0.1*100 = 1.\n\n Step 2: Multiply by time: 1*86400 = 86400 J. \n\nStep 3: Divide by thickness: Q = 86400 / 0.02 = 4.32 × 10⁶ J. \n\nHence, the heat flowing through the slab in 24 h is 4.32 × 10⁶ J"
+  }
+]

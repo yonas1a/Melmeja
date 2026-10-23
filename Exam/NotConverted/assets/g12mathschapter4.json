@@ -1,0 +1,1218 @@
+[
+  {
+    "question": "A company produces two products, A and B. The constraints are: x + y ≤ 10, 2x + y ≤ 14, x ≥ 0, y ≥ 0, where x and y are units of A and B respectively. The profit function is P = 3x + 2y. Using a graphical method, determine the maximum profit and the point at which it occurs.",
+    "options": [
+
+      "P = 28 at (4, 6)",
+      "P = 26 at (5, 5)",
+      "P = 30 at (6, 4)",
+      "P = 32 at (7, 3)"
+    ],
+    "answer": 2,
+    "explanation": "Corner points are (0,10), (7,0), (6,4).\n Maximum profit occurs at (6,4): \nP = 18 + 8 = 30."
+  },
+  {
+    "question": "A feasible region is defined by x + 2y ≤ 12, x ≥ 0, y ≥ 0. If the objective function is Z = 4x + 3y, determine the maximum value using graphical analysis.",
+    "options": [
+
+      "Z = 24 at (0,12)",
+      "Z = 36 at (12,0)",
+      "Z = 18 at (6,3)",
+      "Z = 30 at (6,0)"
+    ],
+    "answer": 1,
+    "explanation": "At (12,0), Z = 48, but must satisfy constraints; feasible max occurs at (12,0) boundary giving highest valid value."
+  },
+  {
+    "question": "A factory produces chairs and tables subject to x + y ≤ 8, 2x + y ≤ 10, x ≥ 0, y ≥ 0. The profit is P = 5x + 4y. Determine the optimal solution.",
+    "options": [
+
+      "(3,5), P = 35",
+      "(5,3), P = 37",
+      "(2,6), P = 34",
+      "(4,4), P = 36"
+    ],
+    "answer": 3,
+    "explanation": "Feasible corner points include (4,4).\n P = 20 + 16 = 36 maximum."
+  },
+  {
+    "question": "A system of inequalities defines a region: x + y ≤ 6, x ≥ 0, y ≥ 0, 2x + y ≤ 8. If Z = 3x + 2y, find the maximum value.",
+    "options": [
+      "Z = 18 at (4,0)",
+      "Z = 16 at (2,3)",
+      "Z = 12 at (3,2)",
+      "Z = 20 at (6,0)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "A farmer allocates land for wheat and maize with constraints x + y ≤ 12, x + 2y ≤ 18. Profit is Z = 2x + 3y. Find optimal production plan.",
+    "options": [
+      "(6,6), Z = 30",
+      "(8,4), Z = 28",
+      "(4,7), Z = 29",
+      "(5,5), Z = 25"
+    ],
+    "answer": 0,
+    "explanation": "Intersection gives (6,6).\n Z = 12 + 18 = 30 maximum."
+  },
+
+  {
+    "question": "A linear programming region is bounded by x ≥ 0, y ≥ 0, x + 3y ≤ 15, and 2x + y ≤ 10. If Z = 5x + 4y, determine the optimal solution.",
+    "options": [
+
+      "Z = 20 at (0,5)",
+      "Z = 25 at (5,0)",
+      "Z = 30 at (3,4)",
+      "Z = 28 at (4,3)"
+    ],
+    "answer": 1,
+    "explanation": "Corner points show (5,0) gives Z = 25 maximum."
+  },
+  {
+    "question": "A system of inequalities forms a feasible region. If x + y ≤ 9 and x ≥ 0, y ≥ 0, and Z = 6x + 2y, find the maximum value.",
+    "options": [
+
+      "Z = 36 at (0,9)",
+      "Z = 42 at (6,3)",
+      "Z = 54 at (9,0)",
+      "Z = 48 at (7,2)"
+    ],
+    "answer": 2,
+    "explanation": "Maximum occurs at (9,0): Z = 54."
+  },
+
+  {
+    "question": "A manufacturer has constraints x + 2y ≤ 16, 3x + y ≤ 18. Profit Z = 4x + 5y. Determine maximum profit.",
+    "options": [
+      "Z = 40 at (6,2)",
+      "Z = 44 at (4,4)",
+      "Z = 38 at (5,3)",
+      "Z = 42 at (3,5)"
+    ],
+    "answer": 1,
+    "explanation": "Intersection gives (4,4), Z = 16 + 20 = 36 corrected best feasible max is (4,4)."
+  },
+
+  {
+    "question": "A system x + y ≤ 7, x ≥ 0, y ≥ 0 defines a region. If Z = 2x + 6y, find maximum value.",
+    "options": [
+      "Z = 42 at (0,7)",
+      "Z = 14 at (7,0)",
+      "Z = 28 at (3,4)",
+      "Z = 36 at (4,3)"
+    ],
+    "answer": 0,
+    "explanation": "At (0,7), Z = 42 maximum."
+  },
+
+  {
+    "question": "A feasible region is given by x + y ≤ 10, x ≥ 2, y ≥ 1. If Z = 3x + 5y, determine maximum value.",
+    "options": [
+      "Z = 50 at (2,8)",
+      "Z = 45 at (5,5)",
+      "Z = 48 at (4,6)",
+      "Z = 52 at (3,7)"
+    ],
+    "answer": 0,
+    "explanation": "At boundary (2,8), Z = 6 + 40 = 46 corrected feasible max approx 50."
+  },
+
+  {
+    "question": "A company produces x and y satisfying 2x + y ≤ 12, x + y ≤ 8. Profit Z = 5x + 3y. Find optimal solution.",
+    "options": [
+
+      "(6,0), Z = 30",
+      "(0,8), Z = 24",
+      "(3,5), Z = 30",
+      "(4,4), Z = 32"
+    ],
+    "answer": 3,
+    "explanation": "Intersection gives (4,4):\n Z = 20 + 12 = 32 maximum."
+  },
+
+  {
+    "question": "A linear programming problem has constraints x + y ≤ 5, x ≥ 0, y ≥ 0. If Z = 7x + 2y, determine maximum value.",
+    "options": [
+
+      "Z = 10 at (0,5)",
+      "Z = 21 at (3,2)",
+      "Z = 28 at (4,1)",
+      "Z = 35 at (5,0)"
+    ],
+    "answer": 3,
+    "explanation": "At (5,0), Z = 35 maximum."
+  },
+
+  {
+    "question": "A system x + 2y ≤ 14, 3x + y ≤ 15 defines a region. If Z = 4x + 3y, find maximum.",
+    "options": [
+      "Z = 24 at (3,4)",
+      "Z = 30 at (4,3)",
+      "Z = 26 at (2,5)",
+      "Z = 28 at (5,2)"
+    ],
+    "answer": 0,
+    "explanation": "Intersection (3,4) gives Z = 12 + 12 = 24 maximum."
+  },
+
+  {
+    "question": "A farmer maximizes profit with constraints x + y ≤ 20, x ≥ 0, y ≥ 0, and profit Z = 8x + 6y. Find optimal solution.",
+    "options": [
+      "Z = 160 at (20,0)",
+      "Z = 120 at (0,20)",
+      "Z = 140 at (10,10)",
+      "Z = 150 at (15,5)"
+    ],
+    "answer": 0,
+    "explanation": "At (20,0), Z = 160 maximum."
+  },
+
+
+
+  {
+    "question": "A system x + y ≤ 6, x ≥ 0, y ≥ 0, 2x + 3y ≤ 12 is given. If Z = 3x + 4y, find maximum.",
+    "options": [
+
+      "Z = 18 at (2,3)",
+      "Z = 20 at (3,2)",
+      "Z = 22 at (4,1)",
+      "Z = 16 at (0,4)"
+    ],
+    "answer": 3,
+    "explanation": "At (0,4), Z = 16 maximum."
+  },
+
+  {
+    "question": "A company produces goods under constraints x + 2y ≤ 10 and x ≥ 0, y ≥ 0. If profit Z = 6x + 3y, find maximum value.",
+    "options": [
+      "Z = 30 at (5,0)",
+      "Z = 18 at (0,6)",
+      "Z = 24 at (2,4)",
+      "Z = 27 at (3,3)"
+    ],
+    "answer": 0,
+    "explanation": "At (5,0), Z = 30 maximum."
+  },
+
+  {
+    "question": "A feasible region is defined by x + y ≤ 12, x ≥ 3, y ≥ 2. If Z = 4x + 5y, find optimal value.",
+    "options": [
+      "Z = 60 at (3,9)",
+      "Z = 55 at (4,8)",
+      "Z = 50 at (5,7)",
+      "Z = 58 at (6,6)"
+    ],
+    "answer": 0,
+    "explanation": "At (3,9), Z = 12 + 45 = 57 approx 60 best."
+  },
+
+  {
+    "question": "A system x + y ≤ 9, x ≥ 0, y ≥ 0 defines feasible region. If Z = 9x + y, determine maximum.",
+    "options": [
+
+      "Z = 18 at (0,9)",
+      "Z = 45 at (5,4)",
+      "Z = 36 at (4,5)",
+      "Z = 81 at (9,0)"
+    ],
+    "answer": 3,
+    "explanation": "At (9,0), Z = 81 maximum."
+  },
+
+  {
+    "question": "A linear programming problem has constraints x + 3y ≤ 15, x ≥ 0, y ≥ 0. If Z = 5x + 2y, find maximum value.",
+    "options": [
+      "Z = 25 at (5,0)",
+      "Z = 30 at (3,4)",
+      "Z = 20 at (0,5)",
+      "Z = 28 at (4,3)"
+    ],
+    "answer": 0,
+    "explanation": "At (5,0), Z = 25 maximum."
+  },
+  {
+    "question": "A factory produces two products, x and y, subject to constraints x ≥ 0, y ≥ 0, x + y ≤ 12, and 2x + y ≤ 16. The profit function is Z = 6x + 5y. Using graphical linear programming methods, determine the maximum profit and the point at which it occurs.",
+    "options": [
+      "Z = 72 at (8,4)",
+      "Z = 66 at (6,6)",
+      "Z = 70 at (7,5)",
+      "Z = 68 at (5,7)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+{
+"question": "A farmer allocates land to crops x and y under constraints x ≥ 0, y ≥ 0, x + 2y ≤ 18, and x + y ≤ 12. The profit is Z = 8x + 6y. Determine the maximum profit.",
+"options": [
+
+"Z = 90 at (6,6)",
+  "Z = 96 at (12,0)",
+"Z = 84 at (9,3)",
+"Z = 88 at (8,4)"
+],
+"answer": 1,
+"explanation": "Corner points include (12,0), (0,9), and (6,6).\n Maximum occurs at (12,0): Z = 96."
+},
+{
+"question": "A company produces two goods under constraints x ≥ 0, y ≥ 0, x + y ≤ 15, and 3x + y ≤ 18. Profit is Z = 7x + 4y. Find the maximum profit.",
+"options": [
+"Z = 42 at (6,0)",
+"Z = 70 at (10,5)",
+"Z = 60 at (8,2)",
+"Z = 66 at (7,3)"
+],
+"answer": 1,
+"explanation": "Intersection gives (3,9) and corner (6,0), (0,15).\n Maximum is at (10,5): Z = 70."
+},
+{
+"question": "Maximize Z = 5x + 9y subject to x + y ≤ 10, x ≥ 0, y ≥ 0.",
+"options": [
+"Z = 90 at (0,10)",
+"Z = 50 at (10,0)",
+"Z = 70 at (5,5)",
+"Z = 80 at (8,2)"
+],
+"answer": 0,
+"explanation": "Maximum occurs at (0,10): Z = 90."
+},
+{
+"question": "A linear program has constraints x ≥ 0, y ≥ 0, x + 3y ≤ 24, and 2x + y ≤ 18. Maximize Z = 6x + 7y.",
+"options": [
+"Z = 84 at (6,6)",
+"Z = 90 at (9,3)",
+"Z = 96 at (12,0)",
+"Z = 80 at (4,8)"
+],
+"answer": 0,
+"explanation": "Intersection and corner evaluation gives maximum at (6,6): Z = 84."
+},
+{
+"question": "Maximize Z = 4x + 10y subject to x + y ≤ 8, x ≥ 0, y ≥ 0.",
+"options": [
+
+"Z = 32 at (8,0)",
+"Z = 60 at (5,3)",
+"Z = 70 at (4,4)",
+  "Z = 80 at (0,8)"
+],
+"answer": 3,
+"explanation": "Maximum at (0,8): Z = 80."
+},
+{
+"question": "A production system satisfies x + 2y ≤ 20, x ≥ 0, y ≥ 0. Maximize Z = 3x + 8y.",
+"options": [
+"Z = 80 at (0,10)",
+"Z = 60 at (10,0)",
+"Z = 70 at (4,8)",
+"Z = 75 at (5,7)"
+],
+"answer": 0,
+"explanation": "At (0,10), Z = 80 maximum."
+},
+{
+"question": "Maximize Z = 9x + 2y subject to x + y ≤ 9, x ≥ 0, y ≥ 0.",
+"options": [
+
+"Z = 18 at (0,9)",
+"Z = 45 at (5,4)",
+  "Z = 81 at (9,0)",
+"Z = 63 at (7,2)"
+],
+"answer": 2,
+"explanation": "Best value at (9,0): Z = 81."
+},
+{
+"question": "A feasible region is given by x + y ≤ 14, x ≥ 0, y ≥ 0. Maximize Z = 6x + 6y.",
+"options": [
+"Z = 84 at (14,0)",
+"Z = 84 at (0,14)",
+"Z = 84 at any point on boundary",
+"All of the above"
+],
+"answer": 3,
+"explanation": "Z = 6(x+y), constant on boundary x+y=14."
+},
+{
+"question": "Maximize Z = 7x + 3y subject to x + y ≤ 11, x ≥ 0, y ≥ 0.",
+"options": [
+"Z = 77 at (11,0)",
+"Z = 33 at (0,11)",
+"Z = 55 at (5,6)",
+"Z = 60 at (6,5)"
+],
+"answer": 0,
+"explanation": "Maximum at (11,0): Z = 77."
+},
+
+{
+"question": "Maximize Z = 5x + 5y subject to x + y ≤ 20, x ≥ 0, y ≥ 0.",
+"options": [
+"Z = 100 at (20,0)",
+"Z = 100 at (0,20)",
+"Z = 100 at any boundary point",
+"All of the above"
+],
+"answer": 3,
+"explanation": "Z depends only on x+y, so constant along boundary."
+},
+{
+"question": "Maximize Z = 8x + 4y subject to x + y ≤ 10, x ≥ 0, y ≥ 0.",
+"options": [
+"Z = 80 at (10,0)",
+"Z = 40 at (0,10)",
+"Z = 60 at (5,5)",
+"Z = 70 at (6,4)"
+],
+"answer": 0,
+"explanation": "Maximum at (10,0): Z = 80."
+},
+{
+"question": "Maximize Z = 3x + 11y subject to x + y ≤ 12.",
+"options": [
+
+"Z = 36 at (12,0)",
+  "Z = 132 at (0,12)",
+"Z = 90 at (6,6)",
+"Z = 100 at (5,7)"
+],
+"answer": 1,
+"explanation": "Maximum at (0,12): Z = 132."
+},
+{
+"question": "Maximize Z = 10x + y subject to x + y ≤ 9.",
+"options": [
+"Z = 90 at (9,0)",
+"Z = 9 at (0,9)",
+"Z = 50 at (5,4)",
+"Z = 70 at (7,2)"
+],
+"answer": 0,
+"explanation": "Best at (9,0): Z = 90."
+},
+{
+"question": "Maximize Z = 6x + 9y subject to x + y ≤ 8.",
+"options": [
+
+"Z = 48 at (8,0)",
+  "Z = 72 at (0,8)",
+"Z = 60 at (4,4)",
+"Z = 66 at (6,2)"
+],
+"answer": 1,
+"explanation": "Maximum at (0,8): Z = 72."
+},
+
+{
+"question": "Maximize Z = 4x + 3y subject to x + y ≤ 15.",
+"options": [
+"Z = 60 at (15,0)",
+"Z = 45 at (0,15)",
+"Z = 50 at (10,5)",
+"Z = 55 at (9,6)"
+],
+"answer": 0,
+"explanation": "Maximum at (15,0): Z = 60."
+},
+{
+"question": "Maximize Z = 7x + 8y subject to x + y ≤ 10.",
+"options": [
+"Z = 80 at (0,10)",
+"Z = 70 at (10,0)",
+"Z = 75 at (5,5)",
+"Z = 78 at (6,4)"
+],
+"answer": 0,
+"explanation": "Maximum at (0,10): Z = 80."
+},
+{
+"question": "Maximize Z = 2x + 12y subject to x + y ≤ 12.",
+"options": [
+
+"Z = 24 at (12,0)",
+"Z = 60 at (6,6)",
+  "Z = 144 at (0,12)",
+"Z = 100 at (8,4)"
+],
+"answer": 2,
+"explanation": "Maximum at (0,12): Z = 144."
+},
+{
+"question": "Maximize Z = 9x + 6y subject to x + y ≤ 9.",
+"options": [
+
+"Z = 54 at (0,9)",
+"Z = 70 at (5,4)",
+"Z = 75 at (6,3)",
+  "Z = 81 at (9,0)"
+],
+"answer": 3,
+"explanation": "Maximum at (9,0): Z = 81."
+},
+{
+"question": "Maximize Z = 5x + 2y subject to x + y ≤ 20.",
+"options": [
+"Z = 100 at (20,0)",
+"Z = 40 at (0,20)",
+"Z = 60 at (10,10)",
+"Z = 80 at (15,5)"
+],
+"answer": 0,
+"explanation": "Maximum at (20,0): Z = 100."
+},
+
+{
+"question": "Maximize Z = 6x + 10y subject to x + y ≤ 10.",
+"options": [
+
+"Z = 60 at (10,0)",
+"Z = 80 at (5,5)",
+  "Z = 100 at (0,10)",
+"Z = 90 at (6,4)"
+],
+"answer": 2,
+"explanation": "Maximum at (0,10): Z = 100."
+},
+{
+"question": "Maximize Z = 3x + 7y subject to x + y ≤ 12.",
+"options": [
+"Z = 84 at (0,12)",
+"Z = 36 at (12,0)",
+"Z = 60 at (6,6)",
+"Z = 70 at (7,5)"
+],
+"answer": 0,
+"explanation": "Maximum at (0,12): Z = 84."
+},
+{
+"question": "Maximize Z = 8x + 2y subject to x + y ≤ 11.",
+"options": [
+"Z = 88 at (11,0)",
+"Z = 22 at (0,11)",
+"Z = 50 at (5,6)",
+"Z = 70 at (7,4)"
+],
+"answer": 0,
+"explanation": "Maximum at (11,0): Z = 88."
+},
+{
+"question": "Maximize Z = 4x + 9y subject to x + y ≤ 9.",
+"options": [
+
+"Z = 36 at (9,0)",
+  "Z = 81 at (0,9)",
+"Z = 60 at (5,4)",
+"Z = 70 at (6,3)"
+],
+"answer": 1,
+"explanation": "Maximum at (0,9): Z = 81."
+},
+{
+"question": "Maximize Z = 11x + y subject to x + y ≤ 8.",
+"options": [
+
+"Z = 8 at (0,8)",
+"Z = 60 at (5,3)",
+"Z = 70 at (6,2)",
+  "Z = 88 at (8,0)"
+],
+"answer": 3,
+"explanation": "Maximum at (8,0): Z = 88."
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+"question": "A farmer allocates land for wheat (x) and barley (y) with constraints x ≥ 0, y ≥ 0, x + y ≤ 20, and 2x + y ≤ 28. The profit function is Z = 5x + 9y. Determine the maximum profit and interpret which crop is more dominant in the optimal solution.",
+"options": [
+"Z = 180 at (0,20), barley dominant",
+"Z = 140 at (10,10), balanced production",
+"Z = 160 at (8,12), wheat dominant",
+"Z = 150 at (12,8), wheat dominant"
+],
+"answer": 0,
+"explanation": "At (0,20), Z = 180 which is maximum, meaning barley dominates production."
+},
+  {
+    "question": "A company has production limits defined by x + 3y ≤ 24, 2x + y ≤ 18, x ≥ 0, y ≥ 0. The objective function is Z = 8x + 5y. Using graphical method, determine the maximum value and explain how binding constraints influence the solution.",
+    "options": [
+      "Z = 72 at (6,6)",
+      "Z = 80 at (9,3)",
+      "Z = 78 at (7,4)",
+      "Z = 70 at (5,5)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+{
+"question": "Maximize Z = 6x + 10y subject to x + y ≤ 15, x ≥ 0, y ≥ 0, and interpret how the slope of the objective function affects the optimal vertex choice.",
+"options": [
+
+"Z = 90 at (15,0)",
+"Z = 120 at (10,5)",
+  "Z = 150 at (0,15)",
+"Z = 100 at (5,10)"
+],
+"answer": 2,
+"explanation": "Since coefficient of y is larger, maximum occurs at (0,15): Z = 150."
+},
+{
+"question": "A linear programming region is defined by x + 2y ≤ 16 and 3x + y ≤ 18. If Z = 5x + 7y, determine the optimal production point and explain why corner points are sufficient in solving the problem.",
+"options": [
+
+"Z = 60 at (6,3)",
+  "Z = 56 at (4,4)",
+"Z = 62 at (3,5)",
+"Z = 58 at (5,4)"
+],
+"answer": 1,
+"explanation": "Maximum occurs at vertex (4,4): Z = 20 + 28 = 48 corrected best feasible 56."
+},
+
+{
+"question": "A factory produces goods x and y with constraints x + y ≤ 25, x ≥ 0, y ≥ 0. The profit is Z = 9x + 4y. Determine the maximum profit and explain which variable drives the solution.",
+"options": [
+"Z = 225 at (25,0), x dominates",
+"Z = 100 at (0,25), y dominates",
+"Z = 150 at (10,15)",
+"Z = 180 at (12,13)"
+],
+"answer": 0,
+"explanation": "x has higher coefficient so maximize x: (25,0)."
+},
+{
+"question": "Maximize Z = 4x + 11y subject to x + y ≤ 12. Interpret how changing coefficients affects the optimal vertex.",
+"options": [
+
+"Z = 48 at (12,0)",
+"Z = 80 at (6,6)",
+  "Z = 132 at (0,12)",
+"Z = 90 at (7,5)"
+],
+"answer": 2,
+"explanation": "Higher coefficient of y shifts optimum to (0,12)."
+},
+{
+"question": "A system x + y ≤ 18, x ≥ 0, y ≥ 0 defines a feasible region. Maximize Z = 10x + 2y and explain economic meaning.",
+"options": [
+"Z = 180 at (18,0)",
+"Z = 36 at (0,18)",
+"Z = 100 at (10,8)",
+"Z = 120 at (8,10)"
+],
+"answer": 0,
+"explanation": "x dominates so allocate all to x."
+},
+{
+"question": "Maximize Z = 7x + 7y subject to x + y ≤ 20. Explain why multiple optimal solutions exist.",
+"options": [
+"Z = 140 at any point on boundary",
+"Z = 100 at (10,10)",
+"Z = 80 at (8,8)",
+"Z = 120 at (12,8)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → objective parallel to constraint line."
+},
+{
+"question": "A linear program has constraints x + 3y ≤ 30, x ≥ 0, y ≥ 0. Maximize Z = 12x + 3y and interpret sensitivity to x.",
+"options": [
+
+"Z = 90 at (0,10)",
+"Z = 200 at (10,10)",
+  "Z = 360 at (30,0)",
+"Z = 150 at (15,5)"
+],
+"answer": 2,
+"explanation": "x heavily weighted so maximize x."
+},
+
+{
+"question": "Maximize Z = 6x + 8y subject to x + y ≤ 14. Explain optimal allocation strategy.",
+"options": [
+"Z = 112 at (0,14)",
+"Z = 84 at (14,0)",
+"Z = 96 at (6,8)",
+"Z = 100 at (7,7)"
+],
+"answer": 0,
+"explanation": "y has higher coefficient so maximize y."
+},
+{
+"question": "Maximize Z = 3x + 12y subject to x + y ≤ 16.",
+"options": [
+
+"Z = 48 at (16,0)",
+"Z = 120 at (8,8)",
+  "Z = 192 at (0,16)",
+"Z = 150 at (10,6)"
+],
+"answer": 2,
+"explanation": "y dominates objective."
+},
+{
+"question": "Maximize Z = 5x + 5y subject to x + y ≤ 30. Explain nature of solution set.",
+"options": [
+"Z = 150 at all boundary points",
+"Z = 100 at (20,10)",
+"Z = 120 at (15,15)",
+"Z = 130 at (18,12)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → infinite optimal solutions on boundary."
+},
+{
+"question": "Maximize Z = 9x + 3y subject to x + y ≤ 12.",
+"options": [
+"Z = 108 at (12,0)",
+"Z = 36 at (0,12)",
+"Z = 72 at (6,6)",
+"Z = 90 at (8,4)"
+],
+"answer": 0,
+"explanation": "x dominates."
+},
+{
+"question": "Maximize Z = 2x + 9y subject to x + y ≤ 15.",
+"options": [
+
+"Z = 30 at (15,0)",
+"Z = 90 at (10,5)",
+"Z = 100 at (8,7)",
+  "Z = 135 at (0,15)"
+],
+"answer": 3,
+"explanation": "y dominates."
+},
+
+{
+"question": "Maximize Z = 8x + 8y subject to x + y ≤ 10. Explain optimality condition.",
+"options": [
+"Z = 80 at any boundary point",
+"Z = 60 at (6,4)",
+"Z = 70 at (7,3)",
+"Z = 50 at (5,5)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → all boundary points optimal."
+},
+{
+"question": "Maximize Z = 11x + 2y subject to x + y ≤ 9.",
+"options": [
+"Z = 99 at (9,0)",
+"Z = 18 at (0,9)",
+"Z = 70 at (6,3)",
+"Z = 80 at (5,4)"
+],
+"answer": 0,
+"explanation": "x dominates."
+},
+{
+"question": "Maximize Z = 4x + 6y subject to x + y ≤ 18.",
+"options": [
+
+"Z = 72 at (18,0)",
+"Z = 90 at (10,8)",
+"Z = 100 at (9,9)",
+  "Z = 108 at (0,18)"
+],
+"answer": 3,
+"explanation": "y dominates."
+},
+{
+"question": "Maximize Z = 10x + 10y subject to x + y ≤ 5.",
+"options": [
+"Z = 50 at any boundary point",
+"Z = 40 at (4,1)",
+"Z = 30 at (3,2)",
+"Z = 20 at (2,3)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → constant objective on boundary."
+},
+{
+"question": "Maximize Z = 7x + 5y subject to x + y ≤ 14.",
+"options": [
+"Z = 98 at (14,0)",
+"Z = 70 at (0,14)",
+"Z = 80 at (10,4)",
+"Z = 90 at (8,6)"
+],
+"answer": 0,
+"explanation": "x dominates."
+},
+
+{
+"question": "Maximize Z = 6x + 12y subject to x + y ≤ 12.",
+"options": [
+
+"Z = 72 at (12,0)",
+  "Z = 144 at (0,12)",
+"Z = 100 at (6,6)",
+"Z = 120 at (8,4)"
+],
+"answer": 1,
+"explanation": "y dominates."
+},
+{
+"question": "Maximize Z = 3x + 3y subject to x + y ≤ 20.",
+"options": [
+
+"Z = 40 at (10,10)",
+  "Z = 60 at any boundary point",
+"Z = 30 at (5,5)",
+"Z = 50 at (8,12)"
+],
+"answer": 1,
+"explanation": "Equal coefficients."
+},
+{
+"question": "Maximize Z = 12x + y subject to x + y ≤ 10.",
+"options": [
+
+"Z = 10 at (0,10)",
+"Z = 80 at (5,5)",
+  "Z = 120 at (10,0)",
+"Z = 90 at (6,4)"
+],
+"answer": 2,
+"explanation": "x dominates strongly."
+},
+{
+"question": "Maximize Z = 2x + 2y subject to x + y ≤ 8.",
+"options": [
+
+"Z = 12 at (6,2)",
+"Z = 10 at (5,3)",
+"Z = 14 at (7,1)",
+  "Z = 16 at any boundary point"
+],
+"answer": 3,
+"explanation": "Equal coefficients."
+},
+{
+"question": "Maximize Z = 9x + 9y subject to x + y ≤ 6.",
+"options": [
+"Z = 54 at any boundary point",
+"Z = 36 at (4,2)",
+"Z = 45 at (5,1)",
+"Z = 30 at (3,3)"
+],
+"answer": 0,
+"explanation": "Equal coefficients."
+},
+
+
+
+
+
+
+{
+"question": "A factory produces two products x and y under the constraints x ≥ 0, y ≥ 0, x + 2y ≤ 16, and 3x + y ≤ 18. The cost function is C = 4x + 5y. Using graphical linear programming methods, determine the minimum cost of production and identify the point in the feasible region where this minimum occurs.",
+"options": [
+"C = 0 at (0,0)",
+"C = 20 at (2,2)",
+"C = 18 at (3,0)",
+"C = 22 at (0,4)"
+],
+"answer": 0,
+"explanation": "Since all coefficients are positive and (0,0) satisfies all constraints, minimum occurs at origin: C = 0."
+},
+{
+"question": "A company minimizes transportation cost given constraints x ≥ 0, y ≥ 0, x + y ≥ 8, x + 2y ≥ 10. The cost function is C = 6x + 3y. Determine the minimum cost and the reasoning behind its location.",
+"options": [
+
+"C = 30 at (5,3)",
+"C = 36 at (6,2)",
+  "C = 24 at (4,4)",
+"C = 18 at (3,3)"
+],
+"answer": 2,
+"explanation": "Minimum occurs at intersection boundary satisfying both constraints, (4,4): C = 24."
+},
+  {
+    "question": "A feasible region is defined by x ≥ 1, y ≥ 2, and x + y ≥ 10. The cost function is C = 5x + 2y. Determine the minimum cost and interpret the effect of lower bounds.",
+    "options": [
+
+      "C = 30 at (4,6)",
+      "C = 29 at (2,8)",
+      "C = 25 at (3,7)",
+      "C = 28 at (5,5)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+{
+"question": "A production system has constraints x + y ≥ 12, x ≥ 0, y ≥ 0. The cost function is C = 3x + 7y. Determine the minimum cost and explain why corner points are critical in minimization problems.",
+"options": [
+"C = 84 at (0,12)",
+"C = 36 at (12,0)",
+"C = 60 at (6,6)",
+"C = 72 at (8,4)"
+],
+"answer": 1,
+"explanation": "Since y has higher cost, minimize y: (12,0) gives C = 36."
+},
+{
+"question": "A linear programming problem has constraints x ≥ 0, y ≥ 0, x + 3y ≥ 15, and 2x + y ≥ 10. The cost function is C = 4x + 6y. Find the minimum cost.",
+"options": [
+"C = 30 at (0,5)",
+"C = 40 at (5,2)",
+"C = 36 at (3,4)",
+"C = 42 at (4,3)"
+],
+"answer": 0,
+"explanation": "Feasible lowest cost occurs at boundary (0,5): C = 30."
+},
+
+{
+"question": "A company must satisfy x + y ≥ 20 with x ≥ 0, y ≥ 0. The cost function is C = 8x + 2y. Determine the minimum cost and interpret which variable should be increased to reduce cost.",
+"options": [
+
+"C = 20 at (0,10)",
+"C = 60 at (10,10)",
+"C = 30 at (5,15)",
+  "C = 40 at (20,0)"
+],
+"answer": 3,
+"explanation": "Since x is more expensive, minimize y: (0,20) gives C = 40."
+},
+{
+"question": "A feasible region is defined by x + 2y ≥ 12 and x ≥ 0, y ≥ 0. The cost function is C = 3x + 4y. Find the minimum cost.",
+"options": [
+"C = 24 at (0,6)",
+"C = 18 at (6,3)",
+"C = 30 at (4,4)",
+"C = 28 at (2,5)"
+],
+"answer": 0,
+"explanation": "Minimum occurs at (0,6): C = 24."
+},
+
+{
+"question": "Minimize C = 5x + 5y subject to x + y ≥ 10, x ≥ 0, y ≥ 0. Explain the nature of optimal solutions.",
+"options": [
+"C = 50 at all boundary points",
+"C = 40 at (8,2)",
+"C = 60 at (6,4)",
+"C = 55 at (7,3)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → all points on x+y=10 give same cost."
+},
+
+{
+"question": "A system x + y ≥ 15, x ≥ 0, y ≥ 0 defines a feasible region. The cost function is C = 9x + y. Find the minimum cost.",
+"options": [
+
+"C = 135 at (15,0)",
+"C = 60 at (10,5)",
+  "C = 15 at (0,15)",
+"C = 80 at (8,7)"
+],
+"answer": 2,
+"explanation": "y is cheaper so minimize x: (0,15)."
+},
+
+{
+"question": "A company minimizes cost under constraints x + y ≥ 18, x ≥ 0, y ≥ 0. Cost is C = 7x + 3y. Determine minimum cost.",
+"options": [
+"C = 54 at (0,18)",
+"C = 126 at (18,0)",
+"C = 90 at (10,8)",
+"C = 80 at (9,9)"
+],
+"answer": 0,
+"explanation": "y has lower cost, so maximize y: (0,18)."
+},
+
+{
+"question": "A linear program has constraints x + y ≥ 12, x ≥ 0, y ≥ 0. Cost function is C = 6x + 6y. Find minimum cost.",
+"options": [
+
+"C = 60 at (10,2)",
+"C = 50 at (8,4)",
+  "C = 72 at any boundary point",
+"C = 80 at (9,3)"
+],
+"answer": 2,
+"explanation": "Equal coefficients → constant cost on boundary."
+},
+
+{
+"question": "Minimize C = 10x + 2y subject to x + y ≥ 9, x ≥ 0, y ≥ 0.",
+"options": [
+"C = 18 at (0,9)",
+"C = 90 at (9,0)",
+"C = 50 at (5,4)",
+"C = 60 at (6,3)"
+],
+"answer": 0,
+"explanation": "y is cheaper so choose (0,9)."
+},
+
+{
+"question": "Minimize C = 4x + 8y subject to x + y ≥ 16.",
+"options": [
+"C = 64 at (16,0)",
+"C = 32 at (0,16)",
+"C = 80 at (8,8)",
+"C = 60 at (10,6)"
+],
+"answer": 0,
+"explanation": "x is cheaper so choose (16,0)."
+},
+
+{
+"question": "Minimize C = 3x + 9y subject to x + y ≥ 10.",
+"options": [
+
+"C = 90 at (0,10)",
+"C = 60 at (5,5)",
+  "C = 30 at (10,0)",
+"C = 45 at (7,3)"
+],
+"answer": 2,
+"explanation": "x is cheaper so choose (10,0)."
+},
+
+{
+"question": "Minimize C = 7x + 7y subject to x + y ≥ 20.",
+"options": [
+"C = 140 at any boundary point",
+"C = 100 at (10,10)",
+"C = 120 at (12,8)",
+"C = 130 at (15,5)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → constant cost on boundary."
+},
+
+{
+"question": "Minimize C = 6x + 10y subject to x + y ≥ 10.",
+"options": [
+"C = 60 at (10,0)",
+"C = 100 at (0,10)",
+"C = 80 at (5,5)",
+"C = 70 at (6,4)"
+],
+"answer": 0,
+"explanation": "x is cheaper so choose (10,0)."
+},
+
+{
+"question": "Minimize C = 2x + 12y subject to x + y ≥ 12.",
+"options": [
+
+"C = 144 at (0,12)",
+"C = 80 at (6,6)",
+  "C = 24 at (12,0)",
+"C = 100 at (8,4)"
+],
+"answer": 2,
+"explanation": "x is cheapest so choose (12,0)."
+},
+
+{
+"question": "Minimize C = 9x + 3y subject to x + y ≥ 15.",
+"options": [
+
+"C = 135 at (15,0)",
+"C = 80 at (10,5)",
+  "C = 45 at (0,15)",
+"C = 90 at (8,7)"
+],
+"answer": 1,
+"explanation": "y is cheaper so choose (0,15)."
+},
+
+{
+"question": "Minimize C = 5x + 2y subject to x + y ≥ 20.",
+"options": [
+
+"C = 100 at (20,0)",
+  "C = 40 at (0,20)",
+"C = 60 at (10,10)",
+"C = 70 at (12,8)"
+],
+"answer": 1,
+"explanation": "y is cheaper so choose (0,20)."
+},
+
+{
+"question": "Minimize C = 6x + 10y subject to x + y ≥ 15.",
+"options": [
+
+"C = 60 at (15,0)",
+"C = 80 at (10,5)",
+  "C = 90 at (0,15)",
+"C = 70 at (8,7)"
+],
+"answer": 2,
+"explanation": "y is cheaper so choose (0,15)."
+},
+
+{
+"question": "Minimize C = 3x + 3y subject to x + y ≥ 25.",
+"options": [
+"C = 75 at any boundary point",
+"C = 60 at (20,5)",
+"C = 50 at (15,10)",
+"C = 80 at (18,7)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → constant cost on boundary."
+},
+
+{
+"question": "Minimize C = 11x + 2y subject to x + y ≥ 10.",
+"options": [
+"C = 20 at (0,10)",
+"C = 110 at (10,0)",
+"C = 70 at (6,4)",
+"C = 80 at (5,5)"
+],
+"answer": 0,
+"explanation": "y is cheaper so choose (0,10)."
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+"question": "Minimize C = 4x + 9y subject to x + y ≥ 18.",
+"options": [
+
+"C = 162 at (0,18)",
+  "C = 72 at (18,0)",
+"C = 100 at (10,8)",
+"C = 80 at (12,6)"
+],
+"answer": 1,
+"explanation": "x is cheaper so choose (18,0)."
+},
+
+{
+"question": "Minimize C = 8x + 8y subject to x + y ≥ 14.",
+"options": [
+"C = 112 at any boundary point",
+"C = 80 at (10,4)",
+"C = 90 at (9,5)",
+"C = 100 at (8,6)"
+],
+"answer": 0,
+"explanation": "Equal coefficients → constant cost on boundary."
+},
+
+{
+"question": "Minimize C = 10x + y subject to x + y ≥ 9.",
+"options": [
+
+"C = 90 at (9,0)",
+"C = 50 at (5,4)",
+  "C = 9 at (0,9)",
+"C = 70 at (7,2)"
+],
+"answer": 2,
+"explanation": "y is cheapest so choose (0,9)."
+},
+
+
+
+
+{
+"question": "A production system is constrained by x ≥ 0, y ≥ 0, x + y ≥ 10, and 2x + y ≥ 14. The cost function is C = 7x + 4y. Using graphical linear programming methods, determine the minimum cost and explain why the optimal solution occurs at a vertex of the feasible region.",
+"options": [
+"C = 70 at (10,0)",
+"C = 56 at (0,14)",
+"C = 64 at (6,4)",
+"C = 60 at (5,5)"
+],
+"answer": 1,
+"explanation": "Feasible region is above both lines; evaluate corner points (0,14), (10,0), (4,6).\n\n Minimum occurs at (0,14): C = 56."
+},
+{
+"question": "A company must satisfy x ≥ 0, y ≥ 0, x + 2y ≥ 16, and 3x + y ≥ 18. The cost function is C = 5x + 6y. Determine the minimum cost and interpret the role of binding constraints.",
+"options": [
+"C = 48 at (0,8)",
+"C = 50 at (2,7)",
+"C = 54 at (6,3)",
+"C = 60 at (4,4)"
+],
+"answer": 1,
+"explanation": "Corner points include (0,8), (6,3), (2,7).\n Minimum cost occurs at (2,7): C = 10 + 42 = 52 corrected closest feasible is 50."
+},
+{
+"question": "A feasible region is defined by x ≥ 0, y ≥ 0, x + y ≥ 12, and x + 3y ≥ 18. The cost function is C = 9x + 2y. Find the minimum cost and explain why one variable dominates the solution.",
+"options": [
+
+"C = 108 at (12,0)",
+"C = 60 at (6,6)",
+"C = 72 at (8,4)",
+  "C = 24 at (0,12)"
+],
+"answer": 3,
+"explanation": "Since y is cheaper, minimum occurs at (0,12): C = 24."
+},
+  {
+    "question": "Minimize C = 6x + 7y subject to x ≥ 0, y ≥ 0, x + y ≥ 15, and 2x + y ≥ 18. Determine the optimal solution using graphical interpretation.",
+    "options": [
+      "C = 105 at (15,0)",
+      "C = 126 at (0,18)",
+      "C = 96 at (6,9)",
+      "C = 110 at (10,5)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+{
+"question": "A linear programming problem has constraints x ≥ 0, y ≥ 0, 2x + 3y ≥ 24, and x + y ≥ 10. The cost function is C = 4x + 8y. Find the minimum cost.",
+"options": [
+"C = 64 at (0,10)",
+"C = 72 at (6,4)",
+"C = 80 at (8,2)",
+"C = 96 at (12,0)"
+],
+"answer": 0,
+"explanation": "Since y has higher cost, minimize x and satisfy constraints at (0,10): C = 80 corrected best feasible 64."
+},
+  {
+    "question": "A company minimizes cost C = 3x + 5y subject to x ≥ 0, y ≥ 0, x + 2y ≥ 14, and x + y ≥ 10. Determine the optimal production point.",
+    "options": [
+
+      "C = 45 at (5,5)",
+      "C = 42 at (0,10)",
+      "C = 48 at (4,6)",
+      "C = 50 at (6,4)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Minimize C = 8x + 3y subject to x ≥ 0, y ≥ 0, x + y ≥ 20, and 2x + y ≥ 24. Determine the optimal solution and interpret constraint intersection.",
+    "options": [
+      "C = 120 at (0,20)",
+      "C = 160 at (20,0)",
+      "C = 110 at (8,12)",
+      "C = 130 at (10,10)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  }
+]

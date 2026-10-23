@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Suppose f is a continuous function on an interval [a, b] and differentiable on (a, b) with the property f(a) = f(b). Which one of the following must be true?",
+    "options": [
+      "The function has maximum value in (a, b).",
+      "The graph of f has horizontal tangent line at (c, (f(c)) for some c ∈ (a, b).",
+      "The function has a zero in (a, b).",
+      "The function has minimum value in (a, b)."
+    ],
+    "answer": 1,
+    "explanation": "This question refers to Rolle's Theorem, which is a special case of the Mean Value Theorem.\n\n Rolle's Theorem states that if a function f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b), then there exists at least one number c in (a, b) such that the derivative f'(c) = 0. A derivative of zero means the tangent line at that point is horizontal."
+  },
+  {
+    "question": "Let f be a continuous function on ℝ and c be a number in the domain of f. Which one of the following must be true about the function?",
+    "options": [
+      "If f(c) is a local minimum value of f, then f'(c) = 0.",
+      "An absolute maximum value of f which is attained at a critical number is also a local maximum value of f.",
+      "If c is a critical number of f, then f(c) is a local extreme value of f.",
+      "If f''(c) = 0, then (c, f(c)) is an inflection point of f."
+    ],
+    "answer": 1,
+    "explanation": "Option 1 is false because a local minimum may occur where the derivative does not exist (e.g., f(x) = |x| at x = 0). Option 3 is false because not all critical points correspond to local extrema (e.g., f(x) = x³ at x = 0). Option 4 is false because f''(c) = 0 does not guarantee an inflection point (e.g., f(x) = x^4 at x = 0). Option 2 is true: if an absolute maximum occurs at a critical number, it is also a local maximum because in a small neighborhood, the function cannot exceed this value."
+  },
+  {
+    "question": "What is the value of a for which the function defined by f(x) =[ {ax + 3 for x ≥ 1} and  {x² - 2x + 3  for  x < 1} ]  is continuous at 1 ?",
+    "options": [
+      "-1",
+      "1",
+      "4",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "The function is continuous at x = 1 if the left-hand limit equals the right-hand limit. Left-hand limit: lim_{x→1^-} (x² - 2x + 3) = 1 - 2 + 3 = 2. Right-hand limit and f(1): lim_{x→1^+} (ax + 3) = a*1 + 3 = a + 3. Equate the limits: 2 = a + 3 → a = -1."
+  }
+]

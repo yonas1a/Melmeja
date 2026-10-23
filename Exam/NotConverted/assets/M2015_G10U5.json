@@ -1,0 +1,24 @@
+[
+  {
+    "question": "If tan(31°) = 0.81, what is the value of tan(509°)?",
+    "options": [
+      "-0.91",
+      "0.81",
+      "-0.81",
+      "0.19"
+    ],
+    "answer": 2,
+    "explanation": "509° = 509 − 360 = 149°. \nAlso 149° = 180° − 31°. \n\nUsing identity tan(180° − x) = −tan(x).\n\n So tan(149°) = −tan(31°) = −0.81."
+  },
+  {
+    "question": "If sin(θ) = -3/5 and theta is a 4th quadrant angle, then what is the value of sec(θ)?",
+    "options": [
+      "-5/4",
+      "5/3",
+      "5/4",
+      "-5/3"
+    ],
+    "answer": 2,
+    "explanation": "In the 4th quadrant, sin is negative and cos is positive.\n\n sin(θ) = -3/5 implies opposite = -3, hypotenuse = 5, so adjacent = 4.\n\n Thus cos(θ) = 4/5 and sec(θ) = 1/cos(θ) = 5/4."
+  }
+]

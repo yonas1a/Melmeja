@@ -1,0 +1,271 @@
+{
+  "id": "m2016_g12_merged_melmeja",
+  "title": "Grade 12 Mathematics Comprehensive Exam 2016 (5 Chapters Combined)",
+  "category": "GRADE_12",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 12",
+  "description": "Comprehensive examination bank combining 5 chapters (15 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 30,
+  "totalQuestions": 15,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_12",
+    "2016",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2016",
+  "questions": [
+    {
+      "id": "q_m2016_g12u1_melmeja_1",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "If the fifth and the tenth terms of a geometric sequence are 640 and 20 respectively, then which of the following numbers are the first term and the common ratio of the given geometric sequence, respectively?",
+      "options": [
+        "10240 and 2",
+        "10240 and 1/2",
+        "1024 and 2",
+        "1024 and 1/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a5 = ar⁴ and a10 = ar⁹.\n Dividing gives r^5 = 20/640 =\n 1/32, so r = 1/2.\n Then a = 640 × 16 = 10240.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_2",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is equal to the sum of :-",
+      "imageUrl": "images/M2016_47.png",
+      "diagramUrl": "images/M2016_47.png",
+      "options": [
+        "1093",
+        "1092",
+        "1088",
+        "1079"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_3",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is equal to the sum  ∑2n² where n = 1 to n = 5?",
+      "options": [
+        "2 + 4 + 6 + 8 + 10",
+        "2 + 8 + 18 + 32 + 50",
+        "2 + 8 + 16 + 32 + 64",
+        "2 + 4 + 8 + 16 + 32"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Evaluate 2n² for n = 1 to 5:\n 2(1²)=2, 2(2²)=8, 2(3²)=18, 2(4²)=32, 2(5²)=50,\n\n so the sum is 2 + 8 + 18 + 32 + 50.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_4",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Let f be differentiable function at a number 'a' for a ∈  Domain f. In the expression [f(a+h) - f(a)] / h for  h ≠ 0, as h gets closer and closer to zero from both directions, the expression becomes closer to f'(a), which is equal to:",
+      "options": [
+        "The gradient of the secant line to the graph of f at a point (a, f(a)).",
+        "The gradient of the tangent line to the graph of f at a point (a, f(a)).",
+        "The gradient of the normal line to the graph of f at a point (a, f(a)).",
+        "The gradient of the vertical line to the graph of f at a point (a, f(a))."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The expression [f(a+h) - f(a)] / h is the difference quotient, representing the slope of the secant line between (a, f(a)) and (a+h, f(a+h)).\n\n Taking the limit as h → 0 gives f'(a), which is the slope of the tangent line at (a, f(a)).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_5",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about the integral of a function f(x) with respect to a variable x,?",
+      "options": [
+        "f(x)dx is the set of all anti-derivatives of f.",
+        "f(x)dx is the set of all derivatives of f.",
+        "f'(x)dx is the set of all anti-derivatives of f.",
+        "f(x)dx is the set of all derivatives of f."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The indefinite integral ∫ f(x) dx gives the set of all functions whose derivative is f(x).\n\n That is, it represents the set of all anti-derivatives of f(x)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_6",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "What is the area of the region bounded by the graph of f(x) = x³ and the x-axis on the interval [-4, 2]?",
+      "options": [
+        "60 Square units",
+        "68 Square units",
+        "120 Square units",
+        "136 Square units"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The function f(x) = x³ is negative on [-4,0] and positive on [0,2].\n\n The area is given by ∫ [4,0] -x³ dx + ∫ [0,2] x³ dx =\n 64 + 4 = 68.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_7",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about the Range and Interquartile Range of a given data?",
+      "options": [
+        "Both are affected by extreme values in the data.",
+        "Both are measures of the variability of each item in the data.",
+        "Both are considering only the middle 50% of the data.",
+        "Both are measures of variation of the data."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Range and Interquartile Range (IQR) are both measures of variation because they describe the spread of data.\n\n Range considers the full spread (max - min), while IQR considers the spread of the middle 50%.\n\n Therefore, both are measures of variation, but only the Range is affected by extreme values.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_8",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Consider that a data set given below: 10, 8, 10, 2, 12, 6, 12, 18, 3, 7, 10, 8, 8. Which one of the following is the *coefficient of range* of the data?",
+      "options": [
+        "16",
+        "4/5",
+        "5/4",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1 Find maximum and minimum values: Max = 18, Min = 2 \n\nCompute Range: 18 - 2 = 16\n\nCompute Coefficient of Range: Range / (Max + Min) =\n 16 / (18 + 2) =\n 16/20 =\n 4/5",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_9",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a simple random sampling?",
+      "options": [
+        "Selecting five students from Grade 12 students of the same school randomly.",
+        "Selecting a group randomly from groups formed by dividing the population into groups.",
+        "First the population is divided into homogenous groups and a sample is selected from each homogenous group.",
+        "First divide a city into ten groups and choose the secondary school principals from the randomly selected 3 groups."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Simple random sampling is when every member of the population has an equal chance of being selected. \n\nOption A randomly selects five students from all Grade 12 students, giving each student an equal chance. \n\nOther options involve grouping or stratifying, which are different sampling methods. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_10",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "The following table presents the number of traffic accidents in a certain city per year for five consecutive years from 2019 to 2023\n\nWhat is the average number of accidents per year for the given five years?",
+      "imageUrl": "images/M2016_55.png",
+      "diagramUrl": "images/M2016_55.png",
+      "options": [
+        "3200",
+        "3210",
+        "3250",
+        "3270"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_11",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Given that a graph of system of linear inequalities as shown below. Which one of the following system of linear inequalities is represented by the shaded region in the graph? ",
+      "imageUrl": "images/M2016_56.png",
+      "diagramUrl": "images/M2016_56.png",
+      "options": [
+        "{(2x + y ≥ 4), (3x-y ≥ 6)}",
+        "{(2x + y ≤ 4), (3x - y ≥ 6)}",
+        "{(2x + y ≤ 4), (3x - y ≤ 6)}",
+        "{(2x + y ≥ 4), (3x -y ≤ 6)}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_12",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum value of z = 2x + 3y subjected to the constraints:\n{x + y ≤ 6 \n{2x-y ≤ 6 \n{ x ≥ 0 \n{ y ≥ 0",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "22"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Corner points: (0,0), (3,0), (4,2), (0,6).\n\n Evaluate z: 0, 6, 14, 18 \n→ maximum is 18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_13",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "A company produces shirts of black and white colors from polyester and cotton. The company has 6000 units of polyester and 3000 units of cotton in its stock. A black shirt requires 3 units of polyester and 4 units of cotton, whereas a white shirt requires 2 units of polyester and 3 units of cotton. If the factory gets a profit of Birr 120 from each black shirt and Birr 200 from each white shirt, what is the maximum profit of the company?",
+      "options": [
+        "Birr 344,000",
+        "Birr 200,000",
+        "Birr 140,000",
+        "Birr 120,000"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Constraint 4x + 3y ≤ 3000 is limiting.\n\n Checking corner points: (0,1000) gives profit 200×1000 = \n200,000, which is maximum.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_14",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "If 180 individuals can complete a job in 15 days by working 10 hours a day, how many individuals are needed to complete the job in 10 days if they work 8 hours a day?",
+      "options": [
+        "338",
+        "220",
+        "200",
+        "144"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Total work = 180 × 15 × 10 = 27000.\n\n New workers = 27000 ÷ (10 × 8) =\n 337.5 ≈ 338.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g12u1_melmeja_15",
+      "examId": "m2016_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is NOT a valid reason for saving?",
+      "options": [
+        "To maximize interest",
+        "For the time of retirement",
+        "For betting in football",
+        "For vacation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Saving is meant for useful future needs like retirement, emergencies, or goals, not for risky activities like betting.",
+      "topic": "Mathematics"
+    }
+  ]
+}

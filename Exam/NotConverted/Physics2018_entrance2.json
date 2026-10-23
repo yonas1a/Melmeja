@@ -1,0 +1,693 @@
+[
+  {
+    "question": "The work done per unit charge in bringing a test charge from infinity to a point in an electric field is called",
+    "options": [
+      "electric field strength.",
+      "electric potential energy.",
+      "electric potential.",
+      "electrostatic force."
+    ],
+    "answer": 2,
+    "explanation": "Electric potential at a point in an electric field is defined as the amount of work done in bringing a unit positive charge from infinity to that point."
+  },
+  {
+    "question": "A torque of 10³ Nm rotates a door by an angular displacement of 45° about its hinges. The work done on the door is",
+    "options": [
+      "785 J",
+      "1274 J",
+      "45000 J",
+      "4500 J"
+    ],
+    "answer": 0,
+    "explanation": "Work done by torque W = τ × Δθ. \n\nConverting 45° to radians:\n\n Δθ = 45° × (π / 180°) =\n\n π / 4 rad ≈ 0.7854 rad.\n\n W = 1000 Nm × 0.7854 rad =\n\n 785.4 J ≈\n 785 J."
+  },
+  {
+    "question": "Two-point charges q₁ = 12 µC and q₂ = -6 µC placed on a horizontal surface along the x-axis at x = 0 and x = 4 cm respectively. The electric force on",
+    "options": [
+      "q₁ due to q₂ is 405 N, toward positive x-axis.",
+      "q₂ due to q₁ is 810 N, toward negative x-axis.",
+      "q₂ due to q₁ is 810 N, toward positive x-axis.",
+      "q₁ due to q₂ is 405 N, toward negative x-axis."
+    ],
+    "answer": 1,
+    "explanation": "Coulomb's Law magnitude F = (k · |q₁ · q₂|) / r² \n\n= (8.99 × 10⁹ × 12 × 10⁻⁶ × 6 × 10⁻⁶) / (0.04)² \n\n= 0.64728 / 0.0016 =\n\n 404.55 N ≈ 405 N . \n\nSince charges are opposite (+12 µC and -6 µC), they attract each other. \n\nTherefore, q₁ is pulled towards positive x-axis (towards q₂),\n\n so force on q₁ due to q₂ is 405 N, toward positive x-axis."
+  },
+  {
+    "question": "A 30 µF capacitor is charged to 18 V. How much energy does it contain?",
+    "options": [
+      "2.46 × 10⁻³ J",
+      "5.40 × 10⁻⁴ J",
+      "9.72 × 10⁻³ J",
+      "4.86 × 10⁻³ J"
+    ],
+    "answer": 3,
+    "explanation": "Energy stored in a capacitor U = ½ C V² \n\n= ½ × (30 × 10⁻⁶ F) × (18 V)² \n\n= 15 × 10⁻⁶ × 324 \n\n= 4860 × 10⁻⁶ J \n\n= 4.86 × 10⁻³ J."
+  },
+  {
+    "question": "A tungsten wire of length 5 cm and diameter of 2 mm has a resistivity of 5.25 x 10⁻⁸ Ω.m. What is the resistance of the wire?",
+    "options": [
+      "2.63 x 10³ Ω",
+      "8.36 x 10⁻⁴ Ω",
+      "2.10 x 10⁻⁴ Ω",
+      "2.10 x 10² Ω"
+    ],
+    "answer": 1,
+    "explanation": "Resistance R = ρ · L / A.\n\n Given L = 0.05 m,\n diameter d = 2 mm = 2 × 10⁻³ m,\n so radius r = 10⁻³ m.\n\n Area A = π r² = π × (10⁻³)² ≈ 3.1416 × 10⁻⁶ m². \n\nR = (5.25 × 10⁻⁸ × 0.05) / (3.1416 × 10⁻⁶) \n\n= (2.625 × 10⁻⁹) / (3.1416 × 10⁻⁶) \n\n≈ 8.355 × 10⁻⁴ Ω\n\n ≈ 8.36 × 10⁻⁴ Ω."
+  },
+
+    {
+      "question": "Four resistors are connected to give a single circuit as shown in the figure below.\n\nWhich of the following statement describes the combination of the resistors correctly?",
+      "options": [
+        "R₁ and R₄ are combined in series.",
+        "R₂ and R₄ are combined in parallel.",
+        "R₁ and R₂ are combined in series.",
+        "R₅ and R₄ are combined in parallel."
+      ],
+      "answer": 3,
+      "explanation": "Looking at the parallel network inside the circuit, the branches containing R₄ and R₅ are connected across the same two common nodes, making R₅ and R₄ combined in parallel.",
+      "image": "images/P2018R2_6.png"
+    },
+    {
+      "question": "Kepler's second law of planetary motion states that",
+      "options": [
+        "the orbit of a planet around the Sun is an ellipse with the Sun at one focus.",
+        "the radius vector drawn from the Sun to any planet sweeps out equal areas in equal time intervals.",
+        "the square of the period of a planet is proportional to the cube of the average distance between the Sun and the planet.",
+        "a planet moves fastest when it is at the aphelion and slowest when it is at perihelion."
+      ],
+      "answer": 1,
+      "explanation": "Kepler's second law (Law of Equal Areas) states that a line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time."
+    },
+    {
+      "question": "Which field of engineering demands the physics knowledge like electromagnetism, mechanics and thermodynamics to design motors, optical fiber networks and communications links?",
+      "options": [
+        "Chemical engineering",
+        "Biomedical engineering",
+        "Electrical engineering",
+        "Civil engineering"
+      ],
+      "answer": 2,
+      "explanation": "Electrical engineering applies principles of electromagnetism, electronics, optics, and mechanics to design electric motors, optical communications, and electronic systems."
+    },
+
+    {
+      "question": "Suppose r⃗ is the position vector from an axis of rotation to the point of application of a force F⃗ and θ is the angle between r⃗ and F⃗, when joined tail to tail. The magnitude of the torque caused by the force is the product of the",
+      "options": [
+        "magnitude of the force and perpendicular distance from the axis of rotation to the line of action of the force.",
+        "component of the force perpendicular to the position vector and the component of the position vector parallel to the force.",
+        "magnitudes of the force and the position vector.",
+        "component of the force parallel to the position vector and the magnitude of the position vector."
+      ],
+      "answer": 0,
+      "explanation": "Torque is defined as τ = r F sin(θ).\n\n Here, r sin(θ) represents the perpendicular distance from the axis of rotation to the line of action of the force (the moment arm).\n\n Thus, torque is the product of the magnitude of the force and this perpendicular distance."
+    },
+    {
+      "question": "A ball is thrown from the top of a 7.2 m high building with a speed of 20 m/s at an angle of 53° above the horizontal. The magnitude of the vertical component of the ball's velocity just before hitting the ground is",
+      "options": [
+        "12 m/s.",
+        "20 m/s.",
+        "10 m/s.",
+        "16 m/s."
+      ],
+      "answer": 1,
+      "explanation": "Initial vertical velocity vy0 = v₀ sin(53°) =\n\n 20 × 0.8 = 16 m/s (upward). \n\nUsing conservation of energy / kinematics equation vyf² = vy0² + 2gh (taking g = 10 m/s²):\n\n vyf² = (16)² + 2(10)(7.2) =\n\n 256 + 144 = 400.\n\n Taking the square root gives vyf = 20 m/s."
+    },
+    {
+      "question": "A wheel of radius, r starts rotating about an axis passing through its center and accelerates with angular acceleration, α until its angular speed reaches ω. During this process, it rotates an angular displacement, θ. Which one of the following relations between linear components of a point at a rim of the wheel and its angular components is correct? (Assume all angular components are given in radian)",
+      "options": [
+        "The centripetal acceleration at the point is a_cent = α · r.",
+        "The centripetal acceleration at the point is a_cent = ω² · r.",
+        "The tangential acceleration of the point is aₜ = ω² · r.",
+        "The tangential velocity of the point is vₜ = ω / r."
+      ],
+      "answer": 1,
+      "explanation": "Centripetal (radial) acceleration is given by a_cent = v²/r = ω² · r.\n\n Tangential acceleration is a_t = α ·\n\n r, and tangential velocity is v_t = ω · r."
+    },
+  {
+    "question": " A satellite orbits around the Earth with a mean orbital radius of R. If the mass of the Earth is Mₑ, how long does the satellite take to orbit the earth?",
+    "options": [
+      "1/(2π) √(R³/GMₑ)",
+      "2π √(R²/GMₑ)",
+      "2π √(R³/GMₑ)",
+      "1/(2π) √(R²/GMₑ)"
+    ],
+    "answer": 2,
+    "explanation": "The gravitational force provides the centripetal force needed for the satellite's circular orbit.\n\n Therefore, GMₑm/R² = mv²/R. \n\nSince the orbital speed is v = 2πR/T,\n\n substituting this into the equation gives\n\n T² = 4π²R³/(GMₑ).\n\n Taking the square root, T = 2π√(R³/GMₑ).\n\n Therefore, the correct answer is C."
+  },
+    {
+      "question": " Which one of the following statements is correct about renewable energy resource?",
+      "options": [
+        "Renewable energy sources generate energy without consuming another form of energy.",
+        "Compared to non-renewable energy resources renewable energy resources are not environment friendly.",
+        "Wind, solar and fossil fuel are some examples of renewable energy resources.",
+        "A renewable energy resource is one that does not involve a fuel."
+      ],
+      "answer": 3,
+      "explanation": "A renewable energy resource is naturally replenished and does not require depletable fuel sources like fossil fuels.\n\n (Options A, B, and C contain incorrect statements: energy must be transformed, renewable energy is eco-friendly, and fossil fuels are non-renewable)."
+    },
+    {
+      "question": " Three open cylindrical containers, 1, 2, and 3, of the same height but different base areas are filled totally with the same liquid as shown in the figure below.\n\nIf P₁ is the pressure at the bottom of container 1, P₂ is the pressure at the bottom of container 2, and P₃ is the pressure at the bottom of container 3, then",
+      "options": [
+        "P₃ > P₁ > P₂",
+        "P₂ > P₁ > P₃",
+        "P₁ = P₂ = P₃",
+        "P₁ > P₂ > P₃"
+      ],
+      "answer": 2,
+      "explanation": "Hydrostatic pressure at depth h is given by P = ρgh. \n\nSince all three containers have the same liquid density (ρ) and equal height (h), the pressure at the bottom depends only on depth, not the base area or volume.\n\n Thus, P₁ = P₂ = P₃.",
+      "image": "images/P2018R2_14.png"
+    },
+
+    {
+      "question": " A force that varies with position as F(x) = 2x + 1, where F is in newton, displaces a 4 kg object horizontally from x = 0 to x = 4 m. What is the work done by the force?",
+      "options": [
+        "16 J",
+        "20 J",
+        "36 J",
+        "32 J"
+      ],
+      "answer": 1,
+      "explanation": "Work done is the integral of force with respect to position:\n\n W = ∫₀⁴ (2x + 1) dx = \n\n[x² + x]₀⁴ =\n\n (4² + 4) - 0 = \n\n16 + 4 =\n\n 20 J."
+    },
+    {
+      "question": " A boy pulls a 50 kg concrete up the inclined plane with a constant velocity. The length of the inclined plane through which the concrete is pulled is 5.0 m and the height to which the concrete is raised is 3.0 m. If the coefficient of kinetic friction between the concrete and the surface of the incline plane is 0.5, what is the efficiency of the inclined plane?",
+      "options": [
+        "60%",
+        "40%",
+        "100%",
+        "17 %"
+      ],
+      "answer": 0,
+      "explanation": "Useful output work is raising the weight:\n\n W_out = mgh =\n\n 50 × 10 × 3.0 = 1500 J (or using g = 9.8, 1470 J).\n\n The horizontal base is b = √(5² - 3²) =\n\n 4 m, so cosθ = 4/5 = 0.8 and sinθ = 3/5 = 0.6.\n\n Normal force N = mg cosθ.\n\n Friction force f = μN =\n μ mg cosθ. \n\nTotal effort required to pull at constant velocity is F = mg sinθ + μ mg cosθ.\n\n Total work input is W_in = F × L = mg (sinθ + μ cosθ) L.\n\n Substituting values: W_in = m × g × (3/5 + 0.5 × 4/5) × 5 =\n\n m × g × (3 + 2) =\n\n 5 m g = 2500 J (or using g = 9.8, 2450 J).\n\n Efficiency η = (W_out / W_in) × 100% =\n\n (mgh) / (mg(h + μb)) × 100% =\n\n 3 / (3 + 0.5 × 4) × 100% \n\n= 3 / 5 × 100% \n\n= 60%."
+    },
+    {
+      "question": " A wheel and axle is used to lift a load of 90 N bucket of water from a well with an applied effort of 45 N. If the radii of wheel and axle are 30 cm and 5 cm, respectively, then what is the actual mechanical advantage of the machine?",
+      "options": [
+        "0.5",
+        "3.0",
+        "2.0",
+        "6.0"
+      ],
+      "answer": 2,
+      "explanation": "Actual Mechanical Advantage (AMA) is defined as the ratio of Load to Effort:\n\n AMA = Load / Effort = \n\n90 N / 45 N = \n\n2.0."
+    },
+    {
+      "question": " A solid sphere of 50 cm³ is totally submerged in a liquid of density 930 kg/m³. What is the magnitude of the buoyant force exerted on the sphere?",
+      "options": [
+        "4.65 N",
+        "46.50 N",
+        "4650 N",
+        "0.465 N"
+      ],
+      "answer": 3,
+      "explanation": "Buoyant force F_b = ρ_liquid × V_displaced × g.\n\n Here V = 50 cm³ = 50 × 10⁻⁶ m³, ρ = 930 kg/m³, and taking g = 10 m/s² (or 9.8 m/s²),\n\n F_b = 930 × 50 × 10⁻⁶ × 10\n\n = 0.465 N."
+    },
+
+    {
+      "question": " For constant mass, m, Newton's second law of motion states that the acceleration of an object is",
+      "options": [
+        "directly proportional to the net force acting on it and inversely proportional to its mass.",
+        "directly proportional to both the net force acting on it and the mass of the object.",
+        "inversely proportional to the net force acting on it and directly proportional to its mass.",
+        "inversely proportional to both the net force acting on it and the mass of the object."
+      ],
+      "answer": 0,
+      "explanation": "According to Newton's second law of motion, a = F_net / m. \n\nThus, acceleration is directly proportional to the net force acting on the object and inversely proportional to its mass."
+    },
+    {
+      "question": " One of the basic differences between conventional x-ray and CT scan is that in CT scan",
+      "options": [
+        "stationary x-ray source is used where as in conventional x-ray a rotating x-ray source is used.",
+        "a rotating ultrasound source is used whereas in conventional x-ray a stationary x-ray source is used.",
+        "many successive images are gained whereas in conventional x-ray a single shadow image is gained.",
+        "the image provides inadequate information, whereas in conventional x-ray, the image provides more detailed information."
+      ],
+      "answer": 2,
+      "explanation": "CT scans take multiple successive cross-sectional X-ray images from different angles to construct 3D cross-sectional views, whereas a conventional X-ray produces a single 2D shadow image."
+    },
+
+    {
+      "question": " The figure shown below illustrates how the mass attached to a spring oscillates along a horizontal frictionless surface between points A and B.\n\nHow can one explain the mechanical energy of the mass-spring system for this figure? Its mechanical energy is equal to its",
+      "options": [
+        "elastic potential energy when the mass is at position O.",
+        "kinetic energy when the mass is at position B.",
+        "kinetic energy when the mass is at position A.",
+        "kinetic energy when the mass is at position O."
+      ],
+      "answer": 3,
+      "explanation": "At the equilibrium position O, the stretch/compression of the spring is zero, so elastic potential energy is zero and all mechanical energy is in the form of maximum kinetic energy.\n\n At turning points A and B, kinetic energy is zero and all energy is elastic potential energy.",
+      "image": "images/P2018R2_21.png"
+    },
+    {
+      "question": " An object of mass m = 12 kg supported by two strings is in equilibrium as shown in the figure below.\n\nIf the angle a string with tension T₁ makes from the horizontal is θ = 37°, what is the tension T₂ in the horizontal string?",
+      "options": [
+        "120 N",
+        "60 N",
+        "160 N",
+        "200 N"
+      ],
+      "answer": 2,
+      "explanation": "For equilibrium in the vertical direction: T₁ sin(37°) = mg.\n\n Using g = 10 m/s², mg = 12 × 10 = 120 N. \n\nSince sin(37°) ≈ 0.6, T₁ = 120 / 0.6 = 200 N.\n\n For equilibrium in the horizontal direction: T₂ = T₁ cos(37°).\n\n Since cos(37°) ≈ 0.8, T₂ =\n\n 200 × 0.8 = 160 N.",
+      "image": "images/P2018R2_22.png"
+    },
+    {
+      "question": " A 5 kg object is moving to the right at a speed of 20 m/s hits the wall and rebounds to the left at a speed of 10 m/s. What is the magnitude of an impulse applied on the object?",
+      "options": [
+        "150 Ns",
+        "200 Ns",
+        "100 Ns",
+        "50 Ns"
+      ],
+      "answer": 0,
+      "explanation": "Impulse J = Δp = m(v_final - v_initial).\n\n Taking right as positive: v_initial = +20 m/s and v_final = -10 m/s.\n\n Thus, J = 5 × (-10 - 20) =\n\n 5 × (-30) = -150 Ns.\n\n The magnitude of the impulse is 150 Ns."
+    },
+
+    {
+      "question": " A 0.20 kg ball thrown from a point 1.0 m above the ground has a kinetic energy of 40.0 J. Neglecting air resistance, what will be the kinetic energy of the ball when it reaches a height of 15.0 m above the ground?",
+      "options": [
+        "30.0 J",
+        "8.0 J",
+        "10.0 J",
+        "12.0 J"
+      ],
+      "answer": 3,
+      "explanation": "Total mechanical energy is conserved: E_initial = E_final.\n\n E_initial = KE_i + mgh_i =\n\n 40.0 J + (0.20 kg × 10 m/s² × 1.0 m) =\n\n 40.0 + 2.0 = 42.0 J. \n\nAt h = 15.0 m, E_final = \n\nKE_f + mgh_f ⇒ \n\n42.0 J = KE_f + (0.20 kg × 10 m/s² × 15.0 m) ⇒ \n\n42.0 = KE_f + 30.0 J. \n\nTherefore, KE_f = 42.0 - 30.0 = 12.0 J."
+    },
+    {
+      "question": " Free fall is defined as the downward motion of an object",
+      "options": [
+        "near the surface of the Earth under the influence of air resistance.",
+        "with acceleration that depends on the mass of the object.",
+        "in free space on which no force is acting.",
+        "with acceleration which is the same as acceleration due to gravity."
+      ],
+      "answer": 3,
+      "explanation": "Free fall is the motion of an object where gravity is the only force acting upon it, resulting in an acceleration equal to the acceleration due to gravity (g), independent of the object's mass."
+    },
+    {
+      "question": " When a force is applied to move an object along the surface, which one of the following statements is correct about the nature of frictional forces acting on the object?",
+      "options": [
+        "The limiting friction is greater than kinetic friction.",
+        "Static friction is equal to the limiting friction and nearly constant.",
+        "Static friction acts on moving object unlike the kinetic friction.",
+        "Kinetic friction has a maximum value unlike static friction."
+      ],
+      "answer": 0,
+      "explanation": "Limiting friction is the maximum static friction that prevents motion.\n\n Once motion starts, kinetic friction takes over, and its magnitude is generally less than the maximum (limiting) static friction force."
+    },
+    {
+      "question": " Two long springs labeled as A and B are suspended from the ceiling of a roof. When equal forces are applied on each of the springs, the extension produced on spring A is twice that on spring B. If the spring constants of A and B are denoted by k_A and k_B, respectively, which one of the following equations is correct about their spring constants?",
+      "options": [
+        "kₐ = 4kᵦ",
+        "kₐ = kᵦ/4",
+        "kₐ = kᵦ/2",
+        "kₐ = 2kᵦ"
+      ],
+      "answer": 2,
+      "explanation": "By Hooke's Law, F = kx, so x = F / k.\n\n Given equal forces Fₐ = Fᵦ = F and xₐ = 2 xᵦ, \n\nwe have F / kₐ = 2 (F / kᵦ). \n\nSimplifying gives 1 / kₐ = 2 / kᵦ,\n\n or kₐ = kᵦ / 2."
+    },
+
+    {
+      "question": " A 50 kg box placed on a smooth horizontal x-y plane is acted up on by two forces, which have magnitudes F₁ = 25 N and F₂ = 120 N. F₁ acts on the box in the direction of negative x-axis and F₂ acts on the box in the direction of 53° above the positive x-axis. What are the magnitudes of x and y components of the resultant force acting on the box, respectively?",
+      "options": [
+        "72 N, 96 N",
+        "47 N, 96 N",
+        "145 N, 72 N",
+        "96 N, 47 N"
+      ],
+      "answer": 1,
+      "explanation": "F₁ acts along the negative x-axis, so its components are F₁x = -25 N and F₁y = 0 N.\n\n F₂ acts at 53° above the positive x-axis, so its components are F₂x = 120 cos(53°) ≈ 120(0.6) = 72 N and F₂y = 120 sin(53°) ≈ 120(0.8) = 96 N.\n\n The resultant force components are the sums of these individual components:\n\n Rx = F₁x + F₂x =\n\n -25 + 72 = 47 N, \n\nand Ry = F₁y + F₂y =\n\n 0 + 96 =\n\n 96 N."
+    },
+    {
+      "question": " A student represents a force vector graphically by drawing a 12 cm line using a scale of 1 cm for 12.5 N force as shown in the figure below.\n\nWhat are the magnitude and direction of the force represented by the figure?",
+      "options": [
+        "150 N at 50° west of south",
+        "150 N at 50° south of west",
+        "125 N at 50° west of south",
+        "125 N at 50° south of west"
+      ],
+      "answer": 0,
+      "explanation": "The magnitude of the force is the length of the line multiplied by the given scale factor:\n\n 12 cm × 12.5 N/cm = 150 N.\n\n The diagram shows the vector in the third quadrant, making an angle of 50° starting from the South axis and sweeping towards the West, which corresponds to the direction '50° west of south'.",
+      "image": "images/P2018R2_29.png"
+    },
+    {
+      "question": " An object initially moving with a velocity of 10 m/s decelerates uniformly and covers a distance of 30 m in 4 s. What is the magnitude of its velocity at the end of 4 s?",
+      "options": [
+        "15 m/s",
+        "5 m/s",
+        "10 m/s",
+        "7.5 m/s"
+      ],
+      "answer": 1,
+      "explanation": "Using the kinematic equation for uniform acceleration that relates distance, initial velocity, final velocity, and time: d = ((v_i + v_f) / 2) × t.\n\n Substituting the given values gives 30 = ((10 + v_f) / 2) × 4.\n\n This simplifies to 30 = (10 + v_f) × 2, meaning 15 = 10 + v_f.\n\n Solving for v_f yields 5 m/s."
+    },
+
+    {
+      "question": " Which one of the following statements is correct about the use of a transformer in commonly available electrical appliances? The transformers in",
+      "options": [
+        "microwave ovens are used to step-down the incoming high voltage to low voltage to enable it cook food.",
+        "cell-phone chargers are used to convert the incoming alternating voltage to a direct voltage.",
+        "cell-phone chargers are used to step-down the incoming voltage to a safe voltage that will not harm its batteries.",
+        "laptop computer chargers are used to convert the incoming alternating voltage to a direct voltage."
+      ],
+      "answer": 2,
+      "explanation": "A transformer specifically changes AC voltage levels (stepping up or stepping down voltage).\n\n In cell-phone chargers, a step-down transformer reduces the high AC wall voltage to a lower, safer AC voltage level before it is rectified.\n\n  (Converting AC to DC is performed by a rectifier, not a transformer)."
+    },
+    {
+      "question": " A correct schematic symbol for a diode is",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "explanation": "The standard schematic symbol for a semiconductor diode consists of a triangle pointing towards a vertical line. \n\nThe side with the flat base of the triangle is the Anode (positive side), and the side with the vertical line/bar is the Cathode (negative side).",
+      "image": "images/P2018R2_32.png"
+    },
+
+    {
+      "question": " The North pole of a bar magnet is moving away from a circular wire lying on the top of a horizontal table as shown in the figure below.\n\nAccording to Lenz's law, the direction of the induced current in the wire when viewed from the magnetic side is",
+      "options": [
+        "clockwise.",
+        "upward.",
+        "downward.",
+        "counterclockwise."
+      ],
+      "answer": 0,
+      "explanation": "According to Lenz's law, the induced current will oppose the change in magnetic flux.\n\n Since the North pole is moving away, the loop creates a South pole on top to attract it back.\n\n Looking down at a South pole, the direction of the current flows clockwise.",
+      "image": "images/P2018R2_33.png"
+    },
+    {
+      "question": " In aviation technology, a logic gate is used to fit an automatic circuit to light up a display in an airplane if two toilets are in use. Which one of the following logic gates is used in designing a circuit?",
+      "options": [
+        "OR",
+        "NAND",
+        "NOT",
+        "AND"
+      ],
+      "answer": 3,
+      "explanation": "An AND gate outputs a HIGH signal (1) only when BOTH input conditions are met (i.e., toilet 1 AND toilet 2 are both in use)."
+    },
+
+    {
+      "question": " If A and B are the two inputs of an AND logic gate and Y is its output, which one of the following tables is its truth table?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "explanation": "An AND logic gate produces a HIGH output (1) if and only if all of its inputs are HIGH (1).\n\n For all other input combinations, the output is LOW (0). This corresponds to Table B.",
+      "image": "images/P2018R2_35.png"
+    },
+    {
+      "question": " Which of the following distinguishes between N-type and P-type semiconductors? In an N-type semiconductor,",
+      "options": [
+        "conduction is caused by the holes, whereas in a P-type semiconductor, conduction is caused by electrons.",
+        "a group three element in the periodic table is added to an intrinsic semiconductor, whereas in a P-type, a group five element is added.",
+        "a group five dopant provides extra electrons, whereas in a P-type semiconductor, a group three dopant creates holes.",
+        "the dopant has less number of valence electrons than the pure semiconductor, whereas in a P-type, the dopant has more number of valence electrons."
+      ],
+      "answer": 2,
+      "explanation": "N-type semiconductors are created by doping intrinsic semiconductors (Group IV) with pentavalent (Group V) impurities, providing free electrons.\n\n P-type semiconductors are created using trivalent (Group III) impurities, which create electron deficits (holes)."
+    },
+    {
+      "question": " According to Bernoulli's principle",
+      "options": [
+        "a slowly moving fluid exerts high pressure on a surface than a fast-moving fluid.",
+        "a fluid moves faster in a wider section of a pipe than in a narrower section.",
+        "a fast-moving fluid exerts high pressure on a surface than a slowly moving fluid.",
+        "a fluid pressure is higher at a narrower section of a pipe than at a wider section."
+      ],
+      "answer": 0,
+      "explanation": "Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in static pressure or potential energy.\n\n Thus, a slower-moving fluid exerts greater static pressure than a faster-moving fluid."
+    },
+
+    {
+      "question": " Which one of the following statements is NOT the application of high-pressure systems?",
+      "options": [
+        "Studying physical properties of solids",
+        "Inflating bicycle and car tires",
+        "Using gas cylinders to seal gases",
+        "Using high pressure washers to clean our body"
+      ],
+      "answer": 3,
+      "explanation": "High-pressure washers generate forces powerful enough to inflict severe skin cuts, tissue damage, and physical injury, so they are never safe to use for washing the human body."
+    },
+    {
+      "question": " Which one of the following statements is correct about the magnetic field lines of a bar magnet or an electromagnet?",
+      "options": [
+        "Since both a bar magnet and an electromagnet are permanent magnets; the patterns of the magnetic field lines are similar.",
+        "The density of the magnetic lines of an electromagnet is increased when the current through the conductor is increased.",
+        "The direction of the magnetic field lines of an electromagnet is the same regardless of the direction of the current through the conductor.",
+        "The magnetic field lines outside a bar magnet are directed from the South to North pole, but are in reverse direction for an electromagnet."
+      ],
+      "answer": 1,
+      "explanation": "The strength of an electromagnet's magnetic field is directly proportional to the current passing through it. \n\nIncreasing the electric current increases the field strength, which corresponds to a higher density of magnetic field lines."
+    },
+    {
+      "question": " Ampere's law can be stated that the magnetic field produced by",
+      "options": [
+        "an electric current is directly proportional to the magnitude of the current.",
+        "a bar magnet is directly proportional to the mass of the magnet.",
+        "a current carrying wire are parallel to the wire.",
+        "a conductor carrying constant current is directly proportional to the distance from the wire."
+      ],
+      "answer": 0,
+      "explanation": "According to Ampere's Law (e.g., B = μ₀I / (2πr) for a long straight wire), the magnetic field B produced around a current-carrying wire is directly proportional to the electric current I passing through it."
+    },
+    {
+      "question": " Water is flowing through a circular pipe at a flow rate of 6.28 m³/s. At one point in the pipe, the radius is 0.1 m. What is the speed of the water at this point?",
+      "options": [
+        "200 m/s",
+        "20 m/s",
+        "100 m/s",
+        "1000 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Volumetric flow rate Q is defined as Q = A × v = (π r²) × v.\n\n Given Q = 6.28 m³/s and\n r = 0.1 m:\n\n A = 3.14 × (0.1)² = 0.0314 m². \n\nSolving for speed v gives \nv = Q / A = \n6.28 / 0.0314 =\n 200 m/s."
+    },
+
+    {
+      "question": " Which one of the following statements correctly describes the difference between electric and magnetic fields? Electric field",
+      "options": [
+        "is produced by a single magnetic pole, whereas magnetic field is produced by electric dipole.",
+        "begins on a negative charge and end on a positive charge, whereas magnetic field inside a bar magnet begins on a North pole and end on a South pole.",
+        "is the region around an uncharged object, whereas magnetic field is a region around stationary charged object.",
+        "is produced by a unit pole of charge, whereas magnetic field is produced by a dipole of the magnet."
+      ],
+      "answer": 3,
+      "explanation": "Electric fields originate from electric charges (monopoles), while magnetic fields are typically produced by magnetic dipoles since isolated magnetic monopoles do not exist."
+    },
+    {
+      "question": " Which of the following statements correctly explains about the linear and angular quantities of a rotating body?",
+      "options": [
+        "At a given instant, all points of a rotating disk have the same tangential speed and different angular speed.",
+        "At a given instant, a point on the edge of a rotating tire has larger tangential speed than a point closer to the center of the tire.",
+        "A point closer to the center of a rotating disk travels larger linear distance than a point farther from the center.",
+        "For a rotating disk, the radial and tangential accelerations are parallel."
+      ],
+      "answer": 1,
+      "explanation": "Tangential speed is given by v = rω.\n\n For a rotating rigid body, all points share the same angular speed (ω), but points farther from the axis (larger radius r) have a larger tangential speed."
+    },
+    {
+      "question": " Which one of the following statements is correct about longitudinal and transverse waves?",
+      "options": [
+        "In longitudinal waves the displacement of each oscillating particle is perpendicular to the direction of the waves propagation.",
+        "In transverse waves the displacement of each oscillating particle is in the same direction to the waves propagation.",
+        "In transverse waves the displacement of each oscillating particle is perpendicular to the direction of the waves propagation.",
+        "In longitudinal waves energy is carried away between points by actual motion of particles of a medium along with the waves."
+      ],
+      "answer": 2,
+      "explanation": "In transverse waves, the particle displacement is perpendicular to the direction of wave propagation, whereas in longitudinal waves, it is parallel."
+    },
+
+    {
+      "question": " Assume that a liquid is in a glass container. Which one of the following phenomenon is correct about the expansion of the liquid when the container is heated?",
+      "options": [
+        "The heating will not expand the glass and we only observe the water level rises.",
+        "The real expansion of the liquid is equal to the sum of the apparent expansion and that of the container expansion.",
+        "The apparent expansion of a liquid is greater than its real expansion.",
+        "We first observe the rising of the liquid through the container and then the water level drops as the water warms."
+      ],
+      "answer": 1,
+      "explanation": "The real expansion of a liquid is equal to the apparent expansion of the liquid plus the volumetric expansion of the container\n\n (Real Expansion = Apparent Expansion + Container Expansion)."
+    },
+    {
+      "question": " An aluminum rod is 15 m long at 20 °C and has a coefficient of linear expansion of α = 2.4 × 10⁻⁵ / °C. What is the increase in the rod's length when it is heated to a temperature of 60 °C?",
+      "options": [
+        "2.16 × 10⁻² m",
+        "9.60 × 10⁻⁴ m",
+        "1.44 × 10⁻² m",
+        "7.20 × 10⁻³ m"
+      ],
+      "answer": 2,
+      "explanation": "The change in length is given by ΔL = α L₀ ΔT.\n\n Here, L₀ = 15 m,\n α = 2.4 × 10⁻⁵ / °C,\n and ΔT = 60 °C - 20 °C = 40 °C.\n\n Thus, ΔL = (2.4 × 10⁻⁵) × 15 × 40 =\n\n 1.44 × 10⁻² m."
+    },
+    {
+      "question": " Consider the following diagram of two-dimensional object.\n\nThe object is hanged on a wall, once at a time, from each of the holes and plumb lines are drawn. Which one of the following is correct concerning the center of mass of the object? The center of mass of the object is at",
+      "options": [
+        "the intersection point of all the lines drawn from each hole.",
+        "any arbitrary chosen holes.",
+        "the geometric center of the object.",
+        "the line drawn from one hole to another hole."
+      ],
+      "answer": 0,
+      "explanation": "By using the plumb line method (or center of gravity suspension method), when an irregularly shaped object is suspended from different pivot points (holes), the intersection of all the vertical plumb lines marks the exact center of mass.",
+      "image": "images/P2018R2_47.png"
+    },
+
+    {
+      "question": " A string which is vibrating with a frequency of 6.0 Hz, produces a transverse wave of wavelength 80.0 cm. What is the speed of the waves along the string?",
+      "options": [
+        "0.13 m/s",
+        "4.8 m/s",
+        "48.0 m/s",
+        "13.3 m/s"
+      ],
+      "answer": 1,
+      "explanation": "The speed of a wave is given by v = f × λ. \n\nGiven frequency f = 6.0 Hz and wavelength λ = 80.0 cm = 0.80 m,\n\n the speed is v = 6.0 × 0.80 = 4.8 m/s."
+    },
+    {
+      "question": " Given vector A⃗ having magnitude A, a unit vector, Ûₐ, in the direction of A⃗  is defines as",
+      "options": [
+        "Ûₐ = A⃗  / A",
+        "Ûₐ = A⃗ ",
+        "Ûₐ = AA⃗ ",
+        "Ûₐ = A/A⃗ "
+      ],
+      "answer": 3,
+      "explanation": "A unit vector in the direction of a given vector is defined as the vector itself divided by its magnitude:\n\n u_A = A / A."
+    },
+    {
+      "question": " A force of F = (3 î + 8 ĵ) N is applied on a trolley initially at rest in a horizontal frictionless surface. The force displaces the trolley through a displacement of s = (2 î + 5 ĵ) m. How much work is done on the trolley during the process?",
+      "options": [
+        "29 J",
+        "73 J",
+        "31 J",
+        "46 J"
+      ],
+      "answer": 3,
+      "explanation": "Work done is the dot product of the force and displacement vectors: W = F ⋅s = \n\n(3)(2) + (8)(5) = \n\n6 + 40 =\n\n 46 J."
+    },
+    {
+      "question": " Two vectors A⃗  and B⃗ are placed perpendicular to each other as shown in the figure below.\n\nIf the magnitudes of A⃗ and B⃗ are 6 units and 8 units, respectively, what is the magnitude and direction of their resultant vector, R⃗?",
+      "options": [
+        "10 units at 37° from vector A⃗",
+        "10 units at 53° from vector A⃗",
+        "2 units at 37° from vector A⃗",
+        "14 units at 53° from vector A⃗"
+      ],
+      "answer": 0,
+      "explanation": "The magnitude of the resultant vector is R = √(A² + B²) =\n\n √(6² + 8²) =\n √(36 + 64) = \n√100 = 10 units. \n\nThe angle θ from vector A is given by tan(θ) = B / A = \n\n8 / 6 =\n\n 4 / 3, which corresponds to an angle of 37°.",
+      "image": "images/P2018R2_51.png"
+    },
+
+    {
+      "question": " At a certain time a particle moves with a velocity of 9.0 m/s along the positive x-axis. Then, 2.0 s later it attains a velocity of 15.0 m/s in the opposite direction. What is the average acceleration of the particle during this time interval?",
+      "options": [
+        "12.0 m/s² towards the positive x-axis",
+        "3.0 m/s² towards the positive x-axis",
+        "12.0 m/s² towards the negative x-axis",
+        "3.0 m/s² towards the negative x-axis"
+      ],
+      "answer": 2,
+      "explanation": "Average acceleration is defined as a_avg = (v_final - v_initial) / Δt.\n\n Taking the positive x-axis as positive:\n\n v_initial = +9.0 m/s, and v_final = -15.0 m/s (since it is in the opposite direction). \n\nThus, a_avg = (-15.0 - 9.0) / 2.0 =\n\n -24.0 / 2.0 =\n\n -12.0 m/s², which means a magnitude of 12.0 m/s² directed towards the negative x-axis."
+    },
+    {
+      "question": " Consider an object moving to the right initially with a non-zero constant velocity, v₁ for a time interval of t₁ started speeding up at a constant rate for a time interval of t, until its velocity is v₂. Which one of the following velocity-time graphs correctly represents the motion of the object?",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "answer": 1,
+      "explanation": "During the first time interval t₁, the object moves with a non-zero constant velocity v₁, shown as a horizontal line segment from time 0 to t₁.\n\n Then, for the next time interval t (from t₁ to t₁ + t), it speeds up at a constant rate until its velocity reaches v₂, shown as a linear upward sloping line. \n\nThis is correctly represented by Graph B.",
+      "image": "images/P2018R2_53.png"
+    },
+
+    {
+      "question": " A person swings a ball that is connected to the end of a rope in a horizontal circle. If the person rotates the ball with a constant angular speed of 30 rad/s when the length of the rope is 0.80 m, how much is the centripetal acceleration of the ball?",
+      "options": [
+        "37.5 m/s²",
+        "900 m/s²",
+        "720 m/s²",
+        "30 m/s²"
+      ],
+      "answer": 1,
+      "explanation": "Centripetal acceleration is given by a_c = ω² × r.\n\n-> Given angular speed ω = 30 rad/s and\n radius r = 0.80 m,\n\n->  a_c = (30)² × 0.80 = \n\n900 × 0.80 =\n 720 m/s²."
+    },
+    {
+      "question": " The circular face of a solenoid is placed in front of the north pole of a bar magnet. Which of the following actions does NOT induce an electromotive force (emf) in the solenoid?",
+      "options": [
+        "Moving both the solenoid and the magnet with the same speed in opposite directions",
+        "Moving the solenoid towards the magnet",
+        "Moving both the solenoid and the magnet with the same speed in the same direction",
+        "Keeping the solenoid stationary while bringing the magnet closer to it"
+      ],
+      "answer": 2,
+      "explanation": "To induce an electromotive force (emf) via Faraday's law, there must be a change in magnetic flux through the solenoid, which requires relative motion between the solenoid and the magnet. \n\nMoving both the solenoid and the magnet with the same speed in the same direction means the distance and magnetic flux remain constant, so no emf is induced."
+    },
+    {
+      "question": " Which one of the following statements describe about magnetic domains in a magnetic material? Magnetic domains are",
+      "options": [
+        "orderly line up when the material is magnetized.",
+        "orderly line up in both magnetized and un magnetized materials.",
+        "orderly line up in unmagnetized material.",
+        "randomly distributed when the material is magnetized."
+      ],
+      "answer": 0,
+      "explanation": "In an unmagnetized magnetic material, magnetic domains are randomly oriented.\n\n When magnetized, these domains align orderly in the direction of the external magnetic field."
+    },
+    {
+      "question": " If you doped silicon from group three atoms of periodic table like boron, what will be the resulting extrinsic semi-conductor material? The crystal as whole does not change, but the impurities provide",
+      "options": [
+        "spare electrons and the semiconductor becomes p-type semiconductor.",
+        "holes and the semiconductor becomes n-type semiconductor.",
+        "spare electrons and the semiconductor becomes n-type semiconductor.",
+        "holes and the semiconductor becomes p-type semiconductor."
+      ],
+      "answer": 3,
+      "explanation": "Doping silicon (Group IV) with a Group III element like boron introduces electron deficiencies, which are called holes, resulting in a P-type (positive-type) semiconductor."
+    },
+
+    {
+      "question": " When diverging light rays from a source are incident upon a mirror the rays are reflected from the mirror and form an image which is either real or virtual. The image formed is",
+      "options": [
+        "virtual when the actual reflected/refracted rays are crossing at a point.",
+        "real when the backward extensions of reflected/refracted rays are crossing at a point.",
+        "real when the light rays from the image can be focused on a screen.",
+        "virtual when the light rays from the image can be focused on a screen."
+      ],
+      "answer": 2,
+      "explanation": "A real image is formed by actual converging light rays and can be projected and focused onto a screen, whereas a virtual image is formed by the apparent divergence of light rays and cannot be focused on a screen."
+    },
+    {
+      "question": " A straight conductor carrying a current I, which flows upward, is placed in uniform magnetic field B directed into the page, as shown in the figure below.\n\nWhat will happen to the conductor?",
+      "options": [
+        "It will be pushed to the right.",
+        "It will be pushed out of the page.",
+        "It will be pushed into the page.",
+        "It will be pushed to the left."
+      ],
+      "answer": 0,
+      "explanation": "Using the right-hand rule for magnetic force (F = I L × B): \n\n-> point your fingers upward in the direction of the current (I),\n\n-> curl them inward into the page in the direction of the magnetic field (B),\n\n-> and your thumb points to the right, indicating the direction of the force pushing the conductor.",
+      "image": "images/P2018R2_59.png"
+    },
+
+    {
+      "question": " A beam of monochromatic light strikes the shiny side of a horizontal plane mirror as shown in the figure below.\n\nWhat is its angle of reflection θr?",
+      "options": [
+        "60°",
+        "50°",
+        "30°",
+        "40°"
+      ],
+      "answer": 1,
+      "explanation": "The angle of incidence is measured between the incident ray and the normal (perpendicular) to the mirror surface.\n\n Since the mirror is horizontal, the angle between the mirror surface and the normal is 90°.\n\n Given that the angle between the incident ray and the mirror surface is 40°,\n\n the angle of incidence is 90° - 40° = 50°.\n\n By the law of reflection, the angle of reflection θ_r is equal to the angle of incidence, so θ_r = 50°.",
+      "image": "images/P2018R2_60.png"
+    }
+  ]

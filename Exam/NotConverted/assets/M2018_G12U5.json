@@ -1,0 +1,24 @@
+[
+{
+  "question": " A shopkeeper wants to increase his profit from Birr 3000 to Birr 3600. With what percent will his profit increases?",
+  "options": [
+    "30 %",
+    "25 %",
+    "60 %",
+    "20 %"
+  ],
+  "answer": 3,
+  "explanation": "Increase = 3600 − 3000 = 600.\n\n Percentage increase = (600/3000) × 100 = 20%.\n\n Therefore, the correct answer is option D."
+},
+{
+"question": " A person deposits Birr 6000 at the end of each year into a saving account that pays 10 % interest compounded annually what is the future value of the annuity after 3 years?",
+"options": [
+"19,860",
+"18,230",
+"12,000",
+"14,414"
+],
+"answer": 0,
+"explanation": "The future value of an ordinary annuity is given by ->\n\n FV = PMT * [((1 + r)ⁿ - 1) / r].\n\nHere, PMT = 6000, r = 0.10, and n = 3 years.\n\n-> FV = 6000 * [((1 + 0.10)³ - 1) / 0.10] =\n\n->  6000 * [((1.1)³ - 1) / 0.10] =\n\n ->  6000 * [(1.331 - 1) / 0.10] \n\n ->  6000 * [0.331 / 0.10] =\n\n->  6000 * 3.31 = 19,860, which matches Option A."
+}
+]

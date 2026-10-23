@@ -1,0 +1,46 @@
+[
+{
+  "question": "Our planet Earth has an orbital period of 365 days and its mean distance from the Sun is R_E = 1.495 × 10⁸ km. If there is another unknown planet whose mean distance from the Sun is R = 4R_E, how much is an orbital period of the unknown planet in terms of the days on the Earth?",
+  "options": [
+    "23360 days",
+    "2920 days",
+    "1460 days",
+    "730 days"
+  ],
+  "answer": 1,
+  "explanation": "Kepler's Third Law states that the square of the orbital period is proportional to the cube of the mean orbital radius, so T² ∝ R³.\n\nTherefore, (T/T_E)² = (R/R_E)³ = 4³ = 64.\n\nTaking the square root gives T/T_E = 8.\n\nSince Earth's orbital period is 365 days, T = 8 × 365 = 2920 days."
+},
+{
+"question": "A uniform disk of radius 10.0 cm is rotating at an angular velocity of 20.0 rad/s about an axis through its center. What is the centripetal acceleration of a point at a distance of 6.0 cm from the axis?",
+"options": [
+"24.0 m/s²",
+"40.0 m/s²",
+"2.0 m/s²",
+"1.2 m/s²"
+],
+"answer": 0,
+"explanation": "The centripetal acceleration of a point in circular motion is given by a_c = ω²r.\n\nThe distance from the axis is 6.0 cm = 0.06 m.\n\nSubstituting ω = 20.0 rad/s and r = 0.06 m gives a_c = (20.0)²(0.06) = 24.0 m/s².\n\nTherefore, option 0 is correct."
+},
+{
+"question": "A particle moving with a speed of v₀ to the right starts accelerating uniformly with acceleration a. The total distance covered by the particle during the time interval t is s. Assuming the right direction is positive, which one of the following equations enables us to calculate the time t in terms v₀, a and s?",
+"options": [
+"t = (v₀ - √(v₀² + 2as)) / 2a",
+"t = (v₀ + √(v₀² + 2as)) / a",
+"t = (-v₀ + √(v₀² + 2as)) / 2a",
+"t = (-v₀ + √(v₀² + 2as)) / a"
+],
+"answer": 3,
+"explanation": "For uniformly accelerated motion, displacement is given by s = v₀t + ½at².\n\nRearranging gives at² + 2v₀t - 2s = 0.\n\nUsing the quadratic formula gives t = (-v₀ ± √(v₀² + 2as))/a.\n\nSince time must be positive, the positive root is selected.\n\nTherefore, t = (-v₀ + √(v₀² + 2as))/a."
+},
+{
+"question": "A horizontal distance jumper athlete jumps from the ground with initial speed v at an angle θ with the horizontal. For the constant initial speed, the range R is related to the maximum height h as",
+"options": [
+"R = 4h if θ = 45°",
+"R = 5.33h if θ = 53°",
+"R = 3h if θ = 37°",
+"R = 2.3h if θ = 30°"
+],
+"answer": 0,
+"explanation": "For a projectile launched and landing at the same level, the range is R = v²sin2θ/g.\n\nThe maximum height is h = v²sin²θ/(2g).\n\nDividing the range by the maximum height gives R/h = 4cotθ.\n\nFor θ = 45°, cot45° = 1, so R = 4h."
+}
+]

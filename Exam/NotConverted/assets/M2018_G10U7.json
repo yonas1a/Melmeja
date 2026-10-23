@@ -1,0 +1,24 @@
+[
+{
+  "question": " Which one of the following pairs of lines are perpendicular to each other?",
+  "options": [
+    "y - 3x + 5 = 0 and y - 3x + 1 = 0",
+    "y - 4x - 5 = 0 and y + 4x + 1 = 0",
+    "y - 2x + 5 = 0 and y - 1/2 x - 6 = 0",
+    "y - x + 5 = 0 and y + x - 1 = 0"
+  ],
+  "answer": 3,
+  "explanation": "For two lines to be perpendicular, the product of their slopes must be -1.\n\n -> Rewrite each equation in the form y = mx + c.\n\n ->For option D, y - x + 5 = 0 gives y = x - 5, so m₁ = 1.\n\n ->Also, y + x - 1 = 0 gives y = -x + 1, so m₂ = -1.\n\n-> Therefore, m₁m₂ = (1)(-1) = -1.\n\n-> Hence, the two lines are perpendicular and option 3 is correct."
+},
+{
+"question": " A point (5, 2) is on a circle, where the center of the circle is (1, -1). Then what is the standard form of equation of the circle?",
+"options": [
+"(x - 1)² + (y + 1)² = 25",
+"(x - 5)² + (y - 2)² = 25",
+"(x - 2)² + (y - 5)² = 37",
+"(x + 1)² + (y - 1)² = 25"
+],
+"answer": 0,
+"explanation": "The standard form of a circle is (x - h)² + (y - k)² = r²,\n where (h, k) is the center.\n\n The center is (1, -1), so (x - 1)² + (y + 1)² = r². \n\nUsing the point (5, 2),\n r² = (5 - 1)² + (2 - (-1))² = \n\n4² + 3² = 16 + 9 = 25.\n\n Therefore, the equation of the circle is (x - 1)² + (y + 1)² = 25. "
+}
+]

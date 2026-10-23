@@ -1,0 +1,24 @@
+[
+{
+  "question": "10) Which one of the following is true about the signum function, $f(x) = \\text{sgn } x$?",
+  "options": [
+    "Its domain is $\\{1, 0, 1\\}$",
+    "Its range is $[0, \\infty)$",
+    "Its domain is the set of real numbers.",
+    "Its graph is the set of real numbers."
+  ],
+  "answer": 2,
+  "explanation": "The **signum function**, $f(x) = \\text{sgn } x$, is defined as:\\n$\\text{sgn } x = \\begin{cases} 1 & \\text{if } x > 0 \\\\ 0 & \\text{if } x = 0 \\\\ -1 & \\text{if } x < 0 \\end{cases}$.\\n**Domain:** The function is defined for all input values $x$ from negative infinity to positive infinity. Thus, its domain is the set of all **real numbers** ($mathbb{R}$). (Option C is correct.)\\n**Range:** The possible output values are only $\\{-1, 0, 1\\}$. (Options A and B are false, as A describes the range, not the domain, and B is incorrect for the range.)"
+},
+{
+"question": "15) Consider the rational function $f(x) = \\frac{x^3 - 1}{x^2 + 1}$. Which one of following is true about the graph of $f$?",
+"options": [
+"It's $y$ intercept is $-1$",
+"It has no $x$ intercept",
+"It is symmetrical about the $y$ axis.",
+"It is symmetrical about the origin."
+],
+"answer": 0,
+"explanation": "Let's analyze the properties of the function $f(x) = \\frac{x^3 - 1}{x^2 + 1}$:\\n**A. $y$-intercept:** Set $x=0$. $f(0) = \\frac{0^3 - 1}{0^2 + 1} = \\frac{-1}{1} = -1$. The $y$-intercept is $-1$. (Option A is true.)\\n**B. $x$-intercept:** Set $f(x)=0$. $\\frac{x^3 - 1}{x^2 + 1} = 0$, which means $x^3 - 1 = 0$. $x^3 = 1$, so $x = 1$. It has one $x$-intercept at $(1, 0)$. (Option B is false.)\\n**C and D. Symmetry:** A function is symmetrical about the $y$-axis (even) if $f(-x) = f(x)$, and symmetrical about the origin (odd) if $f(-x) = -f(x)$.\\n$f(-x) = \\frac{(-x)^3 - 1}{(-x)^2 + 1} = \\frac{-x^3 - 1}{x^2 + 1}$.\\nSince $f(-x) = \\frac{-x^3 - 1}{x^2 + 1}$ is neither equal to $f(x) = \\frac{x^3 - 1}{x^2 + 1}$ nor $-f(x) = -\\frac{x^3 - 1}{x^2 + 1} = \\frac{-x^3 + 1}{x^2 + 1}$, the function is neither even nor odd. (Options C and D are false.)"
+}
+]

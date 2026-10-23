@@ -689,7 +689,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onOpenAuth
           variants={containerVariants}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {EXAM_PACKAGES.slice(0, 4).map((pkg) => (
+          {EXAM_PACKAGES.filter(p => ['GRADE_12_ALL', 'NGAT_ALL', 'GAT_ALL', 'EXIT_ALL'].includes(p.id)).map((pkg) => (
             <motion.div
               key={pkg.id}
               variants={itemFadeUp}
@@ -762,10 +762,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, onOpenAuth
               <span>Full National Access</span>
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-slate-900">
-              Ethiopia All-In-One VIP Pass — 750 ETB
+              Ethiopia All-In-One VIP Pass — 1000 ETB
             </h3>
             <p className="text-xs text-slate-600 max-w-2xl leading-relaxed">
-              Unlock every single exam across NGAT, AAU GAT, all University Exit Exams (Law, CS, Medicine, Accounting) and Grade 12 Entrance. Includes instant priority Telebirr approval.
+              Unlock every single exam across Grade 9, 10, 11, 12 &amp; Entrance, NGAT, AAU GAT, and all University Exit Exams (Law, CS, Medicine, Accounting). Includes instant priority Telebirr approval.
             </p>
           </div>
 

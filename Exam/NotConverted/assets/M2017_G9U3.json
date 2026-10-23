@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Let A = { x ∈ ℤ : -2 ≤ x ≤ 2 }and B = {x ∈ N : 2ˣ ≤ 3x + 1}  are given two sets. Then what is n(A ∪ B)?",
+    "options": [
+      "2",
+      "6",
+      "5",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": " Step 1: Find set A:\n\nA = { x ∈ ℤ : -2 ≤ x ≤ 2 } → A = { -2, -1, 0, 1, 2 }\n\nStep 2: Find set B:\n\nB = { x ∈ ℕ : 2^x ≤ 3x + 1 }\n\n- For x = 1: 2¹ = 2 ≤ 3*1 + 1 = 4 ✅\n\n- For x = 2: 2² = 4 ≤ 3*2 + 1 = 7 ✅\n\n- For x = 3: 2³ = 8 ≤ 3*3 + 1 = 10 ✅\n\n- For x = 4: 2⁴ = 16 ≤ 3*4 + 1 = 13 ❌\n\nSo B = { 1, 2, 3 }\n\nStep 3: Find A ∪ B:\n\nA ∪ B = { -2, -1, 0, 1, 2, 3 } , n(A ∪ B) = 6."
+  },
+
+  {
+    "question": "Let A={x|1 ≤ x ≤10} and B={x|-1 ≤ x ≤10} be two sets of real numbers. What is the relative complement of A with respect to B ?",
+    "options": [
+      "ϕ",
+      "{x|-1 ≤ x ≤1}",
+      "{x|-1 ≤ x <1}",
+      "{x|-1 ≤ x ≤0}"
+    ],
+    "answer": 2,
+    "explanation": "A = [1,10] and B = [-1,10]. \nThe relative complement of A in B is B - A, which is the interval from -1 up to but not including 1.\n\n So the answer is {x|-1 ≤ x <1}."
+  }
+]

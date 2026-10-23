@@ -1,0 +1,183 @@
+{
+  "id": "p2016_g10_merged_melmeja",
+  "title": "Physics Grade 10 Practice Questions 2016 (6 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Physics",
+  "description": "Combined 6 chapter files (P2016_G10U1.json, P2016_G10U2.json, P2016_G10U3.json, P2016_G10U4.json, P2016_G10U5.json, P2016_G10U6.json) into one exam. 10 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 10,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "ENTRANCE",
+    "2016",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2016",
+  "questions": [
+    {
+      "id": "q_p2016_g10u1_melmeja_1",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "4. Which of the following statements is correct about the components of the velocity of a ball projected up at an angle of $\\theta$ with the horizontal? Neglecting the air resistance,",
+      "options": [
+        "the horizontal component of the velocity remains constant throughout the journey.",
+        "the horizontal velocity of the ball is equal to zero at the maximum height.",
+        "the vertical component of the velocity remains constant throughout its journey.",
+        "the vertical component of velocity increases while the horizontal component of velocity decreases."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In **projectile motion** (neglecting air resistance), there is no horizontal force acting on the object. Therefore, the **horizontal component of the velocity ($v_x$) remains constant** throughout the flight.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_2",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "8. The orbital speed of a satellite at a height of 780 km from the surface of the earth is $7,465 m/s$. What is the period of the satellite?",
+      "options": [
+        "6.60 \\times 10^3 s",
+        "6.60 \\times 10^2 s",
+        "6.04 \\times 10^2 s",
+        "6.04 \\times 10^3 s"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The period ($T$) of the satellite is $T = \\frac{2\\pi r}{v}$. We must first find the orbital radius ($r$), assuming the Earth's radius ($R_E$) is approximately $6,400 \\text{ km}$.\n1.  **Orbital Radius ($r$):**\n    $$r = R_E + h = 6,400 \\text{ km} + 780 \\text{ km} = 7,180 \\text{ km} = 7.18 \\times 10^6 \\text{ m}$$\n2.  **Calculate Period ($T$):**\n    $$T = \\frac{2\\pi (7.18 \\times 10^6 \\text{ m})}{7,465 \\text{ m/s}} \\approx 6,043 \\text{ s}$$\n3.  **Scientific Notation:** $T \\approx 6.04 \\times 10^3 \\text{ s}$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_3",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "5. Which one of the following statements is correct about the electric field due to a charged spherical solid conductor?",
+      "options": [
+        "It is non-zero constant inside the sphere.",
+        "It is parallel to the surface of the sphere.",
+        "It is zero inside the sphere.",
+        "It is non-zero constant outside the sphere."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a charged solid conductor in electrostatic equilibrium, all excess charge resides on the outer surface. According to Gauss's Law, the **electric field inside the sphere is zero** ($E=0$) because there is no net charge enclosed by any Gaussian surface inside the conductor.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_4",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "9. The charge of $20.0 \\mu C$ is stored on the capacitor when a potential difference between its two parallel plates is $200.0 V$. what is the capacitance of the capacitor?",
+      "options": [
+        "0.1 \\mu F",
+        "4.0 \\mu F",
+        "1.0 \\mu F",
+        "10.0 \\mu F"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Capacitance ($C$) is calculated using the formula $C = \\frac{Q}{V}$, where $Q$ is the charge and $V$ is the potential difference.\n$$C = \\frac{20.0 \\mu C}{200.0 V} = 0.1 \\frac{\\mu C}{V}$$ \nSince $\\frac{C}{V} = F$, the capacitance is **$0.1 \\mu F$**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_5",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "32. Which one of the following statements is correct about the resistance of a conducting wire? The resistance of the wire is",
+      "options": [
+        "directly proportional to the square of its length.",
+        "directly proportional to the square of its cross-sectional area.",
+        "inversely proportional to its cross-sectional area.",
+        "inversely proportional to its length."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The resistance ($R$) of a conductor is given by the formula $R = \\rho \\frac{L}{A}$, where $\\rho$ is resistivity, $L$ is length, and $A$ is the cross-sectional area. The formula shows that resistance is **inversely proportional to the cross-sectional area** ($R \\propto 1/A$) and directly proportional to the length ($R \\propto L$). .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_6",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "37. Three resistors are connected between points a and b as shown in the figure below. The effective resistance of the circuit is",
+      "options": [
+        "11.0 kΩ",
+        "1.0 Ω",
+        "11.0 Ω",
+        "1.0 kΩ"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The three resistors ($3 \\text{ k}Omega$, $6 \\text{ k}Omega$, and $2 \\text{ k}Omega$) are connected in a **parallel** circuit. The effective resistance ($R_{eq}$) is found using the formula for parallel resistance:\n$$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}$$ \n$$\\frac{1}{R_{eq}} = \\frac{1}{3 \\text{ k}\\Omega} + \\frac{1}{6 \\text{ k}\\Omega} + \\frac{1}{2 \\text{ k}\\Omega} = \\frac{2}{6 \\text{ k}\\Omega} + \\frac{1}{6 \\text{ k}\\Omega} + \\frac{3}{6 \\text{ k}\\Omega}$$ \n$$\\frac{1}{R_{eq}} = \\frac{6}{6 \\text{ k}\\Omega} = \\frac{1}{1 \\text{ k}\\Omega}$$ \n$$R_{eq} = 1 \\text{ k}\\Omega$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_7",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "31. Lenz's law states that the direction of the induced current in a loop is in such a way that the current",
+      "options": [
+        "is in opposite direction to that of the applied magnetic field that is causing it.",
+        "creates a magnetic field that reinforces the change in magnetic flux through the loop.",
+        "is in the same direction as that of the applied magnetic field that is causing it.",
+        "creates a magnetic field that opposes the change in magnetic flux through the loop."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Lenz's law is a fundamental law of electromagnetism that states the **direction of the induced current** is such that its own magnetic field (flux) **opposes the change in the magnetic flux** that created it. This is a manifestation of the conservation of energy .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_8",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "33. Consider an ideal transformer having $N_p$ and $N_s$ turns, and voltages $V_p$ and $V_s$ in its primary and secondary coils, respectively. Which one of the following is the correct ideal transformer equation?",
+      "options": [
+        "$V_p = \\left( \\frac{N_s}{N_p} \\right)^2 V_s$",
+        "$\\frac{V_s}{V_p} = \\frac{N_p}{N_s}$",
+        "$\\frac{N_s}{N_p} = \\left( \\frac{V_s}{V_p} \\right)^2$",
+        "$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For an ideal transformer, the voltage ratio is directly proportional to the turns ratio:\n$$\\frac{\\text{Secondary Voltage}}{\\text{Primary Voltage}} = \\frac{\\text{Secondary Turns}}{\\text{Primary Turns}}$$ \n$$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_9",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "40. A combination of logic gate is constructed from an NAND gate and an OR gate, as shown in the diagram below. The truth table for the logic circuit shown above is",
+      "options": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The logical expression for the circuit is $Y = P + (\\overline{P \\cdot Q})$, where the NAND gate output is $\\overline{P \\cdot Q}$, and the OR gate combines $P$ and the NAND output.\n\nApplying the truth table:\n* **P=0, Q=0:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=0, Q=1:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=1, Q=0:** NAND output is 1. OR output is $1 + 1 = 1$.\n* **P=1, Q=1:** NAND output is 0. OR output is $1 + 0 = 1$.\n\nThe final output is always **1** (True), which corresponds to the truth table in **Option C** .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g10u1_melmeja_10",
+      "examId": "p2016_g10_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "38. A concave mirror has a radius of curvature of $30.0 \\text{ cm}$. It is positioned so that the upright image of the object is $2.0$ times the size of the object. How far is the object from the mirror?",
+      "options": [
+        "15.0 cm",
+        "10.0 cm",
+        "7.5 cm",
+        "22.5 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1. **Focal Length ($f$):** The focal length of the concave mirror is $f = R/2 = 30.0 \\text{ cm} / 2 = 15.0 \\text{ cm}$.\n\n2. **Magnification ($M$):** Since the image is **upright** (virtual) and 2.0 times the size, the magnification is $M = +2.0$. The magnification equation is $M = -v/u$, where $v$ is image distance and $u$ is object distance. \n$$+2.0 = -v/u \\implies v = -2.0u$$\n\n3. **Mirror Equation:** Substitute $f$ and the expression for $v$ into the mirror equation, $\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$:\n$$\\frac{1}{15.0} = \\frac{1}{u} + \\frac{1}{-2.0u} = \\frac{2}{2u} - \\frac{1}{2u} = \\frac{1}{2u}$$ \n$$2u = 15.0 \\text{ cm} \\implies u = 7.5 \\text{ cm}$$",
+      "topic": "Physics"
+    }
+  ]
+}

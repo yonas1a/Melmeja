@@ -1,0 +1,35 @@
+[
+  {
+    "question": " Let θ be an angle in standard position and P(-3, 4) be a point on the terminal side of θ. Which one of the following is true about the corresponding trigonometric functions?",
+    "options": [
+      "sinθ = 3/5",
+      "cosθ= 4/5",
+      "cosθ = -3/5",
+      "sinθ = -4/5"
+    ],
+    "answer": 2,
+    "explanation": "For a point P(x, y) on the terminal side of θ, r = √(x² + y²).\n Here, r = √((-3)² + 4²) = 5. \nThen sinθ = y/r = 4/5, cosθ = x/r = -3/5.\n Since x < 0 and y > 0 (Quadrant II), cosine is negative and sine is positive.\n Therefore, cosθ = -3/5 is correct."
+  },
+  {
+    "question": " Which one of the following is true about the function f(x) = tan x?",
+    "options": [
+      "The domain of f is ℝ \\ (-π /2, π/2)",
+      "The range of f is the set of real numbers,ℝ ",
+      "f is a periodic function with period π/2",
+      "The graph of f intersects y-axis at (π/2, 0)."
+    ],
+    "answer": 1,
+    "explanation": "The tangent function is defined for all x where cos x ≠ 0, and its range includes all real numbers.\n\n Its period is π, and it intersects the y-axis at x = 0.\n\n Therefore, the statement about the range being ℝ is correct."
+  },
+  {
+    "question": " Which one of the following is equal to cot(1755°) ?",
+    "options": [
+      "1",
+      "-1",
+      "√3",
+      "-√3"
+    ],
+    "answer": 0,
+    "explanation": "Step 1: Reduce the angle to within 0° to 360°  : 1755 ÷ 360 = 4 remainder 315, so 1755° ≡ 315°.\n\nStep 2: Identify the quadrant: 315° is in the fourth quadrant (270° < 315° < 360°).\n\nStep 3: Find the reference angle: Reference angle = 360° - 315° = 45°.\n\nStep 4: Determine the sign of cotangent in Quadrant IV: cot(θ) = cos(θ)/sin(θ). In Quadrant IV, cos > 0 and sin < 0, so cotangent is positive.\n\nStep 5: Use the reference angle: cot(315°) = cot(45°) = 1.\n\nTherefore, cot(1755°) = 1."
+  }
+]

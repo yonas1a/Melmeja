@@ -1,0 +1,681 @@
+[
+  {
+    "question": " Which one of the following is true about a given natural number?",
+    "options": [
+      "It is prime if it has more than two factors.",
+      "It is composite if it has exactly two factors.",
+      "It is prime if it has exactly three factors.",
+      "It is composite if it has more than two factors."
+    ],
+    "answer": 3,
+    "explanation": "A natural number is defined as a composite number if it has more than two distinct positive factors (unlike prime numbers, which have exactly two factors: 1 and itself)."
+  },
+  {
+    "question": " For a ≥ 0, which one of the following numbers is NOT equal to \"a²⁄₅\"?",
+    "options": [
+      "(a¹⁄₅)²",
+      "(a⁵)¹⁄₂",
+      "⁵√a²",
+      "(⁵√a)²"
+    ],
+    "answer": 1,
+
+    "explanation": "Using exponent rules:\n a²⁄₅ can be written as (a¹⁄₅)², ⁵√(a²), and (⁵√a)².\n\n However, (a⁵)¹⁄₂ = a⁵⁄₂, which is not equal to a²⁄₅."
+  },
+  {
+    "question": " If a = -2√3 + 3√2 - 2 and b = -3√2 + 2, then a + b is equal to",
+    "options": [
+      "-2√3 - 6√2 + 4",
+      "-2√3 + 6√2",
+      "-2√3",
+      "2√3"
+    ],
+    "answer": 2,
+    "explanation": "Adding like terms:\n a + b = (-2√3 + 3√2 - 2) + (-3√2 + 2).\n\n The 3√2 and -3√2 cancel, while -2 and +2 cancel.\n Therefore, a + b = -2√3."
+  },
+  {
+    "question": " What is the value of x in the equation 3 ⁵√(3x)⁵ = 18?",
+    "options": [
+      "9",
+      "2",
+      "6",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "Using the rule ⁵√(a⁵) = a:\n\n 3⁵√(3x)⁵ = 3(3x) = 9x.\n Therefore, 9x = 18, \nso x = 2."
+  },
+  {
+    "question": " What is the solution of the simultaneous equation \n{2x - y = -1\n{-4x + 3y = 9",
+    "options": [
+      "(-3, -5)",
+      "(0, 3)",
+      "(3, 7)",
+      "(-3, -1)"
+    ],
+    "answer": 2,
+    "explanation": "From 2x - y = -1, we get y = 2x + 1.\n\n Substitute into -4x + 3y = 9: -4x + 3(2x + 1) = 9 \n\n→ -4x + 6x + 3 = 9 \n→ 2x = 6\n → x = 3. \n\nThen y = 2(3) + 1 = 7.\n\n Therefore, the solution is (3, 7), which is option C."
+  },
+
+  {
+    "question": "Which one of the following sets represents an empty set?",
+    "options": [
+      "{x | x ∈ ℕ and 0 < x ≤ 1}",
+      "{x | x ∈ ℕ and x ≤ -1}",
+      "{x | x ∈ ℝ and x² ≤ 0}",
+      "{x | x ∈ ℝ and √(x²) = x}"
+    ],
+    "answer": 1,
+    "explanation": "Since ℕ contains positive integers (1, 2, 3, ...), there is no natural number satisfying x ≤ -1.\n\n Therefore, the second set has no elements and is an empty set."
+  },
+    {
+      "question": " For any three sets A, B and C which one of the following is NOT true about the intersection of sets?",
+      "options": [
+        "A ∩ (B ∩ C) = (A ∩ B) ∩ C",
+        "A ∩ B = B ∩ A",
+        "A ∩ ∅ = A",
+        "A ∩ B = A if A ⊆ B"
+      ],
+      "answer": 2,
+      "explanation": "The intersection of any set A with the empty set (∅) is the empty set (A ∩ ∅ = ∅), not A. Thus, statement C is false."
+    },
+  {
+    "question": "Which one of the following statements defines a regular polygon?",
+    "options": [
+      "It is a convex polygon formed by union of three or more line segments.",
+      "It is a simple concave closed curve formed by union of three or more line segments.",
+      "It is a simple concave closed curve with all its sides are equal in length.",
+      "It is a convex polygon with all sides are congruent and the measures of all angles are equal."
+    ],
+    "answer": 3,
+    "explanation": "A regular polygon has all sides congruent and all interior angles equal.\n\n Therefore, the correct answer is option D."
+  },
+    {
+      "question": " Consider the following congruent triangles.\n\nWhich one of the following is true about the triangles?",
+      "options": [
+        "‾BC ≡ ‾EF",
+        "‾AB ≡ ‾DE",
+        "‾EF ≡ ‾AC",
+        "‾DE ≡ ‾CB "
+
+      ],
+      "answer": 3,
+      "explanation": "The angle markings show A ↔ F and B ↔ E, so the remaining vertices correspond as C ↔ D.\n\n Therefore, the corresponding sides are AB ↔ EF, BC ↔ ED, and AC ↔ FD.\n\n Hence, DE ≡ CB, which is option D.",
+      "image": "images/M2018_9.png"
+    },
+
+    {
+      "question": " The following table shows the score of 12 students in mathematics subject.\n\nWhat is the mean score of the students?",
+      "options": [
+        "2.16",
+        "6",
+        "2.25",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "To find the mean score, use the weighted mean formula:\n\nMean = Σ(score × number of students) / Total number of students\n\n= [(9 × 4) + (7 × 2) + (6 × 4) + (5 × 2)] / 12\n\n= [36 + 14 + 24 + 10] / 12\n\n= 84 / 12\n\n= 7\n\nTherefore, the mean score is 7.",
+      "image": "images/M2018_10.png"
+    },
+    {
+      "question": " Which one of the following is the use of standard deviation?",
+      "options": [
+        "It measures the scatter of a given data.",
+        "It gives the average value of a given data.",
+        "It measures the central tendency.",
+        "It gives the maximum value of the data."
+      ],
+      "answer": 0,
+      "explanation": "Standard deviation is a measure of dispersion or spread.\n\n It tells us how far the data values tend to be from their mean."
+    },
+    {
+      "question": " Which one of the following represent a vector with direction East 42° South?",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "answer": 0,
+      "explanation": "The direction 'East 42° South' means start from the East direction and turn 42° toward the South.\n\nEast → positive x-axis.\\nnSouth → negative y-axis.\n\nTherefore, the vector must point into the fourth quadrant, making an angle of 42° below the positive x-axis.\n\nDiagram A shows exactly this direction.\n\nTherefore, the correct answer is A.",
+      "image": "images/M2018_12.png"
+    },
+
+    {
+      "question": " If b is a fixed positive number, which one of the following is true about graphs of the given linear functions?",
+      "options": [
+        "The graph of f(x) = 2x - b is decreasing.",
+        "The graph of f(x) = -2x + b is increasing.",
+        "The graph of f(x) = bx is horizontal.",
+        "The graph of f(x) = -2x - b is straight line."
+      ],
+      "answer": 3,
+      "explanation": "Every function of the form f(x) = mx + c, where m and c are constants, has a straight-line graph.\n\n Here, f(x) = -2x - b has slope -2 and y-intercept -b, so its graph is a straight line.\n\n The other options are false:\n\n f(x) = 2x - b is increasing,\n\n f(x) = -2x + b is decreasing,\n\n and f(x) = bx is increasing because b > 0."
+    },
+  {
+    "question": " What are the vertex and line of symmetry of the function y = 2x² - 4x + 3 respectively?",
+    "options": [
+      "(1, 1) and x = 1",
+      "(-1, 1) and x = -1",
+      "(-2, 3/2) and x = -2",
+      "(2, -8) and x = 2"
+    ],
+    "answer": 0,
+    "explanation": "For a quadratic function y = ax² + bx + c, the x-coordinate of the vertex is x = -b/(2a).\n\n Here, a = 2 and b = -4, \n\nso x = -(-4)/(2 × 2) = 1.\n\n Substituting x = 1 gives \ny = 2(1)² - 4(1) + 3 = 1. \n\nTherefore, the vertex is (1, 1), and the line of symmetry is x = 1."
+  },
+  {
+    "question": " Which one of the following is the degree of the polynomial function f defined by f(x) = x²(x - 4)(x² + 2)?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "The degree of a product of non-zero polynomials is the sum of their degrees.\n\n The factor x² has degree 2, (x - 4) has degree 1, and (x² + 2) has degree 2.\n\n Therefore, the degree is 2 + 1 + 2 = 5."
+  },
+  {
+    "question": " Let f(x) = 6x⁶ + 4x⁴ + 3x² + 2 and g(x) = 3x² + 2. Then which one of the following is equal to f(x) / g(x)?",
+    "options": [
+      "3x² + 2",
+      "2x⁴ + 1",
+      "2x⁴ + 3x² + 2",
+      "2x⁴ + 3x² + 1"
+    ],
+    "answer": 1,
+    "explanation": "Factor f(x) by grouping:\n 6x⁶ + 4x⁴ + 3x² + 2 =\n 2x⁴(3x² + 2) + 1(3x² + 2).\n\n Therefore, f(x) = (3x² + 2)(2x⁴ + 1). \n\nDividing by g(x) = 3x² + 2 \ngives f(x)/g(x) = 2x⁴ + 1. "
+  },
+  {
+    "question": " Which one of the following logarithmic equations is correctly related with the corresponding exponential equations?",
+    "options": [
+      "logₐx = y and aˣ = y",
+      "logₐx = y and xʸ = a",
+      "logₐx = y and aʸ = x",
+      "logₐx = y and xᵃ = y"
+    ],
+    "answer": 2,
+    "explanation": " logₐx = y means that the base a raised to the power y gives x.\n\n Therefore, logₐx = y is equivalent to aʸ = x."
+  },
+
+    {
+      "question": " Consider the graph of exponential function given below.\n\nWhich one of the following represents the graph of f?",
+      "options": [
+        "f(x) = (3/2)ˣ",
+        "f(x) = (3/2)²ˣ",
+        "f(x) = (2.5)ˣ",
+        "f(x) = (0.25)ˣ"
+      ],
+      "answer": 3,
+      "explanation": "The given graph represents a decreasing exponential function because as x increases from left to right,\n\n the value of y decreases toward zero.\n\n An exponential function of the form f(x) = aˣ is decreasing if and only if the base a satisfies 0 < a < 1.\n\n Looking at the given options: options A, B, and C have bases greater than 1 (1.5, 2.25, and 2.5 respectively),\n\n meaning they represent increasing exponential functions.\n\n Only option D has a base of 0.25 (which is equal to 1/4), satisfying 0 < 0.25 < 1, making it the correct decreasing exponential function.",
+      "image": "images/M2018_18.png"
+    },
+  {
+    "question": " Which one of the following statements is true about the graph of an exponential function f defined by f(x) = aˣ for a > 1?",
+    "options": [
+      "It has x-intercept at the point (1, 0).",
+      "It is decreasing on ℝ.",
+      "It has y-intercept at the point (0, 1).",
+      "The line x = 0 is the vertical asymptote."
+    ],
+    "answer": 2,
+    "explanation": "For f(x) = aˣ,\n substitute x = 0: f(0) = a⁰ = 1.\n\n Therefore, the graph crosses the y-axis at (0, 1), so option 2 is correct.\n\n Since a > 1, the function is increasing, not decreasing.\n\n Also, aˣ is always positive, so it never crosses the x-axis.\n\n The line y = 0 is the horizontal asymptote, not x = 0."
+  },
+  {
+    "question": " Which one of the following is the value of sin(-600°)?",
+    "options": [
+      "1/2",
+      "√3/2",
+      "-1/2",
+      "-√3/2"
+    ],
+    "answer": 1,
+    "explanation": "Add 720° to -600° to get a positive coterminal angle:\n\n -600° + 720° = 120°.\n\n Therefore, sin(-600°) = sin(120°) = sin(60°) = √3/2."
+  },
+  {
+    "question": " Which one of the following is correct about trigonometric values of angles?",
+    "options": [
+      "cos(157°) = cos(23°)",
+      "cos(157°) = sin(23°)",
+      "sin(157°) = sin(23°)",
+      "tan(157°) = tan(23°)"
+    ],
+    "answer": 2,
+    "explanation": "Since 157° = 180° - 23°, we use the identity sin(180° - θ) = sin(θ).\n\n Therefore, sin(157°) = sin(23°)."
+  },
+  {
+    "question": " Let x be an angle in the second quadrant. If tan x = -√3, then which of the following is true about the other trigonometric values of angle x?",
+    "options": [
+      "sec x = -2",
+      "cot x = √3 / 3",
+      "sin x = 1/2",
+      "csc x = -2√3 / 3"
+    ],
+    "answer": 0,
+    "explanation": "Since x is in the second quadrant, sin x is positive and cos x is negative.\n\n Given tan x = -√3, the reference angle is 60°.\n\n Therefore, cos x = -1/2 and sin x = √3/2.\n\n Hence, sec x = 1/cos x = -2."
+  },
+  {
+    "question": " Consider a circle that has diameter ‾AB of length 8 cm. If you fold the circle over ‾AB, then what is the area of the part of the circle on one part of the diameter (in cm²)?",
+    "options": [
+      "64π",
+      "32π",
+      "16π",
+      "8π"
+    ],
+    "answer": 3,
+    "explanation": "Given diameter d = 8 cm. \n\nTherefore, radius r = d/2 = 4 cm.\n\n The area of the circle is A = πr² = π(4)² = 16π cm².\n\n Folding along the diameter AB divides the circle into two equal semicircles.\n\n->  A/2 = 16π/2 = 8π cm²."
+  },
+    {
+      "question": " Consider the circle centered at O, and a quadrilateral ABCD in the circle as shown in the figure below. Then, which one of the following is value of y?",
+      "options": [
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "answer": 1,
+      "explanation":   "< A + < C = 180\n\n(x + 40) + (2x - 10) = 180\n\n3x + 30 = 180\n\n3x = 150\nx = 50\n\n< B + < D = 180\n\n2x + y = 180\n\n2(50) + y = 180\n\n100 + y = 180\n\ny = 80",
+      "image": "images/M2018_24.png"
+    },
+  {
+    "question": " Given a regular square pyramid with base edge 8 cm and slant height 5 cm. What is the total surface area in cm²?",
+    "options": [
+      "40",
+      "64",
+      "80",
+      "144"
+    ],
+    "answer": 3,
+    "explanation": "Base edge s = 8 cm and slant height l = 5 cm.\n\n-> Base area = s² = 8² = 64 cm².\n\n The lateral surface area is the sum of 4 triangular faces:\n\n LSA = 4 × (1/2 × s × l) =\n\n-> 4 × (1/2 × 8 × 5) = 80 cm².\n\n -> total surface area = base area + lateral surface area \n\n -> 64 + 80 = 144 cm²."
+  },
+
+    {
+      "question": " The solid figure shown below is formed by composing a hemisphere of radius 3 cm on the top of a cylinder with base radius 3 cm and height 5 cm.\n\nWhat is the volume of the solid figure (in cm³)?",
+      "options": [
+        "45π",
+        "60π",
+        "63π",
+        "81π"
+      ],
+      "answer": 2,
+      "explanation": "Given r = 3 and h = 5,\n\n the volume of the cylinder is V_cylinder = πr²h \n\n= π(3)²(5) = 45π.\n\n The volume of the hemisphere is V_hemisphere = (2/3)πr³ = \n\n(2/3)π(3)³ = 18π.\n\n Therefore, V_total = V_cylinder + V_hemisphere =\n\n 45π + 18π = 63π.",
+      "image": "images/M2018_26.png"
+    },
+  {
+    "question": " Which one of the following pairs of lines are perpendicular to each other?",
+    "options": [
+      "y - 3x + 5 = 0 and y - 3x + 1 = 0",
+      "y - 4x - 5 = 0 and y + 4x + 1 = 0",
+      "y - 2x + 5 = 0 and y - 1/2 x - 6 = 0",
+      "y - x + 5 = 0 and y + x - 1 = 0"
+    ],
+    "answer": 3,
+    "explanation": "For two lines to be perpendicular, the product of their slopes must be -1.\n\n -> Rewrite each equation in the form y = mx + c.\n\n ->For option D, y - x + 5 = 0 gives y = x - 5, so m₁ = 1.\n\n ->Also, y + x - 1 = 0 gives y = -x + 1, so m₂ = -1.\n\n-> Therefore, m₁m₂ = (1)(-1) = -1.\n\n-> Hence, the two lines are perpendicular and option 3 is correct."
+  },
+  {
+    "question": " A point (5, 2) is on a circle, where the center of the circle is (1, -1). Then what is the standard form of equation of the circle?",
+    "options": [
+      "(x - 1)² + (y + 1)² = 25",
+      "(x - 5)² + (y - 2)² = 25",
+      "(x - 2)² + (y - 5)² = 37",
+      "(x + 1)² + (y - 1)² = 25"
+    ],
+    "answer": 0,
+    "explanation": "The standard form of a circle is (x - h)² + (y - k)² = r²,\n where (h, k) is the center.\n\n The center is (1, -1), so (x - 1)² + (y + 1)² = r². \n\nUsing the point (5, 2),\n r² = (5 - 1)² + (2 - (-1))² = \n\n4² + 3² = 16 + 9 = 25.\n\n Therefore, the equation of the circle is (x - 1)² + (y + 1)² = 25. "
+  },
+
+    {
+      "question": " Consider the graph of a power function f, shown below.\n\nWhich one of the following represents the graph f?",
+      "options": [
+        "f(x) = x³⁄₂",
+        "f(x) = x⁴⁄₃",
+        "f(x) = x²⁄₃",
+        "f(x) = x¹⁄₃"
+      ],
+      "answer": 2,
+      "explanation": "Given f(x) = x²⁄₃.\n At x = 8, f(8) = 8²⁄₃ \n\n= (∛8)² = 2² = 4.\n\n At x = -8, f(-8) = (-8)²⁄₃=\n (∛(-8))² =\n (-2)² = 4.\n\n Therefore, the graph passes through the points (8, 4) and (-8, 4).\n\n Hence, option C is correct.",
+      "image": "images/M2018_29.png"
+    },
+  {
+    "question": "What is the solution set of the greatest integer equation [1 - x] = 3?",
+    "options": [
+      "(-3, -2]",
+      "[2, 3)",
+      "(2, 3]",
+      "[-2, 3)"
+    ],
+    "answer": 0,
+    "explanation": "[1-x]=3 ⇒\n\n 3≤1-x<4 \n\n⇒ 2≤-x<3\n\n ⇒ -2≥x>-3 \n\n⇒ -3<x≤-2 \n\n⇒ (-3,-2]"
+  },
+  {
+    "question": " What is the simplified form of the expression, ((x + 3) / x ÷ (x - 2) / (x - 3)) * ((x² - 2x) / (x² - 9)) over its domain?",
+    "options": [
+      "(x - 2) / x",
+      "(x² - 2) / (x² - 9)",
+      "((x - 2)(x + 3)) / (x² - 3x)",
+      "1"
+    ],
+    "answer": 3,
+    "explanation": "((x+3)/x) ÷ ((x-2)/(x-3)) × ((x²-2x)/(x²-9)) \n\n=>  ((x+3)/x) × ((x-3)/(x-2)) × (x(x-2)/((x-3)(x+3))) = 1"
+  },
+  {
+    "question": " Which one of the following is true about the function f defined by f(x) = (3x² + 3x - 6) / (x² - 1)?",
+    "options": [
+      "Its x-intercept is (-2, 0) and its y-intercept is (0, 6).",
+      "Its x-intercept is (1, 0) and its y-intercept is (0, -6).",
+      "Its x-intercepts are (-2, 0) and (1, 0), and its y-intercept is (0, -6).",
+      "Its x-intercepts are (-2, 0) and (1, 0), and its y-intercept is (0, 6)."
+    ],
+    "answer": 3,
+    "explanation": "f(x)=(3x²+3x-6)/(x²-1)\n\n=> 3(x+2)(x-1)/((x-1)(x+1))\n\n=> 3(x+2)/(x+1), x≠±1.\n\n=> x-intercepts: 3(x+2)=0 \n⇒ x=-2 \n⇒ (-2,0).\n\n=> y-intercept: f(0)=(-6)/(-1)=\n6 \n⇒ (0,6)."
+  },
+    {
+      "question": " ",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "explanation": "",
+      "image": "images/M2018_33.png"
+    },
+    {
+      "question": " ",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 2,
+      "explanation": "",
+      "image": "images/M2018_34.png"
+    },
+  {
+    "question": " Which one of the following is true about homogeneity of system of linear equations?",
+    "options": [
+      "x − 2y = 0\n3x + 4y = 0 is a nonhomogeneous system of linear equations.",
+      "x + y = 0\nx + 2y + 3z = 0\nz = 0 is a nonhomogeneous system of linear equations.",
+      "x − 2y + 4z = 0\n3x + 2y + 9z = 0 is a homogeneous system of linear equations.",
+      "x − 2y − 1 = 0\nx + 2y − 3 = 0\nx − z + 5 = 0 is a homogeneous system of linear equations."
+    ],
+    "answer": 2,
+    "explanation": "A homogeneous system has all constant terms equal to 0. \n\n=> In C, x−2y+4z=0 and 3x+2y+9z=0, so it is homogeneous."
+  },
+    {
+      "question": " Which one of the following matrices is an invertible matrix?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 3,
+      "explanation": "",
+      "image": "images/M2018_36.png"
+    },
+  {
+    "question": " What is the area of a triangle with vertices A(0, 0), B(1, -3) and C(5, 1) (in square units)?",
+    "options": [
+      "24",
+      "16",
+      "8",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "A=(0,0), B=(1,-3), C=(5,1).\n\n Area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)| =\n\n ½|0(-3−1)+1(1−0)+5(0−(-3))| =\n\n ½|1+15| =\n 8."
+  },
+  {
+    "question": " Which one of the following quantities represents scalar?",
+    "options": [
+      "The direction of a wind, measured by wind vane.",
+      "Speed of a car observed on speedometer.",
+      "The direction and distance moved by a bullet.",
+      "Force applied to lift damaged car from main road."
+    ],
+    "answer": 1,
+    "explanation": "Speed is a scalar quantity because it has magnitude only and no direction.\n\n Therefore, the speed of a car observed on a speedometer is scalar."
+  },
+  {
+    "question": " If u be a vector with initial point (2, 1) and terminal point (-4, 3), then which one of the following is equal to the vector u?",
+    "options": [
+      "-6i + 2j",
+      "2i + 6j",
+      "-6i - 2j",
+      "6i - 2j"
+    ],
+    "answer": 0,
+    "explanation": "u = terminal − initial \n\n-> (-4−2)i + (3−1)j \n\n -6i + 2j"
+  },
+    {
+      "question": " When the circle (x - 3)² + (y - 1)² = 1 is reflected on a line y = 2x, then the image of the circle is",
+      "options": [
+        "(x + 1)² + (y - 3)² = 1",
+        "(x + 3)² + (y - 1)² = 1",
+        "(x + 3)² + (y + 2)² = 1",
+        "(x - 1)² + (y - 2)² = 1"
+      ],
+      "answer": 0,
+      "explanation": "Center = (3,1).\n Reflect (3,1) across y=2x \n⇒ (-1,3).\n\n Radius remains 1.\n\n Therefore, (x+1)²+(y-3)²=1."
+    },
+  {
+    "question": " In a certain entrance examination, the following data of results is recorded: \n12, 19, 15, 22, 53, 61, 57, 22, 18 \n 68, 72, 80, 83, 75, 76, 85, 85.\n\n Then, which one of the following is true about the data?",
+    "options": [
+      "The first quartile, Q₁ of the data is 21.",
+      "The second quartile, Q₂ of the data is 61.",
+      "The third quartile, Q₃ of the data is 76.",
+      "The value of Q₃ - Q₁ is 55."
+    ],
+    "answer": 1,
+    "explanation": "Sorted data: 12,15,18,19,22,22,53,57,61,68,72,75,76,80,83,85,85.\n n=17 \n\n⇒ Q₂=(17+1)/2=\n\n9th value=61."
+  },
+  {
+    "question": " Which one of the following is NOT true about the mode of the given data?",
+    "options": [
+      "The data 4, 6, 7, 9, 3, 5, 4 is unimodal.",
+      "The data 4, 2, 7, 9, 7, 2 is bimodal.",
+      "The data 2, 4, 9, 3, 9, 5, 3, 4, 2 is multimodal.",
+      "The data 12, 12, 12, 12, 12 has no mode."
+    ],
+    "answer": 3,
+    "explanation": "D is NOT true because 12 occurs 5 times, so the data has a mode: Mode = 12."
+  },
+  {
+    "question": " In how many different ways can 6 people be seated at a round table?",
+    "options": [
+      "720",
+      "120",
+      "310",
+      "130"
+    ],
+    "answer": 1,
+    "explanation": "For n people seated at a round table:\n\n (n−1)! =\n (6−1)! =\n 5! =\n 120."
+  },
+  {
+    "question": " An outcome of random experiment is said to be favorable outcome if",
+    "options": [
+      "it has equal chance of being chosen.",
+      "it insures the occurrence of particular result.",
+      "it is the set of all possible results of the experiment.",
+      "it can be predicted in advance."
+    ],
+    "answer": 1,
+    "explanation": "A favorable outcome is an outcome that ensures the occurrence of a particular result."
+  },
+  {
+    "question": " Which of the following is equal to ∑ₖ₌₁⁶ (k - 1)²?",
+    "options": [
+      "0 + 2 + 6 + 8 + 10 + 12",
+      "0 + 1 + 4 + 9 + 16 + 25",
+      "1 + 4 + 9 + 16 + 25 + 36",
+      "1 + 3 + 6 + 12 + 16 + 18"
+    ],
+    "answer": 1,
+    "explanation": "∑ₖ₌₁⁶(k−1)² \n\n-> (1−1)²+(2−1)²+(3−1)²+(4−1)²+(5−1)²+(6−1)² = \n\n-> 0+1+4+9+16+25"
+  },
+  {
+    "question": " What does ∑ₙ₌₁⁵ (2n - 1) represent?",
+    "options": [
+      "It is the sum of the first five natural numbers.",
+      "It is the sum of the first five even natural numbers.",
+      "It is the sum of the first five odd natural numbers.",
+      "It is the sum of the first five non negative integers."
+    ],
+    "answer": 2,
+    "explanation": "∑ₙ₌₁⁵(2n−1) =\n\n (2×1−1)+(2×2−1)+(2×3−1)+(2×4−1)+(2×5−1) =\n\n 1+3+5+7+9. \n\nTherefore, it represents the sum of the first five odd natural numbers."
+  },
+  {
+    "question": " Which one of the following is a convergent series?",
+    "options": [
+      "∑ₖ₌₁∞ (2ᵏ⁺¹) / (5ᵏ⁻¹)",
+      "∑ₖ₌₁∞ (4ᵏ⁺¹) / (3ᵏ⁻¹)",
+      "∑ₖ₌₁∞ (2/5)¹⁻ᵏ",
+      "∑ₖ₌₁∞ 5ᵏ⁻²"
+    ],
+    "answer": 0,
+    "explanation": "A: ∑ₖ₌₁∞(2ᵏ⁺¹)/(5ᵏ⁻¹) =\n\n 4∑ₖ₌₁∞(2/5)ᵏ⁻¹,\n\n with r=2/5<1,\n\n so the series converges."
+  },
+  {
+    "question": " A contest offers 17 prizes. The first prize worth Birr 6,000 and each of the other successive prize worth Birr 300 less than the proceeding prize. What is the total value of the prize in Birr?",
+    "options": [
+      "47,300",
+      "94,600",
+      "61,200",
+      "142,800"
+    ],
+    "answer": 2,
+    "explanation": "a₁=6000, d=−300, n=17.\n\n a₁₇=6000+(17−1)(−300)=1200.\n\n S₁₇=17/2(6000+1200)=\n17/2×7200=\n61,200."
+  },
+  {
+    "question": " Let f(x) = x / (x² + 3x + 1). Then, f'(x) is equal to",
+    "options": [
+      "(1 - x²) / (x² + 3x + 1)²",
+      "1 / (2x + 3)",
+      "(3x² + 6x + 1) / (x² + 3x + 1)²",
+      "(-x³ - 3x) / (x² + 3x + 1)²"
+    ],
+    "answer": 0,
+    "explanation": "f'(x) = [(x²+3x+1)−x(2x+3)]/(x²+3x+1)² =\n\n (x²+3x+1−2x²−3x)/(x²+3x+1)² =\n\n (1−x²)/(x²+3x+1)²"
+  },
+  {
+    "question": " Let f(x) = x³ + 3x² - 9x + 7. Then, the graph of f is decreasing on",
+    "options": [
+      "[-3, 1]",
+      "(-∞, 1]",
+      "(-3, ∞)",
+      "(-∞, -3] ∪ [1, ∞)"
+    ],
+    "answer": 0,
+    "explanation": "f(x)=x³+3x²−9x+7 \n⇒ f'(x)=3x²+6x−9=3(x+3)(x−1).\n\n f'(x)<0 when (x+3)(x−1)<0 ⇒ −3<x<1.\n\n Therefore, f is decreasing on [−3,1]."
+  },
+  {
+    "question": " Water is being poured in a circular cylinder of radius 50 cm at a rate of change of volume 5000π cm³/sec. What is the rate of change of height of the level of water in the cylinder when the height is 40 cm?",
+    "options": [
+      "1/10 cm/sec",
+      "10 cm/sec",
+      "1/100 cm/sec",
+      "2 cm/sec"
+    ],
+    "answer": 3,
+    "explanation": "V=πr²h \n\n⇒ dV/dt=πr²(dh/dt).\n\n Given r=50 and dV/dt=5000π: \n\n5000π=π(50)²(dh/dt)\n\n ⇒ dh/dt=5000π/(2500π)=\n\n2 cm/sec."
+  },
+    {
+      "question": " Which one of the following expressions is equal to ∫(4x³ - 3x⁻⁴ + 5)dx? (C is constant real number in all the cases)",
+      "options": [
+        "x⁴ + x⁻³ + 5x + C",
+        "4x⁴ - 3x⁻³ + 5x + C",
+        "(x⁴/4) + (3/5)x⁻⁵ + 5x + C",
+        "12x² + 12x⁻⁵ + 5x + C"
+      ],
+      "answer": 0,
+      "explanation": "Integrating term by term using the power rule ∫xⁿdx = xⁿ⁺¹ / (n + 1):\n\n- ∫4x³ dx = 4 * (x⁴ / 4) = x⁴\n\n- ∫-3x⁻⁴ dx = -3 * (x⁻³ / -3) = x⁻³\n\n- ∫5 dx = 5x\n\nCombining these gives x⁴ + x⁻³ + 5x + C, which matches Option A."
+    },
+  {
+    "question": " A library has registered the following data about daily book borrowers for ten consecutive days: 72, 84, 36, 84, 36, 30, 54, 92, 55, 83. What is the range of the data?",
+    "options": [
+      "84",
+      "92",
+      "62",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "Range = maximum − minimum =\n 92 − 30 =\n 62."
+  },
+  {
+    "question": " Let L and S be the largest and smallest values of the given data respectively. The coefficient of range of the data is a relative measure given by",
+    "options": [
+      "(L + S) / (L - S)",
+      "(L - S) / (L + S)",
+      "(L - S) / S",
+      "(L - S) / L"
+    ],
+    "answer": 1,
+    "explanation": "Coefficient of range = (L−S)/(L+S)"
+  },
+    {
+      "question": " Consider the following Frequency curve of a data. Which one of the following is true about frequency curve of the data?",
+      "options": [
+        "Mean < Median < Mode",
+        "Median < Mean < Mode",
+        "Mode < Median < Mean",
+        "Median < Mode < Mean"
+      ],
+      "answer": 2,
+      "explanation":  "Right-skewed distribution ⇒ Mode < Median < Mean",
+      "image": "images/M2018_55.png"
+    },
+  {
+    "question": " The school management want to study grade eleven students' performance. There are ten sections of grade eleven in the school. Three sections of grade eleven are selected and all students in these three sections are taken as sample. Which one of the following is the sampling technique used by the school management?",
+    "options": [
+      "Simple random sampling technique",
+      "Stratified sampling technique",
+      "Cluster sampling method",
+      "Multistage sampling technique"
+    ],
+    "answer": 2,
+    "explanation": "10 sections → 3 sections selected → all students in the selected sections are included \n⇒ Cluster sampling."
+  },
+  {
+    "question": " What are the minimum and the maximum value of z = 2x + 3y subject to the constraints  x + y ≥ 2 \n x + y ≤ 5 \n 2y - x ≤ 4 \n x ≥ 0, y ≥ 0  , respectively?",
+    "options": [
+      "6 and 13",
+      "4 and 10",
+      "6 and 10",
+      "4 and 13"
+    ],
+    "answer": 3,
+    "explanation": "Corner points: (0,2), (2,0), (5,0), (2,3).\n\n-> z=2x+3y\n ⇒ z(0,2)=6, \nz(2,0)=4,\n z(5,0)=10,\n z(2,3)=13.\n\n-> Therefore, minimum=4 and maximum=13."
+  },
+  {
+    "question": " A company manufactures two products P and Q. Product P requires 2 hours on machine A and 1 hour on machine B. Product Q requires 1 hour on machine A and 1 hour on machine B. Machine A is available for at most 10 hours a day. Machine B is available for at most 8 hours a day. The profit for product P is Birr 40. The profit for product Q is Birr 30. How many units of P and Q should be produced to maximize the profit?",
+    "options": [
+      "4 units of P and 8 units of Q",
+      "2 units of P and 6 units of Q",
+      "10 units of P and 2 units of Q",
+      "4 units of P and 5 units of Q"
+    ],
+    "answer": 1,
+    "explanation": "Let P=x, Q=y.\n\n-> Constraints: 2x+y≤10, x+y≤8, x≥0, y≥0.\n\n-> At the intersection: 2x+y=10 and x+y=8 \n⇒ x=2, y=6.\n\n-> Profit = 40(2)+30(6)=260. \n\n-> Therefore, produce 2 units of P and 6 units of Q."
+  },
+  {
+    "question": " A shopkeeper wants to increase his profit from Birr 3000 to Birr 3600. With what percent will his profit increases?",
+    "options": [
+      "30 %",
+      "25 %",
+      "60 %",
+      "20 %"
+    ],
+    "answer": 3,
+    "explanation": "Increase = 3600 − 3000 = 600.\n\n Percentage increase = (600/3000) × 100 = 20%.\n\n Therefore, the correct answer is option D."
+  },
+    {
+      "question": " A person deposits Birr 6000 at the end of each year into a saving account that pays 10 % interest compounded annually what is the future value of the annuity after 3 years?",
+      "options": [
+        "19,860",
+        "18,230",
+        "12,000",
+        "14,414"
+      ],
+      "answer": 0,
+      "explanation": "The future value of an ordinary annuity is given by ->\n\n FV = PMT * [((1 + r)ⁿ - 1) / r].\n\nHere, PMT = 6000, r = 0.10, and n = 3 years.\n\n-> FV = 6000 * [((1 + 0.10)³ - 1) / 0.10] =\n\n->  6000 * [((1.1)³ - 1) / 0.10] =\n\n ->  6000 * [(1.331 - 1) / 0.10] \n\n ->  6000 * [0.331 / 0.10] =\n\n->  6000 * 3.31 = 19,860, which matches Option A."
+    }
+  ]

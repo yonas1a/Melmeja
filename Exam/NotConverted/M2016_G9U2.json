@@ -1,0 +1,37 @@
+[
+  {
+    "question": " Which one of the following is equal to the expression ",
+    "options": [
+      "3/5",
+      "5/3",
+      "15",
+      "1/15"
+    ],
+    "answer": 2,
+    "image": "images/M2016_3.png",
+    "explanation": ""
+  },
+  {
+    "question": " Which one of the following is the solution set of the equation (√16)^{2x+1} = (∛4096)^{3x-5}?",
+    "options": [
+      "{11/2}",
+      "{11/4}",
+      "{9/4}",
+      "{9/2}"
+    ],
+    "answer": 1,
+    "explanation": "√16 = 4 = 2² and ∛4096 = 16 = 2⁴.\n\n So 4^(2x+1) = 16^(3x-5) \n→ 2^{4x+2} = 2^{12x-20}.\n Equate exponents: 4x+2 = 12x-20\n → 22 = 8x\n → x = 11/4."
+  },
+
+  {
+    "question": " Let r1 and r2 be the roots of a quadratic equation ax² + b x + c = 0, such that r1 + r2 = -2.5 and r1.r2 = 1.5, for a, b and c are real numbers and a ≠ 0. Which one of the following can be the values of a, b and c respectively?",
+    "options": [
+      "1, 5 and 6",
+      "2, 5 and 3",
+      "1, 6 and 5",
+      "2, 3 and 5"
+    ],
+    "answer": 1,
+    "explanation": " r1 + r2 = -b/a and r1·r2 = c/a.\n Here, r1 + r2 = -2.5 \n⇒ b/a = 2.5, and\n r1·r2 = 1.5 ⇒ c/a = 1.5.\n\n Checking the options, only a=2, b=5, c=3 satisfies both ratios."
+  }
+]

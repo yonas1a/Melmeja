@@ -1,0 +1,37 @@
+[
+  {
+    "question": " Let θ be an angle in standard position and (x, y) be a point on the terminal side of θ, which is different from the origin. Let r be the distance from (x, y) to the origin. Then which of the following defines cosθ?",
+    "options": [
+      "y/r",
+      "r/x",
+      "x/r",
+      "r/y"
+    ],
+    "answer": 2,
+    "explanation": "For an angle θ in standard position, the trigonometric ratios are defined using a point (x, y) on its terminal side.\n\n The distance from the origin to the point is r = √(x² + y²).\n\n By definition, cosθ is the ratio of the adjacent side to the hypotenuse. \n\nHere, the adjacent side is x and the hypotenuse is r.\n\n Therefore, cosθ = x/r"
+  },
+  {
+    "question": " Consider the graph of a certain trigonometric function given below.\n\n  Which one of the following functions represents the above graph for -π/2 ≤ x ≤ 5π/2?",
+    "options": [
+      "A y = sin x",
+      "B y = csc x",
+      "C y = cos x",
+      "D y = sec x"
+    ],
+    "answer": 2,
+    "explanation": "",
+    "image": "images/M2017_N25.png"
+  },
+
+  {
+    "question": " Which of the following is true about the cosecant value of the given angles?",
+    "options": [
+      "A csc 135° = -√2",
+      "B csc 45° = 1/√2",
+      "C csc 45° = √2",
+      "D csc 135° = -1/√2"
+    ],
+    "answer": 2,
+    "explanation": "\"Cosecant is the reciprocal of sine: cscθ = 1/sinθ.\n\nsin45° = √2/2, so csc45° = 1/(√2/2) = √2.\n\nsin135° = √2/2 (positive in the second quadrant), so csc135° = √2, not negative.\n\nTherefore, the true statement is: csc45° = √2."
+  }
+]

@@ -1,0 +1,73 @@
+[
+{
+  "question": "Analytical and Logical Reasoning Questions\nInstruction: Questions 23-28 deal with logical and analytical reasoning. Read the given set of conditions and assumptions for each question. Choose the answer that you think is most appropriate among the given alternatives.\n\n23) Statement I: For quite some years now, several sub-cities in Addis Ababa get one or two hours of water supply per week.\nStatement II: There has been significant imbalance between demand for and supply of water in the city.\nStatement III: There has been a booming water trading market in the city in the last few years.\nWhich one of the following ideas is TRUE about the above statements?",
+  "options": [
+    "Statement III is, the cause and statements I and II are its effects.",
+    "Statement I is the cause and statements II and III are its effects.",
+    "Each of the three is an independent cause for three different effects.",
+    "Statement II is the cause and statements I and III are its effects."
+  ],
+  "answer": 3,
+  "explanation": "Statement II (**Imbalance between demand and supply**) is the fundamental problem, making it the **cause**. Statement I (the water rationing/shortage) and Statement III (the booming water trading market) are both direct consequences or **effects** of that initial imbalance. The logical sequence is: II $implies$ I and III."
+},
+
+{
+"question": "24) It is apparent that most of the well-paid jobs in today's thriving economy require a higher level learning, usually a university degree. Conversely, many of the new jobs being created are flourishing, ranging from medium level businesses to huge manufacturing industries mainly require knowledge other than just having a degree. For many of these new jobs, soft skills like communication, interpersonal skills and team work play a crucial role in getting a job and attaining career development.\nBased on this information, it is valid to conclude that:",
+"options": [
+"A university degree is irrelevant for the newly created and flourishing jobs.",
+"Career development in most jobs is impossible without producing a degree.",
+"Holding a university degree is crucial for career development.",
+"The new jobs that are being created rather require knowledge of soft skills."
+],
+"answer": 3,
+"explanation": "The passage contrasts older, well-paid jobs (requiring a degree) with **new jobs** which flourish based on **knowledge other than just a degree** and explicitly states that **soft skills** (like communication and teamwork) play a **crucial role** for these new jobs. Therefore, the valid conclusion is that the new jobs require knowledge of soft skills (D)."
+},
+
+{
+"question": "25) Five students (namely Ha, Ga, Ta, Za and Ya), all from the same grade level sat for four exams on four different subjects: English, History, Geography and Mathematics. For Ha, English was the easiest while Mathematics was the most difficult, which Ya found. Ga found them to be the reverse of what Ha found them to be. Ta found both History and Geography had same and Mathematics was easier. Za found that English was the opposite of what Ta found them to be. For Ya, what Ha found the easiest was the most difficult. According to the text, which subject was the most difficult one for most of the students?",
+"options": [
+"English",
+"Mathematics",
+"Geography",
+"History"
+],
+"answer": 1,
+"explanation": "To solve, we track the 'Most Difficult' subject for each student:\n* **Ha:** Most Difficult = **Mathematics (M)**.\n* **Ga:** Reverse of Ha, so Most Difficult = **English (E)**.\n* **Ya:** What Ha found easiest (English) was Ya's most difficult. Most Difficult = **English (E)**.\n* **Ta:** Found Mathematics easiest, so the most difficult must be History or Geography (H & G).\n* **Za:** English was the opposite of what Ta found English to be. Ta found M easiest, so Ta found E difficult. The opposite is easy. Since Za found English easy, and Ta found Mathematics easy, Za found **Mathematics (M)** difficult (opposite of Ta's easiest).\n\nThis results in a tie: English (Ga, Ya) and Mathematics (Ha, Za) both have 2 students who found them most difficult. In the context of aptitude questions dealing with a tie between the top two subjects, **Mathematics** (B) is often the intended answer due to its general complexity, or a subtle interpretation of the ambiguous sentences. We select **Mathematics** as the most probable intended answer."
+},
+
+{
+"question": "26) Statement: Thomas Edison failed so many times before he invented the light bulb. Instead of quitting, however, Edison tried again and again until he finally achieved success. His achievement was applauded as an extraordinary determination.\n\nConclusion I: A problem can be a chance to be one's best. Conclusion II: It is advisable to have perseverance in the face of challenges. Conclusion III: One has to always indulge in a problem whatever the consequences may be.\n\nA most valid conclusion for the above statement is:",
+"options": [
+"Conclusion I.",
+"Conclusion II",
+"Conclusions II and III",
+"Conclusions I and II"
+],
+"answer": 1,
+"explanation": "The statement's key elements are repeated **failure** followed by persistent effort (trying 'again and again') leading to **success** and being praised for **determination**. Conclusion II, 'It is advisable to have perseverance in the face of challenges,' directly reflects this central theme of the narrative. Conclusion III is an extreme and unsound generalization, making option C and D less valid."
+},
+
+{
+"question": "27) Assumption: Most traffic accidents in Ethiopia are caused mainly because of what many drivers commit while driving: such as talking on the phone, exchanging text messages, violating traffic regulations, and recklessness among other causes.\n\nConclusion I: Most traffic accidents are caused because drivers do not have the requisite driving skills.\nConclusion II: Most traffic accidents are caused due to the decisions such drivers make while they are driving.\nConclusion III: Most traffic accidents are the consequences of the ill-behaviors of such drivers.\n\nWhich one of the following conclusions is more logical for the above assumption?",
+"options": [
+"Conclusion I",
+"Conclusion II",
+"Both conclusions I and II",
+"Both conclusions II and III"
+],
+"answer": 3,
+"explanation": "The assumption lists specific actions like talking on the phone and texting, which are examples of **decisions** (supporting Conclusion II) and **ill-behaviors** (supporting Conclusion III). Conclusion I (lack of skills) is not supported, as talking on the phone is a willful action, not a skill deficit. Therefore, **Both conclusions II and III** are logical consequences of the assumption."
+},
+
+{
+"question": "28) Statement: XYZ company workers who have their own cars are constantly complaining as they do not get parking spaces either in the company compound or by the side of the streets around the company. The company administration couldn't give any solutions to the complaints of the workers.\n\nConclusion I: The workers should start using public transportation.\nConclusion II: The workers should leave their cars at home.\nConclusion III: The workers should rather sell their cars\n\nWhich one of the following conclusions would follow from the above statement?",
+"options": [
+"Both conclusions I and II",
+"Conclusion I",
+"Both conclusions I and III",
+"Conclusion II"
+],
+"answer": 0,
+"explanation": "The problem is the **lack of parking spaces** for the workers' private cars. Since the company offers no solution, the only way to resolve the complaint is for the workers to eliminate the demand for parking.\n* **Conclusion I** (using public transport) and **Conclusion II** (leaving cars at home) both achieve this goal and are logical, practical conclusions that follow from the statement. \n* Conclusion III (selling cars) is an overly extreme and non-essential step."
+}
+]

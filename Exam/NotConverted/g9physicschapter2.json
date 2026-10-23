@@ -1,0 +1,1103 @@
+[
+  {
+    "question": "Which of the following defines a physical quantity?",
+    "options": [
+      "A property of matter that is visible to the naked eye.",
+      "A numerical value assigned to an object's property.",
+      "A quantity that can be measured, either directly or indirectly.",
+      "An unchangeable property of the universe."
+    ],
+    "answer": 2,
+    "explanation": "A physical quantity is any property of a material or system that can be quantified by measurement.\n\n- This includes quantities measured directly, like length, and those calculated from other measurements, like density."
+  },
+  {
+    "question": "Which of the following is NOT one of the seven fundamental SI units?",
+    "options": [
+      "Ampere (A)",
+      "Candela (cd)",
+      "Newton (N)",
+      "Mole (mol)"
+    ],
+    "answer": 2,
+    "explanation": "The seven fundamental SI units are the meter, kilogram, second, Ampere, Kelvin, mole, and candela. The Newton (N) is a derived unit of force, defined as kg·m/s²."
+  },
+  {
+    "question": "A quantity that requires both magnitude and direction for its complete description is called a:",
+    "options": [
+      "Scalar quantity",
+      "Fundamental quantity",
+      "Derived quantity",
+      "Vector quantity"
+    ],
+    "answer": 3,
+    "explanation": "Vector quantities are physical quantities that possess both a magnitude (a numerical value) and a direction. Force and velocity are common examples."
+  },
+  {
+    "question": "Which of the following is a list of only scalar quantities?",
+    "options": [
+      "Speed, Distance, Mass",
+      "Velocity, Acceleration, Force",
+      "Displacement, Speed, Time",
+      "Temperature, Force, Energy"
+    ],
+    "answer": 0,
+    "explanation": "Scalar quantities have only magnitude and no direction. Speed, distance, and mass fit this description. The other options include vector quantities like velocity, acceleration, force, and displacement."
+  },
+  {
+    "question": "The prefix 'giga' (G) represents a multiplier of:",
+    "options": [
+      "10⁶",
+      "10⁹",
+      "10¹²",
+      "10⁻⁹"
+    ],
+    "answer": 1,
+    "explanation": "The prefix 'giga' (G) in the SI system signifies one billion, which is 1,000,000,000 or 10⁹."
+  },
+  {
+    "question": "How many significant figures are there in the measurement 0.05020 kg?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Leading zeros (the first two zeros) are not significant. The zero between 5 and 2 is significant. The trailing zero after the decimal point is also significant.\n\n- Therefore, the digits 5, 0, 2, and 0 are significant, making a total of four significant figures."
+  },
+  {
+    "question": "The sum of 12.11 m, 18.0 m, and 1.013 m, expressed with the correct number of significant figures is:",
+    "options": [
+      "31.123 m",
+      "31.12 m",
+      "31.1 m",
+      "31 m"
+    ],
+    "answer": 2,
+    "explanation": "When adding measured values, the answer should be rounded to the same number of decimal places as the value with the fewest decimal places. 18.0 m has only one decimal place.\n\n The sum is 31.123 m, which must be rounded to one decimal place, giving 31.1 m."
+  },
+  {
+    "question": "A car's speed is 90 km/h. What is this speed in m/s?",
+    "options": [
+      "15 m/s",
+      "20 m/s",
+      "25 m/s",
+      "30 m/s"
+    ],
+    "answer": 2,
+    "explanation": "To convert km/h to m/s, you multiply by 1000 (to get meters) and divide by 3600 (to get seconds).\n\n- 90 * (1000 / 3600) = 90 * (5 / 18) = 25 m/s."
+  },
+  {
+    "question": "The SI unit of mass, the kilogram, is defined based on a fixed value of which physical constant?",
+    "options": [
+      "The speed of light, c",
+      "The Planck constant, h",
+      "The elementary charge, e",
+      "The Avogadro constant, NA"
+    ],
+    "answer": 1,
+    "explanation": "As of the 2019 redefinition, the kilogram (kg) is defined by taking the fixed numerical value of the Planck constant (h) to be 6.62607015 × 10 to the power of -34 when expressed in the unit J·s, which is equal to kg·m²·s⁻¹."
+  },
+  {
+    "question": "The area of a rectangle is calculated by multiplying its length of 4.51 cm by its width of 3.6667 cm. The answer with the correct number of significant figures is:",
+    "options": [
+      "16.53 cm²",
+      "16.5 cm²",
+      "17 cm²",
+      "16.533 cm²"
+    ],
+    "answer": 0,
+    "explanation": "When multiplying measurements, the result should have the same number of significant figures as the quantity with the fewest significant figures. 4.51 has three significant figures, while 3.6667 has five.\n\n- The answer must be rounded to three significant figures. The product 16.533... becomes 16.5 cm²."
+  },
+  {
+    "question": "The density of an object is 2.5 g/cm³. What is this density in kg/m³?",
+    "options": [
+      "25 kg/m³",
+      "250 kg/m³",
+      "2500 kg/m³",
+      "0.0025 kg/m³"
+    ],
+    "answer": 2,
+    "explanation": "To convert g/cm³ to kg/m³, we use the conversions 1 kg = 1000 g and 1 m = 100 cm. So, 1 m³ = (100 cm)³ = 1,000,000 cm³.\n\n- The conversion factor is (1 kg / 1000 g) * (1,000,000 cm³ / 1 m³) = 1000. Therefore, 2.5 g/cm³ * 1000 = 2500 kg/m³."
+  },
+  {
+    "question": "Which of the following instruments is best suited for measuring the thickness of a single sheet of paper?",
+    "options": [
+      "Meter ruler",
+      "Vernier caliper",
+      "Micrometer screw gauge",
+      "Measuring tape"
+    ],
+    "answer": 2,
+    "explanation": "A micrometer screw gauge is designed to measure very small lengths with high precision, typically in the range of hundredths of a millimeter, making it ideal for measuring the thickness of paper."
+  },
+  {
+    "question": "A duration of 1 day, 2 hours, and 30 minutes is equivalent to how many seconds?",
+    "options": [
+      "86400 s",
+      "91800 s",
+      "95400 s",
+      "93600 s"
+    ],
+    "answer": 1,
+    "explanation": "1 day = 24 hours * 3600 s/hour = 86400 s. 2 hours = 2 * 3600 s = 7200 s. 30 minutes = 30 * 60 s = 1800 s.\n\n- The total is 86400 + 7200 + 1800 = 95400 s."
+  },
+  {
+    "question": "The quantity 5280000 m is correctly expressed in scientific notation with three significant figures as:",
+    "options": [
+      "5.28 x 10⁶ m",
+      "52.8 x  10⁵ m",
+      "5.28 x 10⁵ m",
+      "0.528 x 10⁷ m"
+    ],
+    "answer": 0,
+    "explanation": "To write 5280000 in scientific notation, the decimal point is moved 6 places to the left, resulting in 5.28. The exponent is 6. The number 5.28 already has three significant figures."
+  },
+  {
+    "question": "Which of the following is a derived physical quantity?",
+    "options": [
+      "Length",
+      "Time",
+      "Mass",
+      "Velocity"
+    ],
+    "answer": 3,
+    "explanation": "Length, time, and mass are fundamental physical quantities.\n Velocity is a derived quantity, defined as displacement (a length) divided by time."
+  },
+  {
+    "question": "The use of non-standard units of measurement like 'hand span' is unreliable primarily because:",
+    "options": [
+      "They are difficult to convert to SI units.",
+      "They are not universally accessible and vary from person to person.",
+      "They can only measure small quantities.",
+      "They are not based on powers of ten."
+    ],
+    "answer": 1,
+    "explanation": "Non-standard units lack uniformity and reproducibility. A 'hand span' for one person is different from another's, which leads to inconsistent and unreliable measurements."
+  },
+  {
+    "question": "The unit of Force is the Newton (N). In terms of fundamental SI units, this is equivalent to:",
+    "options": [
+      "kg·m/s",
+      "kg·m/s²",
+      "kg·m²/s²",
+      "kg/m·s²"
+    ],
+    "answer": 1,
+    "explanation": "Force is defined by Newton's second law (F=ma). The unit of mass (m) is kg and the unit of acceleration (a) is m/s². Therefore, the unit of force is kg·m/s²."
+  },
+  {
+    "question": "A measurement is given as 2500 m. How can this be written to explicitly show it has four significant figures?",
+    "options": [
+      "2.5 x 10³ m",
+      "2500. m",
+      "25.00 x 10² m",
+      "All of the above"
+    ],
+    "answer": 2,
+    "explanation": "Placing a decimal point after the last zero (2500.) indicates that all zeros are significant.\n\n- Using scientific notation as 2.500 x 10³ m would also show four significant figures. 25.00 x 10² m also correctly shows four significant figures."
+  },
+  {
+    "question": "The symbol for the prefix representing 10⁻⁶ is:",
+    "options": [
+      "m",
+      "n",
+      "µ",
+      "p"
+    ],
+    "answer": 2,
+    "explanation": "The prefix for 10⁻⁶ is 'micro', which is represented by the Greek letter mu (µ).\n 'm' is milli (10⁻³), 'n' is nano (10⁻⁹), and 'p' is pico (10⁻¹²)."
+  },
+  {
+    "question": "Which one of the following is a vector quantity?",
+    "options": [
+      "Energy",
+      "Power",
+      "Momentum",
+      "Work"
+    ],
+    "answer": 2,
+    "explanation": "Momentum is a vector quantity, defined as the product of mass (scalar) and velocity (vector).\n\n- It has both magnitude and direction. Energy, power, and work are all scalar quantities."
+  },
+  {
+    "question": "How many millimeters are in 2.5 kilometers?",
+    "options": [
+      "2.5 x 10³",
+      "2.5 x 10⁵",
+      "2.5 x 10⁶",
+      "2.5 x 10⁹"
+    ],
+    "answer": 2,
+    "explanation": "1 kilometer = 1000 meters, and 1 meter = 1000 millimeters.\n\n Therefore, 1 kilometer = 1,000,000 millimeters (10 to the power of 6 mm). So, 2.5 km = 2.5 x 10 to the power of 6 mm."
+  },
+  {
+    "question": "A student measures the mass of an object three times and gets 4.52 kg, 4.51 kg, and 4.53 kg. The actual mass is 5.00 kg. These measurements are:",
+    "options": [
+      "Accurate but not precise",
+      "Precise but not accurate",
+      "Both accurate and precise",
+      "Neither accurate nor precise"
+    ],
+    "answer": 1,
+    "explanation": "Precision refers to how close repeated measurements are to each other. The measurements (4.52, 4.51, 4.53) are very close, so they are precise.\n\n- Accuracy refers to how close a measurement is to the true value. Since they are far from the true value of 5.00 kg, they are not accurate."
+  },
+  {
+    "question": "What is the fundamental unit of luminous intensity in the SI system?",
+    "options": [
+      "Lumen",
+      "Lux",
+      "Watt",
+      "Candela"
+    ],
+    "answer": 3,
+    "explanation": "The candela (cd) is one of the seven fundamental SI units and is the unit for luminous intensity."
+  },
+  {
+    "question": "A process takes 5 microseconds. This is equal to:",
+    "options": [
+      "5 x 10⁻³",
+      "5 x 10⁻⁶",
+      "5 x 10⁻⁹",
+      "5 x 10⁶"
+    ],
+    "answer": 1,
+    "explanation": "The prefix 'micro' (µ) means 10 to the power of -6.\n Therefore, 5 microseconds is equal to 5 x 10 to the power of -6 seconds."
+  },
+  {
+    "question": "The quantity 'Pressure' is a derived quantity. Its unit, the Pascal (Pa), can be expressed in fundamental units as:",
+    "options": [
+      "kg/(m·s²)",
+      "kg·m/s²",
+      "kg/(m²·s)",
+      "kg·m²/s²"
+    ],
+    "answer": 0,
+    "explanation": "Pressure is defined as Force per unit Area (P = F/A).\n The unit of Force is N (kg·m/s²) and the unit of Area is m².\n\n- So, the unit of pressure is (kg·m/s²) / m² = kg/(m·s²)."
+  },
+  {
+    "question": "When measuring the volume of a liquid in a graduated cylinder, you should read the scale from the:",
+    "options": [
+      "Top of the meniscus",
+      "Bottom of the meniscus",
+      "Average of the top and bottom",
+      "Edge of the cylinder"
+    ],
+    "answer": 1,
+    "explanation": "For most liquids like water, the surface curves downwards, forming a meniscus.\n The standard practice is to read the volume measurement from the bottom of this curve to ensure consistency and accuracy."
+  },
+  {
+    "question": "A cube has a side length of 2.0 m. What is its volume?",
+    "options": [
+      "8.0 m³",
+      "8 m³",
+      "4.0 m³",
+      "6.0 m³"
+    ],
+    "answer": 0,
+    "explanation": "The volume of a cube is side length cubed (V = L³). \nThe measurement 2.0 m has two significant figures. The result is (2.0 m)³ = 8.0 m³.\n\n- The answer should also have two significant figures."
+  },
+  {
+    "question": "In a laboratory, which of the following is a critical safety rule?",
+    "options": [
+      "Always work alone to avoid distractions.",
+      "Taste chemicals only if they are known to be non-toxic.",
+      "Wear safety goggles at all times.",
+      "Return unused chemicals to their original containers."
+    ],
+    "answer": 2,
+    "explanation": "Wearing safety goggles is a fundamental and non-negotiable safety rule in a laboratory to protect the eyes from splashes and projectiles.\n\n- One should never work alone, taste any chemicals, or return unused chemicals to stock bottles."
+  },
+  {
+    "question": "Which physical quantity has the dimension M L T⁻² ?",
+    "options": [
+      "Energy",
+      "Pressure",
+      "Momentum",
+      "Force"
+    ],
+    "answer": 3,
+    "explanation": "The dimensions represent Mass (M), Length (L), and Time (T). Force = Mass × Acceleration.\n\n Mass has dimension M. Acceleration has units of m/s², which is dimension L T⁻². \nTherefore, Force has dimension M L T⁻²."
+  },
+  {
+    "question": "Two tonnes is equal to how many grams?",
+    "options": [
+      "2 x 10³ g",
+      "2 x 10⁵g",
+      "2 x 10⁶ g",
+      "2 x 10⁹ g"
+    ],
+    "answer": 2,
+    "explanation": "1 tonne is equal to 1000 kilograms.\n 1 kilogram is equal to 1000 grams.\n Therefore, 1 tonne = 1,000,000 grams (10 to the power of 6 g).\n So, 2 tonnes = 2 x 10 to the power of 6 g."
+  },
+  {
+    "question": "A digital balance is used to measure which physical quantity?",
+    "options": [
+      "Length",
+      "Mass",
+      "Time",
+      "Weight"
+    ],
+    "answer": 1,
+    "explanation": "A balance, whether digital or analog (like a beam balance), is an instrument used to measure the mass of an object."
+  },
+  {
+    "question": "The measurement process fundamentally involves:",
+    "options": [
+      "A calculation using a known formula.",
+      "An estimation based on experience.",
+      "A comparison of an unknown quantity with a standard unit.",
+      "An observation of a natural phenomenon."
+    ],
+    "answer": 2,
+    "explanation": "Measurement is the process of comparing an unknown physical quantity with a known, fixed quantity of the same kind, which is called a unit."
+  },
+  {
+    "question": "Which one of the following is an example of a random error in an experiment?",
+    "options": [
+      "Using a stopwatch that consistently runs slow.",
+      "Reading a meter ruler from an angle (parallax error).",
+      "Variations in estimating the last digit on a scale.",
+      "Forgetting to zero a balance before use."
+    ],
+    "answer": 2,
+    "explanation": "Random errors are unpredictable fluctuations in measurements. Estimating the last digit on an analog scale can vary slightly with each reading, leading to random error. The other options describe systematic errors, which are consistent and repeatable."
+  },
+  {
+    "question": "The distance from Earth to the Sun is approximately 1.5 x 10¹¹ m. This can be expressed using a prefix as:",
+    "options": [
+      "150 gigameters (Gm)",
+      "150 megameters (Mm)",
+      "1.5 terameters (Tm)",
+      "1500 megameters (Mm)"
+    ],
+    "answer": 0,
+    "explanation": "The prefix 'giga' (G) represents 10⁹ .\n 1.5 x 10¹¹ m = 150 x 10⁹ = 150 Gm."
+  },
+  {
+    "question": "Which of the following describes a derived unit?",
+    "options": [
+      "The kilogram, used for mass.",
+      "The second, used for time.",
+      "The meter per second (m/s), used for speed.",
+      "The kelvin, used for temperature."
+    ],
+    "answer": 2,
+    "explanation": "A derived unit is formed by combining fundamental units. Speed is derived from length (meter) and time (second), so its unit (m/s) is a derived unit. Kilogram, second, and kelvin are fundamental units."
+  },
+  {
+    "question": "If displacement is a vector quantity, what is the corresponding scalar quantity?",
+    "options": [
+      "Speed",
+      "Distance",
+      "Acceleration",
+      "Velocity"
+    ],
+    "answer": 1,
+    "explanation": "Displacement is the vector quantity representing the change in position (magnitude and direction).\n\n Distance is the corresponding scalar quantity, representing the total path length traveled (magnitude only)."
+  },
+  {
+    "question": "The conversion factor to change from minutes to years (assuming 365.25 days per year) is approximately:",
+    "options": [
+      "1.9 x 10⁻⁶",
+      "5.26 x 10⁵",
+      "60",
+      "3.15 x 10⁷"
+    ],
+    "answer": 0,
+    "explanation": "There are 60 min/hr, 24 hr/day, and 365.25 days/year.\n\n The total number of minutes in a year is 60 * 24 * 365.25 = 525,960. \n\nThe conversion factor from minutes to years is 1 / 525,960 ≈ 1.90 x 10⁻⁶."
+  },
+  {
+    "question": "The number 300 can be expressed with one significant figure as:",
+    "options": [
+      "3 x 10²",
+      "300.",
+      "3.0 x 10²",
+      "0.3 x 10³"
+    ],
+    "answer": 0,
+    "explanation": "In scientific notation, the number of digits in the coefficient determines the number of significant figures.\n\n In 3 x 10², there is only one digit (3), so it has one significant figure. 300. has three, and 3.0 x 10² has two."
+  },
+  {
+    "question": "What is the primary characteristic of a standard unit of measurement?",
+    "options": [
+      "It must be based on a property of the Earth.",
+      "It must be easily divisible by 10.",
+      "It must be unchanging, accessible, and reproducible.",
+      "It must be derived from a physical law."
+    ],
+    "answer": 2,
+    "explanation": "A good standard for a unit must be stable over time (unchanging), readily accessible for calibration, and able to be reproduced accurately anywhere in the world to ensure consistency in measurements."
+  },
+  {
+    "question": "The SI unit of electric current is a fundamental unit. It is the:",
+    "options": [
+      "Volt (V)",
+      "Ohm (Ω)",
+      "Coulomb (C)",
+      "Ampere (A)"
+    ],
+    "answer": 3,
+    "explanation": "The Ampere (A) is the fundamental SI unit for electric current.\n\n Volt, Ohm, and Coulomb are all derived units related to electrical phenomena."
+  },
+  {
+    "question": "The volume of a sphere is given by V = (4/3)πr³. If the radius r is measured as 2.1 cm, what is the volume with the correct significant figures? (Use π ≈ 3.14)",
+    "options": [
+      "39 cm³",
+      "38.8 cm³",
+      "38.77 cm³",
+      "40 cm³"
+    ],
+    "answer": 0,
+    "explanation": "The radius 2.1 cm has two significant figures.\n\n The calculation is V = (4/3) * 3.14 * (2.1)³ ≈ 38.77... cm³.\n\n The result must be rounded to two significant figures, which is 39 cm³."
+  },
+  {
+    "question": "Which of these is NOT a unit of length?",
+    "options": [
+      "Angstrom",
+      "Light-year",
+      "Parsec",
+      "Hertz"
+    ],
+    "answer": 3,
+    "explanation": "Hertz (Hz) is the unit of frequency, defined as cycles per second.\n\n Angstrom, light-year, and parsec are all units used to measure length or distance, especially in atomic and astronomical scales."
+  },
+  {
+    "question": "Which of the following physical quantities is dimensionless?",
+    "options": [
+      "Refractive Index",
+      "Frequency",
+      "Density",
+      "Acceleration"
+    ],
+    "answer": 0,
+    "explanation": "Refractive index is defined as the ratio of the speed of light in a vacuum to the speed of light in a medium.\n\n Since it is a ratio of two quantities with the same units (speed), the units cancel out, making it dimensionless."
+  },
+  {
+    "question": "An airplane flies 400 km East and then 300 km North. The magnitude of its final displacement from the starting point is:",
+    "options": [
+      "700 km",
+      "100 km",
+      "500 km",
+      "350 km"
+    ],
+    "answer": 2,
+    "explanation": "The two displacement vectors form a right-angled triangle. \n\nThe magnitude of the resultant displacement is the hypotenuse, found using the Pythagorean theorem: √(400² + 300²) = √(160000 + 90000) = √(250000) = 500 km."
+  },
+  {
+    "question": "Which prefix means 10⁻¹²?",
+    "options": [
+      "nano (n)",
+      "pico (p)",
+      "femto (f)",
+      "micro (µ)"
+    ],
+    "answer": 1,
+    "explanation": "The prefix for 10⁻¹² is 'pico', symbolized by 'p'."
+  },
+  {
+    "question": "A measurement scale on a device has markings every 0.1 cm. The uncertainty of a single reading from this device is typically recorded as:",
+    "options": [
+      "±0.1 cm",
+      "±0.01 cm",
+      "±0.05 cm",
+      "±0.02 cm"
+    ],
+    "answer": 2,
+    "explanation": "The uncertainty of a measurement from an analog scale is generally taken as half of the smallest division. Since the smallest division is 0.1 cm, the uncertainty is ±0.05 cm."
+  },
+  {
+    "question": "A physical quantity is given by P = F/A, where F is force and A is area. If F is a vector and A is a scalar, what type of quantity is P?",
+    "options": [
+      "Vector",
+      "Scalar",
+      "Neither",
+      "Depends on direction"
+    ],
+    "answer": 1,
+    "explanation": "Pressure (P) is a scalar quantity. Although it is caused by a vector force acting on an area, the pressure itself at a point in a fluid is the same in all directions and is described by magnitude alone."
+  },
+  {
+    "question": "What is 25 degrees Celsius in Kelvin?",
+    "options": [
+      "298.15 K",
+      "248.15 K",
+      "273.15 K",
+      "-248.15 K"
+    ],
+    "answer": 0,
+    "explanation": "To convert from Celsius to Kelvin, you add 273.15 to the Celsius temperature. So, TK = 25 + 273.15 = 298.15 K."
+  },
+  {
+    "question": "The international prototype of the kilogram, a cylinder of platinum-iridium, was the standard for mass until 2019. This is an example of what kind of standard?",
+    "options": [
+      "A natural standard",
+      "An artifact standard",
+      "A derived standard",
+      "A theoretical standard"
+    ],
+    "answer": 1,
+    "explanation": "An artifact standard is a physical object that is defined to have a certain value of a physical quantity. The platinum-iridium cylinder was the physical artifact that defined one kilogram."
+  },
+  {
+    "question": "The time period of a simple pendulum is T = 2π√(L/g). The dimensions of T are [T]. What must be the dimensions of √(L/g)?",
+    "options": [
+      "[L]",
+      "[T]",
+      "[L]/[T]",
+      "Dimensionless"
+    ],
+    "answer": 1,
+    "explanation": "For the equation to be dimensionally consistent, the dimensions on both sides must be the same. Since 2π is dimensionless, and the left side has dimension [T], the term √(L/g) must also have the dimension of time, [T]."
+  },
+  {
+    "question": "A rectangular plot of land has dimensions 50.0 m by 20.0 m. Its perimeter is:",
+    "options": [
+      "140 m",
+      "140.0 m",
+      "140.00 m",
+      "1.4 x 10² m"
+    ],
+    "answer": 1,
+    "explanation": "The perimeter is 2  (length + width). First, add the length and width: 50.0 m + 20.0 m = 70.0 m (the result keeps one decimal place).\n\n Then multiply by 2: 2 * 70.0 m = 140.0 m. The result should maintain the precision of the sum."
+  },
+  {
+    "question": "Which of the following is a unit of energy?",
+    "options": [
+      "Pascal",
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "answer": 2,
+    "explanation": "The Joule (J) is the SI derived unit of energy. A Pascal is for pressure, a Watt is for power, and a Newton is for force."
+  },
+  {
+    "question": "A car odometer measures:",
+    "options": [
+      "Instantaneous speed",
+      "Average speed",
+      "Displacement",
+      "Distance"
+    ],
+    "answer": 3,
+    "explanation": "An odometer is a device that records the total distance traveled by a vehicle.\n It is a scalar quantity, as it does not record direction."
+  },
+  {
+    "question": "A student wants to measure 15.5 mL of a liquid. Which instrument would be most appropriate?",
+    "options": [
+      "A 50 mL beaker",
+      "A 25 mL graduated cylinder",
+      "A 1 L flask",
+      "A 10 mL pipette"
+    ],
+    "answer": 1,
+    "explanation": "A graduated cylinder is designed for measuring variable volumes of liquids with reasonable accuracy.\n A 25 mL cylinder provides the right capacity and precision for measuring 15.5 mL. A beaker is for estimation, a flask for holding, and a 10 mL pipette has insufficient capacity."
+  },
+  {
+    "question": "The frequency of a wave is 50 Hz. What is its period?",
+    "options": [
+      "0.02 s",
+      "0.2 s",
+      "50 s",
+      "2 s"
+    ],
+    "answer": 0,
+    "explanation": "The period (T) is the reciprocal of the frequency (f).\n\n->   T = 1/f = 1/50 Hz = 0.02 s."
+  },
+  {
+    "question": "Which of these is NOT a base quantity in the SI system?",
+    "options": [
+      "Thermodynamic Temperature",
+      "Amount of Substance",
+      "Area",
+      "Luminous Intensity"
+    ],
+    "answer": 2,
+    "explanation": "Area is a derived quantity, calculated from length squared (L²). The other three are among the seven fundamental or base quantities of the SI system."
+  },
+  {
+    "question": "A force of 12 N acts on a body. This can be described as a:",
+    "options": [
+      "Vector of magnitude 12 N",
+      "Scalar of magnitude 12 N",
+      "Fundamental quantity",
+      "Dimensionless quantity"
+    ],
+    "answer": 0,
+    "explanation": "Force is a vector quantity. '12 N' represents its magnitude. For a complete description, a direction would also be needed, but it is fundamentally a vector."
+  },
+  {
+    "question": "Which of the following numbers has the greatest number of significant figures?",
+    "options": [
+      "1.005",
+      "0.0005",
+      "5000",
+      "5.0 x 10³"
+    ],
+    "answer": 0,
+    "explanation": "1.005 has four significant figures.\n 0.0005 has one. 5000 has one (unless specified otherwise).\n 5.0 x 10³ has two. Therefore, 1.005 has the most."
+  },
+  {
+    "question": "A light-year is a unit of:",
+    "options": [
+      "Time",
+      "Distance",
+      "Luminosity",
+      "Speed"
+    ],
+    "answer": 1,
+    "explanation": "A light-year is the distance that light travels in a vacuum in one year. It is a unit of astronomical distance, not time."
+  },
+  {
+    "question": "The standard for the second is based on:",
+    "options": [
+      "The rotation of the Earth.",
+      "The orbit of the Earth around the Sun.",
+      "The vibrations of a quartz crystal.",
+      "The frequency of radiation from a caesium-133 atom."
+    ],
+    "answer": 3,
+    "explanation": "The SI unit of time, the second, is defined by the duration of 9,192,631,770 periods of the radiation corresponding to the transition between two hyperfine levels of the ground state of the caesium-133 atom."
+  },
+  {
+    "question": "A quintal is a unit of mass equal to:",
+    "options": [
+      "10 kg",
+      "100 kg",
+      "1000 kg",
+      "10 g"
+    ],
+    "answer": 1,
+    "explanation": "A quintal is a traditional unit of mass, now defined within the metric system as being equal to 100 kilograms."
+  },
+  {
+    "question": "If a physical law is expressed as A = B * C, and A has units of Joules (kg·m²/s²) and B has units of kilograms (kg), what are the units of C?",
+    "options": [
+      "m/s",
+      "m²/s²",
+      "m²/s",
+      "m/s²"
+    ],
+    "answer": 1,
+    "explanation": "To find the units of C, we rearrange the equation to C = A/B. The units are (kg·m²/s²) / (kg) = m²/s²."
+  },
+  {
+    "question": "The measurement 3.140 ± 0.005 m implies that the true value of the length is likely between:",
+    "options": [
+      "3.135 m and 3.145 m",
+      "3.140 m and 3.145 m",
+      "3.135 m and 3.140 m",
+      "3.130 m and 3.150 m"
+    ],
+    "answer": 0,
+    "explanation": "The uncertainty value of ± 0.005 m represents the range around the measured value where the true value is expected to lie. This range is from (3.140 - 0.005) m to (3.140 + 0.005) m."
+  },
+  {
+    "question": "Systematic errors in an experiment can be reduced by:",
+    "options": [
+      "Taking many readings and finding the average.",
+      "Using a more precise instrument.",
+      "Calibrating the instruments and improving the experimental technique.",
+      "Estimating the last digit more carefully."
+    ],
+    "answer": 2,
+    "explanation": "Systematic errors are consistent errors, often due to faulty equipment or flawed experimental design.\n Calibrating instruments (e.g., zeroing a balance) and refining the method addresses these underlying, consistent issues.\n Averaging readings helps reduce random errors, not systematic ones."
+  },
+  {
+    "question": "What is the result of (2.0 x 10⁴) + (3.0 x 10⁵)?",
+    "options": [
+      "5.0 x 10⁹",
+      "5.0 x 10⁵",
+      "3.2 x 10⁵",
+      "2.3 x 10⁵"
+    ],
+    "answer": 2,
+    "explanation": "To add numbers in scientific notation, the exponents must be the same. Convert 2.0 x 10⁴ to 0.2 x 10⁵. Then, (0.2 x 10⁵) + (3.0 x 10⁵) = 3.2 x 10⁵."
+  },
+  {
+    "question": "Which of the following pairs represent a fundamental quantity and its corresponding SI unit?",
+    "options": [
+      "Force, Newton",
+      "Time, Second",
+      "Volume, Liter",
+      "Charge, Coulomb"
+    ],
+    "answer": 1,
+    "explanation": "Time is one of the seven fundamental quantities, and its SI unit is the second. All other pairs listed consist of derived quantities."
+  },
+  {
+    "question": "The process of ensuring an instrument gives a correct reading against a known standard is called:",
+    "options": [
+      "Measurement",
+      "Precision",
+      "Standardization",
+      "Calibration"
+    ],
+    "answer": 3,
+    "explanation": "Calibration is the process of configuring an instrument to provide a result for a sample within an acceptable range. It involves comparing the instrument's readings to those of a known standard."
+  },
+  {
+    "question": "A length is measured as 1.25 m. What is this length in micrometers?",
+    "options": [
+      "1250 µm",
+      "1.25 x 10³ µm",
+      "1.25 x 10⁶ µm",
+      "1.25 x 10⁹ µm"
+    ],
+    "answer": 2,
+    "explanation": "1 meter is equal to 1,000,000 (10 to the power of 6) micrometers. Therefore, 1.25 m is equal to 1.25 x 10 to the power of 6 µm."
+  },
+  {
+    "question": "The quantity 'work' is derived from which two fundamental quantities?",
+    "options": [
+      "Mass and Time",
+      "Length and Time",
+      "Mass, Length and Time",
+      "Mass and Length"
+    ],
+    "answer": 2,
+    "explanation": "Work is defined as Force × Distance. Force has dimensions of Mass × Length / Time², and Distance has a dimension of Length. Therefore, the dimensions of Work are Mass × Length² / Time², involving Mass, Length, and Time."
+  },
+  {
+    "question": "A car travels for 3 hours at 60 km/h. The distance it covers is a:",
+    "options": [
+      "Scalar quantity",
+      "Vector quantity",
+      "Fundamental quantity",
+      "Dimensionless quantity"
+    ],
+    "answer": 0,
+    "explanation": "Distance is a scalar quantity because it only has magnitude (in this case, 180 km) and does not specify a direction."
+  },
+  {
+    "question": "Which statement about fundamental units is correct?",
+    "options": [
+      "They can be expressed as a combination of other units.",
+      "They are the units for quantities like area and volume.",
+      "They are a set of independent units from which all other units can be derived.",
+      "They are only used in the metric system."
+    ],
+    "answer": 2,
+    "explanation": "Fundamental (or base) units are the building blocks of a system of measurement. They are defined independently and cannot be expressed in terms of other units. All other (derived) units are combinations of these fundamental units."
+  },
+  {
+    "question": "The precision of a measuring instrument is related to:",
+    "options": [
+      "The closeness of the measurement to the true value.",
+      "The number of significant figures in the measurement.",
+      "The smallest division on its scale.",
+      "The skill of the person using it."
+    ],
+    "answer": 2,
+    "explanation": "The precision of an instrument is determined by its least count, which is the smallest value it can measure.\n\n A smaller least count (finer scale divisions) allows for a more precise measurement."
+  },
+  {
+    "question": "The number 0.0450 has:",
+    "options": [
+      "2 significant figures",
+      "3 significant figures",
+      "4 significant figures",
+      "5 significant figures"
+    ],
+    "answer": 1,
+    "explanation": "The leading zeros are not significant. The digits 4 and 5 are significant.\n\n The trailing zero to the right of the decimal point is significant. Therefore, there are three significant figures: 4, 5, and 0."
+  },
+  {
+    "question": "The unit of 'Amount of Substance' is the mole. This quantity is:",
+    "options": [
+      "A derived quantity",
+      "A vector quantity",
+      "A fundamental quantity",
+      "A dimensionless quantity"
+    ],
+    "answer": 2,
+    "explanation": "Amount of substance is one of the seven fundamental physical quantities in the International System of Units (SI)."
+  },
+  {
+    "question": "A cube has a volume of 27.0 cm³. What is the length of one of its sides?",
+    "options": [
+      "3 cm",
+      "3.0 cm",
+      "3.00 cm",
+      "9.00 cm"
+    ],
+    "answer": 2,
+    "explanation": "The side length is the cube root of the volume. The volume 27.0 cm³ has three significant figures.\n The cube root of 27.0 is 3.00. The answer should also have three significant figures."
+  },
+  {
+    "question": "Which of the following is NOT a unit of pressure?",
+    "options": [
+      "Pascal",
+      "Atmosphere",
+      "Bar",
+      "Joule"
+    ],
+    "answer": 3,
+    "explanation": "Pascal, atmosphere, and bar are all units of pressure. Joule is the unit of energy or work."
+  },
+  {
+    "question": "Which of the following is an example of a scalar field?",
+    "options": [
+      "The velocity of wind at different points in the atmosphere.",
+      "The gravitational force on an object at different heights.",
+      "The temperature at different locations in a room.",
+      "The electric field around a charged particle."
+    ],
+    "answer": 2,
+    "explanation": "A scalar field assigns a scalar value to every point in a space. Temperature is a scalar, so a map of temperatures in a room constitutes a scalar field. The other options describe vector fields, as velocity, force, and electric field are all vector quantities."
+  },
+  {
+    "question": "If a measurement is recorded as 10.20 kg, which digit is the least certain?",
+    "options": [
+      "1",
+      "0 (the first one)",
+      "2",
+      "0 (the last one)"
+    ],
+    "answer": 3,
+    "explanation": "In any measurement, the last significant digit is the one that is estimated and therefore has the most uncertainty.\n In 10.20, the final zero represents the estimated digit."
+  },
+  {
+    "question": "Which of the following operations with measured numbers can result in a value with more significant figures than the original numbers?",
+    "options": [
+      "Addition",
+      "Subtraction",
+      "Multiplication",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": "For multiplication and division, the result is limited by the number with the fewest significant figures.\n For addition and subtraction, the result is limited by the number with the fewest decimal places.\n\n In no standard arithmetic operation does the result justifiably gain significant figures."
+  },
+  {
+    "question": "The physical quantity 'acceleration' has the unit m/s². This is derived from which combination of fundamental units?",
+    "options": [
+      "Length and Mass",
+      "Mass and Time",
+      "Length and Time",
+      "Length, Mass, and Time"
+    ],
+    "answer": 2,
+    "explanation": "Acceleration is the rate of change of velocity. Velocity is length/time.\n\n So, acceleration is (length/time)/time, which simplifies to length/time². It is derived from the fundamental units of length (meter) and time (second)."
+  },
+  {
+    "question": "A stopwatch is an instrument used to measure:",
+    "options": [
+      "Speed",
+      "Time intervals",
+      "Frequency",
+      "Distance"
+    ],
+    "answer": 1,
+    "explanation": "A stopwatch is specifically designed to measure the amount of time that elapses between its activation and deactivation, i.e., a time interval."
+  },
+  {
+    "question": "The prefix 'centi' corresponds to a factor of:",
+    "options": [
+      "10⁻¹",
+      "10⁻²",
+      "10⁻³",
+      "10²"
+    ],
+    "answer": 1,
+    "explanation": "The prefix 'centi' (symbol c) denotes a factor of one hundredth, or 10-²."
+  },
+  {
+    "question": "Which of the following quantities cannot be negative?",
+    "options": [
+      "Displacement",
+      "Velocity",
+      "Temperature (in Celsius)",
+      "Mass"
+    ],
+    "answer": 3,
+    "explanation": "Mass is a scalar quantity representing the amount of matter, which is inherently positive.\n\n Displacement, velocity, and temperature in Celsius can all have negative values to indicate direction or a state below a zero point."
+  },
+  {
+    "question": "Dimensional analysis can be used to:",
+    "options": [
+      "Determine the numerical value of a constant in an equation.",
+      "Derive the complete physical formula for a phenomenon.",
+      "Check the consistency of a physical equation.",
+      "Measure a physical quantity accurately."
+    ],
+    "answer": 2,
+    "explanation": "Dimensional analysis is a powerful tool used to check if a physical equation is valid by ensuring that the dimensions on both sides of the equation match. It cannot determine numerical constants."
+  },
+  {
+    "question": "A volume of 500 cm³ is equal to how many liters?",
+    "options": [
+      "0.5 L",
+      "5 L",
+      "50 L",
+      "0.05 L"
+    ],
+    "answer": 0,
+    "explanation": "One liter (L) is defined as 1000 cubic centimeters (cm³). Therefore, 500 cm³ is equal to 500/1000 = 0.5 L."
+  },
+  {
+    "question": "The reading on a measuring scale is 4.3 units. The space between 4 and 5 is divided into 10 intervals. What is the value of each small interval?",
+    "options": [
+      "1.0 unit",
+      "0.5 units",
+      "0.1 units",
+      "0.01 units"
+    ],
+    "answer": 2,
+    "explanation": "If the space between two consecutive whole numbers (a difference of 1) is divided into 10 equal intervals, then each interval represents one-tenth of that space, which is 1/10 = 0.1 units."
+  },
+  {
+    "question": "Which of these quantities is a vector?",
+    "options": [
+      "Density",
+      "Pressure",
+      "Temperature",
+      "Weight"
+    ],
+    "answer": 3,
+    "explanation": "Weight is the force of gravity acting on an object. As a force, it is a vector quantity, having both magnitude and a direction (towards the center of the gravitational body)."
+  },
+  {
+    "question": "The unit of 'Work', the Joule, is equivalent to:",
+    "options": [
+      "Newton / meter",
+      "Newton · second",
+      "Newton · meter",
+      "Newton / second"
+    ],
+    "answer": 2,
+    "explanation": "Work is defined as the product of force and the distance moved in the direction of the force. The unit of force is the Newton (N) and the unit of distance is the meter (m). Therefore, 1 Joule = 1 Newton-meter."
+  },
+  {
+    "question": "The diameter of a circle is measured to be 10.4 cm. Its circumference (C=πd), using π ≈ 3.14, with the correct significant figures is:",
+    "options": [
+      "32.656 cm",
+      "32.66 cm",
+      "32.7 cm",
+      "33 cm"
+    ],
+    "answer": 2,
+    "explanation": "The diameter 10.4 cm has three significant figures. The calculation is 3.14 * 10.4 = 32.656 cm.\n\n The result must be rounded to three significant figures, which is 32.7 cm."
+  },
+  {
+    "question": "Which is an example of a derived quantity?",
+    "options": [
+      "Kilogram",
+      "Second",
+      "Candela",
+      "Hertz"
+    ],
+    "answer": 3,
+    "explanation": "Hertz (Hz) is the unit of frequency, defined as cycles per second (s⁻¹). It is derived from the fundamental unit of time. The others are fundamental units."
+  },
+  {
+    "question": "The primary difference between a base quantity and a derived quantity is that:",
+    "options": [
+      "Base quantities are scalar while derived quantities are vector.",
+      "Base quantities are defined independently while derived quantities are combinations of base quantities.",
+      "Base quantities are more common in everyday life.",
+      "Base quantities have simpler units than derived quantities."
+    ],
+    "answer": 1,
+    "explanation": "The core concept of a system of units is to define a small set of base (or fundamental) quantities independently.\n\n All other physical quantities can then be expressed (derived) as algebraic combinations of these base quantities."
+  },
+  {
+    "question": "A student measures a book's length as 25.4 cm. The percentage uncertainty, if the ruler's smallest division is 1 mm, is approximately:",
+    "options": [
+      "0.2%",
+      "0.4%",
+      "2%",
+      "4%"
+    ],
+    "answer": 0,
+    "explanation": "The smallest division is 1 mm or 0.1 cm. The uncertainty is half the smallest division, which is 0.05 cm.\n\n The percentage uncertainty is (uncertainty / measurement) * 100 = (0.05 cm / 25.4 cm) * 100 ≈ 0.197%, which is approximately 0.2%."
+  },
+  {
+    "question": "A measurement of 10 meters is an example of a:",
+    "options": [
+      "Scalar quantity",
+      "Vector quantity",
+      "Both scalar and vector",
+      "Neither scalar nor vector"
+    ],
+    "answer": 0,
+    "explanation": "When a value like '10 meters' is given without a direction, it represents a magnitude. \n\nThis could be a distance (scalar) or the magnitude of a displacement (vector). As presented, it is a scalar value. Physical quantities like distance are inherently scalar."
+  },
+  {
+    "question": "Which of the following is NOT a unit of mass?",
+    "options": [
+      "Gram",
+      "Slug",
+      "Tonne",
+      "Dyne"
+    ],
+    "answer": 3,
+    "explanation": "Dyne is a unit of force in the centimeter-gram-second (CGS) system of units. Gram, slug, and tonne are all units of mass."
+  },
+  {
+    "question": "The number 100.0 contains how many significant figures?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "In a number with a decimal point, all trailing zeros are significant.\n Therefore, the digits 1, the first 0, the second 0, and the final 0 are all significant."
+  },
+  {
+    "question": "Which of the following pairings is incorrect?",
+    "options": [
+      "Length - Meter",
+      "Mass - Kilogram",
+      "Temperature - Celsius",
+      "Time - Second"
+    ],
+    "answer": 2,
+    "explanation": "While Celsius is a common unit of temperature, the fundamental SI unit for Thermodynamic Temperature is the Kelvin (K)."
+  },
+  {
+    "question": "A car accelerates from rest. Its acceleration is a:",
+    "options": [
+      "Scalar quantity",
+      "Vector quantity",
+      "Derived scalar",
+      "Fundamental vector"
+    ],
+    "answer": 1,
+    "explanation": "Acceleration is the rate of change of velocity. Since velocity is a vector, acceleration is also a vector, having both magnitude (e.g., 2 m/s²) and direction."
+  },
+  {
+    "question": "A beaker contains 0.25 Liters of water. This is equivalent to:",
+    "options": [
+      "2.5 cm³",
+      "25 cm³",
+      "250 cm³",
+      "2500 cm³"
+    ],
+    "answer": 2,
+    "explanation": "1 Liter is equal to 1000 cm³. Therefore, 0.25 L is equal to 0.25 * 1000 = 250 cm³."
+  },
+  {
+    "question": "Which of the following is a fundamental safety precaution before starting any laboratory experiment?",
+    "options": [
+      "Memorize the results you expect to get.",
+      "Ensure all equipment is perfectly clean.",
+      "Read and understand the entire procedure.",
+      "Prepare a graph for your data."
+    ],
+    "answer": 2,
+    "explanation": "Understanding the procedure, including potential hazards and steps, is the most critical safety precaution before beginning any experiment. It allows for safe and correct execution of the lab work."
+  },
+
+  {
+    "question": "The derived SI unit for energy is the Joule (J). How is the Joule expressed in terms of fundamental SI units?",
+    "options": [
+      "kg·m/s",
+      "kg·m²/s³",
+      "kg·m/s²",
+      "kg·m²/s²"
+    ],
+    "answer": 3,
+    "explanation": "Energy, or work, is calculated as Force multiplied by Distance. The unit of Force (Newton) is kg·m/s², and the unit of Distance is m. Multiplying these gives (kg·m/s²) · m, which simplifies to kg·m²/s²."
+  }
+]

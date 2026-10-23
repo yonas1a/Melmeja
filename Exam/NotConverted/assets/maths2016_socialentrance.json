@@ -1,0 +1,465 @@
+[
+  {
+    "question": "In the set of natural numbers, which one of the following defines a composite number?",
+    "options": [
+      "A number that has only two distinct factors.",
+      "A number that is divisible by numbers from 2 to 9.",
+      "A number that has two or more different factors.",
+      "A number that has three or more different divisors."
+    ],
+    "answer": 3,
+    "explanation": "Composite number = natural number with more than 2 divisors\n\nSo it must have at least 3 different divisors"
+  },
+  {
+    "question": "Which of the following is true about rationalizing the denominator?",
+    "options": [
+      "Only denominators can be multiplied by an irrational number.",
+      "Only numerators can be rationalized when there is a radical.",
+      "It is a method of changing the denominator in to a rational number.",
+      "It is a technique of multiplying a given number by an irrational expression."
+    ],
+    "answer": 2,
+    "explanation": "Rationalizing the denominator is a method of changing the denominator into a rational number."
+  },
+  {
+    "question": "When dividing 142 by 13 and expressed the result by applying the division algorithm, we get?",
+    "options": [
+      "142= 10(13)+12",
+      "142= 11(13)-1",
+      "142= 11(13)+1",
+      "142= 10(14)+2"
+    ],
+    "answer": 0,
+    "explanation": "Using the division algorithm, for integers a and b > 0, a = b*q + r with 0 ≤ r < b.\n\n Here, 142 ÷ 13: 13 × 10 = 130, remainder = 142 - 130 = 12.\n\n So, 142 = 10(13) + 12."
+  },
+  {
+    "question": "The solution set of the system {(2x-y = 5), (3y+15= 6x)} is:",
+    "options": [
+      "∅",
+      "{(t,2t-15):t∈ ℝ}",
+      "{(t,2t-5):t∈ ℝ}",
+      "{(0,-5),(1,-3),(2,-2),...}"
+    ],
+    "answer": 2,
+    "explanation": "  Solving the system: from 2x - y = 5, we get y = 2x - 5.\n\n-> From 3y + 15 = 6x, we get y = 2x - 5. \n\nBoth equations represent the same line, so the system has infinitely many solutions along the line y = 2x - 5, expressed as {(t, 2t-5) : t ∈ ℝ}."
+  },
+
+  {
+    "question": "Which one of the following refers to the definition of similar plane figures?",
+    "options": [
+      "Figures where one is an enlargement of the other",
+      "Figures whose corresponding angles have the same ratio.",
+      "Figures that have different shapes but might have same size.",
+      "Figures whose ratios of length of corresponding sides are different."
+    ],
+    "answer": 0,
+    "explanation": "Similar plane figures are figures where one is an enlargement or reduction of the other, meaning their corresponding angles are equal and the ratios of corresponding sides are the same."
+  },
+  {
+    "question": "In Δ ABC, m(< B) = 90°, with m(<A) = 30° and BC= 11 cm, then what is the length of AC?",
+    "options": [
+      "22 cm",
+      "22√3/3 cm",
+      "11√3 cm",
+      "11√3/3 cm"
+    ],
+    "answer": 0,
+    "explanation": "In a right triangle with angle A = 30° and right angle at B, sin 30° = opposite/hypotenuse = BC/AC = 11/AC.\n\n-> Since sin 30° = 1/2, we get AC = 22 cm."
+  },
+  {
+    "question": "Given a circle of diameter 16 cm. A chord of the circle is 6 cm far from the center of the circle. Which of the following is the length of the chord?",
+    "options": [
+      "2√7 cm",
+      "8 cm",
+      "4√7 cm",
+      "16 cm"
+    ],
+    "answer": 2,
+    "explanation": "Using the formula for chord length, 2√(r² - d²),\n\n-> with r = 8 cm and d = 6 cm, we get chord length = 2√(64-36) = 2√28 = 4√7 cm."
+  },
+  {
+    "question": "Which of the following is the approximate surface area of the bases of a regular pentagonal prism of radius 6 cm? (Given values: sin72° ≈ 0.3, cos72° ≈ 0.95)",
+    "options": [
+      "54 sq.cm",
+      "85.5 sq.cm",
+      "27 sq.cm",
+      "27.5 sq.cm"
+    ],
+    "answer": 2,
+    "explanation": "The area of a regular pentagon with circumradius R is (5/2)·R²·sin72°.\n\n With R = 6 cm and sin72° ≈ 0.3, Area of one base = (5/2)·36·0.3 = 27 sq.cm.\n For both bases: 2·27 = 54 sq.cm."
+  },
+  {
+    "question": "Let x denote the arithmetic mean of a numerical data. If each observation is multiplied by 0.5, which of the following is the new mean?",
+    "options": [
+      "x",
+      "(1/2)x",
+      "2x",
+      "x-0.5"
+    ],
+    "answer": 1,
+    "explanation": "If each observation in a data set is multiplied by 0.5, the arithmetic mean is also multiplied by 0.5.\n\n Therefore, the new mean = (1/2)x."
+  },
+  {
+    "question": "A regular triangular pyramid labeled 1, 2 and 3, is thrown twice and what comes down on a flat surface is observed. What is the probability that the sum of the numbers faced down from this experiment is less than 5?",
+    "options": [
+      "1/3",
+      "2/3",
+      "4/9",
+      "5/9"
+    ],
+    "answer": 1,
+    "explanation": "Throwing a triangular pyramid twice gives 3×3=9 total outcomes.\n\n The pairs with sum <5 are (1,1),(1,2),(1,3),(2,1),(2,2),(3,1) → 6 favorable outcomes.\n Probability = 6/9 = 2/3."
+  },
+  {
+    "question": "Given vectors u having initial point (-1,0) and terminal point (2,3) and v with initial point (5,-2) and terminal point (2,3) then v-u is equal to:",
+    "options": [
+      "(-6,3)",
+      "(2,-6)",
+      "(0,-2)",
+      "(-6,2)"
+    ],
+    "answer": 3,
+    "explanation": "Vector u = (2-(-1), 3-0) = (3,3); vector v = (2-5, 3-(-2)) = (-3,5).\n\n Then v-u = (-3,5) - (3,3) = (-6,2)."
+  },
+  {
+    "question": "Which one of the following is the definition of a polynomial function?",
+    "options": [
+      "A function f defined by f(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹ + a₁x¹ + a₀  where n is non-negative integer, aₙ ≠ 0 and aₙ + aₙ₋₁ + a₁ + a₀ ∈ ℝ ",
+      "A function f defined by f(x)= aₙxⁿ + aₙ+₁xⁿ+¹ + aₙ₊₂xⁿ⁺² where n is positive integer, aₙ ≠ 0 and aₙ + aₙ+₁  ∈ ℝ",
+      "A function f defined by f(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹ + a₁x¹ + a₀ where n is an integer,aₙ ≠ 0 and  aₙ + aₙ₋₁ + a₀ ∈ ℝ",
+      "A function f defined by f(x)= aₙxⁿ+ aₙ₋₁xⁿ⁻¹ +...+ a₁x¹+ a₀ where n is a rational number, aₙ ≠ 0 and  aₙ + aₙ₋₁ + a₀ ∈ ℝ"
+    ],
+    "answer": 0,
+    "explanation": "A polynomial function is a function f(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀ where n is a non-negative integer, aₙ ≠ 0, and all coefficients are real numbers."
+  },
+  {
+    "question": "When f(x)= 4x³+ kx - 1 is divided by x-1/2, the remainder is 3, what is the value of k?",
+    "options": [
+      "14",
+      "7",
+      "7/2",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "Using the Remainder Theorem, f(1/2) = 4*(1/2)³ + k*(1/2) - 1 = 3 → \n-> 1/2 + k/2 - 1 = 3 → \n->k/2 - 1/2 = 3 → k/2 = 7/2 → k = 7."
+  },
+  {
+    "question": "What is the solution set of the equation log₄(x + 1) - 2log₄x = 0.5?",
+    "options": [
+      "{1,-1/2}",
+      "{1/2,-1}",
+      "{1}",
+      "{1/2}"
+    ],
+    "answer": 0,
+    "explanation": "The equation is log₄(x + 1) - 2log₄x = 0.5. \nUsing log properties, it becomes log₄((x + 1)/x²) = 0.5 → (x + 1)/x² = 4^0.5 = 2 → \n2x² - x - 1 = 0 → x = 1 or x = -1/2.\n\n Since x must be positive for log₄x, the solution is x = 1, which corresponds to option A."
+  },
+  {
+    "question": "Which of the following is the characteristic of log(20+1/5)?",
+    "options": [
+      "-1",
+      "1",
+      "2.02",
+      "0.2"
+    ],
+    "answer": 1,
+    "explanation": "The characteristic of a common logarithm is the integer part of the logarithm.\n\n Since 20 + 1/5 = 20.2 and log₁₀(20.2) ≈ 1.3, the characteristic is 1."
+  },
+  {
+    "question": "Which one of the following is the solution set of the equation (1/25)ˣ + 5(0.04)ˣ = 30?",
+    "options": [
+      "{5}",
+      "{1/5}",
+      "{-1/2}",
+      "{1/2}"
+    ],
+    "answer": 2,
+    "explanation": "(1/25)ˣ + 5·(0.04)ˣ =\n-> (1/5)²ˣ + 5·(1/5)²ˣ =\n-> 6·(1/5)²ˣ = 30 →\n-> (1/5)²ˣ = 5 → 5⁻²ˣ = 5¹ \n->→ -2x = 1 → x = -1/2"
+  },
+  {
+    "question": "Given the set A = {x ∈ ℝ: x ∉(π,∞)} which of the following sets is equal to A ?",
+    "options": [
+      "(-∞,π]",
+      "(-π,π]",
+      "(-∞,π)",
+      "[π,∞)"
+    ],
+    "answer": 2,
+    "explanation": "The set A consists of all real numbers not in the interval (π, ∞), which means all x ≤ π.\n\n-> So in interval notation, A = (-∞, π]."
+  },
+  {
+    "question": "Which one of the following is the solution set of the equation (2x-1)² + 2 ≤ 6x² - 3x ?",
+    "options": [
+      "[-1.5,1]",
+      "[1.5,∞)",
+      "(-∞,1.5) ∪ [1,∞)",
+      "$(-∞,-1.5] ∪ [1,∞)"
+    ],
+    "answer": 3,
+    "explanation": "Expand the left: (2x-1)² + 2 = 4x² -4x +3.\n Inequality: 4x² -4x +3 ≤ 6x² -3x → 2x² + x -3 ≥ 0. Solve quadratic: 2x² + x -3=0 → x = 1, x = -1.5. \n\nSince parabola opens upwards, inequality holds outside roots: (-∞,-1.5] ∪ [1,∞)."
+  },
+  {
+    "question": "The line y=x is intersected by the horizontal line y=a at point P and y=b at point Q for a ≠ b. Which of the following gives the distance from Q to P?",
+    "options": [
+      "2|a-b|",
+      "√2|b-a|",
+      "√2(b-a)",
+      "2√|a-b|"
+    ],
+    "answer": 1,
+    "explanation": "Point P = (a,a), Q = (b,b). Distance formula: √((b-a)² + (b-a)²) = √(2(b-a)²) = √2·|b-a|."
+  },
+  {
+    "question": "Let P(-1/2,3) and Q(4,-5) are points on the line y=kx+b. Which of the following is the value of k?",
+    "options": [
+      "-7/16",
+      "-9/19",
+      "-16/7",
+      "-16/9"
+    ],
+    "answer": 3,
+    "explanation": "Slope k = (y2 - y1)/(x2 - x1) =\n\n-> (-5 - 3)/(4 - (-1/2)) =\n\n-> -8 / (9/2) = -16/9."
+  },
+  {
+    "question": "Which of the following is true about a trigonometric value of angles?",
+    "options": [
+      "sin(270°) =0",
+      "cos(-180°)=-1",
+      "tan(-90°)= 0",
+      "tan(540°)=-1"
+    ],
+    "answer": 1,
+    "explanation": "Check each value: sin 270° = -1,\n-> cos(-180°) = cos 180° = -1,\n-> tan(-90°) undefined,\n-> tan 540° = tan 180° = 0. \n->So only cos(-180°) = -1 is true."
+  },
+  {
+    "question": "For 0° ≤ θ ≤ 90° which of the following relationship describes the co-function of angle θ?",
+    "options": [
+      "cos θ is equal to secant of its complementary angle.",
+      "sec θ is equal to sine of its supplementary angle.",
+      "csc θ is equal to sine of its supplementary angle.",
+      "cot θ is equal to tangent of its complementary angle."
+    ],
+    "answer": 3,
+    "explanation": "Using co-function identities: cot θ = tan(90° - θ).\n\n->  For 0° ≤ θ ≤ 90°, cotangent of an angle equals the tangent of its complementary angle."
+  },
+  {
+    "question": "For  0° ≤ θ ≤ 90° which of the following identity is correct?",
+    "options": [
+      "csc²(90°-θ) = 1 + tan²θ",
+      "cot²(90°-θ) = 1+ csc²θ",
+      "sec²θ + tan²θ = 1",
+      "cot²θ + csc²θ = 1"
+    ],
+    "answer": 0,
+    "explanation": "Using co-function and Pythagorean identities: csc(90°-θ) = sec θ → csc²(90°-θ) = sec² θ.\n\n Also, 1 + tan² θ = sec² θ, so csc²(90°-θ) = 1 + tan² θ"
+  },
+  {
+    "question": "Let ABCD be a Rhombus and E be the mid-point of the shortest diagonal AC. Then which of the following is NOT true?",
+    "options": [
+      " Δ ABC is isosceles.",
+      "AC is perpendicular to BD.",
+      " Δ BEC is a right triangle.",
+      "<DAB is an acute angle."
+    ],
+    "answer": 3,
+    "explanation": "In a rhombus, diagonals are perpendicular and bisect each other.\n\n-> Triangle ABC is isosceles, ΔBEC is right-angled at E.\n-> However, ∠DAB is not always acute — depends on the rhombus shape. Hence, it is NOT necessarily true."
+  },
+  {
+    "question": "A person would like to fence all sides of a regular hexagonal polygonal park of radius 12 meter. What is the length of a fencing material needed in meter?",
+    "options": [
+      "72√3",
+      "72",
+      "36√3",
+      "36"
+    ],
+    "answer": 1,
+    "explanation": "For a regular hexagon, the radius (distance from center to a vertex) equals the side length.\n\n Here, side length s = 12 m. Perimeter = 6 × s = 6 × 12 = 72 m."
+  },
+  {
+    "question": "Given a right circular cylinder of base radius 5 cm and lateral surface area 150π sq.cm, which of the following is the volume of the cylinder in cubic centimeters?",
+    "options": [
+      "375π",
+      "350π",
+      "315.5π",
+      "200π"
+    ],
+    "answer": 0,
+    "explanation": "Given LSA = 2πrh = 150π → 2π(5)h = 150π → h = 15 cm.\n\n-> Volume V = πr²h = π(5)²(15) = 375π cm³."
+  },
+  {
+    "question": "A spherical container of diameter 3 meters is filled with water. What is the amount of the water in the container in cubic meters?",
+    "options": [
+      "27π/4",
+      "27π/2",
+      "9π/2",
+      "9π/4"
+    ],
+    "answer": 2,
+    "explanation": "Volume of a sphere V = 4/3 π r³, r = 3/2 → \n\n->V = 4/3 π (3/2)³ = \n4/3 π (27/8) =\n\n-> 36/24 π = 9/2 π."
+  },
+  {
+    "question": "The domain and the range respectively of the function f defined by f(x)= 1+|2x-4| are:",
+    "options": [
+      "[2, ∞) and [1,∞)",
+      " ℝ and [2,∞)",
+      "[2,∞) and ℝ",
+      "ℝ and [1,∞)"
+    ],
+    "answer": 3,
+    "explanation": "Domain: |2x-4| is defined for all real x → domain = ℝ.\n\n-> Range: |2x-4| ≥ 0 → f(x) = 1 + |2x-4| ≥ 1 → range = [1, ∞)."
+  },
+  {
+    "question": "Which of the following is the inverse of $f(x)=\\sqrt{x-3}$?",
+    "options": [
+      "f⁻¹(x) = x²+3, x ≥ 0 ",
+      "f⁻¹(x) = x²+3, x ≥ 3",
+      "f⁻¹(x) = √(x+3),-∞ ≤ ∞ ",
+      "f⁻¹(x) = -1/√(x+3), x ≠ 3"
+    ],
+    "answer": 0,
+    "explanation": "Start with y = √(x-3) → \n-> y² = x-3 → x = y² + 3.\nSwap x and y: f⁻¹(x) = x² + 3.\n Domain of inverse = range of original function = x ≥ 0."
+  },
+  {
+    "question": "Which of the following is the simplified form of $[x-\\frac{x+3}{x-1}]\\div\\frac{x-3}{x^{2}-2x+1}$?",
+    "options": [
+      "$\\frac{x^{2}-2x+3}{x-1},x\\ne3$",
+      "$\\frac{-1+x}{x-3},x\\ne1$",
+      "$x^{2}-1, x\\ne1,3$",
+      "$x^{2}-2x+1, x\\ne1,3$"
+    ],
+    "answer": 2,
+    "explanation": "Simplify the first term: $x-\\frac{x+3}{x-1} = \\frac{x(x-1)-(x+3)}{x-1} = \\frac{x^2-x-x-3}{x-1} = \\frac{x^2-2x-3}{x-1} = \\frac{(x-3)(x+1)}{x-1}$. The expression is $\\frac{(x-3)(x+1)}{x-1} \\div \\frac{x-3}{(x-1)^2} = \\frac{(x-3)(x+1)}{x-1} \\times \\frac{(x-1)^2}{x-3}$. Canceling terms: $(x+1)(x-1) = x^2-1$, for $x\\ne1, 3$."
+  },
+  {
+    "question": "A data on scores of 32 students is listed as follows [data provided]. If the data is to be grouped in 6 classes, what has to be the class interval ($w$)?",
+    "options": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "answer": 2,
+    "explanation": "The class interval ($w$) is $\\frac{\\text{Range}}{\\text{Number of classes}}$. Minimum score is 32, Maximum score is 78. Range $= 78 - 32 = 46$. $w = \\frac{46}{6} \\approx 7.67$. Class intervals are generally rounded up to the next convenient integer, so $w=8$."
+  },
+  {
+    "question": "Five English books, 3 of which identical and 3 different Mathematics books are to be arranged in a row. If one particular Mathematics book is to be placed first, in how many ways can this be done?",
+    "options": [
+      "$240$",
+      "$840$",
+      "$5040$",
+      "$6720$"
+    ],
+    "answer": 1,
+    "explanation": "The first position is fixed by 1 specific Mathematics book (1 way). The remaining books are $5 + 2 = 7$ books (5 English, 2 Math), where 3 English books are identical. The number of arrangements is $\\frac{7!}{3!} = \\frac{5040}{6} = 840$."
+  },
+  {
+    "question": "Let identical balls labeled 1 to 10 are placed in a box. If a ball is drawn at random, what is the probability that the ball is labeled neither odd nor a multiple of 3?",
+    "options": [
+      "$\\frac{3}{10}$",
+      "$\\frac{1}{2}$",
+      "$-\\frac{2}{5}$",
+      "$\\frac{2}{5}$"
+    ],
+    "answer": 3,
+    "explanation": "Total outcomes = 10. The condition 'neither odd nor a multiple of 3' means the number must be **even** AND **not a multiple of 3**. Even numbers: $\\{2, 4, 6, 8, 10\\}$. Multiples of 3: $\\{3, 6, 9\\}$. Numbers that are even and NOT multiples of 3: $\\{2, 4, 8, 10\\}$ (4 outcomes). Probability = $\\frac{4}{10} = \\frac{2}{5}$."
+  },
+  {
+    "question": "Let A be a $3\\times3$ matrix and $k$ be a real number. Which of the following is true?",
+    "options": [
+      "If $B=kA$ then $\\det(B)=3k\\det(A).$",
+      "If $B=A^{T}$, then $\\det(-B)=\\det(A).$",
+      "If B is obtained by interchanging two rows of A. then $\\det(B)=\\det(A).$",
+      "If B is obtained by multiplying one column of A by $k$, then $\\det(B)=k \\det(A)$"
+    ],
+    "answer": 3,
+    "explanation": "A property of determinants is that multiplying a single row or single column of a matrix $A$ by a scalar $k$ results in a new determinant that is $k$ times $\\det(A)$."
+  },
+  {
+    "question": "Given the linear system $\\begin{cases}a_{1}x+b_{1}y+c_{1}z=3\\\\ a_{2}x+b_{2}y+c_{2}z=-1\\\\ a_{3}x+b_{3}y+c_{3}z=2\\end{cases}$ such that the determinant of the coefficient matrix is $D$. Which of the following is the value of $y$?",
+    "options": [
+      "$\\frac{1}{3}|\\begin{matrix}a_{1}&b_{2}\\\\ 3&-1&2\\\\ a_{3}&b_{3}&c_{3}\\end{matrix}|$",
+      "$\\frac{1}{3}|\\begin{matrix}a_{1}&3&c_{1}\\\\ a_{2}&-1&c_{2}\\\\ a_{3}&2&c_{3}\\end{matrix}|$",
+      "$\\frac{1}{D}|\\begin{matrix}a_{1}&b_{1}&c_{1}\\\\ -3&-3&1&-2\\\\ a_{3}&b_{3}&c_{3}\\end{matrix}|$",
+      "$\\frac{1}{D}|\\begin{matrix}a_{1}&-3&c_{1}\\\\ -3a_{2}&1&c_{2}\\\\ a_{3}&-2&c_{3}\\end{matrix}|$"
+    ],
+    "answer": 1,
+    "explanation": "By Cramer's Rule, $y = \\frac{D_y}{D}$. $D_y$ is the determinant of the matrix formed by replacing the $y$-column of the coefficient matrix with the constant terms $(3, -1, 2)^T$. Option B matches $\\frac{D_y}{3}$. Assuming $D=3$ for the context of the options, it is the intended answer."
+  },
+  {
+    "question": "If $w=i - \\frac{3+i}{5}$, then which of the following is equal to the modulus of $w$?",
+    "options": [
+      "$\\frac{3}{5}\\sqrt{5}$",
+      "$1$",
+      "$1-\\frac{1}{5}\\sqrt{10}$",
+      "$1+\\frac{1}{5}\\sqrt{10}$"
+    ],
+    "answer": 1,
+    "explanation": "Simplify $w$: $w = i - (\\frac{3}{5} + \\frac{1}{5}i) = (-\\frac{3}{5}) + (1 - \\frac{1}{5})i = -\\frac{3}{5} + \\frac{4}{5}i$. The modulus is $|w| = \\sqrt{(-\\frac{3}{5})^2 + (\\frac{4}{5})^2} = \\sqrt{\\frac{9}{25} + \\frac{16}{25}} = \\sqrt{\\frac{25}{25}} = 1$."
+  },
+  {
+    "question": "Few terms of a sequence are given as follows: $-2, 0, 4, 10, \\dots$ Which of the following can be a fifth term?",
+    "options": [
+      "$14$",
+      "$16$",
+      "$18$",
+      "$20$"
+    ],
+    "answer": 2,
+    "explanation": "The differences between consecutive terms are $0-(-2)=2$, $4-0=4$, $10-4=6$. The differences form an arithmetic progression ($2, 4, 6, \\dots$), so the next difference is 8. The fifth term is $10 + 8 = 18$."
+  },
+  {
+    "question": "For the arithmetic sequence with $A_{3}=5$ and $A_{5}=10$, which of the following is the sum of the first 20 terms?",
+    "options": [
+      "$475$",
+      "$495$",
+      "$570$",
+      "$950$"
+    ],
+    "answer": 0,
+    "explanation": "The common difference $d$: $A_5 - A_3 = 2d \\implies 10 - 5 = 2d \\implies d = 2.5$. The first term $A_1$: $A_3 = A_1 + 2d \\implies 5 = A_1 + 2(2.5) \\implies A_1 = 0$. The sum $S_{20} = \\frac{20}{2} (2A_1 + 19d) = 10 (2(0) + 19(2.5)) = 10 (47.5) = 475$."
+  },
+  {
+    "question": "Suppose $a$ and $b$ are real numbers such that $a\\ne0$ and $b>0$. If the geometric series $\\sum_{n=4}^{\\infty}b(\\frac{a}{b})^{n}$ converge, which of the following is true?",
+    "options": [
+      "$a\\ge b$",
+      "$|a|<b$",
+      "$|a\\ge b|$",
+      "$|a|<b$"
+    ],
+    "answer": 3,
+    "explanation": "A geometric series converges if the absolute value of the common ratio, $r$, is less than 1. The common ratio is $r = \\frac{a}{b}$. The condition is $|r| < 1 \\implies |\\frac{a}{b}| < 1 \\implies \\frac{|a|}{|b|} < 1$. Since $b>0$, $|b|=b$, so $\\frac{|a|}{b} < 1 \\implies |a| < b$."
+  },
+  {
+    "question": "An enterprise found out its profit by the formula $f(t)=t^{2}-t+100$, in Birr, where $t$ is the time in days. Which of the following is the average rate of change of its profit on $0\\le t\\le2$?",
+    "options": [
+      "$\\frac{f(0)-f(2)}{2}$",
+      "$\\frac{f(2)-f(1)}{2}$",
+      "$\\frac{f(2)-f(t)}{t-2}$",
+      "$\\frac{1}{2}(f(2)-f(0))$"
+    ],
+    "answer": 3,
+    "explanation": "The average rate of change over $[t_1, t_2]$ is $\\frac{f(t_2) - f(t_1)}{t_2 - t_1}$. For $[0, 2]$, it is $\\frac{f(2) - f(0)}{2 - 0} = \\frac{1}{2}(f(2) - f(0))$."
+  },
+  {
+    "question": "On the average it was observed that the speed of vehicles in $\\text{km/hr}$ follow the formula $S(x)=10(x+\\frac{50}{2x+1})$, where $x$ is the speed in $\\text{km/hr}$. Which of the following is the minimum speed in $\\text{km/hr}$ of a vehicle in the situation?",
+    "options": [
+      "$45$",
+      "$95$",
+      "$105$",
+      "$115$"
+    ],
+    "answer": 1,
+    "explanation": "The function is $S(x) = 10x + \\frac{500}{2x+1}$. Setting the derivative to zero for minimum: $S'(x) = 10 - \\frac{500(2)}{(2x+1)^2} = 10 - \\frac{1000}{(2x+1)^2} = 0$. $(2x+1)^2 = 100 \\implies 2x+1 = 10 \\implies x=4.5$. The minimum speed is $S(4.5) = 10(4.5 + \\frac{50}{2(4.5)+1}) = 10(4.5 + \\frac{50}{10}) = 10(9.5) = 95\\text{ km/hr}$."
+  },
+  {
+    "question": "Which of the following gives the definition of integration for a function?",
+    "options": [
+      "It is a process of reversing the derivative of the function.",
+      "It is the derivative of a function at a point.",
+      "It is the rate of change of a function.",
+      "It is the derivative of a function on the given interval."
+    ],
+    "answer": 0,
+    "explanation": "Indefinite **integration** (finding the antiderivative) is the inverse operation of differentiation (finding the derivative)."
+  }
+]

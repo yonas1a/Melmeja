@@ -17,7 +17,7 @@ interface ExamContextType {
   isExamActive: boolean;
   isSubmitting: boolean;
   lastAttemptResult: ExamAttempt | null;
-  startExam: (exam: Exam) => void;
+  startExam: (exam: Exam) => Promise<void> | void;
   selectAnswer: (optionIndex: number) => void;
   toggleFlagCurrentQuestion: () => void;
   clearCurrentAnswer: () => void;
@@ -270,12 +270,30 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
   }, [isExamActive, remainingSeconds]);
 
-  const startExam = (exam: Exam) => {
-    setCurrentExam(exam);
+  const startExam = async (exam: Exam): Promise<void> => {
+    let examToStart = exam;
+    // If questions are not yet populated (e.g. from lightweight catalog metadata), load on demand
+    if (!examToStart.questions || examToStart.questions.length === 0) {
+      try {
+        const res = await fetch(`/exams/${exam.id}.json`);
+        if (res.ok) {
+          const fullExam = await res.json();
+          examToStart = {
+            ...exam,
+            ...fullExam,
+            questions: fullExam.questions || []
+          };
+        }
+      } catch (err) {
+        console.error('Failed to load full exam questions on-demand from /exams/' + exam.id + '.json:', err);
+      }
+    }
+
+    setCurrentExam(examToStart);
     setCurrentQuestionIndex(0);
     setUserAnswers({});
     setFlaggedQuestions([]);
-    setRemainingSeconds(exam.durationMinutes * 60);
+    setRemainingSeconds(examToStart.durationMinutes * 60);
     setIsExamActive(true);
     setLastAttemptResult(null);
   };

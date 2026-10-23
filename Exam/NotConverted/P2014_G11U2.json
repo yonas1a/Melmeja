@@ -1,0 +1,24 @@
+[
+  {
+    "question": "The unit vector in the direction of A = 3i+4j is ______.",
+    "options": [
+      "3i/5 +4j/5",
+      "2i-j",
+      "3i/2+4j/2",
+      "i+j"
+    ],
+    "answer": 0,
+    "explanation": "\"The unit vector in the direction of a vector A is given by u = A / |A|.\n\n Here, |A| = √(3² + 4²) = 5.\n\n Therefore, u = (3i + 4j) / 5 = 3i/5 + 4j/5."
+  },
+  {
+    "question": "Which of the following pair of vectors are collinear?",
+    "options": [
+      "2i-3j and -4i-6j",
+      "i+j and -i+j",
+      "2i+3j and -4i+6j",
+      "2i+3j and -4i-6j"
+    ],
+    "answer": 3,
+    "explanation": "Two vectors are collinear if one is a scalar multiple of the other.\n\n Here, -2 × (2i + 3j) = -4i - 6j, so these vectors are collinear."
+  }
+]

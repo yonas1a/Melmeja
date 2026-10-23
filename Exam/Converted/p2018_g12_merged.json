@@ -1,0 +1,617 @@
+{
+  "id": "p2018_g12_merged_melmeja",
+  "title": "Physics Grade 12 Practice Questions 2018 (10 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Physics",
+  "description": "Combined 10 chapter files (P2018_G12U1_R1.json, P2018_G12U1_R2.json, P2018_G12U2_R1.json, P2018_G12U2_R2.json, P2018_G12U3_R1.json, P2018_G12U3_R2.json, P2018_G12U4_R1.json, P2018_G12U4_R2.json, P2018_G12U5_R1.json, P2018_G12U5_R2.json) into one exam. 36 total questions.",
+  "durationMinutes": 54,
+  "totalQuestions": 36,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "ENTRANCE",
+    "2018",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2018",
+  "questions": [
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_1",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements appropriately describes the application of physics knowledge in defense technology?",
+      "options": [
+        "Radar is used for military purposes to detect a distant object by using sound waves signal.",
+        "Infrared devices are used by the military for purposes like night vision, navigation, hunting, and detecting hidden-objects.",
+        "Infrared devices are used in the military to magnify objects that can be seen with ordinary light.",
+        "Radar is used for military purposes like controlling air traffic, observation of weather, and navigation of ships."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Infrared radiation is associated with thermal energy emitted by objects.\n\nInfrared devices can detect heat differences and can therefore be used for night vision, tracking, navigation, and detecting objects that are difficult to see with ordinary visible light.\n\nRadar, on the other hand, uses radio waves rather than sound waves.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_2",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which field of engineering demands the physics knowledge like electromagnetism, mechanics and thermodynamics to design motors, optical fiber networks and communications links?",
+      "options": [
+        "Chemical engineering",
+        "Biomedical engineering",
+        "Electrical engineering",
+        "Civil engineering"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Electrical engineering applies principles of electromagnetism, electronics, optics, and mechanics to design electric motors, optical communications, and electronic systems.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_3",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Our planet Earth has an orbital period of 365 days and its mean distance from the Sun is R_E = 1.495 × 10⁸ km. If there is another unknown planet whose mean distance from the Sun is R = 4R_E, how much is an orbital period of the unknown planet in terms of the days on the Earth?",
+      "options": [
+        "23360 days",
+        "2920 days",
+        "1460 days",
+        "730 days"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kepler's Third Law states that the square of the orbital period is proportional to the cube of the mean orbital radius, so T² ∝ R³.\n\nTherefore, (T/T_E)² = (R/R_E)³ = 4³ = 64.\n\nTaking the square root gives T/T_E = 8.\n\nSince Earth's orbital period is 365 days, T = 8 × 365 = 2920 days.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_4",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "A uniform disk of radius 10.0 cm is rotating at an angular velocity of 20.0 rad/s about an axis through its center. What is the centripetal acceleration of a point at a distance of 6.0 cm from the axis?",
+      "options": [
+        "24.0 m/s²",
+        "40.0 m/s²",
+        "2.0 m/s²",
+        "1.2 m/s²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The centripetal acceleration of a point in circular motion is given by a_c = ω²r.\n\nThe distance from the axis is 6.0 cm = 0.06 m.\n\nSubstituting ω = 20.0 rad/s and r = 0.06 m gives a_c = (20.0)²(0.06) = 24.0 m/s².\n\nTherefore, option 0 is correct.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_5",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "A particle moving with a speed of v₀ to the right starts accelerating uniformly with acceleration a. The total distance covered by the particle during the time interval t is s. Assuming the right direction is positive, which one of the following equations enables us to calculate the time t in terms v₀, a and s?",
+      "options": [
+        "t = (v₀ - √(v₀² + 2as)) / 2a",
+        "t = (v₀ + √(v₀² + 2as)) / a",
+        "t = (-v₀ + √(v₀² + 2as)) / 2a",
+        "t = (-v₀ + √(v₀² + 2as)) / a"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For uniformly accelerated motion, displacement is given by s = v₀t + ½at².\n\nRearranging gives at² + 2v₀t - 2s = 0.\n\nUsing the quadratic formula gives t = (-v₀ ± √(v₀² + 2as))/a.\n\nSince time must be positive, the positive root is selected.\n\nTherefore, t = (-v₀ + √(v₀² + 2as))/a.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_6",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A horizontal distance jumper athlete jumps from the ground with initial speed v at an angle θ with the horizontal. For the constant initial speed, the range R is related to the maximum height h as",
+      "options": [
+        "R = 4h if θ = 45°",
+        "R = 5.33h if θ = 53°",
+        "R = 3h if θ = 37°",
+        "R = 2.3h if θ = 30°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For a projectile launched and landing at the same level, the range is R = v²sin2θ/g.\n\nThe maximum height is h = v²sin²θ/(2g).\n\nDividing the range by the maximum height gives R/h = 4cotθ.\n\nFor θ = 45°, cot45° = 1, so R = 4h.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_7",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Kepler's second law of planetary motion states that",
+      "options": [
+        "the orbit of a planet around the Sun is an ellipse with the Sun at one focus.",
+        "the radius vector drawn from the Sun to any planet sweeps out equal areas in equal time intervals.",
+        "the square of the period of a planet is proportional to the cube of the average distance between the Sun and the planet.",
+        "planet moves fastest when it is at the aphelion and slowest when it is at perihelion."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kepler's second law (Law of Equal Areas) states that a line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_8",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Suppose r⃗ is the position vector from an axis of rotation to the point of application of a force F⃗ and θ is the angle between r⃗ and F⃗, when joined tail to tail. The magnitude of the torque caused by the force is the product of the",
+      "options": [
+        "magnitude of the force and perpendicular distance from the axis of rotation to the line of action of the force.",
+        "component of the force perpendicular to the position vector and the component of the position vector parallel to the force.",
+        "magnitudes of the force and the position vector.",
+        "component of the force parallel to the position vector and the magnitude of the position vector."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Torque is defined as τ = r F sin(θ).\n\n Here, r sin(θ) represents the perpendicular distance from the axis of rotation to the line of action of the force (the moment arm).\n\n Thus, torque is the product of the magnitude of the force and this perpendicular distance.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_9",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "A ball is thrown from the top of a 7.2 m high building with a speed of 20 m/s at an angle of 53° above the horizontal. The magnitude of the vertical component of the ball's velocity just before hitting the ground is",
+      "options": [
+        "12 m/s.",
+        "20 m/s.",
+        "10 m/s.",
+        "16 m/s."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Initial vertical velocity vy0 = v₀ sin(53°) =\n\n 20 × 0.8 = 16 m/s (upward). \n\nUsing conservation of energy / kinematics equation vyf² = vy0² + 2gh (taking g = 10 m/s²):\n\n vyf² = (16)² + 2(10)(7.2) =\n\n 256 + 144 = 400.\n\n Taking the square root gives vyf = 20 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_10",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A wheel of radius, r starts rotating about an axis passing through its center and accelerates with angular acceleration, α until its angular speed reaches ω. During this process, it rotates an angular displacement, θ. Which one of the following relations between linear components of a point at a rim of the wheel and its angular components is correct? (Assume all angular components are given in radian)",
+      "options": [
+        "The centripetal acceleration at the point is a_cent = α · r.",
+        "The centripetal acceleration at the point is a_cent = ω² · r.",
+        "The tangential acceleration of the point is aₜ = ω² · r.",
+        "The tangential velocity of the point is vₜ = ω / r."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Centripetal (radial) acceleration is given by a_cent = v²/r = ω² · r.\n\n Tangential acceleration is a_t = α ·\n\n r, and tangential velocity is v_t = ω · r.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_11",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": " A satellite orbits around the Earth with a mean orbital radius of R. If the mass of the Earth is Mₑ, how long does the satellite take to orbit the earth?",
+      "options": [
+        "1/(2π) √(R³/GMₑ)",
+        "2π √(R²/GMₑ)",
+        "2π √(R³/GMₑ)",
+        "1/(2π) √(R²/GMₑ)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The gravitational force provides the centripetal force needed for the satellite's circular orbit.\n\n Therefore, GMₑm/R² = mv²/R. \n\nSince the orbital speed is v = 2πR/T,\n\n substituting this into the equation gives\n\n T² = 4π²R³/(GMₑ).\n\n Taking the square root, T = 2π√(R³/GMₑ).\n\n Therefore, the correct answer is C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_12",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": " Which of the following statements correctly explains about the linear and angular quantities of a rotating body?",
+      "options": [
+        "At a given instant, all points of a rotating disk have the same tangential speed and different angular speed.",
+        "At a given instant, a point on the edge of a rotating tire has larger tangential speed than a point closer to the center of the tire.",
+        "point closer to the center of a rotating disk travels larger linear distance than a point farther from the center.",
+        "For a rotating disk, the radial and tangential accelerations are parallel."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Tangential speed is given by v = rω.\n\n For a rotating rigid body, all points share the same angular speed (ω), but points farther from the axis (larger radius r) have a larger tangential speed.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_13",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Pascal's principle states that a pressure added at the top of a liquid at rest in a cylindrical shape container",
+      "options": [
+        "decreases the pressure at any point in the liquid by the same amount as that added at the top.",
+        "increases the pressure at any point in the liquid by a smaller amount than that added at the top.",
+        "increases the pressure at any point in the liquid by a greater amount than that added at the top.",
+        "increases the pressure at any point in the liquid by the same amount as that added at the top."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Pascal's principle states that when pressure is applied to an enclosed fluid, the pressure change is transmitted equally and undiminished throughout the fluid.\n\nTherefore, if the pressure at the top is increased by a certain amount, the pressure at every other point in the fluid also increases by the same amount.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_14",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "A high-pressure system can be applied to",
+      "options": [
+        "transport a fluid through a pipe.",
+        "generate cold water from steam or super-heated water.",
+        "reduce the gas in the bicycle and car tires.",
+        "biological sample to increase micro-organism activity."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A pressure difference causes a fluid to move from a region of higher pressure toward a region of lower pressure.\n\nHigh-pressure systems can therefore be used to force liquids or gases through pipes and other channels.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_15",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about the characteristics of steady and turbulent fluid flow?",
+      "options": [
+        "In each flow, fluid particles pass a given point in space with the same velocity.",
+        "In turbulent flow, the velocity of a fluid particles is the same at same point of a flow line in space unlike in the steady flow.",
+        "In steady flow, the adjacent layers of fluid do not cross each other unlike in the turbulent flow.",
+        "In each flow, the lines along which fluid particles move do not cross each other."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In steady or laminar flow, the fluid moves in smooth and orderly layers, and adjacent layers generally move without crossing one another.\n\nTurbulent flow is irregular and contains eddies and mixing between different parts of the fluid.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_16",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Two identical vessels, A and B, are filled fully with two different liquids and opened to the atmosphere. When a student makes holes at the sides of the two vessels at equal height h from the bases of the vessels, she observes the water spilled out from A strikes the ground at a distance, x₁, and the water spilled out from vessel B strikes the ground at a distance x₂, as shown in the figure below.\n\nIf x₂ > x₁, which one of the following conclusions about the pressure and the fluids in the two vessels is correct?",
+      "imageUrl": "images/P2018_6.png",
+      "diagramUrl": "images/P2018_6.png",
+      "options": [
+        "The density of the liquid in vessel B is greater than that of the liquid in vessel A.",
+        "The absolute pressure at hole of vessel A is greater than that of at the hole of vessel B.",
+        "The liquid pressure at the hole of vessel B is less than that of at the hole of vessel A.",
+        "The atmospheric pressure on the liquid in vessel B is greater than that on vessel A."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The liquid leaving a hole has an exit speed that depends on the pressure difference between the liquid at the hole and the atmosphere.\n\nFor a liquid column, the gauge pressure is P = ρgh, where ρ is the liquid density and h is the depth of the hole below the liquid surface.\n\nThe holes are at the same height in identical vessels, so the liquid depth above each hole is the same.\n\nSince x₂ > x₁, liquid B leaves with a greater speed and therefore has a greater pressure at the hole.\n\nWith the same liquid depth, this requires a greater density for liquid B.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_17",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": " Three open cylindrical containers, 1, 2, and 3, of the same height but different base areas are filled totally with the same liquid as shown in the figure below.\n\nIf P₁ is the pressure at the bottom of container 1, P₂ is the pressure at the bottom of container 2, and P₃ is the pressure at the bottom of container 3, then",
+      "imageUrl": "images/P2018R2_14.png",
+      "diagramUrl": "images/P2018R2_14.png",
+      "options": [
+        "P₃ > P₁ > P₂",
+        "P₂ > P₁ > P₃",
+        "P₁ = P₂ = P₃",
+        "P₁ > P₂ > P₃"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hydrostatic pressure at depth h is given by P = ρgh. \n\nSince all three containers have the same liquid density (ρ) and equal height (h), the pressure at the bottom depends only on depth, not the base area or volume.\n\n Thus, P₁ = P₂ = P₃.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_18",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": " A solid sphere of 50 cm³ is totally submerged in a liquid of density 930 kg/m³. What is the magnitude of the buoyant force exerted on the sphere?",
+      "options": [
+        "4.65 N",
+        "46.50 N",
+        "4650 N",
+        "0.465 N"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Buoyant force F_b = ρ_liquid × V_displaced × g.\n\n Here V = 50 cm³ = 50 × 10⁻⁶ m³, ρ = 930 kg/m³, and taking g = 10 m/s² (or 9.8 m/s²),\n\n F_b = 930 × 50 × 10⁻⁶ × 10\n\n = 0.465 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_19",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": " According to Bernoulli's principle",
+      "options": [
+        "slowly moving fluid exerts high pressure on a surface than a fast-moving fluid.",
+        "fluid moves faster in a wider section of a pipe than in a narrower section.",
+        "fast-moving fluid exerts high pressure on a surface than a slowly moving fluid.",
+        "fluid pressure is higher at a narrower section of a pipe than at a wider section."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in static pressure or potential energy.\n\n Thus, a slower-moving fluid exerts greater static pressure than a faster-moving fluid.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_20",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following statements is NOT the application of high-pressure systems?",
+      "options": [
+        "Studying physical properties of solids",
+        "Inflating bicycle and car tires",
+        "Using gas cylinders to seal gases",
+        "Using high pressure washers to clean our body"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "High-pressure washers generate forces powerful enough to inflict severe skin cuts, tissue damage, and physical injury, so they are never safe to use for washing the human body.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_21",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": " Water is flowing through a circular pipe at a flow rate of 6.28 m³/s. At one point in the pipe, the radius is 0.1 m. What is the speed of the water at this point?",
+      "options": [
+        "200 m/s",
+        "20 m/s",
+        "100 m/s",
+        "1000 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Volumetric flow rate Q is defined as Q = A × v = (π r²) × v.\n\n Given Q = 6.28 m³/s and\n r = 0.1 m:\n\n A = 3.14 × (0.1)² = 0.0314 m². \n\nSolving for speed v gives \nv = Q / A = \n6.28 / 0.0314 =\n 200 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_22",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "A long current carrying wire is lying on the plane of this paper. The wire length is along the y-axis carrying current I along the positive y direction as shown in the figure below.\n\nWhat is the direction of the magnetic field produced on the plane of the paper at indicated distance r from the wire along x-axis?",
+      "imageUrl": "images/P2018_5.png",
+      "diagramUrl": "images/P2018_5.png",
+      "options": [
+        "Towards the positive y direction at point a",
+        "Towards the negative x direction at point b",
+        "Perpendicular to the plane of the page at point b",
+        "Perpendicular to the plane of the page at point a"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic field around a long straight current-carrying wire forms circular paths around the wire.\n\nUsing the right-hand rule, point your right thumb in the direction of the current, which is upward along the positive y-axis.\n\nYour curled fingers show the direction of the magnetic field around the wire.\n\nAt point b, which is on the left side of the wire, the magnetic field points out of the page, so it is perpendicular to the plane of the paper.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_23",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "For a coil placed in a variable magnetic field, Lenz's law states that the direction of the induced current in the coil is in such a way as to",
+      "options": [
+        "make the flux through the coil zero.",
+        "oppose the flux change through the coil.",
+        "decrease the flux through the coil.",
+        "increase the flux through the coil."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Lenz's law states that the induced current flows in a direction that opposes the change in magnetic flux responsible for producing the current.\n\nIt does not necessarily oppose the magnetic flux itself; it opposes the change in flux.\n\nTherefore, option 1 is correct.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_24",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Suppose a 50 Hz outlet voltage of 10,000 V needs to be reduced to 220 V using a stepdown transformer. How many turns does the primary coil on the transformer have if the secondary coil has 110 turns?",
+      "options": [
+        "5000",
+        "550",
+        "1000",
+        "110"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For an ideal transformer, the voltage ratio equals the turns ratio: Vₚ/Vₛ = Nₚ/Nₛ.\n\nSubstituting the values gives 10,000/220 = Nₚ/110.\n\nTherefore, Nₚ = (10,000 × 110)/220 = 5000 turns.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_25",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following statements is correct about the use of a transformer in commonly available electrical appliances? The transformers in",
+      "options": [
+        "microwave ovens are used to step-down the incoming high voltage to low voltage to enable it cook food.",
+        "cell-phone chargers are used to convert the incoming alternating voltage to a direct voltage.",
+        "cell-phone chargers are used to step-down the incoming voltage to a safe voltage that will not harm its batteries.",
+        "laptop computer chargers are used to convert the incoming alternating voltage to a direct voltage."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A transformer specifically changes AC voltage levels (stepping up or stepping down voltage).\n\n In cell-phone chargers, a step-down transformer reduces the high AC wall voltage to a lower, safer AC voltage level before it is rectified.\n\n  (Converting AC to DC is performed by a rectifier, not a transformer).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_26",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": " The North pole of a bar magnet is moving away from a circular wire lying on the top of a horizontal table as shown in the figure below.\n\nAccording to Lenz's law, the direction of the induced current in the wire when viewed from the magnetic side is",
+      "imageUrl": "images/P2018R2_33.png",
+      "diagramUrl": "images/P2018R2_33.png",
+      "options": [
+        "clockwise.",
+        "upward.",
+        "downward.",
+        "counterclockwise."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "According to Lenz's law, the induced current will oppose the change in magnetic flux.\n\n Since the North pole is moving away, the loop creates a South pole on top to attract it back.\n\n Looking down at a South pole, the direction of the current flows clockwise.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_27",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": " Ampere's law can be stated that the magnetic field produced by",
+      "options": [
+        "an electric current is directly proportional to the magnitude of the current.",
+        "bar magnet is directly proportional to the mass of the magnet.",
+        "current carrying wire are parallel to the wire.",
+        "conductor carrying constant current is directly proportional to the distance from the wire."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "According to Ampere's Law (e.g., B = μ₀I / (2πr) for a long straight wire), the magnetic field B produced around a current-carrying wire is directly proportional to the electric current I passing through it.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_28",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": " A straight conductor carrying a current I, which flows upward, is placed in uniform magnetic field B directed into the page, as shown in the figure below.\n\nWhat will happen to the conductor?",
+      "imageUrl": "images/P2018R2_59.png",
+      "diagramUrl": "images/P2018R2_59.png",
+      "options": [
+        "It will be pushed to the right.",
+        "It will be pushed out of the page.",
+        "It will be pushed into the page.",
+        "It will be pushed to the left."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the right-hand rule for magnetic force (F = I L × B): \n\n-> point your fingers upward in the direction of the current (I),\n\n-> curl them inward into the page in the direction of the magnetic field (B),\n\n-> and your thumb points to the right, indicating the direction of the force pushing the conductor.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_29",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Considering the concentration of dopants in different section of a transistors, which one of the following describes a correct order from lowest to highest?",
+      "options": [
+        "Emitter, Base, Collector",
+        "Collector, Base, Emitter",
+        "Base, Emitter, Collector",
+        "Base, Collector, Emitter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In a bipolar junction transistor, the base is lightly doped, the collector is moderately doped, and the emitter is heavily doped.\n\nTherefore, the dopant concentration increases in the order Base, Collector, Emitter.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_30",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which of the following circuit diagrams correctly represents a transistor-configurations that is used to get both current and voltage gain?",
+      "imageUrl": "images/P2018_22.png",
+      "diagramUrl": "images/P2018_22.png",
+      "options": [
+        "Common Collector configuration (Input at Base/Collector, Output at Emitter)",
+        "Common Emitter configuration (Input at Base, Output at Collector, Emitter common)",
+        "Common Base configuration (Input at Emitter, Output at Collector, Base common)",
+        "Common Collector configuration (Input at Base, Output at Emitter)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The common-emitter configuration can provide both significant current gain and voltage gain.\n\nAs a result, it can provide substantial power amplification and is widely used in amplifier circuits.\n\nThe input is applied between the base and emitter, while the output is taken from the collector circuit.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_31",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Among the following analog circuits, consisting of two switches A and B, a lamp Y, and voltage source, which one functions as a NAND gate?",
+      "imageUrl": "images/P2018_23.png",
+      "diagramUrl": "images/P2018_23.png",
+      "options": [
+        "Parallel switches in series with lamp Y (OR gate)",
+        "Series switches in series with lamp Y (AND gate)",
+        "Series switches A and B connected in parallel across lamp Y",
+        "Parallel switches A and B connected in parallel across lamp Y (NOR gate)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A NAND gate produces a LOW output only when both inputs are HIGH.\n\nIn the given circuit, when both switches A and B are closed, the parallel path bypasses the lamp, causing the lamp to turn off.\n\nFor all other combinations, the lamp remains on.\n\nThus, the circuit behaves according to the NAND truth table.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_32",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": " A correct schematic symbol for a diode is",
+      "imageUrl": "images/P2018R2_32.png",
+      "diagramUrl": "images/P2018R2_32.png",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The standard schematic symbol for a semiconductor diode consists of a triangle pointing towards a vertical line. \n\nThe side with the flat base of the triangle is the Anode (positive side), and the side with the vertical line/bar is the Cathode (negative side).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_33",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": " In aviation technology, a logic gate is used to fit an automatic circuit to light up a display in an airplane if two toilets are in use. Which one of the following logic gates is used in designing a circuit?",
+      "options": [
+        "OR",
+        "NAND",
+        "NOT",
+        "AND"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An AND gate outputs a HIGH signal (1) only when BOTH input conditions are met (i.e., toilet 1 AND toilet 2 are both in use).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_34",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": " If A and B are the two inputs of an AND logic gate and Y is its output, which one of the following tables is its truth table?",
+      "imageUrl": "images/P2018R2_35.png",
+      "diagramUrl": "images/P2018R2_35.png",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An AND logic gate produces a HIGH output (1) if and only if all of its inputs are HIGH (1).\n\n For all other input combinations, the output is LOW (0). This corresponds to Table B.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_35",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": " Which of the following distinguishes between N-type and P-type semiconductors? In an N-type semiconductor,",
+      "options": [
+        "conduction is caused by the holes, whereas in a P-type semiconductor, conduction is caused by electrons.",
+        "group three element in the periodic table is added to an intrinsic semiconductor, whereas in a P-type, a group five element is added.",
+        "group five dopant provides extra electrons, whereas in a P-type semiconductor, a group three dopant creates holes.",
+        "the dopant has less number of valence electrons than the pure semiconductor, whereas in a P-type, the dopant has more number of valence electrons."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "N-type semiconductors are created by doping intrinsic semiconductors (Group IV) with pentavalent (Group V) impurities, providing free electrons.\n\n P-type semiconductors are created using trivalent (Group III) impurities, which create electron deficits (holes).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12u1_r1_melmeja_36",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": " If you doped silicon from group three atoms of periodic table like boron, what will be the resulting extrinsic semi-conductor material? The crystal as whole does not change, but the impurities provide",
+      "options": [
+        "spare electrons and the semiconductor becomes p-type semiconductor.",
+        "holes and the semiconductor becomes n-type semiconductor.",
+        "spare electrons and the semiconductor becomes n-type semiconductor.",
+        "holes and the semiconductor becomes p-type semiconductor."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Doping silicon (Group IV) with a Group III element like boron introduces electron deficiencies, which are called holes, resulting in a P-type (positive-type) semiconductor.",
+      "topic": "Physics"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+{
+  "question": "During collision between two objects, the impulse imparted on each object is equal to the",
+  "options": [
+    "net force acting on the object divided by the time for collision.",
+    "change in momentum of the object.",
+    "product of change in momentum and time for collision.",
+    "change of momentum of the object divided by the time for collision."
+  ],
+  "answer": 1,
+  "explanation": "Impulse is defined as the product of force and the time interval over which the force acts.\n\nAccording to the impulse-momentum theorem, impulse is equal to the change in momentum.\n\nTherefore, J = Δp."
+},
+{
+"question": "In an automobile that contains engine and fuel, chemical energy of the fuel is partially converted to kinetic energy of the automobile and partially to thermal energy. In this process, the",
+"options": [
+"energy of the automobile is not conserved because it does not exist persistently in chemical form.",
+"kinetic energy of the automobile is considered as a created energy because it appears in a new form.",
+"amount of energy converted to thermal energy is considered as destroyed because it decreases the efficiency of the automobile.",
+"energy of the automobile is conserved because it is not destroyed but converted to kinetic and thermal energies."
+],
+"answer": 3,
+"explanation": "The law of conservation of energy states that energy cannot be created or destroyed.\n\nIt can only be transformed from one form into another.\n\nIn an automobile, chemical energy stored in the fuel is transformed into kinetic energy, thermal energy, and other forms.\n\nTherefore, the total energy is conserved even though not all of it becomes useful kinetic energy."
+},
+{
+"question": "A block of mass 20.0 kg is placed on a horizontal surface. If the coefficient of kinetic friction between the block and the surface is 0.25, what horizontal force must be applied on the block to accelerate it uniformly with 3.0 m/s²?",
+"options": [
+"50 N",
+"60 N",
+"110 N",
+"10 N"
+],
+"answer": 2,
+"explanation": "The kinetic friction force is f_k = μ_kmg.\n\nUsing g = 10 m/s², f_k = 0.25 × 20 × 10 = 50 N.\n\nThe net force required to produce the acceleration is ma = 20 × 3 = 60 N.\n\nTherefore, the applied force must overcome friction and provide the net force: F = 50 + 60 = 110 N."
+},
+{
+"question": "A 0.3 kg ball moving with a velocity of 0.9 m/s along the positive x-axis collides with a 0.2 kg ball moving with a velocity of 1.2 m/s along the negative x-axis. What is the velocity of the center of mass of the two balls before collision?",
+"options": [
+"1.02 m/s along the negative x-axis",
+"0.06 m/s along the negative x-axis",
+"1.02 m/s along the positive x-axis",
+"0.06 m/s along the positive x-axis"
+],
+"answer": 3,
+"explanation": "The velocity of the center of mass is v_cm = (m₁v₁ + m₂v₂)/(m₁ + m₂).\n\nTaking the positive x-direction as positive, v₁ = +0.9 m/s and v₂ = -1.2 m/s.\n\nTherefore, v_cm = [(0.3)(0.9) + (0.2)(-1.2)]/(0.3 + 0.2).\n\nThis gives v_cm = (0.27 - 0.24)/0.5 = 0.06 m/s.\n\nThe positive sign means the center of mass moves along the positive x-axis."
+},
+{
+"question": "Static friction force is different from kinetic friction force in that, it",
+"options": [
+"is a friction force between two objects that are at rest relative to each other.",
+"has a maximum value which is often lower than the kinetic friction.",
+"is a friction force between two objects that are moving relative to each other.",
+"has higher value in smooth surfaces than in rough surfaces."
+],
+"answer": 0,
+"explanation": "Static friction acts between two surfaces that are at rest relative to each other and prevents the surfaces from beginning to slide.\n\nIts magnitude adjusts to oppose the applied force up to a maximum value.\n\nKinetic friction acts when the surfaces are already sliding relative to each other."
+},
+{
+"question": "A forklift truck applied a force of F⃗ = 30 N, East on an object and dragged it through a distance of 200 m along a horizontal frictionless surface in a time of 5 minutes. The average power output of the truck is",
+"options": [
+"1800 W",
+"1200 W",
+"20 W",
+"200 W"
+],
+"answer": 2,
+"explanation": "Work done is W = Fd because the force and displacement are in the same direction.\n\nTherefore, W = 30 × 200 = 6000 J.\n\nThe time is 5 minutes = 5 × 60 = 300 s.\n\nAverage power is P = W/t = 6000/300 = 20 W."
+},
+{
+"question": "A force F acts on an object of mass m and produces an angular displacement Δθ, and angular acceleration α in a time interval Δt. If the moment of inertia of the object about the axis of rotation is I, the magnitude of torque τ on the object is expressed as",
+"options": [
+"τ = I / α",
+"τ = m α",
+"τ = I α",
+"τ = F α"
+],
+"answer": 2,
+"explanation": "The rotational form of Newton's second law relates net torque to moment of inertia and angular acceleration.\n\nThe relationship is τ = Iα.\n\nHere, τ is torque, I is moment of inertia, and α is angular acceleration."
+}
+]

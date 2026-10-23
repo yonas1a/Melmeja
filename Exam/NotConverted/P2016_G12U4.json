@@ -1,0 +1,24 @@
+[
+{
+  "question": "16. A loop of $0.1 \\text{ m}$ wide in diameter is placed in $xy$-plane in uniform magnetic field of $0.6 \\text{ T}$ that is perpendicular to the plane of the loop. What is the net magnetic flux through the coil?",
+  "options": [
+    "5.6 \\times 10^{-2} Wb",
+    "1.9 \\times 10^{-2} Wb",
+    "9.4 \\times 10^{-3} Wb",
+    "4.7 \\times 10^{-3} Wb"
+  ],
+  "answer": 3,
+  "explanation": "Magnetic flux ($Phi_B$) is given by $\\Phi_B = B A \\cos\\theta$.\n\n1.  **Determine $\\cos\\theta$:** Since the magnetic field is **perpendicular to the plane of the loop**, it is parallel to the area vector ($\\mathbf{A}$), so $\\theta = 0^{\\circ}$ and $\\cos(0^{\\circ}) = 1$.\n\n2.  **Calculate Area ($A$):** Diameter $d = 0.1 \\text{ m}$, so radius $r = 0.05 \\text{ m}$.\n    $$A = \\pi r^2 = \\pi (0.05 \\text{ m})^2 = 0.0025\\pi \\text{ m}^2$$\n\n3.  **Calculate Flux ($Phi_B$):**\n    $$\\Phi_B = (0.6 \\text{ T}) \\times (0.0025\\pi \\text{ m}^2) \\times 1 \\approx 0.00471 \\text{ Wb} \\approx 4.7 \\times 10^{-3} \\text{ Wb}$$"
+},
+{
+"question": "18. A $12 \\text{ V}$ voltage source is connected across the primary coil of a transformer having $600 \\text{ turns}$. If the secondary coil of a transformer has $1000 \\text{ turns}$, what voltage appears across the secondary coil?",
+"options": [
+"7.2 V",
+"72.0 V",
+"20.0 V",
+"12.0 V"
+],
+"answer": 2,
+"explanation": "For an ideal transformer, the ratio of the voltages ($V$) equals the ratio of the number of turns ($N$): $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$.\n\n1.  **Substitute values:** $V_p = 12 \\text{ V}$, $N_p = 600$, $N_s = 1000$.\n2.  **Calculate $V_s$:**\n    $$V_s = V_p \\times \\frac{N_s}{N_p} = 12 \\text{ V} \\times \\frac{1000}{600} = 12 \\text{ V} \\times \\frac{5}{3} = 20 \\text{ V}$$"
+}
+]

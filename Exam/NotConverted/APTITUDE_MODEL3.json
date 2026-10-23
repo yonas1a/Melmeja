@@ -1,0 +1,1011 @@
+[
+  {
+    "question": "Choose the best completion: She was so ____ by the news that she couldn't speak.",
+    "options": [
+      "elated",
+      "stunned",
+      "joyful",
+      "cheerful"
+    ],
+    "answer": 1,
+    "explanation": "Stunned means shocked or unable to react."
+  },
+  {
+    "question": "Choose the correct synonym for: 'credible'.",
+    "options": [
+      "Believable",
+      "Doubtful",
+      "Suspicious",
+      "Fake"
+    ],
+    "answer": 0,
+    "explanation": "Credible means believable."
+  },
+  {
+    "question": "If f(x) = (3x - 2)/(x + 4), what is f⁻¹(1)?",
+    "options": ["6", "2", "-2", "0"],
+    "answer": 2,
+    "explanation": "Set (3x - 2)/(x + 4) = 1 → 3x - 2 = x + 4 → 2x = 6 → x = -2."
+  },
+
+
+  {
+    "question": "If (x−3)(x+5)=4, what is the sum of the solutions?",
+    "options": ["-2", "3", "1", "0"],
+    "answer": 0,
+    "explanation": "Expand: x²+2x−15=4 → x²+2x−19=0 → sum = -2/1 = -2."
+  },
+  {
+    "question": "Find the limit: lim(x→0) (sin(4x)/x).",
+    "options": ["4", "0", "1", "∞"],
+    "answer": 0,
+    "explanation": "sin(4x)/x = 4 · sin(4x)/(4x) → 4·1=4."
+  },
+
+
+  {
+    "question": "Solve: |3x − 5| = 7.",
+    "options": ["4, −2/3", "−4, 2/3", "2/3, 4", "No solution"],
+    "answer": 2,
+    "explanation": "3x−5=7 → x=4; 3x−5=−7 → x=−2/3."
+  },
+  {
+    "question": "If tan θ = 3/4, what is sin θ?",
+    "options": ["3/5", "4/5", "5/3", "3/4"],
+    "answer": 0,
+    "explanation": "Opp=3, Adj=4 → hyp=5 → sin=3/5."
+  },
+  {
+    "question": "Solve: x² − 12x + 35 = 0.",
+    "options": ["5 and 7", "6 and 6", "1 and 35", "7 and 12"],
+    "answer": 0,
+    "explanation": "(x−5)(x−7)=0."
+  },
+
+
+  {
+    "question": "Find the integral: ∫ (6x² − 2x) dx.",
+    "options": ["2x³ − x² + C", "3x³ − x² + C", "2x³ − 2x² + C", "x³ − x² + C"],
+    "answer": 0,
+    "explanation": "∫6x²=2x³, ∫−2x=−x²."
+  },
+  {
+    "question": "Find the derivative of y = ln(5x² − 1).",
+    "options": ["10x/(5x²−1)", "2/(5x²−1)", "1/(5x²−1)", "10/(x²−1)"],
+    "answer": 0,
+    "explanation": "Derivative of ln(u) = u'/u; u'=10x."
+  },
+  {
+    "question": "If 3^(2x−1) = 27, find x.",
+    "options": ["2", "3", "1", "1.5"],
+    "answer": 0,
+    "explanation": "27 = 3³ → 2x−1=3 → x=2."
+  },
+  {
+    "question": "Solve: √(2x + 3) = x − 1.",
+    "options": ["4", "3", "2", "No solution"],
+    "answer": 1,
+    "explanation": "Square both: 2x+3 = x² − 2x +1 → x² −4x −2 = 0 → x=2±√6; only x=3 satisfies."
+  },
+
+  {
+    "question": "Find the radius of a circle whose area is 64π.",
+    "options": ["4", "6", "8", "16"],
+    "answer": 2,
+    "explanation": "πr² = 64π → r²=64 → r=8."
+  },
+  {
+    "question": "Solve: log(2x)=3.",
+    "options": ["500", "1000", "200", "800"],
+    "answer": 2,
+    "explanation": "log(2x)=3→2x=1000→x=500."
+  },
+  {
+    "question": "Find the slope of the line perpendicular to 3x − 4y = 12.",
+    "options": ["4/3", "3/4", "-4/3", "-3/4"],
+    "answer": 0,
+    "explanation": "Original slope=3/4 → perpendicular slope=−4/3."
+  },
+  {
+    "question": "If a geometric sequence has first term 3 and ratio 4, find a₅.",
+    "options": ["768", "1024", "3072", "1536"],
+    "answer": 0,
+    "explanation": "a₅=3·4⁴=3·256=768."
+  },
+  {
+    "question": "If x + y = 10 and xy = 16, find x² + y².",
+    "options": ["52", "68", "40", "36"],
+    "answer": 0,
+    "explanation": "x²+y² = (x+y)² − 2xy = 100−32 = 68."
+  },
+
+
+  {
+    "question": "Find the discriminant of 4x² + 3x + 2 = 0.",
+    "options": ["−23", "23", "−7", "7"],
+    "answer": 2,
+    "explanation": "b² − 4ac = 9 − 32 = −23."
+  },
+  {
+    "question": "Find the limit: lim(x→∞) (5x³ − x)/(2x³ + 3).",
+    "options": ["5/2", "1/2", "0", "∞"],
+    "answer": 0,
+    "explanation": "Leading coefficients 5/2."
+  },
+  {
+    "question": "If a vector v has magnitude 5 and direction angle 60°, find vₓ.",
+    "options": ["2.5", "3", "3.5", "4"],
+    "answer": 1,
+    "explanation": "vₓ = 5cos60° = 2.5."
+  },
+  {
+    "question": "Solve: 1/x + 1/(x+2) = 3/4.",
+    "options": ["2", "1", "4", "0"],
+    "answer": 0,
+    "explanation": "Solve equations → x=2."
+  },
+  {
+    "question": "Evaluate: (2 + √3)(2 − √3).",
+    "options": ["1", "4", "3", "2"],
+    "answer": 0,
+    "explanation": "Difference of squares → 4−3=1."
+  },
+
+  {
+    "question": "Find sin(2θ) if sinθ=3/5 and θ is acute.",
+    "options": ["24/25", "6/5", "3/5", "4/5"],
+    "answer": 0,
+    "explanation": "cosθ=4/5 → sin(2θ)=2·3/5·4/5=24/25."
+  },
+  {
+    "question": "If log₅(x) = 2 + log₅(3), find x.",
+    "options": ["75", "125", "25", "15"],
+    "answer": 0,
+    "explanation": "x=5²·3=75."
+  },
+  {
+    "question": "If f(x)=x³, find f'(2).",
+    "options": ["6", "12", "8", "4"],
+    "answer": 1,
+    "explanation": "f'(x)=3x² → 3(4)=12."
+  },
+  {
+    "question": "Solve: 2^(2x−1) = 1/8.",
+    "options": ["−1", "0", "1", "2"],
+    "answer": 0,
+    "explanation": "1/8 = 2⁻³ → 2x−1=−3 → x=−1."
+  },
+
+  {
+    "question": "If f(x) = 3x² - 5x + 2, what is f'(x)?",
+    "options": [
+      "6x - 5",
+      "6x - 3",
+      "3x - 5",
+      "6x + 5"
+    ],
+    "answer": 0,
+    "explanation": "Differentiate: 3x² → 6x, -5x → -5."
+  },
+  {
+    "question": "Choose the synonym of: 'ELOQUENT'.",
+    "options": [
+      "Silent",
+      "Persuasive",
+      "Confusing",
+      "Dry"
+    ],
+    "answer": 1,
+    "explanation": "Eloquent means fluent and persuasive in speech."
+  },
+  {
+    "question": "Solve: (2⁵ × 2³) / 2²",
+    "options": [
+      "2⁶",
+      "2⁵",
+      "2⁴",
+      "2⁸"
+    ],
+    "answer": 0,
+    "explanation": "Add exponents when multiplying, subtract when dividing: 5+3−2 = 6."
+  },
+  {
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "He don't know the answer.",
+      "She and her friends is going to the market.",
+      "Neither of the plans works for me.",
+      "The team are winning the match."
+    ],
+    "answer": 2,
+    "explanation": "‘Neither’ takes a singular verb → works."
+  },
+  {
+    "question": "Simplify: √75",
+    "options": [
+      "5√3",
+      "3√5",
+      "15",
+      "√25 + √50"
+    ],
+    "answer": 0,
+    "explanation": "√75 = √(25×3) = 5√3."
+  },
+  {
+    "question": "Choose the antonym of: 'HOSTILE'.",
+    "options": [
+      "Friendly",
+      "Rough",
+      "Cruel",
+      "Aggressive"
+    ],
+    "answer": 0,
+    "explanation": "Hostile means unfriendly; opposite is friendly."
+  },
+  {
+    "question": "If log₂(x) = 5, then x = ?",
+    "options": [
+      "10",
+      "32",
+      "25",
+      "64"
+    ],
+    "answer": 1,
+    "explanation": "log₂(x)=5 → x = 2⁵ = 32."
+  },
+  {
+    "question": "Choose the best completion: Her argument was so ____ that nobody could challenge it.",
+    "options": [
+      "fragile",
+      "coherent",
+      "vague",
+      "redundant"
+    ],
+    "answer": 1,
+    "explanation": "Coherent means logical and well structured."
+  },
+
+  {
+    "question": "Choose the synonym of: 'AMBIGUOUS'.",
+    "options": [
+      "Clear",
+      "Uncertain",
+      "Exact",
+      "Simple"
+    ],
+    "answer": 1,
+    "explanation": "Ambiguous means unclear or having more than one meaning."
+  },
+  {
+    "question": "Find the value: (3/4) ÷ (9/16)",
+    "options": [
+      "4/3",
+      "1/3",
+      "2/3",
+      "3/2"
+    ],
+    "answer": 0,
+    "explanation": "(3/4) × (16/9) = 48/36 = 4/3."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Each of the boys are responsible.",
+      "The number of students is increasing.",
+      "There were many informations.",
+      "She didn't went to school."
+    ],
+    "answer": 1,
+    "explanation": "‘Number of students’ takes singular verb."
+  },
+  {
+    "question": "What is the discriminant of 2x² − 4x + 1 = 0?",
+    "options": [
+      "8",
+      "4",
+      "0",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "b² − 4ac = (−4)² − 4(2)(1) = 16 − 8 = 8. (correct answer is 8)."
+  },
+  {
+    "question": "Choose the antonym of: 'VIGILANT'.",
+    "options": [
+      "Alert",
+      "Watchful",
+      "Careless",
+      "Cautious"
+    ],
+    "answer": 2,
+    "explanation": "Vigilant means alert; opposite is careless."
+  },
+  {
+    "question": "Find the slope of the line passing through (2, 5) and (7, 20).",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "(20−5)/(7−2) = 15/5 = 3."
+  },
+  {
+    "question": "Choose the synonym for: 'SCARCITY'.",
+    "options": [
+      "Abundance",
+      "Shortage",
+      "Plenty",
+      "Overflow"
+    ],
+    "answer": 1,
+    "explanation": "Scarcity means shortage."
+  },
+  {
+    "question": "Evaluate: (5² − 3²) × 2",
+    "options": [
+      "16",
+      "28",
+      "32",
+      "40"
+    ],
+    "answer": 3,
+    "explanation": "25−9=16; 16×2=32 (correct answer = 32)."
+  },
+  {
+    "question": "Choose the correctly punctuated sentence.",
+    "options": [
+      "Yes I will help you.",
+      "She bought apples, oranges and, bananas.",
+      "He said, \"I am coming now.\"",
+      "Its raining heavily."
+    ],
+    "answer": 2,
+    "explanation": "Sentence 3 uses correct punctuation."
+  },
+  {
+    "question": "Find the determinant: | 2 3 ; 1 4 |",
+    "options": [
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Det = (2×4) − (3×1) = 8 − 3 = 5 (correct answer is 5)."
+  },
+  {
+    "question": "Choose the antonym of: 'BENEFICIAL'.",
+    "options": [
+      "Helpful",
+      "Useful",
+      "Harmful",
+      "Advantageous"
+    ],
+    "answer": 2,
+    "explanation": "Beneficial = helpful; opposite = harmful."
+  },
+  {
+    "question": "Solve for x: 4^(x+1) = 64",
+    "options": [
+      "x = 2",
+      "x = 3",
+      "x = 1",
+      "x = 4"
+    ],
+    "answer": 0,
+    "explanation": "64 = 4³ → x+1 = 3 → x = 2."
+  },
+  {
+    "question": "Choose the correct word: Her tone was so ____ that everyone felt insulted.",
+    "options": [
+      "courteous",
+      "sarcastic",
+      "humble",
+      "tactful"
+    ],
+    "answer": 1,
+    "explanation": "Sarcastic means mocking."
+  },
+
+  {
+    "question": "Choose the correct synonym: 'DORMANT'.",
+    "options": [
+      "Active",
+      "Sleeping",
+      "Working",
+      "Alert"
+    ],
+    "answer": 1,
+    "explanation": "Dormant means inactive or sleeping."
+  },
+  {
+    "question": "Solve: (x − 3)(x + 5) = 0",
+    "options": [
+      "x = 3 or −5",
+      "x = −3 or 5",
+      "x = −3 only",
+      "x = 3 only"
+    ],
+    "answer": 0,
+    "explanation": "Zero-product property gives x=3 or x=−5."
+  },
+  {
+    "question": "Choose the antonym of: 'INNOVATIVE'.",
+    "options": [
+      "Creative",
+      "Original",
+      "Conventional",
+      "Inventive"
+    ],
+    "answer": 2,
+    "explanation": "Conventional means traditional, opposite of innovative."
+  },
+  {
+    "question": "If sinθ = 1/2, what is θ in degrees?",
+    "options": [
+      "60°",
+      "30°",
+      "45°",
+      "90°"
+    ],
+    "answer": 1,
+    "explanation": "sin 30° = 1/2."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She insisted on going.",
+      "She insisted to go.",
+      "She insisted going.",
+      "She insisted for going."
+    ],
+    "answer": 0,
+    "explanation": "Correct collocation: insisted on + gerund."
+  },
+
+  {
+    "question": "Choose the synonym of: 'CONCISE'.",
+    "options": [
+      "Brief",
+      "Lengthy",
+      "Detailed",
+      "Confusing"
+    ],
+    "answer": 0,
+    "explanation": "Concise means short and clear."
+  },
+
+  {
+    "question": "Choose the antonym of: 'TRANSPARENT'.",
+    "options": [
+      "Clear",
+      "Obvious",
+      "Opaque",
+      "Visible"
+    ],
+    "answer": 2,
+    "explanation": "Opaque means not transparent."
+  },
+  {
+    "question": "ARCHITECT : BUILDING ::",
+    "options": [
+      "Mason : Wall",
+      "Sculptor : Statue",
+      "Doctor : Patient",
+      "Musician : Instrument"
+    ],
+    "answer": 1,
+    "explanation": "An ARCHITECT designs a BUILDING. A SCULPTOR designs (creates) a STATUE (Creator : Creation)."
+  },
+  {
+    "question": "SYMPHONY : COMPOSER ::",
+    "options": [
+      "Painting : Artist",
+      "Poem : Reader",
+      "Song : Singer",
+      "Pottery : Clay"
+    ],
+    "answer": 0,
+    "explanation": "A SYMPHONY is created by a COMPOSER. A PAINTING is created by an ARTIST (Product : Creator)."
+  },
+  {
+    "question": "MENDACIOUS (Choose the synonym):",
+    "options": [
+      "Honest",
+      "Truthful",
+      "Deceptive",
+      "Candid"
+    ],
+    "answer": 2,
+    "explanation": "MENDACIOUS means not telling the truth; lying, which is synonymous with 'Deceptive'."
+  },
+  {
+    "question": "OSTENSIBLE (Choose the antonym):",
+    "options": [
+      "Apparent",
+      "Evident",
+      "Genuine",
+      "Plausible"
+    ],
+    "answer": 2,
+    "explanation": "OSTENSIBLE means stated or appearing to be true, but not necessarily so (seeming); the opposite is 'Genuine' (real)."
+  },
+  {
+    "question": "The general was forced to ______ the city after his forces suffered heavy casualties.",
+    "options": [
+      "besiege",
+      "retaliate",
+      "abandon",
+      "reinforce"
+    ],
+    "answer": 2,
+    "explanation": "Suffering heavy casualties would force a general to **abandon** (withdraw from) the city."
+  },
+  {
+    "question": "If g(x) = x² - 3x, find the value of g(-2).",
+    "options": [
+      "10",
+      "2",
+      "-2",
+      "-10"
+    ],
+    "answer": 0,
+    "explanation": "g(-2) = (-2)² - 3(-2) = 4 - (-6) = 4 + 6 = 10."
+  },
+  {
+    "question": "The slope of a horizontal line is:",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "Undefined"
+    ],
+    "answer": 2,
+    "explanation": "A horizontal line has a constant y-value and thus a rise of 0, making the slope **0**."
+  },
+
+  {
+    "question": "The set of all possible outcomes of an experiment is called the ______.",
+    "options": [
+      "Event",
+      "Probability",
+      "Sample space",
+      "Outcome"
+    ],
+    "answer": 2,
+    "explanation": "The **sample space** is the set of all possible outcomes of a random experiment."
+  },
+
+  {
+    "question": "TIGER : CARNIVORE ::",
+    "options": [
+      "Cow : Herbivore",
+      "Bear : Omnivore",
+      "Rabbit : Rodent",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "TIGER is a type of CARNIVORE. COW is a HERBIVORE, and BEAR is an OMNIVORE. All options are correct classifications."
+  },
+  {
+    "question": "The team managed to pull off a victory through sheer ______ and determination.",
+    "options": [
+      "apathy",
+      "fortitude",
+      "complacency",
+      "indifference"
+    ],
+    "answer": 1,
+    "explanation": "Winning through determination requires great courage and resilience, or 'fortitude'."
+  },
+  {
+    "question": "A person who is skilled in the art of public speaking is a/an ______.",
+    "options": [
+      "Bibliophile",
+      "Orator",
+      "Cartographer",
+      "Agronomist"
+    ],
+    "answer": 1,
+    "explanation": "An **Orator** is a public speaker, especially one who is eloquent or skilled."
+  },
+  {
+    "question": "EXPLICIT (Choose the synonym):",
+    "options": [
+      "Vague",
+      "Ambiguous",
+      "Clear",
+      "Obscure"
+    ],
+    "answer": 2,
+    "explanation": "EXPLICIT means stated clearly and in detail, leaving no room for confusion or doubt, which is 'Clear'."
+  },
+  {
+    "question": "PLIANT (Choose the antonym):",
+    "options": [
+      "Flexible",
+      "Rigid",
+      "Bending",
+      "Supple"
+    ],
+    "answer": 1,
+    "explanation": "PLIANT means easily bent or flexible; the opposite is 'Rigid' (unable to bend)."
+  },
+  {
+    "question": "The explorer's notes were so ______ that it took weeks to translate his strange symbols.",
+    "options": [
+      "pellucid",
+      "decipherable",
+      "cryptic",
+      "transparent"
+    ],
+    "answer": 2,
+    "explanation": "Symbols that are strange and difficult to translate are 'cryptic' (having a meaning that is mysterious or obscure)."
+  },
+
+  {
+    "question": "NEEDLE : THREAD ::",
+    "options": [
+      "Pen : Ink",
+      "Eraser : Pencil",
+      "Car : Road",
+      "Scissors : Paper"
+    ],
+    "answer": 0,
+    "explanation": "A NEEDLE works with THREAD to achieve its purpose (sewing).\n\n A PEN works with INK to achieve its purpose (writing) (Tool : Consumable/Partner)."
+  },
+  {
+    "question": "His tendency to ______ every detail made the project unnecessarily long.",
+    "options": [
+      "streamline",
+      "expedite",
+      "quibble over",
+      "overlook"
+    ],
+    "answer": 2,
+    "explanation": "Making a project long by focusing on every detail means to 'quibble over' (argue about a trivial matter)."
+  },
+  {
+    "question": "SALIENT (Choose the synonym):",
+    "options": [
+      "Minor",
+      "Obscure",
+      "Prominent",
+      "Trivial"
+    ],
+    "answer": 2,
+    "explanation": "SALIENT means most noticeable or important, which is 'Prominent'."
+  },
+  {
+    "question": "MITIGATE (Choose the antonym):",
+    "options": [
+      "Lessen",
+      "Alleviate",
+      "Aggravate",
+      "Ease"
+    ],
+    "answer": 2,
+    "explanation": "MITIGATE means to make less severe, serious, or painful; the opposite is 'Aggravate' (make worse)."
+  },
+  {
+    "question": "The jury was unable to reach a verdict because they remained completely ______.",
+    "options": [
+      "unanimous",
+      "conciliatory",
+      "deadlocked",
+      "consensual"
+    ],
+    "answer": 2,
+    "explanation": "When a jury cannot reach a verdict, they are 'deadlocked' (a state where opponents are unable to reach an agreement)."
+  },
+
+  {
+    "question": "PISTON : CYLINDER ::",
+    "options": [
+      "Bullet : Gun",
+      "Wheel : Axle",
+      "Key : Lock",
+      "Ball : Game"
+    ],
+    "answer": 0,
+    "explanation": "A PISTON moves reciprocally inside a CYLINDER.\n\n A BULLET moves linearly through a GUN barrel (Object : Container/Passageway)."
+  },
+  {
+    "question": "Despite heavy rain, the farmer remained ______ about the success of his harvest.",
+    "options": [
+      "cynical",
+      "morose",
+      "sanguine",
+      "petulant"
+    ],
+    "answer": 2,
+    "explanation": "Remaining hopeful despite a difficulty suggests the farmer was 'sanguine' (optimistic or positive)."
+  },
+  {
+    "question": "EULOGY (Choose the synonym):",
+    "options": [
+      "Criticism",
+      "Praise",
+      "Insult",
+      "Slander"
+    ],
+    "answer": 1,
+    "explanation": "EULOGY means a speech or piece of writing that praises someone highly, especially one who has just died, which is 'Praise'."
+  },
+  {
+    "question": "TUMULTUOUS (Choose the antonym):",
+    "options": [
+      "Riotous",
+      "Loud",
+      "Calm",
+      "Violent"
+    ],
+    "answer": 2,
+    "explanation": "TUMULTUOUS means making a loud, confused noise; or excited, confused, or disorderly; the opposite is 'Calm'."
+  },
+  {
+    "question": "The committee's final report was full of ______ and meaningless jargon.",
+    "options": [
+      "precision",
+      "clarity",
+      "verbosity",
+      "conciseness"
+    ],
+    "answer": 2,
+    "explanation": "Jargon often contributes to being wordy or 'verbosity'."
+  },
+
+  {
+    "question": "The number of subsets of a set with 5 elements is:",
+    "options": [
+      "5",
+      "10",
+      "25",
+      "32"
+    ],
+    "answer": 3,
+    "explanation": "The number of subsets of a set with n elements is 2^n.\n 2^5 = 32."
+  },
+
+  {
+    "question": "The product of the roots of the quadratic equation ax² + bx + c = 0 is:",
+    "options": [
+      "b/a",
+      "-b/a",
+      "c/a",
+      "-c/a"
+    ],
+    "answer": 2,
+    "explanation": "The product of the roots is given by the formula c/a."
+  },
+
+  {
+    "question": "TEACHER : SCHOOL ::",
+    "options": [
+      "Farmer : Tractor",
+      "Pilot : Airplane",
+      "Doctor : Hospital",
+      "Judge : Law"
+    ],
+    "answer": 2,
+    "explanation": "A TEACHER works at a SCHOOL. A DOCTOR works at a HOSPITAL (Professional : Workplace)."
+  },
+  {
+    "question": "His decision to quit his job was entirely ______ and had no logical reasoning.",
+    "options": [
+      "prudent",
+      "rational",
+      "capricious",
+      "calculated"
+    ],
+    "answer": 2,
+    "explanation": "A decision without logical reasoning is impulsive or unpredictable, which is 'capricious'."
+  },
+  {
+    "question": "RECALCITRANT (Choose the synonym):",
+    "options": [
+      "Obedient",
+      "Compliant",
+      "Unruly",
+      "Submissive"
+    ],
+    "answer": 2,
+    "explanation": "RECALCITRANT means having an uncooperative attitude toward authority, which is 'Unruly'."
+  },
+  {
+    "question": "ENIGMATIC (Choose the antonym):",
+    "options": [
+      "Mysterious",
+      "Obscure",
+      "Straightforward",
+      "Puzzling"
+    ],
+    "answer": 2,
+    "explanation": "ENIGMATIC means difficult to interpret or understand; the opposite is 'Straightforward'."
+  },
+  {
+    "question": "A statement that is accepted as true without proof is a/an ______.",
+    "options": [
+      "Theorem",
+      "Conjecture",
+      "Axiom",
+      "Hypothesis"
+    ],
+    "answer": 2,
+    "explanation": "An Axiom (or postulate) is a statement or proposition that is regarded as being established, accepted, or self-evidently true."
+  },
+
+  {
+    "question": "If f(x) = 2x - 1, and f(a) = 9, then a is:",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "Set the function equal to 9: 2a - 1 = 9.\n\n 2a = 10. a = 5."
+  },
+
+  {
+    "question": "CHURCH : CONGREGATION ::",
+    "options": [
+      "Stadium : Audience",
+      "Classroom : Student",
+      "Jail : Prisoner",
+      "Library : Book"
+    ],
+    "answer": 0,
+    "explanation": "A CHURCH is a place where a CONGREGATION gathers. A STADIUM is a place where an AUDIENCE gathers (Place : Group of People)."
+  },
+  {
+    "question": "The novel was described as a ______ of literary genres, blending sci-fi with romance.",
+    "options": [
+      "fusion",
+      "dichotomy",
+      "separation",
+      "division"
+    ],
+    "answer": 0,
+    "explanation": "Blending different genres is a 'fusion' (the process or result of joining two or more things together to form a single entity)."
+  },
+  {
+    "question": "CAPITULATE (Choose the synonym):",
+    "options": [
+      "Resist",
+      "Surrender",
+      "Defy",
+      "Vanquish"
+    ],
+    "answer": 1,
+    "explanation": "CAPITULATE means to cease to resist an opponent or an unwelcome demand; to **surrender**."
+  },
+  {
+    "question": "PERSPICUOUS (Choose the antonym):",
+    "options": [
+      "Clear",
+      "Obscure",
+      "Transparent",
+      "Luminous"
+    ],
+    "answer": 1,
+    "explanation": "PERSPICUOUS means clearly expressed and easily understood; the opposite is 'Obscure'."
+  },
+  {
+    "question": "The doctor's diagnosis was a total ______ to the patient, who believed he only had a cold.",
+    "options": [
+      "antidote",
+      "prognosis",
+      "juncture",
+      "bombshell"
+    ],
+    "answer": 3,
+    "explanation": "An unexpected and shocking revelation is a 'bombshell'."
+  },
+
+
+  {
+    "question": "LEAD : PENCIL ::",
+    "options": [
+      "Rubber : Tire",
+      "Key : Typewriter",
+      "Paint : Brush",
+      "Wood : Chair"
+    ],
+    "answer": 2,
+    "explanation": "The 'LEAD' (graphite) is the marking agent applied by the PENCIL. PAINT is the coloring agent applied by the BRUSH (Agent : Tool)."
+  },
+  {
+    "question": "The sudden applause created a momentary ______ in the otherwise solemn ceremony.",
+    "options": [
+      "lull",
+      "breach",
+      "anomaly",
+      "protocol"
+    ],
+    "answer": 2,
+    "explanation": "Something that deviates from the normal order of a solemn ceremony is an 'anomaly'."
+  },
+  {
+    "question": "SOPORIFIC (Choose the synonym):",
+    "options": [
+      "Energizing",
+      "Sleep-inducing",
+      "Invigorating",
+      "Stimulating"
+    ],
+    "answer": 1,
+    "explanation": "SOPORIFIC means tending to induce drowsiness or sleep, which is 'Sleep-inducing'."
+  },
+  {
+    "question": "PRODIGIOUS (Choose the antonym):",
+    "options": [
+      "Enormous",
+      "Huge",
+      "Ordinary",
+      "Vast"
+    ],
+    "answer": 2,
+    "explanation": "PRODIGIOUS means remarkably or impressively great in extent, size, or degree; the opposite is 'Ordinary'."
+  },
+  {
+    "question": "A person who is primarily concerned with material comfort and luxury is a/an ______.",
+    "options": [
+      "Stoic",
+      "Ascetic",
+      "Hedonist",
+      "Epicurean"
+    ],
+    "answer": 3,
+    "explanation": "An **Epicurean** is devoted to sensual enjoyment, especially that derived from fine food and drink (often associated with material luxury)."
+  },
+
+  {
+    "question": "The number of ways 4 books can be arranged on a shelf is:",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "24"
+    ],
+    "answer": 3,
+    "explanation": "This is a factorial calculation: 4! = 4 * 3 * 2 * 1 = 24."
+  },
+
+  {
+    "question": "The area of a trapezoid with parallel sides a=5 and b=7 and height h=4 is:",
+    "options": [
+      "12",
+      "16",
+      "24",
+      "48"
+    ],
+    "answer": 2,
+    "explanation": "Area A = 1/2(a+b)h = 1/2(5+7)(4) = 1/2(12)(4) = 24."
+  },
+
+  {
+    "question": "AUTHOR : PEN ::",
+    "options": [
+      "Surgeon : Scalpel",
+      "Chef : Oven",
+      "Farmer : Soil",
+      "Teacher : Chalkboard"
+    ],
+    "answer": 0,
+    "explanation": "An AUTHOR uses a PEN as their primary writing tool.\n\n A SURGEON uses a SCALPEL as their primary cutting tool (Professional : Primary Tool)."
+  },
+  {
+    "question": "The government's secrecy surrounding the defense project only served to create more public ______.",
+    "options": [
+      "consensus",
+      "trust",
+      "speculation",
+      "compliance"
+    ],
+    "answer": 2,
+    "explanation": "Secrecy typically leads to guesses or 'speculation' from the public."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "type": "note",
+    "title": "UNIT 4: TRIGONOMETRIC FUNCTIONS",
+    "notes": "✓ Trigonometry → the study of relationships between angles and sides of triangles.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "4.1 ANGLES & STANDARD POSITION",
+    "notes": "✓ Angle → a measure of rotation of a ray about its vertex.\n\n◆ Initial side → the original position of the ray.\n\n◆ Terminal side → the final position after rotation.\n\n◆ Vertex → the point about which the ray rotates.\n\n✓ Positive angle → anticlockwise rotation.\n\n✓ Negative angle → clockwise rotation.\n\n✓ Angle in standard position → vertex at the origin and initial side on the positive x-axis.\n\nExample: 1125° = 3(360°) + 45°, so its terminal side is coterminal with 45°.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "DEGREE & RADIAN MEASURE",
+    "notes": "✓ Degree → 1/360 of one complete revolution.\n\n✓ Radian → the angle subtended at the center of a circle by an arc whose length equals the radius.\n\nFundamental relation:\n✓ π rad = 180°\n✓ 2π rad = 360°\n\nDegrees → radians:\n✓ θ(rad) = θ° × π/180°\n\nRadians → degrees:\n✓ θ° = θ(rad) × 180°/π\n\nExample: 120° = 120 × π/180 = 2π/3 rad.\n\nExample: 4π/3 rad = 4π/3 × 180°/π = 240°.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "ARC LENGTH & RADIAN FORMULA",
+    "notes": "For a circle of radius r, if an angle θ is measured in radians:\n\n✓ Arc length:\nl = rθ\n\n✓ Therefore:\nθ = l/r\n\n◆ r → radius\n◆ l → arc length\n◆ θ → central angle in radians.\n\nExample: If r = 5 cm and θ = 2 rad, then l = rθ = 5(2) = 10 cm.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "COTERMINAL ANGLES",
+    "notes": "✓ Coterminal angles → angles having the same initial side and the same terminal side.\n\nIn degrees:\n✓ θc = θ ± 360°n\n\nIn radians:\n✓ θc = θ ± 2πn\n\nwhere n is an integer.\n\nExample:\n30° + 360° = 390°\n30° − 360° = −330°\nTherefore, 390° and −330° are coterminal with 30°.\n\n✓ Coterminal angles have the same trigonometric values.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "BASIC TRIGONOMETRIC FUNCTIONS",
+    "notes": "For an acute angle θ in a right triangle:\n\n✓ sinθ = opposite/hypotenuse\n✓ cosθ = adjacent/hypotenuse\n✓ tanθ = opposite/adjacent\n\nReciprocal functions:\n✓ cscθ = 1/sinθ = hypotenuse/opposite\n✓ secθ = 1/cosθ = hypotenuse/adjacent\n✓ cotθ = 1/tanθ = adjacent/opposite\n\nExample: If opposite = 12, adjacent = 5 and hypotenuse = 13:\nsinθ = 12/13\ncosθ = 5/13\ntanθ = 12/5.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "UNIT CIRCLE & SPECIAL ANGLES",
+    "notes": "Important angles:\n◆ 0°, 30°, 45°, 60°, 90°, 180°, 270°, 360°\n\nRadian equivalents:\n◆ 0° = 0\n◆ 30° = π/6\n◆ 45° = π/4\n◆ 60° = π/3\n◆ 90° = π/2\n◆ 180° = π\n◆ 270° = 3π/2\n◆ 360° = 2π\n\nKey values:\n\nθ:       0°   30°   45°   60°   90°\nsinθ:    0    1/2   √2/2  √3/2   1\ncosθ:    1    √3/2  √2/2  1/2     0\ntanθ:    0    √3/3   1     √3      Undefined",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "SIGNS IN THE FOUR QUADRANTS",
+    "notes": "The signs of the main trigonometric functions are:\n\n◆ Quadrant I → sin +, cos +, tan +\n◆ Quadrant II → sin +, cos −, tan −\n◆ Quadrant III → sin −, cos −, tan +\n◆ Quadrant IV → sin −, cos +, tan −\n\nRemember:\n✓ Q I → all positive\n✓ Q II → sine positive\n✓ Q III → tangent positive\n✓ Q IV → cosine positive.\n\nExample: If sinθ > 0 and cosθ < 0, θ lies in Quadrant II.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "REFERENCE ANGLE",
+    "notes": "✓ Reference angle θR → the positive acute angle between the terminal side of an angle and the x-axis.\n\nFor a coterminal angle between 0° and 360°:\n\n◆ Q I: θR = θ\n◆ Q II: θR = 180° − θ\n◆ Q III: θR = θ − 180°\n◆ Q IV: θR = 360° − θ\n\nExample: θ = 245°\nθR = 245° − 180° = 65°.\n\n✓ The absolute values of trigonometric functions of an angle and its reference angle are equal; the sign is determined by the quadrant.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "COMPLEMENTARY & SUPPLEMENTARY ANGLES",
+    "notes": "✓ Complementary angles → angles whose sum is 90°.\n\nIf α + β = 90°:\n✓ sinα = cosβ\n✓ cosα = sinβ\n✓ tanα = cotβ\n\nExample:\nsin(90° − θ) = cosθ.\n\n✓ Supplementary angles → angles whose sum is 180°.\n\n✓ sin(180° − θ) = sinθ\n✓ cos(180° − θ) = −cosθ\n✓ tan(180° − θ) = −tanθ\n\nExample:\nsin150° = sin30° = 1/2.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TRIGONOMETRIC FUNCTIONS OF NEGATIVE ANGLES",
+    "notes": "For an angle θ in standard position:\n\n✓ sin(−θ) = −sinθ\n✓ cos(−θ) = cosθ\n✓ tan(−θ) = −tanθ\n\n✓ Sine and tangent are odd functions.\n✓ Cosine is an even function.\n\nExample:\nsin(−30°) = −1/2\ncos(−30°) = √3/2\ntan(−45°) = −1.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PERIODICITY",
+    "notes": "✓ A periodic function repeats its values at regular intervals.\n\nSine:\n✓ sin(θ + 2πn) = sinθ\n✓ Period = 2π or 360°\n✓ Domain = all real numbers\n✓ Range = [−1, 1]\n\nCosine:\n✓ cos(θ + 2πn) = cosθ\n✓ Period = 2π or 360°\n✓ Domain = all real numbers\n✓ Range = [−1, 1]\n\nTangent:\n✓ tan(θ + πn) = tanθ\n✓ Period = π or 180°\n✓ Domain excludes θ = (2n + 1)π/2\n✓ Range = all real numbers.\n\nExample:\nsin780° = sin(720° + 60°) = sin60° = √3/2.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "GRAPHS OF SIN, COS & TAN",
+    "notes": "y = sinθ → smooth wave between −1 and 1; period = 2π.\nKey points over one period:\n(0,0), (π/2,1), (π,0), (3π/2,−1), (2π,0).\n\n y = cosθ → smooth wave between −1 and 1; period = 2π.\nKey points:\n(0,1), (π/2,0), (π,−1), (3π/2,0), (2π,1).\n\n y = tanθ → repeating increasing curves; period = π.\nVertical asymptotes occur at:\nθ = (2n + 1)π/2.\n\n✓ For graphing, use θ in radians on the x-axis and the function value on the y-axis.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TRIGONOMETRIC IDENTITIES",
+    "notes": "Fundamental Pythagorean identities:\n\n✓ sin²θ + cos²θ = 1\n✓ 1 + tan²θ = sec²θ\n✓ 1 + cot²θ = csc²θ\n\nThese identities come from the Pythagorean theorem and the reciprocal definitions.\n\nExample:\nIf sinθ = −3/5 and θ is in Quadrant III:\ncos²θ = 1 − sin²θ\n= 1 − 9/25\n= 16/25\nSince cosine is negative in QIII:\ncosθ = −4/5.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "ADDITION & DOUBLE-ANGLE IDENTITIES",
+    "notes": "Addition identities:\n\n✓ sin(A + B) = sinA cosB + cosA sinB\n✓ sin(A − B) = sinA cosB − cosA sinB\n\n✓ cos(A + B) = cosA cosB − sinA sinB\n✓ cos(A − B) = cosA cosB + sinA sinB\n\nDouble-angle identities:\n\n✓ sin2θ = 2sinθ cosθ\n\n✓ cos2θ = cos²θ − sin²θ\n✓ cos2θ = 1 − 2sin²θ\n✓ cos2θ = 2cos²θ − 1\n\n✓ tan2θ = 2tanθ/(1 − tan²θ)\n\nExample:\nsin75° = sin(45° + 30°)\n= sin45°cos30° + cos45°sin30°\n= (√2/2)(√3/2) + (√2/2)(1/2)\n= (√6 + √2)/4.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "HALF-ANGLE IDENTITIES",
+    "notes": "Half-angle identities:\n\n✓ cos(θ/2) = ±√((1 + cosθ)/2)\n\n✓ sin(θ/2) = ±√((1 − cosθ)/2)\n\n✓ The sign depends on the quadrant of θ/2.\n\nExample:\ncos15° = cos(30°/2)\n= √((1 + cos30°)/2)\n= √((1 + √3/2)/2)\n= √(2 + √3)/2.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "SPECIAL RIGHT TRIANGLES",
+    "notes": "◆ 45°−45°−90° triangle:\nSide ratio = 1 : 1 : √2.\n\n◆ 30°−60°−90° triangle:\nSide ratio = 1 : √3 : 2.\n\nImportant values:\n\n✓ sin30° = 1/2\n✓ cos30° = √3/2\n✓ tan30° = √3/3\n\n✓ sin45° = √2/2\n✓ cos45° = √2/2\n✓ tan45° = 1\n\n✓ sin60° = √3/2\n✓ cos60° = 1/2\n✓ tan60° = √3.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "UNIT 4 QUICK FORMULA SHEET",
+    "notes": "✓ π rad = 180°\n✓ 2π rad = 360°\n✓ Degrees → radians: θ × π/180\n✓ Radians → degrees: θ × 180/π\n✓ Arc length: l = rθ\n\n✓ sinθ = opposite/hypotenuse\n✓ cosθ = adjacent/hypotenuse\n✓ tanθ = opposite/adjacent\n✓ cscθ = 1/sinθ\n✓ secθ = 1/cosθ\n✓ cotθ = 1/tanθ\n\n✓ sin²θ + cos²θ = 1\n✓ 1 + tan²θ = sec²θ\n✓ 1 + cot²θ = csc²θ\n\n✓ sin2θ = 2sinθcosθ\n✓ cos2θ = 1 − 2sin²θ = 2cos²θ − 1\n✓ tan2θ = 2tanθ/(1 − tan²θ)\n\n✓ sin(−θ) = −sinθ\n✓ cos(−θ) = cosθ\n✓ tan(−θ) = −tanθ\n\n✓ Sine/Cosine period = 2π\n✓ Tangent period = π.",
+    "image": null
+  }
+]

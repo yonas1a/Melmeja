@@ -1,0 +1,1381 @@
+[
+  {
+    "question": "Which of the following is a vector quantity in the study of motion in a straight line?",
+    "options": [
+      "Distance traveled.",
+      "Time interval.",
+      "Speed of an object.",
+      "Displacement of an object."
+    ],
+    "answer": 3,
+    "explanation": "A vector quantity has both magnitude and direction.\n\n Displacement is the change in position and includes direction, whereas distance, time, and speed are scalar quantities."
+  },
+  {
+    "question": "An object moves 50 meters East, then 50 meters West. What is the magnitude of its displacement?",
+    "options": [
+      "100 meters.",
+      "50 meters.",
+      "25 meters.",
+      "0 meters."
+    ],
+    "answer": 3,
+    "explanation": "Displacement is the straight-line distance from the initial position to the final position.\n\n Since the object returns to its starting point, the net displacement is 0 meters."
+  },
+  {
+    "question": "A car travels 300 km in 5 hours. What is its average speed in kilometers per hour (km/h)?",
+    "options": [
+      "50 km/h.",
+      "60 km/h.",
+      "75 km/h.",
+      "1500 km/h."
+    ],
+    "answer": 1,
+    "explanation": "Average speed is calculated as total distance divided by total time.\n\n-> Average speed = 300 km / 5 h = 60 km/h."
+  },
+  {
+    "question": "The slope of a position-time graph (x-t graph) represents which physical quantity?",
+    "options": [
+      "Displacement.",
+      "Acceleration.",
+      "Velocity.",
+      "Distance."
+    ],
+    "answer": 2,
+    "explanation": "The slope (rise over run) of an x-t graph is the change in position (displacement) divided by the change in time, which defines velocity."
+  },
+  {
+    "question": "A particle moves with a constant velocity of 10 m/s. What is its acceleration?",
+    "options": [
+      "10 m/s².",
+      "5 m/s².",
+      "1 m/s².",
+      "0 m/s²."
+    ],
+    "answer": 3,
+    "explanation": "Acceleration is the rate of change of velocity.\n\n->  If the velocity is constant, the change in velocity is zero, and therefore the acceleration is 0 m/s²."
+  },
+  {
+    "question": "An object accelerates uniformly from rest (v₀ = 0) at 4 m/s². What is its velocity after 5 seconds?",
+    "options": [
+      "20 m/s.",
+      "4 m/s.",
+      "1.25 m/s.",
+      "9 m/s."
+    ],
+    "answer": 0,
+    "explanation": "Using the kinematic equation v = v₀ + at: v = 0 + (4 m/s²)(5 s) = 20 m/s."
+  },
+  {
+    "question": "The area under a velocity-time graph (v-t graph) for a given time interval represents which quantity?",
+    "options": [
+      "Speed.",
+      "Acceleration.",
+      "Displacement.",
+      "Time."
+    ],
+    "answer": 2,
+    "explanation": "The area under a v-t graph is the product of velocity (v) and time (t), which, for motion in a straight line, represents the displacement (change in position)."
+  },
+  {
+    "question": "If an object's velocity is positive and its acceleration is negative, the object is:",
+    "options": [
+      "Moving in the positive direction and speeding up.",
+      "Moving in the negative direction and speeding up.",
+      "Moving in the positive direction and slowing down.",
+      "Moving in the negative direction and slowing down."
+    ],
+    "answer": 2,
+    "explanation": "Positive velocity means movement in the positive direction.\n\n-> Negative acceleration (opposite direction to velocity) means the object is slowing down (decelerating)."
+  },
+  {
+    "question": "A stone is dropped from a cliff. Neglecting air resistance, what is its acceleration 2 seconds after being released?",
+    "options": [
+      "0 m/s².",
+      "9.8 m/s² downwards.",
+      "4.9 m/s² downwards.",
+      "Depends on the mass of the stone."
+    ],
+    "answer": 1,
+    "explanation": "In free fall, the only force acting is gravity.\n The acceleration is constant and equal to the acceleration due to gravity, g, which is approximately 9.8 m/s² downwards."
+  },
+  {
+    "question": "The difference between average velocity and instantaneous velocity is that instantaneous velocity is the velocity:",
+    "options": [
+      "Over the entire path of motion.",
+      "At a specific moment in time.",
+      "Calculated from the total distance traveled.",
+      "Always equal to the average speed."
+    ],
+    "answer": 1,
+    "explanation": "Instantaneous velocity is the limit of the average velocity as the time interval approaches zero; it represents the velocity at a single point in time."
+  },
+  {
+    "question": "If a position-time graph is a horizontal straight line, the object's velocity is:",
+    "options": [
+      "Increasing.",
+      "Constant and positive.",
+      "Zero.",
+      "Constant and negative."
+    ],
+    "answer": 2,
+    "explanation": "A horizontal line on an x-t graph means the position (x) is not changing (zero slope).\n Therefore, the object is at rest, and its velocity is zero."
+  },
+  {
+    "question": "An airplane increases its speed from 100 m/s to 150 m/s in 10 seconds. What is its average acceleration?",
+    "options": [
+      "5 m/s².",
+      "15 m/s².",
+      "25 m/s².",
+      "50 m/s²."
+    ],
+    "answer": 0,
+    "explanation": "Average acceleration = change in velocity / time. a = (150 m/s - 100 m/s) / 10 s = 50 m/s / 10 s = 5 m/s²."
+  },
+  {
+    "question": "Which of the following defines uniform motion?",
+    "options": [
+      "Motion with constant speed.",
+      "Motion with constant acceleration.",
+      "Motion with constant velocity.",
+      "Motion where displacement is zero."
+    ],
+    "answer": 2,
+    "explanation": "Uniform motion means the object covers equal displacements in equal time intervals, which implies a constant velocity (zero acceleration)."
+  },
+  {
+    "question": "A ball is thrown vertically upwards with an initial velocity of 20 m/s. What is its velocity at the maximum height?",
+    "options": [
+      "9.8 m/s.",
+      "20 m/s.",
+      "0 m/s.",
+      "-9.8 m/s."
+    ],
+    "answer": 2,
+    "explanation": "At the peak of its trajectory (maximum height), the ball momentarily stops before starting its descent. Its instantaneous velocity is 0 m/s."
+  },
+  {
+    "question": "The unit of acceleration in the International System of Units (SI) is:",
+    "options": [
+      "m/s.",
+      "s/m.",
+      "m/s².",
+      "s² / m."
+    ],
+    "answer": 2,
+    "explanation": "Acceleration is the rate of change of velocity (m/s) per unit of time (s), giving the unit meters per second squared (m/s²)."
+  },
+  {
+    "question": "A train travels at 25 m/s. How far does it travel in 1 minute, assuming constant velocity?",
+    "options": [
+      "25 meters.",
+      "150 meters.",
+      "1500 meters.",
+      "2500 meters."
+    ],
+    "answer": 2,
+    "explanation": "Time must be converted to seconds: 1 minute = 60 s. Distance = velocity x time. x = (25 m/s)(60 s) = 1500 meters."
+  },
+  {
+    "question": "If an object's position-time graph is a parabola opening upwards, the object is undergoing:",
+    "options": [
+      "Zero acceleration.",
+      "Constant negative velocity.",
+      "Constant positive acceleration.",
+      "Decreasing positive acceleration."
+    ],
+    "answer": 2,
+    "explanation": "A parabolic x-t graph corresponds to motion with constant acceleration.\n\n Opening upwards means the acceleration (which is proportional to the second derivative) is positive, indicating constant positive acceleration."
+  },
+  {
+    "question": "A car moving at 20 m/s brakes and stops in 4 seconds. What is the magnitude of its acceleration (deceleration)?",
+    "options": [
+      "5 m/s².",
+      "4 m/s².",
+      "16 m/s².",
+      "80 m/s²."
+    ],
+    "answer": 0,
+    "explanation": "v = v₀ + at. 0 = 20 m/s + a(4 s). \na = -20 m/s / 4 s = -5 m/s².\n The magnitude is 5 m/s²."
+  },
+  {
+    "question": "The slope of a velocity-time graph (v-t graph) represents which physical quantity?",
+    "options": [
+      "Displacement.",
+      "Acceleration.",
+      "Position.",
+      "Distance."
+    ],
+    "answer": 1,
+    "explanation": "The slope of a v-t graph is the change in velocity divided by the change in time, which defines acceleration."
+  },
+  {
+    "question": "In a position-time graph, a steeper slope indicates:",
+    "options": [
+      "Greater distance traveled.",
+      "Faster speed (greater velocity magnitude).",
+      "Lower acceleration.",
+      "The object is at rest."
+    ],
+    "answer": 1,
+    "explanation": "Slope represents velocity. A steeper slope (larger magnitude of slope) means the object is changing its position more rapidly, indicating a faster speed."
+  },
+  {
+    "question": "A ball is thrown straight up. When is the magnitude of its acceleration the greatest, ignoring air resistance?",
+    "options": [
+      "Just after it is thrown.",
+      "At the highest point of its path.",
+      "Just before it is caught.",
+      "The acceleration magnitude is constant throughout the motion."
+    ],
+    "answer": 3,
+    "explanation": "In free fall, the acceleration is due to gravity (g = 9.8 m/s²) and is directed downwards.\n\n This value is constant at all points in the trajectory, including the moment it is thrown and the moment it peaks."
+  },
+  {
+    "question": "A car accelerates uniformly from 10 m/s to 30 m/s over a displacement of 80 meters. What is its acceleration?",
+    "options": [
+      "1 m/s².",
+      "5 m/s².",
+      "2.5 m/s².",
+      "3.5 m/s²."
+    ],
+    "answer": 2,
+    "explanation": "Use v² = v₀² + 2ax.\n (30)² = (10)² + 2a(80).\n 900 = 100 + 160a.\n 800 = 160a.\n a = 800/160 = 5 m/s²."
+  },
+  {
+    "question": "If an object travels at a constant velocity, its average velocity over any time interval will be:",
+    "options": [
+      "Greater than its instantaneous velocity.",
+      "Less than its instantaneous velocity.",
+      "Equal to its instantaneous velocity.",
+      "Zero."
+    ],
+    "answer": 2,
+    "explanation": "If the velocity is constant, the instantaneous velocity at any point is the same as the velocity over the entire interval.\n\n Thus, average velocity is equal to its instantaneous velocity."
+  },
+  {
+    "question": "A car starts from rest and travels 100 meters in 5 seconds with uniform acceleration. What is its acceleration?",
+    "options": [
+      "4 m/s².",
+      "8 m/s².",
+      "10 m/s².",
+      "20 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "Use x = v₀t + (1/2)at².\n 100 = 0(5) + (1/2)a(5)² = 12.5a. a = 100 / 12.5 = 8 m/s²."
+  },
+  {
+    "question": "An object's velocity-time graph is a straight line with a negative slope. This indicates:",
+    "options": [
+      "The object is moving in the negative direction.",
+      "The object is decelerating (slowing down).",
+      "The object is moving at constant velocity.",
+      "The object is moving at constant positive acceleration."
+    ],
+    "answer": 1,
+    "explanation": "A negative slope on a v-t graph means negative acceleration. \n\nIf the initial velocity was positive, negative acceleration means the object is decelerating (slowing down).\n\n (If the velocity was already negative, it would be speeding up)."
+  },
+  {
+    "question": "Which kinematic equation is most suitable for finding the final velocity (v) when initial velocity (v₀), acceleration (a), and displacement (x) are known, but time (t) is unknown?",
+    "options": [
+      "v = v₀ + at.",
+      "x = v₀t + (1/2)at².",
+      "v² = v₀² + 2ax.",
+      "x = (v + v₀)t / 2."
+    ],
+    "answer": 2,
+    "explanation": "The equation v² = v₀² + 2ax is the 'time-independent' kinematic equation, directly relating final velocity to the other three variables."
+  },
+  {
+    "question": "What is the total distance traveled by an object whose position-time graph has coordinates (t=0, x=0), (t=5s, x=10m), and (t=10s, x=0)?",
+    "options": [
+      "0 meters.",
+      "10 meters.",
+      "20 meters.",
+      "40 meters."
+    ],
+    "answer": 2,
+    "explanation": "Total distance is the path length. The object moves 10 m from 0 to 5s, and then 10 m from 10m back to 0m. Total distance = 10 m + 10 m = 20 meters."
+  },
+  {
+    "question": "A free-falling object is thrown downward with an initial speed of 5 m/s. After 2 seconds, what is its speed (g = 10 m/s²)?",
+    "options": [
+      "10 m/s.",
+      "15 m/s.",
+      "20 m/s.",
+      "25 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Use v = v₀ + gt.\n v = 5 m/s + (10 m/s²)(2 s) =\n 5 m/s + 20 m/s = 25 m/s."
+  },
+  {
+    "question": "If an object’s acceleration is 3 m/s², what does this mean about its motion?",
+    "options": [
+      "It travels 3 meters every second.",
+      "Its speed decreases by 3 m/s every second.",
+      "Its velocity changes by 3 m/s every second.",
+      "It takes 3 seconds to travel 1 meter."
+    ],
+    "answer": 2,
+    "explanation": "Acceleration is the rate of change of velocity.\n\n An acceleration of 3 m/s² means the object's velocity changes by 3 m/s every second."
+  },
+  {
+    "question": "The time it takes for an object thrown straight up to reach its maximum height is equal to the time it takes for the object to fall back from that height to the starting point, assuming no air resistance. This is due to:",
+    "options": [
+      "Constant velocity.",
+      "Conservation of momentum.",
+      "Constant acceleration (g).",
+      "Kinetic energy equaling zero at the peak."
+    ],
+    "answer": 2,
+    "explanation": "Because the acceleration (g) is constant and acts downwards throughout the entire motion (up and down), the symmetry of the path dictates equal times for the ascent and descent phases."
+  },
+  {
+    "question": "A runner completes one lap (400 m) around a circular track in 50 seconds. What is her average velocity?",
+    "options": [
+      "8.0 m/s.",
+      "4.0 m/s.",
+      "0 m/s.",
+      "8.0 m/s East."
+    ],
+    "answer": 2,
+    "explanation": "Average velocity = total displacement / total time. \n\nSince the runner ends up at the starting point, the net displacement is zero.\n Therefore, the average velocity is 0 m/s."
+  },
+  {
+    "question": "A velocity-time graph is a horizontal straight line at v = -5 m/s. This represents motion with:",
+    "options": [
+      "Constant negative acceleration.",
+      "Zero acceleration and negative velocity.",
+      "Increasing speed in the negative direction.",
+      "Positive acceleration."
+    ],
+    "answer": 1,
+    "explanation": "A horizontal line on a v-t graph has a zero slope, meaning zero acceleration.\n\n The velocity is constant and negative, indicating zero acceleration and negative velocity."
+  },
+  {
+    "question": "A truck accelerates from rest at 2 m/s². What is its displacement after 4 seconds?",
+    "options": [
+      "8 meters.",
+      "16 meters.",
+      "32 meters.",
+      "4 meters."
+    ],
+    "answer": 1,
+    "explanation": "Use x = v₀t + (1/2)at². \n\nx = 0(4) + (1/2)(2 m/s²)(4 s)² = 1(16) = 16 meters."
+  },
+  {
+    "question": "If a particle's acceleration-time graph is a straight line at a = 4 m/s², its motion is characterized by:",
+    "options": [
+      "Constant velocity.",
+      "Non-uniform acceleration.",
+      "Uniformly accelerated motion.",
+      "Zero velocity."
+    ],
+    "answer": 2,
+    "explanation": "A constant value on an a-t graph means the particle is undergoing motion with constant (uniform) acceleration."
+  },
+  {
+    "question": "A common definition of deceleration is:",
+    "options": [
+      "Negative velocity.",
+      "Positive acceleration.",
+      "Acceleration that is opposite in direction to the velocity.",
+      "Velocity that is opposite in direction to the displacement."
+    ],
+    "answer": 2,
+    "explanation": "Deceleration refers to the condition where the object is slowing down, which happens when the acceleration vector is directed opposite to the velocity vector."
+  },
+  {
+    "question": "The slope of the tangent line to a curve on a position-time graph gives the:",
+    "options": [
+      "Average velocity.",
+      "Average speed.",
+      "Instantaneous acceleration.",
+      "Instantaneous velocity."
+    ],
+    "answer": 3,
+    "explanation": "The instantaneous rate of change of position is represented by the slope of the tangent to the curve on an x-t graph, which is the instantaneous velocity."
+  },
+  {
+    "question": "An object in free fall dropped from a height (h) takes 4 seconds to reach the ground. From what height was it dropped (g = 10 m/s²)?",
+    "options": [
+      "20 meters.",
+      "40 meters.",
+      "80 meters.",
+      "160 meters."
+    ],
+    "answer": 2,
+    "explanation": "Use x = v₀t + (1/2)gt². x = 0 + (1/2)(10 m/s²)(4 s)² = 5(16) = 80 meters."
+  },
+  {
+    "question": "What is the maximum number of times an object moving with non-zero, constant acceleration can pass the same point?",
+    "options": [
+      "Zero.",
+      "One.",
+      "Two.",
+      "Infinite."
+    ],
+    "answer": 2,
+    "explanation": "An object with constant acceleration can only reverse direction once (when v=0).\n\n For example, a ball thrown up. It passes the starting point once on the way up and once on the way down. Thus, it can pass the same point a maximum of two times."
+  },
+  {
+    "question": "If the velocity of an object is proportional to the time squared (v = kt²), its acceleration is:",
+    "options": [
+      "Constant.",
+      "Zero.",
+      "Proportional to time (a = 2kt).",
+      "Proportional to position."
+    ],
+    "answer": 2,
+    "explanation": "Acceleration is the derivative (rate of change) of velocity with respect to time. If v = kt², then a = dv/dt = 2kt.\n The acceleration is proportional to time."
+  },
+  {
+    "question": "A particle moves with uniform acceleration. If its initial velocity is 10 m/s and its final velocity is 30 m/s, what is its average velocity for that time interval?",
+    "options": [
+      "10 m/s.",
+      "20 m/s.",
+      "30 m/s.",
+      "40 m/s."
+    ],
+    "answer": 1,
+    "explanation": "For uniform acceleration, the average velocity is the arithmetic mean of the initial and final velocities.\n\n Average v = (v₀ + v) / 2 = (10 m/s + 30 m/s) / 2 = 20 m/s."
+  },
+  {
+    "question": "Which of the following conditions is required for the application of the kinematic equations (v = v₀ + at, etc.)?",
+    "options": [
+      "The velocity must be zero.",
+      "The acceleration must be constant (uniform).",
+      "The motion must be in a curve.",
+      "The mass of the object must be known."
+    ],
+    "answer": 1,
+    "explanation": "The derivation of the standard kinematic equations is based entirely on the assumption of constant or uniform acceleration."
+  },
+  {
+    "question": "A racing car slows down from 80 m/s to 40 m/s over a distance of 60 meters. What is the magnitude of the deceleration?",
+    "options": [
+      "20 m/s².",
+      "40 m/s².",
+      "50 m/s².",
+      "80 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "Use v² = v₀² + 2ax. (40)² = (80)² + 2a(60). 1600 = 6400 + 120a. -4800 = 120a. a = -40 m/s². \nThe magnitude of the deceleration is 40 m/s²."
+  },
+  {
+    "question": "If a position-time graph shows a curve that is getting **less steep** as time increases, the object is:",
+    "options": [
+      "Accelerating.",
+      "Moving with zero velocity.",
+      "Slowing down (decelerating).",
+      "Moving at constant speed."
+    ],
+    "answer": 2,
+    "explanation": "The steepness (slope) represents speed. A decreasing slope means the velocity magnitude is decreasing, so the object is slowing down."
+  },
+  {
+    "question": "What is the meaning of a negative sign in a displacement value (e.g., -10 meters)?",
+    "options": [
+      "The object traveled a shorter distance.",
+      "The object is moving slower than average.",
+      "The object is moving opposite to the designated positive direction.",
+      "The object has stopped moving."
+    ],
+    "answer": 2,
+    "explanation": "In one-dimensional motion, a negative sign on a vector quantity (displacement, velocity, acceleration) indicates a direction opposite to the one defined as positive."
+  },
+  {
+    "question": "A body is thrown upwards. If air resistance is neglected, the time to reach maximum height is given by:",
+    "options": [
+      "t = v₀ / 2g.",
+      "t = 2v₀ / g.",
+      "t = v₀ / g.",
+      "t = square root (2h / g)."
+    ],
+    "answer": 2,
+    "explanation": "At maximum height, the final velocity (v) is 0.\n Using v = v₀ - gt: 0 = v₀ - gt, which rearranges to t = v₀ / g."
+  },
+  {
+    "question": "A velocity-time graph is a straight line passing through the origin with a positive slope. This indicates:",
+    "options": [
+      "Motion at rest.",
+      "Constant negative acceleration.",
+      "Constant positive acceleration, starting from rest.",
+      "Constant positive velocity."
+    ],
+    "answer": 2,
+    "explanation": "A straight line means constant acceleration (positive slope is positive acceleration).\n\n Passing through the origin (v=0 at t=0) means the object starts from rest with constant positive acceleration."
+  },
+  {
+    "question": "If a car's speedometer reads 60 km/h, this is a measure of its:",
+    "options": [
+      "Average velocity.",
+      "Average speed.",
+      "Instantaneous velocity.",
+      "Instantaneous speed."
+    ],
+    "answer": 3,
+    "explanation": "A speedometer shows the magnitude of the velocity at that precise moment, which is the instantaneous speed."
+  },
+  {
+    "question": "A bullet is shot vertically upward and returns to the ground. If the upward journey takes 5 seconds, how long does the entire flight take (no air resistance)?",
+    "options": [
+      "5 seconds.",
+      "10 seconds.",
+      "2.5 seconds.",
+      "25 seconds."
+    ],
+    "answer": 1,
+    "explanation": "Due to constant acceleration (g), the time for the upward flight equals the time for the downward flight. Total time = 5 s (up) + 5 s (down) = 10 seconds."
+  },
+  {
+    "question": "What is the value of the instantaneous acceleration at time t = 2s for an object whose velocity is given by v(t) = 5t² - 10t?",
+    "options": [
+      "5 m/s².",
+      "10 m/s².",
+      "20 m/s².",
+      "30 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "Acceleration is the derivative of velocity: a(t) = dv/dt = 10t - 10.\n\n->  At t = 2s, a(2) = 10(2) - 10 = 20 - 10 = 10 m/s²."
+  },
+  {
+    "question": "Which statement is true for an object that is speeding up?",
+    "options": [
+      "Its velocity and acceleration must have opposite signs.",
+      "Its velocity and acceleration must have the same sign.",
+      "Its acceleration must be increasing.",
+      "Its velocity must be decreasing."
+    ],
+    "answer": 1,
+    "explanation": "For an object to speed up, the acceleration must be in the same direction as the velocity, meaning its velocity and acceleration vectors must have the same sign."
+  },
+
+  {
+    "question": "On a velocity-time graph, a negative area under the curve indicates:",
+    "options": [
+      "Negative acceleration.",
+      "Negative instantaneous velocity.",
+      "Motion in the positive direction.",
+      "Negative displacement."
+    ],
+    "answer": 3,
+    "explanation": "Area under the v-t graph is displacement. If the velocity is negative, the object is moving in the negative direction, resulting in a negative displacement."
+  },
+  {
+    "question": "A particle moves from x = 10 m to x = 30 m in 5 seconds. Its initial velocity is 2 m/s. What is its acceleration?",
+    "options": [
+      "2.4 m/s².",
+      "3.2 m/s².",
+      "1.6 m/s².",
+      "2.0 m/s²."
+    ],
+    "answer": 0,
+    "explanation": "Displacement x = 30 - 10 = 20 m. Use x = v₀t + (1/2)at².\n\n 20 = (2)(5) + (1/2)a(5)². 20 = 10 + 12.5a. 10 = 12.5a.\n\n a = 10 / 12.5 = 0.8 m/s²."
+  },
+  {
+    "question": "The time of flight for a vertically launched object depends only on its initial velocity and:",
+    "options": [
+      "The initial height.",
+      "The final height.",
+      "The acceleration due to gravity (g).",
+      "The mass of the object."
+    ],
+    "answer": 2,
+    "explanation": "The time of flight (from launch to return) is given by T = 2v₀/g. \n\nIt depends on the initial velocity (v₀) and the acceleration due to gravity (g), neglecting air resistance."
+  },
+  {
+    "question": "If the slope of a position-time graph increases uniformly, the acceleration of the object is:",
+    "options": [
+      "Zero.",
+      "Constant and non-zero.",
+      "Increasing.",
+      "Decreasing."
+    ],
+    "answer": 1,
+    "explanation": "Increasing slope means increasing velocity. If the slope increases *uniformly*, the rate of change of the slope (acceleration) is **constant and non-zero**."
+  },
+  {
+    "question": "A rock is thrown straight down from a bridge with an initial velocity of 10 m/s. If it hits the water 2 seconds later, how high is the bridge (g = 10 m/s²)?",
+    "options": [
+      "10 meters.",
+      "20 meters.",
+      "30 meters.",
+      "40 meters."
+    ],
+    "answer": 2,
+    "explanation": "Use x = v₀t + (1/2)gt².\n x = (10 m/s)(2 s) + (1/2)(10 m/s²)(2 s)² = \n\n20 m + 5(4) m = 20 m + 20 m = 40 meters."
+  },
+  {
+    "question": "In the equation x = v₀t + (1/2)at², the term 'x' represents:",
+    "options": [
+      "Initial position.",
+      "Final position.",
+      "Average displacement.",
+      "Displacement (change in position)."
+    ],
+    "answer": 3,
+    "explanation": "In this kinematic equation, 'x' is the displacement of the object from its starting point (x₀) after time 't'."
+  },
+  {
+    "question": "An object's velocity changes from -20 m/s to -30 m/s in 5 seconds. Its acceleration is:",
+    "options": [
+      "-2 m/s².",
+      "2 m/s².",
+      "-10 m/s².",
+      "10 m/s²."
+    ],
+    "answer": 0,
+    "explanation": "a = (v - v₀) / t = (-30 m/s - (-20 m/s)) / 5 s =\n\n -10 m/s / 5 s = -2 m/s²."
+  },
+  {
+    "question": "The slope of an acceleration-time graph (a-t graph) represents the rate of change of acceleration, known as:",
+    "options": [
+      "Speed.",
+      "Jerk.",
+      "Momentum.",
+      "Work."
+    ],
+    "answer": 1,
+    "explanation": "The rate of change of acceleration is a specific physical quantity known as Jerk (J = da/dt)."
+  },
+  {
+    "question": "Which of the following statements is TRUE for an object undergoing uniform acceleration?",
+    "options": [
+      "Its speed is constant.",
+      "Its position changes linearly with time.",
+      "Its average velocity equals its instantaneous velocity.",
+      "Its velocity changes linearly with time."
+    ],
+    "answer": 3,
+    "explanation": "Uniform acceleration means the velocity changes by the same amount in every equal time interval.\n\n This means the graph of velocity versus time is a straight line, and the velocity changes linearly with time (v = v₀ + at)."
+  },
+  {
+    "question": "A cyclist travels 100 meters north in 10 seconds and then 100 meters south in 10 seconds. The average speed for the entire trip is:",
+    "options": [
+      "0 m/s.",
+      "5 m/s.",
+      "10 m/s.",
+      "20 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Average speed = Total distance / Total time.\n Total distance = 100 m + 100 m = 200 m.\n Total time = 10 s + 10 s = 20 s.\n\n Average speed = 200 m / 20 s = 10 m/s."
+  },
+  {
+    "question": "The time taken for a projectile launched vertically upward to reach a height of 10 meters is 1 second (g = 10 m/s²). What was the initial launch velocity?",
+    "options": [
+      "5 m/s.",
+      "10 m/s.",
+      "15 m/s.",
+      "20 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Use x = v₀t + (1/2)at².\n 10 = v₀(1) + (1/2)(-10)(1)².\n 10 = v₀ - 5. v₀ = 10 + 5 = 15 m/s."
+  },
+  {
+    "question": "If a position-time graph shows an object starting at a positive position, the motion is:",
+    "options": [
+      "Always towards the origin.",
+      "Always away from the origin.",
+      "Determined by the slope, not the intercept.",
+      "Always with constant velocity."
+    ],
+    "answer": 2,
+    "explanation": "The starting position (intercept) is independent of the motion (slope). \nThe direction and nature of the motion are determined by the slope of the graph (velocity)."
+  },
+  {
+    "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 4 seconds. How far does it travel in this time?",
+    "options": [
+      "40 meters.",
+      "60 meters.",
+      "80 meters.",
+      "100 meters."
+    ],
+    "answer": 1,
+    "explanation": "Use x = (v + v₀)t / 2. \nx = (30 m/s + 10 m/s)(4 s) / 2 =\n (40)(4) / 2 =\n 160 / 2 = 80 meters."
+  },
+  {
+    "question": "An object's velocity is given by v = -2 + 4t. At what time does the object change its direction of motion?",
+    "options": [
+      "t = 0.5 seconds.",
+      "t = 2.0 seconds.",
+      "t = 4.0 seconds.",
+      "It never changes direction."
+    ],
+    "answer": 0,
+    "explanation": "An object changes direction when its velocity momentarily becomes zero.\n Set v = 0: 0 = -2 + 4t. 4t = 2. t = 2/4 = 0.5 seconds."
+  },
+  {
+    "question": "A free-falling object has a velocity of -15 m/s. One second later, its velocity is (g = 10 m/s²):",
+    "options": [
+      "-5 m/s.",
+      "-15 m/s.",
+      "-25 m/s.",
+      "5 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Use v = v₀ + at. (We take down as negative, so a = -g = -10 m/s²).\n\n v = -15 m/s + (-10 m/s²)(1 s) = -15 m/s - 10 m/s = -25 m/s."
+  },
+  {
+    "question": "The term instantaneous acceleration refers to the acceleration:",
+    "options": [
+      "Over a large time interval.",
+      "When the velocity is zero.",
+      "At a specific point in time.",
+      "Equal to the change in displacement divided by time."
+    ],
+    "answer": 2,
+    "explanation": "Instantaneous acceleration is the limiting value of the average acceleration as the time interval approaches zero; \n\n-> it describes the rate of velocity change at a specific moment in time."
+  },
+  {
+    "question": "If a particle moves with constant speed but its velocity is changing, its motion is necessarily:",
+    "options": [
+      "Uniform.",
+      "Linear.",
+      "Non-linear (curved path).",
+      "In free fall."
+    ],
+    "answer": 2,
+    "explanation": "Velocity is a vector. If its magnitude (speed) is constant but its direction is changing, the velocity is changing, which means the path cannot be a straight line (linear).\n It must be a non-linear (curved) path."
+  },
+  {
+    "question": "A train slows from 20 m/s to a stop with an acceleration of -4 m/s². How long does it take to stop?",
+    "options": [
+      "4 seconds.",
+      "5 seconds.",
+      "10 seconds.",
+      "80 seconds."
+    ],
+    "answer": 1,
+    "explanation": "Use v = v₀ + at.\n 0 = 20 m/s + (-4 m/s²)t.\n 4t = 20. \nt = 20 / 4 = 5 seconds."
+  },
+  {
+    "question": "The ratio of an object's total distance traveled to the total time elapsed is the:",
+    "options": [
+      "Instantaneous velocity.",
+      "Average velocity.",
+      "Instantaneous speed.",
+      "Average speed."
+    ],
+    "answer": 3,
+    "explanation": "This is the definition of average speed: total distance divided by the total time taken."
+  },
+  {
+    "question": "An object's velocity-time graph is a downward-sloping straight line that crosses the time axis. At the point it crosses the axis, the object has:",
+    "options": [
+      "Maximum positive velocity.",
+      "Maximum negative velocity.",
+      "Zero speed and maximum acceleration magnitude.",
+      "Zero speed and constant acceleration."
+    ],
+    "answer": 3,
+    "explanation": "Crossing the time axis (v=0) means zero speed. Since the line is straight, the acceleration (slope) is constant.\n\n Thus, it has zero speed and constant acceleration."
+  },
+  {
+    "question": "If an object is thrown vertically upwards with initial velocity v₀, what is the total vertical distance traveled when it returns to the launch point?",
+    "options": [
+      "0.",
+      "v₀² / 2g.",
+      "v₀² / g.",
+      "2v₀² / g."
+    ],
+    "answer": 2,
+    "explanation": "The maximum height reached is h = v₀² / 2g. The total distance traveled is twice the maximum height.\n\n Total Distance = 2 * (v₀² / 2g) =\n v₀² / g."
+  },
+  {
+    "question": "A position-time graph consists of two segments: a steep positive slope followed by a less steep positive slope. This indicates:",
+    "options": [
+      "Constant acceleration followed by deceleration.",
+      "Speeding up then slowing down, but always moving forward.",
+      "Stopping then moving backward.",
+      "Moving backward then moving forward."
+    ],
+    "answer": 1,
+    "explanation": "Both slopes are positive, meaning the object is always moving in the positive direction.\n\n A steep slope (fast speed) followed by a less steep slope (slower speed) means the object is speeding up then slowing down."
+  },
+  {
+    "question": "An object starts from rest and moves for 10 seconds with an acceleration of 2 m/s². The distance traveled in the **10th second only** is:",
+    "options": [
+      "19 meters.",
+      "20 meters.",
+      "22 meters.",
+      "100 meters."
+    ],
+    "answer": 0,
+    "explanation": "Distance in the n-th second = (Distance in 10s) - (Distance in 9s). x(10) =\n (1/2)(2)(10)² = 100 m. x(9) = (1/2)(2)(9)² = 81 m.\n Distance in 10th second = 100 m - 81 m = 19 meters."
+  },
+
+  {
+    "question": "The time required for an object dropped from rest to reach a velocity of 30 m/s is (g = 10 m/s²):",
+    "options": [
+      "1.5 seconds.",
+      "3.0 seconds.",
+      "6.0 seconds.",
+      "30 seconds."
+    ],
+    "answer": 1,
+    "explanation": "Use v = v₀ + gt. 30 m/s = 0 + (10 m/s²)t.\n t = 30 / 10 = 3.0 seconds."
+  },
+  {
+    "question": "If the equation of motion is x(t) = 3t² - 5t + 2, the initial position (x₀) of the object is:",
+    "options": [
+      "3 meters.",
+      "-5 meters.",
+      "2 meters.",
+      "0 meters."
+    ],
+    "answer": 2,
+    "explanation": "The initial position is the position at t = 0. x(0) = 3(0)² - 5(0) + 2 = 2 meters."
+  },
+  {
+    "question": "An object starts from rest and reaches a speed of 10 m/s. It then travels at this constant speed for 5 seconds. The total displacement is represented by the sum of the areas of a triangle and a rectangle on which graph?",
+    "options": [
+      "Position-time graph.",
+      "Acceleration-time graph.",
+      "Velocity-time graph.",
+      "Jerk-time graph."
+    ],
+    "answer": 2,
+    "explanation": "Displacement is the area under the curve of a Velocity-time graph.\n The accelerating phase is a triangle, and the constant velocity phase is a rectangle."
+  },
+  {
+    "question": "If an object's position is given by x = 5t, the object's average velocity over any time interval is:",
+    "options": [
+      "5 m/s.",
+      "5t m/s.",
+      "10t m/s.",
+      "Zero."
+    ],
+    "answer": 0,
+    "explanation": "The velocity is the derivative of position: v = dx/dt = 5 m/s. Since the velocity is constant (5 m/s), the average velocity is also 5 m/s."
+  },
+  {
+    "question": "A rocket launching vertically starts from rest and achieves a speed of 100 m/s after traveling 500 meters. What is the magnitude of its acceleration?",
+    "options": [
+      "5 m/s².",
+      "10 m/s².",
+      "20 m/s².",
+      "50 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "Use v² = v₀² + 2ax.\n (100)² = 0² + 2a(500).\n 10000 = 1000a.\n a = 10000 / 1000 = 10 m/s²."
+  },
+  {
+    "question": "Which of the following describes the relationship between distance and the magnitude of displacement in one-dimensional motion?",
+    "options": [
+      "Distance is always less than displacement.",
+      "Distance is always greater than displacement.",
+      "Distance is always equal to the magnitude of displacement.",
+      "Distance is greater than or equal to the magnitude of displacement."
+    ],
+    "answer": 3,
+    "explanation": "Distance is the total path length. Displacement is the straight-line change in position.\n In all cases, the distance traveled is greater than or equal to the magnitude of the displacement (equal only if there is no change in direction)."
+  },
+  {
+    "question": "The time it takes for an object thrown straight up to return to its initial height is known as the:",
+    "options": [
+      "Time of ascent.",
+      "Time of flight.",
+      "Hang time.",
+      "Time of reversal."
+    ],
+    "answer": 1,
+    "explanation": "The total duration an object spends in the air, from launch until it returns to the original height, is called the Time of flight."
+  },
+  {
+    "question": "If the slope of a position-time graph is negative and constant, the object is moving:",
+    "options": [
+      "In the positive direction and speeding up.",
+      "In the negative direction with constant speed.",
+      "In the negative direction and slowing down.",
+      "With zero velocity."
+    ],
+    "answer": 1,
+    "explanation": "Negative slope means negative velocity (moving in the negative direction). \n\nConstant slope means constant velocity (constant speed). Thus, the object is moving in the negative direction with constant speed."
+  },
+  {
+    "question": "A particle’s velocity-time graph is a line segment from (0, 0) to (5s, 10 m/s). What is the total distance traveled?",
+    "options": [
+      "5 meters.",
+      "10 meters.",
+      "25 meters.",
+      "50 meters."
+    ],
+    "answer": 2,
+    "explanation": "Distance is the area of the triangle under the v-t graph.\n\n Area = (1/2) * base * height = (1/2) * 5 s * 10 m/s = 25 meters."
+  },
+  {
+    "question": "The acceleration due to gravity (g) near the Earth’s surface is approximately:",
+    "options": [
+      "1.6 m/s².",
+      "4.9 m/s².",
+      "9.8 m/s².",
+      "19.6 m/s²."
+    ],
+    "answer": 2,
+    "explanation": "The standard accepted value for the acceleration due to gravity (g) is approximately 9.8 m/s²."
+  },
+  {
+    "question": "A bus slows from 20 m/s to 10 m/s in 5 seconds. What is the distance covered during this time interval?",
+    "options": [
+      "25 meters.",
+      "50 meters.",
+      "75 meters.",
+      "100 meters."
+    ],
+    "answer": 2,
+    "explanation": "Use x = (v + v₀)t / 2.\n x = (20 m/s + 10 m/s)(5 s) / 2 =\n (30)(5) / 2 = \n150 / 2 = 75 meters."
+  },
+  {
+    "question": "If a particle's motion is described by the equation x = 5t³, its instantaneous velocity at t = 2s is:",
+    "options": [
+      "15 m/s.",
+      "30 m/s.",
+      "60 m/s.",
+      "120 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Velocity is the derivative of position: v(t) = dx/dt = 15t².\n At t = 2s, v(2) = 15(2)² =\n 15(4) = 60 m/s."
+  },
+  {
+    "question": "When an object is thrown straight up, the direction of its acceleration on the way up is:",
+    "options": [
+      "Upward.",
+      "Downward.",
+      "Zero.",
+      "Changing."
+    ],
+    "answer": 1,
+    "explanation": "The acceleration is always due to gravity, which is directed **downward** throughout the entire flight (up and down), assuming negligible air resistance."
+  },
+
+  {
+    "question": "If an object moves such that its distance is always equal to the magnitude of its displacement, it must be moving:",
+    "options": [
+      "At a constant speed.",
+      "At a constant velocity.",
+      "Without changing direction.",
+      "With zero acceleration."
+    ],
+    "answer": 2,
+    "explanation": "Distance equals the magnitude of displacement only if the object travels along a straight line without changing its direction."
+  },
+  {
+    "question": "A rock is dropped from a cliff. The ratio of its velocity at t=1s to its velocity at t=3s is:",
+    "options": [
+      "1:3.",
+      "3:1.",
+      "1:9.",
+      "1:square root of 3."
+    ],
+    "answer": 0,
+    "explanation": "Velocity in free fall is v = gt. The ratio is v₁/v₃ = (g*1s) / (g*3s) = 1:3."
+  },
+  {
+    "question": "In a position-time graph, what indicates that the object has momentarily stopped and reversed its direction?",
+    "options": [
+      "A horizontal line.",
+      "A straight line with negative slope.",
+      "The point where the slope of the curve becomes zero.",
+      "The point where the graph crosses the time axis."
+    ],
+    "answer": 2,
+    "explanation": "Stopping means zero velocity (slope=0). \nReversing means the slope changes from positive to negative (or vice-versa).\n Both conditions are met at the point where the slope of the curve becomes zero (a peak or valley)."
+  },
+  {
+    "question": "A runner accelerates from 5 m/s to 10 m/s in 2 seconds. The displacement during this acceleration is:",
+    "options": [
+      "10 meters.",
+      "15 meters.",
+      "20 meters.",
+      "30 meters."
+    ],
+    "answer": 1,
+    "explanation": "Use x = (v + v₀)t / 2. \nx = (10 m/s + 5 m/s)(2 s) / 2 =\n (15)(2) / 2 = 15 meters."
+  },
+  {
+    "question": "If an object's acceleration is given by a(t) = 6t, what is the nature of its motion?",
+    "options": [
+      "Uniform velocity.",
+      "Uniform acceleration.",
+      "Non-uniformly accelerated motion.",
+      "Motion with constant jerk."
+    ],
+    "answer": 2,
+    "explanation": "Since the acceleration is changing with time (a depends on t), the motion is classified as non-uniformly accelerated motion."
+  },
+  {
+    "question": "For a horizontally thrown object, which of the following is not a vector quantity?",
+    "options": [
+      "Velocity.",
+      "Momentum.",
+      "Kinetic Energy.",
+      "Acceleration."
+    ],
+    "answer": 2,
+    "explanation": "Velocity, momentum, and acceleration are all vector quantities.\n\n Kinetic Energy (KE) is a scalar quantity, defined only by magnitude (KE = 1/2mv²)."
+  },
+  {
+    "question": "A particle moves with an initial velocity of 4 m/s and constant acceleration. Its velocity increases to 10 m/s after 2 seconds. Its acceleration is:",
+    "options": [
+      "2 m/s².",
+      "3 m/s².",
+      "5 m/s².",
+      "6 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "a = (v - v₀) / t =\n (10 m/s - 4 m/s) / 2 s \n= 6 m/s / 2 s = 3 m/s²."
+  },
+  {
+    "question": "What is the physical meaning of the statement: 'The velocity of a particle is constant'?",
+    "options": [
+      "Its speed is zero.",
+      "Its acceleration is zero.",
+      "It is in a state of free fall.",
+      "It is changing its direction of motion."
+    ],
+    "answer": 1,
+    "explanation": "Constant velocity means the rate of change of velocity is zero, which means the acceleration is zero."
+  },
+  {
+    "question": "An object in free fall (from rest) travels a distance 'x' in time 't'. How far does it travel in time '2t'?",
+    "options": [
+      "x.",
+      "2x.",
+      "3x.",
+      "4x."
+    ],
+    "answer": 3,
+    "explanation": "Distance is proportional to time squared (x = (1/2)gt²). \n\nIf the time is doubled (2t), the distance becomes (2t)² = 4t².\n\n Thus, the distance is 4x."
+  },
+  {
+    "question": "If a position-time graph has a positive slope that remains constant, which of the following is true?",
+    "options": [
+      "a > 0.",
+      "a < 0.",
+      "v > 0 and a = 0.",
+      "v < 0 and a = 0."
+    ],
+    "answer": 2,
+    "explanation": "Positive slope means positive velocity (v > 0).\n Constant slope means zero acceleration (a = 0).\n Thus, v > 0 and a = 0."
+  },
+  {
+    "question": "A projectile is thrown upwards with v₀. What is the time required to reach a height of h, given the kinematic equation h = v₀t - (1/2)gt²?",
+    "options": [
+      "A linear function of h.",
+      "A constant value.",
+      "Given by a quadratic equation (two possible times).",
+      "Always equal to 2h/v₀."
+    ],
+    "answer": 2,
+    "explanation": "The equation is a quadratic in 't'. \nSince the projectile passes through height 'h' once on the way up and once on the way down, there are generally two possible times (roots) for any height less than the maximum height."
+  },
+  {
+    "question": "The slope of the line connecting two points on a curved position-time graph represents the:",
+    "options": [
+      "Instantaneous velocity at the start point.",
+      "Instantaneous velocity at the endpoint.",
+      "Average velocity between the two points.",
+      "Average acceleration between the two points."
+    ],
+    "answer": 2,
+    "explanation": "The line connecting two points is a secant line. \nIts slope (change in x / change in t) represents the average velocity over that interval."
+  },
+  {
+    "question": "A truck's acceleration is -3 m/s². If its initial velocity is -15 m/s, the truck is:",
+    "options": [
+      "Slowing down.",
+      "Speeding up.",
+      "Maintaining constant velocity.",
+      "Moving in the positive direction."
+    ],
+    "answer": 1,
+    "explanation": "Both velocity and acceleration are negative (pointing in the same, negative direction). \nWhen velocity and acceleration have the same sign, the object is speeding up."
+  },
+  {
+    "question": "If a particle's position is x(t) = 4t + 5, what is its acceleration?",
+    "options": [
+      "4 m/s².",
+      "5 m/s².",
+      "4t m/s².",
+      "0 m/s²."
+    ],
+    "answer": 3,
+    "explanation": "Velocity v(t) = dx/dt = 4. Acceleration a(t) = dv/dt = 0. The acceleration is 0 m/s²."
+  },
+  {
+    "question": "The time a ball thrown straight up spends above the halfway point (h/2) of its maximum height (h) compared to the time spent below it is:",
+    "options": [
+      "Equal.",
+      "Less than.",
+      "Greater than.",
+      "Cannot be determined without mass."
+    ],
+    "answer": 2,
+    "explanation": "Due to constant deceleration (gravity), the object is moving faster at the lower half of its path and slower at the upper half.\n\n Therefore, the time spent above the halfway point is greater than the time spent below it."
+  },
+  {
+    "question": "An object's velocity-time graph is a rectangle above the time axis. The height is 10 m/s and the base is 5 s. The acceleration is:",
+    "options": [
+      "2 m/s².",
+      "50 m/s².",
+      "5 m/s².",
+      "0 m/s²."
+    ],
+    "answer": 3,
+    "explanation": "A rectangular shape means the velocity is constant (v = 10 m/s).\n\n Since the velocity is constant, the acceleration (slope) is 0 m/s²."
+  },
+  {
+    "question": "A particle moves with an initial velocity of 2 m/s and uniform acceleration of 2 m/s². What is its displacement after 4 seconds?",
+    "options": [
+      "8 meters.",
+      "12 meters.",
+      "24 meters.",
+      "16 meters."
+    ],
+    "answer": 2,
+    "explanation": "x = v₀t + (1/2)at² = (2)(4) + (1/2)(2)(4)² = 8 + 16 = 24 meters."
+  },
+  {
+    "question": "What is the magnitude of the displacement of a particle that moves 20 meters East and then 5 meters West?",
+    "options": [
+      "5 meters.",
+      "15 meters.",
+      "25 meters.",
+      "0 meters."
+    ],
+    "answer": 1,
+    "explanation": "Displacement = 20 m (East) - 5 m (West) = 15 meters East."
+  },
+  {
+    "question": "If an object is launched vertically upward, the direction of its velocity at the very top of its flight is:",
+    "options": [
+      "Upward.",
+      "Downward.",
+      "Horizontal.",
+      "The velocity is zero at the top."
+    ],
+    "answer": 3,
+    "explanation": "At the highest point, the object momentarily reverses its direction.\n\n Its instantaneous velocity at that precise moment is zero."
+  },
+  {
+    "question": "The area under an acceleration-time graph (a-t graph) represents:",
+    "options": [
+      "Displacement.",
+      "Position.",
+      "Change in velocity.",
+      "Average acceleration."
+    ],
+    "answer": 2,
+    "explanation": "Area = acceleration x time. (m/s²) * s = m/s.\n This unit corresponds to change in velocity ( v = a * t)."
+  },
+  {
+    "question": "A car accelerates from 5 m/s to 15 m/s in 5 seconds. Its acceleration is:",
+    "options": [
+      "1 m/s².",
+      "2 m/s².",
+      "3 m/s².",
+      "4 m/s²."
+    ],
+    "answer": 1,
+    "explanation": "a = (v - v₀) / t = \n(15 m/s - 5 m/s) / 5 s = \n10 m/s / 5 s = 2 m/s²."
+  },
+  {
+    "question": "If an object is moving in the negative direction and speeding up, its position-time graph would have a slope that is:",
+    "options": [
+      "Positive and increasing.",
+      "Positive and decreasing.",
+      "Negative and increasing in magnitude (getting steeper).",
+      "Negative and decreasing in magnitude (getting flatter)."
+    ],
+    "answer": 2,
+    "explanation": "Moving in the negative direction means the slope is negative.\n Speeding up means the speed (magnitude of slope) is increasing. \nThus, the slope is negative and increasing in magnitude (getting steeper)."
+  },
+  {
+    "question": "A ball is thrown up and takes 3 seconds to reach the peak. What was the initial velocity (g = 10 m/s²)?",
+    "options": [
+      "15 m/s.",
+      "20 m/s.",
+      "30 m/s.",
+      "45 m/s."
+    ],
+    "answer": 2,
+    "explanation": "At the peak, v = 0.\n Use v = v₀ - gt. 0 =\n v₀ - (10 m/s²)(3 s). v₀ = 30 m/s."
+  },
+  {
+    "question": "For two objects moving with the same constant acceleration, which factor primarily determines which one travels further?",
+    "options": [
+      "Their final velocity.",
+      "Their initial velocity and time/distance over which they accelerate.",
+      "Their mass.",
+      "Their total distance traveled."
+    ],
+    "answer": 1,
+    "explanation": "Given the same acceleration (a), the distance (x) is determined by the term v₀t and t² (or v² - v₀²).\n\n Both initial velocity and the duration/distance of acceleration are critical."
+  },
+
+  {
+    "question": "The equation v = v₀ + at is valid only when:",
+    "options": [
+      "Displacement is constant.",
+      "Velocity is positive.",
+      "Acceleration is uniform.",
+      "Time is zero."
+    ],
+    "answer": 2,
+    "explanation": "Like all kinematic equations, v = v₀ + at is derived based on the premise of uniform (constant) acceleration."
+  },
+  {
+    "question": "A car accelerates uniformly from 10 m/s. If it travels 100 meters in 5 seconds, its acceleration is:",
+    "options": [
+      "4 m/s².",
+      "8 m/s².",
+      "2 m/s².",
+      "10 m/s²."
+    ],
+    "answer": 0,
+    "explanation": "Use x = v₀t + (1/2)at².\n 100 = (10)(5) + (1/2)a(5)². \n100 = 50 + 12.5a.\n 50 = 12.5a.\n a = 50 / 12.5 = 4 m/s²."
+  },
+  {
+    "question": "What is the physical meaning of a velocity-time graph that is a horizontal line at v = 0 m/s?",
+    "options": [
+      "Constant positive acceleration.",
+      "Maximum deceleration.",
+      "The object is at rest.",
+      "The object is moving at constant velocity."
+    ],
+    "answer": 2,
+    "explanation": "A horizontal line at v=0 means the velocity is zero and remains zero; the object is at rest."
+  },
+  {
+    "question": "In free fall, the distance traveled by a body is proportional to the:",
+    "options": [
+      "Time elapsed.",
+      "Square of the time elapsed.",
+      "Acceleration due to gravity.",
+      "Initial velocity."
+    ],
+    "answer": 1,
+    "explanation": "Starting from rest (v₀=0), the displacement is x = (1/2)gt².\n\n Since g is constant, x is proportional to the square of the time elapsed (t²)."
+  },
+  {
+    "question": "An object's velocity changes from 5 m/s to 15 m/s in 2 seconds. The distance covered in this time is:",
+    "options": [
+      "10 meters.",
+      "20 meters.",
+      "30 meters.",
+      "40 meters."
+    ],
+    "answer": 1,
+    "explanation": "Use x = (v + v₀)t / 2.\n x = (15 m/s + 5 m/s)(2 s) / 2 =\n (20)(2) / 2 = 20 meters."
+  },
+  {
+    "question": "A position-time graph has a negative slope that is getting flatter (magnitude decreasing) as time increases. The object is:",
+    "options": [
+      "Moving forward and speeding up.",
+      "Moving backward and speeding up.",
+      "Moving backward and slowing down.",
+      "Moving forward and slowing down."
+    ],
+    "answer": 2,
+    "explanation": "Negative slope means moving backward.\n Getting flatter means the speed (magnitude of slope) is decreasing.\n Thus, the object is moving backward and slowing down (decelerating)."
+  },
+  {
+    "question": "The time it takes for a ball thrown upwards with initial velocity v₀ to reach its maximum height is:",
+    "options": [
+      "Proportional to v₀.",
+      "Proportional to v₀².",
+      "Independent of v₀.",
+      "Proportional to 1/v₀."
+    ],
+    "answer": 0,
+    "explanation": "The time to peak is t = v₀/g.\n Since g is constant, the time is directly proportional to the initial velocity (v₀)."
+  },
+  {
+    "question": "Which of the following must be true for a body to be in uniform motion?",
+    "options": [
+      "Displacement equals zero.",
+      "Average speed equals average velocity.",
+      "Acceleration equals zero.",
+      "Final velocity equals initial velocity."
+    ],
+    "answer": 2,
+    "explanation": "Uniform motion means constant velocity. Constant velocity means there is no change in velocity, so the acceleration must equal zero.\n If it is in a straight line, the final velocity must equal the initial velocity, making this also correct, but a=0 is the defining characteristic of uniform velocity."
+  },
+  {
+    "question": "A particle moves from x = 5 m to x = -5 m in 2 seconds. Its average velocity is:",
+    "options": [
+      "0 m/s.",
+      "2.5 m/s.",
+      "-5 m/s.",
+      "10 m/s."
+    ],
+    "answer": 2,
+    "explanation": "Average velocity = Displacement / Time.\n Displacement = Final x - Initial x = -5 m - 5 m = -10 m.\n Average v = -10 m / 2 s = -5 m/s."
+  },
+  {
+    "question": "An object in free fall has a speed of 10 m/s at a certain height. What is its speed at the same height on its way back down?",
+    "options": [
+      "10 m/s.",
+      "20 m/s.",
+      "0 m/s.",
+      "Cannot be determined."
+    ],
+    "answer": 0,
+    "explanation": "Due to the symmetry of free fall motion (constant g), the object's speed at any given height on the way up is equal to its speed at the same height on the way down."
+  },
+  {
+    "question": "If the acceleration of a particle is constant and non-zero, its velocity-time graph is a:",
+    "options": [
+      "Parabola.",
+      "Horizontal line.",
+      "Vertical line.",
+      "Straight line with a non-zero slope."
+    ],
+    "answer": 3,
+    "explanation": "Constant acceleration means a constant slope on the v-t graph.\n\n A non-zero, constant slope is a straight line with a non-zero slope."
+  },
+  {
+    "question": "A ball is thrown up with a speed of 30 m/s. What is its maximum height (g = 10 m/s²)?",
+    "options": [
+      "15 meters.",
+      "30 meters.",
+      "45 meters.",
+      "90 meters."
+    ],
+    "answer": 2,
+    "explanation": "Use v² = v₀² + 2ax. 0² = (30)² + 2(-10)x. \n0 = 900 - 20x. 20x = 900.\n x = 900/20 = 45 meters."
+  },
+  {
+    "question": "If an object's position-time graph is a perfect semi-circle, its motion is:",
+    "options": [
+      "Uniform velocity.",
+      "Uniform acceleration.",
+      "Non-uniformly accelerated motion.",
+      "Zero acceleration."
+    ],
+    "answer": 2,
+    "explanation": "A circular curve is not a parabola, so the rate of change of the slope (acceleration) is not constant.\n The motion is non-uniformly accelerated motion."
+  },
+  {
+    "question": "The maximum velocity reached by an object starting from rest and accelerating uniformly for 5 seconds over a distance of 100 meters is:",
+    "options": [
+      "20 m/s.",
+      "30 m/s.",
+      "40 m/s.",
+      "50 m/s."
+    ],
+    "answer": 1,
+    "explanation": "Use x = (v + v₀)t / 2.\n 100 = (v + 0)(5) / 2.\n 200 = 5v.\n v = 200 / 5 = 40 m/s."
+  },
+  {
+    "question": "Which of the following is an example of an object moving with a non-zero, constant acceleration?",
+    "options": [
+      "A car driving on a straight road at a steady 60 km/h.",
+      "A feather falling in a perfect vacuum.",
+      "A train speeding up from 0 to 100 km/h in 10 seconds.",
+      "A person running a fixed distance in a fixed time."
+    ],
+    "answer": 1,
+    "explanation": "A feather falling in a vacuum is subject only to gravity, which provides a constant, non-zero acceleration (g)."
+  }
+  ]

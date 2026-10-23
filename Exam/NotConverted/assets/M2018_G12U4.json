@@ -1,0 +1,24 @@
+[
+{
+  "question": " What are the minimum and the maximum value of z = 2x + 3y subject to the constraints  x + y ≥ 2 \n x + y ≤ 5 \n 2y - x ≤ 4 \n x ≥ 0, y ≥ 0  , respectively?",
+  "options": [
+    "6 and 13",
+    "4 and 10",
+    "6 and 10",
+    "4 and 13"
+  ],
+  "answer": 3,
+  "explanation": "Corner points: (0,2), (2,0), (5,0), (2,3).\n\n-> z=2x+3y\n ⇒ z(0,2)=6, \nz(2,0)=4,\n z(5,0)=10,\n z(2,3)=13.\n\n-> Therefore, minimum=4 and maximum=13."
+},
+{
+"question": " A company manufactures two products P and Q. Product P requires 2 hours on machine A and 1 hour on machine B. Product Q requires 1 hour on machine A and 1 hour on machine B. Machine A is available for at most 10 hours a day. Machine B is available for at most 8 hours a day. The profit for product P is Birr 40. The profit for product Q is Birr 30. How many units of P and Q should be produced to maximize the profit?",
+"options": [
+"4 units of P and 8 units of Q",
+"2 units of P and 6 units of Q",
+"10 units of P and 2 units of Q",
+"4 units of P and 5 units of Q"
+],
+"answer": 1,
+"explanation": "Let P=x, Q=y.\n\n-> Constraints: 2x+y≤10, x+y≤8, x≥0, y≥0.\n\n-> At the intersection: 2x+y=10 and x+y=8 \n⇒ x=2, y=6.\n\n-> Profit = 40(2)+30(6)=260. \n\n-> Therefore, produce 2 units of P and 6 units of Q."
+}
+]

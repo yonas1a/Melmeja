@@ -1,0 +1,1157 @@
+[
+  {
+    "question": "Which of the following is NOT a correct subset relation among the basic number sets?",
+    "options": [
+      "Natural numbers (N) is a subset of Integers (Z)",
+      "Integers (Z) is a subset of Rational numbers (Q)",
+      "Rational numbers (Q) is a subset of Real numbers (R)",
+      "Whole numbers (W) is a subset of Natural numbers (N)"
+    ],
+    "answer": 3,
+    "explanation": "Natural numbers (N) starts from 1, and Whole numbers (W) starts from 0.\n Since 0 is in W but not in N, W is not a subset of N. \nThe correct relation is N is a subset of W."
+  },
+  {
+    "question": "According to the Fundamental Theorem of Arithmetic, every composite number can be uniquely expressed as a product of:",
+    "options": [
+      "Integers",
+      "Whole numbers",
+      "Prime numbers",
+      "Rational numbers"
+    ],
+    "answer": 2,
+    "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 is either a prime number itself or can be represented as a product of prime numbers, and this representation is unique apart from the order of the factors."
+  },
+  {
+    "question": "What is the Greatest Common Factor (GCF) of 196 and 3822?",
+    "options": [
+      "2",
+      "4",
+      "14",
+      "98"
+    ],
+    "answer": 3,
+    "explanation": "Using the Euclidean Algorithm: 3822 = 196 times 19 + 98. \n\n196 = 98 times 2 + 0. The last non-zero remainder is the GCF.\n Thus, GCF(196, 3822) = 98."
+  },
+
+
+  {
+    "question": "If GCF(a, b) = 7 and LCM(a, b) = 70, and a = 14, find b.",
+    "options": [
+      "28",
+      "35",
+      "49",
+      "70"
+    ],
+    "answer": 1,
+    "explanation": "The product of two numbers is equal to the product of their GCF and LCM: a*b = GCF(a, b) times LCM(a, b). 14*b = 7*70. 14b = 490.\n b = 490 / 14 = 35."
+  },
+
+  {
+    "question": "The smallest positive integer that has exactly three factors is:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "A number has exactly three factors if it is the square of a prime number (p power 2). \n\nThe smallest prime is 2, so the smallest such number is 2 power 2 = 4. The factors of 4 are 1, 2, and 4."
+  },
+  {
+    "question": "What is the form of any positive odd integer based on the division algorithm with b=4?",
+    "options": [
+      "4q or 4q + 2",
+      "4q + 1 or 4q + 3",
+      "4q + 1 only",
+      "4q + 3 only"
+    ],
+    "answer": 1,
+    "explanation": "Any integer 'a' can be written as 4q + r, where r is 0, 1, 2, or 3. If r=0 or r=2, the integer is even.\n\n If r=1 (4q+1) or r=3 (4q+3), the integer is odd."
+  },
+  {
+    "question": "Which of the following pairs of numbers is relatively prime (co-prime)?",
+    "options": [
+      "(15, 21)",
+      "(14, 35)",
+      "(16, 27)",
+      "(24, 30)"
+    ],
+    "answer": 2,
+    "explanation": "Two numbers are relatively prime if their GCF is 1. GCF(15, 21)=3. \n\nGCF(14, 35)=7. GCF(16, 27)=1 (since 16=2 power 4 and 27=3 power 3). GCF(24, 30)=6."
+  },
+
+  {
+    "question": "The property that a+b is also in Natural numbers (N) for any a, b in N is called the:",
+    "options": [
+      "Commutative property",
+      "Associative property",
+      "Distributive property",
+      "Closure property"
+    ],
+    "answer": 3,
+    "explanation": "The closure property states that an operation on elements of a set always produces a result that is also an element of that set.\n\n N is closed under addition."
+  },
+  {
+    "question": "If a number is divisible by 11, the alternating sum of its digits must be divisible by 11. Which number is divisible by 11?",
+    "options": [
+      "1232",
+      "1342",
+      "1431",
+      "2342"
+    ],
+    "answer": 1,
+    "explanation": "For 1342, the alternating sum is 2 - 4 + 3 - 1 = 0.\n\n Since 0 is divisible by 11, 1342 is divisible by 11."
+  },
+  {
+    "question": "Which of the following is a terminating decimal?",
+    "options": [
+      "1/3",
+      "2/7",
+      "3/8",
+      "5/11"
+    ],
+    "answer": 2,
+    "explanation": "A fraction p/q (in simplest form) results in a terminating decimal if and only if the prime factors of the denominator q are only 2s and 5s. \n\n3/8 = 3/(2 power 3), so it is terminating (0.375)."
+  },
+  {
+    "question": "Convert the repeating decimal 0.272727... to a fraction in simplest form.",
+    "options": [
+      "27/100",
+      "27/99",
+      "3/11",
+      "9/33"
+    ],
+    "answer": 2,
+    "explanation": "Let x = 0.2727.... 100x = 27.2727.... Subtracting x gives 99x = 27, so x = 27/99.\n\n Simplifying by dividing by 9 gives 3/11."
+  },
+  {
+    "question": "What is the multiplicative inverse of the decimal 0.25?",
+    "options": [
+      "4",
+      "1/4",
+      "-0.25",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "0.25 is equal to 1/4.\n\n The multiplicative inverse (reciprocal) of 1/4 is 4/1 = 4."
+  },
+  {
+    "question": "Which of the following correctly orders the rational numbers from least to greatest: 3/4, 5/6, 2/3?",
+    "options": [
+      "2/3, 3/4, 5/6",
+      "3/4, 5/6, 2/3",
+      "5/6, 3/4, 2/3",
+      "2/3, 5/6, 3/4"
+    ],
+    "answer": 0,
+    "explanation": "Convert to common denominator (12): 2/3 = 8/12, 3/4 = 9/12, 5/6 = 10/12.\n\n Ordering the numerators: 8, 9, 10. Thus, 2/3 is less than 3/4 is less than 5/6."
+  },
+  {
+    "question": "The decimal 1.4 repeating 3 can be expressed as which fraction in simplest form?",
+    "options": [
+      "143/100",
+      "129/90",
+      "13/9",
+      "43/30"
+    ],
+    "answer": 3,
+    "explanation": "Let x = 1.4 repeating 3. 10x = 14.\n repeating 3 and 100x = 143. repeating 3. Subtracting 10x from 100x: 90x = 129. x = 129/90. Simplifying by dividing by 3: 43/30."
+  },
+  {
+    "question": "Which statement is true about the addition of rational numbers?",
+    "options": [
+      "The set of Rational numbers (Q) is not closed under addition.",
+      "The commutative law does not apply to addition in Q.",
+      "The sum of any two rational numbers is always rational.",
+      "The additive inverse of a rational number is always irrational."
+    ],
+    "answer": 2,
+    "explanation": "The set of rational numbers (Q) is closed under addition, meaning the sum of any two rational numbers is always another rational number."
+  },
+  {
+    "question": "The property that states there is always a rational number between any two distinct rational numbers is called the:",
+    "options": [
+      "Associative property",
+      "Density property",
+      "Completeness property",
+      "Identity property"
+    ],
+    "answer": 1,
+    "explanation": "The density property of rational numbers states that the set Q is dense, meaning for any two distinct rational numbers, there exists another rational number between them."
+  },
+  {
+    "question": "A number whose decimal expansion is non-terminating and non-repeating is classified as:",
+    "options": [
+      "Rational",
+      "Integer",
+      "Irrational",
+      "Whole"
+    ],
+    "answer": 2,
+    "explanation": "Irrational numbers (I) are defined as decimals that are non-terminating and non-repeating."
+  },
+  {
+    "question": "Which of the following is an irrational number?",
+    "options": [
+      "square root of 16",
+      "1.732",
+      "cube root of 27",
+      "square root of 20"
+    ],
+    "answer": 3,
+    "explanation": "square root of 16=4 (rational). 1.732 (rational). cube root of 27=3 (rational).\n\n square root of 20 cannot be written as a simple fraction and is a non-terminating, non-repeating decimal, making it irrational."
+  },
+  {
+    "question": "Between which two consecutive integers does square root of 50 lie?",
+    "options": [
+      "6 and 7",
+      "7 and 8",
+      "8 and 9",
+      "9 and 10"
+    ],
+    "answer": 1,
+    "explanation": "Find the perfect squares closest to 50: 7 power 2 = 49 and 8 power 2 = 64.\n\n Since 49 is less than 50 is less than 64, taking the square root gives 7 is less than square root of 50 is less than 8."
+  },
+  {
+    "question": "Simplify the expression square root of 75 + square root of 12.",
+    "options": [
+      "square root of 87",
+      "7 square root of 3",
+      "3 square root of 7",
+      "5 square root of 5 + 2 square root of 3"
+    ],
+    "answer": 1,
+    "explanation": "Simplify each radical: square root of 75 = square root of (25 times 3) = 5 square root of 3.\n\n square root of 12 = square root of (4 times 3) = 2 square root of 3.\n Adding them gives 5 square root of 3 + 2 square root of 3 = 7 square root of 3."
+  },
+  {
+    "question": "Rationalize the denominator of 6 / √3.",
+    "options": [
+      "2 √3",
+      "√3 / 6",
+      "6√3",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Multiply the numerator and denominator by square root of 3: \n\n(6 / √3) * (√3 /√3) = 6√3 / 3 = 2√3."
+  },
+  {
+    "question": "Rationalize the denominator of 1 / (√5 - 2).",
+    "options": [
+      "√5 + 2",
+      "√5 - 2",
+      "5 + 2√5",
+      "1 / (√5 + 2)"
+    ],
+    "answer": 0,
+    "explanation": "Multiply the numerator and denominator by the conjugate (√5 + 2):\n\n (1 / (√5 - 2)) * ((√5 + 2) / (√5 + 2)) = \n(√5 + 2) / ((√5)² - 2²) =\n\n (√5 + 2) / (5 - 4) = √5 + 2."
+  },
+
+  {
+    "question": "Evaluate absolute value of -8 - absolute value of 2 - 5.",
+    "options": [
+      "11",
+      "3",
+      "5",
+      "-5"
+    ],
+    "answer": 2,
+    "explanation": "absolute value of -8 = 8. absolute value of 2 - 5 = absolute value of -3 = 3.\n So, 8 - 3 = 5."
+  },
+  {
+    "question": "The set of all irrational numbers is denoted by:",
+    "options": [
+      "N",
+      "Q",
+      "I",
+      "R"
+    ],
+    "answer": 2,
+    "explanation": "N is natural numbers, Q is rational numbers, R is real numbers.\n\n I (or sometimes R \\ Q) denotes the set of irrational numbers."
+  },
+  {
+    "question": "If x = √2 and y = √8, then x * y is:",
+    "options": [
+      "Irrational",
+      "Rational",
+      "Prime",
+      "Non-real"
+    ],
+    "answer": 1,
+    "explanation": "x * y = √2 * √8 = √16 = 4.\n\n Since 4 is an integer, it is a rational number."
+  },
+
+  {
+    "question": "Which equation has no solution in the set of real numbers (R)?",
+    "options": [
+      "x² = 4",
+      "x³ = -8",
+      "x² = -9",
+      "√x = 3"
+    ],
+    "answer": 2,
+    "explanation": "The square of any real number (x²) must be non-negative (greater than or equal to 0).\n\n Therefore, x² = -9 has no real solution."
+  },
+  {
+    "question": "The simplified form of (x²y³)⁻²is:",
+    "options": [
+      "x⁴y⁶",
+      "x⁻⁴ y⁶",
+      "x⁻⁴ / y⁶",
+      "y⁶ /x⁴"
+    ],
+    "answer": 3,
+    "explanation": "Using the power of a power rule:  (x²)⁻² * (y³)⁻² = x⁻⁴ y⁶."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The expression (10 power 5 * 10 power -2) / (10 power 3) simplifies to:",
+    "options": [
+      "10 power 10",
+      "10 power 6",
+      "10 power 0",
+      "10 power 4"
+    ],
+    "answer": 2,
+    "explanation": "Using exponent rules: (10 power (5 + (-2))) / (10 power 3) = 10 power 3 / 10 power 3.\n\n Division rule: 10 power (3 - 3) = 10 power 0 = 1."
+  },
+  {
+    "question": "If 2 power x = 1/32, then the value of x is:",
+    "options": [
+      "5",
+      "-5",
+      "1/5",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Since 32 = 2 power 5, 1/32 = 1 / 2 power 5 = 2 power -5.\n\n Thus, 2 power x = 2 power -5, which implies x = -5."
+  },
+  {
+    "question": "If absolute value of x = 6, the solution set for x in Real numbers (R) is:",
+    "options": [
+      "{-6}",
+      "{6}",
+      "{-6, 6}",
+      "The empty set"
+    ],
+    "answer": 2,
+    "explanation": "The absolute value of both 6 and -6 is 6.\n\n The set of solutions is {-6, 6}."
+  },
+  {
+    "question": "The inequality absolute value of x - 1 is less than or equal to 3 is equivalent to the interval:",
+    "options": [
+      "(-infinity, 4]",
+      "[-2, 4]",
+      "[-4, 2]",
+      "(-2, 4)"
+    ],
+    "answer": 1,
+    "explanation": "The inequality is equivalent to -3 is less than or equal to x - 1 is less than or equal to 3.\n\n Adding 1 to all parts gives -2 is less than or equal to x is less than or equal to 4. In interval notation, this is [-2, 4]."
+  },
+  {
+    "question": "Which set builder notation correctly represents the interval (-infinity, 2]?",
+    "options": [
+      "{x | x is in Real numbers (R) and x < 2}",
+      "{x | x is in Real numbers (R) and x is less than or equal to 2}",
+      "{x | x is in Real numbers (R) and x is greater than or equal to 2}",
+      "{x | x is in Real numbers (R) and x > 2}"
+    ],
+    "answer": 1,
+    "explanation": "The interval (-infinity, 2] includes all real numbers less than or equal to 2."
+  },
+  {
+    "question": "Find the intersection of the intervals [-5, 7) and (3, 10].",
+    "options": [
+      "(3, 7)",
+      "[-5, 10]",
+      "[3, 7]",
+      "(3, 7]"
+    ],
+    "answer": 0,
+    "explanation": "The intersection includes elements common to both intervals.\n\n The lower bound is the larger of the two lower bounds (3, exclusive), and the upper bound is the smaller of the two upper bounds (7, exclusive). The interval is (3, 7)."
+  },
+  {
+    "question": "The length of the interval [-3, 4] is:",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "7.5"
+    ],
+    "answer": 0,
+    "explanation": "The length of an interval [a, b] is given by b - a.\n Length = 4 - (-3) = 4 + 3 = 7."
+  },
+  {
+    "question": "The set of rational numbers (Q) is closed under which of the following operations?",
+    "options": [
+      "Division by zero",
+      "Subtraction",
+      "Square root",
+      "Taking the reciprocal"
+    ],
+    "answer": 1,
+    "explanation": "The set of rational numbers is closed under addition, subtraction, multiplication, and division (excluding division by zero).\n\n The difference of any two rational numbers is always rational."
+  },
+  {
+    "question": "Which law of arithmetic is illustrated by the statement 5 times (x + y) = 5x + 5y?",
+    "options": [
+      "Associative Law",
+      "Commutative Law",
+      "Identity Law",
+      "Distributive Law"
+    ],
+    "answer": 3,
+    "explanation": "The distributive law of multiplication over addition allows multiplying a term outside a bracket by each term inside the bracket."
+  },
+  {
+    "question": "Which of the following numbers is an integer but not a whole number?",
+    "options": [
+      "0",
+      "-1",
+      "1/2",
+      "square root of 9"
+    ],
+    "answer": 1,
+    "explanation": "Integers (Z) include negative numbers. Whole numbers (W) include zero and positive integers.\n\n -1 is an integer but not a whole number."
+  },
+  {
+    "question": "Which property of real numbers ensures that a + (-a) = 0?",
+    "options": [
+      "Additive Identity",
+      "Additive Inverse",
+      "Commutative Property",
+      "Closure Property"
+    ],
+    "answer": 1,
+    "explanation": "The additive inverse property states that for every real number a, there exists a unique number -a such that their sum is the additive identity (0)."
+  },
+  {
+    "question": "Find the number of integers that satisfy the inequality 4 is less than x is less than or equal to 10.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "The integers are {5, 6, 7, 8, 9, 10}.\n Counting them gives 6 integers."
+  },
+  {
+    "question": "What is the difference between Real numbers (R) and Rational numbers (Q) (R \\ Q)?",
+    "options": [
+      "The set of integers (Z)",
+      "The set of non-real numbers",
+      "The set of irrational numbers (I)",
+      "The set of natural numbers (N)"
+    ],
+    "answer": 2,
+    "explanation": "Real numbers (R) are the union of rational numbers (Q) and irrational numbers (I).\n Removing Q from R leaves I."
+  },
+  {
+    "question": "If I is the set of irrational numbers, what is Q intersection I?",
+    "options": [
+      "R",
+      "Q",
+      "I",
+      "The empty set"
+    ],
+    "answer": 3,
+    "explanation": "Rational and irrational numbers are mutually exclusive sets.\n Their intersection is the empty set (no common elements)."
+  },
+  {
+    "question": "Which equation is used to find the GCF of two positive integers a and b (a > b) using the Euclidean Algorithm?",
+    "options": [
+      "a = bq + r, where r = 0",
+      "a = bq + r, where 0 is less than r is less than b",
+      "GCF(a, b) = GCF(b, a)",
+      "GCF(a, b) = GCF(b, r) where a = bq + r"
+    ],
+    "answer": 3,
+    "explanation": "The Euclidean Algorithm relies on the property that the GCF of a and b is the same as the GCF of b and the remainder r when a is divided by b."
+  },
+  {
+    "question": "What is the largest prime factor of 105?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "21"
+    ],
+    "answer": 2,
+    "explanation": "Prime factorization of 105: 105 = 3 times 5 times 7.\n The largest prime factor is 7."
+  },
+  {
+    "question": "If square root of (x - 3) = 4, then x is equal to:",
+    "options": [
+      "7",
+      "13",
+      "19",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "Square both sides: (square root of (x - 3)) power 2 = 4 power 2. x - 3 = 16. x = 19."
+  },
+  {
+    "question": "The number 1.2 x 10 power -4 in standard notation is:",
+    "options": [
+      "12000",
+      "0.00012",
+      "0.0012",
+      "1200"
+    ],
+    "answer": 1,
+    "explanation": "Move the decimal point 4 places to the left: 0.00012."
+  },
+  {
+    "question": "Which statement correctly compares square root of 8 and 3 square root of 2?",
+    "options": [
+      "square root of 8 is greater than 3 square root of 2",
+      "square root of 8 is equal to 3 square root of 2",
+      "square root of 8 is less than 3 square root of 2",
+      "Comparison is impossible"
+    ],
+    "answer": 2,
+    "explanation": "Simplify: square root of 8 = square root of (4 times 2) = 2 square root of 2. Since 2 square root of 2 is less than 3 square root of 2, square root of 8 is less than 3 square root of 2."
+  },
+  {
+    "question": "The identity element for multiplication in the set of real numbers (R) is:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "The empty set"
+    ],
+    "answer": 1,
+    "explanation": "The multiplicative identity is 1, as a times 1 = a for any real number a."
+  },
+  {
+    "question": "If x power 5 = 32, what is the value of x?",
+    "options": [
+      "2",
+      "5th root of 32",
+      "4",
+      "-2"
+    ],
+    "answer": 0,
+    "explanation": "Since 2 power 5 = 32, the value of x is 2."
+  },
+  {
+    "question": "If 2 power (x+1) = 8 power (x-1), what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Express both sides with base 2: 2 power (x+1) = (2 power 3) power (x-1).\n\n 2 power (x+1) = 2 power (3x-3). Equating exponents: x + 1 = 3x - 3. 4 = 2x. x = 2."
+  },
+  {
+    "question": "What is the simplest form of 4th root of (16x power 8) where x is greater than or equal to 0?",
+    "options": [
+      "4x power 4",
+      "2x power 2",
+      "2x power 4",
+      "4x power 2"
+    ],
+    "answer": 1,
+    "explanation": "4th root of (16x power 8) = 4th root of 16 times 4th root of (x power 8). 4th root of 16 = 2.\n 4th root of (x power 8) = x power (8/4) = x power 2. The result is 2x power 2."
+  },
+  {
+    "question": "The simplified expression for 27 power (1/3) + 16 power (1/4) is:",
+    "options": [
+      "7",
+      "5",
+      "10",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "27 power (1/3) = cube root of 27 = 3. 16 power (1/4) = 4th root of 16 = 2. The sum is 3 + 2 = 5."
+  },
+  {
+    "question": "The operation max(a, b) on real numbers satisfies which law?",
+    "options": [
+      "Commutative Law",
+      "Distributive Law",
+      "Inverse Law",
+      "Identity Law"
+    ],
+    "answer": 0,
+    "explanation": "The maximum function is commutative, as max(a, b) = max(b, a)."
+  },
+  {
+    "question": "The property of real numbers that ensures that for any a is not equal to 0, there exists a unique number 1/a such that a times (1/a) = 1 is called:",
+    "options": [
+      "Multiplicative Identity",
+      "Multiplicative Inverse",
+      "Closure under Multiplication",
+      "Associative Property"
+    ],
+    "answer": 1,
+    "explanation": "This is the multiplicative inverse property, where 1/a is the reciprocal of a and 1 is the multiplicative identity."
+  },
+  {
+    "question": "Which of the following is an equivalent expression for (x power -1 + y power -1) / (xy) power -1?",
+    "options": [
+      "x + y",
+      "1 / (x + y)",
+      "x power 2 + y power 2",
+      "(x + y) / xy"
+    ],
+    "answer": 0,
+    "explanation": "Rewrite with positive exponents: (1/x + 1/y) / (1/xy).\n\n Simplify the numerator: ((y+x) / xy) / (1/xy). Dividing by a fraction is multiplying by its reciprocal: ((y+x) / xy) times xy = x + y."
+  },
+  {
+    "question": "Which of the following is equivalent to 2 power x times 4 power x?",
+    "options": [
+      "8 power x",
+      "6 power x",
+      "2 power 3x",
+      "4 power 2x"
+    ],
+    "answer": 2,
+    "explanation": "Express with the same base: 4 power x = (2 power 2) power x = 2 power 2x. So, 2 power x times 4 power x = 2 power x times 2 power 2x = 2 power (x+2x) = 2 power 3x."
+  },
+  {
+    "question": "The distance between the two points corresponding to -4 and 1.5 on the number line is:",
+    "options": [
+      "-2.5",
+      "2.5",
+      "5.5",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "The distance between two points a and b is absolute value of (a - b). Distance = absolute value of (1.5 - (-4)) = absolute value of (5.5) = 5.5."
+  },
+  {
+    "question": "Which of the following numbers is not relatively prime to 42?",
+    "options": [
+      "13",
+      "17",
+      "25",
+      "27"
+    ],
+    "answer": 3,
+    "explanation": "A number is not relatively prime to 42 if their GCF is greater than 1.\n\n Prime factors of 42 are 2, 3, and 7. 27 = 3 power 3, so GCF(27, 42) = 3."
+  },
+  {
+    "question": "If GCF(a, b) = 1, then LCM(a, b) is:",
+    "options": [
+      "a + b",
+      "GCF(a, b)",
+      "a times b",
+      "LCM(a + b)"
+    ],
+    "answer": 2,
+    "explanation": "Since GCF(a, b) times LCM(a, b) = a times b, if GCF(a, b) = 1, then LCM(a, b) = a times b."
+  },
+  {
+    "question": "Which of the following numbers has a non-terminating but repeating decimal representation?",
+    "options": [
+      "square root of 9",
+      "1/20",
+      "square root of 3",
+      "5/12"
+    ],
+    "answer": 3,
+    "explanation": "5/12 has a denominator 12 = 2 power 2 times 3. Since there is a prime factor of 3, the decimal will be non-terminating and repeating (0.41 repeating 6)."
+  },
+  {
+    "question": "The decimal representation of 1/11 is:",
+    "options": [
+      "0.09",
+      "0.0999...",
+      "0.0 repeating 9",
+      "0. repeating 09"
+    ],
+    "answer": 3,
+    "explanation": "Dividing 1 by 11 gives 0.090909.... The repeating block is '09', written as 0. repeating 09."
+  },
+  {
+    "question": "Which number is to the right of -2/3 on the number line?",
+    "options": [
+      "-1",
+      "-0.75",
+      "-0.5",
+      "-1/2"
+    ],
+    "answer": 2,
+    "explanation": "To be to the right means the number is greater.\n\n -2/3 is approximately -0.666... . -0.5 is equal to -1/2 and is greater than -2/3, so it lies to the right."
+  },
+  {
+    "question": "If x is in Real numbers (R) and x is less than 0, then absolute value of x is equal to:",
+    "options": [
+      "x",
+      "-x",
+      "0",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "By definition, the absolute value of a negative number x is its opposite, -x."
+  },
+  {
+    "question": "The simplified form of square root of 45 - 2 square root of 5 is:",
+    "options": [
+      "square root of 5",
+      "3 square root of 5",
+      "5 square root of 5",
+      "- square root of 5"
+    ],
+    "answer": 0,
+    "explanation": "Simplify square root of 45: square root of 45 = square root of (9 times 5) = 3 square root of 5. \n\nThe expression becomes 3 square root of 5 - 2 square root of 5 = (3 - 2) square root of 5 = square root of 5."
+  },
+  {
+    "question": "Which of the following is equivalent to 1 / square root of (3 power 2 + 4 power 2)?",
+    "options": [
+      "1 / square root of 13",
+      "1 / (3 + 4)",
+      "1 / 5",
+      "square root of 25"
+    ],
+    "answer": 2,
+    "explanation": "Simplify the expression inside the radical: 3 power 2 + 4 power 2 = 9 + 16 = 25. So, the expression is 1 / square root of 25 = 1/5."
+  },
+  {
+    "question": "The number cube root of 10 is an example of an:",
+    "options": [
+      "Integer",
+      "Rational number",
+      "Irrational number",
+      "Whole number"
+    ],
+    "answer": 2,
+    "explanation": "Since 10 is not a perfect cube, cube root of 10 cannot be written as a simple fraction, making it an irrational number."
+  },
+  {
+    "question": "Which law of exponents is applied when simplifying (a power 3) power 4 to a power 12?",
+    "options": [
+      "Product of powers",
+      "Quotient of powers",
+      "Power of a power",
+      "Power of a product"
+    ],
+    "answer": 2,
+    "explanation": "The 'Power of a Power' rule states that when raising a power to another power, you multiply the exponents: (a power m) power n = a power mn."
+  },
+  {
+    "question": "What is the result of (square root of 2 - 1) power 2?",
+    "options": [
+      "1",
+      "3 - 2 square root of 2",
+      "3 + 2 square root of 2",
+      "2 - 2 square root of 2"
+    ],
+    "answer": 1,
+    "explanation": "Use the binomial expansion (a - b) power 2 = a power 2 - 2ab + b power 2: (square root of 2) power 2 - 2(square root of 2)(1) + 1 power 2 = 2 - 2 square root of 2 + 1 = 3 - 2 square root of 2."
+  },
+  {
+    "question": "If x is less than 0, then square root of (x power 2) is equal to:",
+    "options": [
+      "x",
+      "-x",
+      "absolute value of x",
+      "Both -x and absolute value of x"
+    ],
+    "answer": 3,
+    "explanation": "By definition, square root of (x power 2) = absolute value of x.\n\n Since x is less than 0, absolute value of x = -x. Therefore, it is equal to both -x and absolute value of x."
+  },
+  {
+    "question": "Find the union of the intervals (-infinity, 4) and [4, 7].",
+    "options": [
+      "The empty set",
+      "(-infinity, 7)",
+      "(-infinity, 7]",
+      "[4, 4]"
+    ],
+    "answer": 2,
+    "explanation": "The union includes all elements in either set. Since the first set goes up to (but excludes) 4, and the second starts at (and includes) 4, their union is all real numbers up to and including 7: (-infinity, 7]."
+  },
+  {
+    "question": "Which operation on the set of natural numbers (N) is NOT always closed?",
+    "options": [
+      "Addition",
+      "Multiplication",
+      "Subtraction",
+      "Exponentiation (a power b)"
+    ],
+    "answer": 2,
+    "explanation": "The difference of two natural numbers is not always a natural number (e.g., 3 - 5 = -2, which is not in N). N is not closed under subtraction."
+  },
+  {
+    "question": "The number pi is an example of an irrational number because it is:",
+    "options": [
+      "A non-terminating decimal.",
+      "A non-repeating decimal.",
+      "A non-terminating and non-repeating decimal.",
+      "A transcendental number."
+    ],
+    "answer": 2,
+    "explanation": "An irrational number's decimal form must be both non-terminating and non-repeating."
+  },
+  {
+    "question": "Convert the standard number 2,500,000,000 to scientific notation.",
+    "options": [
+      "2.5 x 10 power 9",
+      "2.5 x 10 power -9",
+      "25 x 10 power 8",
+      "0.25 x 10 power 10"
+    ],
+    "answer": 0,
+    "explanation": "Move the decimal point 9 places to the left to get 2.5.\n\n Since the number is large, the exponent is positive 9. 2.5 x 10 power 9."
+  },
+  {
+    "question": "What is the remainder when 2 power 100 is divided by 3?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "Consider the pattern of 2 power n divided by 3: 2 power 1 remainder 2, 2 power 2 remainder 1, 2 power 3 remainder 2, etc.\n\n Since 100 is an even exponent, the remainder is 1."
+  },
+  {
+    "question": "If x is a positive rational number, then x power 2 is always:",
+    "options": [
+      "An integer",
+      "A non-negative integer",
+      "A rational number",
+      "An irrational number"
+    ],
+    "answer": 2,
+    "explanation": "If x = a/b, then x power 2 = a power 2 / b power 2.\n\n The square of a rational number is always rational."
+  },
+  {
+    "question": "The solution set for the absolute value inequality absolute value of x is greater than 5 is:",
+    "options": [
+      "(-infinity, 5) U (5, infinity)",
+      "(-5, 5)",
+      "(-infinity, -5) U (5, infinity)",
+      "[5, infinity)"
+    ],
+    "answer": 2,
+    "explanation": "The inequality absolute value of x is greater than 5 is equivalent to x is less than -5 or x is greater than 5.\n\n In interval notation, this is (-infinity, -5) U (5, infinity)."
+  },
+  {
+    "question": "Which of the following is equivalent to 2 power x + 2 power x?",
+    "options": [
+      "4 power x",
+      "2 power 2x",
+      "2 power (x+1)",
+      "4 power 2x"
+    ],
+    "answer": 2,
+    "explanation": "Factor out 2 power x: 2 power x + 2 power x = 2 times (2 power x).\n\n Using the product of powers rule: 2 power 1 times 2 power x = 2 power (1+x)."
+  },
+  {
+    "question": "Simplify square root of (4x power 2 + 4y power 2) where x, y are in Real numbers (R).",
+    "options": [
+      "2x + 2y",
+      "2 square root of (x power 2 + y power 2)",
+      "2(x + y)",
+      "(2x + 2y) power 2"
+    ],
+    "answer": 1,
+    "explanation": "Factor out 4 from the expression under the radical: square root of (4(x power 2 + y power 2)) = square root of 4 times square root of (x power 2 + y power 2) = 2 square root of (x power 2 + y power 2)."
+  },
+  {
+    "question": "If square root of a times square root of b = square root of ab, then square root of a times square root of b is not equal to square root of ab when:",
+    "options": [
+      "Both a and b are positive.",
+      "Both a and b are negative.",
+      "One is positive and one is negative.",
+      "At least one of a or b is zero."
+    ],
+    "answer": 1,
+    "explanation": "The identity holds only when at least one of a or b is non-negative.\n\n If both a is less than 0 and b is less than 0, then square root of a times square root of b = i square root of |a| times i square root of |b| = i power 2 square root of ab = - square root of ab. Since a and b are negative, square root of ab is not equal to - square root of ab."
+  },
+  {
+    "question": "The number 1 times 10 power 0 is:",
+    "options": [
+      "10",
+      "1",
+      "0",
+      "Not a real number"
+    ],
+    "answer": 1,
+    "explanation": "Any non-zero real number raised to the power of 0 is 1.\n Thus, 1 times 10 power 0 = 1 times 1 = 1."
+  },
+  {
+    "question": "The number 2 power (4/2) is equal to:",
+    "options": [
+      "16",
+      "8",
+      "4",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "Simplify the exponent first: 4/2 = 2.\n So, 2 power (4/2) = 2 power 2 = 4."
+  },
+  {
+    "question": "If a non-zero integer n is a factor of a and a factor of b, then n is also a factor of:",
+    "options": [
+      "a / b",
+      "a + b",
+      "a times b / (a + b)",
+      "LCM(a, b)"
+    ],
+    "answer": 1,
+    "explanation": "If n divides a and n divides b, then n divides any linear combination of a and b, including a + b."
+  },
+  {
+    "question": "Which set is not dense in itself?",
+    "options": [
+      "Real numbers (R)",
+      "Rational numbers (Q)",
+      "Irrational numbers (I)",
+      "Integers (Z)"
+    ],
+    "answer": 3,
+    "explanation": "A set is dense if there is always another element of the set between any two distinct elements.\n The integers (Z) are not dense, as there is no integer between 1 and 2."
+  },
+  {
+    "question": "If a is an irrational number, which of the following expressions is NOT necessarily irrational?",
+    "options": [
+      "a + 1",
+      "square root of a (if a is greater than 0)",
+      "a power 2",
+      "a / square root of 2"
+    ],
+    "answer": 2,
+    "explanation": "If a is an irrational number, a power 2 can be rational. \nFor example, if a = square root of 2, a power 2 = 2, which is rational."
+  },
+  {
+    "question": "The property a times b = b times a is called:",
+    "options": [
+      "Distributive Law",
+      "Associative Law",
+      "Commutative Law",
+      "Inverse Law"
+    ],
+    "answer": 2,
+    "explanation": "This is the commutative law of multiplication, which states that the order of the factors does not change the product."
+  },
+  {
+    "question": "If a and b are integers and a divides b, then which of the following is true?",
+    "options": [
+      "a = kb for some integer k",
+      "b = ka for some integer k",
+      "a must be smaller than b",
+      "b must be a prime number"
+    ],
+    "answer": 1,
+    "explanation": "The statement 'a divides b' is defined as b being a multiple of a, which means b = ka for some integer k."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "If x = 0.5, then the number system that x does NOT belong to is:",
+    "options": [
+      "Real numbers (R)",
+      "Rational numbers (Q)",
+      "Whole numbers (W)",
+      "Irrational numbers (I)"
+    ],
+    "answer": 2,
+    "explanation": "0.5 is rational (1/2) and real, but it is not a whole number (W) or an integer (Z) since it is not a non-negative integer."
+  },
+  {
+    "question": "Evaluate 1 / (2 power -2) + 2 power 2.",
+    "options": [
+      "4",
+      "8",
+      "1/8",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "Using the negative exponent rule 1 / (a power -n) = a power n: 1 / (2 power -2) = 2 power 2 = 4. \n\nThe expression is 4 + 2 power 2 = 4 + 4 = 8."
+  },
+  {
+    "question": "The expression cube root of (square root of x) is equivalent to:",
+    "options": [
+      "5th root of x",
+      "6th root of x",
+      "cube root of (x power 2)",
+      "x power (1/5)"
+    ],
+    "answer": 1,
+    "explanation": "Rewrite with fractional exponents: cube root of (square root of x) = (x power (1/2)) power (1/3).\n\n Using the power of a power rule: x power ((1/2) times (1/3)) = x power (1/6). This is the 6th root of x."
+  },
+  {
+    "question": "If an integer is divisible by both 4 and 6, it must also be divisible by:",
+    "options": [
+      "10",
+      "12",
+      "16",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "A number divisible by both 4 and 6 must be a multiple of their Least Common Multiple (LCM).\n LCM(4, 6) = 12."
+  },
+  {
+    "question": "The simplest radical form of cube root of 54 is:",
+    "options": [
+      "2 cube root of 27",
+      "3 cube root of 2",
+      "2 cube root of 3",
+      "27 cube root of 2"
+    ],
+    "answer": 1,
+    "explanation": "Find the largest perfect cube factor of 54: 54 = 27 times 2.\n\n cube root of 54 = cube root of (27 times 2) = cube root of 27 times cube root of 2 = 3 cube root of 2."
+  },
+
+  {
+    "question": "Which of the following describes the set of all integers (Z) that satisfy x power 2 is less than 16?",
+    "options": [
+      "[-4, 4]",
+      "(-4, 4)",
+      "{-3, -2, -1, 0, 1, 2, 3}",
+      "{-4, -3, -2, -1, 0, 1, 2, 3, 4}"
+    ],
+    "answer": 2,
+    "explanation": "The inequality x power 2 is less than 16 is equivalent to -4 is less than x is less than 4. \n\nThe integers in this open interval are -3, -2, -1, 0, 1, 2, 3."
+  },
+  {
+    "question": "The number 0.123456789101112... (non-repeating sequence of counting numbers) is:",
+    "options": [
+      "Rational",
+      "Irrational",
+      "An integer",
+      "A terminating decimal"
+    ],
+    "answer": 1,
+    "explanation": "The decimal is non-terminating and non-repeating because the sequence of digits is simply the sequence of integers, which does not form a repeating block. \nTherefore, it is irrational."
+  },
+  {
+    "question": "If 7 power x = 1, the value of x is:",
+    "options": [
+      "7",
+      "1",
+      "0",
+      "-1"
+    ],
+    "answer": 2,
+    "explanation": "Any non-zero number raised to the power of 0 is 1. x = 0."
+  },
+
+  {
+    "question": "What is the largest integer whose square is less than 50?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "We need n power 2 is less than 50. 7 power 2 = 49 (which is less than 50). 8 power 2 = 64 (which is not less than 50). The largest integer is 7."
+  },
+  {
+    "question": "The operation a times (b + c) = a times b + a times c is true for which number system?",
+    "options": [
+      "Natural numbers (N) only",
+      "Rational numbers (Q) only",
+      "Integers (Z) only",
+      "All Real numbers (R)"
+    ],
+    "answer": 3,
+    "explanation": "The distributive property holds true for the entire set of real numbers (R), which includes N, Z, and Q."
+  },
+  {
+    "question": "Which of the following rational numbers is between 1/4 and 1/3?",
+    "options": [
+      "1/2",
+      "2/5",
+      "7/24",
+      "4/5"
+    ],
+    "answer": 2,
+    "explanation": "The range is 0.25 to 0.333... . 1/2=0.5. 2/5=0.4. 7/24 approximately 0.2916 (lies in the range). 4/5=0.8."
+  },
+  {
+    "question": "If a and b are real numbers and a > b, then which inequality is always true?",
+    "options": [
+      "a power 2 > b power 2",
+      "1/a < 1/b",
+      "a + c > b + c for any real number c",
+      "ac > bc for any real number c"
+    ],
+    "answer": 2,
+    "explanation": "Adding the same real number c to both sides of an inequality does not change its direction. \n\nThe other options depend on the signs of a, b, or c."
+  },
+  {
+    "question": "What is the value of 0 power 0 in mathematics?",
+    "options": [
+      "0",
+      "1",
+      "Undefined",
+      "Infinity"
+    ],
+    "answer": 2,
+    "explanation": "0 power 0 is an indeterminate form. In most contexts of number systems and introductory calculus, it is considered undefined."
+  },
+  {
+    "question": "The property a + b = b + a is called the:",
+    "options": [
+      "Associative Law of Addition",
+      "Commutative Law of Addition",
+      "Distributive Law",
+      "Identity Law of Addition"
+    ],
+    "answer": 1,
+    "explanation": "The commutative law of addition states that the order of the terms does not change the sum."
+  },
+
+  {
+    "question": "What is the simplest form of absolute value of (x - 3) if x is less than 3?",
+    "options": [
+      "x - 3",
+      "3 - x",
+      "absolute value of x - 3",
+      "x + 3"
+    ],
+    "answer": 1,
+    "explanation": "If x is less than 3, then x - 3 is negative.\n\n The absolute value of a negative number is its opposite: -(x - 3) = 3 - x."
+  }
+  ]

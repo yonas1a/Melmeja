@@ -1,0 +1,58 @@
+[
+{
+  "question": " Three open cylindrical containers, 1, 2, and 3, of the same height but different base areas are filled totally with the same liquid as shown in the figure below.\n\nIf P₁ is the pressure at the bottom of container 1, P₂ is the pressure at the bottom of container 2, and P₃ is the pressure at the bottom of container 3, then",
+  "options": [
+    "P₃ > P₁ > P₂",
+    "P₂ > P₁ > P₃",
+    "P₁ = P₂ = P₃",
+    "P₁ > P₂ > P₃"
+  ],
+  "answer": 2,
+  "explanation": "Hydrostatic pressure at depth h is given by P = ρgh. \n\nSince all three containers have the same liquid density (ρ) and equal height (h), the pressure at the bottom depends only on depth, not the base area or volume.\n\n Thus, P₁ = P₂ = P₃.",
+  "image": "images/P2018R2_14.png"
+},
+{
+"question": " A solid sphere of 50 cm³ is totally submerged in a liquid of density 930 kg/m³. What is the magnitude of the buoyant force exerted on the sphere?",
+"options": [
+"4.65 N",
+"46.50 N",
+"4650 N",
+"0.465 N"
+],
+"answer": 3,
+"explanation": "Buoyant force F_b = ρ_liquid × V_displaced × g.\n\n Here V = 50 cm³ = 50 × 10⁻⁶ m³, ρ = 930 kg/m³, and taking g = 10 m/s² (or 9.8 m/s²),\n\n F_b = 930 × 50 × 10⁻⁶ × 10\n\n = 0.465 N."
+},
+{
+"question": " According to Bernoulli's principle",
+"options": [
+"a slowly moving fluid exerts high pressure on a surface than a fast-moving fluid.",
+"a fluid moves faster in a wider section of a pipe than in a narrower section.",
+"a fast-moving fluid exerts high pressure on a surface than a slowly moving fluid.",
+"a fluid pressure is higher at a narrower section of a pipe than at a wider section."
+],
+"answer": 0,
+"explanation": "Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in static pressure or potential energy.\n\n Thus, a slower-moving fluid exerts greater static pressure than a faster-moving fluid."
+},
+{
+"question": " Which one of the following statements is NOT the application of high-pressure systems?",
+"options": [
+"Studying physical properties of solids",
+"Inflating bicycle and car tires",
+"Using gas cylinders to seal gases",
+"Using high pressure washers to clean our body"
+],
+"answer": 3,
+"explanation": "High-pressure washers generate forces powerful enough to inflict severe skin cuts, tissue damage, and physical injury, so they are never safe to use for washing the human body."
+},
+{
+"question": " Water is flowing through a circular pipe at a flow rate of 6.28 m³/s. At one point in the pipe, the radius is 0.1 m. What is the speed of the water at this point?",
+"options": [
+"200 m/s",
+"20 m/s",
+"100 m/s",
+"1000 m/s"
+],
+"answer": 0,
+"explanation": "Volumetric flow rate Q is defined as Q = A × v = (π r²) × v.\n\n Given Q = 6.28 m³/s and\n r = 0.1 m:\n\n A = 3.14 × (0.1)² = 0.0314 m². \n\nSolving for speed v gives \nv = Q / A = \n6.28 / 0.0314 =\n 200 m/s."
+}
+]

@@ -1,0 +1,58 @@
+[
+{
+  "question": " Free fall is defined as the downward motion of an object",
+  "options": [
+    "near the surface of the Earth under the influence of air resistance.",
+    "with acceleration that depends on the mass of the object.",
+    "in free space on which no force is acting.",
+    "with acceleration which is the same as acceleration due to gravity."
+  ],
+  "answer": 3,
+  "explanation": "Free fall is the motion of an object where gravity is the only force acting upon it, resulting in an acceleration equal to the acceleration due to gravity (g), independent of the object's mass."
+},
+{
+"question": " An object initially moving with a velocity of 10 m/s decelerates uniformly and covers a distance of 30 m in 4 s. What is the magnitude of its velocity at the end of 4 s?",
+"options": [
+"15 m/s",
+"5 m/s",
+"10 m/s",
+"7.5 m/s"
+],
+"answer": 1,
+"explanation": "Using the kinematic equation for uniform acceleration that relates distance, initial velocity, final velocity, and time: d = ((v_i + v_f) / 2) × t.\n\n Substituting the given values gives 30 = ((10 + v_f) / 2) × 4.\n\n This simplifies to 30 = (10 + v_f) × 2, meaning 15 = 10 + v_f.\n\n Solving for v_f yields 5 m/s."
+},
+{
+"question": " At a certain time a particle moves with a velocity of 9.0 m/s along the positive x-axis. Then, 2.0 s later it attains a velocity of 15.0 m/s in the opposite direction. What is the average acceleration of the particle during this time interval?",
+"options": [
+"12.0 m/s² towards the positive x-axis",
+"3.0 m/s² towards the positive x-axis",
+"12.0 m/s² towards the negative x-axis",
+"3.0 m/s² towards the negative x-axis"
+],
+"answer": 2,
+"explanation": "Average acceleration is defined as a_avg = (v_final - v_initial) / Δt.\n\n Taking the positive x-axis as positive:\n\n v_initial = +9.0 m/s, and v_final = -15.0 m/s (since it is in the opposite direction). \n\nThus, a_avg = (-15.0 - 9.0) / 2.0 =\n\n -24.0 / 2.0 =\n\n -12.0 m/s², which means a magnitude of 12.0 m/s² directed towards the negative x-axis."
+},
+{
+"question": " Consider an object moving to the right initially with a non-zero constant velocity, v₁ for a time interval of t₁ started speeding up at a constant rate for a time interval of t, until its velocity is v₂. Which one of the following velocity-time graphs correctly represents the motion of the object?",
+"options": [
+"Graph A",
+"Graph B",
+"Graph C",
+"Graph D"
+],
+"answer": 1,
+"explanation": "During the first time interval t₁, the object moves with a non-zero constant velocity v₁, shown as a horizontal line segment from time 0 to t₁.\n\n Then, for the next time interval t (from t₁ to t₁ + t), it speeds up at a constant rate until its velocity reaches v₂, shown as a linear upward sloping line. \n\nThis is correctly represented by Graph B.",
+"image": "images/P2018R2_53.png"
+},
+{
+"question": " A person swings a ball that is connected to the end of a rope in a horizontal circle. If the person rotates the ball with a constant angular speed of 30 rad/s when the length of the rope is 0.80 m, how much is the centripetal acceleration of the ball?",
+"options": [
+"37.5 m/s²",
+"900 m/s²",
+"720 m/s²",
+"30 m/s²"
+],
+"answer": 1,
+"explanation": "Centripetal acceleration is given by a_c = ω² × r.\n\n-> Given angular speed ω = 30 rad/s and\n radius r = 0.80 m,\n\n->  a_c = (30)² × 0.80 = \n\n900 × 0.80 =\n 720 m/s²."
+}
+]

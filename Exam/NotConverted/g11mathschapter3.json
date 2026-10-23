@@ -1,0 +1,702 @@
+[
+  {
+    "question": "What is the order of a matrix with 3 rows and 4 columns?",
+    "options": ["3×4", "4×3", "7×1", "1×7"],
+    "answer": 0,
+    "explanation": "The order of a matrix is given by rows × columns, so it is 3×4."
+  },
+  {
+    "question": "If A is a 2×3 matrix and B is a 3×2 matrix, what is the order of AB?",
+    "options": [ "3×3", "2×3","2×2", "3×2"],
+    "answer": 2,
+    "explanation": "Matrix multiplication results in a matrix with dimensions of rows of A and columns of B, so 2×2."
+  },
+
+
+  {
+    "question": "What is the transpose of matrix [[1,2],[3,4]]?",
+    "options": [ "[[4,3],[2,1]]","[[1,3],[2,4]]", "[[1,2],[3,4]]", "[[2,1],[4,3]]"],
+    "answer": 1,
+    "explanation": "Transpose is formed by interchanging rows and columns."
+  },
+
+  {
+    "question": "What is the determinant of [[a,b],[c,d]]?",
+    "options": [ "ab - cd", "ac - bd", "ad + bc","ad - bc"],
+    "answer": 3,
+    "explanation": "Determinant of 2×2 matrix is ad - bc."
+  },
+
+  {
+    "question": "A matrix with all elements zero is called?",
+    "options": [ "Unit matrix", "Diagonal matrix","Zero matrix", "Scalar matrix"],
+    "answer": 2,
+    "explanation": "All entries are zero in a zero matrix."
+  },
+  {
+    "question": "What is the inverse of identity matrix?",
+    "options": ["Identity matrix", "Zero matrix", "Transpose", "None"],
+    "answer": 0,
+    "explanation": "Identity matrix is its own inverse."
+  },
+  {
+    "question": "If det(A) = 0, matrix A is?",
+    "options": ["Singular", "Non-singular", "Identity", "Diagonal"],
+    "answer": 0,
+    "explanation": "If determinant is zero, matrix is singular."
+  },
+
+
+
+  {
+    "question": "What is the determinant of identity matrix?",
+    "options": [ "0","1", "Depends", "n"],
+    "answer": 1,
+    "explanation": "Determinant of identity matrix is always 1."
+  },
+  {
+    "question": "What is the transpose of identity matrix?",
+    "options": [ "Zero matrix", "Inverse matrix","Same matrix", "None"],
+    "answer": 2,
+    "explanation": "Transpose of identity matrix is itself."
+  },
+
+  {
+    "question": "Matrix addition is possible when?",
+    "options": [ "Same determinant", "Square matrices","Same order", "Always"],
+    "answer": 2,
+    "explanation": "Matrices must have same dimensions."
+  },
+  {
+    "question": "What is A + 0?",
+    "options": [ "0", "I", "A²","A"],
+    "answer": 3,
+    "explanation": "Adding zero matrix gives same matrix."
+  },
+  {
+    "question": "What is A - A?",
+    "options": ["Zero matrix", "Identity", "A", "Inverse"],
+    "answer": 0,
+    "explanation": "Subtracting same matrix gives zero matrix."
+  },
+
+  {
+    "question": "If A = [[1,2],[3,4]] and B = [[5,6],[7,8]], find A+B.",
+    "options": ["[[6,8],[10,12]]", "[[5,6],[7,8]]", "[[1,2],[3,4]]", "[[6,6],[10,10]]"],
+    "answer": 0,
+    "explanation": "Add corresponding elements."
+  },
+  {
+    "question": "If A is 2×3 and B is 2×3, what is A+B?",
+    "options": [ "3×2 matrix", "Not defined", "Scalar","2×3 matrix"],
+    "answer": 3,
+    "explanation": "Same order matrices can be added."
+  },
+
+
+
+  {
+    "question": "If A is 2×3 and B is 3×4, order of AB?",
+    "options": [ "3×3","2×4", "4×2", "2×3"],
+    "answer": 1,
+    "explanation": "Result is rows of A × columns of B."
+  },
+  {
+    "question": "Which is not generally true?",
+    "options": [ "A(B+C)=AB+AC", "(AB)C=A(BC)", "A(I)=A","AB = BA"],
+    "answer": 3,
+    "explanation": "Matrix multiplication is not commutative."
+  },
+
+  {
+    "question": "What is adjoint of matrix?",
+    "options": ["Transpose of cofactor matrix", "Inverse", "Determinant", "Zero matrix"],
+    "answer": 0,
+    "explanation": "Adjoint is transpose of cofactor matrix."
+  },
+  {
+    "question": "Formula for inverse of matrix?",
+    "options": [ "det(A)/adj(A)", "A²","adj(A)/det(A)", "None"],
+    "answer": 2,
+    "explanation": "Inverse = adj(A)/det(A)."
+  },
+
+  {
+    "question": "If det(A)=2, what is det(2A) for 2×2 matrix?",
+    "options": [ "4","8", "2", "16"],
+    "answer": 1,
+    "explanation": "det(kA)=k^n det(A); here n=2 → 2²×2=\n8."
+  },
+  {
+    "question": "If det(A)=5, what is det(Aᵀ)?",
+    "options": [ "0", "5","-5", "25"],
+    "answer": 1,
+    "explanation": "Determinant of transpose equals determinant."
+  },
+  {
+    "question": "What is rank of identity matrix of order n?",
+    "options": ["n", "0", "1", "n-1"],
+    "answer": 0,
+    "explanation": "All rows are independent."
+  },
+  {
+    "question": "If A is invertible, det(A) is?",
+    "options": ["Non-zero", "Zero", "1", "-1"],
+    "answer": 0,
+    "explanation": "Invertible matrix must have non-zero determinant."
+  },
+  {
+    "question": "If AB = I, then B is?",
+    "options": [ "Transpose", "Adjoint","Inverse of A", "Zero"],
+    "answer": 2,
+    "explanation": "Definition of inverse matrix."
+  },
+  {
+    "question": "What is symmetric matrix?",
+    "options": [ "A = -Aᵀ", "A = I","A = Aᵀ", "A = 0"],
+    "answer": 2,
+    "explanation": "Matrix equal to its transpose."
+  },
+  {
+    "question": "What is skew-symmetric matrix?",
+    "options": ["Aᵀ = -A", "Aᵀ = A", "A = I", "None"],
+    "answer": 0,
+    "explanation": "Transpose equals negative of matrix."
+  },
+
+  {
+    "question": "If A is orthogonal, then AᵀA =?",
+    "options": ["I", "0", "A", "A²"],
+    "answer": 0,
+    "explanation": "Definition of orthogonal matrix."
+  },
+  {
+    "question": "If det(A)=3, det(A⁻¹)=?",
+    "options": [ "3", "0", "9","1/3"],
+    "answer": 3,
+    "explanation": "det(A⁻¹)=\n1/det(A)."
+  },
+
+  {
+    "question": "What is row matrix?",
+    "options": [ "One column", "Square", "Zero","One row"],
+    "answer": 3,
+    "explanation": "Matrix with single row."
+  },
+  {
+    "question": "What is column matrix?",
+    "options": ["One column", "One row", "Square", "Diagonal"],
+    "answer": 0,
+    "explanation": "Matrix with single column."
+  },
+  {
+    "question": "If A is 1×n, it is?",
+    "options": [ "Column matrix","Row matrix", "Square", "Scalar"],
+    "answer": 1,
+    "explanation": "Single row."
+  },
+  {
+    "question": "If A is n×1, it is?",
+    "options": [ "Row matrix","Column matrix", "Square", "Identity"],
+    "answer": 1,
+    "explanation": "Single column."
+  },
+
+
+
+
+
+
+    {
+      "question": "If A is invertible, which is true?",
+      "options": ["AA⁻¹ = I", "A + A⁻¹ = I", "A² = I", "det(A)=0"],
+      "answer": 0,
+      "explanation": "Definition of inverse matrix."
+    },
+    {
+      "question": "If det(A) = -2, what is det(3A) for 2×2 matrix?",
+      "options": ["-18", "-6", "-12", "6"],
+      "answer": 0,
+      "explanation": "det(kA)=k^n det(A); here n=2 \n→ 3²×(-2) = -18."
+    },
+    {
+      "question": "Which operation does not change determinant?",
+      "options": [ "Interchanging rows", "Multiplying row by scalar", "All change","Adding multiple of one row to another"],
+      "answer": 3,
+      "explanation": "Row replacement does not change determinant."
+    },
+    {
+      "question": "If two rows of a matrix are equal, determinant is?",
+      "options": [ "1", "-1", "Undefined","0"],
+      "answer": 3,
+      "explanation": "Equal rows ⇒ determinant is zero."
+    },
+    {
+      "question": "If A is singular, then rank(A) is?",
+      "options": [ "Equal to order","Less than order", "Zero", "1"],
+      "answer": 1,
+      "explanation": "Singular matrix has determinant zero, so rank < order."
+    },
+    {
+      "question": "What is the rank of zero matrix?",
+      "options": [ "1", "n", "0","Undefined"],
+      "answer": 2,
+      "explanation": "No non-zero rows."
+    },
+    {
+      "question": "If A is 2×2 and det(A)=0, inverse exists?",
+      "options": [ "Yes", "Always", "Sometimes","No"],
+      "answer": 3,
+      "explanation": "Inverse exists only if determinant ≠ 0."
+    },
+    {
+      "question": "If A = [[1,2],[2,4]], rank of A?",
+      "options": ["1", "2", "0", "Undefined"],
+      "answer": 0,
+      "explanation": "Rows are linearly dependent."
+    },
+
+    {
+      "question": "If A is skew-symmetric, what is Aᵀ?",
+      "options": ["-A", "A", "I", "0"],
+      "answer": 0,
+      "explanation": "Definition of skew-symmetric matrix."
+    },
+    {
+      "question": "If A is symmetric, then Aᵀ =?",
+      "options": [ "-A", "I", "0","A"],
+      "answer": 3,
+      "explanation": "Symmetric matrix equals its transpose."
+    },
+    {
+      "question": "Which matrix satisfies AᵀA = I?",
+      "options": ["Orthogonal matrix", "Diagonal matrix", "Scalar matrix", "Zero matrix"],
+      "answer": 0,
+      "explanation": "Definition of orthogonal matrix."
+    },
+    {
+      "question": "If A is orthogonal, then A⁻¹ =?",
+      "options": [ "-A","Aᵀ", "I", "A"],
+      "answer": 1,
+      "explanation": "Inverse of orthogonal matrix is its transpose."
+    },
+    {
+      "question": "If det(A)=4, det(A⁻¹)=?",
+      "options": ["1/4", "4", "0", "16"],
+      "answer": 0,
+      "explanation": "det(A⁻¹)=1/det(A)."
+    },
+    {
+      "question": "If A is 3×3, det(Aᵀ) equals?",
+      "options": [ "-det(A)", "0", "det(A²)","det(A)"],
+      "answer": 3,
+      "explanation": "Determinant of transpose equals determinant."
+    },
+    {
+      "question": "If det(A)=0, system AX=0 has?",
+      "options": ["Non-trivial solutions", "Only trivial solution", "No solution", "Unique solution"],
+      "answer": 0,
+      "explanation": "Singular matrix gives non-trivial solutions."
+    },
+    {
+      "question": "If AX=0 has only trivial solution, A is?",
+      "options": [ "Singular", "Zero", "Non-singular","Diagonal"],
+      "answer": 2,
+      "explanation": "Only trivial solution implies det(A) ≠ 0."
+    },
+    {
+      "question": "If A is 2×2, det(A)=ad-bc, where?",
+      "options": [ "A=[[a,c],[b,d]]", "A=[[d,c],[b,a]]","A=[[a,b],[c,d]]", "None"],
+      "answer": 2,
+      "explanation": "Standard determinant form."
+    },
+    {
+      "question": "If A = [[2,0],[0,3]], det(A)?",
+      "options": [ "5", "0", "3","6"],
+      "answer": 3,
+      "explanation": "Product of diagonal elements."
+    },
+
+    {
+      "question": "What is inverse of [[a,0],[0,b]]?",
+      "options": ["[[1/a,0],[0,1/b]]", "[[a,0],[0,b]]", "[[b,0],[0,a]]", "[[0,1],[1,0]]"],
+      "answer": 0,
+      "explanation": "Inverse of diagonal matrix is reciprocal of elements."
+    },
+
+    {
+      "question": "If A and B are matrices, (AB)ᵀ =?",
+      "options": [ "AᵀBᵀ", "AB", "BA","BᵀAᵀ"],
+      "answer": 3,
+      "explanation": "Transpose reverses order."
+    },
+    {
+      "question": "If A is invertible, (Aᵀ)⁻¹ =?",
+      "options": [ "A⁻¹", "Aᵀ", "(A⁻¹)ᵀ","I"],
+      "answer": 2,
+      "explanation": "Property of transpose and inverse."
+    },
+    {
+      "question": "If A is square, det(A²) =?",
+      "options": ["(det A)²", "det A", "2det A", "0"],
+      "answer": 0,
+      "explanation": "Property of determinant."
+    },
+
+    {
+      "question": "If A is invertible, det(A) ≠?",
+      "options": ["0", "1", "-1", "n"],
+      "answer": 0,
+      "explanation": "Non-zero determinant required."
+    },
+
+    {
+      "question": "If A is n×n, number of cofactors?",
+      "options": [ "n", "2n","n²", "n³"],
+      "answer": 2,
+      "explanation": "Each element has a cofactor."
+    },
+
+    {
+      "question": "If A is singular, adj(A) is?",
+      "options": ["May be non-zero", "Zero always", "Identity", "Inverse"],
+      "answer": 0,
+      "explanation": "Adjoint can exist even if inverse doesn't."
+    },
+    {
+      "question": "If rank(A)=n, matrix is?",
+      "options": [ "Singular", "Zero", "Diagonal","Non-singular"],
+      "answer": 3,
+      "explanation": "Full rank ⇒ invertible."
+    },
+    {
+      "question": "If rank(A)<n, matrix is?",
+      "options": ["Singular", "Non-singular", "Identity", "Orthogonal"],
+      "answer": 0,
+      "explanation": "Less rank ⇒ determinant zero."
+    },
+    {
+      "question": "If A is 3×3, maximum rank?",
+      "options": ["3", "2", "1", "0"],
+      "answer": 0,
+      "explanation": "Rank ≤ min(rows, columns)."
+    },
+    {
+      "question": "If A is 4×3, max rank?",
+      "options": [ "4","3", "2", "1"],
+      "answer": 1,
+      "explanation": "Rank ≤ 3."
+    },
+    {
+      "question": "If determinant is zero, matrix is?",
+      "options": ["Singular", "Orthogonal", "Identity", "Diagonal"],
+      "answer": 0,
+      "explanation": "Definition of singular matrix."
+    },
+
+      {
+        "question": "What does the order of a matrix represent?",
+        "options": ["Number of rows and columns", "Sum of elements", "Determinant value", "Diagonal elements"],
+        "answer": 0,
+        "explanation": "The order of a matrix is defined by the number of rows and columns."
+      },
+      {
+        "question": "A matrix is called rectangular when:",
+        "options": [ "Rows = columns", "All elements are zero", "Diagonal elements only","Rows ≠ columns"],
+        "answer": 3,
+        "explanation": "Rectangular matrices have different number of rows and columns."
+      },
+      {
+        "question": "Which matrix always has determinant equal to 1?",
+        "options": ["Identity matrix", "Zero matrix", "Diagonal matrix", "Singular matrix"],
+        "answer": 0,
+        "explanation": "Identity matrix always has determinant 1."
+      },
+      {
+        "question": "Which condition makes a matrix non-invertible?",
+        "options": [ "Determinant is 1", "Matrix is square","Determinant is zero", "Matrix is diagonal"],
+        "answer": 2,
+        "explanation": "A matrix is non-invertible if its determinant is zero."
+      },
+      {
+        "question": "What is the main requirement for matrix addition?",
+        "options": [ "Same determinant", "Square matrices only","Same dimensions", "Equal values"],
+        "answer": 2,
+        "explanation": "Only matrices with same order can be added."
+      },
+      {
+        "question": "Matrix multiplication is defined when:",
+        "options": [ "Rows are equal","Columns of first = rows of second", "Determinants are equal", "Both are square"],
+        "answer": 1,
+        "explanation": "Multiplication requires matching inner dimensions."
+      },
+      {
+        "question": "Which operation is generally NOT commutative in matrices?",
+        "options": [ "Addition", "Subtraction", "Scalar multiplication","Multiplication"],
+        "answer": 3,
+        "explanation": "Matrix multiplication is not commutative in general."
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "question": "What is the identity matrix role in multiplication?",
+        "options": [ "Becomes zero", "Changes order","Leaves matrix unchanged", "Inverts matrix"],
+        "answer": 2,
+        "explanation": "Multiplying by identity keeps matrix unchanged."
+      },
+      {
+        "question": "A zero matrix acts as:",
+        "options": [ "Multiplicative identity", "Inverse", "Transpose","Additive identity"],
+        "answer": 3,
+        "explanation": "Adding zero matrix does not change a matrix."
+      },
+      {
+        "question": "A square matrix must have:",
+        "options": [ "Only one row","Equal rows and columns", "Only one column", "Zero determinant"],
+        "answer": 1,
+        "explanation": "Square matrices have same number of rows and columns."
+      },
+
+      {
+        "question": "What does a diagonal matrix contain outside the diagonal?",
+        "options": [ "Only ones","Only zeros", "Random values", "Equal values"],
+        "answer": 1,
+        "explanation": "All non-diagonal elements are zero."
+      },
+      {
+        "question": "A scalar matrix is a diagonal matrix where:",
+        "options": ["All diagonal elements are equal", "All elements are zero", "All elements are one", "No zeros exist"],
+        "answer": 0,
+        "explanation": "Scalar matrix has equal diagonal entries."
+      },
+      {
+        "question": "Transpose of a matrix is obtained by:",
+        "options": ["Interchanging rows and columns", "Changing sign of elements", "Multiplying by inverse", "Adding identity"],
+        "answer": 0,
+        "explanation": "Rows become columns and vice versa."
+      },
+      {
+        "question": "Which matrix is equal to its transpose?",
+        "options": [ "Skew-symmetric matrix", "Zero matrix only","Symmetric matrix", "Identity only"],
+        "answer": 2,
+        "explanation": "A symmetric matrix satisfies A = Aᵀ."
+      },
+      {
+        "question": "A skew-symmetric matrix satisfies:",
+        "options": [ "Aᵀ = A", "A = I", "A = 0 always","Aᵀ = -A"],
+        "answer": 3,
+        "explanation": "Definition of skew-symmetric matrix."
+      },
+
+      {
+        "question": "What is the transpose of identity matrix?",
+        "options": ["Identity matrix itself", "Zero matrix", "Scalar matrix", "Inverse matrix"],
+        "answer": 0,
+        "explanation": "Identity matrix remains unchanged after transpose."
+      },
+      {
+        "question": "What type of matrix has only one row?",
+        "options": ["Row matrix", "Column matrix", "Square matrix", "Diagonal matrix"],
+        "answer": 0,
+        "explanation": "A row matrix has exactly one row."
+      },
+      {
+        "question": "What type of matrix has only one column?",
+        "options": [ "Row matrix","Column matrix", "Square matrix", "Scalar matrix"],
+        "answer": 1,
+        "explanation": "A column matrix has exactly one column."
+      },
+      {
+        "question": "Which matrix has all elements zero?",
+        "options": [ "Identity matrix", "Diagonal matrix","Zero matrix", "Scalar matrix"],
+        "answer": 2,
+        "explanation": "All entries are zero in a zero matrix."
+      },
+
+
+      {
+        "question": "A matrix is invertible when:",
+        "options": [ "Determinant = 0", "Matrix is zero","Determinant ≠ 0", "Matrix is rectangular"],
+        "answer": 2,
+        "explanation": "Only non-zero determinant matrices are invertible."
+      },
+
+      {
+        "question": "If A⁻¹ exists, then A is called:",
+        "options": [ "Singular", "Diagonal","Non-singular", "Zero matrix"],
+        "answer": 2,
+        "explanation": "Invertible matrices are non-singular."
+      },
+      {
+        "question": "Which matrix property defines orthogonal matrices?",
+        "options": [ "A + Aᵀ = I","AᵀA = I", "A² = 0", "det(A)=0"],
+        "answer": 1,
+        "explanation": "Orthogonal matrices satisfy AᵀA = I."
+      },
+
+
+      {
+        "question": "Which statement is always true?",
+        "options": [ "A = A⁻¹ always", "A + A = I","(Aᵀ)ᵀ = A", "A² = 0 always"],
+        "answer": 2,
+        "explanation": "Double transpose returns original matrix."
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "question": "Find the determinant of A = [[2,3],[1,4]].",
+          "options": ["5", "10", "11", "2"],
+          "answer": 0,
+          "explanation": "det(A) =\n (2×4) - (3×1) =\n 8 - 3 = 5."
+        },
+
+
+        {
+          "question": "Find 2A if A = [[1,3],[2,4]].",
+          "options": [ "[[1,3],[2,4]]","[[2,6],[4,8]]", "[[3,6],[4,8]]", "[[2,3],[4,6]]"],
+          "answer": 1,
+          "explanation": "Multiply each element by 2."
+        },
+        {
+          "question": "Find determinant of [[3,5],[2,7]].",
+          "options": [ "21", "10", "14","11"],
+          "answer": 3,
+          "explanation": "(3×7)-(5×2)=\n21-10=\n11."
+        },
+
+
+        {
+          "question": "Find product AB where A = [[1,2],[3,4]], B = [[2,0],[1,2]].",
+          "options": [ "[[3,2],[4,5]]","[[4,4],[10,8]]", "[[2,2],[6,6]]", "[[1,2],[3,4]]"],
+          "answer": 1,
+          "explanation": "Multiply row by column."
+        },
+        {
+          "question": "Find BA for same matrices A and B.",
+          "options": [ "[[4,4],[10,8]]", "[[2,4],[7,8]]","[[1,2],[3,4]]", "[[5,6],[7,8]]"],
+          "answer": 1,
+          "explanation": "Matrix multiplication is not commutative."
+        },
+
+        {
+          "question": "Find determinant of identity matrix [[1,0],[0,1]].",
+          "options": ["1", "0", "-1", "2"],
+          "answer": 0,
+          "explanation": "det = 1×1 - 0×0 = 1."
+        },
+        {
+          "question": "Find A⁻¹ if A = [[2,0],[0,3]].",
+          "options": [ "[[2,0],[0,3]]", "[[3,0],[0,2]]", "[[0,1],[1,0]]","[[1/2,0],[0,1/3]]"],
+          "answer": 3,
+          "explanation": "Inverse of diagonal matrix is reciprocal of diagonal entries."
+        },
+
+        {
+          "question": "Find A² where A = [[0,1],[1,0]].",
+          "options": [ "[[0,0],[0,0]]", "[[1,1],[1,1]]", "[[0,1],[1,0]]","[[1,0],[0,1]]"],
+          "answer": 3,
+          "explanation": "Swapping matrix squared gives identity."
+        },
+        {
+          "question": "Find determinant of [[4,1],[2,2]].",
+          "options": [ "8", "4","6", "2"],
+          "answer": 2,
+          "explanation": "(4×2)-(1×2)=8-2=6."
+        },
+        {
+          "question": "Find inverse of [[2,1],[5,3]] determinant first.",
+          "options": ["1", "2", "3", "0"],
+          "answer": 0,
+          "explanation": "det = (2×3)-(1×5)=6-5=1."
+        },
+        {
+          "question": "Find inverse of [[2,1],[5,3]].",
+          "options": [ "[[3,1],[5,2]]", "[[2,-1],[-5,3]]","[[3,-1],[-5,2]]", "[[1,0],[0,1]]"],
+          "answer": 2,
+          "explanation": "Inverse = [[d,-b],[-c,a]] since det=1."
+        },
+        {
+          "question": "Find A + A where A = [[2,3],[1,4]].",
+          "options": ["[[4,6],[2,8]]", "[[2,3],[1,4]]", "[[3,6],[1,4]]", "[[4,5],[6,8]]"],
+          "answer": 0,
+          "explanation": "A + A = 2A."
+        },
+
+
+        {
+          "question": "Find A⁻¹ if A = [[4,2],[2,1]] determinant first.",
+          "options": ["0", "1", "2", "4"],
+          "answer": 0,
+          "explanation": "det = (4×1)-(2×2)=4-4=0."
+        },
+
+        {
+          "question": "If A = [[a,b],[c,d]], determinant is:",
+          "options": [ "ab - cd", "ac - bd","ad - bc", "a + d"],
+          "answer": 2,
+          "explanation": "Standard formula."
+        },
+        {
+          "question": "Find determinant of [[0,2],[3,0]].",
+          "options": [ "6", "0", "3","-6"],
+          "answer": 3,
+          "explanation": "(0×0)-(2×3)= -6."
+        },
+        {
+          "question": "Find A² if A = identity matrix.",
+          "options": [ "Zero", "A itself", "2A","Identity"],
+          "answer": 3,
+          "explanation": "I² = I."
+        }
+      ]

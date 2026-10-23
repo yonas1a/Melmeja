@@ -1,0 +1,30 @@
+[
+{
+  "question": "40. A combination of logic gate is constructed from an NAND gate and an OR gate, as shown in the diagram below. The truth table for the logic circuit shown above is",
+
+  "options": [
+    {
+      "P": [0, 0, 1, 1],
+      "Q": [0, 1, 0, 1],
+      "Output": [1, 0, 0, 1]
+    },
+    {
+      "P": [0, 0, 1, 1],
+      "Q": [0, 1, 0, 1],
+      "Output": [0, 1, 1, 0]
+    },
+    {
+      "P": [0, 0, 1, 1],
+      "Q": [0, 1, 0, 1],
+      "Output": [1, 1, 1, 1]
+    },
+    {
+      "P": [0, 0, 1, 1],
+      "Q": [0, 1, 0, 1],
+      "Output": [1, 1, 0, 1]
+    }
+  ],
+  "answer": 2,
+  "explanation": "The logical expression for the circuit is $Y = P + (\\overline{P \\cdot Q})$, where the NAND gate output is $\\overline{P \\cdot Q}$, and the OR gate combines $P$ and the NAND output.\n\nApplying the truth table:\n* **P=0, Q=0:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=0, Q=1:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=1, Q=0:** NAND output is 1. OR output is $1 + 1 = 1$.\n* **P=1, Q=1:** NAND output is 0. OR output is $1 + 0 = 1$.\n\nThe final output is always **1** (True), which corresponds to the truth table in **Option C** ."
+}
+]

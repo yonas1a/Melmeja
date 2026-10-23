@@ -1,0 +1,183 @@
+{
+  "id": "m2015_g9_merged_melmeja",
+  "title": "Mathematics Grade 9 Practice Questions 2015 (7 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Combined 7 chapter files (M2015_G9U1.json, M2015_G9U2.json, M2015_G9U3.json, M2015_G9U4.json, M2015_G9U5.json, M2015_G9U6.json, M2015_G9U7.json) into one exam. 10 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 10,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2015",
+    "Grade 9",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_m2015_g9u1_melmeja_1",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which of the following defines a prime number?",
+      "options": [
+        "It is a number whose only factor is itself.",
+        "It is a number that has only two positive factors.",
+        "It is a number whose only factor is 1.",
+        "It is a number that has more than two positive factors."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A prime number is a natural number greater than 1 that has exactly two distinct positive divisors (or factors): 1 and itself.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_2",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which of the following rational numbers is written in its standard form?",
+      "options": [
+        "5 x 10⁵",
+        "0.09 x 10⁵",
+        "0.8 x 10²",
+        "10.1 x 10⁻²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A number is in standard form (scientific notation) if it is written as a × 10ⁿ, where 1 ≤ a < 10 and n is an integer.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_3",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x in the equation √(125ˣ5²ˣ⁻¹)= 25³ˣ⁺¹?",
+      "options": [
+        "5/7",
+        "5",
+        "-5/7",
+        "-5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Combine under the square root: √(125ˣ × 5²ˣ⁻¹) = (125ˣ × 5²ˣ⁻¹)^(1/2) \n\n= 5^((3x + 4x - 2)/2) = 5^(7x/2 - 1).\n\n Right-hand side: 25^(3x+1) = 5^(6x + 2).\n\n Equate exponents: 7x/2 - 1 = 6x + 2 \n→ x = 5/7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_4",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the equation 3|2x - 4| = 6 - 2|1 - 5x| is",
+      "options": [
+        "{-1, 1/2}",
+        "{}",
+        "{-1, 1/2, 5/4}",
+        "{1/2, 5/4}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3|2x-4| = 6 - 2|1-5x|,\n\n6|x-2| = 6 - 2|1-5x|\n\n3|x-2| + |1-5x| = 3\n\nCheck intervals x < 1/5, 1/5 ≤ x < 2, x ≥ 2\n\nNo interval gives a valid solution\n\nSolution set = {}",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_5",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Given A = {x ∈ ℕ: x < 3} and B is the set of all possible factors of 13. Then which one of the following is equal to B x A?",
+      "options": [
+        "{(1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (13, 2)}",
+        "{(1, 1), (1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (2,1), (1, 13), (2, 13)}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = {1, 2}  B = {1, 13}.\n\n B × A = {(1,1), (1,2), (13,1), (13,2)}. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_6",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true about f(x) = x² - 6x + 10?",
+      "options": [
+        "The vertex of the graph of f is (3, 1).",
+        "The graph of f opens downward.",
+        "The line x = 1 is the axis of symmetry of the graph of f.",
+        "f(x) ≥ 2 for all x in the domain of f."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The function f(x) = x² − 6x + 10 is a quadratic with a positive coefficient of x², so its graph opens upward.\n\n The vertex of a quadratic function f(x) = ax² + bx + c occurs at x = −b/(2a).\n\n Here, a = 1 and b = −6, so x = 6/2 = 3.\n\n Substituting x = 3 into f(x) gives f(3) = 9 − 18 + 10 = 1, so the vertex is (3, 1).\n\n Therefore, the statement that the vertex of the graph is (3, 1) is true.\n\n ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_7",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "What is the area of a regular hexagon inscribed in a circle of radius 6cm?",
+      "options": [
+        "36√3 cm²",
+        "48 cm²",
+        "54√3 cm²",
+        "48√3 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The general formula for the area of a regular polygon with n sides and circumradius R is: \n Area = 1/2 × n × R² × sin(2π/n)\n\nFor a hexagon, n = 6 and R = 6 cm:\n\nArea = 1/2 × 6 × 6² × sin(2π/6)\nArea = 3 × 36 × sin(π/3)\nArea = 108 × (√3 / 2)\nArea = 54√3 cm² ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_8",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "A 20m high building casts a shadow of 4m, at the same time a 35m tree casts a shadow of x m. What is the value of x?",
+      "options": [
+        "15m",
+        "7m",
+        "11m",
+        "8m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This problem uses similar triangles based on the principle that at the same time, the ratio of an object's height to its shadow length is constant.\n\n(Height of Building) / (Shadow of Building) = (Height of Tree) / (Shadow of Tree)\n\n20 / 4 = 35 / x\n\n5 = 35 / x\n\nx = 35 / 5\n\nx = 7\n\nSo, the length of the tree's shadow is 7m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_9",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "The histogram below shows the recorded temperature (in degrees C) of a certain town in Ethiopia for the first 12 days of March 2023. Then which one of the following statement is true about the data represented by the histogram?",
+      "options": [
+        "For 45 percent of the days, the temperature was more than 19 degrees C.",
+        "The highest frequency is 3.",
+        "The mode of the data is 22 degrees C.",
+        "The temperature was 24 degrees C for two days."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g9u1_melmeja_10",
+      "examId": "m2015_g9_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A car started moving 9km to the East and then 4km towards North  and then 12km towards West to reach its destination. How far the car travelled from its starting point?",
+      "options": [
+        "5km",
+        "4km",
+        "12km",
+        "25km"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": " displacement = √(-3)² + (4)² =\n √(9 + 16) = \n√25 = \n5 km.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which one of the following statements is correct about critical and boiling points of a substance?",
+    "options": [
+      "The critical point and the boiling point of a substance occur at the same specific temperature and pressure.",
+      "Both critical temperature and boiling point of a substance can be increased or decreased based on the pressure of the surrounding",
+      "The boiling point of a substance can different based on the pressure of the surroundings where as critical point occurs at one specific pressure and temperature",
+      "The critical temperature of a substance can be increased or decreased based on the pressure of the surrounding, whereas boiling point does not vary with the pressure of the surrounding."
+    ],
+    "answer": 2,
+    "explanation": "The boiling point of a substance depends on the external pressure. \n\nIt increases with higher pressure and decreases with lower pressure. \n\nThe critical point, however, is a fixed temperature and pressure specific to each substance, above which the liquid and gas phases cannot be distinguished."
+  },
+  {
+    "question": "An ideal monoatomic gas expands adiabatically from an initial volume of 2 liters at a temperature of 300 K to 16 liters of volume. What is the final temperature of the gas? (Use the ratio of specific heat capacity at constant pressure to that at constant volume to be  = 5/3.)",
+    "options": [
+      "37.5 k",
+      "75 k",
+      "2400 k",
+      "1200 k"
+    ],
+    "answer": 1,
+    "explanation": "For an adiabatic process of an ideal gas, the relation between temperature and volume is:\n\nT₁ V₁^(γ−1) = T₂ V₂^(γ−1)\n\nGiven:\\nT₁ = 300 K, V₁ = 2 L, V₂ = 16 L, γ = 5/3\n\nγ − 1 = 5/3 − 1 = 2/3\n\nSo T₂ = T₁ (V₁ / V₂)^(2/3)\n\nT₂ = 300 × (2 / 16)^(2/3) = 300 × (1/8)^(2/3)\n\n(1/8)^(2/3) = (1/2)² = 1/4\n\nT₂ = 300 × 1/4 = 75 K\n\nTherefore, the final temperature of the gas is 75 K."
+  }
+]

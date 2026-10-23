@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which of the following functions is one to one?",
+    "options": [
+      "f = {(x, y): y is the mother of x}",
+      "f: R → R, f(x) = x² − 1",
+      "f: (0, ∞) → R, f(x) = |x| − 1",
+      "f = {(1,5), (2,3), (5,4), (6,5)}"
+    ],
+    "answer": 0,
+    "explanation": "A one to one function assigns different outputs for different inputs.\n\n Option A represents the relation 'y is the mother of x', which is one to one because each person has exactly one biological mother, and one mother cannot be the mother of two different people in the function sense."
+  },
+  {
+    "question": "The domain of the function f(x) = 2x²⁄³ is",
+    "options": [
+      "(0, 2)",
+      "ℝ",
+      "[0, ∞)",
+      "ℝ \\ {0}"
+    ],
+    "answer": 1,
+    "explanation": "The function is f(x) = 2x²⁄³. This can be rewritten using radical notation as f(x) = ∛2x².\n\n The term ∛2x² involves a cube root, which is defined for all real numbers, and squaring x (which is also defined for all real numbers).\n\n There are no restrictions (like division by zero or taking the square root of a negative number) on the input x.\n\n Therefore, the domain of the function is all Real Numbers (R)."
+  }
+]

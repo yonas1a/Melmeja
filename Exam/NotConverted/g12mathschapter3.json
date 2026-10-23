@@ -1,0 +1,1136 @@
+[
+  {
+    "question": "If a distribution has a long tail to the right, how will the mean compare to the median?",
+    "options": [
+      "Mean < Median",
+      "Mean > Median",
+      "Mean = Median",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "Positive skew: mean > median."
+  },
+  {
+    "question": "In a symmetric frequency curve, what relationship holds among mean, median, and mode?",
+    "options": [
+      "Mean > Median > Mode",
+      "Mean = Median = Mode",
+      "Mean < Median < Mode",
+      "Mean = Mode > Median"
+    ],
+    "answer": 1,
+    "explanation": "All three are equal in symmetry."
+  },
+  {
+    "question": "The main advantage of stratified sampling is that it:",
+    "options": [
+      "Reduces bias",
+      "Increases error",
+      "Ignores population structure",
+      "Uses fewer samples always"
+    ],
+    "answer": 0,
+    "explanation": "Stratified sampling ensures representation."
+  },
+  {
+    "question": "Calculate the standard deviation if variance = 49.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "SD = √49 = 7."
+  },
+
+  {
+    "question": "The mean deviation of a data set about the mean is required. Given the data: 4, 6, 8, 10, 12, find the mean deviation.",
+    "options": [
+
+      "2",
+      "2.4",
+      "3",
+      "1.6"
+    ],
+    "answer": 1,
+    "explanation": "Mean = 8.\n Deviations: 4,2,0,2,4 → \naverage = 12/5 = 2.4."
+  },
+  {
+    "question": "Find the variance of the data set: 2, 4, 6, 8.",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Mean = 5. \nSquared deviations: 9,1,1,9 →\n average = 20/4 = 5."
+  },
+  {
+    "question": "Calculate the standard deviation of the data set: 3, 7, 7, 7, 11.",
+    "options": [
+
+      "2",
+      "3",
+      "2.83",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Mean = 7.\n Variance = 8 →\n SD = √8 ≈ 2.83."
+  },
+  {
+    "question": "A distribution has quartiles Q1 = 10 and Q3 = 30. Calculate the interquartile range.",
+    "options": [
+
+      "10",
+      "30",
+      "40",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "IQR = Q3 - Q1 \n= 30 - 10 = 20."
+  },
+  {
+    "question": "Given two data sets with the same mean, the one with higher standard deviation indicates:",
+    "options": [
+      "More dispersion",
+      "Less dispersion",
+      "No dispersion",
+      "Equal dispersion"
+    ],
+    "answer": 0,
+    "explanation": "Higher SD means data are more spread out."
+  },
+  {
+    "question": "Coefficient of variation is defined as:",
+    "options": [
+
+      "Mean / Standard deviation",
+      "Variance / Mean",
+      "Mean × Standard deviation",
+      "(Standard deviation / Mean) × 100"
+    ],
+    "answer": 3,
+    "explanation": "CV = (SD/Mean) × 100."
+  },
+  {
+    "question": "If the coefficient of variation of a data set is 20% and mean is 50, find the standard deviation.",
+    "options": [
+
+      "5",
+      "20",
+      "10",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "SD = (CV × mean)/100 =\n (20×50)/100 = 10."
+  },
+  {
+    "question": "Which of the following is an absolute measure of dispersion?",
+    "options": [
+      "Standard deviation",
+      "Coefficient of variation",
+      "Correlation coefficient",
+      "Index number"
+    ],
+    "answer": 0,
+    "explanation": "Standard deviation is absolute; CV is relative."
+  },
+  {
+    "question": "The range is most affected by:",
+    "options": [
+      "Extreme values",
+      "Middle values",
+      "Mean",
+      "Median"
+    ],
+    "answer": 0,
+    "explanation": "Range depends only on min and max values."
+  },
+
+  {
+    "question": "In a frequency distribution, the smooth curve drawn through histogram bars is known as:",
+    "options": [
+
+      "Ogive",
+      "Frequency curve",
+      "Bar graph",
+      "Pie chart"
+    ],
+    "answer": 1,
+    "explanation": "A smooth curve representing frequencies is called frequency curve."
+  },
+  {
+    "question": "A positively skewed frequency curve has:",
+    "options": [
+
+      "Long tail to the left",
+      "Long tail to the right",
+      "Symmetrical shape",
+      "No tail"
+    ],
+    "answer": 1,
+    "explanation": "Positive skew → right tail longer."
+  },
+  {
+    "question": "In a negatively skewed distribution, the mean is:",
+    "options": [
+
+      "Greater than median",
+      "Equal to median",
+      "Zero",
+      "Less than median"
+    ],
+    "answer": 3,
+    "explanation": "Mean < median in negative skew."
+  },
+  {
+    "question": "Which measure is best for comparing variability between two data sets?",
+    "options": [
+
+      "Range",
+      "Variance",
+      "Mean",
+      "Coefficient of variation"
+    ],
+    "answer": 3,
+    "explanation": "CV allows comparison across datasets."
+  },
+  {
+    "question": "A sample is defined as:",
+    "options": [
+
+      "Entire population",
+      "Subset of population",
+      "Random variable",
+      "Frequency distribution"
+    ],
+    "answer": 1,
+    "explanation": "Sample is a part of population."
+  },
+  {
+    "question": "Simple random sampling ensures:",
+    "options": [
+      "Equal chance of selection",
+      "Biased selection",
+      "Large sample size",
+      "No variation"
+    ],
+    "answer": 0,
+    "explanation": "Each element has equal probability."
+  },
+  {
+    "question": "Stratified sampling is useful when:",
+    "options": [
+      "Population is heterogeneous",
+      "Population is small",
+      "Population is uniform",
+      "Data is continuous"
+    ],
+    "answer": 0,
+    "explanation": "Stratified sampling handles heterogeneous groups."
+  },
+  {
+    "question": "Cluster sampling involves:",
+    "options": [
+
+      "Selecting individuals randomly",
+      "Ignoring variation",
+      "Selecting groups",
+      "Taking all data"
+    ],
+    "answer": 2,
+    "explanation": "Clusters are selected instead of individuals."
+  },
+  {
+    "question": "Systematic sampling selects every kth item where k is:",
+    "options": [
+
+      "Sample size/population size",
+      "Population size/sample size",
+      "Mean",
+      "Variance"
+    ],
+    "answer": 1,
+    "explanation": "k = N/n."
+  },
+  {
+    "question": "Which sampling method is most prone to bias?",
+    "options": [
+
+      "Random sampling",
+      "Stratified sampling",
+      "Convenience sampling",
+      "Systematic sampling"
+    ],
+    "answer": 1,
+    "explanation": "Convenience sampling is biased."
+  },
+
+  {
+    "question": "The variance is the square of:",
+    "options": [
+
+      "Mean",
+      "Range",
+      "Median",
+      "Standard deviation"
+    ],
+    "answer": 3,
+    "explanation": "Variance = (SD)²."
+  },
+  {
+    "question": "If all observations are equal, the standard deviation is:",
+    "options": [
+      "0",
+      "1",
+      "Mean",
+      "Undefined"
+    ],
+    "answer": 0,
+    "explanation": "No variation → SD = 0."
+  },
+  {
+    "question": "A low coefficient of variation indicates:",
+    "options": [
+      "High consistency",
+      "Low consistency",
+      "High variability",
+      "No mean"
+    ],
+    "answer": 0,
+    "explanation": "Lower CV → more consistency."
+  },
+  {
+    "question": "The graphical representation of cumulative frequency is:",
+    "options": [
+      "Ogive",
+      "Histogram",
+      "Frequency polygon",
+      "Bar chart"
+    ],
+    "answer": 0,
+    "explanation": "Ogive represents cumulative frequency."
+  },
+  {
+    "question": "The median divides the data into:",
+    "options": [
+
+      "Three equal parts",
+      "Four equal parts",
+      "Two equal parts",
+      "Unequal parts"
+    ],
+    "answer": 2,
+    "explanation": "Median splits data into halves."
+  },
+
+  {
+    "question": "Interquartile range is resistant to:",
+    "options": [
+
+      "Mean",
+      "Median",
+      "Variance",
+      "Outliers"
+    ],
+    "answer": 3,
+    "explanation": "IQR ignores extreme values."
+  },
+  {
+    "question": "Which curve represents normal distribution?",
+    "options": [
+
+      "Straight line",
+      "Bell-shaped curve",
+      "U-shaped curve",
+      "Z-shaped curve"
+    ],
+    "answer": 1,
+    "explanation": "Normal distribution is bell-shaped."
+  },
+  {
+    "question": "Sampling error decreases when:",
+    "options": [
+
+      "Sample size decreases",
+      "Sample size increases",
+      "Population decreases",
+      "Bias increases"
+    ],
+    "answer": 1,
+    "explanation": "Larger sample → less error."
+  },
+  {
+    "question": "Range is an example of:",
+    "options": [
+      "Absolute dispersion",
+      "Relative dispersion",
+      "Central tendency",
+      "Correlation"
+    ],
+    "answer": 0,
+    "explanation": "Range measures absolute spread."
+  },
+  {
+    "question": "Coefficient of variation is expressed in:",
+    "options": [
+      "Percentage",
+      "Units",
+      "Ratio",
+      "Frequency"
+    ],
+    "answer": 0,
+    "explanation": "CV is given in percent."
+  },
+  {
+    "question": "The following data represent the weights (in kg) of 8 students selected randomly from a class: 45, 50, 55, 60, 65, 70, 75, 80. Calculate the range and explain its significance as a measure of absolute dispersion in the context of this data.",
+    "options": [
+      "30",
+      "35",
+      "25",
+      "40"
+    ],
+    "answer": 1,
+    "explanation": "Range = maximum - minimum =\n 80 - 45 = 35, showing the spread of weights."
+  },
+  {
+    "question": "A data set has mean 40 and standard deviation 8. Calculate the coefficient of variation and interpret whether the data is highly consistent or not.",
+    "options": [
+      "10%",
+      "20%",
+      "25%",
+      "15%"
+    ],
+    "answer": 1,
+    "explanation": "CV = (8/40) × 100 = 20%, indicating moderate variability."
+  },
+  {
+    "question": "Given the data set: 10, 20, 30, 40, 50, calculate the mean deviation about the mean and determine how much the observations deviate on average.",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "Mean = 30.\n Deviations = 20,10,0,10,20 → average = 60/5 = 12, but absolute deviation sum is 60 so mean deviation = 12."
+  },
+  {
+    "question": "In comparing two data sets, A has a coefficient of variation of 15% and B has 25%. Which statement correctly interprets the relative dispersion?",
+    "options": [
+      "A is more variable",
+      "B is more consistent",
+      "A is more consistent",
+      "Both are equally variable"
+    ],
+    "answer": 2,
+    "explanation": "Lower CV means more consistency, so A is more consistent."
+  },
+  {
+    "question": "The quartiles of a distribution are Q1 = 12, Q2 = 20, and Q3 = 32. Calculate the interquartile range and explain what it indicates.",
+    "options": [
+      "20",
+      "12",
+      "32",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "IQR = Q3 - Q1 =\n 32 - 12 = 20."
+  },
+  {
+    "question": "A frequency curve is drawn for a distribution of marks. The curve is symmetric about the mean. What does this indicate about the skewness of the distribution?",
+    "options": [
+      "Positively skewed",
+      "Negatively skewed",
+      "Symmetrical distribution",
+      "Uniform distribution"
+    ],
+    "answer": 2,
+    "explanation": "Symmetry indicates zero skewness."
+  },
+  {
+    "question": "In a negatively skewed distribution, which of the following relationships is correct?",
+    "options": [
+      "Mean > Median > Mode",
+      "Mean < Median < Mode",
+      "Mean = Median = Mode",
+      "Mean > Mode > Median"
+    ],
+    "answer": 1,
+    "explanation": "Negative skew: Mean < Median < Mode."
+  },
+  {
+    "question": "Calculate the variance of the data: 5, 7, 9, 11, 13.",
+    "options": [
+      "8",
+      "10",
+      "6",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Mean = 9. Squared deviations \n= 16+4+0+4+16 = 40 → variance = 40/5 = 8."
+  },
+  {
+    "question": "A sample of 100 students is selected from a school of 1000 students using a method where every 10th student is chosen. Identify the sampling technique used.",
+    "options": [
+      "Random sampling",
+      "Stratified sampling",
+      "Systematic sampling",
+      "Cluster sampling"
+    ],
+    "answer": 2,
+    "explanation": "Selecting every kth item is systematic sampling."
+  },
+  {
+    "question": "Which of the following statements best describes convenience sampling in real-life situations?",
+    "options": [
+      "All individuals are equally likely to be selected",
+      "Selection is based on ease of access",
+      "Population is divided into strata",
+      "Clusters are randomly selected"
+    ],
+    "answer": 1,
+    "explanation": "Convenience sampling depends on accessibility."
+  },
+  {
+    "question": "The standard deviation of a data set is zero. What conclusion can be drawn?",
+    "options": [
+      "All values are equal",
+      "Values are widely spread",
+      "Mean is zero",
+      "Data is skewed"
+    ],
+    "answer": 0,
+    "explanation": "No variation means all values are identical."
+  },
+  {
+    "question": "A data set representing the marks of students in a national examination is given as: 12, 15, 18, 20, 22, 25, 30. Calculate the range of the data and interpret its meaning in terms of absolute dispersion.",
+    "options": [
+      "18",
+      "30",
+      "12",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "Range = maximum - minimum = \n30 - 12 = 18."
+  },
+  {
+    "question": "In a bell-shaped frequency curve, approximately what percentage of data lies within one standard deviation from the mean?",
+    "options": [
+      "50%",
+      "68%",
+      "95%",
+      "99%"
+    ],
+    "answer": 1,
+    "explanation": "Empirical rule: about 68%."
+  },
+  {
+    "question": "A data set has range 50 and mean 100. Another has range 30 and mean 40. Which has greater relative dispersion?",
+    "options": [
+      "First data set",
+      "Second data set",
+      "Both equal",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "Relative dispersion depends on mean; second has larger relative spread."
+  },
+  {
+    "question": "The ogive curve is primarily used to determine:",
+    "options": [
+      "Mean",
+      "Median",
+      "Variance",
+      "Range"
+    ],
+    "answer": 1,
+    "explanation": "Median can be found using ogive."
+  },
+  {
+    "question": "If a distribution has a long tail to the right, how will the mean compare to the median?",
+    "options": [
+      "Mean < Median",
+      "Mean > Median",
+      "Mean = Median",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "Positive skew: mean > median."
+  },
+  {
+    "question": "The main advantage of stratified sampling is that it:",
+    "options": [
+      "Reduces bias",
+      "Increases error",
+      "Ignores population structure",
+      "Uses fewer samples always"
+    ],
+    "answer": 0,
+    "explanation": "Stratified sampling ensures representation."
+  },
+  {
+    "question": "Calculate the standard deviation if variance = 49.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "SD = √49 = 7."
+  },
+  {
+    "question": "Which measure of dispersion is least affected by extreme values?",
+    "options": [
+      "Range",
+      "Standard deviation",
+      "Interquartile range",
+      "Variance"
+    ],
+    "answer": 2,
+    "explanation": "IQR ignores outliers."
+  },
+  {
+    "question": "A frequency curve that is flat at the top indicates:",
+    "options": [
+      "Uniform distribution",
+      "Normal distribution",
+      "Skewed distribution",
+      "No distribution"
+    ],
+    "answer": 0,
+    "explanation": "Flat top indicates uniform spread."
+  },
+  {
+    "question": "Which curve represents normal distribution?",
+    "options": [
+
+      "Straight line",
+      "Bell-shaped curve",
+      "U-shaped curve",
+      "Z-shaped curve"
+    ],
+    "answer": 1,
+    "explanation": "Normal distribution is bell-shaped."
+  },
+  {
+    "question": "Sampling technique where population is divided into groups and entire groups are selected is called:",
+    "options": [
+      "Cluster sampling",
+      "Simple random sampling",
+      "Systematic sampling",
+      "Convenience sampling"
+    ],
+    "answer": 0,
+    "explanation": "Cluster sampling selects groups."
+  },
+{
+"question": "A researcher collects the following grouped frequency distribution of marks: Class intervals 0–10, 10–20, 20–30, 30–40, 40–50 with frequencies 5, 9, 12, 8, 6 respectively. Without constructing a full table of deviations, determine the approximate mean using the assumed mean method and interpret how it relates to the distribution's central tendency.",
+"options": [
+
+"27.8",
+"25.6",
+"28.2",
+  "26.4"
+],
+"answer": 3,
+"explanation": "Using midpoints (5,15,25,35,45) and assumed mean method, the mean is approximately 26.4."
+},
+{
+"question": "In a large population, a sample of 120 students is selected such that the population is first divided into five equal subgroups based on performance levels, and then random samples are taken from each subgroup proportional to its size. Identify the sampling technique and explain its statistical advantage.",
+"options": [
+"Systematic sampling",
+"Stratified sampling",
+"Cluster sampling",
+"Convenience sampling"
+],
+"answer": 1,
+"explanation": "This is stratified sampling because population is divided into strata and sampled proportionally."
+},
+{
+"question": "A data set has mean 50, median 45, and mode 40. Based on this information, determine the skewness of the distribution and justify your reasoning using the relationship between measures of central tendency.",
+"options": [
+"Positively skewed",
+"Negatively skewed",
+"Symmetric",
+"Uniform"
+],
+"answer": 0,
+"explanation": "Mean > median > mode indicates positive skewness."
+},
+{
+"question": "The following two data sets represent exam scores: A = {10, 20, 30, 40, 50} and B = {18, 19, 20, 21, 22}. Both have similar means. Which data set has greater relative dispersion and why?",
+"options": [
+"Data set A because it has larger range",
+"Data set B because it has smaller mean",
+"Both are equal because means are equal",
+"Cannot be determined"
+],
+"answer": 0,
+"explanation": "A has much larger spread (range 40 vs 4), so higher dispersion."
+},
+{
+"question": "Given a frequency distribution where the class intervals are unequal and frequencies are highly concentrated in the middle classes, what shape is the most appropriate description of the frequency curve?",
+"options": [
+
+"Highly skewed left curve",
+"Highly skewed right curve",
+"Bimodal irregular curve",
+  "Symmetric bell-shaped curve"
+],
+"answer": 3,
+"explanation": "Concentration in middle classes indicates a normal (bell-shaped) distribution."
+},
+{
+"question": "A statistician calculates variance using grouped data and obtains 64. If the mean of the data is 20, determine the coefficient of variation and interpret its implication.",
+"options": [
+"40%",
+"50%",
+"20%",
+"60%"
+],
+"answer": 0,
+"explanation": "SD = 8, CV = (8/20)*100 = 40%."
+},
+{
+"question": "A population is divided into geographical regions, and from each region one entire school is selected randomly for study. Identify the sampling method and evaluate its possible limitation.",
+"options": [
+
+"Stratified sampling; reduces bias completely",
+"Systematic sampling; ensures randomness",
+"Random sampling; eliminates variability",
+  "Cluster sampling; may increase sampling error"
+],
+"answer": 3,
+"explanation": "Cluster sampling selects entire groups; may increase sampling error."
+},
+{
+"question": "A cumulative frequency curve (ogive) shows that the median class lies between 30–40. What does this imply about the distribution of data in relation to central tendency?",
+"options": [
+"Half of the data lies below 30",
+"50% of observations lie below the median class",
+"Mean equals median exactly",
+"Data is uniformly distributed"
+],
+"answer": 1,
+"explanation": "Median divides data into two equal halves."
+},
+{
+"question": "Two distributions have the same range but different interquartile ranges. What conclusion can be drawn about their variability?",
+"options": [
+"They have different central values",
+"They differ in middle 50% spread",
+"They are identical distributions",
+"They have same variance"
+],
+"answer": 1,
+"explanation": "IQR measures spread of middle 50%, so they differ in variability."
+},
+{
+"question": "A frequency curve is skewed to the right with a long tail. Which of the following is always true?",
+"options": [
+"Mean > Median",
+"Mean < Median",
+"Mean = Median",
+"Median = Mode"
+],
+"answer": 0,
+"explanation": "Positive skew implies mean > median."
+},
+
+{
+"question": "A researcher uses a sample of 50 students selected by choosing every 5th student from a complete list of 250 students. What is the sampling interval and why is this method efficient for large populations?",
+"options": [
+"5; because it ensures systematic coverage",
+"10; because it reduces bias",
+"50; because it increases accuracy",
+"250; because it uses full population"
+],
+"answer": 0,
+"explanation": "Sampling interval k = 250/50 = 5."
+},
+{
+"question": "If a distribution has extremely large variance but a small mean, what can be concluded about the coefficient of variation?",
+"options": [
+"It will be very high",
+"It will be very low",
+"It will be zero",
+"It equals variance"
+],
+"answer": 0,
+"explanation": "CV = SD/mean; small mean → large CV."
+},
+{
+"question": "A dataset has Q1 = 25, Q3 = 75. If an extreme outlier is added far above Q3, which measure remains least affected?",
+"options": [
+"Range",
+"Mean",
+"Interquartile range",
+"Variance"
+],
+"answer": 2,
+"explanation": "IQR is resistant to outliers."
+},
+{
+"question": "In a symmetric frequency curve, what relationship holds among mean, median, and mode?",
+"options": [
+"Mean > Median > Mode",
+"Mean = Median = Mode",
+"Mean < Median < Mode",
+"Mean = Mode > Median"
+],
+"answer": 1,
+"explanation": "All three are equal in symmetry."
+},
+{
+"question": "A sample is selected such that individuals are chosen based on ease of access at a bus station. What is the main statistical drawback of this method?",
+"options": [
+"High representativeness",
+"High bias and poor generalization",
+"Low variance",
+"Equal probability selection"
+],
+"answer": 1,
+"explanation": "Convenience sampling introduces bias."
+},
+
+{
+"question": "A grouped frequency distribution shows a heavily right-skewed curve. If the mean is 60, which of the following is the most likely value of the median?",
+"options": [
+"55",
+"60",
+"65",
+"70"
+],
+"answer": 0,
+"explanation": "In right skew, median < mean."
+},
+{
+"question": "Two data sets have identical means and ranges, but one has a much higher standard deviation. What can be inferred?",
+"options": [
+"Both are identical",
+"One has more extreme deviations from the mean",
+"Both have same variance",
+"Mean is incorrect"
+],
+"answer": 1,
+"explanation": "Higher SD means greater spread around mean."
+},
+{
+"question": "In constructing a frequency curve, why are class midpoints used instead of class boundaries?",
+"options": [
+"To simplify calculation of mean and smooth curve",
+"To increase frequency values",
+"To reduce class intervals",
+"To eliminate variance"
+],
+"answer": 0,
+"explanation": "Midpoints approximate data values for smooth curve."
+},
+{
+"question": "If variance is doubled in a dataset, what happens to the standard deviation?",
+"options": [
+"It doubles",
+"It becomes half",
+"It increases by √2 times",
+"It remains unchanged"
+],
+"answer": 2,
+"explanation": "SD = √variance, so increases by √2."
+},
+{
+"question": "A dataset has mean 0 and standard deviation 10. What does this imply about dispersion?",
+"options": [
+"Data is tightly clustered",
+"Data is widely spread around zero",
+"No variation exists",
+"Mean is incorrect"
+],
+"answer": 1,
+"explanation": "Large SD indicates wide spread."
+},
+{
+"question": "A researcher studying academic performance records the following grouped data for exam scores: 0–10: 3 students, 10–20: 7 students, 20–30: 15 students, 30–40: 10 students, 40–50: 5 students. Using the step-deviation or assumed mean method, estimate the mean of the distribution and interpret what this mean suggests about the overall performance level of the students.",
+"options": [
+"28.6, indicating below-average performance concentration",
+"30.2, indicating moderate performance clustering around middle classes",
+"26.8, indicating very low performance dominance",
+"32.5, indicating high performance dominance"
+],
+"answer": 1,
+"explanation": "Using midpoints and grouped mean methods, the mean is approximately 30.2, showing clustering around the middle class intervals."
+},
+{
+"question": "In a large population of 5000 individuals, a statistician divides the population into age groups (0–20, 20–40, 40–60, 60+) and then randomly selects proportional samples from each group. Identify the sampling method and explain its statistical advantage in reducing bias.",
+"options": [
+"Systematic sampling; ensures every kth element is selected evenly",
+"Cluster sampling; reduces cost but increases sampling error",
+"Stratified sampling; ensures representation from all subgroups",
+"Convenience sampling; based on accessibility of subjects"
+],
+"answer": 2,
+"explanation": "Stratified sampling ensures proportional representation from each subgroup, reducing bias."
+},
+{
+"question": "A dataset has mean = 60, median = 55, and mode = 50. Based on the empirical relationship among measures of central tendency, determine the type of skewness and justify your conclusion.",
+"options": [
+"Negatively skewed because mean < median < mode",
+"Positively skewed because mean > median > mode",
+"Symmetric because all values are close",
+"Uniform because values differ slightly"
+],
+"answer": 1,
+"explanation": "Mean > median > mode indicates positive skewness."
+},
+{
+"question": "Two datasets A and B have identical means of 40. Dataset A has variance 16 while dataset B has variance 64. What can be concluded about their relative dispersion and consistency?",
+"options": [
+"A is more dispersed and less consistent",
+"B is more consistent than A",
+"Both have equal dispersion",
+"A has higher variability than B"
+],
+"answer": 1,
+"explanation": "Lower variance means higher consistency; A is more consistent."
+},
+{
+"question": "A frequency distribution is highly concentrated around the central class interval with very small frequencies at both extremes. What is the most appropriate description of its frequency curve?",
+"options": [
+"Highly skewed left distribution",
+"Uniform rectangular distribution",
+"Bell-shaped normal distribution",
+"Bimodal irregular distribution"
+],
+"answer": 2,
+"explanation": "Central concentration with symmetric tails indicates normal distribution."
+},
+{
+"question": "A dataset has standard deviation 12 and mean 48. Compute the coefficient of variation and interpret its implication for data consistency.",
+"options": [
+"25%, indicating moderate variability",
+"20%, indicating very low variability",
+"30%, indicating high consistency",
+"15%, indicating almost no dispersion"
+],
+"answer": 0,
+"explanation": "CV = (12/48)*100 = 25%."
+},
+{
+"question": "A researcher uses cluster sampling by selecting entire schools randomly from a list of schools in a district and surveying all students within selected schools. What is the main limitation of this method?",
+"options": [
+"It always produces biased samples",
+"It may increase sampling error due to cluster similarity",
+"It requires full population listing",
+"It cannot be used for large populations"
+],
+"answer": 1,
+"explanation": "Cluster sampling may increase sampling error because clusters may be similar internally."
+},
+{
+"question": "A cumulative frequency curve (ogive) is drawn for a dataset, and it is observed that 50% of the data lies below class interval 25–35. What statistical measure is being identified and what does this imply?",
+"options": [
+"Mean; data is symmetrically distributed",
+"Median; half the observations lie below this value",
+"Mode; most frequent class interval",
+"Variance; measure of spread"
+],
+"answer": 1,
+"explanation": "Median divides data into two equal halves."
+},
+{
+"question": "If two distributions have identical ranges but different interquartile ranges, what does this indicate about their internal variability?",
+"options": [
+"They differ in central tendency only",
+"They differ in spread of middle 50% of data",
+"They must have same variance",
+"They are identical distributions"
+],
+"answer": 1,
+"explanation": "IQR measures spread of middle 50%."
+},
+{
+"question": "A frequency curve has a long tail extending toward higher values. Which of the following relationships is always true for this distribution?",
+"options": [
+"Mean < Median < Mode",
+
+"Mean = Median = Mode",
+"Median > Mean > Mode",
+  "Mean > Median > Mode"
+],
+"answer": 3,
+"explanation": "Positive skew implies mean > median > mode."
+},
+
+{
+"question": "A systematic sampling method selects every 8th student from a list of 800 students after randomly selecting a starting point. What is the sampling interval and why is this method efficient?",
+"options": [
+"Interval = 100; reduces variance significantly",
+"Interval = 8; ensures evenly spread selection across population",
+"Interval = 10; ensures stratification automatically",
+"Interval = 80; reduces population bias completely"
+],
+"answer": 1,
+"explanation": "k = 800/100 = 8 ensures evenly spread sampling."
+},
+{
+"question": "A dataset has very small mean but extremely large standard deviation. What can be inferred about its coefficient of variation?",
+"options": [
+"It will be very small",
+"It will be undefined",
+"It will be extremely large",
+"It will equal variance"
+],
+"answer": 2,
+"explanation": "Small mean with large SD leads to large CV."
+},
+{
+"question": "Which measure of dispersion remains most stable in the presence of extreme outliers?",
+"options": [
+"Range",
+"Variance",
+"Standard deviation",
+"Interquartile range"
+],
+"answer": 3,
+"explanation": "IQR is resistant to extreme values."
+},
+{
+"question": "A distribution is perfectly symmetric. Which of the following statements must be true?",
+"options": [
+"Mean < Mode",
+"Mean > Median",
+"Mean = Median = Mode",
+"Median < Mode"
+],
+"answer": 2,
+"explanation": "In symmetry, all central measures coincide."
+},
+{
+"question": "A student randomly selects respondents by choosing every person who enters a classroom at fixed time intervals. What sampling method is this closest to?",
+"options": [
+"Systematic sampling",
+"Cluster sampling",
+"Stratified sampling",
+"Judgment sampling"
+],
+"answer": 0,
+"explanation": "Selection at fixed intervals corresponds to systematic sampling."
+},
+
+{
+"question": "In a bell-shaped distribution, approximately what percentage of observations lie within two standard deviations of the mean?",
+"options": [
+"68%",
+"75%",
+"95%",
+"99.9%"
+],
+"answer": 2,
+"explanation": "Empirical rule: about 95% within 2 SD."
+},
+{
+"question": "If variance of a dataset increases four times, how is the standard deviation affected?",
+"options": [
+"It doubles",
+"It quadruples",
+"It remains unchanged",
+"It becomes half"
+],
+"answer": 0,
+"explanation": "SD = √variance, so √4 = 2 times."
+},
+{
+"question": "A dataset shows that Q1 = 18 and Q3 = 42. An outlier of 100 is added. Which measure is least affected?",
+"options": [
+"Mean",
+"Range",
+"Interquartile range",
+"Variance"
+],
+"answer": 2,
+"explanation": "IQR is resistant to extreme values."
+},
+{
+"question": "A histogram shows equal width class intervals but uneven frequencies. What does this indicate about the dataset?",
+"options": [
+"Uniform distribution",
+"Skewed or non-uniform distribution",
+"Perfect symmetry",
+"No variability"
+],
+"answer": 1,
+"explanation": "Uneven frequencies imply non-uniform distribution."
+},
+{
+"question": "In sampling theory, increasing sample size generally leads to:",
+"options": [
+"Increased sampling error",
+"Decreased reliability",
+"Reduced sampling error",
+"No change in accuracy"
+],
+"answer": 2,
+"explanation": "Larger samples reduce sampling error."
+},
+
+{
+"question": "A dataset has mean 70 and standard deviation 14. Another dataset has mean 35 and standard deviation 10. Which has higher relative variability?",
+"options": [
+"First dataset",
+"Second dataset",
+"Both equal",
+"Cannot be compared"
+],
+"answer": 1,
+"explanation": "CV1 = 20%, CV2 ≈ 28.6%, so second is higher."
+},
+{
+"question": "Which of the following best describes frequency curves in relation to histograms?",
+"options": [
+"They connect midpoints of histogram bars smoothly",
+"They replace class intervals completely",
+"They ignore frequency values",
+"They are unrelated to histograms"
+],
+"answer": 0,
+"explanation": "Frequency curves smooth histogram midpoints."
+},
+{
+"question": "A dataset has zero variance. What must be true?",
+"options": [
+
+"Mean is zero",
+"Data is skewed",
+"Range is large",
+  "All values are equal"
+],
+"answer": 3,
+"explanation": "No variability means identical values."
+},
+{
+"question": "Which sampling method is most appropriate for ensuring representation of minority groups in a population?",
+"options": [
+"Cluster sampling",
+"Stratified sampling",
+"Convenience sampling",
+"Systematic sampling"
+],
+"answer": 1,
+"explanation": "Stratified sampling ensures subgroup representation."
+},
+{
+"question": "If a distribution has CV = 0%, what does this imply?",
+"options": [
+"High variability",
+"All values are identical",
+"Mean is zero",
+"Variance is high"
+],
+"answer": 1,
+"explanation": "Zero CV means no variation."
+}
+
+]

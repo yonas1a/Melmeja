@@ -1,0 +1,35 @@
+[
+  {
+    "question": " What is the total surface area (in cm²) of the cylinder whose radius is 2 cm and height is 7 cm?",
+    "options": [
+      "A 28π",
+      "B 36π",
+      "C 98π",
+      "D 49π"
+    ],
+    "answer": 1,
+    "explanation": "The total surface area of a cylinder is given by TSA = 2πr(r + h).\n\nHere, r = 2 cm and h = 7 cm.\n\nSo, TSA = 2π × 2 × (2 + 7) = 4π × 9 = 36π cm².\n\nTherefore, the correct answer is 36π."
+  },
+  {
+    "question": "If a square pyramid has a base side of 6 cm long and its lateral faces are equilateral triangles, then what is its volume (in cm³)?",
+    "options": [
+      "3√2",
+      "48",
+      "36√2",
+      "72"
+    ],
+    "answer": 2,
+    "explanation": "Base side = 6.\n Distance from center to vertex = 3√2.\n Slant edge = 6,\n so height = √(6² − (3√2)²) = \n√(36 − 18) = √18 = 3√2.\n\n Volume = (1/3) × 36 × 3√2 =\n 36√2."
+  },
+  {
+    "question": "Which of the following statement defines a frustum of a cone?",
+    "options": [
+      "A It is a part of a cone included between the base and a horizontal cross-section made by a plane parallel to the base.",
+      "B It is a part of a cone included between the vertex and a horizontal cross-section made by a plane parallel to the base.",
+      "C It is a part of a cone included between the base and a horizontal cross-section made by a plane.",
+      "D It is a part of a cone included between the vertex and a horizontal cross-section made by a plane."
+    ],
+    "answer": 0,
+    "explanation": "A frustum is the portion of a solid (like a cone or pyramid) that remains when the top section is cut off by a plane parallel to the base."
+  }
+]

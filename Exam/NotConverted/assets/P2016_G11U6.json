@@ -1,0 +1,46 @@
+[
+{
+  "question": "3. The angular momentum of a rotating object is defined as the product of its",
+  "options": [
+    "moment of inertia and angular velocity.",
+    "mass and one-half of the square of the angular velocity.",
+    "mass and the angular velocity.",
+    "moment of inertia and the square of the angular velocity."
+  ],
+  "answer": 0,
+  "explanation": "Angular momentum ($L$) is mathematically defined as the product of the **moment of inertia ($I$)** and the **angular velocity ($omega$)**: $L = I\\omega$."
+},
+{
+"question": "15. A constant tangential force is applied on a rim of uniform solid disk of mass $m = 50 \\text{ kg}$ and radius $r = 0.5 \\text{ m}$. If the angular speed of the disk changes by $1 \\text{ rev/s}$ within $2.0 \\text{ s}$, what is the magnitude of the torque produced by the force? (moment of inertia of disk $I = \\frac{mr^2}{2}$)",
+"options": [
+"39.3 Nm",
+"19.6 Nm",
+"8.25 Nm",
+"3.125 Nm"
+],
+"answer": 1,
+"explanation": "The torque ($\tau$) is calculated using the formula $\\tau = I\\alpha$.\n\n1.  **Calculate Angular Acceleration ($\\alpha$):**\n    $$\\alpha = \\frac{\\Delta\\omega}{\\Delta t} = \\frac{1 \\text{ rev/s}}{2.0 \\text{ s}} = 0.5 \\text{ rev/s}^2$$\n    Convert to $\\text{rad/s}^2$: $\\alpha = 0.5 \\times 2\\pi \\approx \\pi \\text{ rad/s}^2$\n\n2.  **Calculate Moment of Inertia ($I$):**\n    $$I = \\frac{mr^2}{2} = \\frac{(50 \\text{ kg})(0.5 \\text{ m})^2}{2} = 6.25 \\text{ kg} \\cdot \\text{m}^2$$\n\n3.  **Calculate Torque ($\\tau$):**\n    $$\\tau = I\\alpha = (6.25 \\text{ kg} \\cdot \\text{m}^2) \\times (\\pi \\text{ rad/s}^2) \\approx 19.63 \\text{ Nm}$$"
+},
+{
+"question": "22. Which one of the following factors does **NOT** affect the moment of inertia of an object?",
+"options": [
+"The size of the object",
+"The axis about which the object is rotating",
+"The mass of the object",
+"The angular speed of the object"
+],
+"answer": 3,
+"explanation": "The moment of inertia ($I$) is a property of an object that depends on its **mass ($m$)**, **size/mass distribution**, and the position of the **axis of rotation**. It does **not** depend on how fast the object is rotating (its **angular speed ($omega$)**)."
+},
+{
+"question": "50. The angular speed of a disk rotating about its axis increases by $2000 \\text{ rad/s}$ in a time interval of $3.0 \\text{ s}$. If the moment of inertia of the disk is $0.6 \\text{ kg} \\text{ m}^2$, what is the average torque on the disk?",
+"options": [
+"1200 Nm",
+"670 Nm",
+"400 Nm",
+"6000 Nm"
+],
+"answer": 2,
+"explanation": "The average torque ($\\tau$) is given by the relationship $\\tau = I \\alpha$, where $I$ is the moment of inertia and $\\alpha$ is the average angular acceleration.\n\n1.  **Calculate Angular Acceleration ($\\alpha$):** \n$$\\alpha = \\frac{\\Delta\\omega}{\\Delta t} = \\frac{2000 \\text{ rad/s}}{3.0 \\text{ s}} = \\frac{2000}{3} \\text{ rad/s}^2$$\n\n2.  **Calculate Average Torque ($\\tau$):**\n$$\\tau = I \\alpha = (0.6 \\text{ kg} \\text{ m}^2) \\left( \\frac{2000}{3} \\text{ rad/s}^2 \\right) = \\left( \\frac{0.6}{3} \\right) \\times 2000$$\n$$\\tau = 0.2 \\times 2000 = 400 \\text{ Nm}$$"
+}
+]

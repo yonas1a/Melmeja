@@ -1,0 +1,73 @@
+{
+  "id": "m2017_socialg10u5_melmeja",
+  "title": "Grade 10 Mathematics National Exam & Practice 2017",
+  "category": "GRADE_10",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 10",
+  "description": "Grade 10 Mathematics National Exam & Practice 2017 featuring 3 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 3,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_10",
+    "2017",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg10u5_melmeja_1",
+      "examId": "m2017_socialg10u5_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "13) If $\\sin(-53^{\\circ}) = \\beta$, then which one of the following is correct?",
+      "options": [
+        "$\\sin(307^{\\circ}) = \\beta$",
+        "$\\sin(127^{\\circ}) = \\beta$",
+        "$\\sin(-37^{\\circ}) = \\beta$",
+        "$\\sin(37^{\\circ}) = \\beta$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The sine function has a period of $360^{\\circ}$, so $\\sin(\\theta) = \\sin(\\theta + 360^{\\circ}k)$ for any integer $k$. We are given $\\sin(-53^{\\circ}) = \\beta$. We check the options by adding $360^{\\circ}$ to $-53^{\\circ}$: $-53^{\\circ} + 360^{\\circ} = 307^{\\circ}$. Thus, $\\sin(307^{\\circ}) = \\sin(-53^{\\circ}) = \\beta$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u5_melmeja_2",
+      "examId": "m2017_socialg10u5_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which of the following graphs represent the graph of $f(x) = cos x$ on the interval $[-pi, pi]$?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The function is $f(x) = cos x$. The graph of the cosine function has the following key properties:\n- **$y$-intercept:** $f(0) = cos(0) = 1$. The graph must pass through the point **(0, 1)**.\n- **Maximum Value:** The maximum value is $y=1$.\n- **Minimum Value:** The minimum value is $y=-1$.\n- **Endpoints:** At the endpoints of the interval $[-pi, pi]$, $f(pi) = cos(pi) = -1$ and $f(-pi) = cos(-pi) = -1$. The graph must include the points **$(pi, -1)$** and **$(-pi, -1)$**.\nGraph A is the only one that starts at $y=-1$ at $x=-pi$, goes up to a maximum of $y=1$ at $x=0$, and then goes down to $y=-1$ at $x=pi$. $]",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u5_melmeja_3",
+      "examId": "m2017_socialg10u5_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "A person, whose height is $2 \text{ m}$, is standing away from a $16 \text{ m}$ tall building. The angle of depression from the top of the building to the head of the person is $30^{\\circ}$. How far is the person from the building in meters?",
+      "options": [
+        "$14\\sqrt{3}$",
+        "$\\frac{16}{\\sqrt{3}}$",
+        "$16\\sqrt{3}$",
+        "$14/\\sqrt{3}$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This is a trigonometry problem involving an angle of depression. Let $d$ be the distance from the person to the building.\n\n1. **Determine the Height of the Right Triangle:** The angle of depression is from the top of the $16 \text{ m}$ building to the head of the $2 \text{ m}$ person. The height of the right triangle is the difference between the building's height and the person's height.\n$$\text{Height } (h) = 16 \text{ m} - 2 \text{ m} = 14 \text{ m}$$ \n\n2. **Identify the Angle:** The angle of depression from the top of the building to the person's head ($30^{\\circ}$) is equal to the angle of elevation from the person's head to the top of the building (alternate interior angles).\n\n3. **Set up the Trigonometric Ratio:** We have the side **opposite** the $30^{\\circ}$ angle ($h=14$) and we want to find the side **adjacent** to the angle ($d$). We use the tangent function ($\tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$).\n$$\tan(30^{\\circ}) = \\frac{h}{d}$$\n\n4. **Solve for $d$:** Substitute the known values ($\tan(30^{\\circ}) = \\frac{1}{\\sqrt{3}}$ and $h=14$).\n$$\\frac{1}{\\sqrt{3}} = \\frac{14}{d}$$\n$$d = 14\\sqrt{3} \text{ m}$$\n\nThis matches Option A.",
+      "topic": "Mathematics"
+    }
+  ]
+}

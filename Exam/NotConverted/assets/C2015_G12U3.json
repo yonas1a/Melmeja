@@ -1,0 +1,47 @@
+[
+  {
+    "question": "A system does 15 J of work and no other changes take place. Which of the following function has fallen by 15 J?",
+    "options": [
+      "Enthalpy",
+      "Entropy",
+      "Internal energy",
+      "Specific heat"
+    ],
+    "answer": 2,
+    "explanation": "According to the first law of thermodynamics, the change in internal energy (ΔU) of a system is equal to the heat added to the system minus the work done by the system.\n\n Here, no heat is exchanged (Q = 0), and the system does 15 J of work (W = 15 J), so ΔU = Q - W = 0 - 15 = -15 J. \n\nEnthalpy depends on internal energy and pressure-volume work, entropy measures disorder, and specific heat is a property, not an energy function."
+  },
+  {
+    "question": "Which of the following is CORRECTLY stated about the spontaneity of a reaction?",
+    "options": [
+      "For an endothermic reaction with positive reaction entropy, the reaction is non-spontaneous at low temperature.",
+      "For an exothermic reaction with negative reaction entropy, the reaction is spontaneous at high temperature.",
+      "For an exothermic reaction with negative reaction entropy, the reaction is spontaneous at all temperature.",
+      "For an exothermic reaction with positive reaction entropy, the reaction is non-spontaneous at all temperature."
+    ],
+    "answer": 0,
+    "explanation": "The spontaneity of a reaction is determined by Gibbs free energy: ΔG = ΔH - TΔS. \n\n- For an endothermic reaction (ΔH > 0) with positive entropy change (ΔS > 0), ΔG = ΔH - TΔS. At low T, TΔS is small, so ΔG > 0 → non-spontaneous; at high T, TΔS may exceed ΔH, making ΔG < 0 → spontaneous.\n\n- Exothermic reactions with negative ΔS may only be spontaneous at low temperatures, not all temperatures."
+  },
+  {
+    "question": "In thermodynamics, solutions in a beaker, a gas in a cylinder, a reaction vessel, a biological cell are examples of a",
+    "options": [
+      "path function",
+      "thermodynamic system",
+      "thermodynamic variable",
+      "state function"
+    ],
+    "answer": 1,
+    "explanation": "A thermodynamic system is a defined portion of matter or space under study, separated from its surroundings by a boundary.\n\n Examples include solutions in a beaker, a gas in a cylinder, a reaction vessel, or a biological cell. Path functions depend on the process (like work or heat), and state functions depend only on the state of the system (like internal energy, enthalpy).\n\n Thermodynamic variables describe properties of the system."
+  },
+
+  {
+    "question": "The heat change at constant pressure that results when 1 mole of a compound is formed from its elements in their standard states is:",
+    "options": [
+      "standard reduction potential",
+      "standard enthalpy of formation",
+      "standard entropy of reaction",
+      "standard enthalpy of reaction"
+    ],
+    "answer": 1,
+    "explanation": "The standard enthalpy of formation (ΔH⁰f) is defined as the heat change that occurs when one mole of a compound is formed from its elements in their standard states under standard conditions (1 atm, 25°C).\n\n Other options refer to different thermodynamic quantities: standard reduction potential measures the tendency of a species to be reduced, standard entropy of reaction is related to disorder change, and standard enthalpy of reaction is the overall enthalpy change for a reaction."
+  }
+]

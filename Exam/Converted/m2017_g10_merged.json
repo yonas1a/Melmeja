@@ -1,0 +1,267 @@
+{
+  "id": "m2017_g10_merged_melmeja",
+  "title": "Mathematics Grade 10 Practice Questions 2017 (6 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Combined 6 chapter files (M2017_G10U1.json, M2017_G10U2.json, M2017_G10U4.json, M2017_G10U5.json, M2017_G10U6.json, M2017_G10U7.json) into one exam. 15 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 15,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2017",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_g10u1_melmeja_1",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = x³ + 2x + 1 and g(x) = x² - 1 be given two polynomial functions. Then which of the following is true?",
+      "options": [
+        "f(x) + g(x) = x³ + x²",
+        "f(x) - g(x) = x³ - x² + 2x",
+        "f(x)g(x) = x⁵ + x³ + x² - 2x - 1",
+        "f(x) / g(x) = (x² + 1) / (x - 1)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1. f(x) + g(x) = x³ + x² + 2x, not x³ + x² → false.\n\n2. f(x) - g(x) = x³ - x² + 2x + 2, not x³ - x² + 2x → false.\n\n3. Multiplication: (x³ + 2x + 1)(x² - 1) expands to x⁵ + x³ + x² - 2x - 1 → Option C is correct.\n\n4. Division: f(x)/g(x) = (x³ + 2x + 1)/(x² - 1), not (x² + 1)/(x - 1) → false.\n\nTherefore, the true statement is Option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_2",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Let a, b ∈ R such that a < b and f be a polynomial function. Then which one of the following statements states the location theorem?",
+      "options": [
+        "If f(a) and f(b) have the same signs, then there is at least one zero of f between a and b.",
+        "If f(a) and f(b) have the same signs, then there exists a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is at least one zero of f between a and b."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "If f(a) and f(b) have opposite signs, the function must cross the x-axis somewhere between them. \n\nTherefore, there is at least one zero in (a, b). Option D is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_3",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the solution set of 5ˣ = 11.2 ? [Use log 5 = 0.6990 and log 1.12 = 0.0485]",
+      "options": [
+        "1.5",
+        "1.2",
+        "1.69",
+        "1.12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Take log on both sides: log5ˣ = log11.2 \n→ x*log5 = log10 + log1.12 = 1 + 0.0485 = 1.0485 \n→ x = 1.0485/0.6990 ≈ 1.5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_4",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Given that log 4.8 = 0.6812, log 6.93 = 0.8406 and log 6.84 = 0.8351. Then what is the value of √48 ?",
+      "options": [
+        "6.71",
+        "6.93",
+        "6.84",
+        "6.83"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step 1: Express 48 as 48 = 4.8 × 10.\n\nStep 2: Take logarithm: log48 = log4.8 + log10 = 0.6812 + 1 = 1.6812.\n\nStep 3: Use √48 = 48^(1/2): log(√48) = 1/2 * log48 = 1/2 * 1.6812 = 0.8406.\n\nStep 4: Compare with the given log values: log6.93 = 0.8406 → √48 = 6.93",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_5",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Consider the equation log x + log (x - 3) = 1. Then what is its solution set?",
+      "options": [
+        "{2, -5}",
+        "{-2, 5}",
+        "{6}",
+        "{5}"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Combine the logarithms: log x + log(x - 3) = log[x(x - 3)] = 1.\n\nConvert to exponential form: x(x - 3) = 10.\n\nSolve the quadratic: x² - 3x - 10 = 0 → (x - 5)(x + 2) = 0.\n\nSo x = 5 or x = -2.\n\nCheck the domain: x > 0 and x - 3 > 0 ⇒ x > 3.\n\nOnly x = 5 satisfies the domain.\n\nTherefore, the solution set is {5}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_6",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "If the number of bacteria in a certain laboratory colony grows at the rate of 5% per day and assuming that there are 1000 bacteria present initially, then what would be the approximate number of bacteria present after 3 days?",
+      "options": [
+        "1102",
+        "1158",
+        "1050",
+        "1105"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = P(1 + r)^t, where P is the initial amount, r is the growth rate, and t is the time.\n P = 1000\n r = 5% = 0.05\n t = 3 days\nA = 1000(1 + 0.05)³\nA = 1000(1.05)³\nA = 1000(1.157625)\nA = 1157.625 = 1158.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_7",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Consider the line segment PQ with P=(1, -1) and Q=(4, 2). Then which of the following point divides PQ internally in the ratio of 2:1?",
+      "options": [
+        "(2, 0)",
+        "(2, 1)",
+        "(3, 0)",
+        "(3, 1)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Section formula: (x, y) = ((m x2 + n x1)/(m + n), (m y2 + n y1)/(m + n))\n\n((2×4 + 1×1)/(2+1), (2×2 + 1×(-1))/(2+1)) =\n (9/3, 3/3) =\n (3, 1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_8",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "What is the equation of a line that passes through (-2, 5) and has a slope 1/2?",
+      "options": [
+        "y = 2x + 12",
+        "2y + x = 5",
+        "y = x/2 + 5",
+        "2y - x - 12 = 0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use the point-slope form y - y1 = m(x - x1), where m = 1/2 and (x1, y1) = (-2, 5).\ny - 5 = 1/2 (x - (-2))\ny - 5 = 1/2*(x + 2)\nMultiply the entire equation by 2 to clear the fraction:\n2(y - 5) = 1(x + 2)\n2y - 10 = x + 2\n2y - x - 12 ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_9",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": " Let θ be an angle in standard position and (x, y) be a point on the terminal side of θ, which is different from the origin. Let r be the distance from (x, y) to the origin. Then which of the following defines cosθ?",
+      "options": [
+        "y/r",
+        "r/x",
+        "x/r",
+        "r/y"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For an angle θ in standard position, the trigonometric ratios are defined using a point (x, y) on its terminal side.\n\n The distance from the origin to the point is r = √(x² + y²).\n\n By definition, cosθ is the ratio of the adjacent side to the hypotenuse. \n\nHere, the adjacent side is x and the hypotenuse is r.\n\n Therefore, cosθ = x/r",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_10",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": " Consider the graph of a certain trigonometric function given below.\n\n  Which one of the following functions represents the above graph for -π/2 ≤ x ≤ 5π/2?",
+      "imageUrl": "images/M2017_N25.png",
+      "diagramUrl": "images/M2017_N25.png",
+      "options": [
+        "y = sin x",
+        "y = csc x",
+        "y = cos x",
+        "y = sec x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_11",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": " Which of the following is true about the cosecant value of the given angles?",
+      "options": [
+        "csc 135° = -√2",
+        "csc 45° = 1/√2",
+        "csc 45° = √2",
+        "csc 135° = -1/√2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "\"Cosecant is the reciprocal of sine: cscθ = 1/sinθ.\n\nsin45° = √2/2, so csc45° = 1/(√2/2) = √2.\n\nsin135° = √2/2 (positive in the second quadrant), so csc135° = √2, not negative.\n\nTherefore, the true statement is: csc45° = √2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_12",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Consider the figure given below.  If m(< CPE)=30° and m(<AFE)=55°, then what is the value of m(< AMC)?",
+      "imageUrl": "images/M2017_N27.png",
+      "diagramUrl": "images/M2017_N27.png",
+      "options": [
+        "30°",
+        "50°",
+        "25°",
+        "60°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_13",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": " What is the total surface area (in cm²) of the cylinder whose radius is 2 cm and height is 7 cm?",
+      "options": [
+        "28π",
+        "36π",
+        "98π",
+        "49π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The total surface area of a cylinder is given by TSA = 2πr(r + h).\n\nHere, r = 2 cm and h = 7 cm.\n\nSo, TSA = 2π × 2 × (2 + 7) = 4π × 9 = 36π cm².\n\nTherefore, the correct answer is 36π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_14",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "If a square pyramid has a base side of 6 cm long and its lateral faces are equilateral triangles, then what is its volume (in cm³)?",
+      "options": [
+        "3√2",
+        "48",
+        "36√2",
+        "72"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Base side = 6.\n Distance from center to vertex = 3√2.\n Slant edge = 6,\n so height = √(6² − (3√2)²) = \n√(36 − 18) = √18 = 3√2.\n\n Volume = (1/3) × 36 × 3√2 =\n 36√2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g10u1_melmeja_15",
+      "examId": "m2017_g10_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement defines a frustum of a cone?",
+      "options": [
+        "It is a part of a cone included between the base and a horizontal cross-section made by a plane parallel to the base.",
+        "It is a part of a cone included between the vertex and a horizontal cross-section made by a plane parallel to the base.",
+        "It is a part of a cone included between the base and a horizontal cross-section made by a plane.",
+        "It is a part of a cone included between the vertex and a horizontal cross-section made by a plane."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A frustum is the portion of a solid (like a cone or pyramid) that remains when the top section is cut off by a plane parallel to the base.",
+      "topic": "Mathematics"
+    }
+  ]
+}

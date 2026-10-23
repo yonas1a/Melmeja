@@ -1,0 +1,49 @@
+[
+  {
+    "question": "Two resistors R1 = 1Ω and R2 = 4Ω are connected in parallel to each other and their combination is connected in series with a third resistor R3 = 2Ω. The whole combination is connected to a voltage source of Potential difference 14V. The potential difference across R1 is ______.",
+    "options": [
+      "10 V",
+      "14 V",
+      "5 V",
+      "4 V"
+    ],
+    "answer": 3,
+    "explanation": "First, find the equivalent resistance of R1 and R2 in parallel:\n\n 1/Rp = 1/1 + 1/4 = 5/4,\n\n so Rp = 4/5 = 0.8 Ω.\n Then add R3 in series: Rtotal = 0.8 + 2 = 2.8 Ω.\n\n Next, calculate total current: I = V/R = 14 / 2.8 = 5 A.\n\n The voltage across the parallel combination is Vp = I × Rp = 5 × 0.8 = 4 V.\n\n Since R1 is in parallel with R2, the voltage across R1 is the same as Vp, which is 4 V.",
+    "image": "images/P2014_15.png"
+  },
+  {
+    "question": "A resistor R, a capacitor C, and an inductor L are connected in series to an AC voltage source that generates a sinusoidal voltage V(t) = Vpsin(Ωt), with Vp and Ω being the peak voltage and angular frequency of the source. If XL, XC, and Z are capacitive reactance, inductive reactance, and impedance, respectively, Irms and Vrms are the root-mean-square (rms) values of the current and voltage, the average power dissipated in series RLC circuit is given by ______.",
+    "options": [
+      "2IpVp R/√R²+(Xl-Xc)²",
+      "Irms.Vrms",
+      "Irms.Vrms R/√R²+(Xl-Xc)²",
+      "I²rms.Z"
+    ],
+    "answer": 2,
+    "explanation": "Only the resistor dissipates power.\n\n Average power P = Irms × Vrms × cosφ, and \n\ncosφ = R/Z = R/√(R² + (XL − XC)²).\n\n So, P = Irms × Vrms × R/√(R² + (XL − XC)²)."
+  },
+  {
+    "question": "A student wants to investigate Ohm's law using an ammeter (A) and a voltmeter (V) to measure current through and potential difference across a resistor (R). Moreover, she employs a rheostat to vary the potential difference across the resistor. Which of the following connections is the correct set up of the circuit to perform the experiment?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "image": "images/P2014_27.png",
+    "explanation": "Ammeter must be in series to measure current, voltmeter must be in parallel across the resistor, and rheostat in series to vary current.\n\n Only option B satisfies all."
+  },
+  {
+    "question": "Circular paths followed by two charges q1 and q2 moving with the same speed in a uniform magnetic field directed into the page (times) are shown in the figure below. If the two charges have the same mass, which of the following is correct about the sign and the magnitude of charges?",
+    "options": [
+      "q1 is negative, q2 is positive and |q1| < |q2|.",
+      "q1 is negative, q2 is positive and |q1| > |q2|.",
+      "q1 is positive, q2 is negative and |q1| > |q2|.",
+      "q1 is positive, q2 is negative and |q1| < |q2|. "
+    ],
+    "answer": 2,
+    "image": "images/P2014_28.png",
+    "explanation": "Using right-hand rule: in a magnetic field into the page, clockwise motion means positive charge and anticlockwise means negative.\n\n So q1 is positive and q2 is negative.\n\n Also, larger radius means smaller charge (r = mv / |q|B).\n\n Since q1 has larger radius, |q1| < |q2|."
+  }
+]

@@ -1,0 +1,708 @@
+[
+  {
+    "question": "Which of the following is a vector quantity?",
+    "options": ["Work", "Energy", "Force", "Power"],
+    "answer": 2,
+    "explanation": "Force is a vector quantity because it has both magnitude and direction."
+  },
+  {
+    "question": "Newton's First Law states that an object will remain at rest or in uniform motion unless acted upon by:",
+    "options": ["A balanced force", "An unbalanced force", "Gravity only", "Friction only"],
+    "answer": 1,
+    "explanation": "Newton’s First Law (Law of Inertia) states that an object will remain at rest or move uniformly unless acted upon by an unbalanced force."
+  },
+  {
+    "question": "A 10 kg object is pushed with a force of 50 N. What is its acceleration?",
+    "options": ["5 m/s²", "10 m/s²", "50 m/s²", "500 m/s²"],
+    "answer": 0,
+    "explanation": "Using Newton’s Second Law, F = ma ⇒ a = F/m = 50 / 10 = 5 m/s²."
+  },
+  {
+    "question": "Which force opposes motion when a block slides on a horizontal surface?",
+    "options": ["Normal force", "Frictional force", "Gravitational force", "Applied force"],
+    "answer": 1,
+    "explanation": "Frictional force always acts opposite to the motion of an object on a surface."
+  },
+  {
+    "question": "Work done when a 20 N force moves an object 5 m in the direction of the force is:",
+    "options": ["100 J", "25 J", "15 J", "5 J"],
+    "answer": 0,
+    "explanation": "Work = Force × Distance = 20 × 5 = 100 J."
+  },
+  {
+    "question": "The kinetic energy of a 2 kg object moving with velocity 3 m/s is:",
+    "options": ["3 J", "6 J", "9 J", "18 J"],
+    "answer": 2,
+    "explanation": "Kinetic Energy = ½ mv² = ½ × 2 × 3² = 9 J."
+  },
+  {
+    "question": "Potential energy depends on:",
+    "options": ["Mass, height, and gravity", "Velocity only", "Force applied", "Time taken"],
+    "answer": 0,
+    "explanation": "Potential energy = mgh, depends on mass, gravitational acceleration, and height."
+  },
+  {
+    "question": "Power is defined as the rate at which:",
+    "options": ["Work is done", "Energy is conserved", "Force is applied", "Acceleration occurs"],
+    "answer": 0,
+    "explanation": "Power = Work / Time. It is the rate at which work is done."
+  },
+  {
+    "question": "If a car does 2000 J of work in 10 seconds, its power output is:",
+    "options": ["20 W", "200 W", "2000 W", "20,000 W"],
+    "answer": 2,
+    "explanation": "Power = Work / Time = 2000 / 10 = 200 W."
+  },
+  {
+    "question": "A force of 10 N acts on a 5 kg object. If it moves 2 m in the direction of the force, work done is:",
+    "options": ["5 J", "10 J", "20 J", "50 J"],
+    "answer": 2,
+    "explanation": "Work = Force × Distance = 10 × 2 = 20 J."
+  },
+  {
+    "question": "The SI unit of work is:",
+    "options": ["Newton (N)", "Joule (J)", "Watt (W)", "Pascal (Pa)"],
+    "answer": 1,
+    "explanation": "Work is measured in Joules (J). 1 J = 1 N·m."
+  },
+  {
+    "question": "A 5 kg mass is lifted 2 m vertically. What is its gravitational potential energy? (g = 10 m/s²)",
+    "options": ["10 J", "50 J", "100 J", "200 J"],
+    "answer": 2,
+    "explanation": "Potential Energy = mgh = 5 × 10 × 2 = 100 J."
+  },
+  {
+    "question": "Which of the following is a scalar quantity?",
+    "options": ["Force", "Work", "Velocity", "Acceleration"],
+    "answer": 1,
+    "explanation": "Work is scalar; it has magnitude only, no direction."
+  },
+  {
+    "question": "The force required to accelerate a 4 kg object at 3 m/s² is:",
+    "options": ["12 N", "7 N", "1.33 N", "0.75 N"],
+    "answer": 0,
+    "explanation": "F = ma = 4 × 3 = 12 N."
+  },
+  {
+    "question": "A car moves at constant velocity. The net force acting on it is:",
+    "options": ["Zero", "Equal to weight", "Equal to friction", "Equal to mass × velocity"],
+    "answer": 0,
+    "explanation": "When velocity is constant, net force = 0 according to Newton's First Law."
+  },
+  {
+    "question": "If friction is neglected, an object sliding down an incline gains energy in the form of:",
+    "options": ["Kinetic energy", "Potential energy", "Work done", "Power"],
+    "answer": 0,
+    "explanation": "Potential energy converts to kinetic energy as the object slides down."
+  },
+  {
+    "question": "A force acts at an angle of 60° to the displacement. The work done is given by:",
+    "options": ["F × d", "F × d × cos60°", "F × d × sin60°", "F / d"],
+    "answer": 1,
+    "explanation": "Work done W = Fd cosθ, where θ is the angle between force and displacement."
+  },
+  {
+    "question": "The rate at which kinetic energy changes is called:",
+    "options": ["Work", "Power", "Momentum", "Force"],
+    "answer": 1,
+    "explanation": "Power is the rate of doing work or rate of energy transfer."
+  },
+  {
+    "question": "A 2 kg object moving at 4 m/s has kinetic energy:",
+    "options": ["8 J", "16 J", "32 J", "64 J"],
+    "answer": 1,
+    "explanation": "KE = ½ mv² = 0.5 × 2 × 4² = 16 J."
+  },
+  {
+    "question": "If no net work is done on an object, its kinetic energy:",
+    "options": ["Increases", "Decreases", "Remains constant", "Becomes negative"],
+    "answer": 2,
+    "explanation": "Work-energy theorem: if net work = 0, kinetic energy does not change."
+  },
+
+    {
+      "question": "A 3 kg object is lifted 5 m vertically. The work done against gravity is:",
+      "options": ["15 J", "30 J", "150 J", "75 J"],
+      "answer": 2,
+      "explanation": "Work = m × g × h = 3 × 10 × 5 = 150 J."
+    },
+    {
+      "question": "Which of the following best describes Newton's Third Law?",
+      "options": ["F = ma", "Every action has an equal and opposite reaction", "Objects at rest stay at rest", "Energy is conserved"],
+      "answer": 1,
+      "explanation": "Newton’s Third Law states that for every action, there is an equal and opposite reaction."
+    },
+    {
+      "question": "The frictional force depends on:",
+      "options": ["Mass and acceleration", "Normal force and coefficient of friction", "Velocity only", "Displacement only"],
+      "answer": 1,
+      "explanation": "Frictional force = μ × N, where μ is coefficient of friction and N is normal force."
+    },
+    {
+      "question": "The work done by a force of 50 N at 90° to displacement of 2 m is:",
+      "options": ["100 J", "50 J", "0 J", "25 J"],
+      "answer": 2,
+      "explanation": "Work = F × d × cosθ = 50 × 2 × cos90° = 0 J."
+    },
+    {
+      "question": "A 2 kg object moving with 6 m/s has kinetic energy:",
+      "options": ["12 J", "36 J", "72 J", "18 J"],
+      "answer": 1,
+      "explanation": "KE = ½ mv² = 0.5 × 2 × 6² = 36 J."
+    },
+    {
+      "question": "The gravitational potential energy of an object depends on:",
+      "options": ["Mass, gravity, and height", "Force applied", "Acceleration", "Velocity"],
+      "answer": 0,
+      "explanation": "Potential energy = mgh, depends on mass, gravitational acceleration, and height."
+    },
+    {
+      "question": "If a car's velocity doubles, its kinetic energy:",
+      "options": ["Doubles", "Quadruples", "Halves", "Remains the same"],
+      "answer": 1,
+      "explanation": "KE = ½ mv²; doubling velocity increases KE by 2² = 4 times."
+    },
+    {
+      "question": "Which of the following is not a type of friction?",
+      "options": ["Static", "Kinetic", "Rolling", "Gravitational"],
+      "answer": 3,
+      "explanation": "Gravitational force is not a type of friction."
+    },
+    {
+      "question": "A 10 N force moves an object 3 m at 0° to the force. Work done is:",
+      "options": ["10 J", "30 J", "3 J", "0 J"],
+      "answer": 1,
+      "explanation": "W = F × d × cos0° = 10 × 3 × 1 = 30 J."
+    },
+    {
+      "question": "Power is measured in which SI unit?",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "answer": 1,
+      "explanation": "Power is measured in Watts (W)."
+    },
+    {
+      "question": "The net work done on an object is equal to:",
+      "options": ["Its change in potential energy", "Its change in kinetic energy", "Force × time", "Mass × acceleration"],
+      "answer": 1,
+      "explanation": "According to the work-energy theorem, net work = change in kinetic energy."
+    },
+    {
+      "question": "A block is at rest on a horizontal surface. Which friction acts on it?",
+      "options": ["Kinetic friction", "Static friction", "Rolling friction", "No friction"],
+      "answer": 1,
+      "explanation": "Static friction prevents a stationary object from moving."
+    },
+    {
+      "question": "A 5 kg object slides down a frictionless slope of 4 m height. Its speed at bottom is:",
+      "options": ["8 m/s", "4 m/s", "10 m/s", "√80 m/s"],
+      "answer": 3,
+      "explanation": "mgh = ½ mv² ⇒ 5×10×4 = ½×5×v² ⇒ v²=80 ⇒ v=√80 m/s."
+    },
+    {
+      "question": "Which of the following statements is correct about work?",
+      "options": ["Work can be negative", "Work is always positive", "Work has no units", "Work is always zero"],
+      "answer": 0,
+      "explanation": "Work is negative when force and displacement are in opposite directions."
+    },
+    {
+      "question": "An object of mass 3 kg has kinetic energy 24 J. Its speed is:",
+      "options": ["4 m/s", "2 m/s", "6 m/s", "8 m/s"],
+      "answer": 0,
+      "explanation": "KE = ½ mv² ⇒ 24 = 0.5 × 3 × v² ⇒ v² = 16 ⇒ v = 4 m/s."
+    },
+    {
+      "question": "A 2 kg mass is lifted 3 m in 2 s. Its power output is:",
+      "options": ["30 W", "20 W", "10 W", "60 W"],
+      "answer": 1,
+      "explanation": "Work = mgh = 2×10×3=60 J, Power = Work/Time = 60/3 = 20 W."
+    },
+    {
+      "question": "Friction always acts:",
+      "options": ["Along the motion", "Opposite the motion", "Perpendicular to motion", "Upwards"],
+      "answer": 1,
+      "explanation": "Friction opposes relative motion between surfaces."
+    },
+    {
+      "question": "The kinetic energy of an object is zero. Its velocity is:",
+      "options": ["Maximum", "Zero", "Minimum", "Non-zero"],
+      "answer": 1,
+      "explanation": "KE = ½ mv² = 0 ⇒ velocity v = 0."
+    },
+    {
+      "question": "Which quantity is both scalar and can be negative?",
+      "options": ["Work", "Force", "Velocity", "Acceleration"],
+      "answer": 0,
+      "explanation": "Work is scalar and can be negative if force and displacement are opposite."
+    },
+    {
+      "question": "An object moves in a circle at constant speed. The work done by centripetal force is:",
+      "options": ["Positive", "Negative", "Zero", "Depends on mass"],
+      "answer": 2,
+      "explanation": "Centripetal force is perpendicular to displacement ⇒ work done = 0."
+    },
+
+    {
+      "question": "A 4 kg object is pulled by a 12 N force over 3 m at 0° to the force. Work done is:",
+      "options": ["12 J", "36 J", "24 J", "48 J"],
+      "answer": 1,
+      "explanation": "Work = F × d × cos0° = 12 × 3 × 1 = 36 J."
+    },
+    {
+      "question": "If the velocity of an object triples, its kinetic energy:",
+      "options": ["Triples", "Remains same", "Increases nine times", "Halves"],
+      "answer": 2,
+      "explanation": "KE = ½ mv²; tripling velocity increases KE by 3² = 9 times."
+    },
+    {
+      "question": "Which law explains why a rocket moves forward when gases are expelled backward?",
+      "options": ["Newton’s First Law", "Newton’s Second Law", "Newton’s Third Law", "Law of Conservation of Energy"],
+      "answer": 2,
+      "explanation": "Newton’s Third Law: action (gas backward) produces equal and opposite reaction (rocket forward)."
+    },
+    {
+      "question": "An object is pushed horizontally on a rough surface with a force of 20 N, friction is 5 N. Net work done over 4 m is:",
+      "options": ["60 J", "80 J", "100 J", "20 J"],
+      "answer": 0,
+      "explanation": "Net force = 20-5=15 N; Work = F × d = 15 × 4 = 60 J."
+    },
+    {
+      "question": "A car of mass 1000 kg accelerates at 2 m/s². The force applied is:",
+      "options": ["2000 N", "1000 N", "500 N", "2500 N"],
+      "answer": 0,
+      "explanation": "F = m × a = 1000 × 2 = 2000 N."
+    },
+    {
+      "question": "Which type of friction allows a wheel to roll without slipping?",
+      "options": ["Static", "Kinetic", "Rolling", "Fluid"],
+      "answer": 2,
+      "explanation": "Rolling friction acts on rolling objects, usually less than sliding friction."
+    },
+    {
+      "question": "A 5 kg object is lifted 8 m vertically. Work done against gravity is:",
+      "options": ["40 J", "80 J", "400 J", "500 J"],
+      "answer": 2,
+      "explanation": "W = m × g × h = 5 × 10 × 8 = 400 J."
+    },
+    {
+      "question": "Power is defined as:",
+      "options": ["Work × Time", "Work / Time", "Force × Displacement", "Force / Time"],
+      "answer": 1,
+      "explanation": "Power = Work done / Time taken."
+    },
+    {
+      "question": "An object of mass 2 kg has KE = 50 J. Its velocity is:",
+      "options": ["5 m/s", "7.07 m/s", "10 m/s", "15 m/s"],
+      "answer": 1,
+      "explanation": "KE = ½ mv² ⇒ 50 = 0.5 × 2 × v² ⇒ v² = 50 ⇒ v = √50 ≈ 7.07 m/s."
+    },
+    {
+      "question": "Which of the following is scalar?",
+      "options": ["Work", "Force", "Acceleration", "Velocity"],
+      "answer": 0,
+      "explanation": "Work is a scalar quantity; others are vectors."
+    },
+    {
+      "question": "A block of 3 kg moves up a slope with friction 6 N over 4 m. Applied force 18 N. Net work done is:",
+      "options": ["36 J", "48 J", "72 J", "24 J"],
+      "answer": 0,
+      "explanation": "Net force = 18-6=12 N; Work = F × d = 12 × 3 = 36 J."
+    },
+    {
+      "question": "An object is at rest. Which force must be overcome to move it?",
+      "options": ["Kinetic friction", "Static friction", "Air resistance", "Gravitational force"],
+      "answer": 1,
+      "explanation": "Static friction resists initiation of motion."
+    },
+    {
+      "question": "A 10 N force acts on a 2 kg object for 5 s. Impulse delivered is:",
+      "options": ["10 Ns", "20 Ns", "50 Ns", "100 Ns"],
+      "answer": 2,
+      "explanation": "Impulse = Force × Time = 10 × 5 = 50 Ns."
+    },
+    {
+      "question": "If work done is zero, which of the following must be true?",
+      "options": ["Force = 0", "Displacement = 0 or force ⊥ displacement", "Acceleration = 0", "Velocity = 0"],
+      "answer": 1,
+      "explanation": "Work = F × d × cosθ = 0 if displacement = 0 or force ⊥ displacement."
+    },
+    {
+      "question": "Gravitational potential energy is maximum at:",
+      "options": ["Lowest point", "Highest point", "Midpoint", "Depends on mass only"],
+      "answer": 1,
+      "explanation": "Potential energy = mgh; maximum at highest vertical position."
+    },
+    {
+      "question": "An object moves on a horizontal surface with constant speed. Net work done is:",
+      "options": ["Positive", "Negative", "Zero", "Depends on mass"],
+      "answer": 2,
+      "explanation": "No acceleration ⇒ net force = 0 ⇒ net work = 0."
+    },
+    {
+      "question": "The force which opposes relative motion is called:",
+      "options": ["Tension", "Normal force", "Friction", "Gravity"],
+      "answer": 2,
+      "explanation": "Friction opposes relative motion between surfaces."
+    },
+    {
+      "question": "An object is moving in a circle at constant speed. The centripetal work is:",
+      "options": ["Zero", "Positive", "Negative", "Depends on radius"],
+      "answer": 0,
+      "explanation": "Centripetal force is perpendicular to displacement, so work = 0."
+    },
+    {
+      "question": "Power output of a machine is 100 W doing 200 J work. Time taken is:",
+      "options": ["2 s", "0.5 s", "20 s", "200 s"],
+      "answer": 0,
+      "explanation": "Power = Work / Time ⇒ 100 = 200 / t ⇒ t = 2 s."
+    },
+    {
+      "question": "An object of mass 2 kg is moving with 3 m/s. Its kinetic energy is:",
+      "options": ["3 J", "6 J", "9 J", "18 J"],
+      "answer": 3,
+      "explanation": "KE = ½ mv² = 0.5 × 2 × 3² = 9 J."
+    },
+
+    {
+      "question": "A 50 N force moves an object 10 m at 30° to the horizontal. Work done is:",
+      "options": ["250 J", "500 J", "433 J", "1000 J"],
+      "answer": 2,
+      "explanation": "Work = F × d × cosθ = 50 × 10 × cos30° ≈ 433 J."
+    },
+    {
+      "question": "The law that states 'Force = mass × acceleration' is:",
+      "options": ["First Law", "Second Law", "Third Law", "Law of Gravitation"],
+      "answer": 1,
+      "explanation": "Newton’s Second Law: F = ma."
+    },
+    {
+      "question": "A 3 kg block is pulled across a rough surface with friction 4 N over 5 m. Applied force 14 N. Net work done is:",
+      "options": ["50 J", "45 J", "30 J", "60 J"],
+      "answer": 1,
+      "explanation": "Net force = 14-4=10 N; Work = F × d = 10 × 4.5 = 45 J."
+    },
+    {
+      "question": "A body falls freely from 20 m height. Its velocity just before hitting ground is (g=10 m/s²):",
+      "options": ["10 m/s", "20 m/s", "30 m/s", "40 m/s"],
+      "answer": 1,
+      "explanation": "v = √(2gh) = √(2 × 10 × 20) = √400 = 20 m/s."
+    },
+    {
+      "question": "Work done by gravity on a freely falling object is:",
+      "options": ["Positive", "Negative", "Zero", "Depends on mass"],
+      "answer": 0,
+      "explanation": "Force of gravity and displacement are in same direction ⇒ positive work."
+    },
+    {
+      "question": "If an object moves at constant velocity, net force acting on it is:",
+      "options": ["Zero", "Positive", "Negative", "Depends on mass"],
+      "answer": 0,
+      "explanation": "Newton’s First Law: constant velocity ⇒ net force = 0."
+    },
+    {
+      "question": "The friction that acts on a stationary object is called:",
+      "options": ["Static friction", "Kinetic friction", "Rolling friction", "Fluid friction"],
+      "answer": 0,
+      "explanation": "Static friction opposes initiation of motion."
+    },
+    {
+      "question": "Potential energy of a body of mass 5 kg at height 10 m is (g=10 m/s²):",
+      "options": ["50 J", "100 J", "150 J", "500 J"],
+      "answer": 1,
+      "explanation": "PE = mgh = 5 × 10 × 10 = 500 J."
+    },
+    {
+      "question": "Kinetic energy of a 2 kg body moving at 5 m/s is:",
+      "options": ["10 J", "20 J", "25 J", "50 J"],
+      "answer": 2,
+      "explanation": "KE = ½ mv² = 0.5 × 2 × 25 = 25 J."
+    },
+    {
+      "question": "A machine does 200 J of work in 10 s. Its power is:",
+      "options": ["10 W", "20 W", "2000 W", "20 kW"],
+      "answer": 1,
+      "explanation": "Power = Work / Time = 200 / 10 = 20 W."
+    },
+    {
+      "question": "Force of friction is always directed:",
+      "options": ["Along motion", "Opposite motion", "Perpendicular to motion", "Depends on velocity"],
+      "answer": 1,
+      "explanation": "Friction opposes relative motion."
+    },
+    {
+      "question": "The net work done on an object moving in a circle at constant speed is:",
+      "options": ["Positive", "Negative", "Zero", "Depends on radius"],
+      "answer": 2,
+      "explanation": "Centripetal force is perpendicular to displacement ⇒ work = 0."
+    },
+    {
+      "question": "An object of mass 10 kg is accelerated at 3 m/s². Force applied is:",
+      "options": ["10 N", "30 N", "3 N", "13 N"],
+      "answer": 1,
+      "explanation": "F = m × a = 10 × 3 = 30 N."
+    },
+    {
+      "question": "The rate of doing work is called:",
+      "options": ["Energy", "Force", "Power", "Work"],
+      "answer": 2,
+      "explanation": "Power = Work / Time."
+    },
+    {
+      "question": "An object is raised to a height of 15 m. Its potential energy increases by 300 J. Mass of object is:",
+      "options": ["2 kg", "10 kg", "20 kg", "5 kg"],
+      "answer": 1,
+      "explanation": "PE = mgh ⇒ m = 300 / (10 × 15) = 2 kg."
+    },
+    {
+      "question": "Work done by a force perpendicular to displacement is:",
+      "options": ["Maximum", "Minimum", "Zero", "Depends on magnitude"],
+      "answer": 2,
+      "explanation": "Work = F × d × cos90° = 0."
+    },
+    {
+      "question": "A car of mass 500 kg moves with velocity 10 m/s. Its kinetic energy is:",
+      "options": ["25 kJ", "50 kJ", "100 kJ", "250 kJ"],
+      "answer": 2,
+      "explanation": "KE = ½ mv² = 0.5 × 500 × 100 = 25000 J = 25 kJ."
+    },
+    {
+      "question": "Which friction is usually smallest in magnitude?",
+      "options": ["Static", "Kinetic", "Rolling", "Fluid"],
+      "answer": 2,
+      "explanation": "Rolling friction < sliding (kinetic) < static friction."
+    },
+    {
+      "question": "If net work on a body is zero, its kinetic energy:",
+      "options": ["Increases", "Decreases", "Remains constant", "Becomes zero"],
+      "answer": 2,
+      "explanation": "Work-energy theorem: W_net = ΔKE ⇒ ΔKE = 0 ⇒ KE constant."
+    },
+    {
+      "question": "A 2 kg body is moving at 6 m/s. Its momentum is:",
+      "options": ["6 kg·m/s", "12 kg·m/s", "18 kg·m/s", "24 kg·m/s"],
+      "answer": 3,
+      "explanation": "Momentum = m × v = 2 × 6 = 12 kg·m/s."
+    },
+
+    {
+      "question": "Which of the following best defines force?",
+      "options": [
+        "A push or pull on an object",
+        "Energy stored in an object",
+        "The work done per unit time",
+        "The mass of an object"
+      ],
+      "answer": 0,
+      "explanation": "Force is any interaction that changes the motion of an object; it is a push or pull."
+    },
+    {
+      "question": "Newton’s First Law of Motion is also called:",
+      "options": [
+        "Law of Inertia",
+        "Law of Acceleration",
+        "Law of Action-Reaction",
+        "Law of Gravity"
+      ],
+      "answer": 0,
+      "explanation": "First Law states that a body remains at rest or in uniform motion unless acted upon by an external force."
+    },
+    {
+      "question": "Which of the following is true for Newton’s Third Law?",
+      "options": [
+        "Action and reaction forces act on the same body",
+        "Action and reaction forces act on different bodies",
+        "They cancel each other",
+        "They produce no motion"
+      ],
+      "answer": 1,
+      "explanation": "Action and reaction forces are equal and opposite but act on different bodies."
+    },
+    {
+      "question": "Static friction differs from kinetic friction because:",
+      "options": [
+        "It acts on moving objects",
+        "It is generally greater than kinetic friction",
+        "It opposes motion less",
+        "It depends on velocity"
+      ],
+      "answer": 1,
+      "explanation": "Static friction prevents motion initially and is usually greater than kinetic friction."
+    },
+    {
+      "question": "Work is said to be done when:",
+      "options": [
+        "A force acts on an object",
+        "An object moves under the action of a force",
+        "An object moves with constant speed",
+        "Energy is created"
+      ],
+      "answer": 1,
+      "explanation": "Work occurs when a force causes displacement of an object in the direction of the force."
+    },
+    {
+      "question": "Potential energy depends on:",
+      "options": [
+        "Mass, height, and gravity",
+        "Speed and mass only",
+        "Time and force",
+        "Friction and displacement"
+      ],
+      "answer": 0,
+      "explanation": "PE = mgh; it depends on mass, height, and gravitational acceleration."
+    },
+    {
+      "question": "Kinetic energy depends on:",
+      "options": [
+        "Mass only",
+        "Velocity only",
+        "Mass and velocity",
+        "Height only"
+      ],
+      "answer": 2,
+      "explanation": "KE = ½ mv²; it depends on both mass and speed of the object."
+    },
+    {
+      "question": "The principle of conservation of energy states:",
+      "options": [
+        "Energy can be created",
+        "Energy can be destroyed",
+        "Total energy remains constant",
+        "Potential energy is always zero"
+      ],
+      "answer": 2,
+      "explanation": "Energy cannot be created or destroyed; it can only change forms."
+    },
+    {
+      "question": "Power is defined as:",
+      "options": [
+        "Work done per unit time",
+        "Force applied per unit time",
+        "Energy stored per unit mass",
+        "Velocity per unit force"
+      ],
+      "answer": 0,
+      "explanation": "Power = Work / Time; it measures the rate of doing work."
+    },
+    {
+      "question": "Unit of work in SI system is:",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 1,
+      "explanation": "Work is measured in Joules (J); 1 J = 1 N·m."
+    },
+    {
+      "question": "Unit of power in SI system is:",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 2,
+      "explanation": "Power is measured in Watts (W); 1 W = 1 J/s."
+    },
+    {
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Work",
+        "Energy",
+        "Force",
+        "Power"
+      ],
+      "answer": 2,
+      "explanation": "Force has both magnitude and direction, hence it is a vector."
+    },
+    {
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Force",
+        "Velocity",
+        "Acceleration",
+        "Energy"
+      ],
+      "answer": 3,
+      "explanation": "Energy has magnitude only, so it is a scalar."
+    },
+    {
+      "question": "An object moving with constant speed in a straight line has:",
+      "options": [
+        "Zero acceleration",
+        "Constant acceleration",
+        "Increasing acceleration",
+        "Decreasing acceleration"
+      ],
+      "answer": 0,
+      "explanation": "Constant speed and straight path ⇒ acceleration = 0."
+    },
+    {
+      "question": "The work done by friction is generally:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Depends on mass"
+      ],
+      "answer": 1,
+      "explanation": "Friction opposes motion, so work done by friction is negative."
+    },
+    {
+      "question": "A body has maximum potential energy at:",
+      "options": [
+        "Lowest point",
+        "Highest point",
+        "Midpoint",
+        "Depends on mass"
+      ],
+      "answer": 1,
+      "explanation": "PE = mgh; highest point gives maximum height ⇒ maximum PE."
+    },
+    {
+      "question": "Kinetic energy is maximum when:",
+      "options": [
+        "Speed is zero",
+        "Speed is minimum",
+        "Speed is maximum",
+        "Mass is zero"
+      ],
+      "answer": 2,
+      "explanation": "KE = ½ mv²; KE increases with speed; maximum speed ⇒ maximum KE."
+    },
+    {
+      "question": "Mechanical energy of a system is the sum of:",
+      "options": [
+        "Force and acceleration",
+        "Potential and kinetic energy",
+        "Mass and velocity",
+        "Work and power"
+      ],
+      "answer": 1,
+      "explanation": "Mechanical energy = PE + KE."
+    },
+    {
+      "question": "A body’s energy can change from kinetic to potential due to:",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Acceleration",
+        "Time"
+      ],
+      "answer": 1,
+      "explanation": "Gravity can convert kinetic energy into potential energy and vice versa."
+    },
+    {
+      "question": "Power can be increased by:",
+      "options": [
+        "Increasing work done or decreasing time",
+        "Increasing time",
+        "Decreasing work done",
+        "Decreasing force"
+      ],
+      "answer": 0,
+      "explanation": "Power = Work / Time; increasing work or decreasing time increases power."
+    }
+
+
+]

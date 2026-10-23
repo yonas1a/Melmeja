@@ -1,0 +1,80 @@
+[
+{
+  "question": "A torque of 10³ Nm rotates a door by an angular displacement of 45° about its hinges. The work done on the door is",
+  "options": [
+    "785 J",
+    "1274 J",
+    "45000 J",
+    "4500 J"
+  ],
+  "answer": 0,
+  "explanation": "Work done by torque W = τ × Δθ. \n\nConverting 45° to radians:\n\n Δθ = 45° × (π / 180°) =\n\n π / 4 rad ≈ 0.7854 rad.\n\n W = 1000 Nm × 0.7854 rad =\n\n 785.4 J ≈\n 785 J."
+},
+{
+"question": " A force that varies with position as F(x) = 2x + 1, where F is in newton, displaces a 4 kg object horizontally from x = 0 to x = 4 m. What is the work done by the force?",
+"options": [
+"16 J",
+"20 J",
+"36 J",
+"32 J"
+],
+"answer": 1,
+"explanation": "Work done is the integral of force with respect to position:\n\n W = ∫₀⁴ (2x + 1) dx = \n\n[x² + x]₀⁴ =\n\n (4² + 4) - 0 = \n\n16 + 4 =\n\n 20 J."
+},
+{
+"question": " A 5 kg object is moving to the right at a speed of 20 m/s hits the wall and rebounds to the left at a speed of 10 m/s. What is the magnitude of an impulse applied on the object?",
+"options": [
+"150 Ns",
+"200 Ns",
+"100 Ns",
+"50 Ns"
+],
+"answer": 0,
+"explanation": "Impulse J = Δp = m(v_final - v_initial).\n\n Taking right as positive: v_initial = +20 m/s and v_final = -10 m/s.\n\n Thus, J = 5 × (-10 - 20) =\n\n 5 × (-30) = -150 Ns.\n\n The magnitude of the impulse is 150 Ns."
+},
+{
+"question": " A 0.20 kg ball thrown from a point 1.0 m above the ground has a kinetic energy of 40.0 J. Neglecting air resistance, what will be the kinetic energy of the ball when it reaches a height of 15.0 m above the ground?",
+"options": [
+"30.0 J",
+"8.0 J",
+"10.0 J",
+"12.0 J"
+],
+"answer": 3,
+"explanation": "Total mechanical energy is conserved: E_initial = E_final.\n\n E_initial = KE_i + mgh_i =\n\n 40.0 J + (0.20 kg × 10 m/s² × 1.0 m) =\n\n 40.0 + 2.0 = 42.0 J. \n\nAt h = 15.0 m, E_final = \n\nKE_f + mgh_f ⇒ \n\n42.0 J = KE_f + (0.20 kg × 10 m/s² × 15.0 m) ⇒ \n\n42.0 = KE_f + 30.0 J. \n\nTherefore, KE_f = 42.0 - 30.0 = 12.0 J."
+},
+{
+"question": " When a force is applied to move an object along the surface, which one of the following statements is correct about the nature of frictional forces acting on the object?",
+"options": [
+"The limiting friction is greater than kinetic friction.",
+"Static friction is equal to the limiting friction and nearly constant.",
+"Static friction acts on moving object unlike the kinetic friction.",
+"Kinetic friction has a maximum value unlike static friction."
+],
+"answer": 0,
+"explanation": "Limiting friction is the maximum static friction that prevents motion.\n\n Once motion starts, kinetic friction takes over, and its magnitude is generally less than the maximum (limiting) static friction force."
+},
+{
+"question": " Consider the following diagram of two-dimensional object.\n\nThe object is hanged on a wall, once at a time, from each of the holes and plumb lines are drawn. Which one of the following is correct concerning the center of mass of the object? The center of mass of the object is at",
+"options": [
+"the intersection point of all the lines drawn from each hole.",
+"any arbitrary chosen holes.",
+"the geometric center of the object.",
+"the line drawn from one hole to another hole."
+],
+"answer": 0,
+"explanation": "By using the plumb line method (or center of gravity suspension method), when an irregularly shaped object is suspended from different pivot points (holes), the intersection of all the vertical plumb lines marks the exact center of mass.",
+"image": "images/P2018R2_47.png"
+},
+{
+"question": " A force of F = (3 î + 8 ĵ) N is applied on a trolley initially at rest in a horizontal frictionless surface. The force displaces the trolley through a displacement of s = (2 î + 5 ĵ) m. How much work is done on the trolley during the process?",
+"options": [
+"29 J",
+"73 J",
+"31 J",
+"46 J"
+],
+"answer": 3,
+"explanation": "Work done is the dot product of the force and displacement vectors: W = F ⋅s = \n\n(3)(2) + (8)(5) = \n\n6 + 40 =\n\n 46 J."
+}
+]

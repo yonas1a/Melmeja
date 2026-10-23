@@ -1,0 +1,24 @@
+[
+{
+  "question": "7) Which of the following is true about the trigonometric values of $855^{\\circ}$?",
+  "options": [
+    "$\\cos 855^{\\circ} = -\\frac{\\sqrt{2}}{2}$",
+    "$\\sin 855^{\\circ} = \\frac{\\sqrt{3}}{2}$",
+    "$\\tan 855^{\\circ} = 1$",
+    "$\\cot 855^{\\circ} = -\\sqrt{2}$"
+  ],
+  "answer": 0,
+  "explanation": "To find the trigonometric values of $855^{\\circ}$, first find the co-terminal angle in the range $[0^{\\circ}, 360^{\\circ}]$. $855^{\\circ} = 2 \\times 360^{\\circ} + 135^{\\circ}$. So, the trigonometric values of $855^{\\circ}$ are the same as the values of $135^{\\circ}$. The angle $135^{\\circ}$ lies in the second quadrant, where sine is positive, and cosine and tangent are negative. The reference angle is $180^{\\circ} - 135^{\\circ} = 45^{\\circ}$. Using the values for $45^{\\circ}$: $\\cos 855^{\\circ} = \\cos 135^{\\circ} = -\\cos 45^{\\circ} = -\\frac{\\sqrt{2}}{2}$. (True)\\n$\\sin 855^{\\circ} = \\sin 135^{\\circ} = +\\sin 45^{\\circ} = \\frac{\\sqrt{2}}{2}$. (Option B is false)\\n$\\tan 855^{\\circ} = \\tan 135^{\\circ} = -\\tan 45^{\\circ} = -1$. (Option C is false)\\n$\\cot 855^{\\circ} = \\cot 135^{\\circ} = -\\cot 45^{\\circ} = -1$. (Option D is false)\\nTherefore, A is the only true statement."
+},
+{
+"question": "8) Which one of the following is true about the function $y = -\\sin x$?",
+"options": [
+"Its range is $[-1, 1]$",
+"Its domain is $(0, \\infty)$",
+"Its domain is $[-1, 1]$",
+"Its period is $\\pi$"
+],
+"answer": 0,
+"explanation": "The function $y = -\\sin x$ is a reflection of the basic sine function, $y = \\sin x$, across the $x$-axis. The basic properties are: **Domain:** The set of all real numbers, $\\mathbb{R}$ or $(-\\infty, \\infty)$. (Options B and C are false.) **Range:** The maximum value of $\\sin x$ is $1$ and the minimum is $-1$. Thus, the maximum value of $-\\sin x$ is $-(-1) = 1$, and the minimum is $-(1) = -1$. The range is $[-1, 1]$. (Option A is true.) **Period:** The period of $y = \\sin(Bx)$ is $2\\pi / |B|$. For $y = -\\sin x$, $B=1$, so the period is $2\\pi / 1 = 2\\pi$. (Option D is false.)"
+}
+]

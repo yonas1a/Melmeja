@@ -1,0 +1,1234 @@
+[
+  {
+    "question": "Which of the following represents the vector from point A(1, -3) to point B(4, 5)?",
+    "options": [
+      "(5, 2)",
+      "(-3, -8)",
+      "(3, 8)",
+      "(4, -15)"
+    ],
+    "answer": 2,
+    "explanation": "The vector AB is calculated by subtracting the coordinates of the initial point A from the terminal point B:\n\n  B - A = (4 - 1, 5 - (-3)) = (3, 8)."
+  },
+  {
+    "question": "What is the magnitude of the vector u = -6i + 8j?",
+    "options": [
+      "2",
+      "10",
+      "14",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "The magnitude is calculated as ||u|| = √((-6)² + 8²) = \n√(36 + 64) = \n√(100) = 10."
+  },
+  {
+    "question": "If vector a = (2, -1) and vector b = (-3, 4), find the resultant vector a + b.",
+    "options": [
+      "(-1, 3)",
+      "(5, -5)",
+      "(-6, -4)",
+      "(1, -3)"
+    ],
+    "answer": 0,
+    "explanation": "Vector addition is done by adding the corresponding components: \n\na + b = (2 + (-3), -1 + 4) = (-1, 3)."
+  },
+  {
+    "question": "Determine the unit vector in the same direction as v = (3, -4).",
+    "options": [
+      "(3/7, -4/7)",
+      "(3/5, -4/5)",
+      "(-3/5, 4/5)",
+      "(5, 1)"
+    ],
+    "answer": 1,
+    "explanation": "First, find the magnitude: ||v|| = √(3² + (-4)²) = √(9 + 16) = 5.\n\n The unit vector is v/||v|| = (3/5, -4/5)."
+  },
+  {
+    "question": "For what value of k are the vectors u = (3, k) and v = (6, -2) perpendicular (orthogonal)?",
+    "options": [
+      "3",
+      "-9",
+      "9",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "The dot product of orthogonal vectors must be zero: u . v = 0.\n\n  (3)(6) + (k)(-2) = 0. \n\n 18 - 2k = 0.\n  2k = 18.\n  k = 9."
+  },
+  {
+    "question": "Calculate the scalar product (dot product) of u = 5i + j and v = 2i - 3j.",
+    "options": [
+      "13",
+      "7",
+      "10i - 3j",
+      "-5"
+    ],
+    "answer": 1,
+    "explanation": "u . v = (5)(2) + (1)(-3) = \n10 - 3 = 7."
+  },
+  {
+    "question": "If 2u - 3v = (12, -18) and v = (0, 4), what is the vector u?",
+    "options": [
+      "(6, -3)",
+      "(6, -15)",
+      "(2, -5)",
+      "(12, -6)"
+    ],
+    "answer": 0,
+    "explanation": "2u - 3(0, 4) = (12, -18).\n  2u - (0, 12) = (12, -18).\n  2u = (12, -18) + (0, 12) = (12, -6). \n u = (1/2)(12, -6) =\n (6, -3)."
+  },
+  {
+    "question": "The component form of a vector with initial point P(2, 7) and terminal point Q(-3, 1) is:",
+    "options": [
+      "(-5, -6)",
+      "(5, 6)",
+      "(-1, 8)",
+      "(2, 7)"
+    ],
+    "answer": 0,
+    "explanation": "Vector PQ = Q - P = \n(-3 - 2, 1 - 7) = \n(-5, -6)."
+  },
+
+  {
+    "question": "Two vectors u and v are parallel if:",
+    "options": [
+      "u . v = 0",
+      "u is a scalar multiple of v",
+      "||u|| = ||v||",
+      "u + v = 0"
+    ],
+    "answer": 1,
+    "explanation": "Two non-zero vectors are parallel if and only if one is a scalar multiple of the other, i.e., u = k v for some scalar k."
+  },
+
+
+  {
+    "question": "If u = 2i + 3j and v = -4i + j, compute 2u - v.",
+    "options": [
+      "8i + 5j",
+      "8i + 2j",
+      "-2i + 4j",
+      "6i + 5j"
+    ],
+    "answer": 0,
+    "explanation": "2u - v = 2(2i + 3j) - (-4i + j) =\n (4i + 6j) - (-4i + j) =\n (4 - (-4))i + (6 - 1)j =\n 8i + 5j."
+  },
+  {
+    "question": "A vector has magnitude 10 and its x-component is 6. If the y-component is positive, what is the y-component?",
+    "options": [
+      "4",
+      "8",
+      "square root(34)",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "If v = (x, y), then ||v||² = x² + y². \nGiven ||v|| = 10 and x = 6, we have 10² = 6² + y².\n 100 = 36 + y². y² = 64.\n Since the y-component is positive, y = 8."
+  },
+
+
+
+  {
+    "question": "If P is the point (2, 5) and the position vector OP = u, find the magnitude of u.",
+    "options": [
+      "25",
+      "square root(7)",
+      "square root(29)",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "The position vector u = (2, 5).\n The magnitude is ||u|| = √(2² + 5²) = \n√(4 + 25) = \n√(29)."
+  },
+
+  {
+    "question": "Let u = (x, y). If u is a unit vector, then:",
+    "options": [
+      "x + y = 1",
+      "x² + y² = 1",
+      "x² = y²",
+      "x = y"
+    ],
+    "answer": 1,
+    "explanation": "A vector is a unit vector if its magnitude is 1. \n||u|| = √(x² + y²) = 1.\n Squaring both sides gives x² + y² = 1."
+  },
+  {
+    "question": "If vector a = 3i - 2j and vector b = i + 4j, find the vector c such that a + c = b.",
+    "options": [
+      "2i - 6j",
+      "-2i + 6j",
+      "4i + 2j",
+      "2i + 6j"
+    ],
+    "answer": 1,
+    "explanation": "c = b - a = (i + 4j) - (3i - 2j) = \n(1 - 3)i + (4 - (-2))j = \n-2i + 6j."
+  },
+  {
+    "question": "The zero vector (0, 0) has a magnitude of:",
+    "options": [
+      "1",
+      "0",
+      "Undefined",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "The magnitude of the zero vector is ||(0, 0)|| = √(0² + 0²) = 0."
+  },
+  {
+    "question": "If vector u = (3, -2) and v = (k, 4) are collinear (parallel), what is the value of k?",
+    "options": [
+      "-6",
+      "6",
+      "-3/2",
+      "2/3"
+    ],
+    "answer": 0,
+    "explanation": "For collinear vectors, the components must be proportional: 3/k = -2/4.\n  3/k = -1/2. \n Cross-multiplying gives -k = 6, so k = -6."
+  },
+  {
+    "question": "The scalar projection of vector a onto vector b is given by:",
+    "options": [
+      "(a . b) * b",
+      "(a . b) / ||a||",
+      "(a . b) / ||b||",
+      "a - proj_b a"
+    ],
+    "answer": 2,
+    "explanation": "The scalar projection of a onto b is defined as the dot product of a and the unit vector of b: a .\n (b/||b||) = (a . b) / ||b||."
+  },
+
+
+  {
+    "question": "The position vector of the midpoint M of the line segment AB, where A=(4, -2) and B=(-2, 6), is:",
+    "options": [
+      "(1, 2)",
+      "(6, 4)",
+      "(2, 4)",
+      "(3, 4)"
+    ],
+    "answer": 0,
+    "explanation": "The midpoint M is ((4 + (-2))/2, (-2 + 6)/2) = (2/2, 4/2) = (1, 2).\n The position vector OM is therefore (1, 2)."
+  },
+
+  {
+    "question": "If u = (2, -3), which vector v satisfies the equation 4u + v = (0, 0)?",
+    "options": [
+      "(-8, 12)",
+      "(8, -12)",
+      "(-2, 3)",
+      "(4, -6)"
+    ],
+    "answer": 0,
+    "explanation": "v = -(4u) = -4(2, -3) = (-8, 12)."
+  },
+
+
+
+
+
+  {
+    "question": "The vector component of a = (3, -5) along the x-axis is:",
+    "options": [
+      "(0, -5)",
+      "(3, 0)",
+      "(3, -5)",
+      "(0, 3)"
+    ],
+    "answer": 1,
+    "explanation": "The component along the x-axis is the vector formed by the x-component and a zero y-component: (3, 0)."
+  },
+
+
+
+  {
+    "question": "If vector a and vector b are orthogonal, which statement is always true?",
+    "options": [
+      "a + b = 0",
+      "a . b = 1",
+      "a is a multiple of b",
+      "a . b = 0"
+    ],
+    "answer": 3,
+    "explanation": "Orthogonal vectors have an angle of 90 degrees, and cos(90°) = 0.\n\n Therefore, their dot product a . b = ||a|| ||b|| cos(90°) must be zero."
+  },
+  {
+    "question": "Given a = (1, 1) and b = (3, k). If a and b are parallel, find k.",
+    "options": [
+      "1",
+      "3",
+      "1/3",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "For parallel vectors, the components are proportional: 1/3 = 1/k.\n\n Cross-multiplying gives k = 3.  (b = 3a)."
+  },
+  {
+    "question": "The projection of vector v = (2, 5) onto the y-axis is:",
+    "options": [
+      "(2, 0)",
+      "(5, 0)",
+      "(0, 5)",
+      "(0, 2)"
+    ],
+    "answer": 2,
+    "explanation": "The projection onto the y-axis (vector j = (0, 1)) is the vector formed by the y-component and a zero x-component: (0, 5)."
+  },
+  {
+    "question": "What is the component of u = (4, -2) perpendicular to the vector v = (1, 0)?",
+    "options": [
+      "(-2, 0)",
+      "(4, 0)",
+      "(0, -2)",
+      "(4, -2)"
+    ],
+    "answer": 2,
+    "explanation": "The component of u parallel to v (x-axis) is (4, 0). \n\nThe component perpendicular to v is u - (4, 0) = \n(4 - 4, -2 - 0) = (0, -2)."
+  },
+  {
+    "question": "If vector v has magnitude 5 and direction opposite to u = (-3, 4), then v is:",
+    "options": [
+      "(-3, 4)",
+      "(3, -4)",
+      "(4, 3)",
+      "(3/5, -4/5)"
+    ],
+    "answer": 1,
+    "explanation": "The unit vector of u is u/||u|| = (-3/5, 4/5). \nThe vector v has magnitude 5 and direction -u/||u||.\n v = 5 * (-u/||u||) =\n 5 * (3/5, -4/5) = \n(3, -4)."
+  },
+
+  {
+    "question": "The vector (6, -8) is a linear combination of i and j, represented as:",
+    "options": [
+      "6j - 8i",
+      "6i + 8j",
+      "6i - 8j",
+      "i/6 + j/8"
+    ],
+    "answer": 2,
+    "explanation": "A vector (x, y) can be written as a linear combination of the standard basis vectors i = (1, 0) and j = (0, 1) as xi + yj.\n\n Thus, (6, -8) = 6i - 8j."
+  },
+
+  {
+    "question": "If u = 2i + 3j and v = ai + 6j are parallel, find the value of a.",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "For parallel vectors, the components are proportional: 2/a = 3/6.  2/a = 1/2. \n Cross-multiplying gives a = 4."
+  },
+  {
+    "question": "What is the resultant vector when u = (4, -2), v = (1, 3), and w = (-5, -1) are added?",
+    "options": [
+      "(0, 0)",
+      "(10, -6)",
+      "(0, 2)",
+      "(-2, 4)"
+    ],
+    "answer": 2,
+    "explanation": "u + v + w = (4 + 1 + (-5), -2 + 3 + (-1)) \n= (0, 0)."
+  },
+  {
+    "question": "If the angle between vectors u and v is 0 degrees, then u and v must be:",
+    "options": [
+      "Orthogonal",
+      "Opposite in direction",
+      "Parallel and in the same direction",
+      "Unit vectors"
+    ],
+    "answer": 2,
+    "explanation": "An angle of 0 degrees means the vectors point in exactly the same direction, hence they are parallel and have the same direction."
+  },
+  {
+    "question": "The vector projection of a = (3, 4) onto b = (1, 0) is:",
+    "options": [
+      "(0, 4)",
+      "(3, 0)",
+      "(1, 0)",
+      "(3/5, 4/5)"
+    ],
+    "answer": 1,
+    "explanation": "The projection of a onto the x-axis (b = i) is simply the x-component of a, which is (3, 0). \nThe formula confirms: proj_b a = ((3)(1) + (4)(0) / 1²) * (1, 0) =\n 3 * (1, 0) \n= (3, 0)."
+  },
+  {
+    "question": "If P = (3, -2) and Q = (-1, 5), find the component form of vector QP.",
+    "options": [
+      "(-4, 7)",
+      "(4, -7)",
+      "(2, 3)",
+      "(-2, -3)"
+    ],
+    "answer": 1,
+    "explanation": "Vector QP = P - Q = (3 - (-1), -2 - 5) =\n (4, -7)."
+  },
+
+  {
+    "question": "What is the unit vector in the direction of v = -10i?",
+    "options": [
+      "i",
+      "-i",
+      "1/10 i",
+      "-10"
+    ],
+    "answer": 1,
+    "explanation": "The vector v is (-10, 0). \nIts magnitude is 10. \nThe unit vector is v/||v|| = \n(-10, 0)/10 =\n (-1, 0) = -i."
+  },
+  {
+    "question": "If u = (a, b) and v = (c, d), the dot product u . v is:",
+    "options": [
+      "(ac, bd)",
+      "ac + bd",
+      "a/c + b/d",
+      "ac - bd"
+    ],
+    "answer": 1,
+    "explanation": "The dot product (scalar product) is defined as u . v = ac + bd."
+  },
+
+
+  {
+    "question": "The vector (3, k) is orthogonal to the vector (-2, 5). What is the value of k?",
+    "options": [
+      "5/6",
+      "6/5",
+      "-6/5",
+      "3/5"
+    ],
+    "answer": 1,
+    "explanation": "Dot product must be zero: (3)(-2) + (k)(5) = 0.\n -6 + 5k = 0.\n 5k = 6.\n k = 6/5."
+  },
+
+
+  {
+    "question": "What is the value of i . i?",
+    "options": [
+      "i",
+      "1",
+      "0",
+      "2i"
+    ],
+    "answer": 1,
+    "explanation": "i = (1, 0). i . i = (1)(1) + (0)(0) = 1.\n The dot product of a unit vector with itself is its magnitude squared, which is 1."
+  },
+
+
+
+
+  {
+    "question": "The direction of the vector v = (-4, 0) is:",
+    "options": [
+      "Positive x-axis",
+      "Negative x-axis",
+      "Positive y-axis",
+      "Negative y-axis"
+    ],
+    "answer": 1,
+    "explanation": "The vector (-4, 0) lies on the negative side of the x-axis."
+  },
+  {
+    "question": "If u = (2, -3) and v = (k, 6) are parallel, what is the scalar multiple c such that v = c u?",
+    "options": [
+      "2",
+      "3",
+      "-2",
+      "-3"
+    ],
+    "answer": 3,
+    "explanation": "Since v = c u, we have (k, 6) = c (2, -3). \n The y-component gives: 6 = c(-3), so c = -2. \nThe x-component gives: k = c(2) = -2(2) = -4.\n The scalar multiple is -2."
+  },
+
+  {
+    "question": "Find the area of the parallelogram formed by the vectors u = (3, 0) and v = (1, 4).",
+    "options": [
+      "12",
+      "4",
+      "16",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "The area of the parallelogram formed by two 2D vectors (x1, y1) and (x2, y2) is the absolute value of the determinant: |x1 y2 - x2 y1|.\n\n Area = |(3)(4) - (1)(0)| = |12 - 0| = 12."
+  },
+  {
+    "question": "Which vector is a unit vector orthogonal to u = (1, 1)?",
+    "options": [
+      "(1, 1)",
+      "(-1, 1)",
+      "(1/square root(2), -1/square root(2))",
+      "(1/2, -1/2)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The terminal point of a vector starting at P(0, 0) and equal to u = (6, 9) is:",
+    "options": [
+      "(6, 9)",
+      "(-6, -9)",
+      "(6, 0)",
+      "(9, 6)"
+    ],
+    "answer": 0,
+    "explanation": "A vector starting at the origin (0, 0) is a position vector, and its terminal point has the same coordinates as the vector's components: (6, 9)."
+  },
+  {
+    "question": "What is the resultant vector of (-2, 4) + 3(1, -1)?",
+    "options": [
+      "(1, 3)",
+      "(1, 1)",
+      "(-5, 7)",
+      "(1, 7)"
+    ],
+    "answer": 1,
+    "explanation": "(-2, 4) + 3(1, -1) = \n(-2, 4) + (3, -3) =\n (-2 + 3, 4 - 3) = \n(1, 1)."
+  },
+  {
+    "question": "If vector u = (-1, k) is parallel to v = (2, -6), find the value of k.",
+    "options": [
+      "3",
+      "-3",
+      "1/3",
+      "-1/3"
+    ],
+    "answer": 0,
+    "explanation": "Parallel vectors have proportional components: -1/2 = k/(-6).\n Cross-multiplying: 2k = 6.\n k = 3."
+  },
+  {
+    "question": "Find the scalar projection of a = (6, 8) onto the x-axis (i).",
+    "options": [
+      "10",
+      "6",
+      "8",
+      "square root(100)"
+    ],
+    "answer": 1,
+    "explanation": "The scalar projection of a onto b is (a . b) / ||b||.\n The x-axis is vector i = (1, 0). a . i = (6)(1) + (8)(0) = 6. ||i|| = 1.\n Scalar projection = 6/1 = 6."
+  },
+  {
+    "question": "The vector component of v = (-3, 5) that is parallel to the y-axis is:",
+    "options": [
+      "(-3, 0)",
+      "(0, 5)",
+      "(-3, 5)",
+      "(5, 0)"
+    ],
+    "answer": 1,
+    "explanation": "The component parallel to the y-axis (j) is the vector with the y-component of v and a zero x-component: (0, 5)."
+  },
+
+  {
+    "question": "A vector is said to be equivalent to another if they have the same:",
+    "options": [
+      "Initial point",
+      "Magnitude only",
+      "Direction only",
+      "Magnitude and direction"
+    ],
+    "answer": 3,
+    "explanation": "Two vectors are equivalent if they have the same length (magnitude) and the same direction."
+  },
+  {
+    "question": "If the dot product of u and v is equal to ||u|| ||v||, what is the angle between them?",
+    "options": [
+      "0 degrees",
+      "90 degrees",
+      "180 degrees",
+      "45 degrees"
+    ],
+    "answer": 0,
+    "explanation": "u . v = ||u|| ||v|| cos(theta). \nIf u . v = ||u|| ||v||, then cos(theta) = 1, which means theta = 0 degrees."
+  },
+
+
+  {
+    "question": "Let u = (x, 7) and v = (4, 2). If u is perpendicular to v, what is x?",
+    "options": [
+      "-7/2",
+      "-4",
+      "7/2",
+      "-2"
+    ],
+    "answer": 0,
+    "explanation": "u . v = 0. \n (x)(4) + (7)(2) = 0. \n 4x + 14 = 0. \n 4x = -14.\n  x = -14/4 = -7/2."
+  },
+  {
+    "question": "The result of the vector operation 2(i + 3j) - 4i is:",
+    "options": [
+      "6i + 6j",
+      "-2i + 6j",
+      "2i + 3j",
+      "6j - 2i"
+    ],
+    "answer": 1,
+    "explanation": "2(i + 3j) - 4i = \n(2i + 6j) - 4i =\n (2 - 4)i + 6j =\n -2i + 6j."
+  },
+  {
+    "question": "Which of the following is the position vector of the point (a, b)?",
+    "options": [
+      "a + b",
+      "a/i + b/j",
+      "ai + bj",
+      "(b, a)"
+    ],
+    "answer": 2,
+    "explanation": "The position vector of a point (a, b) is the vector from the origin (0, 0) to (a, b), which is a i + b j."
+  },
+  {
+    "question": "If the vector u = (3, 4) is written as a linear combination of i and j, what are the scalar coefficients?",
+    "options": [
+      "3 and 4",
+      "4 and 3",
+      "5 and 1",
+      "1 and 1"
+    ],
+    "answer": 0,
+    "explanation": "u = 3i + 4j. \nThe coefficients (scalars) are 3 and 4."
+  },
+
+
+  {
+    "question": "Find the value of k for which u = (1, 2) and v = (k, -2) are orthogonal.",
+    "options": [
+      "4",
+      "-4",
+      "2",
+      "-2"
+    ],
+    "answer": 0,
+    "explanation": "u . v = 0.\n (1)(k) + (2)(-2) = 0.\n k - 4 = 0. k = 4."
+  },
+
+
+  {
+    "question": "What is the unit vector for the direction angle 0 degrees?",
+    "options": [
+      "j",
+      "i",
+      "-i",
+      "-j"
+    ],
+    "answer": 1,
+    "explanation": "A direction angle of 0 degrees lies along the positive x-axis.\n The unit vector along the positive x-axis is i = (1, 0)."
+  },
+  {
+    "question": "The scalar k such that the vectors u = (3, -2) and v = (k, 4) are parallel is:",
+    "options": [
+      "-6",
+      "6",
+      "2/3",
+      "-2/3"
+    ],
+    "answer": 0,
+    "explanation": "For parallel vectors, the components are proportional: 3/k = -2/4.\n  3/k = -1/2. \n -k = 6. \n k = -6."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "If u and v are two non-zero vectors, and u . v = ||u|| ||v||, then the vectors are:",
+    "options": [
+      "Opposite in direction",
+      "Orthogonal",
+      "Unit vectors",
+      "In the same direction"
+    ],
+    "answer": 3,
+    "explanation": "The condition u . v = ||u|| ||v|| implies cos(theta) = 1, which means the angle theta is 0 degrees, so the vectors are in the same direction."
+  },
+  {
+    "question": "A vector that is 5 units long and points in the direction of j is:",
+    "options": [
+      "(5, 0)",
+      "(0, 5)",
+      "(0, -5)",
+      "(5, 5)"
+    ],
+    "answer": 1,
+    "explanation": "The vector j is (0, 1).\n A vector 5 units long in this direction is 5j = 5(0, 1) = (0, 5)."
+  },
+  {
+    "question": "If u = (1, 2), then the vector 2u is graphically represented by a vector with:",
+    "options": [
+      "Half the length of u, same direction.",
+      "Twice the length of u, opposite direction.",
+      "Twice the length of u, same direction.",
+      "The same length, same direction."
+    ],
+    "answer": 2,
+    "explanation": "Multiplying by a positive scalar (2) maintains the direction and scales the magnitude by the scalar value."
+  },
+
+
+  {
+    "question": "If a vector v has a magnitude of 1 and an x-component of 1, what must be its y-component?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "square root(2)"
+    ],
+    "answer": 1,
+    "explanation": "||v||² = x² + y². \n1² = 1² + y². \n1 = 1 + y². y² = 0.\n y = 0."
+  },
+
+  {
+    "question": "If u = (2, -1), the magnitude of the projection of u onto the x-axis is:",
+    "options": [
+      "square root(5)",
+      "2",
+      "-1",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "The projection of u onto the x-axis is the vector (2, 0). \nThe magnitude of this vector is ||(2, 0)|| = 2."
+  },
+  {
+    "question": "What is the resultant force vector F1 + F2, if F1 = 5i and F2 = -2j?",
+    "options": [
+      "3(i + j)",
+      "5i + 2j",
+      "5i - 2j",
+      "2i - 5j"
+    ],
+    "answer": 2,
+    "explanation": "F1 + F2 = (5i + 0j) + (0i - 2j) = \n(5 + 0)i + (0 - 2)j = \n5i - 2j."
+  },
+  {
+    "question": "If A = (2, 3) and B = (x, y), and vector AB = (-4, 5), find the coordinates of B.",
+    "options": [
+      "(-2, 8)",
+      "(6, -2)",
+      "(2, 8)",
+      "(-6, 2)"
+    ],
+    "answer": 0,
+    "explanation": "Vector AB = B - A, so B = A + AB. \nB = (2, 3) + (-4, 5) =\n (2 + (-4), 3 + 5) = \n(-2, 8)."
+  },
+
+
+  {
+    "question": "The vector that is perpendicular to u = (2, 5) is:",
+    "options": [
+      "(5, 2)",
+      "(-5, 2)",
+      "(2, -5)",
+      "(-2, -5)"
+    ],
+    "answer": 1,
+    "explanation": "For orthogonality, the dot product must be zero. (2, 5) .\n (x, y) = 2x + 5y = 0.\n Option (-5, 2): 2(-5) + 5(2) =\n -10 + 10 = 0."
+  },
+  {
+    "question": "If u = 2i + 3j and v = 4i + 6j, then u . v is:",
+    "options": [
+      "10",
+      "18",
+      "26",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "u . v = (2)(4) + (3)(6) = \n8 + 18 = 26."
+  },
+
+  {
+    "question": "The component of a vector a = (x, y) perpendicular to the x-axis is:",
+    "options": [
+      "xi",
+      "yj",
+      "(x, 0)",
+      "a"
+    ],
+    "answer": 1,
+    "explanation": "The component of a perpendicular to the x-axis is the component along the y-axis, which is the vector (0, y) or yj."
+  },
+  {
+    "question": "If u = (1, 0) and v = (0, 1), then ||2u + 3v|| is:",
+    "options": [
+      "5",
+      "√(13)",
+      "2",
+      "√(5)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "The geometric interpretation of vector addition (u + v) is the:",
+    "options": [
+      "Triangle Law",
+      "Parallelogram Law",
+      "Both A and B",
+      "Dot Product"
+    ],
+    "answer": 2,
+    "explanation": "Vector addition can be visualized using the Triangle Law (tip-to-tail) or the Parallelogram Law (tail-to-tail, forming the diagonal)."
+  },
+
+  {
+    "question": "The unit vector in the direction of v = (0, -2) is:",
+    "options": [
+      "(0, 1)",
+      "i",
+      "(0, -1)",
+      "-i"
+    ],
+    "answer": 2,
+    "explanation": "||v|| = 2.\n The unit vector is v/||v|| =\n (0, -2)/2 =\n (0, -1)."
+  },
+
+  {
+    "question": "If P = (a, b) and Q = (b, a), the vector PQ is:",
+    "options": [
+      "(a - b, b - a)",
+      "(b - a, a - b)",
+      "(a + b, a + b)",
+      "(b, a)"
+    ],
+    "answer": 1,
+    "explanation": "Vector PQ = \nQ - P = \n(b - a, a - b)."
+  },
+
+
+  {
+    "question": "The component of u = (5, 7) that is perpendicular to the y-axis is:",
+    "options": [
+      "(0, 7)",
+      "(5, 7)",
+      "(5, 0)",
+      "(0, 5)"
+    ],
+    "answer": 2,
+    "explanation": "The component perpendicular to the y-axis is the component along the x-axis, which is (5, 0)."
+  },
+  {
+    "question": "If vector a = 3i - 2j and vector b = 2i + 3j, then the vector a + 2b is:",
+    "options": [
+      "7i + 4j",
+      "5i + j",
+      "4i + 7j",
+      "i + 8j"
+    ],
+    "answer": 0,
+    "explanation": "2b = 2(2i + 3j) = 4i + 6j.\n a + 2b = (3i - 2j) + (4i + 6j) = \n(3 + 4)i + (-2 + 6)j =\n 7i + 4j."
+  },
+
+
+
+
+  {
+    "question": "If a vector u is parallel to the x-axis, which component of u must be zero?",
+    "options": [
+      "x-component",
+      "y-component",
+      "Magnitude",
+      "Direction"
+    ],
+    "answer": 1,
+    "explanation": "If u is parallel to the x-axis, its direction is along the x-axis, so the vertical (y) component must be zero (u = (x, 0))."
+  },
+  {
+    "question": "The result of (4i + 3j) - (4i + 3j) is:",
+    "options": [
+      "i + j",
+      "0",
+      "7i + 6j",
+      "the zero vector"
+    ],
+    "answer": 3,
+    "explanation": "Subtracting a vector from itself results in the zero vector: (4 - 4)i + (3 - 3)j =\n 0i + 0j = (0, 0)."
+  },
+
+
+  {
+    "question": "If u = (a, b) and v = (-a, -b), then u + v is:",
+    "options": [
+      "2u",
+      "The zero vector",
+      "(a² + b², 0)",
+      "(2a, 2b)"
+    ],
+    "answer": 1,
+    "explanation": "u + v = (a + (-a), b + (-b)) =\n (0, 0), which is the zero vector."
+  },
+
+  {
+    "question": "If vector a = (x, y) is perpendicular to the vector j = (0, 1), then:",
+    "options": [
+      "x = 0",
+      "y = 0",
+      "x = y",
+      "x = 1"
+    ],
+    "answer": 1,
+    "explanation": "Since a and j are perpendicular, their dot product is zero: a .\n j = 0. (x)(0) + (y)(1) = 0.\n y = 0."
+  },
+
+  {
+    "question": "If vector v = (a, b) and v = -v, then v must be:",
+    "options": [
+      "A unit vector",
+      "A non-zero vector",
+      "The zero vector",
+      "An opposite vector"
+    ],
+    "answer": 2,
+    "explanation": "v = -v implies v + v = 0, or 2v = 0. \nThis can only be true if v = (0, 0), the zero vector."
+  },
+  {
+    "question": "Find the vector that has magnitude 2 and direction opposite to i.",
+    "options": [
+      "(-2, 0)",
+      "(2, 0)",
+      "(0, -2)",
+      "(-1, 0)"
+    ],
+    "answer": 0,
+    "explanation": "The direction opposite to i = (1, 0) is -i = (-1, 0).\n\n The vector with magnitude 2 in this direction is 2 * (-1, 0) = (-2, 0)."
+  },
+  {
+    "question": "If u = (1, 2), then the component of u in the direction of i is:",
+    "options": [
+      "i",
+      "j",
+      "2i",
+      "2j"
+    ],
+    "answer": 0,
+    "explanation": "The component of u in the direction of i is the projection of u onto i, which is its x-component (1, 0) or i."
+  },
+  {
+    "question": "For what value of k are the vectors u = (2, -3) and v = (k, 9) parallel?",
+    "options": [
+      "6",
+      "-6",
+      "9",
+      "-9"
+    ],
+    "answer": 1,
+    "explanation": "For parallel vectors, the components are proportional: 2/k = -3/9. \n2/k = -1/3.\n Cross-multiplying: -k = 6, so k = -6."
+  },
+  {
+    "question": "The scalar value of a . a for a vector a = (-5, 12) is:",
+    "options": [
+      "13",
+      "169",
+      "144",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "a . a = ||a||². ||a||² =\n (-5)² + 12² = \n25 + 144 =\n 169."
+  },
+
+
+
+  {
+    "question": "Given u = (1, 1). A vector v such that ||u + v|| = 0 must be:",
+    "options": [
+      "(1, 1)",
+      "(-1, -1)",
+      "(-1, 1)",
+      "(0, 0)"
+    ],
+    "answer": 1,
+    "explanation": "||u + v|| = 0 implies u + v = (0, 0).\n Therefore, v = -u = -(1, 1) = \n(-1, -1)."
+  },
+
+  {
+    "question": "The displacement vector for a particle moving from (5, 2) to (5, 8) is:",
+    "options": [
+      "(0, 6)",
+      "(10, 10)",
+      "(6, 0)",
+      "(5, 10)"
+    ],
+    "answer": 0,
+    "explanation": "Displacement = (5 - 5, 8 - 2) =\n (0, 6)."
+  },
+  {
+    "question": "If vector u = 2i - j, the vector that is 3 times the length and in the same direction is:",
+    "options": [
+      "6i - j",
+      "6i - 3j",
+      "2i - 3j",
+      "3i - 3j"
+    ],
+    "answer": 1,
+    "explanation": "The vector is 3u = \n3(2i - j) \n= 6i - 3j."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The position vector of a point on the y-axis, 4 units away from the origin, is:",
+    "options": [
+      "(4, 0)",
+      "(0, 4) or (0, -4)",
+      "(4, 4)",
+      "(4, 4)"
+    ],
+    "answer": 1,
+    "explanation": "A point on the y-axis has an x-coordinate of 0. If the distance from the origin is 4, the coordinates are (0, 4) or (0, -4).\n\n The position vector is (0, 4) or (0, -4)."
+  },
+
+
+
+  {
+    "question": "The vector projection of a onto b is a vector parallel to:",
+    "options": [
+      "vector a",
+      "vector b",
+      "The zero vector",
+      "The perpendicular component"
+    ],
+    "answer": 1,
+    "explanation": "The vector projection of a onto b is defined as the component of a that lies along the direction of b, meaning it is parallel to b."
+  },
+  {
+    "question": "If vector u = (3, 4) and v = (4, -3), then u . v is:",
+    "options": [
+      "25",
+      "0",
+      "7",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "u . v = \n(3)(4) + (4)(-3) = 12 - 12 = 0.\n The vectors are orthogonal."
+  },
+  {
+    "question": "The vector -2u, where u = (1, -1), is:",
+    "options": [
+      "(2, -2)",
+      "(-2, 2)",
+      "(-2, -2)",
+      "(1, 1)"
+    ],
+    "answer": 1,
+    "explanation": "-2u = \n-2(1, -1) = \n(-2, 2)."
+  },
+
+  {
+    "question": "The vector component of a = (4, 3) along the unit vector j is:",
+    "options": [
+      "(4, 0)",
+      "(0, 3)",
+      "(3, 0)",
+      "(4, 3)"
+    ],
+    "answer": 1,
+    "explanation": "The unit vector j is (0, 1) (the y-axis direction). \n\nThe component of a along j is (0, 3)."
+  },
+
+
+
+  {
+    "question": "The projection of vector u = (4, 1) onto vector v = (0, 1) is:",
+    "options": [
+      "(4, 0)",
+      "(0, 1)",
+      "(0, 4)",
+      "(1, 0)"
+    ],
+    "answer": 1,
+    "explanation": "The projection onto v (y-axis) is the y-component of u, which is (0, 1)."
+  },
+  {
+    "question": "If u = 3i - 4j, find the unit vector orthogonal to u.",
+    "options": [
+      "(-3/5, 4/5)",
+      "(4/5, 3/5)",
+      "(3/5, 4/5)",
+      "(-4/5, 3/5)"
+    ],
+    "answer": 1,
+    "explanation": "A vector orthogonal to (a, b) is (b, -a) or (-b, a).\n An orthogonal vector is (4, 3) or (-4, -3). ||(4, 3)|| = 5. \nThe unit vector is (4/5, 3/5)."
+  },
+  {
+    "question": "Given u = (2, -1) and v = (k, 4). For what value of k are they parallel?",
+    "options": [
+      "2",
+      "-2",
+      "8",
+      "-8"
+    ],
+    "answer": 3,
+    "explanation": "For parallel vectors, the components are proportional: 2/k = -1/4. Cross-multiplying: -k = 8, so k = -8."
+  },
+  {
+    "question": "What is the result of the vector operation (i + j) + (i - j)?",
+    "options": [
+      "0",
+      "2i",
+      "2j",
+      "i + j"
+    ],
+    "answer": 1,
+    "explanation": "(i + j) + (i - j) =\n (1 + 1)i + (1 - 1)j =\n 2i + 0j = 2i."
+  },
+
+
+  {
+    "question": "A vector that is 3 times the length of u = (-1, 2) and in the opposite direction is:",
+    "options": [
+      "(3, -6)",
+      "(-3, 6)",
+      "(-3, -6)",
+      "(1/3, -2/3)"
+    ],
+    "answer": 0,
+    "explanation": "The vector is -3u.\n -3u = -3(-1, 2) = \n(3, -6)."
+  },
+
+
+  {
+    "question": "If u = (1, 3) and v = (-2, k) have a dot product of 7, find k.",
+    "options": [
+      "3",
+      "6",
+      "1",
+      "-1"
+    ],
+    "answer": 0,
+    "explanation": "u . v = (1)(-2) + (3)(k) = \n-2 + 3k.  -2 + 3k = 7.\n  3k = 9. k = 3."
+  },
+  {
+    "question": "Which of the following is the standard basis for R²?",
+    "options": [
+      "{(1, 1), (0, 0)}",
+      "{(1, 0), (0, 1)}",
+      "{(1, 2), (2, 1)}",
+      "{(1, 0), (1, 1)}"
+    ],
+    "answer": 1,
+    "explanation": "The standard basis vectors in the 2D plane (R²) are i = (1, 0) and j = (0, 1)."
+  },
+
+  {
+    "question": "The component of a vector a = (x, y) along the y-axis is a vector parallel to:",
+    "options": [
+      "i",
+      "j",
+      "a",
+      "The x-axis"
+    ],
+    "answer": 1,
+    "explanation": "The y-axis is in the direction of the unit vector j."
+  },
+  {
+    "question": "Find the length of the vector 3i - j - (2i - 4j).",
+    "options": [
+      "√(10)",
+      "5",
+      "√(26)",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+
+  {
+    "question": "The displacement vector from P(1, 1) to Q(1, 1) is:",
+    "options": [
+      "(1, 1)",
+      "(0, 0)",
+      "(2, 2)",
+      "(1, 0)"
+    ],
+    "answer": 1,
+    "explanation": "Displacement PQ = Q - P \n= (1 - 1, 1 - 1) \n= (0, 0)."
+  },
+  {
+    "question": "If vector u and v have the same direction, then the angle between them is:",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "0 degrees",
+      "270 degrees"
+    ],
+    "answer": 2,
+    "explanation": "Same direction means the angle is 0 degrees."
+  },
+  {
+    "question": "If u = (1, 2) and v = (-2, -4), then u and v are:",
+    "options": [
+      "Orthogonal",
+      "In the same direction",
+      "Opposite in direction",
+      "Unit vectors"
+    ],
+    "answer": 2,
+    "explanation": "v = -2u. \nSince v is a negative scalar multiple of u, they are parallel and opposite in direction."
+  },
+  {
+    "question": "The length of the vector from the origin to the point (a, b) is:",
+    "options": [
+      "a + b",
+      "√(a + b)",
+      "√(a² + b²)",
+      "a² + b²"
+    ],
+    "answer": 2,
+    "explanation": "The length is the magnitude of the position vector (a, b): √(a² + b²)."
+  },
+
+
+  {
+    "question": "What is the resultant vector of (-1, -1) + (3, 3)?",
+    "options": [
+      "(-4, -4)",
+      "(4, 4)",
+      "(2, 2)",
+      "(-2, -2)"
+    ],
+    "answer": 2,
+    "explanation": "(-1, -1) + (3, 3)\n = (-1 + 3, -1 + 3) \n= (2, 2)."
+  }
+  ]

@@ -1,0 +1,46 @@
+[
+{
+  "question": "Which one of the following quantities is required to determine the specific heat capacity of a substance?",
+  "options": [
+    "The volume of the substance",
+    "The boiling point of the substance",
+    "The mass of the substance",
+    "The density of the substance"
+  ],
+  "answer": 2,
+  "explanation": "Specific heat capacity is defined by the equation c = Q/(mΔT).\n\nHere, Q is the heat supplied, m is the mass, and ΔT is the change in temperature.\n\nTherefore, the mass of the substance is required when determining its specific heat capacity using this relationship."
+},
+{
+"question": "Which one of the following statements is correct about critical and boiling points?",
+"options": [
+"The critical point of a substance is constant, while its boiling point is dependent on the surrounding pressure.",
+"The critical point is dependent both on temperature and pressure, while boiling point is independent of the surrounding pressure.",
+"At the boiling point a single gaseous phase exists, while at the critical point both the liquid and gas phases coexist.",
+"The boiling point of a substance is constant independent of pressure, while its critical point is dependent on the surrounding temperature."
+],
+"answer": 0,
+"explanation": "The critical point is a characteristic point of a substance defined by a particular critical temperature and critical pressure.\n\nAbove the critical temperature, a gas cannot be liquefied simply by increasing pressure.\n\nThe boiling point, however, depends on the surrounding pressure and changes when the external pressure changes."
+},
+{
+"question": "A 25.0 liter container made of copper is completely filled with glycerin at a temperature of 20 °C. The coefficient of linear expansion of copper is α = 1.7 x 10⁻⁵ °C⁻¹ and that of volume expansion of glycerin is γ = 4.8 x 10⁻⁴ °C⁻¹. If the system is heated to a temperature of 80 °C, what volume of glycerin will overflow from the container?",
+"options": [
+"1.085 liter",
+"0.868 liter",
+"0.804 liter",
+"0.651 liter"
+],
+"answer": 3,
+"explanation": "The temperature change is ΔT = 80 - 20 = 60 °C.\n\nThe volume expansion coefficient of copper is approximately γ_cu = \n3α = 3(1.7 × 10⁻⁵) = 5.1 × 10⁻⁵ °C⁻¹.\n\nThe apparent expansion coefficient is γ_app = γ_glycerin - γ_cu = \n4.8 × 10⁻⁴ - 5.1 × 10⁻⁵ =\n 4.29 × 10⁻⁴ °C⁻¹.\n\nThe overflow volume is V = V₀γ_appΔT = \n25.0 × 4.29 × 10⁻⁴ × 60 ≈ 0.644 L."
+},
+{
+"question": "What amount of heat energy is required to raise the temperature of 0.15 kg of silver from 20 °C to 100 °C? (Specific heat capacity of silver is 233.0 J/kg·°C)",
+"options": [
+"699.0 J",
+"3495.0 J",
+"2796.0 J",
+"4194.0 J"
+],
+"answer": 2,
+"explanation": "The heat required to change the temperature of a substance is Q = mcΔT.\n\nThe temperature change is ΔT = 100 - 20 = 80 °C.\n\nTherefore, Q = 0.15 × 233.0 × 80 = 2796 J.\n\nHence, option 2 is correct."
+}
+]

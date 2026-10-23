@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Let f(x) = 5x³ + 2x - sin(x) + e^x. What is the value of f'(0)?",
+    "options": [
+      "4",
+      "-1",
+      "1",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "Differentiate f(x): f'(x) = 15x² + 2 - cos(x) + e^x.\n\n Evaluate at x = 0: \n\nf'(0) = 15*0² + 2 - cos(0) + e^0 =\n\n 0 + 2 - 1 + 1 = 2."
+  },
+  {
+    "question": "Let f(x) = 1 / √x and g(x) = 2 - (1 / 6x³) be two functions. For what values of x do the graphs of f and g have tangent lines of the same slope?",
+    "options": [
+      "1 / 4",
+      "4",
+      "1",
+      "√3 / 2"
+    ],
+    "answer": 2,
+    "explanation": "f(x)=x^(-1/2) ⇒ f'(x)=(-1/2)x^(-3/2)\ng(x)=2-(1/6)x^3 ⇒ g'(x)=-(1/2)x^2\nSet slopes equal: (-1/2)x^(-3/2)=-(1/2)x^2\nCancel -1/2: x^(-3/2)=x^2\nSolve: x^(7/2)=1 ⇒ x=1"
+  },
+  {
+    "question": "Which of the following describes the mechanical meaning of derivative?",
+    "options": [
+      "Slope of tangent line",
+      "Instantaneous rate of change",
+      "Area under the curve",
+      "Gradient of graphs of functions"
+    ],
+    "answer": 0,
+    "explanation": "The derivative of a function at a point represents the slope of the tangent line at that point, which is also interpreted as the instantaneous rate of change of the function."
+  },
+  {
+    "question": "Let f and g be differentiable functions and h(x) = g(f(3x + 1)). If f'(1) = f(1)= 2 and g'(2) = 1, then what is the value of h'(0)?",
+    "options": [
+      "4",
+      "6",
+      "1",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "By the chain rule:\n h'(x) = g'(f(3x + 1)) · f'(3x + 1) · 3.\n\n At x = 0: h'(0) = g'(f(1)) · f'(1) · 3 =\n\n g'(2) · 2 · 3 = \n\n1 · 2 · 3 = 6."
+  }
+]

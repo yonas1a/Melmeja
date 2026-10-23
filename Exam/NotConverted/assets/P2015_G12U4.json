@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Kirchhoff's junction rule is a consequence of conservation of",
+    "options": [
+      "momentum.",
+      "mass.",
+      "charge.",
+      "electrical energy."
+    ],
+    "answer": 2,
+    "explanation": "Kirchhoff's junction rule states that the total current entering a junction equals the total current leaving the junction.\n\n This is based on the conservation of electric charge, since charge cannot accumulate at a junction."
+  },
+  {
+    "question": "A positive point charge of 2µC is placed on the x-axis, at the origin and a positive charge of 6µC and a negative point charge of -4µC are placed, respectively at x = -3cm and x = +3cm on the x-axis. What is the net electric force on the 2µC charge?",
+    "options": [
+      "200 N toward the negative x-axis",
+      "200 N toward the positive x-axis",
+      "40 N toward the positive x-axis",
+      "40 N toward the negative x-axis"
+    ],
+    "answer": 3,
+    "explanation": "Force between two point charges: F = k * |q1 * q2| / r². \n\nF12 (due to 6 µC at -3cm) = 9 × 10^9 * 2×10^-6 * 6×10^-6 / (0.03)^2 ≈ 120 N, directed toward negative x-axis (repulsion from +6µC).\n\nF13 (due to -4 µC at +3cm) = 9 × 10^9 * 2×10^-6 * 4×10^-6 / (0.03)^2 ≈ 80 N, directed toward positive x-axis (attraction to -4µC).\n\nNet force F_net = F12 - F13 = 120 N - 80 N = 40 N, toward the negative x-axis."
+  },
+  {
+    "question": "Consider a point charge Q in an electrostatic field and a point mass m in a gravitational field. Which one of the following statements is correct about the potential energy of the objects?",
+    "options": [
+      "The electric potential decreases as a positive charge moves opposite to the electric field while the gravitational potential of the mass increases when it moves against the gravitational field.",
+      "The potential energy of the point charge and that of the point mass changes as they move over equipotential surfaces in their respective fields.",
+      "The potential energies at distance r, from the field sources for both Q and m, vary inversely with r.",
+      "The gravitational force on mass m is in the same direction of gravitational field while electric force on Q in the same or opposite directions of electric field depending the sign of the charge."
+    ],
+    "answer": 1,
+    "explanation": "The potential energy of an object depends on its position in the field.\n\n For both electric and gravitational fields, equipotential surfaces are surfaces where the potential energy is constant. \n\nMoving along an equipotential surface does not change the potential energy, while moving perpendicular to it does. \n\nHence, statement 2 correctly describes the potential energy behavior of both objects."
+  }
+]

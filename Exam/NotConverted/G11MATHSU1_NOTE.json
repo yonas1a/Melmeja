@@ -1,0 +1,220 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 1: RELATIONS AND FUNCTIONS",
+"notes": "✓ Relation → a set of ordered pairs that describes a relationship between elements of two sets.\n\n✓ Function → a special type of relation in which every first component is related to exactly one second component.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.1 RELATIONS",
+"notes": "✓ Relation → a set of ordered pairs used to describe a relationship between elements.\n\nAn ordered pair is written as (x, y).\n\n◆ x → first component or first coordinate.\n◆ y → second component or second coordinate.\n\nTwo ordered pairs are equal only when their corresponding components are equal:\n(a, b) = (c, d) ⇔ a = c and b = d.\n\nExample:\n(2, 5) ≠ (5, 2), because the order of the components is different.\n\n→ Any set of ordered pairs is a relation.",
+"image": null
+},
+{
+"type": "note",
+"title": "RELATION FROM A TO B",
+"notes": "✓ Given sets A and B, a relation R from A to B is a set of ordered pairs (x, y), where x ∈ A and y ∈ B.\n\nR ⊆ A × B.\n\n◆ A × B → Cartesian product of A and B, containing all possible ordered pairs (a, b) with a ∈ A and b ∈ B.\n\nExample:\nIf A = {1, 2} and B = {a, b}, then:\nA × B = {(1,a), (1,b), (2,a), (2,b)}.\n\n→ A relation from A to B can contain any subset of these ordered pairs.",
+"image": null
+},
+{
+"type": "note",
+"title": "DOMAIN AND RANGE OF A RELATION",
+"notes": "✓ Domain of R → the set of all first components of the ordered pairs in R.\n\nDom(R) = {x ∈ A | (x,y) ∈ R for some y ∈ B}.\n\n✓ Range of R → the set of all second components of the ordered pairs in R.\n\nRan(R) = {y ∈ B | (x,y) ∈ R for some x ∈ A}.\n\nExample:\nR = {(45,65), (48,68), (41,62), (46,66), (50,70)}\n\nDomain = {41,45,46,48,50}\nRange = {62,65,66,68,70}.\n\n→ Domain → collect the first coordinates.\n→ Range → collect the second coordinates.",
+"image": null
+},
+{
+"type": "note",
+"title": "REPRESENTATIONS OF RELATIONS",
+"notes": "A relation can be represented in several ways:\n\n◆ As a set of ordered pairs.\n◆ Using a table of values.\n◆ Using a mapping/arrow diagram.\n◆ Using a graph in the coordinate plane.\n◆ Using an equation or rule involving x and y.\n\nExample:\nR = {(1,2), (2,4), (3,6)}\n\nTable → pairs the x-values with their corresponding y-values.\n\nMapping → 1 → 2, 2 → 4, 3 → 6.\n\nEquation → y = 2x.\n\nGraph → plot (1,2), (2,4) and (3,6) on the coordinate plane.",
+"image": null
+},
+{
+"type": "note",
+"title": "RELATIONS DEFINED BY EQUATIONS",
+"notes": "A relation may be defined by an equation involving x and y.\n\nExample:\nR = {(x,y) : y = 2x − 1, x,y ∈ ℝ}.\n\nFor x = 0:\ny = 2(0) − 1 = −1 → (0,−1).\n\nFor x = 2:\ny = 2(2) − 1 = 3 → (2,3).\n\n◆ The domain consists of the allowed x-values.\n◆ The range consists of the corresponding y-values.\n\nWhen a relation is represented graphically, its domain corresponds to x-values appearing on the graph and its range corresponds to y-values appearing on the graph.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.2 INVERSES OF RELATIONS",
+"notes": "✓ Inverse relation → a relation obtained by interchanging the first and second components of every ordered pair.\n\nIf:\nR = {(x,y), ...}\n\nthen:\nR⁻¹ = {(y,x), ...}.\n\nExample:\nR = {(1,2), (3,4), (5,6)}\n\nTherefore:\nR⁻¹ = {(2,1), (4,3), (6,5)}.\n\nImportant properties:\nDom(R⁻¹) = Ran(R)\nRan(R⁻¹) = Dom(R).",
+"image": null
+},
+{
+"type": "note",
+"title": "FINDING THE INVERSE FROM AN EQUATION",
+"notes": "To find the inverse relation of an equation:\n\n1. Interchange x and y.\n2. Rearrange the resulting equation if necessary.\n3. Write the inverse relation.\n\nExample:\nGiven:\ny = 2x − 5\n\nInterchange x and y:\nx = 2y − 5\n\nSolve for y:\n2y = x + 5\n\nTherefore:\ny = (x + 5)/2.\n\n→ The inverse relation is obtained by reversing the roles of x and y.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPH OF AN INVERSE RELATION",
+"notes": "✓ The graph of an inverse relation is obtained by reflecting the graph of the original relation in the line:\n\ny = x\n\nExample:\nIf (2,5) lies on the graph of R, then (5,2) lies on the graph of R⁻¹.\n\nThe points (2,5) and (5,2) are reflections of each other across y = x.\n\n→ Therefore, the graph of R⁻¹ is the reflection of the graph of R about the line y = x.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.3 TYPES OF FUNCTIONS",
+"notes": "✓ Function → a relation in which each element of the set of first components is related to exactly one element of the set of second components.\n\nExample of a function:\nR = {(−1,0), (0,−3), (2,−3), (3,0), (4,5)}.\n\nEach first component appears only once with one second component.\n\nNot a function:\nR = {(6,1), (7,3), (0,2), (6,4)}.\n\n→ The first component 6 is related to both 1 and 4.\n\n✓ A function cannot assign two different outputs to the same input.",
+"image": null
+},
+{
+"type": "note",
+"title": "FUNCTION NOTATION",
+"notes": "If f is a function from A to B, it can be written as:\n\nf : A → B\n\n◆ Dom(f) = A.\n◆ Ran(f) is a subset of B.\n\nIf y = f(x), then f(x) is read as “f of x.”\n\nExample:\nIf f(x) = 2x + 3:\n\nf(1) = 2(1) + 3 = 5.\n\nf(4) = 2(4) + 3 = 11.\n\n→ x is the input and f(x) is the corresponding output.",
+"image": null
+},
+{
+"type": "note",
+"title": "VERTICAL LINE TEST",
+"notes": "✓ Vertical Line Test → a graphical test used to determine whether a relation represents a function.\n\nA set of points in the coordinate plane represents a function if and only if no vertical line intersects the graph at more than one point.\n\nExample:\nA parabola y = x² passes the vertical line test because every x-value gives exactly one y-value.\n\nA circle such as x² + y² = 4 fails the test because some vertical lines intersect it at two points.\n\n→ One x-value → exactly one y-value.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.3.1 POWER FUNCTIONS",
+"notes": "✓ Power function → a function of the form:\n\nf(x) = axʳ\n\nwhere a is a nonzero real number and r is a real number.\n\nExamples of power functions:\nf(x) = 3x²\nf(x) = 5x³\nf(x) = x⁴/³\nf(x) = −4x⁻³.\n\n◆ Exponential functions such as 2ˣ are not power functions.\n◆ Logarithmic functions such as log₃x are not power functions.\n\n→ The variable must occur as the base and have a constant exponent.",
+"image": null
+},
+{
+"type": "note",
+"title": "POWER FUNCTIONS: EVEN POSITIVE POWERS",
+"notes": "For functions of the form:\nf(x) = xⁿ\nwhere n is a positive even integer:\n\n◆ Domain = ℝ.\n◆ Range = [0,∞).\n◆ The graph is symmetric about the y-axis.\n◆ f(x) ≥ 0 for every real x.\n\nExamples:\nf(x) = x²\nf(x) = x⁴.\n\nFor x²:\n(−2)² = 4, (−1)² = 1, 0² = 0, 1² = 1, 2² = 4.\n\n→ Increasing distance from the origin in either direction produces larger positive y-values.",
+"image": null
+},
+{
+"type": "note",
+"title": "POWER FUNCTIONS: ODD POSITIVE POWERS",
+"notes": "For functions of the form:\nf(x) = xⁿ\nwhere n is a positive odd integer:\n\n◆ Domain = ℝ.\n◆ Range = ℝ.\n◆ The graph passes through the origin.\n◆ The graph has the characteristic odd-power shape.\n\nExamples:\nf(x) = x³\nf(x) = x⁵.\n\nFor f(x) = x³:\n(−2)³ = −8\n(−1)³ = −1\n0³ = 0\n1³ = 1\n2³ = 8.\n\n→ Negative x-values produce negative y-values.",
+"image": null
+},
+{
+"type": "note",
+"title": "POWER FUNCTIONS WITH FRACTIONAL POWERS",
+"notes": "✓ Power functions with positive fractional exponents can have restricted domains depending on the denominator of the exponent.\n\nExamples:\nf(x) = x¹/² = √x\nf(x) = x¹/⁴ = ⁴√x.\n\nFor these functions:\n◆ Domain = [0,∞).\n◆ Range = [0,∞).\n\nFor an odd root, such as:\nf(x) = x¹/³ = ³√x\n\n◆ Domain = ℝ.\n◆ Range = ℝ.\n\n→ The parity of the root denominator determines whether negative x-values are allowed.",
+"image": null
+},
+{
+"type": "note",
+"title": "POWER FUNCTIONS WITH NEGATIVE POWERS",
+"notes": "✓ Negative powers produce reciprocal-type functions.\n\nExample:\nf(x) = x⁻¹ = 1/x.\n\nx = 0 is not allowed.\nDomain = ℝ \\ {0}.\nRange = ℝ \\ {0}.\n\nFor:\nf(x) = x⁻² = 1/x²\n\nDomain = ℝ \\ {0}.\nRange = (0,∞).\n\n→ Negative powers generally produce graphs with x = 0 excluded from the domain and often have vertical behavior near x = 0.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.3.2 MODULUS (ABSOLUTE VALUE) FUNCTION",
+"notes": "✓ Absolute value of a real number x → its distance from 0 on the number line.\n\n|x| = x, when x ≥ 0.\n|x| = −x, when x < 0.\n\nExamples:\n|5| = 5\n|0| = 0\n|−5| = 5.\n\n→ Absolute value is always non-negative:\n|x| ≥ 0.\n\nThe absolute value of a number is its distance from zero.",
+"image": null
+},
+{
+"type": "note",
+"title": "PROPERTIES OF ABSOLUTE VALUE",
+"notes": "Important properties:\n\n|x| ≥ 0.\n\n|x| = 0 ⇔ x = 0.\n\n|−x| = |x|.\n\n|xy| = |x||y|.\n\n|x/y| = |x|/|y|, y ≠ 0.\n\n|x|² = x².\n\nExample:\n|−3 × 4| = |−12| = 12.\n\nAlso:\n|−3||4| = 3 × 4 = 12.\n\n→ Absolute value removes the sign while preserving magnitude.",
+"image": null
+},
+{
+"type": "note",
+"title": "MODULUS FUNCTION AND ITS GRAPH",
+"notes": "✓ The modulus function is:\n\nf(x) = |x|.\n\nIt can be written as:\n\nf(x) = x, for x ≥ 0\nf(x) = −x, for x < 0.\n\n◆ Domain = ℝ.\n◆ Range = [0,∞).\n◆ Graph → V-shaped curve with vertex at (0,0).\n◆ The graph is symmetric about the y-axis.\n\nExample:\nf(x) = |x − 1|\n\n→ The vertex is at (1,0), and the graph opens upward.",
+"image": null
+},
+{
+"type": "note",
+"title": "TRANSFORMATIONS OF MODULUS FUNCTIONS",
+"notes": "Modulus functions can be shifted and stretched.\n\nExamples:\nf(x) = |x| → vertex (0,0).\n\nf(x) = |x| − 1 → vertex (0,−1).\n\nf(x) = |x − 2| → vertex (2,0).\n\nf(x) = 2|x| → vertical stretch by factor 2.\n\nGeneral form:\nf(x) = a|x − h| + k\n\n→ Vertex = (h,k).\n\n◆ a > 0 → opens upward.\n◆ a < 0 → opens downward.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.3.3 SIGNUM FUNCTION",
+"notes": "✓ Signum function → a piecewise function that indicates the sign of a real number.\n\nIt is denoted by sgn x.\n\nsgn x = 1, for x > 0\nsgn x = 0, for x = 0\nsgn x = −1, for x < 0.\n\nExamples:\nsgn(5) = 1\nsgn(0) = 0\nsgn(−7) = −1.\n\n◆ Domain = ℝ.\n◆ Range = {−1, 0, 1}.",
+"image": null
+},
+{
+"type": "note",
+"title": "SIGNUM FUNCTION AND ABSOLUTE VALUE",
+"notes": "For x ≠ 0:\n\nsgn x = |x|/x.\n\nEquivalently:\n\nsgn x = x/|x|, for x ≠ 0.\n\nExample:\nFor x = −4:\nsgn(−4) = |−4|/(−4) = 4/(−4) = −1.\n\nFor x = 6:\nsgn(6) = 6/|6| = 6/6 = 1.\n\n→ At x = 0, sgn(0) = 0.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.3.4 GREATEST INTEGER (FLOOR OR STEP) FUNCTION",
+"notes": "✓ Greatest Integer Function → the function whose value is the greatest integer less than or equal to x.\n\nIt is denoted by:\nf(x) = [x]\n\nExamples:\n[10.7] = 10\n[−12.4] = −13\n[−18] = −18.\n\n→ For negative numbers, remember that the answer must be the integer immediately below or equal to the number.\n\nExample:\n[−1.9] = −2, not −1.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPH OF THE GREATEST INTEGER FUNCTION",
+"notes": "For f(x) = [x]:\n\n◆ Domain = ℝ.\n◆ Range = the set of all integers.\n\nFor every integer n:\nn ≤ x < n + 1 ⇒ [x] = n.\n\nExamples:\n0 ≤ x < 1 ⇒ [x] = 0.\n1 ≤ x < 2 ⇒ [x] = 1.\n−1 ≤ x < 0 ⇒ [x] = −1.\n\n→ The graph has a step-like shape.\nEach step includes its left endpoint and excludes its right endpoint.",
+"image": null
+},
+{
+"type": "note",
+"title": "GREATEST INTEGER EQUATIONS",
+"notes": "✓ Greatest integer equations can be solved by using the definition:\n\n[x] = n ⇔ n ≤ x < n + 1, where n is an integer.\n\nExample:\nSolve [x] = 3.\n\nUsing the definition:\n3 ≤ x < 4.\n\nTherefore:\nx ∈ [3,4).\n\nExample:\nSolve [2 + [x]] = 5.\n\nLet [x] = z.\nThen:\n[2 + z] = 5 → 5 ≤ 2 + z < 6.\n\nTherefore:\n3 ≤ z < 4.\nSince z is an integer:\nz = 3.\nThus [x] = 3, so:\n3 ≤ x < 4.",
+"image": null
+},
+{
+"type": "note",
+"title": "1.4 COMPOSITION OF FUNCTIONS",
+"notes": "✓ Composition of functions → a new function obtained by using one function as the input of another function.\n\nIf f and g are functions, then:\n\n(g ∘ f)(x) = g(f(x)).\n\nThis means:\n1. Apply f first.\n2. Apply g to the result.\n\nExample:\nLet f(x) = x + 3 and g(x) = x².\n\n(g ∘ f)(x) = g(f(x))\n= g(x + 3)\n= (x + 3)².\n\n→ The order of composition is important.",
+"image": null
+},
+{
+"type": "note",
+"title": "COMPOSITION: f ∘ g",
+"notes": "The composition:\n\n(f ∘ g)(x) = f(g(x)).\n\nUsing:\nf(x) = x + 3\ng(x) = x²\n\nwe get:\n(f ∘ g)(x) = f(x²)\n= x² + 3.\n\nTherefore:\n(g ∘ f)(x) = (x + 3)²\n\nwhile:\n(f ∘ g)(x) = x² + 3.\n\n→ In general:\nf ∘ g ≠ g ∘ f.\n\nComposition is generally not commutative.",
+"image": null
+},
+{
+"type": "note",
+"title": "DOMAIN OF A COMPOSITION",
+"notes": "For:\n(g ∘ f)(x) = g(f(x))\n\nx must first belong to the domain of f, and f(x) must then belong to the domain of g.\n\n✓ Therefore, the domain of a composition depends on both functions.\n\nExample:\nf(x) = √x\ng(x) = 2x − 5.\n\nFor (g ∘ f)(x):\ng(f(x)) = 2√x − 5.\n\nSince √x is defined only for x ≥ 0:\nDomain = [0,∞).\n\n→ Always check the restrictions introduced by the inner function and the outer function.",
+"image": null
+},
+{
+"type": "note",
+"title": "IDENTITY FUNCTION",
+"notes": "✓ Identity function → a function from a set A to itself defined by:\n\nI(x) = x.\n\nIt is denoted by I.\n\nExample:\nIf A = {1,2,3,4}, then:\nI = {(1,1), (2,2), (3,3), (4,4)}.\n\nFor any function f:\n\nI ∘ f = f.\nf ∘ I = f.\n\nExample:\nIf f(x) = 2x − 3:\n(I ∘ f)(x) = I(2x − 3) = 2x − 3 = f(x).",
+"image": null
+},
+{
+"type": "note",
+"title": "1.5 INVERSE FUNCTIONS",
+"notes": "✓ Inverse function → the inverse relation of a function that is itself a function.\n\nIf the inverse of f is also a function, f is called invertible.\n\nThe inverse of f is denoted by:\nf⁻¹.\n\nImportant:\nNot every function has an inverse that is a function.\n\n→ For an inverse function to exist as a function, the original function must give a unique output for each input and its inverse must also give a unique output for each input.",
+"image": null
+},
+{
+"type": "note",
+"title": "HOW TO FIND AN INVERSE FUNCTION",
+"notes": "Given:\ny = f(x)\n\nTo find f⁻¹:\n\n1. Interchange x and y.\n2. Solve for y in terms of x, if possible.\n3. Write the result as:\ny = f⁻¹(x).\n\nExample:\nf(x) = 3x + 2.\n\nStart:\ny = 3x + 2.\n\nInterchange x and y:\nx = 3y + 2.\n\nSolve:\ny = (x − 2)/3.\n\nTherefore:\nf⁻¹(x) = (x − 2)/3.",
+"image": null
+},
+{
+"type": "note",
+"title": "WHEN THE INVERSE IS NOT A FUNCTION",
+"notes": "✓ The inverse of a function may fail to be a function.\n\nExample:\nf(x) = x³ − x + 1.\n\nIf two different x-values give the same output, then the inverse relation contains two different second components for the same first component.\n\nFor example:\nf(−1) = 1\nf(1) = 1.\n\nTherefore, the inverse contains:\n(1,−1) and (1,1).\n\n→ Since 1 has two possible outputs in the inverse relation, the inverse is not a function.\n\nA function must have an inverse relation that also satisfies the function condition.",
+"image": null
+},
+{
+"type": "note",
+"title": "IDENTITY AND INVERSE FUNCTIONS",
+"notes": "✓ If f is invertible, then composing f with its inverse gives the identity function.\n\nf⁻¹ ∘ f = I\n\nand:\nf ∘ f⁻¹ = I.\n\nExample:\nIf f maps A to B and f⁻¹ maps B back to A, then:\n\nf⁻¹(f(x)) = x.\n\nAlso:\nf(f⁻¹(x)) = x.\n\n→ An inverse function reverses the action of the original function.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPH OF AN INVERSE FUNCTION",
+"notes": "✓ The graph of an inverse function is the reflection of the graph of the original function in the line:\n\ny = x.\n\nIf (a,b) is on the graph of f, then (b,a) is on the graph of f⁻¹.\n\nExample:\nIf f(2) = 5, then:\nf⁻¹(5) = 2.\n\nThe graph contains the reflected points:\n(2,5) ↔ (5,2).\n\n→ The domain and range are interchanged:\nDom(f⁻¹) = Ran(f)\nRan(f⁻¹) = Dom(f).",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 1 KEY TERMS & FORMULAS",
+"notes": "◆ Relation → a set of ordered pairs.\n\n◆ Ordered pair → (x,y), where x is the first component and y is the second component.\n\n◆ Cartesian product → A × B, the set of all possible ordered pairs from A and B.\n\n◆ Domain → set of first components.\n\n◆ Range → set of second components.\n\n◆ Inverse relation → obtained by interchanging x and y in every ordered pair.\n\nDom(R⁻¹) = Ran(R).\n\nRan(R⁻¹) = Dom(R).\n\n◆ Function → every first component is related to exactly one second component.\n\n◆ Vertical Line Test → no vertical line may intersect a function's graph more than once.\n\n◆ Power function → f(x) = axʳ.\n\n◆ Absolute value → |x| = x for x ≥ 0 and |x| = −x for x < 0.\n\n◆ Modulus function → f(x) = |x|.\n\n◆ Signum function → sgn x = 1 for x > 0, 0 for x = 0, −1 for x < 0.\n\n◆ Greatest integer function → [x] is the greatest integer ≤ x.\n\n◆ Greatest integer rule → [x] = n ⇔ n ≤ x < n + 1.\n\n◆ Composition → (g ∘ f)(x) = g(f(x)).\n\n◆ Identity function → I(x) = x.\n\n◆ Inverse function → f⁻¹, when the inverse relation is a function.\n\n◆ Inverse procedure → interchange x and y, then solve for y.\n\n◆ Inverse composition → f⁻¹ ∘ f = I and f ∘ f⁻¹ = I.\n\n◆ Graph of inverse → reflection in y = x.\n\n◆ Application model → identify variables, relation, domain and range before solving."
+,
+"image": null
+}
+]

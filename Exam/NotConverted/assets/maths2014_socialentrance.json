@@ -1,0 +1,723 @@
+[
+  {
+    "question": "1) Consider △ ABC with right angle at C and m(< ABC) = 55°. If the length of AC is 10 units, then what is the area of the triangle? (Given tan 35° = 0.7 and tan 55° = 1.43)",
+    "options": [
+      "35 sq.units",
+      "70 sq.units",
+      "5√149 sq.units",
+      "10√149 sq.units"
+    ],
+    "answer": 0,
+    "explanation": "Given △ABC with right angle at C and m(ABC) = 55°, we can calculate the other acute angle: m(BCA) = 35°.\n\nUsing tan 35° = opposite/adjacent = AC/BC →\n\n 0.7 = 10 / BC →  BC = 10 / 0.7 ≈ 14.29 units.\n\nThe other side AB (hypotenuse) is not needed for area.\n\n Area = 1/2 × base × height = 1/2 × AC × BC = 1/2 × 10 × 7 ≈ 35 sq.units.\n\nThus, the area is 35 square units."
+  },
+  {
+    "question": "2) The base of a right prism is a rectangle with sides 3 cm and 4 cm and the altitude of the prism is 5 cm. What is the total surface area of the prism?",
+    "options": [
+      "94 cm²",
+      "102 cm²",
+      "70 cm²",
+      "82 cm²"
+    ],
+    "answer": 0,
+    "explanation": "For a right prism with rectangular base:\n\n- Base area = length × width = 3 × 4 = 12 cm²\n\n- Lateral surface area = perimeter of base × height = (2×(3+4)) × 5 = 14 × 5 = 70 cm²\n\n- Total surface area = 2 × base area + lateral surface area = 2×12 + 70 = 24 + 70 = 94 cm²"
+  },
+  {
+    "question": "3) Let u be a vector of length 3√3 cm directed to the East. v be a vector of length 3 cm directed to the north. Then u + v is equals to a vector of length:",
+    "options": [
+      "3 cm in the direction East 60° North",
+      "3 cm in the direction East 30° North",
+      "6 cm in the direction East 60° North",
+      "6 cm in the direction East 30° North"
+    ],
+    "answer": 3,
+    "explanation": "We calculate the magnitude of u + v using Pythagoras theorem: \n\n|u+v| = √(u² + v²) = √((3√3)² + 3²) = √(27 + 9) = √36 = 6 cm\n\nThe direction θ (angle north of east) is given by tan θ = opposite / adjacent = v / u = 3 / (3√3) = 1/√3 → θ = 30°\n\nThus, u + v has magnitude 6 cm and direction East 30° North."
+  },
+  {
+    "question": "4) Consider the graphs of the functions y = aˣ and y = log x for a > 0 and a ≠ 1. Which of the following is true about the functions?",
+    "options": [
+      "For a > 1, the graphs of both y = aˣ and y= logₐ x are increasing on (0, ∞)",
+      "For 0 < a < 1, the y-axis is an asymptote to the graphs of y = aˣ and y = logₐ x.",
+      "The graph of y = aˣ is a reflection of the graph of y = logₐ x about the region.",
+      "The graph of y = aˣ is a reflection of the graph of y = logₐ x along y = -x"
+    ],
+    "answer": 0,
+    "explanation": "For a > 1, the exponential function y = aˣ increases as x increases, and its inverse function y = logₐ x also increases.\n\n The graph of y = aˣ and y = logₐ x are reflections of each other about the line y = x, not y = -x.\n\n The y-axis is a vertical asymptote only for y = logₐ x, not for y = aˣ."
+  },
+  {
+    "question": "5) Below is a histogram showing the time taken to complete a test. Based on the above histogram, which of the following is true?",
+    "options": [
+      "30% of the students completed the test with less than 30 minutes",
+      "25% of the students completed the test with more than 50 minutes",
+      "50% of the students completed the test with less than 50 minutes",
+      "40% of the students completed the test with more than 40 minutes"
+    ],
+    "answer": 2,
+    "explanation": "",
+    "image": "images/M2014_S5.png"
+  },
+  {
+    "question": "6) What is solution set of equation 3ˣ⁻ˣ² = 1/9?",
+    "options": [
+      "{1, -2}",
+      "{-1, 2}",
+      "{0, 1}",
+      "{-1, 0}"
+    ],
+    "answer": 1,
+    "explanation": "We have 3ˣ⁻ˣ² = 3⁻² because 1/9 = 3⁻².\n\nSo, x - x² = -2 → -x² + x + 2 = 0    → x² - x - 2 = 0.\n\nFactor: (x - 2)(x + 1) = 0 → x = 2 or x = -1.\n\nThus, the solution set is {-1, 2}."
+  },
+  {
+    "question": "7) Which of the following is true about the trigonometric values of 855°?",
+    "options": [
+      "cos 855° = -√2/2",
+      "sin 855° = √3/2",
+      "tan 855° = 1",
+      "cot 855° = -√2"
+    ],
+    "answer": 0,
+    "explanation": " 855° - 2×360° = 135°.\n\nCosine in the second quadrant: cos 135° = cos(180° - 45°) = -cos 45° = -√2/2.\n\nTherefore, cos 855° = -√2/2."
+  },
+  {
+    "question": "8) Which one of the following is true about the function y = sin x?",
+    "options": [
+      "Its range is [-1, 1]",
+      "Its domain is (0, ∞)",
+      "Its domain is [-1, 1]",
+      "Its period is π"
+    ],
+    "answer": 0,
+    "explanation": "The sine function y = sin x has a range from -1 to 1, meaning it takes all values between -1 and 1.\n\n Its domain is all real numbers, and its period is 2π, not π."
+  },
+  {
+    "question": "9) The lower and upper bases of the frustum of a regular pyramid are equilateral triangles of side 3 cm long and 2 cm long respectively. If its slant height is 4 cm, then what is the lateral surface area of the frustum?",
+    "options": [
+      "30 cm²",
+      "48 cm²",
+      "72 cm²",
+      "96 cm²"
+    ],
+    "answer": 0,
+    "explanation": "The lateral surface area (LSA) of a frustum of a regular pyramid with equilateral triangle bases is LSA = 1/2 × (perimeter_lower + perimeter_upper) × slant height.\n\n Perimeter of lower base = 3 × 3 = 9 cm, perimeter of upper base = 3 × 2 = 6 cm.\n\n Sum = 15 cm. Slant height = 4 cm. LSA = 1/2 × 15 × 4 = 30 cm²."
+  },
+  {
+    "question": "10) Which one of the following is true about the signum function, f(x) = sgn x ?",
+    "options": [
+      "Its domain is (-1, 0, 1)",
+      "Its range is [0,  ∞)",
+      "Its domain is the set of real numbers.",
+      "Its graph is the set of real numbers."
+    ],
+    "answer": 2,
+    "explanation": "The signum function f(x) = sgn(x) is defined for all real numbers.\n\n It outputs -1 for negative numbers, 0 for zero, and 1 for positive numbers.\n\n Therefore, its domain is the set of all real numbers, and its range is {-1, 0, 1}."
+  },
+  {
+    "question": "11) Which one of the following is the equation of a circle with center (2, -1) and radius 3 units?",
+    "options": [
+      "x² + y² + 2x + 2y - 4 = 0",
+      "x² + y² - 4x + 2y - 4 = 0",
+      "x² + y² + 4x - 2y - 5 = 0",
+      "x² + y² - 4x + 2y - 5 = 0"
+    ],
+    "answer": 1,
+    "explanation": "The general equation of a circle is (x - h)² + (y - k)² = r², where (h, k) is the center and r is the radius.\n\nCenter (2, -1), radius 3 →  (x - 2)² + (y + 1)² = 9\n\nExpanding: (x² - 4x + 4) + (y² + 2y + 1) = 9 →\n x² + y² - 4x + 2y + 5 - 9 = 0 →\n x² + y² - 4x + 2y - 4 = 0"
+  },
+  {
+    "question": "12) Consider the ellipse given by the equation 4(x+1)² + (y-1)² = 16. Which one of the following is the standard form of equation of the ellipse?",
+    "options": [
+      "(x+1)²/2² + (y-1)²/4² = 1",
+      "(x+1)²/2² + (y-1)²/1² = 1",
+      "(x+1)²/4² + (y-1)²/2² = 1",
+      "(x+1)²/4² + (y-1)²/4² = 1"
+    ],
+    "answer": 0,
+    "explanation": "Start with 4(x+1)² + (y-1)² = 16.\n Divide everything by 16 to get standard form: (x+1)²/4 + (y-1)²/16 = 1.\n Rewrite denominators as squares: 4 = 2² and 16 = 4², \n\nso the standard form is (x+1)²/2² + (y-1)²/4² = 1, which is option A."
+  },
+  {
+    "question": "13) Suppose that the lines AB and DC intersect at B outside the circle as shown in the figure below. If m(< ABC) = 30° and m(<BCD) = 45°, then what is m(<AC)?",
+    "options": [
+      "90°",
+      "105°",
+      "120°",
+      "150°"
+    ],
+    "answer": 0,
+    "explanation": "",
+    "image": "images/M2014_S13.png"
+  },
+  {
+    "question": "14) Let f(x) = 3x+1 / x+2. Which one of the following is the inverse of f?",
+    "options": [
+      "f⁻¹(x) = x - 2 / -3x + 1",
+      "f⁻¹(x) = x + 2 / 3x + 1",
+      "f⁻¹(x) = 2x - 1 / x - 3",
+      "f⁻¹(x) = -2x + 1 / x - 3"
+    ],
+    "answer": 3,
+    "explanation": "Start with y = (3x + 1)/(x + 2).\n Swap x and y: x = (3y + 1)/(y + 2).\n Multiply: x(y + 2) = 3y + 1 → xy + 2x = 3y + 1.\n\n Rearrange: xy - 3y = 1 - 2x → y(x - 3) = 1 - 2x.\n\n Thus y = (1 - 2x)/(x - 3) =\n (-2x + 1)/(x - 3)."
+  },
+  {
+    "question": "15) Consider the rational function f(x) = x³ - 1 / x² + 1. Which one of following is true about the graph of f?",
+    "options": [
+      "It's y intercept is -1",
+      "It has no x intercept",
+      "It is symmetrical about the y axis.",
+      "It is symmetrical about the origin."
+    ],
+    "answer": 0,
+    "explanation": "To find the y-intercept, set x = 0: f(0) = (0³ - 1)/(0² + 1) = -1/1 = -1.\n\n So the y-intercept is -1.\n The function has an x-intercept at x = 1 since (1³ - 1) = 0.\n\n It is neither even nor odd, so it is not symmetric about the y-axis or the origin."
+  },
+  {
+    "question": "16) Consider the grouped frequency table for students' weight in a certain school. What is the mean weight of the students?",
+    "options": [
+      "43.8 kg",
+      "45.5 kg",
+      "41.5 kg",
+      "43 kg"
+    ],
+    "answer": 0,
+    "explanation": "",
+    "image": "images/M2014_S16.png"
+  },
+  {
+    "question": "17) Let A = {0, 2, 4, 6, 8,9, 10} and B = {1, 3, 5, 7, 9}. Which one of the following is true?",
+    "options": [
+      "B - A = B",
+      "A - B = A",
+      "B - A = {1, 3, 5, 7}",
+      "A - B = {0, 2, 4, 6, 8, 10}"
+    ],
+    "answer": 2,
+    "explanation": "B - A means elements in B that are not in A.\n Since 9 is common to both sets, remove 9 from B.\n\n Thus B - A = {1, 3, 5, 7}. \nAlso, A - B = {0, 2, 4, 6, 8, 10}."
+  },
+  {
+    "question": "18) Consider the polynomial function f(x) = ax⁴-b, where a and b are real numbers. Which one of the following is true about f?",
+    "options": [
+      "The graph of f opens downward for any b ≤ 0.",
+      "The graph of f opens downward for any a ≤ 0.",
+      "The graph of f opens upward for any b > 0.",
+      "The graph of f opens upward for any a > 0."
+    ],
+    "answer": 3,
+    "explanation": "The leading term of the polynomial is ax⁴.\n\n The direction the graph opens depends on the sign of a.\n If a > 0, the graph opens upward. If a < 0, the graph opens downward.\n\n The constant term b only shifts the graph vertically and does not affect its opening direction."
+  },
+  {
+    "question": "19) The solution set of inequality 3x² + 35x - 12 < 0 is",
+    "options": [
+      "(-12, 1/2)",
+      "(-∞, 1/3)",
+      "(-12,1)",
+      "(-∞,-12)"
+    ],
+    "answer": 0,
+    "explanation": "First solve the quadratic equation 3x² + 35x - 12 = 0.\n\nUsing the quadratic formula: x = [-35 ± √(35² - 4·3·(-12))] / (2·3)\n\nx = [-35 ± √(1225 + 144)] / 6\n\nx = [-35 ± √1369] / 6\n\nx = [-35 ± 37] / 6\n\nSo the roots are x = 1/3 and x = -12.\n\nSince the leading coefficient (3) is positive, the parabola opens upward.\n Therefore, the inequality 3x² + 35x - 12 < 0 holds between the roots.\n\nThus, the solution set is (-12, 1/3)."
+  },
+  {
+    "question": "20) A closed right circular cone has a base radius 2 cm and slant height 3√2 cm. What is the total surface area of the cone?",
+    "options": [
+      "6π√14 cm²",
+      "2π√14 cm²",
+      "2π√(1+3√2) cm²",
+      "2π(2+3√2) cm²"
+    ],
+    "answer": 3,
+    "explanation": "Total surface area of a closed cone = πrl + πr².\n\nGiven r = 2 cm and l = 3√2 cm.\n\nπrl = π × 2 × 3√2 = 6π√2\n\nπr² = π × 2² = 4π\n\nTotal surface area = 6π√2 + 4π = 2π(3√2 + 2) = 2π(2 + 3√2) cm²."
+  },
+  {
+    "question": "21) Which of the following is true? A hyperbola is a locus of points in the plane so that",
+    "options": [
+      "the sum of the distance from two fixed points is constant.",
+      "the difference between the distances from two fixed points is constant.",
+      "the points have the same distance from a given point and a given line.",
+      "the points have the same distance any given two points."
+    ],
+    "answer": 1,
+    "explanation": "By definition, a hyperbola is the set of all points in a plane such that the absolute difference of the distances from two fixed points (foci) is constant.\n\n The sum being constant defines an ellipse, the same distance from a point and line defines a parabola."
+  },
+  {
+    "question": "22) Which of the following is the converse of: \"If wages increase, then inflation decreases.\"? ",
+    "options": [
+      "If inflation increases, then wages decrease.",
+      "If inflation increases, then wages increase.",
+      "If inflation decreases, then wages increase.",
+      "If inflation decreases, then wages decrease."
+    ],
+    "answer": 2,
+    "explanation": "The converse of a conditional statement 'If P, then Q' is 'If Q, then P'.\n\nOriginal: If wages increase (P), then inflation decreases (Q).\n\nConverse: If inflation decreases (Q), then wages increase (P)."
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": "",
+    "image": "images/M2014_S23.png"
+  },
+  {
+    "question": "24) You happened to notice that the 8% sales tax that your paid on the new Television Set came to Birr 3,800. How much did the Television Set cost him?",
+    "options": [
+      "Birr 30,600",
+      "Birr 35,400",
+      "Birr 45,800",
+      "Birr 47,500"
+    ],
+    "answer": 3,
+    "explanation": "Let the cost of the television be x. The sales tax is 8% of x, so 0.08 × x = 3,800.\n\nSolve for x:  x = 3,800 / 0.08 = 47,500.\n\nTherefore, the Television Set cost Birr 47,500."
+  },
+  {
+    "question": "25) Voter turnout in the local school board elections declined 40% from last year. This year only 3,600 eligible voters went to the polls. How many people voted in last year's school board elections?",
+    "options": [
+      "4,500",
+      "5,000",
+      "5,500",
+      "6,000"
+    ],
+    "answer": 3,
+    "explanation": "Let the number of voters last year be x. \nA 40% decline means this year there were 60% of last year's voters: 0.6 × x = 3,600.\n\nSolve for x: x = 3,600 / 0.6 = 6,000.\n\nSo, 6,000 people voted in last year's elections."
+  },
+  {
+    "question": "26) Which one of the following statements is NOT TRUE about the graph of the given linear inequality?",
+    "options": [
+      "The graph of the linear inequality y ≤ x - 1 is above the line y = 2x on the interval (-∞, -1)",
+      "The graph of the linear inequality y > 2x + 1 contains no points of the line y = 2x - 3",
+      "The graph of the linear inequality y ≤ 2x + 1 is below the line y = y on the interval (-∞, -1)",
+      "The graph of the linear inequality y > 2x - 1 contains all points of the line y = 2x"
+    ],
+    "answer": 3,
+    "explanation": "For y > 2x - 1, the graph does NOT include points on the line y = 2x because inequalities with > or < exclude the boundary line.\n\n Only ≤ or ≥ would include points on the line."
+  },
+  {
+    "question": "27) Consider a line with equation y = mx + b. Which of the following is true?",
+    "options": [
+      "The line passes through the origin.",
+      "The line has no slope.",
+      "The line intersects the x axis, if m = 0 and b > 0.",
+      "The line intersects the y axis, if m ≠ 0 and b > 0."
+    ],
+    "answer": 3,
+    "explanation": "The general line equation y = mx + b intersects the y-axis where x = 0.\n\n Substituting x = 0 gives y = b. So as long as b > 0, the line intersects the y-axis above the origin.\n\n The slope m does not affect the y-intercept. The line passes through the origin only if b = 0."
+  },
+  {
+    "question": "Let f(x) = e⁻²ˣ then which one of the following is true about f ?",
+    "options": [
+      "f(x) = (-2)e⁻²ˣ",
+      "f(ⁿ)(x) = 2²ⁿe⁻²ˣ",
+      "f(ⁿ)(0) = (-1/2)ⁿ",
+      "f(ᵐ)(0) = (-1/2e)ⁿ"
+    ],
+    "answer": 0,
+    "explanation": "Given f(x) = e⁻²ˣ. Using the chain rule, the derivative of eᵘ is eᵘ · u′.\n\n Here u = −2x, so u′ = −2. Therefore f′(x) = −2e⁻²ˣ.\n\n Differentiating repeatedly, each derivative multiplies by −2 again.\n\n Hence the nth derivative is f⁽ⁿ⁾(x) = (−2)ⁿe⁻²ˣ."
+  },
+  {
+    "question": "Consider the function f(x) = x² - 3x on [-1, 2]. What is the value x that satisfies the Mean Value Theorem?",
+    "options": [
+      "0",
+      "1",
+      "1/2",
+      "3/2"
+    ],
+    "answer": 2,
+    "explanation": "By the Mean Value Theorem, there exists c in (-1, 2) such that f′(c) equals the average rate of change on [-1, 2].\n\n First compute f(2) = 4 - 6 = -2 and f(-1) = 1 + 3 = 4. \n\nThe average rate of change is (-2 - 4) / (2 - (-1)) = -6 / 3 = -2.\n\n Now compute f′(x) = 2x - 3. Set 2x - 3 = -2 and solve: 2x = 1, so x = 1/2."
+  },
+  {
+    "question": "A carpenter wants to design a closed box that has a square base and total surface area of 54 cm² . What is the maximum volume that can be constructed with the given total surface area?",
+    "options": [
+      "18 cm",
+      "27 cm³",
+      "12 cm³",
+      "13.5 cm³"
+    ],
+    "answer": 1,
+    "explanation": "Let base x, height h. Surface area: 2x² + 4xh = 54 → h = (27 - x²)/(2x). \n\nVolume: V = x²h = (27x - x³)/2.\n Max V: dV/dx = (27 - 3x²)/2 = 0 → x = 3, h = 3.\n\n Max volume = 3²·3 = 27 cm³."
+  },
+  {
+    "question": "What is the area of the region bounded by the line y=x and the parabola y = x² - 2x on the interval [0, 3]?",
+    "options": [
+      "9 square units",
+      "9/2 square units",
+      "3 square units",
+      "2 square units"
+    ],
+    "answer": 1,
+    "explanation": "First, find intersection points: x = x² - 2x → x² - 3x = 0 → x(x - 3) = 0 → x = 0, 3.\n\n The area is ∫₀³ [x - (x² - 2x)] dx =\n ∫₀³ (-x² + 3x) dx =\n [-x³/3 + 3x²/2]₀³ =\n (-27/3 + 27/2) - 0 =\n -9 + 27/2 = 9/2."
+  },
+  {
+    "question": "Which of the following is NOT true?",
+    "options": [
+      "Any person can implement random sampling from a given population.",
+      "Random sampling is free from personal bias of the investigator.",
+      "Random sampling requires time to plan and implement.",
+      "There is no single rule for determining the size of a sample."
+    ],
+    "answer": 0,
+    "explanation": "Random sampling requires proper planning and knowledge of sampling techniques. \nIt is not true that any person can implement it without understanding the method.\n\n The other statements are correct: random sampling reduces bias, takes time to plan, and there is no single rule for sample size."
+  },
+  {
+    "question": "What is the simplified form of (2+i)(3-4i) / (2-2i)/(1+i) ?",
+    "options": [
+      "7/8- 3i/8",
+      "5/2-5i/2",
+      "5/2 + 5i/4",
+      "5/2 - 5/4"
+    ],
+    "answer": 3,
+    "explanation": "Step 1: (2+i)(3-4i) = 10 - 5i.\n\n Step 2: (2-2i)/(1+i) = -2i.\n\n Step 3: Divide: (10-5i)/(-2i) = 5/2 - 5i/2."
+  },
+  {
+    "question": "Consider two firms with the given mean income and standard deviation. Which of the following is true?",
+    "options": [
+      "We cannot compare the two data sets.",
+      "The two data sets have same consistency.",
+      "The data set in firm i have less variability than firm ii",
+      "The data set in firm i have greater variability than firm ii"
+    ],
+    "answer": 2,
+    "explanation": "Variability of a data set is measured by the standard deviation.\n A lower standard deviation indicates less variability. \n\nHence, if firm i has a smaller standard deviation than firm ii, its data set is less variable and more consistent."
+  },
+  {
+    "question": "Consider the following data 6, 6, 7, 7,7, 8, 8, then which of the following is true",
+    "options": [
+      "The mean deviation from the mean is 3/2",
+      "The mean deviation from the mean is 7/4",
+      "The mean deviation from the median is 7/4",
+      "The mean deviation from the mode is 4/7"
+    ],
+    "answer": 1,
+    "explanation": "Mode of the data is 7. Mean deviation from the mode: |6-7| + |6-7| + |7-7| + |7-7| + |7-7| + |8-7| + |8-7| = 1+1+0+0+0+1+1 = 4.\n\n Divide by number of data points (7): 4/7.\n\n Therefore, the mean deviation from the mode is 4/7."
+  },
+  {
+    "question": "A painter buys 5 liters of paint for Birr 36 and 6 liters of the same brand paint for Birr 43. Which of the following is true?",
+    "options": [
+      "We cannot compare.",
+      "Both have the same economical purchase.",
+      "Buying 6 liters is more economical than buying 5 liters.",
+      "Buying 5 liters is more economical than buying 6 liters."
+    ],
+    "answer": 2,
+    "explanation": "Cost per liter: 5 liters → 36/5 = 7.2 Birr/liter, 6 liters → 43/6 ≈ 7.167 Birr/liter.\n\n Since 7.167 < 7.2, buying 6 liters is slightly more economical."
+  },
+  {
+    "question": "One special perfume costs a cosmetic shop Birr 2,100. If the shop desires a 25% markup rate based on the selling price, then which one of the following should be set as a selling price for this perfume?",
+    "options": [
+      "Birr 2,300",
+      "Birr 2,400",
+      "Birr 2,600",
+      "Birr 2,800"
+    ],
+    "answer": 3,
+    "explanation": "Let selling price = SP.\n Markup rate based on selling price: Cost = SP × (1 - 0.25) → 2,100 \n= SP × 0.75 → SP = 2,100 / 0.75 = 2,800 Birr."
+  },
+  {
+    "question": "Let f be continuous on [a, b] and F'(x) = f(x) for all x ∈ [a, b]. Which of the following is true?",
+    "options": [
+      "∫ₐᵇ f(x) dx = F(a) - F(b)",
+      "∫ₐᵇ f(x) dx = F(b) - F(a)",
+      "∫ₐᵇ F(x) dx = F(b) - F(a)",
+      "∫ₐᵇ F(x) dx  = f(a) - f(b)"
+    ],
+    "answer": 1,
+    "explanation": "By the Fundamental Theorem of Calculus, if F'(x) = f(x) and f is continuous on [a, b], then ∫ₐᵇ f(x) dx = F(b) - F(a)."
+  },
+  {
+    "question": "Which one of the following is equal to ∫₁³ 2x√x²+1 dx ?",
+    "options": [
+      "4(10√10- 2√2) /3",
+      "2(5√10-√2) /3",
+      "3(5√10+2√2) /3",
+      "4(√10-√2) /3"
+    ],
+    "answer": 3,
+    "explanation": "Substitute u = x² + 1 → du = 2x dx.\n Then ∫₁³ 2x√(x²+1) dx = ∫₂¹⁰ √u du = (2/3)(u^(3/2))|₂¹⁰ = (2/3)(10√10 - 2√2).\n Simplifying, it matches 4(√10 - √2)/3."
+  },
+  {
+    "question": "A line makes an angle of 145° with the positive x-axis. What is the slope of the line? (Given tan 35° = 0.7)",
+    "options": [
+      "-0.7",
+      "0.7",
+      "10/7",
+      "-10/7"
+    ],
+    "answer": 0,
+    "explanation": "Slope m = tan θ. \nThe angle with positive x-axis is 145° = 180° - 35°, which lies in the second quadrant where tan is negative. \n\nTherefore, m = -tan 35° = -0.7."
+  },
+  {
+    "question": "What is the solution set of 2/x-1 + 4/x = 6/x-2 ?",
+    "options": [
+      "{4/11}",
+      "{11/4}",
+      "{4/5}",
+      "{5/4}"
+    ],
+    "answer": 2,
+    "explanation": "Find common denominators or solve step by step:\n\n2/(x-1) + 4/x = 6/(x-2)\n\nMultiply both sides by x(x-1)(x-2) to eliminate denominators:\n\n2x(x-2) + 4(x-1)(x-2) = 6x(x-1)\n\nSimplify: 2x² - 4x + 4(x² -3x + 2) = 6x² - 6x\n\n2x² - 4x + 4x² -12x + 8 = 6x² -6x\n\n6x² -16x +8 = 6x² -6x → -16x +8 = -6x → -10x = -8 → x = 4/5."
+  },
+  {
+    "question": "Let l1: y = 1x/3 + 1 and l2: y = 2x - 1 be two lines. What is the angle between l1 to l2 counterclockwise?",
+    "options": [
+      "3π/4",
+      "3π/2",
+      "π/4",
+      "π/2"
+    ],
+    "answer": 2,
+    "explanation": "Slope of l1: m₁ = 1/3, slope of l2: m₂ = 2.\n\n Angle θ between lines: tan θ = |(m₂ - m₁)/(1 + m₁·m₂)| =\n |(2 - 1/3)/(1 + (1/3)·2)| =\n |(5/3)/(5/3)| = 1 → θ = π/4"
+  },
+  {
+    "question": "43) Let p: 2 is a prime number and q: 3 is an odd number. Then the contrapositive and its truth value of the statement p⇒q are respectively",
+    "options": [
+      "¬q⇒ ¬p = True",
+      "¬q ⇒ ¬p = False",
+      "¬p ⇒q = True",
+      "q ⇒ ¬p = False"
+    ],
+    "answer": 3,
+    "explanation": "Original statement: p ⇒ q (If 2 is prime, then 3 is odd).\n Contrapositive: ¬q ⇒ ¬p (If 3 is not odd, then 2 is not prime). \nSince 3 is odd, ¬q is false, making ¬q ⇒ ¬p true (a false premise implies anything).\n Therefore, contrapositive is True."
+  },
+  {
+    "question": "44) The following table shows the test scores of 20 students in a class.\n\n What is the variance of the given data?",
+    "options": [
+      "18.45",
+      "19.45",
+      "16.2",
+      "17.2"
+    ],
+    "answer": 1,
+    "explanation": "",
+    "image": "images/M2014_S44.png"
+  },
+  {
+    "question": "45) If two cards are drawn one after the other from a well shuffled pack of cards, then which one of the following is an independent event?",
+    "options": [
+      "Drawing a king in the first draw and a queen in the second draw without replacing the first.",
+      "Drawing a king in the first draw and a queen in the second draw by replacing the first.",
+      "Drawing kings in both draws without replacing the first.",
+      "Drawn queens in both draws without replacing the first."
+    ],
+    "answer": 1,
+    "explanation": "Events are independent if the outcome of the first does not affect the probability of the second.\n\n Replacing the first card ensures probabilities remain the same, making the events independent. Without replacement, the events are dependent."
+  },
+  {
+    "question": "A bag contains 2 red, 3 white and 1 black balls. We drawn two balls one after the other without replacement. What is the probability that the first ball is red and the second ball is black?",
+    "options": [
+      "1/15",
+      "1/18",
+      "1/10",
+      "1/12"
+    ],
+    "answer": 0,
+    "explanation": "Total balls = 6. Probability first ball is red: 2/6 = 1/3.\n\n After removing a red, probability second ball is black: 1/5.\n Multiply: (1/3) × (1/5) = 1/15."
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 1,
+    "explanation": "",
+    "image": "images/M2014_S47.png"
+  },
+  {
+    "question": "Let z1 = 2 - 3i and z2 = 5 + 7i. Which one of the following is equal to z1/z2?",
+    "options": [
+      "A. -11/74 - 29i/74",
+      "B. 31/74 - 29i/74",
+      "C. -14/46 + 29i/46",
+      "D. -11/46 + 10i/46"
+    ],
+    "answer": 0,
+    "explanation": "To divide complex numbers: z1/z2 = (2-3i)/(5+7i) × (5-7i)/(5-7i) = \n[(2*5 + 3*7) + (-3*5 + 2*(-7))i] / (5² + 7²) =\n (-11 - 29i)/74."
+  },
+  {
+    "question": "What is the solution of the system of linear equations {(2x + 7y = -5) (5x + 11y = 2)}?",
+    "options": [
+      "A. x= -5/3 and y = 25/21",
+      "B. x = 5/3 and y = -25/21",
+      "C. x= 69/13 and y = 29/13",
+      "D.x = 69/13 and y= 29/13"
+    ],
+    "answer": 2,
+    "explanation": "Solve by elimination or substitution: \n\n2x + 7y = -5 → 2x = -5 - 7y → x = (-5 - 7y)/2\n\nSubstitute into 5x + 11y = 2:\n\n5((-5 - 7y)/2) + 11y = 2 → (-25 - 35y)/2 + 11y = 2 → (-25 - 35y + 22y)/2 = 2 → (-25 - 13y)/2 = 2 → \n-25 -13y = 4 → -13y = 29 → y = -29/13\n\nThen x = (-5 -7(-29/13))/2 = (-5 + 203/13)/2 = (138/13)/2 = 69/13\n\nSolution: x = 69/13, y = -29/13. "
+  },
+  {
+    "question": "What is the area of an equilateral triangle inscribed in a circle radius 4 units?",
+    "options": [
+      "A. 12 sq.units",
+      "B. 36 sq.units",
+      "C. 6√3 sq. units",
+      "D. 12√3 sq. units"
+    ],
+    "answer": 3,
+    "explanation": "For an equilateral triangle inscribed in a circle of radius R: side a  Area = (√3/4) * a² =\n\n (√3/4) * (8²) = 12√3."
+  },
+  {
+    "question": "Consider the sequence {1+1/n]∞. Which one of the following is true about the sequence?",
+    "options": [
+      "A. 2 is its lower bound",
+      "B. 3/2 is its lower bound",
+      "C. 4 is its upper bound",
+      "D. 6/5 is its upper bound"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is equal to lim x->0 x/1-√(x+1)?",
+    "options": [
+      "A. 1",
+      "B. 1/2",
+      "C. 0",
+      "D. -2"
+    ],
+    "answer": 3,
+    "explanation": "We evaluate lim x→0 of x / (1 - √(x+1)).\n\n This is an indeterminate form 0/0, so we rationalize the denominator by multiplying by (1 + √(x+1)).\n\n This gives x(1 + √(x+1)) / (1 - (x+1)) =\n x(1 + √(x+1)) / (-x).\n Cancel x to get -(1 + √(x+1)).\n Now substitute x = 0: -(1 + 1) =\n -2, \nso the answer is D."
+  },
+  {
+    "question": "A couple own a house that value Birr 2,000,000. The house added Birr 10,000 in the first year, Birr 10,400 in the second year, Birr 10,800 the third year and so on. What is the value of the house at the end of 7 years?",
+    "options": [
+      "A. Birr 2,012,000",
+      "B. Birr 2,054,000",
+      "C. Birr 2,060,000",
+      "D. Birr 2,078,400"
+    ],
+    "answer": 3,
+    "explanation": "The house value increases each year in an arithmetic progression with first term 10,000 and common difference 400.\n\n Sum of 7 years' increases = 7/2 * [2*10,000 + (7-1)*400] = 78,400.\n\n Adding this to the initial value 2,000,000 gives 2,078,400."
+  },
+  {
+    "question": "Let f be a function defined on an open interval about a real number a, except possibly at a itself. Which one of the following is necessary for lim x->a f(x) to exist?",
+    "options": [
+      "A. lim x->a+ f(x)  exists",
+      "B. lim x->a- f(x) exists",
+      "C. lim x->a+ f(x) = lim x->a- f(x)",
+      "D. lim x->a+ f(x) = f(a)"
+    ],
+    "answer": 2,
+    "explanation": "For the limit lim x→a f(x) to exist, both the left-hand limit lim x→a− f(x) and the right-hand limit lim x→a+ f(x) must exist and be equal.\n\n Therefore the necessary condition is that the right-hand limit equals the left-hand limit,\n\n so lim x→a+ f(x) = lim x→a− f(x), which is option C."
+  },
+  {
+    "question": "Let f be a function that is continuous at x₀. Which of the following is true about f?",
+    "options": [
+      "A. x₀ does not belong to the domain of f",
+      "B. lim x -> x₀+ f(x) does not exists",
+      "C.lim x -> x₀+ f(x) ≠ lim x -> x₀- f(x)",
+      "D. lim x -> x₀ f(x) = f(x₀)"
+    ],
+    "answer": 3,
+    "explanation": "A function is continuous at x₀ if the limit as x approaches x₀ exists and equals the function value at that point.\n\n This means lim x→x₀ f(x) = f(x₀), which is option D.\n\n The left-hand and right-hand limits must also be equal and exist for continuity."
+  },
+  {
+    "question": "Let f(x) = 2√(x+1) . Which one of the following indicates the interval and its derivative of f respectively?",
+    "options": [
+      "A. (-1,∞), 1/√(x+1)",
+      "B. (-∞,-1),(x+1)³/²",
+      "C. [0,∞),(x+1)³/²",
+      "D. [-1,∞),1/√(x+1)"
+    ],
+    "answer": 3,
+    "explanation": "The function f(x) = 2√(x+1) is defined for x ≥ -1 (including -1).\n\n The derivative is 1/√(x+1)."
+  },
+  {
+    "question": "Let f(x) = x² + √x and g(x) = e²ˣ. Which of the following is true?",
+    "options": [
+      "A. (f + g)'(x) = 2x + 1/2√x + 2e²ˣ",
+      "B. (f + g)'(x) = 2x + 1/2√x + 2e²ˣ",
+      "C. (f + g)'(x) = 2x - 1/2√x - 2e²",
+      "D. (f - g)'(x) = 2x - 1/2√x - 2e²"
+    ],
+    "answer": 0,
+    "explanation": "Derivative of f(x) is 2x + 1/(2√x).\n\n Derivative of g(x) is 2e²ˣ.\n Adding them gives (f+g)'(x) = 2x + 1/(2√x) + 2e²ˣ."
+  },
+  {
+    "question": "What is the equation of the tangent line to the graph of the function f(x) = eˣ at (1, e)?",
+    "options": [
+      "A. y= ex + e",
+      "B. y= ex",
+      "C. y = x+1/e",
+      "D. y = 1x/e + 1/e"
+    ],
+    "answer": 1,
+    "explanation": "The slope of the tangent at x=1 is e.\n\n Using point-slope form: y - e = e(x - 1) simplifies to y = ex."
+  },
+  {
+    "question": "Water is flowing into a cylindrical water tank of radius 2 m and height 10 m at a rate of 5 m³/min. What is the rate change of the height when the water level is 6 m?",
+    "options": [
+      "A. 5/4π m/min",
+      "B. 5π/4 m/min",
+      "C. 2 m/min",
+      "D. 2πm/min"
+    ],
+    "answer": 0,
+    "explanation": "- Volume of cylinder V = π r² h.\n - Differentiate: dV/dt = π r² dh/dt.\n- Given dV/dt=5, r=2, solving gives dh/dt = 5/(4π) m/min."
+  },
+  {
+    "question": "Which one of the following is equal to ∫(e²ˣ + cosx)dx?",
+    "options": [
+      "A. e²ˣ + cosx + c",
+      "B. e²ˣ + sinx + c",
+      "C. 1/2 e²ˣ + sinx + c",
+      "D. 1/2 e²ˣ - sinx + c"
+    ],
+    "answer": 2,
+    "explanation": "Integral of e²ˣ is 1/2 e²ˣ, integral of cos x is sin x, add constant C."
+  },
+  {
+    "question": "Consider the sequence {an} n=1 to n=∞ where an = 1 + (-1)ⁿ/n for n≥1. Which one of the following is true?",
+    "options": [
+      "A. a10 = 11/10",
+      "B. a11= 12/10",
+      "C. an < 1 for all n",
+      "D. an ≥ an+1 for all n"
+    ],
+    "answer": 0,
+    "explanation": "Given an = 1 + (-1)ⁿ / n.\n For n = 10 (even), a10 = 1 + 1/10 = 11/10, so A is true.\n\n For n = 11 (odd), a11 = 1 - 1/11 = 10/11 ≠ 12/10, "
+  },
+  {
+    "question": "What is the simplified form of ∛32/16²ᐟ³?",
+    "options": [
+      "A. 8",
+      "B. 1/8",
+      "C. 2",
+      "D. 1/2"
+    ],
+    "answer": 3,
+    "explanation": "Rewrite ∛32 / 16²ᐟ³ as 32¹/³ / 16²/³.\n\n- Expressing as powers of 2: 32¹/³ = 2⁵/³, 16²/³ = 2⁸/³.\n\n- Subtract exponents: 2⁵/³ ÷ 2⁸/³ = 2⁻¹ = 1/2."
+  },
+  {
+    "question": "Which one of the following numbers is equal to √3 + √2 / √3-√2 ?",
+    "options": [
+      "A. 6 + 2√2",
+      "B. 5 + 2√2",
+      "C. 1 + 2√3",
+      "D. 3 - 2√3"
+    ],
+    "answer": 1,
+    "explanation": "Multiply numerator and denominator by (√3 + √2) to rationalize: ((√3 + √2)² )/(3 - 2) =\n\n- (3 + 2√6 + 2)/1 = 5 + 2√2."
+  },
+  {
+    "question": "What is the solution set of the equation 6 - 4x - 2x²  = 0?",
+    "options": [
+      "A. {-3,1}",
+      "B. {-1,3}",
+      "C. {-6,2}",
+      "D. {-2,-6}"
+    ],
+    "answer": 0,
+    "explanation": "The quadratic factors as (x-1)(x+3)=0, giving solution set {-3,1}"
+  },
+  {
+    "question": "Let f(x) = x² - x and g(x) = x + 1. Which one of the following statements is true?",
+    "options": [
+      "A. (f + g)(-2) = 3",
+      "B. (f - g)(-2) = 5",
+      "C. (f.g)(-2) = -5",
+      "D. (f/g)(-2) = -6"
+    ],
+    "answer": 3,
+    "explanation": "(f/g)(-2) = (f(-2))/(g(-2)) = (4 + 2)/(-1) = -6, so the correct statement is D."
+  }
+      ]

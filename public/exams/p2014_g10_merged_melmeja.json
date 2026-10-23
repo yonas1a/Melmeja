@@ -1,0 +1,155 @@
+{
+  "id": "p2014_g10_merged_melmeja",
+  "title": "Grade 10 Physics National Exam & Practice 2014 (6 Chapters Combined)",
+  "category": "GRADE_10",
+  "subCategory": "Physics",
+  "department": "Physics",
+  "grade": "Grade 10",
+  "description": "Comprehensive examination bank combining 6 chapters (8 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 30,
+  "totalQuestions": 8,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "GRADE_10",
+    "2014",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_p2014_g10u1_melmeja_1",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about satellite motion?",
+      "options": [
+        "satellite moving closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+        "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one.",
+        "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about Moon.",
+        "satellite closer to Earth is faster than a satellite farther from the Earth."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "According to orbital mechanics, the orbital speed of a satellite is given by:- \n\nv = √(GM/r), where r is the distance from the center of the Earth.\n\n Therefore, a satellite closer to Earth (smaller r) moves faster than one farther away.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_2",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "A satellite revolves around the Earth in a circular orbit of radius r = 4 * 10¹⁶m. The period of the satellite is ______.",
+      "options": [
+        "2.5 * 10¹⁹ s",
+        "3.7 * 10²⁷ s",
+        "3.7 * 10²⁶ s",
+        "2.5 * 10¹⁸ s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The period T of a satellite in a circular orbit is given by:- \n\nT = 2π√(r³ / GM), \nwhere G = 6.67 × 10⁻¹¹ N·m²/kg² and M = 5.97 × 10²⁴ kg (mass of Earth).\n\n Substituting r = 4 × 10¹⁶ m gives T ≈ 2.5 × 10¹⁹ s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_3",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "One of the following statements is a correct description of the charging processes?",
+      "options": [
+        "During charging a neutral object by induction using a negatively charged rod, charge flows from the rod to the object.",
+        "When a neutral metallic sphere is charged by induction using a negatively charged rod, the sphere acquires a net negative charge.",
+        "When a positively charged object is momentarily brought into contact with a neutral metallic sphere, the sphere acquires a net positive charge.",
+        "When a plastic rod is rubbed with wool, the two objects acquire a net charge of the same sign."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Touching a neutral sphere with a positive object removes electrons, so the sphere becomes positive.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_4",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about the resistance of a conductor with a circular cross-section?",
+      "options": [
+        "At a given temperature, the resistance of copper and silver wires of the same length and diameter is the same.",
+        "The resistance of the conductor increases as its length increases and its diameter decreases.",
+        "The resistance of the conductor increases as its length and diameter increases.",
+        "The resistance of the conductor decreases as it is heated."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The resistance of a conductor is given by R = ρL/A, where ρ is the resistivity, L is the length, and A is the cross-sectional area.\n\n For a circular cross-section, A ∝ diameter².\n\n Therefore, resistance increases with length and decreases with diameter.\n\n Heating generally increases resistance.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_5",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "The primary coil of a transformer has 250 turns and its secondary coil consists of 1500 turns. If 220 V is applied to its primary coil, the voltage induced in the secondary coil and the ratio of current in the primary coil to the current in the secondary coil, respectively, are ______.",
+      "options": [
+        "1320V and  6",
+        "1330V and  6",
+        "1220V and  60",
+        "1320V and  60"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For an ideal transformer, Vₛ / Vₚ = Nₛ / Nₚ and Iₚ / Iₛ = Nₛ / Nₚ.\n\nHere, Nₚ = 250, Nₛ = 1500, Vₚ = 220 V.\n\nVₛ = (Nₛ / Nₚ) × Vₚ = (1500 / 250) × 220 = 6 × 220 = 1320 V.\n\nThe current ratio Iₚ / Iₛ = Nₛ / Nₚ = 1500 / 250 = 6.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_6",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A diode is an electronic component that ______.",
+      "options": [
+        "is useful to convert a DC voltage to AC voltage.",
+        "allows electric current to pass through in one direction.",
+        "allows the flow of current when its p-type region is connected to the negative terminal of a cell.",
+        "allows current to pass through it either from cathode to anode or from anode to cathode."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A diode is a semiconductor device that acts as a one-way switch for current.\n\n It is primarily designed to allow current to flow easily in one direction (forward bias) and to block current flow in the opposite direction (reverse bias). \n\nThis property makes it essential for rectification (converting AC to pulsing DC).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_7",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Suppose a triangular object (O) is placed in front of a plane mirror and its image is formed at position (I). Which one of the following diagrams represents the image (I) formed by the mirror when it is observed from position (X)?",
+      "imageUrl": "images/P2014_1.png",
+      "diagramUrl": "images/P2014_1.png",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A plane mirror forms a virtual image that is the same size as the object, located the same distance behind the mirror, and is laterally inverted (left and right reversed).\n\n Diagram D correctly shows the image (I) as a lateral reversal of the object (O) at an equal distance from the mirror.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g10u1_melmeja_8",
+      "examId": "p2014_g10_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "An object is placed 25.0 cm in front of a concave mirror having focal length of 10.0 cm. The magnification of the mirror is _________.",
+      "options": [
+        "2.5",
+        "16.7",
+        "0.67",
+        "1.5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The image distance (v) is found using the mirror formula: 1/v = 1/f - 1/u. \n\nWith f = -10.0 cm and u = -25.0 cm, 1/v = 1/(-10) - 1/(-25) = -1/10 + 1/25 = (-5 + 2)/50 = -3/50, so v = -50/3 cm.\n\n The magnification (M) is then M = -v/u = -(-50/3) / (-25) = -2/3 = -0.67. \n\nThe magnitude is 0.67, which corresponds to option C.",
+      "topic": "Physics"
+    }
+  ]
+}

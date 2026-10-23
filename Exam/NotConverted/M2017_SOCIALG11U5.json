@@ -1,0 +1,24 @@
+[
+{
+  "question": "Let $A(-1, 2)$ and $B(0, 5)$ be initial and terminal points of vector $vec{AB}$. What is the position vector of $vec{AB}$?",
+  "options": [
+    "A $i + 3j$",
+    "B $5j$",
+    "C $-i - 3j$",
+    "D $-i + 7j$"
+  ],
+  "answer": 0,
+  "explanation": "The position vector of a vector $vec{AB}$ with initial point $A(x_A, y_A)$ and terminal point $B(x_B, y_B)$ is found by subtracting the coordinates of the initial point from the terminal point:\n$$vec{AB} = (x_B - x_A)i + (y_B - y_A)j$$\nGiven $A(-1, 2)$ and $B(0, 5)$:\n$x$-component: $0 - (-1) = 0 + 1 = 1$\n$y$-component: $5 - 2 = 3$\n\nTherefore, the position vector is $1i + 3j$, or simply $mathbf{i} + 3mathbf{j}$."
+},
+{
+"question": "If $\\textbf{u}=(1, -1)$ and $\\textbf{v}=(2, -4)$ are vectors, then $\\textbf{u} - \\textbf{v}$ is equal to:",
+"options": [
+"A $(1, -3)$",
+"B $(-3, 5)$",
+"C $(3, -5)$",
+"D $(-1, 3)$"
+],
+"answer": 3,
+"explanation": "To find the difference between two vectors, subtract the corresponding components:\\n$$\\textbf{u} - \\textbf{v} = (1, -1) - (2, -4) = (1-2, -1-(-4))$$ \\n$1-2 = -1$\\n$-1 - (-4) = -1 + 4 = 3$\\nTherefore, $\\textbf{u} - \\textbf{v} = (-1, 3)$."
+}
+]

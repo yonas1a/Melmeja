@@ -1,164 +1,165 @@
 import { Exam, ExamPackage } from '../types';
+import { HAWASSA_GAT_QUANT_EXAM } from './hawassaGatData';
+import { CONVERTED_EXAMS_METADATA } from './convertedExamsMetadata';
+
+export const getCategoryPackageId = (category: ExamCategory | string): string => {
+  switch (category) {
+    case 'GRADE_9':
+      return 'GRADE_9_ALL';
+    case 'GRADE_10':
+      return 'GRADE_10_ALL';
+    case 'GRADE_11':
+      return 'GRADE_11_ALL';
+    case 'GRADE_12':
+    case 'ENTRANCE':
+      return 'GRADE_12_ALL';
+    case 'GAT':
+      return 'GAT_ALL';
+    case 'NGAT':
+      return 'NGAT_ALL';
+    case 'EXIT':
+      return 'EXIT_ALL';
+    default:
+      return 'ALL_IN_ONE';
+  }
+};
 
 export const EXAM_PACKAGES: ExamPackage[] = [
   {
-    id: 'NGAT_MOCK_01',
-    name: 'NGAT Mock Exam 01: General Aptitude',
-    category: 'NGAT',
-    priceETB: 200,
-    originalPriceETB: 300,
-    description: 'Single access to NGAT National Mock Exam 01 covering General Aptitude, Quantitative & Verbal reasoning.',
-    features: [
-      'Full-length NGAT Mock 01 simulation',
-      'Instant grading and detailed step-by-step explanations',
-      'Unlimited retakes & performance tracking'
-    ],
-    includedExamIds: ['ngat_mock_01']
-  },
-  {
-    id: 'NGAT_MOCK_02',
-    name: 'NGAT Premium Mock 02: Advanced Quantitative',
-    category: 'NGAT',
-    priceETB: 200,
-    originalPriceETB: 300,
-    description: 'Single access to NGAT Premium Mock 02 with advanced quantitative & data interpretation.',
-    features: [
-      'Full-length NGAT Premium Mock 02 simulation',
-      'Advanced Algebra, Data Tables, & Probability questions',
-      'Step-by-step mathematical derivations'
-    ],
-    includedExamIds: ['ngat_mock_02']
-  },
-  {
-    id: 'NGAT_PREM',
-    name: 'NGAT Master Bundle (All NGAT Mocks)',
-    category: 'NGAT',
-    priceETB: 350,
-    originalPriceETB: 500,
-    badge: 'Best Value for NGAT',
-    popular: true,
-    description: 'Complete preparation suite for the National Graduate Admission Test unlocking all NGAT mock exams.',
-    features: [
-      'Full-length NGAT Mock 01 & Mock 02 simulations included',
-      'Quantitative & Logical Reasoning Question Bank',
-      'Verbal Reasoning with authentic reading passages',
-      'Instant grading and step-by-step mathematical explanations',
-      'Unlimited retakes & performance tracking'
-    ],
-    includedExamIds: ['ngat_mock_01', 'ngat_mock_02', 'ngat_verbal_special']
-  },
-  {
-    id: 'GAT_BASIC',
-    name: 'AAU GAT Comprehensive Pack',
-    category: 'GAT',
+    id: 'GRADE_9_ALL',
+    name: 'Grade 9 All-Inclusive Category Pass',
+    category: 'GRADE_9',
     priceETB: 300,
     originalPriceETB: 450,
-    badge: 'Most Popular for AAU',
-    description: 'Designed specifically for Addis Ababa University Graduate Admission Test format and timing standards.',
+    badge: 'Secondary Foundation',
+    description: 'Single payment unlocks ALL Grade 9 national practice exams, past papers, and chapter question banks across all subjects.',
     features: [
-      'Authentic AAU GAT simulated timed tests',
-      'High-yield Quantitative shortcuts & logic puzzles',
-      'Vocabulary & sentence equivalence practice',
-      'Detailed analytical review breakdown'
+      'Unlocks ALL Grade 9 exams & subject question banks',
+      'Mathematics, Physics, Chemistry, Biology, English & Social Sciences',
+      'Step-by-step solutions and formula breakdowns',
+      'Unlimited retakes & performance tracking'
     ],
-    includedExamIds: ['gat_mock_01', 'gat_analytical_02']
+    includedExamIds: []
   },
   {
-    id: 'EXIT_CS',
-    name: 'Exit Exam: Computer Science & IT',
-    category: 'EXIT',
-    priceETB: 400,
-    originalPriceETB: 600,
-    badge: 'Ministry of Education Blueprint',
+    id: 'GRADE_10_ALL',
+    name: 'Grade 10 National Matrix Category Pass',
+    category: 'GRADE_10',
+    priceETB: 300,
+    originalPriceETB: 450,
+    badge: 'National Examination Prep',
+    description: 'Single payment unlocks ALL Grade 10 national examination papers and merged chapter banks with full step-by-step solutions.',
+    features: [
+      'Unlocks ALL Grade 10 exams & subject question banks',
+      'Comprehensive coverage of all secondary curriculum topics',
+      'Authentic past national examination papers with explanations',
+      'Instant grading and performance analytics'
+    ],
+    includedExamIds: []
+  },
+  {
+    id: 'GRADE_11_ALL',
+    name: 'Grade 11 Preparatory Category Pass',
+    category: 'GRADE_11',
+    priceETB: 300,
+    originalPriceETB: 450,
+    badge: 'Preparatory Excellence',
+    description: 'Single payment unlocks ALL Grade 11 preparatory materials and model exams for Natural & Social Science streams.',
+    features: [
+      'Unlocks ALL Grade 11 exams & subject question banks',
+      'Rigorous Natural and Social stream problem sets',
+      'Advanced derivation and concept mastery questions',
+      'Full test simulation mode with timed assessments'
+    ],
+    includedExamIds: []
+  },
+  {
+    id: 'GRADE_12_ALL',
+    name: 'Grade 12 & EUEE Entrance Category Pass',
+    category: 'GRADE_12',
+    priceETB: 300,
+    originalPriceETB: 500,
+    badge: 'High School & University Entrance',
     popular: true,
-    description: 'Complete MoE curriculum exit exam prep covering Data Structures, OS, Networking, Databases, and Software Engineering.',
+    description: 'Single payment unlocks ALL Grade 12 past papers, preparatory models, and EUEE National University Entrance examinations.',
     features: [
-      'MoE National Exit Exam blueprint alignment (100% matched)',
-      'Algorithms, Database normalization & SQL scenarios',
-      'Operating Systems concurrency & Network architecture questions',
-      'Software engineering design patterns and SDLC review'
-    ],
-    includedExamIds: ['exit_cs_2026', 'exit_se_2026']
-  },
-  {
-    id: 'EXIT_LAW',
-    name: 'Exit Exam: Law & Jurisprudence',
-    category: 'EXIT',
-    priceETB: 400,
-    originalPriceETB: 550,
-    badge: 'MoE Law Standard',
-    description: 'Comprehensive test bank for Ethiopian Law Graduates covering Criminal, Civil, Constitutional, and Commercial Law.',
-    features: [
-      'FDRE Constitution, Federal courts & Human rights law',
-      'Ethiopian Criminal Code & Criminal Procedure questions',
-      'Civil Code (Contracts, Property, Extra-contractual liability)',
-      'Commercial Law and Corporate Governance cases'
-    ],
-    includedExamIds: ['exit_law_2026', 'exit_law_civ_2026']
-  },
-  {
-    id: 'EXIT_MED',
-    name: 'Exit Exam: Medicine & Health Sciences',
-    category: 'EXIT',
-    priceETB: 450,
-    originalPriceETB: 650,
-    badge: 'Clinical Excellence',
-    description: 'High-yield clinical vignettes for graduating medical and healthcare students adhering to MoE & Ministry of Health benchmarks.',
-    features: [
-      'Internal Medicine & Ethiopian National Treatment Guidelines',
-      'Pediatrics & IMNCI management scenarios',
-      'Public Health, Epidemiology & Preventive Medicine',
-      'Surgery, Gynecology & Emergency triage questions'
-    ],
-    includedExamIds: ['exit_med_2026']
-  },
-  {
-    id: 'EXIT_ACC',
-    name: 'Exit Exam: Accounting & Finance',
-    category: 'EXIT',
-    priceETB: 400,
-    originalPriceETB: 550,
-    description: 'Comprehensive exit exam bank on IFRS, Cost Accounting, Ethiopian Tax proclamations, and Auditing standards.',
-    features: [
-      'Ethiopian Tax Proclamation (VAT, Income Tax, Withholding)',
-      'IFRS and Financial Statement analysis',
-      'Auditing & Assurance services principles',
-      'Managerial Accounting & Budgeting'
-    ],
-    includedExamIds: ['exit_acc_2026']
-  },
-  {
-    id: 'ENTRANCE_EUEE',
-    name: 'Grade 12 EUEE Entrance Master',
-    category: 'ENTRANCE',
-    priceETB: 250,
-    originalPriceETB: 350,
-    badge: 'High School Success',
-    description: 'Official Grade 12 National University Entrance Exam prep with time management tools and topic breakdowns.',
-    features: [
-      'Natural & Social Science past exam simulation',
-      'Mathematics, Physics, English & General Aptitude',
-      'Clear explanations with step-by-step derivation'
+      'Unlocks ALL Grade 12 & EUEE University Entrance exams',
+      'Natural & Social Science national entrance past papers',
+      'Calculus, Vectors, Dynamics, Electrostatics, and English Aptitude',
+      'Timed national simulation mode with detailed explanations'
     ],
     includedExamIds: ['euee_nat_sci_2026', 'euee_eng_apt_2026']
   },
   {
-    id: 'ALL_IN_ONE',
-    name: 'All-In-One National VIP Access',
-    category: 'ALL_ACCESS',
-    priceETB: 750,
-    originalPriceETB: 1200,
-    badge: 'BEST VALUE - ALL EXAMS UNLOCKED',
+    id: 'GAT_ALL',
+    name: 'AAU GAT Comprehensive Category Pass',
+    category: 'GAT',
+    priceETB: 500,
+    originalPriceETB: 750,
+    badge: 'Addis Ababa University Standard',
     popular: true,
-    description: 'Complete unrestricted access to all current and future exam sets across NGAT, GAT, all EXIT fields, and Grade 12 Entrance.',
+    description: 'Single payment unlocks ALL Addis Ababa University Graduate Admission Test (GAT) mock exams, quantitative comparison banks, and verbal reasoning tests.',
     features: [
-      'Unlocks every single exam in all categories (NGAT, GAT, EXIT, Entrance)',
-      'Priority Admin Approval via Telebirr (within 5 minutes)',
-      'Unlimited test attempts & comprehensive answer reviews',
-      'Downloadable results summary & study recommendations',
-      'Includes upcoming 2026/2027 new exam additions'
+      'Unlocks ALL GAT exams in the category (no separate exam fees)',
+      'Authentic AAU GAT simulated timed tests',
+      'High-yield Quantitative shortcuts & logic puzzles',
+      'Full Hawassa University Quantitative & Comparison Bank included'
+    ],
+    includedExamIds: ['hawassa_gat_quant_reasoning_2024', 'gat_mock_01', 'gat_analytical_02']
+  },
+  {
+    id: 'NGAT_ALL',
+    name: 'NGAT Master All-Access Category Pass',
+    category: 'NGAT',
+    priceETB: 500,
+    originalPriceETB: 750,
+    badge: 'Best Value for NGAT',
+    popular: true,
+    description: 'Single payment unlocks ALL National Graduate Admission Test (NGAT) mock exams, advanced quantitative reasoning sets, and verbal reading sections.',
+    features: [
+      'Unlocks ALL NGAT exams in the category (no separate exam fees)',
+      'Full-length NGAT Mock 01 & Mock 02 simulations included',
+      'Quantitative & Logical Reasoning Question Bank',
+      'Verbal Reasoning with authentic reading passages',
+      'Step-by-step mathematical explanations & unlimited retakes'
+    ],
+    includedExamIds: ['ngat_mock_01', 'ngat_mock_02', 'ngat_verbal_special']
+  },
+  {
+    id: 'EXIT_ALL',
+    name: 'MoE University Exit Exam All-Fields Category Pass',
+    category: 'EXIT',
+    priceETB: 500,
+    originalPriceETB: 850,
+    badge: 'Ministry of Education Blueprint',
+    popular: true,
+    description: 'Single payment unlocks ALL Ministry of Education National Exit Exams across ALL academic departments — Computer Science, Law, Medicine, Accounting & more.',
+    features: [
+      'Unlocks ALL University Exit Exams across ALL academic fields',
+      'Computer Science & IT, Law & Jurisprudence, Medicine & Health, Accounting',
+      '100% matched with MoE national exit exam blueprints',
+      'In-depth rationales citing Ethiopian proclamations & clinical guidelines',
+      'Timed full exam simulations with instant scoring'
+    ],
+    includedExamIds: ['exit_cs_2026', 'exit_se_2026', 'exit_law_2026', 'exit_law_civ_2026', 'exit_med_2026', 'exit_acc_2026']
+  },
+  {
+    id: 'ALL_IN_ONE',
+    name: 'All-In-One National VIP Master Pass',
+    category: 'ALL_ACCESS',
+    priceETB: 1000,
+    originalPriceETB: 1800,
+    badge: 'ALL CATEGORIES UNLOCKED',
+    popular: false,
+    description: 'Complete unrestricted master pass to every single exam across all categories: Grade 9, 10, 11, 12 & Entrance, GAT, NGAT, and all MoE Exit Exams.',
+    features: [
+      'Unlocks every single exam in ALL categories without exception',
+      'Grade 9–12, Entrance, NGAT, GAT, and all University Exit fields',
+      'Priority Admin Approval via Telebirr',
+      'Includes upcoming 2026/2027 national exam additions'
     ],
     includedExamIds: [
+      'hawassa_gat_quant_reasoning_2024',
       'ngat_mock_01', 'ngat_mock_02', 'ngat_verbal_special',
       'gat_mock_01', 'gat_analytical_02',
       'exit_cs_2026', 'exit_se_2026',
@@ -169,7 +170,29 @@ export const EXAM_PACKAGES: ExamPackage[] = [
   }
 ];
 
+// Backward-compatible package aliases so legacy records resolve seamlessly
+export const LEGACY_PACKAGE_ALIASES: Record<string, string> = {
+  'NGAT_MOCK_01': 'NGAT_ALL',
+  'NGAT_MOCK_02': 'NGAT_ALL',
+  'NGAT_PREM': 'NGAT_ALL',
+  'GAT_BASIC': 'GAT_ALL',
+  'GAT_PREM': 'GAT_ALL',
+  'AAU_GAT': 'GAT_ALL',
+  'EXIT_CS': 'EXIT_ALL',
+  'EXIT_LAW': 'EXIT_ALL',
+  'EXIT_MED': 'EXIT_ALL',
+  'EXIT_ACC': 'EXIT_ALL',
+  'ENTRANCE_EUEE': 'GRADE_12_ALL',
+  'GRADE_9_PACK': 'GRADE_9_ALL',
+  'GRADE_10_PACK': 'GRADE_10_ALL',
+  'GRADE_11_PACK': 'GRADE_11_ALL',
+  'GRADE_12_PACK': 'GRADE_12_ALL'
+};
+
 export const INITIAL_EXAMS: Exam[] = [
+  // 0. Official Hawassa University GAT Quantitative Reasoning (Tutorial Bank)
+  HAWASSA_GAT_QUANT_EXAM,
+
   // 1. NGAT Mock 01 (Requires NGAT_PREM or ALL_IN_ONE package)
   {
     id: 'ngat_mock_01',
@@ -181,7 +204,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 10,
     passMarkPercent: 70,
     isFree: false,
-    packageRequired: 'NGAT_MOCK_01',
+    packageRequired: 'NGAT_ALL',
     difficulty: 'Standard National',
     tags: ['Graduate Admission', 'Quantitative', 'Verbal Logic', 'Official Mock'],
     yearOrSession: '2026 Series',
@@ -305,7 +328,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 8,
     passMarkPercent: 75,
     isFree: false,
-    packageRequired: 'NGAT_MOCK_02',
+    packageRequired: 'NGAT_ALL',
     difficulty: 'Advanced',
     tags: ['NGAT', 'Quantitative', 'Data Interpretation', 'Algebra'],
     yearOrSession: '2026 Series',
@@ -404,7 +427,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 8,
     passMarkPercent: 70,
     isFree: false,
-    packageRequired: 'GAT_BASIC',
+    packageRequired: 'GAT_ALL',
     difficulty: 'Standard National',
     tags: ['AAU GAT', 'Graduate Admission', 'Verbal Reasoning', 'Quantitative Comparison'],
     yearOrSession: '2026 AAU Format',
@@ -518,7 +541,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 10,
     passMarkPercent: 65,
     isFree: false,
-    packageRequired: 'EXIT_CS',
+    packageRequired: 'EXIT_ALL',
     difficulty: 'Advanced',
     tags: ['MoE Exit Exam', 'Computer Science', 'Software Engineering', 'Algorithms', 'Databases'],
     yearOrSession: '2026 MoE National Session',
@@ -643,7 +666,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 8,
     passMarkPercent: 65,
     isFree: false,
-    packageRequired: 'EXIT_LAW',
+    packageRequired: 'EXIT_ALL',
     difficulty: 'Advanced',
     tags: ['Law Exit Exam', 'FDRE Constitution', 'Criminal Code', 'Civil Code', 'MoE Law'],
     yearOrSession: '2026 MoE Law Blueprint',
@@ -772,7 +795,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 6,
     passMarkPercent: 70,
     isFree: false,
-    packageRequired: 'EXIT_MED',
+    packageRequired: 'EXIT_ALL',
     difficulty: 'Advanced',
     tags: ['Medical Exit Exam', 'Clinical Medicine', 'Pediatrics', 'IMNCI', 'Public Health'],
     yearOrSession: '2026 National Health Board',
@@ -871,7 +894,7 @@ export const INITIAL_EXAMS: Exam[] = [
     totalQuestions: 6,
     passMarkPercent: 60,
     isFree: false,
-    packageRequired: 'ENTRANCE_EUEE',
+    packageRequired: 'GRADE_12_ALL',
     difficulty: 'Standard National',
     tags: ['EUEE', 'Grade 12 Entrance', 'Natural Science', 'Mathematics', 'Physics'],
     yearOrSession: '2026 National Examination',
@@ -937,5 +960,8 @@ export const INITIAL_EXAMS: Exam[] = [
         topic: 'Physics - Dynamics'
       }
     ]
-  }
+  },
+
+  // Auto-Converted National & Grade-Level Exam Catalog (292 exams)
+  ...CONVERTED_EXAMS_METADATA
 ];

@@ -1,0 +1,24 @@
+[
+{
+  "question": "18) Consider the polynomial function $f(x) = ax^k + b$, where $a$ and $b$ are real numbers. Which one of the following is true about $f$?",
+  "options": [
+    "The graph of $f$ opens upward for any $b \\le 0$.",
+    "The graph of $f$ opens downward for any $a \\le 0$.",
+    "The graph of $f$ opens upward for any $b > 0$.",
+    "The graph of $f$ opens upward for any $a > 0$."
+  ],
+  "answer": 3,
+  "explanation": "The question concerns the **end behavior** (whether the graph 'opens up' or 'opens down') of a polynomial function. This is primarily determined by the **leading term**, $ax^k$, specifically the sign of the **leading coefficient**, $a$, and the degree, $k$.\\n\\n- The constant term $b$ only translates the graph vertically and **does not affect** whether it opens upward or downward (eliminates A and C).\\n- For a polynomial with an **even degree** $k$ (e.g., $k=2, 4$), the end behavior is the same on both sides (it either opens up or opens down).\\n\\n| Leading Coeff ($a$) | Degree ($k$) | End Behavior |\\n|---|---|---|\\n| $a > 0$ | Even | **Opens Upward** |\\n| $a < 0$ | Even | Opens Downward |\\n| $a > 0$ | Odd | Up on right, Down on left |\\n| $a < 0$ | Odd | Down on right, Up on left |\\n\\nOption D states: 'The graph of $f$ opens upward for any $a > 0$.' This is **true** when the degree $k$ is **even**. In the context of multiple-choice questions about general polynomial behavior, 'opens upward' implies the entire graph eventually rises, which is the definition for even-degree polynomials with a positive leading coefficient ($a > 0$). Option B is only true if $a < 0$ and $k$ is even. Since D provides the condition ($a>0$) that leads to 'opens upward' for the most common polynomial shape (parabola, where $k=2$), and the structure of the question does not specify $k$, D is the most standard correct answer."
+},
+{
+"question": "Let $f(x) = x^2 - x$ and $g(x) = x + 1$. Which one of the following statements is **true**?",
+"options": [
+"A. $(f + g)(-2) = 3$",
+"B. $(f - g)(-2) = 5$",
+"C. $(f \\cdot g)(-2) = -5$",
+"D. $(\\frac{f}{g})(-2) = -6$"
+],
+"answer": 1,
+"explanation": "First, evaluate the functions at $x = -2$:\n$$f(-2) = (-2)^2 - (-2) = 4 + 2 = 6$$\n$$g(-2) = (-2) + 1 = -1$$\n\nNow, evaluate each option:\n\n**A. $(f + g)(-2)$:**\n$$(f + g)(-2) = f(-2) + g(-2) = 6 + (-1) = 5$$ \nStatement A says $(f + g)(-2) = 3$. (False)\n\n**B. $(f - g)(-2)$:**\n$$(f - g)(-2) = f(-2) - g(-2) = 6 - (-1) = 6 + 1 = 7$$ \n**Note: There is a typo in Option B in the image, which states the result is 5, but the calculation yields 7. Assuming Option B is the intended correct answer despite the typo, let's check the other options to be certain.**\n\n**C. $(f \\cdot g)(-2)$:**\n$$(f \\cdot g)(-2) = f(-2) \\cdot g(-2) = 6 \\cdot (-1) = -6$$ \nStatement C says $(f \\cdot g)(-2) = -5$. (False)\n\n**D. $(\\frac{f}{g})(-2)$:**\n$$(\\frac{f}{g})(-2) = \\frac{f(-2)}{g(-2)} = \\frac{6}{-1} = -6$$ \nStatement D says $(\\frac{f}{g})(-2) = -6$. (True)\n\n**Conclusion:** Both **Option D** and the calculated result for Option B (which is 7, not 5) have issues. **Option D** is mathematically **TRUE** based on the function definitions. Since Option D is calculated to be TRUE, and the question asks for the TRUE statement, **Option D** is the correct answer. The options in the image are likely: A=3 (False), B=5 (False, should be 7), C=-5 (False, should be -6), D=-6 (True). \n\nWe select **Option D** as the mathematically correct statement."
+}
+]

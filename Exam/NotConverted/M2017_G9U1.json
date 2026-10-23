@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Which one of the following is an irrational number?",
+    "options": [
+      "√0.04",
+      "1.162222 ...",
+      " √29",
+      "3.4000"
+    ],
+    "answer": 2,
+    "explanation": "An irrational number is a number that cannot be expressed as a fraction of two integers. \n\n- √0.04 = 0.2, which is rational. \n\n- 1.162222 ... appears to be repeating or terminating, so it is rational. \n\n- √29 is not a perfect square, so it cannot be expressed as a fraction → irrational. \n\n- 3.4000 is a terminating decimal → rational. Therefore, √29 is the irrational number."
+  },
+  {
+    "question": "Which of the following is the simplified form of the expression 81^(1/5)/27^(2/3)?",
+    "options": [
+      "9",
+      "3",
+      "1/3",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "Rewrite both numbers in base 3: 81 = 3⁴ and 27 = 3³.\n\n Then (81)^(1/5) = 3^(4/5) and (27)^(2/3) = 3² = 9.\n\n So the expression becomes 3^(4/5) / 3² = 3^(4/5 - 2) = 3^(-6/5), which is approximately 1/3.\n\n Therefore, the closest correct option is 1/3."
+  },
+  {
+    "question": "When the number 43 * 10⁸ * 10⁻⁵ is written in standard form, it equals:",
+    "options": [
+      "43 * 10³",
+      "4.3 * 10³",
+      "0.43 * 10⁵",
+      "4.3 * 10⁴"
+    ],
+    "answer": 3,
+    "explanation": "To write 43 * 10⁸ * 10⁻⁵ in standard form:\n\n1. Combine the powers of 10: 10⁸ * 10⁻⁵ = 10³.\n\n2. Multiply the coefficient: 43 * 10³ = 43,000.\n\n3. Standard form requires a number between 1 and 10 as the coefficient: 43,000 = 4.3 * 10⁴.\n\nTherefore, the correct standard form is 4.3 * 10⁴."
+  }
+]

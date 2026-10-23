@@ -1,0 +1,47 @@
+[
+{
+  "question": "A nonconducting material that is inserted between the plates of a capacitor is known as",
+  "options": [
+    "superconductor.",
+    "dielectric.",
+    "inductor.",
+    "semiconductor."
+  ],
+  "answer": 1,
+  "explanation": "A dielectric is an insulating or nonconducting material placed between the plates of a capacitor.\n\nIt becomes polarized in an electric field and allows the capacitor to store more charge for the same potential difference."
+},
+{
+"question": "Which one of the following statements is correct about electric field lines?",
+"options": [
+"Electric field lines of a charged body cross one another.",
+"For a positively charged particle, the electric field lines point radially inward to the particle.",
+"Electric field lines are parallel to the surface of the charged body.",
+"The closer the electric field lines are, the stronger is the electric field."
+],
+"answer": 3,
+"explanation": "The density of electric field lines represents the strength of the electric field.\n\nWhere field lines are closer together, the electric field is stronger.\n\nElectric field lines do not cross, and for a positive charge they point outward rather than inward."
+},
+{
+"question": "Three resistors R₁, R₂, and R₃ are connected first in series and then in parallel with identical voltage source (vₛ). The potential differences across the resistors are measured with voltmeters and represented by v₁, v₂, ..., v₆ as shown in the figure below.\n\nWhich one of the following relations is correct about the potential differences across the resistors and the applied voltage source?",
+"options": [
+"v₄ = v₅ = v₆ = vₛ",
+"v₄ + v₅ + v₆ = vₛ",
+"v₁ + v₂ + v₃ = v₄ + v₅ + v₆",
+"v₁ = v₂ = v₃ = vₛ"
+],
+"answer": 0,
+"explanation": "In a parallel circuit, each resistor is connected directly across the same two terminals of the voltage source.\n\nTherefore, the potential difference across each resistor is equal to the source voltage.\n\nThus, v₄ = v₅ = v₆ = vₛ.",
+"image": "images/P2018_44.png"
+},
+{
+"question": "Two equal point charges of +3.6 x 10⁻⁶ C are placed 1.0 cm apart to each other. What is the magnitude of the electrostatic force between the charges?",
+"options": [
+"11.7 N",
+"117 N",
+"1.17 N",
+"1170 N"
+],
+"answer": 3,
+"explanation": "Coulomb's law gives the electrostatic force as F = k|q₁q₂|/r².\n\nThe distance must be converted from 1.0 cm to 0.01 m.\n\nSubstituting k = 8.99 × 10⁹ N·m²/C² and q₁ = q₂ = 3.6 × 10⁻⁶ C gives F ≈ 1165 N.\n\nThis is approximately 1170 N."
+}
+]

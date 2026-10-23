@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which one of the following is the solution set of 5ˣ = 11.2 ? [Use log 5 = 0.6990 and log 1.12 = 0.0485]",
+    "options": [
+      "1.5",
+      "1.2",
+      "1.69",
+      "1.12"
+    ],
+    "answer": 0,
+    "explanation": "Take log on both sides: log5ˣ = log11.2 \n→ x*log5 = log10 + log1.12 = 1 + 0.0485 = 1.0485 \n→ x = 1.0485/0.6990 ≈ 1.5."
+  },
+  {
+    "question": "Given that log 4.8 = 0.6812, log 6.93 = 0.8406 and log 6.84 = 0.8351. Then what is the value of √48 ?",
+    "options": [
+      "6.71",
+      "6.93",
+      "6.84",
+      "6.83"
+    ],
+    "answer": 3,
+    "explanation": "Step 1: Express 48 as 48 = 4.8 × 10.\n\nStep 2: Take logarithm: log48 = log4.8 + log10 = 0.6812 + 1 = 1.6812.\n\nStep 3: Use √48 = 48^(1/2): log(√48) = 1/2 * log48 = 1/2 * 1.6812 = 0.8406.\n\nStep 4: Compare with the given log values: log6.93 = 0.8406 → √48 = 6.93"
+  },
+  {
+    "question": "Consider the equation log x + log (x - 3) = 1. Then what is its solution set?",
+    "options": [
+      "{2, -5}",
+      "{-2, 5}",
+      "{6}",
+      "{5}"
+    ],
+    "answer": 3,
+    "explanation": "Combine the logarithms: log x + log(x - 3) = log[x(x - 3)] = 1.\n\nConvert to exponential form: x(x - 3) = 10.\n\nSolve the quadratic: x² - 3x - 10 = 0 → (x - 5)(x + 2) = 0.\n\nSo x = 5 or x = -2.\n\nCheck the domain: x > 0 and x - 3 > 0 ⇒ x > 3.\n\nOnly x = 5 satisfies the domain.\n\nTherefore, the solution set is {5}."
+  },
+
+  {
+    "question": "If the number of bacteria in a certain laboratory colony grows at the rate of 5% per day and assuming that there are 1000 bacteria present initially, then what would be the approximate number of bacteria present after 3 days?",
+    "options": [
+      "1102",
+      "1158",
+      "1050",
+      "1105"
+    ],
+    "answer": 1,
+    "explanation": "A = P(1 + r)^t, where P is the initial amount, r is the growth rate, and t is the time.\n P = 1000\n r = 5% = 0.05\n t = 3 days\nA = 1000(1 + 0.05)³\nA = 1000(1.05)³\nA = 1000(1.157625)\nA = 1157.625 = 1158."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which one of the following is true?",
+    "options": [
+      "The range of arctangent function is [-π, π].",
+      "The range of arcsine function is (-∞, ∞).",
+      "The domain of arcsine function is [-1, 1].",
+      "The domain of arcsine function is [0, π]."
+    ],
+    "answer": 2,
+    "explanation": "Let's check each statement:\n- A is false. The range of arctangent (arctan) is (-π/2, π/2).\n\n- B is false. The range of arcsine (arcsin) is [-π/2, π/2].\n\n- C is true. The domain of arcsine (the allowed input values) is all numbers between -1 and 1, inclusive.\n\n- D is false. [0, π] is the range of the arccosine (arccos) function."
+  },
+  {
+    "question": "The angle of depression of the top of a flag pole from the top of a building that is 40√3 m away from the flag pole is 30 degrees. If the height of the flag pole is 10m, what is the height of the building?",
+    "options": [
+      "20√3 m",
+      "10(4√3 + 1) m",
+      "50 m",
+      "40 m"
+    ],
+    "answer": 2,
+    "explanation": "Let the height of the building be H.\n\n The horizontal distance between the building and the flagpole is 40√3 m.\n\n The height of the flagpole is 10 m.\n\n The angle of depression from the top of the building to the top of the flagpole is 30°.\n\n Using the tangent formula: tan(angle) = vertical difference / horizontal distance.\n\n So, tan 30° = (H - 10) / (40√3). \n\nSince tan 30° = 1/√3, we have (H - 10) / (40√3) = 1/√3.\n\n Multiply both sides by 40√3: H - 10 = 40.\n\n Therefore, H = 50 m."
+  }
+]

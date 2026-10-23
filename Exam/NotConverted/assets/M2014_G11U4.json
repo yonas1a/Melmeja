@@ -1,0 +1,26 @@
+[
+
+  {
+    "question": "Let p and q be propositions. Which of the following compound statement is a tautology?",
+    "options": [
+      "(p ∧ q) ↔ p",
+      "(p → q) ↔ (¬p ∨ q) ",
+      "(p∨q) ↔ p",
+      "(p → q) ↔ p "
+    ],
+    "answer": 1,
+
+    "explanation": "A tautology is a statement that is always true regardless of the truth values of its components. \n\nWe know that p → q is logically equivalent to ¬p ∨ q.\n\n Therefore, (p → q) ↔ (¬p ∨ q) is always true for all truth values of p and q, making it a tautology."
+  },
+  {
+    "question": "Which of the following is NOT true about argument and validity?",
+    "options": [
+      "An argument which is not valid is fallacy.",
+      "The validity of an argument can be checked by using a truth table.",
+      "In a valid argument, the conclusion may be true or false whenever all the premises are true.",
+      "In a valid argument if all the premises are true then the conclusion must also be true."
+    ],
+    "answer": 2,
+    "explanation": "A valid argument is one where if all the premises are true, the conclusion must also be true."
+  }
+]

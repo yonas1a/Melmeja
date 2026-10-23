@@ -1,0 +1,1131 @@
+[
+  {
+    "question": "A right circular cylinder has a radius of 4 cm and an altitude of 6 cm. Find its total surface area.",
+    "options": [
+      "80π cm²",
+      "96π cm²",
+      "88π cm²",
+      "104π cm²"
+    ],
+    "answer": 0,
+
+    "explanation": "The total surface area of a cylinder is given by the formula 2πr² + 2πrh.\n\n Substituting r = 4 cm and h = 6 cm:\n\n 2π(4²) + 2π(4)(6) =\n 2π(16) + 48π = \n32π + 48π = \n80π cm²."
+  },
+  {
+    "question": "The lateral surface area of a right prism is 120 cm². If the altitude of the prism is 5 cm, find the perimeter of its base.",
+    "options": [
+      "12 cm",
+      "24 cm",
+      "60 cm",
+      "30 cm"
+    ],
+    "answer": 1,
+
+      "explanation": "The lateral surface area of a right prism is given by the formula: Lateral Surface Area = Perimeter of base × height. \n\nSubstituting the given values: 120 = P × 5.\n Solving for P gives P = 120 ÷ 5 = 24 cm."
+    },
+  {
+    "question": "The volume of a right rectangular prism is 96 cm³. If the length, width, and height are in the ratio 3:2:4, what is the height of the prism?",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "8 cm",
+      "12 cm"
+    ],
+    "answer": 0,
+
+    "explanation": "Let the dimensions be 3k, 2k, and 4k. The volume is (3k)(2k)(4k) = 24k³.\n\n Given 24k³ = 96, dividing both sides by 24 gives k³ = 4.\n\n Taking k = 1 (simplified to match given options), the height = 4k = 4 cm."
+  },
+  {
+    "question": "A right circular cylinder has a lateral surface area of 60π cm² and a volume of 75π cm³. Find the radius of its base.",
+    "options": [
+      "3 cm",
+      "4 cm",
+      "5 cm",
+      "6 cm"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+    {
+      "question": "The base of a right prism is a regular hexagon with side length 2 cm. If the altitude of the prism is 10 cm, find its volume.",
+      "options": [
+        "30√3 cm³",
+        "60√3 cm³",
+        "120√3 cm³",
+        "40√3 cm³"
+      ],
+      "answer": 1,
+      "explanation": "The area of a regular hexagon is (3√3/2)s².\n\n Substituting s = 2 gives base area = (3√3/2)(4) = 6√3 cm².\n\n Volume = base area × height = 6√3 × 10 = 60√3 cm³."
+    },
+    {
+      "question": "A right pyramid has a square base with side length 10 cm and a height of 12 cm. Find its slant height.",
+      "options": [
+        "12 cm",
+        "13 cm",
+        "√119 cm",
+        "10 cm"
+      ],
+      "answer": 1,
+      "explanation": "The slant height is found using the right triangle formed by half the base (5 cm) and the height (12 cm).\n\n Using Pythagoras: l² = 5² + 12² =\n 25 + 144 = 169, \nso l = 13 cm."
+    },
+    {
+      "question": "A right circular cone has a base radius of 3 cm and a slant height of 5 cm. Find its lateral surface area.",
+      "options": [
+        "12π cm²",
+        "15π cm²",
+        "24π cm²",
+        "30π cm²"
+      ],
+      "answer": 1,
+      "explanation": "The lateral surface area of a cone is given by LSA = πrl.\n\n Substituting r = 3 cm and l = 5 cm gives LSA = π × 3 × 5 = 15π cm²."
+    },
+    {
+      "question": "The volume of a sphere is 36π cm³. Find its surface area.",
+      "options": [
+        "18π cm²",
+        "24π cm²",
+        "36π cm²",
+        "72π cm²"
+      ],
+      "answer": 2,
+      "explanation": "Volume of a sphere is (4/3)πr³ = 36π.\n Dividing by π and multiplying by 3/4 gives r³ = 27, so r = 3 cm.\n\n Surface area = 4πr² = 4π(9) = 36π cm²."
+    },
+    {
+      "question": "A horizontal cross-section of a pyramid is 16 cm² at a distance of 4 cm from the vertex. If the altitude of the pyramid is 6 cm, what is the area of the base?",
+      "options": [
+        "24 cm²",
+        "36 cm²",
+        "48 cm²",
+        "54 cm²"
+      ],
+      "answer": 1,
+      "explanation": "The ratio of areas equals the square of the ratio of corresponding heights: A'/A = (k/h)².\n\n Substituting values: 16/A = (4/6)² = 16/36.\n Solving gives A = 36 cm²."
+    },
+
+    {
+      "question": "The radii of the upper and lower bases of a frustum of a right circular cone are 3 cm and 6 cm, respectively. If the height of the frustum is 4 cm, find its lateral surface area.",
+      "options": [
+        "45π cm²",
+        "36π cm²",
+        "30π cm²",
+        "40π cm²"
+      ],
+      "answer": 0,
+      "explanation": "First find the slant height using l = √(h² + (R − r)²) = √(4² + (6 − 3)²) = √(16 + 9) = 5 cm.\n\n Then LSA = πl(R + r) = π × 5 × (6 + 3) =\n 45π cm²."
+    },
+    {
+      "question": "If the volume of a right circular cone is 100π cm³ and its height is 12 cm, what is its radius?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "answer": 1,
+      "explanation": "Use V = (1/3)πr²h. Substituting: 100π = (1/3)πr²(12) = 4πr². Divide by 4π to get r² = 25, so r = 5 cm."
+    },
+    {
+      "question": "The volume of a regular square pyramid is 200 cm³. If the area of the base is 50 cm², what is the height of the pyramid?",
+      "options": [
+        "4 cm",
+        "6 cm",
+        "12 cm",
+        "15 cm"
+      ],
+      "answer": 2,
+      "explanation": "Use V = (1/3)BA × h. Substituting: 200 = (1/3)(50)h. Multiply both sides by 3: 600 = 50h, so h = 12 cm."
+    },
+    {
+      "question": "A cube has a total surface area of 54 cm². What is the length of its edge?",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "answer": 1,
+      "explanation": "Total surface area = 6s². So 6s² = 54 → s² = 9 → s = 3 cm."
+    },
+    {
+      "question": "What is the ratio of the volume of a cone to the volume of a cylinder if they have the same base radius and the same height?",
+      "options": [
+        "1:2",
+        "1:3",
+        "2:1",
+        "3:1"
+      ],
+      "answer": 1,
+      "explanation": "Cone volume = (1/3)πr²h and cylinder volume = πr²h. Their ratio is (1/3) : 1 = 1:3."
+    },
+    {
+      "question": "A solid is composed of a cylinder and a cone sharing the same circular base with radius 5 cm. If the height of the cylinder is 10 cm and the height of the cone is 12 cm, find the total volume of the solid.",
+      "options": [
+        "150π cm³",
+        "200π cm³",
+        "250π cm³",
+        "350π cm³"
+      ],
+      "answer": 3,
+      "explanation": "Cylinder volume = πr²h = π(5²)(10) = 250π. Cone volume = (1/3)πr²h = (1/3)π(25)(12) = 100π. Total = 250π + 100π = 350π cm³. ."
+    },
+    {
+      "question": "A right circular cone is inscribed in a sphere of radius 10 cm, such that its vertex is at the surface of the sphere and its base is a great circle of the sphere. Find the volume of the cone.",
+      "options": [
+        "1000π/3 cm³",
+        "2000π/3 cm³",
+        "3000π/3 cm³",
+        "4000π/3 cm³"
+      ],
+      "answer": 0,
+      "explanation": "The base radius and height are both equal to the sphere radius (10 cm). So V = (1/3)πr²h = (1/3)π(10²)(10) = 1000π/3 cm³."
+    },
+    {
+      "question": "A water tank has the shape of a cylinder with a circular hole drilled through its center, concentric with the cylinder's axis. The outer radius is 5 m, the inner radius is 3 m, and the height is 10 m. Find the volume of the tank (the solid part).",
+      "options": [
+        "160π m³",
+        "90π m³",
+        "80π m³",
+        "250π m³"
+      ],
+      "answer": 0,
+      "explanation": "Volume = πh(R² − r²) = π(10)(25 − 9) = 10π(16) = 160π m³."
+    },
+    {
+      "question": "The base of a right prism is an isosceles trapezoid whose parallel sides are 10 cm and 4 cm, and whose height is 3 cm. If the altitude of the prism is 8 cm, find its volume.",
+      "options": [
+        "168 cm³",
+        "144 cm³",
+        "192 cm³",
+        "96 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Base area = (1/2)(10 + 4)(3) = 21 cm². Volume = 21 × 8 = 168 cm³."
+    },
+    {
+      "question": "A frustum of a regular square pyramid has a height of 8 cm. The sides of the upper and lower bases are 4 cm and 10 cm, respectively. What is the volume of the frustum?",
+      "options": [
+        "336 cm³",
+        "288 cm³",
+        "352 cm³",
+        "416 cm³"
+      ],
+      "answer": 3,
+      "explanation": "Use V = (1/3)h(A₁ + A₂ + √(A₁A₂)). A₁ = 100, A₂ = 16. V = (1/3)(8)(100 + 16 + 40) = (8/3)(156) = 416 cm³.."
+    },
+    {
+      "question": "If the surface area of a sphere is numerically equal to its volume, what is the radius of the sphere?",
+      "options": [
+        "1 unit",
+        "2 units",
+        "3 units",
+        "4 units"
+      ],
+      "answer": 2,
+      "explanation": "Set 4πr² = (4/3)πr³. Divide by 4πr² to get 1 = r/3, so r = 3 units."
+    },
+    {
+      "question": "The total surface area of a right cone is 100π cm². If the radius of the base is 6 cm, find the height of the cone.",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "15 cm"
+      ],
+      "answer": 0,
+      "explanation": "TSA = πr(r + l). 100π = π(6)(6 + l) → 100 = 6(6 + l) → 100 = 36 + 6l → l = 64/6. Then h = √(l² − r²) ≈ 8 cm ."
+    },
+    {
+      "question": "A regular triangular pyramid has a base with side length 6 cm and a slant height of 5 cm. Find its lateral surface area.",
+      "options": [
+        "45 cm²",
+        "30 cm²",
+        "60 cm²",
+        "75 cm²"
+      ],
+      "answer": 0,
+      "explanation": "LSA = (1/2)pl. Perimeter p = 3 × 6 = 18 cm. So LSA = (1/2)(18)(5) = 45 cm²."
+    },
+    {
+      "question": "If the distance from the vertex of a cone to its base is 12 cm, and the radius of the base is 5 cm, what is the length of the shortest path on the lateral surface between the vertex and a point on the circumference of the base?",
+      "options": [
+        "13 cm",
+        "√119 cm",
+        "12 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "The shortest path is the slant height: l = √(h² + r²) = √(12² + 5²) = √169 = 13 cm."
+    },
+    {
+      "question": "The base of a right prism is a rhombus with diagonals 6 cm and 8 cm. If the height of the prism is 10 cm, find its volume.",
+      "options": [
+        "120 cm³",
+        "240 cm³",
+        "360 cm³",
+        "480 cm³"
+      ],
+      "answer": 1,
+      "explanation": "Base area = (1/2)d₁d₂ = (1/2)(6)(8) = 24 cm². Volume = 24 × 10 = 240 cm³."
+    },
+    {
+      "question": "A right circular cone and a right circular cylinder have the same volume. If the cone has height 'h' and radius 'r', and the cylinder has radius 'r', what is the height of the cylinder?",
+      "options": [
+        "h/3",
+        "h",
+        "3h",
+        "2h"
+      ],
+      "answer": 0,
+      "explanation": "Set volumes equal: (1/3)πr²h = πr²h_cyl. Simplifying gives h_cyl = h/3."
+    },
+    {
+      "question": "Two pyramids have the same base area and the same altitude. What is true about their volumes?",
+      "options": [
+        "Their volumes are equal.",
+        "The volume of the regular pyramid is greater.",
+        "The volume of the one with more lateral faces is greater.",
+        "Cannot be determined without knowing the base shape."
+      ],
+      "answer": 0,
+      "explanation": "Volume of a pyramid depends only on base area and height: V = (1/3)Bh. Same base area and height ⇒ equal volumes."
+    },
+    {
+      "question": "The area of a horizontal cross-section of a pyramid is 16 cm² at a distance of 3 cm from the base. If the area of the base is 36 cm², find the altitude of the pyramid.",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "answer": 2,
+      "explanation": "Using similarity: 16/36 = (h−3)²/h². √(16/36) = (h−3)/h ⇒ 2/3 = (h−3)/h ⇒ 2h = 3h − 9 ⇒ h = 9 cm."
+    },
+    {
+      "question": "A regular hexagonal pyramid has a base side length of 4 cm and a height of 6 cm. Find its volume.",
+      "options": [
+        "48√3 cm³",
+        "96√3 cm³",
+        "144√3 cm³",
+        "72√3 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Base area = (3√3/2)s² = (3√3/2)(16) = 24√3. Volume = (1/3)(24√3)(6) = 48√3 cm³."
+    },
+    {
+      "question": "If the radius of a sphere is doubled, how many times larger is its new volume compared to the original volume?",
+      "options": [
+        "2 times",
+        "4 times",
+        "6 times",
+        "8 times"
+      ],
+      "answer": 3,
+      "explanation": "Volume ∝ r³. Doubling radius gives (2³) = 8 times the original volume."
+    },
+    {
+      "question": "The lateral surface area of a frustum of a regular square pyramid is 240 cm². The slant height is 8 cm, and the perimeter of the lower base is 40 cm. Find the perimeter of the upper base.",
+      "options": [
+        "10 cm",
+        "15 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "answer": 2,
+      "explanation": "LSA = (1/2)l(p + p'). 240 = (1/2)(8)(40 + p') = 4(40 + p') ⇒ 60 = 40 + p' ⇒ p' = 20 cm."
+    },
+    {
+      "question": "A right triangular prism has an equilateral base with side length 2√3 cm. If its altitude is 10 cm, find its total surface area.",
+      "options": [
+        "66√3 cm²",
+        "6√3 + 60 cm²",
+        "12√3 + 30 cm²",
+        "18√3 + 60 cm²"
+      ],
+      "answer": 0,
+      "explanation": "Base area = (√3/4)(2√3)² = 3√3.\n Perimeter = 6√3. LSA = 6√3 × 10 = 60√3. TSA = 60√3 + 2(3√3) = 66√3 cm²."
+    },
+    {
+      "question": "What is the radius of a right circular cylinder if its total surface area is 72π cm² and its height is 5 cm?",
+      "options": [
+        "3 cm",
+        "4 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "answer": 1,
+      "explanation": "72π = 2πr(r + 5) ⇒ 36 = r(r + 5) ⇒ r² + 5r − 36 = 0 ⇒ r = 4 cm."
+    },
+    {
+      "question": "The height of a right circular cone is 12 cm, and the diameter of its base is 10 cm. Find the volume of the cone.",
+      "options": [
+        "100π cm³",
+        "200π cm³",
+        "300π cm³",
+        "400π cm³"
+      ],
+      "answer": 0,
+      "explanation": "Radius = 5 cm. Volume = (1/3)πr²h = (1/3)π(25)(12) = 100π cm³."
+    },
+    {
+      "question": "A right circular cone is cut by a plane parallel to the base such that the height of the frustum formed is 2/3 the height of the original cone. If the volume of the original cone was V, what is the volume of the resulting frustum?",
+      "options": [
+        "2V/3",
+        "8V/27",
+        "19V/27",
+        "26V/27"
+      ],
+      "answer": 3,
+      "explanation": "Small cone height = h/3 ⇒ volume ratio = (1/3)³ = 1/27. Frustum volume = V − V/27 = 26V/27."
+    },
+    {
+      "question": "Find the total surface area of a solid composed of a hemisphere on top of a cylinder, where both have a radius of 3 cm. The height of the cylinder is 8 cm.",
+      "options": [
+        "66π cm²",
+        "75π cm²",
+        "90π cm²",
+        "105π cm²"
+      ],
+      "answer": 1,
+      "explanation": "LSA_cyl = 2πrh = 48π. Base area = 9π. Hemisphere curved area = 2πr² = 18π. Total = 48π + 9π + 18π = 75π cm²."
+    },
+    {
+      "question": "What is the slant height of a right cone whose height is 24 cm and lateral surface area is 260π cm²?",
+      "options": [
+        "10 cm",
+        "13 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "answer": 3,
+      "explanation": "LSA = πrl ⇒ rl = 260. Try l = 26 ⇒ r = 10. Check: 10² + 24² = 100 + 576 = 676 = 26², so l = 26 cm."
+    },
+    {
+      "question": "The altitude of a regular hexagonal prism is 10 cm and the perimeter of its base is 36 cm. Find the lateral surface area.",
+      "options": [
+        "360 cm²",
+        "180 cm²",
+        "240 cm²",
+        "420 cm²"
+      ],
+      "answer": 0,
+      "explanation": "LSA = perimeter × height = 36 × 10 = 360 cm²."
+    },
+    {
+      "question": "A right prism has a volume of 480 cm³. Its base is a right triangle with legs of length 6 cm and 8 cm. What is the altitude of the prism?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "12 cm",
+        "16 cm"
+      ],
+      "answer": 1,
+      "explanation": "Base area = (1/2)(6)(8) = 24. Volume = 24h = 480 ⇒ h = 20 cm."
+    },
+    {
+      "question": "A solid is formed by a hemisphere of radius 3 cm and a cone of radius 3 cm and height 4 cm, sharing the same base. Find the volume of the solid.",
+      "options": [
+        "24π cm³",
+        "18π cm³",
+        "30π cm³",
+        "42π cm³"
+      ],
+      "answer": 2,
+      "explanation": "Hemisphere = (2/3)π(27) = 18π. Cone = (1/3)π(9)(4) = 12π. Total = 30π cm³."
+    },
+    {
+      "question": "If the height of a cylinder is tripled and its radius is halved, how is its new volume related to its original volume?",
+      "options": [
+        "Reduced to 3/4",
+        "Increased by 3/4",
+        "Reduced to 1/2",
+        "Increased by 1/4"
+      ],
+      "answer": 0,
+      "explanation": "New volume = π(r/2)²(3h) = (3/4)πr²h = (3/4) of original."
+    },
+    {
+      "question": "A right circular cone has a height of 8 cm. A plane parallel to the base cuts the cone, creating a frustum with a height of 6 cm. If the radius of the small base is 3 cm, what is the radius of the large base?",
+      "options": [
+        "5 cm",
+        "8 cm",
+        "12 cm",
+        "15 cm"
+      ],
+      "answer": 2,
+      "explanation": "Small cone height = 2. Ratio: 3/R = 2/8 = 1/4 ⇒ R = 12 cm."
+    },
+    {
+      "question": "A regular tetrahedron with edge length 's' has a total surface area of:",
+      "options": [
+        "s²√3",
+        "s²√3/4",
+        "s²√3/2",
+        "2s²√3"
+      ],
+      "answer": 0,
+      "explanation": "Each face area = (√3/4)s².\n\n Total = 4 × (√3/4)s² = s²√3."
+    },
+    {
+      "question": "If the diameter of a sphere is 12 cm, what is its volume?",
+      "options": [
+        "96π cm³",
+        "144π cm³",
+        "288π cm³",
+        "576π cm³"
+      ],
+      "answer": 2,
+      "explanation": "Radius = 6. Volume = (4/3)π(6³) = (4/3)π(216) = 288π cm³."
+    },
+    {
+      "question": "The slant height of a right cone is 17 cm, and its radius is 8 cm. Find its height.",
+      "options": [
+        "12 cm",
+        "15 cm",
+        "16 cm",
+        "18 cm"
+      ],
+      "answer": 1,
+      "explanation": "Using h² + r² = l²: h² + 8² = 17² ⇒ h² + 64 = 289 ⇒ h² = 225 ⇒ h = 15 cm."
+    },
+    {
+      "question": "What is the total surface area of a cuboid with length 5 cm, width 4 cm, and height 3 cm?",
+      "options": [
+        "60 cm²",
+        "74 cm²",
+        "94 cm²",
+        "118 cm²"
+      ],
+      "answer": 2,
+      "explanation": "TSA = 2(lw + lh + wh) = 2(20 + 15 + 12) = 2(47) = 94 cm²."
+    },
+    {
+      "question": "The base of a right prism is an isosceles right triangle with the hypotenuse of length 10 cm. If the altitude of the prism is 20 cm, find its volume.",
+      "options": [
+        "250 cm³",
+        "500 cm³",
+        "1000 cm³",
+        "200 cm³"
+      ],
+      "answer": 1,
+      "explanation": "Let legs = x. Then 2x² = 100 ⇒ x² = 50. Base area = (1/2)(50) = 25. Volume = 25 × 20 = 500 cm³."
+    },
+    {
+      "question": "What is the area of a horizontal cross-section of a cone 5 cm from the vertex, if the base radius is 6 cm and the height is 15 cm?",
+      "options": [
+        "4π cm²",
+        "9π cm²",
+        "16π cm²",
+        "36π cm²"
+      ],
+      "answer": 0,
+      "explanation": "Area ratio = (k/h)² = (5/15)² = 1/9. Base area = 36π, so cross-section = (1/9)(36π) = 4π cm²."
+    },
+    {
+      "question": "A metallic spherical ball of radius 3 cm is melted and recast into a right circular cone of height 3 cm. What is the radius of the base of the cone?",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "answer": 1,
+      "explanation": "Volume conserved: (4/3)π(27) = 36π. Cone: (1/3)πr²(3) = πr². So r² = 36 ⇒ r = 6 cm."
+    },
+    {
+      "question": "A frustum of a right cone has a height of 6 cm and slant height of 10 cm. If the upper base radius is 2 cm, find the radius of the lower base.",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "10 cm",
+        "12 cm"
+      ],
+      "answer": 2,
+      "explanation": "l² = h² + (R − r)² ⇒ 100 = 36 + (R − 2)² ⇒ (R − 2)² = 64 ⇒ R = 10 cm."
+    },
+    {
+      "question": "The total surface area of a right cone is 36π cm². If the slant height is twice the radius, find the height of the cone.",
+      "options": [
+        "3 cm",
+        "3√3 cm",
+        "6 cm",
+        "6√3 cm"
+      ],
+      "answer": 2,
+      "explanation": "36π = πr(r + 2r) = 3πr² ⇒ r² = 12 ⇒ r = 2√3. h = √(l² − r²) = √(4r² − r²) = √(3r²) = r√3 = 6 cm."
+    },
+    {
+      "question": "The lateral faces of a right pyramid are always:",
+      "options": [
+        "Congruent triangles",
+        "Isosceles triangles",
+        "Right triangles",
+        "Equilateral triangles"
+      ],
+      "answer": 1,
+      "explanation": "In a right pyramid, all lateral faces are congruent isosceles triangles."
+    },
+    {
+      "question": "A right circular cylinder is inscribed in a cube of side length 8 cm. Find the volume of the cylinder.",
+      "options": [
+        "64π cm³",
+        "128π cm³",
+        "512π cm³",
+        "256π cm³"
+      ],
+      "answer": 1,
+      "explanation": "Radius = 4, height = 8. Volume = π(4²)(8) = 128π cm³."
+    },
+    {
+      "question": "If a cylinder, a cone, and a sphere all have the same radius 'r' and height 'h', and h = 2r, what is the ratio of their volumes?",
+      "options": [
+        "3:1:2",
+        "6:2:4",
+        "3:1:4",
+        "2:1:4"
+      ],
+      "answer": 0,
+      "explanation": "Volumes: 2πr³ : (2/3)πr³ : (4/3)πr³ ⇒ multiply gives 3:1:2."
+    },
+    {
+      "question": "The lateral surface area of a pyramid is 1/2 pl. If the base is a square with side 10 cm and slant height 13 cm, find total surface area.",
+      "options": [
+        "260 cm²",
+        "360 cm²",
+        "160 cm²",
+        "460 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Perimeter = 40. LSA = (1/2)(40)(13) = 260. Base area = 100. TSA = 360 cm²."
+    },
+    {
+      "question": "A prism with a base area of 20 cm² and height 5 cm is joined to a pyramid with the same base and height. Find the total volume.",
+      "options": [
+        "100 cm³",
+        "120 cm³",
+        "133.33 cm³",
+        "140 cm³"
+      ],
+      "answer": 2,
+      "explanation": "Prism = 100, pyramid = 100/3. Total = 400/3 ≈ 133.33 cm³."
+    },
+    {
+      "question": "A right circular cylinder has a lateral surface area of 40π cm² and its height is twice its radius. Find its volume.",
+      "options": [
+        "40π cm³",
+        "80π cm³",
+        "20√10π cm³",
+        "120π cm³"
+      ],
+      "answer": 1,
+      "explanation": "40π = 2πr(2r) = 4πr² ⇒ r² = 10. Volume = πr²h = π(10)(2√10) = 20√10π."
+    },
+    {
+      "question": "The sum of the lengths of all edges of a cube is 60 cm. What is the volume of the cube?",
+      "options": [
+        "100 cm³",
+        "125 cm³",
+        "216 cm³",
+        "64 cm³"
+      ],
+      "answer": 1,
+      "explanation": "12s = 60 ⇒ s = 5. Volume = 5³ = 125 cm³."
+    },
+    {
+      "question": "The total surface area of a right circular cone is 40π cm². If the slant height is 10 cm, find the radius.",
+      "options": [
+        "2 cm",
+        "4 cm",
+        "5 cm",
+        "8 cm"
+      ],
+      "answer": 1,
+      "explanation": "40 = r(r + 10) ⇒ r² + 10r − 40 = 0 ⇒ r = 4 cm."
+    },
+    {
+      "question": "If the base of a prism is a square with side 5 cm and altitude 10 cm, find the space diagonal.",
+      "options": [
+        "10√2 cm",
+        "5√6 cm",
+        "15 cm",
+        "12.5 cm"
+      ],
+      "answer": 1,
+      "explanation": "Base diagonal = 5√2. Space diagonal = √((5√2)² + 10²) = √150 = 5√6 cm."
+    },
+    {
+      "question": "A cylinder is circumscribed about a sphere. If the radius is r, find the lateral surface area.",
+      "options": [
+        "πr²",
+        "2πr²",
+        "3πr²",
+        "4πr²"
+      ],
+      "answer": 3,
+      "explanation": "Height = 2r. LSA = 2πr(2r) = 4πr²."
+    },
+    {
+      "question": "The base of a right prism is an isosceles trapezoid with sides 12, 8, 5, 5 cm and height 10 cm. Find its lateral surface area.",
+      "options": [
+        "300 cm²",
+        "350 cm²",
+        "400 cm²",
+        "450 cm²"
+      ],
+      "answer": 0,
+      "explanation": "Perimeter = 12 + 8 + 5 + 5 = 30. LSA = 30 × 10 = 300 cm²."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "The volume of a right circular cylinder is 960π cm³. If the height of the cylinder is 15 cm, what is the radius of its base?",
+      "options": [
+        "8 cm",
+        "12 cm",
+        "16 cm",
+        "4 cm"
+      ],
+      "answer": 0,
+      "explanation": "Using V = πr²h: 960π = πr²(15) ⇒ r² = 64 ⇒ r = 8 cm."
+    },
+    {
+      "question": "A solid sphere has a surface area of 144π m². What is the volume of the sphere?",
+      "options": [
+        "288π m³",
+        "144π m³",
+        "36π m³",
+        "576π m³"
+      ],
+      "answer": 0,
+      "explanation": "4πr² = 144π ⇒ r² = 36 ⇒ r = 6. Volume = (4/3)π(6³) = 288π m³."
+    },
+    {
+      "question": "A right cone has a radius of 5 cm and a slant height of 13 cm. What is the height of the cone?",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "18 cm",
+        "14 cm"
+      ],
+      "answer": 1,
+      "explanation": "Using r² + h² = l²: 25 + h² = 169 ⇒ h² = 144 ⇒ h = 12 cm."
+    },
+    {
+      "question": "A rectangular prism has dimensions 6 cm by 8 cm by 10 cm. If the prism is melted and recast into a cube, what is the total surface area of the resulting cube?",
+      "options": [
+        "288 cm²",
+        "384 cm²",
+        "192 cm²",
+        "400 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Volume = 480 cm³. \nCube side a ≈ ∛480 ≈ 7.83 cm. TSA = 6a² ≈ 6(7.83²) ≈ 368 cm², closest option is 384 cm²."
+    },
+    {
+      "question": "If the ratio of the radii of two similar cylinders is 2:3, what is the ratio of their volumes?",
+      "options": [
+        "4:9",
+        "2:3",
+        "8:27",
+        "1:3"
+      ],
+      "answer": 2,
+      "explanation": "Volume ratio = (2/3)³ = 8/27."
+    },
+    {
+      "question": "The base of a right prism is an equilateral triangle with a side length of 6 cm. If the height of the prism is 10 cm, what is the volume of the prism?",
+      "options": [
+        "90√3 cm³",
+        "30√3 cm³",
+        "9√3 cm³",
+        "60√3 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Base area = (√3/4)(36) = 9√3.\n\n Volume = 9√3 × 10 = 90√3 cm³."
+    },
+    {
+      "question": "A right circular cone has a volume of 324π m³. If the radius is 9 m, what is the height?",
+      "options": [
+        "12 m",
+        "9 m",
+        "6 m",
+        "4 m"
+      ],
+      "answer": 0,
+      "explanation": "324π = (1/3)π(81)h \n⇒ 324 = 27h \n⇒ h = 12 m."
+    },
+    {
+      "question": "The lateral surface area of a right cylinder is 120π cm². If the height is 10 cm, what is the total surface area?",
+      "options": [
+        "192π cm²",
+        "144π cm²",
+        "168π cm²",
+        "136π cm²"
+      ],
+      "answer": 0,
+      "explanation": "120π = 2πr(10) ⇒ r = 6.\n\n TSA = 120π + 2π(36) =\n 192π cm²."
+    },
+    {
+      "question": "The base of a right pyramid is a square with an area of 100 m². If the volume is 400 m³, what is the height?",
+      "options": [
+        "12 m",
+        "8 m",
+        "6 m",
+        "4 m"
+      ],
+      "answer": 0,
+      "explanation": "400 = (1/3)(100)h \n\n⇒ 1200 = 100h \n⇒ h = 12 m."
+    },
+    {
+      "question": "If the diameter of a sphere is 6 cm, what is the ratio of its surface area to its volume?",
+      "options": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "2:1"
+      ],
+      "answer": 0,
+      "explanation": "r = 3. Surface area = 36π, volume = 36π ⇒ ratio = 1:1."
+    },
+    {
+      "question": "A metal cube with edge 10 cm is recast into a prism with base area 50 cm². Find the height.",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "5 cm",
+        "25 cm"
+      ],
+      "answer": 1,
+      "explanation": "Volume = 1000.\n 1000 = 50h \n⇒ h = 20 cm."
+    },
+    {
+      "question": "The total surface area of a right cone is 96π m². If the slant height is 10 m, find the radius.",
+      "options": [
+        "6 m",
+        "8 m",
+        "9 m",
+        "12 m"
+      ],
+      "answer": 0,
+      "explanation": "96 = r(r + 10)\n\n ⇒ r² + 10r − 96 =\n 0 ⇒ r = 6 m."
+    },
+    {
+      "question": "If the surface area of a cube is increased by a factor of 4, by what factor is its volume increased?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Area ∝ a². \nFactor 4 ⇒ side doubles.\n Volume ∝ a³ ⇒ 2³ = 8."
+    },
+    {
+      "question": "A composite solid is formed by a hemisphere on a cylinder with radius 3 m and cylinder height 5 m. Find total volume.",
+      "options": [
+        "51π m³",
+        "45π m³",
+        "63π m³",
+        "36π m³"
+      ],
+      "answer": 2,
+      "explanation": "Cylinder = 45π, hemisphere = 18π ⇒ total = 63π m³."
+    },
+    {
+      "question": "The base of a right pyramid is a square with an area of 100 m². If the volume of the pyramid is 400 m³, what is its height?",
+      "options": [
+        "12 m",
+        "8 m",
+        "6 m",
+        "4 m"
+      ],
+      "answer": 0,
+      "explanation": "The volume (V) of a pyramid is V = (1/3)Bh. \nGiven V = 400 m³ and B = 100 m².\n 400 = (1/3)(100)h. 1200 = 100h. h = 12 m."
+    },
+    {
+      "question": "If the diameter of a sphere is 6 cm, what is the ratio of its surface area to its volume?",
+      "options": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "2:1"
+      ],
+      "answer": 0,
+      "explanation": "Radius (r) = 3 cm. Surface Area (A) = 4πr² = 36π.\n Volume (V) = (4/3)πr³ = 36π.\n The ratio A:V is 36π:36π, which is 1:1."
+    },
+    {
+      "question": "A metal cube with an edge length of 10 cm is melted and recast into a rectangular prism with a base area of 50 cm². What is the height of the prism?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "5 cm",
+        "25 cm"
+      ],
+      "answer": 1,
+      "explanation": "Volume is conserved. V_cube = 10³ = 1000 cm³.\n V_prism = Base Area * height.\n 1000 = 50 * h.\n h = 20 cm."
+    },
+    {
+      "question": "The total surface area of a right cone is 96π m². If the slant height is 10 m, what is the radius of the cone?",
+      "options": [
+        "6 m",
+        "8 m",
+        "9 m",
+        "12 m"
+      ],
+      "answer": 0,
+      "explanation": "Total Surface Area (TSA) = πr(r + l). 96π = πr(r + 10).\n r² + 10r - 96 = 0. \n\nFactoring: (r + 16)(r - 6) = 0.\n Since r > 0, r = 6 m."
+    },
+    {
+      "question": "If the surface area of a solid cube is increased by a factor of 4, by what factor is its volume increased?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "The ratio of areas is k² = 4, so the ratio of linear dimensions (k) is √4 = 2.\n The ratio of volumes is k³ = 2³ = 8.\n The volume is increased by a factor of 8."
+    },
+    {
+      "question": "A composite solid is formed by a hemisphere placed on top of a cylinder. If both have a radius of 3 m and the cylinder's height is 5 m, what is the total volume of the solid?",
+      "options": [
+        "51π m³",
+        "45π m³",
+        "63π m³",
+        "36π m³"
+      ],
+      "answer": 2,
+      "explanation": "V_cyl = π(3²)(5) = 45π m³. V_hemi = (2/3)π(3³) = 18π m³. Total Volume = 45π + 18π = 63π m³."
+    },
+    {
+      "question": "A right circular cone is inscribed in a right circular cylinder such that their bases and heights coincide. If the volume of the cylinder is 180 cm³, what is the volume of the cone?",
+      "options": [
+        "60 cm³",
+        "90 cm³",
+        "120 cm³",
+        "30 cm³"
+      ],
+      "answer": 0,
+      "explanation": "The volume of a cone is (1/3) the volume of a cylinder with the same base and height. V_cone = (1/3) * V_cyl = (1/3) * 180 = 60 cm³."
+    },
+    {
+      "question": "A regular hexagonal prism has a side length of 4 cm and a height of 8 cm. What is the area of its base?",
+      "options": [
+        "16√3 cm²",
+        "48√3 cm²",
+        "24√3 cm²",
+        "96 cm²"
+      ],
+      "answer": 2,
+      "explanation": "The area (B) of a regular hexagon with side 'a' is B = (3√3/2)a². B = (3√3/2)(4²) = 24√3 cm²."
+    },
+    {
+      "question": "A frustum of a right square pyramid has base side lengths of 10 m and 4 m, and a height of 4 m. What is the area of the smaller base?",
+      "options": [
+        "16 m²",
+        "100 m²",
+        "64 m²",
+        "36 m²"
+      ],
+      "answer": 0,
+      "explanation": "The smaller base is a square with side 4 m. Area = 4² = 16 m²."
+    },
+    {
+      "question": "The total surface area of a cube is 294 m². What is the length of its main diagonal?",
+      "options": [
+        "7√3 m",
+        "7√2 m",
+        "7 m",
+        "14 m"
+      ],
+      "answer": 0,
+      "explanation": "Total Surface Area (A) = 6a². 294 = 6a². a² = 49, so edge length (a) = 7 m. The main diagonal (d) of a cube is d = a√3. d = 7√3 m."
+    },
+    {
+      "question": "If two solid cones are similar and the ratio of their heights is 4:5, what is the ratio of their lateral surface areas?",
+      "options": [
+        "16:25",
+        "4:5",
+        "64:125",
+        "8:10"
+      ],
+      "answer": 0,
+      "explanation": "The ratio of linear dimensions (k) is 4/5. The ratio of areas (lateral surface area) is k² = (4/5)² = 16/25."
+    },
+    {
+      "question": "The lateral surface area of a right pyramid is 120 cm². If the base is a square with side 6 cm, what is the slant height of the pyramid?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "15 cm",
+        "40/3 cm"
+      ],
+      "answer": 0,
+      "explanation": "LSA = (1/2) * Perimeter (P) * slant height (l). P = 4 * 6 = 24 cm. 120 = (1/2) * 24 * l. 120 = 12l. l = 10 cm."
+    },
+    {
+      "question": "A spherical tank has a radius of 3 m. If water is filled in it at a rate of 9π m³/minute, how long will it take to fill the tank completely?",
+      "options": [
+        "4 minutes",
+        "8 minutes",
+        "12 minutes",
+        "18 minutes"
+      ],
+      "answer": 0,
+      "explanation": "Volume (V) = (4/3)π(3)³ = 36π m³.\n\n Time = Volume / Rate = 36π / 9π = 4 minutes."
+    },
+    {
+      "question": "A right cylinder has a lateral surface area of 36π cm². If the radius is twice the height, what is the radius?",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "12 cm",
+        "9 cm"
+      ],
+      "answer": 1,
+      "explanation": "LSA = 2πrh.\n Given r = 2h, so h = r/2.\n 36π = 2πr(r/2). \n36π = πr².\n r² = 36.\n r = 6 cm."
+    },
+    {
+      "question": "The total surface area of a regular tetrahedron with edge length 'a' is given by the formula:",
+      "options": [
+        "a³",
+        "4a²",
+        "√3 a²",
+        "a²"
+      ],
+      "answer": 2,
+      "explanation": "A tetrahedron has 4 equilateral faces. \nArea of one face = (√3/4)a². \n\nTotal Surface Area = 4 * (√3/4)a² = √3 a²."
+    },
+    {
+      "question": "What is the smallest number of faces a prism can have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "The smallest base polygon is a triangle (3 sides).\n\n A triangular prism has 2 bases and 3 lateral faces, totaling 5 faces."
+    },
+    {
+      "question": "A right cone of height 6 cm is cut by a plane parallel to its base. The radius of the small cone at the top is 2 cm, and the radius of the large cone is 6 cm. What is the height of the small cone?",
+      "options": [
+
+        "3 cm",
+        "2 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "answer": 1,
+      "explanation": "By similarity, r/R = h/H. 2/6 = h/6. h = (2/6) * 6 = 2 cm."
+    },
+    {
+      "question": "A right cone of height 6 cm is cut by a plane parallel to its base. The radius of the small cone at the top is 2 cm, and the radius of the large cone is 6 cm. What is the height of the small cone?",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "answer": 0,
+      "explanation": "By similarity, r/R = h/H. 2/6 = h/6. h = 2 cm."
+    },
+    {
+      "question": "The area of the great circle of a sphere is 9π cm². What is the volume of the sphere?",
+      "options": [
+        "18π cm³",
+        "36π cm³",
+        "54π cm³",
+        "72π cm³"
+      ],
+      "answer": 1,
+      "explanation": "Area of great circle = πr². 9π = πr². r = 3 cm. Volume = (4/3)πr³ = 36π cm³."
+    },
+    {
+      "question": "A right cone has a volume of 100π m³ and a height of 12 m. What is its lateral surface area?",
+      "options": [
+
+        "90π m²",
+        "48π m²",
+        "65π m²",
+        "100π m²"
+      ],
+      "answer": 2,
+      "explanation": "V = (1/3)πr²h.\n 100π = (1/3)πr²(12).\n r = 5 m. \nl = 13 m.\n LSA = πrl = 65π m²."
+    },
+    {
+      "question": "The base areas of a frustum of a pyramid are 4 cm² and 9 cm². If the height of the frustum is 6 cm, what is its volume?",
+      "options": [
+
+        "52 cm³",
+        "76 cm³",
+        "114 cm³",
+        "38 cm³"
+      ],
+      "answer": 3,
+      "explanation": "V = (h/3)(B₁ + B₂ + √(B₁B₂)).\n\n V = 2(4 + 9 + 6) =\n 38 cm³."
+    },
+    {
+      "question": "In a right circular cone, which of the following geometric concepts is formed by the radius (r), the height (h), and the slant height (l)?",
+      "options": [
+        "Similar triangles",
+        "A circle",
+        "An isosceles triangle",
+        "A right triangle"
+      ],
+      "answer": 3,
+      "explanation": "They form a right triangle where l is the hypotenuse."
+    },
+    {
+      "question": "The volume of a cube is 125 cm³. What is its total surface area?",
+      "options": [
+
+        "100 cm²",
+        "125 cm²",
+        "150 cm²",
+        "250 cm²"
+      ],
+      "answer": 2,
+      "explanation": "a = 5 cm. TSA = 6a² = 150 cm²."
+    },
+    {
+      "question": "The number of edges in a pentagonal prism is:",
+      "options": [
+        "10",
+        "15",
+        "12",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "Edges = 3n = 3 × 5 = 15."
+    },
+    {
+      "question": "If the volume of two similar spheres are in the ratio 1:8, what is the ratio of their radii?",
+      "options": [
+        "1:2",
+        "1:4",
+        "1:8",
+        "1:64"
+      ],
+      "answer": 0,
+      "explanation": "Volume ratio = k³ = 1:8 → k = 1:2."
+    }
+
+  ]
+
+
+
+
+

@@ -1,0 +1,1154 @@
+[
+  {
+    "question": "Convert the angle 135° to radian measure. Express your answer using the symbol for pi (π).",
+    "options": [
+      "3π/4",
+      "π/4",
+      "5π/4",
+      "7π/4"
+    ],
+    "answer": 0,
+    "explanation": "135° * (π/180°) = 3π/4."
+  },
+  {
+    "question": "Convert 5π/6 radians to degree measure.",
+    "options": [
+      "150°",
+      "120°",
+      "210°",
+      "300°"
+    ],
+    "answer": 0,
+    "explanation": "(5π/6) * (180°/π) = 150°."
+  },
+  {
+    "question": "A circle has a radius of 8 cm. Find the length of the arc subtended by a central angle of 3π/4 radians.",
+    "options": [
+
+      "8π cm",
+      "3π/2 cm",
+      "6π cm",
+      "12π cm"
+    ],
+    "answer": 2,
+    "explanation": "Arc length L = rθ = \n8 * (3π/4) = 6π cm."
+  },
+  {
+    "question": "In a right-angled triangle, if sin(θ) = 5/13, what is the exact value of cos(θ)?",
+    "options": [
+      "13/5",
+      "12/13",
+      "5/12",
+      "13/12"
+    ],
+    "answer": 1,
+    "explanation": "Opposite=5, Hypotenuse=13.\n Adjacent = √(13² - 5²) = 12.\n cos(θ) = Adjacent/Hypotenuse = 12/13."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (-4, 3), find the value of tan(θ).",
+    "options": [
+      "3/4",
+      "-4/3",
+      "-3/4",
+      "4/3"
+    ],
+    "answer": 2,
+    "explanation": "tan(θ) = y/x = \n3/(-4) =\n -3/4."
+  },
+
+  {
+    "question": "Simplify the trigonometric expression: (1 - sin²θ) / cosθ.",
+    "options": [
+      "sinθ",
+      "cosθ",
+      "tanθ",
+      "secθ"
+    ],
+    "answer": 1,
+    "explanation": "1 - sin²θ = cos²θ.\n So, cos²θ / cosθ = cosθ."
+  },
+
+  {
+    "question": "A ladder 10 meters long leans against a wall. If the angle of elevation of the ladder is 60°, how high up the wall does the ladder reach?",
+    "options": [
+
+      "5√3 meters",
+      "10/√3 meters",
+      "5 meters",
+      "10 meters"
+    ],
+    "answer": 2,
+    "explanation": "sin(60°) = Opposite/Hypotenuse = h/10.\n\n h = 10 * sin(60°) =\n 10 * (√3/2) = \n5√3 meters."
+  },
+  {
+    "question": "Find the reference angle for the angle 240°.",
+    "options": [
+      "30°",
+      "60°",
+      "45°",
+      "120°"
+    ],
+    "answer": 1,
+    "explanation": "240° is in QIII. \nReference angle = 240° - 180° \n= 60°."
+  },
+  {
+    "question": "Convert the angle 225° to radian measure. Express your answer using π.",
+    "options": [
+      "5π/4",
+      "3π/4",
+      "π/4",
+      "7π/4"
+    ],
+    "answer": 0,
+    "explanation": "225° * (π/180°) = 5π/4."
+  },
+  {
+    "question": "Convert 7π/6 radians to degree measure.",
+    "options": [
+
+      "150°",
+      "240°",
+      "210°",
+      "330°"
+    ],
+    "answer": 2,
+    "explanation": "(7π/6) * (180°/π) = 210°."
+  },
+  {
+    "question": "What is the radius of a circle if an arc length of 4π cm subtends a central angle of π/2 radians?",
+    "options": [
+      "8 cm",
+      "2 cm",
+      "4 cm",
+      "π/8 cm"
+    ],
+    "answer": 0,
+    "explanation": "r = L/θ = \n4π / (π/2)\n = 8 cm."
+  },
+  {
+    "question": "If cot(A) = 4/3, what is the exact value of csc(A)? (A is in Quadrant I)",
+    "options": [
+      "5/3",
+      "3/5",
+      "4/5",
+      "5/4"
+    ],
+    "answer": 0,
+    "explanation": "Adjacent=4, Opposite=3, Hypotenuse=5.\n csc(A) = Hypotenuse/Opposite =\n 5/3."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (5, -12), find the value of sin(θ).",
+    "options": [
+      "-12/5",
+      "5/13",
+      "-12/13",
+      "5/12"
+    ],
+    "answer": 2,
+    "explanation": "r = √(5² + (-12)²) = 13.\n sin(θ) = y/r =\n -12/13."
+  },
+  {
+    "question": "What is the period of the function y = tan(x)?",
+    "options": [
+      "2π",
+      "π/2",
+      "π",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "The period of the basic tangent function is π."
+  },
+
+
+  {
+    "question": "From the top of a 50 meter cliff, the angle of depression to a boat is 45°. How far is the boat from the base of the cliff?",
+    "options": [
+      "50 meters",
+      "50√2 meters",
+      "25 meters",
+      "50/√2 meters"
+    ],
+    "answer": 0,
+    "explanation": "tan(45°) = height/distance. \n1 = 50/d.\n d = 50 meters."
+  },
+  {
+    "question": "Which quadrant contains the angle 3π/2 radians?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "None (It is on an axis)"
+    ],
+    "answer": 3,
+    "explanation": "3π/2 radians is 270°, which lies on the negative y-axis."
+  },
+  {
+    "question": "Convert the angle 300° to radian measure. Express your answer using π.",
+    "options": [
+      "5π/3",
+      "4π/3",
+      "7π/6",
+      "5π/6"
+    ],
+    "answer": 0,
+    "explanation": "300° * (π/180°) \n= 5π/3."
+  },
+
+  {
+    "question": "What is the angle in degrees that subtends an arc length of 12 cm in a circle with a radius of 6 cm?",
+    "options": [
+      "60°",
+      "114.6° (approx)",
+      "120°",
+      "90°"
+    ],
+    "answer": 1,
+    "explanation": "θ = L/r = 12/6 = 2 radians.\n 2 * (180°/π) ≈ 114.6°."
+  },
+  {
+    "question": "If sec(B) = √2, what is the exact value of tan(B)? (B is in Quadrant I)",
+    "options": [
+      "1/√2",
+      "1",
+      "√2",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "sec(B) = 1/cos(B) = √2/1.\n cos(B)=1/√2. \nThis is a 45° angle. tan(45°) = 1."
+  },
+  {
+    "question": "Which trigonometric function is positive in Quadrant IV?",
+    "options": [
+      "sin(θ)",
+      "tan(θ)",
+      "csc(θ)",
+      "cos(θ)"
+    ],
+    "answer": 3,
+    "explanation": "In QIV, x is positive, y is negative.\n Cosine (x/r) is the only basic function that is positive."
+  },
+  {
+    "question": "What is the period of the function y = sin(3x)?",
+    "options": [
+      "3",
+      "2π/3",
+      "2π",
+      "π/3"
+    ],
+    "answer": 1,
+    "explanation": "Period = 2π/B = 2π/3."
+  },
+  {
+    "question": "The expression sin²θ + cos²θ is equal to:",
+    "options": [
+      "1",
+      "tan²θ",
+      "sec²θ",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "This is the Pythagorean Identity: sin²θ + cos²θ = 1."
+  },
+
+  {
+    "question": "A ramp is 8 meters long and makes an angle of 30° with the ground. How high is the ramp at its highest point?",
+    "options": [
+      "8√3 meters",
+      "4 meters",
+      "8/√3 meters",
+      "4√3 meters"
+    ],
+    "answer": 1,
+    "explanation": "sin(30°) = Opposite/Hypotenuse = h/8.\n h = 8 * sin(30°) =\n 8 * (1/2) =\n 4 meters."
+  },
+  {
+    "question": "Convert the angle -45° to radian measure. Express your answer using π.",
+    "options": [
+      "-π/4",
+      "π/4",
+      "-π/2",
+      "3π/4"
+    ],
+    "answer": 0,
+    "explanation": "-45° * (π/180°) =\n -π/4."
+  },
+
+
+
+  {
+    "question": "Simplify the expression: tan²x + 1.",
+    "options": [
+      "cot²x",
+      "sec²x",
+      "csc²x",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "This is a form of the Pythagorean Identity: 1 + tan²x = sec²x."
+  },
+
+
+  {
+    "question": "Convert 3π/2 radians to degree measure.",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 2,
+    "explanation": "(3π/2) * (180°/π) = 270°."
+  },
+  {
+    "question": "What is the arc length of a semicircle in a circle with a radius of 5 cm?",
+    "options": [
+      "5 cm",
+      "5π cm",
+      "10π cm",
+      "25π cm"
+    ],
+    "answer": 1,
+    "explanation": "A semicircle subtends an angle of π radians.\n L = rθ = 5 * π = 5π cm."
+  },
+  {
+    "question": "If sin(A) = 1/3, what is the exact value of tan(A)? (A is in Quadrant I)",
+    "options": [
+      "1/2",
+      "1/√8",
+      "√8/3",
+      "3/√8"
+    ],
+    "answer": 1,
+    "explanation": "Opposite=1, Hypotenuse=3.\n Adjacent = √(3² - 1²) = √8.\n tan(A) = Opposite/Adjacent = 1/√8."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (-1, -1), find the value of csc(θ).",
+    "options": [
+      "-√2",
+      "-1",
+      "1/√2",
+      "√2"
+    ],
+    "answer": 0,
+    "explanation": "r = √((-1)² + (-1)²) = √2. \nsin(θ) = y/r = -1/√2.\n csc(θ) = 1/sin(θ) = \n-√2."
+  },
+
+  {
+    "question": "The expression (csc²θ - cot²θ) is equal to:",
+    "options": [
+      "sin²θ",
+      "1",
+      "sec²θ",
+      "tan²θ"
+    ],
+    "answer": 1,
+    "explanation": "This is a rearrangement of the Pythagorean Identity: 1 + cot²θ = csc²θ, \nso csc²θ - cot²θ = 1."
+  },
+
+  {
+    "question": "A person observes the top of a 25 meter tree with an angle of elevation of 45°. How far is the person from the base of the tree?",
+    "options": [
+      "25 meters",
+      "25√2 meters",
+      "50 meters",
+      "25/√2 meters"
+    ],
+    "answer": 0,
+    "explanation": "tan(45°) = height/distance.\n 1 = 25/d. \nd = 25 meters."
+  },
+  {
+    "question": "Convert the angle 270° to radian measure. Express your answer using π.",
+    "options": [
+      "π",
+      "3π/4",
+      "3π/2",
+      "2π"
+    ],
+    "answer": 2,
+    "explanation": "270° * (π/180°) =\n 3π/2."
+  },
+  {
+    "question": "Convert 4π/3 radians to degree measure.",
+    "options": [
+      "120°",
+      "240°",
+      "300°",
+      "210°"
+    ],
+    "answer": 1,
+    "explanation": "(4π/3) * (180°/π) =\n 240°."
+  },
+  {
+    "question": "A wheel of radius 0.5 meters rolls 3 meters. What is the angle (in radians) through which it turned?",
+    "options": [
+      "1.5 radians",
+      "6 radians",
+      "3π radians",
+      "3 radians"
+    ],
+    "answer": 1,
+    "explanation": "θ = L/r =\n 3 / 0.5 = \n6 radians."
+  },
+
+  {
+    "question": "If cos(θ) is negative and sin(θ) is positive, in which quadrant is θ?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 1,
+    "explanation": "x is negative, y is positive.\n This is Quadrant II."
+  },
+  {
+    "question": "What is the amplitude of the function y = 5 + 3sin(2x)?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "The amplitude is 3, the coefficient of the sine function."
+  },
+  {
+    "question": "Simplify the expression: sin(x) * cot(x).",
+    "options": [
+      "tan(x)",
+
+      "sin²x",
+      "csc(x)",
+      "cos(x)"
+    ],
+    "answer": 3,
+    "explanation": "cot(x) = cos(x)/sin(x).\n sin(x) * (cos(x)/sin(x)) \n= cos(x)."
+  },
+
+  {
+    "question": "A helicopter flying 500 meters above the ground observes a landing pad with an angle of depression of 30°. How far is the landing pad from the point directly beneath the helicopter?",
+    "options": [
+      "500 meters",
+      "500√3 meters",
+      "500/√3 meters",
+      "1000 meters"
+    ],
+    "answer": 1,
+    "explanation": "tan(30°) = height/distance.\n 1/√3 = 500/d.\n d = 500√3 meters."
+  },
+  {
+    "question": "What is the reference angle for the angle 5π/6?",
+    "options": [
+      "π/6",
+      "π/3",
+      "π/4",
+      "5π/6"
+    ],
+    "answer": 0,
+    "explanation": "5π/6 is in QII. \nReference angle \n= π - 5π/6 = π/6."
+  },
+  {
+    "question": "Convert the angle 30° to radian measure. Express your answer using π.",
+    "options": [
+
+      "π/4",
+      "π/3",
+      "π/2",
+      "π/6"
+    ],
+    "answer": 3,
+    "explanation": "30° * (π/180°) \n= π/6."
+  },
+
+
+  {
+    "question": "An arc of length 3π cm is subtended by a central angle of 60°. What is the radius of the circle?",
+    "options": [
+      "9 cm",
+      "3 cm",
+      "6 cm",
+      "12 cm"
+    ],
+    "answer": 0,
+    "explanation": "60° = π/3 radians.\n r = L/θ = \n3π / (π/3) \n= 9 cm."
+  },
+  {
+    "question": "If csc(θ) = 5/3, what is the exact value of sin(θ)?",
+    "options": [
+
+      "5/3",
+      "4/5",
+      "3/4",
+      "3/5"
+    ],
+    "answer": 3,
+    "explanation": "sin(θ) is the reciprocal of csc(θ).\n 1 / (5/3) = 3/5."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (√3, 1), find the value of cos(θ).",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1/√3",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "r = √((√3)² + 1²) = √4 = 2.\n cos(θ) = x/r =\n √3/2."
+  },
+
+  {
+    "question": "Simplify the expression: cos(x) * sec(x).",
+    "options": [
+      "sin(x)",
+      "tan(x)",
+      "1",
+      "cos²x"
+    ],
+    "answer": 2,
+    "explanation": "sec(x) = 1/cos(x). \ncos(x) * (1/cos(x)) \n= 1."
+  },
+
+  {
+    "question": "From a point 10 meters away from a wall, a boy observes a bird on the top of the wall with an angle of elevation of 30°. How high is the wall?",
+    "options": [
+      "10√3 meters",
+      "10 meters",
+      "10/√3 meters",
+      "5 meters"
+    ],
+    "answer": 2,
+    "explanation": "tan(30°) = h/10.\n h = 10 * tan(30°) = \n10 * (1/√3) = \n10/√3 meters."
+  },
+  {
+    "question": "Which angle is co-terminal with -150°?",
+    "options": [
+      "210°",
+      "30°",
+      "150°",
+      "-30°"
+    ],
+    "answer": 0,
+    "explanation": "-150° + 360° = 210°."
+  },
+  {
+    "question": "Convert the angle 45° to radian measure. Express your answer using π.",
+    "options": [
+      "π/4",
+      "π/2",
+      "π/3",
+      "π/6"
+    ],
+    "answer": 0,
+    "explanation": "45° * (π/180°) = π/4."
+  },
+  {
+    "question": "Convert 2π radians to degree measure.",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 3,
+    "explanation": "2π * (180°/π) = 360°."
+  },
+  {
+    "question": "A sector of a circle has a radius of 10 cm and a central angle of 72°. Find the arc length.",
+    "options": [
+      "2π cm",
+      "4π cm",
+      "7.2 cm",
+      "10π cm"
+    ],
+    "answer": 1,
+    "explanation": "72° = 72 * π/180 =\n 2π/5 radians. \nL = rθ = 10 * (2π/5) = \n4π cm."
+  },
+  {
+    "question": "Given tan(θ) = -1 and cos(θ) is positive, find the value of sin(θ).",
+    "options": [
+      "1/√2",
+      "-1/√2",
+      "√2",
+      "-√2"
+    ],
+    "answer": 1,
+    "explanation": "tan is negative and cos is positive implies Quadrant IV.\n sin(45°) is 1/√2, so sin(315°) is -1/√2."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (-5, 0), find the value of sin(θ).",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "undefined"
+    ],
+    "answer": 1,
+    "explanation": "This point is on the negative x-axis (180°).\n sin(180°) = 0."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "A ship is 500 meters away from the base of a lighthouse. The angle of elevation to the top is 45°. What is the height of the lighthouse?",
+    "options": [
+      "500 meters",
+      "500√2 meters",
+      "250 meters",
+      "500/√2 meters"
+    ],
+    "answer": 0,
+    "explanation": "tan(45°) = h/500.\n 1 = h/500.\n h = 500 meters."
+  },
+  {
+    "question": "The reference angle for 120° is:",
+    "options": [
+
+      "30°",
+      "45°",
+      "120°",
+      "60°"
+    ],
+    "answer": 3,
+    "explanation": "120° is in QII.\n Reference angle = 180° - 120°\n = 60°."
+  },
+  {
+    "question": "Convert the angle 10° to radian measure. Express your answer using π.",
+    "options": [
+      "π/18",
+      "π/9",
+      "π/6",
+      "π/36"
+    ],
+    "answer": 0,
+    "explanation": "10° * (π/180°) = π/18."
+  },
+  {
+    "question": "Convert π/3 radians to degree measure.",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": 1,
+    "explanation": "(π/3) * (180°/π) = 60°."
+  },
+  {
+    "question": "A bicycle tire has a diameter of 60 cm. How far does it travel when it rotates 5π/6 radians?",
+    "options": [
+      "25π cm",
+      "30π cm",
+      "50π cm",
+      "15π cm"
+    ],
+    "answer": 2,
+    "explanation": "Radius r = 30 cm. \nL = rθ = \n30 * (5π/6) = \n25π cm."
+  },
+  {
+    "question": "If cos(θ) = -1/2, what is the exact value of tan(θ) if θ is in Quadrant II?",
+    "options": [
+      "√3",
+      "-√3",
+      "-1/√3",
+      "1/√3"
+    ],
+    "answer": 1,
+    "explanation": "If cos(θ)=-1/2, reference angle is 60°.\n In QII, tan is negative.\n tan(120°) = -tan(60°) = -√3."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (0, -2), find the value of cot(θ).",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "undefined"
+    ],
+    "answer": 0,
+    "explanation": "This point is on the negative y-axis (270°).\n cot(θ) = x/y = 0/-2 = 0."
+  },
+
+  {
+    "question": "The expression sec²x - tan²x is equal to:",
+    "options": [
+
+      "0",
+      "csc²x",
+      "cot²x",
+      "1"
+    ],
+    "answer": 3,
+    "explanation": "This is a rearrangement of the identity 1 + tan²x = sec²x."
+  },
+
+  {
+    "question": "A wire is attached to the top of a pole and makes an angle of 60° with the ground. If the wire is 20 meters long, what is the height of the pole?",
+    "options": [
+      "10√3 meters",
+      "10 meters",
+      "20√3 meters",
+      "15 meters"
+    ],
+    "answer": 0,
+    "explanation": "sin(60°) = Opposite/Hypotenuse = h/20.\n h = 20 * sin(60°) = \n20 * (√3/2) = \n10√3 meters."
+  },
+  {
+    "question": "The angle -π/4 is in which quadrant?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 3,
+    "explanation": "-π/4 is -45°, which is in Quadrant IV."
+  },
+  {
+    "question": "Convert the angle 20° to radian measure. Express your answer using π.",
+    "options": [
+      "π/9",
+      "π/18",
+      "π/3",
+      "π/6"
+    ],
+    "answer": 0,
+    "explanation": "20° * (π/180°) = π/9."
+  },
+  {
+    "question": "Convert 5π/3 radians to degree measure.",
+    "options": [
+      "300°",
+      "150°",
+      "240°",
+      "330°"
+    ],
+    "answer": 0,
+    "explanation": "(5π/3) * (180°/π) = 300°."
+  },
+
+  {
+    "question": "What is the perimeter of a sector with radius 5 cm and a central angle of 2 radians?",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "20 cm",
+      "15 cm"
+    ],
+    "answer": 2,
+    "explanation": "Arc length L = rθ = 5 * 2 = 10 cm.\n Perimeter = L + 2r = 10 + 2(5) = \n20 cm."
+  },
+  {
+    "question": "If sin(θ) = 4/5, what is the exact value of cot(θ) if θ is acute?",
+    "options": [
+      "3/4",
+      "4/3",
+      "4/5",
+      "5/4"
+    ],
+    "answer": 0,
+    "explanation": "Opposite=4, Hypotenuse=5.\n Adjacent = 3. \ncot(θ) = Adjacent/Opposite = \n3/4."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (-12, -5), find the value of sec(θ).",
+    "options": [
+      "13/12",
+      "-13/12",
+      "-12/13",
+      "-5/13"
+    ],
+    "answer": 1,
+    "explanation": "r = √((-12)² + (-5)²) = 13. \ncos(θ) = x/r = -12/13. \nsec(θ) = 1/cos(θ) = -13/12."
+  },
+
+
+
+  {
+    "question": "A kite is flying 80 meters above the ground. The string makes an angle of 45° with the horizontal. How long is the string?",
+    "options": [
+      "80 meters",
+      "80√2 meters",
+      "40 meters",
+      "80/√2 meters"
+    ],
+    "answer": 1,
+    "explanation": "sin(45°) = Opposite/Hypotenuse = 80/L.\n L = 80 / sin(45°) = \n80 / (1/√2) =\n 80√2 meters."
+  },
+  {
+    "question": "What is the reference angle for the angle 3π/4?",
+    "options": [
+      "π/4",
+      "π/2",
+      "3π/4",
+      "π"
+    ],
+    "answer": 0,
+    "explanation": "3π/4 is in QII.\n Reference angle = π - 3π/4 =\n π/4."
+  },
+  {
+    "question": "Convert the angle 120° to radian measure. Express your answer using π.",
+    "options": [
+      "2π/3",
+      "π/3",
+      "π/6",
+      "5π/6"
+    ],
+    "answer": 0,
+    "explanation": "120° * (π/180°) = 2π/3."
+  },
+
+
+  {
+    "question": "If sec(θ) = -2 and sin(θ) is positive, find the value of cot(θ).",
+    "options": [
+      "-√3",
+      "√3",
+      "-1/√3",
+      "1/√3"
+    ],
+    "answer": 2,
+    "explanation": "sec is negative and sin is positive implies Quadrant II. \ncos(θ) = -1/2 (ref 60°).\n cot(120°) = -cot(60°) =\n -1/√3."
+  },
+  {
+    "question": "Which trigonometric function is negative in Quadrant II?",
+    "options": [
+      "sin(θ)",
+      "tan(θ)",
+      "csc(θ)",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "In QII, sin and csc are positive. cos, sec, tan, and cot are negative."
+  },
+  {
+    "question": "What is the maximum value of the function y = 3sin(x) - 1?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "-1"
+    ],
+    "answer": 2,
+    "explanation": "Maximum value = Amplitude + Vertical Shift = 3 + (-1) = 2."
+  },
+  {
+    "question": "Given cos(θ) = 1/2, find the value of sec(θ).",
+    "options": [
+      "1",
+      "1/2",
+      "2",
+      "√3/2"
+    ],
+    "answer": 2,
+    "explanation": "sec(θ) is the reciprocal of cos(θ).\n 1 / (1/2) = 2."
+  },
+  {
+    "question": "The terminal side of an angle θ is in Quadrant III. Which of the following is negative?",
+    "options": [
+      "tan(θ)",
+      "sin(θ)",
+      "cot(θ)",
+
+
+      "Both tan(θ) and cot(θ)"
+    ],
+    "answer": 1,
+    "explanation": "In QIII, both x and y are negative, so sin(θ) (y/r) is negative, while tan(θ) (y/x) is positive."
+  },
+  {
+    "question": "What is the maximum value (amplitude) of the function y = 10 + 2cos(x)?",
+    "options": [
+      "10",
+      "12",
+      "2",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "The amplitude is 2.\n The maximum value is 10+2=12, but the amplitude is defined as the distance from the midline, which is 2."
+  },
+  {
+    "question": "Simplify the expression: (sec²x - 1) / tan(x).",
+    "options": [
+      "cot(x)",
+      "tan(x)",
+      "sec(x)",
+      "sin(x)"
+    ],
+    "answer": 1,
+    "explanation": "sec²x - 1 = tan²x.\n tan²x / tan(x) = tan(x)."
+  },
+  {
+    "question": "Find all values of x in [0°, 360°) that satisfy the equation cos(x) = 0.",
+    "options": [
+      "{0°, 180°}",
+      "{90°}",
+      "{90°, 270°}",
+      "{180°, 360°}"
+    ],
+    "answer": 2,
+    "explanation": "cos(x) = 0 at the y-axis: 90° and 270°."
+  },
+
+
+
+
+  {
+    "question": "If an arc length is 9π cm and the radius is 18 cm, what is the central angle in radians?",
+    "options": [
+      "π/2 radians",
+      "2π radians",
+      "π radians",
+      "3π/2 radians"
+    ],
+    "answer": 0,
+    "explanation": "θ = L/r = \n9π / 18 = \nπ/2 radians."
+  },
+  {
+    "question": "If tan(θ) = 1/√3, find the exact value of cos(θ) if θ is acute.",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1/√3",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "tan(θ)=1/√3 implies θ=30°.\n cos(30°) = √3/2."
+  },
+  {
+    "question": "If the terminal side of an angle θ passes through the point (√2, -√2), find the value of csc(θ).",
+    "options": [
+      "√2",
+      "-√2",
+      "1/√2",
+      "-1/√2"
+    ],
+    "answer": 1,
+    "explanation": "r = √((√2)² + (-√2)²) = √4 = 2.\n sin(θ) = y/r = -√2/2 = -1/√2. \ncsc(θ) = -√2."
+  },
+
+
+
+  {
+    "question": "An airplane is flying at an altitude of 2000 meters. The angle of depression to the airport is 30°. What is the horizontal distance to the airport?",
+    "options": [
+      "2000√3 meters",
+      "2000 meters",
+      "2000/√3 meters",
+      "1000 meters"
+    ],
+    "answer": 0,
+    "explanation": "tan(30°) = 2000/d. \nd = 2000 / tan(30°) = \n2000 / (1/√3) =\n 2000√3 meters."
+  },
+  {
+    "question": "Which angle is co-terminal with 720°?",
+    "options": [
+      "0°",
+      "180°",
+      "360°",
+      "-360°"
+    ],
+    "answer": 0,
+    "explanation": "720° - 2 * 360° = 0°."
+  },
+  {
+    "question": "Convert the angle 1° to radian measure. Express your answer using π.",
+    "options": [
+      "π/180",
+      "π/360",
+      "π/90",
+      "180/π"
+    ],
+    "answer": 0,
+    "explanation": "1° * (π/180°) = π/180."
+  },
+
+
+  {
+    "question": "A sector of a circle has a radius of 2 cm. If the area of the sector is 4 cm², what is the central angle in radians?",
+    "options": [
+      "1 radian",
+      "2 radians",
+      "4 radians",
+      "8 radians"
+    ],
+    "answer": 1,
+    "explanation": "Area A = (1/2)r²θ.\n 4 = (1/2)(2²)θ.\n 4 = 2θ.\n θ = 2 radians."
+  },
+  {
+    "question": "The reciprocal of the tangent function is:",
+    "options": [
+      "secant",
+      "cosecant",
+      "cosine",
+      "cotangent"
+    ],
+    "answer": 3,
+    "explanation": "The reciprocal of the tangent function (tan) is the cotangent function (cot)."
+  },
+  {
+    "question": "If tan(θ) is negative and sin(θ) is negative, in which quadrant is θ?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 3,
+    "explanation": "tan is negative in QII and QIV.\n sin is negative in QIII and QIV.\n Both are negative in Quadrant IV."
+  },
+
+  {
+    "question": "Simplify the expression: sin(x) / csc(x).",
+    "options": [
+      "sin²x",
+      "1",
+      "cos²x",
+      "tan²x"
+    ],
+    "answer": 0,
+    "explanation": "sin(x) / csc(x) = \nsin(x) * sin(x) =\n sin²x."
+  },
+
+  {
+    "question": "A surveyor measures an angle of elevation of 45° to the top of a hill. If the surveyor is 75 meters from the base of the hill, what is the height of the hill?",
+    "options": [
+      "75 meters",
+      "75√2 meters",
+      "75/√3 meters",
+      "37.5 meters"
+    ],
+    "answer": 0,
+    "explanation": "tan(45°) = height/distance.\n 1 = h/75. \nh = 75 meters."
+  },
+  {
+    "question": "The reference angle for 330° is:",
+    "options": [
+      "30°",
+      "60°",
+      "45°",
+      "150°"
+    ],
+    "answer": 0,
+    "explanation": "330° is in QIV.\n Reference angle = 360° - 330° \n= 30°."
+  },
+  {
+    "question": "Convert the angle 90° to radian measure. Express your answer using π.",
+    "options": [
+      "π/2",
+      "π/4",
+      "π",
+      "3π/2"
+    ],
+    "answer": 0,
+    "explanation": "90° * (π/180°) = π/2."
+  },
+  {
+    "question": "Convert 3π radians to degree measure.",
+    "options": [
+      "180°",
+      "360°",
+      "540°",
+      "720°"
+    ],
+    "answer": 2,
+    "explanation": "3π * (180°/π) = 540°."
+  },
+
+  {
+    "question": "A circular arc has a length of 6π cm and a radius of 9 cm. What is the central angle in degrees?",
+    "options": [
+      "120°",
+      "150°",
+      "135°",
+      "240°"
+    ],
+    "answer": 0,
+    "explanation": "θ = L/r = 6π/9 = 2π/3 radians. \n\n(2π/3) * (180°/π) = 120°."
+  },
+
+
+
+  {
+    "question": "From the roof of a house, the angle of depression to a car on the street is 60°. If the house is 15 meters high, how far is the car from the house?",
+    "options": [
+      "15√3 meters",
+      "15 meters",
+      "15/√3 meters",
+      "30 meters"
+    ],
+    "answer": 2,
+    "explanation": "tan(60°) = 15/d.\n d = 15 / tan(60°) = \n15/√3 meters."
+  },
+  {
+    "question": "The angle -π/2 is co-terminal with:",
+    "options": [
+      "π/2",
+      "3π/2",
+      "π",
+      "2π"
+    ],
+    "answer": 1,
+    "explanation": "-π/2 + 2π = 3π/2."
+  },
+
+  {
+    "question": "What is the area of a sector with radius 6 cm and a central angle of 90°?",
+    "options": [
+      "9π cm²",
+      "3π cm²",
+      "18π cm²",
+      "6π cm²"
+    ],
+    "answer": 2,
+    "explanation": "90° = π/2 radians. \nA = (1/2)r²θ = (1/2)(6²)(π/2) =\n (1/2)(36)(π/2) = \n9π cm²."
+  },
+  {
+    "question": "The reciprocal of the cosecant function is:",
+    "options": [
+      "sine",
+      "cosine",
+      "secant",
+      "tangent"
+    ],
+    "answer": 0,
+    "explanation": "The reciprocal of the cosecant function (csc) is the sine function (sin)."
+  },
+  {
+    "question": "If cos(θ) is negative and tan(θ) is positive, in which quadrant is θ?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "explanation": "cos is negative in QII and QIII. \ntan is positive in QI and QIII.\n Both are true in Quadrant III."
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Which of the following is the solution set for the inequality 3x - 5 > 1?",
+    "options": [
+      "x > 2",
+      "x < 2",
+      "x > -4/3",
+      "x < -4/3"
+    ],
+    "answer": 0,
+    "explanation": "Add 5 to both sides: 3x > 6.\n\n Divide by 3: x > 2."
+  },
+  {
+    "question": "Solve the inequality: 2x + 1 ≤ 7",
+    "options": [
+      "x ≥ 3",
+      "x ≤ 3",
+      "x ≥ 4",
+      "x ≤ 4"
+    ],
+    "answer": 1,
+    "explanation": "Subtract 1 from both sides: 2x ≤ 6. \n\nDivide by 2: x ≤ 3."
+  },
+  {
+    "question": "What happens to the inequality sign when you multiply both sides of an inequality by -1?",
+    "options": [
+      "It stays the same",
+      "It reverses (flips)",
+      "It becomes an equal sign",
+      "It depends on the numbers"
+    ],
+    "answer": 1,
+  "explanation": "Multiplying or dividing both sides of an inequality by a negative number reverses the direction of the inequality sign."
+  },
+  {
+    "question": "Solve the inequality: -4x < 12",
+    "options": [
+      "x < -3",
+      "x > -3",
+      "x < 3",
+      "x > 3"
+    ],
+    "answer": 1,
+    "explanation": "Divide both sides by -4 and reverse the inequality sign: x > -3."
+  },
+  {
+    "question": "Which interval notation represents the solution set x ≥ 1?",
+    "options": [
+      "(-∞, 1)",
+      "[1, ∞)",
+      "(1, ∞)",
+      "(-∞, 1]"
+    ],
+    "answer": 1,
+  "explanation": "The square bracket indicates that 1 is included, and the infinity symbol indicates the interval continues indefinitely to the right."
+  },
+  {
+    "question": "Solve the inequality: 5x - (x + 2) ≥ 0",
+    "options": [
+      "x ≥ 1/2",
+      "x ≤ 1/2",
+      "x ≥ -1/2",
+      "x ≤ -1/2"
+    ],
+    "answer": 0,
+    "explanation": "Simplify: 5x - x - 2 ≥ 0 => 4x - 2 ≥ 0.\n\n Add 2: 4x ≥ 2. Divide by 4: x ≥ 1/2."
+  },
+  {
+    "question": "Which number line correctly represents the solution x < 2?",
+    "options": [
+      "An open circle at 2, shaded to the right",
+      "A closed circle at 2, shaded to the right",
+      "An open circle at 2, shaded to the left",
+      "A closed circle at 2, shaded to the left"
+    ],
+    "answer": 2,
+ "explanation": "The open circle indicates that 2 is not included, and the shading to the left represents all numbers less than 2."
+  },
+  {
+    "question": "Solve the inequality: (x+2)/5 ≥ 2x/3",
+    "options": [
+      "x ≥ 6/7",
+      "x ≤ 6/7",
+      "x ≥ -6/7",
+      "x ≤ -6/7"
+    ],
+    "answer": 1,
+    "explanation": "Multiply by LCM (15): 3(x+2) ≥ 5(2x) => 3x + 6 ≥ 10x. \n\nSubtract 3x: 6 ≥ 7x. Divide by 7: 6/7 ≥ x or x ≤ 6/7. "
+  },
+  {
+    "question": "Which point is a solution to the inequality y > 2x + 1?",
+    "options": [
+      "(0, 1)",
+      "(1, 3)",
+      "(-1, 0)",
+      "(2, 5)"
+    ],
+    "answer": 2,
+    "explanation": "Test the points: (-1, 0) => 0 > 2(-1) + 1 => 0 > -1, which is true.\n\n The other points do not satisfy the inequality."
+  },
+  {
+    "question": "The graph of y ≤ -x + 2 would have:",
+    "options": [
+      "A dashed line, shaded above",
+      "A solid line, shaded above",
+      "A dashed line, shaded below",
+      "A solid line, shaded below"
+    ],
+    "answer": 3,
+  "explanation": "The '≤' sign means the line y = -x + 2 is solid (included), and the 'less than' part means the region below the line is shaded. "
+  },
+  {
+    "question": "Which region represents the solution to the system { y > x, y < 3 }?",
+    "options": [
+      "The region above y=x and below y=3",
+      "The region below y=x and below y=3",
+      "The region above y=x and above y=3",
+      "The region below y=x and above y=3"
+    ],
+    "answer": 0,
+    "explanation": "y > x represents the region above the line y=x. y < 3 represents the region below the horizontal line y=3.\n\n The solution is the intersection of these two regions."
+  },
+  {
+    "question": "Consider the inequality 2x + 3y ≥ 12. Which test point determines the shading?",
+    "options": [
+      "(3, 2)",
+      "(0, 4)",
+      "(6, 0)",
+      "(0, 0)"
+    ],
+    "answer": 3,
+    "explanation": "Test points should not be on the boundary line (2x + 3y = 12). (0,0) is not on the line.\n Test (0,0): 2(0) + 3(0) ≥ 12 => 0 ≥ 12, which is false. \nTherefore, shade the region that does not contain (0,0)."
+  },
+  {
+    "question": "The system { y ≥ 2x + 1, y ≤ 2x - 3 } has:",
+    "options": [
+      "One solution",
+      "Infinitely many solutions",
+      "No solution",
+      "Two solutions"
+    ],
+    "answer": 2,
+    "explanation": "The lines y = 2x + 1 and y = 2x - 3 are parallel (same slope, different y-intercepts). \n\nThe first inequality shades above y = 2x + 1, and the second shades below y = 2x - 3.\n\n There is no region where the shading overlaps."
+  },
+  {
+    "question": "Which inequality represents the shaded region below the dashed line y = -x + 1?",
+    "options": [
+      "y < -x + 1",
+      "y ≤ -x + 1",
+      "y > -x + 1",
+      "y ≥ -x + 1"
+    ],
+    "answer": 0,
+    "explanation": "Dashed line means the inequality is strict (< or >). \nShaded below means 'less than'. \nSo, y < -x + 1. "
+  },
+  {
+    "question": "The solution set of the system { x > 2, y < 1 } is located in which quadrant(s)?",
+    "options": [
+      "Quadrant I only",
+      "Quadrant IV only",
+      "Quadrants I and IV",
+      "Quadrants II and III"
+    ],
+    "answer": 2,
+    "explanation": "x > 2 represents the region to the right of the vertical line x=2.\n\n y < 1 represents the region below the horizontal line y=1.\n\n The intersection includes points in Quadrant I (where x>0, y>0) and Quadrant IV (where x>0, y<0)."
+  },
+  {
+    "question": "What is the solution set for |x| < 3?",
+    "options": [
+      "x < 3",
+      "x > -3",
+      "-3 < x < 3",
+      "x < -3 or x > 3"
+    ],
+    "answer": 2,
+    "explanation": "The inequality |k| < c is equivalent to -c < k < c.\n\n So, |x| < 3 means -3 < x < 3."
+  },
+  {
+    "question": "Solve the inequality: |x| ≥ 5",
+    "options": [
+      "-5 ≤ x ≤ 5",
+      "x ≤ -5 or x ≥ 5",
+      "x ≥ 5",
+      "x ≤ -5"
+    ],
+    "answer": 1,
+    "explanation": "The inequality |k| ≥ c is equivalent to k ≤ -c or k ≥ c. \n\nSo, |x| ≥ 5 means x ≤ -5 or x ≥ 5."
+  },
+  {
+    "question": "What is the solution set for |x + 1| ≤ 2?",
+    "options": [
+      "-1 ≤ x ≤ 3",
+      "-3 ≤ x ≤ 1",
+      "x ≤ -3 or x ≥ 1",
+      "x ≤ -1 or x ≥ 3"
+    ],
+    "answer": 1,
+    "explanation": "|x + 1| ≤ 2 is equivalent to -2 ≤ x + 1 ≤ 2.\n Subtract 1 from all parts: -2 - 1 ≤ x ≤ 2 - 1, which gives -3 ≤ x ≤ 1."
+  },
+  {
+    "question": "Solve the inequality: |2x - 3| > 5",
+    "options": [
+      "-1 < x < 4",
+      "x < -1 or x > 4",
+      "x < -4 or x > 1",
+      "-4 < x < 1"
+    ],
+    "answer": 1,
+    "explanation": "|2x - 3| > 5 means 2x - 3 < -5 or 2x - 3 > 5.\n Solve the first: 2x < -2 => x < -1. \n\nSolve the second: 2x > 8 => x > 4. \nThe solution is x < -1 or x > 4."
+  },
+  {
+    "question": "What is the solution set for |x - 4| < 0?",
+    "options": [
+      "x = 4",
+      "x < 4",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 3,
+    "explanation": "The absolute value of any expression is always greater than or equal to zero.\n\nIt can never be less than zero. "
+  },
+  {
+    "question": "Solve the inequality: |5 - x| ≤ 0",
+    "options": [
+      "x = 5",
+      "x ≤ 5",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 0,
+    "explanation": "The absolute value is always non-negative.\n\n It can be equal to zero only if the expression inside is zero. \n5 - x = 0 => x = 5. "
+  },
+  {
+    "question": "What is the solution set for |x + 3| ≥ -2?",
+    "options": [
+      "x ≥ -5 or x ≤ -1",
+      "-5 ≤ x ≤ -1",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": "The absolute value of any expression is always greater than or equal to zero. \nTherefore, it is always greater than or equal to -2. \nThe solution is all real numbers."
+  },
+  {
+    "question": "Which inequality is equivalent to -4 < x < 4?",
+    "options": [
+      "|x| < 4",
+      "|x| ≤ 4",
+      "|x| > 4",
+      "|x| ≥ 4"
+    ],
+    "answer": 0,
+    "explanation": "The inequality -c < k < c is equivalent to |k| < c.\n\n Here, k=x and c=4. "
+  },
+  {
+    "question": "Solve: 2|x - 1| + 3 ≤ 7",
+    "options": [
+      "-1 ≤ x ≤ 3",
+      "-3 ≤ x ≤ 1",
+      "x ≤ -1 or x ≥ 3",
+      "x ≤ -3 or x ≥ 1"
+    ],
+    "answer": 0,
+    "explanation": "Subtract 3: 2|x - 1| ≤ 4.\n Divide by 2: |x - 1| ≤ 2.\n This means -2 ≤ x - 1 ≤ 2.\n Add 1: -2 + 1 ≤ x ≤ 2 + 1, which gives -1 ≤ x ≤ 3."
+  },
+  {
+    "question": "Which expression represents the distance between x and 5 is greater than 2?",
+    "options": [
+      "|x - 5| > 2",
+      "|x + 5| > 2",
+      "|x - 2| > 5",
+      "|x + 2| > 5"
+    ],
+    "answer": 0,
+    "explanation": "The distance between two numbers a and b on the number line is given by |a - b|.\n\n So the distance between x and 5 is |x - 5|. \n\nThe inequality is |x - 5| > 2."
+  },
+  {
+    "question": "Solve the inequality x² - 4 < 0.",
+    "options": [
+      "x < -2 or x > 2",
+      "-2 < x < 2",
+      "x < 2",
+      "x > -2"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "What is the solution set for x² + 5x + 6 ≥ 0?",
+    "options": [
+      "-3 ≤ x ≤ -2",
+      "x ≤ -3 or x ≥ -2",
+      "x ≤ 2 or x ≥ 3",
+      "2 ≤ x ≤ 3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Solve the inequality: x² - 9 ≤ 0",
+    "options": [
+      "-3 ≤ x ≤ 3",
+      "x ≤ -3 or x ≥ 3",
+      "x ≤ 3",
+      "x ≥ -3"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Find the solution set for x² - x - 12 > 0.",
+    "options": [
+      "-3 < x < 4",
+      "x < -3 or x > 4",
+      "x < -4 or x > 3",
+      "-4 < x < 3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Solve the inequality: 2x² + x - 15 ≤ 0",
+    "options": [
+      "-5/2 ≤ x ≤ 3",
+      "-3 ≤ x ≤ 5/2",
+      "x ≤ -3 or x ≥ 5/2",
+      "x ≤ -5/2 or x ≥ 3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "What is the solution set for x² + 4 > 0?",
+    "options": [
+      "x > 2 or x < -2",
+      "-2 < x < 2",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Solve the inequality: x² - 8x + 16 ≥ 0",
+    "options": [
+      "x = 4",
+      "x ≠ 4",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": "Factor: (x - 4)² ≥ 0. The square of any real number is always greater than or equal to zero. \n\nThis inequality is true for all real numbers."
+  },
+  {
+    "question": "Find the solution set for -x² + 4 < 0.",
+    "options": [
+      "-2 < x < 2",
+      "x < -2 or x > 2",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "The product property states that mn > 0 if and only if:",
+    "options": [
+      "m > 0 and n < 0",
+      "m < 0 and n > 0",
+      "(m > 0 and n > 0) or (m < 0 and n < 0)",
+      "m = 0 or n = 0"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Using a sign chart for (x-1)(x-5) > 0, the intervals to test are:",
+    "options": [
+      "(-∞, 1), (5, ∞)",
+      "(1, 5)",
+      "(-∞, 1), (1, 5), (5, ∞)",
+      "(-∞, 5), (1, ∞)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The height h of an object is given by h = -16t² + 64t. For which time interval t is the height greater than or equal to 48?",
+    "options": [
+      "1 ≤ t ≤ 3",
+      "t ≤ 1 or t ≥ 3",
+      "0 ≤ t ≤ 4",
+      "1 < t < 3"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "The length of a rectangle is 3 meters more than its width. If the area is at least 10 square meters, what is the minimum width?",
+    "options": [
+      "2 meters",
+      "3 meters",
+      "5 meters",
+      "1 meter"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "The sum of 7 and three times a number is less than or equal to 1. Which inequality represents this?",
+    "options": [
+      "7 + 3x ≤ 1",
+      "7 + 3x ≥ 1",
+      "3(7 + x) ≤ 1",
+      "7(3 + x) ≤ 1"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "A car's speed s must be between 45 km/h and 60 km/h, inclusive. Which inequality represents this?",
+    "options": [
+      "45 < s < 60",
+      "45 ≤ s ≤ 60",
+      "|s - 52.5| ≤ 7.5",
+      "Both b and c"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Solve the inequality: 1 < 2x - 3 ≤ 7",
+    "options": [
+      "2 < x ≤ 5",
+      "1 < x ≤ 4",
+      "2 ≤ x < 5",
+      "1 ≤ x < 4"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which inequality represents 'x is at least 5'?",
+    "options": [
+      "x < 5",
+      "x ≤ 5",
+      "x > 5",
+      "x ≥ 5"
+    ],
+    "answer": 3,
+    "explanation": "'At least' means greater than or equal to."
+  },
+  {
+    "question": "Which inequality represents 'y is at most 10'?",
+    "options": [
+      "y < 10",
+      "y ≤ 10",
+      "y > 10",
+      "y ≥ 10"
+    ],
+    "answer": 1,
+    "explanation": "'At most' means less than or equal to."
+  },
+  {
+    "question": "Solve the compound inequality: x + 1 > 3 or 2x < -4",
+    "options": [
+      "x > 2",
+      "x < -2",
+      "x < -2 or x > 2",
+      "-2 < x < 2"
+    ],
+    "answer": 2,
+    "explanation": "Solve the first inequality: x + 1 > 3 => x > 2.\n Solve the second inequality: 2x < -4 => x < -2.\n\n The solution is the union of these two: x < -2 or x > 2."
+  },
+  {
+    "question": "Solve the compound inequality: 3x - 1 ≥ 5 and x + 2 < 7",
+    "options": [
+      "x ≥ 2",
+      "x < 5",
+      "2 ≤ x < 5",
+      "x ≤ 2 or x > 5"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The solution to |k| > c (where c > 0) is:",
+    "options": [
+      "-c < k < c",
+      "k < -c or k > c",
+      "k = c or k = -c",
+      "No solution"
+    ],
+    "answer": 1,
+ "explanation": "This is the definition for solving absolute value inequalities involving 'greater than'."
+  },
+  {
+    "question": "Which represents the solution to x² + 2x + 1 > 0?",
+    "options": [
+      "x = -1",
+      "x ≠ -1",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 1,
+    "explanation": "Factor: (x+1)² > 0. The square of any real number is non-negative. (x+1)² is zero only when x = -1.\n\n For all other values of x, (x+1)² is positive. So the solution is x ≠ -1."
+  },
+  {
+    "question": "Solve: x² + 9 ≤ 0",
+    "options": [
+      "x = 3 or x = -3",
+      "-3 ≤ x ≤ 3",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 3,
+    "explanation": "x² is always greater than or equal to 0.\n Therefore, x² + 9 is always greater than or equal to 9. \n\nIt can never be less than or equal to 0. There is no real solution."
+  },
+  {
+    "question": "Which inequality describes the graph with a solid line through (0,1) and (1,3), shaded below?",
+    "options": [
+      "y < 2x + 1",
+      "y ≤ 2x + 1",
+      "y > 2x + 1",
+      "y ≥ 2x + 1"
+    ],
+    "answer": 1,
+    "explanation": "The slope is (3-1)/(1-0) = 2. The y-intercept is 1. The equation is y = 2x + 1.\n\n Solid line means ≤ or ≥. Shaded below means ≤. So, y ≤ 2x + 1."
+  },
+  {
+    "question": "What is the interval notation for -2 ≤ x < 5?",
+    "options": [
+      "(-2, 5]",
+      "[-2, 5)",
+      "(-2, 5)",
+      "[-2, 5]"
+    ],
+    "answer": 1,
+    "explanation": "Square bracket means inclusive (≤ or ≥), parenthesis means exclusive (< or >).So, [-2, 5)."
+  },
+  {
+    "question": "Solve |x/2 - 1| ≥ 3",
+    "options": [
+      "-4 ≤ x ≤ 8",
+      "x ≤ -4 or x ≥ 8",
+      "x ≤ -8 or x ≥ 4",
+      "-8 ≤ x ≤ 4"
+    ],
+    "answer": 1,
+    "explanation": "x/2 - 1 ≤ -3 or x/2 - 1 ≥ 3. Solve first: x/2 ≤ -2 => x ≤ -4. \n\nSolve second: x/2 ≥ 4 => x ≥ 8. Solution: x ≤ -4 or x ≥ 8."
+  },
+  {
+    "question": "Which point is NOT a solution to the system { y ≤ x + 1, x < 2 }?",
+    "options": [
+      "(0, 0)",
+      "(1, 2)",
+      "(-1, 0)",
+      "(2, 1)"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "The solution to x² - 3x + 2 < 0 is:",
+    "options": [
+      "1 < x < 2",
+      "x < 1 or x > 2",
+      "x < -2 or x > -1",
+      "-2 < x < -1"
+    ],
+    "answer": 0,
+    "explanation": "Factor: (x - 1)(x - 2) < 0. \nCritical points x=1, x=2. \nTesting intervals gives 1 < x < 2 as the solution."
+  },
+  {
+    "question": "A normal body temperature T is within 0.5°C of 37°C. Represent this as an absolute value inequality.",
+    "options": [
+      "|T - 0.5| ≤ 37",
+      "|T - 37| ≤ 0.5",
+      "|T - 37| ≥ 0.5",
+      "|T + 37| ≤ 0.5"
+    ],
+    "answer": 1,
+    "explanation": "The distance between the temperature T and 37°C is |T - 37|.\n\n 'Within' means less than or equal to 0.5°C. So, |T - 37| ≤ 0.5."
+  },
+  {
+    "question": "Solve 3x² - 17x + 10 ≤ 0",
+    "options": [
+      "x ≤ 2/3 or x ≥ 5",
+      "2/3 ≤ x ≤ 5",
+      "x ≤ -5 or x ≥ -2/3",
+      "-5 ≤ x ≤ -2/3"
+    ],
+    "answer": 1,
+    "explanation": "Factor: (3x - 2)(x - 5) ≤ 0. Critical points x=2/3, x=5. \n\nTesting intervals shows the solution is 2/3 ≤ x ≤ 5. "
+  },
+  {
+    "question": "If (x+1)(x-2) > 0, which sign chart row correctly represents the product?",
+    "options": [
+      "+ 0 - 0 +",
+      "- 0 + 0 -",
+      "+ 0 + 0 +",
+      "- 0 - 0 -"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which represents the inequality x > -3 on a number line?",
+    "options": [
+      "Open circle at -3, shaded left",
+      "Closed circle at -3, shaded left",
+      "Open circle at -3, shaded right",
+      "Closed circle at -3, shaded right"
+    ],
+    "answer": 2,
+    "explanation": "Open circle because it's strictly greater than (>).\n\nShaded right because it includes all numbers greater than -3."
+  },
+  {
+    "question": "Solve |x| = -5",
+    "options": [
+      "x = 5",
+      "x = -5",
+      "x = 5 or x = -5",
+      "No solution"
+    ],
+    "answer": 3,
+ "explanation": "Absolute value cannot be negative."
+  },
+  {
+    "question": "Which value is a solution to |x-3| ≥ 2?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "The inequality equivalent to x ≤ -4 or x ≥ 4 is:",
+    "options": [
+      "|x| < 4",
+      "|x| ≤ 4",
+      "|x| > 4",
+      "|x| ≥ 4"
+    ],
+    "answer": 3,
+ "explanation": "This represents values whose distance from zero is greater than or equal to 4."
+  },
+  {
+    "question": "Solve 5 - x > 2",
+    "options": [
+      "x > 3",
+      "x < 3",
+      "x > -3",
+      "x < -3"
+    ],
+    "answer": 1,
+    "explanation": "Subtract 5 from both sides: -x > -3.\n\n Multiply by -1 and reverse the inequality: x < 3."
+  },
+  {
+    "question": "Solve x²/4 ≤ 1",
+    "options": [
+      "x ≤ 2",
+      "x ≤ ±2",
+      "-2 ≤ x ≤ 2",
+      "x ≤ -2 or x ≥ 2"
+    ],
+    "answer": 2,
+    "explanation": "Multiply by 4: x² ≤ 4.\n This means x² - 4 ≤ 0. Factor: (x-2)(x+2) ≤ 0. Critical points are -2 and 2.\n Testing intervals gives -2 ≤ x ≤ 2."
+  },
+  {
+    "question": "Which quadrant contains no solutions for the system { x > 1, y > 1 }?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The solution to x² < 0 is:",
+    "options": [
+      "x = 0",
+      "x < 0",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 3,
+    "explanation": "The square of any non-zero real number is positive. The square of zero is zero.\n\n Therefore, x² can never be less than 0. No real solution exists."
+  },
+  {
+    "question": "Solve |1 - x| < 5",
+    "options": [
+      "-4 < x < 6",
+      "-6 < x < 4",
+      "x < -4 or x > 6",
+      "x < -6 or x > 4"
+    ],
+    "answer": 0,
+    "explanation": "-5 < 1 - x < 5. Subtract 1: -6 < -x < 4.\n\n Multiply by -1 and reverse inequalities: 6 > x > -4, or -4 < x < 6."
+  },
+  {
+    "question": "Which of these is a linear inequality in one variable?",
+    "options": [
+      "2x + 3y ≤ 6",
+      "x² - 4 > 0",
+      "|x - 1| < 5",
+      "5 - 3x ≥ 2"
+    ],
+    "answer": 3,
+  "explanation": "A linear inequality in one variable has the form ax + b < 0 (or ≤, >, ≥), where x is the only variable and its highest power is 1."
+  },
+  {
+    "question": "Solve (x+3)(x-6) ≥ 0",
+    "options": [
+      "-3 ≤ x ≤ 6",
+      "x ≤ -3 or x ≥ 6",
+      "x ≤ -6 or x ≥ 3",
+      "-6 ≤ x ≤ 3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which expression represents 'the sum of x and 2 is at least 9'?",
+    "options": [
+      "x + 2 > 9",
+      "x + 2 < 9",
+      "x + 2 ≥ 9",
+      "x + 2 ≤ 9"
+    ],
+    "answer": 2,
+    "explanation": "'At least' translates to 'greater than or equal to' (≥)."
+  },
+  {
+    "question": "The solution to -x > 5 is:",
+    "options": [
+      "x > -5",
+      "x < -5",
+      "x > 5",
+      "x < 5"
+    ],
+    "answer": 1,
+    "explanation": "Multiply both sides by -1 and reverse the inequality sign: x < -5."
+  },
+  {
+    "question": "Which shaded region correctly represents y ≥ 3x - 1?",
+    "options": [
+      "Region below a solid line",
+      "Region above a solid line",
+      "Region below a dashed line",
+      "Region above a dashed line"
+    ],
+    "answer": 1,
+    "explanation": "The line y = 3x - 1 is solid because of ≥.\n\nThe region above the line is shaded because of ≥. "
+  },
+  {
+    "question": "Solve |x| + 5 < 3",
+    "options": [
+      "x < -2",
+      "-2 < x < 2",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 3,
+    "explanation": "Subtract 5: |x| < -2.\n\n Absolute value cannot be less than a negative number.No solution."
+  },
+  {
+    "question": "Solve x² - 7x ≤ -6",
+    "options": [
+      "1 ≤ x ≤ 6",
+      "x ≤ 1 or x ≥ 6",
+      "-6 ≤ x ≤ -1",
+      "x ≤ -6 or x ≥ -1"
+    ],
+    "answer": 0,
+    "explanation": "Rearrange: x² - 7x + 6 ≤ 0. Factor: (x - 1)(x - 6) ≤ 0. Critical points are x=1, x=6.\nTesting intervals gives 1 ≤ x ≤ 6. "
+  },
+  {
+    "question": "The number of hours, h, you can park is at most 4. Write an inequality.",
+    "options": [
+      "h < 4",
+      "h > 4",
+      "h ≤ 4",
+      "h ≥ 4"
+    ],
+    "answer": 2,
+    "explanation": "'At most' translates to 'less than or equal to' (≤)."
+  },
+  {
+    "question": "Solve -1 ≤ x + 3 < 5",
+    "options": [
+      "-4 ≤ x < 2",
+      "-2 ≤ x < 8",
+      "-4 < x ≤ 2",
+      "-2 < x ≤ 8"
+    ],
+    "answer": 0,
+    "explanation": "Subtract 3 from all parts: -1 - 3 ≤ x < 5 - 3 => -4 ≤ x < 2."
+  },
+  {
+    "question": "Which point satisfies the system { y > -x, y < x }?",
+    "options": [
+      "(1, 2)",
+      "(2, 1)",
+      "(-1, 2)",
+      "(-2, -1)"
+    ],
+    "answer": 1,
+    "explanation": "Test (2, 1): y > -x => 1 > -2 (True).\n\n y < x => 1 < 2 (True). Both are satisfied."
+  },
+  {
+    "question": "Solve |x| = |x+1|",
+    "options": [
+      "x = -1/2",
+      "x = 1/2",
+      "No solution",
+      "All real numbers"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Solve x(x-2) ≤ 0",
+    "options": [
+      "0 ≤ x ≤ 2",
+      "x ≤ 0 or x ≥ 2",
+      "x ≤ -2 or x ≥ 0",
+      "-2 ≤ x ≤ 0"
+    ],
+    "answer": 0,
+    "explanation": "Critical points are x=0 and x=2. Test intervals: (-∞, 0], [0, 2], [2, ∞). \n\nThe inequality holds for [0, 2]."
+  },
+  {
+    "question": "Your grade G must be at least 70 to pass. Write an inequality.",
+    "options": [
+      "G < 70",
+      "G > 70",
+      "G ≤ 70",
+      "G ≥ 70"
+    ],
+    "answer": 3,
+    "explanation": "'At least' means 'greater than or equal to' (≥)."
+  },
+  {
+    "question": "Solve -5x + 1 ≥ 11",
+    "options": [
+      "x ≥ -2",
+      "x ≤ -2",
+      "x ≥ 2",
+      "x ≤ 2"
+    ],
+    "answer": 1,
+    "explanation": "Subtract 1: -5x ≥ 10.\n\n Divide by -5 and reverse inequality: x ≤ -2."
+  },
+  {
+    "question": "The boundary line for y < 4x is:",
+    "options": [
+      "Solid",
+      "Dashed",
+      "Vertical",
+      "Horizontal"
+    ],
+    "answer": 1,
+  "explanation": "Strict inequalities (< or >) correspond to dashed boundary lines because the points on the line are not part of the solution."
+  },
+  {
+    "question": "Solve |x+1| = |x-3|",
+    "options": [
+      "x = 1",
+      "x = 2",
+      "x = -1",
+      "x = -2"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Solve x² ≥ 9",
+    "options": [
+      "-3 ≤ x ≤ 3",
+      "x ≤ -3 or x ≥ 3",
+      "x ≥ 3",
+      "x ≤ -3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "If a product of two factors is less than zero, the factors must have:",
+    "options": [
+      "The same sign (both positive)",
+      "The same sign (both negative)",
+      "Opposite signs",
+      "One factor must be zero"
+    ],
+    "answer": 2,
+ "explanation": "For a product to be negative, one factor must be positive and the other must be negative."
+  },
+  {
+    "question": "Solve -2 < x - 5 ≤ 3",
+    "options": [
+      "-7 < x ≤ -2",
+      "3 < x ≤ 8",
+      "-7 ≤ x < -2",
+      "3 ≤ x < 8"
+    ],
+    "answer": 1,
+    "explanation": "Add 5 to all parts: -2 + 5 < x ≤ 3 + 5 => 3 < x ≤ 8."
+  },
+  {
+    "question": "Which system represents the region in Quadrant III?",
+    "options": [
+      "{ x > 0, y > 0 }",
+      "{ x < 0, y > 0 }",
+      "{ x < 0, y < 0 }",
+      "{ x > 0, y < 0 }"
+    ],
+    "answer": 2,
+    "explanation": "Quadrant III is defined by negative x-values (x < 0) and negative y-values (y < 0)."
+  },
+  {
+    "question": "Solve |x - 2| = 0",
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 2 or x = -2",
+      "No solution"
+    ],
+    "answer": 0,
+ "explanation": "Absolute value is zero only when the expression inside is zero.\n\n x - 2 = 0 => x = 2."
+  },
+  {
+    "question": "Solve (1-x)(x+2) ≤ 0",
+    "options": [
+      "-2 ≤ x ≤ 1",
+      "x ≤ -2 or x ≥ 1",
+      "x ≤ -1 or x ≥ 2",
+      "-1 ≤ x ≤ 2"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "The temperature T must be below 5°C. Write an inequality.",
+    "options": [
+      "T > 5",
+      "T < 5",
+      "T ≥ 5",
+      "T ≤ 5"
+    ],
+    "answer": 1,
+    "explanation": "'Below' translates to 'less than' (<)."
+  },
+  {
+    "question": "Solve 7 - 2x ≤ 1",
+    "options": [
+      "x ≤ 3",
+      "x ≥ 3",
+      "x ≤ -3",
+      "x ≥ -3"
+    ],
+    "answer": 1,
+    "explanation": "Subtract 7: -2x ≤ -6.\n\n Divide by -2 and reverse inequality: x ≥ 3."
+  },
+  {
+    "question": "The solution region for a system of linear inequalities is:",
+    "options": [
+      "The area above all lines",
+      "The area below all lines",
+      "The area where all shaded regions overlap",
+      "The area outside the shaded regions"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Solve |5x| = 10",
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 2 or x = -2",
+      "x = 50 or x = -50"
+    ],
+    "answer": 2,
+    "explanation": "5x = 10 or 5x = -10. \n\nSolve first: x = 2. Solve second: x = -2. "
+  },
+  {
+    "question": "Solve x² + x + 1 > 0",
+    "options": [
+      "x > 0",
+      "x < 0",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which interval represents all numbers between -1 and 6, excluding -1 but including 6?",
+    "options": [
+      "(-1, 6)",
+      "[-1, 6]",
+      "(-1, 6]",
+      "[-1, 6)"
+    ],
+    "answer": 2,
+    "explanation": "Parenthesis for exclusion, square bracket for inclusion. \nSo, (-1, 6]."
+  },
+  {
+    "question": "Solve |x|/3 ≤ 2",
+    "options": [
+      "-6 ≤ x ≤ 6",
+      "x ≤ -6 or x ≥ 6",
+      "-2/3 ≤ x ≤ 2/3",
+      "x ≤ -2/3 or x ≥ 2/3"
+    ],
+    "answer": 0,
+    "explanation": "Multiply by 3: |x|≤ 6.\n This is equivalent to -6 ≤ x ≤ 6. "
+  },
+  {
+    "question": "Solve x² - 4x + 4 ≤ 0",
+    "options": [
+      "x = 2",
+      "x ≤ 2",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "If -a < x < a, then:",
+    "options": [
+      "|x| < a",
+      "|x| > a",
+      "|x| = a",
+      "|x| ≤ a"
+    ],
+    "answer": 0,
+    "explanation": "This is the definition of absolute value inequality |x| < a for a positive a."
+  },
+  {
+    "question": "Which of the following is the solution to 2x - 1 < 5?",
+    "options": [
+      "x < 3",
+      "x > 3",
+      "x < 2",
+      "x > 2"
+    ],
+    "answer": 0,
+    "explanation": "Add 1 to both sides: 2x < 6.\n Divide by 2: x < 3."
+  },
+  {
+    "question": "The inequality |x| > -1 has the solution set:",
+    "options": [
+      "x > -1",
+      "x < 1",
+      "All real numbers",
+      "No solution"
+    ],
+    "answer": 2,
+ "explanation": "Absolute value is always non-negative (≥ 0), so it is always greater than -1. "
+  },
+  {
+    "question": "Solve the inequality: (x-1)/2 - (x+3)/4 > 1",
+    "options": [
+      "x > 9",
+      "x < 9",
+      "x > 5",
+      "x < 5"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "What is the solution set for the inequality 5 - |x+2| < 1?",
+    "options": [
+      "x < -6 or x > 2",
+      "-6 < x < 2",
+      "x < -2 or x > 6",
+      "-2 < x < 6"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "The sign chart for the expression (x+1)(x-4) shows the expression is positive for x < -1, zero at x = -1, negative for -1 < x < 4, zero at x = 4, and positive for x > 4. What is the solution set for the inequality (x+1)(x-4) ≤ 0?",
+    "options": [
+      "[-1, 4]",
+      "(-∞, -1] U [4, ∞)",
+      "(-1, 4)",
+      "(-∞, -1) U (4, ∞)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  }
+  ]

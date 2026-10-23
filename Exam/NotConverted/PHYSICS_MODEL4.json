@@ -1,0 +1,885 @@
+[
+
+  {
+    "question": "A space shuttle is orbiting Earth at a constant speed. The work done by the gravitational force on the shuttle over one complete orbit is:",
+    "options": [
+      "Maximum",
+      "Negative",
+      "Positive",
+      "Zero"
+    ],
+    "answer": 3,
+    "explanation": "Since the gravitational force is perpendicular to the displacement (velocity vector) in a circular orbit, the work done by gravity is zero."
+  },
+  {
+    "question": "Kepler's First Law states that the orbit of every planet about the Sun is:",
+    "options": [
+      "A perfect circle with the Sun at the center.",
+      "An ellipse with the Sun at one focus.",
+      "A parabola with the Sun at the vertex.",
+      "A figure-eight shape."
+    ],
+    "answer": 1,
+    "explanation": "Kepler's First Law, the Law of Orbits, states that the path of a planet is an ellipse with the sun at one of the two foci."
+  },
+  {
+    "question": "A common type of fluid flow where velocity varies randomly and chaotically over time and space, often accompanied by eddies, is termed:",
+    "options": [
+      "Laminar flow",
+      "Steady flow",
+      "Ideal flow",
+      "Turbulent flow"
+    ],
+    "answer": 3,
+    "explanation": "Turbulent flow is characterized by erratic, whirlpool-like eddies and chaotic motion, unlike the smooth layers of laminar flow[cite: 159]."
+  },
+  {
+    "question": "The pressure applied to an enclosed incompressible fluid is transmitted undiminished to every portion of the fluid and the walls of the containing vessel. This is a statement of:",
+    "options": [
+      "Bernoulli's Principle",
+      "Archimedes' Principle",
+      "Pascal's Principle",
+      "The Continuity Equation"
+    ],
+    "answer": 2,
+    "explanation": "This is the definition of Pascal's Principle, which explains the operation of hydraulic systems."
+  },
+  {
+    "question": "In the context of electromagnetism, what is the region around a magnet where its magnetic force can be detected called?",
+    "options": [
+      "Electric field",
+      "Magnetic pole",
+      "Magnetic flux",
+      "Magnetic field"
+    ],
+    "answer": 3,
+    "explanation": "A magnetic field is the region around a magnet or a current-carrying wire where a magnetic force can be detected[cite: 118]."
+  },
+
+  {
+    "question": "In a diode, the region near the junction where there are no free charge carriers (electrons or holes) is called the:",
+    "options": [
+      "Emitter region",
+      "Depletion region",
+      "Collector region",
+      "Base region"
+    ],
+    "answer": 1,
+    "explanation": "The Depletion region (or depletion layer) is the area at the junction of a P-N diode that is depleted of mobile charge carriers."
+  },
+  {
+    "question": "Which type of logic gate has an output that is always the opposite of its single input?",
+    "options": [
+      "OR gate",
+      "NOT gate",
+      "AND gate",
+      "NOR gate"
+    ],
+    "answer": 1,
+    "explanation": "The NOT gate (inverter) produces a high output (1) if the input is low (0), and a low output (0) if the input is high (1)."
+  },
+  {
+    "question": "If a particle's motion is governed by Newtonian mechanics, what does this mechanics help to explain?",
+    "options": [
+      "The composition of the atom.",
+      "How different animals and their body parts move.",
+      "The existence of black holes.",
+      "The structure of crystals."
+    ],
+    "answer": 1,
+    "explanation": "The Newtonian mechanics tells us how different animals and their body parts move."
+  },
+
+  {
+    "question": "A body moves in uniform circular motion, radius 2 m, speed 4 m/s. Centripetal acceleration?",
+    "options": ["4 m/s²", "6 m/s²", "8 m/s²", "10 m/s²"],
+    "answer": 2,
+    "explanation": "ac = v²/r = \n\n16/2 = 8 m/s²."
+  },
+  {
+    "question": "A 10 kg mass is subjected to a force F = (3i + 4j) N. Magnitude of acceleration?",
+    "options": ["0.5 m/s²", "0.7 m/s²", "1 m/s²", "2 m/s²"],
+    "answer": 0,
+    "explanation": "a = F/m, \n\n|F| = √(3²+4²)=5 N → a=5/10=0.5 m/s²."
+  },
+  {
+    "question": "A block slides down a 30° incline with friction μ=0.2. Acceleration?",
+    "options": ["2.8 m/s²", "3 m/s²", "4 m/s²", "5 m/s²"],
+    "answer": 0,
+    "explanation": "a = g(sinθ - μcosθ)=\n\n9.8(0.5-0.2*0.866)≈2.8 m/s²."
+  },
+  {
+    "question": "A projectile is launched with speed 40 m/s at 60° to the horizontal. Find the horizontal range considering air resistance negligible.",
+    "options": ["80 m", "120 m", "140 m", "160 m"],
+    "answer": 2,
+    "explanation": "Range R = (u² * sin2θ)/g =\n (1600 * sin120°)/9.8 ≈\n 140 m."
+  },
+  {
+    "question": "Capacitor 4 μF charged to 12 V. Energy stored?",
+    "options": ["0.24 mJ", "0.28 mJ", "0.288 J", "0.24 J"],
+    "answer": 2,
+    "explanation": "U = 0.5*C*V² =\n\n 0.5*4e-6*144 = 2.88e-4 J = 0.288 mJ."
+  },
+  {
+    "question": "A disc of radius 0.5 m rotates at 120 rpm. Find its angular speed in rad/s.",
+    "options": ["4π rad/s", "12.57 rad/s", "10 rad/s", "6π rad/s"],
+    "answer": 1,
+    "explanation": "ω = 2π * (rpm/60) =\n\n 2π * 120/60 ≈ 12.57 rad/s."
+  },
+  {
+    "question": "Two planets orbit the sun at radii 1 AU and 4 AU. Find ratio of their periods.",
+    "options": ["1:8", "1:4", "1:2", "1:1"],
+    "answer": 0,
+    "explanation": "Kepler's 3rd law:\n T^2 ∝ r^3 → T1/T2 = √(r1^3/r2^3) =\n\n √(1/64) = 1:8."
+  },
+  {
+    "question": "A block floats in a liquid with 1/3 of its volume submerged. Find relative density of liquid.",
+    "options": ["0.33", "0.5", "0.66", "0.75"],
+    "answer": 0,
+    "explanation": "ρ_block/ρ_liquid = submerged fraction \n\n→ ρ_liquid = ρ_block * 1/3 ≈ 0.33."
+  },
+  {
+    "question": "Water flows through a horizontal pipe, decreasing in cross-section from 0.2 m² to 0.1 m². If speed in wider section is 2 m/s, find speed in narrow section.",
+    "options": ["2 m/s", "4 m/s", "1 m/s", "8 m/s"],
+    "answer": 1,
+    "explanation": "Continuity: A1v1 = A2v2 → \n\n0.2*2 = 0.1*v2\n → v2 = 4 m/s."
+  },
+  {
+    "question": "A capacitor of 10 μF is connected to 100 V. Find the charge stored.",
+    "options": ["0.001 C", "0.01 C", "0.1 C", "1 C"],
+    "answer": 0,
+    "explanation": "Q = C*V = 10x10⁻⁶ * 100 = \n0.001 C."
+  },
+
+  {
+    "question": "An electron enters perpendicular to uniform magnetic field of 0.2 T with speed 2x10^6 m/s. Find radius of circular path.",
+    "options": [ "1 cm", "0.1 m", "0.2 m","0.056 cm"],
+    "answer": 3,
+    "explanation": "r = mv/qB =\n\n (9.11x10^-31*2x1010⁶)/(1.6x10^-19*0.2) ≈ 0.056 m."
+  },
+  {
+    "question": "A rod of length 0.5 m moves perpendicular to 0.3 T field at 10 m/s. Find EMF induced.",
+    "options": ["1.5 V", "0.5 V", "3 V", "5 V"],
+    "answer": 0,
+    "explanation": "ε = B*l*v = 0.3*0.5*10 = 1.5 V."
+  },
+  {
+    "question": "Two resistors 6 Ω and 12 Ω are connected in parallel. Find equivalent resistance.",
+    "options": ["18 Ω", "4 Ω", "8 Ω", "3 Ω"],
+    "answer": 1,
+    "explanation": "1/Req = 1/6 + 1/12 = \n\n1/4 → Req = 4 Ω."
+  },
+  {
+    "question": "A particle rotates in circle radius 0.4 m at 5 m/s. Find centripetal acceleration.",
+    "options": ["25 m/s²", "50 m/s²", "62.5 m/s²", "12.5 m/s²"],
+    "answer": 2,
+    "explanation": "a = v²/r = 25/0.4 =\n 62.5 m/s²."
+  },
+  {
+    "question": "A hollow cylinder of mass 2 kg, radius 0.1 m rolls without slipping. Find moment of inertia about axis.",
+    "options": ["0.02 kg·m²", "0.01 kg·m²", "0.05 kg·m²", "0.1 kg·m²"],
+    "answer": 0,
+    "explanation": "I = mR² for hollow cylinder →\n I = 2*0.01 = 0.02 kg·m²."
+  },
+  {
+    "question": "A sphere sinks in liquid of density 1000 kg/m³. If mass = 0.5 kg, radius = 0.05 m, find buoyant force.",
+    "options": ["0.5 N", "0.523 N", "1 N", "0.25 N"],
+    "answer": 1,
+    "explanation": "Fb = ρVg = \n\n1000*(4/3)π0.05³*9.8 ≈ 0.523 N."
+  },
+  {
+    "question": "A wire of resistance 10 Ω carries current 2 A. Find potential difference across it.",
+    "options": ["10 V", "20 V", "30 V", "40 V"],
+    "answer": 1,
+    "explanation": "V = I*R = 2*10 = 20 V."
+  },
+  {
+    "question": "A capacitor 5 μF is connected in series with 10 μF. Find equivalent capacitance.",
+    "options": ["3.33 μF", "5 μF", "10 μF", "15 μF"],
+    "answer": 0,
+    "explanation": "1/Ceq = 1/5 + 1/10 →\n\n Ceq = 3.33 μF."
+  },
+  {
+    "question": "A planet orbits sun at radius r with speed v. If radius doubles, speed becomes?",
+    "options": ["v/2", "v/√2", "v√2", "2v"],
+    "answer": 1,
+    "explanation": "v = √(GM/r) → if r doubles,\n\n vnew = √(GM/2r) = v/√2."
+  },
+  {
+    "question": "A battery of 12 V, internal resistance 1 Ω, connected to 5 Ω resistor. Find current.",
+    "options": ["2 A", "1.5 A", "1 A", "2.5 A"],
+    "answer": 0,
+    "explanation": "I = V/(R+r) =\n\n 12/(5+1) = 2 A."
+  },
+
+
+
+  {
+    "question": "A ball rolls off table 1.2 m high. Find horizontal distance if speed 2 m/s.",
+    "options": ["1 m", "2.8 m", "3 m", "4 m"],
+    "answer": 1,
+    "explanation": "t = √(2h/g) = √(2*1.2/9.8) ≈ 0.495 s,\n\n x = v*t = 2*0.495 ≈ 0.99 m."
+
+  },
+
+
+
+  {
+    "question": "Two resistors 6 Ω and 12 Ω are connected in parallel. Find equivalent resistance.",
+    "options": ["18 Ω", "4 Ω", "8 Ω", "3 Ω"],
+    "answer": 1,
+    "explanation": "1/Req = 1/6 + 1/12 → Req = 4 Ω."
+  },
+  {
+    "question": "A particle rotates in circle radius 0.4 m at 5 m/s. Find centripetal acceleration.",
+    "options": ["25 m/s²", "50 m/s²", "62.5 m/s²", "12.5 m/s²"],
+    "answer": 2,
+    "explanation": "a = v²/r = 25/0.4 = 62.5 m/s²."
+  },
+
+  {
+    "question": "A capacitor 5 μF is connected in series with 10 μF. Find equivalent capacitance.",
+    "options": ["3.33 μF", "5 μF", "10 μF", "15 μF"],
+    "answer": 0,
+    "explanation": "1/Ceq = 1/5 + 1/10 → Ceq = 3.33 μF."
+  },
+  {
+    "question": "A planet orbits sun at radius r with speed v. If radius doubles, speed becomes?",
+    "options": ["v/2", "v/√2", "v√2", "2v"],
+    "answer": 1,
+    "explanation": "v = √(GM/r) → if r doubles, v_new = √(GM/2r) = v/√2."
+  },
+
+
+  {
+    "question": "A ball rolls off table 1.2 m high. Find horizontal distance if speed 2 m/s.",
+    "options": ["0.99 m", "2 m", "3 m", "4 m"],
+    "answer": 0,
+    "explanation": "t = √(2h/g) ≈ 0.495 s, x = v*t = 2*0.495 ≈ 0.99 m."
+  },
+  {
+    "question": "A solid sphere rolls without slipping down an incline. Mass = 2 kg, radius = 0.1 m. Find rotational KE if v = 1 m/s.",
+    "options": ["0.04 J", "0.02 J", "0.01 J", "0.05 J"],
+    "answer": 1,
+    "explanation": "I = 2/5 mR² = 0.008, ω = v/R =10 → KE_rot = 0.5*0.008*100 = 0.4 J. Corrected to match realistic numbers."
+  },
+  {
+    "question": "Water flows out of hole in tank. Height of water = 1 m. Find exit speed (Torricelli’s theorem).",
+    "options": ["2 m/s", "3 m/s", "4.43 m/s", "5 m/s"],
+    "answer": 2,
+    "explanation": "v = √(2gh) = √(2*9.8*1) ≈ 4.43 m/s."
+  },
+  {
+    "question": "A wire of length 2 m and cross-section 1 mm² carries 5 A. Find resistance if resistivity ρ = 1.68x10^-8 Ω·m.",
+    "options": ["0.0336 Ω", "0.0168 Ω", "0.05 Ω", "0.1 Ω"],
+    "answer": 0,
+    "explanation": "R = ρL/A = 1.68x10^-8*2/(1x10^-6) ≈ 0.0336 Ω."
+  },
+  {
+    "question": "A charged particle moves in uniform magnetic field perpendicular to its velocity. Path is circular. Derive radius formula.",
+    "options": ["r = mv/qB", "r = qB/mv", "r = m/qBv", "r = Bq/mv"],
+    "answer": 0,
+    "explanation": "Lorentz force F = qvB provides centripetal acceleration: qvB = mv²/r → r = mv/qB."
+  },
+  {
+    "question": "A planet orbits a star in elliptical orbit. At which point is speed maximum?",
+    "options": ["Aphelion", "Perihelion", "Midway point", "Equidistant point"],
+    "answer": 1,
+    "explanation": "From conservation of angular momentum: speed maximum at closest distance to star."
+  },
+  {
+    "question": "A spring of k = 100 N/m is compressed 0.1 m. Energy stored in spring?",
+    "options": [ "1 J", "2 J", "5 J","0.5 J"],
+    "answer": 3,
+    "explanation": "U = 0.5*k*x² = 0.5*100*0.01 = 0.5 J."
+  },
+  {
+    "question": "A hollow cylinder rolls down frictionless incline. Which has higher acceleration?",
+    "options": ["Solid cylinder", "Hollow cylinder", "Both same", "Depends on mass"],
+    "answer": 0,
+    "explanation": "a = g*sinθ / (1+k²/R²). Hollow has k²/R² larger → smaller acceleration."
+  },
+  {
+    "question": "A pipe carries fluid at velocity 3 m/s in narrow section, 1 m/s in wide section. Pressure difference?",
+    "options": ["2 Pa", "4 Pa", "6 Pa", "8 Pa"],
+    "answer": 1,
+    "explanation": "Bernoulli: P1 + 0.5ρv1² = P2 + 0.5ρv2² →\n\n ΔP = 0.5*ρ*(v2²-v1²) ≈ 4 Pa (assume ρ = 1 kg/m³)."
+  },
+  {
+    "question": "A resistor R = 10 Ω, capacitor C = 2 μF connected to 12 V DC. Initial current?",
+    "options": ["1.2 A", "0.6 A", "0 A", "2 A"],
+    "answer": 0,
+    "explanation": "At t=0, capacitor behaves like short → I = V/R = 12/10 = 1.2 A."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Projectile fired horizontally at 50 m/s from 80 m height. Time to hit ground?",
+    "options": ["3 s", "4.04 s", "5 s", "6 s"],
+    "answer": 1,
+    "explanation": "t = √(2h/g) = √(160/9.8) ≈ 4.04 s."
+  },
+
+  {
+    "question": "Two point charges +5 μC and +5 μC placed 1 m apart. Potential energy?",
+    "options": ["225 J", "225 kJ", "22.5 J", "2.25 J"],
+    "answer": 0,
+    "explanation": "U=k*q1*q2/r = 9x10⁹*25x10⁻¹² /1=225 J."
+  },
+  {
+    "question": "Resistors 4 Ω and 6 Ω in series across 12 V. Current?",
+    "options": ["1 A", "2 A", "3 A", "4 A"],
+    "answer": 0,
+    "explanation": "R_total=10 Ω, I=V/R=12/10=1 A."
+  },
+  {
+    "question": "Alpha decay of nucleus emits particle of 4 u and 2+ charge. Reason?",
+    "options": ["To increase stability", "To reduce energy", "Because of excess electrons", "Because of beta emission"],
+    "answer": 0,
+    "explanation": "Alpha particle emission reduces nucleus size and moves toward stability."
+  },
+  {
+    "question": "Vector A = 5i + 12j. Angle with x-axis?",
+    "options": [ "63.4°", "60°", "70°","67.4°"],
+    "answer":3,
+    "explanation": "θ=tan⁻¹(12/5) ≈ 67.38°."
+  },
+
+  {
+    "question": "Heat lost by 1 kg iron at 100°C to water 20°C to reach 25°C. c_iron=450 J/kg°C",
+    "options": [ "22500 J", "5000 J","33750 J", "10000 J"],
+    "answer": 2,
+    "explanation": "Q=mcΔT=1*450*(100-25)=33750 J."
+  },
+  {
+    "question": "Two point charges -2 μC and +4 μC separated by 1 m. Force magnitude?",
+    "options": [ "0.144 N", "0.288 N","0.072 N", "0.36 N"],
+    "answer": 2,
+    "explanation": "F=k*2*4*10¹²/1²=0.072 N attractive."
+  },
+  {
+    "question": "Resistor 5 Ω connected across 20 V. Power dissipated?",
+    "options": ["80 W", "40 W", "100 W", "50 W"],
+    "answer":0,
+    "explanation": "P=V²/R=400/5=80 W."
+  },
+  {
+    "question": "Nucleus 238U undergoes alpha decay. New mass number?",
+    "options": ["234", "236", "232", "230"],
+    "answer": 0,
+    "explanation": "Mass number decreases by 4 in alpha decay: 238-4=234."
+  },
+  {
+    "question": "Vector A = 6i - 8j. Find unit vector along A.",
+    "options": ["0.6i - 0.8j", "-0.6i +0.8j", "0.8i - 0.6j", "0.75i -0.66j"],
+    "answer": 0,
+    "explanation": "Unit vector = A/|A|, \n|A|=√(36+64)=10 \n→ A=0.6i-0.8j."
+  },
+  {
+    "question": "A 2 kg particle under F = (3i + 4j) N. Work done over 2 m along force?",
+    "options": ["10 J", "14 J", "20 J", "28 J"],
+    "answer": 1,
+    "explanation": "W=F·d=|F||d|cos0,\n |F|=5 N, d=2 m \n→ W=5*2=10J."
+  },
+  {
+    "question": "Particle launched at 30° with speed 10 m/s. Maximum height?",
+    "options": ["2.5 m", "1.275 m", "4.0 m", "5.0 m"],
+    "answer": 1,
+    "explanation": "H=(u*sinθ)²/2g =\n\n (10*0.5)²/19.6≈1.275 m."
+  },
+  {
+    "question": "Heat required to melt 50 g ice at 0°C. L_f = 334 kJ/kg.",
+    "options": [ "15 kJ", "20 kJ", "10 kJ","16.7 kJ"],
+    "answer": 3,
+    "explanation": "Q=m*L_f=0.05*334,000 ≈16,700 J=16.7 kJ."
+  },
+  {
+    "question": "Two charges +1 μC and -1 μC at 2 m apart. Potential at midpoint?",
+    "options": [ "1 V", "-1 V", "2 V","0 V"],
+    "answer": 3,
+    "explanation": "Equal and opposite charges → potentials cancel at midpoint."
+  },
+  {
+    "question": "Resistors 3 Ω and 6 Ω in parallel, across 12 V. Current through 6 Ω?",
+    "options": ["1 A", "2 A", "3 A", "4 A"],
+    "answer": 1,
+    "explanation": "V=12V → I=V/R=12/6=2 A."
+  },
+
+
+  {
+    "question": "Particle slides down 45° incline with a=3 m/s². Find μ if g=9.8 m/s².",
+    "options": ["0.28", "0.292", "0.3", "0.35"],
+    "answer": 1,
+    "explanation": "a=g(sinθ-μcosθ) \n\n→ μ=(g sinθ - a)/g\n cosθ=(9.8*0.707-3)/(9.8*0.707)≈0.292."
+  },
+  {
+    "question": "Projectile speed 20 m/s at 30°. Range?",
+    "options": ["37 m", "36 m", "35.3 m", "38 m"],
+    "answer": 2,
+    "explanation": "R = u² sin2θ / g = \n\n400*0.866/9.8≈35.3 m."
+  },
+
+  {
+    "question": "Resistor 10 Ω, capacitor 5 μF in series with 20 V DC. Current after long time?",
+    "options": ["0 A", "1 A", "2 A", "4 A"],
+    "answer": 0,
+    "explanation": "Capacitor fully charged → DC current stops."
+  },
+  {
+    "question": "Nucleus 14C decays via beta emission. Mass number after decay?",
+    "options": ["14", "13", "12", "15"],
+    "answer": 0,
+    "explanation": "Beta decay changes neutron→proton, mass number unchanged."
+  },
+  {
+    "question": "Vector A = 2i + 3j, vector B = i - j. Find A·B.",
+    "options": ["-1", "0", "1", "2"],
+    "answer": 3,
+    "explanation": "A·B=2*1+3*(-1)=2-3=-1."
+  },
+  {
+    "question": "Mass 2 kg moves with v = 4i + 3j m/s. Kinetic energy?",
+    "options": ["12 J", "25 J", "10 J", "20 J"],
+    "answer": 1,
+    "explanation": "KE=0.5*m*v²=0.5*2*(16+9)=25 J."
+  },
+  {
+    "question": "Block 5 kg slides down frictionless incline 30°, distance 10 m. Speed at bottom?",
+    "options": ["10.8 m/s", "12 m/s", "14 m/s", "15 m/s"],
+    "answer": 0,
+    "explanation": "v²=2gh=2*9.8*10*sin30≈108 \n\n→ v≈10.39≈10.8 m/s."
+  },
+  {
+    "question": "Calorimeter has 100 g water, absorbs 5000 J. ΔT?",
+    "options": ["10°C", "11.9°C", "15°C", "20°C"],
+    "answer": 1,
+    "explanation": "ΔT=Q/(mc)=5000/(0.1*4186)≈11.9°C."
+  },
+  {
+    "question": "Electric potential at 0.5 m from 4 μC charge?",
+    "options": ["72 kV", "144 kV", "36 kV", "9 kV"],
+    "answer": 0,
+    "explanation": "V=k*q/r=9e9*4e-6/0.5≈72,000 V=72 kV."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "A projectile is launched with an initial velocity v at an angle θ. At the peak of its trajectory, what is its acceleration?",
+    "options": [
+      "0",
+      "g, pointing downward",
+      "v sin θ",
+      "g cos θ"
+    ],
+    "answer": 1,
+    "explanation": "In projectile motion, gravity is the only force acting on the object (neglecting air resistance).\n\n Therefore, the acceleration is always constant at 'g' pointing vertically downward throughout the entire flight, including at the peak."
+  },
+  {
+    "question": "Two resistors, R1 = 4Ω and R2 = 6Ω, are connected in parallel. What is the equivalent resistance of the circuit?",
+    "options": [
+      "10Ω",
+      "2.4Ω",
+      "5Ω",
+      "1Ω"
+    ],
+    "answer": 1,
+    "explanation": "For parallel resistors, 1/Req = 1/R1 + 1/R2. \n\nThus, 1/Req = 1/4 + 1/6 = (3+2)/12 = 5/12. Req = 12/5 = 2.4Ω."
+  },
+
+
+  {
+    "question": "A metal rod has a thermal conductivity K. If the length of the rod is doubled, the rate of heat conduction (Q/t) through it will:",
+    "options": [
+      "Double",
+      "Quadruple",
+      "Be halved",
+      "Remain the same"
+    ],
+    "answer": 2,
+    "explanation": "The rate of heat conduction is given by P = KA(ΔT)/L.\n\n Since L is in the denominator, doubling the length halves the rate of conduction."
+  },
+  {
+    "question": "How much heat is required to raise the temperature of 2kg of water (c = 4186 J/kg°C) from 20°C to 30°C?",
+    "options": [
+      "41,860 J",
+      "83,720 J",
+      "20,930 J",
+      "8,372 J"
+    ],
+    "answer": 1,
+    "explanation": "Q = mcΔT.\n\n Q = 2kg * 4186 J/kg°C * (30°C - 20°C) = \n\n2 * 4186 * 10 = 83,720 J."
+  },
+  {
+    "question": "An object moves in a circular path at a constant speed. Which statement is true regarding its velocity and acceleration?",
+    "options": [
+      "Velocity is constant, acceleration is zero",
+      "Velocity is changing, acceleration is zero",
+      "Velocity is changing, acceleration is constant in magnitude",
+      "Both are constant"
+    ],
+    "answer": 2,
+    "explanation": "Velocity is a vector; since the direction is constantly changing, the velocity is changing.\n\n The centripetal acceleration magnitude (v²/r) is constant, but its direction always points to the center."
+  },
+  {
+    "question": "In a nuclear fission reaction, the total mass of the products is:",
+    "options": [
+      "Greater than the mass of the reactants",
+      "Equal to the mass of the reactants",
+      "Less than the mass of the reactants",
+      "Zero"
+    ],
+    "answer": 2,
+    "explanation": "Energy is released in fission because some of the mass of the reactants is converted into energy (E=mc²).\n\n Therefore, the products have slightly less mass than the original reactants."
+  },
+
+  {
+    "question": "An electron is moved through a potential difference of 10V. What is the work done on the electron?",
+    "options": [
+      "10 eV",
+      "1.6 x 10⁻¹⁹ J",
+      "10 J",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "Work W = qV. \n\nFor one electron (q = e) and V = 10V, the work is 10 electron-volts (eV)."
+  },
+  {
+    "question": "What is the centripetal force acting on a 1kg mass moving at 2m/s in a circle of radius 0.5m?",
+    "options": [
+      "4 N",
+      "8 N",
+      "2 N",
+      "1 N"
+    ],
+    "answer": 1,
+    "explanation": "F = mv²/r.\n\n F = (1kg * (2m/s)²) / 0.5m = 4 / 0.5 = 8 N."
+  },
+  {
+    "question": "The half-life of a radioactive sample is 10 years. What fraction of the sample remains after 30 years?",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/8",
+      "1/4"
+    ],
+    "answer": 2,
+    "explanation": "30 years is 3 half-lives.\n\n Fraction remaining = (1/2)ⁿ, where n is the number of half-lives. (1/2)³ = 1/8."
+  },
+  {
+    "question": "In calorimetry, the Principle of Mixtures states that:",
+    "options": [
+      "Heat Gained = Heat Lost",
+      "Mass Gained = Mass Lost",
+      "Temperature Gained = Temperature Lost",
+      "Energy is destroyed"
+    ],
+    "answer": 0,
+    "explanation": "In an isolated system, the law of conservation of energy dictates that the thermal energy lost by hot objects must be equal to the thermal energy gained by cold objects."
+  },
+  {
+    "question": "What is the power dissipated by a 5Ω resistor when a current of 2A flows through it?",
+    "options": [
+      "10 W",
+      "20 W",
+      "2.5 W",
+      "4 W"
+    ],
+    "answer": 1,
+    "explanation": "P = I²R.\n\n P = (2A)² * 5Ω = 4 * 5 = 20 W."
+  },
+  {
+    "question": "A force of 10N is applied to a block on a frictionless surface, producing an acceleration of 5 m/s². What is the mass of the block?",
+    "options": [
+      "50 kg",
+      "2 kg",
+      "0.5 kg",
+      "15 kg"
+    ],
+    "answer": 1,
+    "explanation": "m = F/a. m = 10N / 5 m/s² = 2 kg."
+  },
+  {
+    "question": "The range of a projectile is maximum when the launch angle is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 1,
+    "explanation": "Range R = (v² sin 2θ) / g.\n\n The value of sin 2θ is maximum (equal to 1) when 2θ = 90°, which means θ = 45°."
+  },
+  {
+    "question": "Specific heat capacity is defined as the heat required to raise the temperature of:",
+    "options": [
+      "Entire mass by 1°C",
+      "Unit mass by 1°C",
+      "1kg mass to its boiling point",
+      "1g mass to its melting point"
+    ],
+    "answer": 1,
+    "explanation": "Specific heat (c) refers to the amount of heat energy needed to raise the temperature of a unit mass (usually 1kg) of a substance by 1 degree Celsius (or 1 Kelvin)."
+  },
+  {
+    "question": "Which fundamental force holds the nucleus together against the electrostatic repulsion of protons?",
+    "options": [
+      "Gravitational Force",
+      "Weak Nuclear Force",
+      "Strong Nuclear Force",
+      "Electromagnetic Force"
+    ],
+    "answer": 2,
+    "explanation": "The Strong Nuclear Force is a powerful, short-range force that overcomes the repulsion between positively charged protons to keep the nucleus stable."
+  },
+  {
+    "question": "Ohm's Law states that the current through a conductor is directly proportional to:",
+    "options": [
+      "Resistance",
+      "Potential Difference",
+      "Time",
+      "Square of the current"
+    ],
+    "answer": 1,
+    "explanation": "V = IR. For a constant resistance, current (I) increases linearly as the voltage (V) across the conductor increases."
+  },
+  {
+    "question": "The area under a Force vs. Time graph represents:",
+    "options": [
+      "Work Done",
+      "Power",
+      "Impulse",
+      "Acceleration"
+    ],
+    "answer": 2,
+    "explanation": "Impulse J = ∫ F dt.\n\n The area under the curve in a F-t graph is the change in momentum, also known as impulse."
+  },
+  {
+    "question": "In uniform circular motion, the direction of the centripetal acceleration is always:",
+    "options": [
+      "Tangent to the circle",
+      "Away from the center",
+      "Towards the center",
+      "Parallel to the velocity"
+    ],
+    "answer": 2,
+    "explanation": "Centripetal means 'center-seeking.'\n\n The acceleration vector always points toward the center of rotation, perpendicular to the tangential velocity."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "What is the latent heat of fusion?",
+    "options": [
+      "Heat to change gas to liquid",
+      "Heat to change solid to liquid at constant temperature",
+      "Heat to raise solid temperature by 10°C",
+      "Heat released during combustion"
+    ],
+    "answer": 1,
+    "explanation": "Latent heat of fusion is the energy required to break the molecular bonds of a solid to turn it into a liquid without changing its temperature."
+  },
+  {
+    "question": "Gamma radiation consists of:",
+    "options": [
+      "Electrons",
+      "Helium nuclei",
+      "High-energy electromagnetic waves",
+      "Protons"
+    ],
+    "answer": 2,
+    "explanation": "Gamma rays are photons—massless, chargeless particles of high-frequency electromagnetic radiation emitted from an unstable nucleus."
+  },
+  {
+    "question": "A 100W light bulb is used for 10 hours. How much energy is consumed in kilowatt-hours (kWh)?",
+    "options": [
+      "1000 kWh",
+      "10 kWh",
+      "1 kWh",
+      "0.1 kWh"
+    ],
+    "answer": 2,
+    "explanation": "Energy = Power * Time. 100W = 0.1 kW.\n\n Energy = 0.1 kW * 10 h = 1 kWh."
+  },
+  {
+    "question": "The coefficient of static friction is usually ________ the coefficient of kinetic friction.",
+    "options": [
+      "Less than",
+      "Equal to",
+      "Greater than",
+      "Half of"
+    ],
+    "answer": 2,
+    "explanation": "It generally takes more force to start an object moving (overcoming static friction) than it does to keep it moving (overcoming kinetic friction)."
+  },
+  {
+    "question": "If two objects of different masses are dropped in a vacuum, which one hits the ground first?",
+    "options": [
+      "The heavier one",
+      "The lighter one",
+      "They hit at the same time",
+      "Depends on their shape"
+    ],
+    "answer": 2,
+    "explanation": "In a vacuum, there is no air resistance. \n\nAll objects, regardless of mass, experience the same acceleration due to gravity (g) and fall at the same rate."
+  },
+  {
+    "question": "Thermal equilibrium is reached when two objects have the same:",
+    "options": [
+      "Internal energy",
+      "Mass",
+      "Temperature",
+      "Specific heat"
+    ],
+    "answer": 2,
+    "explanation": "By the Zeroth Law of Thermodynamics, heat stops flowing between two objects when they reach the same temperature."
+  },
+  {
+    "question": "Which particle is emitted during Beta-minus decay?",
+    "options": [
+      "Positron",
+      "Alpha particle",
+      "Electron",
+      "Neutron"
+    ],
+    "answer": 2,
+    "explanation": "In beta-minus decay, a neutron in the nucleus turns into a proton, emitting an electron (the beta particle) and an antineutrino."
+  },
+  {
+    "question": "A car accelerates from rest at 2 m/s². How far does it travel in 4 seconds?",
+    "options": [
+      "8 m",
+      "16 m",
+      "32 m",
+      "4 m"
+    ],
+    "answer": 1,
+    "explanation": "Using d = vit + 0.5at².\n\n Since vi = 0, d = 0.5 * 2 * 4² = 16 meters."
+  },
+  {
+    "question": "The SI unit of electric potential is the:",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt",
+      "Coulomb"
+    ],
+    "answer": 2,
+    "explanation": "Electric potential and potential difference are measured in Volts (V), which represent Joules per Coulomb."
+  },
+  {
+    "question": "What happens to the temperature of a substance during a phase change?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains constant",
+      "It fluctuates"
+    ],
+    "answer": 2,
+    "explanation": "During a phase change (like boiling or melting), the energy added is used to change the state of matter rather than increasing the kinetic energy of the molecules, so temperature stays constant."
+  },
+  {
+    "question": "Nuclear fusion occurs when:",
+    "options": [
+      "A heavy nucleus splits",
+      "Light nuclei combine to form a heavier nucleus",
+      "An atom loses an electron",
+      "A proton turns into a neutron"
+    ],
+    "answer": 1,
+    "explanation": "Fusion is the process of joining light nuclei (like hydrogen) to form a heavier one (like helium), releasing massive amounts of energy, as seen in the sun."
+  },
+  {
+    "question": "According to the Law of Conservation of Momentum, the total momentum of a closed system:",
+    "options": [
+      "Always increases",
+      "Always decreases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "In the absence of external forces, the total momentum before an event (like a collision) is equal to the total momentum after the event."
+  },
+  {
+    "question": "The slope of a velocity-time graph represents:",
+    "options": [
+      "Displacement",
+      "Acceleration",
+      "Force",
+      "Speed"
+    ],
+    "answer": 1,
+    "explanation": "Acceleration is defined as the rate of change of velocity (Δv/Δt), which is the slope of the v-t graph."
+  },
+  {
+    "question": "If you double the distance between two point charges, the electrostatic force between them becomes:",
+    "options": [
+      "Double",
+      "Half",
+      "One-fourth",
+      "One-eighth"
+    ],
+    "answer": 2,
+    "explanation": "According to Coulomb's Law, force is inversely proportional to the square of the distance (1/r²). (1/2)² = 1/4."
+  },
+  {
+    "question": "The heat capacity of a body depends on:",
+    "options": [
+      "Both its mass and material",
+      "Only its mass",
+      "Only its material",
+
+      "Its shape"
+    ],
+    "answer": 0,
+    "explanation": "Heat Capacity (C) = mass (m) * specific heat (c). Therefore, it depends on how much of the substance you have and what the substance is."
+  }
+]
+
+
+

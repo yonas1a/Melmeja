@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Let p and q be propositions with truth values true and false respectively. Which one of the following statements is NOT correct?",
+    "options": [
+      "A. p ∧ q is false.",
+      "B. p ∨ q is true.",
+      "C. p ⇒ q is false.",
+      "D. p ⇔ q is true."
+    ],
+    "answer": 3,
+    "explanation": "Since p = T and q = F, \n\nonly D (p ⇔ q is true) is NOT correct because T ⇔ F = F."
+  },
+  {
+    "question": "Let p and q be propositions. Which one of the following propositions is a tautology?",
+    "options": [
+      "A. (p ∧ q) ⇒ (p ∨ q)",
+      "B. (p ∨ q) ⇒ (p ∧ q)",
+      "C. (p⇒ ¬q)⇔ (p ∧ q)",
+      "D. (¬p ⇒ q) ⇒ (p ∧ q)"
+    ],
+    "answer": 0,
+    "explanation": "A is a tautology because (p ∧ q) ⇒ (p ∨ q) is true for all truth values of p and q."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which of the following is true about satellite motion?",
+    "options": [
+      "A satellite moving closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+      "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one.",
+      "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about Moon.",
+      "A satellite closer to Earth is faster than a satellite farther from the Earth."
+    ],
+    "answer": 3,
+    "explanation": "According to orbital mechanics, the orbital speed of a satellite is given by:- \n\nv = √(GM/r), where r is the distance from the center of the Earth.\n\n Therefore, a satellite closer to Earth (smaller r) moves faster than one farther away."
+  },
+  {
+    "question": "A satellite revolves around the Earth in a circular orbit of radius r = 4 * 10¹⁶m. The period of the satellite is ______.",
+    "options": [
+      "2.5 * 10¹⁹ s",
+      "3.7 * 10²⁷ s",
+      "3.7 * 10²⁶ s",
+      "2.5 * 10¹⁸ s"
+    ],
+    "answer": 0,
+    "explanation": "The period T of a satellite in a circular orbit is given by:- \n\nT = 2π√(r³ / GM), \nwhere G = 6.67 × 10⁻¹¹ N·m²/kg² and M = 5.97 × 10²⁴ kg (mass of Earth).\n\n Substituting r = 4 × 10¹⁶ m gives T ≈ 2.5 × 10¹⁹ s."
+  }
+]

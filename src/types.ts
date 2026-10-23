@@ -15,9 +15,9 @@ export interface UserProfile {
   universityOrCollege?: string;
 }
 
-export type ExamCategory = 'NGAT' | 'GAT' | 'EXIT' | 'ENTRANCE';
+export type ExamCategory = 'NGAT' | 'GAT' | 'EXIT' | 'ENTRANCE' | 'GRADE_9' | 'GRADE_10' | 'GRADE_11' | 'GRADE_12';
 
-export type QuestionType = 'single_choice' | 'multi_choice' | 'true_false' | 'assertion_reason' | 'matching';
+export type QuestionType = 'single_choice' | 'multi_choice' | 'true_false' | 'assertion_reason' | 'matching' | 'quantitative_comparison';
 
 export interface Question {
   id: string;
@@ -25,7 +25,10 @@ export interface Question {
   number: number;
   questionText: string;
   questionType?: QuestionType;
-  passage?: string; // Optional reading passage or background context
+  premise?: string; // Optional given information / condition for Quantitative Comparison or problem context
+  columnA?: string; // Quantity in Column A (for quantitative_comparison)
+  columnB?: string; // Quantity in Column B (for quantitative_comparison)
+  passage?: string; // Optional reading passage, data set or background context
   codeBlock?: string; // Optional formula, code snippet or tabular text
   diagramUrl?: string; // Diagram or Image URL
   imageUrl?: string; // Alias / alternative for diagram image
@@ -47,6 +50,8 @@ export interface Exam {
   title: string;
   category: ExamCategory;
   subCategory: string; // e.g. 'Verbal & Quantitative', 'Computer Science Exit', 'Law Exit'
+  department?: string; // e.g. 'Mathematics', 'Physics', 'Biology', etc.
+  grade?: string; // e.g. 'Grade 9', 'Grade 10', etc.
   description: string;
   durationMinutes: number;
   totalQuestions: number;
@@ -103,6 +108,9 @@ export interface PaymentSubmission {
   reviewedAt?: string;
   reviewedBy?: string;
   rejectionReason?: string;
+  webhookSentAt?: string;
+  webhookStatus?: 'sent' | 'verified' | 'failed';
+  verifiedBy?: 'admin' | 'webhook' | string;
 }
 
 export interface ExamPackage {

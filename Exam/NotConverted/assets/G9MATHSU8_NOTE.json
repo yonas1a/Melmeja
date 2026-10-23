@@ -1,0 +1,111 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 8: VECTORS IN TWO DIMENSIONS",
+"notes": "✓ Vector → a quantity with BOTH magnitude and direction.\n\n✓ Scalar → a quantity with magnitude ONLY.\n\n✓ Key idea: Vector = size + direction | Scalar = size only.",
+"image": null
+},
+{
+"type": "note",
+"title": "8.1 VECTOR & SCALAR QUANTITIES",
+"notes": "◆ Scalars → mass, density, temperature, distance, area, speed.\n\n◆ Vectors → force, velocity, acceleration, displacement, electric field, magnetic field.\n\n✓ Remember: Speed is scalar, while velocity is vector.",
+"image": null
+},
+{
+"type": "note",
+"title": "VECTOR REPRESENTATION",
+"notes": "✓ A vector is represented by a directed line segment AB⃗.\n\n◆ A → initial point\n◆ B → terminal point\n◆ |AB⃗| → magnitude (length) of the vector\n◆ Arrowhead → shows the direction\n\n✓ The same vector can be moved without changing its magnitude or direction.",
+"image": null
+},
+{
+"type": "note",
+"title": "EQUAL, OPPOSITE & PARALLEL VECTORS",
+"notes": "✓ Equal vectors → same magnitude + same direction.\n\n✓ Opposite vectors → same magnitude + opposite directions.\n\n✓ Parallel vectors → same or opposite direction.\n\n✓ Two vectors are parallel if one is a scalar multiple of the other:\nb⃗ = k a⃗",
+"image": null
+},
+{
+"type": "note",
+"title": "8.2 REPRESENTATION OF A VECTOR",
+"notes": "✓ A vector in two dimensions can be written as:\n\na⃗ = (x, y)\n\n◆ x → horizontal component\n◆ y → vertical component\n\n✓ The components describe how far the vector moves horizontally and vertically.",
+"image": null
+},
+{
+"type": "note",
+"title": "MAGNITUDE OF A VECTOR",
+"notes": "✓ For a⃗ = (x, y):\n\n|a⃗| = √(x² + y²)\n\n✓ For A(x₁,y₁) and B(x₂,y₂):\n\n|AB⃗| = √[(x₂−x₁)² + (y₂−y₁)²]\n\n✓ Magnitude = length of the vector.",
+"image": null
+},
+{
+"type": "note",
+"title": "DIRECTION OF A VECTOR",
+"notes": "✓ The direction of a vector is given by the angle it makes with a reference direction.\n\nFor components x and y:\n\ntan θ = y/x\n\n✓ when θ is measured from the positive horizontal direction.\n\n✓ Direction can also be expressed using bearings, such as:\nN 53° E | S 45° W",
+"image": null
+},
+{
+"type": "note",
+"title": "8.3 VECTOR ADDITION",
+"notes": "◆ Triangle Law\nIf:\nAB⃗ = u⃗ and BC⃗ = v⃗\n\nthen:\n✓ AB⃗ + BC⃗ = AC⃗\n\n✓ AC⃗ → resultant vector\n\n◆ Method: Place the initial point of the second vector at the terminal point of the first vector.",
+"image": null
+},
+{
+"type": "note",
+"title": "PARALLELOGRAM LAW",
+"notes": "✓ When two vectors start from the same point, complete a parallelogram using the two vectors.\n\n✓ The diagonal represents the resultant:\nR⃗ = u⃗ + v⃗\n\n✓ For perpendicular vectors:\n|R⃗| = √(|u⃗|² + |v⃗|²)\n\n✓ This is based on Pythagoras' theorem.",
+"image": null
+},
+{
+"type": "note",
+"title": "VECTOR SUBTRACTION",
+"notes": "✓ Subtracting a vector is the same as adding its opposite.\n\nu⃗ − v⃗ = u⃗ + (−v⃗)\n\n✓ Opposite vector → same magnitude but reversed direction.\n\n✓ Think: subtraction = addition of the opposite.",
+"image": null
+},
+{
+"type": "note",
+"title": "ZERO VECTOR",
+"notes": "✓ A zero (null) vector has:\n\nMagnitude = 0\nNo definite direction\n\n✓ Symbol: 0⃗",
+"image": null
+},
+{
+"type": "note",
+"title": "8.3.2 SCALAR MULTIPLICATION",
+"notes": "✓ For scalar k and vector a⃗:\n\nka⃗ changes the magnitude by a factor of |k|.\n\n◆ k > 0 → same direction\n◆ k < 0 → opposite direction\n◆ |k| > 1 → vector becomes longer\n◆ 0 < |k| < 1 → vector becomes shorter\n◆ k = 0 → zero vector",
+"image": null
+},
+{
+"type": "note",
+"title": "SCALAR MULTIPLICATION IN COMPONENT FORM",
+"notes": "If:\na⃗ = (x, y)\n\nthen:\n✓ k a⃗ = (kx, ky)\n\nExample:\n2(2,4) = (4,8)\n\n−(2,4) = (−2,−4)",
+"image": null
+},
+{
+"type": "note",
+"title": "8.4 POSITION VECTOR",
+"notes": "✓ A position vector starts at the origin O(0,0).\n\nIf its terminal point is (x,y):\n\nu⃗ = xi + yj = (x,y)\n\n◆ i = (1,0) → unit vector in x-direction\n◆ j = (0,1) → unit vector in y-direction",
+"image": null
+},
+{
+"type": "note",
+"title": "VECTOR FROM TWO POINTS",
+"notes": "If:\nA = (x₁,y₁)\nB = (x₂,y₂)\n\n✓ then the vector from A to B is:\n\nAB⃗ = (x₂−x₁, y₂−y₁)\n\n✓ Final point − Initial point.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT VECTORS i & j",
+"notes": "✓ i = (1,0) → unit vector in the x-direction.\n✓ j = (0,1) → unit vector in the y-direction.\n\nTherefore:\nu⃗ = xi + yj\n\ni and j form the basic directions used to express 2D vectors.",
+"image": null
+},
+{
+"type": "note",
+"title": "8.5 APPLICATIONS OF VECTORS",
+"notes": "✓ Vectors are used to find or describe:\n\nDisplacement\nResultant forces\nHorizontal & vertical components\nMotion\nDirection\n\n✓ For perpendicular horizontal and vertical movements:\nDisplacement = √(horizontal² + vertical²)\n\n✓ Vectors are useful whenever both SIZE and DIRECTION matter.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 8: FORMULA CHEAT SHEET",
+"notes": "◆ Vector:\n✓ a⃗ = (x,y)\n\n◆ Magnitude:\n✓ |a⃗| = √(x²+y²)\n\n◆ Vector between two points:\n✓ AB⃗ = (x₂−x₁,y₂−y₁)\n\n◆ Distance / magnitude:\n✓ |AB⃗| = √[(x₂−x₁)²+(y₂−y₁)²]\n\n◆ Addition:\n✓ u⃗ + v⃗ = resultant\n\n◆ Subtraction:\n✓ u⃗ − v⃗ = u⃗ + (−v⃗)\n\n◆ Scalar multiplication:\n✓ k(x,y) = (kx,ky)\n\n◆ Position vector:\n✓ u⃗ = xi+yj\n\n◆ Perpendicular resultant:\n✓ |R⃗| = √(|u⃗|²+|v⃗|²)\n\n◆ Direction:\n✓ tan θ = y/x\n\n✓ EXAM TIP: Know the difference between scalar/vector, magnitude/direction, and initial/final coordinates.",
+"image": null
+}
+]

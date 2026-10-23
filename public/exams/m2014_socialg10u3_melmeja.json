@@ -1,0 +1,57 @@
+{
+  "id": "m2014_socialg10u3_melmeja",
+  "title": "Grade 10 Mathematics National Exam & Practice 2014",
+  "category": "GRADE_10",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 10",
+  "description": "Grade 10 Mathematics National Exam & Practice 2014 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_10",
+    "2014",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_m2014_socialg10u3_melmeja_1",
+      "examId": "m2014_socialg10u3_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "19) The solution set of inequality $3x^2 - 35x - 12 < 0$ is",
+      "options": [
+        "$(-\\frac{1}{3}, 12)$",
+        "$(-\\infty, -\\frac{1}{3})$",
+        "$(12, \\infty)$",
+        "$(-\\infty, -12)$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "To solve the quadratic inequality $3x^2 - 35x - 12 < 0$, first find the roots of the corresponding equation $3x^2 - 35x - 12 = 0$. Using factoring or the quadratic formula:\\n$3x^2 - 35x - 12 = 0$\\n$(3x + 1)(x - 12) = 0$\\nThe roots are $x_1 = -\\frac{1}{3}$ and $x_2 = 12$. Since the inequality is strictly less than $0$ ($< 0$), and the leading coefficient ($3$) is positive (the parabola opens upward), the function is negative (below the $x$-axis) between the roots. Therefore, the solution set is the open interval between the roots: $(-\\frac{1}{3}, 12)$. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg10u3_melmeja_2",
+      "examId": "m2014_socialg10u3_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "26) Which one of the following statements is NOT TRUE about the graph of the given linear inequality?",
+      "options": [
+        "The graph of the linear inequality $y \\le 2x - 1$ is above the line $y = 2x$ on the interval $(-\\infty, -1)$",
+        "The graph of the linear inequality $y \\ge 2x + 1$ contains no points of the line $y = 2x - 3$",
+        "The graph of the linear inequality $y \\le 2x + 1$ is below the line $y = -y$ on the interval $(-\\infty, -1)$",
+        "The graph of the linear inequality $y > 2x - 1$ contains all points of the line $y = 2x$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Let's analyze each statement:\\n**A. Inequality $y \\le 2x - 1$ vs. Line $y = 2x$.** The graph of $y \\le 2x - 1$ is the region *on or below* the line $y = 2x - 1$. The line $y = 2x$ is always $1$ unit *above* the line $y = 2x - 1$. Therefore, the inequality region $y \\le 2x - 1$ is always *below* the line $y = 2x$. The statement claims the graph of the inequality is *above* the line $y=2x$. This statement is **FALSE** (and could be the answer if it asked for the false statement). However, let's check others.\\n**B. Inequality $y \\ge 2x + 1$ vs. Line $y = 2x - 3$.** The graph of $y \\ge 2x + 1$ is the region *on or above* the line $y = 2x + 1$. The line $y = 2x - 3$ is always $4$ units *below* the line $y = 2x + 1$. Since the line $y = 2x - 3$ is strictly below the shaded region of the inequality, the inequality region contains **no points** of the line $y = 2x - 3$. This statement is **TRUE**.\\n**C. Inequality $y \\le 2x + 1$ vs. Line $y = -y$.** The line $y = -y$ simplifies to $2y = 0$, or $y = 0$ (the $x$-axis). The statement claims the region $y \\le 2x + 1$ is *below* the line $y = 0$ (the $x$-axis) on the interval $x \\in (-\\infty, -1)$. The region $y \\le 2x + 1$ is below the $x$-axis only when $2x + 1 < 0$, which means $2x < -1$, or $x < -0.5$. The interval $(-\\infty, -1)$ is contained within $x < -0.5$. So for $x \\in (-\\infty, -1)$, the region is below the $x$-axis. This statement is **TRUE**.\\n**D. Inequality $y > 2x - 1$ vs. Line $y = 2x$.** The line $y = 2x$ is defined by points $(x, 2x)$. A point $(x, y)$ is in the region $y > 2x - 1$ if $y$ is greater than $2x - 1$. For any point on the line $y = 2x$, the inequality is $2x > 2x - 1$. Subtracting $2x$ gives $0 > -1$, which is always true. Thus, **all points on the line $y = 2x$ satisfy the inequality $y > 2x - 1$**. This statement is **TRUE**.\\n**Conclusion:** Statement A is the only one that is **NOT TRUE**. The statement claims the graph is *above* $y=2x$ when it is always *below* it.",
+      "topic": "Mathematics"
+    }
+  ]
+}

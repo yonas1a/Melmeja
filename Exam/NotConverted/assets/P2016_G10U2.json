@@ -1,0 +1,24 @@
+[
+{
+  "question": "5. Which one of the following statements is correct about the electric field due to a charged spherical solid conductor?",
+  "options": [
+    "It is non-zero constant inside the sphere.",
+    "It is parallel to the surface of the sphere.",
+    "It is zero inside the sphere.",
+    "It is non-zero constant outside the sphere."
+  ],
+  "answer": 2,
+  "explanation": "For a charged solid conductor in electrostatic equilibrium, all excess charge resides on the outer surface. According to Gauss's Law, the **electric field inside the sphere is zero** ($E=0$) because there is no net charge enclosed by any Gaussian surface inside the conductor."
+},
+{
+"question": "9. The charge of $20.0 \\mu C$ is stored on the capacitor when a potential difference between its two parallel plates is $200.0 V$. what is the capacitance of the capacitor?",
+"options": [
+"0.1 \\mu F",
+"4.0 \\mu F",
+"1.0 \\mu F",
+"10.0 \\mu F"
+],
+"answer": 0,
+"explanation": "Capacitance ($C$) is calculated using the formula $C = \\frac{Q}{V}$, where $Q$ is the charge and $V$ is the potential difference.\n$$C = \\frac{20.0 \\mu C}{200.0 V} = 0.1 \\frac{\\mu C}{V}$$ \nSince $\\frac{C}{V} = F$, the capacitance is **$0.1 \\mu F$**."
+}
+]

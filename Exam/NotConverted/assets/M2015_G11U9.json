@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Let f(x) = -1/3cos(3x/2-π/3)+1 Then what is the period and phase shift of the graph of f respectively?",
+    "options": [
+      "π/9 and 4π/9",
+      "3π/2 and 4π/9",
+      "2π/3 and 2π/9",
+      "4π/3 and 2π/9"
+    ],
+    "answer": 3,
+    "explanation": "The standard cosine form is f(x) = a cos(bx - c) + d.\n\n Here b = 3/2, c = π/3.\n Period = 2π/b =\n 2π / (3/2) \n= 4π/3.\n\n Phase shift = c/b = \n(π/3)/(3/2) =\n 2π/9."
+  },
+  {
+    "question": "Which of the following functions has a graph that completes one full cycle on  [-π/4, 11π/4]?",
+    "options": [
+      "f(x) = 2sin(2x + π/6)",
+      "f(x) = 2sin(2/3 + π/6)",
+      "f(x) = 3sin(4x/3 + π/2)",
+      "f(x) = 3sin(3x + π/6)"
+    ],
+    "answer": 2,
+    "explanation": "The interval length is 11π/4 - (-π/4) = 3π.\n\n A function completes one full cycle if its period = 3π. "
+  },
+  {
+    "question": "Which of the following is true about the graph of y = 3sin(4x)?",
+    "options": [
+      "The graph rises up on [0, π/4].",
+      "The graph completes one cycle on the interval [0, π/4].",
+      "The graph lies below the x-axis on (π/4, π/2).",
+      "The graph completes one cycle on the interval [0, π]."
+    ],
+    "answer": 2,
+    "explanation": "The period of y = 3 sin(4x) is 2π/4 = π/2.\n\n One full cycle is completed on [0, π/2]. \n\nOn (π/4, π/2), 4x ∈ (π, 2π), so sin(4x) is negative and the graph lies below the x-axis.\n\n Hence, option 3 is true."
+  }
+]

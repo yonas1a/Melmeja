@@ -1,0 +1,24 @@
+[
+{
+  "question": "4. Which of the following statements is correct about the components of the velocity of a ball projected up at an angle of $\\theta$ with the horizontal? Neglecting the air resistance,",
+  "options": [
+    "the horizontal component of the velocity remains constant throughout the journey.",
+    "the horizontal velocity of the ball is equal to zero at the maximum height.",
+    "the vertical component of the velocity remains constant throughout its journey.",
+    "the vertical component of velocity increases while the horizontal component of velocity decreases."
+  ],
+  "answer": 0,
+  "explanation": "In **projectile motion** (neglecting air resistance), there is no horizontal force acting on the object. Therefore, the **horizontal component of the velocity ($v_x$) remains constant** throughout the flight."
+},
+  {
+    "question": "8. The orbital speed of a satellite at a height of 780 km from the surface of the earth is $7,465 m/s$. What is the period of the satellite?",
+    "options": [
+      "6.60 \\times 10^3 s",
+      "6.60 \\times 10^2 s",
+      "6.04 \\times 10^2 s",
+      "6.04 \\times 10^3 s"
+    ],
+    "answer": 3,
+    "explanation": "The period ($T$) of the satellite is $T = \\frac{2\\pi r}{v}$. We must first find the orbital radius ($r$), assuming the Earth's radius ($R_E$) is approximately $6,400 \\text{ km}$.\n1.  **Orbital Radius ($r$):**\n    $$r = R_E + h = 6,400 \\text{ km} + 780 \\text{ km} = 7,180 \\text{ km} = 7.18 \\times 10^6 \\text{ m}$$\n2.  **Calculate Period ($T$):**\n    $$T = \\frac{2\\pi (7.18 \\times 10^6 \\text{ m})}{7,465 \\text{ m/s}} \\approx 6,043 \\text{ s}$$\n3.  **Scientific Notation:** $T \\approx 6.04 \\times 10^3 \\text{ s}$."
+  }
+]

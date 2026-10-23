@@ -1,0 +1,135 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 4: INTRODUCTION TO LINEAR PROGRAMMING",
+"notes": "✓ Linear programming → a mathematical method used to find the maximum or minimum value of a linear objective function subject to restrictions called constraints.\n\n◆ Decision variables → unknown quantities to be determined.\n\n◆ Objective function → quantity to be maximized or minimized.\n\n◆ Constraints → restrictions on the decision variables.\n\n◆ Feasible region → all points satisfying all constraints.\n\n◆ Corner point → a vertex of the feasible region.\n\nExample → A factory produces products A and B.\nLet x = number of A and y = number of B. If profit is 40 Birr per A and 30 Birr per B, then:\nP = 40x + 30y\n\n→ The goal may be to maximize P subject to available labor and materials.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.1 GRAPHICAL SOLUTIONS OF SYSTEMS OF LINEAR INEQUALITIES",
+"notes": "✓ Linear inequality → an inequality involving variables of degree one.\n\nExamples:\nx + y ≤ 10\n2x + y ≥ 6\nx ≥ 0\ny ≥ 0\n\n→ A linear inequality in two variables represents a region of the coordinate plane.\n\n◆ The boundary is obtained by replacing the inequality sign with =.\n\nExample → For x + y ≤ 6, the boundary is:\nx + y = 6.\n\nThe line passes through (6,0) and (0,6). The required half-plane is the side containing (0,0).",
+"image": null
+},
+{
+"type": "note",
+"title": "BOUNDARY LINES",
+"notes": "✓ To graph a linear inequality, first graph its boundary equation.\n\n◆ ≤ or ≥ → solid boundary line.\n◆ < or > → dashed boundary line.\n\nExample →\ny ≤ 2x + 1\n\nBecause the inequality contains ≤, draw y = 2x + 1 as a solid line.\n\nExample →\ny > 2x + 1\n\nBecause the inequality contains >, draw the boundary as a dashed line.",
+"image": null
+},
+{
+"type": "note",
+"title": "TEST-POINT METHOD",
+"notes": "✓ A test point determines which side of the boundary line satisfies an inequality.\n\nSteps:\n1. Draw the boundary line.\n2. Choose a point not on the line.\n3. Substitute it into the inequality.\n4. If the statement is true, shade the side containing the point.\n5. If false, shade the opposite side.\n\nExample → x + y ≤ 6.\n\nChoose (0,0):\n0 + 0 ≤ 6 ✓\n\n→ Therefore, shade the side containing (0,0).",
+"image": null
+},
+{
+"type": "note",
+"title": "WORD PROBLEMS OF LINEAR INEQUALITIES",
+"notes": "✓ Real-life statements can be translated into inequalities.\n\n◆ At most → ≤\n◆ No more than → ≤\n◆ At least → ≥\n◆ No less than → ≥\n◆ Less than → <\n◆ Greater than → >\n\nExample → A student can spend at most 500 Birr on books and notebooks. If x is spent on books and y on notebooks:\n\nx + y ≤ 500.\n\n→ The inequality represents the spending limit.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.1.3 LINEAR INEQUALITIES IN TWO VARIABLES",
+"notes": "✓ General form:\nAx + By ≤ C\nAx + By ≥ C\nAx + By < C\nAx + By > C\n\nExample →\n2x + 3y ≤ 12\n\nBoundary:\n2x + 3y = 12\n\nIntercepts:\nIf y = 0 → x = 6.\nIf x = 0 → y = 4.\n\n→ Draw the line through (6,0) and (0,4), then shade the appropriate side.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.1.4 SYSTEMS OF LINEAR INEQUALITIES",
+"notes": "✓ System of linear inequalities → two or more inequalities that must be satisfied simultaneously.\n\nExample:\nx + y ≤ 6\n2x + y ≤ 8\nx ≥ 0\ny ≥ 0\n\n→ Graph all the inequalities.\n→ The common shaded area is the feasible region.\n\n✓ Every point inside the common region satisfies all four inequalities.",
+"image": null
+},
+{
+"type": "note",
+"title": "FEASIBLE REGION",
+"notes": "✓ Feasible region → the set of all points satisfying every constraint in a linear programming problem.\n\nExample → Consider:\nx + y ≤ 6\nx ≥ 0\ny ≥ 0\n\n→ The feasible region is the triangular region bounded by x = 0, y = 0 and x + y = 6.\n\nIts corner points are:\n(0,0), (6,0), (0,6).",
+"image": null
+},
+{
+"type": "note",
+"title": "4.2 MAXIMUM AND MINIMUM VALUES",
+"notes": "✓ Optimization → finding the largest or smallest value of a quantity under given restrictions.\n\n◆ Maximization → finding the greatest possible value.\n◆ Minimization → finding the smallest possible value.\n\nExample → If profit is:\nP = 40x + 30y\n\nand x and y are restricted by several inequalities, the problem is to find the values of x and y that give the greatest possible P.",
+"image": null
+},
+{
+"type": "note",
+"title": "OBJECTIVE FUNCTION",
+"notes": "✓ Objective function → the linear function that is maximized or minimized.\n\nGeneral form:\nZ = ax + by\n\nExample → A company earns 50 Birr for product A and 40 Birr for product B.\n\nLet x = number of A and y = number of B.\n\nProfit:\nZ = 50x + 40y.\n\n→ If the company wants the greatest profit, maximize Z.",
+"image": null
+},
+{
+"type": "note",
+"title": "DECISION VARIABLES",
+"notes": "✓ Decision variables → variables whose values must be chosen to solve the problem.\n\nExample → A bakery produces bread and cakes.\n\nx = number of breads\ny = number of cakes\n\n→ If the bakery must decide how many of each to produce, x and y are the decision variables.",
+"image": null
+},
+{
+"type": "note",
+"title": "CONSTRAINTS",
+"notes": "✓ Constraints → restrictions caused by limited resources or required conditions.\n\nExample → A factory has at most 100 hours of labor. Product A needs 2 hours and product B needs 5 hours.\n\n2x + 5y ≤ 100\n\n→ This constraint means total labor cannot exceed 100 hours.",
+"image": null
+},
+{
+"type": "note",
+"title": "NON-NEGATIVITY CONSTRAINTS",
+"notes": "✓ Decision variables representing quantities normally cannot be negative.\n\nTherefore:\nx ≥ 0\ny ≥ 0\n\nExample → If x represents the number of tables produced, x = −5 has no practical meaning.\n\n→ Therefore x must satisfy x ≥ 0.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.2.1 CORNER-POINT METHOD",
+"notes": "✓ The corner-point method finds the optimum by evaluating the objective function at every corner point of the feasible region.\n\nSteps:\n1. Graph the constraints.\n2. Identify the feasible region.\n3. Find all corner points.\n4. Substitute every corner point into the objective function.\n5. Choose the largest value for maximum or smallest value for minimum.\n\nExample:\nMaximize Z = 3x + 2y\n\nSuppose the feasible-region corners are:\n(0,0), (4,0), (4,2), (0,3).\n\nZ-values:\n(0,0) → 0\n(4,0) → 12\n(4,2) → 16\n(0,3) → 6\n\n✓ Maximum Z = 16 at (4,2).",
+"image": null
+},
+{
+"type": "note",
+"title": "BOUNDED FEASIBLE REGION",
+"notes": "✓ Bounded feasible region → a region that does not extend indefinitely.\n\nExample →\nx ≥ 0\ny ≥ 0\nx + y ≤ 10\n\n→ The solution is limited to the first-quadrant triangle with vertices (0,0), (10,0) and (0,10).\n\n✓ Since the region is bounded, both maximum and minimum values of a linear objective function exist on the region.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNBOUNDED FEASIBLE REGION",
+"notes": "✓ Unbounded feasible region → a feasible region that extends indefinitely in at least one direction.\n\nExample:\nx ≥ 0\ny ≥ 0\nx + y ≥ 5\n\n→ The feasible region extends indefinitely away from the line x + y = 5.\n\n✓ An unbounded region does not automatically mean that an optimal solution does not exist. The objective function must be examined.",
+"image": null
+},
+{
+"type": "note",
+"title": "OPTIMAL VALUE AT A CORNER POINT",
+"notes": "✓ For a linear programming problem with an optimal solution, an optimal value occurs at a corner point of the feasible region.\n\nExample → If the corner points are:\n(0,0), (5,0), (5,3), (0,4)\n\nand Z = 2x + 3y, evaluate Z at each point.\n\n→ The point producing the largest value gives the maximum solution.",
+"image": null
+},
+{
+"type": "note",
+"title": "MULTIPLE OPTIMAL SOLUTIONS",
+"notes": "✓ A linear programming problem can have more than one optimal solution.\n\n→ This happens when the objective function is parallel to a boundary edge of the feasible region and has the same optimum at two connected corner points.\n\nExample → If Z has the same maximum value at (2,4) and (6,2), then every point on the line segment joining these two points gives the same maximum value.\n\n✓ Therefore, there can be infinitely many optimal solutions along that segment.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.3 APPLICATIONS OF LINEAR PROGRAMMING",
+"notes": "✓ Linear programming can be used for practical decision-making involving limited resources.\n\nApplications include:\n◆ Production\n◆ Diet/feed problems\n◆ Allocation\n◆ Transportation\n◆ Cost minimization\n◆ Profit maximization\n\nExample → A farmer may decide how many hectares of two crops to plant to maximize profit while respecting limits on land, labor and fertilizer.",
+"image": null
+},
+{
+"type": "note",
+"title": "IMPORTANT WORD TRANSLATIONS",
+"notes": "◆ At most → ≤\nExample: x is at most 20 → x ≤ 20.\n\n◆ At least → ≥\nExample: x is at least 20 → x ≥ 20.\n\n◆ No more than → ≤\nExample: no more than 50 units → x ≤ 50.\n\n◆ No less than → ≥\nExample: no less than 50 units → x ≥ 50.\n\n◆ Maximum → greatest possible value.\n\n◆ Minimum → smallest possible value.",
+"image": null
+},
+{
+"type": "note",
+"title": "COMPLETE LINEAR PROGRAMMING EXAMPLE",
+"notes": "✓ A company produces tables and chairs.\n\nLet:\nx = tables\ny = chairs\n\nProfit:\nP = 40x + 30y\n\nConstraints:\n2x + y ≤ 40\nx + 2y ≤ 50\nx ≥ 0\ny ≥ 0\n\nSteps:\n1. Graph the constraint lines.\n2. Find the feasible region.\n3. Find the corner points.\n\nThe intersection of:\n2x + y = 40\nx + 2y = 50\n\ngives:\nx = 10,\ny = 20.\n\nOther corner points are:\n(0,0), (20,0), (0,25).\n\nStep 4 → Evaluate P:\n\nP(0,0) = 0\nP(20,0) = 800\nP(0,25) = 750\nP(10,20) = 1,000\n\n✓ Maximum profit = 1,000 Birr at x = 10 and y = 20.\n\n→ Therefore, the company should produce 10 tables and 20 chairs under these assumptions.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUICK EXAM REMINDER",
+"notes": "✓ Linear inequality → graph a boundary line and shade the correct side.\n\n◆ ≤ or ≥ → solid line.\n◆ < or > → dashed line.\n\n✓ System of inequalities → common shaded region.\n\n✓ Feasible region → all points satisfying every constraint.\n\n◆ Decision variables → quantities being determined.\n◆ Objective function → quantity to maximize or minimize.\n◆ Constraints → restrictions.\n◆ Corner points → vertices of the feasible region.\n\n◆ Maximum → greatest objective value.\n◆ Minimum → smallest objective value.\n\n✓ Corner-point method → evaluate the objective function at every corner point.\n\n◆ Production → often maximizes profit.\n◆ Diet/feed → often minimizes cost.\n◆ Allocation → distributes scarce resources.\n◆ Transportation → usually minimizes transportation cost.\n◆ Spreadsheet Solver → useful for larger LPPs with many variables.\n\n✓ EXAM TIP → Never choose an optimum by looking at the graph alone. Find the feasible corner points and substitute each one into the objective function.",
+"image": null
+}
+]

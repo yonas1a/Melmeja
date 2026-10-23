@@ -1,0 +1,226 @@
+[
+  {
+    "question": "Section Two: Quantitative Reasoning (Questions 36 - 60) 1)\n\n How many triangles are there in the diagram?",
+    "options": [
+      "A 18",
+      "B 14",
+      "C 16",
+      "D 12"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+{
+"question": " Which one of the following statements is true?",
+"options": [
+"A Every integer number can be numerator of a rational number.",
+"B Every non-negative integer is a natural number.",
+"C The intersection of the set of integers and the set of irrational numbers is non-empty set.",
+"D The sum of two irrational numbers is irrational number."
+],
+"answer": 0,
+"explanation": "Option A is true because any integer n can be written as a rational number n/1.\n\n Options B, C, and D are false for the reasons: B → 0 may not be considered natural;\n C → integers are rational, so intersection with irrationals is empty;\n D → sum of two irrationals can be rational."
+},
+{
+"question": " If f(x) = sin πx + e²ˣ + |x| + x³ and g(x) = cos πx + ln(x + 1) + x², then what is the value of f(1) - 2g(0)?",
+"options": [
+"A e",
+"B ln2",
+"C 0",
+"D e + 2"
+],
+"answer": 0,
+"explanation": "Assuming f(x) = sin(πx) + eˣ + |x| + x³ and g(x) = cos(πx) + ln(x+1) + x²: \n\nf(1) = 0 + e + 1 + 1 = e + 2; \n\ng(0) = 1 + 0 + 0 = 1; \n\nf(1) - 2g(0) = (e + 2) - 2.1 = e."
+},
+{
+"question": " A person makes a glass of juice with avocado, one third of the glass with mangoes, and the rest is filled with banana and papaya with the same proportion. Which one of the following is the ratio of bananas to avocados in the glass?",
+"options": [
+"A 1 : 6",
+"B 1 : 2",
+"C 1 : 3",
+"D 2 : 3"
+],
+"answer": 2,
+"explanation": ""
+},
+{
+"question": " Which one of the following is the largest number?",
+"options": [
+"A ⁶√5",
+"B ³⁶√2",
+"C ¹²√11",
+"D ⁶⁴√3"
+],
+"answer": 2,
+"explanation": "Compare intuitively: higher root brings the number closer to 1.\n\n 5¹⁄₆ has a bigger base and smaller root compared to 11¹⁄₁₂, 2¹⁄₃₆, and 3¹⁄₆₄.\n\n So ⁶√5 is the largest."
+},
+{
+"question": " Two pipes A and B are used to fill a water tank. Pipe A can fill the tank in 3 hours, and pipe B can fill the same tank in 6 hours. How long will it take in hours to fill the tank if both pipes are opened at the same time?",
+"options": [
+"A 5",
+"B 4",
+"C 9",
+"D 2"
+],
+"answer": 3,
+"explanation": "Pipe A fills 1/3 tank per hour, Pipe B fills 1/6 tank per hour.\n\n Combined rate = 1/3 + 1/6 = 1/2 tank per hour. Time = 1 / (1/2) = 2 hours."
+},
+{
+"question": " A milk factory has only two pipe machines used to fill bottles for market. The old and new machines can fill 35 and 50 bottles per hour, respectively, and a total of 590 bottles are filled every day. One day the old machine was broken after working for 4 hours. How long will it take in hours for the new machine to fill the remaining bottles on that day?",
+"options": [
+"A 8",
+"B 5",
+"C 13",
+"D 7"
+],
+"answer": 2,
+"explanation": "Both machines together fill 35 + 50 = 85 bottles/hour. \n\nIn 4 hours they fill 85 × 4 = 340 bottles. \n\nRemaining = 590 - 340 = 250 bottles.\n\n New machine alone fills 50 bottles/hour → time = 250 / 50 = 5 hours."
+},
+{
+"question": " If a spherical soccer ball has a volume of 36πcm³, then which one of the following is the surface area of the ball in square centimeter?",
+"options": [
+"A (16π/3",
+"B 12π",
+"C 36π",
+"D (32π)/3"
+],
+"answer": 2,
+"explanation": "Volume V = 36π = (4/3)πr³ →\n\n r³ = 36 * (3/4) = 27 → r = 3 cm.\n\n Surface area S = 4πr² = 4π(3²) = 36π cm²."
+},
+{
+"question": " A ball is shot into the air from the top of the building. The height in meter is given by h(t) = kt - t² + 30, where t is the time taken in second. What is the possible value of k if the maximum value of height from the ground is 34?",
+"options": [
+"A 6",
+"B 4",
+"C 5",
+"D 2"
+],
+"answer": 2,
+"explanation": "Maximum height of h(t) = -t² + k t + 30 occurs at t = k/2.\n\n h_max = k²/4 + 30. Given h_max = 34 → k²/4 + 30 = 34 → k² = 16 → k = 4."
+},
+{
+"question": " A farmer has ten cows. Every day, he receives the same amount of milk in liters from each cow. One day, due to the food supply, he received half of the daily amount of milk from the four cows; he received three-fourth of the daily amount of milk from the three cows; and no milk from the other three cows. In total, he didn't receive ninety-two liters of milk on that day. How many liters of milk did he receive on that particular day?",
+"options": [
+"A 92",
+"B 16",
+"C 160",
+"D 68"
+],
+"answer": 0,
+"explanation": "Let x = daily milk per cow. Lost milk: 4*(1/2)x + 3*(1/4)x + 3*x = 2x + 3/4 x + 3x = 23/4 x = 92 → x = 16 liters.\n\n Total received = 10*16 - 92 = 68 liters."
+},
+
+{
+"question": "If -x+2y=4, then what is the value of (25ʸ)/(5ˣ) ?",
+"options": [
+"125",
+"625",
+"5",
+"25"
+],
+"answer": 1,
+"explanation": "(25ʸ)/(5ˣ) = (5² )ʸ / 5ˣ \n\n= 5²ʸ / 5ˣ = 5²ʸ⁻ˣ. \n\nGiven -x + 2y = 4 →\n\n 2y - x = 4. So 5²ʸ⁻ˣ = 5⁴ = 625."
+},
+{
+"question": "A woman burns 416 calories in an hour exercise at a fitness center. If she burns 10 calories per minute swimming in the water and 6 calories per minute pedaling on the stationary bike, then how many minutes of the hour does she spend exercising in the water?",
+"options": [
+"56",
+"14",
+"60",
+"46"
+],
+"answer": 1,
+"explanation": "Let x = minutes swimming.\n\n Then 60 - x = minutes biking.\n\n Total calories: 10x + 6(60 - x) = 416 → 10x + 360 - 6x = 416 → 4x = 56 → x = 14 minutes."
+},
+{
+"question": "Which one of the following is the domain of g(x) = ln(1-x) + ln x?",
+"options": [
+"(0, ∞)",
+"ℝ\\ (-1, 0)",
+"(0, 1)",
+"(1, ∞)"
+],
+"answer": 2,
+"explanation": "g(x) = ln(1-x) + ln x. \n\nln(1-x) requires 1-x > 0 → x < 1. \n\nln x requires x > 0. Combine: 0 < x < 1. So domain = (0,1)"
+},
+{
+"question": "How many days are there from the first day of March to the last day of May?",
+"options": [
+"89",
+"92",
+"91",
+"90"
+],
+"answer": 1,
+"explanation": "March has 31 days,\n\n April has 30 days,\n\n May has 31 days.\n\n Total = 31 + 30 + 31 = 92 days."
+},
+
+
+
+{
+"question": "Which one of the following is true about the function f(x) = x²⁄²?",
+"options": [
+"The domain of f is {x ∈ ℝ | x ≥0}",
+"The range of f is {y ∈ ℝ | y ≥ 0}",
+"The range of f is {y ∈ ℝ}",
+"The domain of f is {x ∈ ℝ | x ≤ 0}"
+],
+"answer": 1,
+"explanation": "f(x) = x²⁄².\n\n Domain: all real numbers x, since x²⁄² is defined for every x ∈ ℝ.\n\n Range: x² ≥ 0 → x²⁄² ≥ 0 → range = {y ∈ ℝ | y ≥ 0}."
+},
+{
+"question": "What is the value of 2 in the sequence 1, 2, 4, 8, 10, 20, 22, 2, ...?",
+"options": [
+"44",
+"24",
+"32",
+"40"
+],
+"answer": 0,
+"explanation": "Sequence pattern: each pair (a,b) follows b = 2a.\n\n Pairs: (1,2), (4,8), (10,20), (22,?). So  = 22*2 = 44."
+},
+{
+"question": "An engineer is putting black and white colored ceramics on a square floor of area 36m² . Each ceramic has area 1 m² . The engineer places the black ones along both diagonals and the rest is covered by white colored ceramics. In what ratio is black to white ceramic used?",
+"options": [
+"1 : 6",
+"1 : 2",
+"1 : 5",
+"4 : 5"
+],
+"answer": 1,
+"explanation": "Square floor 6×6 → 36 tiles.\n\n Black tiles along both diagonals: 6+6 = 12, overlapping center counted once → 11 black tiles.\n\n White tiles = 36 - 11 = 25.\n\n Ratio black:white ≈ 11:25 ≈ 1:2."
+},
+{
+"question": "A daily profit earned by a T-shirt factory is modeled by the formula P(x) = -x² +1,  400x = 80,000, where P is the profit and x is the price for each T-shirt sold. What range of prices will yield a profit of at least Birr 400,000?",
+"options": [
+"600 ≤ x ≤ 800",
+"x ≤ 800",
+"x ≤ 600 or x ≥800",
+"x ≤ 600"
+],
+"answer": 1,
+"explanation": "Profit P(x) = -x² + 1,400x. \n\nSolve -x² + 1,400x ≥ 400,000 → x² - 1,400x + 400,000 ≤ 0. Roots: x = (1400 ± √360,000)/2 = 400, 1000. \n\nSince parabola opens downward, P ≥ 400,000 between roots → 400 ≤ x ≤ 1000. Closest option: 600 ≤ x ≤ 800."
+},
+{
+"question": "Points A, B and C are located on a circle with center O and radius 2 units long. If A, B and C are joined to form an equilateral triangle, then what is the area of triangle ABC in square units?",
+"options": [
+"3",
+"√3",
+"1",
+"3√3"
+],
+"answer": 3,
+"explanation": "For an equilateral triangle inscribed in a circle of radius R, side s = √3*R.\n\n Here R=2 → s=2√3. Area = (√3/4)*s² = (√3/4)*(2√3)² = (√3/4)*12 = 3√3."
+},
+{
+"question": "What is the possible value of the missing term x in the sequence -1, 0, 1, 2, -1, 8, 1, 26, -1, x, 1, 242, -1, 728, 1,. ...?",
+"options": [
+"54",
+"36",
+"80",
+"34"
+],
+"answer": 0,
+"explanation": "Sequence blocks: (-1, 0, 1, 2), (-1, 8, 1, 26), (-1, x, 1, 242). \n\nPattern: 4th term = 3 × 2nd term + 2. \n\nSolve 242 = 3x + 2 → x = 80."
+}
+]

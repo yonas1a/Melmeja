@@ -1,0 +1,37 @@
+[
+  {
+    "question": " Which one of the following defines an exponential function?",
+    "options": [
+      "f: (0, ∞) -> ℝ defined by f(x) = bˣ, where b > 0 and b ≠  1.",
+      "f: (0, ∞) -> ℝ defined by f(x) = xᵇ, where b > 0 and b ≠ 1.",
+      "f: ℝ -> (0, ∞) defined by f(x) = bˣ, where b > 0 and b ≠ 1.",
+      "f: ℝ -> (0, ∞) defined by f(x) = xᵇ, where b > 0 and b ≠  1."
+    ],
+    "answer": 0,
+    "explanation": "An exponential function is of the form f(x) = bˣ with base b > 0, b ≠ 1, where the domain is all real numbers ℝ and the range is (0, ∞).\n\n Functions of the form xᵇ are power functions, not exponential functions."
+  },
+
+  {
+    "question": " Consider the following graph of a given exponential function f(x). Which one of the following functions represents the graph shown above? ",
+    "options": [
+      "f(x) = (2)ˣ - 2",
+      "f(x) =(1/2)ˣ - 2",
+      "f(x) = (2)ˣ⁻²",
+      "f(x) = (1/2)ˣ⁻²"
+    ],
+    "answer": 0,
+    "image": "images/M2016_20.png",
+    "explanation": ""
+  },
+  {
+    "question": " Which one of the following is the solution of the equation (243)^{2x-3} = (81)^{-3x+2} in the set of real numbers?",
+    "options": [
+      "-1",
+      "1",
+      "2",
+      "-2"
+    ],
+    "answer": 1,
+    "explanation": "243 = 3^5 and 81 = 3⁴.\n\n So 5(2x-3) = 4(-3x+2).\n\n Solving gives x = -1."
+  }
+]

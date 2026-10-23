@@ -1,0 +1,743 @@
+[
+  {
+    "question": "Which of the following functions is one to one?",
+    "options": [
+      "f = {(x, y): y is the mother of x}",
+      "f: R → R, f(x) = x² − 1",
+      "f: (0, ∞) → R, f(x) = |x| − 1",
+      "f = {(1,5), (2,3), (5,4), (6,5)}"
+    ],
+    "answer": 0,
+    "explanation": "A one to one function assigns different outputs for different inputs.\n\n Option A represents the relation 'y is the mother of x', which is one to one because each person has exactly one biological mother, and one mother cannot be the mother of two different people in the function sense."
+  },
+  {
+    "question": "If the truth value of p is T, then which of the following compound propositions has a truth value T for any proposition q?",
+    "options": [
+      "(p ⇒ q) ∧ ¬p",
+      "(p ∧ ¬p) ∧ q",
+      "(¬p ∧ q) ⇒ q",
+      "¬p ⇔ (p ∨ ¬q)"
+    ],
+    "answer": 2,
+    "explanation": "Since p is true, ¬p is false. \n\nOption C is always true because if the antecedent (¬p ∧ q) is false, an implication with a false antecedent is always true.\n\n Other options contain contradictions with p and ¬p or depend on q."
+  },
+  {
+    "question": "The object shown is made of a hemisphere on top of a cylinder of radius 3 cm and height 12 cm. A cone of height 8 cm is cut out from the bottom. What is the volume of the solid?",
+    "options": [
+      "126π",
+      "96π",
+      "72π",
+      "102π"
+    ],
+    "answer": 1,
+    "explanation": "",
+    "image": "images/M2015_3.png"
+  },
+  {
+    "question": "A regular pyramid has a hexagonal base with side 12 cm. What is the lateral surface area of the pyramid in square centimeters if each lateral edge is 10 cm?",
+    "options": [
+      "720",
+      "288",
+      "72",
+      "360"
+    ],
+    "answer": 1,
+    "explanation": "Perimeter of hexagon = 6 × 12 = 72 cm.\n\n Slant height of each triangle = √(10² - 6²) = 8 cm.\n\n Lateral surface area = 1/2 × perimeter × slant height =\n\n 1/2 × 72 × 8 = 288 cm²."
+  },
+  {
+    "question": "If ABCD is a parallelogram with P the midpoint of AB and Q the midpoint of CD, which statement is NOT necessarily true?",
+    "options": [
+      "APCQ is a rhombus",
+      "APCD is a trapezium",
+      "AQ = PC",
+      "ΔADQ ≡ ΔCBP"
+    ],
+    "answer": 0,
+    "explanation": "Connecting midpoints does not in general form a rhombus.\n\n The segment between midpoints is parallel and half the opposite side but does not guarantee equal side lengths.\n\n The other statements follow from midpoint and parallelogram properties."
+  },
+  {
+    "question": "If tan(31°) = 0.81, what is the value of tan(509°)?",
+    "options": [
+      "-0.91",
+      "0.81",
+      "-0.81",
+      "0.19"
+    ],
+    "answer": 2,
+    "explanation": "509° = 509 − 360 = 149°. \nAlso 149° = 180° − 31°. \n\nUsing identity tan(180° − x) = −tan(x).\n\n So tan(149°) = −tan(31°) = −0.81."
+  },
+  {
+    "question": "If sin(θ) = -3/5 and theta is a 4th quadrant angle, then what is the value of sec(θ)?",
+    "options": [
+      "-5/4",
+      "5/3",
+      "5/4",
+      "-5/3"
+    ],
+    "answer": 2,
+    "explanation": "In the 4th quadrant, sin is negative and cos is positive.\n\n sin(θ) = -3/5 implies opposite = -3, hypotenuse = 5, so adjacent = 4.\n\n Thus cos(θ) = 4/5 and sec(θ) = 1/cos(θ) = 5/4."
+  },
+  {
+    "question": "The slope of a line that makes an angle of 135° with the positive x-axis is",
+    "options": [
+      "3",
+      "1",
+      "-1",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "Slope m = tan(θ). \n\nSince tan(135°) = −1, the slope is −1."
+  },
+
+
+    {
+      "question": "The domain of the function f(x) = 2x²⁄³ is",
+      "options": [
+        "(0, 2)",
+        "ℝ",
+        "[0, ∞)",
+        "ℝ \\ {0}"
+      ],
+      "answer": 1,
+      "explanation": "The function is f(x) = 2x²⁄³. This can be rewritten using radical notation as f(x) = ∛2x².\n\n The term ∛2x² involves a cube root, which is defined for all real numbers, and squaring x (which is also defined for all real numbers).\n\n There are no restrictions (like division by zero or taking the square root of a negative number) on the input x.\n\n Therefore, the domain of the function is all Real Numbers (R)."
+    },
+    {
+      "question": "If (x² + 14) / ( (x+2)(x-1)²) = A/(x+2) + B/(x-1) + C/((x-1)²), then what are the values of A, B, and C respectively?",
+      "options": [
+        "2, -1, 5",
+        "2, -2, -5",
+        "3, -2, 6",
+        "1, -1, 3"
+      ],
+      "answer": 0,
+      "explanation": "Multiply both sides by (x+2)(x-1)² and expand: x²+14 = A(x-1)² + B(x+2)(x-1) + C(x+2).\n\n Compare coefficients to get equations: A+B=1, -2A+B+C=0, A-2B+2C=14.\n\n Solving gives A=2, B=-1, C=5."
+    },
+    {
+      "question": "What is the area of a regular hexagon inscribed in a circle of radius 6cm?",
+      "options": [
+        "36√3 cm²",
+        "48 cm²",
+        "54√3 cm²",
+        "48√3 cm²"
+      ],
+      "answer": 2,
+      "explanation": "The general formula for the area of a regular polygon with n sides and circumradius R is: \n Area = 1/2 × n × R² × sin(2π/n)\n\nFor a hexagon, n = 6 and R = 6 cm:\n\nArea = 1/2 × 6 × 6² × sin(2π/6)\nArea = 3 × 36 × sin(π/3)\nArea = 108 × (√3 / 2)\nArea = 54√3 cm² "
+    },
+    {
+      "question": "Consider the lines L1: y = 2x + 3 and L2: y = 1 - 3x. Then the angle between L1 and L2 is",
+      "options": [
+        "π/6",
+        "π/2",
+        "3π/2",
+        "π/4"
+      ],
+      "answer": 3,
+      "explanation": "The slopes of the two lines are m1 = 2 and m2 = -3. The angle (θ) between two lines with slopes m1 and m2 is given by the formula:\n\ntan(θ) = | (m1 - m2) / (1 + m1.m2) |\n\ntan(θ) = | (2 - (-3)) / (1 + 2(-3)) |$\ntan(θ) = | (2 + 3) / (1 - 6) |\ntan(θ) = | 5 / (-5) |\ntan(θ) = | -1 |\ntan(θ) = 1\n\nThe angle whose tangent is 1 is 45 degrees, which is π/4 radians."
+    },
+    {
+      "question": "Which of the following defines a prime number?",
+      "options": [
+        "It is a number whose only factor is itself.",
+        "It is a number that has only two positive factors.",
+        "It is a number whose only factor is 1.",
+        "It is a number that has more than two positive factors."
+      ],
+      "answer": 1,
+      "explanation": "A prime number is a natural number greater than 1 that has exactly two distinct positive divisors (or factors): 1 and itself."
+    },
+
+    {
+      "question": "Which of the following rational numbers is written in its standard form?",
+      "options": [
+        "5 x 10⁵",
+        "0.09 x 10⁵",
+        "0.8 x 10²",
+        "10.1 x 10⁻²"
+      ],
+      "answer": 0,
+      "explanation": "A number is in standard form (scientific notation) if it is written as a × 10ⁿ, where 1 ≤ a < 10 and n is an integer."
+    },
+    {
+      "question": "Which of the following line is true about the intercept and symmetry of the graph of f(x) = x³-3x / x²-6?",
+      "options": [
+        "The graph is symmetrical with respect to the origin.",
+        "Its x-intercepts are ±√6.",
+        "Its y-intercept is 3.",
+        "The graph is symmetrical with respect to the y-axis."
+      ],
+      "answer": 0,
+      "explanation": "f(-x) = -f(x), so the graph is symmetric about the origin ✅.\n\n X-intercepts: x = 0, ±√3 ❌,\n y-intercept: 0 ❌,\n not symmetric about y-axis ❌."
+    },
+    {
+      "question": "The equation of the parabola with vertex V(2, -1) and focus F(-1, -1) is",
+      "options": [
+        "(x - 2)² = -12(y + 1)",
+        "(y + 1)² = 12(x - 2)",
+        "(y + 1)² = -12(x - 2)",
+        "(x + 1)² = -12(y + 1)"
+      ],
+      "answer": 2,
+      "explanation": "The parabola is horizontal because the focus and vertex have the same y-coordinate (-1). \n\nDistance from vertex to focus = |h - (-1)| = |2 - (-1)| = 3 → 4p = 12.\n\n Equation: (y + 1)² = -12(x - 2)"
+    },
+    {
+      "question": "What is the value of x in the equation √(125ˣ5²ˣ⁻¹)= 25³ˣ⁺¹?",
+      "options": [
+        "5/7",
+        "5",
+        "-5/7",
+        "-5"
+      ],
+      "answer": 0,
+      "explanation": "Combine under the square root: √(125ˣ × 5²ˣ⁻¹) = (125ˣ × 5²ˣ⁻¹)^(1/2) \n\n= 5^((3x + 4x - 2)/2) = 5^(7x/2 - 1).\n\n Right-hand side: 25^(3x+1) = 5^(6x + 2).\n\n Equate exponents: 7x/2 - 1 = 6x + 2 \n→ x = 5/7."
+    },
+    {
+      "question": "What is the equation of the hyperbola with foci F1(-2, 1), F2(8, 1) and the length of the conjugate axis is 8 units?",
+      "options": [
+        "((x-3)² / 25) - ((y-1)² / 15) = 1",
+        "((x-5)² / 9) - ((y-1)² / 16) = 1",
+        "((x-3)² / 16) - ((y-1)² / 25) = 1",
+        "((y+1)² / 16) - ((x-3)² / 9) = 1"
+      ],
+      "answer": 0,
+      "explanation": "The hyperbola is horizontal because foci lie on y=1. \n\nCenter: midpoint of foci C=(3,1). \n\nDistance between center and focus: c=5. Conjugate axis length 8 → b=4.\n\n Equation: (x-3)²/a² - (y-1)²/b²=1 with a²=c²-b²=25-16=9.\n\n So equation: (x-3)²/25 - (y-1)²/16 = 1."
+    },
+
+    {
+      "question": "When the polynomial P(x) = 3x⁶+ 5x⁴ - 7x³ + 2kx² + 3 is divided by x + 1 the remainder is 4. What is the value of k?",
+      "options": [
+        "6",
+        "3",
+        "-7",
+        "-5"
+      ],
+      "answer": 2,
+      "explanation": "By the Remainder Theorem, when a polynomial is divided by (x + 1), the remainder is P(-1).\n\n Substituting x = -1 into P(x) gives\n\n P(-1) = 3(-1)⁶ + 5(-1)⁴ − 7(-1)³ + 2k(-1)² + 3 =\n\n 3 + 5 + 7 + 2k + 3 = \n18 + 2k.\n\n Since the remainder is 4, we set 18 + 2k = 4.\n\n Solving this equation gives 2k = -14,\n so k = -7."
+    },
+    {
+      "question": "A 20m high building casts a shadow of 4m, at the same time a 35m tree casts a shadow of x m. What is the value of x?",
+      "options": [
+        "15m",
+        "7m",
+        "11m",
+        "8m"
+      ],
+      "answer": 1,
+      "explanation": "This problem uses similar triangles based on the principle that at the same time, the ratio of an object's height to its shadow length is constant.\n\n(Height of Building) / (Shadow of Building) = (Height of Tree) / (Shadow of Tree)\n\n20 / 4 = 35 / x\n\n5 = 35 / x\n\nx = 35 / 5\n\nx = 7\n\nSo, the length of the tree's shadow is 7m."
+    },
+    {
+      "question": "Which of the following statement is true about f(x) = x² - 6x + 10?",
+      "options": [
+        "The vertex of the graph of f is (3, 1).",
+        "The graph of f opens downward.",
+        "The line x = 1 is the axis of symmetry of the graph of f.",
+        "f(x) ≥ 2 for all x in the domain of f."
+      ],
+      "answer": 0,
+      "explanation": "The function f(x) = x² − 6x + 10 is a quadratic with a positive coefficient of x², so its graph opens upward.\n\n The vertex of a quadratic function f(x) = ax² + bx + c occurs at x = −b/(2a).\n\n Here, a = 1 and b = −6, so x = 6/2 = 3.\n\n Substituting x = 3 into f(x) gives f(3) = 9 − 18 + 10 = 1, so the vertex is (3, 1).\n\n Therefore, the statement that the vertex of the graph is (3, 1) is true.\n\n "
+    },
+    {
+      "question": "Given A = {x ∈ ℕ: x < 3} and B is the set of all possible factors of 13. Then which one of the following is equal to B x A?",
+      "options": [
+        "{(1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (13, 2)}",
+        "{(1, 1), (1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (2,1), (1, 13), (2, 13)}"
+      ],
+      "answer": 2,
+      "explanation": "A = {1, 2}  B = {1, 13}.\n\n B × A = {(1,1), (1,2), (13,1), (13,2)}. "
+    },
+  {
+    "question": "The solution set of the equation 3|2x - 4| = 6 - 2|1 - 5x| is",
+    "options": [
+      "{-1, 1/2}",
+      "{}",
+      "{-1, 1/2, 5/4}",
+      "{1/2, 5/4}"
+    ],
+    "answer": 1,
+    "explanation": "3|2x-4| = 6 - 2|1-5x|,\n\n6|x-2| = 6 - 2|1-5x|\n\n3|x-2| + |1-5x| = 3\n\nCheck intervals x < 1/5, 1/5 ≤ x < 2, x ≥ 2\n\nNo interval gives a valid solution\n\nSolution set = {}"
+  },
+  {
+    "question": "The solution set of the inequality (2x - 3)(x + 5) ≤ 0 is",
+    "options": [
+      "[-5, 3/2]",
+      "(-∞ , -3/2] ∪ [5, ∞)",
+      "(-5, 3/2)",
+      "(-∞, -5) ∪ [3/2, ∞)"
+    ],
+    "answer": 0,
+    "explanation": " (2x - 3)(x + 5) ≤ 0\nFind zeros: x = -5, x = 3/2\nCheck intervals: (-∞, -5), [-5, 3/2], (3/2, ∞)\nProduct ≤ 0 between roots\nSolution = [-5, 3/2]"
+  },
+  {
+    "question": "The solution set of the equation 5log₉ x -  2log₉(x²) - log₄8= -1 is",
+    "options": [
+      "{3/2}",
+      "{9}",
+      "{3}",
+      "{4}"
+    ],
+    "answer": 2,
+    "explanation": "5log₉x - 2log₉(x²) - log₄8 = -1\n\n    log₉(x²) = 2log₉x\n\n5log₉x - 4log₉x = log₉x\n\nEquation becomes: log₉x - log₄8 = -1\n\nlog₄8 = 3/2\n\nlog₉x - 3/2 = -1 → log₉x = 1/2\n\nx = 9^(1/2) = 3"
+  },
+
+    {
+      "question": "The histogram below shows the recorded temperature (in degrees C) of a certain town in Ethiopia for the first 12 days of March 2023. Then which one of the following statement is true about the data represented by the histogram?",
+      "options": [
+        "For 45 percent of the days, the temperature was more than 19 degrees C.",
+        "The highest frequency is 3.",
+        "The mode of the data is 22 degrees C.",
+        "The temperature was 24 degrees C for two days."
+      ],
+      "answer": 2,
+      "explanation": "",
+      "image": "images/M2015_26.png"
+    },
+    {
+      "question": "A car started moving 9km to the East and then 4km towards North  and then 12km towards West to reach its destination. How far the car travelled from its starting point?",
+      "options": [
+        "5km",
+        "4km",
+        "12km",
+        "25km"
+      ],
+      "answer": 2,
+      "explanation": " displacement = √(-3)² + (4)² =\n √(9 + 16) = \n√25 = \n5 km."
+    },
+
+    {
+      "question": "A group of students 5 from grade 10, 8 from grade 11 and 2 from grade 12 is to be formed. If a student is to be formed by randomly choosing one student equally from this group, what is the probability that the chosen student is either from grade 10 or grade 12?",
+      "options": [
+        "1/7",
+        "7/15",
+        "5/15",
+        "7/15"
+      ],
+      "answer": 1,
+      "explanation": "Total students = 5 + 8 + 2 = 15.\n\n Favorable students (grade 10 or 12) = 5 + 2 = 7.\n\n Probability = Favorable / Total =\n 7/15."
+    },
+  {
+    "question": "What is the value of lim ((x² - 1)/(x - 1)) as x approaches 1?",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "lim (x² - 1)/(x - 1) as x → 1\n\nFactor numerator: x² - 1 = (x - 1)(x + 1)\n\nCancel (x - 1)\n\nExpression becomes x + 1\n\nSubstitute x = 1 → 2"
+  },
+    {
+      "question": "What are the values of a and b respectively?",
+      "options": [
+        "0, -1",
+        "3, 2",
+        "1, 3",
+        "2, 2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "image": "images/M2015_30.png"
+    },
+  {
+    "question": "A fair die is going to be rolled once, and let; \n\n E₁ be the event that an even number occurs;\n\n E₂ be the event that a prime number occurs; \n\n E₃ be the event that a multiple of 3 occurs; \n\n E₄ be the event that a multiple of 5 occurs. \n\n Then Which of the following pairs of events are mutually exclusive?",
+    "options": [
+      "E₂ and E₄ ",
+      "E₁ and E₂",
+      "E₃ and E₄",
+      "E₁ and E₃"
+    ],
+    "answer": 2,
+    "explanation": "Sample space: {1, 2, 3, 4, 5, 6}\nE₁ (even) = {2, 4, 6}\nE₂ (prime) = {2, 3, 5}\nE₃ (multiple of 3) = {3, 6}\nE₄ (multiple of 5) = {5}\n\nCheck intersections:\nE₂ ∩ E₄ = {5} (not empty)\nE₁ ∩ E₂ = {2} (not empty)\nE₃ ∩ E₄ = ∅ (mutually exclusive)\nE₁ ∩ E₃ = {6} (not empty)"
+  },
+
+    {
+      "question": "The following is the distribution of the weight of 40 students in a certain class. Then for the data given above, what is the median weight in kg?",
+      "options": [
+        "53.8",
+        "55.8",
+        "54.5",
+        "55.5"
+      ],
+      "answer": 0,
+      "explanation": "",
+
+      "image": "images/M2015_32.png"
+    },
+    {
+      "question": "In a certain month of the year, the temperature of a city was recorded and presented as follows. Which one of the following is the cumulative frequency of the fourth class?",
+      "options": [
+        "20",
+        "18",
+        "21",
+        "22"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "image": "images/M2015_33.png"
+    },
+    {
+      "question": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "image": "images/M2015_34.png"
+    },
+
+    {
+      "question": "Let N be the set of Natural numbers N. Which one of the following propositions has the truth value TRUE?",
+      "options": [
+        "(∀x)(∃y)(xy < x)",
+        "(∀x)(∃y)(x - y = 5)",
+        "(∀x)(∀y)(x ≠ y => x > y)",
+        "(∃x)(∃y)(x - y = y-x)"
+      ],
+      "answer": 3,
+      "explanation": "Option 1: False because for x=1, no y satisfies xy < x. \n\n Option 2: False because for x<5, y = x-5 is not natural. \n\n Option 3: False because x ≠ y does not imply x > y.\n\n  Option 4: True because x - y = y - x simplifies to x = y; choose x=y=1 in N, statement holds."
+    },
+    {
+      "question": "What is the value of x that satisfies ",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "image": "images/M2015_36.png"
+    },
+    {
+      "question": "Let f(x) = -1/3cos(3x/2-π/3)+1 Then what is the period and phase shift of the graph of f respectively?",
+      "options": [
+        "π/9 and 4π/9",
+        "3π/2 and 4π/9",
+        "2π/3 and 2π/9",
+        "4π/3 and 2π/9"
+      ],
+      "answer": 3,
+      "explanation": "The standard cosine form is f(x) = a cos(bx - c) + d.\n\n Here b = 3/2, c = π/3.\n Period = 2π/b =\n 2π / (3/2) \n= 4π/3.\n\n Phase shift = c/b = \n(π/3)/(3/2) =\n 2π/9."
+    },
+    {
+      "question": "Which of the following functions has a graph that completes one full cycle on  [-π/4, 11π/4]?",
+      "options": [
+        "f(x) = 2sin(2x + π/6)",
+        "f(x) = 2sin(2/3 + π/6)",
+        "f(x) = 3sin(4x/3 + π/2)",
+        "f(x) = 3sin(3x + π/6)"
+      ],
+      "answer": 2,
+      "explanation": "The interval length is 11π/4 - (-π/4) = 3π.\n\n A function completes one full cycle if its period = 3π. "
+    },
+
+    {
+      "question": "If the 6th and the 11th term of an arithmetic sequence are 35 and 75 respectively, then what is the sum of the first 31 terms of the sequence?",
+      "options": [
+        "840",
+        "2635",
+        "724",
+        "3565"
+      ],
+      "answer": 3,
+      "explanation": "Let the first term be a and common difference d. \n\n6th term: a + 5d = 35 11th term: a + 10d = 75 \n\nSubtract: 5d = 40 → d = 8 \n\nThen a + 5*8 = 35 → a = -5 \n\n S31 = 31/2 * [2a + (31-1)d] \n= 31/2 * [2(-5) + 30*8]\n = 31/2 * [230] \n= 31*115 = 3565"
+    },
+    {
+      "question": "What is the fifth term of the sequence {2ⁿ + 4n -5} where n=0 to n= ∞?",
+      "options": [
+        "15",
+        "47",
+        "17",
+        "27"
+      ],
+      "answer": 1,
+      "explanation": "The general term is an = 2ⁿ + 4n - 5.\n\n The fifth term corresponds to n = 4.\n\n Compute: a4 = 2⁴+ 4*4 - 5 \n= 16 + 16 - 5 \n= 27."
+    },
+    {
+      "question": "Let the sequence {an} converges to 3 while {bn} converges to -1. Then the sequence {an - bn} converges to",
+      "options": [
+        "1/3",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "If lim an = 3 and lim bn = -1,\n then lim (an - bn) =\n lim an - lim bn =\n 3 - (-1) = 4."
+    },
+    {
+      "question": "Let A be a square matrix of order n and let B be a matrix obtained by multiplying one row of A by 2 and C be a matrix found by adding one row of A to another row of A. If det(A) = 10, what are det(B) and det(C) respectively?",
+      "options": [
+        "10 and 10",
+        "10 and 20",
+        "20 and 0",
+        "20 and 10"
+      ],
+      "answer": 3,
+      "explanation": " multiplying a row by k multiplies the determinant by k,\n adding one row to another does not change the determinant.\n\n Here, det(B) = 2 * det(A) = 20,\n det(C) = det(A) = 10."
+    },
+
+    {
+      "question": "Which one of the following numbers is the upper bounds of the sequence",
+      "options": [
+        "4",
+        "1",
+        "0",
+        "3/2"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "image": "images/M2015_43.png"
+    },
+    {
+      "question": "Let z1, z2,and z3 be complex numbers. Then which of the following is NOT necessarily true?",
+      "options": [
+        "(z1.z2)z3 = z1 (z2.z3)",
+        "(z1.z2)z3 = (z2.z1).z3",
+        "z1 - (z2 - z3) = (z1-z2)-z3 ",
+        "z1-  (z2 + z3) = (z1 - z2)-z3"
+      ],
+      "answer": 2,
+      "explanation": "Multiplication of complex numbers is associative and commutative, so options 1 and 2 are true.\n\n Subtraction is NOT associative: z1 - (z2 - z3) = z1 - z2 + z3 ≠ (z1 - z2) - z3, so option 3 is NOT necessarily true.\n\n Option 4 uses addition/subtraction correctly, so it is true."
+    },
+    {
+      "question": "Which of the following is true about the graph of y = 3sin(4x)?",
+      "options": [
+        "The graph rises up on [0, π/4].",
+        "The graph completes one cycle on the interval [0, π/4].",
+        "The graph lies below the x-axis on (π/4, π/2).",
+        "The graph completes one cycle on the interval [0, π]."
+      ],
+      "answer": 2,
+      "explanation": "The period of y = 3 sin(4x) is 2π/4 = π/2.\n\n One full cycle is completed on [0, π/2]. \n\nOn (π/4, π/2), 4x ∈ (π, 2π), so sin(4x) is negative and the graph lies below the x-axis.\n\n Hence, option 3 is true."
+    },
+    {
+      "question": "Which of the following complex numbers corresponds to the point (-3, -1) in the Argand plane?",
+      "options": [
+        "-3 - i",
+        "-1 - 3i",
+        "3 + i",
+        "-3+i"
+      ],
+      "answer": 0,
+      "explanation": "In the Argand plane, a complex number z = x + yi corresponds to the point (x, y).\n\n Here, x = -3 and y = -1.\n so the complex number is -3 - i."
+    },
+
+    {
+      "question": "The solution set of the system:",
+      "options": [
+        "{ (k + 1, k - 1, k) : k in R }",
+        "{ (2 - 2k, 3 - k, k) : k in R }",
+        "{ (k + 1, 2k, k - 1) : k in R }",
+        "{ (1 - 2k, k, 2 - k) : k in R }"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "image": "images/M2015_47.png"
+    },
+    {
+      "question": "If a translation T takes a point (-1, 1) to a point (3, 2), then the image of the circle x² + y² - 2x + 4y + 1 = 0 under T is",
+      "options": [
+        "(x + 3)² + (y + 3)² = 4",
+        "(x - 5)² + (y + 1)² = 4",
+        "(x - 2)² + (y + 3)² = 4",
+        "(x - 3)² + (y - 3)² = 4"
+      ],
+      "answer": 1,
+      "explanation": "The translation vector is (4, 1) because (-1,1) → (3,2).\n\n The circle x² + y² - 2x + 4y + 1 = 0 in standard form is (x-1)² + (y+2)² = 4.\n\n Applying translation: new center = (1+4, -2+1) = (5,-1), radius = 2.\n\n So image: (x-5)² + (y+1)² = 4."
+    },
+    {
+      "question": "Let u = (-1, 6) and v = (2, 4) be position vectors. Then the vector 4u - 3v is",
+      "options": [
+        "(-15, 18)",
+        "(-4, 24)",
+        "(-10, 11)",
+        "(-10, 12)"
+      ],
+      "answer": 3,
+      "explanation": "Calculate the scalar products first: 4u = 4(-1, 6) = (-4, 24).\n And 3v = 3(2, 4) = (6, 12).\n\n 4u - 3v = (-4 - 6, 24 - 12) = \n(-10, 12)."
+    },
+    {
+      "question": "Let F be the anti-derivative of f. Then which of the following is NOT true about F and f?",
+      "options": [
+        "∫ [ d/dx f(x) dx ] = f(x) + c",
+        "∫ [ F(x) dx ] = f(x) + c",
+        "F'(x) = f(x)",
+        "d/dx ∫F(x)dx = F(x)"
+      ],
+      "answer": 1,
+      "explanation": "By definition, if F is an anti-derivative of f, then F' = f.\n\n- Option 1: ∫[d/dx f(x) dx] = f(x) + C ✅ True, since integration reverses differentiation.\n\n- Option 2: ∫[F(x) dx] = f(x) + C ❌ False, because the integral of F(x) is not f(x), it would be ∫F(x) dx = some new function + C.\n\n- Option 3: F'(x) = f(x) ✅ True by definition.\n\n- Option 4: d/dx ∫ F(x) dx = F(x) ✅ True by the Fundamental Theorem of Calculus.\n\n Hence, option 2 is NOT true."
+    },
+
+    {
+      "question": "Which of the following assertions is true applying the Principle of Mathematical Induction?",
+      "options": [
+        "3 + 5 + 7 + ... + (2n + 1) = n² for n ≥ 1",
+        "2 + 3 + 4 + ... + n = n(n + 1)/2 + 1 for n ≥ 2",
+        "n! ≥ 2^n for n ≥ 0",
+        "1 + 2 + 2^2 + ... + 2^(n-2) = 2^(n-1) - 1 for n > 0"
+      ],
+      "answer": 3,
+      "explanation" : " Check each option using small values or formulae: \n\n- Option 1 is false (3 ≠ 1^2 for n=1). \n\n- Option 2 is false (sum from 2 to n = n(n+1)/2 - 1, not +1). \n\n- Option 3 is false (1! < 2^1). \n\n- Option 4 is true: geometric series 1 + 2 + 2^2 + ... + 2^(n-2) has sum 2^(n-1) - 1."
+
+
+    },
+    {
+      "question": "What is the area of the region bounded by the graph of f(x) = x² - 4 and the x-axis in square units?",
+      "options": [
+        "32 / 3",
+        "16 / 3",
+        "32",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "The graph intersects the x-axis at x = -2 and x = 2.\n\n Between these points, f(x) ≤ 0, so the area is ∫ from -2 to 2 of |x² - 4| dx =\n\n ∫ from -2 to 2 of (4 - x²) dx =\n\n [4x - x³/3] from -2 to 2 = \n(8 - 8/3) - (-8 + 8/3) \n= 32/3."
+    },
+    {
+      "question": "Which of the following set of equations define the xz-plane?",
+      "options": [
+        "{ (x, y, z) | x, y, z ∈ ℝ and z = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and x = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and y = 0 }",
+        "{ (x, y, z) | x, y, z ∈ ℝ and x = z = 0 }"
+      ],
+      "answer": 2,
+      "explanation": "The xz-plane is the two-dimensional surface in three-dimensional space that contains the x-axis and the z-axis.\n\n Any point (x, y, z) on this plane must have its y-coordinate equal to zero.\n\n Therefore, the xz-plane is defined by the equation y = 0."
+    },
+    {
+      "question": "Let f be a continuous function on [0, 1] and let F be an anti-derivative of f with F(1) = -11 and F(0) = 11. Then ∫ f(x)dx from 0 to 1 of  is equal to",
+      "options": [
+        "22",
+        "0",
+        "11",
+        "-22"
+      ],
+      "answer": 3,
+      "explanation": "According to the Fundamental Theorem of Calculus :-\n\n if F is an anti-derivative of a continuous function f on the interval [a, b], then Integral from a to b of f(x) dx = F(b) - F(a).\n\n Here, a = 0 and b = 1, \nwith F(1) = -11 and F(0) = 11.\n-11 - 11 = -22."
+    },
+
+    {
+      "question": "Which of the following is equal to ∫ 3cos 3xdx?",
+      "options": [
+        "-sinx + c",
+        "sinx + c",
+        " sin3x + c",
+        "1/3 sin(3x) + c"
+      ],
+      "answer": 1,
+      "explanation": "This is solved using the u-substitution method for integration.\n\n Let u = 3x, which means du = 3 dx.\n\n The integral becomes Integral of cos(u) du. \n\nThe antiderivative of cos(u) is sin(u).\n\nSubstituting back u = 3x gives sin(3x) + c.\n The answer is sin(3x) + c."
+    },
+    {
+      "question": "What is the coordinates of the midpoint of the line segment joining (-1, -3, 3) and (-1, 5, -7) in space?",
+      "options": [
+        "(-1, 3, 5)",
+        "(-1, 1, -2)",
+        "(1, 4, 3)",
+        "(-1, 3, -9/2)"
+      ],
+      "answer": 1,
+      "explanation": " Mx = (-1 + (-1)) / 2 = \n-2 / 2 = \n-1. \n\nMy = (-3 + 5) / 2 = \n2 / 2 = \n1.\n\n Mz = (3 + (-7)) / 2 =\n -4 / 2 =\n -2.\n\n The midpoint is (-1, 1, -2)."
+    },
+  {
+    "question": "What is the value of a number in the interval (0, 1) that satisfies the Mean Value Theorem for the function f(x) = 3x² - 5x + 1?",
+    "options": [
+      "1 ",
+      "5 / 6",
+      "3 / 5",
+      "1 / 2"
+    ],
+    "answer": 3,
+    "explanation": "Mean Value Theorem: f'(c) = [f(1) - f(0)] / (1 - 0)\nf(x) = 3x² - 5x + 1\nf(1) = 3 - 5 + 1 = -1\nf(0) = 1\nSlope = (-1 - 1) = -2\nf'(x) = 6x - 5\n6c - 5 = -2\n6c = 3\nc = 1/2"
+  },
+    {
+      "question": "Which of the following argument is valid?",
+      "options": [
+        "p -> q, ¬r ∧ q |-  p ∨ r",
+        "p -> q, q, r -> p |- r ",
+        "p, p -> q, r ∨ ¬q |- p ∧ ¬r",
+        "p v q, p -> q |- ¬q"
+      ],
+      "answer": 0,
+      "explanation": "An argument is valid if the conclusion logically follows from the premises."
+    },
+
+    {
+      "question": "Which of the following is true about the zero(s) of a function f(x)?",
+      "options": [
+        "If f(a) = 0, then a is not necessarily in the domain.",
+        "If f(a) = 0, then (x - a)² is a factor of f(x).",
+        "If f(a) = 0, then y = a is the intercept.",
+        "If f(a) = 0, then x-a is a factor for f(x)."
+      ],
+      "answer": 3,
+      "explanation": "By the Factor Theorem, if f(a) = 0, then (x - a) is a factor of f(x)."
+    },
+    {
+      "question": "Water is running into a conical tank which is pointed down at a constant rate of 6π cm³/sec. The cone has height of 10 cm and a base radius 5 cm, then how fast is the water level rising when the water reaches 2 cm deep?",
+      "options": [
+        "6 / π cm/sec",
+        "4 cm/sec",
+        "6 cm/sec",
+        "4 / π cm/sec"
+      ],
+      "answer": 2,
+      "explanation": "Volume V = (1/3)πr²h, r = h/2 ⟹ V = (1/12)πh³.\n\n Differentiate: dV/dt = (1/4)πh² dh/dt.\n\n Given dV/dt = 6π, h = 2: 6π = π dh/dt ⟹ \n\ndh/dt = 6 cm/sec."
+    },
+    {
+      "question": "Let f(x) = 5x³ + 2x - sin(x) + e^x. What is the value of f'(0)?",
+      "options": [
+        "4",
+        "-1",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Differentiate f(x): f'(x) = 15x² + 2 - cos(x) + e^x.\n\n Evaluate at x = 0: \n\nf'(0) = 15*0² + 2 - cos(0) + e^0 =\n\n 0 + 2 - 1 + 1 = 2."
+    },
+  {
+    "question": "Which one of the following is the value of a so that the function given by f(x) = { ax + 1 for x ≥ 1  ;   x² - 4 for x < 1 } is continuous at 1?",
+    "options": [
+      "1",
+      "-1",
+      "-4",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Let f(x) = 1 / √x and g(x) = 2 - (1 / 6x³) be two functions. For what values of x do the graphs of f and g have tangent lines of the same slope?",
+    "options": [
+      "1 / 4",
+      "4",
+      "1",
+      "√3 / 2"
+    ],
+    "answer": 2,
+    "explanation": "f(x)=x^(-1/2) ⇒ f'(x)=(-1/2)x^(-3/2)\ng(x)=2-(1/6)x^3 ⇒ g'(x)=-(1/2)x^2\nSet slopes equal: (-1/2)x^(-3/2)=-(1/2)x^2\nCancel -1/2: x^(-3/2)=x^2\nSolve: x^(7/2)=1 ⇒ x=1"
+  },
+    {
+      "question": "Which of the following describes the mechanical meaning of derivative?",
+      "options": [
+        "Slope of tangent line",
+        "Instantaneous rate of change",
+        "Area under the curve",
+        "Gradient of graphs of functions"
+      ],
+      "answer": 0,
+      "explanation": "The derivative of a function at a point represents the slope of the tangent line at that point, which is also interpreted as the instantaneous rate of change of the function."
+    },
+    {
+      "question": "Let f and g be differentiable functions and h(x) = g(f(3x + 1)). If f'(1) = f(1)= 2 and g'(2) = 1, then what is the value of h'(0)?",
+      "options": [
+        "4",
+        "6",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "By the chain rule:\n h'(x) = g'(f(3x + 1)) · f'(3x + 1) · 3.\n\n At x = 0: h'(0) = g'(f(1)) · f'(1) · 3 =\n\n g'(2) · 2 · 3 = \n\n1 · 2 · 3 = 6."
+    }
+  ]

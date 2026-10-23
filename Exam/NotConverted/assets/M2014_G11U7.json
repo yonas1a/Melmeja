@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is the product of the two complex number z = 2 - 3i and w = 5 + 2i?",
+    "options": [
+      "16 - 11i",
+      "29",
+      "16 + 11i",
+      "4 - 11i"
+    ],
+    "answer": 0,
+    "explanation": "To find the product z*w, we multiply the two complex numbers using the distributive property , remembering that i² = -1.\n\n z*w = (2 - 3i)(5 + 2i) \n= 2(5) + 2(2i) - 3i(5) - 3i(2i) \n= 10 + 4i - 15i - 6i²\n= 10 - 11i - 6(-1) \n= 10 - 11i + 6 \n= (10 + 6) - 11i \n= 16 - 11i \nThe product is 16 - 11i."
+  },
+
+  {
+    "question": "Which one of the following gives the polar form of the complex number z = 2 - 2√3i?",
+    "options": [
+      "4 (cos 1π/4 + isin 1π/4)",
+      "4 (cos 5π/3 + isin 5π/3)",
+      "4 (cos 1π/3 + isin 1π/3)",
+      "4 (cos 3π/4 + isin 3π/4)"
+    ],
+    "answer": 1,
+
+    "explanation": " Compute modulus: r = √(2² + (-2√3)²) = √(4 + 12) = 4.\n\n Compute argument: θ = arctan(y/x) = arctan(-2√3/2) = arctan(-√3) = -π/3.\n\n Since z is in the fourth quadrant, θ = 2π - π/3 = 5π/3.\n\n Therefore, the polar form is z = 4 (cos 5π/3 + i sin 5π/3)."
+  }
+]

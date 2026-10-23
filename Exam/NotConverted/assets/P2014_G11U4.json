@@ -1,0 +1,38 @@
+
+[
+  {
+    "question": "A block of mass m is placed on horizontal surface. The coefficient of static friction between the block and the surface is μ. A force of magnitude F acts on the block at an angle θ as shown in the figure below.\n\nThe minimum magnitude of the force F required to slide the block on the surface is _______.",
+    "options": [
+      "μmg  / cosθ - μsinθ",
+      "μmg / cosθ + μsinθ",
+      "μmg / cosθ-sinθ",
+      "μmg / cosθ + sinθ"
+    ],
+    "answer": 0,
+    "image": "images/P2014_8.png",
+    "explanation": "Resolve the applied force F into components: horizontal = Fcosθ, vertical = Fsinθ (downward).\n\n The normal force becomes N = mg + Fsinθ.\n\n- Maximum static friction = μN = μ(mg + Fsinθ).\n\n At the point of motion: Fcosθ = μ(mg + Fsinθ).\n\n Rearranging gives F(cosθ − μsinθ) = \nμmg, so F = μmg / (cosθ − μsinθ)."
+  },
+  {
+    "question": "A ball of mass m moving with a speed v strikes a hard wall at an angle θ with the wall. It is reflected with the same speed at the same angle as shown in the figure below. If the ball is in contact with the wall for time t, then the average force acting on the wall is given by _______.",
+    "options": [
+      "mv/t cosθ",
+      "mv/t sinθ",
+      "2mv/t cosθ",
+      "2mv/t sinθ"
+    ],
+    "answer": 3,
+    "explanation": "Only the velocity component perpendicular to the wall changes.\n\n Initial normal component = mvcosθ toward wall, final = mvcosθ away from wall.\n\n Change in momentum = 2mvcosθ.\n\n Average force = change in momentum / time = (2mvcosθ) / t..",
+    "image": "images/P2014_9.png"
+  },
+  {
+    "question": "Which one of the following statements describes the difference between different types of friction?",
+    "options": [
+      "For an object at rest on a horizontal surface, static friction increases with the increase of the applied force and reaches a maximum value just before sliding occurs.",
+      "Limiting friction is the minimum value of static friction that keeps an object stationary.",
+      "If there is a constant force applied to a stationary object on a horizontal surface, the static friction becomes equal to the limiting friction.",
+      "Limiting and kinetic frictions exist at the same time between two surfaces sliding over each other."
+    ],
+    "answer": 0,
+    "explanation": "Static friction acts on an object at rest and adjusts itself to match the applied force until it reaches a maximum value called limiting friction, just before the object starts sliding. This behavior is correctly described in option 1.\n\n Option 2 is incorrect because limiting friction is the maximum, not the minimum, value of static friction. \n\nOption 3 is incorrect because static friction equals the applied force only up to the limiting value, not necessarily equal to it for every constant force.\n\n Option 4 is incorrect because limiting friction acts just before motion starts, while kinetic friction acts after sliding begins; they do not exist at the same time."
+  }
+]

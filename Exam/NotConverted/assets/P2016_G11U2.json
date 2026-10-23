@@ -1,0 +1,24 @@
+[
+{
+  "question": "43. A person walked $10 \\text{ m}$ in a direction $53^circ$ North of East, $10 \\text{ m}$ North, and finally $20 \\text{ m}$ in a direction $37^circ$ North of West. The magnitude of the person's displacement is",
+  "options": [
+    "31.6 m",
+    "30.0 m",
+    "20.0 m",
+    "40.0 m"
+  ],
+  "answer": 0,
+  "explanation": "The total displacement is the vector sum of the three legs. We resolve each into $x$ (East) and $y$ (North) components:\n1.  **$D_1$ ($10\\text{ m}, 53^circ$):** $D_{1x} \\approx 10(0.60) = 6.0 \\text{ m}$; $D_{1y} \\approx 10(0.80) = 8.0 \\text{ m}$\n2.  **$D_2$ ($10\\text{ m}, 90^circ$):** $D_{2x} = 0 \\text{ m}$; $D_{2y} = 10.0 \\text{ m}$\n3.  **$D_3$ ($20\\text{ m}, 143^circ$):** $D_{3x} \\approx 20(-0.80) = -16.0 \\text{ m}$; $D_{3y} \\approx 20(0.60) = 12.0 \\text{ m}$\n\n**Total Components:** $R_x = 6.0 + 0 - 16.0 = -10.0 \\text{ m}$; $R_y = 8.0 + 10.0 + 12.0 = 30.0 \\text{ m}$\n\n**Magnitude:** $R = \\sqrt{R_x^2 + R_y^2} = \\sqrt{(-10.0)^2 + (30.0)^2} = \\sqrt{100 + 900} = \\sqrt{1000} \\approx 31.6 \\text{ m}$ ."
+},
+{
+"question": "44. Which of the following pair of vectors is collinear?",
+"options": [
+"$\\vec{A} = 2\\hat{i} + 3\\hat{j}$ and $\\vec{B} = -4\\hat{i} + 6\\hat{j}$",
+"$\\vec{C} = \\hat{i} + \\hat{j}$ and $\\vec{D} = \\hat{i} - \\hat{j}$",
+"$\\vec{G} = 2\\hat{i} + 3\\hat{j}$ and $\\vec{F} = 3\\hat{i} + 2\\hat{j}$",
+"$\\vec{E} = -\\hat{i} + \\hat{j}$ and $\\vec{F} = 3\\hat{i} - 3\\hat{j}$"
+],
+"answer": 3,
+"explanation": "Two vectors are **collinear** (parallel or antiparallel) if one is a scalar multiple of the other, $\\vec{P} = k\\vec{Q}$. In option D, $\\vec{F} = 3\\hat{i} - 3\\hat{j}$. If we take $\\vec{E} = -\\hat{i} + \\hat{j}$, then $\\vec{F} = -3(-\\hat{i} + \\hat{j}) = -3\\vec{E}$. Since $k = -3$, the vectors are collinear (specifically, antiparallel)."
+}
+]

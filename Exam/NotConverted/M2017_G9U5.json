@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Which of the following is NOT true about regular polygons?",
+    "options": [
+      "It can be inscribed in a circle.",
+      "A circle can be inscribed in a regular polygon.",
+      "The measure of each exterior angle of an n-sided regular polygon is equal to 360°/n.",
+      "The measure of each interior angle of an n-sided regular polygon is equal to n(180°)/(n-2)."
+    ],
+    "answer": 3,
+    "explanation": "A regular polygon is equiangular.\n The sum of interior angles is (n-2)180°.\n Therefore, the measure of each interior angle is (n-2)180°/n. \n\nThe statement in Option D, n(180°)/(n-2), is incorrect, making it the false statement."
+  },
+  {
+    "question": "Suppose two triangles are similar by SSS similarity theorem. If the side lengths of one triangle are 2 cm, 4 cm and 6 cm, and the shorter side of the other triangle is 9 cm long, then what are the lengths (in cm) of the other two sides of the triangle?",
+    "options": [
+      "9 and 27",
+      "18 and 27",
+      "18 and 21",
+      "9 and 21"
+    ],
+    "answer": 1,
+    "explanation": "The scale factor = 9/2 (since 2 → 9).\n Multiply other sides: 4 × 9/2 = 18 \nand 6 × 9/2 = 27."
+  },
+  {
+    "question": "A boy and girl are both standing on a sun light. The boy's height is 1.6 m and casts a shadow of 2 m. If the girl's height casts a shadow of 1.8 m, then what is the height (in meter) of the girl?",
+    "options": [
+      "1.54",
+      "1.68",
+      "1.44",
+      "1.5"
+    ],
+    "answer": 2,
+    "explanation": " Let HG be the girl's height. \n(Girl's Height) / (Girl's Shadow) = (Boy's Height) / (Boy's Shadow) \nHG / 1.8 = 1.6 / 2 \nHG = 1.8 * (1.6 / 2) \nHG = 1.8 * 0.8 \nHG = 1.44 m. \n"
+  }
+]

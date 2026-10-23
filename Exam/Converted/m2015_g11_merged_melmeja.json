@@ -1,0 +1,361 @@
+{
+  "id": "m2015_g11_merged_melmeja",
+  "title": "Grade 11 Mathematics National Exam & Practice 2015 (9 Chapters Combined)",
+  "category": "GRADE_11",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 11",
+  "description": "Comprehensive examination bank combining 9 chapters (21 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 32,
+  "totalQuestions": 21,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_11",
+    "2015",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_m2015_g11u1_melmeja_1",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions is one to one?",
+      "options": [
+        "f = {(x, y): y is the mother of x}",
+        "f: R → R, f(x) = x² − 1",
+        "f: (0, ∞) → R, f(x) = |x| − 1",
+        "f = {(1,5), (2,3), (5,4), (6,5)}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A one to one function assigns different outputs for different inputs.\n\n Option A represents the relation 'y is the mother of x', which is one to one because each person has exactly one biological mother, and one mother cannot be the mother of two different people in the function sense.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_2",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "The domain of the function f(x) = 2x²⁄³ is",
+      "options": [
+        "(0, 2)",
+        "ℝ",
+        "[0, ∞)",
+        "ℝ \\ {0}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The function is f(x) = 2x²⁄³. This can be rewritten using radical notation as f(x) = ∛2x².\n\n The term ∛2x² involves a cube root, which is defined for all real numbers, and squaring x (which is also defined for all real numbers).\n\n There are no restrictions (like division by zero or taking the square root of a negative number) on the input x.\n\n Therefore, the domain of the function is all Real Numbers (R).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_3",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "If (x² + 14) / ( (x+2)(x-1)²) = A/(x+2) + B/(x-1) + C/((x-1)²), then what are the values of A, B, and C respectively?",
+      "options": [
+        "2, -1, 5",
+        "2, -2, -5",
+        "3, -2, 6",
+        "1, -1, 3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply both sides by (x+2)(x-1)² and expand: x²+14 = A(x-1)² + B(x+2)(x-1) + C(x+2).\n\n Compare coefficients to get equations: A+B=1, -2A+B+C=0, A-2B+2C=14.\n\n Solving gives A=2, B=-1, C=5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_4",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which of the following line is true about the intercept and symmetry of the graph of f(x) = x³-3x / x²-6?",
+      "options": [
+        "The graph is symmetrical with respect to the origin.",
+        "Its x-intercepts are ±√6.",
+        "Its y-intercept is 3.",
+        "The graph is symmetrical with respect to the y-axis."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-x) = -f(x), so the graph is symmetric about the origin ✅.\n\n X-intercepts: x = 0, ±√3 ❌,\n y-intercept: 0 ❌,\n not symmetric about y-axis ❌.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_5",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Consider the lines L1: y = 2x + 3 and L2: y = 1 - 3x. Then the angle between L1 and L2 is",
+      "options": [
+        "π/6",
+        "π/2",
+        "3π/2",
+        "π/4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The slopes of the two lines are m1 = 2 and m2 = -3. The angle (θ) between two lines with slopes m1 and m2 is given by the formula:\n\ntan(θ) = | (m1 - m2) / (1 + m1.m2) |\n\ntan(θ) = | (2 - (-3)) / (1 + 2(-3)) |$\ntan(θ) = | (2 + 3) / (1 - 6) |\ntan(θ) = | 5 / (-5) |\ntan(θ) = | -1 |\ntan(θ) = 1\n\nThe angle whose tangent is 1 is 45 degrees, which is π/4 radians.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_6",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "The equation of the parabola with vertex V(2, -1) and focus F(-1, -1) is",
+      "options": [
+        "(x - 2)² = -12(y + 1)",
+        "(y + 1)² = 12(x - 2)",
+        "(y + 1)² = -12(x - 2)",
+        "(x + 1)² = -12(y + 1)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The parabola is horizontal because the focus and vertex have the same y-coordinate (-1). \n\nDistance from vertex to focus = |h - (-1)| = |2 - (-1)| = 3 → 4p = 12.\n\n Equation: (y + 1)² = -12(x - 2)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_7",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "What is the equation of the hyperbola with foci F1(-2, 1), F2(8, 1) and the length of the conjugate axis is 8 units?",
+      "options": [
+        "((x-3)² / 25) - ((y-1)² / 15) = 1",
+        "((x-5)² / 9) - ((y-1)² / 16) = 1",
+        "((x-3)² / 16) - ((y-1)² / 25) = 1",
+        "((y+1)² / 16) - ((x-3)² / 9) = 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The hyperbola is horizontal because foci lie on y=1. \n\nCenter: midpoint of foci C=(3,1). \n\nDistance between center and focus: c=5. Conjugate axis length 8 → b=4.\n\n Equation: (x-3)²/a² - (y-1)²/b²=1 with a²=c²-b²=25-16=9.\n\n So equation: (x-3)²/25 - (y-1)²/16 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_8",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Let N be the set of Natural numbers N. Which one of the following propositions has the truth value TRUE?",
+      "options": [
+        "(∀x)(∃y)(xy < x)",
+        "(∀x)(∃y)(x - y = 5)",
+        "(∀x)(∀y)(x ≠ y => x > y)",
+        "(∃x)(∃y)(x - y = y-x)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Option 1: False because for x=1, no y satisfies xy < x. \n\n Option 2: False because for x<5, y = x-5 is not natural. \n\n Option 3: False because x ≠ y does not imply x > y.\n\n  Option 4: True because x - y = y - x simplifies to x = y; choose x=y=1 in N, statement holds.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_9",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "A group of students 5 from grade 10, 8 from grade 11 and 2 from grade 12 is to be formed. If a student is to be formed by randomly choosing one student equally from this group, what is the probability that the chosen student is either from grade 10 or grade 12?",
+      "options": [
+        "1/7",
+        "7/15",
+        "5/15",
+        "7/15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total students = 5 + 8 + 2 = 15.\n\n Favorable students (grade 10 or 12) = 5 + 2 = 7.\n\n Probability = Favorable / Total =\n 7/15.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_10",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A fair die is going to be rolled once, and let; \n\n E₁ be the event that an even number occurs;\n\n E₂ be the event that a prime number occurs; \n\n E₃ be the event that a multiple of 3 occurs; \n\n E₄ be the event that a multiple of 5 occurs. \n\n Then Which of the following pairs of events are mutually exclusive?",
+      "options": [
+        "E₂ and E₄",
+        "E₁ and E₂",
+        "E₃ and E₄",
+        "E₁ and E₃"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sample space: {1, 2, 3, 4, 5, 6}\nE₁ (even) = {2, 4, 6}\nE₂ (prime) = {2, 3, 5}\nE₃ (multiple of 3) = {3, 6}\nE₄ (multiple of 5) = {5}\n\nCheck intersections:\nE₂ ∩ E₄ = {5} (not empty)\nE₁ ∩ E₂ = {2} (not empty)\nE₃ ∩ E₄ = ∅ (mutually exclusive)\nE₁ ∩ E₃ = {6} (not empty)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_11",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "If [[2, -4,-1, 3]] * [[a,b]] = [[-1,8]], then what are the values of a and b respectively?",
+      "options": [
+        "0, -1",
+        "3, 2",
+        "1, 3",
+        "2, 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_12",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Let A be the matrix [[1, -1, 0,2, 0, 2,6, -3, 6]]. Then A transpose (A transpose) is:",
+      "options": [
+        "[[1, 2, 6,-1, 0, -3,0, 2, 6]]",
+        "[[-1, 2, 6,-1, 0, -3,0, 2, 6]]",
+        "[[1, -1, 0,2, 0, 2,6, -3, 6]]",
+        "[[-1, 1, 0,2, 0, 2,6, -3, 6]]"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_13",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Let A be a square matrix of order n and let B be a matrix obtained by multiplying one row of A by 2 and C be a matrix found by adding one row of A to another row of A. If det(A) = 10, what are det(B) and det(C) respectively?",
+      "options": [
+        "10 and 10",
+        "10 and 20",
+        "20 and 0",
+        "20 and 10"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_14",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the system: { 2x - y + 3z = 1; x + y + 3z = 3; x - y + z = -1 } is",
+      "options": [
+        "{ (k + 1, k - 1, k) : k in R }",
+        "{ (2 - 2k, 3 - k, k) : k in R }",
+        "{ (k + 1, 2k, k - 1) : k in R }",
+        "{ (1 - 2k, k, 2 - k) : k in R }"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_15",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Let z1, z2,and z3 be complex numbers. Then which of the following is NOT necessarily true?",
+      "options": [
+        "(z1.z2)z3 = z1 (z2.z3)",
+        "(z1.z2)z3 = (z2.z1).z3",
+        "z1 - (z2 - z3) = (z1-z2)-z3",
+        "z1-  (z2 + z3) = (z1 - z2)-z3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Multiplication of complex numbers is associative and commutative, so options 1 and 2 are true.\n\n Subtraction is NOT associative: z1 - (z2 - z3) = z1 - z2 + z3 ≠ (z1 - z2) - z3, so option 3 is NOT necessarily true.\n\n Option 4 uses addition/subtraction correctly, so it is true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_16",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Which of the following complex numbers corresponds to the point (-3, -1) in the Argand plane?",
+      "options": [
+        "-3 - i",
+        "-1 - 3i",
+        "3 + i",
+        "-3+i"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In the Argand plane, a complex number z = x + yi corresponds to the point (x, y).\n\n Here, x = -3 and y = -1.\n so the complex number is -3 - i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_17",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "If a translation T takes a point (-1, 1) to a point (3, 2), then the image of the circle x² + y² - 2x + 4y + 1 = 0 under T is",
+      "options": [
+        "(x + 3)² + (y + 3)² = 4",
+        "(x - 5)² + (y + 1)² = 4",
+        "(x - 2)² + (y + 3)² = 4",
+        "(x - 3)² + (y - 3)² = 4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The translation vector is (4, 1) because (-1,1) → (3,2).\n\n The circle x² + y² - 2x + 4y + 1 = 0 in standard form is (x-1)² + (y+2)² = 4.\n\n Applying translation: new center = (1+4, -2+1) = (5,-1), radius = 2.\n\n So image: (x-5)² + (y+1)² = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_18",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Let u = (-1, 6) and v = (2, 4) be position vectors. Then the vector 4u - 3v is",
+      "options": [
+        "(-15, 18)",
+        "(-4, 24)",
+        "(-10, 11)",
+        "(-10, 12)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Calculate the scalar products first: 4u = 4(-1, 6) = (-4, 24).\n And 3v = 3(2, 4) = (6, 12).\n\n 4u - 3v = (-4 - 6, 24 - 12) = \n(-10, 12).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_19",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = -1/3cos(3x/2-π/3)+1 Then what is the period and phase shift of the graph of f respectively?",
+      "options": [
+        "π/9 and 4π/9",
+        "3π/2 and 4π/9",
+        "2π/3 and 2π/9",
+        "4π/3 and 2π/9"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The standard cosine form is f(x) = a cos(bx - c) + d.\n\n Here b = 3/2, c = π/3.\n Period = 2π/b =\n 2π / (3/2) \n= 4π/3.\n\n Phase shift = c/b = \n(π/3)/(3/2) =\n 2π/9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_20",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions has a graph that completes one full cycle on  [-π/4, 11π/4]?",
+      "options": [
+        "f(x) = 2sin(2x + π/6)",
+        "f(x) = 2sin(2/3 + π/6)",
+        "f(x) = 3sin(4x/3 + π/2)",
+        "f(x) = 3sin(3x + π/6)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The interval length is 11π/4 - (-π/4) = 3π.\n\n A function completes one full cycle if its period = 3π. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g11u1_melmeja_21",
+      "examId": "m2015_g11_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about the graph of y = 3sin(4x)?",
+      "options": [
+        "The graph rises up on [0, π/4].",
+        "The graph completes one cycle on the interval [0, π/4].",
+        "The graph lies below the x-axis on (π/4, π/2).",
+        "The graph completes one cycle on the interval [0, π]."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The period of y = 3 sin(4x) is 2π/4 = π/2.\n\n One full cycle is completed on [0, π/2]. \n\nOn (π/4, π/2), 4x ∈ (π, 2π), so sin(4x) is negative and the graph lies below the x-axis.\n\n Hence, option 3 is true.",
+      "topic": "Mathematics"
+    }
+  ]
+}

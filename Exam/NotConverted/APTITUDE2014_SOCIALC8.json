@@ -1,0 +1,215 @@
+[
+
+  {
+    "question": " What is the approximate ratio between the total expenditure on **interest on loans** for all the years and total expenditure on **fuel and transport** for all the years?",
+    "options": [
+      "A 10 : 36",
+      "B 10 : 39",
+      "C 10 : 26",
+      "D 10 : 29"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": " Let x ≠ -2, x ≠ 3 and x ≠ -4/7. Then (2/x+2 + 5/x-3) ÷ (7x+4 / 2x-6)  equals :",
+    "options": [
+      "A 7x-1 / (x+2)(7x+4)",
+      "B 2/x+2",
+      "C 7x+4/x+2",
+      "D 3/x-3"
+    ],
+    "answer": 0,
+    "explanation": "First simplify each part:\n\n(2/(x+2) + 5/(x-3)) = [(2(x-3) + 5(x+2)) / (x+2)(x-3)] = (2x - 6 + 5x + 10) / (x+2)(x-3) = (7x + 4) / (x+2)(x-3).\n\nNext, divide by (7x+4)/(2x-6). Dividing by a fraction means multiplying by its reciprocal:\n\n(7x+4)/(x+2)(x-3) × (2x-6)/(7x+4).\n\nCancel (7x+4). Since 2x-6 = 2(x-3), cancel (x-3).\n\nThe final result becomes (7x-1) / [(x+2)(7x+4)]."
+  },
+  {
+    "question": " When the polynomial 5x⁴-2x³+x²-x+1 is divided by x²-1, the remainder is :",
+    "options": [
+      "A -3x+7",
+      "B -3x+7 / x²-1",
+      "C x²-1/-3x+7",
+      "D 5x²-2x+6"
+    ],
+    "answer": 1,
+    "explanation": "Let the remainder be ax + b.\n\nP(1) = 4 → a + b = 4\n\nP(−1) = 10 → −a + b = 10\n\nSolving gives b = 7 and a = −3.\n\nSo, the remainder is −3x + 7."
+  },
+
+
+  {
+    "question": " Two six side dice are thrown together. What is the probability that the sum of two numbers on top is 10?",
+    "options": [
+      "A 1/2",
+      "B 1/6",
+      "C 1/12",
+      "D 5/6"
+    ],
+    "answer": 2,
+    "explanation": "Total possible outcomes when two dice are thrown = 6 × 6 = 36.\n\nThe sum 10 can occur in 3 ways: (4,6), (5,5), (6,4).\n\nSo, probability = 3/36 = 1/12."
+  },
+  {
+    "question": " Nine identical balls numbered 1 through 9 are placed in a bag. A ball is randomly drawn and replace. Then, a second ball is randomly drawn. What is the probability that the first ball drawn and the second ball drawn are both even numbered?",
+    "options": [
+      "A 20/81",
+      "B 25/81",
+      "C 8/81",
+      "D 16/81"
+    ],
+    "answer": 3,
+    "explanation": "Even numbers from 1 to 9 are 2, 4, 6, 8 → 4 even numbers.\n\nProbability of drawing an even number = 4/9.\n\nSince the ball is replaced, the events are independent.\n\nProbability both are even = (4/9) × (4/9) = 16/81."
+  },
+  {
+    "question": " Mesfin bought a laptop valued Birr 7700. One year later the value of the laptop is decreased by 2/7. What is the new value of the laptop?",
+    "options": [
+      "A 5500 birr",
+      "B 9900 birr",
+      "C 2200 birr",
+      "D 4400 birr"
+    ],
+    "answer": 2,
+    "explanation": "Decrease = (2/7) × 7700 = 2200 birr\n\nNew value = 7700 − 2200 = 5500 birr."
+  },
+  {
+    "question": " Hamza spent 22 minutes on his English homework and 25.08 minutes on his Mathematics homework. What percent more time does Hamza spent on his Mathematics homework?",
+    "options": [
+      "A 87",
+      "B 28",
+      "C 14",
+      "D 12"
+    ],
+    "answer": 2,
+    "explanation": "Time difference = 25.08 − 22 = 3.08 minutes.\n\nPercentage more = (3.08 / 22) × 100 ≈ 14%.\n\nHence, Hamza spent approximately 14% more time on his Mathematics homework."
+  },
+  {
+    "question": " Meseret begins a saving program in which she will save Birr 1000 the first year, and each subsequent year will save Birr 200 more than she did the previous year. How much will she save during the 8th year?",
+    "options": [
+      "A Birr 2600",
+      "B Birr 1360",
+      "C Birr 2200",
+      "D Birr 2400"
+    ],
+    "answer": 2,
+    "explanation": "This is an arithmetic sequence where first term a = 1000 and common difference d = 200.\n\nThe amount saved in the nth year = a + (n−1)d\n\nFor the 8th year: 1000 + (8−1)×200 = 1000 + 1400 = 2600 Birr."
+  },
+  {
+    "question": " A ball bounces one-half the distance from which it falls. How high does it bounce up on the fifth rebound if the ball is dropped from a height of 20m?",
+    "options": [
+      "A 2.5m",
+      "B 5m",
+      "C 1.25m",
+      "D 0.625m"
+    ],
+    "answer": 0,
+    "explanation": "The ball bounces half the previous height each time.\n\nHeights after each rebound:\n\n1st: 20 × 1/2 = 10 m\n\n2nd: 10 × 1/2 = 5 m\n\n3rd: 5 × 1/2 = 2.5 m\n\n4th: 2.5 × 1/2 = 1.25 m\n\n5th: 1.25 × 1/2 = 0.625 m\n\nThus, on the fifth rebound, the ball bounces 0.625 m high."
+  },
+  {
+    "question": " A contest offers a total of 18 prizes. The first prize is worth Birr 10,000, and each successive prize is worth Birr 500 less than the next prize. What is the total value of all the prizes?",
+    "options": [
+      "A Birr 108,000",
+      "B Birr 105,000",
+      "C Birr 103,500",
+      "D Birr 113,500"
+    ],
+    "answer": 2,
+    "explanation": " This is an arithmetic series with first term a = 10,000, common difference d = −500, and n = 18 prizes.\n\nSum of n terms: Sₙ = n/2 × [2a + (n−1)d]\n\nS₁₈ = 18/2 × [2×10,000 + (18−1)(−500)]\n\n= 9 × [20,000 + (−8,500)]\n\n= 9 × 11,500\n\n= 103,500 Birr."
+  },
+  {
+    "question": " A student earns 13 birr per hour working for the computer center's help desk and 9.50 birr per hour working at the copy center. Because of her course load, she limits her work to 25 hours per week. She wants to earn at least 275 birr each week. Which of the following system of linear inequalities represent this information?",
+    "options": [
+      "A {(13x + 9.5y ≥ 275) ,(x+y ≤ 25) , (x≥ 0,y≥ 0 )}",
+      "B {(13x + 9.5y ≤ 275) , (x+y ≥ 25)  , (x≥ 0,y≥ 0)}",
+      "C {(13x + 9.5y >275) , (x+y≤ 25), (x≥ 0,y≥ 0)}",
+      "D {(13x + 9.5y < 275), (x+y ≤ 25) , (x≥ 0,y≥ 0)}"
+    ],
+    "answer": 3,
+    "explanation": "Let x = hours at computer center, y = hours at copy center.\n\nEarnings constraint: 13x + 9.5y ≥ 275 (she wants at least 275 birr).\n\nTime constraint: x + y ≤ 25 (total hours ≤ 25).\n\nNon-negativity: x ≥ 0, y ≥ 0.\n\nHence, the correct system is option A."
+  },
+  {
+    "question": " Consider the following system of linear inequalities {(x-y ≤ 3), (3x-3y ≥ d)} If the solution set of the system is  empty, which of the following numbers could be the value of d?",
+    "options": [
+      "A 8",
+      "B 15",
+      "C 5",
+      "D 7"
+    ],
+    "answer": 0,
+    "explanation": "First inequality: x − y ≤ 3 → 3(x − y) ≤ 9 → 3x − 3y ≤ 9.\n\nSecond inequality: 3x − 3y ≥ d.\n\nFor the solution set to be empty, the inequalities must be contradictory: 3x − 3y ≤ 9 and 3x − 3y ≥ d with d > 9.\n\nAmong the options, only d = 15 > 9 satisfies this. Hence, the solution set is empty if d = 15."
+  },
+  {
+    "question": " A pediatrician uses the model h = 3.3a + 28.6 to estimate the height h of a boy, in inches, in terms of the boy's age a, in years, between the age of 2 and 5. Based on the model, what is the estimated increase, in inches of the boy's height each year?",
+    "options": [
+      "A 3.3",
+      "B 4.3",
+      "C 14.3",
+      "D 28.6"
+    ],
+    "answer": 0,
+    "explanation": "The model is h = 3.3a + 28.6.\n\nThe coefficient of a (3.3) represents the rate of change of height with respect to age.\n\nThus, the estimated increase in the boy's height each year is 3.3 inches."
+  },
+  {
+    "question": " Suppose a chain letter is started by sending a letter to five people and the letter requires each person who receives the letter to send it on to five additional people. Assuming that no person receives more than one letter. How many letters are sent all together if the chain reaches the eighth stage?",
+    "options": [
+      "A 490,625",
+      "B 390,625",
+      "C 488,280",
+      "D 480,280"
+    ],
+    "answer": 0,
+    "explanation": "If we interpret the first stage as the initial 5 letters, then the total number of letters sent in 8 stages is calculated as the sum of the geometric series:\n\nS₈ = 5 + 5² + 5³ + ... + 5⁸ = 5(5⁸ − 1)/(5 − 1) = 5 × (390,625 − 1)/4 = 488,280.\n\nHence, the total letters sent is 488,280."
+  },
+  {
+    "question": " If the line passing through (x, y) and (-1, 2) has a slope of 3 and the line passing through (x, y) and (2, -1) has a slope of 1, then (x, y) equals:",
+    "options": [
+      "A (4, -7)",
+      "B (-4, 7)",
+      "C (-4, -7)",
+      "D (4, 7)"
+    ],
+    "answer": 0,
+    "explanation": "Let the point be (x, y).\n\nSlope with (-1, 2) is 3:\n\n(y − 2)/(x + 1) = 3 → y − 2 = 3(x + 1) → y = 3x + 5\n\nSlope with (2, -1) is 1:\n\n(y + 1)/(x − 2) = 1 → y + 1 = x − 2 → y = x − 3\n\nEquate the two expressions: 3x + 5 = x − 3 → 2x = −8 → x = −4\n\nThen y = x − 3 = −4 − 3 = −7\n\nHence, the point (x, y) = (−4, −7)."
+  },
+  {
+    "question": " Ali wants to invest a total of Birr 20,000 so that his yearly interest is Birr 1690. If he invests part of it in a bank yielding 8% profit and the other part in a stock at 9.5% profit, how much should he invest at each rate?",
+    "options": [
+      "A Birr 7500 at 9.5%; Birr 12000 at 8%",
+      "B Birr 9000 at 9.5%; Birr 14000 at 8%",
+      "C Birr 6000 at 9.5%; Birr 14000 at 8%",
+      "D Birr 8000 at 9.5%; Birr 12000 at 8%"
+    ],
+    "answer": 3,
+    "explanation": "Let x = amount invested at 9.5%, then 20,000 − x = amount at 8%.\n\nInterest equation: 0.095x + 0.08(20,000 − x) = 1690\n\n0.095x + 1600 − 0.08x = 1690\n\n0.015x = 90 → x = 6000\n\nThen the remaining 20,000 − 6000 = 14,000 is invested at 8%.\n\nThus, Ali should invest Birr 6,000 at 9.5% and Birr 14,000 at 8%"
+  },
+  {
+    "question": " The red, green and black lollies in a packet are in the ratio 2:3:5. How many green and black lollies are there, if there are 10 red lollies?",
+    "options": [
+      "A 25 green lollies and 15 black lollies",
+      "B 30 green lollies and 50 black lollies",
+      "C 6 green lollies and 15 black lollies",
+      "D 15 green lollies and 25 black lollies"
+    ],
+    "answer": 3,
+    "explanation": "The ratio of red:green:black = 2:3:5.\n\nLet the common multiplier be k.\n\nRed = 2k = 10 → k = 5\n\nGreen = 3k = 3 × 5 = 15\n\nBlack = 5k = 5 × 5 = 25\n\nHence, there are 15 green lollies and 25 black lollies."
+  },
+  {
+    "question": " At a restaurant the bill came to 82 birr. If you leave 119.72 birr, what percent tip is that?",
+    "options": [
+      "A 31.5",
+      "B 46",
+      "C 64",
+      "D 38"
+    ],
+    "answer": 2,
+    "explanation": "The tip is the extra amount given over the bill: 119.72 − 82 = 37.72 birr.\n\nPercent tip = (37.72 ÷ 82) × 100 ≈ 46%.\n\nHence, the tip is approximately 46% of the bill."
+  },
+  {
+    "question": " Suppose the population of a town is given by the model P(t) = 17250(1/2)ᵗ⁄¹⁰, where t denotes the number of years since 2000. Which of the following statement is true?",
+    "options": [
+      "A The population is halved every ten years.",
+      "B The population is growing by 50% every ten years.",
+      "C The population in 2000 was 8625.",
+      "D The population doubles every ten years."
+    ],
+    "answer": 0,
+    "explanation": "The population model is P(t) = 17250 × (1/2)ᵗ⁄¹⁰. \n\n- The base of the exponent is 1/2, which means the population decreases by half over the period corresponding to the exponent increment.\n\n- Since the exponent is t/10, the population is halved every 10 years.\n\n- In 2000 (t = 0), the population is 17250, not 8625.\n\nTherefore, option A is correct."
+  }
+
+]

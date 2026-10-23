@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which of the following set of equations define the xz-plane?",
+    "options": [
+      "{ (x, y, z) | x, y, z ∈ ℝ and z = 0 }",
+      "{ (x, y, z) | x, y, z ∈ ℝ and x = 0 }",
+      "{ (x, y, z) | x, y, z ∈ ℝ and y = 0 }",
+      "{ (x, y, z) | x, y, z ∈ ℝ and x = z = 0 }"
+    ],
+    "answer": 2,
+    "explanation": "The xz-plane is the two-dimensional surface in three-dimensional space that contains the x-axis and the z-axis.\n\n Any point (x, y, z) on this plane must have its y-coordinate equal to zero.\n\n Therefore, the xz-plane is defined by the equation y = 0."
+  },
+  {
+    "question": "What is the coordinates of the midpoint of the line segment joining (-1, -3, 3) and (-1, 5, -7) in space?",
+    "options": [
+      "(-1, 3, 5)",
+      "(-1, 1, -2)",
+      "(1, 4, 3)",
+      "(-1, 3, -9/2)"
+    ],
+    "answer": 1,
+    "explanation": " Mx = (-1 + (-1)) / 2 = \n-2 / 2 = \n-1. \n\nMy = (-3 + 5) / 2 = \n2 / 2 = \n1.\n\n Mz = (3 + (-7)) / 2 =\n -4 / 2 =\n -2.\n\n The midpoint is (-1, 1, -2)."
+  }
+]

@@ -1,0 +1,24 @@
+[
+{
+  "question": "51. A pressure applied to one point in an enclosed incompressible fluid is transmitted to all parts of the fluid without reducing in value. This is the principle of",
+  "options": [
+    "Continuity.",
+    "Bernoulli.",
+    "Archimedes.",
+    "Pascal."
+  ],
+  "answer": 3,
+  "explanation": "This statement is the definition of **Pascal's Principle**. This principle is the basis for hydraulic systems like car brakes and hydraulic lifts."
+},
+{
+"question": "29. A glass tube of radius $30 \\text{ mm}$ is inserted in a bowl which contains methyl iodide of density $2.28 \\text{ g/cm}^3$. If the contact angle of the methyl iodide in the tube is $30^{\\circ}$ and the surface tension is $0.26 \\text{ N/m}$, how much height does the methyl iodide rises through the tube?",
+"options": [
+"0.66 m",
+"0.52 m",
+"0.066 m",
+"6.6 m"
+],
+"answer": 2,
+"explanation": "The capillary rise ($h$) is given by Jurin's Law: $h = \\frac{2\\gamma \\cos\\theta}{\\rho g r}$.\n\n1.  **Convert to SI units:**\n    * Radius $r = 30 \\text{ mm} = 0.030 \\text{ m}$.\n    * Density $\\rho = 2.28 \\text{ g/cm}^3 = 2280 \\text{ kg/m}^3$.\n\n2.  **Calculate $h$ (using stated values):**\n    $$h = \\frac{2(0.26 \\text{ N/m}) \\cos(30^{\\circ})}{(2280 \\text{ kg/m}^3)(9.8 \\text{ m/s}^2)(0.030 \\text{ m})}$$ \n    $$h \\approx \\frac{0.4503}{670.32} \\approx 0.000672 \\text{ m}$$\n\n*Note: The calculated value is $0.672 \\text{ mm}$, which does not match the options. The closest plausible result that matches an option (C) is obtained if we assume the radius was mistyped and should have been $r = 0.3 \\text{ mm}$ ($0.0003 \\text{ m}$), which yields $h \\approx 0.067 \\text{ m}$ (or $6.7 \\text{ cm}$) a better fit for $0.066 \\text{ m}$*."
+}
+]

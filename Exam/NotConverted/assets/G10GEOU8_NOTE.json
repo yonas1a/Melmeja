@@ -1,0 +1,72 @@
+[
+  {
+    "type": "note",
+    "title": "📘 UNIT 8: GEOSPATIAL INFORMATION AND DATA PROCESSING",
+    "notes": "🌍 Geospatial information and data processing → the collection, processing, analysis, representation, and use of geographic data."
+  },
+  {
+    "type": "note",
+    "title": "8.1 📍 BASIC CONCEPTS OF GEOSPATIAL INFORMATION",
+    "notes": "📊 Data → collected observations represented as numbers, characters, images, facts, or symbols.\n\n💡 Information → processed and organized data that has meaning and adds knowledge.\n\n📍 Geospatial data → data about objects, events, or phenomena that have a location on Earth's surface.\n\n🗺️ Geographic data → connects place, time, and attributes and forms the basis of mapmaking.\n\n📌 Location information → identifies where a geographic feature exists, usually using coordinates.\n\n⏱️ Temporal information → identifies the time when a location and its attributes existed.\n\n🏷️ Attribute information → describes characteristics of mapped features, such as temperature, elevation, population, or income.\n\n🔑 Geospatial data = Location + Attributes + Time."
+  },
+  {
+    "type": "note",
+    "title": "8.1.1 📊 DATA AND INFORMATION",
+    "notes": "📥 Data → unprocessed facts or figures used as input.\n\n📤 Information → processed data used as output.\n\n🔄 Data lifecycle → Collection → Processing → Analysis → Dissemination.\n\n1️⃣ Collection → gathering primary or secondary data.\n\n2️⃣ Processing → checking quality, correcting, merging, and organizing data.\n\n3️⃣ Analysis → examining data to identify relationships and meaningful patterns.\n\n4️⃣ Dissemination → sharing results through reports, conferences, workshops, publications, or other forms."
+  },
+  {
+    "type": "note",
+    "title": "8.1.2 🗺️ VISUALIZING GEOGRAPHIC DATA",
+    "notes": "📌 Discrete objects → geographic features with clearly defined boundaries.\n\n🏞️ Example → a lake.\n\n🌡️ Continuous data → phenomena that gradually vary across a surface.\n\n⛰️ Example → elevation or temperature.\n\n🔑 Difference → Discrete data has identifiable boundaries; continuous data varies across space."
+  },
+  {
+    "type": "note",
+    "title": "8.2 🛰️ SOURCES AND TOOLS OF GEOGRAPHIC DATA",
+    "notes": "📚 Geographic data sources → directly collected data and remotely sensed data.\n\n👨‍🔬 Directly collected data → gathered at the location where the phenomenon is measured.\n\n📌 Examples → weather-station measurements, field surveys, census, sample surveys, and direct observation.\n\n🛰️ Remotely sensed data → collected from a distance without direct physical contact with the feature.\n\n📡 Examples → satellite images and aerial photographs.\n\n🗂️ Common sources → hard-copy maps, aerial photographs, remotely sensed imagery, survey samples, and existing digital data."
+  },
+  {
+    "type": "note",
+    "title": "8.2.1 🧭 TOOLS FOR GEOGRAPHIC DATA COLLECTION",
+    "notes": "🧭 Field survey → systematic observation, measurement, and recording of geographic information in an area.\n\n📍 GPS (Global Positioning System) → satellite-based system used to determine the precise location of a place.\n\n🛰️ GPS → provides latitude, longitude, and elevation information.\n\n💻 Digitizer → converts information from analogue or paper form into digital, computer-readable form.\n\n📱 Digitization tools → table digitizers, scanners, and smartphones.\n\n🌐 Georeferencing → relating an image or map's internal coordinates to a geographic coordinate system.\n\n📚 Primary sources → data collected directly for a particular purpose.\n\n📖 Secondary sources → existing data collected previously for other purposes and reused."
+  },
+  {
+    "type": "note",
+    "title": "8.3 🗺️ GEOGRAPHIC DATA REPRESENTATIONS",
+    "notes": "🗺️ Geographic data representation → graphical visualization of geographic information or production of maps.\n\n📄 Analogue format → geographic information represented on physical materials such as paper maps.\n\n💻 Digital format → geographic information represented electronically and processed by computers.\n\n⚡ Advantages of digital data → easy to copy, transmit, store, transform, process, and analyze.\n\n📌 Basic map features → Point, Line, and Area (Polygon).\n\n📍 Point → represents a feature at a single location, such as a weather station or water well.\n\n〰️ Line → represents a feature using connected coordinates, such as rivers, roads, or pipelines.\n\n🔷 Polygon/Area → represents a feature enclosed by connected coordinates, such as forests, soil areas, administrative boundaries, and climate zones."
+  },
+  {
+    "type": "note",
+    "title": "8.3.1 💻 DIGITAL SPATIAL DATA MODELS",
+    "notes": "🔷 Vector data → represents geographic features using points, lines, and polygons defined by coordinates.\n\n📍 Point vector → one coordinate pair.\n\n〰️ Line vector → sequence of connected vertices; lines may end at nodes.\n\n🔷 Polygon vector → closed set of coordinate pairs representing an area.\n\n🟩 Raster data → represents geographic space as a grid of cells arranged in rows and columns.\n\n📐 Raster → points are represented by single cells, lines by neighboring cells, and areas by groups of connected cells.\n\n🖼️ Image data → represents geographic landscapes through pictures or photographs.\n\n🔑 Vector = coordinates/features; Raster = grid cells."
+  },
+  {
+    "type": "note",
+    "title": "8.4 🗺️ ADVANCES IN MAPMAKING AND GIS",
+    "notes": "🗺️ Mapmaking → the graphical representation of the Earth's surface and geographic information.\n\n📜 Historical development → maps developed from early simple and distorted representations into increasingly accurate maps.\n\n🔭 Major advances → mathematics, astronomy, latitude and longitude, printing, photography, aircraft, and satellites.\n\n🛰️ Satellites → provide detailed and frequently updated information over large areas of Earth.\n\n💻 GIS (Geographic Information System) → a computer-based system used to store, visualize, analyze, and interpret geographic data."
+  },
+  {
+    "type": "note",
+    "title": "8.4.1 🧩 COMPONENTS OF GIS",
+    "notes": "🖥️ Hardware → computers and devices such as printers, scanners, and plotters used to operate GIS.\n\n💻 Software → programs used to store, analyze, and display geographic information.\n\n👥 People → administrators, managers, GIS technicians, application experts, end users, and consumers.\n\n📋 Methods → guidelines, specifications, standards, procedures, and plans for applying GIS.\n\n🗂️ Data → accurate geographic information used by GIS, including vector, raster, image, and attribute data.\n\n🔑 GIS components → Hardware + Software + People + Methods + Data."
+  },
+  {
+    "type": "note",
+    "title": "8.4.2 🗺️ CREATING A LOCAL ADMINISTRATIVE MAP",
+    "notes": "🗂️ Basic process → obtain geographic data → add data layers → select the area of interest → edit/display layers → export the selected data → prepare the map layout.\n\n🇪🇹 Example → creating an administrative map of Oromia National Regional State using geographic data/shapefiles.\n\n📌 Map marginal information → Legend, Scale bar, North arrow, Coordinate information, Gridlines, and Date of map compilation."
+  },
+  {
+    "type": "note",
+    "title": "8.5 📊 MAKING AND INTERPRETATION OF GRAPHS, CHARTS AND DIAGRAMS",
+    "notes": "📊 Graphs, charts, and diagrams → present data clearly, show trends, make comparisons, and explain relationships.\n\n💻 Common tools → Microsoft Excel, Microsoft Word, and statistical/spreadsheet software.\n\n📊 Bar graph → compares independent data series; bar height or length represents value or frequency.\n\n📈 Line graph → shows how data changes over time and is useful for identifying trends.\n\n🥧 Pie chart → shows how a whole is divided into categories or percentages.\n\n🔗 Diagram → illustrates how different parts or components are connected, related, or overlap."
+  },
+  {
+    "type": "note",
+    "title": "📚 UNIT 8 SUMMARY",
+    "notes": "📍 Geospatial data → geographic information connected to location and attributes, often with time.\n\n📊 Data → raw observations; Information → processed data with meaning.\n\n🛰️ Geographic data → collected directly through surveys and observations or remotely through satellites and aerial photography.\n\n🧭 GPS → determines geographic location using satellites.\n\n💻 Digitizer → converts analogue information into digital form.\n\n🗺️ Geographic features → represented as points, lines, and polygons.\n\n🔷 Vector → coordinate-based representation; 🟩 Raster → grid-cell representation.\n\n💻 GIS → stores, visualizes, analyzes, and interprets geographic data.\n\n📊 Graphs and charts → make geographic data easier to compare, interpret, and communicate."
+  },
+  {
+    "type": "note",
+    "title": "📝 UNIT 8: EXAM QUICK REVIEW",
+    "notes": "🔹 Data = unprocessed facts or observations.\n\n🔹 Information = processed data with meaning.\n\n🔹 Geospatial data = data connected to a geographic location.\n\n🔹 Geospatial elements = Location + Attributes + Time.\n\n🔹 Discrete = clearly defined boundaries.\n\n🔹 Continuous = values gradually vary across space.\n\n🔹 Direct data = collected at the source.\n\n🔹 Remote sensing = data collected from a distance.\n\n🔹 GPS = determines location using satellites.\n\n🔹 Digitizer = converts analogue information into digital form.\n\n🔹 Point = single location.\n\n🔹 Line = connected coordinates.\n\n🔹 Polygon = closed area.\n\n🔹 Vector = points, lines, and polygons using coordinates.\n\n🔹 Raster = grid cells.\n\n🔹 GIS = computer system for storing, visualizing, analyzing, and interpreting geographic data.\n\n🔹 Bar graph = comparison.\n\n🔹 Line graph = change over time.\n\n🔹 Pie chart = parts of a whole.\n\n🔹 Diagram = relationships between components."
+  }
+]

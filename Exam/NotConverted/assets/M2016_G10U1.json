@@ -1,0 +1,26 @@
+[
+  {
+    "question": " Which one of the following is equal to the polynomial function f(x) = x² + 4x + 4?",
+    "options": [
+      "g(x) = x⁴ + 4x² + 4 / x²+2",
+      "h(x) = (x² + 6x + 8) - (2x - 4)",
+      "k(x) = (x - 2)(x + 2)",
+      "l(x) = (x² + 10x + 3) + (-6x + 1)"
+    ],
+    "answer": 3,
+    "explanation": "We are looking for an expression equivalent to f(x) = x² + 4x + 4. \n\n- Option g(x): (x⁴ + 4x² + 4)/(x² + 2) =\n (x² + 2)² / (x² + 2) =\n x² + 2 ❌ Not equal to x² + 4x + 4\n\n- Option h(x): (x² + 6x + 8) - (2x - 4) = \nx² + 6x + 8 - 2x + 4 = \nx² + 4x + 12 ❌ Not equal to x² + 4x + 4\n\n- Option k(x): (x - 2)(x + 2) =\n x² - 4 ❌ Not equal to x² + 4x + 4\n\n- Option l(x): (x² + 10x + 3) + (-6x + 1) = \nx² + 10x + 3 - 6x + 1 =\n x² + 4x + 4 ✅ Matches f(x)\n\nTherefore, l(x) is equivalent to f(x)."
+  },
+
+
+  {
+    "question": " Which one of the following statements is the polynomial division theorem?",
+    "options": [
+      "If f is a non-constant polynomial and c is a real number, then x-c is a factor of f(x) if and only if f(c)=0.",
+      "If f is a non-constant polynomial and c is a real number, then x-c is a factor of f(x) if and only if f(c)=0.",
+      "Let f be a non-constant polynomial with integer coefficients. If the rational number c/d in its lowest terms is a root of f, then r is a factor of the constant term of f and s is a factor of the leading coefficient.",
+      "If f(x) and d(x) are polynomials such that d(x) ≠ 0 and degree d(x) ≤ degree f(x), then there exist unique polynomials q(x) and r(x) such that f(x) = d(x)q(x) + r(x), where r(x) = 0 or degree r(x) < degree(d(x))."
+    ],
+    "answer": 3,
+    "explanation": "The polynomial division theorem states that for any polynomials f(x) and d(x) with d(x) ≠ 0 and degree d(x) ≤ degree f(x), there exist unique polynomials q(x) (quotient) and r(x) (remainder) such that f(x) = d(x)q(x) + r(x), where r(x) = 0 or the degree of r(x) is less than the degree of d(x)."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "What is the value of x in the equation √(125ˣ5²ˣ⁻¹)= 25³ˣ⁺¹?",
+    "options": [
+      "5/7",
+      "5",
+      "-5/7",
+      "-5"
+    ],
+    "answer": 0,
+    "explanation": "Combine under the square root: √(125ˣ × 5²ˣ⁻¹) = (125ˣ × 5²ˣ⁻¹)^(1/2) \n\n= 5^((3x + 4x - 2)/2) = 5^(7x/2 - 1).\n\n Right-hand side: 25^(3x+1) = 5^(6x + 2).\n\n Equate exponents: 7x/2 - 1 = 6x + 2 \n→ x = 5/7."
+  },
+  {
+    "question": "The solution set of the equation 3|2x - 4| = 6 - 2|1 - 5x| is",
+    "options": [
+      "{-1, 1/2}",
+      "{}",
+      "{-1, 1/2, 5/4}",
+      "{1/2, 5/4}"
+    ],
+    "answer": 1,
+    "explanation": "3|2x-4| = 6 - 2|1-5x|,\n\n6|x-2| = 6 - 2|1-5x|\n\n3|x-2| + |1-5x| = 3\n\nCheck intervals x < 1/5, 1/5 ≤ x < 2, x ≥ 2\n\nNo interval gives a valid solution\n\nSolution set = {}"
+  }
+]

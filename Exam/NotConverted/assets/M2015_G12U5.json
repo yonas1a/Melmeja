@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Let F be the anti-derivative of f. Then which of the following is NOT true about F and f?",
+    "options": [
+      "∫ [ d/dx f(x) dx ] = f(x) + c",
+      "∫ [ F(x) dx ] = f(x) + c",
+      "F'(x) = f(x)",
+      "d/dx ∫F(x)dx = F(x)"
+    ],
+    "answer": 1,
+    "explanation": "By definition, if F is an anti-derivative of f, then F' = f.\n\n- Option 1: ∫[d/dx f(x) dx] = f(x) + C ✅ True, since integration reverses differentiation.\n\n- Option 2: ∫[F(x) dx] = f(x) + C ❌ False, because the integral of F(x) is not f(x), it would be ∫F(x) dx = some new function + C.\n\n- Option 3: F'(x) = f(x) ✅ True by definition.\n\n- Option 4: d/dx ∫ F(x) dx = F(x) ✅ True by the Fundamental Theorem of Calculus.\n\n Hence, option 2 is NOT true."
+  },
+  {
+    "question": "What is the area of the region bounded by the graph of f(x) = x² - 4 and the x-axis in square units?",
+    "options": [
+      "32 / 3",
+      "16 / 3",
+      "32",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "The graph intersects the x-axis at x = -2 and x = 2.\n\n Between these points, f(x) ≤ 0, so the area is ∫ from -2 to 2 of |x² - 4| dx =\n\n ∫ from -2 to 2 of (4 - x²) dx =\n\n [4x - x³/3] from -2 to 2 = \n(8 - 8/3) - (-8 + 8/3) \n= 32/3."
+  },
+  {
+    "question": "Let f be a continuous function on [0, 1] and let F be an anti-derivative of f with F(1) = -11 and F(0) = 11. Then ∫ f(x)dx from 0 to 1 of  is equal to",
+    "options": [
+      "22",
+      "0",
+      "11",
+      "-22"
+    ],
+    "answer": 3,
+    "explanation": "According to the Fundamental Theorem of Calculus :-\n\n if F is an anti-derivative of a continuous function f on the interval [a, b], then Integral from a to b of f(x) dx = F(b) - F(a).\n\n Here, a = 0 and b = 1, \nwith F(1) = -11 and F(0) = 11.\n-11 - 11 = -22."
+  },
+  {
+    "question": "Which of the following is equal to ∫ 3cos 3xdx?",
+    "options": [
+      "-sinx + c",
+      "sinx + c",
+      " sin3x + c",
+      "1/3 sin(3x) + c"
+    ],
+    "answer": 1,
+    "explanation": "This is solved using the u-substitution method for integration.\n\n Let u = 3x, which means du = 3 dx.\n\n The integral becomes Integral of cos(u) du. \n\nThe antiderivative of cos(u) is sin(u).\n\nSubstituting back u = 3x gives sin(3x) + c.\n The answer is sin(3x) + c."
+  }
+]

@@ -1,0 +1,111 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 6: TRANSFORMATIONS OF THE PLANE",
+"notes": "✓ Transformation → a rule that moves every point of a plane figure to a new position.\n\n◆ Original point → pre-image.\n◆ New point → image.\n◆ Transformation → maps points of the plane to other points.\n\nMain transformations studied:\n1. Translation\n2. Reflection\n3. Rotation\n\nThese transformations are used to move points, lines, circles and other plane figures while studying how their positions and properties change.",
+"image": "transformations_plane.png"
+},
+{
+"type": "note",
+"title": "6.1 BASIC CONCEPTS OF TRANSFORMATIONS",
+"notes": "✓ A transformation changes the position of points in the plane according to a definite rule.\n\n◆ Pre-image → the original figure.\n◆ Image → the transformed figure.\n◆ Transformation T → maps a point P to its image P′.\n\nWritten as:\nT(P) = P′\n\nExample:\nIf T moves A(2,3) to A′(5,6), then the transformation has mapped A to A′.\n\nA transformation can be applied to an individual point or to every point of a geometric figure.",
+"image": "transformation_mapping.png"
+},
+{
+"type": "note",
+"title": "RIGID TRANSFORMATIONS",
+"notes": "✓ Rigid transformation → a transformation that preserves distances and therefore preserves the size and shape of a figure.\n\nThe main rigid transformations are:\n\n◆ Translation → slides a figure.\n◆ Reflection → flips a figure.\n◆ Rotation → turns a figure.\n\nUnder a rigid transformation:\n◆ lengths remain unchanged\n◆ angles remain unchanged\n◆ shape remains unchanged\n◆ size remains unchanged\n\n→ A transformed figure is congruent to its original figure.",
+"image": "rigid_transformations.png"
+},
+{
+"type": "note",
+"title": "6.2 TRANSLATION",
+"notes": "✓ Translation → moves every point of a figure the same distance in the same direction.\n\nA translation is represented by a vector:\nT = (a,b)\n\nThe point:\nP(x,y)\nbecomes:\nP′(x+a, y+b).\n\nExample:\nTranslate P(2,3) by T=(4,−1).\n\nP′ = (2+4, 3−1)\n   = (6,2).\n\n→ Translation changes position but preserves size, shape and orientation.",
+"image": "translation_vector.png"
+},
+{
+"type": "note",
+"title": "TRANSLATING PLANE FIGURES",
+"notes": "To translate a figure:\n\n1. Identify the translation vector.\n2. Add its horizontal component to every x-coordinate.\n3. Add its vertical component to every y-coordinate.\n4. Connect the transformed points in the same order.\n\nExample:\nA(1,2), B(4,2), C(2,5)\n\nTranslation T=(3,−2):\n\nA′=(4,0)\nB′=(7,0)\nC′=(5,3)\n\n→ Every point moves by exactly the same vector.",
+"image": "translated_triangle.png"
+},
+{
+"type": "note",
+"title": "6.3 REFLECTION",
+"notes": "✓ Reflection → flips a figure across a line called the line of reflection.\n\nThe line of reflection acts like a mirror.\nEach point and its image are the same distance from the line.\nThe segment joining a point to its image is perpendicular to the line of reflection.\n\nReflection preserves:\n◆ lengths\n◆ angles\n◆ size\n◆ shape\n\n→ Orientation is reversed.",
+"image": "reflection_plane.png"
+},
+{
+"type": "note",
+"title": "STANDARD REFLECTION RULES",
+"notes": "For a point P(x,y):\n\n◆ Reflection in x-axis:\n(x,y) → (x,−y)\n\n◆ Reflection in y-axis:\n(x,y) → (−x,y)\n\n◆ Reflection in y=x:\n(x,y) → (y,x)\n\n◆ Reflection in y=−x:\n(x,y) → (−y,−x)\n\nExample:\nP(3,−2) reflected in the x-axis:\nP′=(3,2).\n\n✓ Memorize these four standard reflection rules.",
+"image": "reflection_rules.png"
+},
+{
+"type": "note",
+"title": "REFLECTION IN A GENERAL LINE",
+"notes": "✓ A reflection can also be made in a line other than the coordinate axes.\n\nFor reflection in a line such as y=mx, the image is determined using the perpendicular relationship between a point and the mirror line.\n\nImportant idea:\nThe line of reflection is the perpendicular bisector of the segment joining a point and its image.\n\nTherefore:\n◆ P and P′ are equally distant from the mirror line.\n◆ PP′ ⟂ line of reflection.\n\n→ Always identify the reflection line before finding the image.",
+"image": "general_line_reflection.png"
+},
+{
+"type": "note",
+"title": "6.4 ROTATION",
+"notes": "✓ Rotation → turns every point of a figure through the same angle about a fixed point called the centre of rotation.\n\n◆ Centre → fixed point.\n◆ Angle of rotation → amount of turning.\n◆ Direction → clockwise or counterclockwise.\n\nRotation preserves:\n◆ distance from the centre\n◆ lengths\n◆ angles\n◆ size and shape.\n\nExample:\nA point rotated 90° counterclockwise about the origin moves according to the 90° rotation rule.",
+"image": "rotation_plane.png"
+},
+{
+"type": "note",
+"title": "ROTATIONS ABOUT THE ORIGIN",
+"notes": "For P(x,y), counterclockwise rotations about the origin follow these rules:\n\n◆ 90°:\n(x,y) → (−y,x)\n\n◆ 180°:\n(x,y) → (−x,−y)\n\n◆ 270°:\n(x,y) → (y,−x)\n\n◆ 360°:\n(x,y) → (x,y)\n\nExample:\nP(2,3) rotated 90° counterclockwise:\nP′=(−3,2).\n\n→ Clockwise rotation can be treated as a counterclockwise rotation through 360°−θ.",
+"image": "rotation_rules.png"
+},
+{
+"type": "note",
+"title": "ROTATION ABOUT ANY CENTRE",
+"notes": "To rotate a point about a centre other than the origin:\n\n1. Translate the centre to the origin.\n2. Apply the required rotation.\n3. Translate the point back.\n\nGeneral idea:\nCentre C(h,k), point P(x,y).\n\nFirst work with the displacement from C to P:\n(x−h, y−k).\n\nApply the rotation rule to this displacement, then add (h,k) back.\n\n→ This method works for rotations about any point in the plane.",
+"image": "rotation_about_center.png"
+},
+{
+"type": "note",
+"title": "COMBINING TRANSFORMATIONS",
+"notes": "✓ More than one transformation can be applied successively to the same figure.\n\nExample:\nA point may be:\n1. translated\n2. then reflected\n3. then rotated.\n\n✓ The order matters.\n\nFor example:\nReflection followed by rotation generally gives a different result from rotation followed by reflection.\n\n→ When solving a composite transformation, apply the first transformation completely, then use the resulting image as the input for the next transformation.",
+"image": "composite_transformations.png"
+},
+{
+"type": "note",
+"title": "EFFECTS ON COORDINATES",
+"notes": "✓ Transformation rules can be applied directly to coordinates.\n\n◆ Translation T=(a,b):\n(x,y) → (x+a,y+b)\n\n◆ Reflection in x-axis:\n(x,y) → (x,−y)\n\n◆ Reflection in y-axis:\n(x,y) → (−x,y)\n\n◆ Reflection in y=x:\n(x,y) → (y,x)\n\n◆ 90° counterclockwise rotation:\n(x,y) → (−y,x)\n\n◆ 180° rotation:\n(x,y) → (−x,−y)\n\n→ Coordinate rules make transformations faster to calculate.",
+"image": null
+},
+{
+"type": "note",
+"title": "TRANSFORMING LINES AND CIRCLES",
+"notes": "✓ Transformations can be applied to complete geometric figures, not only individual points.\n\n◆ Lines → transform their points to obtain the image line.\n◆ Circles → transform the centre and radius appropriately.\n◆ Plane figures → transform all important vertices or points.\n\nRigid transformations preserve the radius of a circle.\n\nExample:\nA circle with centre (2,3) and radius 4 translated by (5,−1) has:\nNew centre = (7,2)\nNew radius = 4.\n\n→ Translation changes position but not size.",
+"image": "transformed_circle.png"
+},
+{
+"type": "note",
+"title": "IDENTIFYING A TRANSFORMATION",
+"notes": "✓ You can identify a transformation by observing how the figure changes.\n\n◆ Same direction and same distance for every point → Translation.\n\n◆ Figure is flipped across a line → Reflection.\n\n◆ Figure turns around a fixed centre → Rotation.\n\n◆ If distances are preserved, the transformation is rigid.\n\nExam tip:\nLook for the fixed point, mirror line, or common displacement before calculating coordinates.",
+"image": "identify_transformations.png"
+},
+{
+"type": "note",
+"title": "SYMMETRY AND TRANSFORMATIONS",
+"notes": "✓ Symmetry → a property in which a figure remains unchanged under a particular transformation.\n\n◆ Line symmetry → reflection produces the same figure.\n\n◆ Rotational symmetry → rotation through a certain angle produces the same figure.\n\nExample:\nA square has:\n• reflection symmetry\n• rotational symmetry.\n\n→ Transformations provide a mathematical way to describe symmetry and repeating patterns.",
+"image": "symmetry_transformations.png"
+},
+{
+"type": "note",
+"title": "WORKED EXAMPLE: COMBINED MOVEMENT",
+"notes": "Given P(2,1):\n\nStep 1. Translate by T=(3,2):\nP′=(5,3).\n\nStep 2. Reflect P′ in the x-axis:\nP″=(5,−3).\n\n✓ Final image:\nP″=(5,−3).\n\n→ Always apply composite transformations in the order given.\n\nDo not combine the rules before checking which transformation is applied first.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 6 KEY FORMULAS & QUICK REVISION",
+"notes": "◆ Transformation → maps each point to an image point.\n\n◆ Rigid transformation → preserves distance, size and shape.\n\n◆ Translation:\n(x,y) → (x+a,y+b)\n\n◆ Reflection in x-axis:\n(x,y) → (x,−y)\n\n◆ Reflection in y-axis:\n(x,y) → (−x,y)\n\n◆ Reflection in y=x:\n(x,y) → (y,x)\n\n◆ Reflection in y=−x:\n(x,y) → (−y,−x)\n\n◆ 90° counterclockwise:\n(x,y) → (−y,x)\n\n◆ 180°:\n(x,y) → (−x,−y)\n\n◆ 270°:\n(x,y) → (y,−x)\n\n◆ 360°:\n(x,y) → (x,y)\n\n◆ Translation → slide.\n◆ Reflection → flip.\n◆ Rotation → turn.\n◆ Composite transformation → apply transformations in the stated order.",
+"image": null
+}
+]

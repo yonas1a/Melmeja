@@ -1,0 +1,24 @@
+[
+{
+  "question": "45. A ball is thrown vertically upward with $12 \\text{ m/s}$ from the ground. Its speed when the ball is $4.0 \\text{ m}$ above the ground is",
+  "options": [
+    "15 m/s",
+    "8 m/s",
+    "12 m/s",
+    "10 m/s"
+  ],
+  "answer": 1,
+  "explanation": "We use the kinematic equation $v^2 = v_0^2 + 2a\\Delta y$. Taking acceleration due to gravity $a = -g \\approx -10 \\text{ m/s}^2$, $v_0 = 12 \\text{ m/s}$, and $\\Delta y = 4.0 \\text{ m}$:\n$$v^2 = (12 \\text{ m/s})^2 + 2(-10 \\text{ m/s}^2)(4.0 \\text{ m})$$ \n$$v^2 = 144 - 80 = 64$$ \n$$v = \\sqrt{64} = 8 \\text{ m/s}$$"
+},
+{
+"question": "46. An object is projected at angle $\\theta$ from the horizontal with initial velocity $v_0$. Which one of the following expressions represents the relationship between maximum height, $h_{max}$, and range of the projectile?",
+"options": [
+"$R = 4 h_{max} \\tan \\theta$",
+"$R = h_{max} \\frac{\\tan \\theta}{2}$",
+"$R = \\frac{4 h_{max}}{\\tan \\theta}$",
+"$R = 2 h_{max} \\tan \\theta$"
+],
+"answer": 2,
+"explanation": "The formulas for Range ($R$) and Maximum Height ($h_{max}$) are:\n$$R = \\frac{v_0^2 \\sin(2\\theta)}{g} = \\frac{2 v_0^2 \\sin\\theta \\cos\\theta}{g} \\quad \\text{and} \\quad h_{max} = \\frac{v_0^2 \\sin^2\\theta}{2g}$$ \nDividing $R$ by $h_{max}$ and simplifying, using $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$, yields:\n$$\\frac{R}{h_{max}} = \\frac{4}{\\tan\\theta} \\implies R = \\frac{4 h_{max}}{\\tan \\theta}$$ [Image illustrating the range R and maximum height h_max of a projectile trajectory]."
+}
+]

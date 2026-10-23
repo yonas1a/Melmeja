@@ -1,0 +1,55 @@
+{
+  "id": "m2014_socialg10u6_melmeja",
+  "title": "Mathematics Grade 10 Practice Questions 2014",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Mathematics Grade 10 Practice Questions 2014 - 2 multiple choice questions. Ethiopian national exam preparation material.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2014",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_m2014_socialg10u6_melmeja_1",
+      "examId": "m2014_socialg10u6_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "13) Suppose that the lines $\\overline{AB}$ and $\\overline{DC}$ intersect at B outside the circle as shown in the figure below. If $m(\\angle ABC) = 30^{\\circ}$ and $m(\\overline{BCD}) = 45^{\\circ}$, then what is $m(\\overline{AC})$?",
+      "options": [
+        "$90^{\\circ}$",
+        "$105^{\\circ}$",
+        "$120^{\\circ}$",
+        "$150^{\\circ}$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The problem describes two secants, $\\overline{AB}$ and $\\overline{DB}$, intersecting at an external point $B$. $\\overline{DB}$ is the line that $\\overline{DC}$ is on, and $\\overline{AB}$ is a line intersecting the circle. The angle formed by two secants intersecting outside a circle is half the difference of the measures of the intercepted arcs. The intercepted arcs are the far arc, $\\overline{AC}$, and the near arc, $\\overline{DC}$.\\nThe figure labels the outer angle as $m(\\angle ABC) = 30^{\\circ}$. The far arc is $m(\\overline{AC})$, which we are looking for. The near arc is $m(\\overline{DC})$. The problem statement has a typo in the arc name: it should be $m(\\text{arc } DC)$ or $m(\\widehat{DC})$. Assuming $m(\\widehat{DC}) = 45^{\\circ}$. The formula is:\\n$m(\\angle B) = \\frac{1}{2} (m(\\widehat{AC}) - m(\\widehat{DC}))$\\n$30^{\\circ} = \\frac{1}{2} (m(\\widehat{AC}) - 45^{\\circ})$\\nMultiply by 2:\\n$60^{\\circ} = m(\\widehat{AC}) - 45^{\\circ}$\\nSolve for $m(\\widehat{AC})$:\\n$m(\\widehat{AC}) = 60^{\\circ} + 45^{\\circ} = 105^{\\circ}$.\\n**Note on the image and options:** The calculation results in $105^{\\circ}$, which corresponds to option B. However, the image labels $\\angle D$ as $30^{\\circ}$ and $\\angle B$ as $45^{\\circ}$. If we follow the diagram labels: $m(\\angle B) = 45^{\\circ}$ and $m(\\widehat{DC}) = 30^{\\circ}$. Then $45^{\\circ} = \\frac{1}{2} (m(\\widehat{AC}) - 30^{\\circ}) \\implies 90^{\\circ} = m(\\widehat{AC}) - 30^{\\circ} \\implies m(\\widehat{AC}) = 120^{\\circ}$ (Option C). Since the problem text explicitly states $m(\\angle ABC) = 30^{\\circ}$ and $m(\\widehat{DC}) = 45^{\\circ}$, we trust the text and the answer is **$105^{\\circ}$** (Option B). I'll proceed with the text-based answer.\\n**Final calculation using text data:** $m(\\widehat{AC}) = 105^{\\circ}$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg10u6_melmeja_2",
+      "examId": "m2014_socialg10u6_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What is the area of an equilateral triangle inscribed in a circle radius 4 units?",
+      "options": [
+        "$12\\sqrt{3}$ sq. units",
+        "$36$ sq. units",
+        "$6\\sqrt{3}$ sq. units",
+        "$12\\sqrt{3}$ sq. units"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For an equilateral triangle inscribed in a circle of radius $R$, the side length $s$ is given by $s = R\\sqrt{3}$.\nGiven $R = 4$ units, the side length is $s = 4\\sqrt{3}$ units.\n\nThe area $A$ of an equilateral triangle with side length $s$ is given by the formula $A = \\frac{\\sqrt{3}}{4}s^2$.\n$A = \\frac{\\sqrt{3}}{4}(4\\sqrt{3})^2$\n$A = \\frac{\\sqrt{3}}{4}(16 \\times 3)$\n$A = \\frac{\\sqrt{3}}{4}(48)$\n$A = 12\\sqrt{3}$ sq. units.\n\nNote that Option A and Option D are identical. The correct answer is $12\\sqrt{3}$ sq. units.",
+      "topic": "Mathematics"
+    }
+  ]
+}

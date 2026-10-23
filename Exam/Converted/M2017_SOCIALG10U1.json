@@ -1,0 +1,55 @@
+{
+  "id": "m2017_socialg10u1_melmeja",
+  "title": "Mathematics Grade 10 Practice Questions 2017",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Mathematics Grade 10 Practice Questions 2017 - 2 multiple choice questions. Ethiopian national exam preparation material.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2017",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg10u1_melmeja_1",
+      "examId": "m2017_socialg10u1_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Let $f(x)$ be a polynomial of degree at least 1, $g(x)$ be a non-zero polynomial and $c \\in \\mathbb{R}$. Which of the following states the Factor Theorem?",
+      "options": [
+        "If $f(x)$ is divided by $x - c$, then the remainder is $f(c)$.",
+        "For distinct real numbers $a$ and $b$, if $f(a)f(b) < 0$, then $f(x)$ has at least one zero between $a$ and $b$.",
+        "There exist polynomials $q(x)$ and $r(x)$ such that $f(x) = g(x)q(x) + r(x)$, one zero between $a$ and $b$.",
+        "$f(c)=0$ if and only if $x-c$ is a factor of $f(x)$."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The **Factor Theorem** is a result of the Remainder Theorem (Option A). It states a precise condition for when a linear expression, $x-c$, is a factor of a polynomial, $f(x)$.\n\n- Option D: **$f(c)=0$ if and only if $x-c$ is a factor of $f(x)$** is the exact statement of the Factor Theorem.\n- Option A: This is the **Remainder Theorem**.\n- Option B: This is the **Intermediate Value Theorem** for polynomials.\n- Option C: This is the **Division Algorithm** for polynomials.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u1_melmeja_2",
+      "examId": "m2017_socialg10u1_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Given the polynomial function $p(x)=5x^5 - x^3 - \\sqrt{2}$. Then what are the degree, leading coefficient and constant term of the polynomial, function $p(x)$ respectively?",
+      "options": [
+        "3, 1, \\sqrt{2}",
+        "3, 1, -\\sqrt{2}",
+        "5, 5, -\\sqrt{2}",
+        "3, 5, -\\sqrt{2}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The polynomial is $p(x)=5x^5 - x^3 - \\sqrt{2}$. The degree is the highest power of $x$, which is 5. The leading coefficient is the coefficient of the term with the highest power, which is 5. The constant term is the term without $x$, which is $-\\sqrt{2}$. The correct order is degree (5), leading coefficient (5), and constant term $(-\\sqrt{2})$.",
+      "topic": "Mathematics"
+    }
+  ]
+}

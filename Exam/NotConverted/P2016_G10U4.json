@@ -1,0 +1,24 @@
+[
+{
+  "question": "31. Lenz's law states that the direction of the induced current in a loop is in such a way that the current",
+  "options": [
+    "is in opposite direction to that of the applied magnetic field that is causing it.",
+    "creates a magnetic field that reinforces the change in magnetic flux through the loop.",
+    "is in the same direction as that of the applied magnetic field that is causing it.",
+    "creates a magnetic field that opposes the change in magnetic flux through the loop."
+  ],
+  "answer": 3,
+  "explanation": "Lenz's law is a fundamental law of electromagnetism that states the **direction of the induced current** is such that its own magnetic field (flux) **opposes the change in the magnetic flux** that created it. This is a manifestation of the conservation of energy ."
+},
+{
+"question": "33. Consider an ideal transformer having $N_p$ and $N_s$ turns, and voltages $V_p$ and $V_s$ in its primary and secondary coils, respectively. Which one of the following is the correct ideal transformer equation?",
+"options": [
+"$V_p = \\left( \\frac{N_s}{N_p} \\right)^2 V_s$",
+"$\\frac{V_s}{V_p} = \\frac{N_p}{N_s}$",
+"$\\frac{N_s}{N_p} = \\left( \\frac{V_s}{V_p} \\right)^2$",
+"$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$"
+],
+"answer": 3,
+"explanation": "For an ideal transformer, the voltage ratio is directly proportional to the turns ratio:\n$$\\frac{\\text{Secondary Voltage}}{\\text{Primary Voltage}} = \\frac{\\text{Secondary Turns}}{\\text{Primary Turns}}$$ \n$$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$$"
+}
+]

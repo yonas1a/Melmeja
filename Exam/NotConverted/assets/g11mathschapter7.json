@@ -1,0 +1,1256 @@
+[
+  {
+    "question": "If all values in a dataset are multiplied by 3, what happens to the mean if original mean is 10?",
+    "options": [
+      "30",
+      "13",
+      "10",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "Mean scales by 3 → 10×3 = 30."
+  },
+  {
+    "question": "A dataset has mean 50. If every value is increased by 10, what is the new mean?",
+    "options": [
+
+      "50, because mean is unaffected",
+      "40, because of averaging effect",
+      "60, because adding a constant shifts the mean",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "Adding a constant shifts the mean by the same amount."
+  },
+  {
+    "question": "If all values in a dataset are multiplied by a constant k, what happens to the variance?",
+    "options": [
+
+      "Variance is multiplied by k",
+      "Variance remains unchanged",
+      "Variance becomes zero",
+      "Variance is multiplied by k²"
+    ],
+    "answer": 3,
+    "explanation": "Variance scales by the square of the constant."
+  },
+  {
+    "question": "Which of the following is a correct formula for mean of grouped data?",
+    "options": [
+
+      "Σf/x",
+      "Σx/f",
+      "Σ(fx)/Σf",
+      "Σf - x"
+    ],
+    "answer": 2,
+    "explanation": "Mean = sum of (frequency × midpoint) divided by total frequency."
+  },
+  {
+    "question": "The mean of grouped data is 45. If one class frequency increases while others remain constant, what is the most likely effect on the mean?",
+    "options": [
+
+      "Mean remains constant",
+      "Mean decreases automatically",
+      "Mean shifts toward the changed class midpoint",
+      "Mean becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "Mean is weighted, so changes depend on class midpoint."
+  },
+  {
+    "question": "A researcher collects the heights (in cm) of 60 students in a school and organizes them into class intervals to construct a frequency distribution table. Which of the following best describes the type of data after grouping?",
+    "options": [
+
+      "Ungrouped discrete data",
+      "Raw categorical data",
+      "Grouped continuous data",
+      "Nominal data only"
+    ],
+    "answer": 2,
+    "explanation": "Once raw data is organized into class intervals, it becomes grouped continuous data."
+  },
+  {
+    "question": "The marks of 50 students are recorded and then arranged into intervals such as 0–10, 10–20, 20–30, etc. What is the main advantage of grouping data in this way?",
+    "options": [
+
+      "It eliminates all errors in data collection",
+      "It converts qualitative data into quantitative data",
+      "It removes the need for statistical analysis",
+      "It simplifies large datasets and makes patterns easier to analyze"
+    ],
+    "answer": 3,
+    "explanation": "Grouped data simplifies large datasets and helps identify patterns more easily."
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of grouped data representation?",
+    "options": [
+      "Exact individual values are always visible",
+      "Data is organized into class intervals",
+      "Frequency of each class is shown",
+      "It is used for large datasets"
+    ],
+    "answer": 0,
+    "explanation": "In grouped data, individual values are not visible; only intervals are shown."
+  },
+  {
+    "question": "A frequency distribution table has class intervals 10–20, 20–30, 30–40. What is the class width of each interval?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "Class width = upper limit − lower limit = 10."
+  },
+  {
+    "question": "In a grouped frequency table, the midpoint of a class interval is used in calculations of mean. What is the midpoint of the class 30–50?",
+    "options": [
+
+      "30",
+      "50",
+      "40",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "Midpoint = (30 + 50)/2 = 40."
+  },
+
+  {
+    "question": "A dataset of students’ scores is represented using a histogram. What does the area of each bar in the histogram represent?",
+    "options": [
+
+      "Mean of the dataset",
+      "Median value",
+      "Frequency of the class interval",
+      "Range of data"
+    ],
+    "answer": 2,
+    "explanation": "In a histogram, area of each bar represents frequency."
+  },
+  {
+    "question": "Which graphical representation is most appropriate for showing cumulative frequency distribution?",
+    "options": [
+
+      "Pie chart",
+      "Bar graph",
+      "Line graph",
+      "Ogive (cumulative frequency curve)"
+    ],
+    "answer": 3,
+    "explanation": "Ogive is used for cumulative frequency."
+  },
+  {
+    "question": "A teacher records the number of absences of students in a class. Which type of data is this?",
+    "options": [
+
+      "Continuous data",
+      "Qualitative data",
+      "Nominal data",
+      "Discrete quantitative data"
+    ],
+    "answer": 3,
+    "explanation": "Number of absences is countable, so it is discrete data."
+  },
+  {
+    "question": "Which measure of central tendency is most affected by extreme values?",
+    "options": [
+
+      "Median",
+      "Mode",
+      "Mean",
+      "Range"
+    ],
+    "answer": 2,
+    "explanation": "Mean is sensitive to outliers."
+  },
+  {
+    "question": "In a grouped frequency distribution, why do we use class boundaries instead of class limits in histograms?",
+    "options": [
+      "To avoid gaps between bars",
+      "To increase frequency",
+      "To reduce class width",
+      "To calculate mean directly"
+    ],
+    "answer": 0,
+    "explanation": "Class boundaries ensure continuous bars without gaps."
+  },
+
+  {
+    "question": "The following data represents the ages of students grouped into intervals. What is the meaning of frequency in this context?",
+    "options": [
+
+      "Average age of students",
+      "Difference between highest and lowest age",
+      "Number of students in each age group",
+      "Total sum of ages"
+    ],
+    "answer": 2,
+    "explanation": "Frequency is the number of observations in each class."
+  },
+  {
+    "question": "Which of the following best describes a histogram?",
+    "options": [
+
+      "A circular diagram of proportions",
+      "A graph of continuous data using adjacent bars",
+      "A line graph showing trends over time",
+      "A table of raw data"
+    ],
+    "answer": 1,
+    "explanation": "Histogram uses adjacent bars for continuous data."
+  },
+  {
+    "question": "If a dataset has a single value that appears most frequently, that value is called:",
+    "options": [
+
+      "Mean",
+      "Mode",
+      "Median",
+      "Range"
+    ],
+    "answer": 1,
+    "explanation": "Mode is the most frequent value."
+  },
+  {
+    "question": "When constructing grouped data, what is the first step?",
+    "options": [
+      "Determine range and choose class intervals",
+      "Calculate mean immediately",
+      "Draw histogram first",
+      "Find median first"
+    ],
+    "answer": 0,
+    "explanation": "First step is organizing data into intervals."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "A dataset has frequencies 2, 3, 5 for class midpoints 10, 20, 30. What is the weighted mean?",
+    "options": [
+      "23",
+      "20",
+      "25",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "Mean = (2×10 + 3×20 + 5×30)/10 = \n(20+60+150)/10 =\n 23."
+  },
+  {
+    "question": "Which measure divides a dataset into two equal halves?",
+    "options": [
+
+      "Mean",
+      "Mode",
+      "Median",
+      "Variance"
+    ],
+    "answer": 2,
+    "explanation": "Median splits data into two equal parts."
+  },
+  {
+    "question": "In a frequency polygon, what is plotted on the x-axis?",
+    "options": [
+
+      "Frequencies",
+      "Cumulative frequency",
+      "Class boundaries only",
+      "Class midpoints"
+    ],
+    "answer": 3,
+    "explanation": "Midpoints are used in frequency polygons."
+  },
+  {
+    "question": "A dataset is skewed to the right. Which is generally true?",
+    "options": [
+
+      "Mode > Mean > Median",
+      "Mean = Median = Mode",
+      "Mean > Median > Mode",
+      "Median > Mean > Mode"
+    ],
+    "answer": 2,
+    "explanation": "Right skew pulls mean to the right."
+  },
+  {
+    "question": "What does cumulative frequency represent?",
+    "options": [
+
+      "Average frequency",
+      "Running total of frequencies",
+      "Highest frequency only",
+      "Difference of frequencies"
+    ],
+    "answer": 1,
+    "explanation": "Cumulative frequency is the running total."
+  },
+
+  {
+    "question": "Which type of graph is best for comparing parts of a whole?",
+    "options": [
+      "Pie chart",
+      "Histogram",
+      "Ogive",
+      "Frequency polygon"
+    ],
+    "answer": 0,
+    "explanation": "Pie charts show proportions of a whole."
+  },
+  {
+    "question": "What is the median class in grouped data?",
+    "options": [
+
+      "Class with highest frequency",
+      "First class interval",
+      "Class containing the median value",
+      "Last class interval"
+    ],
+    "answer": 2,
+    "explanation": "Median class contains the median position."
+  },
+  {
+    "question": "Which statement about mode in grouped data is correct?",
+    "options": [
+      "It is the class with highest frequency",
+      "It is always equal to mean",
+      "It is always the middle value",
+      "It is independent of frequency"
+    ],
+    "answer": 0,
+    "explanation": "Mode corresponds to highest frequency class."
+  },
+  {
+    "question": "What is the main purpose of a frequency distribution table?",
+    "options": [
+
+      "To eliminate data",
+      "To calculate only mean",
+      "To remove outliers",
+      "To organize raw data systematically"
+    ],
+    "answer": 3,
+    "explanation": "It organizes raw data for analysis."
+  },
+  {
+    "question": "Which of the following is a measure of dispersion?",
+    "options": [
+      "Range",
+      "Mean",
+      "Median",
+      "Mode"
+    ],
+    "answer": 0,
+    "explanation": "Range measures spread of data."
+  },
+
+  {
+    "question": "In grouped data, why is interpolation used in median calculation?",
+    "options": [
+      "Because exact values are unknown",
+      "Because data is discrete only",
+      "To increase frequency",
+      "To reduce class intervals"
+    ],
+    "answer": 0,
+    "explanation": "Exact values are not known in grouped data."
+  },
+  {
+    "question": "Which graph shows cumulative frequency against class boundaries?",
+    "options": [
+
+      "Histogram",
+      "Pie chart",
+      "Bar graph",
+      "Ogive"
+    ],
+    "answer": 3,
+    "explanation": "Ogive plots cumulative frequency."
+  },
+  {
+    "question": "A teacher wants to find the most typical score in a dataset. Which measure should be used?",
+    "options": [
+      "Mode",
+      "Mean",
+      "Median",
+      "Range"
+    ],
+    "answer": 0,
+    "explanation": "Mode represents most frequent value."
+  },
+  {
+    "question": "What happens to mean if all values in dataset are increased by 5?",
+    "options": [
+
+      "Mean stays same",
+      "Mean decreases",
+      "Mean increases by 5",
+      "Mean becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "Adding constant shifts mean equally."
+  },
+  {
+    "question": "If frequencies are all equal, which measure equals the mean?",
+    "options": [
+      "Arithmetic mean of values",
+      "Mode only",
+      "Median only",
+      "Range only"
+    ],
+    "answer": 0,
+    "explanation": "Equal frequency simplifies mean calculation."
+  },
+
+  {
+    "question": "Which is NOT a type of data?",
+    "options": [
+
+      "Discrete data",
+      "Continuous data",
+      "Geometric data",
+      "Qualitative data"
+    ],
+    "answer": 2,
+    "explanation": "Geometric data is not a statistical type."
+  },
+  {
+    "question": "A dataset is represented using a bar chart. What type of data is most suitable?",
+    "options": [
+      "Categorical or discrete data",
+      "Continuous grouped data",
+      "Infinite data",
+      "Random noise only"
+    ],
+    "answer": 0,
+    "explanation": "Bar charts are for discrete/categorical data."
+  },
+  {
+    "question": "What is the sum of all frequencies called?",
+    "options": [
+
+      "Mean frequency",
+      "Median frequency",
+      "Class width",
+      "Total frequency"
+    ],
+    "answer": 3,
+    "explanation": "Sum of frequencies = total observations."
+  },
+  {
+    "question": "Which central tendency measure is best for skewed data?",
+    "options": [
+
+      "Mean",
+      "Mode",
+      "Median",
+      "Range"
+    ],
+    "answer": 2,
+    "explanation": "Median is resistant to skewness."
+  },
+  {
+    "question": "In grouped data, class intervals must be:",
+    "options": [
+
+      "Overlapping",
+      "Random",
+      "Mutually exclusive and continuous",
+      "Unequal always"
+    ],
+    "answer": 2,
+    "explanation": "Intervals must not overlap."
+  },
+
+    {
+      "question": "A researcher collects the monthly incomes (in birr) of 80 employees and groups them into class intervals of equal width. If the mean is calculated using midpoints, what is the main assumption being made about the data within each class interval?",
+      "options": [
+        "All values in each class are uniformly distributed around the midpoint",
+        "All values are equal to the lower class boundary",
+        "All values are equal to the upper class boundary",
+        "Data is normally distributed in each class"
+      ],
+      "answer": 0,
+      "explanation": "Grouped mean assumes values in each class are represented by the midpoint, implying uniform distribution within intervals."
+    },
+    {
+      "question": "A dataset has a positively skewed distribution. Which of the following statements about mean, median, and mode is most accurate?",
+      "options": [
+
+        "Mode > Median > Mean",
+        "Median > Mean > Mode",
+        "Mean > Median > Mode",
+        "Mean = Median = Mode"
+      ],
+      "answer": 2,
+      "explanation": "In positive skew, the long right tail pulls the mean to the right: Mean > Median > Mode."
+    },
+    {
+      "question": "A frequency distribution has open-ended classes such as 'below 10' and 'above 50'. What is the major limitation when computing the mean of this distribution?",
+      "options": [
+        "Class midpoints cannot be determined for open-ended intervals",
+        "Frequencies cannot be used",
+        "Median cannot be found",
+        "Mode becomes undefined"
+      ],
+      "answer": 0,
+      "explanation": "Open-ended intervals lack boundaries, so midpoints (needed for mean) cannot be accurately computed."
+    },
+    {
+      "question": "In constructing a histogram for grouped data, why must class intervals be made continuous using class boundaries?",
+      "options": [
+
+        "To increase total frequency",
+        "To simplify calculation of mode",
+        "To reduce number of classes",
+        "To ensure adjacent bars touch without gaps"
+      ],
+      "answer": 3,
+      "explanation": "Histograms require continuous intervals so bars touch, representing continuous data properly."
+    },
+    {
+      "question": "The following class frequencies are given: 10–20: 5, 20–30: 9, 30–40: 12, 40–50: 4. Which class is the modal class and why?",
+      "options": [
+
+        "20–30, because it has the median frequency",
+        "30–40, because it has the highest frequency",
+        "40–50, because it has the smallest width",
+        "10–20, because it starts the distribution"
+      ],
+      "answer": 1,
+      "explanation": "Modal class is the class with the highest frequency (12 in 30–40)."
+    },
+
+    {
+      "question": "In a cumulative frequency curve (ogive), what does the point where the curve intersects the median position represent?",
+      "options": [
+
+        "The mean value of the dataset",
+        "The mode of the dataset",
+        "The median value of the dataset",
+        "The range of the dataset"
+      ],
+      "answer": 2,
+      "explanation": "Ogive at N/2 gives the median value graphically."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Which measure of central tendency is most appropriate for qualitative data such as blood groups?",
+      "options": [
+
+        "Mean",
+        "Median",
+        "Standard deviation",
+        "Mode"
+      ],
+      "answer": 3,
+      "explanation": "Mode is used for categorical data."
+    },
+    {
+      "question": "In grouped data, why is the median considered more reliable than the mean for skewed distributions?",
+      "options": [
+
+        "Because median uses all data values",
+        "Because median is always larger than mean",
+        "Because median requires less computation",
+        "Because median is not affected by extreme values"
+      ],
+      "answer": 3,
+      "explanation": "Median is resistant to outliers and skewness."
+    },
+
+    {
+      "question": "A histogram shows unequal class widths. What adjustment must be made to correctly represent frequency?",
+      "options": [
+
+        "Ignore the histogram",
+        "Use frequency density instead of frequency",
+        "Convert to bar chart",
+        "Use cumulative frequency only"
+      ],
+      "answer": 1,
+      "explanation": "Frequency density is used when class widths are unequal."
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Which of the following is a correct interpretation of cumulative frequency?",
+      "options": [
+        "Number of observations less than or equal to a given class boundary",
+        "Average of frequencies",
+        "Difference between highest and lowest frequency",
+        "Total number of classes"
+      ],
+      "answer": 0,
+      "explanation": "Cumulative frequency counts running totals."
+    },
+    {
+      "question": "In a frequency polygon, why are points plotted at class midpoints instead of class boundaries?",
+      "options": [
+        "To represent each class by a single central value",
+        "To increase graph height",
+        "To reduce number of classes",
+        "To avoid using frequencies"
+      ],
+      "answer": 0,
+      "explanation": "Midpoints represent each class centrally."
+    },
+    {
+      "question": "If the median and mean of a dataset are equal, what can be inferred about the distribution?",
+      "options": [
+
+        "It is highly skewed",
+        "It is approximately symmetric",
+        "It is categorical",
+        "It has no mode"
+      ],
+      "answer": 1,
+      "explanation": "Equality suggests symmetry in distribution."
+    },
+
+    {
+      "question": "In a dataset with grouped frequencies, why is interpolation used in finding the median?",
+      "options": [
+
+        "Because data is discrete only",
+        "Because exact values inside classes are unknown",
+        "Because mean cannot be calculated",
+        "Because classes overlap"
+      ],
+      "answer": 1,
+      "explanation": "Grouped data hides exact values, requiring interpolation."
+    },
+    {
+      "question": "Which transformation does NOT affect the standard deviation?",
+      "options": [
+        "Adding a constant to all values",
+        "Multiplying all values by a constant",
+        "Changing all frequencies",
+        "Reordering data"
+      ],
+      "answer": 0,
+      "explanation": "Adding a constant shifts data but does not change spread."
+    },
+    {
+      "question": "A dataset has a strong right skew. Which statement is most likely true?",
+      "options": [
+
+        "Median is greater than mean",
+        "Mode is greater than mean",
+        "Mean is greater than median",
+        "All measures are equal"
+      ],
+      "answer": 2,
+      "explanation": "Right skew pulls mean to the right."
+    },
+    {
+      "question": "What is the main purpose of a frequency distribution table in statistics?",
+      "options": [
+
+        "To eliminate outliers",
+        "To calculate only the mean",
+        "To replace graphs completely",
+        "To organize raw data for analysis"
+      ],
+      "answer": 3,
+      "explanation": "It organizes raw data systematically."
+    },
+    {
+      "question": "If a dataset has extremely large outliers, which measure is most stable?",
+      "options": [
+        "Median",
+        "Mean",
+        "Range",
+        "Variance"
+      ],
+      "answer": 0,
+      "explanation": "Median is resistant to extreme values."
+    },
+
+    {
+      "question": "In grouped data, what is the effect of increasing class width while keeping frequency constant?",
+      "options": [
+
+        "Mean increases automatically",
+        "Graph becomes smoother but less detailed",
+        "Median becomes undefined",
+        "Mode disappears"
+      ],
+      "answer": 1,
+      "explanation": "Wider classes reduce detail in representation."
+    },
+    {
+      "question": "Why is the mode sometimes preferred in business statistics?",
+      "options": [
+
+        "It uses all data values equally",
+        "It identifies the most common category or value",
+        "It is always equal to mean",
+        "It requires no data"
+      ],
+      "answer": 1,
+      "explanation": "Mode identifies most frequent occurrence."
+    },
+    {
+      "question": "Which condition must be satisfied for class intervals in grouped data?",
+      "options": [
+        "They must be continuous and non-overlapping",
+        "They must overlap slightly",
+        "They must be random",
+        "They must have unequal widths only"
+      ],
+      "answer": 0,
+      "explanation": "Intervals must be continuous and mutually exclusive."
+    },
+    {
+      "question": "If frequencies are all equal, which statement is true?",
+      "options": [
+        "Mean equals average of midpoints",
+        "Mode is undefined",
+        "Median is zero",
+        "Variance is zero"
+      ],
+      "answer": 0,
+      "explanation": "Equal frequencies simplify mean calculation."
+    },
+    {
+      "question": "What does a steep ogive indicate about a dataset?",
+      "options": [
+
+        "Uniform distribution",
+        "No variation",
+        "Large concentration of values in a small interval",
+        "Symmetric distribution"
+      ],
+      "answer": 2,
+      "explanation": "Steep slope indicates clustered data."
+    },
+
+      {
+        "question": "The marks of 5 students are 10, 20, 30, 40, 50. A constant 5 is added to each score. What is the new mean of the dataset?",
+        "options": [
+          "35",
+          "30",
+          "40",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Original mean = (10+20+30+40+50)/5 = 30.\n\n Adding 5 to each value increases mean by 5 → 35."
+      },
+      {
+        "question": "A dataset has values 12, 15, 18, 21, 24. What is the mean of the dataset?",
+        "options": [
+
+          "17",
+          "19",
+          "20",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (12+15+18+21+24)/5 = 90/5 = 18."
+      },
+      {
+        "question": "Find the median of the dataset: 5, 9, 12, 15, 20, 25, 30.",
+        "options": [
+          "15",
+          "12",
+          "20",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Middle value (4th term) = 15."
+      },
+      {
+        "question": "The scores are 10, 20, 20, 30, 40. What is the mode?",
+        "options": [
+
+          "10",
+          "30",
+          "20",
+          "40"
+        ],
+        "answer": 2,
+        "explanation": "20 appears most frequently."
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "question": "A dataset has mean 40. If one value is changed from 30 to 50, what is the effect?",
+        "options": [
+
+          "Mean decreases",
+          "Mean increases",
+          "Mean unchanged",
+          "Mean becomes zero"
+        ],
+        "answer": 1,
+        "explanation": "Replacing 30 with 50 increases total sum → mean increases."
+      },
+
+      {
+        "question": "Find weighted mean of values 10 (weight 2), 20 (weight 3), 30 (weight 5).",
+        "options": [
+
+          "22",
+          "23",
+          "24",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "Weighted mean = (20+60+150)/10 = 23."
+      },
+      {
+        "question": "A frequency table has class 0–10 (f=2), 10–20 (f=4), 20–30 (f=6). Find total frequency.",
+        "options": [
+          "12",
+          "10",
+          "8",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Total frequency = 2+4+6 = 12."
+      },
+      {
+        "question": "Find mean of grouped data with midpoints 5, 15, 25 and frequencies 1, 2, 3.",
+        "options": [
+          "18.33",
+          "20",
+          "15",
+          "22"
+        ],
+        "answer": 0,
+        "explanation": "(5+30+75)/6 = 110/6 ≈ 18.33."
+      },
+      {
+        "question": "If median is 25 and mean is 30, what type of distribution is likely?",
+        "options": [
+
+          "Symmetric",
+          "Negatively skewed",
+          "Uniform",
+          "Positively skewed"
+        ],
+        "answer": 3,
+        "explanation": "Mean > median indicates positive skew."
+      },
+      {
+        "question": "Find missing frequency if total is 50: 10 + 15 + x + 5 + 10 = 50.",
+        "options": [
+          "10",
+          "5",
+          "15",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "x = 10."
+      },
+
+      {
+        "question": "A dataset: 3, 6, 9, 12, 15. What is variance trend when each value is doubled?",
+        "options": [
+          "Variance becomes 4 times",
+          "Variance doubles",
+          "Variance unchanged",
+          "Variance halves"
+        ],
+        "answer": 0,
+        "explanation": "Variance scales by square of constant → 2² = 4."
+      },
+      {
+        "question": "Find mean deviation from mean for 2, 4, 6 (mean = 4).",
+        "options": [
+
+          "2",
+          "3",
+          "1.33",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "(2+0+2)/3 = 1.33."
+      },
+      {
+        "question": "Find median class if cumulative frequencies are 5, 12, 20, 30 and total is 30.",
+        "options": [
+
+          "First class",
+          "Third class",
+          "Second class",
+          "Fourth class"
+        ],
+        "answer": 2,
+        "explanation": "N/2 = 15 lies in second class."
+      },
+      {
+        "question": "If all frequencies are doubled, what happens to the mean?",
+        "options": [
+
+          "Mean doubles",
+          "Mean unchanged",
+          "Mean halves",
+          "Mean becomes zero"
+        ],
+        "answer": 1,
+        "explanation": "Mean depends on ratio, not scale of frequency."
+      },
+      {
+        "question": "Find median of 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+        "options": [
+
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Middle value = 5."
+      },
+
+        {
+          "question": "The marks of 6 students are 10, 15, 20, 25, 30, 35. A constant 5 is added to each score. Find the new mean.",
+          "options": [
+            "27.5",
+            "22.5",
+            "30",
+            "25"
+          ],
+          "answer": 0,
+          "explanation": "Original mean = (10+15+20+25+30+35)/6 = 22.5. Adding 5 increases mean → 27.5."
+        },
+        {
+          "question": "Find the mean of the dataset: 8, 12, 16, 20, 24.",
+          "options": [
+            "16",
+            "15",
+            "14",
+            "18"
+          ],
+          "answer": 0,
+          "explanation": "Mean = 80/5 = 16."
+        },
+        {
+          "question": "Find the median of 3, 7, 9, 12, 15, 18, 21.",
+          "options": [
+
+            "9",
+            "15",
+            "18",
+            "12"
+          ],
+          "answer": 3,
+          "explanation": "Middle value is 12."
+        },
+        {
+          "question": "Find the mode of 2, 4, 4, 6, 6, 6, 8, 10.",
+          "options": [
+
+            "4",
+            "8",
+            "10",
+            "6"
+          ],
+          "answer": 3,
+          "explanation": "6 appears most frequently."
+        },
+        {
+          "question": "Find the range of 14, 18, 25, 30, 40.",
+          "options": [
+
+            "24",
+            "30",
+            "20",
+            "26"
+          ],
+          "answer": 3,
+          "explanation": "Range = 40 - 14 = 26."
+        },
+
+        {
+          "question": "Find weighted mean: values 10, 20, 30 with frequencies 2, 3, 5.",
+          "options": [
+
+            "22",
+            "24",
+            "25",
+            "23"
+          ],
+          "answer": 3,
+          "explanation": "Mean = (20+60+150)/10 = 23."
+        },
+        {
+          "question": "If each value in dataset is multiplied by 2, and original mean is 12, what is new mean?",
+          "options": [
+            "24",
+            "14",
+            "12",
+            "20"
+          ],
+          "answer": 0,
+          "explanation": "Mean scales by 2 → 24."
+        },
+        {
+          "question": "Find mean of 5, 10, 15, 20, 25.",
+          "options": [
+            "15",
+            "14",
+            "16",
+            "18"
+          ],
+          "answer": 0,
+          "explanation": "Sum 75 / 5 = 15."
+        },
+        {
+          "question": "Find median of 2, 4, 6, 8, 10, 12.",
+          "options": [
+
+            "6",
+            "8",
+            "7",
+            "5"
+          ],
+          "answer": 2,
+          "explanation": "Median = (6+8)/2 = 7."
+        },
+        {
+          "question": "Find missing number if mean of 4 numbers 10, 20, x, 30 is 25.",
+          "options": [
+
+            "30",
+            "20",
+            "40",
+            "50"
+          ],
+          "answer": 2,
+          "explanation": "Total = 100 → x = 40."
+        },
+
+        {
+          "question": "Find total frequency: 5, 7, 9, 3, 6.",
+          "options": [
+            "30",
+            "25",
+            "20",
+            "35"
+          ],
+          "answer": 0,
+          "explanation": "Sum = 30."
+        },
+        {
+          "question": "Find mean of 2, 6, 10, 14, 18.",
+          "options": [
+            "10",
+            "11",
+            "9",
+            "12"
+          ],
+          "answer": 0,
+          "explanation": "Sum 50 / 5 = 10."
+        },
+        {
+          "question": "Find median of 1, 2, 3, 4, 5, 6, 7, 8.",
+          "options": [
+
+            "5",
+            "3.5",
+            "4.5",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "Median = (4+5)/2 = 4.5."
+        },
+        {
+          "question": "If mean is 20 and all values are increased by 5, what is new mean?",
+          "options": [
+
+            "20",
+            "30",
+            "15",
+            "25"
+          ],
+          "answer": 3,
+          "explanation": "Mean increases by 5 → 25."
+        },
+        {
+          "question": "Find mode of 1, 2, 2, 3, 3, 3, 4.",
+          "options": [
+
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "answer": 3,
+          "explanation": "3 occurs most often."
+        },
+
+        {
+          "question": "Find mean of grouped data: midpoints 10, 20, 30 with frequencies 1, 2, 3.",
+          "options": [
+            "23.33",
+            "20",
+            "22",
+            "25"
+          ],
+          "answer": 0,
+          "explanation": "(10+40+90)/6 = 140/6 ≈ 23.33."
+        },
+        {
+          "question": "If median = 30 and mean = 25, what type of skew is it?",
+          "options": [
+            "Negatively skewed",
+            "Positively skewed",
+            "Symmetric",
+            "Uniform"
+          ],
+          "answer": 0,
+          "explanation": "Mean < median → negative skew."
+        },
+
+        {
+          "question": "Find missing frequency: 10 + x + 15 + 5 = 40.",
+          "options": [
+
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "answer": 1,
+          "explanation": "x = 10."
+        },
+        {
+          "question": "If all frequencies are doubled, what happens to mean?",
+          "options": [
+
+            "Doubles",
+            "Unchanged",
+            "Halves",
+            "Becomes zero"
+          ],
+          "answer": 1,
+          "explanation": "Mean depends on ratio, not scale."
+        },
+
+        {
+          "question": "Find mean deviation from mean for 2, 4, 6 (mean=4).",
+          "options": [
+
+            "2",
+            "3",
+            "1",
+            "1.33"
+          ],
+          "answer": 3,
+          "explanation": "(2+0+2)/3 = 1.33."
+        },
+        {
+          "question": "Find median class from cumulative frequencies 4, 10, 18, 25 (N=25).",
+          "options": [
+
+            "First class",
+            "Second class",
+            "Third class",
+            "Fourth class"
+          ],
+          "answer": 2,
+          "explanation": "N/2 = 12.5 lies in third class."
+        },
+
+        {
+          "question": "Find median of 11, 13, 15, 17, 19.",
+          "options": [
+            "15",
+            "13",
+            "17",
+            "19"
+          ],
+          "answer": 0,
+          "explanation": "Middle value = 15."
+        },
+        {
+          "question": "Find mode of 5, 5, 7, 7, 7, 9.",
+          "options": [
+
+            "5",
+            "9",
+            "7",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "7 occurs most often."
+        },
+
+        {
+          "question": "If each value is multiplied by 3, what happens to variance?",
+          "options": [
+
+            "Triples",
+            "Becomes 9 times",
+            "Unchanged",
+            "Halves"
+          ],
+          "answer": 1,
+          "explanation": "Variance scales by square of factor."
+        }
+
+
+
+
+      ]

@@ -1,0 +1,1182 @@
+[
+  {
+    "question": "Vectors that lie in the same plane are called:",
+    "options": [
+      "collinear vectors",
+
+      "parallel vectors",
+      "equal vectors",
+      "coplanar vectors"
+    ],
+    "answer": 3,
+    "explanation": "Coplanar vectors exist in the same plane."
+  },
+  {
+    "question": "Two vectors A and B have magnitudes 6 and 8 respectively and the angle between them is 90°. What is the magnitude of their resultant?",
+    "options": [
+
+      "14",
+      "2",
+      "10",
+      "48"
+    ],
+    "answer": 2,
+    "explanation": "R = √(A² + B² + 2ABcosθ).\n Since θ = 90°, cos90 = 0.\n R = √(36 + 64) = \n√100 = 10."
+  },
+  {
+    "question": "A vector with magnitude zero is called:",
+    "options": [
+      "Unit vector",
+      "Null vector",
+      "Parallel vector",
+      "Negative vector"
+    ],
+    "answer": 1,
+    "explanation": "A vector with zero magnitude is a null vector."
+  },
+  {
+    "question": "If A = 2i + 3j and B = 4i − j, what is A + B?",
+    "options": [
+      "6i + 2j",
+      "2i + 2j",
+      "6i − 4j",
+      "−2i + 4j"
+    ],
+    "answer": 0,
+    "explanation": "Add components: (2+4)i + (3−1)j =\n 6i + 2j."
+  },
+  {
+    "question": "If A = 7i − 2j and B = 3i + 4j, what is A − B?",
+    "options": [
+
+      "10i + 2j",
+      "4i + 2j",
+      "−4i − 6j",
+      "4i − 6j"
+    ],
+    "answer": 3,
+    "explanation": "A − B = (7−3)i + (−2−4)j \n= 4i − 6j."
+  },
+  {
+    "question": "Which of the following quantities is a scalar quantity?",
+    "options": [
+      "Velocity",
+      "Force",
+      "Temperature",
+      "Displacement"
+    ],
+    "answer": 2,
+    "explanation": "Temperature has magnitude only and no direction, so it is a scalar quantity."
+  },
+  {
+    "question": "Which of the following quantities is a vector quantity?",
+    "options": [
+      "Force",
+      "Mass",
+      "Speed",
+
+      "Time"
+    ],
+    "answer": 0,
+    "explanation": "Force has both magnitude and direction, therefore it is a vector quantity."
+  },
+  {
+    "question": "A vector quantity is completely described by:",
+    "options": [
+      "Magnitude only",
+      "Direction only",
+
+      "Position only",
+      "Magnitude and direction"
+    ],
+    "answer": 3,
+    "explanation": "A vector requires both magnitude and direction for complete description."
+  },
+  {
+    "question": "Which of the following represents a vector?",
+    "options": [
+      "20 N east",
+      "5 m",
+      "10 kg",
+
+      "15 s"
+    ],
+    "answer": 0,
+    "explanation": "20 N east has magnitude and direction, so it is a vector."
+  },
+  {
+    "question": "A vector is usually represented graphically by:",
+    "options": [
+      "A circle",
+      "A straight line with an arrow",
+      "A square",
+      "A dot"
+    ],
+    "answer": 1,
+    "explanation": "Vectors are represented by arrows showing magnitude and direction."
+  },
+  {
+    "question": "The length of a vector arrow represents:",
+    "options": [
+      "Direction",
+      "Magnitude",
+      "Position",
+      "Angle"
+    ],
+    "answer": 1,
+    "explanation": "The length of the arrow shows the magnitude of the vector."
+  },
+  {
+    "question": "The arrow head of a vector represents:",
+    "options": [
+      "Direction",
+      "Magnitude",
+      "Origin",
+
+      "Length"
+    ],
+    "answer": 0,
+    "explanation": "The arrow head indicates the direction of the vector."
+  },
+  {
+    "question": "Two vectors are equal if they have:",
+    "options": [
+      "Same magnitude only",
+      "Same direction only",
+      "Same magnitude and direction",
+      "Same origin"
+    ],
+    "answer": 2,
+    "explanation": "Equal vectors must have both equal magnitude and direction."
+  },
+  {
+    "question": "Vectors that have the same magnitude but opposite direction are called:",
+    "options": [
+      "Parallel vectors",
+      "Equal vectors",
+
+      "Unit vectors",
+      "Negative vectors"
+    ],
+    "answer": 3,
+    "explanation": "Negative vectors have equal magnitude but opposite direction."
+  },
+  {
+    "question": "A unit vector is a vector that has:",
+    "options": [
+      "Magnitude equal to 1",
+      "Magnitude equal to 0",
+      "Infinite magnitude",
+      "Negative magnitude"
+    ],
+    "answer": 0,
+    "explanation": "A unit vector has magnitude equal to one."
+  },
+  {
+    "question": "Vector addition follows which law?",
+    "options": [
+      "Associative law only",
+      "Commutative law only",
+      "Both commutative and associative laws",
+      "Distributive law only"
+    ],
+    "answer": 2,
+    "explanation": "Vector addition obeys both commutative and associative laws."
+  },
+  {
+    "question": "In vector addition A + B equals:",
+    "options": [
+      "B − A",
+      "B + A",
+      "A − B",
+      "−A + B"
+    ],
+    "answer": 1,
+    "explanation": "Vector addition is commutative, so A + B = B + A."
+  },
+  {
+    "question": "The triangle law is used for:",
+    "options": [
+      "Vector addition",
+      "Vector subtraction",
+      "Vector multiplication",
+
+      "Vector division"
+    ],
+    "answer": 0,
+    "explanation": "The triangle law is used to add two vectors graphically."
+  },
+  {
+    "question": "In the triangle method of vector addition, vectors are placed:",
+    "options": [
+      "Tail to tail",
+      "Head to head",
+      "Head to tail",
+      "Side by side"
+    ],
+    "answer": 2,
+    "explanation": "In triangle law vectors are placed head to tail."
+  },
+  {
+    "question": "The resultant vector is:",
+    "options": [
+      "Difference of two vectors",
+      "Sum of two or more vectors",
+      "Product of vectors",
+      "Division of vectors"
+    ],
+    "answer": 1,
+    "explanation": "The resultant vector is the sum of two or more vectors."
+  },
+  {
+    "question": "The parallelogram law is used for:",
+    "options": [
+
+      "Vector multiplication",
+      "Scalar addition",
+      "Scalar subtraction",
+      "Vector addition"
+    ],
+    "answer": 3,
+    "explanation": "Parallelogram law is a graphical method for vector addition."
+  },
+  {
+    "question": "In parallelogram law, the resultant vector is represented by:",
+    "options": [
+      "One side of the parallelogram",
+      "A diagonal of the parallelogram",
+      "The perimeter",
+      "The midpoint"
+    ],
+    "answer": 1,
+    "explanation": "The diagonal of the parallelogram gives the resultant vector."
+  },
+  {
+    "question": "Vector subtraction A − B can be written as:",
+    "options": [
+      "A + B",
+
+      "B − A",
+      "−A + B",
+      "A + (−B)"
+    ],
+    "answer": 3,
+    "explanation": "Vector subtraction is adding the negative vector."
+  },
+  {
+    "question": "The negative of a vector has:",
+    "options": [
+      "Same direction",
+      "Opposite direction",
+      "Zero magnitude",
+      "Infinite magnitude"
+    ],
+    "answer": 1,
+    "explanation": "Negative vector has same magnitude but opposite direction."
+  },
+  {
+    "question": "Graphical addition of vectors involves:",
+    "options": [
+      "Drawing vectors to scale",
+      "Algebraic equations",
+
+      "Differentiation",
+      "Integration"
+    ],
+    "answer": 0,
+    "explanation": "Vectors are drawn to scale and direction in graphical methods."
+  },
+  {
+    "question": "When two vectors act in opposite directions, the resultant magnitude is:",
+    "options": [
+      "Their sum",
+      "Their difference",
+      "Zero always",
+      "Product"
+    ],
+    "answer": 1,
+    "explanation": "Opposite vectors subtract in magnitude."
+  },
+  {
+    "question": "When two vectors act in the same direction, the resultant is:",
+    "options": [
+      "Difference of magnitudes",
+      "Product of magnitudes",
+      "Sum of magnitudes",
+      "Zero"
+    ],
+    "answer": 2,
+    "explanation": "Vectors in same direction add directly."
+  },
+  {
+    "question": "Resolution of a vector means:",
+    "options": [
+      "Splitting a vector into components",
+      "Combining vectors",
+
+      "Multiplying vectors",
+      "Subtracting vectors"
+    ],
+    "answer": 0,
+    "explanation": "Vector resolution splits a vector into components."
+  },
+  {
+    "question": "Vector components are usually resolved along:",
+    "options": [
+      "Curved axes",
+      "Parallel lines",
+      "Perpendicular axes",
+      "Circular axes"
+    ],
+    "answer": 2,
+    "explanation": "Vectors are usually resolved along perpendicular x and y axes."
+  },
+  {
+    "question": "If a vector is resolved into components, their sum equals:",
+    "options": [
+      "Zero",
+      "Original vector",
+      "Half the vector",
+      "Double the vector"
+    ],
+    "answer": 1,
+    "explanation": "The vector components combine to give the original vector."
+  },
+
+    {
+      "question": "Which of the following is NOT a vector quantity?",
+      "options": [
+        "Acceleration",
+        "Momentum",
+        "Energy",
+        "Displacement"
+      ],
+      "answer": 2,
+      "explanation": "Energy has magnitude only and no direction, so it is a scalar."
+    },
+    {
+      "question": "The SI unit of displacement is:",
+      "options": [
+
+        "meter per second",
+        "newton",
+        "joule",
+        "meter"
+      ],
+      "answer": 3,
+      "explanation": "Displacement is measured in meters."
+    },
+    {
+      "question": "Speed differs from velocity because speed:",
+      "options": [
+        "has direction",
+        "is a vector",
+        "has magnitude only",
+        "is negative"
+      ],
+      "answer": 2,
+      "explanation": "Speed is scalar and has only magnitude."
+    },
+    {
+      "question": "Which pair contains only vector quantities?",
+      "options": [
+        "Mass and time",
+        "Velocity and force",
+        "Speed and distance",
+        "Energy and work"
+      ],
+      "answer": 1,
+      "explanation": "Both velocity and force have magnitude and direction."
+    },
+    {
+      "question": "If vector A has magnitude 5 units and B has magnitude 3 units in the same direction, the resultant magnitude is:",
+      "options": [
+        "2",
+
+        "15",
+        "1",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Vectors in the same direction add: 5 + 3 = 8."
+    },
+    {
+      "question": "If two equal vectors act in opposite directions, their resultant is:",
+      "options": [
+        "Equal to one vector",
+        "Twice one vector",
+        "Zero",
+        "Half a vector"
+      ],
+      "answer": 2,
+      "explanation": "Equal and opposite vectors cancel out."
+    },
+    {
+      "question": "Which method uses a parallelogram to find the resultant of two vectors?",
+      "options": [
+        "Triangle law",
+        "Parallelogram law",
+        "Polygon law",
+        "Component method"
+      ],
+      "answer": 1,
+      "explanation": "Parallelogram law determines resultant of two vectors graphically."
+    },
+    {
+      "question": "The resultant of two perpendicular vectors of magnitude 3 and 4 is:",
+      "options": [
+        "5",
+        "7",
+        "1",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Using Pythagoras: √(3² + 4²) = 5."
+    },
+    {
+      "question": "Vector subtraction A − B is equivalent to:",
+      "options": [
+        "A + B",
+
+        "B + A",
+        "−A + B",
+        "A + (−B)"
+      ],
+      "answer": 3,
+      "explanation": "Subtraction means adding the negative vector."
+    },
+    {
+      "question": "The graphical addition of more than two vectors uses:",
+      "options": [
+        "Triangle law",
+        "Polygon law",
+        "Parallelogram law",
+        "Scalar law"
+      ],
+      "answer": 1,
+      "explanation": "Polygon method adds multiple vectors."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "The x-component of a vector lies along:",
+      "options": [
+        "horizontal axis",
+        "vertical axis",
+
+        "diagonal axis",
+        "circular axis"
+      ],
+      "answer": 0,
+      "explanation": "The x-component lies along the horizontal axis."
+    },
+    {
+      "question": "The y-component of a vector lies along:",
+      "options": [
+        "vertical axis",
+        "horizontal axis",
+
+        "diagonal axis",
+        "curved axis"
+      ],
+      "answer": 0,
+      "explanation": "The y-component lies along the vertical axis."
+    },
+    {
+      "question": "Resolving a vector helps in:",
+      "options": [
+        "Combining forces",
+
+        "Destroying vectors",
+        "Removing magnitude",
+        "Simplifying calculations"
+      ],
+      "answer": 3,
+      "explanation": "Vector resolution simplifies analysis in perpendicular directions."
+    },
+    {
+      "question": "If a vector makes 0° with x-axis, its y-component is:",
+      "options": [
+        "maximum",
+        "minimum",
+        "zero",
+        "negative"
+      ],
+      "answer": 2,
+      "explanation": "When angle is 0°, the vector lies entirely along x-axis."
+    },
+    {
+      "question": "If a vector makes 90° with x-axis, its x-component is:",
+      "options": [
+        "maximum",
+        "minimum",
+
+        "negative",
+        "zero"
+      ],
+      "answer": 3,
+      "explanation": "At 90° the vector lies completely along the y-axis."
+    },
+    {
+      "question": "The magnitude of a resultant vector is always:",
+      "options": [
+        "less than each vector",
+        "greater than each vector",
+        "between sum and difference of magnitudes",
+        "always zero"
+      ],
+      "answer": 2,
+      "explanation": "Resultant magnitude lies between sum and difference."
+    },
+    {
+      "question": "The direction of a resultant vector depends on:",
+      "options": [
+        "magnitudes only",
+        "directions only",
+
+        "units",
+        "both magnitude and direction of vectors"
+      ],
+      "answer": 3,
+      "explanation": "Both magnitude and direction influence the resultant."
+    },
+    {
+      "question": "The angle between two vectors determines:",
+      "options": [
+        "their units",
+        "their resultant magnitude",
+        "their mass",
+        "their speed"
+      ],
+      "answer": 1,
+      "explanation": "Angle affects the magnitude of resultant."
+    },
+    {
+      "question": "Vectors along the same straight line are called:",
+      "options": [
+        "collinear vectors",
+        "random vectors",
+        "curved vectors",
+        "unit vectors"
+      ],
+      "answer": 0,
+      "explanation": "Collinear vectors lie along the same line."
+    },
+    {
+      "question": "Vectors that lie in the same plane are called:",
+      "options": [
+        "coplanar vectors",
+        "parallel vectors",
+        "collinear vectors",
+        "random vectors"
+      ],
+      "answer": 0,
+      "explanation": "Coplanar vectors exist in the same plane."
+    },
+    {
+      "question": "The resultant of two perpendicular vectors is found using:",
+      "options": [
+        "addition rule",
+        "subtraction rule",
+        "Pythagorean theorem",
+        "division rule"
+      ],
+      "answer": 2,
+      "explanation": "Perpendicular vectors form a right triangle."
+    },
+    {
+      "question": "When drawing vectors graphically, they must be drawn:",
+      "options": [
+        "randomly",
+        "to scale",
+        "without direction",
+        "without units"
+      ],
+      "answer": 1,
+      "explanation": "Vectors must be drawn to scale for accuracy."
+    },
+    {
+      "question": "Which quantity represents rate of change of displacement?",
+      "options": [
+        "velocity",
+        "speed",
+        "distance",
+        "time"
+      ],
+      "answer": 0,
+      "explanation": "Velocity measures rate of change of displacement."
+    },
+    {
+      "question": "The vector joining initial and final position is:",
+      "options": [
+        "distance",
+        "speed",
+        "displacement",
+        "time"
+      ],
+      "answer": 2,
+      "explanation": "Displacement is the straight-line vector from start to end."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Two vectors each of magnitude 5 act at 60° to each other. What is the magnitude of their resultant?",
+      "options": [
+        "5",
+        "10",
+
+        "5√2",
+        "5√3"
+      ],
+      "answer": 3,
+      "explanation": "R = √(5² + 5² + 2·5·5·cos60)\n = √(25 + 25 + 25)\n = √75 = 5√3."
+    },
+    {
+      "question": "If A = 4i + 3j, what is the magnitude of vector A?",
+      "options": [
+        "7",
+        "5",
+        "25",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "|A| = √(4² + 3²) =\n √(16 + 9) = \n√25 = 5."
+    },
+
+    {
+      "question": "Two vectors have magnitudes 10 and 6. What is the maximum possible magnitude of their resultant?",
+      "options": [
+
+        "4",
+        "10",
+        "60",
+        "16"
+      ],
+      "answer": 3,
+      "explanation": "Maximum occurs when vectors are in same direction: 10 + 6 = 16."
+    },
+    {
+      "question": "Two vectors have magnitudes 10 and 6. What is the minimum possible resultant?",
+      "options": [
+        "16",
+        "4",
+        "10",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Minimum occurs when vectors are opposite: 10 − 6 = 4."
+    },
+    {
+      "question": "If the resultant of two equal vectors is equal to one of the vectors, the angle between them is:",
+      "options": [
+        "60°",
+        "90°",
+
+        "180°",
+        "120°"
+      ],
+      "answer": 3,
+      "explanation": "Using R² = A² + A² + 2A²cosθ and \nR = A → solving gives θ = 120°."
+    },
+    {
+      "question": "A vector of magnitude 20 makes an angle of 30° with the x-axis. What is its x-component?",
+      "options": [
+        "10",
+        "20cos30°",
+        "20sin30°",
+        "10√3"
+      ],
+      "answer": 3,
+      "explanation": "x = 20cos30° =\n 20(√3/2) =\n 10√3."
+    },
+    {
+      "question": "A vector of magnitude 20 makes an angle of 30° with x-axis. What is its y-component?",
+      "options": [
+        "10",
+        "10√3",
+        "20",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 20sin30° = 20(1/2) = 10."
+    },
+    {
+      "question": "Which condition makes the resultant of two vectors zero?",
+      "options": [
+        "Vectors are perpendicular",
+        "Vectors are equal and opposite",
+        "Vectors are parallel",
+        "Vectors are unequal"
+      ],
+      "answer": 1,
+      "explanation": "Equal magnitude and opposite direction cancel."
+    },
+    {
+      "question": "If A + B = 0, what can be said about A and B?",
+      "options": [
+        "They are perpendicular",
+        "They are parallel",
+        "They are equal and opposite",
+        "They are unrelated"
+      ],
+      "answer": 2,
+      "explanation": "Vectors must be equal magnitude but opposite direction."
+    },
+    {
+      "question": "If A = 3i + 4j, what is the unit vector in direction of A?",
+      "options": [
+        "(3/5)i + (4/5)j",
+        "5i + 5j",
+        "4i + 3j",
+        "3i + 4j"
+      ],
+      "answer": 0,
+      "explanation": "Unit vector = A / |A| = (3i + 4j)/5."
+    },
+    {
+      "question": "Three vectors forming a closed triangle have resultant:",
+      "options": [
+        "equal to largest vector",
+        "infinite",
+        "zero",
+        "equal to sum"
+      ],
+      "answer": 2,
+      "explanation": "Closed triangle means resultant is zero."
+    },
+    {
+      "question": "If vectors are represented by sides of a triangle taken in order, their resultant is:",
+      "options": [
+        "first side",
+        "last side",
+
+        "sum of sides",
+        "closing side in opposite direction"
+      ],
+      "answer": 3,
+      "explanation": "Triangle law states closing side gives resultant."
+    },
+    {
+      "question": "Two vectors of magnitude 4 and 3 act at right angles. What is the angle of resultant with the vector 4?",
+      "options": [
+        "tan⁻¹(3/4)",
+        "tan⁻¹(4/3)",
+        "60°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "tanθ = opposite/adjacent = 3/4."
+    },
+    {
+      "question": "If A = i + j + k, what is |A|?",
+      "options": [
+
+        "3",
+        "1",
+        "√2",
+        "√3"
+      ],
+      "answer": 3,
+      "explanation": "|A| = √(1² + 1² + 1²) = √3."
+    },
+    {
+      "question": "Which quantity remains unchanged when a vector is shifted parallel to itself?",
+      "options": [
+        "Magnitude and direction",
+        "Only magnitude",
+        "Only direction",
+        "Position"
+      ],
+      "answer": 0,
+      "explanation": "Vectors are free to move parallel without changing magnitude or direction."
+    },
+    {
+      "question": "The component of a vector along another direction is obtained using:",
+      "options": [
+
+        "sine of the angle",
+        "tangent of the angle",
+        "secant of the angle",
+        "cosine of the angle"
+      ],
+      "answer": 3,
+      "explanation": "Projection uses cosine."
+    },
+    {
+      "question": "If the angle between two vectors increases, their resultant magnitude generally:",
+      "options": [
+        "increases",
+        "decreases",
+        "remains constant",
+        "becomes zero always"
+      ],
+      "answer": 1,
+      "explanation": "As angle approaches 180°, resultant decreases."
+    },
+
+    {
+      "question": "Two vectors of magnitudes 7 and 24 act at right angles. What is the magnitude of their resultant?",
+      "options": [
+
+        "31",
+        "17",
+        "49",
+        "25"
+      ],
+      "answer": 3,
+      "explanation": "R = √(7² + 24²) = √(49 + 576) = \n√625 = 25."
+    },
+    {
+      "question": "If two vectors of magnitudes 8 and 15 act in the same direction, their resultant magnitude is:",
+      "options": [
+        "7",
+        "23",
+        "120",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "When vectors act in the same direction, magnitudes add: 8 + 15 = 23."
+    },
+    {
+      "question": "If two vectors of magnitudes 20 and 12 act in opposite directions, the magnitude of their resultant is:",
+      "options": [
+        "32",
+
+        "240",
+        "20",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Opposite direction → subtract magnitudes: 20 − 12 = 8."
+    },
+    {
+      "question": "A vector of magnitude 10 makes an angle of 60° with the x-axis. What is its x-component?",
+      "options": [
+        "5",
+        "10",
+        "8.66",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "x-component = 10cos60° = 10 × 0.5 = 5."
+    },
+    {
+      "question": "A vector of magnitude 10 makes an angle of 60° with the x-axis. What is its y-component?",
+      "options": [
+        "5",
+        "10",
+        "8.66",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "y-component = 10sin60° = \n10 × √3/2 ≈ 8.66."
+    },
+    {
+      "question": "Which of the following quantities is a scalar?",
+      "options": [
+        "Velocity",
+        "Force",
+        "Temperature",
+        "Acceleration"
+      ],
+      "answer": 2,
+      "explanation": "Temperature has magnitude only and no direction."
+    },
+    {
+      "question": "Which of the following quantities is a vector?",
+      "options": [
+        "Momentum",
+        "Mass",
+        "Time",
+
+        "Energy"
+      ],
+      "answer": 0,
+      "explanation": "Momentum has both magnitude and direction."
+    },
+  {
+    "question": "If A = 3i + 4j and B = 2i + j, what is A + B?",
+    "options": [
+      "5i + 5j",
+      "i + 3j",
+      "5i + 3j",
+      "i + 5j"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+    {
+      "question": "If A = 5i + 7j and B = 2i + 3j, what is A − B?",
+      "options": [
+        "3i + 4j",
+        "7i + 10j",
+        "−3i − 4j",
+        "3i − 4j"
+      ],
+      "answer": 0,
+      "explanation": "(5−2)i + (7−3)j = \n3i + 4j."
+    },
+    {
+      "question": "The maximum resultant of two vectors of magnitudes 9 and 4 occurs when the angle between them is:",
+      "options": [
+        "0°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "answer": 0,
+      "explanation": "Maximum resultant occurs when vectors act in same direction."
+    },
+    {
+      "question": "The minimum resultant of two vectors occurs when the angle between them is:",
+      "options": [
+        "0°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "answer": 3,
+      "explanation": "Opposite directions give minimum resultant."
+    },
+    {
+      "question": "Which law of vector addition uses a triangle diagram?",
+      "options": [
+        "Triangle law",
+        "Parallelogram law",
+        "Polygon law",
+        "Resolution law"
+      ],
+      "answer": 0,
+      "explanation": "Triangle law represents vector addition graphically."
+    },
+    {
+      "question": "Which law uses a parallelogram to determine the resultant?",
+      "options": [
+        "Triangle law",
+        "Parallelogram law",
+        "Polygon law",
+        "Component law"
+      ],
+      "answer": 1,
+      "explanation": "Parallelogram law finds resultant of two vectors."
+    },
+    {
+      "question": "If three vectors form a closed triangle when drawn head-to-tail, their resultant is:",
+      "options": [
+        "equal to first vector",
+        "equal to last vector",
+        "zero",
+        "sum of magnitudes"
+      ],
+      "answer": 2,
+      "explanation": "Closed triangle means resultant is zero."
+    },
+    {
+      "question": "If a vector has magnitude 13 and x-component 5, what is the y-component?",
+      "options": [
+        "8",
+        "12",
+        "18",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "y = √(13² − 5²) =\n √(169 − 25) =\n √144 = 12."
+    },
+    {
+      "question": "If a vector has magnitude 17 and y-component 15, what is the x-component?",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "x = √(17² − 15²) = \n√(289 − 225) =\n √64 = 8."
+    },
+    {
+      "question": "If A + B = C, then C − B equals:",
+      "options": [
+        "A",
+        "B",
+        "A + B",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Rearranging gives A = C − B."
+    },
+    {
+      "question": "The magnitude of resultant of two vectors is always:",
+      "options": [
+        "greater than their sum",
+        "between their sum and difference",
+        "always zero",
+        "always equal to largest vector"
+      ],
+      "answer": 1,
+      "explanation": "Resultant lies between sum and difference of magnitudes."
+    },
+    {
+      "question": "When resolving a vector, the components are usually taken:",
+      "options": [
+
+        "random directions",
+        "curved directions",
+        "diagonal directions",
+        "parallel and perpendicular"
+      ],
+      "answer": 3,
+      "explanation": "Components are perpendicular."
+    },
+    {
+      "question": "The SI unit of velocity is:",
+      "options": [
+        "m",
+        "m/s",
+        "kg",
+        "N"
+      ],
+      "answer": 1,
+      "explanation": "Velocity unit is meter per second."
+    },
+    {
+      "question": "Which of the following is NOT a vector quantity?",
+      "options": [
+        "Displacement",
+        "Force",
+
+        "Acceleration",
+        "Distance"
+      ],
+      "answer": 3,
+      "explanation": "Distance has magnitude only."
+    },
+    {
+      "question": "If vectors A and B are perpendicular and have magnitudes 6 and 8, the resultant magnitude is:",
+      "options": [
+        "10",
+        "14",
+        "48",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "R = √(6² + 8²) =\n √100 = 10."
+    },
+    {
+      "question": "If a vector makes 0° with x-axis, its y-component is:",
+      "options": [
+        "maximum",
+        "minimum",
+        "zero",
+        "negative"
+      ],
+      "answer": 2,
+      "explanation": "Vector lies entirely along x-axis."
+    },
+    {
+      "question": "If a vector makes 90° with x-axis, its x-component is:",
+      "options": [
+        "maximum",
+        "zero",
+        "negative",
+        "infinite"
+      ],
+      "answer": 1,
+      "explanation": "Vector lies along y-axis."
+    },
+    {
+      "question": "Vectors that lie along the same straight line are called:",
+      "options": [
+        "parallel vectors",
+        "collinear vectors",
+        "coplanar vectors",
+        "random vectors"
+      ],
+      "answer": 1,
+      "explanation": "Collinear vectors lie on same line."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Which method is used to add many vectors graphically?",
+      "options": [
+        "Triangle law",
+
+        "Parallelogram law",
+        "Resolution method",
+        "Polygon law"
+      ],
+      "answer": 3,
+      "explanation": "Polygon method adds multiple vectors."
+    },
+    {
+      "question": "If A = 6i and B = 8j, what is the magnitude of A + B?",
+      "options": [
+        "10",
+        "14",
+        "48",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Resultant magnitude √(6² + 8²) = 10."
+    },
+    {
+      "question": "The direction of a vector is determined by:",
+      "options": [
+        "its magnitude",
+        "angle with reference axis",
+        "its unit",
+        "its length only"
+      ],
+      "answer": 1,
+      "explanation": "Direction is specified by angle relative to axis."
+    },
+    {
+      "question": "If a vector is multiplied by −1, the result is:",
+      "options": [
+        "same vector",
+        "half vector",
+        "vector in opposite direction",
+        "zero vector"
+      ],
+      "answer": 2,
+      "explanation": "Magnitude same but direction reversed."
+    }
+  ]

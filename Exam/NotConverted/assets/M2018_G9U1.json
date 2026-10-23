@@ -1,0 +1,24 @@
+[
+{
+  "question": "Which one of the following sets represents an empty set?",
+  "options": [
+    "{x | x ∈ ℕ and 0 < x ≤ 1}",
+    "{x | x ∈ ℕ and x ≤ -1}",
+    "{x | x ∈ ℝ and x² ≤ 0}",
+    "{x | x ∈ ℝ and √(x²) = x}"
+  ],
+  "answer": 1,
+  "explanation": "Since ℕ contains positive integers (1, 2, 3, ...), there is no natural number satisfying x ≤ -1.\n\n Therefore, the second set has no elements and is an empty set."
+},
+{
+"question": " For any three sets A, B and C which one of the following is NOT true about the intersection of sets?",
+"options": [
+"A ∩ (B ∩ C) = (A ∩ B) ∩ C",
+"A ∩ B = B ∩ A",
+"A ∩ ∅ = A",
+"A ∩ B = A if A ⊆ B"
+],
+"answer": 2,
+"explanation": "The intersection of any set A with the empty set (∅) is the empty set (A ∩ ∅ = ∅), not A. Thus, statement C is false."
+}
+]

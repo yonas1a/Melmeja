@@ -1,0 +1,1217 @@
+[
+  {
+    "question": "Which of the following elements is a typical intrinsic semiconductor material in pure form?",
+    "options": [
+      "Silicon (Si)",
+      "Boron (B)",
+      "Phosphorus (P)",
+      "Aluminum (Al)"
+    ],
+    "answer": 0,
+    "explanation": "Silicon and Germanium are the most common intrinsic (pure) semiconductor materials, belonging to Group IV of the periodic table, having four valence electrons."
+  },
+  {
+    "question": "At absolute zero temperature (0 K), a pure semiconductor behaves electrically most like a(n):",
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Superconductor",
+      "Amphoteric material"
+    ],
+    "answer": 1,
+    "explanation": "At absolute zero, all valence electrons are tightly bound in covalent bonds, and there are no free charge carriers, making the semiconductor act as a perfect insulator."
+  },
+  {
+    "question": "The process of intentionally adding impurities to a pure semiconductor to modify its electrical conductivity is known as:",
+    "options": [
+      "Fusion",
+      "Doping",
+      "Sintering",
+      "Crystallization"
+    ],
+    "answer": 1,
+    "explanation": "Doping is the deliberate addition of small amounts of a suitable impurity (dopant) to a pure semiconductor to increase its conductivity."
+  },
+  {
+    "question": "An N-type semiconductor is formed by doping an intrinsic semiconductor with an impurity from which group of the periodic table?",
+    "options": [
+      "Group III (Trivalent)",
+      "Group IV (Tetravalent)",
+      "Group V (Pentavalent)",
+      "Group VI (Hexavalent)"
+    ],
+    "answer": 2,
+    "explanation": "N-type semiconductors are created using pentavalent impurities (e.g., Phosphorus, Arsenic) which have five valence electrons, providing an excess free electron for conduction."
+  },
+  {
+    "question": "In a P-type semiconductor, the majority charge carriers are:",
+    "options": [
+      "Electrons",
+      "Holes",
+      "Protons",
+      "Ions"
+    ],
+    "answer": 1,
+    "explanation": "P-type semiconductors are doped with trivalent impurities, which create a deficiency of an electron, known as a 'hole.'\n\n Holes are the majority carriers, and electrons are the minority carriers."
+  },
+
+  {
+    "question": "Which of the following is true about the conductivity of a semiconductor with increasing temperature?",
+    "options": [
+      "It decreases exponentially.",
+      "It remains constant.",
+      "It increases exponentially.",
+      "It decreases linearly."
+    ],
+    "answer": 2,
+    "explanation": "Increasing temperature provides thermal energy to break more covalent bonds, generating more electron-hole pairs, which dramatically increases the number of charge carriers and thus the conductivity."
+  },
+  {
+    "question": "The phenomenon in which a small current controls a large current in a transistor is called:",
+    "options": [
+      "Rectification",
+      "Stabilization",
+      "Amplification",
+      "Modulation"
+    ],
+    "answer": 2,
+    "explanation": "Amplification is the primary function of a transistor, where a small change in the base current (or base-emitter voltage) leads to a much larger change in the collector current."
+  },
+  {
+    "question": "A P-N junction diode conducts current easily when it is:",
+    "options": [
+      "Reverse biased",
+      "Forward biased",
+      "Unbiased",
+      "Operating at breakdown voltage"
+    ],
+    "answer": 1,
+    "explanation": "Forward biasing reduces the potential barrier and the width of the depletion region, allowing the majority carriers to cross the junction and current to flow easily."
+  },
+  {
+    "question": "The thin central layer in a Bipolar Junction Transistor (BJT) is called the:",
+    "options": [
+      "Emitter",
+      "Base",
+      "Collector",
+      "Gate"
+    ],
+    "answer": 1,
+    "explanation": "A BJT has three regions: Emitter, Base, and Collector.\n\n The Base is the thin, lightly doped, central layer."
+  },
+  {
+    "question": "Which of the following dopant atoms is trivalent (Group III) and is used to create a P-type semiconductor?",
+    "options": [
+      "Antimony (Sb)",
+      "Arsenic (As)",
+      "Boron (B)",
+      "Phosphorus (P)"
+    ],
+    "answer": 2,
+    "explanation": "Boron, Aluminum, and Indium are trivalent impurities used to create P-type semiconductors by introducing holes."
+  },
+  {
+    "question": "The depletion region in a P-N junction is formed due to:",
+    "options": [
+      "Movement of electrons from P-region to N-region.",
+      "Diffusion of majority charge carriers across the junction.",
+      "Drift of minority charge carriers.",
+      "Application of external voltage."
+    ],
+    "answer": 1,
+    "explanation": "The depletion region is formed immediately after junction formation by the diffusion of majority carriers (electrons from N to P and holes from P to N) leaving behind uncompensated immobile ions."
+  },
+
+
+
+
+  {
+    "question": "The current gain in a common-emitter (CE) configuration is denoted by Beta (β), which is the ratio of:",
+    "options": [
+      "I_E / I_B",
+      "I_C / I_E",
+      "I_C / I_B",
+      "I_B / I_C"
+    ],
+    "answer": 2,
+    "explanation": "The current gain Beta (β) for the common-emitter configuration is defined as the ratio of the collector current (I_C) to the base current (I_B), i.e.,\n β = I_C / I_B."
+  },
+  {
+    "question": "The Boolean expression for a NAND gate is:",
+    "options": [
+      "Y = A + B",
+      "Y = A · B",
+      "Y = A + B (Bar over A+B)",
+      "Y = A · B (Bar over A·B)"
+    ],
+    "answer": 3,
+    "explanation": "A NAND gate is a NOT-AND gate.\n\n The AND operation is A · B, and the NOT of this is A · B (Bar over A·B)."
+  },
+  {
+    "question": "The output of an OR gate with inputs A=1 and B=0 is:",
+    "options": [
+      "0",
+      "1",
+      "Uncertain",
+      "Depends on the gate technology"
+    ],
+    "answer": 1,
+    "explanation": "The OR operation means Y = A + B.\n\n So, Y = 1 + 0 = 1.\n The output is 1 if at least one input is 1."
+  },
+
+  {
+    "question": "Which material is used in the manufacturing of solar cells due to its efficiency and abundance?",
+    "options": [
+      "Gallium Arsenide (GaAs)",
+      "Germanium (Ge)",
+
+      "Copper (Cu)",
+      "Silicon (Si)"
+    ],
+    "answer": 3,
+    "explanation": "Silicon is the most widely used material for photovoltaic cells (solar cells) due to its suitable band gap, stability, and low cost."
+  },
+  {
+    "question": "The potential barrier across a silicon P-N junction at room temperature is approximately:",
+    "options": [
+      "0.1 V",
+      "0.3 V",
+      "0.7 V",
+      "1.5 V"
+    ],
+    "answer": 2,
+    "explanation": "The barrier potential for a Silicon diode is approximately 0.7 volts, while for Germanium it is about 0.3 volts."
+  },
+  {
+    "question": "A hole in a semiconductor crystal is best described as:",
+    "options": [
+      "An excess electron.",
+      "A neutrally charged particle.",
+      "A vacant electron state with a positive effective charge.",
+      "An impurity atom."
+    ],
+    "answer": 2,
+    "explanation": "A hole is the absence of an electron in a covalent bond, which effectively moves like a positive charge carrier."
+  },
+  {
+    "question": "In an NPN transistor, the movement of charge carriers is primarily due to:",
+    "options": [
+      "Holes diffusing from the Base to the Emitter.",
+      "Electrons diffusing from the Emitter to the Collector.",
+      "Electrons drifting from the Collector to the Emitter.",
+      "Holes drifting from the Base to the Collector."
+    ],
+    "answer": 1,
+    "explanation": "In an NPN transistor, the Emitter is heavily doped with electrons.\n\n Under forward bias, electrons are injected (diffuse) from the Emitter (N-type) through the thin Base (P-type) and into the Collector (N-type)."
+  },
+  {
+    "question": "Which of the following is considered a **universal gate**, meaning any other logic gate can be constructed solely using it?",
+    "options": [
+      "OR gate",
+      "XOR gate",
+      "NAND gate",
+      "NOT gate"
+    ],
+    "answer": 2,
+    "explanation": "The NAND gate (and the NOR gate) are universal gates because they can be configured to perform the function of AND, OR, and NOT gates."
+  },
+  {
+    "question": "The number of valence electrons in a pure Silicon atom is:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "Silicon (Si) is a Group IV element, meaning it has four valence electrons, which form four covalent bonds in its crystal lattice."
+  },
+
+
+  {
+    "question": "In the Common Emitter (CE) configuration, the input terminal is the Base, and the output terminal is the Collector. Which terminal is common to both the input and output circuits?",
+    "options": [
+      "Emitter",
+      "Base",
+      "Collector",
+      "Drain"
+    ],
+    "answer": 0,
+    "explanation": "In the Common Emitter configuration, the Emitter terminal is the reference terminal, or common point, for both the input (Base-Emitter) and output (Collector-Emitter) circuits."
+  },
+  {
+    "question": "A half-wave rectifier uses how many P-N junction diodes?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 0,
+    "explanation": "A half-wave rectifier circuit uses a single diode to allow current to flow only during one half-cycle of the AC input, blocking the other half."
+  },
+  {
+    "question": "The energy level of an electron released from its covalent bond is located in the:",
+    "options": [
+      "Conduction band",
+      "Valence band",
+      "Forbidden gap",
+
+      "Fermi level"
+    ],
+    "answer": 0,
+    "explanation": "The conduction band is the energy range where electrons are free to move and conduct current.\n\n Breaking a covalent bond provides enough energy for the electron to move from the valence band to the conduction band."
+  },
+  {
+    "question": "The logic gate that has a high (1) output only when all its inputs are high (1) is the:",
+    "options": [
+      "OR gate",
+      "NOT gate",
+      "AND gate",
+      "XOR gate"
+    ],
+    "answer": 2,
+    "explanation": "The AND gate's truth table shows that the output is 1 only when A=1 AND B=1."
+  },
+
+  {
+    "question": "Which region of the BJT is the heaviest doped to allow for maximum carrier injection?",
+    "options": [
+      "Emitter",
+      "Base",
+      "Collector",
+
+      "Gate"
+    ],
+    "answer": 0,
+    "explanation": "The Emitter is the most heavily doped region to maximize the injection of majority carriers (electrons in NPN, holes in PNP) into the base region."
+  },
+
+
+  {
+    "question": "Which logic gate's output is the complement (inverse) of its single input?",
+    "options": [
+      "AND",
+      "OR",
+      "NOT",
+      "Buffer"
+    ],
+    "answer": 2,
+    "explanation": "The NOT gate (inverter) performs the operation Y = NOT A, meaning its output is 0 when the input is 1, and 1 when the input is 0."
+  },
+
+  {
+    "question": "A bridge rectifier circuit uses a minimum of how many diodes?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 3,
+    "explanation": "The bridge rectifier circuit is a type of full-wave rectifier that uses four diodes to utilize both half-cycles of the AC input without requiring a center-tapped transformer."
+  },
+
+  {
+    "question": "The Boolean expression for an **Exclusive OR (XOR) gate** is:",
+    "options": [
+      "Y = A + B",
+      "Y = A · B",
+      "Y = A ⊕ B",
+      "Y = A · B + A · B (Bar over B, Bar over A)"
+    ],
+    "answer": 2,
+    "explanation": "The symbol ⊕ is used to denote the XOR operation (A XOR B).\n\n The output is high only when the inputs are different."
+  },
+  {
+    "question": "When an extrinsic N-type semiconductor is created, the dopant atom is called a(n):",
+    "options": [
+      "Acceptor impurity",
+      "Donor impurity",
+      "Intrinsic impurity",
+      "Trivalent impurity"
+    ],
+    "answer": 1,
+    "explanation": "Pentavalent impurities donate a free electron to the crystal lattice, so they are called donor impurities."
+  },
+  {
+    "question": "The Common-Base (CB) configuration is primarily used for:",
+    "options": [
+      "Voltage amplification",
+      "High current amplification",
+      "Impedance matching and high-frequency applications",
+      "Switching only"
+    ],
+    "answer": 2,
+    "explanation": "The CB configuration has a current gain (alpha, α) close to 1, but it offers excellent high-frequency response and good impedance matching characteristics."
+  },
+
+  {
+    "question": "The most common semiconductor material used in the fabrication of integrated circuits (ICs) is:",
+    "options": [
+      "Silicon",
+      "Germanium",
+      "Carbon",
+
+      "Gallium Arsenide"
+    ],
+    "answer": 0,
+    "explanation": "Silicon is preferred due to its ability to form a stable native oxide (SiO₂) which is an excellent insulator, crucial for MOSFETs and IC fabrication."
+  },
+  {
+    "question": "Which of the following is an example of a trivalent impurity?",
+    "options": [
+      "Arsenic (As)",
+      "Phosphorus (P)",
+      "Indium (In)",
+      "Antimony (Sb)"
+    ],
+    "answer": 2,
+    "explanation": "Indium is in Group III (trivalent), meaning it has three valence electrons and is an acceptor impurity for P-type doping."
+  },
+  {
+    "question": "When a P-N junction is **reverse-biased**, the width of the depletion region:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Collapses"
+    ],
+    "answer": 0,
+    "explanation": "Reverse biasing pulls the majority carriers away from the junction, increasing the potential barrier and widening the depletion region."
+  },
+  {
+    "question": "The primary role of a diode in a power supply circuit is:",
+    "options": [
+      "Filtering",
+      "Amplification",
+      "Rectification",
+      "Inversion"
+    ],
+    "answer": 2,
+    "explanation": "Rectification is the process of converting AC into pulsating DC, which is the main function of a diode in a power supply."
+  },
+
+  {
+    "question": "In a P-type semiconductor, the Fermi level lies **closer** to the:",
+    "options": [
+      "Conduction band edge",
+
+      "Center of the forbidden gap",
+      "Energy level of the donor impurity",
+      "Valence band edge"
+    ],
+    "answer": 3,
+    "explanation": "Since holes are the majority carriers in P-type material, the probability of finding a hole is higher near the valence band, so the Fermi level shifts closer to the valence band."
+  },
+
+  {
+    "question": "Which of the following Boolean laws states that A + 0 = A?",
+    "options": [
+      "Commutative Law",
+      "Identity Law",
+      "Annihilation Law",
+      "Distributive Law"
+    ],
+    "answer": 1,
+    "explanation": "The Identity Law states that the ORing of a variable with 0 results in the variable itself (A + 0 = A), and the ANDing of a variable with 1 results in the variable itself (A · 1 = A)."
+  },
+  {
+    "question": "The type of rectification that utilizes a center-tapped transformer and two diodes is the:",
+    "options": [
+      "Half-wave rectifier",
+      "Full-wave bridge rectifier",
+      "Full-wave center-tapped rectifier",
+      "Diode clamper"
+    ],
+    "answer": 2,
+    "explanation": "The full-wave center-tapped rectifier uses a center-tapped transformer to provide two equal but opposite voltage signals and uses two diodes to rectify both cycles."
+  },
+  {
+    "question": "What is the phenomenon where a P-N junction converts light energy into electrical energy?",
+    "options": [
+      "Electroluminescence (LED)",
+      "Photovoltaic effect (Solar cell)",
+      "Photoemission",
+      "Zener effect"
+    ],
+    "answer": 1,
+    "explanation": "The photovoltaic effect describes the generation of a voltage and current in a P-N junction when exposed to light, which is the operating principle of a solar cell."
+  },
+  {
+    "question": "In an N-type semiconductor, the level of the donor impurity energy state lies:",
+    "options": [
+      "Near the valence band edge",
+      "Near the middle of the gap",
+      "Just below the conduction band edge",
+      "Just above the valence band edge"
+    ],
+    "answer": 2,
+    "explanation": "The donor level is very close to the conduction band, meaning only a very small amount of energy is required to excite the donor electron into the conduction band."
+  },
+
+  {
+    "question": "Which of the following is NOT an advantage of semiconductor electronic devices over vacuum tubes?",
+    "options": [
+      "Smaller size and weight.",
+      "Lower operating voltage.",
+      "Lower power consumption.",
+      "Higher maximum operating temperature."
+    ],
+    "answer": 3,
+    "explanation": "Semiconductor devices, particularly silicon, have a much lower maximum operating temperature (junction temperature) compared to vacuum tubes, which operate at high heat."
+  },
+
+
+  {
+    "question": "The primary objective of using a transistor as a buffer amplifier is to achieve:",
+    "options": [
+      "Maximum voltage gain.",
+      "Maximum power gain.",
+      "Impedance isolation.",
+      "Maximum current gain."
+    ],
+    "answer": 2,
+    "explanation": "A buffer amplifier (often a common-collector configuration) is used to prevent the load from affecting the source.\n\n It provides high input impedance, low output impedance, and a voltage gain close to 1, thus isolating the input and output circuits."
+  },
+  {
+    "question": "The unit of the voltage gain (Av) of a transistor amplifier is:",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Ampere",
+      "Unitless (dimensionless)"
+    ],
+    "answer": 3,
+    "explanation": "Voltage gain is the ratio of output voltage (V_out) to input voltage (V_in).\n\n Since it is a ratio of two voltages, it is unitless (dimensionless)."
+  },
+  {
+    "question": "Which factor primarily determines the electrical conductivity of an intrinsic semiconductor?",
+    "options": [
+      "The type of dopant added.",
+      "The number of free holes only.",
+      "The ambient temperature.",
+      "The size of the crystal."
+    ],
+    "answer": 2,
+    "explanation": "In an intrinsic (pure) semiconductor, the number of charge carriers (electron-hole pairs) is governed by the thermal energy, which is directly dependent on the absolute temperature."
+  },
+  {
+    "question": "A Photodiode is typically operated in which bias condition?",
+    "options": [
+      "Zero bias",
+      "Forward bias",
+      "Reverse bias",
+      "Breakdown region"
+    ],
+    "answer": 2,
+    "explanation": "Photodiodes are usually operated in reverse bias because the reverse current is very sensitive and proportional to the intensity of the incident light, allowing for fast and accurate light detection."
+  },
+
+  {
+    "question": "Which type of BJT is created by sandwiching a thin layer of P-type material between two N-type materials?",
+    "options": [
+      "PNP transistor",
+      "NPN transistor",
+      "PNN transistor",
+      "NPNP transistor"
+    ],
+    "answer": 1,
+    "explanation": "An NPN transistor consists of two N-type regions (Emitter and Collector) separated by a thin P-type region (Base)."
+  },
+
+
+  {
+    "question": "The minimum number of NAND gates required to construct a simple NOT gate is:",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 0,
+    "explanation": "A NAND gate can be used as a NOT gate by connecting both input terminals together to the single input signal."
+  },
+
+  {
+    "question": "The Collector region of a BJT is typically doped:",
+    "options": [
+      "Lightly, and is small in size.",
+
+      "Heavily, and is the largest in size.",
+      "Heavily, and is the smallest in size.",
+      "Moderately, and is the largest in size."
+    ],
+    "answer": 3,
+    "explanation": "The collector is moderately doped and is the largest in size to dissipate heat effectively, as it receives the majority of the current."
+  },
+  {
+    "question": "Which component is often used in conjunction with a rectifier to convert pulsating DC into smoother DC?",
+    "options": [
+      "Transformer",
+      "Inductor or Capacitor (Filter)",
+      "Zener diode (Regulator)",
+      "LED"
+    ],
+    "answer": 1,
+    "explanation": "Inductors and capacitors (filter circuits) are used to reduce the ripple in the pulsating DC output of a rectifier."
+  },
+  {
+    "question": "In a P-N junction, the minority charge carriers current under reverse bias is mainly due to:",
+    "options": [
+      "Diffusion current.",
+      "Drift current.",
+      "Avalanche effect.",
+      "Forward current."
+    ],
+    "answer": 1,
+    "explanation": "The minority carriers (electrons in P-region, holes in N-region) are swept across the junction by the electric field in the depletion region.\n\n This is a drift current."
+  },
+
+
+  {
+    "question": "In the Common-Emitter (CE) configuration, the output signal is 180 degrees out of phase with the input signal. This phase shift is a characteristic of:",
+    "options": [
+      "Common-Base amplifier",
+      "Common-Collector amplifier",
+      "Common-Emitter amplifier",
+      "A non-inverting amplifier"
+    ],
+    "answer": 2,
+    "explanation": "The Common-Emitter configuration is an inverting amplifier; the output voltage is phase-shifted by 180 degrees with respect to the input voltage."
+  },
+
+
+  {
+    "question": "Which one of the following is a pentavalent impurity?",
+    "options": [
+      "Boron",
+      "Aluminum",
+      "Gallium",
+      "Arsenic"
+    ],
+    "answer": 3,
+    "explanation": "Arsenic (As) is in Group V, possessing five valence electrons. \n\nIt is a donor impurity used to create N-type semiconductors."
+  },
+
+  {
+    "question": "In the Common Emitter amplifier, the ratio of output current (I_C) to input current (I_B) is the:",
+    "options": [
+      "Alpha (α)",
+      "Beta (β)",
+      "Gamma (γ)",
+      "Transconductance (g_m)"
+    ],
+    "answer": 1,
+    "explanation": "Beta (β) is the Common Emitter current gain, defined as the ratio of collector current to base current: \n\nβ = I_C / I_B."
+  },
+  {
+    "question": "If the inputs to a NOR gate are A=0 and B=0, the output Y is:",
+    "options": [
+      "0",
+      "1",
+      "Depends on noise",
+      "0.5"
+    ],
+    "answer": 1,
+    "explanation": "A NOR gate is a NOT-OR gate. \nThe OR operation is 0 + 0 = 0. \nThe NOT of 0 is 1. Thus, Y = 1."
+  },
+
+
+
+  {
+    "question": "A photovoltaic cell (solar cell) converts:",
+    "options": [
+      "Light energy to electrical energy.",
+      "Heat energy to electrical energy.",
+
+      "Chemical energy to light energy.",
+      "Electrical energy to light energy."
+    ],
+    "answer": 0,
+    "explanation": "A photovoltaic cell is designed to harness the photovoltaic effect, converting the energy of incident photons (light) directly into electrical power."
+  },
+  {
+    "question": "The input to a NOT gate is 10 V (logic high). If the logic circuit operates on Transistor-Transistor Logic (TTL), the output voltage should be close to:",
+    "options": [
+      "10 V",
+      "0 V",
+      "5 V",
+      "2 V"
+    ],
+    "answer": 1,
+    "explanation": "The NOT gate inverts the signal.\n If the input is high (1), the output must be low (0).\n Logic low is ideally 0 V, though in practical TTL it's typically < 0.8 V."
+  },
+  {
+    "question": "The primary disadvantage of the half-wave rectifier compared to the full-wave rectifier is:",
+    "options": [
+      "Lower PIV rating.",
+      "Higher DC output voltage.",
+      "Higher ripple factor.",
+      "Requires more diodes."
+    ],
+    "answer": 2,
+    "explanation": "The half-wave rectifier has a much higher ripple factor because it utilizes only one half of the AC input cycle, making the output less smooth than that of a full-wave rectifier."
+  },
+
+
+  {
+    "question": "An Extrinsic semiconductor at room temperature has an electrical conductivity that is primarily dependent on the:",
+    "options": [
+      "Intrinsic carrier concentration.",
+      "Concentration of the doping impurity.",
+      "Density of the crystal material.",
+      "Current flowing through it."
+    ],
+    "answer": 1,
+    "explanation": "In an extrinsic semiconductor, the added dopants create a vast excess of majority carriers (electrons or holes), making the conductivity heavily dependent on the doping concentration, largely overriding the intrinsic carriers generated by temperature."
+  },
+  {
+    "question": "A Light Dependent Resistor (LDR) uses semiconductor properties to change its resistance in response to:",
+    "options": [
+      "Temperature change.",
+      "Voltage change.",
+      "Magnetic field strength.",
+      "Light intensity."
+    ],
+    "answer": 3,
+    "explanation": "An LDR's resistance decreases as the intensity of light falling on its semiconductor material increases, due to the light generating more electron-hole pairs."
+  },
+
+
+  {
+    "question": "The ripple factor (γ) for a rectifier circuit is a measure of the:",
+    "options": [
+      "Rectification efficiency.",
+      "AC component in the DC output.",
+      "PIV of the diodes.",
+      "Ratio of DC to AC voltage."
+    ],
+    "answer": 1,
+    "explanation": "The ripple factor is defined as the ratio of the RMS value of the AC components of the output voltage to the DC (average) component of the output voltage.\n\n A lower ripple factor indicates a smoother DC output."
+  },
+  {
+    "question": "The doping concentration is highest in which region of the BJT?",
+    "options": [
+      "Base",
+      "Collector",
+
+      "Base-Collector Junction",
+      "Emitter"
+    ],
+    "answer": 3,
+    "explanation": "The Emitter is heavily doped to ensure a large number of majority carriers are available for injection into the Base."
+  },
+  {
+    "question": "The logic gate that can be used to check for **inequality** (different inputs) is the:",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "XOR gate",
+      "NOR gate"
+    ],
+    "answer": 2,
+    "explanation": "The XOR gate produces a HIGH output (1) only when its two inputs are different (0 and 1, or 1 and 0), acting as a basic inequality detector."
+  },
+
+  {
+    "question": "In a semiconductor, current can be attributed to the movement of both electrons and holes. This type of conduction is called:",
+    "options": [
+      "Unipolar conduction.",
+      "Bipolar conduction.",
+      "Metallic conduction.",
+      "Ionic conduction."
+    ],
+    "answer": 1,
+    "explanation": "Since both negatively charged electrons and positively charged holes contribute to the current flow, conduction in semiconductors is referred to as bipolar conduction."
+  },
+
+  {
+    "question": "Which logic gate's output is low (0) only when all its inputs are low (0)?",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NOR gate",
+      "NAND gate"
+    ],
+    "answer": 1,
+    "explanation": "The OR gate's truth table shows that the output is 0 only when A=0 OR B=0. \n\nIn all other cases (1, 0; 0, 1; 1, 1), the output is 1."
+  },
+  {
+    "question": "The Common-Collector (CC) configuration, also known as the Emitter-Follower, is mainly characterized by a voltage gain of:",
+    "options": [
+      "Very high (A_v >> 1)",
+      "Exactly zero (A_v = 0)",
+      "Slightly less than one (A_v ≈ 1)",
+      "Equal to the current gain (A_v = β)"
+    ],
+    "answer": 2,
+    "explanation": "The Emitter-Follower is a non-inverting amplifier with a voltage gain very close to 1, used primarily for impedance matching."
+  },
+
+
+  {
+    "question": "The most effective method to obtain extremely high gain from a transistor is to use a configuration known as:",
+    "options": [
+      "Common Base.",
+      "Single-stage Common Emitter.",
+
+      "Emitter Follower.",
+      "Cascaded Common Emitter stages."
+    ],
+    "answer": 3,
+    "explanation": "By connecting multiple Common Emitter amplifier stages in cascade (the output of one feeding the input of the next), the total gain becomes the product of the individual stage gains, yielding extremely high overall gain."
+  },
+  {
+    "question": "The primary function of the thin, lightly doped Base region of a BJT is to:",
+    "options": [
+      "Dissipate heat.",
+      "Control the flow of carriers from emitter to collector.",
+      "Provide high voltage output.",
+      "Prevent minority carrier flow."
+    ],
+    "answer": 1,
+    "explanation": "The Base is the control terminal.\n\n A small current (or voltage) in the Base controls a much larger current flow between the Emitter and Collector."
+  },
+  {
+    "question": "Which Boolean expression is equivalent to Y = A + A · B?",
+    "options": [
+      "Y = A + B",
+      "Y = B",
+      "Y = A",
+      "Y = 1"
+    ],
+    "answer": 2,
+    "explanation": "Using the Absorption Law: A + A · B =\n A · 1 + A · B =\n A · (1 + B). \n\nSince (1 + B) = 1, the expression simplifies to Y = A · 1 = A."
+  },
+  {
+    "question": "In a semiconductor, the electron concentration (n_e) is significantly greater than the hole concentration (n_h). This material is a(n):",
+    "options": [
+      "N-type semiconductor.",
+      "Intrinsic semiconductor.",
+      "P-type semiconductor.",
+
+      "Insulator."
+    ],
+    "answer": 0,
+    "explanation": "N-type semiconductors are doped to have an excess of electrons (majority carriers), making n_e > n_h."
+  },
+
+  {
+    "question": "Which type of logic gate is often used to implement a digital encoder or data selector?",
+    "options": [
+      "NOT gate",
+      "NAND gate",
+      "AND gate",
+      "OR gate"
+    ],
+    "answer": 2,
+    "explanation": "A multiplexer (data selector) or encoder uses a combination of AND gates to select and output a specific input signal based on the control lines (selection inputs)."
+  },
+
+
+  {
+    "question": "The process of using a transistor to convert a DC supply into an AC signal of a specific frequency is called:",
+    "options": [
+      "Modulation",
+      "Demodulation",
+      "Rectification",
+      "Oscillation"
+    ],
+    "answer": 3,
+    "explanation": "An oscillator circuit uses a transistor and a frequency-determining network (like an LC tank circuit) to generate a sustained AC output waveform from a DC input."
+  },
+  {
+    "question": "In the structure of a PNP transistor, the majority carriers are:",
+    "options": [
+      "Free electrons.",
+      "Holes.",
+      "Ions.",
+      "Both electrons and holes equally."
+    ],
+    "answer": 1,
+    "explanation": "In a PNP transistor, the Emitter and Collector are P-type, and the Base is N-type.\n\n The majority charge carriers injected from the P-type Emitter are holes."
+  },
+
+  {
+    "question": "The **voltage gain** of an amplifier is 200. The power gain (A_p) of the amplifier if the input and output impedances are equal is:",
+    "options": [
+      "200",
+      "400",
+      "20,000",
+      "40,000"
+    ],
+    "answer": 3,
+    "explanation": "Power gain A_p = (V_out/V_in)² × (R_in/R_out).\n\n If R_in = R_out, \nA_p = (V_out/V_in)² = (A_v)².\n A_p = 200² = 40,000."
+  },
+
+
+
+  {
+    "question": "When a P-N junction is forward-biased, the potential barrier:",
+    "options": [
+      "Increases.",
+      "Decreases.",
+      "Changes polarity.",
+      "Disappears completely."
+    ],
+    "answer": 1,
+    "explanation": "Forward bias applies an external voltage opposite to the built-in potential, effectively reducing the potential barrier and allowing current to flow."
+  },
+  {
+    "question": "The minimum number of NOR gates required to construct a simple AND gate is:",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 2,
+    "explanation": "To construct an AND gate using NOR gates, you use the De Morgan's Law for AND: A · B = (A' + B')' = NOR(NOT A, NOT B). This requires three NOR gates (one for NOT A, one for NOT B, and one for the final NOR operation)."
+  },
+
+  {
+    "question": "If a pentavalent dopant atom is placed in a silicon crystal, its extra electron is said to be in the:",
+    "options": [
+      "Acceptor level.",
+      "Donor level.",
+      "Valence band.",
+      "Conduction band."
+    ],
+    "answer": 1,
+    "explanation": "The extra electron from the pentavalent donor atom occupies an energy level (the donor level) just below the conduction band."
+  },
+  {
+    "question": "The current I_E (Emitter current) in a transistor is related to the Base current I_B and Collector current I_C by the formula:",
+    "options": [
+      "I_E = I_C - I_B",
+      "I_E = I_B + I_C",
+      "I_E = I_C / I_B",
+      "I_E = I_C · I_B"
+    ],
+    "answer": 1,
+    "explanation": "Kirchhoff's Current Law applied to the transistor states that the Emitter current (total input current) must equal the sum of the Base and Collector currents:\n\n I_E = I_B + I_C."
+  },
+
+  {
+    "question": "The maximum reverse voltage that a diode can withstand before breaking down is called the:",
+    "options": [
+      "Peak Inverse Voltage (PIV).",
+      "Forward voltage.",
+      "Knee voltage.",
+
+      "DC voltage."
+    ],
+    "answer": 0,
+    "explanation": "PIV (Peak Inverse Voltage) is the maximum voltage a diode can block when it is reverse-biased without breaking down and conducting current."
+  },
+
+  {
+    "question": "In the Common Emitter amplifier, the load is connected in series with the:",
+    "options": [
+      "Emitter.",
+      "Base.",
+      "Collector.",
+      "Gate."
+    ],
+    "answer": 2,
+    "explanation": "The load (R_L) is typically connected in the collector circuit.\n\n The output voltage is taken across the collector and emitter terminals."
+  },
+  {
+    "question": "When a P-N junction is formed, an electric field is created in the depletion region. The direction of this field is from:",
+    "options": [
+      "P-side to N-side.",
+      "N-side to P-side.",
+      "Parallel to the junction.",
+      "It is a zero field."
+    ],
+    "answer": 1,
+    "explanation": "The depletion region contains fixed positive ions on the N-side and fixed negative ions on the P-side.\n\n The electric field lines run from the positive ions (N-side) to the negative ions (P-side)."
+  },
+  {
+    "question": "The main component used in the construction of an Integrated Circuit (IC) is:",
+    "options": [
+      "A large vacuum tube.",
+      "A single piece of ceramic.",
+      "A single chip of semiconductor material.",
+      "A bundle of discrete resistors."
+    ],
+    "answer": 2,
+    "explanation": "An IC is a miniature electronic circuit fabricated on a small, thin chip of semiconductor material, usually silicon."
+  },
+
+
+
+
+
+
+  {
+    "question": "The total depletion region width is smallest when a P-N junction is:",
+    "options": [
+      "Forward biased.",
+      "Reverse biased.",
+
+      "Unbiased.",
+      "Operating at breakdown."
+    ],
+    "answer": 0,
+    "explanation": "Forward bias pushes majority carriers toward the junction, neutralizing the exposed ions and narrowing the depletion region."
+  },
+
+  {
+    "question": "What is the result of the Boolean operation (A + A) · B?",
+    "options": [
+      "A + B",
+      "A · B",
+      "0",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Using the Idempotent Law, A + A = A.\n\n Therefore, the expression simplifies to A · B."
+  },
+
+
+  {
+    "question": "The minimum number of XOR gates required to construct a simple two-input Half Adder circuit is:",
+    "options": [
+      "Zero.",
+      "One.",
+      "Two.",
+      "Three."
+    ],
+    "answer": 1,
+    "explanation": "A Half Adder requires one XOR gate for the Sum output (S = A ⊕ B) and one AND gate for the Carry output (C = A · B).\n Therefore, one XOR gate is required."
+  },
+  {
+    "question": "Which impurity is used to convert intrinsic silicon to extrinsic P-type silicon?",
+    "options": [
+      "Arsenic (Group V).",
+      "Antimony (Group V).",
+      "Boron (Group III).",
+      "Germanium (Group IV)."
+    ],
+    "answer": 2,
+    "explanation": "Boron is a trivalent (Group III) impurity, which is an acceptor, creating holes and thus P-type material."
+  },
+
+
+
+  {
+    "question": "In the process of doping, a trivalent impurity atom in a silicon lattice creates a hole. This impurity atom is called a(n):",
+    "options": [
+      "Donor.",
+      "Acceptor.",
+      "Tetravalent.",
+      "Pentavalent."
+    ],
+    "answer": 1,
+    "explanation": "A trivalent impurity (acceptor) accepts an electron from a neighboring silicon atom to complete its covalent bond, thereby creating a hole in the silicon lattice."
+  },
+
+
+
+  {
+    "question": "A half-wave rectified voltage V_dc is to be smoothed using a capacitor (C). For better smoothing (less ripple), the value of C should be:",
+    "options": [
+      "Smaller.",
+      "Larger.",
+      "Zero.",
+      "Independent of the ripple."
+    ],
+    "answer": 1,
+    "explanation": "A larger capacitor (C) stores more charge and discharges more slowly between the voltage peaks, which results in a smaller ripple voltage and a smoother DC output."
+  },
+  {
+    "question": "The Collector-Base junction of a BJT is kept reverse-biased during amplification to ensure that:",
+    "options": [
+      "The base current is maximized.",
+      "The input impedance is high.",
+      "Carriers are efficiently collected from the base.",
+      "The transistor operates in the cut-off region."
+    ],
+    "answer": 2,
+    "explanation": "The large reverse-bias voltage at the Collector-Base junction provides a strong electric field that quickly sweeps (collects) the carriers (electrons for NPN) that have diffused through the base."
+  },
+
+
+
+
+  {
+    "question": "Which type of transistor allows a very small voltage on the gate terminal to control a large current between the source and drain?",
+    "options": [
+      "BJT (Bipolar Junction Transistor).",
+      "FET (Field-Effect Transistor).",
+      "UJT (Unijunction Transistor).",
+      "Thermionic valve."
+    ],
+    "answer": 1,
+    "explanation": "FETs, including JFETs and MOSFETs, are voltage-controlled devices, where the gate voltage is used to control the source-to-drain current."
+  },
+
+
+  {
+    "question": "Which of the following Boolean expressions is equivalent to A · 0?",
+    "options": [
+      "A",
+      "1",
+      "0",
+      "A (Bar over A)"
+    ],
+    "answer": 2,
+    "explanation": "The Annihilation Law states that the ANDing of any variable with 0 always results in 0 (A · 0 = 0)."
+  },
+
+
+
+  {
+    "question": "The region of a BJT designed to have a moderate size and moderate doping concentration is the:",
+    "options": [
+      "Collector.",
+      "Base.",
+      "Emitter.",
+
+      "Gate."
+    ],
+    "answer": 0,
+    "explanation": "The Collector is typically the largest area (for heat dissipation) and is moderately doped to allow for the efficient collection of carriers without undue resistance."
+  },
+  {
+    "question": "Which of the following is an example of an acceptor impurity?",
+    "options": [
+      "Phosphorus (P)",
+      "Antimony (Sb)",
+      "Indium (In)",
+      "Arsenic (As)"
+    ],
+    "answer": 2,
+    "explanation": "Indium is a Group III element and is a trivalent impurity (acceptor) used for P-type doping."
+  },
+
+  {
+    "question": "The logic gate that has a low (0) output only when all its inputs are high (1) is the:",
+    "options": [
+      "AND gate",
+      "OR gate",
+
+      "NOR gate",
+      "NAND gate"
+    ],
+    "answer": 3,
+    "explanation": "The NAND gate (NOT-AND) is the inverse of the AND function.\n The AND output is 1 only when all inputs are 1. \nTherefore, the NAND output is 0 only when all inputs are 1."
+  },
+
+  {
+    "question": "If a photodiode is used to detect light, the resulting current is proportional to the:",
+    "options": [
+      "Wavelength of the light.",
+      "Temperature of the photodiode.",
+      "Intensity of the incident light.",
+      "Applied reverse voltage."
+    ],
+    "answer": 2,
+    "explanation": "The reverse current of a photodiode is directly proportional to the rate of electron-hole pair generation, which in turn is proportional to the intensity of the light falling on the junction."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "In a transistor, the input impedance is generally lowest in which configuration?",
+    "options": [
+      "Common Base (CB).",
+      "Common Emitter (CE).",
+      "Common Collector (CC).",
+      "Emitter Follower."
+    ],
+    "answer": 0,
+    "explanation": "The CB configuration's input (Base-Emitter) junction is forward-biased, giving it the lowest input impedance (typically tens of ohms) among the three configurations."
+  },
+
+
+  {
+    "question": "The doping level in the Base region of a BJT is typically:",
+    "options": [
+      "Very heavy.",
+
+      "Moderate.",
+
+      "Zero.",
+      "Very light."
+    ],
+    "answer": 3,
+    "explanation": "The Base is very lightly doped to minimize the number of majority carriers available for recombination with the injected Emitter carriers, maximizing current transfer."
+  },
+
+
+
+  {
+    "question": "The output of an OR gate with inputs A=1 and B=1 is:",
+    "options": [
+      "0",
+      "1",
+      "Indeterminate",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "For an OR gate, the output is high (1) if at least one input is high.\n\n Y = 1 + 1 = 1."
+  },
+  {
+    "question": "When a P-N junction is **reverse-biased**, the width of the depletion region:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Collapses"
+    ],
+    "answer": 0,
+    "explanation": "Reverse biasing pulls the majority carriers away from the junction, increasing the potential barrier and widening the depletion region."
+  },
+  {
+    "question": "The primary role of a diode in a power supply circuit is:",
+    "options": [
+      "Filtering",
+      "Amplification",
+      "Rectification",
+      "Inversion"
+    ],
+    "answer": 2,
+    "explanation": "Rectification is the process of converting AC into pulsating DC, which is the main function of a diode in a power supply."
+  },
+
+  {
+    "question": "In a P-type semiconductor, the Fermi level lies **closer** to the:",
+    "options": [
+      "Conduction band edge",
+      "Valence band edge",
+      "Center of the forbidden gap",
+      "Energy level of the donor impurity"
+    ],
+    "answer": 1,
+    "explanation": "Since holes are the majority carriers in P-type material, the probability of finding a hole is higher near the valence band, so the Fermi level shifts closer to the valence band."
+  },
+
+  {
+    "question": "Which of the following Boolean laws states that A + 0 = A?",
+    "options": [
+      "Commutative Law",
+      "Identity Law",
+      "Annihilation Law",
+      "Distributive Law"
+    ],
+    "answer": 1,
+    "explanation": "The Identity Law states that the ORing of a variable with 0 results in the variable itself (A + 0 = A), and the ANDing of a variable with 1 results in the variable itself (A · 1 = A)."
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "m2017_socialg11u5_melmeja",
+  "title": "Mathematics Grade 11 Practice Questions 2017",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Mathematics Grade 11 Practice Questions 2017 - 2 multiple choice questions. Ethiopian national exam preparation material.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2017",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg11u5_melmeja_1",
+      "examId": "m2017_socialg11u5_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Let $A(-1, 2)$ and $B(0, 5)$ be initial and terminal points of vector $vec{AB}$. What is the position vector of $vec{AB}$?",
+      "options": [
+        "$i + 3j$",
+        "$5j$",
+        "$-i - 3j$",
+        "$-i + 7j$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The position vector of a vector $vec{AB}$ with initial point $A(x_A, y_A)$ and terminal point $B(x_B, y_B)$ is found by subtracting the coordinates of the initial point from the terminal point:\n$$vec{AB} = (x_B - x_A)i + (y_B - y_A)j$$\nGiven $A(-1, 2)$ and $B(0, 5)$:\n$x$-component: $0 - (-1) = 0 + 1 = 1$\n$y$-component: $5 - 2 = 3$\n\nTherefore, the position vector is $1i + 3j$, or simply $mathbf{i} + 3mathbf{j}$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u5_melmeja_2",
+      "examId": "m2017_socialg11u5_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "If $\\textbf{u}=(1, -1)$ and $\\textbf{v}=(2, -4)$ are vectors, then $\\textbf{u} - \\textbf{v}$ is equal to:",
+      "options": [
+        "$(1, -3)$",
+        "$(-3, 5)$",
+        "$(3, -5)$",
+        "$(-1, 3)$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "To find the difference between two vectors, subtract the corresponding components:\\n$$\\textbf{u} - \\textbf{v} = (1, -1) - (2, -4) = (1-2, -1-(-4))$$ \\n$1-2 = -1$\\n$-1 - (-4) = -1 + 4 = 3$\\nTherefore, $\\textbf{u} - \\textbf{v} = (-1, 3)$.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "p2015_g10_merged_melmeja",
+  "title": "Physics Grade 10 Practice Questions 2015 (6 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Physics",
+  "description": "Combined 6 chapter files (P2015_G10U1.json, P2015_G10U2.json, P2015_G10U3.json, P2015_G10U4.json, P2015_G10U5.json, P2015_G10U6.json) into one exam. 9 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 9,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "ENTRANCE",
+    "2015",
+    "Grade 10",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_p2015_g10u1_melmeja_1",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "What is the acceleration due to gravity at an altitude equal to the radius of the Earth? (gE is the gravitational acceleration on the surface of the Earth)",
+      "options": [
+        "gE/4",
+        "gE/9",
+        "3gE",
+        "gE/4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The acceleration due to gravity at a height h above the Earth's surface is given by:\n\ngh = gE * (R / (R + h))²\n\nHere, h = R (radius of the Earth), so:\n\ngh = gE * (R / (R + R))² = gE * (R / 2R)² = gE * (1/2)² = gE / 4\n\nTherefore, the acceleration due to gravity at an altitude equal to the Earth's radius is gE/4.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_2",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following units is NOT a possible unit of electric field strength?",
+      "options": [
+        "Newton/Coulomb",
+        "Joule/Coulomb",
+        "Volt/meter",
+        "Joule/(Coulomb * meter)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Electric field strength (E) is defined as force per unit charge: E = F/q. \n\nIts SI unit is Newton per Coulomb (N/C).\n\n It can also be expressed as potential difference per unit distance: E = V/d, so Volt per meter (V/m) and Joule/(Coulomb * meter) are valid. \n\nJoule/Coulomb alone is just Volt, which is not a unit of electric field strength. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_3",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Four capacitors are connected in a capacitor network as shown in the figure below. The equivalent capacitance between terminals a and b in F is",
+      "imageUrl": "images/P2015_7.png",
+      "diagramUrl": "images/P2015_7.png",
+      "options": [
+        "3/4",
+        "1",
+        "1/4",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Review this question for further understanding.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_4",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "A 64 V battery is connected to a series combination of 3 kΩ  bulb and 4kΩ electric iron. If the current in the circuit is 8mA, what is the internal resistance of the battery?",
+      "options": [
+        "1kΩ",
+        "7kΩ",
+        "8kΩ",
+        "15kΩ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total resistance in the circuit is the sum of the external resistances and the internal resistance of the battery: Rtotal = Rbulb + Riron + r.\n\nGiven:\\nRbulb = 3 kΩ, Riron = 4 kΩ, I = 8 mA = 0.008 A, V = 64 V\n\nTotal resistance using Ohm's law: Rtotal = V / I = 64 / 0.008 = 8000 Ω = 8 kΩ\n\nThe sum of external resistances: 3 kΩ + 4 kΩ = 7 kΩ\n\nInternal resistance r = Rtotal - (Rbulb + Riron) = 8 kΩ - 7 kΩ = 1 kΩ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_5",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements  does NOT describes the magnetic nature of a material? ",
+      "options": [
+        "There is no a single magnetic North or magnetic South Pole.",
+        "Magnetic dipoles of a material aligned parallel when the magnetic material is placed in external magnetic field",
+        "Magnetic dipoles of a material aligned parallel when the magnetic material is heated or hammered.",
+        "Hammered molecules (dipoles) are oriented randomly when a material loses its magnetism."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic nature of a material arises from the alignment of its atomic magnetic dipoles.\n\n Dipoles align parallel when exposed to an external magnetic field.\n\n Heating or hammering generally disrupts this alignment, causing loss of magnetism.\n\n Therefore, the statement about alignment due to heating or hammering is incorrect.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_6",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A solenoid with 5000 turns and length 1m carries 15A of current. If no iron core is inserted in the solenoid, what is the magnetic field strength at the center of the solenoid?",
+      "options": [
+        "20π * 10⁻² T",
+        "6π * 10⁻² T",
+        "3π * 10⁻² T",
+        "4π * 10⁻² T"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic field inside a long solenoid is given by: B = μ₀ * (N / L) * I\n\nWhere:- μ₀ = 4π × 10⁻⁷ T·m/A (permeability of free space)\n\n- N = number of turns = 5000\n\n- L = length of solenoid = 1 m\n\n- I = current = 15 A\n\nB = (4π × 10⁻⁷) * (5000 / 1) * 15 = 4π × 10⁻⁷ * 75,000 = 3π × 10⁻² T\n\nThus, the magnetic field at the center of the solenoid is 3π × 10⁻² T.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_7",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements is correct about conduction in semiconductors? ",
+      "options": [
+        "N-type semiconductor is made from half-filled shell atoms doped with acceptor atoms.",
+        "P-type semiconductors have holes as minority charge carriers in the crystal lattice of the material.",
+        "Doping charge carriers in N-type semiconductors are electrons due to doping charge carriers.",
+        "When atoms with half-filled electrons are doped with atoms of five valance electrons, the majority charge carriers are holes."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "N-type semiconductors are created by doping a tetravalent material (like Silicon or Germanium) with pentavalent (donor) atoms, which introduce extra electrons.\n\n These electrons are the majority charge carriers, significantly increasing conductivity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_8",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Light ray is allowed to enter from air medium (n_air =1 ) into water medium of refractive index (n_w= 4/3) at an angle of 30° with the normal to air-water interface (boundary). Which one of the following is correct about the ray of light?",
+      "options": [
+        "The sine of the angle of refraction of the light ray in water is equal to 0.5.",
+        "The sine of the angle of refraction of the light ray in water is equal to 0.38",
+        "The speed of the light ray in water is 1.33 times that of its speed in air.",
+        "The speed of the light ray in water is 0.9 times that of its speed in air."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using Snell's law: n1 * sin(θ1) = n2 * sin(θ2)\n\nHere, n1 = 1 (air), θ1 = 30°, n2 = 4/3 (water). Let θ2 be the angle of refraction in water.\n\nsin(θ2) = n1/n2 * sin(θ1) = (1) / (4/3) * sin(30°) = (3/4) * 0.5 = 0.375 ≈ 0.38\n\nTherefore, the sine of the angle of refraction in water is approximately 0.38.\n\nThe speed of light in water is slower than in air by a factor of n_w, so it is not greater than the speed in air.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g10u1_melmeja_9",
+      "examId": "p2015_g10_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is NOT correct about power of a lens?",
+      "options": [
+        "The power of a lens decreases as the focal length of the lens increases.",
+        "The larger the focal length of the lens the greater is the power of the lens.",
+        "The power of a lens is the measure of the strength of the lens.",
+        "Optician gives the name diopters for the unit of power of a lens."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The power of a lens (P) is defined as P = 100 / f (in cm) or P = 1 / f (in meters).\n\n Hence, the power **decreases** as the focal length increases. Therefore, the statement 'The larger the focal length of the lens the greater is the power of the lens' is NOT correct.",
+      "topic": "Physics"
+    }
+  ]
+}

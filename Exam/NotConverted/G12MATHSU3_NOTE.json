@@ -1,0 +1,221 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 3: STATISTICS",
+"notes": "✓ Statistics → the study of collecting, organizing, presenting, analyzing and interpreting data.\n\n◆ Dispersion → the extent to which data values are spread or scattered.\n◆ Absolute dispersion → measures variation in the original units of the data.\n◆ Relative dispersion → measures variation without units and is useful for comparing different data sets.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1 MEASURES OF ABSOLUTE DISPERSION",
+"notes": "✓ Measures of absolute dispersion describe how widely observations are spread.\n\n◆ Range\n◆ Inter-quartile range\n◆ Mean deviation\n◆ Quartile deviation\n◆ Variance\n◆ Standard deviation\n\n→ Absolute measures have the same units as the original data, except variance, whose units are squared.",
+"image": null
+},
+{
+"type": "note",
+"title": "RANGE",
+"notes": "✓ Range → the difference between the largest and smallest values in a data set.\n\nFormula:\nR = L − S\n\nWhere:\n◆ L → largest value\n◆ S → smallest value\n\n→ A larger range indicates greater spread.\n\nLimitation → range depends only on the two extreme values and is strongly affected by unusually large or small observations.",
+"image": null
+},
+{
+"type": "note",
+"title": "RANGE FOR GROUPED DATA",
+"notes": "✓ For grouped frequency distributions, the range is obtained from the extreme class boundaries.\n\nRange = upper boundary of the highest class − lower boundary of the lowest class.\n\n→ Range is simple to calculate but gives limited information because it ignores most observations.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1.1 INTER-QUARTILE RANGE",
+"notes": "✓ Inter-quartile range (IQR) → the difference between the third quartile and the first quartile.\n\nIQR = Q₃ − Q₁\n\n◆ Q₁ → lower quartile.\n◆ Q₃ → upper quartile.\n\n→ IQR measures the spread of the middle 50% of the data.\n\nAdvantage → less affected by extreme values than the range.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUARTILES",
+"notes": "✓ Quartiles divide an ordered data set into four parts.\n\n◆ Q₁ → first quartile; about 25% of observations lie below it.\n◆ Q₂ → second quartile; the median.\n◆ Q₃ → third quartile; about 75% of observations lie below it.\n\n→ For ungrouped data, arrange observations in ascending order before locating the quartiles.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1.2 MEAN DEVIATION",
+"notes": "✓ Mean deviation (MD) → the average of the absolute deviations of observations from a central value.\n\nIt can be calculated about the mean, median or mode.\n\n→ Absolute deviations are used, so negative signs are ignored.\n\nMean deviation about the mean:\nMD(x̄) = Σ|xᵢ − x̄| / n\n\nWhere x̄ is the mean and n is the number of observations.",
+"image": null
+},
+{
+"type": "note",
+"title": "MEAN DEVIATION ABOUT MEDIAN & MODE",
+"notes": "About the median:\nMD(Md) = Σ|xᵢ − Md| / n\n\nAbout the mode:\nMD(Mode) = Σ|xᵢ − Mode| / n\n\n→ For frequency distributions, deviations are multiplied by their corresponding frequencies.\n\nGeneral frequency form:\nMD = Σfᵢ|xᵢ − A| / Σfᵢ\n\nA may be the mean, median or mode.",
+"image": null
+},
+{
+"type": "note",
+"title": "MEAN DEVIATION FOR GROUPED DATA",
+"notes": "✓ For continuous grouped data, use the class midpoint mᵢ in place of each individual observation.\n\nAbout the mean:\nMD(x̄) = Σfᵢ|mᵢ − x̄| / Σfᵢ\n\nAbout the median:\nMD(Md) = Σfᵢ|mᵢ − Md| / Σfᵢ\n\nAbout the mode:\nMD(Mode) = Σfᵢ|mᵢ − Mode| / Σfᵢ\n\n◆ mᵢ → class mark/midpoint.",
+"image": null
+},
+{
+"type": "note",
+"title": "ADVANTAGES & LIMITATIONS OF MEAN DEVIATION",
+"notes": "Advantages:\n◆ Uses all observations.\n◆ Easy to understand.\n◆ Less affected by extreme values than some other measures.\n\nLimitations:\n◆ Absolute values remove algebraic signs.\n◆ It is not as useful for advanced mathematical treatment as variance and standard deviation.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUARTILE DEVIATION",
+"notes": "✓ Quartile deviation (QD) → half of the inter-quartile range.\n\nQD = (Q₃ − Q₁) / 2\n\nIt is also called the semi-interquartile range.\n\n→ It measures the spread of the middle half of the observations.\n\n◆ Smaller QD → values are more concentrated around the central part of the distribution.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUARTILE DEVIATION FOR GROUPED DATA",
+"notes": "✓ For grouped data, quartiles are obtained using the quartile-class formula.\n\nQᵢ = L + [(iN/4 − F)/f]h,  i = 1, 2, 3\n\nWhere:\n◆ L → lower boundary of the quartile class\n◆ N → total frequency\n◆ F → cumulative frequency before the quartile class\n◆ f → frequency of the quartile class\n◆ h → class width\n\nThen:\nQD = (Q₃ − Q₁)/2",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1.3 VARIANCE",
+"notes": "✓ Variance → the average of the squared deviations of observations from the mean.\n\nFor ungrouped data:\nσ² = Σ(xᵢ − x̄)² / n\n\nSteps:\n1. Find the mean.\n2. Find each deviation from the mean.\n3. Square each deviation.\n4. Add the squared deviations.\n5. Divide by n for the population form used in the basic treatment.\n\n→ Variance is always non-negative.",
+"image": null
+},
+{
+"type": "note",
+"title": "VARIANCE FOR FREQUENCY DATA",
+"notes": "For ungrouped frequency distributions:\n\nσ² = Σfᵢ(xᵢ − x̄)² / Σfᵢ\n\nFor grouped data, use the class midpoint mᵢ:\n\nσ² = Σfᵢ(mᵢ − x̄)² / Σfᵢ\n\n→ The frequency is used as a weight for each squared deviation.",
+"image": null
+},
+{
+"type": "note",
+"title": "STANDARD DEVIATION",
+"notes": "✓ Standard deviation → the positive square root of variance.\n\nσ = √σ²\n\n◆ Small standard deviation → observations are closely clustered around the mean.\n◆ Large standard deviation → observations are widely spread around the mean.\n\n→ Standard deviation has the same units as the original data.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2 RELATIVE DISPERSIONS",
+"notes": "✓ Relative dispersion → measures variability relative to a suitable central or positional value.\n\nIt is unitless and useful when comparing two or more data sets with different units or different magnitudes.\n\nMain measures:\n◆ Coefficient of Range (CR)\n◆ Coefficient of Quartile Deviation (CQD)\n◆ Coefficient of Mean Deviation (CMD)\n◆ Coefficient of Variation (CV)",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2.1 COEFFICIENT OF RANGE",
+"notes": "✓ Coefficient of range → relative measure based on the largest and smallest values.\n\nCR = (L − S)/(L + S)\n\nWhere:\n◆ L → largest value\n◆ S → smallest value\n\n→ Unlike the range, CR has no units and can be used to compare the variability of data sets with different scales.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2.2 COEFFICIENT OF QUARTILE DEVIATION",
+"notes": "✓ Coefficient of quartile deviation → relative measure based on Q₁ and Q₃.\n\nCQD = (Q₃ − Q₁)/(Q₃ + Q₁)\n\n◆ Smaller CQD → less relative variation.\n◆ Larger CQD → greater relative variation.\n\n→ It is useful when extreme values may distort measures based on the range.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2.3 COEFFICIENT OF MEAN DEVIATION",
+"notes": "✓ Coefficient of mean deviation → mean deviation expressed relative to the chosen central value.\n\nAbout the mean:\nCMD = MD(x̄) / x̄\n\nAbout the median:\nCMD = MD(Md) / Md\n\nAbout the mode:\nCMD = MD(Mode) / Mode\n\n→ It allows the mean deviation of different data sets to be compared.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2.4 COEFFICIENT OF VARIATION",
+"notes": "✓ Coefficient of variation (CV) → relative measure based on standard deviation and mean.\n\nCV = (σ / x̄) × 100%\n\n◆ Smaller CV → greater consistency / less relative variation.\n◆ Larger CV → greater variability / less consistency.\n\n→ CV is especially useful for comparing the variation or performance of two data sets.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3 USE OF FREQUENCY CURVES",
+"notes": "✓ Frequency curve → a smooth graphical representation of the distribution of data.\n\n→ The shape of a frequency curve helps describe the distribution.\n\nThe relationship among mean, median and mode helps identify symmetry and skewness.\n\nMain ideas → symmetrical distribution, positive skewness and negative skewness.",
+"image": null
+},
+{
+"type": "note",
+"title": "SYMMETRICAL DISTRIBUTION",
+"notes": "✓ A distribution is perfectly symmetrical when:\n\nMean = Median = Mode\n\n→ In a symmetrical distribution, the two sides of the frequency curve have the same general shape.\n\nPearson's coefficient of skewness = 0 for a symmetrical distribution.",
+"image": null
+},
+{
+"type": "note",
+"title": "POSITIVE & NEGATIVE SKEWNESS",
+"notes": "◆ Positive skewness → distribution is skewed to the right.\n\nTypical relationship:\nMean > Median > Mode\n\n◆ Negative skewness → distribution is skewed to the left.\n\nTypical relationship:\nMean < Median < Mode\n\nSymmetrical:\nMean = Median = Mode",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3.2 PEARSON'S COEFFICIENT OF SKEWNESS",
+"notes": "✓ Pearson's coefficient of skewness measures skewness using the mean, median and standard deviation.\n\nFormula:\nSk = 3(Mean − Median) / Standard Deviation\n\nInterpretation:\n◆ Sk = 0 → symmetrical.\n◆ Sk > 0 → positively/right skewed.\n◆ Sk < 0 → negatively/left skewed.\n\n→ The sign shows the direction of skewness.",
+"image": null
+},
+{
+"type": "note",
+"title": "BOWLEY'S COEFFICIENT OF SKEWNESS",
+"notes": "✓ Bowley's coefficient of skewness uses quartiles and the median.\n\nFormula:\nSk = (Q₃ + Q₁ − 2Md) / (Q₃ − Q₁)\n\nWhere:\n◆ Q₁ → first quartile\n◆ Q₃ → third quartile\n◆ Md → median\n\nInterpretation:\n◆ Sk = 0 → symmetrical.\n◆ Sk > 0 → positively skewed.\n◆ Sk < 0 → negatively skewed.",
+"image": null
+},
+{
+"type": "note",
+"title": "SAMPLING",
+"notes": "✓ Population → the complete collection of individuals or items under consideration.\n\n◆ Sample → a limited number of items selected from a population for study.\n◆ Sampling → selecting a sample from a population so that conclusions can be drawn about the population.\n\n→ A good sample should represent the population and should avoid bias.",
+"image": null
+},
+{
+"type": "note",
+"title": "PRINCIPLES OF GOOD SAMPLING",
+"notes": "◆ Sample size → should be adequate to represent the population.\n◆ Homogeneous population → may require a smaller sample.\n◆ Heterogeneous population → may require a larger and appropriately structured sample.\n◆ Resources → available time, money and personnel affect sample size.\n◆ Independence → selection should provide appropriate opportunity for population members to be included.\n\n✓ Biased sampling can lead to wrong or misleading conclusions.",
+"image": null
+},
+{
+"type": "note",
+"title": "TYPES OF SAMPLING",
+"notes": "✓ Sampling techniques are broadly grouped into:\n\n1. Random / probability sampling → selection involves randomization.\n\n2. Non-random / non-probability sampling → selection does not give population members the same random selection process.\n\nThe major sampling techniques include:\n◆ Simple random sampling\n◆ Systematic sampling\n◆ Stratified sampling\n◆ Cluster sampling\n◆ Multistage sampling",
+"image": null
+},
+{
+"type": "note",
+"title": "SIMPLE RANDOM SAMPLING",
+"notes": "✓ Simple random sampling → every individual in the population has an equal chance of being selected.\n\n◆ Lottery method → names or identification numbers are placed on identical slips and selected randomly.\n◆ Random-number method → random numbers are used to select members.\n\n→ Advantages → simple, easy to understand and reduces selection bias when properly applied.",
+"image": null
+},
+{
+"type": "note",
+"title": "SYSTEMATIC SAMPLING",
+"notes": "✓ Systematic sampling → selecting members at a fixed interval from an ordered population.\n\nSampling interval:\nk = N / n\n\nWhere:\n◆ N → population size\n◆ n → sample size\n\nChoose a starting number randomly from the first k members.\nThen select every kth member.\n\nSample positions can be represented by:\nSₙ = S₁ + (n − 1)k",
+"image": null
+},
+{
+"type": "note",
+"title": "STRATIFIED SAMPLING",
+"notes": "✓ Stratified sampling → dividing a population into homogeneous groups called strata and selecting a sample from each stratum.\n\nExamples of strata → age groups, academic streams or other identifiable categories.\n\nAdvantages:\n◆ More representative sample.\n◆ Greater precision.\n◆ Useful when the population contains identifiable groups.\n\n→ Poor stratification can produce biased results.",
+"image": null
+},
+{
+"type": "note",
+"title": "CLUSTER SAMPLING",
+"notes": "✓ Cluster sampling → dividing the population into subgroups called clusters and randomly selecting entire clusters.\n\nExample → villages, districts, schools or other naturally occurring groups.\n\nAdvantages:\n◆ Requires fewer resources.\n◆ More feasible for large or geographically dispersed populations.\n\nLimitations:\n◆ Can produce biased samples.\n◆ Sampling error may be high.",
+"image": null
+},
+{
+"type": "note",
+"title": "MULTISTAGE SAMPLING",
+"notes": "✓ Multistage sampling → a more complex form of cluster sampling in which smaller groups are successively selected from larger groups.\n\nGeneral steps:\n1. Define the first sampling frame and select primary groups.\n2. Select smaller groups from the chosen groups.\n3. Continue to smaller groups if necessary.\n4. Select the final sample using an appropriate probability method.\n\n→ Useful for very large and geographically dispersed populations.",
+"image": null
+},
+{
+"type": "note",
+"title": "MULTISTAGE SAMPLING: ADVANTAGES & LIMITATIONS",
+"notes": "Advantages:\n◆ Practical for large populations.\n◆ Reduces data-collection cost and time.\n◆ Flexible because several stages can be used.\n◆ Different sampling methods can be used at different stages.\n\nLimitations:\n◆ Sampling design can introduce subjectivity.\n◆ Requires group-level sampling information.\n◆ May be less accurate than a simple random sample of the same size.",
+"image": null
+},
+
+{
+"type": "note",
+"title": " UNIT 3 KEY FORMULAS",
+"notes": "✓ Range:\nR = L − S\n\n✓ Inter-quartile range:\nIQR = Q₃ − Q₁\n\n✓ Quartile deviation:\nQD = (Q₃ − Q₁)/2\n\n✓ Mean deviation about mean:\nMD = Σ|xᵢ − x̄|/n\n\n✓ Frequency mean deviation:\nMD = Σfᵢ|xᵢ − A|/Σfᵢ\n\n✓ Variance:\nσ² = Σ(xᵢ − x̄)²/n\n\n✓ Frequency variance:\nσ² = Σfᵢ(xᵢ − x̄)²/Σfᵢ\n\n✓ Standard deviation:\nσ = √σ²\n\n✓ Coefficient of range:\nCR = (L − S)/(L + S)\n\n✓ Coefficient of quartile deviation:\nCQD = (Q₃ − Q₁)/(Q₃ + Q₁)\n\n✓ Coefficient of variation:\nCV = (σ/x̄) × 100%\n\n✓ Pearson's skewness:\nSk = 3(Mean − Median)/SD\n\n✓ Bowley's skewness:\nSk = (Q₃ + Q₁ − 2Median)/(Q₃ − Q₁)\n\n✓ Systematic sampling interval:\nk = N/n",
+"image": null
+},
+{
+"type": "note",
+"title": " QUICK EXAM REMINDER",
+"notes": "◆ Range → uses only highest and lowest values.\n\n◆ IQR → spread of the middle 50%.\n\n◆ Mean deviation → average absolute distance from a central value.\n\n◆ Variance → average squared deviation.\n\n◆ Standard deviation → square root of variance.\n\n→ Relative dispersion → useful for comparing data sets.\n\n→ CV → higher CV means greater relative variability.\n\n◆ Mean = Median = Mode → symmetrical.\n\n◆ Mean > Median > Mode → positively skewed.\n\n◆ Mean < Median < Mode → negatively skewed.\n\n◆ Simple random → equal chance.\n\n◆ Systematic → every kth member.\n\n◆ Stratified → sample from every stratum.\n\n◆ Cluster → select whole clusters.\n\n◆ Multistage → selection through several stages."
+,
+"image": null
+}
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "An electric dipole consists of a negative charge -q placed at a point with x and y coordinates (-2, -2) and a positive charge +q at (2, 2). The dipole is placed in a uniform electric field E directed in the positive x direction. If the dipole axis makes an angle θ with the field, which of the following is true about the dipole?",
+    "options": [
+      "The field rotates the dipole in the direction of decreasing the angle θ, until the dipole becomes parallel to the field.",
+      "The field rotates it in the direction of increasing the angle θ, until the dipole is perpendicular to the field.",
+      "It is in both translational and rotational equilibrium.",
+      "It travels in the direction of the electric field."
+    ],
+    "answer": 0,
+    "explanation": "A dipole in a uniform electric field experiences a torque τ = p × E, where p is the dipole moment.\n\n The torque acts to rotate the dipole such that the dipole moment aligns with the field (θ decreases).\n\n Once parallel, the torque becomes zero."
+  },
+  {
+    "question": "A parallel plate capacitor is charged with a battery. The battery is then disconnected, and a dielectric material is inserted between the plates of the capacitor. Which of the following is correct about the effect of the dielectric?",
+    "options": [
+      "The potential difference between the plates remains the same and the charge increases.",
+      "The charge on the plates decreases and the energy stored decreases.",
+      "The electric field between the plates and the energy stored decrease.",
+      "The capacitance remains the same and the electric field between the plates increases."
+    ],
+    "answer": 2,
+    "explanation": "When the battery is disconnected, the charge on the capacitor remains constant.\n\n Inserting a dielectric increases the capacitance (C → κC), so the voltage V = Q/C decreases.\n\n As a result, the electric field E = V/d decreases and the energy stored U = ½ Q²/C also decreases."
+  },
+
+  {
+    "question": "The electric potential at a distance of 2cm from a -1.6 * 10⁻⁹ C point charge is ______.",
+    "options": [
+      "-14.4 V",
+      "720 V ",
+      "4.4 V",
+      "-720 V"
+    ],
+    "answer": 3,
+    "explanation": "The electric potential due to a point charge is given by V = kQ / r,\n\n where k = 9 × 10⁹ N·m²/C², Q = -1.6 × 10⁻⁹ C, and r = 0.02 m.\n\nV = (9 × 10⁹ × -1.6 × 10⁻⁹) / 0.02 = -720 V.\n\nSince the charge is negative, the potential is also negative."
+  }
+]

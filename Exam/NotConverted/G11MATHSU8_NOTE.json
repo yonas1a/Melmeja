@@ -1,0 +1,110 @@
+[
+  {
+    "type": "note",
+    "title": "UNIT 8: PROBABILITY",
+    "notes": "✓ Probability → a measure of how likely an event is to occur.\n\n✓ Probability is always between 0 and 1:\n◆ P(E) = 0 → impossible\n◆ 0 < P(E) < 1 → possible\n◆ P(E) = 1 → certain\n\n✓ For equally likely outcomes:\nP(E) = Number of favorable outcomes ÷ Total number of possible outcomes.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "RANDOM EXPERIMENTS & OUTCOMES",
+    "notes": "✓ Random experiment → an experiment whose exact outcome cannot be predicted with certainty before it is performed.\n\n◆ Examples → tossing a coin, rolling a die, or selecting a card.\n\n✓ Outcome → a possible result of a random experiment.\n\n✓ Sample space (S) → the set of all possible outcomes.\n\nExample:\n◆ Coin toss → S = {H, T}\n◆ Die roll → S = {1, 2, 3, 4, 5, 6}.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "EVENTS",
+    "notes": "✓ Event → a collection of one or more outcomes from a sample space.\n\nExample: When a die is rolled:\nA = getting an even number = {2, 4, 6}.\n\n✓ Simple event → contains only one outcome.\nExample → getting 4.\n\n✓ Compound event → contains two or more outcomes.\nExample → getting an even number.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TYPES OF EVENTS",
+    "notes": "◆ Simple event → has exactly one outcome.\nExample → rolling a 5.\n\n◆ Compound event → has more than one outcome.\nExample → rolling an even number.\n\n◆ Certain event → must occur; P(E) = 1.\nExample → rolling a number less than 7 on a standard die.\n\n◆ Impossible event → cannot occur; P(E) = 0.\nExample → rolling 8 on a standard die.\n\n◆ Mutually exclusive events → cannot occur at the same time.\nExample → getting an odd number and an even number in one die roll.\n\n◆ Exhaustive events → a group of events that together contain all possible outcomes.\n\n◆ Complementary events → an event and its complement; exactly one occurs.\nExample → getting a 6 and not getting a 6.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PROBABILITY OF AN EVENT",
+    "notes": "✓ If all outcomes are equally likely:\n\nP(A) = n(A) ÷ n(S)\n\n✓ Where:\n◆ P(A) → probability of event A\n◆ n(A) → number of favorable outcomes\n◆ n(S) → total number of outcomes\n\nExample:\nA die is rolled. Find the probability of getting an even number.\n\nFavorable outcomes = {2,4,6} = 3\nTotal outcomes = 6\nP(A) = 3/6 = 1/2.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "COMPLEMENT OF AN EVENT",
+    "notes": "✓ Complement of A (A′) → the event that A does not occur.\n\n✓ Formula:\nP(A′) = 1 − P(A)\n\nTherefore:\nP(A) + P(A′) = 1\n\nExample:\nIf P(rain) = 0.3,\nP(no rain) = 1 − 0.3 = 0.7.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "FUNDAMENTAL PRINCIPLE OF COUNTING",
+    "notes": "✓ If one task can be completed in m ways and another task can be completed in n ways, then both tasks can be completed in:\n\nm × n ways.\n\n✓ General rule:\nTotal ways = n₁ × n₂ × n₃ × ...\n\nExample:\nThere are 3 shirts and 2 trousers.\nNumber of outfits = 3 × 2 = 6.\n\n✓ Use multiplication when choices occur in stages.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "FACTORIAL",
+    "notes": "✓ Factorial of a positive integer n is:\n\nn! = n(n−1)(n−2)...3×2×1\n\n✓ Special case:\n0! = 1\n\nExamples:\n5! = 5×4×3×2×1 = 120\n4! = 24\n3! = 6\n\n✓ Factorials are important in permutations and combinations.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PERMUTATION",
+    "notes": "✓ Permutation → an arrangement of objects where ORDER MATTERS.\n\n✓ Formula:\nnPr = n! ÷ (n−r)!\n\nExample:\nArrange 3 students selected from 5 students:\n5P3 = 5! ÷ 2! = 60.\n\n✓ Key idea → permutation = arrangement and order matters.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PERMUTATION OF ALL OBJECTS",
+    "notes": "✓ When all n distinct objects are arranged in a row:\n\nNumber of arrangements = n!\n\nExample:\n4 students can be arranged in:\n4! = 4×3×2×1 = 24 ways.\n\n✓ If changing the order creates a different arrangement, permutation is used.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "CIRCULAR PERMUTATION",
+    "notes": "✓ Circular permutation → arranging objects around a circle.\n\n✓ For n distinct objects arranged around a circle:\nNumber of arrangements = (n−1)!\n\nExample:\n4 people sitting around a round table:\n(4−1)! = 3! = 6 arrangements.\n\nIn a circle, rotations of the same arrangement are considered identical.\n\n◆ Linear arrangement → n!\n◆ Circular arrangement → (n−1)!.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "COMBINATION",
+    "notes": "✓ Combination → selecting objects where ORDER DOES NOT MATTER.\n\n✓ Formula:\nnCr = n! ÷ [r!(n−r)!]\n\nExample:\nSelect 2 students from 5 students:\n5C2 = 5! ÷ (2!×3!) = 10.\n\n✓ Key idea → combination = selection; order does not matter.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PERMUTATION vs COMBINATION",
+    "notes": "✓ Permutation → order matters.\nExample → awarding 1st, 2nd and 3rd places.\n\n✓ Combination → order does not matter.\nExample → selecting 3 students for a team.\n\n✓ Quick rule:\n◆ Arrangement/order → nPr\n◆ Selection/group → nCr\n\n✓ Relationship:\nnPr = nCr × r!",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "BINOMIAL THEOREM",
+    "notes": "✓ Binomial theorem → a method for expanding a binomial raised to a positive integer power.\n\n✓ Formula:\n(a+b)ⁿ = Σ[nCr × aⁿ⁻ʳ × bʳ], where r = 0 to n.\n\nExpanded form:\n(a+b)ⁿ = nC0aⁿ + nC1aⁿ⁻¹b + nC2aⁿ⁻²b² + ... + nCnbⁿ.\n\n✓ The coefficients are obtained from combinations or Pascal's triangle.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "BINOMIAL THEOREM EXAMPLE",
+    "notes": "Example: Expand (x + 2)³.\n\nUsing:\n(a+b)³ = a³ + 3a²b + 3ab² + b³\n\nTherefore:\n(x+2)³ = x³ + 6x² + 12x + 8.\n\n✓ Pascal's triangle gives the coefficients:\n1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "ADDITION RULE OF PROBABILITY",
+    "notes": "✓ For two events A and B:\n\nP(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n\n✓ Where:\n◆ A ∪ B → A or B occurs\n◆ A ∩ B → both A and B occur\n\n✓ If A and B are mutually exclusive:\nP(A ∩ B) = 0\n\nTherefore:\nP(A ∪ B) = P(A) + P(B).",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "PROBABILITY USING COUNTING",
+    "notes": "✓ Counting techniques can be used to calculate probability.\n\n✓ Steps:\n◆ Find the total number of possible outcomes.\n◆ Find the number of favorable outcomes.\n◆ Use P(A) = favorable outcomes ÷ total outcomes.\n\nExample:\nFrom 5 students, 2 are selected.\nTotal selections = 5C2 = 10.\nIf one particular pair is required, favorable selections = 1.\n\nP(A) = 1/10.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "UNIT 8 QUICK FORMULA SUMMARY",
+    "notes": "✓ Probability:\nP(A) = n(A)/n(S)\n\n✓ Complement:\nP(A′) = 1 − P(A)\n\n✓ Counting principle:\nTotal ways = n₁ × n₂ × n₃ × ...\n\n✓ Factorial:\nn! = n(n−1)...2×1\n0! = 1\n\n✓ Permutation:\nnPr = n!/(n−r)!\n\n✓ Circular permutation:\n(n−1)!\n\n✓ Combination:\nnCr = n!/[r!(n−r)!]\n\n✓ Addition rule:\nP(A∪B) = P(A)+P(B)−P(A∩B)\n\n✓ Binomial theorem:\n(a+b)ⁿ = Σ[nCr aⁿ⁻ʳbʳ].",
+    "image": null
+  }
+]

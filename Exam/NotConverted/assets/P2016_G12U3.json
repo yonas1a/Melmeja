@@ -1,0 +1,36 @@
+[
+{
+  "question": "60. A substance with a mass of $2 \\text{ kg}$ has a volume of $2.5 \\times 10^{-3} \\text{ m}^3$. What is the relative density of the substance?",
+  "options": [
+    "1.25",
+    "80",
+    "0.8",
+    "1.0"
+  ],
+  "answer": 2,
+  "explanation": "Relative density ($RD$) is the ratio of the density of the substance ($\\rho_{sub}$) to the density of water ($\\rho_{water} = 1000 \\text{ kg/m}^3$).\n\n1.  **Calculate the Density of the Substance ($\\rho_{sub}$):**\n$$\\rho_{sub} = \\frac{\\text{Mass}}{\\text{Volume}} = \\frac{2 \\text{ kg}}{2.5 \\times 10^{-3} \\text{ m}^3} = 800 \\text{ kg/m}^3$$\n\n2.  **Calculate Relative Density:**\n$$RD = \\frac{\\rho_{sub}}{\\rho_{water}} = \\frac{800 \\text{ kg/m}^3}{1000 \\text{ kg/m}^3} = 0.8$$"
+},
+{
+"question": "11. The gauge pressure at a point in a fluid at rest is defined as",
+"options": [
+"the sum of absolute pressure and atmospheric pressure.",
+"the actual pressure at a given point relative to absolute pressure.",
+"the atmospheric pressure difference between sea level and the local area at which the fluid exists.",
+"the pressure difference between the absolute pressure and the atmospheric pressure."
+],
+"answer": 3,
+"explanation": "The **gauge pressure** ($P_g$) is the pressure measured relative to the surrounding atmospheric pressure ($P_{atm}$). It is the difference between the absolute pressure ($P_{abs}$) and the atmospheric pressure: $P_g = P_{abs} - P_{atm}$."
+},
+
+{
+"question": "12. How do we use manometer to measure pressure of a given gas? We use in such a way that",
+"options": [
+"the pressure at the surface of open end manometer is the same as the gas pressure in closed tube.",
+"the principle of the hydrostatic equilibrium is considered to measure the pressure of unknown gas.",
+"the gauge pressure in a fluid in the open end equals the gas pressure in closed tube.",
+"the gauge pressure equals the atmospheric pressure."
+],
+"answer": 1,
+"explanation": "A manometer is a device that uses a column of fluid to measure pressure. The measurement is fundamentally based on the **principle of hydrostatic equilibrium**, which states that the pressure is the same at all points at the same horizontal level within a continuous fluid at rest . This principle is applied to the fluid levels to determine the pressure of the unknown gas relative to the atmospheric pressure (gauge pressure)."
+}
+]

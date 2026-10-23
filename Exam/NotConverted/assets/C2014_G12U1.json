@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the concentration of a solution? It is",
+    "options": [
+      "A. number of moles of solute and number of moles of solvent.",
+      "B. the amount of solute needed to make a concentrated solute.",
+      "C. the amount of solvent needed to dissolve a solute.",
+      "D. the quantity of solute in a given quantity of solution."
+    ],
+    "answer": 3,
+    "explanation": "The concentration of a solution describes how much solute is present in a given amount of solution. \n\nOption D is correct because it directly states that concentration is the quantity of solute in a given quantity of solution.\n\n The other options either describe moles separately or focus only on solute or solvent, which does not define concentration."
+  },
+  {
+    "question": "How many moles of C₁₂H₂₂O₁₁ (sucrose, Molecular weight 342.91 g/mol) is needed there to prepare 2.0L of 0.3M solution?",
+    "options": [
+      "A. 6.6",
+      "B. 0.6",
+      "C. 0.43",
+      "D. 0.15"
+    ],
+    "answer": 1,
+    "explanation": "Molarity (M) is defined as moles of solute per liter of solution. \n\nUsing the formula M = n / V, where n is number of moles and V is volume in liters: n = M × V = 0.3 mol/L × 2.0 L = 0.6 mol. \n\nTherefore, 0.6 moles of sucrose are needed."
+  },
+  {
+    "question": "At 75 °C, the vapor pressure of pure water is 39 kPa. Which one of the vapor pressure of a solution obtained by dissolving 34.2 g sucrose in 180 mL of water? (Assume that the density of water is 1.000 g/mL)",
+    "options": [
+      "A. 44.5kPa",
+      "B. 41.1 kPa",
+      "C. 38.6 kPa",
+      "D. 31.2 kPa"
+    ],
+    "answer": 2,
+    "explanation": "We can calculate the vapor pressure of the solution using Raoult's Law:\n\nPₐ = Xₐ * Pₐ⁰ Where:n- Pₐ⁰ = vapor pressure of pure solvent = 39 kPa\n\n- Xₐ = mole fraction of solvent\n\nStep 1: Calculate moles of sucrose (C₁₂H₂₂O₁₁, M = 342 g/mol):\n\n n_sucrose = 34.2 / 342 ≈ 0.1 mol\n\nStep 2: Calculate moles of water (H₂O, M = 18 g/mol):\n\n Mass of water = 180 mL × 1 g/mL = 180 g\n\n n_water = 180 / 18 = 10 mol\n\nStep 3: Mole fraction of water:\n\n X_water = n_water / (n_water + n_sucrose) = 10 / (10 + 0.1) ≈ 0.9901\n\nStep 4: Vapor pressure of solution:\n\n P_solution = X_water * Pₐ⁰ ≈ 0.9901 × 39 ≈ 38.6 kPa\n\nSo the vapor pressure of the solution is approximately 38.6 kPa."
+  },
+  {
+    "question": "Which of the following statements is NOT TRUE about the colligative properties of electrolytes and non-electrolytes?",
+    "options": [
+      "A. The effect of non-electrolytes on colligative properties is the same as those of electrolytes.",
+      "B. The effect of non-electrolytes on colligative properties is very low compared to electrolytes.",
+      "C. The colligative properties of non-electrolytes are not considerably changed.",
+      "D. The effect of electrolytes on colligative properties is very high compared to non-electrolytes."
+    ],
+    "answer": 0,
+    "explanation": "Colligative properties depend on the number of particles in solution.\n\n Electrolytes dissociate into ions, producing more particles, so they have a much greater effect on colligative properties than non-electrolytes. \n\nTherefore, it is NOT TRUE that non-electrolytes have the same effect as electrolytes.\n\n Options B, C, and D correctly describe the weaker effect of non-electrolytes and the stronger effect of electrolytes."
+  },
+  {
+    "question": "For the reaction shown below, which of the following is a conjugate acid-base pair? \n\n HC₂O₄⁻(aq) + H₂O ⇌ H₃O + C₂0₄²⁻",
+    "options": [
+      "A. HC₂O₄⁻ and C₂O₄²⁻ ",
+      "B. H₃O⁺ and HC₂O₄⁻",
+      "C. H₂O and C₂O₄²⁻ ",
+      "D. HC₂O₄⁻ and H₂O"
+    ],
+    "answer": 0,
+    "explanation": "A conjugate acid-base pair consists of two species that differ by a single proton (H⁺). In the reaction:\n\nHC₂O₄⁻ + H₂O ⇌ H₃O⁺ + C₂O₄²⁻\n\n- HC₂O₄⁻ donates a proton to form C₂O₄²⁻ → they are a conjugate acid-base pair.\n\n- H₂O accepts a proton to form H₃O⁺ → they are also a conjugate acid-base pair.\n\nAmong the options, HC₂O₄⁻ and C₂O₄²⁻ correctly represent one conjugate acid-base pair."
+  }
+]

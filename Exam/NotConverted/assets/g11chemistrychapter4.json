@@ -1,0 +1,1229 @@
+[
+  {
+    "question": "Which area of chemistry focuses on the study of the speed and pathway by which a chemical transformation occurs?",
+    "options": [
+      "Chemical Thermodynamics",
+      "Chemical Equilibrium",
+      "Chemical Kinetics",
+      "Physical Chemistry"
+    ],
+    "answer": 2,
+    "explanation": "Chemical Kinetics is the branch of chemistry that deals with the study of reaction rates and the detailed sequence of steps (mechanism) by which reactions occur."
+  },
+
+
+  {
+    "question": "Which of the following conditions must be met for a collision between reactant particles to be considered an 'effective collision'?",
+    "options": [
+      "The particles must have the correct concentration.",
+      "The particles must collide in any orientation.",
+      "The particles must possess energy equal to the activation energy.",
+      "The particles must have both the correct orientation and energy greater than or equal to the activation energy."
+    ],
+    "answer": 3,
+    "explanation": "According to the Collision Theory, a reaction only occurs when particles collide with the proper geometric orientation and with kinetic energy equal to or exceeding the Activation Energy (Ea)."
+  },
+  {
+    "question": "What happens to the instantaneous rate of a reaction as the reaction progresses over time?",
+    "options": [
+      "It remains constant until the limiting reactant is exhausted.",
+      "It increases because the product concentration increases.",
+      "It decreases because the reactant concentrations decrease.",
+      "It first increases and then decreases after a maximum point."
+    ],
+    "answer": 2,
+    "explanation": "Since the rate of reaction depends on the concentration of the reactants (Rate = k[A] power x [B] power y), as reactants are consumed and their concentrations decrease, the reaction rate continuously slows down."
+  },
+  {
+    "question": "Increasing the surface area of a solid reactant in a heterogeneous reaction will increase the reaction rate primarily because it:",
+    "options": [
+      "Increases the activation energy of the reaction.",
+      "Increases the temperature of the reaction mixture.",
+      "Increases the frequency of collisions between reactant particles.",
+      "Increases the average kinetic energy of the molecules."
+    ],
+    "answer": 2,
+    "explanation": "Grinding a solid increases the surface area exposed for reaction, which leads to a higher probability of contact between the solid and the other reactant, thus increasing the frequency of effective collisions."
+  },
+  {
+    "question": "For the gaseous reaction 2CO plus O2 yields 2CO2, which of the following actions will increase the reaction rate?",
+    "options": [
+      "Adding an inert gas like Argon to the container.",
+      "Decreasing the total volume of the container.",
+      "Decreasing the temperature of the system.",
+      "Adding a catalyst that is consumed in the reaction."
+    ],
+    "answer": 1,
+    "explanation": "Decreasing the volume of the container increases the partial pressures (and thus the concentrations) of the gaseous reactants (CO and O2).\n\n Higher concentration leads to more collisions and a faster rate.\n A catalyst is not consumed in the reaction."
+  },
+  {
+    "question": "The minimum energy required to start a chemical reaction by breaking existing bonds and initiating the formation of new ones is called the:",
+    "options": [
+      "Enthalpy of reaction",
+      "Standard free energy",
+      "Activation energy (Ea)",
+      "Kinetic energy"
+    ],
+    "answer": 2,
+    "explanation": "Activation Energy (Ea) is the energy barrier that must be overcome for reactants to transform into products.\n\n It is the minimum energy required for an effective collision."
+  },
+  {
+    "question": "What is the relationship between the activation energy for the forward reaction (Ea forward) and the activation energy for the reverse reaction (Ea reverse) in an exothermic reaction?",
+    "options": [
+      "Ea forward is greater than Ea reverse.",
+      "Ea forward is less than Ea reverse.",
+      "Ea forward is equal to Ea reverse.",
+      "They are always independent of the heat of reaction (delta H)."
+    ],
+    "answer": 1,
+    "explanation": "For an exothermic reaction, the products are at a lower energy level than the reactants.\n\n Therefore, the energy barrier (Ea) from the reactants to the transition state (Ea forward) is less than the barrier from the products to the transition state (Ea reverse)."
+  },
+
+  {
+    "question": "The rate law for a reaction A plus B yields Products is experimentally determined to be Rate = k [A]² [B]¹. What is the overall order of this reaction?",
+    "options": [
+      "First order",
+      "Second order",
+      "Third order",
+      "Fourth order"
+    ],
+    "answer": 2,
+    "explanation": "The overall reaction order is the sum of the individual orders: 2 (for A) + 1 (for B) = 3 (Third order)."
+  },
+  {
+    "question": "Which statement correctly describes the relationship between the order of a reaction and the stoichiometric coefficients in the balanced chemical equation?",
+    "options": [
+      "The order of the reaction is always equal to the stoichiometric coefficients.",
+      "The order of the reaction is only equal to the coefficients for elementary steps.",
+      "The order of the reaction is always an integer determined by the slowest step.",
+      "The order is never equal to the coefficients in complex reactions."
+    ],
+    "answer": 1,
+    "explanation": "The reaction orders (exponents in the rate law) must be determined experimentally.\n\n They are only equal to the stoichiometric coefficients for elementary reactions (single-step reactions) but not for overall, multi-step reactions."
+  },
+  {
+    "question": "For a reaction, doubling the concentration of reactant X doubles the rate, and doubling the concentration of reactant Y quadruples the rate. What is the overall reaction order?",
+    "options": [
+      "First order",
+      "Second order",
+      "Third order",
+      "Fourth order"
+    ],
+    "answer": 2,
+    "explanation": "For X, doubling [X] doubles the rate, so the order is 1 (2 power 1 equals 2).\n\n For Y, doubling [Y] quadruples the rate, so the order is 2 (2 power 2 equals 4). \n\nThe overall order is the sum: 1 + 2 = 3 (Third order)."
+  },
+
+  {
+    "question": "For a zero-order reaction, the rate constant (k) has the units:",
+    "options": [
+      "s⁻¹",
+      "L mol⁻¹ s⁻¹",
+      "mol L⁻¹ s⁻¹ ",
+      "L²  mol⁻²s⁻¹"
+    ],
+    "answer": 2,
+    "explanation": "For a zero-order reaction, Rate = k [A]° = k.\n\n Since the unit of rate is mol L⁻¹ s⁻¹, the unit of k must also be mol L⁻¹ s⁻¹."
+  },
+  {
+    "question": "Which of the following plots for a single reactant A yields a straight line for a first-order reaction?",
+    "options": [
+      "Concentration [A] versus time",
+      "One over concentration (1/[A]) versus time",
+      "Natural logarithm of concentration (ln[A]) versus time",
+      "Rate versus concentration [A] squared"
+    ],
+    "answer": 2,
+    "explanation": "The integrated rate law for a first-order reaction is ln[A]t = -k times t + ln[A]0.\n\n This is in the form of a straight line equation (y = mx + b) where a plot of ln[A] (y) versus time (x) gives a straight line with slope  -k."
+  },
+
+  {
+    "question": "What is the key role of a catalyst in a reaction, according to kinetics principles?",
+    "options": [
+      "To shift the position of chemical equilibrium towards the products.",
+      "To increase the concentration of the reactants.",
+      "To provide an alternative reaction pathway with a lower activation energy.",
+      "To increase the kinetic energy of the reactant molecules."
+    ],
+    "answer": 2,
+    "explanation": "A catalyst speeds up a reaction by offering a different reaction mechanism that has a lower Activation Energy (Ea).\n\n It does not affect the thermodynamics or the equilibrium position."
+  },
+
+
+  {
+    "question": "The time required for a first-order reaction to reach its half-life (t half) is:",
+    "options": [
+      "Directly proportional to the initial concentration.",
+      "Inversely proportional to the rate constant (k).",
+      "Directly proportional to the rate constant (k).",
+      "Inversely proportional to the square of the initial concentration."
+    ],
+    "answer": 1,
+    "explanation": "For a first-order reaction, the half-life is given by the equation t half = 0.693 divided by k.\n\n This shows that t half is independent of the initial concentration and inversely proportional to the rate constant (k)."
+  },
+  {
+    "question": "A first-order reaction has a rate constant (k) of 4.0 * 10⁻³ s inverse 1. What is the half-life of this reaction in seconds?",
+    "options": [
+      "173.25 s",
+      "250.0 s",
+      "0.00578 s",
+      "400.0 s"
+    ],
+    "answer": 0,
+    "explanation": "For a first-order reaction, t half = 0.693 / k.\n\n t half = 0.693 / (4.0 * 10⁻³ s⁻¹) = 173.25 s."
+  },
+
+  {
+    "question": "For a zero-order reaction, which statement regarding half-life (t half) is correct?",
+    "options": [
+      "t half decreases as the initial concentration increases.",
+      "t half is independent of the initial concentration.",
+      "t half is directly proportional to the initial concentration.",
+      "t half is proportional to the square of the initial concentration."
+    ],
+    "answer": 2,
+    "explanation": "The half-life for a zero-order reaction is t half = [A]0 / 2k.\n\n Since k is constant, t half is directly proportional to the initial concentration [A]0.\n\n As concentration drops, the half-life gets shorter."
+  },
+
+
+  {
+    "question": "If a reaction mechanism consists of three elementary steps with rate constants k1, k2, and k3, and the third step (k3) is the slowest, then the overall reaction rate is primarily determined by which step?",
+    "options": [
+      "The first step (k1)",
+      "The step with the largest concentration of reactants",
+      "The step with the smallest activation energy",
+      "The third step (k3)"
+    ],
+    "answer": 3,
+    "explanation": "The slowest step in a reaction mechanism is called the Rate-Determining Step (RDS), and the rate of the overall reaction cannot proceed faster than the rate of this step."
+  },
+  {
+    "question": "In a reaction mechanism, a species that is formed in an earlier elementary step and completely consumed in a subsequent step is called a(n):",
+    "options": [
+      "Catalyst",
+      "Transition state",
+      "Intermediate",
+      "Product"
+    ],
+    "answer": 2,
+    "explanation": "A reaction intermediate is a species that is produced and then consumed during the course of a reaction.\n\n It does not appear in the overall balanced equation."
+  },
+
+
+
+  {
+    "question": "The Arrhenius equation is given by k = A e raised to the power (-Ea / RT). What does the term A represent?",
+    "options": [
+      "The universal gas constant.",
+      "The concentration of the products.",
+      "The activation energy.",
+      "The frequency factor or pre-exponential factor."
+    ],
+    "answer": 3,
+    "explanation": "The frequency factor (A) represents the frequency of collisions and the fraction of collisions that have the correct orientation (steric factor)."
+  },
+
+  {
+    "question": "If a plot of ln(k) versus 1 over T (the absolute temperature inverse) is constructed, what physical quantity is related to the slope of the resulting straight line?",
+    "options": [
+      "The frequency factor (A).",
+      "The reaction order.",
+      "The Activation Energy (Ea).",
+      "The enthalpy of reaction (delta H)."
+    ],
+    "answer": 2,
+    "explanation": "The logarithmic form of the Arrhenius equation is ln(k) = minus Ea / R times (1 / T) + ln(A).\n\n Comparing this to y = mx + b, the slope (m) is equal to minus Ea / R.\n\n Therefore, the slope can be used to determine the Activation Energy (Ea)."
+  },
+
+  {
+    "question": "A reaction has an activation energy (Ea) of 50 kJ per mole. If a catalyst is added that lowers the Ea to 25 kJ per mole, how does the reaction rate change?",
+    "options": [
+      "The rate increases linearly.",
+      "The rate is halved.",
+      "The rate increases exponentially, possibly by a very large factor.",
+      "The rate remains the same, as Ea is not directly related to rate."
+    ],
+    "answer": 2,
+    "explanation": "Since the rate constant (k) depends exponentially on the negative of Ea (e raised to the power (-Ea / RT)), a large decrease in Ea leads to a very large, non-linear (exponential) increase in the rate constant and thus the reaction rate."
+  },
+  {
+    "question": "Which of the following describes the molecularity of an elementary reaction?",
+    "options": [
+      "The rate-determining step.",
+      "The overall order of the reaction.",
+      "The sum of the exponents in the overall rate law.",
+      "The number of reactant species that participate in the step."
+    ],
+    "answer": 3,
+    "explanation": "Molecularity is defined as the number of reactant particles involved in a single elementary collision or step.\n\n It can be 1 (unimolecular), 2 (bimolecular), or 3 (termolecular)."
+  },
+
+
+
+
+  {
+    "question": "Which of the following factors does NOT affect the value of the rate constant (k) for a given reaction?",
+    "options": [
+      "The temperature of the system.",
+      "The concentration of the reactants.",
+      "The presence of a catalyst.",
+      "The activation energy."
+    ],
+    "answer": 1,
+    "explanation": "The rate constant (k) is dependent on temperature, activation energy, and the presence of a catalyst.\n\n It is, however, independent of the concentration of the reactants; concentration only affects the overall reaction rate (Rate = k [A] power x ...)."
+  },
+
+  {
+    "question": "Why does a greater concentration of a reactant generally lead to a faster reaction rate?",
+    "options": [
+      "It lowers the activation energy.",
+      "It increases the average kinetic energy of the molecules.",
+      "It increases the number of collisions per unit time.",
+      "It makes the reaction more spontaneous (more negative delta G)."
+    ],
+    "answer": 2,
+    "explanation": "Higher concentration means more reactant molecules are packed into the same volume, increasing the frequency of molecular collisions, and thus increasing the rate of effective collisions."
+  },
+  {
+    "question": "Which one of the following is a characteristic of a Zero Order reaction?",
+    "options": [
+      "The half-life is constant regardless of the initial concentration.",
+      "The reaction rate is proportional to the concentration of the reactant.",
+      "A plot of concentration versus time is a straight line with a negative slope.",
+      "A plot of ln(concentration) versus time is a straight line."
+    ],
+    "answer": 2,
+    "explanation": "The integrated rate law for a zero-order reaction is [A]t = minus k t + [A]0.\n\n This is the equation of a straight line (y = mx + b), where [A]t versus time is plotted, and the slope (m) is minus k."
+  },
+  {
+    "question": "The rate law for a complex reaction is determined by the stoichiometry of the:",
+    "options": [
+      "Reactants with the smallest coefficients.",
+      "Fastest elementary step.",
+      "Slowest elementary step (rate-determining step).",
+      "Overall balanced chemical equation."
+    ],
+    "answer": 2,
+    "explanation": "The overall rate law for a multi-step reaction is governed by the stoichiometry of the species involved up to and including the slowest step, which is the rate-determining step."
+  },
+  {
+    "question": "A catalyst increases the reaction rate by influencing which term in the Arrhenius equation?",
+    "options": [
+      "It increases the Gas Constant (R).",
+      "It increases the absolute Temperature (T).",
+      "It decreases the Activation Energy (Ea).",
+      "It decreases the rate constant (k)."
+    ],
+    "answer": 2,
+    "explanation": "A catalyst provides a new reaction path with a lower activation energy (Ea).\n\n This decrease in Ea significantly increases the rate constant (k) according to the Arrhenius equation."
+  },
+
+
+
+
+  {
+    "question": "What is the minimum value for the overall reaction order?",
+    "options": [
+      "0 (Zero order)",
+      "1 (First order)",
+      "2 (Second order)",
+      "0.5 (Half order)"
+    ],
+    "answer": 0,
+    "explanation": "The reaction order can be zero, as seen in zero-order reactions where the rate is independent of reactant concentration (Rate = k)."
+  },
+
+
+  {
+    "question": "In a reaction profile (energy versus reaction coordinate), the energy difference between the reactants and the products is called the:",
+    "options": [
+      "Transition State energy",
+      "Activation Energy (Ea)",
+      "Reaction Intermediate energy",
+      "Enthalpy Change of Reaction (delta H)"
+    ],
+    "answer": 3,
+    "explanation": "The difference between the potential energy of the products and the potential energy of the reactants is the Enthalpy Change of Reaction (delta H)."
+  },
+
+
+
+
+
+  {
+    "question": "In the reaction profile, the species at the highest energy peak between reactants and products is the:",
+    "options": [
+      "Reactant",
+      "Intermediate",
+      "Transition State",
+      "Product"
+    ],
+    "answer": 2,
+    "explanation": "The transition state (or activated complex) is the unstable, highest energy configuration that the reacting species must pass through to convert into products."
+  },
+  {
+    "question": "For a reaction to proceed through a bimolecular collision, what must be true about the activation energy?",
+    "options": [
+      "It must be zero.",
+      "It must be negative.",
+      "The colliding molecules must have kinetic energy equal to or greater than the activation energy.",
+      "The activation energy must be less than the enthalpy change."
+    ],
+    "answer": 2,
+    "explanation": "Effective collisions require two factors: correct orientation and sufficient energy.\n\n The energy condition is that the kinetic energy of the colliding particles must be equal to or exceed the activation energy (Ea)."
+  },
+  {
+    "question": "Which type of reaction generally has the lowest activation energy?",
+    "options": [
+      "Reactions involving the breaking of covalent bonds in large molecules.",
+      "Reactions between aqueous ions.",
+      "Reactions involving gaseous molecules.",
+      "Solid-phase decomposition reactions."
+    ],
+    "answer": 1,
+    "explanation": "Reactions between simple aqueous ions (like Ag+ and Cl- forming AgCl) are typically very fast because no covalent bonds need to be broken, and the particles are already in motion and well-mixed.\n\n They have very low, almost negligible, activation energies."
+  },
+  {
+    "question": "How does a positive catalyst affect the equilibrium constant (K) of a reversible reaction?",
+    "options": [
+      "It increases K by speeding up the forward reaction only.",
+      "It decreases K by speeding up the reverse reaction only.",
+      "It increases the rate of both the forward and reverse reactions equally, so K is unchanged.",
+      "It only affects the reaction rate, not the equilibrium, so K decreases."
+    ],
+    "answer": 2,
+    "explanation": "A catalyst speeds up the attainment of equilibrium by increasing the rate of both the forward and reverse reactions to the same extent.\n\n It does not change the value of the equilibrium constant (K)."
+  },
+  {
+    "question": "If the concentration of a reactant A decreases linearly with time, the reaction is:",
+    "options": [
+      "First order in A.",
+      "Second order in A.",
+      "Zero order in A.",
+      "Termolecular."
+    ],
+    "answer": 2,
+    "explanation": "A linear decrease in concentration with time means the rate is constant (independent of concentration).\n\n This is the defining characteristic of a zero-order reaction: [A]t =  -kt + [A]0."
+  },
+  {
+    "question": "The Arrhenius equation assumes that the frequency factor (A) and the activation energy (Ea) are independent of:",
+    "options": [
+      "Reaction concentration.",
+      "Temperature.",
+      "Pressure.",
+      "Catalyst concentration."
+    ],
+    "answer": 1,
+    "explanation": "The Arrhenius equation is used to model the temperature dependence of the rate constant (k), assuming that A and Ea are constant over the temperature range studied (independent of temperature)."
+  },
+  {
+    "question": "What is the molecularity of the elementary reaction involving the decomposition of one molecule of a substance?",
+    "options": [
+      "Unimolecular",
+      "Bimolecular",
+      "Termolecular",
+      "Zero order"
+    ],
+    "answer": 0,
+    "explanation": "An elementary reaction involving the decomposition of a single molecule is called a unimolecular step, as the molecularity (number of participating species) is one."
+  },
+
+
+
+  {
+    "question": "What is the difference between an intermediate and a transition state in a reaction mechanism?",
+    "options": [
+      "The intermediate is a reactant, and the transition state is a product.",
+      "The intermediate is a stable molecule, while the transition state is an unstable, short-lived complex.",
+      "The intermediate is at the peak energy, and the transition state is at a valley.",
+      "The transition state is a catalyst, and the intermediate is a product."
+    ],
+    "answer": 1,
+    "explanation": "A reaction intermediate exists in a potential energy valley (local minimum) and can sometimes be isolated.\n\n The transition state (activated complex) exists at the peak energy (local maximum) and is highly unstable and transient."
+  },
+
+
+  {
+    "question": "The initial concentration of a reactant is 1.0 M. After 10 minutes, the concentration is 0.5 M. After another 10 minutes (total 20 min), the concentration is 0.25 M. The reaction is:",
+    "options": [
+      "Zero order",
+      "First order",
+      "Second order",
+      "Fractional order"
+    ],
+    "answer": 1,
+    "explanation": "The half-life (t half) is 10 minutes (1.0 M to 0.5 M) and the second half-life (0.5 M to 0.25 M) is also 10 minutes. \n\nSince the half-life is constant regardless of the initial concentration, the reaction is First Order."
+  },
+  {
+    "question": "For a zero-order reaction, what is the slope of the linear relationship when concentration is plotted against time?",
+    "options": [
+      "The rate constant k",
+      "minus the rate constant k",
+      "-0.693 / k",
+      "The initial concentration [A]0"
+    ],
+    "answer": 1,
+    "explanation": "The integrated rate law is [A]t = -kt + [A]0.\n\n Plotting [A]t (y-axis) versus t (x-axis) gives a straight line with a slope equal to  -k."
+  },
+
+
+  {
+    "question": "Homogeneous catalysis involves the catalyst and the reactants in the same phase. Which of the following is an example of homogeneous catalysis?",
+    "options": [
+      "Iron powder catalyzing the Haber process (gas-solid).",
+      "Enzyme (protein) catalyzing the hydrolysis of a substrate in water (liquid-liquid).",
+      "Nickel metal catalyzing the hydrogenation of oils (solid-liquid).",
+      "Manganese dioxide catalyzing the decomposition of H2O2 (solid-liquid)."
+    ],
+    "answer": 1,
+    "explanation": "In homogeneous catalysis, the catalyst and reactants are in the same phase.\n\n Enzymes and their substrates are both in the liquid (aqueous) phase, making it a homogeneous process."
+  },
+  {
+    "question": "Why is the effect of concentration on reaction rate less significant for zero-order reactions compared to first- or second-order reactions?",
+    "options": [
+      "Zero-order reactions have very high activation energies.",
+      "The overall rate of zero-order reactions is independent of the reactant concentration.",
+      "Zero-order reactions are always exothermic.",
+      "Zero-order reactions proceed only through unimolecular steps."
+    ],
+    "answer": 1,
+    "explanation": "By definition, the rate law for a zero-order reaction is Rate = k. \n\nThis means the overall rate of the reaction does not change as the reactant concentration changes, often because the rate is limited by another factor, such as the surface area of a catalyst."
+  },
+  {
+    "question": "If the units of the rate constant (k) change with temperature, what does this imply?",
+    "options": [
+      "The reaction order changes with temperature.",
+      "The reaction order does not change with temperature.",
+      "The half-life of the reaction is constant.",
+      "The activation energy must be zero."
+    ],
+    "answer": 1,
+    "explanation": "The unit of the rate constant is determined solely by the overall reaction order.\n\n Since the reaction order is generally not affected by temperature, the units of k must remain the same, even though the numerical value of k changes with temperature."
+  },
+
+
+  {
+    "question": "Which change causes an increase in the number of collisions with sufficient energy (i.e., energy greater than or equal to Ea) to react?",
+    "options": [
+      "Adding a non-reactive diluent.",
+      "Cooling the reaction mixture.",
+      "Increasing the temperature.",
+      "Decreasing the surface area."
+    ],
+    "answer": 2,
+    "explanation": "Only increasing the temperature increases the average kinetic energy of the molecules, which significantly increases the fraction of molecules that can overcome the activation energy barrier."
+  },
+
+  {
+    "question": "What is the physical meaning of the term k (rate constant) in the rate law expression?",
+    "options": [
+      "The rate of reaction at zero concentration.",
+      "The proportionality constant that links reaction rate to reactant concentrations, specific to temperature.",
+      "The change in concentration of a reactant over time.",
+      "The maximum rate that a reaction can achieve."
+    ],
+    "answer": 1,
+    "explanation": "The rate constant is a proportionality constant that determines how fast a reaction proceeds for a given set of reactant concentrations.\n\n Its numerical value is fixed for a specific reaction at a specific temperature."
+  },
+
+  {
+    "question": "A negative activation energy for a reaction would imply that:",
+    "options": [
+      "The reaction is impossible.",
+      "The reaction rate decreases as temperature increases.",
+      "The reaction is zero order.",
+      "The reaction is very slow."
+    ],
+    "answer": 1,
+    "explanation": "If Ea were negative, the Arrhenius equation would show that increasing T would make the exponent (minus Ea / RT) less negative (or more positive), resulting in a decrease in the rate constant (k).\n\n Thus, the rate would decrease as temperature increases, which is highly unusual and only occurs in very specific complex reactions."
+  },
+
+  {
+    "question": "The experimental data for a reaction A yields Products shows that the rate triples when the concentration of A is tripled. The reaction order is:",
+    "options": [
+      "Zero order",
+      "First order",
+      "Second order",
+      "Third order"
+    ],
+    "answer": 1,
+    "explanation": "If Rate is proportional to [A] power x, then 3 = 3 power x.\n\n This implies x = 1. The reaction is First Order."
+  },
+  {
+    "question": "What is the major reason that increasing temperature speeds up a reaction?",
+    "options": [
+      "It makes the molecules more structurally reactive.",
+      "It lowers the potential energy of the products.",
+      "It increases the frequency of collisions, but more importantly, the energy of collisions.",
+      "It increases the activation energy."
+    ],
+    "answer": 2,
+    "explanation": "Temperature increase causes a small increase in collision frequency, but its major impact is on increasing the number of molecules that collide with energy greater than or equal to the activation energy (Ea)."
+  },
+
+
+
+
+
+
+  {
+    "question": "What is the unit of the rate constant (k) for a third-order reaction?",
+    "options": [
+      "mol L⁻¹ s⁻¹",
+      "L mol⁻¹ s⁻¹",
+      "s⁻¹",
+      "L² mol⁻¹ s⁻¹"
+    ],
+    "answer": 3,
+    "explanation": "For a third-order reaction (Order = 3), the general unit for k is (L mol⁻¹)² s⁻¹, which is (L mol¹)² s⁻¹, or L²mol²s¹."
+  },
+  {
+    "question": "If a catalyst is added to a reaction mixture, which quantity will remain unchanged?",
+    "options": [
+      "Activation energy (Ea)",
+      "Rate constant (k)",
+      "Reaction rate",
+      "Enthalpy change (delta H)"
+    ],
+    "answer": 3,
+    "explanation": "A catalyst affects the kinetics (Ea, k, rate) but does not change the thermodynamics of the reaction.\n\n The enthalpy change (delta H, heat of reaction) remains the same."
+  },
+
+  {
+    "question": "Which factor does the frequency factor (A) in the Arrhenius equation mostly account for?",
+    "options": [
+      "The change in reaction energy (delta H).",
+      "The temperature change.",
+      "The collision frequency and molecular orientation (steric factor).",
+      "The concentration of the products."
+    ],
+    "answer": 2,
+    "explanation": "The Arrhenius factor A, or pre-exponential factor, is related to the frequency of collisions (how often molecules hit) and the steric factor (what fraction of those collisions have the correct orientation)."
+  },
+
+
+
+
+
+
+  {
+    "question": "If the rate constant for a reaction is found to be independent of temperature, the activation energy (Ea) of the reaction must be:",
+    "options": [
+      "Very high",
+      "Very low",
+      "Zero",
+      "Equal to the heat of reaction"
+    ],
+    "answer": 2,
+    "explanation": "According to the Arrhenius equation, k is only independent of T if the exponent term e raised to the power (-Ea / RT) is independent of T.\n\n This occurs when Ea = 0, as e power 0 = 1, and k = A."
+  },
+
+
+  {
+    "question": "What is the order of a reaction for which a plot of 1/[A] versus time is a straight line?",
+    "options": [
+      "Zero order",
+      "First order",
+      "Second order",
+      "Third order"
+    ],
+    "answer": 2,
+    "explanation": "The linear plot of 1/[A] versus time is the graphical signature of the integrated rate law for a Second Order reaction (1 / [A]t = kt + 1 over [A]0)."
+  },
+  {
+    "question": "If the overall order of a reaction is 0.5, the reaction:",
+    "options": [
+      "Must be an elementary step.",
+      "Cannot be an elementary step.",
+      "Is zero order in at least one reactant.",
+      "Has a constant half-life."
+    ],
+    "answer": 1,
+    "explanation": "Elementary steps must have molecularity 1, 2, or 3, so their order must be an integer (1, 2, or 3). \n\nA fractional order (like 0.5) indicates the reaction must be a complex, multi-step process."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Which type of reaction generally has the highest activation energy?",
+    "options": [
+      "Precipitation reactions in aqueous solution.",
+      "Reactions involving the breaking of multiple strong covalent bonds.",
+      "Acid-base neutralization reactions.",
+      "Reactions catalyzed by enzymes."
+    ],
+    "answer": 1,
+    "explanation": "Reactions that require the input of a large amount of energy to break strong chemical bonds (like multiple covalent bonds) will have a high activation energy."
+  },
+
+
+
+
+
+  {
+    "question": "What is the rate-determining step in a multi-step reaction?",
+    "options": [
+      "The step with the lowest concentration of reactants.",
+      "The step with the highest value of the rate constant (k).",
+      "The step that occurs most frequently.",
+      "The elementary step with the largest activation energy."
+    ],
+    "answer": 3,
+    "explanation": "The rate-determining step is the slowest step, corresponding to the elementary step with the highest potential energy barrier (largest activation energy)."
+  },
+
+
+
+  {
+    "question": "A catalyst that is in a different phase from the reactants is a(n):",
+    "options": [
+      "Homogeneous catalyst",
+      "Heterogeneous catalyst",
+      "Enzyme catalyst",
+      "Poison"
+    ],
+    "answer": 1,
+    "explanation": "A heterogeneous catalyst exists in a different physical state than the reactants (e.g., solid metal catalyst in a gas-phase reaction)."
+  },
+  {
+    "question": "The instantaneous rate of a reaction is found by calculating the slope of the tangent to the concentration versus time curve at a specific point. The tangent line must be:",
+    "options": [
+      "Positive for both reactants and products.",
+      "Negative for both reactants and products.",
+      "Negative for reactants and positive for products.",
+      "Zero at the beginning of the reaction."
+    ],
+    "answer": 2,
+    "explanation": "Concentration of reactants decreases with time (negative slope), and concentration of products increases with time (positive slope).\n\n Therefore, the tangent slope is negative for reactants and positive for products."
+  },
+
+
+  {
+    "question": "The rate constant for a reaction is 4.0 times 10 power minus 3 L squared mol inverse 2 s inverse 1. The half-life is inversely proportional to the square of the initial concentration. The reaction is:",
+    "options": [
+      "First order",
+      "Second order",
+      "Third order",
+      "Zero order"
+    ],
+    "answer": 2,
+    "explanation": "The unit L squared mol inverse 2 s inverse 1 corresponds to a Third Order reaction.\n\n For a third-order reaction, t half is proportional to 1 / [A]0 squared, confirming the third order."
+  },
+
+  {
+    "question": "The energy difference between the transition state and the reactants is the:",
+    "options": [
+      "Potential Energy",
+      "Activation Energy",
+      "Kinetic Energy",
+      "Free Energy"
+    ],
+    "answer": 1,
+    "explanation": "This energy difference is the Activation Energy (Ea), the minimum energy needed to reach the transition state."
+  },
+  {
+    "question": "For a reaction to be truly elementary, its rate law must be determined by:",
+    "options": [
+      "The slowest step in the mechanism.",
+      "The overall stoichiometry of the reaction.",
+      "Its molecularity.",
+      "The catalyst concentration."
+    ],
+    "answer": 2,
+    "explanation": "For an elementary step, the reaction order is numerically equal to the molecularity (the number of colliding species), and thus the rate law can be written directly from its molecularity."
+  },
+
+
+
+  {
+    "question": "For a unimolecular elementary step, the rate law is always:",
+    "options": [
+      "Rate = k",
+      "Rate = k [A]²",
+      "Rate = k [A]",
+      "Rate = k [A] [B]"
+    ],
+    "answer": 2,
+    "explanation": "A unimolecular step involves only one molecule, A.\n\n For an elementary step, the rate law matches the molecularity, so Rate = k [A]¹."
+  },
+  {
+    "question": "Which of the following describes a key characteristic of the half-life of a second-order reaction?",
+    "options": [
+      "It is directly proportional to the rate constant.",
+      "It is independent of the initial concentration.",
+      "It decreases over the course of the reaction.",
+      "It is proportional to the square of the initial concentration."
+    ],
+    "answer": 2,
+    "explanation": "For a second-order reaction, t half is proportional to 1 / [A]0.\n\n Since concentration [A] is continuously decreasing during the reaction, the half-life (t half) is continuously increasing (getting longer) as the reaction proceeds."
+  },
+
+
+  {
+    "question": "What is the order of a reaction for which a plot of Rate versus [A] gives a straight line through the origin?",
+    "options": [
+      "Zero order",
+      "First order",
+      "Second order",
+      "Third order"
+    ],
+    "answer": 1,
+    "explanation": "The linear relationship means Rate is proportional to [A].\n\n Since Rate = k [A] power x, then x = 1. The reaction is First Order."
+  },
+  {
+    "question": "If the concentration of a reactant is increased in a reversible reaction, the rate of the forward reaction increases. This is explained by the theory of:",
+    "options": [
+      "Le Chatelier's Principle",
+      "Collision Theory",
+      "Arrhenius Theory",
+      "The law of conservation of mass"
+    ],
+    "answer": 1,
+    "explanation": "The increase in rate with increasing concentration is explained by the Collision Theory: more reactant particles per unit volume lead to a greater frequency of collisions, which increases the reaction rate."
+  },
+
+
+
+
+  {
+    "question": "A catalyst functions by:",
+    "options": [
+      "Increasing the number of total molecular collisions.",
+      "Providing a reaction pathway with a lower activation energy.",
+      "Increasing the temperature of the reaction.",
+      "Making the reaction more exothermic."
+    ],
+    "answer": 1,
+    "explanation": "A catalyst accelerates the reaction by changing the mechanism (pathway) to one that has a lower energy barrier (lower activation energy, Ea)."
+  },
+
+
+
+  {
+    "question": "The Arrhenius equation shows that the rate constant (k) is most sensitive to changes in:",
+    "options": [
+      "Gas Constant (R).",
+      "Temperature (T) and Activation Energy (Ea).",
+      "Concentration of reactants.",
+      "Frequency factor (A)."
+    ],
+    "answer": 1,
+    "explanation": "The rate constant k is exponentially dependent on both the absolute temperature (T) and the activation energy (Ea).\n\n Small changes in these terms lead to large changes in k."
+  },
+  {
+    "question": "What is the order of a reaction for which the half-life is inversely proportional to the initial concentration?",
+    "options": [
+      "Zero order",
+      "First order",
+      "Second order",
+      "Third order"
+    ],
+    "answer": 2,
+    "explanation": "The inverse proportionality of t half to [A]0 (t half is proportional to 1 / [A]0) is the defining characteristic of a Second Order reaction."
+  },
+
+  {
+    "question": "For a first-order reaction, how long does it take for the concentration to decrease by 50 percent?",
+    "options": [
+      "Half-life",
+      "Rate constant",
+      "Zero time",
+      "Final time"
+    ],
+    "answer": 0,
+    "explanation": "The time required for the concentration to decrease by 50 percent is the definition of the half-life."
+  },
+
+
+
+
+
+  {
+    "question": "A substance that speeds up a reaction without being consumed is called a:",
+    "options": [
+      "Reactant",
+      "Intermediate",
+      "Product",
+      "Catalyst"
+    ],
+    "answer": 3,
+    "explanation": "A catalyst is defined as a substance that accelerates a chemical reaction but is recovered chemically unchanged at the end of the reaction."
+  },
+  {
+    "question": "For a zero-order reaction, the amount of reactant consumed per unit time:",
+    "options": [
+      "Increases over time.",
+      "Decreases over time.",
+      "Remains constant.",
+      "Depends on the half-life only."
+    ],
+    "answer": 2,
+    "explanation": "Since the rate of a zero-order reaction is constant (Rate = k), the amount of reactant consumed per unit time remains constant throughout the reaction."
+  },
+
+  {
+    "question": "Which statement about the Activation Energy (Ea) is correct?",
+    "options": [
+      "It is always a negative value.",
+      "It is lower for the forward reaction than the reverse reaction for an endothermic process.",
+      "It determines the rate of the reaction.",
+      "It is independent of the catalyst."
+    ],
+    "answer": 2,
+    "explanation": "Ea is the energy barrier that must be overcome for the reaction to proceed.\n\n A higher Ea leads to a slower reaction rate. For an endothermic reaction, Ea forward is greater than Ea reverse."
+  },
+
+  {
+    "question": "For a first-order reaction, a decrease in initial concentration from 0.8 M to 0.4 M will:",
+    "options": [
+      "Halve the half-life.",
+      "Double the half-life.",
+      "Quadruple the rate.",
+      "Have no effect on the half-life."
+    ],
+    "answer": 3,
+    "explanation": "The half-life of a first-order reaction is constant (t half = 0.693 / k) and is completely independent of the initial concentration."
+  },
+
+
+
+
+
+
+  {
+    "question": "What is the key difference between a catalyst and an intermediate in a reaction mechanism?",
+    "options": [
+      "A catalyst is formed and consumed, while an intermediate is consumed and regenerated.",
+      "An intermediate appears in the rate law, but a catalyst does not.",
+      "A catalyst is regenerated, while an intermediate is consumed.",
+      "A catalyst affects only the forward rate, while an intermediate affects only the reverse rate."
+    ],
+    "answer": 2,
+    "explanation": "A catalyst is present at the start and regenerated by the end of the reaction (consumed then reformed).\n\n An intermediate is formed during the reaction and then completely consumed."
+  },
+
+
+  {
+    "question": "For an exothermic reaction, how does the catalyst affect the enthalpy change (delta H)?",
+    "options": [
+      "It makes delta H more negative.",
+      "It makes delta H more positive.",
+      "It has no effect on delta H.",
+      "It converts delta H to zero."
+    ],
+    "answer": 2,
+    "explanation": "A catalyst affects the activation energy (Ea) and the path of the reaction, but it does not change the energy of the initial state (reactants) or the final state (products).\n\n Therefore, the enthalpy change (delta H) is unchanged."
+  },
+
+  {
+    "question": "If the temperature of a reaction is decreased, the rate of the reaction:",
+    "options": [
+      "Increases due to higher collision frequency.",
+      "Decreases because fewer molecules can overcome the activation energy.",
+      "Remains constant, as only concentration affects rate.",
+      "Increases because the activation energy is lowered."
+    ],
+    "answer": 1,
+    "explanation": "Lowering the temperature reduces the average kinetic energy of the molecules, which significantly reduces the fraction of molecules with energy greater than Ea, resulting in a slower reaction rate."
+  },
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "What does the 'rate of a reaction' typically measure?",
+      "options": [
+        "The change in temperature over time",
+        "The change in concentration of reactants or products per unit time",
+        "The total volume of the reaction vessel",
+        "The equilibrium constant of the reaction"
+      ],
+      "answer": 1,
+      "explanation": "Reaction rate is defined as the speed at which reactants are converted into products, expressed as Δ[C]/Δt."
+    },
+    {
+      "question": "For a reaction A + B → C, if the rate law is Rate = k[A]²[B], what is the overall order of the reaction?",
+      "options": [
+        "First order",
+        "Second order",
+        "Third order",
+        "Zero order"
+      ],
+      "answer": 2,
+      "explanation": "The overall order is the sum of the exponents in the rate law: 2 (for A) + 1 (for B) = 3."
+    },
+    {
+      "question": "How does a catalyst increase the rate of a chemical reaction?",
+      "options": [
+        "By increasing the reactant concentration",
+        "By increasing the temperature of the system",
+        "By providing an alternative pathway with a lower activation energy",
+        "By shifting the equilibrium to the right"
+      ],
+      "answer": 2,
+      "explanation": "Catalysts lower the activation energy barrier (Ea), allowing more molecules to have sufficient energy to react at a given temperature."
+    },
+    {
+      "question": "In a zero-order reaction, if the initial concentration of the reactant is doubled, what happens to the half-life?",
+      "options": [
+        "It is halved",
+        "It remains the same",
+        "It is doubled",
+        "It increases fourfold"
+      ],
+      "answer": 2,
+      "explanation": "For a zero-order reaction, t1/2 = [A]0 / 2k.\n\n Therefore, the half-life is directly proportional to the initial concentration."
+    },
+    {
+      "question": "Which of the following units represents the rate constant (k) for a first-order reaction?",
+      "options": [
+        "mol L⁻¹ s⁻¹",
+        "s⁻¹",
+        "L mol⁻¹ s⁻¹",
+        "L² mol⁻² s⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "For first-order, Rate = k[A].\n\n Thus, k = Rate / [A] = (mol L⁻¹ s⁻¹) / (mol L⁻¹) = s⁻¹."
+    },
+    {
+      "question": "According to Collision Theory, what two factors are required for a collision to be 'effective'?",
+      "options": [
+        "High pressure and high volume",
+        "Correct orientation and sufficient energy (Activation Energy)",
+        "Large surface area and presence of a solvent",
+        "Low temperature and high concentration"
+      ],
+      "answer": 1,
+      "explanation": "Molecules must collide with an energy greater than Ea and in the correct spatial orientation to break old bonds and form new ones."
+    },
+    {
+      "question": "What happens to the rate constant (k) of a reaction when the temperature is increased?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "answer": 1,
+      "explanation": "According to the Arrhenius equation, as temperature (T) increases, the value of k increases exponentially."
+    },
+    {
+      "question": "In the Arrhenius equation k = Ae^-E_a/RT, what does 'A' represent?",
+      "options": [
+        "Activation energy",
+        "The ideal gas constant",
+        "The frequency factor (pre-exponential factor)",
+        "The reaction rate"
+      ],
+      "answer": 2,
+      "explanation": "A is the frequency factor, which relates to the frequency of collisions and the probability that they have the correct orientation."
+    },
+    {
+      "question": "If a reaction is first-order with respect to a reactant, a graph of what vs. time will yield a straight line?",
+      "options": [
+        "[A] vs. time",
+        "1/[A] vs. time",
+        "ln[A] vs. time",
+        "[A]² vs. time"
+      ],
+      "answer": 2,
+      "explanation": "The integrated rate law for a first-order reaction is ln[A] = -kt + ln[A]0, which follows the linear form y = mx + b."
+    },
+    {
+      "question": "What is the 'Rate Determining Step' in a reaction mechanism?",
+      "options": [
+        "The fastest step in the sequence",
+        "The last step in the sequence",
+        "The slowest step in the sequence",
+        "The step with the lowest activation energy"
+      ],
+      "answer": 2,
+      "explanation": "The overall rate of a multi-step reaction is limited by its slowest step, known as the rate-determining step."
+    },
+    {
+      "question": "For a second-order reaction, how is the half-life related to the initial concentration?",
+      "options": [
+        "It is independent of initial concentration",
+        "It is directly proportional to initial concentration",
+        "It is inversely proportional to initial concentration",
+        "It is proportional to the square of initial concentration"
+      ],
+      "answer": 2,
+      "explanation": "For second-order, t1/2 = 1 / (k[A]_0).\n\n As initial concentration increases, half-life decreases."
+    },
+    {
+      "question": "Which factor does NOT affect the rate of a heterogeneous reaction?",
+      "options": [
+        "Concentration of reactants",
+        "Surface area of solid reactants",
+        "Temperature",
+        "The value of the equilibrium constant (K)"
+      ],
+      "answer": 3,
+      "explanation": "The equilibrium constant (K) tells us how far a reaction goes, not how fast (kinetics).\n\n Kinetics and Thermodynamics are separate concepts."
+    },
+    {
+      "question": "What is an 'intermediate' in a reaction mechanism?",
+      "options": [
+        "A substance that starts the reaction",
+        "A substance produced in one step and consumed in a later step",
+        "A substance that speeds up the reaction without being consumed",
+        "The final product of the reaction"
+      ],
+      "answer": 1,
+      "explanation": "Intermediates are transient species that appear in the mechanism but do not appear in the overall balanced chemical equation."
+    },
+    {
+      "question": "The decomposition of phosphine on a hot tungsten surface at high pressure is a zero-order reaction. This means the rate is:",
+      "options": [
+        "Proportional to the square of pressure",
+        "Independent of the concentration/pressure of phosphine",
+        "Exponentially related to temperature",
+        "Halved when pressure is doubled"
+      ],
+      "answer": 1,
+      "explanation": "In zero-order kinetics, the rate is constant and does not change regardless of the concentration of the reactant."
+    },
+    {
+      "question": "What is the molecularity of an elementary step where two molecules collide and react?",
+      "options": [
+        "Unimolecular",
+        "Bimolecular",
+        "Termolecular",
+        "Zero-molecular"
+      ],
+      "answer": 1,
+      "explanation": "Molecularity refers to the number of molecules reacting in an elementary step.\n\n Two molecules colliding is a bimolecular step."
+    },
+    {
+      "question": "If the activation energy of a reaction is very low, the reaction is likely to be:",
+      "options": [
+        "Very slow",
+        "Very fast",
+        "Endothermic",
+        "Exothermic"
+      ],
+      "answer": 1,
+      "explanation": "A low activation energy means a larger fraction of collisions have enough energy to cross the barrier, resulting in a high reaction rate."
+    },
+    {
+      "question": "A reaction has the rate law: Rate = k[NO]²[O₂]. If the volume of the container is halved, the rate will increase by a factor of:",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Halving the volume doubles the concentration. \n\nSince the reaction is 3rd order overall (2+1=3), the rate increases by 2^3 = 8."
+    },
+    {
+      "question": "Which graph represents a zero-order reaction?",
+      "options": [
+        "A plot of [A] vs t is a straight line with a negative slope",
+        "A plot of ln[A] vs t is a straight line",
+        "A plot of 1/[A] vs t is a straight line",
+        "A plot of rate vs t is a parabola"
+      ],
+      "answer": 0,
+      "explanation": "For zero-order, [A] = -kt + [A]0, so a plot of concentration vs time is linear."
+    },
+    {
+      "question": "The time taken for 75% of a first-order reaction to be completed is how many half-lives?",
+      "options": [
+        "1 half-life",
+        "2 half-lives",
+        "3 half-lives",
+        "4 half-lives"
+      ],
+      "answer": 1,
+      "explanation": "After 1 half-life, 50% remains.\n\n After 2 half-lives, 25% remains (meaning 75% has reacted)."
+    },
+    {
+      "question": "The 'Activated Complex' (Transition State) is located where on a reaction energy diagram?",
+      "options": [
+        "At the lowest energy point (reactants)",
+        "At the lowest energy point (products)",
+        "At the peak of the energy barrier",
+        "Halfway between reactants and the peak"
+      ],
+      "answer": 2,
+      "explanation": "The activated complex is the unstable, high-energy arrangement of atoms at the maximum point of the activation energy barrier."
+    },
+    {
+      "question": "In the reaction 2N₂O₅ → 4NO₂ + O₂, if NO₂ is being formed at a rate of 0.040 mol/L·s, what is the rate of disappearance of N₂O₅?",
+      "options": [
+        "0.080 mol/L·s",
+        "0.040 mol/L·s",
+        "0.020 mol/L·s",
+        "0.010 mol/L·s"
+      ],
+      "answer": 2,
+      "explanation": "Based on stoichiometry, the rate of N₂O₅ disappearance is half the rate of NO₂ formation (2/4 = 1/2).\n 0.040 / 2 = 0.020."
+    },
+
+
+
+
+
+    {
+      "question": "Which of these factors will increase the collision frequency between gaseous molecules?",
+      "options": [
+        "Decreasing the temperature",
+        "Increasing the volume of the container",
+        "Increasing the pressure (by decreasing volume)",
+        "Adding an inert gas at constant volume"
+      ],
+      "answer": 2,
+      "explanation": "Increasing pressure by decreasing volume crowds the molecules together, leading to more frequent collisions."
+    },
+    {
+      "question": "For a second-order reaction, if a plot of 1/[A] vs time is made, the slope of the line is equal to:",
+      "options": [
+        "-k",
+        "k",
+        "ln(k)",
+        "-Ea/R"
+      ],
+      "answer": 1,
+      "explanation": "The integrated rate law for second-order is 1/[A] = kt + 1/[A]0.\n The slope is positive k."
+    },
+    {
+      "question": "What is the effect of an inhibitor on a chemical reaction?",
+      "options": [
+        "It lowers the activation energy",
+        "It increases the yield of the product",
+        "It decreases the rate of the reaction",
+        "It makes the reaction more exothermic"
+      ],
+      "answer": 2,
+      "explanation": "An inhibitor is a substance that slows down or prevents a chemical reaction."
+    },
+    {
+      "question": "Which order of reaction has a half-life that is independent of the initial concentration?",
+      "options": [
+        "Zero order",
+        "First order",
+        "Second order",
+        "Third order"
+      ],
+      "answer": 1,
+      "explanation": "For first-order, t1/2 = 0.693 / k.\n\n There is no concentration term in the formula."
+    }
+
+  ]

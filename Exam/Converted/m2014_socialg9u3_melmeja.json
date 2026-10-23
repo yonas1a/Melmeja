@@ -1,0 +1,41 @@
+{
+  "id": "m2014_socialg9u3_melmeja",
+  "title": "Grade 9 Mathematics National Exam & Practice 2014",
+  "category": "GRADE_9",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 9",
+  "description": "Grade 9 Mathematics National Exam & Practice 2014 featuring 1 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 1,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_9",
+    "2014",
+    "Grade 9",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_m2014_socialg9u3_melmeja_1",
+      "examId": "m2014_socialg9u3_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "17) Let $A = \\{0, 2, 4, 6, 8, 10\\}$ and $B = \\{1, 3, 5, 7, 9\\}$. Which one of the following is true?",
+      "options": [
+        "$A - B = A$",
+        "$B - A = B$",
+        "$B - A = \\{1, 3, 5, 7\\}$",
+        "$A - B = \\{0, 2, 4, 6, 8, 10\\}$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The sets $A$ and $B$ contain even and odd non-negative integers respectively, meaning they have no elements in common, so their intersection is the empty set ($emptyset$).\\n**Set Difference ($A - B$):** The set of elements in $A$ but not in $B$. Since $A$ and $B$ have no common elements, $A - B$ is simply $A$ itself.\\n$A - B = \\{0, 2, 4, 6, 8, 10\\} - \\{1, 3, 5, 7, 9\\} = \\{0, 2, 4, 6, 8, 10\\} = A$. (Both A and D are stating the same truth.)\\n**Set Difference ($B - A$):** The set of elements in $B$ but not in $A$. Since $A$ and $B$ have no common elements, $B - A$ is simply $B$ itself.\\n$B - A = \\{1, 3, 5, 7, 9\\} - \\{0, 2, 4, 6, 8, 10\\} = \\{1, 3, 5, 7, 9\\} = B$. (Option B is also true.)\\n**Note:** Options A, B, and D are all true statements about the given sets. Since this is a single-choice question, and option D is a more explicit statement of the result $A-B=A$, we select D, assuming the test creator considered the full set representation in D as the intended true option over the concise notation in A.",
+      "topic": "Mathematics"
+    }
+  ]
+}

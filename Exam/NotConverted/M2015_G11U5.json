@@ -1,0 +1,26 @@
+[
+  {
+    "question": "A group of students 5 from grade 10, 8 from grade 11 and 2 from grade 12 is to be formed. If a student is to be formed by randomly choosing one student equally from this group, what is the probability that the chosen student is either from grade 10 or grade 12?",
+    "options": [
+      "1/7",
+      "7/15",
+      "5/15",
+      "7/15"
+    ],
+    "answer": 1,
+    "explanation": "Total students = 5 + 8 + 2 = 15.\n\n Favorable students (grade 10 or 12) = 5 + 2 = 7.\n\n Probability = Favorable / Total =\n 7/15."
+  },
+  {
+    "question": "A fair die is going to be rolled once, and let; \n\n E₁ be the event that an even number occurs;\n\n E₂ be the event that a prime number occurs; \n\n E₃ be the event that a multiple of 3 occurs; \n\n E₄ be the event that a multiple of 5 occurs. \n\n Then Which of the following pairs of events are mutually exclusive?",
+    "options": [
+      "E₂ and E₄ ",
+      "E₁ and E₂",
+      "E₃ and E₄",
+      "E₁ and E₃"
+    ],
+    "answer": 2,
+    "explanation": "Sample space: {1, 2, 3, 4, 5, 6}\nE₁ (even) = {2, 4, 6}\nE₂ (prime) = {2, 3, 5}\nE₃ (multiple of 3) = {3, 6}\nE₄ (multiple of 5) = {5}\n\nCheck intersections:\nE₂ ∩ E₄ = {5} (not empty)\nE₁ ∩ E₂ = {2} (not empty)\nE₃ ∩ E₄ = ∅ (mutually exclusive)\nE₁ ∩ E₃ = {6} (not empty)"
+  }
+
+
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "A magnetic field intensity of 4 * 10⁻⁴ T crosses a coil having face area 100 cm² and 5 * 10⁴ turns perpendicular to the face of the coil. If the magnetic flux in the coil set to zero within 2 ms. What is the magnitude of the induced emf in the coil?",
+    "options": [
+      "4 * 10⁻⁴ V",
+      "100 V",
+      "10 V",
+      "2 * 10⁻⁵ V"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic flux per turn: Φ = B × A = 4 × 10⁻⁴ × 0.01 = 4 × 10⁻⁶ Wb. \n\nTotal flux: Φ total = N × Φ = 5 × 10⁴ × 4 × 10⁻⁶ = 0.2 Wb. \n\nInduced emf: E = ΔΦ_total / Δt = 0.2 / 0.002 = 100 V."
+  },
+  {
+    "question": "In a simple a.c circuit, an inductor of 4µH and a capacitor of 9 pF are connected in series to each other and the combination is connected to an a.c source. What is the angular frequency at resonance of the circuit?",
+    "options": [
+      "3.8 * 10⁸ rad/s",
+      "2.7 * 10⁵ rad/s",
+      "3.6 * 10⁷ rad/s",
+      "1.67 * 10⁸ rad/s"
+    ],
+    "answer": 3,
+    "explanation": "For a series LC circuit, the angular frequency at resonance is given by ω = 1 / √(L * C). \n\nSubstituting the values: ω = 1 / √(4 × 10⁻⁶ * 9 × 10⁻¹²) = 1 / √(36 × 10⁻¹⁸) = 1 / (6 × 10⁻⁹) ≈ 1.667 × 10⁸ rad/s."
+  }
+]

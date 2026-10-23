@@ -22,7 +22,7 @@ import {
   FirebaseUser 
 } from '../lib/firebase';
 import { UserProfile, UserRole } from '../types';
-import { EXAM_PACKAGES } from '../data/examsData';
+import { EXAM_PACKAGES, INITIAL_EXAMS, LEGACY_PACKAGE_ALIASES } from '../data/examsData';
 
 interface AuthContextType {
   user: FirebaseUser | null;
@@ -38,7 +38,7 @@ interface AuthContextType {
   resetPassword: (email: string) => Promise<void>;
   signOut: () => Promise<void>;
   switchRoleDemo: (role: UserRole) => Promise<void>;
-  hasExamAccess: (examId: string, isFree?: boolean, packageRequired?: string) => boolean;
+  hasExamAccess: (examId: string, isFree?: boolean, packageRequired?: string, examCategory?: string) => boolean;
   refreshUserProfile: () => Promise<void>;
 }
 
@@ -74,11 +74,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
               }
             }
 
-            // Ensure role is normalized to student for standard accounts unless admin
-            if (data.role !== 'admin' && data.email !== 'yayele492@gmail.com') {
-              if (data.role !== 'student') {
-                data.role = 'student';
-              }
+            // STRICT ROLE NORMALIZATION:
+            // Only yayele492@gmail.com is ever granted the 'admin' role.
+            // Any other account is strictly normalized to 'student'.
+            const isMasterAdmin = (currentUser.email && currentUser.email.toLowerCase() === 'yayele492@gmail.com') ||
+                                  (data.email && data.email.toLowerCase() === 'yayele492@gmail.com');
+            if (isMasterAdmin) {
+              data.role = 'admin';
+            } else {
+              data.role = 'student';
             }
 
             data.paidPackages = data.paidPackages || [];
@@ -86,15 +90,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
             setUserProfile(data);
           } else {
-            // Document doesn't exist yet, create default student profile with NO free or auto-unlocked exams
+            const isAdminEmail = currentUser.email?.toLowerCase() === 'yayele492@gmail.com';
             const newProfile: UserProfile = {
               uid: currentUser.uid,
               name: currentUser.displayName || currentUser.email?.split('@')[0] || 'Student',
               email: currentUser.email || '',
               authProvider: currentUser.providerData.some(p => p.providerId === 'google.com') ? 'google' : 'password',
               emailVerified: currentUser.emailVerified || currentUser.providerData.some(p => p.providerId === 'google.com'),
-              role: 'student',
-              paidPackages: [],
+              role: isAdminEmail ? 'admin' : 'student',
+              paidPackages: isAdminEmail ? ['ALL_IN_ONE'] : [],
               allowedExams: [],
               createdAt: new Date().toISOString()
             };
@@ -250,78 +254,59 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setUserProfile(null);
   };
 
-  // 8. Demo Role Switcher (Student <-> Admin for easy developer testing)
-  const switchRoleDemo = async (role: UserRole) => {
-    if (!user || !userProfile) return;
-    try {
-      const userDocRef = doc(db, 'users', user.uid);
-      const isNowAdmin = role === 'admin';
-      const allExams = [
-        'ngat_mock_01', 'ngat_mock_02', 'gat_mock_01', 
-        'exit_cs_2026', 'exit_law_2026', 'exit_med_2026', 'euee_nat_sci_2026'
-      ];
-      
-      let targetPaidPackages: string[] = [];
-      let targetAllowedExams: string[] = [];
-
-      if (isNowAdmin) {
-        targetPaidPackages = ['ALL_IN_ONE'];
-        targetAllowedExams = allExams;
-      } else {
-        // Fetch actual approved submissions if returning to student
-        const approvedSnap = await getDocs(
-          query(
-            collection(db, 'paymentSubmissions'),
-            where('userId', '==', user.uid),
-            where('status', '==', 'approved')
-          )
-        );
-        approvedSnap.forEach(d => {
-          const pData = d.data() as any;
-          if (pData.packageId) {
-            targetPaidPackages.push(pData.packageId);
-            const targetPkg = EXAM_PACKAGES.find(p => p.id === pData.packageId);
-            if (targetPkg) {
-              targetPkg.includedExamIds.forEach(id => {
-                if (!targetAllowedExams.includes(id)) targetAllowedExams.push(id);
-              });
-            }
-          }
-        });
-      }
-
-      const updateData = {
-        role,
-        paidPackages: targetPaidPackages,
-        allowedExams: targetAllowedExams
-      };
-
-      await updateDoc(userDocRef, updateData);
-      setUserProfile({
-        ...userProfile,
-        ...updateData
-      });
-    } catch (e) {
-      console.error('Error updating role:', e);
-    }
+  // 8. Demo Role Switcher — Secured: disabled in production for security
+  const switchRoleDemo = async (_role: UserRole) => {
+    console.warn('Role switching is disabled for security.');
   };
 
-  // 9. Check Exam Access Permission — STRICT: only allow if explicitly granted
-  const hasExamAccess = (examId: string, _isFree?: boolean, packageRequired?: string): boolean => {
+  // 9. Check Exam Access Permission — Category-based access & strict verification
+  const hasExamAccess = (examId: string, _isFree?: boolean, packageRequired?: string, examCategory?: string): boolean => {
     // Must be logged in
     if (!user || !userProfile) return false;
 
-    // Admin always has full access
-    if (userProfile.role === 'admin' || user.email === 'yayele492@gmail.com') return true;
+    // Verified Admin always has full access
+    if (user.email?.toLowerCase() === 'yayele492@gmail.com' || userProfile.email?.toLowerCase() === 'yayele492@gmail.com') {
+      return true;
+    }
 
     // Check if explicitly in allowedExams list
     if (userProfile.allowedExams?.includes(examId)) return true;
 
-    // Check ALL_IN_ONE master package
+    // Check ALL_IN_ONE master VIP package
     if (userProfile.paidPackages?.includes('ALL_IN_ONE')) return true;
 
-    // Check required package specifically
-    if (packageRequired && userProfile.paidPackages?.includes(packageRequired)) return true;
+    // Resolve exam details for category-based check
+    const examObj = INITIAL_EXAMS.find(e => e.id === examId);
+    const cat = examCategory || examObj?.category;
+    const effectivePackage = packageRequired || examObj?.packageRequired;
+
+    // Check required package directly or through legacy aliases
+    if (effectivePackage) {
+      if (userProfile.paidPackages?.includes(effectivePackage)) return true;
+      const alias = LEGACY_PACKAGE_ALIASES[effectivePackage];
+      if (alias && userProfile.paidPackages?.includes(alias)) return true;
+    }
+
+    // CATEGORY-BASED UNLOCK:
+    // A single payment for a category unlocks ALL exams within that category!
+    if (cat === 'GRADE_9') {
+      if (userProfile.paidPackages?.some(p => p === 'GRADE_9_ALL' || p === 'GRADE_9_PACK' || p === 'GRADE_9')) return true;
+    } else if (cat === 'GRADE_10') {
+      if (userProfile.paidPackages?.some(p => p === 'GRADE_10_ALL' || p === 'GRADE_10_PACK' || p === 'GRADE_10')) return true;
+    } else if (cat === 'GRADE_11') {
+      if (userProfile.paidPackages?.some(p => p === 'GRADE_11_ALL' || p === 'GRADE_11_PACK' || p === 'GRADE_11')) return true;
+    } else if (cat === 'GRADE_12' || cat === 'ENTRANCE') {
+      if (userProfile.paidPackages?.some(p => 
+        p === 'GRADE_12_ALL' || p === 'GRADE_12_PACK' || p === 'ENTRANCE_EUEE' || 
+        p === 'ENTRANCE_ALL' || p === 'GRADE_12' || p === 'ENTRANCE'
+      )) return true;
+    } else if (cat === 'GAT') {
+      if (userProfile.paidPackages?.some(p => p === 'GAT_ALL' || p === 'GAT_BASIC' || p === 'GAT_PREM' || p === 'AAU_GAT' || p === 'GAT')) return true;
+    } else if (cat === 'NGAT') {
+      if (userProfile.paidPackages?.some(p => p === 'NGAT_ALL' || p === 'NGAT_PREM' || p === 'NGAT_MOCK_01' || p === 'NGAT_MOCK_02' || p === 'NGAT')) return true;
+    } else if (cat === 'EXIT') {
+      if (userProfile.paidPackages?.some(p => p === 'EXIT_ALL' || p === 'EXIT_CS' || p === 'EXIT_LAW' || p === 'EXIT_MED' || p === 'EXIT_ACC' || p === 'EXIT')) return true;
+    }
 
     // Check any paid package that includes this examId
     const matchingPackage = EXAM_PACKAGES.find(pkg =>
@@ -351,7 +336,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     userProfile?.authProvider === 'google'
   );
 
-  const isAdmin = Boolean(userProfile?.role === 'admin');
+  // Strict Admin identity verification: only yayele492@gmail.com
+  const isAdmin = Boolean(
+    (user?.email && user.email.toLowerCase() === 'yayele492@gmail.com') ||
+    (userProfile?.email && userProfile.email.toLowerCase() === 'yayele492@gmail.com')
+  );
 
   return (
     <AuthContext.Provider value={{

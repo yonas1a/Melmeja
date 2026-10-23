@@ -10,11 +10,10 @@ service cloud.firestore {
       return isAuthenticated() && request.auth.uid == userId;
     }
     
+    // Strict admin check: only the verified master admin account
     function isAdmin() {
-      let userPath = /databases/$(database)/documents/users/$(request.auth.uid);
       return isAuthenticated() && (
-        request.auth.token.email == 'yayele492@gmail.com' ||
-        (exists(userPath) && get(userPath).data.get('role', '') == 'admin')
+        request.auth.token.email == 'yayele492@gmail.com'
       );
     }
 
@@ -27,17 +26,33 @@ service cloud.firestore {
       );
     }
 
-    // Fixed: Restrict reading user profiles to document owner or admin
+    // User profiles security:
+    // Regular students can read/update their own profile and create their own profile with 'student' role.
+    // They CANNOT tamper with or escalate 'role' to admin.
     match /users/{userId} {
       allow read: if isOwner(userId) || isAdmin();
-      allow create: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
-      allow update: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && (
+        isAdmin() || (
+          request.auth.uid == userId &&
+          (!('role' in request.resource.data) || request.resource.data.role == 'student')
+        )
+      );
+      allow update: if isAdmin() || (
+        isOwner(userId) &&
+        // Prevent privilege escalation: students cannot escalate role to admin
+        (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']))
+      );
       allow delete: if isAdmin();
     }
 
     match /paymentSubmissions/{submissionId} {
       allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
-      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      // Students can create payment submissions for their own user ID:
+      // status 'pending' for manual review, or status 'approved' for auto-verified SMS payments
+      allow create: if isAuthenticated() && 
+        request.resource.data.userId == request.auth.uid &&
+        (request.resource.data.status == 'pending' || request.resource.data.status == 'approved');
+      // Only the verified admin can approve, reject, or delete payment submissions
       allow update, delete: if isAdmin();
     }
 
@@ -48,7 +63,7 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
-    // Exams: admins can write; paid users can read
+    // Exams: admins can write; paid users or admin can read
     match /exams/{examId} {
       allow read: if isAdmin() || (isAuthenticated() && hasAnyAccess());
       allow write: if isAdmin();
@@ -58,6 +73,25 @@ service cloud.firestore {
     match /questions/{questionId} {
       allow read: if isAdmin() || (isAuthenticated() && hasAnyAccess());
       allow write: if isAdmin();
+    }
+
+    // Transactions captured by the SMS app (Telebirr 127 SMS listener)
+    // Used for automatic payment verification on the web frontend.
+    // Read and write are enabled so SMS app can push transactions and web app can verify.
+    match /payment_from_127/{txnId} {
+      allow read, write: if true;
+    }
+
+    match /transactions/{txnId} {
+      allow read, write: if true;
+    }
+
+    match /telebirr_transactions/{txnId} {
+      allow read, write: if true;
+    }
+
+    match /sms_transactions/{txnId} {
+      allow read, write: if true;
     }
 
     // Admin config (e.g. hiddenExamIds): admins write, any authenticated user reads

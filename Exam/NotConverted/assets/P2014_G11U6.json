@@ -1,0 +1,36 @@
+[
+  {
+    "question": "A torque τ rotates an object of mass m and moment of inertia I through an angle θ. The work done on the object by the torque is ______.",
+    "options": [
+      "Iθ",
+      "mθ",
+      "τθ",
+      "τI"
+    ],
+    "answer": 2,
+    "explanation": " The work done by a torque τ when it rotates an object through an angle θ (in radians) is given by W = τ × θ.\n]n This is analogous to linear work W = F × d, but for rotational motion."
+  },
+  {
+    "question": "A wheel rotating at angular speed of 20 rev/s is brought to rest after 40 rev under a constant angular acceleration. The angular acceleration of a point on the wheel is",
+    "options": [
+      "5 rev/s²",
+      "-5 rev/s²",
+      "-0.5 rev/s²",
+      "0.25 rev/s²"
+    ],
+    "answer": 1,
+    "explanation": "Given: initial angular speed ω = 20 rev/s, final angular speed ωf = 0, angular displacement θ = 40 rev. \n\nUsing equation ωf² = ω² + 2αθ, \n\nwe have 0 = 20² + 2*α*40 \n\n→ 0 = 400 + 80α \n→ α = -400/80 = -5 rev/s².\n\n The negative sign indicates angular deceleration."
+  },
+
+  {
+    "question": "The parallel axis theorem states that if Icm is the moment of inertia of a body of mass M about an axis passing through its center of mass (CM), its moment of inertia about any axis is ",
+    "options": [
+      "perpendicular to and a displacement d from the axis through the cm is I = Icm + 1/2 Md².",
+      "parallel to and a displacement d from the axis through the cm is I = Icm + Md².",
+      "perpendicular to and a displacement d from the axis through the cm is I = Icm - Md².",
+      "parallel to and a displacement d from the axis through the cm is I = Icm  1/2 Md²."
+    ],
+    "answer": 1,
+    "explanation": "The parallel axis theorem states that the moment of inertia of a body about any axis parallel to an axis through its center of mass (CM) is given by I = Icm + Md²,\n\n where M is the mass of the body and d is the perpendicular distance between the axes.\n\n Hence, the correct option is the one describing a parallel axis and I = Icm + Md²."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "question": "The apparent weight of a 60 kg student standing inside a lift is",
+    "options": [
+      "600 N when the lift accelerates with acceleration equal to gravitational acceleration.",
+      "480 N when the lift accelerates upward with 2 m/s².",
+      "480 N when the lift accelerates downward with 2 m/s².",
+      "720 N when the lift is at rest."
+    ],
+    "answer": 2,
+    "explanation": "The apparent weight of a person in a lift is the normal reaction N. For a mass m = 60 kg and g = 10 m/s²: \n\n(i) If the lift accelerates upward with acceleration a, N = m(g + a). \n\n(ii) If the lift accelerates downward with acceleration a, N = m(g − a). \n\n(iii) If the lift is at rest, N = mg. \n\nNow checking the options: For upward acceleration of 2 m/s², N = 60(10 + 2) = 720 N, not 480 N, so option 2 is incorrect. \n\nFor downward acceleration of 2 m/s², N = 60(10 − 2) = 480 N, which matches option 3. \n\nWhen the lift is at rest, N = 60 × 10 = 600 N, not 720 N, so option 4 is incorrect. \n\nIf the lift accelerates with acceleration equal to g, the apparent weight is either 0 (downward) or 1200 N (upward), not 600 N, so option 1 is incorrect."
+  }
+]

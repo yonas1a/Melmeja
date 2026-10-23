@@ -1,0 +1,158 @@
+[
+  {
+    "type": "note",
+    "title": "UNIT 2: POLYNOMIAL FUNCTIONS",
+    "notes": "✓ Polynomial function → a function of the form :- \n\np(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₂x² + a₁x + a₀, where n is a non-negative integer and aₙ ≠ 0.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "POLYNOMIAL EXPRESSION",
+    "notes": "✓ Polynomial expression → an expression of the form:\naₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀\n\n◆ Term → each individual part aₖxᵏ.\n\n◆ Coefficient → numerical factor multiplying a variable.\n\n◆ Constant term → term without a variable.\n\n◆ Degree → highest exponent of x with a non-zero coefficient.\n\n◆ Leading coefficient → coefficient of the highest-degree term.\n\nExample:\np(x)=3x⁵−2x³+7x−4\nDegree = 5\nLeading coefficient = 3\nConstant term = −4.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "WHAT IS NOT A POLYNOMIAL?",
+    "notes": "✓ An expression is not a polynomial in x if the variable has a negative or non-integer exponent, appears in a denominator, or occurs inside a radical.\n\nExamples:\n◆ 1/x² → not a polynomial.\n◆ √x → not a polynomial.\n◆ x⁻³ → not a polynomial.\n\n3x⁴−2x²+x+5 → polynomial.\n\n✓ Powers of x in a polynomial must be non-negative integers.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TYPES OF POLYNOMIAL FUNCTIONS",
+    "notes": "◆ Constant function:\nf(x)=b\nDegree = 0.\n\n◆ Linear function:\nf(x)=ax+b, a≠0\nDegree = 1.\n\n◆ Quadratic function:\nf(x)=ax²+bx+c, a≠0\nDegree = 2.\n\n◆ Cubic function:\nf(x)=ax³+bx²+cx+d, a≠0\nDegree = 3.\n\nHigher-degree polynomials have degree 4, 5, 6, ... depending on their highest power.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "POLYNOMIALS OVER DIFFERENT NUMBER SYSTEMS",
+    "notes": "◆ Polynomial over integers → all coefficients are integers.\n\n◆ Polynomial over rational numbers → all coefficients are rational numbers.\n\n◆ Polynomial over real numbers → all coefficients are real numbers.\n\nExample:\np(x)=2x³−5x+1\nhas integer, rational and real coefficients.\n\n✓ The type depends on the number system containing the coefficients.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "2.2 OPERATIONS ON POLYNOMIAL FUNCTIONS",
+    "notes": "✓ Polynomial functions can be combined using the four fundamental operations:\n\n◆ Addition:\n(f+g)(x)=f(x)+g(x)\n\n◆ Subtraction:\n(f−g)(x)=f(x)−g(x)\n\n◆ Multiplication:\n(fg)(x)=f(x)g(x)\n\n◆ Division:\n(f÷g)(x)=f(x)÷g(x), where g(x)≠0.\n\n✓ Like terms are combined when adding or subtracting polynomials.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "ADDITION & SUBTRACTION OF POLYNOMIALS",
+    "notes": "✓ To add or subtract polynomials, combine like terms.\n\nExample:\nf(x)=2x³+3x²−x+4\ng(x)=x³−2x²+5x−1\n\n(f+g)(x)=3x³+x²+4x+3.\n\n(f−g)(x)=x³+5x²−6x+5.\n\n✓ Like terms have the same variable and the same exponent.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "MULTIPLICATION OF POLYNOMIALS",
+    "notes": "✓ Use the distributive property to multiply every term in one polynomial by every term in the other.\n\nExample:\n(x+2)(x+3)\n= x²+3x+2x+6\n= x²+5x+6.\n\nImportant laws:\na(b+c)=ab+ac\n\n✓ After multiplying, combine like terms.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "DIVISION OF POLYNOMIALS",
+    "notes": "✓ Polynomial division is similar to ordinary long division.\n\nWhen dividing f(x) by g(x), obtain:\nDividend = Divisor × Quotient + Remainder.\n\n✓ Stop when the degree of the remainder is less than the degree of the divisor.\n\nExample:\nx³−1 divided by x−1 gives:\nx³−1=(x−1)(x²+x+1)+0.\n\nTherefore the quotient is x²+x+1 and the remainder is 0.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "2.3 POLYNOMIAL DIVISION THEOREM",
+    "notes": "✓ If f(x) and d(x) are polynomials, d(x)≠0, and degree of d(x) ≤ degree of f(x), then there are unique polynomials q(x) and r(x) such that:\n\nf(x)=d(x)q(x)+r(x)\n\nwhere:\nr(x)=0 or degree of r(x) < degree of d(x).\n\nThis is the Polynomial Division Theorem.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "REMAINDER THEOREM",
+    "notes": "✓ Remainder Theorem → when a polynomial f(x) is divided by x−c, the remainder is f(c).\n\n✓ Formula:\nRemainder = f(c)\n\nExample:\nf(x)=x²+2x+3\nDivide by x−2.\n\nRemainder = f(2)\n=4+4+3\n=11.\n\nTherefore the remainder is 11.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "FACTOR THEOREM",
+    "notes": "✓ Factor Theorem → x−c is a factor of f(x) if and only if f(c)=0.\n\n✓ Rule:\nf(c)=0 ⇔ x−c is a factor of f(x).\n\nExample:\nf(x)=x²−5x+6\n\nf(2)=4−10+6=0.\n\nTherefore x−2 is a factor.\n\nFactoring:\nx²−5x+6=(x−2)(x−3).",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "2.4 ZEROS OF A POLYNOMIAL",
+    "notes": "✓ Zero of a polynomial → a value c for which:\nf(c)=0.\n\nThe zeros are also called roots or solutions of f(x)=0.\n\n✓ Relationship:\nZero c ⇔ x−c is a factor.\n\nExample:\nf(x)=(x−2)(x+3)\n\nZeros:\nx=2 and x=−3.\n\nThe corresponding x-intercepts are (2,0) and (−3,0).",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "RATIONAL & IRRATIONAL ZEROS",
+    "notes": "✓ Rational zero → a zero that can be written as p/q, where p and q are integers and q≠0.\n\n✓ Irrational zero → a real zero that cannot be expressed as a ratio of integers.\n\nExample:\nf(x)=x²−3\n\nZeros:\nx=±√3.\n\nSince √3 is irrational, both zeros are irrational.\n\nPolynomial zeros may be rational, irrational, or non-real.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "RATIONAL ZERO TEST",
+    "notes": "✓ For a polynomial with integer coefficients:\np(x)=aₙxⁿ+...+a₀\n\nPossible rational zeros have the form:\n±p/q\n\n◆ p → factor of the constant term a₀.\n◆ q → factor of the leading coefficient aₙ.\n\nExample:\np(x)=2x³+3x²−8x−12\n\nPossible rational zeros are obtained from factors of 12 divided by factors of 2.\n\nThe test gives possible candidates; each candidate must be checked.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "LOCATION THEOREM",
+    "notes": "✓ Location Theorem → if f(a) and f(b) have opposite signs, then a polynomial f has at least one zero between a and b.\n\n✓ Condition:\nf(a)·f(b)<0\n\nExample:\nf(1)>0 and f(2)<0.\n\nTherefore f has at least one zero between 1 and 2.\n\nThis theorem is useful for locating real zeros, especially irrational zeros.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "NUMBER OF POSSIBLE ZEROS",
+    "notes": "✓ A polynomial of degree n can have at most n real zeros.\n\nExample:\nA cubic polynomial has degree 3, so it can have at most 3 real zeros.\n\nA fourth-degree polynomial can have at most 4 real zeros.\n\nThe number of real zeros may be less than the degree because some zeros may be repeated or non-real.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "MULTIPLICITY OF A ZERO",
+    "notes": "✓ Multiplicity → the number of times a factor corresponding to a zero occurs.\n\nExample:\nf(x)=(x−2)³(x+1)\n\nZero x=2 has multiplicity 3.\nZero x=−1 has multiplicity 1.\n\n◆ Even multiplicity → graph generally touches the x-axis and turns back.\n◆ Odd multiplicity → graph generally crosses the x-axis.\n\nMultiplicity helps describe the behavior of polynomial graphs at their zeros.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "2.5 GRAPHS OF POLYNOMIAL FUNCTIONS",
+    "notes": "✓ The graph of a polynomial is the set of points (x,f(x)).\n\n◆ Important features include:\n• x-intercepts\n• y-intercept\n• Zeros\n• Turning points\n• Degree\n• Leading coefficient\n• End behavior\n• Multiplicity\n\ny-intercept → f(0).\nx-intercepts → values where f(x)=0.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "X-INTERCEPT & Y-INTERCEPT",
+    "notes": "✓ x-intercept → where the graph crosses or touches the x-axis.\n\nTo find it:\nf(x)=0.\n\ny-intercept → where the graph crosses the y-axis.\n\nTo find it:\nx=0.\n\nExample:\nf(x)=x²−4x+3\n\nx-intercepts:\n(x−1)(x−3)=0\nx=1,3.\n\ny-intercept:\nf(0)=3 → (0,3).",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "END BEHAVIOR OF POLYNOMIALS",
+    "notes": "✓ End behavior describes what happens to f(x) as x becomes very large positive or negative.\n\n◆ Even degree + positive leading coefficient → both ends go upward.\n\n◆ Even degree + negative leading coefficient → both ends go downward.\n\n◆ Odd degree + positive leading coefficient → left end down, right end up.\n\n◆ Odd degree + negative leading coefficient → left end up, right end down.\n\n✓ Degree determines the general shape; leading coefficient determines the direction.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "ODD-DEGREE POLYNOMIALS",
+    "notes": "✓ For an odd-degree polynomial:\n\n◆ Positive leading coefficient:\nAs x→−∞, f(x)→−∞\nAs x→+∞, f(x)→+∞\n\n◆ Negative leading coefficient:\nAs x→−∞, f(x)→+∞\nAs x→+∞, f(x)→−∞\n\nOdd-degree polynomial graphs have opposite end directions.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "EVEN-DEGREE POLYNOMIALS",
+    "notes": "✓ For an even-degree polynomial:\n\n◆ Positive leading coefficient:\nBoth ends rise upward.\n\n◆ Negative leading coefficient:\nBoth ends fall downward.\n\nExample:\nf(x)=x⁴−2x²+1\n→ degree 4, positive leading coefficient.\n→ both ends rise.\n\nExample:\ng(x)=−x⁴+x²\n→ degree 4, negative leading coefficient.\n→ both ends fall.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TURNING POINTS",
+    "notes": "✓ Turning point → a point where the graph changes direction from increasing to decreasing or from decreasing to increasing.\n\n✓ A polynomial of degree n can have at most n−1 turning points.\n\nExamples:\n◆ Degree 2 → at most 1 turning point.\n◆ Degree 3 → at most 2 turning points.\n◆ Degree 4 → at most 3 turning points.\n\nFor general higher-degree polynomials, finding exact turning points requires more advanced methods.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "POLYNOMIAL GRAPH & NUMBER OF X-INTERCEPTS",
+    "notes": "✓ A polynomial of degree n can have at most n x-intercepts.\n\nExample:\nA fourth-degree polynomial can intersect the x-axis at most 4 times.\n\nIt may have fewer intersections.\n\nA fourth-degree polynomial may have:\n◆ 0 real x-intercepts\n◆ 1 or 2 real x-intercepts\n◆ 3 or 4 real x-intercepts, depending on its zeros.\n\nx-intercepts correspond to real zeros.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "UNIT 2 QUICK FORMULA SUMMARY",
+    "notes": "✓ Polynomial:\np(x)=aₙxⁿ+...+a₁x+a₀, aₙ≠0.\n\n✓ Degree → highest exponent.\n✓ Leading coefficient → coefficient of highest-degree term.\n\n✓ (f+g)(x)=f(x)+g(x)\n✓ (f−g)(x)=f(x)−g(x)\n✓ (fg)(x)=f(x)g(x)\n✓ (f÷g)(x)=f(x)/g(x), g(x)≠0.\n\n✓ Division:\nf(x)=d(x)q(x)+r(x)\n\n✓ Remainder theorem:\nRemainder when divided by x−c = f(c).\n\n✓ Factor theorem:\nx−c is a factor ⇔ f(c)=0.\n\n✓ Zero:\nf(c)=0.\n\n✓ Location theorem:\nf(a)f(b)<0 → at least one zero between a and b.\n\n✓ Maximum number of real zeros = degree.\n✓ Maximum turning points = degree−1.\n\n✓ End behavior depends on degree and leading coefficient.",
+    "image": null
+  }
+]

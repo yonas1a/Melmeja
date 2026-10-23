@@ -1,0 +1,47 @@
+[
+  {
+    "question": "The radian measure of an angle of 120° is equal to:",
+    "options": [
+      "π / 2",
+      "π / 8",
+      "2π / 3",
+      "π / 4"
+    ],
+    "answer": 2,
+    "explanation": "To convert degrees to radians, you multiply the angle in degrees by (π / 180).\n\nAngle in radians = 120 * (π/ 180)\n\n= 120 * π / 180\n= 12π / 18 (dividing both by 10)\n= 2π / 3 (dividing both by 6)\n\nSo, 120 degrees is equal to 2π/3 radians."
+  },
+  {
+    "question": "Which of the following is the measure of an exterior angle of a 10 sided regular polygons?",
+    "options": [
+      "180°",
+      "36°",
+      "72°",
+      "144°"
+    ],
+    "answer": 1,
+    "explanation": " To find the measure of one exterior angle, you divide 360° by the number of sides (n).\n\n In this case, n = 10.\n\n The calculation is 360° / 10 = 36°."
+  },
+  {
+    "question": "Which one of the following trigonometric values is correct?",
+    "options": [
+      "tan(-120°) = -1",
+      "cos(-60°) = √3 / 2",
+      "sin(-120°) = 0.5",
+      "cos(-120°) = -0.5"
+    ],
+    "answer": 3,
+    "explanation": "1. Option A: tan(-120°) is in Quadrant III. tan(120°) = √3. tan(-120°) = tan(240°) = √3. Not -1.\n\n2. Option B: cos(-60°) = cos(60°) = 1/2. Not √3/2.\n\n3. Option C: sin(-120°) is in Quadrant III. sin(-120) = -sin(120°) = -√3/2. Not 0.5.\n\n4. Option D: cos(-120°) is in Quadrant III. cos(-120°) = cos(120°) = -cos(60°) = -1/2.\n Since -1/2 = -0.5, this statement is correct."
+  },
+{
+  {
+    "question": "In ΔABC, if AB = 10 units, BC = 14 units and AC = 8 units, then the area of the triangle is",
+    "options": [
+      "16√3 square unit",
+      "16√2 square unit",
+      "10√6 square unit",
+      "16√6 square unit"
+    ],
+    "answer": 3,
+    "explanation": "Using Heron's formula: Area = √[s(s-a)(s-b)(s-c)], \nwhere s = (a+b+c)/2.\n\n Given a=14, b=8, c=10, s = (14+8+10)/2 = 16.\n\n Area = √[16(16-14)(16-8)(16-10)] =\n √(16*2*8*6) = \n√(1536) = \n√(256*6) =\n 16√6."
+  }
+]

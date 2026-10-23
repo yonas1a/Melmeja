@@ -1,0 +1,24 @@
+[
+{
+  "question": "16) In how many ways can the name for vertices of a triangle be given if different order by using letters A, B, C, D, E?",
+  "options": [
+    "A 60",
+    "B 120",
+    "C 20",
+    "D 20"
+  ],
+  "answer": 0,
+  "explanation": "A triangle has 3 vertices. We need to choose and arrange 3 unique letters from the 5 available letters (A, B, C, D, E). Since the order of the vertices matters (naming $\\triangle ABC$ is distinct from $\\triangle BAC$), this is a **Permutation** problem: $P(n, k) = \\frac{n!}{(n-k)!}$. Here $n=5$ (total letters) and $k=3$ (vertices of a triangle). $P(5, 3) = \\frac{5!}{(5-3)!} = \\frac{5!}{2!} = 5 \\times 4 \\times 3 = 60$. There are 60 ways to name the vertices."
+},
+{
+"question": "Which of the following describe combination of objects?",
+"options": [
+"A The number of ways of arranging $n$ objects taking $n$ at a time considering the order of the objects.",
+"B The number of ways of arranging the seat of $n$ people in a circle.",
+"C The number of ways of choosing $r$ objects from $n$ objects disregarding the order of selection.",
+"D The number of ways of arrangement of $n$ objects in a specific order using $r$ objects at a time."
+],
+"answer": 2,
+"explanation": "**Combination** is a method of counting the number of ways to **choose** or **select** items from a larger set where the **order of selection does not matter**.\n- Option C: 'The number of ways of choosing $r$ objects from $n$ objects **disregarding the order of selection**' is the precise definition of a combination ($C(n, r)$ or $\begin{pmatrix} n \\ r end{pmatrix}$). \n- Options A and D describe **Permutation**, which is about **arrangement** where order **does matter**."
+}
+]

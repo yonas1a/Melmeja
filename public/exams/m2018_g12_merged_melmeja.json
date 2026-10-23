@@ -1,0 +1,283 @@
+{
+  "id": "m2018_g12_merged_melmeja",
+  "title": "Grade 12 Mathematics Comprehensive Exam 2018 (5 Chapters Combined)",
+  "category": "GRADE_12",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 12",
+  "description": "Comprehensive examination bank combining 5 chapters (16 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 30,
+  "totalQuestions": 16,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_12",
+    "2018",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2018",
+  "questions": [
+    {
+      "id": "q_m2018_g12u1_melmeja_1",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": " Which of the following is equal to ∑ₖ₌₁⁶ (k - 1)²?",
+      "options": [
+        "0 + 2 + 6 + 8 + 10 + 12",
+        "0 + 1 + 4 + 9 + 16 + 25",
+        "1 + 4 + 9 + 16 + 25 + 36",
+        "1 + 3 + 6 + 12 + 16 + 18"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "∑ₖ₌₁⁶(k−1)² \n\n-> (1−1)²+(2−1)²+(3−1)²+(4−1)²+(5−1)²+(6−1)² = \n\n-> 0+1+4+9+16+25",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_2",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": " What does ∑ₙ₌₁⁵ (2n - 1) represent?",
+      "options": [
+        "It is the sum of the first five natural numbers.",
+        "It is the sum of the first five even natural numbers.",
+        "It is the sum of the first five odd natural numbers.",
+        "It is the sum of the first five non negative integers."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "∑ₙ₌₁⁵(2n−1) =\n\n (2×1−1)+(2×2−1)+(2×3−1)+(2×4−1)+(2×5−1) =\n\n 1+3+5+7+9. \n\nTherefore, it represents the sum of the first five odd natural numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_3",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is a convergent series?",
+      "options": [
+        "∑ₖ₌₁∞ (2ᵏ⁺¹) / (5ᵏ⁻¹)",
+        "∑ₖ₌₁∞ (4ᵏ⁺¹) / (3ᵏ⁻¹)",
+        "∑ₖ₌₁∞ (2/5)¹⁻ᵏ",
+        "∑ₖ₌₁∞ 5ᵏ⁻²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A: ∑ₖ₌₁∞(2ᵏ⁺¹)/(5ᵏ⁻¹) =\n\n 4∑ₖ₌₁∞(2/5)ᵏ⁻¹,\n\n with r=2/5<1,\n\n so the series converges.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_4",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": " A contest offers 17 prizes. The first prize worth Birr 6,000 and each of the other successive prize worth Birr 300 less than the proceeding prize. What is the total value of the prize in Birr?",
+      "options": [
+        "47,300",
+        "94,600",
+        "61,200",
+        "142,800"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a₁=6000, d=−300, n=17.\n\n a₁₇=6000+(17−1)(−300)=1200.\n\n S₁₇=17/2(6000+1200)=\n17/2×7200=\n61,200.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_5",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": " Let f(x) = x / (x² + 3x + 1). Then, f'(x) is equal to",
+      "options": [
+        "(1 - x²) / (x² + 3x + 1)²",
+        "1 / (2x + 3)",
+        "(3x² + 6x + 1) / (x² + 3x + 1)²",
+        "(-x³ - 3x) / (x² + 3x + 1)²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f'(x) = [(x²+3x+1)−x(2x+3)]/(x²+3x+1)² =\n\n (x²+3x+1−2x²−3x)/(x²+3x+1)² =\n\n (1−x²)/(x²+3x+1)²",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_6",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": " Let f(x) = x³ + 3x² - 9x + 7. Then, the graph of f is decreasing on",
+      "options": [
+        "[-3, 1]",
+        "(-∞, 1]",
+        "(-3, ∞)",
+        "(-∞, -3] ∪ [1, ∞)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(x)=x³+3x²−9x+7 \n⇒ f'(x)=3x²+6x−9=3(x+3)(x−1).\n\n f'(x)<0 when (x+3)(x−1)<0 ⇒ −3<x<1.\n\n Therefore, f is decreasing on [−3,1].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_7",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": " Water is being poured in a circular cylinder of radius 50 cm at a rate of change of volume 5000π cm³/sec. What is the rate of change of height of the level of water in the cylinder when the height is 40 cm?",
+      "options": [
+        "1/10 cm/sec",
+        "10 cm/sec",
+        "1/100 cm/sec",
+        "2 cm/sec"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "V=πr²h \n\n⇒ dV/dt=πr²(dh/dt).\n\n Given r=50 and dV/dt=5000π: \n\n5000π=π(50)²(dh/dt)\n\n ⇒ dh/dt=5000π/(2500π)=\n\n2 cm/sec.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_8",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following expressions is equal to ∫(4x³ - 3x⁻⁴ + 5)dx? (C is constant real number in all the cases)",
+      "options": [
+        "x⁴ + x⁻³ + 5x + C",
+        "4x⁴ - 3x⁻³ + 5x + C",
+        "(x⁴/4) + (3/5)x⁻⁵ + 5x + C",
+        "12x² + 12x⁻⁵ + 5x + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrating term by term using the power rule ∫xⁿdx = xⁿ⁺¹ / (n + 1):\n\n- ∫4x³ dx = 4 * (x⁴ / 4) = x⁴\n\n- ∫-3x⁻⁴ dx = -3 * (x⁻³ / -3) = x⁻³\n\n- ∫5 dx = 5x\n\nCombining these gives x⁴ + x⁻³ + 5x + C, which matches Option A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_9",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": " A library has registered the following data about daily book borrowers for ten consecutive days: 72, 84, 36, 84, 36, 30, 54, 92, 55, 83. What is the range of the data?",
+      "options": [
+        "84",
+        "92",
+        "62",
+        "30"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Range = maximum − minimum =\n 92 − 30 =\n 62.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_10",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": " Let L and S be the largest and smallest values of the given data respectively. The coefficient of range of the data is a relative measure given by",
+      "options": [
+        "(L + S) / (L - S)",
+        "(L - S) / (L + S)",
+        "(L - S) / S",
+        "(L - S) / L"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Coefficient of range = (L−S)/(L+S)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_11",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": " Consider the following Frequency curve of a data. Which one of the following is true about frequency curve of the data?",
+      "imageUrl": "images/M2018_55.png",
+      "diagramUrl": "images/M2018_55.png",
+      "options": [
+        "Mean < Median < Mode",
+        "Median < Mean < Mode",
+        "Mode < Median < Mean",
+        "Median < Mode < Mean"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Right-skewed distribution ⇒ Mode < Median < Mean",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_12",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": " The school management want to study grade eleven students' performance. There are ten sections of grade eleven in the school. Three sections of grade eleven are selected and all students in these three sections are taken as sample. Which one of the following is the sampling technique used by the school management?",
+      "options": [
+        "Simple random sampling technique",
+        "Stratified sampling technique",
+        "Cluster sampling method",
+        "Multistage sampling technique"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "10 sections → 3 sections selected → all students in the selected sections are included \n⇒ Cluster sampling.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_13",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": " What are the minimum and the maximum value of z = 2x + 3y subject to the constraints  x + y ≥ 2 \n x + y ≤ 5 \n 2y - x ≤ 4 \n x ≥ 0, y ≥ 0  , respectively?",
+      "options": [
+        "6 and 13",
+        "4 and 10",
+        "6 and 10",
+        "4 and 13"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Corner points: (0,2), (2,0), (5,0), (2,3).\n\n-> z=2x+3y\n ⇒ z(0,2)=6, \nz(2,0)=4,\n z(5,0)=10,\n z(2,3)=13.\n\n-> Therefore, minimum=4 and maximum=13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_14",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": " A company manufactures two products P and Q. Product P requires 2 hours on machine A and 1 hour on machine B. Product Q requires 1 hour on machine A and 1 hour on machine B. Machine A is available for at most 10 hours a day. Machine B is available for at most 8 hours a day. The profit for product P is Birr 40. The profit for product Q is Birr 30. How many units of P and Q should be produced to maximize the profit?",
+      "options": [
+        "4 units of P and 8 units of Q",
+        "2 units of P and 6 units of Q",
+        "10 units of P and 2 units of Q",
+        "4 units of P and 5 units of Q"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let P=x, Q=y.\n\n-> Constraints: 2x+y≤10, x+y≤8, x≥0, y≥0.\n\n-> At the intersection: 2x+y=10 and x+y=8 \n⇒ x=2, y=6.\n\n-> Profit = 40(2)+30(6)=260. \n\n-> Therefore, produce 2 units of P and 6 units of Q.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_15",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": " A shopkeeper wants to increase his profit from Birr 3000 to Birr 3600. With what percent will his profit increases?",
+      "options": [
+        "30 %",
+        "25 %",
+        "60 %",
+        "20 %"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Increase = 3600 − 3000 = 600.\n\n Percentage increase = (600/3000) × 100 = 20%.\n\n Therefore, the correct answer is option D.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g12u1_melmeja_16",
+      "examId": "m2018_g12_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": " A person deposits Birr 6000 at the end of each year into a saving account that pays 10 % interest compounded annually what is the future value of the annuity after 3 years?",
+      "options": [
+        "19,860",
+        "18,230",
+        "12,000",
+        "14,414"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The future value of an ordinary annuity is given by ->\n\n FV = PMT * [((1 + r)ⁿ - 1) / r].\n\nHere, PMT = 6000, r = 0.10, and n = 3 years.\n\n-> FV = 6000 * [((1 + 0.10)³ - 1) / 0.10] =\n\n->  6000 * [((1.1)³ - 1) / 0.10] =\n\n ->  6000 * [(1.331 - 1) / 0.10] \n\n ->  6000 * [0.331 / 0.10] =\n\n->  6000 * 3.31 = 19,860, which matches Option A.",
+      "topic": "Mathematics"
+    }
+  ]
+}

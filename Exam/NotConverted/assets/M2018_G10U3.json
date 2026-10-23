@@ -1,0 +1,37 @@
+[
+{
+  "question": " Which one of the following logarithmic equations is correctly related with the corresponding exponential equations?",
+  "options": [
+    "logₐx = y and aˣ = y",
+    "logₐx = y and xʸ = a",
+    "logₐx = y and aʸ = x",
+    "logₐx = y and xᵃ = y"
+  ],
+  "answer": 2,
+  "explanation": " logₐx = y means that the base a raised to the power y gives x.\n\n Therefore, logₐx = y is equivalent to aʸ = x."
+},
+
+{
+"question": " Consider the graph of exponential function given below.\n\nWhich one of the following represents the graph of f?",
+"options": [
+"f(x) = (3/2)ˣ",
+"f(x) = (3/2)²ˣ",
+"f(x) = (2.5)ˣ",
+"f(x) = (0.25)ˣ"
+],
+"answer": 3,
+"explanation": "The given graph represents a decreasing exponential function because as x increases from left to right,\n\n the value of y decreases toward zero.\n\n An exponential function of the form f(x) = aˣ is decreasing if and only if the base a satisfies 0 < a < 1.\n\n Looking at the given options: options A, B, and C have bases greater than 1 (1.5, 2.25, and 2.5 respectively),\n\n meaning they represent increasing exponential functions.\n\n Only option D has a base of 0.25 (which is equal to 1/4), satisfying 0 < 0.25 < 1, making it the correct decreasing exponential function.",
+"image": "images/M2018_18.png"
+},
+{
+"question": " Which one of the following statements is true about the graph of an exponential function f defined by f(x) = aˣ for a > 1?",
+"options": [
+"It has x-intercept at the point (1, 0).",
+"It is decreasing on ℝ.",
+"It has y-intercept at the point (0, 1).",
+"The line x = 0 is the vertical asymptote."
+],
+"answer": 2,
+"explanation": "For f(x) = aˣ,\n substitute x = 0: f(0) = a⁰ = 1.\n\n Therefore, the graph crosses the y-axis at (0, 1), so option 2 is correct.\n\n Since a > 1, the function is increasing, not decreasing.\n\n Also, aˣ is always positive, so it never crosses the x-axis.\n\n The line y = 0 is the horizontal asymptote, not x = 0."
+}
+]

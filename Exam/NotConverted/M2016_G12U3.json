@@ -1,0 +1,48 @@
+[
+  {
+    "question": "Which one of the following is true about the Range and Interquartile Range of a given data?",
+    "options": [
+      "A. Both are affected by extreme values in the data.",
+      "B. Both are measures of the variability of each item in the data.",
+      "C. Both are considering only the middle 50% of the data.",
+      "D. Both are measures of variation of the data."
+    ],
+    "answer": 3,
+    "explanation": "The Range and Interquartile Range (IQR) are both measures of variation because they describe the spread of data.\n\n Range considers the full spread (max - min), while IQR considers the spread of the middle 50%.\n\n Therefore, both are measures of variation, but only the Range is affected by extreme values."
+  },
+
+  {
+    "question": "Consider that a data set given below: 10, 8, 10, 2, 12, 6, 12, 18, 3, 7, 10, 8, 8. Which one of the following is the *coefficient of range* of the data?",
+    "options": [
+      "A. 16",
+      "B. 4/5",
+      "C. 5/4",
+      "D. 20"
+    ],
+    "answer": 1,
+    "explanation": "1 Find maximum and minimum values: Max = 18, Min = 2 \n\nCompute Range: 18 - 2 = 16\n\nCompute Coefficient of Range: Range / (Max + Min) =\n 16 / (18 + 2) =\n 16/20 =\n 4/5"
+  },
+  {
+    "question": "Which one of the following is a simple random sampling?",
+    "options": [
+      "A. Selecting five students from Grade 12 students of the same school randomly.",
+      "B. Selecting a group randomly from groups formed by dividing the population into groups.",
+      "C. First the population is divided into homogenous groups and a sample is selected from each homogenous group.",
+      "D. First divide a city into ten groups and choose the secondary school principals from the randomly selected 3 groups."
+    ],
+    "answer": 0,
+    "explanation": "Simple random sampling is when every member of the population has an equal chance of being selected. \n\nOption A randomly selects five students from all Grade 12 students, giving each student an equal chance. \n\nOther options involve grouping or stratifying, which are different sampling methods. "
+  },
+  {
+    "question": "The following table presents the number of traffic accidents in a certain city per year for five consecutive years from 2019 to 2023\n\nWhat is the average number of accidents per year for the given five years?",
+    "options": [
+      "A. 3200",
+      "B. 3210",
+      "C. 3250",
+      "D. 3270"
+    ],
+    "answer": 1,
+    "image": "images/M2016_55.png",
+    "explanation": ""
+  }
+]

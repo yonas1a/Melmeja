@@ -1,0 +1,36 @@
+[
+  {
+    "question": "The graph given below shows the velocity of a man travelling on a motorcycle as a function of time. Which one of the following statements is correct about the velocity-time graph?",
+    "options": [
+      "The displacement during the time interval from t = 6s to t = 14s is equal to the area of region II minus the area of region III.",
+      "The displacement during the time interval from t = 0s to t = 6s is equal to the area under the velocity-time graph in the given interval.",
+      "The acceleration during the time interval from t = 6s to t = 10s is equal to the gradient of the curve in the given interval and it is negative.",
+      "The acceleration in the first 6s is equal to the gradient of the curve in the given interval and it is positive."
+    ],
+    "answer": 1,
+    "image": "images/P2015_25.png",
+    "explanation": ""
+  },
+  {
+    "question": "An airplane takes-off at airport A and travels 500 km due east within one hour and then turning to south it flies for 20 minutes to land on airport B which is 100 km away from the turning point. The magnitude average velocity of the plane during its flight between the two airports is",
+    "options": [
+      "75√24 km/hr",
+      "100√34 km/hr",
+      "450 km/hr",
+      "75√26 km/hr"
+    ],
+    "answer": 3,
+    "explanation": "Average velocity magnitude = total displacement / total time.\n\nDisplacement vector: east 500 km, south 100 km → magnitude = √(500² + 100²) = √(250000 + 10000) = √260000 = 510 km approx.\n\nTotal time = 1 + 1/3 = 4/3 hr.\n\nAverage velocity = 510 / (4/3) ≈ 382.5 km/hr ≈ 75√26 km/hr."
+  },
+  {
+    "question": "A bullet is fired with an initial speed v at an angle θ with the horizontal. It takes a time T to reach its maximum vertical displacement hmax. It hits the target point a distance R away and exactly in the horizontal level to the point where it was fired. Which one of the following statement is NOT correct about the motion of the bullet?",
+    "options": [
+      "The bullet hits the target at a time 2T after it was fired.",
+      "hmax is directly proportional to the initial speed v.",
+      "R will be maximum if cos θ =√2/2.",
+      "θ should be different from 90° to hit the target at a distance R."
+    ],
+    "answer": 1,
+    "explanation": "For projectile motion: \n\n- Time to reach max height T = v sinθ / g → total flight time = 2T, correct.\n\n- Maximum height hmax = (v² sin²θ) / (2g) → hmax is proportional to v², not v. So statement 2 is NOT correct.\n\n- Range R = (v² sin2θ)/g, maximum when sin2θ = 1 → θ = 45°, which corresponds to cos θ = √2/2, correct.\n\n- θ = 90° would make horizontal range zero, so θ must be different from 90°, correct."
+  }
+]

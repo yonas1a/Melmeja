@@ -1,0 +1,116 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 3: SOLVING EQUATIONS",
+"notes": "✓ Equation → a mathematical statement showing that two expressions have equal values.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1 LINEAR EQUATION IN ONE VARIABLE",
+"notes": "✓ Linear equation in one variable → an equation whose variable has power 1.\n\n✓ General form → ax + b = 0, where a ≠ 0.\n\nExamples → 10x = 20, 3x + 6 = 0, 4x + 9 = −11.\n\n◆ Solving steps:\n1. Use LCM to clear fractions.\n2. Simplify both sides.\n3. Isolate the variable.\n4. Verify the answer.\n\n✓ Example:\n3x + 6 = 15 → 3x = 9 → x = 3.",
+"image": null
+},
+{
+"type": "note",
+"title": "LINEAR EQUATIONS WITH FRACTIONS",
+"notes": "✓ To solve equations containing fractions, multiply both sides by the LCM of the denominators.\n\nExample:\nx/2 + 3 = 7\nMultiply by 2 → x + 6 = 14\n✓ Therefore → x = 8.\n\n✓ Always substitute the answer into the original equation to check it.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2 SYSTEMS OF LINEAR EQUATIONS IN TWO VARIABLES",
+"notes": "✓ System of linear equations → two or more linear equations considered simultaneously.\n\n✓ Linear equation in two variables → ax + by = c, where a and b are non-zero constants.\n\n✓ Solution → an ordered pair (x, y) that satisfies all equations simultaneously.\n\nExample:\n2x + y = 15 and 3x − y = 5.\n✓ Their solution is (4, 7).",
+"image": null
+},
+{
+"type": "note",
+"title": "TYPES OF SYSTEMS",
+"notes": "◆ Unique solution → two lines intersect at exactly one point.\n\n◆ No solution → two lines are parallel and have different y-intercepts.\n\n◆ Infinitely many solutions → the two equations represent the same line.\n\n✓ The solution must satisfy both equations at the same time.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3.1 ABSOLUTE VALUE EQUATIONS",
+"notes": "✓ Absolute value → the distance of a number from zero on the number line; it is always non-negative.\n\n✓ For p ≥ 0 → |x| = p means x = p or x = −p.\n\n✓ If |x| = negative number → no solution.\n\nExample:\n|x + 2| = 6\nx + 2 = 6 or x + 2 = −6\n✓ x = 4 or x = −8.\n\nExample:\n✓ |x| = −1 has no solution.",
+"image": null
+},
+{
+"type": "note",
+"title": "SOLVING ABSOLUTE VALUE EQUATIONS",
+"notes": "✓ For |ax + b| = c, first isolate the absolute value expression.\n\n✓ If c > 0 → solve two equations:\nax + b = c\nax + b = −c.\n\nExample:\n2|2x − 1| − 1 = 5\n2|2x − 1| = 6\n|2x − 1| = 3\n2x − 1 = 3 or 2x − 1 = −3\n✓ x = 2 or x = −1.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3.2 QUADRATIC EQUATIONS",
+"notes": "✓ Quadratic equation → ax² + bx + c = 0, where a, b, c ∈ R and a ≠ 0.\n\n◆ a → leading coefficient.\n◆ b → coefficient of the middle term.\n◆ c → constant term.\n\n◆ Three main methods → factorization, completing the square, and quadratic formula.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUADRATIC EQUATIONS BY FACTORIZATION",
+"notes": "◆ Steps:\n1. Move all terms to one side so the other side is zero.\n2. Factorize.\n3. Set each factor equal to zero.\n4. Solve each equation.\n5. Check the answers.\n\nExample:\nx² + 3x = 0\nx(x + 3) = 0\nx = 0 or x + 3 = 0\n✓ Therefore → x = 0 or x = −3.",
+"image": null
+},
+{
+"type": "note",
+"title": "COMPLETING THE SQUARE",
+"notes": "✓ Completing the square converts a quadratic into a perfect-square expression.\n\n✓ For x² + bx + c, add and subtract (b/2)².\n\nExample:\nx² + 6x + 7 = 0\nx² + 6x + 9 − 2 = 0\n(x + 3)² = 2\nx + 3 = ±√2\n✓ x = −3 ± √2.\n\n✓ This method is useful when factorization is difficult.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUADRATIC FORMULA",
+"notes": "✓ For ax² + bx + c = 0:\n\nx = (−b ± √(b² − 4ac)) / 2a.\n\n✓ Use the quadratic formula when the equation cannot easily be factorized.\n\nExample:\nx² − 5x + 6 = 0\nx = (5 ± √(25 − 24))/2\nx = (5 ± 1)/2\n✓ Therefore → x = 3 or x = 2.",
+"image": null
+},
+{
+"type": "note",
+"title": "DISCRIMINANT",
+"notes": "✓ Discriminant → D = b² − 4ac.\n\n◆ D > 0 → two distinct real solutions.\n◆ D = 0 → one repeated real solution.\n◆ D < 0 → no real solution.\n\n✓ The discriminant is found inside the square root of the quadratic formula.",
+"image": null
+},
+{
+"type": "note",
+"title": "RELATION BETWEEN ROOTS",
+"notes": "✓ For ax² + bx + c = 0 with roots α and β:\n\n✓ Sum of roots → α + β = −b/a.\n\n✓ Product of roots → αβ = c/a.\n\nExample:\nx² − 5x + 6 = 0.\nSum = 5.\nProduct = 6.\n✓ Roots → 2 and 3.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3.3 EQUATIONS INVOLVING EXPONENTS",
+"notes": "✓ Exponential equation → an equation in which the variable occurs in the exponent.\n\n✓ If a > 0 and a ≠ 1, then aˣ = aʸ implies x = y.\n\n◆ Useful laws:\naᵐ × aⁿ = aᵐ⁺ⁿ\naᵐ / aⁿ = aᵐ⁻ⁿ\n(aᵐ)ⁿ = aᵐⁿ\n(ab)ⁿ = aⁿbⁿ\n(a/b)ⁿ = aⁿ/bⁿ\n1/aⁿ = a⁻ⁿ.\n\nExample:\n2ˣ = 8 = 2³ → ✓ x = 3.",
+"image": null
+},
+{
+"type": "note",
+"title": "SOLVING EXPONENTIAL EQUATIONS",
+"notes": "✓ Main technique → express both sides using the same base, then equate the exponents.\n\nExample:\n3ˣ = 1/27\n1/27 = 3⁻³\nTherefore → 3ˣ = 3⁻³\n✓ So → x = −3.\n\nAnother example:\n2ˣ⁺⁴ = 32 = 2⁵\nx + 4 = 5 → ✓ x = 1.",
+"image": null
+},
+{
+"type": "note",
+"title": "RADICAL EQUATION EXAMPLE",
+"notes": "Example:\n√(15 − 2x) = x.\n\n✓ The radicand requires 15 − 2x ≥ 0 and the right side requires x ≥ 0.\nThus → 0 ≤ x ≤ 15/2.\n\nSquare both sides → 15 − 2x = x².\nRearrange → x² + 2x − 15 = 0.\nFactor → (x − 3)(x + 5) = 0.\nCandidates → x = 3 or x = −5.\n\n✓ Since x must be non-negative, x = 3 is the valid solution.",
+"image": null
+},
+{
+"type": "note",
+"title": "GEOMETRY APPLICATION",
+"notes": "Example → A triangle has a base of a cm and each leg is 6 cm longer than the base. Its perimeter is 54 cm.\n\nEquation → a + 2(a + 6) = 54.\n3a + 12 = 54.\n3a = 42.\n✓ a = 14.\n\nEach leg → 14 + 6 = 20 cm.\n\n✓ Answer → sides are 14 cm, 20 cm and 20 cm.",
+"image": null
+},
+{
+"type": "note",
+"title": "AGE AND NUMBER APPLICATIONS",
+"notes": "◆ For consecutive numbers → represent them as x and x + 1.\n\n◆ For consecutive even numbers → x and x + 2.\n\n◆ For consecutive odd numbers → x and x + 2.\n\n✓ For age problems → define the present age first, then express other ages in relation to it.\n\nExample → The sum of two consecutive numbers is 67.\nx + (x + 1) = 67\n2x + 1 = 67\nx = 33.\n✓ Numbers → 33 and 34.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 3 QUICK FORMULA SHEET",
+"notes": "◆ Linear equation:\n✓ ax + b = 0.\n\n◆ Linear system:\n✓ ax + by = c.\n\n◆ Quadratic equation:\n✓ ax² + bx + c = 0.\n\n◆ Quadratic formula:\n✓ x = (−b ± √(b² − 4ac))/(2a).\n\n◆ Discriminant:\n✓ D = b² − 4ac.\n\n◆ Sum of quadratic roots:\n✓ α + β = −b/a.\n\n◆ Product of quadratic roots:\n✓ αβ = c/a.\n\n◆ Absolute value:\n✓ |x| = p → x = ±p for p ≥ 0.\n\n◆ Exponential equality:\n✓ aˣ = aʸ → x = y for valid equal bases.\n\n◆ Radical equations:\n✓ isolate radical → square → solve → check."
+}
+]

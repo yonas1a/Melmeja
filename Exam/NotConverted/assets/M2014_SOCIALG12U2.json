@@ -1,0 +1,47 @@
+[
+{
+  "question": "Which one of the following is equal to $\\lim_{x\\to 0} \\frac{x}{1 - \\sqrt{x + 1}}$?",
+  "options": [
+    "A. 1",
+    "B. $\\frac{1}{2}$",
+    "C. 0",
+    "D. -2"
+  ],
+  "answer": 3,
+  "explanation": "The limit is $\\lim_{x\\to 0} \\frac{x}{1 - \\sqrt{x + 1}}$. Direct substitution yields the indeterminate form $\\frac{0}{1 - \\sqrt{1}} = \\frac{0}{0}$.\n\n**Method 1: Using the Conjugate**\nMultiply the numerator and the denominator by the conjugate of the denominator, which is $1 + \\sqrt{x + 1}$.\n$$\\lim_{x\\to 0} \\frac{x}{1 - \\sqrt{x + 1}} \\times \\frac{1 + \\sqrt{x + 1}}{1 + \\sqrt{x + 1}}$$ \nThe denominator is a difference of squares:\n$$(1)^2 - (\\sqrt{x + 1})^2 = 1 - (x + 1) = 1 - x - 1 = -x$$\nSo the expression becomes:\n$$\\lim_{x\\to 0} \\frac{x(1 + \\sqrt{x + 1})}{-x}$$ \nCancel the common factor $x$ for $x \\ne 0$: \n$$\\lim_{x\\to 0} -(1 + \\sqrt{x + 1})$$\nSubstitute $x = 0$:\n$$-(1 + \\sqrt{0 + 1}) = -(1 + 1) = -2$$\n\n**Method 2: Using L'Hôpital's Rule**\nTake the derivative of the numerator and the denominator.\n$$\\lim_{x\\to 0} \\frac{\\frac{d}{dx}(x)}{\\frac{d}{dx}(1 - \\sqrt{x + 1})} = \\lim_{x\\to 0} \\frac{1}{0 - \\frac{1}{2\\sqrt{x + 1}} \\cdot 1}$$ \n$$\\lim_{x\\to 0} -2\\sqrt{x + 1}$$ \nSubstitute $x = 0$:\n$$-2\\sqrt{0 + 1} = -2$$ \nThe limit is **-2**."
+},
+{
+"question": "Let $f$ be a function defined on an open interval about a real number $a$, except possibly at $a$ itself. Which one of the following is necessary for $\\lim_{x\\to a} f(x)$ to exist?",
+"options": [
+"A. $\\lim_{x\\to a^+} f(x)$ exists",
+"B. $\\lim_{x\\to a^-} f(x)$ exists",
+"C. $\\lim_{x\\to a^+} f(x) = \\lim_{x\\to a^-} f(x)$",
+"D. $\\lim_{x\\to a} f(x) = f(a)$"
+],
+"answer": 2,
+"explanation": "For the general limit $\\lim_{x\\to a} f(x)$ to exist, the **left-hand limit** and the **right-hand limit** must both exist and be equal to the same value $L$. \n$$\\lim_{x\\to a} f(x) = L \\text{ if and only if } \\lim_{x\\to a^-} f(x) = L \\text{ and } \\lim_{x\\to a^+} f(x) = L$$\nTherefore, it is necessary that $\\lim_{x\\to a^+} f(x) = \\lim_{x\\to a^-} f(x)$ (Option C).\nOptions A and B are necessary but not sufficient conditions. Option D is the condition for the function to be continuous at $x=a$, which is a stronger condition than just the limit existing."
+},
+
+{
+"question": "Let $f$ be a function that is continuous at $x_0$. Which of the following is true about $f$?",
+"options": [
+"A. $x_0$ does not belong to the domain of $f$",
+"B. $\\lim_{x\\to x_0} f(x)$ does not exists",
+"C. $\\lim_{x\\to x_0} f(x) \\neq f(x_0)$",
+"D. $\\lim_{x\\to x_0} f(x) = f(x_0)$"
+],
+"answer": 3,
+"explanation": "The definition of a function $f$ being **continuous** at a point $x_0$ requires three conditions, which are summarized by the single equality: \n$$\\lim_{x\\to x_0} f(x) = f(x_0)$$\nThis condition implies:\n1. $f(x_0)$ is defined (so $x_0$ is in the domain of $f$).\n2. The limit $\\lim_{x\\to x_0} f(x)$ exists.\n3. The limit value equals the function value.\n\nTherefore, **Option D** is the correct statement."
+},
+{
+"question": "Let $f$ be continuous on $[a, b]$ and $F'(x) = f(x)$ for all $x \\in [a, b]$. Which of the following is true?",
+"options": [
+"$\\int_{a}^{b} f(x) dx = F(a) - F(b)$",
+"$\\int_{a}^{b} f(x) dx = F(b) - F(a)$",
+"$\\int_{a}^{b} F(x) dx = F(b) - F(a)$",
+"$\\int_{a}^{b} F(x) dx = f(b) - f(a)$"
+],
+"answer": 1,
+"explanation": "This is the statement of the **Fundamental Theorem of Calculus, Part Two (Evaluation Theorem)**. It states that if $f$ is continuous on $[a, b]$, and $F$ is any antiderivative of $f$ (meaning $F'(x) = f(x)$), then the definite integral of $f$ from $a$ to $b$ is found by evaluating the antiderivative at the limits of integration and subtracting:\n$$\\\\int_{a}^{b} f(x) dx = F(x)|_{a}^{b} = F(b) - F(a)$$\nTherefore, option B is the correct statement."
+}
+]

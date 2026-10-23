@@ -1,0 +1,15 @@
+[
+  {
+    "question": "Which of the following assertions is true applying the Principle of Mathematical Induction?",
+    "options": [
+      "3 + 5 + 7 + ... + (2n + 1) = n² for n ≥ 1",
+      "2 + 3 + 4 + ... + n = n(n + 1)/2 + 1 for n ≥ 2",
+      "n! ≥ 2^n for n ≥ 0",
+      "1 + 2 + 2^2 + ... + 2^(n-2) = 2^(n-1) - 1 for n > 0"
+    ],
+    "answer": 3,
+    "explanation" : " Check each option using small values or formulae: \n\n- Option 1 is false (3 ≠ 1^2 for n=1). \n\n- Option 2 is false (sum from 2 to n = n(n+1)/2 - 1, not +1). \n\n- Option 3 is false (1! < 2^1). \n\n- Option 4 is true: geometric series 1 + 2 + 2^2 + ... + 2^(n-2) has sum 2^(n-1) - 1."
+
+
+  }
+]

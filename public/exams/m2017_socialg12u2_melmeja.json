@@ -1,0 +1,89 @@
+{
+  "id": "m2017_socialg12u2_melmeja",
+  "title": "Grade 12 Mathematics Comprehensive Exam 2017",
+  "category": "GRADE_12",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 12",
+  "description": "Grade 12 Mathematics Comprehensive Exam 2017 featuring 4 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 4,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_12",
+    "2017",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg12u2_melmeja_1",
+      "examId": "m2017_socialg12u2_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "1) Let $f$ be a function and let $c$ be an element of domain of $f$ at which the gradient of $f$ is zero. Which one of the following statements is true about $f'(c)$?",
+      "options": [
+        "$f'(c) < 0$",
+        "$f'(c) > 0$",
+        "$f'(c) \\neq 0$",
+        "$f'(c) = 0$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The gradient of a function $f$ at a point $x=c$ is given by the derivative of the function evaluated at that point, $f'(c)$. If the gradient is zero, then $f'(c)$ must equal 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg12u2_melmeja_2",
+      "examId": "m2017_socialg12u2_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "10) What is the equation of the tangent line to the graph of $f(x)=2x^3 - 3x^2 + 1$ at $x=2$?",
+      "options": [
+        "$y=12x-19$",
+        "$y=6x-7$",
+        "$y=2x+5$",
+        "$y=120x-235$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1. **Find the point** $(x_0, y_0)$: $x_0 = 2$. $y_0 = f(2) = 2(2)^3 - 3(2)^2 + 1 = 2(8) - 3(4) + 1 = 16 - 12 + 1 = 5$. The point is $(2, 5)$. 2. **Find the slope** $m$: First, find the derivative $f'(x) = 6x^2 - 6x$. The slope $m$ at $x=2$ is $m = f'(2) = 6(2)^2 - 6(2) = 6(4) - 12 = 24 - 12 = 12$. 3. **Find the equation** using the point-slope form $y - y_0 = m(x - x_0)$: $y - 5 = 12(x - 2) \\implies y - 5 = 12x - 24 \\implies y = 12x - 19$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg12u2_melmeja_3",
+      "examId": "m2017_socialg12u2_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "26) A circle with radius $3 \\text{ cm}$ increases its radius at a rate of $0.2 \\text{ cm/sec}$. What is the area of the circle at the $5^{\\text{th}}$ second?",
+      "options": [
+        "$9\\pi \\text{ cm}^2$",
+        "$4\\pi \\text{ cm}^2$",
+        "$16\\pi \\text{ cm}^2$",
+        "$9.64\\pi \\text{ cm}^2$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1. **Determine the radius $r(t)$ at time $t$:** The initial radius is $r_0 = 3 \\text{ cm}$. The rate of increase is $\\frac{dr}{dt} = 0.2 \\text{ cm/sec}$. The radius at time $t$ is $r(t) = r_0 + (\\text{rate} \\times t) = 3 + 0.2t$. 2. **Find the radius at $t = 5$ seconds:** $r(5) = 3 + 0.2(5) = 3 + 1.0 = 4 \\text{ cm}$. 3. **Calculate the Area ($A$):** The area of a circle is $A = \\pi r^2$. $A = \\pi (4)^2 = 16\\pi \\text{ cm}^2$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg12u2_melmeja_4",
+      "examId": "m2017_socialg12u2_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "The gradient of a function $f(x)=\\frac{1}{x^3}$ at $x=a$, $a \\ne 0$ is equal to:",
+      "options": [
+        "$\\frac{2}{a^3}$",
+        "$-\\frac{2}{a^3}$",
+        "$\\frac{2}{a^4}$",
+        "$-\\frac{3}{a^4}$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The gradient of a function at a point is its **first derivative**. The function is $f(x) = \\frac{1}{x^3} = x^{-3}$.\\nUsing the power rule for differentiation, $\\frac{d}{dx}(x^n) = nx^{n-1}$:\\n$f'(x) = -3x^{-3-1} = -3x^{-4} = -\\frac{3}{x^4}$.\\nThe gradient at $x=a$ is $f'(a) = -\\frac{3}{a^4}$.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,1161 @@
+[
+  {
+    "question": "Which of the following describes the direction of the magnetic force on a moving positive charge in a uniform magnetic field?",
+    "options": [
+      "Parallel to the velocity of the charge",
+      "Perpendicular to both the velocity and the magnetic field",
+      "In the direction of the magnetic field",
+      "Opposite to the direction of the velocity"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic force, F, on a charge is given by the vector cross product of the velocity, v, and the magnetic field, B, (F = q (v x B)).\n\n The result of a cross product is always perpendicular to both vectors involved, which is determined by the right-hand rule."
+  },
+  {
+    "question": "The SI unit for magnetic flux is the:",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "Farad"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic flux is defined as the product of the magnetic field strength and the area perpendicular to the field.\n\n Its SI unit is the Weber (Wb), which is equivalent to Tesla times meter²."
+  },
+  {
+    "question": "A straight wire carries a current (I) upward. The magnetic field lines just east of the wire are directed:",
+    "options": [
+      "Upward",
+      "Downward",
+      "Into the page",
+      "Out of the page"
+    ],
+    "answer": 2,
+    "explanation": "According to the Right-Hand Rule for a straight current-carrying wire, if the thumb points in the direction of the current (upward), the fingers curl in the direction of the magnetic field. \n\nEast of the wire, the fingers curl into the page."
+  },
+  {
+    "question": "Lenz's Law is a direct consequence of the physical principle of conservation of:",
+    "options": [
+      "Momentum",
+      "Charge",
+      "Energy",
+      "Mass"
+    ],
+    "answer": 2,
+    "explanation": "Lenz's Law states that the induced current flows in a direction that opposes the change in magnetic flux that produced it. \n\nThis opposition requires work to be done, which is then converted into the induced electrical energy, thus conserving the total energy of the system."
+  },
+  {
+    "question": "A 2 meter wire carrying a current of 10 A is placed in a uniform magnetic field of 0.5 T. If the wire is perpendicular to the field, what is the magnitude of the magnetic force on the wire?",
+    "options": [
+      "5 N",
+      "10 N",
+      "20 N",
+      "0 N"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic force on a current-carrying wire is F = I L B sin(angle).\n\n Given I=10 A, L=2 m, B=0.5 T, and angle=90 degrees (since it is perpendicular),\n F = (10 A)(2 m)(0.5 T)(1) = 10 N."
+  },
+  {
+    "question": "Which type of magnetic material is weakly repelled by an external magnetic field?",
+    "options": [
+      "Ferromagnetic",
+      "Paramagnetic",
+      "Diamagnetic",
+      "Antiferromagnetic"
+    ],
+    "answer": 2,
+    "explanation": "Diamagnetic materials create an induced magnetic field in opposition to the external field, resulting in a weak repulsion."
+  },
+  {
+    "question": "A transformer that decreases the voltage from the primary coil to the secondary coil is called a:",
+    "options": [
+      "Step-up transformer",
+      "Step-down transformer",
+      "Current transformer",
+      "Isolation transformer"
+    ],
+    "answer": 1,
+    "explanation": "A step-down transformer has fewer turns in its secondary coil than in its primary coil, resulting in a lower output voltage."
+  },
+  {
+    "question": "Faraday's Law of Induction states that the magnitude of the induced electromotive force (EMF) in a circuit is proportional to the:",
+    "options": [
+      "Magnetic field strength",
+      "Rate of change of magnetic flux",
+      "Length of the conductor",
+      "Resistance of the circuit"
+    ],
+    "answer": 1,
+    "explanation": "Faraday's Law states that the induced EMF is directly proportional to the rate at which the magnetic flux through the circuit is changing."
+  },
+  {
+    "question": "If a charged particle moves through a magnetic field B. If the particle's velocity v is parallel to B, the magnetic force on the particle is:",
+    "options": [
+      "Maximum",
+      "Half of maximum",
+      "Zero",
+      "Perpendicular to B"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic force is F = q v B sin(angle). \n\nIf the velocity is parallel to the magnetic field, the angle is 0 degrees, and sin(0 degrees) is 0. \nThus, the force is zero."
+  },
+  {
+    "question": "An ideal step-up transformer has a primary coil power of 50 W. What is the power in the secondary coil?",
+    "options": [
+      "Greater than 50 W",
+      "Less than 50 W",
+      "Equal to 50 W",
+      "Zero"
+    ],
+    "answer": 2,
+    "explanation": "In an ideal transformer, there is no energy loss. \n\nThe power input to the primary coil is equal to the power output from the secondary coil, based on the principle of conservation of energy."
+  },
+  {
+    "question": "A particle with a charge of 1.6 x 10⁻¹⁹ C is moving at 2.0 x 10⁵ m/s perpendicular to a 0.5 T magnetic field. The magnitude of the force on the particle is:",
+    "options": [
+      "1.6 x 10⁻¹⁴ N",
+      "3.2 x 10⁻¹⁴ N",
+      "8.0 x 10⁻¹⁵ N",
+      "4.0 x 10⁻¹⁴ N"
+    ],
+    "answer": 0,
+    "explanation": "The force is F = qvB sin(angle).\n\n Since the motion is perpendicular, sin(angle) = 1.\n\n F = (1.6 x 10⁻¹⁹ C) x (2.0 x 10⁵ m/s) x (0.5 T).\n\n F = 1.6 x 10⁻¹⁴ N."
+  },
+  {
+    "question": "What is the primary function of a commutator in a DC motor?",
+    "options": [
+      "To increase the speed of rotation",
+      "To reverse the direction of the current in the coil every half-turn",
+      "To reduce friction",
+      "To convert magnetic energy into electrical energy"
+    ],
+    "answer": 1,
+    "explanation": "The commutator (split-ring) acts as a mechanical switch that reverses the direction of the current in the armature coil every time the coil passes the vertical position, ensuring the torque always acts to continue the rotation in the same direction."
+  },
+  {
+    "question": "The magnetic field B at a distance r from a long straight current-carrying wire is proportional to:",
+    "options": [
+      "r",
+      "1/r",
+      "r²",
+      "1/r²"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic field around a long straight current-carrying wire is proportional to the current and inversely proportional to the radial distance (1/r) from the wire, according to Ampere's Law."
+  },
+  {
+    "question": "The unit of the quantity 'permeability of free space' (mu nought) is:",
+    "options": [
+      "Tesla meter per Ampere",
+      "Tesla meter squared",
+      "Ampere per meter",
+      "Weber per meter"
+    ],
+    "answer": 0,
+    "explanation": "From the formula for the magnetic field around a straight wire (B proportional to mu nought I divided by r), rearranging gives mu nought is proportional to B r / I.\n\n The units are Tesla meter per Ampere (T m/A)."
+  },
+  {
+    "question": "Eddy currents induced in a solid conductor, like the core of a transformer, are undesirable because they primarily cause:",
+    "options": [
+      "Increased voltage output",
+      "Reduction in magnetic flux",
+      "Energy loss as heat",
+      "Increased primary current"
+    ],
+    "answer": 2,
+    "explanation": "Eddy currents flow through the resistance of the core material, dissipating electrical energy as heat (I²R loss), which lowers the efficiency of the device."
+  },
+  {
+    "question": "A generator converts mechanical energy into electrical energy based on which electromagnetic principle?",
+    "options": [
+      "Ohm's Law",
+      "Capacitance",
+      "Electromagnetic Induction",
+      "The photoelectric effect"
+    ],
+    "answer": 2,
+    "explanation": "A generator works by rotating a coil within a magnetic field, causing a change in magnetic flux through the coil, which in turn induces an electromotive force (EMF) and current, as described by the principle of Electromagnetic Induction."
+  },
+  {
+    "question": "The relationship between the turns ratio (primary turns / secondary turns) and the current ratio (secondary current / primary current) in an ideal transformer is:",
+    "options": [
+      "Primary turns / Secondary turns = Secondary current / Primary current",
+      "Primary turns / Secondary turns = Primary current / Secondary current",
+      "Primary turns / Secondary turns = (Secondary current / Primary current) squared",
+      "Primary turns / Secondary turns = Secondary current / Primary current squared"
+    ],
+    "answer": 0,
+    "explanation": "For an ideal transformer, power is conserved (Vp Ip = Vs Is). \n\nCombining this with the voltage relationship (Vp / Vs = Np / Ns) = \nNp / Ns = Is / Ip."
+  },
+  {
+    "question": "If the number of turns in a solenoid is doubled while keeping the length and current constant, the magnetic field strength inside the solenoid:",
+    "options": [
+      "Remains the same",
+      "Is halved",
+      "Is doubled",
+      "Is quadrupled"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic field inside a solenoid is directly proportional to the number of turns per unit length (B is proportional to N/L).\n\n If N is doubled and L is constant, the field B is doubled."
+  },
+  {
+    "question": "Magnetic field lines always form closed loops, a characteristic that indicates the absence of:",
+    "options": [
+      "Magnetic dipoles",
+      "Electric monopoles",
+      "Magnetic monopoles",
+      "Electric dipoles"
+    ],
+    "answer": 2,
+    "explanation": "Gauss's Law for Magnetism states that magnetic field lines have no beginning or end (no magnetic charges or monopoles), hence they always form continuous closed loops."
+  },
+
+  {
+    "question": "A loop of wire is rotated in a uniform magnetic field. The induced EMF is maximum when the magnetic flux through the loop is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Constant",
+      "Half of maximum"
+    ],
+    "answer": 1,
+    "explanation": "The induced EMF is maximum when the rate of change of magnetic flux is maximum. \n\nThe flux changes most rapidly (and is momentarily zero) when the plane of the loop is parallel to the magnetic field."
+  },
+  {
+    "question": "A current-carrying loop of wire is placed in a uniform magnetic field. The net magnetic force on the loop is:",
+    "options": [
+      "Always non-zero",
+      "Dependent on the loop's shape",
+      "Zero, but it may experience a torque",
+      "Perpendicular to the loop's area"
+    ],
+    "answer": 2,
+    "explanation": "In a uniform magnetic field, the forces on opposite segments of the loop cancel out, leading to a net force of zero.\n\n However, these forces can produce a net torque that causes the loop to rotate."
+  },
+  {
+    "question": "If a step-up transformer has an output voltage of 240 V and an input voltage of 12 V, the ratio of primary to secondary turns (primary turns / secondary turns) is:",
+    "options": [
+      "20 to 1",
+      "1 to 20",
+      "12 to 240",
+      "240 to 12"
+    ],
+    "answer": 1,
+    "explanation": "The turns ratio is the same as the voltage ratio: Primary turns / Secondary turns = Primary voltage / Secondary voltage.\n\n Ratio = 12 V / 240 V = 1/20 (or 1 to 20)."
+  },
+
+
+  {
+    "question": "A current-carrying conductor is placed in a magnetic field. To maximize the magnetic force on the conductor, the angle between the conductor and the field should be:",
+    "options": [
+      "0 degrees",
+      "30 degrees",
+      "90 degrees",
+      "180 degrees"
+    ],
+    "answer": 2,
+    "explanation": "The force on a current-carrying wire is F = I L B sin(angle).\n\n The sine function is maximum at 90 degrees, where sin(90 degrees) = 1.\n\n Therefore, the force is maximum when the wire is perpendicular to the field."
+  },
+
+  {
+    "question": "Which of the following is an application of the magnetic force on a moving charge?",
+    "options": [
+      "Electric heater",
+      "Mass spectrometer",
+      "Transformer",
+      "Resistor"
+    ],
+    "answer": 1,
+    "explanation": "A mass spectrometer uses the magnetic force to separate charged particles (ions) based on their mass-to-charge ratio, as the force deflects particles into circular paths."
+  },
+
+
+  {
+    "question": "A solenoid with a length of 0.2 m has 200 turns and carries a current of 5.0 A. If the permeability of free space is 4 times pi times 10⁻⁷ Tesla meter per Ampere, what is the magnetic field strength (B) inside the solenoid?",
+    "options": [
+      "2 times pi times 10⁻³ T",
+      "4 times pi times 10⁻³ T",
+      "4 times pi times 10⁻⁴ T",
+      "2 times pi times 10⁻⁴ T"
+    ],
+    "answer": 0,
+    "explanation": "The magnetic field is B = (mu nought) (N / L) I.\n\n B = (4 pi x 10⁻⁷ T m/A) x (200 / 0.2 m) x (5.0 A).\n\n B = (4 pi x 10⁻⁷) x (1000) x 5.\n\n B = 20000 pi x 10⁻⁷ T =\n 2 pi x 10⁻³ T."
+  },
+  {
+    "question": "Which law relates the integral of the magnetic field around a closed loop to the current passing through the loop?",
+    "options": [
+      "Faraday's Law",
+      "Lenz's Law",
+      "Ampere's Law",
+      "Biot-Savart Law"
+    ],
+    "answer": 2,
+    "explanation": "Ampere's Law relates the line integral of the magnetic field around a closed path to the total current passing through the enclosed area."
+  },
+  {
+    "question": "If the primary coil of a transformer is connected to a DC source, the output voltage in the secondary coil is:",
+    "options": [
+      "High AC voltage",
+      "Low DC voltage",
+      "Zero",
+      "Equal to the primary voltage"
+    ],
+    "answer": 2,
+    "explanation": "A transformer requires a changing magnetic flux (AC) to induce an EMF in the secondary coil (Faraday's Law).\n\n A DC source produces a constant magnetic field, so the induced voltage is zero."
+  },
+
+  {
+    "question": "A uniform magnetic field points into the page. A positive charge moves to the right. The magnetic force on the charge is directed:",
+    "options": [
+      "Upward",
+      "Downward",
+      "Into the page",
+      "Zero"
+    ],
+    "answer": 0,
+    "explanation": "Using the Right-Hand Rule: Point fingers right (velocity), curl them into the page (magnetic field). \n\nThe thumb points upward (force direction)."
+  },
+
+  {
+    "question": "What happens to the induced EMF if the number of turns in a coil is doubled and the rate of change of magnetic flux is halved?",
+    "options": [
+      "It is doubled",
+      "It is halved",
+      "It remains the same",
+      "It is quadrupled"
+    ],
+    "answer": 2,
+    "explanation": "According to Faraday's Law, induced EMF is proportional to (N times rate of change of flux).\n Doubling N (times 2) and halving the rate of change of flux (times 1/2) results in a net factor of 2 times 1/2 = 1.\n The induced EMF remains the same."
+  },
+
+  {
+    "question": "If a step-down transformer has 100 turns in the primary coil and 25 turns in the secondary coil. If the primary voltage is 200 V, what is the secondary voltage?",
+    "options": [
+      "800 V",
+      "50 V",
+      "100 V",
+      "25 V"
+    ],
+    "answer": 1,
+    "explanation": "The voltage ratio is V secondary / V primary = N secondary / N primary.\n\n V secondary = V primary x (N secondary / N primary). \nV secondary = 200 V x (25 / 100) =\n 200 V x (1/4) =\n 50 V."
+  },
+  {
+    "question": "Which of the following forces does no work on a moving charge?",
+    "options": [
+      "Electric force",
+      "Gravitational force",
+      "Tension force",
+      "Magnetic force"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "The maximum torque on a current loop in a uniform magnetic field occurs when the plane of the loop is:",
+    "options": [
+      "Parallel to the magnetic field",
+      "Perpendicular to the magnetic field",
+      "At a 45-degree angle to the magnetic field",
+      "Always zero, as the net force is zero"
+    ],
+    "answer": 0,
+    "explanation": "The torque is maximum when the magnetic moment vector (which is perpendicular to the loop's plane) is perpendicular to the magnetic field, which means the plane of the loop itself is parallel to the magnetic field lines."
+  },
+  {
+    "question": "When a magnet is moved toward a coil, the induced current creates a magnetic field that is directed:",
+    "options": [
+      "In the same direction as the magnet's field",
+      "To attract the magnet",
+      "To repel the magnet",
+      "Perpendicular to the magnet's motion"
+    ],
+    "answer": 2,
+    "explanation": "According to Lenz's Law, the induced current's magnetic field opposes the change in flux.\n\n Moving the magnet toward the coil increases the flux, so the induced field creates a force that repels the approaching magnet, opposing its motion."
+  },
+
+  {
+    "question": "If two parallel wires carry current in the same direction, the magnetic force between them is:",
+    "options": [
+      "Repulsive",
+      "Attractive",
+      "Zero",
+      "Perpendicular to the wires"
+    ],
+    "answer": 1,
+    "explanation": "Using the right-hand rule, the magnetic field from the first wire causes a force on the second wire that pulls it toward the first wire.\n\n Thus, currents in the same direction attract."
+  },
+  {
+    "question": "The direction of the induced current in a generator coil is determined by:",
+    "options": [
+      "The mass of the coil",
+      "Fleming's Left-Hand Rule",
+      "Fleming's Right-Hand Rule",
+      "Ohm's Law"
+    ],
+    "answer": 2,
+    "explanation": "Fleming's Right-Hand Rule is used to determine the direction of the induced current when a conductor moves through a magnetic field (generation of current)."
+  },
+  {
+    "question": "The energy of an electromagnetic wave is equally distributed between:",
+    "options": [
+      "Kinetic energy and potential energy",
+      "Electric field and gravitational field",
+      "Magnetic field and electric field",
+      "Pressure and volume"
+    ],
+    "answer": 2,
+    "explanation": "Electromagnetic waves, such as light, consist of oscillating electric and magnetic fields, and the energy carried by the wave is stored equally in both of these fields."
+  },
+  {
+    "question": "What is the magnetic flux through a plane of area 0.5 meter² if a 0.2 T magnetic field passes through it at an angle of 60 degrees to the magnetic field (angle = 60 degrees to B)?",
+    "options": [
+      "0.1 Weber",
+      "0.05 Weber",
+      "0.087 Weber",
+      "0.173 Weber"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+
+  {
+    "question": "A charged particle moves in a circle in a uniform magnetic field. If the speed of the particle is doubled, the radius of its circular path will:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The radius of the circular path is R = (mass times velocity) / (charge times magnetic field). \n\nSince R is directly proportional to velocity (R is proportional to v), doubling the speed doubles the radius."
+  },
+  {
+    "question": "Which physical quantity does a transformer change when operating on AC current?",
+    "options": [
+      "Power",
+      "Frequency",
+      "Current and Voltage",
+      "Resistance"
+    ],
+    "answer": 2,
+    "explanation": "Transformers are designed to step up or step down the alternating voltage and, consequently, the alternating current, while ideally keeping the power and frequency constant."
+  },
+  {
+    "question": "In a long straight solenoid, the magnetic field strength is essentially uniform and proportional to:",
+    "options": [
+      "Total number of turns (N)",
+      "Length of the solenoid (L)",
+      "Turns per unit length (n)",
+      "Radius of the coil (r)"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic field inside a long solenoid is given by B = (mu nought) n I, where n = N/L.\n\n Therefore, the field is proportional to the turns per unit length, n."
+  },
+  {
+    "question": "What is the function of the iron core in an electromagnet?",
+    "options": [
+      "To dissipate heat",
+      "To increase the resistance",
+      "To reduce the magnetic field",
+      "To concentrate the magnetic field lines and increase strength"
+    ],
+    "answer": 3,
+    "explanation": "Iron is a ferromagnetic material with high magnetic permeability, meaning it greatly concentrates the magnetic flux lines produced by the current in the coil, thus increasing the overall field strength."
+  },
+  {
+    "question": "Which of the following is true when the magnetic flux through a coil is constant?",
+    "options": [
+      "The magnetic field is zero",
+      "The induced EMF is maximum",
+      "The induced EMF is zero",
+      "The current in the coil is increasing"
+    ],
+    "answer": 2,
+    "explanation": "According to Faraday's Law, the induced EMF is proportional to the rate of change of magnetic flux.\n\n If the flux is constant, its rate of change is zero, so the induced EMF is zero."
+  },
+  {
+    "question": "If a current-carrying wire is placed parallel to a uniform magnetic field, the magnitude of the magnetic force on the wire is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Half of maximum",
+      "Dependent on the wire's length"
+    ],
+    "answer": 1,
+    "explanation": "The force on a wire is F = I L B sin(angle). \nIf the wire is parallel to the field, the angle is 0 degrees, and sin(0) = 0.\n Therefore, the force is zero."
+  },
+  {
+    "question": "The magnetic field lines inside a bar magnet travel from:",
+    "options": [
+      "North pole to South pole",
+      "South pole to North pole",
+      "Center to both poles",
+      "Equator to poles"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic field lines are continuous. \nThey travel from the North pole to the South pole outside the magnet, and from the South pole to the North pole inside the magnet."
+  },
+
+
+  {
+    "question": "The time-varying magnetic field is a source of an electric field. This statement is part of which law?",
+    "options": [
+      "Gauss's Law for Electricity",
+      "Faraday's Law of Induction",
+      "Ampere's Law",
+      "Gauss's Law for Magnetism"
+    ],
+    "answer": 1,
+    "explanation": "Faraday's Law of Induction describes how a changing magnetic flux (which means a time-varying magnetic field) induces an electromotive force, effectively generating an electric field."
+  },
+  {
+    "question": "If a step-down transformer has a turns ratio (primary turns / secondary turns) of 10:1. If the secondary current is 5 A, the primary current is:",
+    "options": [
+      "50 A",
+      "5 A",
+      "0.5 A",
+      "2 A"
+    ],
+    "answer": 2,
+    "explanation": "From the transformer equation, N primary / N secondary = I secondary / I primary. \n\nRearranging: I primary = I secondary x (N secondary / N primary).\n I primary = 5 A x (1/10) =\n 0.5 A."
+  },
+  {
+    "question": "The magnetic domain theory is used to explain the behavior of which type of magnetic material?",
+    "options": [
+      "Diamagnetic",
+      "Paramagnetic",
+      "Ferromagnetic",
+      "Non-magnetic"
+    ],
+    "answer": 2,
+    "explanation": "Ferromagnetic materials are composed of tiny regions called magnetic domains, where the atomic magnetic moments are spontaneously aligned. \n\nThe bulk magnetic properties depend on the alignment of these domains."
+  },
+
+
+
+  {
+    "question": "If a charged particle enters a region where both electric field E and magnetic field B are present, the net force on the particle is given by the Lorentz force which is:",
+    "options": [
+      "qE",
+      "q(v x B)",
+      "qE + q(v x B)",
+      "qE - q(v x B)"
+    ],
+    "answer": 2,
+    "explanation": "The total Lorentz force is the vector sum of the electric force (qE) and the magnetic force (q(v x B))."
+  },
+
+  {
+    "question": "The magnetic field at the center of a circular loop of wire carrying a current is directed out of the page. The current in the loop must be flowing:",
+    "options": [
+      "Clockwise",
+      "Counter-clockwise",
+      "Radially inward",
+      "Radially outward"
+    ],
+    "answer": 1,
+    "explanation": "Using the Right-Hand Rule for a loop, curl the fingers in the direction of the current.\n The thumb points in the direction of the magnetic field at the center.\n\n For the field to point out of the page (thumb out), the current must be flowing counter-clockwise."
+  },
+
+
+
+  {
+    "question": "The time rate of change of magnetic flux is called the:",
+    "options": [
+      "Magnetic field intensity",
+      "Induced electromotive force (EMF)",
+      "Magnetic permeability",
+      "Magnetic susceptibility"
+    ],
+    "answer": 1,
+    "explanation": "According to Faraday's Law, the induced electromotive force (EMF) is proportional to the negative of the time rate of change of magnetic flux."
+  },
+
+
+  {
+    "question": "A transformer is fundamentally used to change the level of voltage and current in circuits operating with:",
+    "options": [
+      "DC only",
+      "AC only",
+      "Both AC and DC",
+      "Neither AC nor DC"
+    ],
+    "answer": 1,
+    "explanation": "Transformers rely on the continuous change in magnetic flux produced by an alternating current (AC) to induce voltage in the secondary coil.\n They do not work with direct current (DC)."
+  },
+
+  {
+    "question": "The ratio of the magnitude of the electric force (F E) to the magnitude of the magnetic force (F B) on a charge q moving in a vacuum is given by (F E / F B) = E / (v B). What is the unit of E / (v B)?",
+    "options": [
+      "meter per second",
+      "Coulomb",
+      "Dimensionless (a pure number)",
+      "Tesla"
+    ],
+    "answer": 2,
+    "explanation": "Since the ratio of two forces (Force / Force) is always a pure, dimensionless number, the unit of the expression E / (v B) must be dimensionless."
+  },
+  {
+    "question": "If the current in an inductor changes from 5 A to 1 A in 0.1 s, and the induced EMF is 8 V, the self-inductance (L) of the inductor is:",
+    "options": [
+      "0.2 H",
+      "0.05 H",
+      "0.8 H",
+      "0.1 H"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+
+
+  {
+    "question": "The magnetic field is defined in terms of the force exerted on a:",
+    "options": [
+      "Stationary positive charge",
+      "Moving positive charge",
+      "Stationary magnetic dipole",
+      "Moving neutral particle"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic field is defined by the Lorentz force, which acts only on a moving electric charge (F = q (v x B)).\n\n A stationary charge experiences no magnetic force."
+  },
+  {
+    "question": "If a proton moves vertically upward in a magnetic field directed into the page, the magnetic force on the proton is directed toward the:",
+    "options": [
+      "North",
+      "South",
+      "Left (West)",
+      "Right (East)"
+    ],
+    "answer": 3,
+    "explanation": "Using the Right-Hand Rule: Fingers Up (velocity), curl them Into the page (magnetic field).\n\n The thumb points to the Right (East), which is the direction of the force."
+  },
+  {
+    "question": "The quantity that is represented by the area under the Magnetic Field (B) versus distance (r) graph for a long straight current-carrying wire is proportional to:",
+    "options": [
+      "Magnetic flux",
+      "Magnetic force",
+      "Magnetic field energy",
+      "Has no standard physical meaning"
+    ],
+    "answer": 3,
+    "explanation": "The area under this graph represents the integral of B dr. \n\nThis integral does not correspond to a standard, named physical quantity in electromagnetism in this context."
+  },
+  {
+    "question": "Which of the following describes paramagnetic materials?",
+    "options": [
+      "Strongly attracted to magnets",
+      "Weakly attracted to magnets",
+      "Weakly repelled by magnets",
+      "Used for permanent magnets"
+    ],
+    "answer": 1,
+    "explanation": "Paramagnetic materials have unpaired electrons, leading to weak magnetic moments that tend to align with an external magnetic field, resulting in a weak attraction."
+  },
+  {
+    "question": "The term 'Motional EMF' is typically applied to the voltage induced in a conductor moving through a magnetic field. This is a special case of:",
+    "options": [
+      "Ampere's Law",
+      "Lenz's Law",
+      "Faraday's Law of Induction",
+      "Ohm's Law"
+    ],
+    "answer": 2,
+    "explanation": "Motional EMF is a result of the change in magnetic flux through the circuit area as the conductor moves, which is covered under the general statement of Faraday's Law of Induction."
+  },
+
+
+
+  {
+    "question": "If a wire carries current (I) into the page, the magnetic field at a point directly below the wire is directed:",
+    "options": [
+      "Up",
+      "Down",
+      "Left (West)",
+      "Right (East)"
+    ],
+    "answer": 2,
+    "explanation": "Using the Right-Hand Rule: Thumb points into the page (current direction).\n\n The fingers curl clockwise. At a point directly below the wire, the fingers point to the Left (West)."
+  },
+  {
+    "question": "A particle with charge q moves at constant speed v in a circle of radius R perpendicular to a magnetic field B. The period of the motion (time for one revolution) is proportional to:",
+    "options": [
+      "q / m",
+      "v / B",
+      "m / B",
+      "R / v"
+    ],
+    "answer": 2,
+    "explanation": "The period T is T = 2 pi m / (q B). \nThus, the period is proportional to the ratio of mass to magnetic field (m/B) and is independent of the speed (v) and radius (R)."
+  },
+
+  {
+    "question": "If a step-up transformer has an output voltage of 100 V and an input voltage of 10 V, and the primary current is 5 A, what is the secondary current?",
+    "options": [
+      "50 A",
+      "5 A",
+      "0.5 A",
+      "10 A"
+    ],
+    "answer": 2,
+    "explanation": "For an ideal transformer, V primary I primary = V secondary I secondary.\n I secondary = I primary x (V primary / V secondary).\n I secondary = 5 A x (10 V / 100 V) =\n 5 A x 0.1 = 0.5 A."
+  },
+  {
+    "question": "What is the magnetic force on a 1.0 Coulomb charge moving at 10 m/s in the direction opposite to a 5.0 T magnetic field?",
+    "options": [
+      "50 N",
+      "10 N",
+      "0 N",
+      "5 N"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+
+  {
+    "question": "The induced EMF in a coil is proportional to the number of turns (N) and the rate of change of magnetic flux. This statement describes:",
+    "options": [
+      "Lenz's Law",
+      "Gauss's Law",
+      "Faraday's Law",
+      "Ohm's Law"
+    ],
+    "answer": 2,
+    "explanation": "Faraday's Law of electromagnetic Induction mathematically expresses the magnitude of the induced EMF as proportional to the number of turns (N) and the rate of change of magnetic flux."
+  },
+
+
+
+
+  {
+    "question": "An ideal transformer is connected to a power source. If the output voltage is twice the input voltage, then the output current is:",
+    "options": [
+      "Twice the input current",
+      "Equal to the input current",
+      "Half the input current",
+      "Four times the input current"
+    ],
+    "answer": 2,
+    "explanation": "For an ideal transformer, power is constant (Vp Ip = Vs Is). \n\nIf Vs = 2 Vp, then Ip = (Vs / Vp) Is = (2 Vp / Vp) Is = 2 Is.\n Therefore, Is = 0.5 Ip (half the input current)."
+  },
+  {
+    "question": "A charged particle with velocity v moves perpendicular to a magnetic field B. The magnitude of the force F is given by:",
+    "options": [
+      "q v B / 2",
+      "q v B",
+      "q v B squared",
+      "q / (v B)"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic force on a charge q moving perpendicular to B is F = q v B sin(90 degrees), which simplifies to F = q v B."
+  },
+  {
+    "question": "The unit of Inductance (L) is the Henry (H). Which of the following is equivalent to the Henry?",
+    "options": [
+      "Volt times Ampere",
+      "Ohm times second",
+      "Joule per Ampere",
+      "Weber per second"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "If the current in a long straight wire is doubled, the magnetic field at a fixed distance from the wire will:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic field B due to a long straight wire is directly proportional to the current I (B is proportional to I).\n\n Doubling the current doubles the magnetic field."
+  },
+
+  {
+    "question": "What is the primary factor that causes the magnetic field of the Earth?",
+    "options": [
+      "Permanent magnetization of the solid crust",
+      "Convection currents of molten iron in the outer core",
+      "Gravitational interaction with the Moon",
+      "Static charge buildup in the atmosphere"
+    ],
+    "answer": 1,
+    "explanation": "The Earth's magnetic field is generated by the 'dynamo effect,' which involves the motion of electrically conductive molten iron and nickel in the planet's outer core."
+  },
+  {
+    "question": "The direction of the torque on a current loop in a magnetic field can be found using the:",
+    "options": [
+      "Left-Hand Rule for current",
+      "Right-Hand Rule for cross product (torque)",
+      "Lenz's Law",
+      "Ohm's Law"
+    ],
+    "answer": 1,
+    "explanation": "Torque is given by the cross product of the magnetic moment (mu) and the magnetic field (B), which requires the right-hand rule to determine its direction."
+  },
+  {
+    "question": "A step-down transformer typically has its primary coil wire being thicker than its secondary coil wire. This is because:",
+    "options": [
+      "The primary voltage is higher",
+      "The secondary current is lower",
+      "The secondary current is higher",
+      "The primary current is lower"
+    ],
+    "answer": 2,
+    "explanation": "In a step-down transformer, the voltage is reduced, and the current is increased (since power is conserved).\n\n The secondary coil carries a higher current, so it must have a thicker wire to reduce heat loss (I²R) and prevent melting."
+  },
+  {
+    "question": "When a wire loop is pulled out of a uniform magnetic field at a constant velocity, the induced EMF will:",
+    "options": [
+      "Be zero",
+      "Increase over time",
+      "Be constant",
+      "Decrease over time"
+    ],
+    "answer": 2,
+    "explanation": "Since the loop is moving out at a constant velocity, the area inside the field decreases at a constant rate, meaning the magnetic flux changes at a constant rate. Thus, the induced EMF is constant."
+  },
+  {
+    "question": "Which of the following describes the magnetic force on a charge (q) moving with velocity (v) in a magnetic field (B)?",
+    "options": [
+      "The force does work on the charge",
+      "The force changes the magnitude of the charge's velocity",
+      "The force changes the direction of the charge's velocity",
+      "The force is always parallel to the velocity"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic force is always perpendicular to the velocity, so it only changes the direction of the charge's velocity, not its speed or kinetic energy."
+  },
+  {
+    "question": "If a coil is moved into a region of uniform magnetic field, the induced current in the coil will flow in a direction that generates a magnetic field that is:",
+    "options": [
+      "In the same direction as the external field",
+      "Opposite to the external field",
+      "Perpendicular to the external field",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "Moving the coil into the field increases the magnetic flux (change in flux is into the page if the field is into the page). By Lenz's Law, the induced current must create a field to oppose this increase, meaning its field must be in the opposite direction (out of the page)."
+  },
+
+
+  {
+    "question": "Which component is necessary to convert the AC output of a generator into a smooth DC voltage?",
+    "options": [
+      "Split-ring commutator",
+      "Capacitor and Diode circuit (Rectifier)",
+      "Transformer",
+      "Simple switch"
+    ],
+    "answer": 1,
+    "explanation": "While a split-ring commutator produces a pulsing DC, a full rectifier circuit (diodes) combined with a smoothing capacitor is required to convert AC voltage into a smooth DC voltage typically used by electronics."
+  },
+  {
+    "question": "The phenomenon of one coil inducing an EMF in an adjacent coil when the current changes in the first coil is called:",
+    "options": [
+      "Self-induction",
+      "Mutual induction",
+      "Magnetic hysteresis",
+      "Capacitive coupling"
+    ],
+    "answer": 1,
+    "explanation": "Mutual induction is the process where a time-varying current in a primary coil creates a changing magnetic flux that links a nearby secondary coil, inducing an EMF in the secondary coil."
+  },
+  {
+    "question": "To increase the torque on the armature of a DC motor, one could:",
+    "options": [
+      "Decrease the current in the coil",
+      "Increase the number of turns in the coil",
+      "Use a weaker magnet",
+      "Increase the resistance of the coil wire"
+    ],
+    "answer": 1,
+    "explanation": "The torque on a coil is proportional to the number of turns (N), the current (I), the area (A), and the magnetic field (B). Increasing N increases the torque."
+  },
+  {
+    "question": "If a charged particle with velocity v moves through a region of perpendicular electric field E and magnetic field B without being deflected, the ratio of the fields (E/B) must equal the particle's:",
+    "options": [
+      "Mass",
+      "Charge",
+      "Velocity (v)",
+      "Radius of curvature"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "A coil has 200 turns and a cross-sectional area of 0.1 meter². If the magnetic field passing perpendicularly through the coil changes from 0.5 T to 0.1 T in 0.2 s, the induced EMF is:",
+    "options": [
+      "20 V",
+      "40 V",
+      "8 V",
+      "10 V"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "If the length of a solenoid is doubled while keeping the total number of turns (N) and the current (I) constant, the magnetic field (B) inside the solenoid will:",
+    "options": [
+      "Double",
+      "Halve",
+      "Quadruple",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The magnetic field B is proportional to N/L.\n\n Since B is inversely proportional to the length L, doubling L while N and I are constant will halve the magnetic field B."
+  },
+
+
+
+  {
+    "question": "When a small loop of wire is placed in a non-uniform magnetic field, the net force on the loop is:",
+    "options": [
+      "Always zero",
+      "Directed toward the region of stronger magnetic field",
+      "Directed toward the region of weaker magnetic field",
+      "Always perpendicular to the magnetic field"
+    ],
+    "answer": 1,
+    "explanation": "In a non-uniform field, the forces on the opposite sides of the loop do not cancel. \n\nFor a small loop (like a magnetic dipole), the net force is directed toward the region where the field is strongest."
+  },
+
+
+
+
+
+
+
+
+  {
+    "question": "Which of the following is NOT an essential part of an ideal step-up transformer?",
+    "options": [
+      "Primary coil",
+      "Secondary coil",
+      "Laminated core",
+      "Split-ring commutator"
+    ],
+    "answer": 3,
+    "explanation": "A transformer operates on AC and does not require a commutator, which is a component used to convert AC to DC in motors/generators."
+  },
+
+  {
+    "question": "A charged particle moves perpendicular to a uniform magnetic field, tracing a circular path. If the magnetic field strength is doubled, the frequency of its rotation will:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The cyclotron frequency (f) is given by f = (q B) / (2 pi m). Since f is directly proportional to the magnetic field B, doubling B doubles the frequency of rotation."
+  },
+  {
+    "question": "A metal rod slides along two parallel metal rails at constant velocity in a perpendicular magnetic field. The induced motional EMF is constant. If the velocity is doubled, the induced EMF will:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The motional EMF is EMF = B v L. Since the EMF is directly proportional to the velocity (v), doubling the velocity will double the induced EMF."
+  },
+
+  {
+    "question": "If the separation distance between two parallel wires carrying currents in opposite directions is halved, the repulsive force between them will:",
+    "options": [
+      "Double",
+      "Halve",
+      "Quadruple",
+      "Quarter"
+    ],
+    "answer": 0,
+    "explanation": "The force is proportional to 1/d.\n\n Halving the distance (1/2 d) will double the force (F is proportional to 1/(1/2 d) = 2/d)."
+  },
+
+  {
+    "question": "The maximum value of the magnetic force on a current-carrying wire of length L in a magnetic field B is:",
+    "options": [
+      "I / (L B)",
+      "I L B",
+      "Zero",
+      "I B"
+    ],
+    "answer": 1,
+    "explanation": "The force is F = I L B sin(angle). \n\nThe maximum force occurs when sin(angle) = 1, giving F max = I L B."
+  },
+  {
+    "question": "In an AC generator, the induced EMF is zero when the magnetic flux through the coil is:",
+    "options": [
+      "Zero",
+      "Maximum",
+      "Changing rapidly",
+      "Changing slowly"
+    ],
+    "answer": 1,
+    "explanation": "EMF is induced by the rate of change of flux. When the flux is maximum (coil is perpendicular to B), its rate of change is zero, so the induced EMF is zero."
+  },
+  {
+    "question": "Which of the following is a unit of magnetic field strength that is NOT the Tesla?",
+    "options": [
+      "Weber per meter²",
+      "Newton per Ampere meter",
+      "Joule per Coulomb meter",
+      "Volt per second"
+    ],
+    "answer": 2,
+    "explanation": "Tesla = Weber/meter² (from Flux = B A) and Tesla = Newton/(Ampere meter) (from F = I L B).\n\n Joule per Coulomb is a Volt (voltage/potential difference), so Joule per Coulomb meter is Volt/meter, which is the unit of electric field, not magnetic field."
+  },
+  {
+    "question": "An ideal transformer is connected to a 100 V primary source. If the secondary coil has five times the number of turns as the primary coil, the secondary voltage is:",
+    "options": [
+      "20 V",
+      "100 V",
+      "500 V",
+      "1000 V"
+    ],
+    "answer": 2,
+    "explanation": "The voltage is proportional to the number of turns (V secondary / V primary = N secondary / N primary).\n V secondary = 100 V x (5 / 1) = 500 V."
+  },
+  {
+    "question": "The magnetic field produced by a long, straight wire carrying current I at a radial distance r is inversely proportional to:",
+    "options": [
+      "The distance r",
+      "The current I",
+      "The square of the distance r",
+
+      "The length of the wire"
+    ],
+    "answer": 0,
+    "explanation": "The magnetic field B is proportional to 1/r.\n It is inversely proportional to the distance r."
+  },
+  {
+    "question": "If a charged particle is subjected to an electric field (E) only, its motion will be:",
+    "options": [
+      "Uniform circular motion",
+      "A straight line at constant velocity",
+      "Accelerated in the direction of the electric force",
+      "A helix"
+    ],
+    "answer": 2,
+    "explanation": "The electric force F = qE acts parallel to the electric field. \n\nThis constant force causes a constant acceleration (F = ma), so the particle accelerates in the direction of the force."
+  },
+
+  {
+    "question": "When an AC current is applied to a large inductor, the current is mainly limited by the:",
+    "options": [
+      "Capacitance",
+
+      "Resistance",
+      "DC voltage",
+      "Inductive reactance"
+    ],
+    "answer": 3,
+    "explanation": "The opposition to AC current flow in an inductor is primarily due to the inductive reactance (X L), which is proportional to the frequency and inductance."
+  },
+  {
+    "question": "In a transformer, the winding to which the AC source is connected is called the:",
+    "options": [
+      "Secondary coil",
+      "Armature",
+      "Primary coil",
+      "Commutator"
+    ],
+    "answer": 2,
+    "explanation": "The primary coil is the input winding, which is connected to the alternating voltage source."
+  },
+  {
+    "question": "If a solenoid is stretched, keeping the total number of turns and current constant, its magnetic field strength will:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain the same",
+      "Reverse direction"
+    ],
+    "answer": 1,
+    "explanation": "Stretching the solenoid increases its length (L).\n\n Since B is proportional to N/L, increasing L while N and I are constant causes the magnetic field B to decrease."
+  },
+
+  {
+    "question": "The magnetic field lines are closest together at the poles of a magnet. This indicates that the magnetic field is:",
+    "options": [
+      "Weaker at the poles",
+      "Stronger at the poles",
+      "Non-existent at the poles",
+      "Uniform throughout the magnet"
+    ],
+    "answer": 1,
+    "explanation": "The density of magnetic field lines represents the strength of the magnetic field.\n\n Where the lines are closer together, the field is stronger, which is the case at the poles."
+  },
+  {
+    "question": "To convert an AC generator to a DC generator, you would replace the:",
+    "options": [
+      "Slip rings with a split-ring commutator",
+      "Field magnets with electromagnets",
+      "Brushes with copper wire",
+
+      "Armature coil with a larger coil"
+    ],
+    "answer": 0,
+    "explanation": "A split-ring commutator converts the internal alternating current of the coil into a pulsating direct current for the external circuit, which is the definition of a DC generator."
+  },
+
+
+  {
+    "question": "If a charged particle moves in a uniform magnetic field with its velocity at an angle of 30 degrees to the field lines, the magnetic force is:",
+    "options": [
+      "Zero",
+      "Maximum",
+      "Half of the maximum force",
+      "Twice the maximum force"
+    ],
+    "answer": 2,
+    "explanation": "The force is F = qvB sin(angle).\n\n Since sin(30 degrees) = 0.5, the force is F = 0.5 qvB, which is half of the maximum possible force (F max = qvB)."
+  },
+  {
+    "question": "Which of the following would NOT induce an EMF in a loop of wire?",
+    "options": [
+      "Holding the loop stationary in a constant magnetic field",
+      "Moving the loop into a region of zero magnetic field",
+      "Rotating the loop in a uniform magnetic field",
+
+      "Decreasing the current in a nearby wire"
+    ],
+    "answer": 0,
+    "explanation": "Induced EMF requires a change in magnetic flux.\n\n A constant magnetic field passing through a stationary loop results in a constant flux, meaning the rate of change is zero, and thus the induced EMF is zero."
+  },
+  {
+    "question": "A charged particle moves in a circle in a uniform magnetic field. If the speed of the particle is doubled, the radius of its circular path will:",
+    "options": [
+      "Be halved",
+      "Be doubled",
+      "Be quadrupled",
+      "Remain the same"
+    ],
+    "answer": 1,
+    "explanation": "The radius of the circular path is R = (mass times velocity) / (charge times magnetic field). \n\nSince R is directly proportional to velocity (R is proportional to v), doubling the speed doubles the radius."
+  },
+  {
+    "question": "Which physical quantity does a transformer change when operating on AC current?",
+    "options": [
+      "Power",
+      "Frequency",
+      "Current and Voltage",
+      "Resistance"
+    ],
+    "answer": 2,
+    "explanation": "Transformers are designed to step up or step down the alternating voltage and, consequently, the alternating current, while ideally keeping the power and frequency constant."
+  },
+  {
+    "question": "In a long straight solenoid, the magnetic field strength is essentially uniform and proportional to:",
+    "options": [
+      "Total number of turns (N)",
+      "Length of the solenoid (L)",
+      "Turns per unit length (n)",
+      "Radius of the coil (r)"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic field inside a long solenoid is given by B = (mu nought) n I, where n = N/L.\n\n Therefore, the field is proportional to the turns per unit length, n."
+  }
+]

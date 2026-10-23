@@ -1,0 +1,35 @@
+[
+{
+  "question": "19. Which one of the following statements differentiates emitter, collector and base of a transistor?",
+  "options": [
+    "The emitter region is heavily doped as compared with base and collector.",
+    "The collector region is heavily doped as compared with emitter and base.",
+    "The base region is heavily doped as compared with base and collector.",
+    "The three parts, emitter, base and collector are equally doped."
+  ],
+  "answer": 0,
+  "explanation": "In a bipolar junction transistor (BJT), the three regions are doped to different concentrations: the **emitter** is the **most heavily doped** region to maximize the injection of charge carriers; the collector is moderately doped; and the base is very lightly doped."
+},
+  {
+    "question": "39. In an experiment to determine the direction of the magnetic field around a long straight current-carrying wire, a student placed a small compass at point P, as shown in the diagram. If the direction of the current in the wire is directed **out-of-the page**, then the magnetic needle of the compass will point",
+    "options": [
+      "downward.",
+      "to the right.",
+      "upward.",
+      "to the left."
+    ],
+    "answer": 3,
+    "explanation": "Use the **Right-Hand Rule (RHR)** for a straight wire: Point the thumb of your right hand in the direction of the current (out-of-the page, or towards you). Curl your fingers; they indicate the direction of the magnetic field ($\\mathbf{B}$) lines, which form counter-clockwise circles around the wire . Since point **P** is directly **above** the wire, the tangent to the counter-clockwise field line at P points **to the left**."
+  },
+{
+"question": "20. The following figure shows a switch of circuit consisting of a battery source, two switches represented by letters A and B, and a light bulb Y. Which one of the following logic get can be represented by equivalent switch circuit?",
+"options": [
+"NOR",
+"NAND",
+"OR",
+"AND"
+],
+"answer": 2,
+"explanation": "In the circuit shown , the switches A and B are connected in **parallel** (A || B). The light bulb Y will light up (output 1) if switch A **OR** switch B (or both) is closed (input 1). This 'either/or' configuration is the definition of an **OR gate**."
+}
+]

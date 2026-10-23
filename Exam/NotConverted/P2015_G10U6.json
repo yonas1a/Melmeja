@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Light ray is allowed to enter from air medium (n_air =1 ) into water medium of refractive index (n_w= 4/3) at an angle of 30° with the normal to air-water interface (boundary). Which one of the following is correct about the ray of light?",
+    "options": [
+      "The sine of the angle of refraction of the light ray in water is equal to 0.5.",
+      "The sine of the angle of refraction of the light ray in water is equal to 0.38",
+      "The speed of the light ray in water is 1.33 times that of its speed in air.",
+      "The speed of the light ray in water is 0.9 times that of its speed in air."
+    ],
+    "answer": 1,
+    "explanation": "Using Snell's law: n1 * sin(θ1) = n2 * sin(θ2)\n\nHere, n1 = 1 (air), θ1 = 30°, n2 = 4/3 (water). Let θ2 be the angle of refraction in water.\n\nsin(θ2) = n1/n2 * sin(θ1) = (1) / (4/3) * sin(30°) = (3/4) * 0.5 = 0.375 ≈ 0.38\n\nTherefore, the sine of the angle of refraction in water is approximately 0.38.\n\nThe speed of light in water is slower than in air by a factor of n_w, so it is not greater than the speed in air."
+  },
+  {
+    "question": "Which one of the following statements is NOT correct about power of a lens?",
+    "options": [
+      "The power of a lens decreases as the focal length of the lens increases.",
+      "The larger the focal length of the lens the greater is the power of the lens.",
+      "The power of a lens is the measure of the strength of the lens.",
+      "Optician gives the name diopters for the unit of power of a lens."
+    ],
+    "answer": 1,
+    "explanation": "The power of a lens (P) is defined as P = 100 / f (in cm) or P = 1 / f (in meters).\n\n Hence, the power **decreases** as the focal length increases. Therefore, the statement 'The larger the focal length of the lens the greater is the power of the lens' is NOT correct."
+  }
+]

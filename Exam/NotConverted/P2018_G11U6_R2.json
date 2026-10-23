@@ -1,0 +1,46 @@
+[
+  {
+    "question": "The work done per unit charge in bringing a test charge from infinity to a point in an electric field is called",
+    "options": [
+      "electric field strength.",
+      "electric potential energy.",
+      "electric potential.",
+      "electrostatic force."
+    ],
+    "answer": 2,
+    "explanation": "Electric potential at a point in an electric field is defined as the amount of work done in bringing a unit positive charge from infinity to that point."
+  },
+  {
+    "question": "Two-point charges q₁ = 12 µC and q₂ = -6 µC placed on a horizontal surface along the x-axis at x = 0 and x = 4 cm respectively. The electric force on",
+    "options": [
+      "q₁ due to q₂ is 405 N, toward positive x-axis.",
+      "q₂ due to q₁ is 810 N, toward negative x-axis.",
+      "q₂ due to q₁ is 810 N, toward positive x-axis.",
+      "q₁ due to q₂ is 405 N, toward negative x-axis."
+    ],
+    "answer": 1,
+    "explanation": "Coulomb's Law magnitude F = (k · |q₁ · q₂|) / r² \n\n= (8.99 × 10⁹ × 12 × 10⁻⁶ × 6 × 10⁻⁶) / (0.04)² \n\n= 0.64728 / 0.0016 =\n\n 404.55 N ≈ 405 N . \n\nSince charges are opposite (+12 µC and -6 µC), they attract each other. \n\nTherefore, q₁ is pulled towards positive x-axis (towards q₂),\n\n so force on q₁ due to q₂ is 405 N, toward positive x-axis."
+  },
+  {
+    "question": "A 30 µF capacitor is charged to 18 V. How much energy does it contain?",
+    "options": [
+      "2.46 × 10⁻³ J",
+      "5.40 × 10⁻⁴ J",
+      "9.72 × 10⁻³ J",
+      "4.86 × 10⁻³ J"
+    ],
+    "answer": 3,
+    "explanation": "Energy stored in a capacitor U = ½ C V² \n\n= ½ × (30 × 10⁻⁶ F) × (18 V)² \n\n= 15 × 10⁻⁶ × 324 \n\n= 4860 × 10⁻⁶ J \n\n= 4.86 × 10⁻³ J."
+  },
+  {
+    "question": "A tungsten wire of length 5 cm and diameter of 2 mm has a resistivity of 5.25 x 10⁻⁸ Ω.m. What is the resistance of the wire?",
+    "options": [
+      "2.63 x 10³ Ω",
+      "8.36 x 10⁻⁴ Ω",
+      "2.10 x 10⁻⁴ Ω",
+      "2.10 x 10² Ω"
+    ],
+    "answer": 1,
+    "explanation": "Resistance R = ρ · L / A.\n\n Given L = 0.05 m,\n diameter d = 2 mm = 2 × 10⁻³ m,\n so radius r = 10⁻³ m.\n\n Area A = π r² = π × (10⁻³)² ≈ 3.1416 × 10⁻⁶ m². \n\nR = (5.25 × 10⁻⁸ × 0.05) / (3.1416 × 10⁻⁶) \n\n= (2.625 × 10⁻⁹) / (3.1416 × 10⁻⁶) \n\n≈ 8.355 × 10⁻⁴ Ω\n\n ≈ 8.36 × 10⁻⁴ Ω."
+  }
+  ]

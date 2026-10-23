@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What are the coordinates of a point that divides the line segment with end points P(0, 1) and Q(5, 6) in the ratio 2:3 from P?",
+    "options": [
+      "(3, 2)",
+      "(0, 3)",
+      "(2, 3)",
+      "(0, 2)"
+    ],
+    "answer": 2,
+    "explanation": "Use the section formula for a point R(x, y) dividing a segment P(x1, y1) and Q(x2, y2) in the ratio m:n from P (m=2, n=3):\n\nx = (nx1 + mx2) / (m + n) and y = (ny1 + my2) / (m + n)\n\n1. x-coordinate: x = (3*0 + 2*5) / (2 + 3) = 10 / 5 = 2.\n\n2. y-coordinate: y = (3*1 + 2*6) / (2 + 3) = (3 + 12) / 5 = 15 / 5 = 3.\n\n The coordinates of the point are (2, 3)."
+  }
+]

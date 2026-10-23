@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Which of the following is CORRECT about the phase change observed in water?",
+    "options": [
+      "A. Water starts to evaporate at the boiling point and condenses at the melting point.",
+      "B. When a solid ice is heated, it is changed to liquid water without melting.",
+      "C. At the boiling point temperature, water exists in three different physical states.",
+      "D. At the melting point of ice, the temperature remains constant."
+    ],
+    "answer": 3,
+    "explanation": "During the phase change from solid to liquid (melting), heat energy is used to break intermolecular bonds, not to raise temperature. \n\nTherefore, the temperature remains constant at the melting point until all ice melts.\n\n Option A is incorrect because evaporation can occur below the boiling point, B is incorrect because melting is required for solid to become liquid, and C is incorrect because three states do not coexist at the boiling point."
+  },
+  {
+    "question": "Consider the following reaction: \n\nN₂(g) + O₂(g) ⇌ 2NO (g)\n\nThe equilibrium concentrations of gaseous nitrogen, oxygen and nitrogen monoxide in a sealed container are as follows: [N₂] = 1 * 10⁻⁵ M, [O] = 2 * 10⁻⁵ M and [NO] = 4 * 10⁻⁵ M. What is the value of the equilibrium constant (Kc) for the reaction?",
+    "options": [
+      "A. 8",
+      "B. 2",
+      "C. 16",
+      "D. 4"
+    ],
+    "answer": 0,
+    "explanation": "The equilibrium constant Kc is calculated using Kc = [NO]² / ([N₂][O₂]).\n\n Substituting the values: Kc = (4 × 10⁻⁵)² ÷ ((1 × 10⁻⁵) × (2 × 10⁻⁵)) = 1.6 × 10⁻⁹ ÷ 2 × 10⁻¹⁰ = 8."
+  },
+  {
+    "question": "At a certain temperature the following reaction has an equilibrium constant Kc = 12.4:\n\n N₂(g) + 3H₂(g) ⇌ 2 NH₃(g)\n If [N₂] = 2.0 M [H₂] = 2.0 M and [NH₃] = 10.0 M, to which direction will the reaction proceed to reach equilibrium?",
+    "options": [
+      "A. The reaction will proceed to the reverse direction.",
+      "B. The reaction is at chemical equilibrium.",
+      "C. The equilibrium is independent of the concentration.",
+      "D. The reaction will proceed to the forward direction."
+    ],
+    "answer": 3,
+    "explanation": "Qc = [NH₃]² / ([N₂][H₂]³) = 100 / 16 = 6.25. \n\nSince Qc < Kc (6.25 < 12.4), the reaction will shift forward to produce more NH₃ to reach equilibrium."
+  },
+  {
+    "question": "Given the following heterogeneous reaction: \n\nCaCO₃(s) ⇌ CaO (s) + CO₂(g)\nWhat is the equilibrium constant expression (Kc) for the above reaction?",
+    "options": [
+      "A. Kc = [CaO][CO₂]",
+      "B. Kc = [CaO][CO₂] / [CaCO₃]",
+      "C. Kc = [CO₂]",
+      "D. Kc = [CaO] / [CaCO₃]"
+    ],
+    "answer": 2,
+    "explanation": "In heterogeneous equilibria, the concentrations of solids (CaCO₃ and CaO) are constant and not included in the equilibrium expression.\n\n Only the concentration of the gaseous product CO₂ is included that is Kc = [CO₂] "
+  }
+]

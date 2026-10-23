@@ -1,0 +1,263 @@
+{
+  "id": "m2017_g12_merged_melmeja",
+  "title": "Mathematics Grade 12 Practice Questions 2017 (5 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Mathematics",
+  "description": "Combined 5 chapter files (M2017_G12U1.json, M2017_G12U2.json, M2017_G12U3.json, M2017_G12U4.json, M2017_G12U5.json) into one exam. 15 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 15,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "ENTRANCE",
+    "2017",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_g12u1_melmeja_1",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement defines geometric progression?",
+      "options": [
+        "It is a sequence in which the difference between consecutive terms is a positive constant.",
+        "It is a sequence in which the difference between consecutive terms is a non-zero constant.",
+        "It is a sequence in which the ratio between consecutive terms is a positive constant.",
+        "It is a sequence in which the ratio between consecutive terms is a nonzero constant."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A geometric progression (or geometric sequence) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio (r). \n\nThis means the ratio between consecutive terms is a nonzero constant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_2",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Given the sequence 3, 6, 12, 24, .... Then what is the 10th partial sum of the sequence?",
+      "options": [
+        "3075",
+        "1023",
+        "1027",
+        "3069"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step 1: Identify the sequence type. The sequence is geometric with first term a = 3 and common ratio r = 2.\n\nStep 2: Use the formula for the sum of first n terms of a geometric sequence: S_n = a(r^n - 1)/(r - 1)\n\nStep 3: Substitute values for n = 10:\n\nS_10 = 3(2^10 - 1)/(2 - 1) = 3(1024 - 1)/1 = 3 × 1023 = 3069.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_3",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true about the given infinite series?",
+      "options": [
+        "∑ from (n= 1 to n=∞) (4/3)ⁿ is convergent.",
+        "∑ from (n= 1 to n=∞)  2ⁿ is divergent.",
+        "∑ from (n= 1 to n=∞) (-1)ⁿ (2/5)ⁿ is divergent.",
+        "∑ from (n= 1 to n=∞) (-1)ⁿ (2)ⁿ  is convergent."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A geometric series converges only if |r| < 1.\n\n2ⁿ grows without bound, so the series is divergent (true statement)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_4",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "What is the average rate of change of g(x) = x³ - 2x over the interval 1 ≤ x ≤ 6?",
+      "options": [
+        "41",
+        "37/5",
+        "46",
+        "203/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The average rate of change of a function g(x) over [a, b] is given by:\n\n[g(b) - g(a)] / (b - a)\n\nStep 1: Compute g(6) = 6³ - 2*6 = 216 - 12 = 204\n\nStep 2: Compute g(1) = 1³ - 2*1 = 1 - 2 = -1\n\nStep 3: Average rate = (204 - (-1)) / (6 - 1) = 205 / 5 = 41 ✅",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_5",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Suppose f(x) = 3√x and g(x) = 1/3x⁴ + 2x be given two functions. Then which of the following is equal to (f+g)'(x)?",
+      "options": [
+        "2/3x^(-1/3) + 4x³ + 2x",
+        "2/3x^(-1/3) + 4x³ + 2x",
+        "3/2x^(-1/2) + 4/3 x³ + 2",
+        "3x^(-1/2) + 4x³ + 2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Differentiate each function separately and then add.\n f(x)=3x^(1/2) so f'(x)=3×(1/2)x^(-1/2)=\n3/2 x^(-1/2).\n\n g(x)=(1/3)x⁴+2x so \ng'(x)=(4/3)x³+2.\n Therefore (f+g)'(x)=3/2 x^(-1/2)+4/3 x³+2, which matches option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_6",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = (1-2x)^1/2. Then what is the values of f'(x)?",
+      "options": [
+        "-1/2√(1-2x)",
+        "1/2√(1-2x)",
+        "-1/√(1-2x)",
+        "1/√(1-2x)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Use the chain rule.\n f(x) = (1 - 2x)^(1/2). \n\nBring down 1/2 and reduce power: (1/2)(1 - 2x)^(-1/2), then multiply by derivative of inside (1 - 2x) which is -2.\n\n This gives f'(x) = - (1 - 2x)^(-1/2) = \n-1/√(1 - 2x), so the correct answer is option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_7",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Consider the function f(x) = x³-3x² +3 on ( -2, 3 ), then which of the following point is local minimum and local maximum of f(x) respectively?",
+      "options": [
+        "(0, 3) and (2, -1)",
+        "(3, 3) and (-2, -27)",
+        "(2, -1) and (0, 3)",
+        "(-2, -27) and (0, 3)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": " Step 1: Find the derivative: f'(x) = 3x² - 6x = 3x(x - 2)\n\nStep 2: Solve f'(x) = 0 → x = 0, x = 2\n\nStep 3: Use second derivative test: f''(x) = 6x - 6\n\n- At x = 0: f''(0) = -6 < 0 → local maximum\n\n- At x = 2: f''(2) = 6 > 0 → local minimum\n\nStep 4: Evaluate function values:\n\n- f(0) = 0³ - 3*0² + 3 = 3 → local maximum\n\n- f(2) = 2³ - 3*2² + 3 = 8 - 12 + 3 = -1 → local minimum\n\nTherefore, local minimum is (2, -1) and local maximum is (0, 3), which corresponds to option c.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_8",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements describes the dispersion of the data values.",
+      "options": [
+        "It measures the variability in terms of different units of data.",
+        "The degree to which numerical data tends to distribute about an average.",
+        "It helps to describe the degree of similarity of data values.",
+        "It compares the variability of two or more data that are independent of the units of measurement."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Dispersion refers to how data values are spread out or vary around a central value (like the mean).\n\n Option B correctly describes this as the degree to which numerical data tends to distribute about an average.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_9",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Consider the following data:\n13, 16, 19, 19, 19, 24, 27\nWhat is the mean deviation about the mode?",
+      "options": [
+        "2.75",
+        "3.75",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "First find the mode, which is 19 (it occurs most frequently). \n\nThen take absolute deviations of all values from 19, giving 6, 3, 0, 0, 0, 5, and 8.\n\n Their sum is 22, and dividing by the total number of values (7) gives 22/7 ≈ 3.14, \n\nso the closest answer is 3 (option C).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_10",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "What is the coefficient of quartile deviation for the following data?\n29, 44, 46, 52, 35, 35, 25, 15, 10, 55, 56",
+      "options": [
+        "0.35",
+        "0.48",
+        "2.08",
+        "2.85"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "First arrange the data in ascending order:\n 10, 15, 25, 29, 35, 35, 44, 46, 52, 55, 56.\n Then find Q1 = 25 and Q3 = 52.\n The coefficient of quartile deviation is (Q3 − Q1) / (Q3 + Q1) =\n\n (52 − 25) / (52 + 25) = 27/77 ≈ 0.35,\n so the correct answer is A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_11",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Consider the following data: 1, 3, 7, 9, 11, 13, 18,28\nThen the coefficient of mean deviation about the median is equal to:",
+      "options": [
+        "8/5",
+        "5/8",
+        "1/2",
+        "1/4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Arrange data: 1, 3, 7, 9, 11, 13, 18, 28.\n Median = (9 + 11)/2 = 10. \nAbsolute deviations from 10 are: 9, 7, 3, 1, 1, 3, 8, 18.\n Sum = 50, so mean deviation = 50/8 = 6.25.\n\n Coefficient of mean deviation about median = 6.25 / 10 =\n 0.625 =\n 5/8, \nso the correct answer is B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_12",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Given the objective function Z = -x + 2y that is subjected to the constraints:\n{x ≥ 3 , x + y ≥ 5, x + 2y ≤ 6, y ≥ 0\nWhat are the maximum and the minimum values of Z respectively?",
+      "options": [
+        "1 and -2",
+        "-2 and -6",
+        "-6 and -2",
+        "2 and 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First identify the feasible region using x ≥ 3, x + y ≥ 5, x + 2y ≤ 6, and y ≥ 0.\n\n The corner points are (4,1), (5,0), and (6,0).\n\n Evaluate Z = -x + 2y at each point: Z(4,1) = -2,\n Z(5,0) = -5,\n Z(6,0) = -6. \n\nTherefore, the maximum value is -2 and the minimum value is -6,\n\n so the correct answer is B",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_13",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "A television company assembles flat screen and curved screen televisions. The company has to invest Birr 15,000 to assemble one flat screen and Birr 20,000 to assemble one curved screen television. The company allocates a maximum of Birr 900,000 in a week for assembling. The company gets Birr 1800 profit from a sale of one flat screen television and Birr 2000 profit from a sale of one curved screen television. Moreover, the company has a store capacity of storing 50 televisions. Let x be the number of flat screens and y be the number of curved screens. Then which one of the following inequalities should model the profit for the objective function Z = 1800x + 2000y ?",
+      "options": [
+        "{ 15,000x + 20,000y ≤ 900,000,  x + y ≤ 50,  x,y ≥ 0",
+        "{ 15,000x + 20,000y ≤ 360,000,  x + y ≤ 50,  x,y ≥ 0",
+        "{20,000x +  15,000y +  ≤ 900,000,  x + y ≤ 50,  x,y ≥ 0",
+        "{20,000x +  15,000y +  ≤ 360,000, x + y ≤ 50,  x,y ≥ 0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Each flat screen costs 15,000 so 15,000x, \nand each curved screen costs 20,000 so 20,000y.\n\n The total budget is at most 900,000, so the correct constraint is 15,000x + 20,000y ≤ 900,000.\n\n The storage limit is x + y ≤ 50 and x, y ≥ 0.\n Therefore the correct model matches option A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_14",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "A company offers a discount of 25% on one of its product for promotion. What is a regular price of the product if it is purchased for Birr 297?",
+      "options": [
+        "198",
+        "132",
+        "371.25",
+        "396"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A 25% discount means the customer pays 75% of the original price. \n\nSo 0.75x = 297. \nSolving gives x = 297 ÷ 0.75 = 396, \nso the regular price is 396 (option D).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g12u1_melmeja_15",
+      "examId": "m2017_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": " A worker of a company borrowed Birr 100,000 from the company's credit and saving association. She agreed to pay 10% of the loan during the agreement and on the remaining amount to pay Birr 3,000 (monthly plus interest) in 36 monthly installments. What is the total amount of money she paid to the credit and saving association?",
+      "options": [
+        "Birr 118,000",
+        "Birr 108,000",
+        "Birr 116,000",
+        "Birr 106,000"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "She first pays 10% of 100,000 which is 10,000 Birr.\n The remaining loan is paid as 3,000 × 36 = 108,000 Birr.\n So total payment = 10,000 + 108,000 =\n 118,000 Birr,\n hence option A.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "question": " What is the total surface area of a regular square pyramid with slant height 8 cm and base area 25cm²?",
+    "options": [
+      "105cm²",
+      "90cm² ",
+      "80cm²",
+      "65cm²"
+    ],
+    "answer": 0,
+    "explanation": "Base area = 25, so side = 5 cm.\n Lateral area = (1/2) × perimeter × slant height = \n(1/2) × (4×5) × 8 = 80.\n Total surface area = 80 + 25 = \n105 cm²."
+  },
+  {
+    "question": "The altitude of a frustum of a regular square pyramid is 9 cm. What is the volume of the frustum if the side length of the upper base is 6 cm and the side length of the lower base is 10 cm?",
+    "options": [
+      "588 cm³",
+      "196 cm³",
+      "108 cm³",
+      "324 cm³"
+    ],
+    "answer": 0,
+    "explanation": "Volume of a frustum of a square pyramid: V = h/3 × (A1 + A2 + √(A1*A2)), \n\nwhere h = 9, A1 = 10² = 100, A2 = 6² = 36.\n\n √(A1*A2) = √(100*36) = 60.\n\n V = 3 × (100 + 36 + 60) = \n3 × 196 =\n 588 cm³"
+  }
+]

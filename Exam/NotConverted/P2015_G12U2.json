@@ -1,0 +1,37 @@
+[
+
+  {
+    "question": "A small source emits sound waves which are spherical. The intensity of the sound wave measured at a distance r = 3.0m from the source is I =  5 W/m². At what distance from the source would the intensity be one-fourth as much as it is at r = 3.0m",
+    "options": [
+      "12.0 m",
+      "9.0 m",
+      "4.5 m",
+      "6.0 m"
+    ],
+    "answer": 3,
+    "explanation": "The intensity of a spherical wave is inversely proportional to the square of the distance from the source: I ∝ 1/r². \n\nLet r2 be the new distance where intensity is I2 = I/4. \n\nThen: I2/I1 = (r1/r2)²  1/4 = (3/r2)² Taking square root: 1/2 = 3/r2  r2 = 6 m"
+  },
+  {
+    "question": "Consider a particle performing a circular motion around a circle of radius r, with an angular velocity omega, and the particle's projection on the horizontal diameter of the circle (between points $Q$ and R) as shown in the figure below. Which one of the following statements is correct about the motion of the particle and its projection on QR?",
+    "options": [
+      "The projection of the particle on QR swings between points Q and R with constant speed.",
+      "The circular motion of the particle can be taken as a simple harmonic motion.",
+      "The projection of the particle on QR demonstrates simple harmonic motion.",
+      "The projection of the particle on QR demonstrates motion with constant acceleration."
+    ],
+    "answer": 2,
+    "image": "images/P2015_18.png",
+    "explanation": ""
+  },
+  {
+    "question": "Air molecules vibrate in a pipe of length L closed at one end but open at the other. If the speed of sound through the pipe is V. Which one of the following statements is correct about the resonance effects of vibration of air molecules in the pipe?",
+    "options": [
+      "The fundamental resonance frequency is v/4l.",
+      "The fundamental wave length of resonance is equal to 2L.",
+      "The resonance frequency of the first harmonics is v/l.",
+      "The wavelength of the third harmonic is equal to L."
+    ],
+    "answer": 0,
+    "explanation": "For a pipe closed at one end and open at the other:\n\n- The fundamental mode has a node at the closed end and an antinode at the open end.\n\n- The length of the pipe corresponds to one-quarter of the wavelength.\n\nThus: L = λ₁ / 4  ⇒  λ₁ = 4L\n\nThe fundamental frequency is:\n\n f₁ = v / λ₁ = v / 4L\n\nOnly odd harmonics (1st, 3rd, 5th, …) are present in a closed pipe.\n\n Therefore, the correct statement is that the fundamental resonance frequency is v/4L"
+  }
+]

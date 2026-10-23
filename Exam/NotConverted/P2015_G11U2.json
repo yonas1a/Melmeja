@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which one of the following groups of physical quantities contains only vectors?",
+    "options": [
+      "Work, Electric field, Displacement and Force",
+      "Acceleration, Speed, Force and Electric field",
+      "Momentum, Energy, Magnetic field and Force",
+      "Displacement, Velocity, Magnetic field and Momentum"
+    ],
+    "answer": 3,
+    "explanation": "Vectors are quantities that have both **magnitude and direction**. \n\nScalars have only magnitude. \n\n- Work and Energy are scalars.\n\n- Speed is scalar.\n\n- Displacement, Velocity, Acceleration, Force, Momentum, Electric field, and Magnetic field are vectors.\n\nHence, the group containing only vectors is: Displacement, Velocity, Magnetic field, and Momentum."
+  },
+  {
+    "question": "Given two vectors v1 = 10 units along the positive y-axis and v2 = 6 units at an angle of 37° above the positive x-axis. What is the scalar product of the two vectors in square of units?",
+    "options": [
+      "45",
+      "36",
+      "48",
+      "60"
+    ],
+    "answer": 2,
+    "explanation": "Scalar (dot) product of two vectors: v1 · v2 = |v1||v2| cosθ, where θ is the angle between the vectors.\n\nVector v1 is along y-axis, vector v2 makes 37° with x-axis → angle between v1 and v2 = 90° - 37° = 53°.\n\nSo, v1 · v2 = 10 × 6 × cos53° ≈ 60 × 0.6 = 36."
+  }
+]

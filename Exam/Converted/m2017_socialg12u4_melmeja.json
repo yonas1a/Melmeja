@@ -1,0 +1,57 @@
+{
+  "id": "m2017_socialg12u4_melmeja",
+  "title": "Grade 12 Mathematics Comprehensive Exam 2017",
+  "category": "GRADE_12",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 12",
+  "description": "Grade 12 Mathematics Comprehensive Exam 2017 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_12",
+    "2017",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2017",
+  "questions": [
+    {
+      "id": "q_m2017_socialg12u4_melmeja_1",
+      "examId": "m2017_socialg12u4_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Mr. Bekele finances two investments, $I_1$ and $I_2$. The profits of $I_1$ and $I_2$ are $8%$ and $19%$, respectively. The total investment is Birr one million with at least Birr 50,000 in $I_1$ and at least Birr 300,000 in $I_2$. Which of the following is the Mathematical representation of the problem if Mr. Bekele wishes to maximize his profit? (Let $x$ and $y$ be the amount of money invested on $I_1$ and $I_2$ in Birr, respectively)",
+      "options": [
+        "$\text{Maximize } z = 0.08x + 0.19y \text{ s.t. } x + y le 1,000,000, x ge 50,000, y le 300,000, x ge 0, y ge 0$",
+        "$\text{Maximize } z = 0.08x + 0.19y \text{ s.t. } x + y ge 1,000,000, x le 50,000, y le 300,000, x ge 0, y ge 0$",
+        "$\text{Maximize } z = 0.08x + 0.19y \text{ s.t. } x + y = 1,000,000, x ge 50,000, y le 300,000, x ge 0, y ge 0$",
+        "$\text{Maximize } z = 0.08x + 0.19y \text{ s.t. } x + y = 1,000,000, x ge 50,000, y ge 300,000, x ge 0, y ge 0$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This is a Linear Programming problem. Let $x$ be the investment in $I_1$ and $y$ be the investment in $I_2$.\n\n1. **Objective Function (Maximize Profit):** Profit from $I_1$ is $8%x = 0.08x$. Profit from $I_2$ is $19%y = 0.19y$. \n$$\text{Maximize } z = 0.08x + 0.19y$$\n\n2. **Constraints:**\n   - **Total Investment:** The total investment **is** (exactly) Birr one million. $x + y = 1,000,000$.\n   - **Investment in $I_1$:** At **least** Birr 50,000. $x ge 50,000$.\n   - **Investment in $I_2$:** At **least** Birr 300,000. $y ge 300,000$.\n   - **Non-negativity:** $x ge 0, y ge 0$.\n\nCombining the constraints and the objective function leads to Option D. Note the difference in the constraints for $I_2$ compared to the previous question's image, making Option D the correct one here.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg12u4_melmeja_2",
+      "examId": "m2017_socialg12u4_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What are the maximum and minimum values respectively of $z = 3x + y$ subject to constraints $\begin{cases} 3x + 2y le 20 \\ 2x - y ge 4 \\ x ge 0, y ge 0 end{cases}$?",
+      "options": [
+        "18 and 8",
+        "40 and 6",
+        "16 and 6",
+        "20 and 6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This is a Linear Programming problem. We must find the vertices of the feasible region defined by the constraints and test them in the objective function $z = 3x + y$.\n\n1. **Find Vertices:**\n   - **Intersection 1 ($3x + 2y = 20$ and $2x - y = 4$):** Solve the system:\n     From (2): $y = 2x - 4$. Substitute into (1):\n     $3x + 2(2x - 4) = 20 implies 7x - 8 = 20 implies 7x = 28 implies x = 4$. \n     Then $y = 2(4) - 4 = 4$. Vertex: **(4, 4)**.\n\n   - **Intersection 2 ($2x - y = 4$ and $y = 0$):** $2x - 0 = 4 implies x = 2$. Vertex: **(2, 0)**.\n\n   - **Intersection 3 ($3x + 2y = 20$ and $y = 0$):** $3x + 0 = 20 implies x = 20/3 approx 6.67$. Vertex: **(20/3, 0)**.\n\n2. **Test Vertices in Objective Function $z = 3x + y$:**\n   - **(4, 4):** $z = 3(4) + 4 = 12 + 4 = 16$\n   - **(2, 0):** $z = 3(2) + 0 = 6 + 0 = 6$\n   - **(20/3, 0):** $z = 3(20/3) + 0 = 20 + 0 = 20$\n\n3. **Result:**\n   - **Maximum value:** $z = 20$ at $(20/3, 0)$.\n   - **Minimum value:** $z = 6$ at $(2, 0)$.\n\nTherefore, the maximum and minimum values are 20 and 6, respectively. This matches Option D.",
+      "topic": "Mathematics"
+    }
+  ]
+}

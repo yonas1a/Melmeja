@@ -1,0 +1,47 @@
+[
+{
+  "question": "To form an image of a distant object, the refracting telescope uses",
+  "options": [
+    "an objective convex lens to collect light and form an image which is magnified by the convex lens of the eyepiece.",
+    "a convex mirror to collect light and forms an image which is magnified by the convex lens of the eyepiece.",
+    "an objective concave lens to collect light and forms an image which is magnified by the concave lens of the eyepiece.",
+    "a convex mirror to collect light and forms an image which is magnified by the concave lens of the eyepiece."
+  ],
+  "answer": 0,
+  "explanation": "A refracting telescope uses lenses rather than mirrors.\n\nThe objective is a convex lens with a long focal length and collects light from the distant object to form a real image.\n\nThe eyepiece is also a convex lens and acts as a magnifying glass to enlarge the image formed by the objective."
+},
+{
+"question": "Two plane mirrors inclined at an angle of 72° to each other. How many images are formed when an object is placed between them?",
+"options": [
+"3",
+"5",
+"4",
+"6"
+],
+"answer": 2,
+"explanation": "For two plane mirrors inclined at an angle θ, when 360°/θ is an integer, the number of images is n = 360°/θ - 1.\n\nHere, θ = 72°, so 360°/72° = 5.\n\nTherefore, n = 5 - 1 = 4 images."
+},
+{
+"question": "Suppose the figure shown below represents some portion of the electromagnetic spectrum.\n\nWhich one of the following is correct about the nature of the electromagnetic waves represented by X and Y?",
+"options": [
+"Waves X have longer wavelength than waves Y.",
+"Waves Y have higher speed than waves X.",
+"Waves X and Y has the same frequency.",
+"Waves X have higher frequency than waves Y."
+],
+"answer": 0,
+"explanation": "The electromagnetic spectrum is arranged from longer wavelength and lower frequency to shorter wavelength and higher frequency.\n\nSince X is located before infrared, it represents electromagnetic waves with longer wavelengths than the waves represented by Y, which is beyond ultraviolet.\n\nAll electromagnetic waves travel at the same speed in vacuum, so Y does not have a higher speed than X.",
+"image": "images/P2018_46.png"
+},
+{
+"question": "A light ray passing from air to glass has an angle of incidence 37° with the normal. If the refractive index of the glass is 1.54, what is the angle of refraction of the light?",
+"options": [
+"θ = sin⁻¹ (1.0)",
+"θ = sin⁻¹ (0.39)",
+"θ = sin⁻¹ (0.92)",
+"θ = sin⁻¹ (0.54)"
+],
+"answer": 1,
+"explanation": "Snell's law states that n₁sinθ₁ = n₂sinθ₂.\n\nFor air, n₁ ≈ 1, while for glass n₂ = 1.54 and θ₁ = 37°.\n\nTherefore, sinθ₂ = sin37°/1.54 ≈ 0.6018/1.54 ≈ 0.39.\n\nThus, θ₂ = sin⁻¹(0.39)."
+}
+]

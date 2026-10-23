@@ -1,0 +1,24 @@
+[
+  {
+    "question": "If the 6th and the 11th term of an arithmetic sequence are 35 and 75 respectively, then what is the sum of the first 31 terms of the sequence?",
+    "options": [
+      "840",
+      "2635",
+      "724",
+      "3565"
+    ],
+    "answer": 3,
+    "explanation": "Let the first term be a and common difference d. \n\n6th term: a + 5d = 35 11th term: a + 10d = 75 \n\nSubtract: 5d = 40 → d = 8 \n\nThen a + 5*8 = 35 → a = -5 \n\n S31 = 31/2 * [2a + (31-1)d] \n= 31/2 * [2(-5) + 30*8]\n = 31/2 * [230] \n= 31*115 = 3565"
+  },
+  {
+    "question": "What is the fifth term of the sequence {2ⁿ + 4n -5} where n=0 to n= ∞?",
+    "options": [
+      "15",
+      "47",
+      "17",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "The general term is an = 2ⁿ + 4n - 5.\n\n The fifth term corresponds to n = 4.\n\n Compute: a4 = 2⁴+ 4*4 - 5 \n= 16 + 16 - 5 \n= 27."
+  }
+]

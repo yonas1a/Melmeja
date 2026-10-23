@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Consider the lines L1: y = 2x + 3 and L2: y = 1 - 3x. Then the angle between L1 and L2 is",
+    "options": [
+      "π/6",
+      "π/2",
+      "3π/2",
+      "π/4"
+    ],
+    "answer": 3,
+    "explanation": "The slopes of the two lines are m1 = 2 and m2 = -3. The angle (θ) between two lines with slopes m1 and m2 is given by the formula:\n\ntan(θ) = | (m1 - m2) / (1 + m1.m2) |\n\ntan(θ) = | (2 - (-3)) / (1 + 2(-3)) |$\ntan(θ) = | (2 + 3) / (1 - 6) |\ntan(θ) = | 5 / (-5) |\ntan(θ) = | -1 |\ntan(θ) = 1\n\nThe angle whose tangent is 1 is 45 degrees, which is π/4 radians."
+  },
+  {
+    "question": "The equation of the parabola with vertex V(2, -1) and focus F(-1, -1) is",
+    "options": [
+      "(x - 2)² = -12(y + 1)",
+      "(y + 1)² = 12(x - 2)",
+      "(y + 1)² = -12(x - 2)",
+      "(x + 1)² = -12(y + 1)"
+    ],
+    "answer": 2,
+    "explanation": "The parabola is horizontal because the focus and vertex have the same y-coordinate (-1). \n\nDistance from vertex to focus = |h - (-1)| = |2 - (-1)| = 3 → 4p = 12.\n\n Equation: (y + 1)² = -12(x - 2)"
+  },
+  {
+    "question": "What is the equation of the hyperbola with foci F1(-2, 1), F2(8, 1) and the length of the conjugate axis is 8 units?",
+    "options": [
+      "((x-3)² / 25) - ((y-1)² / 15) = 1",
+      "((x-5)² / 9) - ((y-1)² / 16) = 1",
+      "((x-3)² / 16) - ((y-1)² / 25) = 1",
+      "((y+1)² / 16) - ((x-3)² / 9) = 1"
+    ],
+    "answer": 0,
+    "explanation": "The hyperbola is horizontal because foci lie on y=1. \n\nCenter: midpoint of foci C=(3,1). \n\nDistance between center and focus: c=5. Conjugate axis length 8 → b=4.\n\n Equation: (x-3)²/a² - (y-1)²/b²=1 with a²=c²-b²=25-16=9.\n\n So equation: (x-3)²/25 - (y-1)²/16 = 1."
+  }
+]

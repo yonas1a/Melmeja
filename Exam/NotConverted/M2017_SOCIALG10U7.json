@@ -1,0 +1,35 @@
+[
+{
+  "question": "28) A spherical fuel container with radius $3 \\text{ m}$ is filled with fuel. What is the amount (in $\\text{m}^3$) of fuel in the container?",
+  "options": [
+    "A $18\\pi$",
+    "B $9\\pi$",
+    "C $36\\pi$",
+    "D $\\frac{12}{3}\\pi$"
+  ],
+  "answer": 2,
+  "explanation": "The amount of fuel in the container is equal to the **Volume ($V$) of the sphere**. The formula for the volume of a sphere with radius $r$ is $V = \\frac{4}{3}\\pi r^3$. The radius is given as $r = 3 \\text{ m}$. \\n$V = \\frac{4}{3}\\pi (3 \\text{ m})^3 = \\frac{4}{3}\\pi (27 \\text{ m}^3)$. \\n$V = 4\\pi \\cdot \\frac{27}{3} = 4\\pi \\cdot 9 = 36\\pi \\text{ m}^3$."
+},
+{
+"question": "What is the surface area (in $\text{cm}^2$) of leather material required for a spherical shape ball of radius $25 \text{ cm}$?",
+"options": [
+"A $1250pi$",
+"B $2500pi$",
+"C $100pi$",
+"D $625pi$"
+],
+"answer": 1,
+"explanation": "The formula for the **surface area ($A$) of a sphere** with radius ($r$) is $A = 4pi r^2$.\n\nGiven radius $r = 25 \text{ cm}$.\n$$A = 4pi (25)^2$$\n$$A = 4pi (625)$$\n$$A = 2500pi \text{ cm}^2$$\n\nThis matches Option B."
+},
+{
+"question": "Which of the following statements defines frustum of a pyramid?",
+"options": [
+"A It is a surface in space all points of which are equidistant from a point.",
+"B It is part of a pyramid included between the base of the pyramid and a horizontal cross-section made by the plane parallel to the base.",
+"C It is part of a cone included between the base of the cone and a plane parallel to the base.",
+"D It is part of a pyramid excluded the base of the pyramid and a horizontal cross-section made by the plane slant to the base."
+],
+"answer": 1,
+"explanation": "A **frustum** (of a pyramid or cone) is the portion that remains after cutting off the top part by a plane parallel to the base. Statement B is the correct definition for a frustum of a **pyramid** . Statement C defines a frustum of a **cone**. Statement A defines a sphere."
+}
+]

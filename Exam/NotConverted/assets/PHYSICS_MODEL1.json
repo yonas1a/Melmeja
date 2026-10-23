@@ -1,0 +1,1717 @@
+[
+  {
+    "question": "A hydraulic press has a small piston of area 4.0 cm² and a large piston of area 160 cm². If an effort of 75 N is applied to the small piston, what maximum load can be supported by the large piston, neglecting friction?",
+    "options": [
+      "300 N",
+      "1200 N",
+      "3000 N",
+      "6000 N"
+    ],
+    "answer": 2,
+    "explanation": "By Pascal's principle, the pressure is transmitted equally through the enclosed fluid.\n\nF₁/A₁ = F₂/A₂.\n\nTherefore, F₂ = F₁(A₂/A₁) \n\n= 75(160/4)\n\n = 3000 N.\n\nThus, the large piston can support a load of 3000 N."
+  },
+
+  {
+    "question": "Water flows steadily through a horizontal pipe whose cross-sectional area decreases from 8.0 cm² to 2.0 cm². If the speed of water in the wider section is 1.5 m/s, what is its speed in the narrower section?",
+    "options": [
+      "0.375 m/s",
+      "3.0 m/s",
+      "6.0 m/s",
+      "12.0 m/s"
+    ],
+    "answer": 2,
+    "explanation": "For incompressible steady flow, the continuity equation is A₁v₁ = A₂v₂.\n\nTherefore, v₂ = A₁v₁/A₂ =\n\n (8.0 × 1.5)/2.0 \n\n= 6.0 m/s.\n\nThe fluid moves faster through the narrower section."
+  },
+
+  {
+    "question": "Water flows through a horizontal pipe at 4.0 m/s where its pressure is 1.8 × 10⁵ Pa. If the pipe narrows so that the water speed becomes 10.0 m/s, what is the pressure in the narrower section? Take the density of water as 1000 kg/m³.",
+    "options": [
+      "1.38 × 10⁵ Pa",
+      "2.10 × 10⁵ Pa",
+      "4.80 × 10⁵ Pa",
+      "7.00 × 10⁴ Pa"
+    ],
+    "answer": 0,
+    "explanation": "For horizontal flow, Bernoulli's equation gives P₁ + ½ρv₁² = P₂ + ½ρv₂².\n\nThus, P₂ = P₁ + ½ρ(v₁² - v₂²).\n\nP₂ = 1.8 × 10⁵ + 500(16 - 100) =\n 1.38 × 10⁵ Pa.\n\nTherefore, the pressure decreases as the fluid speed increases."
+  },
+
+  {
+    "question": "A liquid flows through a pipe at a rate of 3.0 × 10⁻³ m³/s. If the cross-sectional area of the pipe is 6.0 × 10⁻⁴ m², what is the average speed of the liquid?",
+    "options": [
+      "0.2 m/s",
+      "2.0 m/s",
+      "5.0 m/s",
+      "18 m/s"
+    ],
+    "answer": 2,
+    "explanation": "Volume flow rate is related to speed by Q = Av.\n\nTherefore, v = Q/A = \n\n(3.0 × 10⁻³)/(6.0 × 10⁻⁴) =\n 5.0 m/s.\n\nHence, the average fluid speed is 5.0 m/s."
+  },
+
+  {
+    "question": "A planet has an orbital radius nine times that of Earth. Assuming both planets orbit the Sun and Kepler's third law applies, approximately how many Earth years does the planet take to complete one orbit?",
+    "options": [
+      "9 years",
+      "18 years",
+      "27 years",
+      "81 years"
+    ],
+    "answer": 2,
+    "explanation": "Kepler's third law gives T² ∝ R³.\n\nTherefore, (T/T_E)² = 9³ = 729.\n\nTaking the square root gives T/T_E = 27.\n\nThus, the planet requires approximately 27 Earth years for one orbit."
+  },
+
+  {
+    "question": "A satellite moves in a circular orbit around a planet with orbital radius 4R. Another satellite orbits the same planet at radius R. What is the ratio of their orbital speeds, v₄R/v_R?",
+    "options": [
+      "1/4",
+      "1/2",
+      "2",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "For a circular gravitational orbit, orbital speed is v = √(GM/R).\n\nTherefore, v ∝ 1/√R.\n\nHence, v₄R/v_R = √(R/4R) = 1/2."
+  },
+
+  {
+    "question": "A long straight wire carries a current of 15 A. What is the magnetic field magnitude at a point 5.0 cm from the wire? Take μ₀ = 4π × 10⁻⁷ T·m/A.",
+    "options": [
+      "3.0 × 10⁻⁵ T",
+      "6.0 × 10⁻⁵ T",
+      "1.2 × 10⁻⁴ T",
+      "3.8 × 10⁻⁴ T"
+    ],
+    "answer": 1,
+    "explanation": "For a long straight current-carrying wire, B = μ₀I/(2πr).\n\nUsing I = 15 A and r = 0.05 m gives B = (4π × 10⁻⁷ × 15)/(2π × 0.05).\n\nTherefore, B = 6.0 × 10⁻⁵ T."
+  },
+
+  {
+    "question": "A current-carrying wire carries current in the positive z-direction. At a point located on the positive x-axis, the magnetic field produced by the wire points in which direction?",
+    "options": [
+      "Positive x-direction",
+      "Negative x-direction",
+      "Positive y-direction",
+      "Negative y-direction"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic field around a straight current-carrying wire forms circular paths.\n\nUsing the right-hand rule, point the thumb in the positive z-direction. At a point on the positive x-axis, the curled fingers point in the positive y-direction."
+  },
+
+  {
+    "question": "Two liquids have equal densities and are contained in identical open vessels. If the liquid level in vessel A is twice the height of the liquid level in vessel B, what is the ratio of gauge pressures at equal points measured from the bottom, assuming the points are below both liquid surfaces?",
+    "options": [
+      "1:1",
+      "2:1",
+      "1:2",
+      "4:1"
+    ],
+    "answer": 0,
+    "explanation": "Gauge pressure is P = ρgh, where h is the depth below the liquid surface.\n\nAt equal points measured from the bottom, the actual depth depends on the respective liquid levels and point location. If the intended points are at equal depth below their respective surfaces, equal density gives equal pressure.\n\nThus, the pressure ratio is 1:1."
+  },
+
+  {
+    "question": "Two vectors have magnitudes 8 N and 15 N and are perpendicular to each other. What is the magnitude of their resultant?",
+    "options": [
+      "7 N",
+      "17 N",
+      "23 N",
+      "120 N"
+    ],
+    "answer": 1,
+    "explanation": "For perpendicular vectors, the resultant magnitude is R = √(A² + B²).\n\nR = √(8² + 15²) = √289 = 17 N."
+  },
+
+  {
+    "question": "Two vectors have magnitudes 12 units and 5 units. If their resultant has magnitude 13 units, what is the angle between the vectors?",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": 2,
+    "explanation": "Using R² = A² + B² + 2ABcosθ,\n\n13² = 12² + 5² + 2(12)(5)cosθ.\n\n169 = 169 + 120cosθ.\n\nTherefore, cosθ = 0 and θ = 90°."
+  },
+
+  {
+    "question": "A vector A = 6î - 8ĵ. What is the unit vector in the direction of A?",
+    "options": [
+      "0.6î - 0.8ĵ",
+      "0.75î - 1.0ĵ",
+      "6î - 8ĵ",
+      "0.8î - 0.6ĵ"
+    ],
+    "answer": 0,
+    "explanation": "The magnitude of A is √(6² + (-8)²) = 10.\n\nThe unit vector is A/|A|.\n\nTherefore, Â = 0.6î - 0.8ĵ."
+  },
+
+  {
+    "question": "A particle has position x = 4t³ - 3t² + 2t, where x is measured in metres and t in seconds. What is its velocity at t = 2 s?",
+    "options": [
+      "26 m/s",
+      "38 m/s",
+      "44 m/s",
+      "50 m/s"
+    ],
+    "answer": 1,
+    "explanation": "Velocity is the derivative of position with respect to time.\n\nv = dx/dt = 12t² - 6t + 2.\n\nAt t = 2 s, v = 12(4) - 12 + 2 = 38 m/s."
+  },
+
+  {
+    "question": "An object starts from rest and accelerates uniformly at 4 m/s² for 6 s. What distance does it travel during the final 2 seconds of its motion?",
+    "options": [
+      "32 m",
+      "40 m",
+      "44 m",
+      "56 m"
+    ],
+    "answer": 2,
+    "explanation": "For motion from rest, s = ½at².\n\nDistance at 6 s is s₆ = ½(4)(36) = 72 m.\n\nDistance at 4 s is s₄ = ½(4)(16) = 32 m.\n\nDistance during the final 2 s is 72 - 32 = 40 m."
+  },
+
+  {
+    "question": "A car moving at 20 m/s is brought to rest uniformly over a distance of 50 m. What is the magnitude of its acceleration?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "5 m/s²",
+      "8 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "Using v² = u² + 2as,\n\n0 = 20² + 2a(50).\n\nTherefore, a = -4 m/s².\n\nThe magnitude of acceleration is 4 m/s²."
+  },
+
+  {
+    "question": "A projectile is launched with speed 40 m/s at an angle of 30° above the horizontal. Taking g = 10 m/s², what is its maximum height?",
+    "options": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "answer": 0,
+    "explanation": "The vertical component of the initial velocity is u_y = 40sin30° = 20 m/s.\n\nAt maximum height, final vertical velocity is zero.\n\nUsing v² = u² - 2gh gives 0 = 20² - 2(10)h.\n\nTherefore, h = 20 m."
+  },
+
+  {
+    "question": "A projectile is launched at 20 m/s at 45° to the horizontal. Taking g = 10 m/s², what is its horizontal range?",
+    "options": [
+      "20 m",
+      "30 m",
+      "40 m",
+      "50 m"
+    ],
+    "answer": 2,
+    "explanation": "The range of a projectile launched and landing at the same level is R = u²sin2θ/g.\n\nFor θ = 45°, sin90° = 1.\n\nThus, R = 20²/10 = 40 m."
+  },
+
+  {
+    "question": "A 5 kg object is acted upon by two perpendicular forces of 12 N and 16 N. What is the magnitude of its acceleration?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "5.6 m/s²",
+      "20 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "The resultant force is √(12² + 16²) = 20 N.\n\nUsing Newton's second law, a = F/m = 20/5 = 4 m/s²."
+  },
+
+  {
+    "question": "A 10 kg block is pulled horizontally by a 60 N force on a surface where the coefficient of kinetic friction is 0.20. Taking g = 10 m/s², what is the acceleration of the block?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "6 m/s²",
+      "8 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "The friction force is f = μmg = 0.20(10)(10) = 20 N.\n\nThe net force is 60 - 20 = 40 N.\n\nTherefore, a = F_net/m = 40/10 = 4 m/s²."
+  },
+
+  {
+    "question": "A 4 kg block rests on a horizontal surface with coefficient of static friction 0.50. What minimum horizontal force is required to make the block begin sliding? Take g = 10 m/s².",
+    "options": [
+      "10 N",
+      "15 N",
+      "20 N",
+      "40 N"
+    ],
+    "answer": 2,
+    "explanation": "The maximum static friction is f_s,max = μ_sN.\n\nSince N = mg = 40 N, f_s,max = 0.50(40) = 20 N.\n\nTherefore, a force of 20 N is required to start the motion."
+  },
+
+  {
+    "question": "A 2 kg object moving at 6 m/s collides with a stationary 4 kg object. If they stick together after collision, what is their common velocity?",
+    "options": [
+      "1 m/s",
+      "2 m/s",
+      "3 m/s",
+      "6 m/s"
+    ],
+    "answer": 1,
+    "explanation": "Momentum is conserved in the absence of external impulse.\n\nInitial momentum = 2(6) + 4(0) = 12 kg·m/s.\n\nThe combined mass is 6 kg.\n\nTherefore, v = 12/6 = 2 m/s."
+  },
+
+  {
+    "question": "A 0.5 kg ball moving at 8 m/s east rebounds at 4 m/s west after striking a wall. What is the magnitude of the impulse delivered to the ball?",
+    "options": [
+      "2 N·s",
+      "4 N·s",
+      "6 N·s",
+      "8 N·s"
+    ],
+    "answer": 2,
+    "explanation": "Take east as positive. Initial momentum is 0.5(8) = 4 kg·m/s.\n\nFinal momentum is 0.5(-4) = -2 kg·m/s.\n\nThe change in momentum is -2 - 4 = -6 kg·m/s.\n\nTherefore, the impulse magnitude is 6 N·s."
+  },
+
+  {
+    "question": "A 3 kg object is moving at 4 m/s. What is its kinetic energy?",
+    "options": [
+      "6 J",
+      "12 J",
+      "18 J",
+      "24 J"
+    ],
+    "answer": 3,
+    "explanation": "Kinetic energy is KE = ½mv².\n\nKE = ½(3)(4²) = 24 J.\n\nTherefore, the kinetic energy is 24 J."
+  },
+
+  {
+    "question": "A force of 50 N acts on an object through a displacement of 12 m at an angle of 60° to the displacement. How much work is done by the force?",
+    "options": [
+      "300 J",
+      "500 J",
+      "600 J",
+      "1200 J"
+    ],
+    "answer": 0,
+    "explanation": "Work is W = Fdcosθ.\n\nTherefore, W = 50(12)cos60° = 600(0.5) = 300 J."
+  },
+
+  {
+    "question": "A machine receives 500 J of input work and produces 375 J of useful output work. What is its efficiency?",
+    "options": [
+      "50%",
+      "65%",
+      "75%",
+      "80%"
+    ],
+    "answer": 2,
+    "explanation": "Efficiency is η = useful output work/input work × 100%.\n\nη = (375/500) × 100% = 75%."
+  },
+
+  {
+    "question": "A machine has a mechanical advantage of 4 and an efficiency of 80%. What is its velocity ratio?",
+    "options": [
+      "3.2",
+      "4.0",
+      "5.0",
+      "6.4"
+    ],
+    "answer": 2,
+    "explanation": "Efficiency in decimal form is η = MA/VR.\n\nTherefore, VR = MA/η = 4/0.80 = 5.\n\nThus, the velocity ratio is 5."
+  },
+
+  {
+    "question": "A 600 N load is lifted by an effort of 150 N using a simple machine whose velocity ratio is 5. What is the efficiency of the machine?",
+    "options": [
+      "60%",
+      "70%",
+      "80%",
+      "90%"
+    ],
+    "answer": 2,
+    "explanation": "Mechanical advantage is MA = load/effort = 600/150 = 4.\n\nEfficiency is η = MA/VR = 4/5 = 0.80.\n\nTherefore, the efficiency is 80%."
+  },
+
+  {
+    "question": "A uniform beam is 6 m long and weighs 120 N. It is supported at both ends. A 180 N load is placed 2 m from the left support. What is the reaction force at the right support?",
+    "options": [
+      "80 N",
+      "100 N",
+      "140 N",
+      "200 N"
+    ],
+    "answer": 2,
+    "explanation": "Take moments about the left support.\n\nR_B(6) = 120(3) + 180(2).\n\nThus, 6R_B = 360 + 360 = 720.\n\nTherefore, R_B = 120 N."
+  },
+
+  {
+    "question": "A force of 40 N acts tangentially at the edge of a wheel of radius 0.50 m. What torque does the force produce about the center?",
+    "options": [
+      "10 N·m",
+      "20 N·m",
+      "40 N·m",
+      "80 N·m"
+    ],
+    "answer": 1,
+    "explanation": "Torque is τ = rFsinθ.\n\nSince the force is tangential, θ = 90°.\n\nTherefore, τ = 0.50(40) = 20 N·m."
+  },
+
+  {
+    "question": "A rotating disk has a moment of inertia of 2.5 kg·m² and angular acceleration of 8 rad/s². What net torque acts on the disk?",
+    "options": [
+      "3.2 N·m",
+      "10 N·m",
+      "20 N·m",
+      "40 N·m"
+    ],
+    "answer": 2,
+    "explanation": "Rotational Newton's second law is τ = Iα.\n\nTherefore, τ = 2.5(8) = 20 N·m."
+  },
+
+  {
+    "question": "A wheel initially rotates at 10 rad/s and accelerates uniformly at 3 rad/s² for 4 s. What is its final angular speed?",
+    "options": [
+      "12 rad/s",
+      "18 rad/s",
+      "22 rad/s",
+      "30 rad/s"
+    ],
+    "answer": 2,
+    "explanation": "For rotational motion, ω = ω₀ + αt.\n\nTherefore, ω = 10 + 3(4) = 22 rad/s."
+  },
+
+  {
+    "question": "A point on a rotating wheel is 0.25 m from the axis. If the angular speed is 12 rad/s, what is its tangential speed?",
+    "options": [
+      "3 m/s",
+      "6 m/s",
+      "12 m/s",
+      "48 m/s"
+    ],
+    "answer": 0,
+    "explanation": "Tangential speed is v = rω.\n\nThus, v = 0.25(12) = 3 m/s."
+  },
+
+  {
+    "question": "A 0.50 kg object moves in a circle of radius 2.0 m at a speed of 6.0 m/s. What centripetal force acts on the object?",
+    "options": [
+      "3 N",
+      "6 N",
+      "9 N",
+      "18 N"
+    ],
+    "answer": 2,
+    "explanation": "Centripetal force is F_c = mv²/r.\n\nF_c = 0.50(36)/2 = 9 N."
+  },
+
+  {
+    "question": "A 1000 kg car travels around a circular curve of radius 50 m at 10 m/s. What centripetal force is required?",
+    "options": [
+      "1000 N",
+      "2000 N",
+      "5000 N",
+      "20,000 N"
+    ],
+    "answer": 1,
+    "explanation": "Centripetal force is F = mv²/r.\n\nF = 1000(10²)/50 = 2000 N."
+  },
+
+  {
+    "question": "A 2 kg object is attached to a string and moves in a vertical circle. At the top of the circle, its speed is 5 m/s and the radius is 1.0 m. What is the minimum tension required at the top? Take g = 10 m/s².",
+    "options": [
+      "10 N",
+      "20 N",
+      "30 N",
+      "50 N"
+    ],
+    "answer": 1,
+    "explanation": "At the top, both tension and weight point toward the center.\n\nT + mg = mv²/r.\n\nThus, T = mv²/r - mg = 2(25) - 20 = 30 N."
+  },
+
+  {
+    "question": "A metal wire has a length of 2.0 m and cross-sectional area 1.0 × 10⁻⁶ m². If a force of 100 N produces an extension of 1.0 mm, what is the Young's modulus of the material?",
+    "options": [
+      "2.0 × 10¹⁰ Pa",
+      "5.0 × 10¹⁰ Pa",
+      "2.0 × 10¹¹ Pa",
+      "5.0 × 10¹¹ Pa"
+    ],
+    "answer": 2,
+    "explanation": "Young's modulus is Y = FL/(AΔL).\n\nSubstituting F = 100 N, L = 2 m, A = 10⁻⁶ m² and ΔL = 10⁻³ m gives Y = 2 × 10¹¹ Pa."
+  },
+
+  {
+    "question": "A wire experiences a tensile strain of 2.5 × 10⁻⁴. If its original length is 4.0 m, what is its extension?",
+    "options": [
+      "0.1 mm",
+      "0.5 mm",
+      "1.0 mm",
+      "2.5 mm"
+    ],
+    "answer": 2,
+    "explanation": "Strain = ΔL/L.\n\nTherefore, ΔL = strain × L = 2.5 × 10⁻⁴ × 4 = 1.0 × 10⁻³ m.\n\nThis is 1.0 mm."
+  },
+
+  {
+    "question": "A substance of mass 2 kg receives 18,000 J of heat and its temperature rises by 30°C. What is its specific heat capacity?",
+    "options": [
+      "150 J/kg·°C",
+      "300 J/kg·°C",
+      "600 J/kg·°C",
+      "900 J/kg·°C"
+    ],
+    "answer": 2,
+    "explanation": "Using Q = mcΔT,\n\nc = Q/(mΔT) = 18,000/(2 × 30) = 300 J/kg·°C.\n\nTherefore, the specific heat capacity is 300 J/kg·°C."
+  },
+
+  {
+    "question": "How much heat is required to raise 0.50 kg of water from 25°C to 85°C? Take the specific heat capacity of water as 4200 J/kg·°C.",
+    "options": [
+      "63,000 J",
+      "84,000 J",
+      "126,000 J",
+      "252,000 J"
+    ],
+    "answer": 2,
+    "explanation": "The temperature change is 60°C.\n\nQ = mcΔT = 0.50(4200)(60) = 126,000 J."
+  },
+
+  {
+    "question": "A 2 kg block of ice at 0°C absorbs 668,000 J of heat and melts completely. What is the approximate latent heat of fusion of ice?",
+    "options": [
+      "167,000 J/kg",
+      "334,000 J/kg",
+      "668,000 J/kg",
+      "1.34 × 10⁶ J/kg"
+    ],
+    "answer": 1,
+    "explanation": "During melting, Q = mL.\n\nTherefore, L = Q/m = 668,000/2 = 334,000 J/kg."
+  },
+
+  {
+    "question": "A 20 L steel container is filled with liquid at 20°C. The volume expansion coefficient of the liquid is 6.0 × 10⁻⁴ °C⁻¹ and that of the container is 3.6 × 10⁻⁵ °C⁻¹. What is the approximate overflow when the temperature rises by 50°C?",
+    "options": [
+      "0.36 L",
+      "0.564 L",
+      "0.60 L",
+      "1.20 L"
+    ],
+    "answer": 1,
+    "explanation": "The apparent expansion coefficient is γ_app = γ_liquid - γ_container.\n\nγ_app = 6.0 × 10⁻⁴ - 3.6 × 10⁻⁵ = 5.64 × 10⁻⁴ °C⁻¹.\n\nOverflow = Vγ_appΔT = 20(5.64 × 10⁻⁴)(50) = 0.564 L."
+  },
+
+  {
+    "question": "A metal rod of length 3.0 m has a linear expansion coefficient of 1.2 × 10⁻⁵ °C⁻¹. If its temperature increases by 200°C, what is its increase in length?",
+    "options": [
+      "0.72 mm",
+      "3.6 mm",
+      "7.2 mm",
+      "72 mm"
+    ],
+    "answer": 2,
+    "explanation": "Linear expansion is ΔL = αLΔT.\n\nΔL = (1.2 × 10⁻⁵)(3)(200) = 0.0072 m = 7.2 mm."
+  },
+
+  {
+    "question": "A capacitor has capacitance 8 μF and is connected to a 12 V battery. What charge is stored on the capacitor?",
+    "options": [
+      "24 μC",
+      "48 μC",
+      "96 μC",
+      "120 μC"
+    ],
+    "answer": 2,
+    "explanation": "The charge stored by a capacitor is Q = CV.\n\nQ = 8 μF × 12 V = 96 μC."
+  },
+
+  {
+    "question": "A parallel-plate capacitor is charged to voltage V and then disconnected from the battery. A dielectric material with dielectric constant 4 is inserted completely between its plates. What happens to its stored energy?",
+    "options": [
+      "It becomes four times larger.",
+      "It becomes twice as large.",
+      "It becomes one-fourth as large.",
+      "It remains unchanged."
+    ],
+    "answer": 2,
+    "explanation": "After the battery is disconnected, charge remains constant.\n\nThe energy is U = Q²/(2C).\n\nInsertion of a dielectric increases capacitance by a factor of 4, so the energy decreases by a factor of 4.\n\nThus, the new energy is one-fourth of the original."
+  },
+
+  {
+    "question": "Two point charges of +4 μC and -6 μC are separated by 0.30 m. What is the magnitude of the electrostatic force between them? Take k = 9 × 10⁹ N·m²/C².",
+    "options": [
+      "0.24 N",
+      "2.4 N",
+      "24 N",
+      "240 N"
+    ],
+    "answer": 2,
+    "explanation": "Coulomb's law is F = k|q₁q₂|/r².\n\nF = (9 × 10⁹)(4 × 10⁻⁶)(6 × 10⁻⁶)/(0.30)².\n\nTherefore, F = 2.4 N.\n\nBecause the charges have opposite signs, the force is attractive."
+  },
+
+  {
+    "question": "A point charge produces an electric field of 900 N/C at a distance of 3 m. What is the electric field magnitude at a distance of 6 m from the same charge?",
+    "options": [
+      "100 N/C",
+      "225 N/C",
+      "450 N/C",
+      "1800 N/C"
+    ],
+    "answer": 1,
+    "explanation": "The electric field of a point charge varies as E ∝ 1/r².\n\nDoubling the distance reduces the field by a factor of four.\n\nTherefore, E₂ = 900/4 = 225 N/C."
+  },
+
+  {
+    "question": "Two identical positive charges are placed symmetrically on either side of a point P. What is the electric field at P if P lies exactly midway between the charges?",
+    "options": [
+      "Zero",
+      "Equal to the field of one charge",
+      "Twice the field of one charge",
+      "Four times the field of one charge"
+    ],
+    "answer": 0,
+    "explanation": "At the midpoint, the two positive charges produce electric fields of equal magnitude but opposite directions.\n\nThe vector sum is therefore zero."
+  },
+
+  {
+    "question": "A 5 Ω resistor carries a current of 3 A. What electrical power is dissipated by the resistor?",
+    "options": [
+      "15 W",
+      "30 W",
+      "45 W",
+      "60 W"
+    ],
+    "answer": 2,
+    "explanation": "Electrical power can be calculated using P = I²R.\n\nP = 3²(5) = 45 W."
+  },
+
+  {
+    "question": "Three resistors of 4 Ω, 6 Ω and 12 Ω are connected in parallel. What is their equivalent resistance?",
+    "options": [
+      "1 Ω",
+      "2 Ω",
+      "4 Ω",
+      "22 Ω"
+    ],
+    "answer": 1,
+    "explanation": "For parallel resistors, 1/R = 1/4 + 1/6 + 1/12.\n\nThe common denominator gives 3/12 + 2/12 + 1/12 = 6/12 = 1/2.\n\nTherefore, R = 2 Ω."
+  },
+
+  {
+    "question": "A 4 Ω resistor and a 12 Ω resistor are connected in series across a 32 V battery. What is the potential difference across the 12 Ω resistor?",
+    "options": [
+      "8 V",
+      "16 V",
+      "24 V",
+      "28 V"
+    ],
+    "answer": 2,
+    "explanation": "The total resistance is 4 + 12 = 16 Ω.\n\nCurrent is I = 32/16 = 2 A.\n\nThe voltage across the 12 Ω resistor is V = IR = 2(12) = 24 V."
+  },
+
+  {
+    "question": "A battery has emf 12 V and internal resistance 1 Ω. If it supplies a current of 2 A to an external circuit, what is the terminal voltage?",
+    "options": [
+      "8 V",
+      "10 V",
+      "12 V",
+      "14 V"
+    ],
+    "answer": 1,
+    "explanation": "For a discharging battery, terminal voltage is V = E - Ir.\n\nV = 12 - 2(1) = 10 V."
+  },
+
+  {
+    "question": "Two resistors of 6 Ω and 3 Ω are connected in parallel to a 12 V source. What is the total current supplied by the source?",
+    "options": [
+      "2 A",
+      "4 A",
+      "6 A",
+      "8 A"
+    ],
+    "answer": 2,
+    "explanation": "The equivalent resistance is 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω.\n\nThe total current is I = V/R = 12/2 = 6 A."
+  },
+
+  {
+    "question": "A charged particle enters a uniform magnetic field with velocity perpendicular to the field. If its speed is doubled while the charge, mass and field remain unchanged, what happens to the radius of its circular path?",
+    "options": [
+      "It becomes half.",
+      "It remains unchanged.",
+      "It becomes twice as large.",
+      "It becomes four times as large."
+    ],
+    "answer": 2,
+    "explanation": "For perpendicular motion in a magnetic field, r = mv/(|q|B).\n\nTherefore, the radius is directly proportional to speed.\n\nDoubling the speed doubles the radius."
+  },
+
+  {
+    "question": "An electron moves perpendicular to a magnetic field of 0.50 T at 4.0 × 10⁶ m/s. What is the magnitude of the magnetic force? Take e = 1.6 × 10⁻¹⁹ C.",
+    "options": [
+      "3.2 × 10⁻¹³ N",
+      "1.6 × 10⁻¹³ N",
+      "8.0 × 10⁻¹⁴ N",
+      "3.2 × 10⁻¹⁴ N"
+    ],
+    "answer": 0,
+    "explanation": "The magnetic force magnitude is F = |q|vBsin90°.\n\nF = (1.6 × 10⁻¹⁹)(4.0 × 10⁶)(0.50).\n\nTherefore, F = 3.2 × 10⁻¹³ N."
+  },
+
+  {
+    "question": "A positive charge moves in the positive x-direction through a magnetic field directed in the positive z-direction. In which direction is the magnetic force?",
+    "options": [
+      "Positive x-direction",
+      "Negative x-direction",
+      "Positive y-direction",
+      "Negative y-direction"
+    ],
+    "answer": 2,
+    "explanation": "The magnetic force on a positive charge is F = q(v × B).\n\nUsing the right-hand rule, x̂ × ẑ = -ŷ.\n\nTherefore, the force is in the negative y-direction."
+  },
+
+  {
+    "question": "A coil of 200 turns experiences a change in magnetic flux from 4.0 × 10⁻³ Wb to 1.0 × 10⁻³ Wb in 0.10 s. What is the magnitude of the average induced emf?",
+    "options": [
+      "2 V",
+      "4 V",
+      "6 V",
+      "12 V"
+    ],
+    "answer": 2,
+    "explanation": "Faraday's law gives |ε| = N|ΔΦ|/Δt.\n\nThe flux change is 3.0 × 10⁻³ Wb.\n\nThus, ε = 200(3.0 × 10⁻³)/0.10 = 6 V."
+  },
+
+  {
+    "question": "A magnet's north pole is moved toward a conducting coil. According to Lenz's law, which pole must the near side of the coil develop to oppose the motion?",
+    "options": [
+      "North pole",
+      "South pole",
+      "It becomes electrically neutral.",
+      "Its pole depends only on the speed of the magnet."
+    ],
+    "answer": 0,
+    "explanation": "As the north pole approaches, the magnetic flux through the coil increases.\n\nLenz's law requires the induced magnetic field to oppose this increase.\n\nTherefore, the near side of the coil becomes a north pole, producing repulsion."
+  },
+
+  {
+    "question": "An ideal transformer has 1200 turns in its primary coil and 300 turns in its secondary coil. If the primary voltage is 240 V, what is the secondary voltage?",
+    "options": [
+      "30 V",
+      "60 V",
+      "120 V",
+      "960 V"
+    ],
+    "answer": 1,
+    "explanation": "For an ideal transformer, Vₚ/Vₛ = Nₚ/Nₛ.\n\nTherefore, Vₛ = 240(300/1200) = 60 V."
+  },
+
+  {
+    "question": "An ideal transformer changes 240 V to 24 V. If the secondary current is 5 A, what is the primary current?",
+    "options": [
+      "0.05 A",
+      "0.5 A",
+      "5 A",
+      "50 A"
+    ],
+    "answer": 1,
+    "explanation": "For an ideal transformer, input power equals output power.\n\nVₚIₚ = VₛIₛ.\n\nTherefore, Iₚ = (24 × 5)/240 = 0.5 A."
+  },
+
+  {
+    "question": "A convex lens has focal length 20 cm. An object is placed 30 cm from the lens. Where is the image formed?",
+    "options": [
+      "20 cm on the opposite side",
+      "30 cm on the opposite side",
+      "60 cm on the opposite side",
+      "120 cm on the opposite side"
+    ],
+    "answer": 2,
+    "explanation": "Using the lens equation 1/f = 1/v - 1/u with u = -30 cm and f = 20 cm,\n\n1/v = 1/20 - 1/30 = 1/60.\n\nTherefore, v = 60 cm.\n\nThe real image forms 60 cm from the lens."
+  },
+
+  {
+    "question": "An object is placed 15 cm in front of a concave mirror with focal length 10 cm. What is the magnitude of the image distance?",
+    "options": [
+      "6 cm",
+      "15 cm",
+      "30 cm",
+      "60 cm"
+    ],
+    "answer": 2,
+    "explanation": "Using the mirror equation 1/f = 1/u + 1/v,\n\n1/10 = 1/15 + 1/v.\n\nTherefore, 1/v = 1/30 and v = 30 cm.\n\nThe image is real and inverted."
+  },
+
+  {
+    "question": "Two plane mirrors are inclined at 60° to each other. If an object is placed symmetrically between them, how many images are formed?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "For 360°/θ being an integer, the number of images is n = 360°/θ - 1.\n\nFor θ = 60°, n = 6 - 1 = 5."
+  },
+
+  {
+    "question": "A ray of light passes from glass of refractive index 1.50 into air. If the angle of incidence inside the glass is 40°, what is the approximate angle of refraction?",
+    "options": [
+      "25°",
+      "40°",
+      "50°",
+      "75°"
+    ],
+    "answer": 3,
+    "explanation": "Snell's law gives n₁sinθ₁ = n₂sinθ₂.\n\nThus, sinθ₂ = 1.50sin40° ≈ 1.50(0.643) = 0.965.\n\nTherefore, θ₂ ≈ 75°."
+  },
+
+  {
+    "question": "The critical angle for a glass-air boundary is approximately 42°. What happens when a ray inside the glass strikes the boundary at an angle of 50° to the normal?",
+    "options": [
+      "It passes normally into the air.",
+      "It undergoes total internal reflection.",
+      "It bends toward the normal in the air.",
+      "It is completely absorbed."
+    ],
+    "answer": 1,
+    "explanation": "Total internal reflection occurs when light travels from a denser medium to a less dense medium and the angle of incidence exceeds the critical angle.\n\nSince 50° > 42°, total internal reflection occurs."
+  },
+
+  {
+    "question": "A sound wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+    "options": [
+      "170 m/s",
+      "250 m/s",
+      "340 m/s",
+      "500 m/s"
+    ],
+    "answer": 2,
+    "explanation": "Wave speed is v = fλ.\n\nTherefore, v = 500(0.68) = 340 m/s."
+  },
+
+  {
+    "question": "A wave has a period of 0.020 s and travels at 300 m/s. What is its wavelength?",
+    "options": [
+      "0.006 m",
+      "6 m",
+      "15 m",
+      "6000 m"
+    ],
+    "answer": 1,
+    "explanation": "Frequency is f = 1/T = 50 Hz.\n\nUsing v = fλ,\n\nλ = v/f = 300/50 = 6 m."
+  },
+
+  {
+    "question": "Two waves have the same speed in a medium. If the frequency of the first wave is three times that of the second, how does its wavelength compare with that of the second?",
+    "options": [
+      "Three times larger",
+      "Three times smaller",
+      "Nine times larger",
+      "The same"
+    ],
+    "answer": 1,
+    "explanation": "For waves traveling in the same medium, v = fλ and the speed is constant.\n\nTherefore, wavelength is inversely proportional to frequency.\n\nIf frequency triples, wavelength becomes one-third."
+  },
+
+  {
+    "question": "Which electromagnetic radiation has a higher frequency than visible violet light?",
+    "options": [
+      "Microwaves",
+      "Infrared radiation",
+      "Ultraviolet radiation",
+      "Radio waves"
+    ],
+    "answer": 2,
+    "explanation": "In the electromagnetic spectrum, ultraviolet radiation has higher frequency and shorter wavelength than visible violet light.\n\nTherefore, ultraviolet radiation has the higher frequency."
+  },
+
+  {
+    "question": "An electromagnetic wave has a frequency of 6.0 × 10¹⁴ Hz. Taking the speed of light as 3.0 × 10⁸ m/s, what is its wavelength?",
+    "options": [
+      "2.0 × 10⁻⁷ m",
+      "5.0 × 10⁻⁷ m",
+      "2.0 × 10⁻⁶ m",
+      "5.0 × 10⁻⁶ m"
+    ],
+    "answer": 1,
+    "explanation": "The wave equation is c = fλ.\n\nTherefore, λ = c/f = (3.0 × 10⁸)/(6.0 × 10¹⁴) = 5.0 × 10⁻⁷ m."
+  },
+
+  {
+    "question": "A semiconductor is doped with a pentavalent impurity. What type of semiconductor is produced?",
+    "options": [
+      "Intrinsic semiconductor",
+      "p-type semiconductor",
+      "n-type semiconductor",
+      "Superconductor"
+    ],
+    "answer": 2,
+    "explanation": "Pentavalent impurities have five valence electrons.\n\nWhen added to a semiconductor, they provide an extra free electron.\n\nTherefore, they produce an n-type semiconductor."
+  },
+
+  {
+    "question": "In a p-n junction diode under forward bias, the depletion region generally",
+    "options": [
+      "becomes wider and its resistance increases.",
+      "becomes narrower and its resistance decreases.",
+      "remains unchanged while current becomes zero.",
+      "becomes wider while current increases greatly."
+    ],
+    "answer": 1,
+    "explanation": "Forward bias reduces the potential barrier across the p-n junction.\n\nThe depletion region becomes narrower, allowing charge carriers to cross the junction more easily.\n\nTherefore, the resistance decreases."
+  },
+
+  {
+    "question": "In a bipolar junction transistor, which region is normally the most heavily doped?",
+    "options": [
+      "Base",
+      "Collector",
+      "Emitter",
+      "Depletion region"
+    ],
+    "answer": 2,
+    "explanation": "The emitter is heavily doped so that it can inject a large number of charge carriers into the base.\n\nThe base is lightly doped, while the collector is moderately doped."
+  },
+
+  {
+    "question": "A transistor has a collector current of 4.8 mA and a base current of 0.08 mA. What is its current gain β?",
+    "options": [
+      "6",
+      "20",
+      "60",
+      "600"
+    ],
+    "answer": 2,
+    "explanation": "Current gain is β = I_C/I_B.\n\nTherefore, β = 4.8/0.08 = 60."
+  },
+
+  {
+    "question": "Which transistor configuration is generally preferred when a large voltage gain and current gain are both required?",
+    "options": [
+      "Common-base configuration",
+      "Common-emitter configuration",
+      "Common-collector configuration",
+      "Reverse-biased diode configuration"
+    ],
+    "answer": 1,
+    "explanation": "The common-emitter configuration provides substantial current gain and voltage gain.\n\nIt is therefore widely used for amplification."
+  },
+
+  {
+    "question": "A logic circuit produces LOW output only when both input A and input B are HIGH. Which logic gate does it represent?",
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "answer": 2,
+    "explanation": "A NAND gate is the inverse of an AND gate.\n\nIt produces LOW output only when both inputs are HIGH.\n\nFor all other input combinations, the output is HIGH."
+  },
+
+  {
+    "question": "A logic gate gives HIGH output only when both inputs are LOW. Which gate is represented?",
+    "options": [
+      "AND",
+      "NAND",
+      "OR",
+      "NOR"
+    ],
+    "answer": 3,
+    "explanation": "A NOR gate is the inverse of an OR gate.\n\nThe OR gate is LOW only when both inputs are LOW, so the NOR gate is HIGH only for A = 0 and B = 0."
+  },
+
+  {
+    "question": "What is the output of an XOR gate when its two inputs are both HIGH?",
+    "options": [
+      "HIGH",
+      "LOW",
+      "Undefined",
+      "Alternating HIGH and LOW"
+    ],
+    "answer": 1,
+    "explanation": "An XOR gate produces HIGH only when its inputs are different.\n\nWhen both inputs are HIGH, they are the same, so the output is LOW."
+  },
+
+  {
+    "question": "A radioactive sample initially contains 8000 nuclei. If its half-life is 5 hours, approximately how many nuclei remain after 15 hours?",
+    "options": [
+      "4000",
+      "2000",
+      "1000",
+      "500"
+    ],
+    "answer": 2,
+    "explanation": "Fifteen hours corresponds to three half-lives.\n\nAfter one half-life: 4000 nuclei remain.\n\nAfter two: 2000 remain.\n\nAfter three: 1000 remain.\n\nTherefore, 1000 nuclei remain."
+  },
+
+  {
+    "question": "A radioactive isotope has a half-life of 8 days. What fraction of the original sample remains after 24 days?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 2,
+    "explanation": "Twenty-four days corresponds to three half-lives.\n\nThe remaining fraction is (1/2)³ = 1/8."
+  },
+
+  {
+    "question": "Which radiation is least penetrating and is most strongly ionizing among alpha, beta and gamma radiation?",
+    "options": [
+      "Alpha radiation",
+      "Beta radiation",
+      "Gamma radiation",
+      "All have equal penetration"
+    ],
+    "answer": 0,
+    "explanation": "Alpha particles have relatively low penetrating power because they interact strongly with matter.\n\nHowever, they produce dense ionization compared with beta and gamma radiation.\n\nTherefore, alpha radiation is the least penetrating and strongly ionizing."
+  },
+
+  {
+    "question": "A nucleus emits an alpha particle. How does its atomic number and mass number change?",
+    "options": [
+      "Atomic number decreases by 2 and mass number decreases by 4.",
+      "Atomic number decreases by 4 and mass number decreases by 2.",
+      "Atomic number increases by 2 and mass number decreases by 4.",
+      "Atomic number decreases by 2 and mass number remains unchanged."
+    ],
+    "answer": 0,
+    "explanation": "An alpha particle contains two protons and two neutrons.\n\nTherefore, emission of an alpha particle decreases the atomic number by 2 and the mass number by 4."
+  },
+
+  {
+    "question": "During beta-minus decay, a neutron inside a nucleus changes into",
+    "options": [
+      "a proton and an electron.",
+      "a proton and a positron.",
+      "an electron and an alpha particle.",
+      "a neutron and a proton."
+    ],
+    "answer": 0,
+    "explanation": "In beta-minus decay, a neutron changes into a proton while emitting an electron and an antineutrino.\n\nThe atomic number therefore increases by one while the mass number remains unchanged."
+  },
+
+  {
+    "question": "The mass defect of a nucleus is 0.020 u. Using 1 u = 931.5 MeV/c², what is its approximate binding energy?",
+    "options": [
+      "9.315 MeV",
+      "18.63 MeV",
+      "46.58 MeV",
+      "931.5 MeV"
+    ],
+    "answer": 1,
+    "explanation": "Binding energy is E = Δmc².\n\nUsing the conversion 1 u = 931.5 MeV/c²,\n\nE = 0.020 × 931.5 = 18.63 MeV."
+  },
+
+  {
+    "question": "A helium-4 nucleus contains two protons and two neutrons. If the total mass of these separated nucleons is 4.0330 u and the actual nuclear mass is 4.0026 u, what is the mass defect?",
+    "options": [
+      "0.00304 u",
+      "0.0304 u",
+      "0.304 u",
+      "4.0304 u"
+    ],
+    "answer": 1,
+    "explanation": "Mass defect is the difference between the total mass of separated nucleons and the actual nuclear mass.\n\nΔm = 4.0330 - 4.0026 = 0.0304 u."
+  },
+
+  {
+    "question": "A nuclear reaction releases energy because the total mass of the products is",
+    "options": [
+      "greater than the total initial mass.",
+      "equal to the total initial mass only when no radiation is produced.",
+      "less than the total initial mass.",
+      "always exactly twice the initial mass."
+    ],
+    "answer": 2,
+    "explanation": "In a nuclear reaction, a small amount of mass can be converted into energy according to E = mc².\n\nIf energy is released, the final mass is slightly less than the initial mass.\n\nThe mass difference appears as released energy."
+  },
+
+  {
+    "question": "A conventional X-ray image differs from a CT scan mainly because a CT scan",
+    "options": [
+      "uses sound waves instead of electromagnetic radiation.",
+      "uses multiple X-ray measurements from different angles to construct cross-sectional images.",
+      "always uses lower-energy visible light.",
+      "requires no detector."
+    ],
+    "answer": 1,
+    "explanation": "CT scanning uses X-rays while the source and detectors rotate around the patient.\n\nMeasurements from many directions are processed to produce cross-sectional images.\n\nA conventional X-ray mainly produces a two-dimensional projection."
+  },
+
+  {
+    "question": "Which electromagnetic radiation is commonly used in thermal imaging and night-vision systems because objects emit it according to their temperature?",
+    "options": [
+      "Ultraviolet",
+      "Infrared",
+      "Gamma",
+      "X-ray"
+    ],
+    "answer": 1,
+    "explanation": "Objects emit thermal radiation, much of which lies in the infrared region for ordinary temperatures.\n\nInfrared detectors can therefore reveal temperature differences and are useful in thermal imaging and night vision."
+  },
+
+  {
+    "question": "Radar systems determine the position of distant objects primarily by transmitting and detecting",
+    "options": [
+      "sound waves.",
+      "ultraviolet waves.",
+      "radio waves.",
+      "gamma rays."
+    ],
+    "answer": 2,
+    "explanation": "Radar stands for radio detection and ranging.\n\nIt transmits radio waves and analyzes the reflected waves to determine the distance, direction and sometimes velocity of objects."
+  },
+
+  {
+    "question": "A satellite communication system commonly uses electromagnetic waves because these waves",
+    "options": [
+      "cannot travel through a vacuum.",
+      "require a material medium.",
+      "can propagate through space without a material medium.",
+      "travel only through liquids."
+    ],
+    "answer": 2,
+    "explanation": "Electromagnetic waves do not require a material medium.\n\nThey can propagate through the vacuum of space, making them suitable for satellite communication."
+  },
+
+  {
+    "question": "A 2 kg object moves in a straight line with velocity v = 3t² - 4t + 2. What is the net force acting on it at t = 2 s?",
+    "options": [
+      "8 N",
+      "16 N",
+      "20 N",
+      "24 N"
+    ],
+    "answer": 1,
+    "explanation": "Acceleration is the derivative of velocity.\n\nv = 3t² - 4t + 2, so a = 6t - 4.\n\nAt t = 2 s, a = 12 - 4 = 8 m/s².\n\nTherefore, F = ma = 2(8) = 16 N."
+  },
+
+  {
+    "question": "A particle has initial velocity 5 m/s and constant acceleration -2 m/s². How far does it travel before coming momentarily to rest?",
+    "options": [
+      "4.25 m",
+      "6.25 m",
+      "8.25 m",
+      "12.5 m"
+    ],
+    "answer": 1,
+    "explanation": "At the stopping point, v = 0.\n\nUsing v² = u² + 2as,\n\n0 = 25 - 4s.\n\nTherefore, s = 25/4 = 6.25 m."
+  },
+
+  {
+    "question": "A car travels the first half of a journey at 30 km/h and the second half at 60 km/h. What is its average speed for the complete journey?",
+    "options": [
+      "40 km/h",
+      "45 km/h",
+      "50 km/h",
+      "90 km/h"
+    ],
+    "answer": 0,
+    "explanation": "For equal distances traveled at speeds v₁ and v₂, the average speed is the harmonic mean:\n\nv_avg = 2v₁v₂/(v₁ + v₂).\n\nTherefore, v_avg = 2(30)(60)/(30 + 60) = 40 km/h."
+  },
+
+  {
+    "question": "A car travels for half of its total time at 40 km/h and the remaining half at 80 km/h. What is its average speed?",
+    "options": [
+      "40 km/h",
+      "50 km/h",
+      "60 km/h",
+      "80 km/h"
+    ],
+    "answer": 2,
+    "explanation": "For equal time intervals, average speed is the arithmetic mean.\n\nv_avg = (40 + 80)/2 = 60 km/h."
+  },
+
+  {
+    "question": "A 10 kg object is lifted vertically through 5 m at constant speed. Taking g = 10 m/s², what work is done by the lifting force?",
+    "options": [
+      "50 J",
+      "100 J",
+      "500 J",
+      "1000 J"
+    ],
+    "answer": 2,
+    "explanation": "At constant speed, the lifting force equals the weight, so F = mg = 100 N.\n\nWork done by the lifting force is W = Fd = 100(5) = 500 J."
+  },
+
+  {
+    "question": "A 2 kg object falls freely from a height of 20 m. Neglecting air resistance and taking g = 10 m/s², what is its speed just before reaching the ground?",
+    "options": [
+      "10 m/s",
+      "15 m/s",
+      "20 m/s",
+      "40 m/s"
+    ],
+    "answer": 2,
+    "explanation": "Using v² = u² + 2gh with u = 0,\n\nv² = 2(10)(20) = 400.\n\nTherefore, v = 20 m/s."
+  },
+
+  {
+    "question": "A 4 kg object is moving horizontally at 5 m/s. What constant force is required to stop it over a distance of 10 m?",
+    "options": [
+      "2.5 N",
+      "5 N",
+      "10 N",
+      "20 N"
+    ],
+    "answer": 2,
+    "explanation": "The initial kinetic energy is KE = ½mv² = ½(4)(25) = 50 J.\n\nThe stopping force must do -50 J of work over 10 m.\n\nThus, F = 50/10 = 5 N."
+  },
+
+  {
+    "question": "A 3 kg block slides down a frictionless incline through a vertical height of 5 m. What speed does it have at the bottom if it starts from rest? Take g = 10 m/s².",
+    "options": [
+      "5 m/s",
+      "10 m/s",
+      "15 m/s",
+      "25 m/s"
+    ],
+    "answer": 1,
+    "explanation": "Conservation of mechanical energy gives mgh = ½mv².\n\nThus, v² = 2gh = 2(10)(5) = 100.\n\nTherefore, v = 10 m/s."
+  },
+
+  {
+    "question": "A body of mass 5 kg has a momentum of 40 kg·m/s. What is its kinetic energy?",
+    "options": [
+      "80 J",
+      "120 J",
+      "160 J",
+      "320 J"
+    ],
+    "answer": 2,
+    "explanation": "Kinetic energy can be expressed in terms of momentum as KE = p²/(2m).\n\nKE = 40²/(2 × 5) = 160 J."
+  },
+
+  {
+    "question": "A 2 kg object moving at 10 m/s has twice the kinetic energy of another object. If the second object has mass 4 kg, what is its speed?",
+    "options": [
+      "5 m/s",
+      "7.1 m/s",
+      "10 m/s",
+      "14.1 m/s"
+    ],
+    "answer": 1,
+    "explanation": "The first object's kinetic energy is ½(2)(10²) = 100 J.\n\nThe second object therefore has KE = 50 J.\n\nUsing 50 = ½(4)v² gives v² = 25.\n\nTherefore, v = 5 m/s."
+  },
+
+  {
+    "question": "A 20 N force and a 15 N force act on an object in opposite directions. If the mass of the object is 5 kg, what is its acceleration toward the direction of the 20 N force?",
+    "options": [
+      "1 m/s²",
+      "2 m/s²",
+      "3 m/s²",
+      "7 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "The net force is 20 - 15 = 5 N.\n\nUsing F = ma gives a = 5/5 = 1 m/s²."
+  },
+
+  {
+    "question": "A 5 m long uniform beam is pivoted at its center. A 40 N force acts downward at one end. What downward force must act at a point 1 m from the center on the opposite side to produce rotational equilibrium?",
+    "options": [
+      "20 N",
+      "40 N",
+      "80 N",
+      "200 N"
+    ],
+    "answer": 2,
+    "explanation": "For rotational equilibrium, clockwise torque equals counterclockwise torque.\n\n40(2.5) = F(1).\n\nTherefore, F = 100 N."
+  },
+
+  {
+    "question": "A 10 N force acts at an angle of 30° to a lever arm of length 0.50 m. What is the magnitude of the torque?",
+    "options": [
+      "1.25 N·m",
+      "2.5 N·m",
+      "4.33 N·m",
+      "5.0 N·m"
+    ],
+    "answer": 1,
+    "explanation": "Torque is τ = rFsinθ.\n\nTherefore, τ = 0.50(10)sin30° = 2.5 N·m."
+  },
+
+  {
+    "question": "A planet's distance from the Sun changes from R to 4R. According to Kepler's third law, by what factor does its orbital period change?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "Kepler's third law gives T² ∝ R³.\n\nThus, T ∝ R^(3/2).\n\nFor R changing to 4R, the period changes by 4^(3/2) = 8."
+  },
+
+  {
+    "question": "A fluid is flowing through a horizontal pipe. If its speed increases from 2 m/s to 8 m/s, which statement about its pressure is correct according to Bernoulli's principle?",
+    "options": [
+      "Its pressure increases.",
+      "Its pressure decreases.",
+      "Its pressure remains unchanged.",
+      "Its pressure becomes zero."
+    ],
+    "answer": 1,
+    "explanation": "For steady horizontal flow, Bernoulli's equation shows that an increase in fluid speed is accompanied by a decrease in static pressure.\n\nTherefore, the pressure decreases."
+  },
+
+  {
+    "question": "A liquid has density 800 kg/m³. What is its gauge pressure 5 m below its free surface? Take g = 10 m/s².",
+    "options": [
+      "4000 Pa",
+      "8000 Pa",
+      "40,000 Pa",
+      "80,000 Pa"
+    ],
+    "answer": 2,
+    "explanation": "Gauge pressure is P = ρgh.\n\nP = 800(10)(5) = 40,000 Pa."
+  },
+
+  {
+    "question": "A liquid of density 1200 kg/m³ is replaced by another liquid of density 600 kg/m³ in the same container. At the same depth, how does the gauge pressure change?",
+    "options": [
+      "It doubles.",
+      "It becomes half.",
+      "It becomes four times larger.",
+      "It remains unchanged."
+    ],
+    "answer": 1,
+    "explanation": "Gauge pressure is P = ρgh.\n\nAt the same depth, pressure is directly proportional to density.\n\nReducing the density from 1200 to 600 kg/m³ halves the pressure."
+  },
+
+  {
+    "question": "A hydraulic lift has a small piston area of 5 cm² and a large piston area of 250 cm². If a 100 N force is applied to the small piston, what load can ideally be lifted?",
+    "options": [
+      "500 N",
+      "1000 N",
+      "5000 N",
+      "10,000 N"
+    ],
+    "answer": 2,
+    "explanation": "Pascal's principle gives F₁/A₁ = F₂/A₂.\n\nTherefore, F₂ = 100(250/5) = 5000 N."
+  },
+
+  {
+    "question": "A 10 μF capacitor is charged to 100 V. What energy is stored in the capacitor?",
+    "options": [
+      "0.005 J",
+      "0.05 J",
+      "0.5 J",
+      "5 J"
+    ],
+    "answer": 1,
+    "explanation": "The energy stored in a capacitor is U = ½CV².\n\nU = ½(10 × 10⁻⁶)(100²) = 0.05 J."
+  },
+
+  {
+    "question": "A resistor is connected to a constant voltage source. If its resistance is doubled, what happens to the power dissipated?",
+    "options": [
+      "It doubles.",
+      "It becomes four times larger.",
+      "It becomes half.",
+      "It remains unchanged."
+    ],
+    "answer": 2,
+    "explanation": "For a constant voltage source, power is P = V²/R.\n\nTherefore, doubling the resistance makes the power one-half of its original value."
+  },
+
+  {
+    "question": "A wire carries 4 A current and has resistance 5 Ω. How much electrical energy is converted to thermal energy in 2 minutes?",
+    "options": [
+      "240 J",
+      "1200 J",
+      "2400 J",
+      "4800 J"
+    ],
+    "answer": 2,
+    "explanation": "Electrical power is P = I²R = 4²(5) = 80 W.\n\nTwo minutes is 120 s.\n\nEnergy = Pt = 80(120) = 9600 J."
+  },
+
+  {
+    "question": "A 24 V source supplies 3 A to a circuit for 5 minutes. How much electrical energy is supplied?",
+    "options": [
+      "360 J",
+      "2160 J",
+      "21,600 J",
+      "43,200 J"
+    ],
+    "answer": 2,
+    "explanation": "Power is P = VI = 24(3) = 72 W.\n\nFive minutes is 300 s.\n\nEnergy = Pt = 72(300) = 21,600 J."
+  },
+
+  {
+    "question": "A light ray travels from air into a transparent material with refractive index 1.25. If the angle of incidence is 30°, what is sin of the angle of refraction?",
+    "options": [
+      "0.20",
+      "0.40",
+      "0.50",
+      "0.625"
+    ],
+    "answer": 1,
+    "explanation": "Snell's law gives n₁sinθ₁ = n₂sinθ₂.\n\nThus, sinθ₂ = (1)(sin30°)/1.25 = 0.5/1.25 = 0.40."
+  },
+
+  {
+    "question": "A convex lens forms a real image twice the size of an object. If the object is 30 cm from the lens, what is the approximate image distance?",
+    "options": [
+      "15 cm",
+      "30 cm",
+      "60 cm",
+      "90 cm"
+    ],
+    "answer": 2,
+    "explanation": "For a thin lens, magnification magnitude is |m| = v/u for a real inverted image.\n\nIf the image is twice the size, |m| = 2.\n\nTherefore, v = 2u = 2(30) = 60 cm."
+  },
+
+  {
+    "question": "A plane mirror is moved 2 cm toward an object. By how much does the distance between the object and its image change?",
+    "options": [
+      "1 cm",
+      "2 cm",
+      "4 cm",
+      "8 cm"
+    ],
+    "answer": 2,
+    "explanation": "The image in a plane mirror is as far behind the mirror as the object is in front.\n\nWhen the mirror moves 2 cm toward the object, the object-mirror distance decreases by 2 cm and the mirror-image distance also decreases by 2 cm.\n\nTherefore, the object-image separation decreases by 4 cm."
+  },
+
+  {
+    "question": "A wave has amplitude 0.20 m and frequency 5 Hz. Which statement is correct?",
+    "options": [
+      "Its period is 0.20 s.",
+      "Its wavelength must be 0.20 m regardless of its speed.",
+      "Its period is 5 s.",
+      "Its frequency is 0.20 Hz."
+    ],
+    "answer": 0,
+    "explanation": "Period and frequency are related by T = 1/f.\n\nFor f = 5 Hz, T = 1/5 = 0.20 s.\n\nThe wavelength cannot be determined without knowing the wave speed."
+  },
+
+  {
+    "question": "A radio wave and a gamma ray travel through vacuum. Which statement is correct?",
+    "options": [
+      "The gamma ray travels faster.",
+      "The radio wave travels faster.",
+      "They travel at the same speed but have different frequencies and wavelengths.",
+      "They have the same frequency but different speeds."
+    ],
+    "answer": 2,
+    "explanation": "All electromagnetic waves travel at the same speed in vacuum, approximately 3.0 × 10⁸ m/s.\n\nHowever, their frequencies and wavelengths differ."
+  },
+
+  {
+    "question": "An electron and a proton enter the same uniform magnetic field with equal speeds perpendicular to the field. Which particle follows the path with the larger radius?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Both have the same radius.",
+      "Neither follows a circular path."
+    ],
+    "answer": 1,
+    "explanation": "The radius is r = mv/(|q|B).\n\nThe proton and electron have equal charge magnitudes and equal speeds, but the proton has much greater mass.\n\nTherefore, the proton follows a path with a much larger radius."
+  },
+
+  {
+    "question": "A coil rotates in a uniform magnetic field. The induced emf is maximum when the magnetic flux through the coil is",
+    "options": [
+      "maximum and changing most slowly.",
+      "zero and changing most rapidly.",
+      "constant and maximum.",
+      "constant and zero."
+    ],
+    "answer": 1,
+    "explanation": "Faraday's law states that induced emf depends on the rate of change of magnetic flux.\n\nDuring rotation, the flux changes most rapidly when the instantaneous flux is zero.\n\nTherefore, the induced emf is maximum when the flux is zero."
+  },
+
+  {
+    "question": "A transformer has 500 turns in the primary and 2500 turns in the secondary. If the primary voltage is 120 V, what is the secondary voltage for an ideal transformer?",
+    "options": [
+      "24 V",
+      "60 V",
+      "240 V",
+      "600 V"
+    ],
+    "answer": 3,
+    "explanation": "Using Vₚ/Vₛ = Nₚ/Nₛ,\n\nVₛ = 120(2500/500) = 600 V.\n\nSince the secondary has more turns, this is a step-up transformer."
+  },
+
+  {
+    "question": "A 50 Hz AC source is connected to the primary of an ideal transformer. What is the frequency of the voltage induced in the secondary?",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "100 Hz",
+      "500 Hz"
+    ],
+    "answer": 1,
+    "explanation": "An ideal transformer changes voltage and current magnitudes but does not change the frequency.\n\nTherefore, the secondary frequency remains 50 Hz."
+  },
+
+  {
+    "question": "A radioactive nucleus has a half-life of 10 minutes. What percentage of the original sample remains after 40 minutes?",
+    "options": [
+      "25%",
+      "12.5%",
+      "6.25%",
+      "3.125%"
+    ],
+    "answer": 2,
+    "explanation": "Forty minutes corresponds to four half-lives.\n\nRemaining fraction = (1/2)^4 = 1/16.\n\nAs a percentage, 1/16 × 100% = 6.25%."
+  },
+
+  {
+    "question": "A radioactive sample has an initial activity of 6400 Bq and a half-life of 3 hours. What is its activity after 12 hours?",
+    "options": [
+      "1600 Bq",
+      "800 Bq",
+      "400 Bq",
+      "200 Bq"
+    ],
+    "answer": 2,
+    "explanation": "Twelve hours corresponds to four half-lives.\n\nActivity after four half-lives = 6400(1/2)^4 = 6400/16 = 400 Bq."
+  },
+
+  {
+    "question": "Which nuclear process involves the combination of two light nuclei to form a heavier nucleus and release energy?",
+    "options": [
+      "Fission",
+      "Fusion",
+      "Beta decay",
+      "Alpha decay"
+    ],
+    "answer": 1,
+    "explanation": "Nuclear fusion occurs when light nuclei combine to form a heavier nucleus.\n\nThe process can release a large amount of energy because the resulting nucleus has greater binding energy per nucleon."
+  },
+
+  {
+    "question": "In nuclear fission, a heavy nucleus is typically",
+    "options": [
+      "combined with another light nucleus.",
+      "split into smaller nuclei with the release of energy and additional neutrons.",
+      "converted entirely into electrons.",
+      "changed only by emitting visible light."
+    ],
+    "answer": 1,
+    "explanation": "Nuclear fission is the splitting of a heavy nucleus into smaller nuclei.\n\nThe process can release energy and additional neutrons, allowing a chain reaction under suitable conditions."
+  },
+
+  {
+    "question": "A simple machine has a velocity ratio of 8 and efficiency of 75%. If the effort applied is 100 N, what load can it lift?",
+    "options": [
+      "375 N",
+      "500 N",
+      "600 N",
+      "800 N"
+    ],
+    "answer": 2,
+    "explanation": "Efficiency is η = MA/VR.\n\nThus, MA = ηVR = 0.75(8) = 6.\n\nSince MA = load/effort, load = 6(100) = 600 N."
+  },
+
+  {
+    "question": "A projectile is launched at an angle θ with a fixed initial speed. At which angle is its horizontal range maximum when it lands at the same level?",
+    "options": [
+      "30°",
+      "37°",
+      "45°",
+      "60°"
+    ],
+    "answer": 2,
+    "explanation": "The projectile range is R = v²sin2θ/g.\n\nThe maximum possible value of sin2θ is 1, which occurs when 2θ = 90°.\n\nTherefore, θ = 45°."
+  },
+
+  {
+    "question": "For a projectile launched and landing at the same height, the horizontal range is four times its maximum height. What is the launch angle?",
+    "options": [
+      "30°",
+      "37°",
+      "45°",
+      "60°"
+    ],
+    "answer": 2,
+    "explanation": "For a projectile, R/H = 4cotθ.\n\nIf R = 4H, then 4 = 4cotθ.\n\nThus, cotθ = 1 and θ = 45°."
+  },
+
+  {
+    "question": "A 2 kg particle moves in a circle of radius 0.5 m with angular speed 10 rad/s. What is its centripetal acceleration?",
+    "options": [
+      "5 m/s²",
+      "25 m/s²",
+      "50 m/s²",
+      "100 m/s²"
+    ],
+    "answer": 3,
+    "explanation": "Centripetal acceleration is a_c = ω²r.\n\nTherefore, a_c = 10²(0.5) = 50 m/s²."
+  },
+
+  {
+    "question": "A rotating object has angular velocity 20 rad/s and radius 0.40 m. What is the centripetal acceleration of a point at the edge?",
+    "options": [
+      "80 m/s²",
+      "120 m/s²",
+      "160 m/s²",
+      "200 m/s²"
+    ],
+    "answer": 2,
+    "explanation": "Centripetal acceleration is a_c = ω²r.\n\nThus, a_c = 20²(0.40) = 160 m/s²."
+  },
+
+  {
+    "question": "A 4 kg object is moving at 3 m/s and experiences a constant net force of 8 N in the direction of its motion for 5 s. What is its final velocity?",
+    "options": [
+      "8 m/s",
+      "10 m/s",
+      "13 m/s",
+      "15 m/s"
+    ],
+    "answer": 2,
+    "explanation": "The acceleration is a = F/m = 8/4 = 2 m/s².\n\nUsing v = u + at,\n\nv = 3 + 2(5) = 13 m/s."
+  },
+
+  {
+    "question": "A 6 kg block is pulled with a horizontal force of 50 N while kinetic friction is 14 N. What is its acceleration?",
+    "options": [
+      "4 m/s²",
+      "6 m/s²",
+      "8 m/s²",
+      "10 m/s²"
+    ],
+    "answer": 0,
+    "explanation": "The net force is 50 - 14 = 36 N.\n\nTherefore, a = F_net/m = 36/6 = 6 m/s²."
+  },
+
+  {
+    "question": "A 1 kg object and a 3 kg object are separated by a distance and attract each other gravitationally. If the distance between them is doubled, the gravitational force becomes",
+    "options": [
+      "twice as large.",
+      "four times as large.",
+      "half as large.",
+      "one-fourth as large."
+    ],
+    "answer": 3,
+    "explanation": "Newton's law of gravitation gives F ∝ 1/r².\n\nDoubling the separation therefore reduces the force by a factor of four.\n\nThe new force is one-fourth of the original."
+  },
+
+  {
+    "question": "A satellite is moved from an orbit of radius R to an orbit of radius 9R around the same planet. By what factor does its orbital period increase?",
+    "options": [
+      "3",
+      "9",
+      "27",
+      "81"
+    ],
+    "answer": 2,
+    "explanation": "Kepler's third law gives T ∝ R^(3/2).\n\nTherefore, the period ratio is 9^(3/2) = 27.\n\nThe orbital period increases by a factor of 27."
+  },
+
+  {
+    "question": "A 12 V battery is connected to two resistors of 4 Ω and 8 Ω in parallel. What current flows through the 8 Ω resistor?",
+    "options": [
+      "0.67 A",
+      "1.5 A",
+      "3 A",
+      "6 A"
+    ],
+    "answer": 1,
+    "explanation": "Each resistor in a parallel circuit has the full source voltage across it.\n\nTherefore, the current through the 8 Ω resistor is I = V/R = 12/8 = 1.5 A."
+  },
+
+  {
+    "question": "A 20 Ω resistor carries 0.5 A current. What is the voltage across the resistor and the power dissipated?",
+    "options": [
+      "10 V and 5 W",
+      "20 V and 10 W",
+      "10 V and 10 W",
+      "40 V and 20 W"
+    ],
+    "answer": 2,
+    "explanation": "Using Ohm's law, V = IR = 0.5(20) = 10 V.\n\nPower is P = I²R = 0.5²(20) = 5 W.\n\nTherefore, the correct values are 10 V and 5 W."
+  },
+
+  {
+    "question": "A 4 μC charge is placed in an electric field of magnitude 5000 N/C. What electric force acts on the charge?",
+    "options": [
+      "0.005 N",
+      "0.02 N",
+      "0.20 N",
+      "20 N"
+    ],
+    "answer": 2,
+    "explanation": "Electric force is F = qE.\n\nF = (4 × 10⁻⁶)(5000) = 0.020 N.\n\nTherefore, the force magnitude is 0.020 N."
+  },
+
+  {
+    "question": "Two charges exert an electrostatic force of 36 N when separated by distance r. If one charge is doubled and the separation is also doubled, what is the new force?",
+    "options": [
+      "9 N",
+      "18 N",
+      "36 N",
+      "72 N"
+    ],
+    "answer": 1,
+    "explanation": "Coulomb's law gives F ∝ q₁q₂/r².\n\nDoubling one charge multiplies the force by 2, while doubling distance divides it by 4.\n\nTherefore, the new force is 36 × 2/4 = 18 N."
+  },
+
+  {
+    "question": "A capacitor of capacitance C is connected to a battery of voltage V. If both the capacitance and voltage are doubled, how does the stored energy change?",
+    "options": [
+      "It becomes twice as large.",
+      "It becomes four times as large.",
+      "It becomes eight times as large.",
+      "It becomes sixteen times as large."
+    ],
+    "answer": 2,
+    "explanation": "Capacitor energy is U = ½CV².\n\nDoubling C gives a factor of 2, while doubling V gives a factor of 4 because voltage is squared.\n\nTherefore, the total energy becomes 2 × 4 = 8 times larger."
+  },
+
+  {
+    "question": "A current-carrying wire is placed in a magnetic field. The magnetic force on the wire is maximum when the angle between the wire and magnetic field is",
+    "options": [
+      "0°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "answer": 3,
+    "explanation": "The force on a current-carrying wire is F = BILsinθ.\n\nThe force is maximum when sinθ = 1.\n\nTherefore, θ = 90°."
+  },
+
+  {
+    "question": "A wire of length 0.40 m carries a current of 5 A perpendicular to a magnetic field of 0.60 T. What magnetic force acts on the wire?",
+    "options": [
+      "0.6 N",
+      "1.2 N",
+      "2.0 N",
+      "3.0 N"
+    ],
+    "answer": 3,
+    "explanation": "The magnetic force is F = BILsin90°.\n\nF = 0.60(5)(0.40) = 1.2 N.\n\nTherefore, the magnetic force is 1.2 N."
+  },
+
+  {
+    "question": "A transformer has 2000 primary turns and 100 secondary turns. If the secondary voltage is 12 V, what is the primary voltage?",
+    "options": [
+      "24 V",
+      "120 V",
+      "240 V",
+      "480 V"
+    ],
+    "answer": 2,
+    "explanation": "Using Vₚ/Vₛ = Nₚ/Nₛ,\n\nVₚ = 12(2000/100) = 240 V.\n\nThe transformer is therefore a step-down transformer."
+  },
+
+  {
+    "question": "A radioactive nucleus undergoes gamma emission. What happens to its atomic number and mass number?",
+    "options": [
+      "Both increase.",
+      "Atomic number decreases by 1 and mass number decreases by 1.",
+      "Atomic number remains unchanged and mass number remains unchanged.",
+      "Atomic number decreases by 2 and mass number decreases by 4."
+    ],
+    "answer": 2,
+    "explanation": "Gamma emission releases electromagnetic radiation from an excited nucleus.\n\nNo proton or neutron is removed, so both the atomic number and mass number remain unchanged."
+  },
+
+  {
+    "question": "A nucleus has a half-life of 6 hours. What fraction of the original nuclei have decayed after 18 hours?",
+    "options": [
+      "1/8",
+      "3/8",
+      "5/8",
+      "7/8"
+    ],
+    "answer": 3,
+    "explanation": "Eighteen hours corresponds to three half-lives.\n\nThe remaining fraction is (1/2)^3 = 1/8.\n\nTherefore, the decayed fraction is 1 - 1/8 = 7/8."
+  }
+]

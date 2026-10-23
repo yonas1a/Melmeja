@@ -51,9 +51,20 @@ export const googleProvider = new GoogleAuthProvider();
 googleProvider.setCustomParameters({ prompt: 'select_account' });
 
 // Initialize Firestore with Database ID if custom
-export const db = config.firestoreDatabaseId && config.firestoreDatabaseId !== '(default)'
-  ? getFirestore(app, config.firestoreDatabaseId)
+export const customDbId = config.firestoreDatabaseId && config.firestoreDatabaseId !== '(default)'
+  ? config.firestoreDatabaseId
+  : null;
+
+export const db = customDbId
+  ? getFirestore(app, customDbId)
   : getFirestore(app);
+
+// Default Firestore instance for fallback or multi-database setups
+export const defaultDb = getFirestore(app);
+
+// PayAlert database instance where SMS listener uploads transactions
+export const PAYALERT_DATABASE_ID = 'ai-studio-android-payalert-5431dfbf-6927-4f62-aacf-d8c24a4a964b';
+export const payalertDb = getFirestore(app, PAYALERT_DATABASE_ID);
 
 // Initialize Cloud Storage
 export const storage = getStorage(app);

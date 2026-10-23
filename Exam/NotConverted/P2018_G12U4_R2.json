@@ -1,0 +1,48 @@
+[
+{
+  "question": " Which one of the following statements is correct about the use of a transformer in commonly available electrical appliances? The transformers in",
+  "options": [
+    "microwave ovens are used to step-down the incoming high voltage to low voltage to enable it cook food.",
+    "cell-phone chargers are used to convert the incoming alternating voltage to a direct voltage.",
+    "cell-phone chargers are used to step-down the incoming voltage to a safe voltage that will not harm its batteries.",
+    "laptop computer chargers are used to convert the incoming alternating voltage to a direct voltage."
+  ],
+  "answer": 2,
+  "explanation": "A transformer specifically changes AC voltage levels (stepping up or stepping down voltage).\n\n In cell-phone chargers, a step-down transformer reduces the high AC wall voltage to a lower, safer AC voltage level before it is rectified.\n\n  (Converting AC to DC is performed by a rectifier, not a transformer)."
+},
+{
+"question": " The North pole of a bar magnet is moving away from a circular wire lying on the top of a horizontal table as shown in the figure below.\n\nAccording to Lenz's law, the direction of the induced current in the wire when viewed from the magnetic side is",
+"options": [
+"clockwise.",
+"upward.",
+"downward.",
+"counterclockwise."
+],
+"answer": 0,
+"explanation": "According to Lenz's law, the induced current will oppose the change in magnetic flux.\n\n Since the North pole is moving away, the loop creates a South pole on top to attract it back.\n\n Looking down at a South pole, the direction of the current flows clockwise.",
+"image": "images/P2018R2_33.png"
+},
+{
+"question": " Ampere's law can be stated that the magnetic field produced by",
+"options": [
+"an electric current is directly proportional to the magnitude of the current.",
+"a bar magnet is directly proportional to the mass of the magnet.",
+"a current carrying wire are parallel to the wire.",
+"a conductor carrying constant current is directly proportional to the distance from the wire."
+],
+"answer": 0,
+"explanation": "According to Ampere's Law (e.g., B = μ₀I / (2πr) for a long straight wire), the magnetic field B produced around a current-carrying wire is directly proportional to the electric current I passing through it."
+},
+{
+"question": " A straight conductor carrying a current I, which flows upward, is placed in uniform magnetic field B directed into the page, as shown in the figure below.\n\nWhat will happen to the conductor?",
+"options": [
+"It will be pushed to the right.",
+"It will be pushed out of the page.",
+"It will be pushed into the page.",
+"It will be pushed to the left."
+],
+"answer": 0,
+"explanation": "Using the right-hand rule for magnetic force (F = I L × B): \n\n-> point your fingers upward in the direction of the current (I),\n\n-> curl them inward into the page in the direction of the magnetic field (B),\n\n-> and your thumb points to the right, indicating the direction of the force pushing the conductor.",
+"image": "images/P2018R2_59.png"
+}
+]

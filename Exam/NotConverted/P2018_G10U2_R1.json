@@ -1,0 +1,13 @@
+[
+{
+  "question": "A car moves at speed of 80.0 km/hr for 1.0 hour to East then back to West in which it travels at speed of 60.0 km/hr for 2.0 hrs. What is the average velocity of the car during its motion?",
+  "options": [
+    "66.7 km/hr, West",
+    "13.3 km/hr, West",
+    "66.7 km/hr, East",
+    "13.3 km/hr, East"
+  ],
+  "answer": 1,
+  "explanation": "Average velocity is total displacement divided by total time, not total distance divided by total time.\n\nThe eastward displacement is 80 km, while the westward displacement is 60 × 2 = 120 km.\n\nTaking east as positive, total displacement = 80 - 120 = -40 km, meaning 40 km west.\n\nTotal time = 1 + 2 = 3 hours.\n\nAverage velocity = -40/3 ≈ -13.3 km/hr."
+}
+]

@@ -1,0 +1,13 @@
+[
+{
+  "question": "59. A $200 \\text{ N}$ force is required to be applied at one end of a $1 \\text{ m}$ long lever, $80 \\text{ cm}$ from its fulcrum, in order to lift a load of $600 \\text{ N}$ placed at the other end as shown in the figure below. What is the efficiency of the lever?",
+  "options": [
+    "17%",
+    "25%",
+    "83%",
+    "75%"
+  ],
+  "answer": 3,
+  "explanation": "Efficiency ($\\eta$) is calculated as the ratio of Actual Mechanical Advantage ($MA$) to Ideal Mechanical Advantage ($IMA$): $\\eta = \\frac{MA}{IMA} \\times 100\\%$. .\n\n* **Actual Mechanical Advantage ($MA$):** $MA = \\frac{\\text{Load}}{\\text{Effort}} = \\frac{600 \\text{ N}}{200 \\text{ N}} = 3$\n* **Ideal Mechanical Advantage ($IMA$):** $IMA = \\frac{\\text{Effort Arm}}{\\text{Load Arm}}$. The Effort Arm is $80 \\text{ cm}$, so the Load Arm is $100 \\text{ cm} - 80 \\text{ cm} = 20 \\text{ cm}$.\n$$IMA = \\frac{80 \\text{ cm}}{20 \\text{ cm}} = 4$$\n* **Efficiency:**\n$$\\eta = \\frac{3}{4} \\times 100\\% = 75\\%$$"
+}
+]

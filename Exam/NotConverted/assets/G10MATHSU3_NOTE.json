@@ -1,0 +1,91 @@
+[
+  {
+    "type": "note",
+    "title": "UNIT 3: EXPONENTIAL AND LOGARITHMIC FUNCTIONS",
+    "notes": "Exponent → tells how many times a base is used as a factor.\n\nExample: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32.\n\nBase → the number being raised to a power.\nExponent → the power to which the base is raised.\n\nNote: (−3)² = 9, but −3² = −9.\n\nLaws of Exponents:\n✓ aᵐ × aⁿ = aᵐ⁺ⁿ\n✓ aᵐ ÷ aⁿ = aᵐ⁻ⁿ, a ≠ 0\n✓ (aᵐ)ⁿ = aᵐⁿ\n✓ (ab)ⁿ = aⁿbⁿ\n✓ (a/b)ⁿ = aⁿ/bⁿ, b ≠ 0\n\nZero exponent → a⁰ = 1, a ≠ 0.\n\nNegative exponent → a⁻ⁿ = 1/aⁿ.\n\nRational exponent → a^(1/n) = ⁿ√a.\n\nGeneral form → a^(m/n) = ⁿ√(aᵐ) = (ⁿ√a)ᵐ.\n\nIf n is even and a < 0, a^(1/n) is not a real number. If n is odd, it can be real.\n\nIrrational exponents → expressions such as 3^√2; the laws of exponents continue to apply.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "LOGARITHMS",
+    "notes": "Logarithm → the exponent to which a base must be raised to obtain a given positive number.\n\nDefinition:\nlogₐ c = b ⇔ aᵇ = c\nwhere a > 0, a ≠ 1 and c > 0.\n\nExample:\nlog₂ 8 = 3 because 2³ = 8.\n\nConversion:\nExponential → 2⁵ = 32\nLogarithmic → log₂ 32 = 5.\n\nImportant values:\n✓ logₐ 1 = 0\n✓ logₐ a = 1\n✓ logₐ(aᵖ) = p\n✓ a^(logₐ p) = p\n\nLaws of Logarithms:\n✓ logₐ(MN) = logₐM + logₐN\n✓ logₐ(M/N) = logₐM − logₐN\n✓ logₐ(Mʳ) = r logₐM\n\nLogarithms are defined only when the argument is positive.\n\nExample:\nlog₃(1/9) = −2 because 3⁻² = 1/9.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "COMMON LOGARITHMS & ANTILOGARITHMS",
+    "notes": "Common logarithm → logarithm with base 10.\n\nlog₁₀M is usually written simply as log M.\n\nExamples:\n✓ log 10 = 1\n✓ log 100 = 2\n✓ log 1000 = 3\n✓ log 0.1 = −1\n✓ log 0.01 = −2\n\nCharacteristic + Mantissa:\nFor a positive number written as M = m × 10ᶜ,\nlog M = log m + c.\n\nCharacteristic → integer part.\nMantissa → fractional part.\n\nExample:\n345 = 3.45 × 10²\nTherefore, log 345 = log 3.45 + 2.\n\nAntilogarithm → the inverse operation of logarithm.\nIf log M = N, then M = antilog(N).\n\nImportant:\nantilog(log M) = M.\n\nLogarithms can also be used to approximate complicated calculations involving multiplication, division, powers and roots.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "CHANGE OF BASE FORMULA",
+    "notes": "Change of Base:\n\nlogₐM = log_bM / log_ba\n\nwhere a > 0, b > 0, a ≠ 1 and b ≠ 1.\n\nThis allows a logarithm to be evaluated using another convenient base, such as 10 or e.\n\nExample:\nlog₂5 = log 5 / log 2.\n\nImportant warning:\n◆ logₐ(MN) ≠ (logₐM)(logₐN)\n◆ logₐ(M + N) ≠ logₐM + logₐN\n◆ logₐ(M/N) ≠ (logₐM)/(logₐN).",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "EXPONENTIAL FUNCTIONS",
+    "notes": "Exponential function:\nf(x) = aˣ\nwhere a > 0, a ≠ 1 and x is any real number.\n\nDomain → ℝ (all real numbers).\nRange → positive real numbers (0, ∞).\ny-intercept → (0, 1).\nx-intercept → none.\nHorizontal asymptote → y = 0.\n\nIf a > 1:\n✓ Function is increasing.\n✓ Values grow rapidly as x increases.\n✓ Values approach 0 as x becomes very negative.\n\nIf 0 < a < 1:\n✓ Function is decreasing.\n✓ Values decrease as x increases.\n✓ Values approach 0 as x becomes very positive.\n\nExample:\nf(x) = 2ˣ\nf(−1) = 1/2\nf(0) = 1\nf(1) = 2\nf(2) = 4.\n\nExponential functions can model rapid growth and decline, such as population growth and decay.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "EXPONENTIAL GRAPHS",
+    "notes": "For y = aˣ, a > 1:\nThe graph rises from left to right and approaches the x-axis without touching it.\n\nFor y = aˣ, 0 < a < 1:\nThe graph falls from left to right and approaches the x-axis without touching it.\n\nBoth types:\n✓ Pass through (0, 1).\n✓ Have domain ℝ.\n✓ Have range (0, ∞).\n✓ Have horizontal asymptote y = 0.\n✓ Have no x-intercept.\n\nNegative exponential:\ny = −eˣ\nhas domain ℝ, range of negative real numbers, y-intercept (0, −1), and horizontal asymptote y = 0.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "NATURAL EXPONENTIAL FUNCTION",
+    "notes": "The number e is an important mathematical constant.\n\ne ≈ 2.71828.\n\nNatural exponential function:\nf(x) = eˣ.\n\ne is defined as the value approached by (1 + 1/n)ⁿ as n becomes very large.\n\nExamples:\ne² ≈ 7.38906\ne⁻¹ ≈ 0.36788\ne³·⁵ ≈ 33.11545.\n\nThe natural exponential function is widely used in growth, decay and other mathematical applications.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "LOGARITHMIC FUNCTIONS",
+    "notes": "Logarithmic function:\nf(x) = logₐx\nwhere a > 0 and a ≠ 1.\n\nDomain → (0, ∞).\nRange → ℝ.\nx-intercept → (1, 0).\ny-intercept → none.\nVertical asymptote → x = 0.\n\nIf a > 1:\n✓ Function is increasing.\n✓ f(x) increases as x increases.\n\nIf 0 < a < 1:\n✓ Function is decreasing.\n✓ f(x) decreases as x increases.\n\nExample:\nlog₂1 = 0\nlog₂2 = 1\nlog₂4 = 2\nlog₂8 = 3.\n\nx must always be positive for logₐx.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "TRANSFORMATIONS OF LOGARITHMIC GRAPHS",
+    "notes": "For f(x) = logₐx:\n\n−f(x) → reflection of the graph in the x-axis.\n\nf(−x) → reflection of the graph in the y-axis.\n\nExample:\ng(x) = −log₂x\nis the reflection of y = log₂x across the x-axis.\n\nh(x) = log₂(−x)\nis the reflection of y = log₂x across the y-axis.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "NATURAL LOGARITHM",
+    "notes": "Natural logarithm → logarithm with base e.\n\nln x = logₑx.\n\nImportant values:\n✓ ln 1 = 0\n✓ ln e = 1\n✓ ln(eˣ) = x\n✓ e^(ln x) = x\n\nExamples:\nln(e³) = 3\nln(1/e) = −1.\n\nThe graphs y = eˣ and y = ln x are inverse functions and are reflections of each other across the line y = x.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "SOLVING EXPONENTIAL EQUATIONS",
+    "notes": "Exponential equation → an equation in which the variable occurs in an exponent.\n\nMethod 1 → Express both sides using the same base.\n\nExample:\n2^(2x−1) = 8\n2^(2x−1) = 2³\n2x − 1 = 3\nx = 2.\n\nBase-exponent property:\naˣ = aʸ ⇔ x = y\nfor a > 0 and a ≠ 1.\n\nMethod 2 → Use logarithms when the bases cannot easily be made equal.\n\nSteps:\n✓ Isolate the exponential expression.\n✓ Take logarithms of both sides.\n✓ Use the power law to bring the exponent down.\n✓ Solve for the variable.\n\nExample:\n2ˣ = 20\nx = log 20 / log 2 ≈ 4.32226.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "SOLVING LOGARITHMIC EQUATIONS",
+    "notes": "Logarithmic equation → an equation containing the logarithm of an expression involving a variable.\n\nFirst state the universe/domain by requiring every logarithm argument to be positive.\n\nSteps:\n✓ State the universe.\n✓ Collect logarithmic terms.\n✓ Convert to exponential form or use logarithm laws.\n✓ Solve for the variable.\n✓ Check that the solution satisfies the logarithm restrictions.\n\nExample:\nlog₂(x + 3) = 4\nx + 3 = 2⁴\nx + 3 = 16\nx = 13.\n\nSince x + 3 > 0, x > −3; therefore x = 13 is valid.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "RELATION BETWEEN EXPONENTIAL & LOGARITHMIC FUNCTIONS",
+    "notes": "Exponential and logarithmic functions with the same base are inverses.\n\nIf:\ny = aˣ\nthen:\ny = logₐx.\n\nInverse relationships:\n✓ a^(logₐx) = x\n✓ logₐ(aˣ) = x.\n\nTheir graphs are reflections of each other across the line y = x.\n\nDomain of y = aˣ = Range of y = logₐx.\nRange of y = aˣ = Domain of y = logₐx.\n\nFor y = aˣ:\nDomain = ℝ\nRange = (0, ∞)\n\nFor y = logₐx:\nDomain = (0, ∞)\nRange = ℝ.\n\nExponential y-intercept → (0, 1).\nLogarithmic x-intercept → (1, 0).\n\nExponential horizontal asymptote → y = 0.\nLogarithmic vertical asymptote → x = 0.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "APPLICATION: COMPOUND INTEREST",
+    "notes": "Compound interest → interest that is added to the principal so that future interest is calculated on the increased amount.\n\nIf compounded once per year:\nA(t) = P(1 + r)ᵗ.\n\nIf compounded n times per year:\nA(t) = P(1 + r/n)ⁿᵗ.\n\nWhere:\nP → principal amount\nr → annual interest rate as a decimal\nn → number of compounding periods per year\nt → number of years\nA(t) → amount after t years.\n\nExample:\nIf Birr 20,000 is invested at 7% annually for 5 years:\nA = 20,000(1.07)⁵\n≈ Birr 28,051.03.\n\nMore frequent compounding generally produces a larger amount for the same nominal annual rate and time.",
+    "image": null
+  },
+  {
+    "type": "note",
+    "title": "UNIT 3 QUICK REVIEW",
+    "notes": "Exponent → indicates repeated multiplication.\n\nMain exponent laws:\n✓ aᵐaⁿ = aᵐ⁺ⁿ\n✓ (aᵐ)ⁿ = aᵐⁿ\n✓ a⁻ⁿ = 1/aⁿ\n✓ aᵐ/aⁿ = aᵐ⁻ⁿ\n✓ aᵐ⁄ⁿ = ⁿ√(aᵐ).\n\nLogarithm → an exponent.\nlogₐx = y ⇔ aʸ = x.\n\nMain logarithm laws:\n✓ logₐ(MN) = logₐM + logₐN\n✓ logₐ(M/N) = logₐM − logₐN\n✓ logₐ(Mʳ) = rlogₐM.\n\nExponential: y = aˣ\nDomain ℝ, Range (0,∞), asymptote y = 0.\n\nLogarithmic: y = logₐx\nDomain (0,∞), Range ℝ, asymptote x = 0.\n\nExponential and logarithmic functions are inverses.\n\nExponential functions are used in applications such as compound interest, growth and decay."
+  }
+]

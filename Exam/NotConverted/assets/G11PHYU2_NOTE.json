@@ -1,0 +1,39 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 2: VECTORS",
+"notes": "✓ Vector → A physical quantity described by both magnitude and direction.\n\n✓ Scalar → A physical quantity described only by magnitude.\n\n✓ Vectors are used to represent quantities such as displacement, velocity, acceleration and force.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.1 VECTORS AND TYPES OF VECTORS",
+"notes": "◆ SCALAR VS VECTOR\n✓ Scalar → Magnitude only.\n✓ Vector → Magnitude + direction.\n\n◆ COMMON VECTORS\nDisplacement • Velocity • Acceleration • Force • Weight.\n\n◆ GRAPHICAL REPRESENTATION\n✓ A vector is represented by a directed arrow drawn to scale.\n\n✓ Arrow length → Represents magnitude.\n✓ Arrowhead → Represents direction.\n\n✓ A ruler, protractor and graph paper can be used for scale diagrams.\n\n◆ TYPES OF VECTORS\n✓ Collinear → Vectors lying along the same line.\n✓ Coplanar → Vectors lying in the same plane.\n✓ Parallel → Same direction or parallel lines.\n✓ Antiparallel → Opposite directions along parallel lines.\n✓ Equal → Same magnitude and direction.\n✓ Null/zero vector → Magnitude is zero.\n✓ Unit vector → Magnitude is 1 and indicates direction.\n✓ Negative vector → Same magnitude as the original but opposite direction.\n\n◆ NEGATIVE VECTOR\n✓ If A⃗ is a vector, −A⃗ → Has the same magnitude but opposite direction.\n\n✓ Key idea → Vectors require both magnitude and direction; their direction and orientation determine their classification.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.2 GRAPHICAL METHOD OF ADDITION OF VECTORS IN TWO DIMENSIONS",
+"notes": "✓ Graphical method → Uses scale diagrams and geometric construction to find vector sums, differences and the resultant.\n\n✓ Resultant vector → The single vector equivalent to the combined effect of the given vectors.\n\n◆ TRIANGLE LAW\n✓ Place the second vector head-to-tail with the first.\n\n✓ The vector from the tail of the first to the head of the second → Resultant.\n\n◆ PARALLELOGRAM LAW\n✓ Place two vectors tail-to-tail and complete a parallelogram.\n\n✓ The diagonal from the common tail → Resultant.\n\n◆ POLYGON LAW\n✓ Used for more than two vectors.\n\n✓ Join vectors head-to-tail in sequence → The vector from the tail of the first to the head of the last is the resultant.\n\n◆ VECTOR SUBTRACTION\n✓ A⃗ − B⃗ = A⃗ + (−B⃗)\n\n✓ Reverse the direction of B⃗ → Then add it to A⃗.\n\n◆ SCALE DIAGRAM\n✓ Choose a suitable scale → Draw each vector with the correct magnitude and direction → Measure the resultant magnitude and direction.\n\n✓ Graphical methods are useful for visualization but are approximate because measurements are made from diagrams.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.3 ALGEBRAIC METHOD OF ADDITION OF VECTORS IN TWO DIMENSIONS",
+"notes": "✓ Algebraic/analytical method → Finds vector sums and differences without drawing scale diagrams and gives exact results.\n\n✓ It includes collinear vectors, perpendicular vectors, trigonometric direction, vector components and unit-vector representation.\n\n◆ COLLINEAR VECTORS\n✓ Same direction → R = A + B.\n✓ Opposite directions → R = A − B, with direction determined by the larger magnitude.\n\n◆ PERPENDICULAR VECTORS\n✓ For two perpendicular vectors:\nR = √(A² + B²)\n\n✓ Direction relative to the x-axis:\nθ = tan⁻¹(Ry/Rx)\n\n◆ RESOLUTION INTO COMPONENTS\n✓ A vector can be resolved into perpendicular x- and y-components.\n\n✓ Ax = A cosθ\n✓ Ay = A sinθ\n\n✓ Therefore:\nA⃗ = Ax i⃗ + Ay j⃗\n\n✓ i⃗ → Unit vector along +x.\n✓ j⃗ → Unit vector along +y.\n\n◆ RESULTANT BY COMPONENTS\n✓ For R⃗ = A⃗ + B⃗:\nRx = Ax + Bx\nRy = Ay + By\nR⃗ = Rx i⃗ + Ry j⃗\n\n◆ MAGNITUDE\n✓ R = √(Rx² + Ry²)\n\n◆ DIRECTION\n✓ θ = tan⁻¹(Ry/Rx)\n\n◆ UNIT VECTOR\n✓ A unit vector → Has magnitude 1 and points in a specified direction.\n\n✓ Unit vector along A:\nÂ = A⃗/|A⃗|\n\n✓ For a vector A⃗ = Ax i⃗ + Ay j⃗:\n|A⃗| = √(Ax² + Ay²)\n\n✓ Key idea → Component methods convert vectors into perpendicular x- and y-parts, making addition and subtraction easier and exact.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.4 PRODUCT OF VECTORS",
+"notes": "✓ Scalar (dot) product → Combines two vectors and produces a scalar quantity.\n\n✓ It is used to determine angles, vector components and physical quantities such as work and power.\n\n◆ SCALAR / DOT PRODUCT\n✓ A⃗ · B⃗ = AB cosθ\n\n✓ θ → Angle between the vectors when placed tail-to-tail.\n\n✓ Using components:\nA⃗ · B⃗ = AxBx + AyBy\n\n◆ ANGLE BETWEEN VECTORS\n✓ cosθ = (A⃗ · B⃗)/(AB)\n\n✓ θ = cos⁻¹[(A⃗ · B⃗)/(AB)]\n\n◆ DIRECTION COSINES\n✓ The cosine of the angle a vector makes with a positive coordinate axis → Direction cosine.\n\n◆ VECTOR COMPONENT ALONG ANOTHER VECTOR\n✓ The dot product → Can determine the component of one vector in the direction of another vector.\n\n◆ IMPORTANT DOT-PRODUCT RESULTS\n✓ Same direction (θ = 0°) → A⃗·B⃗ = AB, maximum positive value.\n\n✓ Perpendicular (θ = 90°) → A⃗·B⃗ = 0.\n\n✓ Opposite direction (θ = 180°) → A⃗·B⃗ = −AB.\n\n✓ A⃗·A⃗ = A².\n✓ A⃗·B⃗ = B⃗·A⃗ → Commutative.\n✓ A⃗·(B⃗ + C⃗) = A⃗·B⃗ + A⃗·C⃗ → Distributive.\n\n◆ PHYSICAL APPLICATIONS\n✓ Work:\nW = F⃗·S⃗ = FS cosθ\n\n✓ Maximum work → Occurs when force and displacement are parallel.\n\n✓ Power:\nP = F⃗·v⃗\n\n✓ Key idea → The dot product converts two vectors into a scalar and is especially useful for finding angles, components, work and power.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 2: QUICK REVISION",
+"notes": "◆ SCALAR\n✓ Magnitude only.\n\n◆ VECTOR\n✓ Magnitude + direction.\n\n◆ TYPES\n✓ Collinear • Coplanar • Parallel • Antiparallel • Equal • Null • Unit • Negative.\n\n◆ GRAPHICAL ADDITION\n✓ Triangle law • Parallelogram law • Polygon law.\n\n◆ ANALYTICAL ADDITION\n✓ Resolve vectors into x and y components → Add components → Calculate magnitude and direction.\n\n◆ COMPONENTS\n✓ Ax = A cosθ\n✓ Ay = A sinθ\n\n◆ RESULTANT\n✓ R⃗ = Rx i⃗ + Ry j⃗\n✓ R = √(Rx² + Ry²)\n\n◆ UNIT VECTOR\n✓ Â = A⃗/|A⃗|\n\n◆ DOT PRODUCT\n✓ A⃗·B⃗ = AB cosθ = AxBx + AyBy.\n\n◆ ANGLE\n✓ θ = cos⁻¹[(A⃗·B⃗)/(AB)].\n\n◆ APPLICATIONS\n✓ Work = F⃗·S⃗\n✓ Power = F⃗·v⃗\n\n✓ Remember → Vector → Represent → Add/Subtract → Resolve → Calculate Resultant → Apply Dot Product.",
+"image": null
+}
+]

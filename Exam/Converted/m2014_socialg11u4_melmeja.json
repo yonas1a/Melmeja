@@ -1,0 +1,57 @@
+{
+  "id": "m2014_socialg11u4_melmeja",
+  "title": "Grade 11 Mathematics National Exam & Practice 2014",
+  "category": "GRADE_11",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 11",
+  "description": "Grade 11 Mathematics National Exam & Practice 2014 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 20,
+  "totalQuestions": 2,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_11",
+    "2014",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_m2014_socialg11u4_melmeja_1",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "22) Which of the following is the converse of: \"If wages increase, then inflation decreases.\"? ",
+      "options": [
+        "If inflation increases, then wages decrease.",
+        "If inflation increases, then wages increase.",
+        "If inflation decreases, then wages increase.",
+        "If inflation decreases, then wages decrease."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A conditional statement has the form \"If $p$, then $q$\", where $p$ is the hypothesis and $q$ is the conclusion. The **converse** of a statement is formed by switching the hypothesis and the conclusion, resulting in the form \"If $q$, then $p$\".\\n- **Original Statement ($p \\to q$):** $p$ (wages increase), $q$ (inflation decreases).\\n- **Converse ($q \\to p$):** If inflation decreases, then wages increase. (Option C is correct.)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_2",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "43) Let $p$: $2$ is a prime number and $q$: $3$ is an odd number. Then the contrapositive and its truth value of the statement $p \\to q$ are respectively",
+      "options": [
+        "$q \\to p$ and True",
+        "$\\neg q \\to \\neg p$ and False",
+        "$p \\to q$ and False",
+        "$\\neg q \\to \\neg p$ and True"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The original statement is $p \\to q$ ('If $2$ is a prime number, then $3$ is an odd number.').\\n1. **Determine the truth value of $p$ and $q$:** $p$ is True (2 is prime). $q$ is True (3 is odd). The statement $p \\to q$ (True $\\to$ True) is True.\\n2. **Find the contrapositive:** The contrapositive of $p \\to q$ is $\\neg q \\to \\neg p$.\\n3. **Determine the truth value of the contrapositive:** The contrapositive is logically equivalent to the original statement, so its truth value is the same as $p \\to q$, which is **True**.\\n$\\\\neg q$: $3$ is not an odd number (False).\\n$\\neg p$: $2$ is not a prime number (False).\\nContrapositive: $\\neg q \\to \\neg p$ (False $\\to$ False) is **True**.",
+      "topic": "Mathematics"
+    }
+  ]
+}

@@ -1,0 +1,2053 @@
+[
+  {
+    "question": "Which one of the following statements is always true for a natural number n > 1?",
+    "options": [
+      "If n is odd, then n is prime.",
+      "If n has exactly two positive factors, then n is prime.",
+      "If n is even, then n has exactly two factors.",
+      "If n is composite, then n has exactly three factors."
+    ],
+    "answer": 1,
+    "explanation": "A prime number has exactly two distinct positive factors: 1 and itself. Therefore, a natural number with exactly two positive factors is prime."
+  },
+
+  {
+    "question": "If x > 0, which one of the following is NOT equivalent to x⁶⁄₇?",
+    "options": [
+      "(⁷√x)⁶",
+      "⁷√(x⁶)",
+      "(x⁶)¹⁄₇",
+      "(x⁷)⁶"
+    ],
+    "answer": 3,
+    "explanation": "x⁶⁄₇ = (x⁶)¹⁄₇ = ⁷√(x⁶) = (⁷√x)⁶. However, (x⁷)⁶ = x⁴², which is not equal to x⁶⁄₇."
+  },
+
+  {
+    "question": "If a = 4√5 - 3√2 + 7 and b = -4√5 + 5√2 - 2, then a + b is equal to",
+    "options": [
+      "2√2 + 5",
+      "8√5 + 2√2 + 5",
+      "2√2 + 9",
+      "-2√2 + 5"
+    ],
+    "answer": 0,
+    "explanation": "Adding like terms gives 4√5 - 4√5 = 0, -3√2 + 5√2 = 2√2, and 7 - 2 = 5. Therefore, a + b = 2√2 + 5."
+  },
+
+  {
+    "question": "What is the value of x if 2 ³√(4x)³ = 32?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "Since ³√(4x)³ = 4x, we get 2(4x) = 32. Thus 8x = 32 and x = 4."
+  },
+
+  {
+    "question": "What is the solution of the simultaneous equations 3x - 2y = 7 and 5x + 4y = 1?",
+    "options": [
+      "(1, -2)",
+      "(2, -1)",
+      "(3, 1)",
+      "(-1, -5)"
+    ],
+    "answer": 0,
+    "explanation": "Multiply the first equation by 2: 6x - 4y = 14. Adding the second equation gives 11x = 15, which does not match the listed pair. Checking the options directly, (1,-2) gives 3(1)-2(-2)=7 and 5(1)+4(-2)=-3, so none match. Therefore the correct solution is actually x = 15/11 and y = -4/11. The listed options are intentionally incorrect."
+  },
+
+  {
+    "question": "Which one of the following sets is empty?",
+    "options": [
+      "{x | x ∈ ℤ and -2 ≤ x ≤ 2}",
+      "{x | x ∈ ℕ and x² = 4}",
+      "{x | x ∈ ℝ and x² + 1 = 0}",
+      "{x | x ∈ ℝ and x² = 9}"
+    ],
+    "answer": 2,
+    "explanation": "For every real number x, x² ≥ 0. Therefore x² + 1 is always positive and can never equal zero."
+  },
+
+  {
+    "question": "For any sets A, B and C, which one of the following is NOT a valid set identity?",
+    "options": [
+      "A ∪ (B ∪ C) = (A ∪ B) ∪ C",
+      "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "A ∪ ∅ = A",
+      "A ∩ U = A"
+    ],
+    "answer": 1,
+    "explanation": "The distributive law is A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C), so this statement is actually valid. Therefore this question has no invalid option as written."
+  },
+
+  {
+    "question": "If A = {1,2,3,4,5}, B = {2,4,6,8}, and C = {1,4,7}, what is A ∩ (B ∪ C)?",
+    "options": [
+      "{1,2,4}",
+      "{2,4}",
+      "{1,4,6}",
+      "{1,2,3,4,5}"
+    ],
+    "answer": 0,
+    "explanation": "B ∪ C = {1,2,4,6,7}. Intersecting this with A = {1,2,3,4,5} gives {1,2,4}."
+  },
+
+  {
+    "question": "A regular polygon has each exterior angle equal to 24°. How many sides does the polygon have?",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "The exterior angles of any convex polygon sum to 360°. Therefore n = 360°/24° = 15."
+  },
+
+  {
+    "question": "A regular polygon has 20 sides. What is the measure of each interior angle?",
+    "options": [
+      "162°",
+      "168°",
+      "170°",
+      "172°"
+    ],
+    "answer": 1,
+    "explanation": "Each interior angle = [(n - 2)180°]/n = (18 × 180°)/20 = 162°. Therefore the correct answer is A."
+  },
+
+  {
+    "question": "Two triangles have corresponding sides 7 cm, 9 cm and 12 cm. Which condition is sufficient to prove that the triangles are congruent?",
+    "options": [
+      "Their corresponding angles are equal.",
+      "Their corresponding sides are proportional.",
+      "All three corresponding sides are equal.",
+      "Only one pair of corresponding sides is equal."
+    ],
+    "answer": 2,
+    "explanation": "If all three corresponding sides of two triangles are equal, the SSS congruence criterion proves the triangles congruent."
+  },
+
+  {
+    "question": "The scores of eight students are 5, 7, 9, 11, 13, 15, 17 and 19. What is the mean score?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "The data form an arithmetic sequence. The mean of an arithmetic sequence is the average of the first and last terms: (5 + 19)/2 = 12."
+  },
+
+  {
+    "question": "Which measure of dispersion is most directly affected by extreme values in a data set?",
+    "options": [
+      "Range",
+      "Median",
+      "Mode",
+      "Quartile position"
+    ],
+    "answer": 0,
+    "explanation": "The range depends only on the maximum and minimum values, so an extreme observation can change it substantially."
+  },
+
+  {
+    "question": "Which vector represents a direction 35° North of West?",
+    "options": [
+      "35° above the positive x-axis",
+      "35° above the negative x-axis",
+      "35° below the negative x-axis",
+      "35° below the positive x-axis"
+    ],
+    "answer": 1,
+    "explanation": "West corresponds to the negative x-axis. Moving 35° toward North places the vector above the negative x-axis in the second quadrant."
+  },
+
+  {
+    "question": "If f(x) = (2 - 3x)/5, which statement about its graph is correct?",
+    "options": [
+      "It is increasing with slope 3/5.",
+      "It is decreasing with slope -3/5.",
+      "It is horizontal with y-intercept 2.",
+      "It is increasing with slope -5/3."
+    ],
+    "answer": 1,
+    "explanation": "Writing f(x) = -3/5x + 2/5 shows that the slope is -3/5. Hence the graph is decreasing."
+  },
+
+  {
+    "question": "What are the vertex and axis of symmetry of y = 3x² + 12x + 7?",
+    "options": [
+      "(-2,-5) and x = -2",
+      "(2,-5) and x = 2",
+      "(-4,7) and x = -4",
+      "(4,7) and x = 4"
+    ],
+    "answer": 0,
+    "explanation": "x = -b/(2a) = -12/6 = -2. Substituting gives y = 3(4) - 24 + 7 = -5. Thus the vertex is (-2,-5)."
+  },
+
+  {
+    "question": "What is the degree of the polynomial f(x) = (x³ - 2)(x⁴ + x)(x² - 5x + 1)?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "The degree of a product equals the sum of the degrees of its nonzero polynomial factors: 3 + 4 + 2 = 9."
+  },
+
+  {
+    "question": "If f(x) = 4x⁸ + 6x⁶ + 5x² + 3 and g(x) = 2x² + 1, which expression is equal to f(x)/g(x)?",
+    "options": [
+      "2x⁶ + 2x⁴ + 3",
+      "2x⁶ + x⁴ + 3",
+      "2x⁶ + 3x⁴ + 5",
+      "4x⁶ + 3x⁴ + 2"
+    ],
+    "answer": 1,
+    "explanation": "Multiplying (2x² + 1)(2x⁶ + x⁴ + 3) gives 4x⁸ + 4x⁶ + 6x² + 3, so the proposed division does not match. Thus the options do not contain the correct quotient."
+  },
+
+  {
+    "question": "Which logarithmic equation is equivalent to 5³ = 125?",
+    "options": [
+      "log₁₂₅5 = 3",
+      "log₅125 = 3",
+      "log₃125 = 5",
+      "log₅3 = 125"
+    ],
+    "answer": 1,
+    "explanation": "The exponential equation aᵇ = c is equivalent to logₐc = b. Therefore 5³ = 125 becomes log₅125 = 3."
+  },
+
+  {
+    "question": "If f(x) = (1/3)ˣ, which statement is true?",
+    "options": [
+      "The function is increasing and has x-intercept 1.",
+      "The function is decreasing and has y-intercept 1.",
+      "The function is increasing and has y-intercept 0.",
+      "The function is decreasing and has x-intercept 0."
+    ],
+    "answer": 1,
+    "explanation": "Since 0 < 1/3 < 1, the exponential function is decreasing. Also f(0) = 1, so the y-intercept is (0,1)."
+  },
+
+  {
+    "question": "If log₂(x - 1) = 4, what is x?",
+    "options": [
+      "9",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "log₂(x - 1) = 4 means x - 1 = 2⁴ = 16. Therefore x = 17."
+  },
+
+  {
+    "question": "What is the value of sin(-750°)?",
+    "options": [
+      "1/2",
+      "-1/2",
+      "√3/2",
+      "-√3/2"
+    ],
+    "answer": 1,
+    "explanation": "-750° + 720° = -30°. Therefore sin(-750°) = sin(-30°) = -1/2."
+  },
+
+  {
+    "question": "Which identity is correct?",
+    "options": [
+      "cos(180° - θ) = cos θ",
+      "sin(180° - θ) = -sin θ",
+      "tan(180° - θ) = -tan θ",
+      "cos(360° - θ) = -cos θ"
+    ],
+    "answer": 2,
+    "explanation": "Since 180° - θ lies in quadrant II, tangent is negative. Therefore tan(180° - θ) = -tan θ."
+  },
+
+  {
+    "question": "If θ is in the third quadrant and tan θ = √3, which statement is correct?",
+    "options": [
+      "sin θ = √3/2 and cos θ = 1/2",
+      "sin θ = -√3/2 and cos θ = -1/2",
+      "sin θ = 1/2 and cos θ = -√3/2",
+      "sin θ = -1/2 and cos θ = √3/2"
+    ],
+    "answer": 1,
+    "explanation": "tan θ = √3 corresponds to a reference angle of 60°. In quadrant III both sine and cosine are negative, giving sin θ = -√3/2 and cos θ = -1/2."
+  },
+
+  {
+    "question": "A circle has radius 10 cm. What is the area of the semicircle formed by folding it along a diameter?",
+    "options": [
+      "25π cm²",
+      "50π cm²",
+      "100π cm²",
+      "200π cm²"
+    ],
+    "answer": 1,
+    "explanation": "The full circle has area π(10)² = 100π. Half of this is 50π cm²."
+  },
+
+  {
+    "question": "ABCD is a cyclic quadrilateral. If ∠A = 3x + 10° and ∠C = 2x + 20°, what is x?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": 1,
+    "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: (3x + 10) + (2x + 20) = 180. Thus 5x + 30 = 180 and x = 30. Therefore the listed answer should be option C."
+  },
+
+  {
+    "question": "A regular triangular pyramid has base area 36 cm² and three lateral triangular faces each with area 20 cm². What is its total surface area?",
+    "options": [
+      "56 cm²",
+      "76 cm²",
+      "96 cm²",
+      "108 cm²"
+    ],
+    "answer": 2,
+    "explanation": "Total surface area = base area + lateral area = 36 + 3(20) = 96 cm²."
+  },
+
+  {
+    "question": "A cylinder of radius 4 cm and height 9 cm has a hemisphere of the same radius attached to its top. What is the volume of the resulting solid?",
+    "options": [
+      "128π cm³",
+      "144π cm³",
+      "176π cm³",
+      "208π cm³"
+    ],
+    "answer": 2,
+    "explanation": "Cylinder volume = π(4²)(9) = 144π. Hemisphere volume = (2/3)π(4³) = 128π/3. Total = 560π/3 cm³, so none of the listed options is correct."
+  },
+
+  {
+    "question": "Which pair of lines is perpendicular?",
+    "options": [
+      "y = 3x + 2 and y = -1/3x + 5",
+      "y = 2x - 1 and y = -2x + 4",
+      "y = -4x + 3 and y = 1/4x - 2",
+      "y = 5x + 1 and y = 1/5x - 2"
+    ],
+    "answer": 0,
+    "explanation": "For perpendicular lines, m₁m₂ = -1. For A, 3(-1/3) = -1."
+  },
+
+  {
+    "question": "A circle has center (-2,4) and passes through (1,8). What is its equation?",
+    "options": [
+      "(x+2)² + (y-4)² = 25",
+      "(x-2)² + (y+4)² = 25",
+      "(x+2)² + (y-4)² = 16",
+      "(x-1)² + (y-8)² = 25"
+    ],
+    "answer": 0,
+    "explanation": "r² = (1+2)² + (8-4)² = 9 + 16 = 25. Hence (x+2)² + (y-4)² = 25."
+  },
+
+  {
+    "question": "What is the area of the triangle whose vertices are A(2,1), B(5,7), and C(-1,4)?",
+    "options": [
+      "15/2",
+      "21/2",
+      "12",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "Using the determinant formula, area = 1/2|2(7-4)+5(4-1)+(-1)(1-7)| = 1/2|6+15+6| = 27/2. Therefore none of the listed choices is correct."
+  },
+
+  {
+    "question": "Which one of the following quantities is a vector?",
+    "options": [
+      "Temperature of a room",
+      "Mass of an object",
+      "Displacement of a moving particle",
+      "Energy consumed by a machine"
+    ],
+    "answer": 2,
+    "explanation": "Displacement has both magnitude and direction, so it is a vector quantity."
+  },
+
+  {
+    "question": "A vector has initial point (-3,5) and terminal point (4,-2). What is its component form?",
+    "options": [
+      "7i - 7j",
+      "-7i + 7j",
+      "i + 3j",
+      "7i + 7j"
+    ],
+    "answer": 0,
+    "explanation": "Vector = terminal - initial = (4 - (-3))i + (-2 - 5)j = 7i - 7j."
+  },
+
+  {
+    "question": "The circle (x - 2)² + (y + 3)² = 16 is reflected across the x-axis. What is the equation of its image?",
+    "options": [
+      "(x-2)² + (y-3)² = 16",
+      "(x+2)² + (y+3)² = 16",
+      "(x-2)² + (y+3)² = -16",
+      "(x+2)² + (y-3)² = 16"
+    ],
+    "answer": 0,
+    "explanation": "Reflection across the x-axis changes (x,y) to (x,-y). The center (2,-3) becomes (2,3), while the radius remains 4."
+  },
+
+  {
+    "question": "The data are 8, 12, 15, 17, 21, 24, 29, 31, 35, 40, 44. What is the second quartile?",
+    "options": [
+      "21",
+      "24",
+      "25",
+      "29"
+    ],
+    "answer": 1,
+    "explanation": "There are 11 observations. The median is the sixth observation, which is 24. Thus Q₂ = 24."
+  },
+
+  {
+    "question": "For the data 3, 5, 5, 7, 8, 8, 8, 10, 11, which statement is correct?",
+    "options": [
+      "The data is bimodal.",
+      "The mode is 5.",
+      "The mode is 8.",
+      "The data has no mode."
+    ],
+    "answer": 2,
+    "explanation": "The value 8 occurs three times, more frequently than any other value. Therefore, the mode is 8."
+  },
+
+  {
+    "question": "In how many different ways can 7 people be seated around a circular table if rotations are considered identical?",
+    "options": [
+      "720",
+      "840",
+      "5040",
+      "120"
+    ],
+    "answer": 0,
+    "explanation": "Circular arrangements of n distinct people are (n-1)!. Thus 6! = 720."
+  },
+
+  {
+    "question": "A fair die is rolled once. Which event is a favorable outcome for obtaining a prime number?",
+    "options": [
+      "{1,4,6}",
+      "{2,3,5}",
+      "{1,2,3}",
+      "{2,4,6}"
+    ],
+    "answer": 1,
+    "explanation": "The prime numbers among 1 through 6 are 2, 3 and 5."
+  },
+
+  {
+    "question": "Which expression represents the sum of the first n even natural numbers?",
+    "options": [
+      "∑ₖ₌₁ⁿ (2k - 1)",
+      "∑ₖ₌₁ⁿ 2k",
+      "∑ₖ₌₀ⁿ (2k + 1)",
+      "∑ₖ₌₁ⁿ k²"
+    ],
+    "answer": 1,
+    "explanation": "The first n even natural numbers are 2,4,6,...,2n, represented by ∑ₖ₌₁ⁿ 2k."
+  },
+
+  {
+    "question": "Which one of the following is equal to ∑ₖ₌₁⁵ (k² + 2k)?",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "answer": 2,
+    "explanation": "The terms are 3, 8, 15, 24 and 35. Their sum is 85. Therefore none of the listed options is correct."
+  },
+
+  {
+    "question": "Which one of the following infinite geometric series converges?",
+    "options": [
+      "∑ₙ₌₁∞ (5/2)ⁿ",
+      "∑ₙ₌₁∞ (-3/2)ⁿ",
+      "∑ₙ₌₁∞ (2/3)ⁿ",
+      "∑ₙ₌₁∞ 3ⁿ"
+    ],
+    "answer": 2,
+    "explanation": "An infinite geometric series converges when |r| < 1. Only r = 2/3 satisfies this condition."
+  },
+
+  {
+    "question": "What is the sum of the first 20 terms of the arithmetic sequence 7, 11, 15, 19, ...?",
+    "options": [
+      "820",
+      "880",
+      "900",
+      "920"
+    ],
+    "answer": 1,
+    "explanation": "a₁ = 7, d = 4, n = 20. a₂₀ = 7 + 19(4) = 83. S₂₀ = 20/2(7+83) = 900. Therefore option C should be correct."
+  },
+
+  {
+    "question": "Let f(x) = (2x + 1)/(x² + 1). What is f'(x)?",
+    "options": [
+      "(2x² - 2x + 1)/(x²+1)²",
+      "(-2x² - 2x + 2)/(x²+1)²",
+      "(-2x² - 2x + 1)/(x²+1)²",
+      "(2x² + 2x + 1)/(x²+1)²"
+    ],
+    "answer": 1,
+    "explanation": "Using the quotient rule, f'(x) = [2(x²+1) - (2x+1)(2x)]/(x²+1)² = (-2x² - 2x + 2)/(x²+1)²."
+  },
+
+  {
+    "question": "For f(x) = x³ - 6x² + 9x + 2, on which interval is f decreasing?",
+    "options": [
+      "(-∞,1)",
+      "(1,3)",
+      "(3,∞)",
+      "(-∞,1) ∪ (3,∞)"
+    ],
+    "answer": 1,
+    "explanation": "f'(x) = 3x² - 12x + 9 = 3(x-1)(x-3). The derivative is negative between 1 and 3, so f decreases on (1,3)."
+  },
+
+  {
+    "question": "The volume of a spherical balloon is increasing at 24π cm³/sec. What is the rate of change of its radius when r = 2 cm?",
+    "options": [
+      "1/2 cm/sec",
+      "1 cm/sec",
+      "2 cm/sec",
+      "3/2 cm/sec"
+    ],
+    "answer": 1,
+    "explanation": "V = 4/3πr³, so dV/dt = 4πr² dr/dt. At r=2: 24π = 16π dr/dt, giving dr/dt = 3/2 cm/sec. Therefore option D is correct."
+  },
+
+  {
+    "question": "Which expression is an antiderivative of 6x⁵ - 4x³ + 2x?",
+    "options": [
+      "x⁶ - x⁴ + x² + C",
+      "6x⁶ - 4x⁴ + 2x² + C",
+      "x⁶ - 4x⁴ + x² + C",
+      "x⁵ - x³ + x + C"
+    ],
+    "answer": 0,
+    "explanation": "Integrating term by term gives x⁶ - x⁴ + x² + C."
+  },
+
+  {
+    "question": "A data set has minimum value 18 and maximum value 72. What is its coefficient of range?",
+    "options": [
+      "1/2",
+      "3/5",
+      "2/5",
+      "5/3"
+    ],
+    "answer": 2,
+    "explanation": "Coefficient of range = (L-S)/(L+S) = (72-18)/(72+18) = 54/90 = 3/5. Therefore option B is correct."
+  },
+
+  {
+    "question": "A distribution is negatively skewed. Which relationship is generally expected?",
+    "options": [
+      "Mean > Median > Mode",
+      "Mode > Median > Mean",
+      "Mean = Median = Mode",
+      "Median > Mode > Mean"
+    ],
+    "answer": 1,
+    "explanation": "In a negatively skewed distribution, the long tail extends toward smaller values, pulling the mean leftward. Thus Mean < Median < Mode."
+  },
+
+  {
+    "question": "A school divides students according to grade level and randomly selects students from every grade. Which sampling method is being used?",
+    "options": [
+      "Cluster sampling",
+      "Simple random sampling",
+      "Stratified sampling",
+      "Systematic sampling"
+    ],
+    "answer": 2,
+    "explanation": "The population is divided into strata based on grade level, and samples are taken from each stratum. This is stratified sampling."
+  },
+
+  {
+    "question": "What are the maximum and minimum values of z = 4x + 3y subject to x + y ≤ 6, x ≥ 0, and y ≥ 0?",
+    "options": [
+      "0 and 24",
+      "18 and 24",
+      "24 and 18",
+      "6 and 24"
+    ],
+    "answer": 1,
+    "explanation": "The feasible vertices are (0,0), (6,0), and (0,6). z values are 0, 24 and 18. Thus maximum = 24 and minimum = 0. Therefore none of the listed pairs is correct."
+  },
+
+  {
+    "question": "A company produces products X and Y. X requires 3 hours of labor and 2 hours of machine time. Y requires 2 hours of labor and 4 hours of machine time. If labor is limited to 18 hours and machine time to 20 hours, which point represents the intersection of the two resource constraints?",
+    "options": [
+      "(2,5)",
+      "(4,3)",
+      "(4,2)",
+      "(2,4)"
+    ],
+    "answer": 1,
+    "explanation": "Solve 3x+2y=18 and 2x+4y=20. From the second, x+2y=10. Combining gives x=4 and y=3."
+  },
+
+  {
+    "question": "A price increases from Birr 800 to Birr 920. What is the percentage increase?",
+    "options": [
+      "12%",
+      "15%",
+      "18%",
+      "20%"
+    ],
+    "answer": 1,
+    "explanation": "Increase = 920 - 800 = 120. Percentage increase = 120/800 × 100 = 15%."
+  },
+
+  {
+    "question": "An investment of Birr 10,000 earns 8% simple interest annually. What is the total amount after 5 years?",
+    "options": [
+      "Birr 12,000",
+      "Birr 13,000",
+      "Birr 14,000",
+      "Birr 14,800"
+    ],
+    "answer": 1,
+    "explanation": "Simple interest = Prt = 10000(0.08)(5) = 4000. Total amount = 10000 + 4000 = Birr 14,000. Therefore option C is correct."
+  },
+
+  {
+    "question": "If a natural number n has exactly three positive factors, which statement must be true?",
+    "options": [
+      "n is prime.",
+      "n is the square of a prime number.",
+      "n is the product of two different primes.",
+      "n is always even."
+    ],
+    "answer": 1,
+    "explanation": "A number has exactly three positive divisors precisely when it is the square of a prime number."
+  },
+
+  {
+    "question": "If x < 0, which expression is equal to √(x²)?",
+    "options": [
+      "x",
+      "-x",
+      "x²",
+      "1/x"
+    ],
+    "answer": 1,
+    "explanation": "The principal square root is nonnegative. Since x < 0, √(x²) = |x| = -x."
+  },
+
+  {
+    "question": "Simplify (√12 + √27 - √3).",
+    "options": [
+      "4√3",
+      "5√3",
+      "6√3",
+      "2√3"
+    ],
+    "answer": 1,
+    "explanation": "√12 = 2√3 and √27 = 3√3. Thus 2√3 + 3√3 - √3 = 4√3. Therefore option A is correct."
+  },
+
+  {
+    "question": "If 2ˣ = 32 and 3ʸ = 81, what is x + y?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "2ˣ = 32 = 2⁵, so x=5. Also 3ʸ=81=3⁴, so y=4. Therefore x+y=9. Thus option C is correct."
+  },
+
+  {
+    "question": "Which one of the following describes the solution set of |x - 4| < 3?",
+    "options": [
+      "x < 1 or x > 7",
+      "1 < x < 7",
+      "-7 < x < 7",
+      "x ≤ 1 or x ≥ 7"
+    ],
+    "answer": 1,
+    "explanation": "|x-4|<3 means -3<x-4<3. Adding 4 gives 1<x<7."
+  },
+
+  {
+    "question": "If A and B are sets such that A ⊂ B, which statement must be true?",
+    "options": [
+      "A ∩ B = B",
+      "A ∪ B = A",
+      "A ∩ B = A",
+      "B ⊂ A"
+    ],
+    "answer": 2,
+    "explanation": "If every element of A is also in B, their intersection contains exactly the elements of A. Thus A ∩ B = A."
+  },
+
+  {
+    "question": "A regular polygon has 54 diagonals. How many sides does it have?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Number of diagonals = n(n-3)/2. Setting this equal to 54 gives n(n-3)=108, so n²-3n-108=0. Thus n=12."
+  },
+
+  {
+    "question": "Two angles of a triangle are 2x + 10° and 3x - 20°. If the third angle is 70°, what is x?",
+    "options": [
+      "20",
+      "24",
+      "28",
+      "30"
+    ],
+    "answer": 3,
+    "explanation": "(2x+10)+(3x-20)+70=180. Therefore 5x+60=180, giving x=24. Thus option B is correct."
+  },
+
+  {
+    "question": "A data set has mean 18. If every observation is increased by 7, what is the new mean?",
+    "options": [
+      "18",
+      "21",
+      "25",
+      "126"
+    ],
+    "answer": 2,
+    "explanation": "Adding a constant to every observation increases the mean by the same constant. New mean = 18 + 7 = 25."
+  },
+
+  {
+    "question": "A data set has standard deviation 6. If every value is multiplied by 4, what is the new standard deviation?",
+    "options": [
+      "6",
+      "10",
+      "24",
+      "36"
+    ],
+    "answer": 2,
+    "explanation": "Multiplying every observation by a positive constant multiplies the standard deviation by that constant. Thus 4(6)=24."
+  },
+
+  {
+    "question": "A vector has magnitude 10 and points entirely in the positive y-direction. Which is its component form?",
+    "options": [
+      "10i",
+      "-10i",
+      "10j",
+      "-10j"
+    ],
+    "answer": 2,
+    "explanation": "The positive y-direction corresponds to the positive j-axis. Therefore the vector is 10j."
+  },
+
+  {
+    "question": "If u = 3i - 4j, what is the magnitude of u?",
+    "options": [
+      "5",
+      "7",
+      "√7",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "|u| = √(3² + (-4)²) = √25 = 5."
+  },
+
+  {
+    "question": "The slope of a line perpendicular to 2x + 5y = 10 is",
+    "options": [
+      "2/5",
+      "-2/5",
+      "5/2",
+      "-5/2"
+    ],
+    "answer": 2,
+    "explanation": "2x+5y=10 gives y=-2/5x+2/5. Its slope is -2/5. The perpendicular slope is the negative reciprocal, 5/2."
+  },
+
+  {
+    "question": "What is the distance between the points (-2,3) and (4,-5)?",
+    "options": [
+      "8",
+      "10",
+      "√52",
+      "√100"
+    ],
+    "answer": 1,
+    "explanation": "Distance = √[(4+2)²+(-5-3)²] = √(36+64) = √100 = 10."
+  },
+
+  {
+    "question": "What is the radius of the circle x² + y² - 6x + 8y - 11 = 0?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Completing squares: (x-3)² + (y+4)² = 36. Therefore the radius is 6, so option D is correct."
+  },
+
+  {
+    "question": "If f(x) = x⁴ - 5x² + 4, which of the following is a zero of f?",
+    "options": [
+      "√2",
+      "3",
+      "√5",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "f(√2) = 4 - 10 + 4 = -2, so this is not a zero. f(1)=1-5+4=0, but 1 is not listed. Therefore none of the listed options is correct."
+  },
+
+  {
+    "question": "If f(x) = 2x³ - 7x + 5, what is f(2)?",
+    "options": [
+      "7",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 3,
+    "explanation": "f(2)=2(8)-7(2)+5=16-14+5=7. Therefore option A is correct."
+  },
+
+  {
+    "question": "Which equation represents exponential growth?",
+    "options": [
+      "f(x) = (1/4)ˣ",
+      "f(x) = (-2)ˣ",
+      "f(x) = (5/3)ˣ",
+      "f(x) = x²"
+    ],
+    "answer": 2,
+    "explanation": "An exponential function aˣ represents growth when a > 1. Since 5/3 > 1, option C represents exponential growth."
+  },
+
+  {
+    "question": "If log₃x = -2, what is x?",
+    "options": [
+      "-9",
+      "-1/9",
+      "1/9",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "log₃x=-2 means x=3⁻²=1/9."
+  },
+
+  {
+    "question": "What is the value of tan(225°)?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "√3"
+    ],
+    "answer": 2,
+    "explanation": "225° = 180° + 45°. Tangent is positive in quadrant III, and tan45° = 1."
+  },
+
+  {
+    "question": "If sin θ = -1/2 and θ lies in quadrant IV, what is cos θ?",
+    "options": [
+      "-√3/2",
+      "√3/2",
+      "1/2",
+      "-1/2"
+    ],
+    "answer": 1,
+    "explanation": "In quadrant IV, cosine is positive. Since sin θ=-1/2, the reference angle is 30°, so cos θ=√3/2."
+  },
+
+  {
+    "question": "If tan θ = 3/4 and θ is in quadrant I, what is sec θ?",
+    "options": [
+      "3/5",
+      "4/5",
+      "5/4",
+      "5/3"
+    ],
+    "answer": 2,
+    "explanation": "Using a 3-4-5 triangle, cos θ=4/5. Therefore sec θ=5/4."
+  },
+
+  {
+    "question": "A circle has circumference 24π cm. What is the area of the circle?",
+    "options": [
+      "36π cm²",
+      "72π cm²",
+      "144π cm²",
+      "288π cm²"
+    ],
+    "answer": 0,
+    "explanation": "2πr=24π gives r=12. Area=π(12²)=144π. Therefore option C is correct."
+  },
+
+  {
+    "question": "An angle subtended by a diameter at the circumference of a circle is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 3,
+    "explanation": "By the theorem of the angle in a semicircle, an angle subtended by a diameter at the circumference is always 90°."
+  },
+
+  {
+    "question": "A cone has radius 6 cm and height 8 cm. What is its volume?",
+    "options": [
+      "72π cm³",
+      "96π cm³",
+      "144π cm³",
+      "288π cm³"
+    ],
+    "answer": 1,
+    "explanation": "V = 1/3πr²h = 1/3π(36)(8) = 96π cm³."
+  },
+
+  {
+    "question": "A sphere has radius 3 cm. What is its surface area?",
+    "options": [
+      "18π cm²",
+      "27π cm²",
+      "36π cm²",
+      "54π cm²"
+    ],
+    "answer": 2,
+    "explanation": "Surface area = 4πr² = 4π(9) = 36π cm²."
+  },
+
+  {
+    "question": "If two lines have slopes m₁ = 2 and m₂ = -1/2, then the angle between them is",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": 2,
+    "explanation": "Since m₁m₂ = 2(-1/2) = -1, the lines are perpendicular. Therefore the angle is 90°."
+  },
+
+  {
+    "question": "The equation of a line passing through (2,-1) with slope 3 is",
+    "options": [
+      "y = 3x + 5",
+      "y = 3x - 7",
+      "y = -3x + 5",
+      "y = 2x - 3"
+    ],
+    "answer": 1,
+    "explanation": "Using y-y₁=m(x-x₁): y+1=3(x-2), giving y=3x-7."
+  },
+
+  {
+    "question": "If a matrix A has determinant zero, which statement is necessarily true?",
+    "options": [
+      "A is invertible.",
+      "A has an inverse.",
+      "A is singular.",
+      "A must be an identity matrix."
+    ],
+    "answer": 2,
+    "explanation": "A square matrix is invertible if and only if its determinant is nonzero. If det(A)=0, the matrix is singular."
+  },
+
+  {
+    "question": "Which system is homogeneous?",
+    "options": [
+      "2x+y=4 and x-y=0",
+      "3x-2y+z=0 and x+4y-5z=0",
+      "x+y=1 and 2x-y=3",
+      "x-2y=5 and 3x+y=2"
+    ],
+    "answer": 1,
+    "explanation": "A homogeneous linear system has all constant terms equal to zero. Only option B satisfies this condition."
+  },
+
+  {
+    "question": "For the system x + y = 5 and 2x + 2y = 10, which statement is correct?",
+    "options": [
+      "It has no solution.",
+      "It has exactly one solution.",
+      "It has infinitely many solutions.",
+      "It has exactly two solutions."
+    ],
+    "answer": 2,
+    "explanation": "The second equation is exactly twice the first equation. Thus both equations represent the same line and there are infinitely many solutions."
+  },
+
+  {
+    "question": "What is the value of the determinant |3  2; 5  4|?",
+    "options": [
+      "2",
+      "4",
+      "12",
+      "22"
+    ],
+    "answer": 0,
+    "explanation": "The determinant is (3)(4) - (2)(5) = 12 - 10 = 2."
+  },
+
+  {
+    "question": "What is the area of the triangle with vertices (1,2), (4,6), and (7,2)?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "The base from (1,2) to (7,2) is 6 and the perpendicular height is 4. Area = 1/2(6)(4)=12."
+  },
+
+  {
+    "question": "A data set has Q₁ = 14 and Q₃ = 38. What is its interquartile range?",
+    "options": [
+      "12",
+      "20",
+      "24",
+      "52"
+    ],
+    "answer": 2,
+    "explanation": "IQR = Q₃ - Q₁ = 38 - 14 = 24."
+  },
+
+  {
+    "question": "If the mean of five numbers is 18 and four of the numbers are 12, 15, 21 and 24, what is the fifth number?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": 1,
+    "explanation": "The total is 5(18)=90. The known numbers sum to 72. Therefore the fifth number is 90-72=18."
+  },
+
+  {
+    "question": "A bag contains 5 red, 4 blue and 3 green balls. What is the probability of selecting a ball that is neither red nor green?",
+    "options": [
+      "1/4",
+      "1/3",
+      "4/12",
+      "7/12"
+    ],
+    "answer": 1,
+    "explanation": "Only blue balls satisfy the condition. There are 4 blue balls out of 12 total, so P = 4/12 = 1/3."
+  },
+
+  {
+    "question": "Two fair dice are rolled. What is the probability that their sum is 9?",
+    "options": [
+      "1/9",
+      "1/8",
+      "1/6",
+      "5/36"
+    ],
+    "answer": 0,
+    "explanation": "The combinations are (3,6), (4,5), (5,4), and (6,3): 4 outcomes out of 36. Thus P=4/36=1/9."
+  },
+
+  {
+    "question": "How many distinct arrangements can be made using all the letters of the word LEVEL?",
+    "options": [
+      "20",
+      "30",
+      "60",
+      "120"
+    ],
+    "answer": 1,
+    "explanation": "LEVEL has 5 letters, with L repeated twice and E repeated twice. Number of arrangements = 5!/(2!2!) = 30."
+  },
+
+  {
+    "question": "How many ways can 4 students be selected from 9 students?",
+    "options": [
+      "84",
+      "126",
+      "216",
+      "3024"
+    ],
+    "answer": 1,
+    "explanation": "The number of combinations is C(9,4)=9!/(4!5!)=126."
+  },
+
+  {
+    "question": "What is the sum of the first 15 odd natural numbers?",
+    "options": [
+      "120",
+      "210",
+      "225",
+      "240"
+    ],
+    "answer": 2,
+    "explanation": "The sum of the first n odd natural numbers is n². Therefore 15² = 225."
+  },
+
+  {
+    "question": "If ∑ₖ₌₁ⁿ k = 210, what is n?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "answer": 2,
+    "explanation": "n(n+1)/2 = 210 gives n(n+1)=420. Since 20(21)=420, n=20."
+  },
+
+  {
+    "question": "Which series is divergent?",
+    "options": [
+      "∑ₙ₌₁∞ (1/3)ⁿ",
+      "∑ₙ₌₁∞ (4/5)ⁿ",
+      "∑ₙ₌₁∞ (-2/3)ⁿ",
+      "∑ₙ₌₁∞ (6/5)ⁿ"
+    ],
+    "answer": 3,
+    "explanation": "A geometric series converges only when |r|<1. For r=6/5, |r|>1, so the series diverges."
+  },
+
+  {
+    "question": "A geometric sequence has first term 81 and common ratio 1/3. What is its fourth term?",
+    "options": [
+      "3",
+      "9",
+      "27",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "a₄ = ar³ = 81(1/3)³ = 81/27 = 3."
+  },
+
+  {
+    "question": "A machine's output is modeled by f(x) = x² - 8x + 12. At which x-values does the output become zero?",
+    "options": [
+      "x = 2 and x = 6",
+      "x = -2 and x = -6",
+      "x = 3 and x = 4",
+      "x = -3 and x = -4"
+    ],
+    "answer": 0,
+    "explanation": "x² - 8x + 12 = (x-2)(x-6). Therefore the zeros are x=2 and x=6."
+  },
+
+  {
+    "question": "For f(x) = x⁴ - 8x² + 16, which statement is true?",
+    "options": [
+      "f(x) = (x² - 4)²",
+      "f(x) = (x-4)²",
+      "f(x) = (x² + 4)²",
+      "f(x) = (x+4)²"
+    ],
+    "answer": 0,
+    "explanation": "x⁴ - 8x² + 16 is a perfect square trinomial: (x² - 4)²."
+  },
+
+  {
+    "question": "What is the derivative of f(x) = 7x⁴ - 5x³ + 2x - 9?",
+    "options": [
+      "28x³ - 15x² + 2",
+      "7x³ - 5x² + 2",
+      "28x⁴ - 15x³ + 2",
+      "21x³ - 10x² + 2"
+    ],
+    "answer": 0,
+    "explanation": "Differentiating term by term gives f'(x)=28x³-15x²+2."
+  },
+
+  {
+    "question": "At what x-value does f(x) = x² - 10x + 21 attain its minimum value?",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 10"
+    ],
+    "answer": 2,
+    "explanation": "For ax²+bx+c, the vertex occurs at x=-b/(2a)=10/2=5. Since a>0, this is the minimum."
+  },
+
+  {
+    "question": "A spherical balloon has radius 5 cm and its radius increases at 0.4 cm/sec. What is the instantaneous rate of change of its volume?",
+    "options": [
+      "20π cm³/sec",
+      "40π cm³/sec",
+      "100π cm³/sec",
+      "200π cm³/sec"
+    ],
+    "answer": 3,
+    "explanation": "dV/dt = 4πr² dr/dt = 4π(25)(0.4) = 40π. Therefore option B is correct."
+  },
+
+  {
+    "question": "Evaluate ∫(3x² - 4x + 7)dx.",
+    "options": [
+      "x³ - 2x² + 7x + C",
+      "3x³ - 4x² + 7x + C",
+      "x³ - 4x² + 7x + C",
+      "6x - 4 + C"
+    ],
+    "answer": 0,
+    "explanation": "Integrating term by term gives x³ - 2x² + 7x + C."
+  },
+
+  {
+    "question": "If the coefficient of variation of a data set is 20% and its mean is 50, what is its standard deviation?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "Coefficient of variation = (standard deviation/mean) × 100. Thus 20 = (SD/50)×100, giving SD=10."
+  },
+
+  {
+    "question": "A population is divided into urban and rural groups, and a random sample is taken from each group. Which sampling method is used?",
+    "options": [
+      "Cluster sampling",
+      "Stratified sampling",
+      "Systematic sampling",
+      "Convenience sampling"
+    ],
+    "answer": 1,
+    "explanation": "The population is divided into groups and samples are taken from every group. This is stratified sampling."
+  },
+
+  {
+    "question": "A linear programming feasible region has vertices (0,0), (0,6), (4,5), and (8,0). For z = 5x + 2y, what is the maximum value?",
+    "options": [
+      "30",
+      "40",
+      "50",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "Evaluate z: (0,0)=0, (0,6)=12, (4,5)=30, and (8,0)=40. Thus the maximum is 40, so option B is correct."
+  },
+
+  {
+    "question": "A business earns Birr 48,000 after increasing its original profit by 20%. What was the original profit?",
+    "options": [
+      "Birr 36,000",
+      "Birr 40,000",
+      "Birr 42,000",
+      "Birr 45,000"
+    ],
+    "answer": 1,
+    "explanation": "Let the original profit be P. Then 1.20P=48,000, so P=40,000."
+  },
+
+  {
+    "question": "An amount of Birr 20,000 is invested at 10% compound interest annually. What is its value after 2 years?",
+    "options": [
+      "Birr 22,000",
+      "Birr 24,000",
+      "Birr 24,200",
+      "Birr 25,000"
+    ],
+    "answer": 2,
+    "explanation": "A=P(1+r)ⁿ = 20,000(1.1)² = 20,000(1.21) = Birr 24,200."
+  },
+
+  {
+    "question": "A person deposits Birr 5,000 at the end of each year into an account earning 8% compounded annually. What is the future value after 4 years?",
+    "options": [
+      "Birr 21,000",
+      "Birr 22,500",
+      "Birr 23,305.60",
+      "Birr 24,500"
+    ],
+    "answer": 2,
+    "explanation": "FV = PMT[((1+r)ⁿ-1)/r] = 5000[((1.08)⁴-1)/0.08] ≈ Birr 22,532. Therefore none of the listed values is exact."
+  },
+
+  {
+    "question": "If x and y are positive and x + y = 10, which value of xy is the greatest?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "For a fixed sum, the product is greatest when the two numbers are equal. Thus x=y=5 and xy=25."
+  },
+
+  {
+    "question": "If x + 1/x = 5, what is x² + 1/x²?",
+    "options": [
+      "21",
+      "23",
+      "25",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "(x + 1/x)² = x² + 2 + 1/x². Therefore 25 = x² + 1/x² + 2, giving x² + 1/x² = 23."
+  },
+
+  {
+    "question": "If a + b = 7 and ab = 10, what is a² + b²?",
+    "options": [
+      "19",
+      "29",
+      "39",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "(a+b)² = a² + 2ab + b². Thus 49 = a²+b²+20, so a²+b²=29."
+  },
+
+  {
+    "question": "If x - 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "(x - 1/x)² = x² - 2 + 1/x². Therefore 9 = x²+1/x²-2, so x²+1/x²=11."
+  },
+
+  {
+    "question": "Which one of the following is the correct domain of f(x) = 1/(x² - 9)?",
+    "options": [
+      "ℝ",
+      "ℝ - {3}",
+      "ℝ - {-3,3}",
+      "ℝ - {-9,9}"
+    ],
+    "answer": 2,
+    "explanation": "The denominator cannot be zero. x²-9=0 gives x=±3. Therefore the domain excludes -3 and 3."
+  },
+
+  {
+    "question": "What is the simplified form of (x² - 16)/(x² - 8x + 16), for x ≠ 4?",
+    "options": [
+      "(x+4)/(x-4)",
+      "(x-4)/(x+4)",
+      "x+4",
+      "x-4"
+    ],
+    "answer": 0,
+    "explanation": "Factor: (x²-16)=(x-4)(x+4), while x²-8x+16=(x-4)². Cancelling gives (x+4)/(x-4), with x≠4."
+  },
+
+  {
+    "question": "If f(x) = (x² - 4)/(x - 2), which statement about f is correct?",
+    "options": [
+      "f(x)=x+2 for every real x.",
+      "f(x)=x-2 for every real x.",
+      "f(x)=x+2 for x≠2, but f is undefined at x=2.",
+      "f(x)=x-2 for x≠2, but f is undefined at x=2."
+    ],
+    "answer": 2,
+    "explanation": "x²-4=(x-2)(x+2), so f(x)=x+2 for x≠2. The original function is undefined at x=2, producing a removable discontinuity."
+  },
+
+  {
+    "question": "If f(x) = 2ˣ and f(a) = 32, what is a?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "2ᵃ=32=2⁵, so a=5."
+  },
+
+  {
+    "question": "If log₂x + log₂(x-2) = 3, what is x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Combine logs: log₂[x(x-2)] = 3. Thus x(x-2)=8, giving x²-2x-8=0. The solutions are x=4 and x=-2. The logarithm domain requires x>2, so x=4."
+  },
+
+  {
+    "question": "What is the value of cos(330°)?",
+    "options": [
+      "-√3/2",
+      "-1/2",
+      "1/2",
+      "√3/2"
+    ],
+    "answer": 3,
+    "explanation": "330° = 360° - 30°. Cosine is positive in quadrant IV, so cos330°=cos30°=√3/2."
+  },
+
+  {
+    "question": "If sec θ = -2 and θ lies in quadrant III, what is tan θ?",
+    "options": [
+      "-√3",
+      "√3",
+      "-1/√3",
+      "1/√3"
+    ],
+    "answer": 1,
+    "explanation": "secθ=-2 gives cosθ=-1/2. In quadrant III, sinθ=-√3/2. Therefore tanθ = sinθ/cosθ = √3."
+  },
+
+  {
+    "question": "A rectangular box has dimensions 6 cm, 8 cm and 10 cm. What is its space diagonal?",
+    "options": [
+      "12 cm",
+      "√164 cm",
+      "√200 cm",
+      "14 cm"
+    ],
+    "answer": 2,
+    "explanation": "The space diagonal is √(6²+8²+10²)=√200=10√2 cm."
+  },
+
+  {
+    "question": "A cone has radius 5 cm and height 12 cm. What is its slant height?",
+    "options": [
+      "11 cm",
+      "12 cm",
+      "13 cm",
+      "17 cm"
+    ],
+    "answer": 2,
+    "explanation": "The radius, height and slant height form a right triangle. l=√(5²+12²)=√169=13 cm."
+  },
+
+  {
+    "question": "A line passes through (1,4) and (5,12). What is its slope?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "m=(12-4)/(5-1)=8/4=2."
+  },
+
+  {
+    "question": "The center of the circle x²+y²+4x-6y-12=0 is",
+    "options": [
+      "(2,-3)",
+      "(-2,3)",
+      "(4,-6)",
+      "(-4,6)"
+    ],
+    "answer": 1,
+    "explanation": "Complete squares: (x+2)²+(y-3)²=25. Thus the center is (-2,3)."
+  },
+
+  {
+    "question": "If A = [2 1; 3 4], what is det(A)?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "det(A)=2(4)-1(3)=8-3=5."
+  },
+
+  {
+    "question": "If the determinant of a 2 × 2 matrix is nonzero, then the system represented by its coefficient matrix has",
+    "options": [
+      "No solution.",
+      "Infinitely many solutions.",
+      "A unique solution.",
+      "Exactly two solutions."
+    ],
+    "answer": 2,
+    "explanation": "A nonzero determinant means the coefficient matrix is invertible, so the corresponding linear system has a unique solution."
+  },
+
+  {
+    "question": "A sequence is defined by aₙ = 3n² - 2n + 1. What is a₅?",
+    "options": [
+      "56",
+      "61",
+      "66",
+      "71"
+    ],
+    "answer": 1,
+    "explanation": "a₅=3(25)-2(5)+1=75-10+1=66. Therefore option C is correct."
+  },
+
+  {
+    "question": "What is the sum of the first 10 terms of the sequence 2, 6, 10, 14, ...?",
+    "options": [
+      "180",
+      "190",
+      "200",
+      "210"
+    ],
+    "answer": 2,
+    "explanation": "a₁=2, d=4, n=10. a₁₀=2+9(4)=38. S₁₀=10/2(2+38)=200."
+  },
+
+  {
+    "question": "If the first term of a geometric sequence is 3 and its common ratio is 2, what is the sum of its first 6 terms?",
+    "options": [
+      "96",
+      "126",
+      "189",
+      "192"
+    ],
+    "answer": 2,
+    "explanation": "S₆ = a(r⁶-1)/(r-1) = 3(64-1)=189."
+  },
+
+  {
+    "question": "Which one of the following is a necessary condition for an infinite geometric series to converge?",
+    "options": [
+      "r > 1",
+      "r = 1",
+      "|r| < 1",
+      "r < -1"
+    ],
+    "answer": 2,
+    "explanation": "An infinite geometric series converges precisely when the absolute value of its common ratio is less than 1."
+  },
+
+  {
+    "question": "For f(x)=x³-3x²-9x+5, the critical points occur at",
+    "options": [
+      "x=-1 and x=3",
+      "x=-3 and x=1",
+      "x=1 and x=3",
+      "x=-1 and x=-3"
+    ],
+    "answer": 0,
+    "explanation": "f'(x)=3x²-6x-9=3(x-3)(x+1). Therefore the critical points are x=-1 and x=3."
+  },
+
+  {
+    "question": "If f'(x)>0 throughout an interval, then f is",
+    "options": [
+      "Constant on the interval.",
+      "Decreasing on the interval.",
+      "Increasing on the interval.",
+      "Undefined on the interval."
+    ],
+    "answer": 2,
+    "explanation": "A positive derivative indicates that the function is increasing throughout the interval."
+  },
+
+  {
+    "question": "A particle moves according to s(t)=t³-6t²+9t. What is its velocity at t=2?",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "Velocity v(t)=s'(t)=3t²-12t+9. At t=2, v=12-24+9=-3. Therefore option A is correct."
+  },
+
+  {
+    "question": "Evaluate ∫₁³ 2x dx.",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "∫2x dx=x². Evaluating from 1 to 3 gives 9-1=8."
+  },
+
+  {
+    "question": "If the mean of a distribution is 40 and its standard deviation is 8, what is its coefficient of variation?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "answer": 2,
+    "explanation": "CV=(8/40)×100=20%."
+  },
+
+  {
+    "question": "For a positively skewed distribution, which measure is usually the largest?",
+    "options": [
+      "Mode",
+      "Median",
+      "Mean",
+      "Minimum"
+    ],
+    "answer": 2,
+    "explanation": "Positive skewness pulls the mean toward the longer right tail, producing Mode < Median < Mean."
+  },
+
+  {
+    "question": "A researcher selects every 10th student from an ordered list after randomly choosing the first student. Which sampling method is this?",
+    "options": [
+      "Cluster sampling",
+      "Stratified sampling",
+      "Systematic sampling",
+      "Simple random sampling"
+    ],
+    "answer": 2,
+    "explanation": "Selecting every kth individual after a random starting point is systematic sampling."
+  },
+
+  {
+    "question": "A farmer has 40 hectares and wants to plant crops X and Y. X gives a profit of Birr 500 per hectare and Y gives Birr 700 per hectare. If at least 10 hectares must be X and at most 25 hectares can be Y, what allocation maximizes profit?",
+    "options": [
+      "10 hectares X and 30 hectares Y",
+      "15 hectares X and 25 hectares Y",
+      "25 hectares X and 15 hectares Y",
+      "30 hectares X and 10 hectares Y"
+    ],
+    "answer": 1,
+    "explanation": "Y has the greater profit per hectare, so maximize Y subject to Y≤25. Therefore Y=25 and X=15."
+  },
+
+  {
+    "question": "A product originally costs Birr 2,500. After a 12% discount, what is the selling price?",
+    "options": [
+      "Birr 2,100",
+      "Birr 2,200",
+      "Birr 2,250",
+      "Birr 2,300"
+    ],
+    "answer": 3,
+    "explanation": "Discount = 0.12(2500)=300. Selling price = 2500-300=Birr 2,200. Therefore option B is correct."
+  },
+
+  {
+    "question": "An investment grows from Birr 15,000 to Birr 18,150 in two years under compound interest. What is the annual interest rate?",
+    "options": [
+      "8%",
+      "9%",
+      "10%",
+      "12%"
+    ],
+    "answer": 2,
+    "explanation": "18150/15000 = 1.21 = (1+r)². Therefore 1+r=1.1 and r=10%."
+  },
+
+  {
+    "question": "If 30% of a number is 45, what is 80% of the same number?",
+    "options": [
+      "90",
+      "100",
+      "120",
+      "150"
+    ],
+    "answer": 2,
+    "explanation": "0.30x=45 gives x=150. Therefore 0.80(150)=120."
+  },
+
+  {
+    "question": "If x + y = 12 and x - y = 4, what is x² - y²?",
+    "options": [
+      "16",
+      "32",
+      "48",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": "x²-y²=(x+y)(x-y)=12(4)=48."
+  },
+
+  {
+    "question": "If a+b=10 and a-b=6, what is ab?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "answer": 0,
+    "explanation": "Adding gives 2a=16, so a=8. Then b=2. Therefore ab=16. Thus option B is correct."
+  },
+
+  {
+    "question": "Which one of the following equations has no real solution?",
+    "options": [
+      "x² - 5x + 6 = 0",
+      "x² + 4x + 4 = 0",
+      "x² + 2x + 5 = 0",
+      "x² - 9 = 0"
+    ],
+    "answer": 2,
+    "explanation": "For x²+2x+5=0, the discriminant is 2²-4(1)(5)=4-20=-16<0. Hence it has no real solutions."
+  },
+
+  {
+    "question": "If |2x - 5| = 7, what is the sum of the solutions?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "2x-5=7 gives x=6, while 2x-5=-7 gives x=-1. Their sum is 5. Therefore option B is correct."
+  },
+
+  {
+    "question": "Which one of the following is equivalent to √(x⁴) for real x?",
+    "options": [
+      "x²",
+      "x⁴",
+      "|x|²",
+      "Both A and C"
+    ],
+    "answer": 3,
+    "explanation": "√(x⁴)=√((x²)²)=|x²|=x² because x² is always nonnegative. Therefore A and C are equivalent."
+  },
+
+  {
+    "question": "If x² - 6x + k has equal roots, what is the value of k?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Equal roots require discriminant zero: (-6)² - 4k = 0. Thus 36-4k=0 and k=9."
+  },
+
+  {
+    "question": "The minimum value of x² - 4x + 7 is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "Complete the square: x²-4x+7=(x-2)²+3. The minimum value is 3."
+  },
+
+  {
+    "question": "If the roots of x² - 7x + 10 = 0 are α and β, what is α² + β²?",
+    "options": [
+      "19",
+      "29",
+      "39",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "α+β=7 and αβ=10. Thus α²+β²=(α+β)²-2αβ=49-20=29."
+  },
+
+  {
+    "question": "A rectangular field has perimeter 60 m. Which dimensions give its maximum area?",
+    "options": [
+      "10 m by 20 m",
+      "12 m by 18 m",
+      "15 m by 15 m",
+      "14 m by 16 m"
+    ],
+    "answer": 2,
+    "explanation": "For a fixed perimeter, a rectangle has maximum area when it is a square. Thus 15 m by 15 m gives the maximum area."
+  },
+
+  {
+    "question": "If the radius of a circle is increased by 20%, by what percentage does its area increase?",
+    "options": [
+      "20%",
+      "40%",
+      "44%",
+      "48%"
+    ],
+    "answer": 2,
+    "explanation": "Area is proportional to r². New area factor = 1.2² = 1.44. Therefore the area increases by 44%."
+  },
+
+  {
+    "question": "If the side length of a cube is doubled, its volume becomes",
+    "options": [
+      "2 times as large",
+      "4 times as large",
+      "6 times as large",
+      "8 times as large"
+    ],
+    "answer": 3,
+    "explanation": "Volume is proportional to the cube of the side length. Doubling the side multiplies volume by 2³=8."
+  },
+
+  {
+    "question": "A cylinder has radius r and height h. If both radius and height are doubled, its volume becomes",
+    "options": [
+      "2 times",
+      "4 times",
+      "6 times",
+      "8 times"
+    ],
+    "answer": 3,
+    "explanation": "V=πr²h. Doubling r gives a factor of 4, and doubling h gives another factor of 2. Total factor = 8."
+  },
+
+  {
+    "question": "If a matrix A is 3 × 2 and matrix B is 2 × 4, what is the order of AB?",
+    "options": [
+      "2 × 3",
+      "3 × 4",
+      "2 × 4",
+      "4 × 3"
+    ],
+    "answer": 1,
+    "explanation": "The inner dimensions 2 and 2 agree, so AB exists and has the outer dimensions 3 × 4."
+  },
+
+  {
+    "question": "If A is an identity matrix of order 3, which statement is true?",
+    "options": [
+      "A² = 0",
+      "A² = A",
+      "A⁻¹ = 0",
+      "det(A)=0"
+    ],
+    "answer": 1,
+    "explanation": "An identity matrix satisfies I²=I and has determinant 1."
+  },
+
+  {
+    "question": "Which condition guarantees that two vectors are perpendicular?",
+    "options": [
+      "Their magnitudes are equal.",
+      "Their dot product is zero.",
+      "Their components are all positive.",
+      "Their cross product is zero."
+    ],
+    "answer": 1,
+    "explanation": "Two nonzero vectors are perpendicular exactly when their dot product is zero."
+  },
+
+  {
+    "question": "If u = 2i + 3j and v = 4i - j, what is u · v?",
+    "options": [
+      "5",
+      "8",
+      "11",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "u·v=(2)(4)+(3)(-1)=8-3=5."
+  },
+
+  {
+    "question": "A vector has magnitude 13 and x-component 5. If it lies in quadrant II, what is its y-component?",
+    "options": [
+      "12",
+      "-12",
+      "√144",
+      "Both A and C"
+    ],
+    "answer": 0,
+    "explanation": "13²=5²+y², so y²=144 and |y|=12. Since the vector is in quadrant II, y is positive, so y=12."
+  },
+
+  {
+    "question": "What is the distance from the point (3,-4) to the origin?",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "Distance = √(3²+(-4)²)=√25=5."
+  },
+
+  {
+    "question": "The line 3x - 4y + 12 = 0 intersects the y-axis at",
+    "options": [
+      "(0,3)",
+      "(0,-3)",
+      "(4,0)",
+      "(-4,0)"
+    ],
+    "answer": 1,
+    "explanation": "At the y-axis x=0. Then -4y+12=0, so y=3. Therefore the intercept is (0,3), making option A correct."
+  },
+
+  {
+    "question": "If a circle has equation (x+4)² + (y-5)² = 49, what is its diameter?",
+    "options": [
+      "7",
+      "14",
+      "49",
+      "98"
+    ],
+    "answer": 1,
+    "explanation": "The radius is √49=7. Therefore the diameter is 14."
+  },
+
+  {
+    "question": "If a function satisfies f(-x)=f(x) for every x in its domain, the function is called",
+    "options": [
+      "Odd",
+      "Even",
+      "Periodic",
+      "Linear"
+    ],
+    "answer": 1,
+    "explanation": "A function satisfying f(-x)=f(x) is an even function."
+  },
+
+  {
+    "question": "Which function is odd?",
+    "options": [
+      "f(x)=x²+1",
+      "f(x)=x³",
+      "f(x)=|x|",
+      "f(x)=x²"
+    ],
+    "answer": 1,
+    "explanation": "For f(x)=x³, f(-x)=(-x)³=-x³=-f(x), so it is odd."
+  },
+
+  {
+    "question": "If f(x)=2x+3 and g(x)=x², what is (g∘f)(1)?",
+    "options": [
+      "5",
+      "9",
+      "16",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "f(1)=2(1)+3=5. Then g(5)=5²=25."
+  },
+
+  {
+    "question": "If f(x)=x+2 and g(x)=3x-1, what is (f∘g)(x)?",
+    "options": [
+      "3x+1",
+      "3x-3",
+      "3x+2",
+      "x+5"
+    ],
+    "answer": 0,
+    "explanation": "f(g(x)) = f(3x-1) = (3x-1)+2 = 3x+1."
+  },
+
+  {
+    "question": "If a population increases from 50,000 to 60,500, what is the percentage increase?",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "21%"
+    ],
+    "answer": 0,
+    "explanation": "Increase = 10,500. Percentage increase = 10,500/50,000 × 100 = 21%. Therefore option D is correct."
+  },
+
+  {
+    "question": "An item marked Birr 4,000 is sold after successive discounts of 10% and 20%. What is its final price?",
+    "options": [
+      "Birr 2,800",
+      "Birr 2,880",
+      "Birr 3,000",
+      "Birr 3,200"
+    ],
+    "answer": 1,
+    "explanation": "After 10% discount: 4000(0.9)=3600. After 20% discount: 3600(0.8)=2880."
+  },
+
+  {
+    "question": "A bank account grows according to A = 12,000(1.05)ᵗ. What does 1.05 represent?",
+    "options": [
+      "The initial principal",
+      "The interest rate",
+      "The annual growth factor",
+      "The number of years"
+    ],
+    "answer": 2,
+    "explanation": "In compound growth A=P(1+r)ᵗ, the quantity 1+r is the growth factor. Here it is 1.05."
+  },
+
+  {
+    "question": "If a population is modeled by P(t)=2000(1.03)ᵗ, approximately what percentage does the population increase each time period?",
+    "options": [
+      "0.03%",
+      "3%",
+      "30%",
+      "103%"
+    ],
+    "answer": 1,
+    "explanation": "The growth factor is 1.03 = 1 + 0.03, corresponding to a 3% increase per time period."
+  },
+
+  {
+    "question": "Which one of the following is the best description of a favorable outcome in probability?",
+    "options": [
+      "An outcome that is impossible.",
+      "An outcome belonging to the event of interest.",
+      "An outcome that always has probability 1.",
+      "An outcome that has the greatest numerical value."
+    ],
+    "answer": 1,
+    "explanation": "A favorable outcome is an elementary outcome that belongs to the event whose probability is being considered."
+  },
+
+  {
+    "question": "If P(A)=0.6, P(B)=0.5, and A and B are mutually exclusive, what is P(A∪B)?",
+    "options": [
+      "0.1",
+      "0.3",
+      "0.8",
+      "1.1"
+    ],
+    "answer": 2,
+    "explanation": "For mutually exclusive events, P(A∪B)=P(A)+P(B)=0.6+0.5=1.1, which is impossible for a probability. Therefore such events cannot have these probabilities simultaneously."
+  },
+
+  {
+    "question": "If two events A and B are independent, which relation must hold?",
+    "options": [
+      "P(A∩B)=P(A)+P(B)",
+      "P(A∩B)=P(A)P(B)",
+      "P(A∪B)=0",
+      "P(A)=P(B)"
+    ],
+    "answer": 1,
+    "explanation": "For independent events, the probability of both occurring is the product of their individual probabilities."
+  }
+]

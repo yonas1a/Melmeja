@@ -1,0 +1,24 @@
+[
+  {
+    "question": " Which one of the following ordered pairs of numbers gives the coordinates of the point that divides a line segment with end points A(1, 1) and B(-6, 8) in the ratio of 3:4?",
+    "options": [
+      "(2, 4)",
+      "(-2, 4)",
+      "(2, -4)",
+      "(-2, -4)"
+    ],
+    "answer": 1,
+    "explanation": " P(x, y) = ((n x1 + m x2)/(m+n), (n y1 + m y2)/(m+n)).\n Here, A(1,1), B(-6,8), ratio 3:4\n\n → x = (4*1 + 3*(-6))/7 = -2, \ny = (4*1 + 3*8)/7 = 4. \nSo, the point is (-2, 4)."
+  },
+  {
+    "question": " Which of the following pairs of lines with the given equations are parallel?",
+    "options": [
+      "L1: 2x + 3y = 5 and L2: 3x + 2y = 4",
+      "L1: x - 2y + 1 = 0 and L2: x + 2y - 1 = 0",
+      "L1: x - y + 3 = 0  and L2: -x + y - 9 = 0",
+      "L1: 4x - y = 2 and L2: -x + 4y = 3"
+    ],
+    "answer": 2,
+    "explanation": "Two lines are parallel if they have the same slope. Using slope formula m = -A/B: \n\nOption 1: slopes -2/3 and -3/2 ❌\n\nOption 2: slopes 1/2 and -1/2 ❌\n\nOption 3: slopes 1 and 1 ✅\n\nOption 4: slopes 4 and 1/4 ❌\n\nOnly option 3 has equal slopes, so the lines are parallel."
+  }
+]

@@ -1,0 +1,159 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+"notes": "✓ Rational expression → a quotient of two polynomials, where the denominator is not zero.\n\nRational expressions are algebraic fractions such as:\n\n(x + 2)/(x − 3),   (x² − 1)/(x + 4),  3/x.\n\n→ The value that makes the denominator zero must always be excluded from the domain.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.1  RATIONAL EXPRESSIONS",
+"notes": "✓ Rational expression → a fractional expression in which both the numerator and denominator are polynomials and the denominator is non-zero.\n\nGeneral form:\nP(x)/Q(x), where P(x) and Q(x) are polynomials and Q(x) ≠ 0.\n\nExamples:\n◆ (x + 3)/(x − 2)\n◆ (x² + 4x + 3)/(x² − 9)\n◆ 5/(2x + 1)\n\n√x/(x + 1) is not a rational expression because √x is not a polynomial.\n\n→ Any polynomial can also be written as a rational expression with denominator 1.",
+"image": null
+},
+{
+"type": "note",
+"title": " DOMAIN / UNIVERSAL SET OF A RATIONAL EXPRESSION",
+"notes": "✓ The domain or universal set of a rational expression consists of all real numbers except values that make the denominator zero.\n\nRule:\nSet the denominator equal to zero and exclude its solutions.\n\nExample:\nf(x) = (x + 1)/(x − 4)\n\nDenominator:\nx − 4 = 0\nx = 4.\n\nTherefore:\nDomain = ℝ \\ {4}.\n\nExample:\ng(x) = 1/(x² − 9)\n\nx² − 9 = 0\n(x − 3)(x + 3) = 0\nx = 3 or x = −3.\n\nTherefore:\nDomain = ℝ \\ {−3,3}.\n\n→ Always determine the restrictions before simplifying.",
+"image": null
+},
+{
+"type": "note",
+"title": " SIMPLIFICATION OF RATIONAL EXPRESSIONS",
+"notes": "To simplify a rational expression:\n\n1. Factor the numerator and denominator completely.\n2. Determine the restricted values from the original denominator.\n3. Cancel common factors.\n4. State the restrictions together with the simplified expression.\n\nExample:\n(x² − 4)/(x² + x − 6)\n\nFactor:\n(x − 2)(x + 2) / [(x + 3)(x − 2)]\n\nCancel (x − 2):\n= (x + 2)/(x + 3).\n\nOriginal restrictions:\nx ≠ 2 and x ≠ −3.\n\nSimplified form:\n(x + 2)/(x + 3),  x ≠ 2, −3.\n\n✓ The cancelled value x = 2 is still excluded because it was excluded from the original expression.",
+"image": null
+},
+{
+"type": "note",
+"title": " RESTRICTIONS AFTER CANCELLATION",
+"notes": "✓ When a common factor is cancelled, the restriction caused by the original denominator does not disappear.\n\nExample:\nf(x) = (x² − 1)/(x² − x)\n\nFactor:\n[(x − 1)(x + 1)]/[x(x − 1)]\n\nSimplify:\nf(x) = (x + 1)/x.\n\nBut the original denominator gives:\nx ≠ 0 and x ≠ 1.\n\nTherefore:\nf(x) = (x + 1)/x,  x ≠ 0,1.\n\n→ The simplified formula may be defined at a value that was excluded from the original expression. That value remains a restriction.",
+"image": null
+},
+{
+"type": "note",
+"title": " ADDITION AND SUBTRACTION OF RATIONAL EXPRESSIONS",
+"notes": "To add or subtract rational expressions:\n\n1. Factor the denominators.\n2. Find the least common denominator (LCD).\n3. Rewrite each expression using the LCD.\n4. Add or subtract the numerators.\n5. Simplify the result.\n\nExample:\n2/(x + 1) + 3/(x + 1)\n\n= (2 + 3)/(x + 1)\n= 5/(x + 1),  x ≠ −1.\n\nExample with different denominators:\n1/x + 1/(x + 2)\n\nLCD = x(x + 2).\n\n= (x + 2 + x)/[x(x + 2)]\n= (2x + 2)/[x(x + 2)]\n= 2(x + 1)/[x(x + 2)].\n\nRestrictions:\nx ≠ 0, −2.",
+"image": null
+},
+{
+"type": "note",
+"title": " MULTIPLICATION OF RATIONAL EXPRESSIONS",
+"notes": "To multiply rational expressions:\n\n1. Factor all numerators and denominators.\n2. Cancel common factors.\n3. Multiply the remaining factors.\n\nFormula:\n(a/b)(c/d) = ac/bd, provided b ≠ 0 and d ≠ 0.\n\nExample:\n[(x² − 4)/(x² − 9)] × [(x + 3)/(x + 2)]\n\n= [(x − 2)(x + 2)]/[(x − 3)(x + 3)] × [(x + 3)/(x + 2)]\n\nCancel common factors:\n= (x − 2)/(x − 3).\n\nOriginal restrictions:\nx ≠ 3, −3, −2.\n\n→ Restrictions come from the original denominators before cancellation.",
+"image": null
+},
+{
+"type": "note",
+"title": " DIVISION OF RATIONAL EXPRESSIONS",
+"notes": "✓ To divide rational expressions → keep the first expression, change division to multiplication, and invert the second expression.\n\nExample:\n[(x² − 1)/(x + 2)] ÷ [(x − 1)/(x + 3)]\n\n= [(x − 1)(x + 1)/(x + 2)] × [(x + 3)/(x − 1)]\n\n= [(x + 1)(x + 3)]/(x + 2).\n\nRestrictions:\nx ≠ −2, −3, 1.\n\n→ The denominator of the divisor cannot be zero, and the divisor itself cannot equal zero.",
+"image": null
+},
+{
+"type": "note",
+"title": " 2.1.4 PARTIAL FRACTIONS",
+"notes": "✓ Partial fraction decomposition → expressing a rational expression as a sum of simpler rational expressions.\n\nExample:\n3/[x(x − 3)]\n\nWrite:\n3/[x(x − 3)] = A/x + B/(x − 3).\n\nMultiply by x(x − 3):\n3 = A(x − 3) + Bx.\n\nComparing coefficients:\nA + B = 0\n−3A = 3\n\nTherefore:\nA = −1,\nB = 1.\n\nHence:\n3/[x(x − 3)] = −1/x + 1/(x − 3).\n\n→ Partial fractions are useful when the denominator can be factored into simpler polynomial factors.",
+"image": null
+},
+{
+"type": "note",
+"title": " TYPES OF PARTIAL-FRACTION FORMS",
+"notes": "For distinct linear factors:\n◆ A/(x − a) + B/(x − b).\n\nFor repeated linear factors:\n◆ A/(x − a) + B/(x − a)² + …\n\nFor an irreducible quadratic factor:\n◆ (Ax + B)/(x² + px + q).\n\nFor repeated irreducible quadratic factors:\n◆ (A₁x + B₁)/(quadratic) + (A₂x + B₂)/(quadratic)² + …\n\nExample:\n1/[(x − 1)(x + 2)]\n\n= A/(x − 1) + B/(x + 2).\n\n→ The numerator over a linear factor is a constant, while the numerator over a quadratic factor is generally linear.",
+"image": null
+},
+{
+"type": "note",
+"title": " PROPER AND IMPROPER RATIONAL EXPRESSIONS",
+"notes": "✓ Proper rational expression → degree of numerator is less than degree of denominator.\n\nExample:\n(x + 1)/(x² + 3).\n\n✓ Improper rational expression → degree of numerator is greater than or equal to degree of denominator.\n\nExample:\n(x³ + 1)/(x² − 1).\n\n→ An improper rational expression should first be simplified using polynomial division before decomposition into partial fractions.\n\nExample:\nx³/(x² + 3x + 2)\n\nFirst perform polynomial division, then decompose the remaining proper rational expression if necessary.",
+"image": null
+},
+{
+"type": "note",
+"title": "2.2  RATIONAL EQUATIONS",
+"notes": "✓ Rational equation → an equation containing one or more rational expressions.\n\nExamples:\n◆ 1/x = 4\n◆ (x + 1)/(x − 2) = 3\n◆ 2/x + 1/(x − 1) = 5.\n\n→ The first step is to identify restrictions by setting every denominator equal to zero.\n\nExample:\n(x + 1)/(x − 2) = (x − 3)/x\n\nRestrictions:\nx ≠ 2 and x ≠ 0.\n\n✓ Restricted values can never be solutions.",
+"image": null
+},
+{
+"type": "note",
+"title": " STEPS FOR SOLVING RATIONAL EQUATIONS",
+"notes": "To solve a rational equation:\n\n1. Find all restrictions.\n2. Find the least common denominator (LCD).\n3. Multiply both sides by the LCD.\n4. Simplify and solve the resulting equation.\n5. Check each solution against the restrictions.\n6. Substitute back when necessary.\n\nExample:\n1/x = 4.\n\nRestriction:\nx ≠ 0.\n\nMultiply by x:\n1 = 4x.\n\nTherefore:\nx = 1/4.\n\nSince 1/4 ≠ 0:\nSolution = {1/4}.",
+"image": null
+},
+{
+"type": "note",
+"title": " EXTRANEOUS SOLUTIONS",
+"notes": "✓ Extraneous solution → a value obtained during algebraic manipulation that does not satisfy the original rational equation or violates its restrictions.\n\nExample:\n1/(x − 2) = 1/(x − 2) + 1.\n\nThe restriction is:\nx ≠ 2.\n\nAfter multiplying by x − 2:\n1 = 1 + (x − 2).\n\nTherefore:\n1 = x − 1\nx = 2.\n\nBut x = 2 is forbidden by the original denominator.\n\nTherefore there is no solution.\n\n→ Always check rational-equation answers in the original equation.",
+"image": null
+},
+{
+"type": "note",
+"title": " RATIONAL INEQUALITIES",
+"notes": "✓ Rational inequality → an inequality involving rational expressions.\n\nExamples:\n◆ (x − 1)/(x + 2) > 0\n◆ 2/(x − 3) ≤ 1.\n\nImportant points are:\n◆ Values that make the numerator zero.\n◆ Values that make the denominator zero.\n\n→ These values divide the number line into intervals where the expression has a constant sign.",
+"image": null
+},
+{
+"type": "note",
+"title": " SOLVING RATIONAL INEQUALITIES BY SIGN ANALYSIS",
+"notes": "To solve a rational inequality:\n\n1. Move everything to one side.\n2. Combine into one rational expression.\n3. Factor numerator and denominator.\n4. Find critical values where numerator or denominator is zero.\n5. Place the critical values on a number line.\n6. Determine the sign in each interval.\n7. Select intervals satisfying the inequality.\n8. Include numerator zeros for ≤ or ≥ when allowed.\n9. Never include denominator zeros.\n\nExample:\n(x − 1)/(x + 1) ≥ 0.\n\nCritical values:\nx = 1 and x = −1.\n\nSign intervals:\n(−∞,−1), (−1,1), (1,∞).\n\nSolution:\nx < −1 or x ≥ 1.\n\nTherefore:\n(−∞,−1) ∪ [1,∞).",
+"image": null
+},
+{
+"type": "note",
+"title": "2.3  RATIONAL FUNCTIONS",
+"notes": "✓ Rational function → a function of the form:\n\nf(x) = P(x)/Q(x)\n\nwhere P(x) and Q(x) are polynomials and Q(x) ≠ 0.\n\nExamples:\n◆ f(x) = (x + 1)/(x − 2)\n◆ g(x) = (x² − 1)/(x² + 1)\n◆ h(x) = (2x³ + x)/(x² − 4).\n\n→ The domain excludes values that make Q(x) = 0.\n\nExample:\nf(x) = (x + 1)/(x − 2)\n\nDomain:\nℝ \\ {2}.\n\nRational functions can be analyzed using their domain, intercepts, asymptotes, symmetry and graph.",
+"image": null
+},
+{
+"type": "note",
+"title": " DOMAIN OF A RATIONAL FUNCTION",
+"notes": "To find the domain of:\nf(x) = P(x)/Q(x)\n\nset the denominator equal to zero and exclude those values.\n\nExample:\nf(x) = (x + 1)/(x² + 5x − 6).\n\nFactor denominator:\nx² + 5x − 6 = (x + 6)(x − 1).\n\nRestrictions:\nx ≠ −6, 1.\n\nTherefore:\nDomain = ℝ \\ {−6,1}.\n\n→ Even if a common factor later cancels, the original denominator determines the domain restriction.",
+"image": null
+},
+{
+"type": "note",
+"title": " X-INTERCEPTS, Y-INTERCEPTS AND ZEROS",
+"notes": "For a rational function:\n\n◆ x-intercept → set f(x) = 0.\n\nUsually this occurs when the numerator is zero while the denominator is non-zero.\n\n◆ y-intercept → set x = 0, provided 0 belongs to the domain.\n\n◆ Zero of a function → an x-value for which f(x) = 0.\n\nExample:\nf(x) = (x + 3)/(x − 2).\n\nx-intercept:\nx + 3 = 0\nx = −3.\n\nTherefore:\nX-intercept = (−3,0).\n\nY-intercept:\nf(0) = 3/(−2) = −3/2.\n\nTherefore:\nY-intercept = (0,−3/2).\n\nZero = −3.",
+"image": null
+},
+{
+"type": "note",
+"title": " VERTICAL ASYMPTOTES",
+"notes": "✓ Vertical asymptote → a vertical line x = a that the graph approaches as x approaches a, usually because the denominator approaches zero while the numerator does not.\n\nExample:\nf(x) = 1/(x − 2).\n\nDenominator:\nx − 2 = 0\nx = 2.\n\nVertical asymptote:\nx = 2.\n\nAs x approaches 2 from either side, the magnitude of f(x) becomes very large.\n\n→ A cancelled common factor produces a hole rather than a vertical asymptote.",
+"image": null
+},
+{
+"type": "note",
+"title": " HORIZONTAL ASYMPTOTES",
+"notes": "For:\nf(x) = P(x)/Q(x),\ncompare the degrees of P(x) and Q(x).\n\n◆ If degree(P) < degree(Q):\ny = 0 is the horizontal asymptote.\n\n◆ If degree(P) = degree(Q):\ny = leading coefficient of P / leading coefficient of Q.\n\n◆ If degree(P) > degree(Q):\nthere is no horizontal asymptote determined by this rule.\n\nExample:\nf(x) = (2x + 1)/(x − 3).\n\nDegrees are equal.\n\nHorizontal asymptote:\ny = 2/1 = 2.\n\nExample:\ng(x) = 3/(x² + 1).\n\nDegree numerator < degree denominator.\n\nHorizontal asymptote:\ny = 0.",
+"image": null
+},
+{
+"type": "note",
+"title": " OBLIQUE / SLANT ASYMPTOTES",
+"notes": "✓ Oblique or slant asymptote → a non-horizontal linear asymptote obtained when the degree of the numerator is exactly one greater than the degree of the denominator.\n\n→ Polynomial division is used to find it.\n\nExample:\nf(x) = (x² + 1)/(x − 1).\n\nDivide:\nx² + 1 ÷ (x − 1)\n\n= x + 1 + 2/(x − 1).\n\nTherefore:\nSlant asymptote:\ny = x + 1.\n\nThe remaining fraction approaches zero as |x| becomes large.",
+"image": null
+},
+{
+"type": "note",
+"title": " HOLES IN RATIONAL-FUNCTION GRAPHS",
+"notes": "✓ A hole occurs when a common factor in the numerator and denominator cancels but the original function is undefined at that value.\n\nExample:\nf(x) = (x² − 4)/(x − 2).\n\nFactor:\nf(x) = [(x − 2)(x + 2)]/(x − 2).\n\nFor x ≠ 2:\nf(x) = x + 2.\n\nBut x = 2 is excluded from the original function.\n\nThe simplified graph is y = x + 2 with a hole at:\n(2,4).\n\n◆ Cancelled factor → hole.\n◆ Uncancelled denominator zero → vertical asymptote.",
+"image": null
+},
+{
+"type": "note",
+"title": " SYMMETRY OF RATIONAL FUNCTIONS",
+"notes": "A rational function can be checked for symmetry by replacing x with −x.\n\n◆ Even function:\nf(−x) = f(x).\n\nIts graph is symmetric about the y-axis.\n\n◆ Odd function:\nf(−x) = −f(x).\n\nIts graph is symmetric about the origin.\n\nExample:\nf(x) = 1/x.\n\nf(−x) = 1/(−x) = −1/x = −f(x).\n\nTherefore:\nf(x) = 1/x is an odd function and its graph is symmetric about the origin.",
+"image": null
+},
+{
+"type": "note",
+"title": " RATIONAL FUNCTIONS AND INEQUALITIES",
+"notes": "Graphs of rational functions can also be used to solve rational inequalities.\n\nExample:\nf(x) = (x − 1)/(x + 2).\n\nTo solve:\nf(x) > 0,\nidentify where the graph lies above the x-axis.\n\nCritical values:\nx = −2 → vertical asymptote.\nx = 1 → x-intercept.\n\nThe sign analysis gives:\nx < −2 or x > 1.\n\n→ Graphs and algebraic sign charts provide two related methods for solving rational inequalities.",
+"image": null
+},
+{
+"type": "note",
+"title": " UNIT 2 KEY TERMS & FORMULAS",
+"notes": "◆ Rational expression → quotient of two polynomials with non-zero denominator.\n\n◆ Rational expression form → P(x)/Q(x), Q(x) ≠ 0.\n\n◆ Domain → all real numbers except values making the denominator zero.\n\n◆ Simplification → factor and cancel common factors while retaining original restrictions.\n\n◆ LCD → least common denominator used for addition and subtraction.\n\n◆ Multiplication → multiply numerators and denominators after factoring and cancelling.\n\n◆ Division → multiply by the reciprocal of the divisor.\n\n◆ Partial fractions → decomposition of a rational expression into simpler rational expressions.\n\n◆ Proper rational expression → degree of numerator < degree of denominator.\n\n◆ Improper rational expression → degree of numerator ≥ degree of denominator.\n\n◆ Rational equation → equation containing rational expressions.\n\n◆ Rational inequality → inequality containing rational expressions.\n\n◆ Extraneous solution → value obtained algebraically but rejected because it violates the original equation or restriction.\n\n◆ Rational function → f(x) = P(x)/Q(x), Q(x) ≠ 0.\n\n◆ X-intercept → point where f(x) = 0.\n\n◆ Y-intercept → f(0), if 0 is in the domain.\n\n◆ Vertical asymptote → x = a where the function becomes unbounded near a.\n\n◆ Horizontal asymptote → determined by comparing degrees of numerator and denominator.\n\n◆ Equal degrees → horizontal asymptote = ratio of leading coefficients.\n\n◆ Numerator degree < denominator degree → horizontal asymptote y = 0.\n\n◆ Oblique asymptote → usually occurs when numerator degree is exactly one greater than denominator degree; use polynomial division.\n\n◆ Hole → missing point caused by cancellation of a common factor.\n\n◆ Even function → f(−x) = f(x).\n\n◆ Odd function → f(−x) = −f(x).\n\nGraphing checklist → domain → holes → x-intercepts → y-intercept → vertical asymptotes → horizontal/oblique asymptotes → symmetry → additional points.\n\nApplications → rates, distance, time, work, mixtures, proportions and other situations involving division or changing rates."
+"image": null
+}
+]

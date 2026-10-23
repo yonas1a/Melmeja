@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Suppose you are standing on a horizontal floor, in a room, with one of your feet and leaning the wall of the room with the other foot. The number of action reaction pair of forces you experience is",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "According to Newton’s third law, forces occur in action–reaction pairs acting on different bodies.\n\nThe forces involving you are:\n\n1. Gravitational force exerted by the Earth on you (reaction: you exert an equal force on the Earth).\n\n2. Normal force exerted by the floor on your foot (reaction: your foot exerts an equal force on the floor).\n\n3. Normal force exerted by the wall on your foot/body (reaction: you exert an equal force on the wall).\n\nThus, you experience 3 action–reaction pairs of forces."
+  },
+  {
+    "question": "A car of mass 1.50 * 10³ kg collides with a wall and rebounds. The initial and final velocities of the car are vi = -15.0 m/s and vf = 2.60 m/s, respectively. If the collision lasts for 0.15 s, what is the magnitude of the average force exerted on the car?",
+    "options": [
+      "2.60 * 10⁴ N",
+      "3.96 * 10³ N",
+      "2.64 * 10⁴ N",
+      "1.76 * 10⁵ N"
+    ],
+    "answer": 3,
+    "explanation": "The average force can be calculated using the impulse-momentum theorem:\n\nFΔt = Δp = m * (vf - vi)\n\nGiven:- m = 1.50 × 10³ kg\n\n- vi = -15.0 m/s, vf = 2.60 m/s\n\n- Δt = 0.15 s\n\nChange in momentum: Δp = 1.50 × 10³ * (2.60 - (-15.0)) = 1.50 × 10³ * 17.6 = 2.64 × 10⁴ kg·m/s\n\nAverage force: F = Δp / Δt = 2.64 × 10⁴ / 0.15 ≈ 1.76 × 10⁵ N"
+  },
+
+  {
+    "question": "The following three collisions occur in different systems.\n\nI. A billiard ball A collides with an identical ball B and comes to rest after collision, while ball B moves with the same velocity as ball A was moving before.\n\nII. A bullet moving with speed v hits a suspended mass and it imbedded in it and the combination moves with common velocity.\n\nIII. Two cars moving in opposite direction meet at rest after collision.\n\nWhich of the following statements is correct about these collisions?",
+    "options": [
+      "II and III are inelastic collisions.",
+      "I and II are elastic collisions.",
+      "I, II and III are inelastic collisions.",
+      "I and III are elastic collisions."
+    ],
+    "answer": 0,
+    "explanation": "Collision analysis:\n\n- I: Billiard balls exchange velocity without loss of kinetic energy → **elastic collision**.\n\n- II: Bullet embeds in target, kinetic energy not conserved → **inelastic collision**.\n\n- III: Two cars stick together or come to rest → kinetic energy lost → **inelastic collision**.\n\nHence, II and III are inelastic collisions."
+  }
+]

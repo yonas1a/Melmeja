@@ -1,0 +1,24 @@
+[
+{
+  "question": " A boy pulls a 50 kg concrete up the inclined plane with a constant velocity. The length of the inclined plane through which the concrete is pulled is 5.0 m and the height to which the concrete is raised is 3.0 m. If the coefficient of kinetic friction between the concrete and the surface of the incline plane is 0.5, what is the efficiency of the inclined plane?",
+  "options": [
+    "60%",
+    "40%",
+    "100%",
+    "17 %"
+  ],
+  "answer": 0,
+  "explanation": "Useful output work is raising the weight:\n\n W_out = mgh =\n\n 50 × 10 × 3.0 = 1500 J (or using g = 9.8, 1470 J).\n\n The horizontal base is b = √(5² - 3²) =\n\n 4 m, so cosθ = 4/5 = 0.8 and sinθ = 3/5 = 0.6.\n\n Normal force N = mg cosθ.\n\n Friction force f = μN =\n μ mg cosθ. \n\nTotal effort required to pull at constant velocity is F = mg sinθ + μ mg cosθ.\n\n Total work input is W_in = F × L = mg (sinθ + μ cosθ) L.\n\n Substituting values: W_in = m × g × (3/5 + 0.5 × 4/5) × 5 =\n\n m × g × (3 + 2) =\n\n 5 m g = 2500 J (or using g = 9.8, 2450 J).\n\n Efficiency η = (W_out / W_in) × 100% =\n\n (mgh) / (mg(h + μb)) × 100% =\n\n 3 / (3 + 0.5 × 4) × 100% \n\n= 3 / 5 × 100% \n\n= 60%."
+},
+{
+"question": " A wheel and axle is used to lift a load of 90 N bucket of water from a well with an applied effort of 45 N. If the radii of wheel and axle are 30 cm and 5 cm, respectively, then what is the actual mechanical advantage of the machine?",
+"options": [
+"0.5",
+"3.0",
+"2.0",
+"6.0"
+],
+"answer": 2,
+"explanation": "Actual Mechanical Advantage (AMA) is defined as the ratio of Load to Effort:\n\n AMA = Load / Effort = \n\n90 N / 45 N = \n\n2.0."
+}
+]

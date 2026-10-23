@@ -1,0 +1,48 @@
+[
+{
+  "question": " A 50 kg box placed on a smooth horizontal x-y plane is acted up on by two forces, which have magnitudes F₁ = 25 N and F₂ = 120 N. F₁ acts on the box in the direction of negative x-axis and F₂ acts on the box in the direction of 53° above the positive x-axis. What are the magnitudes of x and y components of the resultant force acting on the box, respectively?",
+  "options": [
+    "72 N, 96 N",
+    "47 N, 96 N",
+    "145 N, 72 N",
+    "96 N, 47 N"
+  ],
+  "answer": 1,
+  "explanation": "F₁ acts along the negative x-axis, so its components are F₁x = -25 N and F₁y = 0 N.\n\n F₂ acts at 53° above the positive x-axis, so its components are F₂x = 120 cos(53°) ≈ 120(0.6) = 72 N and F₂y = 120 sin(53°) ≈ 120(0.8) = 96 N.\n\n The resultant force components are the sums of these individual components:\n\n Rx = F₁x + F₂x =\n\n -25 + 72 = 47 N, \n\nand Ry = F₁y + F₂y =\n\n 0 + 96 =\n\n 96 N."
+},
+{
+"question": " A student represents a force vector graphically by drawing a 12 cm line using a scale of 1 cm for 12.5 N force as shown in the figure below.\n\nWhat are the magnitude and direction of the force represented by the figure?",
+"options": [
+"150 N at 50° west of south",
+"150 N at 50° south of west",
+"125 N at 50° west of south",
+"125 N at 50° south of west"
+],
+"answer": 0,
+"explanation": "The magnitude of the force is the length of the line multiplied by the given scale factor:\n\n 12 cm × 12.5 N/cm = 150 N.\n\n The diagram shows the vector in the third quadrant, making an angle of 50° starting from the South axis and sweeping towards the West, which corresponds to the direction '50° west of south'.",
+"image": "images/P2018R2_29.png"
+},
+{
+"question": " Given vector A⃗ having magnitude A, a unit vector, Ûₐ, in the direction of A⃗  is defines as",
+"options": [
+"Ûₐ = A⃗  / A",
+"Ûₐ = A⃗ ",
+"Ûₐ = AA⃗ ",
+"Ûₐ = A/A⃗ "
+],
+"answer": 3,
+"explanation": "A unit vector in the direction of a given vector is defined as the vector itself divided by its magnitude:\n\n u_A = A / A."
+},
+{
+"question": " Two vectors A⃗  and B⃗ are placed perpendicular to each other as shown in the figure below.\n\nIf the magnitudes of A⃗ and B⃗ are 6 units and 8 units, respectively, what is the magnitude and direction of their resultant vector, R⃗?",
+"options": [
+"10 units at 37° from vector A⃗",
+"10 units at 53° from vector A⃗",
+"2 units at 37° from vector A⃗",
+"14 units at 53° from vector A⃗"
+],
+"answer": 0,
+"explanation": "The magnitude of the resultant vector is R = √(A² + B²) =\n\n √(6² + 8²) =\n √(36 + 64) = \n√100 = 10 units. \n\nThe angle θ from vector A is given by tan(θ) = B / A = \n\n8 / 6 =\n\n 4 / 3, which corresponds to an angle of 37°.",
+"image": "images/P2018R2_51.png"
+}
+]

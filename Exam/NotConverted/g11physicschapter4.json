@@ -1,0 +1,619 @@
+[ {
+  "question": "Work is done when:",
+  "options": ["Force is applied and displacement occurs", "Force is applied only", "Displacement occurs only", "Object is stationary"],
+  "answer": 0,
+  "explanation": "Work requires force and displacement in the direction of force."
+},
+  {
+    "question": "If two bodies collide and stick together, the collision is called:",
+    "options": ["Elastic", "Perfectly inelastic", "Partially elastic", "Explosive"],
+    "answer": 1,
+    "explanation": "In a perfectly inelastic collision, bodies stick together after collision."
+  },
+  {
+    "question": "Impulse is equal to:",
+    "options": [ "Force × distance", "Work done", "Kinetic energy","Change in momentum"],
+    "answer": 3,
+    "explanation": "Impulse = F Δt = Δp (change in momentum)."
+  },
+  {
+    "question": "The first condition of equilibrium ensures:",
+    "options": ["Zero power", "Translational equilibrium", "Constant speed", "Rotational equilibrium"],
+    "answer": 1,
+    "explanation": "First condition guarantees that ΣF = 0; body does not translate."
+  },
+
+  {
+    "question": "According to Newton's first law, an object will remain at rest unless:",
+    "options": [ "It has mass", "It is moving fast","A force acts on it", "It is light"],
+    "answer": 2,
+    "explanation": "Newton's first law states that an object remains at rest or moves uniformly unless acted upon by an external force."
+  },
+  {
+    "question": "If a 10 N force acts on a 2 kg mass, what is its acceleration?",
+    "options": [ "2 m/s²", "5 m/s²","10 m/s²", "20 m/s²"],
+    "answer": 1,
+    "explanation": "Using Newton's second law, F = ma, so a = F/m = 10/2 = 5 m/s²."
+  },
+  {
+    "question": "The frictional force always acts:",
+    "options": ["Along the motion", "Opposite to motion", "Upward", "Toward the center"],
+    "answer": 1,
+    "explanation": "Friction opposes the relative motion between surfaces."
+  },
+  {
+    "question": "Coefficient of friction is defined as the ratio of:",
+    "options": ["Frictional force to weight", "Normal force to frictional force", "Frictional force to normal force", "Mass to weight"],
+    "answer": 2,
+    "explanation": "μ = f / N, where f is frictional force and N is normal reaction."
+  },
+  {
+    "question": "A body is in equilibrium if:",
+    "options": ["Net force is zero", "Net torque is zero", "Both net force and net torque are zero", "Velocity is zero"],
+    "answer": 2,
+    "explanation": "First condition of equilibrium requires both net force and net torque to be zero."
+  },
+
+  {
+    "question": "The unit of power in SI system is:",
+    "options": ["Joule", "Watt", "Newton", "Pascal"],
+    "answer": 1,
+    "explanation": "Power is the rate of doing work; SI unit is Watt (J/s)."
+  },
+  {
+    "question": "Kinetic energy of a 2 kg mass moving at 3 m/s is:",
+    "options": ["9 J", "6 J", "18 J", "3 J"],
+    "answer": 2,
+    "explanation": "KE = 1/2 mv² =\n 0.5*2*3² =\n 9 J."
+  },
+  {
+    "question": "Potential energy is maximum when:",
+    "options": ["Object is at lowest point", "Object is at highest point", "Object is moving fast", "Object is in equilibrium"],
+    "answer": 1,
+    "explanation": "Gravitational potential energy is maximum at the highest point."
+  },
+  {
+    "question": "Mechanical energy is conserved when:",
+    "options": ["Friction is present", "Only conservative forces act", "External forces act", "Power is applied"],
+    "answer": 1,
+    "explanation": "Mechanical energy is conserved in the absence of non-conservative forces like friction."
+  },
+
+  {
+    "question": "The momentum of a body is:",
+    "options": ["m × v", "m × a", "F × t", "1/2 m v²"],
+    "answer": 0,
+    "explanation": "Momentum p = mass × velocity."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "The first condition of equilibrium states that:",
+    "options": [ "Sum of torques = 0", "Velocity = 0", "Acceleration = 0","Sum of forces = 0"],
+    "answer": 3,
+    "explanation": "For translational equilibrium, the vector sum of all forces must be zero."
+  },
+  {
+    "question": "Newton's third law can be stated as:",
+    "options": ["F = ma", "Every action has an equal and opposite reaction", "Velocity remains constant", "Energy is conserved"],
+    "answer": 1,
+    "explanation": "Third law: action-reaction pairs are equal and opposite."
+  },
+  {
+    "question": "The work done by friction is:",
+    "options": ["Positive", "Zero", "Negative", "Infinite"],
+    "answer": 2,
+    "explanation": "Friction opposes motion, so work done by friction is negative."
+  },
+  {
+    "question": "The SI unit of impulse is:",
+    "options": ["Newton", "Newton-second", "Joule", "Pascal"],
+    "answer": 1,
+    "explanation": "Impulse = Force × time; unit is N·s."
+  },
+  {
+    "question": "A 5 kg object is moving at 4 m/s. Its momentum is:",
+    "options": ["20 kg·m/s", "9 kg·m/s", "10 kg·m/s", "5 kg·m/s"],
+    "answer": 0,
+    "explanation": "Momentum p = mv = 5*4 = 20 kg·m/s."
+  },
+  {
+    "question": "If friction is zero, mechanical energy:",
+    "options": ["Increases", "Decreases", "Is conserved", "Becomes zero"],
+    "answer": 2,
+    "explanation": "Without non-conservative forces, total mechanical energy remains constant."
+  },
+  {
+    "question": "An object moving in a circle at constant speed has:",
+    "options": ["Zero acceleration", "Centripetal acceleration", "Tangential acceleration", "No force acting"],
+    "answer": 1,
+    "explanation": "Centripetal acceleration points towards the center of the circle."
+  },
+  {
+    "question": "The force that opposes motion when an object moves through a surface is:",
+    "options": ["Tension", "Friction", "Gravity", "Centripetal force"],
+    "answer": 1,
+    "explanation": "Friction opposes relative motion between surfaces."
+  },
+  {
+    "question": "Work done is zero if:",
+    "options": ["Force and displacement are perpendicular", "Force and displacement are parallel", "Force is applied", "Displacement occurs"],
+    "answer": 0,
+    "explanation": "Work = F·d·cosθ;\n if θ=90°, cos90°=0 \n→ Work = 0."
+  },
+  {
+    "question": "Power can also be expressed as:",
+    "options": ["Force × velocity", "Force × distance", "Mass × acceleration", "Momentum × time"],
+    "answer": 0,
+    "explanation": "Power = Work/time = \nF·d / t =\n F·v."
+  },
+  {
+    "question": "In a perfectly elastic collision:",
+    "options": [ "Momentum is lost", "Objects stick together", "Friction is high","Kinetic energy is conserved"],
+    "answer": 3,
+    "explanation": "Both momentum and kinetic energy are conserved in elastic collisions."
+  },
+  {
+    "question": "The normal force on a horizontal surface is equal to:",
+    "options": ["Weight of the object", "Zero", "Frictional force", "Applied force"],
+    "answer": 0,
+    "explanation": "On a horizontal plane without vertical forces, normal force = weight."
+  },
+  {
+    "question": "The kinetic energy of a moving body is directly proportional to:",
+    "options": ["Mass", "Square of speed", "Both mass and square of speed", "Velocity only"],
+    "answer": 2,
+    "explanation": "KE = 1/2 m v² depends on mass and square of velocity."
+  },
+  {
+    "question": "Impulse delivered by a force is maximum when:",
+    "options": ["Force acts for short time", "Force acts for longer time", "Force is zero", "Velocity is zero"],
+    "answer": 1,
+    "explanation": "Impulse = F Δt; increasing Δt increases impulse."
+  },
+  {
+    "question": "A body is said to be in equilibrium when:",
+    "options": ["Net force and net torque are zero", "Acceleration is maximum", "Velocity is increasing", "Friction is high"],
+    "answer": 0,
+    "explanation": "Equilibrium requires no net translational or rotational effect."
+  },
+  {
+    "question": "A 10 N force acts on a 2 kg object for 3 s. The impulse is:",
+    "options": [ "20 N·s","30 N·s", "6 N·s", "5 N·s"],
+    "answer": 1,
+    "explanation": "Impulse = F·Δt =\n 10*3 = \n30 N·s."
+  },
+  {
+    "question": "A body of mass 3 kg has a velocity of 2 m/s. Its kinetic energy is:",
+    "options": ["6 J", "3 J", "12 J", "2 J"],
+    "answer": 0,
+    "explanation": "KE = 1/2 m v² = \n0.5*3*2² =\n 6 J."
+  },
+  {
+    "question": "The sum of forces acting on a stationary body is:",
+    "options": [ "Equal to mass", "Equal to weight","Zero", "Infinite"],
+    "answer": 2,
+    "explanation": "For a body at rest, net force = 0."
+  },
+  {
+    "question": "The first condition of equilibrium deals with:",
+    "options": [ "Sum of moments","Sum of forces", "Sum of velocities", "Sum of accelerations"],
+    "answer": 1,
+    "explanation": "First condition: translational equilibrium → ΣF = 0."
+  },
+  {
+    "question": "The work done in moving a body along a circular path with constant speed is:",
+    "options": [ "Positive", "Negative", "Infinite","Zero"],
+    "answer": 3,
+    "explanation": "Force (centripetal) is perpendicular to displacement → Work = 0."
+  },
+  {
+    "question": "Which quantity is always conserved in collisions if no external forces act?",
+    "options": ["Momentum", "Kinetic energy", "Power", "Work"],
+    "answer": 0,
+    "explanation": "Linear momentum is conserved in all collisions without external forces."
+  },
+  {
+    "question": "The SI unit of work is:",
+    "options": [ "Newton", "Watt", "Pascal","Joule"],
+    "answer": 3,
+    "explanation": "Work = force × displacement; unit is Joule (N·m)."
+  },
+  {
+    "question": "A block slides down a frictionless incline. At the bottom, its kinetic energy is equal to:",
+    "options": [ "Zero", "Mass × g","Potential energy at top", "Impulse applied"],
+    "answer": 2,
+    "explanation": "Without friction, PE at top converts entirely to KE at bottom."
+  },
+  {
+    "question": "Linear momentum has units of:",
+    "options": ["kg·m/s", "N·s", "Both kg·m/s and N·s", "Joule"],
+    "answer": 2,
+    "explanation": "Momentum = mass × velocity; kg·m/s = N·s."
+  },
+  {
+    "question": "Friction does not exist when surfaces are:",
+    "options": ["Rough", "Smooth and lubricated", "Inclined", "Vertical"],
+    "answer": 1,
+    "explanation": "Friction is minimal or negligible between perfectly smooth/lubricated surfaces."
+  },
+  {
+    "question": "A 4 kg object moving at 5 m/s collides elastically with a 6 kg stationary object. Total momentum before collision is:",
+    "options": ["20 kg·m/s", "30 kg·m/s", "10 kg·m/s", "25 kg·m/s"],
+    "answer": 0,
+    "explanation": "Total momentum = (4*5) + (6*0) = \n20 kg·m/s"
+  },
+  {
+    "question": "The magnitude of kinetic friction is usually:",
+    "options": [ "Greater than static friction", "Equal to static friction", "Zero always","Less than static friction"],
+    "answer": 3,
+    "explanation": "Kinetic friction is generally less than the maximum static friction."
+  },
+
+    {
+      "question": "A 5 kg mass is acted on by a 20 N force. What is its acceleration?",
+      "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
+      "answer": 1,
+      "explanation": "Using F = ma, \na = F/m =\n 20/5 = 4 m/s²."
+    },
+    {
+      "question": "A 10 kg object is sliding on a horizontal surface with μ = 0.2. Find the frictional force. (g = 10 m/s²)",
+      "options": ["10 N", "20 N", "15 N", "25 N"],
+      "answer": 1,
+      "explanation": "Friction f = μN = μmg = \n0.2*10*10 = \n20 N  ."
+    },
+    {
+      "question": "A 2 kg object moves with velocity 3 m/s. Find its momentum.",
+      "options": ["5 kg·m/s",  "3 kg·m/s","6 kg·m/s", "2 kg·m/s"],
+      "answer": 2,
+      "explanation": "Momentum p = mv =\n 2*3 =\n 6 kg·m/s."
+    },
+    {
+      "question": "A force of 10 N acts on a 2 kg mass for 3 s. Calculate the impulse.",
+      "options": ["20 N·s", "30 N·s", "15 N·s", "10 N·s"],
+      "answer": 1,
+      "explanation": "Impulse = F Δt = \n10*3 =\n 30 N·s."
+    },
+    {
+      "question": "A 3 kg mass falls from 5 m height. Find its velocity just before hitting the ground. (g = 10 m/s²)",
+      "options": ["5 m/s",  "√50 m/s", "√100 m/s","10 m/s"],
+      "answer": 3,
+      "explanation": "v = √(2gh) = \n√(2*10*5) = \n√100 = 10 m/s ."
+    },
+    {
+      "question": "A body of mass 4 kg moves at 6 m/s. Calculate its kinetic energy.",
+      "options": ["72 J", "36 J", "144 J", "12 J"],
+      "answer": 0,
+      "explanation": "KE = 1/2 m v² =\n 0.5*4*6² =\n 72 J."
+    },
+    {
+      "question": "A 10 kg box is pulled by a 50 N horizontal force on a frictionless surface. Find acceleration.",
+      "options": ["2 m/s²", "5 m/s²", "10 m/s²", "0.5 m/s²"],
+      "answer": 1,
+      "explanation": "F = ma → \na = F/m =\n 50/10 = 5 m/s²."
+    },
+    {
+      "question": "A 5 kg object moves at 4 m/s. Calculate its momentum and kinetic energy.",
+      "options": ["Momentum 20 kg·m/s, KE 40 J", "Momentum 20 kg·m/s, KE 40 J", "Momentum 20 kg·m/s, KE 40 J", "Momentum 20 kg·m/s, KE 40 J"],
+      "answer": 0,
+      "explanation": "p = mv = 5*4 =\n 20 kg·m/s, \nKE = 1/2*5*16 = 40 J."
+    },
+    {
+      "question": "A car of mass 1000 kg accelerates from rest to 20 m/s in 10 s. Find the net force.",
+      "options": [ "1000 N", "500 N", "4000 N","2000 N"],
+      "answer": 3,
+      "explanation": "a = Δv/Δt = \n20/10 = 2 m/s², \nF = ma = 1000*2 = 2000 N."
+    },
+    {
+      "question": "A 10 N force acts at 30° to the horizontal on a 5 kg block. Find horizontal acceleration.",
+      "options": ["1 m/s²", "2 m/s²", "3 m/s²", "4 m/s²"],
+      "answer": 1,
+      "explanation": "F_horizontal = F cos30° = 10*0.866 = 8.66 N, \n\na = F/m = 8.66/5 ≈ 1.73 m/s² ."
+    },
+    {
+      "question": "A 2 kg object moves with velocity 3 m/s. After a 2 N force is applied for 3 s, find new momentum.",
+      "options": ["10 kg·m/s", "14 kg·m/s", "12 kg·m/s", "8 kg·m/s"],
+      "answer": 2,
+      "explanation": "Impulse = F Δt = 2*3 = 6 N·s,\n\n p_new = 2*3 + 6 = 12 kg·m/s."
+    },
+    {
+      "question": "A 1 kg object is lifted 10 m vertically. Find work done by gravity.",
+      "options": ["10 J", "-100 J", "0 J", "100 J"],
+      "answer": 1,
+      "explanation": "Work done by gravity W = -mgh = \n-1*10*10 =\n -100 J."
+    },
+    {
+      "question": "A 3 kg block is pushed with 15 N on a frictionless horizontal surface. Find acceleration.",
+      "options": ["3 m/s²", "10 m/s²", "2 m/s²", "5 m/s²"],
+      "answer": 3,
+      "explanation": "a = F/m = 15/3 = 5 m/s²."
+    },
+    {
+      "question": "A body of 2 kg moves at 5 m/s and collides elastically with a 3 kg stationary body. Total momentum before collision?",
+      "options": ["10 kg·m/s", "5 kg·m/s", "15 kg·m/s", "20 kg·m/s"],
+      "answer": 0,
+      "explanation": "p_total = 2*5 + 3*0 = 10 kg·m/s."
+    },
+    {
+      "question": "An object slides down 4 m frictionless incline from rest. Find velocity at bottom.",
+      "options": ["4 m/s", "6 m/s", "8.94 m/s", "√80 m/s"],
+      "answer": 2,
+      "explanation": "v = √(2gh) = √(2*10*4) = √80 ≈ 8.94 m/s "
+    },
+    {
+      "question": "A 20 kg box is pulled with 60 N along rough surface μ = 0.1. Find acceleration.",
+      "options": ["2 m/s²", "3 m/s²", "4 m/s²", "5 m/s²"],
+      "answer": 0,
+      "explanation": "F_friction = μmg = 0.1*20*10=20 N,\n net F=60-20=40 N,\n a=F/m=\n40/20=\n2 m/s²."
+    },
+    {
+      "question": "A 2 kg object is at rest. A force of 10 N acts for 2 s. Find final velocity.",
+      "options": [ "5 m/s","10 m/s", "2 m/s", "20 m/s"],
+      "answer": 1,
+      "explanation": "Impulse = F Δt = 10*2=20 N·s, v = p/m = 20/2=10 m/s ."
+    },
+    {
+      "question": "A 5 kg object moving at 10 m/s collides inelastically and sticks to 5 kg object at rest. Find final velocity.",
+      "options": ["2.5 m/s", "5 m/s", "10 m/s", "1 m/s"],
+      "answer": 0,
+      "explanation": "v_f = (5*10 + 5*0)/10 =\n 50/10 =\n 5 m/s ."
+    },
+    {
+      "question": "A force of 50 N is applied at angle 60° to move 4 m. Find work done.",
+      "options": [ "200 J", "50 J", "25 J","100 J"],
+      "answer": 3,
+      "explanation": "Work = F cosθ * d = \n50*0.5*4 =\n 100 J."
+    },
+    {
+      "question": "A 10 kg object moving at 5 m/s collides elastically with stationary 10 kg object. Total KE before collision?",
+      "options": ["125 J", "50 J", "100 J", "200 J"],
+      "answer": 2,
+      "explanation": "KE = 1/2 m v² = \n0.5*10*25 = \n125 J."
+    },
+    {
+      "question": "A 3 kg object moves at 4 m/s. Find kinetic energy.",
+      "options": ["24 J", "12 J", "36 J", "48 J"],
+      "answer": 0,
+      "explanation": "KE = 1/2*3*16 =\n 24 J ."
+    },
+    {
+      "question": "A 2 kg mass moving at 6 m/s collides inelastically with 3 kg at rest. Find final velocity.",
+      "options": [ "3 m/s", "1.5 m/s", "4 m/s","2.4 m/s"],
+      "answer": 3,
+      "explanation": "v_f = (2*6 + 3*0)/5 =\n 12/5 = \n2.4 m/s."
+    },
+    {
+      "question": "A body of mass 2 kg is pulled with 8 N along frictionless surface. Find acceleration.",
+      "options": ["2 m/s²", "4 m/s²", "8 m/s²", "1 m/s²"],
+      "answer": 1,
+      "explanation": "a = F/m =\n 8/2 = \n4 m/s²."
+    },
+    {
+      "question": "A 5 kg object slides down frictionless 10 m high slope. Find velocity at bottom.",
+      "options": ["10 m/s", "14 m/s", "√200 m/s", "20 m/s"],
+      "answer": 1,
+      "explanation": "v = √(2gh) = \n√(2*10*10)=\n√200≈14.14 m/s ."
+    },
+    {
+      "question": "A 2 kg object moves at 3 m/s. Find momentum and KE.",
+      "options": ["p=6 kg·m/s, KE=9 J", "p=3 kg·m/s, KE=9 J", "p=6 kg·m/s, KE=6 J", "p=3 kg·m/s, KE=6 J"],
+      "answer": 0,
+      "explanation": "p=mv=2*3=6 kg·m/s, \nKE=1/2*2*9=9 J."
+    },
+    {
+      "question": "A 1 kg object accelerates at 5 m/s² for 4 s. Find impulse.",
+      "options": ["20 N·s", "5 N·s", "10 N·s", "15 N·s"],
+      "answer": 0,
+      "explanation": "Impulse = F Δt = ma*Δt =\n 1*5*4 = \n20 N·s."
+    },
+    {
+      "question": "A body of mass 10 kg moves at 2 m/s. Find kinetic energy.",
+      "options": ["10 J", "20 J", "40 J", "5 J"],
+      "answer": 1,
+      "explanation": "KE = 1/2*10*4=20 J."
+    },
+    {
+      "question": "A 3 kg object moves at 4 m/s. Collides with 2 kg at rest inelastic. Final velocity?",
+      "options": ["1.2 m/s",  "3 m/s", "2 m/s","2.4 m/s"],
+      "answer": 3,
+      "explanation": "v_f=(3*4+2*0)/5=\n12/5=\n2.4 m/s."
+    },
+    {
+      "question": "A 2 kg object is at rest. Force 6 N acts for 3 s. Find final velocity.",
+      "options": ["6 m/s", "9 m/s", "3 m/s", "12 m/s"],
+      "answer": 1,
+      "explanation": "Impulse=FΔt=\n6*3=18 N·s,\n v=p/m=\n18/2=\n9 m/s ."
+    },
+    {
+      "question": "A 5 kg object moves at 10 m/s. Collides elastically with 5 kg stationary object. Total momentum after collision?",
+      "options": ["50 kg·m/s", "25 kg·m/s", "100 kg·m/s", "10 kg·m/s"],
+      "answer": 0,
+      "explanation": "Momentum conserved: 5*10 +5*0=\n50 kg·m/s."
+    },
+    {
+      "question": "A 2 kg block moves at 3 m/s. KE?",
+      "options": ["6 J", "9 J", "3 J", "12 J"],
+      "answer": 1,
+      "explanation": "KE = 1/2*2*9=\n9 J."
+    },
+    {
+      "question": "A 4 kg block is acted upon by 12 N for 3 s. Find change in momentum.",
+      "options": ["36 kg·m/s", "9 kg·m/s", "12 kg·m/s", "24 kg·m/s"],
+      "answer": 0,
+      "explanation": "Impulse = F Δt = \n\n12*3=36 kg·m/s."
+    },
+
+    {
+      "question": "Newton's first law is also called:",
+      "options": ["Law of acceleration", "Action-reaction law", "Law of universal gravitation", "Law of inertia"],
+      "answer": 3,
+      "explanation": "Newton’s first law states that a body remains at rest or moves uniformly unless acted upon by a force, also called the law of inertia."
+    },
+    {
+      "question": "The force that opposes relative motion between surfaces is called:",
+      "options": ["Friction", "Gravity", "Normal force", "Tension"],
+      "answer": 0,
+      "explanation": "Friction is the resistive force between surfaces in contact."
+    },
+    {
+      "question": "A body is in equilibrium when:",
+      "options": ["Velocity is increasing", "Friction is high", "Acceleration is maximum", "Net force and net torque are zero"],
+      "answer": 3,
+      "explanation": "Equilibrium requires no net translational or rotational effect."
+    },
+    {
+      "question": "The work done by a force is zero when:",
+      "options": ["Force is perpendicular to displacement", "Force and displacement are in same direction", "Force is applied", "Displacement occurs"],
+      "answer": 0,
+      "explanation": "Work = F·d·cosθ; \nif θ = 90°, cosθ = 0 → Work = 0."
+    },
+    {
+      "question": "Power is defined as:",
+      "options": [ "Force × displacement", "Mass × acceleration","Rate of doing work", "Momentum × velocity"],
+      "answer": 2,
+      "explanation": "Power is the rate at which work is done; P = W/t."
+    },
+    {
+      "question": "Mechanical energy is conserved in a system if:",
+      "options": ["External forces act", "Only conservative forces act", "Friction is present", "Power is applied"],
+      "answer": 1,
+      "explanation": "Mechanical energy is conserved when only conservative forces, like gravity, do work."
+    },
+    {
+      "question": "Impulse is equal to:",
+      "options": ["Force × distance", "Kinetic energy", "Change in momentum", "Power × time"],
+      "answer": 2,
+      "explanation": "Impulse = F Δt = Δp (change in momentum)."
+    },
+    {
+      "question": "Linear momentum of a body is:",
+      "options": ["Mass × acceleration", "1/2 mass × velocity²", "Mass × velocity", "Force × time"],
+      "answer": 2,
+      "explanation": "Momentum p = m × v."
+    },
+    {
+      "question": "In a perfectly inelastic collision:",
+      "options": ["Kinetic energy is conserved", "Bodies stick together", "Momentum is lost", "Friction is high"],
+      "answer": 1,
+      "explanation": "Inelastic collisions involve bodies sticking together; momentum is conserved but kinetic energy is not."
+    },
+    {
+      "question": "The first condition of equilibrium deals with:",
+      "options": [ "Sum of torques is zero", "Velocity is constant", "Power is zero","Sum of forces is zero"],
+      "answer": 3,
+      "explanation": "First condition: ΣF = 0 for translational equilibrium."
+    },
+    {
+      "question": "Newton’s third law states:",
+      "options": ["Energy is conserved", "F = ma", "Every action has an equal and opposite reaction", "Velocity remains constant"],
+      "answer": 2,
+      "explanation": "Action-reaction forces are equal in magnitude and opposite in direction."
+    },
+    {
+      "question": "The normal force acts:",
+      "options": ["Along the surface", "Perpendicular to surface", "Opposite to motion", "Downward always"],
+      "answer": 1,
+      "explanation": "Normal force is perpendicular to the surface in contact."
+    },
+    {
+      "question": "Kinetic friction is generally:",
+      "options": ["Zero always", "Greater than static friction", "Less than static friction", "Equal to static friction"],
+      "answer": 2,
+      "explanation": "Kinetic friction is usually smaller than the maximum static friction."
+    },
+    {
+      "question": "Work done by a constant force is proportional to:",
+      "options": ["Time", "Displacement in the direction of force", "Mass", "Acceleration"],
+      "answer": 1,
+      "explanation": "Work = F·d·cosθ, depends on displacement along force direction."
+    },
+    {
+      "question": "Energy stored due to position is called:",
+      "options": ["Kinetic energy", "Potential energy", "Mechanical energy", "Work"],
+      "answer": 1,
+      "explanation": "Potential energy depends on position or configuration."
+    },
+    {
+      "question": "A body moving in a circle at constant speed has:",
+      "options": ["Tangential acceleration", "No force acting", "Zero acceleration", "Centripetal acceleration"],
+      "answer": 3,
+      "explanation": "Acceleration towards the center is centripetal acceleration."
+    },
+    {
+      "question": "Momentum is conserved when:",
+      "options": ["No external force acts", "Kinetic energy is conserved", "Friction is present", "Power is applied"],
+      "answer": 0,
+      "explanation": "Linear momentum is conserved in absence of external forces."
+    },
+    {
+      "question": "The SI unit of work is:",
+      "options": ["Newton", "Watt", "Pascal", "Joule"],
+      "answer": 3,
+      "explanation": "Work = force × displacement; unit is Joule (N·m)."
+    },
+    {
+      "question": "The SI unit of impulse is:",
+      "options": ["Joule", "Newton-second", "Newton", "Watt"],
+      "answer": 1,
+      "explanation": "Impulse = F·Δt, unit is N·s."
+    },
+  {
+    "question": "A 4 kg object moving at 5 m/s collides elastically with a 6 kg stationary object. Total momentum before collision is:",
+    "options": ["20 kg·m/s", "30 kg·m/s", "10 kg·m/s", "25 kg·m/s"],
+    "answer": 0,
+    "explanation": "Total momentum = (4*5) + (6*0) = \n20 kg·m/s"
+  },
+  {
+    "question": "The magnitude of kinetic friction is usually:",
+    "options": [ "Greater than static friction", "Equal to static friction", "Zero always","Less than static friction"],
+    "answer": 3,
+    "explanation": "Kinetic friction is generally less than the maximum static friction."
+  },
+
+  {
+    "question": "A 5 kg mass is acted on by a 20 N force. What is its acceleration?",
+    "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
+    "answer": 1,
+    "explanation": "Using F = ma, \na = F/m =\n 20/5 = 4 m/s²."
+  },
+  {
+    "question": "A 10 kg object is sliding on a horizontal surface with μ = 0.2. Find the frictional force. (g = 10 m/s²)",
+    "options": ["10 N", "20 N", "15 N", "25 N"],
+    "answer": 1,
+    "explanation": "Friction f = μN = μmg = \n0.2*10*10 = \n20 N  ."
+  },
+  {
+    "question": "A 2 kg object moves with velocity 3 m/s. Find its momentum.",
+    "options": ["5 kg·m/s",  "3 kg·m/s","6 kg·m/s", "2 kg·m/s"],
+    "answer": 2,
+    "explanation": "Momentum p = mv =\n 2*3 =\n 6 kg·m/s."
+  },
+  {
+    "question": "A force of 10 N acts on a 2 kg mass for 3 s. Calculate the impulse.",
+    "options": ["20 N·s", "30 N·s", "15 N·s", "10 N·s"],
+    "answer": 1,
+    "explanation": "Impulse = F Δt = \n10*3 =\n 30 N·s."
+  },
+  {
+    "question": "A 3 kg mass falls from 5 m height. Find its velocity just before hitting the ground. (g = 10 m/s²)",
+    "options": ["5 m/s",  "√50 m/s", "√100 m/s","10 m/s"],
+    "answer": 3,
+    "explanation": "v = √(2gh) = \n√(2*10*5) = \n√100 =\n 10 m/s ."
+  },
+  {
+    "question": "Which quantity is always conserved in collisions if no external forces act?",
+    "options": ["Momentum", "Kinetic energy", "Power", "Work"],
+    "answer": 0,
+    "explanation": "Linear momentum is conserved in all collisions without external forces."
+  }
+]

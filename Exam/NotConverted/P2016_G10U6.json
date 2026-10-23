@@ -1,0 +1,13 @@
+[
+{
+  "question": "38. A concave mirror has a radius of curvature of $30.0 \\text{ cm}$. It is positioned so that the upright image of the object is $2.0$ times the size of the object. How far is the object from the mirror?",
+  "options": [
+    "15.0 cm",
+    "10.0 cm",
+    "7.5 cm",
+    "22.5 cm"
+  ],
+  "answer": 2,
+  "explanation": "1. **Focal Length ($f$):** The focal length of the concave mirror is $f = R/2 = 30.0 \\text{ cm} / 2 = 15.0 \\text{ cm}$.\n\n2. **Magnification ($M$):** Since the image is **upright** (virtual) and 2.0 times the size, the magnification is $M = +2.0$. The magnification equation is $M = -v/u$, where $v$ is image distance and $u$ is object distance. \n$$+2.0 = -v/u \\implies v = -2.0u$$\n\n3. **Mirror Equation:** Substitute $f$ and the expression for $v$ into the mirror equation, $\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$:\n$$\\frac{1}{15.0} = \\frac{1}{u} + \\frac{1}{-2.0u} = \\frac{2}{2u} - \\frac{1}{2u} = \\frac{1}{2u}$$ \n$$2u = 15.0 \\text{ cm} \\implies u = 7.5 \\text{ cm}$$"
+}
+]

@@ -1,0 +1,60 @@
+[
+{
+  "question": " A correct schematic symbol for a diode is",
+  "options": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "answer": 1,
+  "explanation": "The standard schematic symbol for a semiconductor diode consists of a triangle pointing towards a vertical line. \n\nThe side with the flat base of the triangle is the Anode (positive side), and the side with the vertical line/bar is the Cathode (negative side).",
+  "image": "images/P2018R2_32.png"
+},
+{
+"question": " In aviation technology, a logic gate is used to fit an automatic circuit to light up a display in an airplane if two toilets are in use. Which one of the following logic gates is used in designing a circuit?",
+"options": [
+"OR",
+"NAND",
+"NOT",
+"AND"
+],
+"answer": 3,
+"explanation": "An AND gate outputs a HIGH signal (1) only when BOTH input conditions are met (i.e., toilet 1 AND toilet 2 are both in use)."
+},
+
+{
+"question": " If A and B are the two inputs of an AND logic gate and Y is its output, which one of the following tables is its truth table?",
+"options": [
+"",
+"",
+"",
+""
+],
+"answer": 1,
+"explanation": "An AND logic gate produces a HIGH output (1) if and only if all of its inputs are HIGH (1).\n\n For all other input combinations, the output is LOW (0). This corresponds to Table B.",
+"image": "images/P2018R2_35.png"
+},
+{
+"question": " Which of the following distinguishes between N-type and P-type semiconductors? In an N-type semiconductor,",
+"options": [
+"conduction is caused by the holes, whereas in a P-type semiconductor, conduction is caused by electrons.",
+"a group three element in the periodic table is added to an intrinsic semiconductor, whereas in a P-type, a group five element is added.",
+"a group five dopant provides extra electrons, whereas in a P-type semiconductor, a group three dopant creates holes.",
+"the dopant has less number of valence electrons than the pure semiconductor, whereas in a P-type, the dopant has more number of valence electrons."
+],
+"answer": 2,
+"explanation": "N-type semiconductors are created by doping intrinsic semiconductors (Group IV) with pentavalent (Group V) impurities, providing free electrons.\n\n P-type semiconductors are created using trivalent (Group III) impurities, which create electron deficits (holes)."
+},
+{
+"question": " If you doped silicon from group three atoms of periodic table like boron, what will be the resulting extrinsic semi-conductor material? The crystal as whole does not change, but the impurities provide",
+"options": [
+"spare electrons and the semiconductor becomes p-type semiconductor.",
+"holes and the semiconductor becomes n-type semiconductor.",
+"spare electrons and the semiconductor becomes n-type semiconductor.",
+"holes and the semiconductor becomes p-type semiconductor."
+],
+"answer": 3,
+"explanation": "Doping silicon (Group IV) with a Group III element like boron introduces electron deficiencies, which are called holes, resulting in a P-type (positive-type) semiconductor."
+}
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Which one of the following function is NOT a power function?",
+    "options": [
+      "A f(x) = √2x³",
+      "B f(x) = πx⁵",
+      "C f(x) = (√3)^(x/2)",
+      "D f(x) = x^(-3/5)"
+    ],
+    "answer": 2,
+    "explanation": "A power function has the form f(x) = kx^a, where k and a are constants and the variable x appears only as a power.\n\nOption A: f(x) = √2x³ = (√2)x³ → power function.\n\nOption B: f(x) = πx⁵ → power function.\n\nOption D: f(x) = x^(-3/5) → power function.\n\nOption C: f(x) = (√3)^(x/2) has the variable x in the exponent, so it is an exponential function, not a power function.\n\nTherefore, the correct answer is C."
+  },
+
+  {
+    "question": "Which of the following statement define the greatest integer function given by f(x) = [x]?",
+    "options": [
+      "It is an integer less than or greater than x.",
+      "It is an integer less than or equal to x.",
+      "It is the least integer greater than x.",
+      "It is an integer greater than or equal to x."
+    ],
+    "answer": 1,
+    "explanation": "The greatest integer function, f(x) = [x], gives the greatest integer that is less than or equal to x."
+  }
+]

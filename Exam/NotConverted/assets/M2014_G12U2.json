@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following is true about bounded sequence?",
+    "options": [
+      "Every decreasing bounded sequence converges to the least upper bound of the sequence.",
+      "Every monotone bounded sequence converges.",
+      "Every bounded sequence is convergent.",
+      "Every increasing bounded sequence converges to the greatest lower bound of the sequence."
+    ],
+    "answer": 1,
+    "explanation": "The Monotone Convergence Theorem states that **every monotone (either increasing or decreasing) and bounded sequence converges.\n\n This eliminates options A, C, and D. Option A and D describe how specific monotone bounded sequences converge, but option B is a direct statement of the Monotone Convergence Theorem itself, making it the most general and directly true statement about bounded sequences among the choices."
+  },
+  {
+    "question": "Let f and g be two functions. Which one of the following statements is true about f or g?",
+    "options": [
+      "If f'(a) = 0, then the tangent line to the graph of f at (a, f(a)) is y = a.",
+      "If f and g differentiable at a, then f/g is differentiable at a.",
+      "The line y = 0 is the a tangent line to the graph of f(x) = |x| at (0, 0).",
+      "If f differentiable at a, then it is continuous at a."
+    ],
+    "answer": 3,
+    "explanation": "Option D is a fundamental theorem in calculus: **Differentiability implies continuity**. If a function f is differentiable at a point a, it must be continuous at a.\n- Option A is false; if f'(a) = 0, the tangent line is y = f(a).\n- Option B is false; f/g is differentiable at a *only if g(a) = 0*.\n- Option C is false; f(x) = |x| is not differentiable at x = 0, so a tangent line cannot be defined there."
+  },
+  {
+    "question": "If lim f(x) = 6 {x→2} and lim g(x)= -9 {x→2}  then lim(f-g/2f-7)(x) where x->2 =__________",
+    "options": [
+      "15",
+      "-15",
+      "3",
+      "-3"
+    ],
+    "answer": 3,
+
+    "explanation": "Given lim f(x) = 6 and lim g(x) = -9 as x → 2. The expression is (f(x) - g(x)) / (2f(x) - 7). By limit laws, substitute the limits: Numerator: f(x) - g(x) → 6 - (-9) = 15. Denominator: 2f(x) - 7 → 2*6 - 7 = 5. Therefore, the limit is 15 / 5 = 3."
+  },
+
+
+  {
+    "question": "If f and g are continuous functions at a, then which of the following functions may **NOT** be continuous at a?",
+    "options": [
+      "f.g",
+      "2f + 3g",
+      "f - 2g",
+      "f/g"
+    ],
+    "answer": 3,
+    "explanation": "If f and g are continuous at a, then sums, differences, scalar multiples, and products of f and g are always continuous at a. However, the quotient f/g may not be continuous at a because it is undefined if g(a) = 0. Therefore, f/g may NOT be continuous at a."
+
+
+  }
+
+]

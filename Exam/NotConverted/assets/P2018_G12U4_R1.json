@@ -1,0 +1,36 @@
+[
+{
+  "question": "A long current carrying wire is lying on the plane of this paper. The wire length is along the y-axis carrying current I along the positive y direction as shown in the figure below.\n\nWhat is the direction of the magnetic field produced on the plane of the paper at indicated distance r from the wire along x-axis?",
+  "options": [
+    "Towards the positive y direction at point a",
+    "Towards the negative x direction at point b",
+    "Perpendicular to the plane of the page at point b",
+    "Perpendicular to the plane of the page at point a"
+  ],
+  "answer": 2,
+  "explanation": "The magnetic field around a long straight current-carrying wire forms circular paths around the wire.\n\nUsing the right-hand rule, point your right thumb in the direction of the current, which is upward along the positive y-axis.\n\nYour curled fingers show the direction of the magnetic field around the wire.\n\nAt point b, which is on the left side of the wire, the magnetic field points out of the page, so it is perpendicular to the plane of the paper.",
+  "image": "images/P2018_5.png"
+},
+{
+"question": "For a coil placed in a variable magnetic field, Lenz's law states that the direction of the induced current in the coil is in such a way as to",
+"options": [
+"make the flux through the coil zero.",
+"oppose the flux change through the coil.",
+"decrease the flux through the coil.",
+"increase the flux through the coil."
+],
+"answer": 1,
+"explanation": "Lenz's law states that the induced current flows in a direction that opposes the change in magnetic flux responsible for producing the current.\n\nIt does not necessarily oppose the magnetic flux itself; it opposes the change in flux.\n\nTherefore, option 1 is correct."
+},
+{
+"question": "Suppose a 50 Hz outlet voltage of 10,000 V needs to be reduced to 220 V using a stepdown transformer. How many turns does the primary coil on the transformer have if the secondary coil has 110 turns?",
+"options": [
+"5000",
+"550",
+"1000",
+"110"
+],
+"answer": 0,
+"explanation": "For an ideal transformer, the voltage ratio equals the turns ratio: Vₚ/Vₛ = Nₚ/Nₛ.\n\nSubstituting the values gives 10,000/220 = Nₚ/110.\n\nTherefore, Nₚ = (10,000 × 110)/220 = 5000 turns."
+}
+]

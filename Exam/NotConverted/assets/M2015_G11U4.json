@@ -1,0 +1,14 @@
+[
+
+  {
+    "question": "Let N be the set of Natural numbers N. Which one of the following propositions has the truth value TRUE?",
+    "options": [
+      "(∀x)(∃y)(xy < x)",
+      "(∀x)(∃y)(x - y = 5)",
+      "(∀x)(∀y)(x ≠ y => x > y)",
+      "(∃x)(∃y)(x - y = y-x)"
+    ],
+    "answer": 3,
+    "explanation": "Option 1: False because for x=1, no y satisfies xy < x. \n\n Option 2: False because for x<5, y = x-5 is not natural. \n\n Option 3: False because x ≠ y does not imply x > y.\n\n  Option 4: True because x - y = y - x simplifies to x = y; choose x=y=1 in N, statement holds."
+  }
+]

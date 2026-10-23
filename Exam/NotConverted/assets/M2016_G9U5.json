@@ -1,0 +1,47 @@
+[
+  {
+    "question": " If the measure of each interior angle of a regular polygon is 135°, then which one of the following is the number of lines of symmetry of the polygon?",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ],
+    "answer": 1,
+    "explanation" : " interior angle = ((n-2) × 180)/n.\n  ((n-2) × 180)/n = 135, \nsolving gives n = 8.\n\n A regular polygon has as many lines of symmetry as sides, so it has 8 lines of symmetry."
+  },
+  {
+    "question": " Consider a circle with center $O$ and the line segments AB, AC and BC are chords of the circle as shown in the figure below. If m(< ABC) = 60° and m(< ACB) = 40°, then what is m(<BOC)?",
+    "options": [
+      "100°",
+      "80°",
+      "120°",
+      "160°"
+    ],
+    "answer": 3,
+    "image": "images/M2016_11.png",
+    "explanation": ""
+  },
+  {
+    "question": " A sector of a circle of diameter 8 cm is formed by a central angle of 45°. What is the area of the sector?",
+    "options": [
+      "π cm²",
+      "(2π + 8)cm²",
+      "8πcm²",
+      "2π cm²  "
+    ],
+    "answer": 3,
+    "explanation": "Radius r = 8/2 = 4 cm. \nArea of sector = (θ/360) × π r² =\n (45/360) × π × 16 = \n(1/8) × 16π = \n2π cm²."
+  },
+  {
+    "question": " If the length of the sides of a triangle are 8 cm, 6cm and 4 cm, then which one of the following is the area of the triangle?",
+    "options": [
+      "24cm²",
+      "12cm²",
+      "3√15cm²",
+      "1.5√15cm²"
+    ],
+    "answer": 2,
+    "explanation": "Use Heron's formula: s = (a+b+c)/2 = 9.\n Area = √[s(s-a)(s-b)(s-c)] =\n √[9(9-8)(9-6)(9-4)] =\n √135 = \n3√15 cm²."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "question": "The solution set of the equation given by log(x² - 3) = 2log(x - 1) is:",
+    "options": [
+      "{2}",
+      "{1/2}",
+      "∅",
+      "{4}"
+    ],
+    "answer": 0,
+    "explanation": "log(x²−3)=2log(x−1) \n\n x²−3=(x−1)² ⇒ x=2,\n\n but domain: x>1 and x²−3>0 ⇒ x>√3.\n\n Though x=2 satisfies both."
+  },
+
+  {
+    "question": "If Birr 20,000 is deposited in a Bank at a rate of 12% interest compounded monthly, how long will it take to double the amount?",
+    "options": [
+      "5.81 years",
+      "5 years",
+      "7.59 years",
+      "6 years"
+    ],
+    "answer": 0,
+
+    "explanation": "Use compound interest formula: A = P(1 + r/n)^(n*t).\n\n Here, A = 2P, P = 20000, r = 0.12, n = 12.\n\n So, 2 = (1 + 0.12/12)^(12t) = (1.01)^(12t).\n\n Take natural logarithm: ln 2 = 12t * ln 1.01 \n\n→ t = ln 2 / (12 * ln 1.01) \n\n≈ 0.693147 / 0.1194 \n\n≈ 5.81 years."
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "id": "p2015_g9_merged_melmeja",
+  "title": "Physics Grade 9 Practice Questions 2015 (3 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Physics",
+  "description": "Combined 3 chapter files (P2015_G9U1.json, P2015_G9U5.json, P2015_G9U7.json) into one exam. 4 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 4,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "ENTRANCE",
+    "2015",
+    "Grade 9",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_p2015_g9u1_melmeja_1",
+      "examId": "p2015_g9_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "A boy in a journey covers his route by travelling 3.0 km east and 4.0 km north. What is the magnitude of his resultant displacement?",
+      "options": [
+        "5.0 km",
+        "1.0 km",
+        "7.0 km",
+        "2.7 km"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The displacement components are perpendicular: 3.0 km east and 4.0 km north.\n\n The magnitude of the resultant displacement is found using the Pythagorean theorem:\n\nResultant = √(3.0² + 4.0²) = √(9 + 16) = √25 = 5.0 km.\n\nTherefore, the magnitude of the resultant displacement is 5.0 km.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g9u1_melmeja_2",
+      "examId": "p2015_g9_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "An inclined plane is 20 m long and is inclined at an angle of 15° to the horizontal. If the effort required to push a block of weight 3,000 N up the slope is 900 N, what is the efficiency of the inclined plane?",
+      "options": [
+        "100%",
+        "86.7%",
+        "25.9%",
+        "30.0%"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Efficiency of an inclined plane is given by (Mechanical Advantage / Velocity Ratio) × 100.\n\n Mechanical Advantage MA = Load / Effort = 3000 / 900 = 3.333. The vertical height h = L × sin(theta) = 20 × sin(15°) ≈ 5.176 m.\n\n Velocity Ratio VR = L / h = 20 / 5.176 ≈ 3.865. \n\nTherefore, Efficiency = (3.333 / 3.865) × 100 ≈ 86.7%. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g9u1_melmeja_3",
+      "examId": "p2015_g9_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following activities of experiment is NOT necessary to determine the specific latent heat of vaporization of water?",
+      "options": [
+        "Measuring temperature",
+        "Measuring volume",
+        "Measuring time",
+        "Measuring mass"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To determine the specific latent heat of vaporization (L) of water, we use the formula L = Q / m, where Q is the heat supplied and m is the mass of water vaporized.\n\n It is necessary to measure the mass of water, the time (to calculate energy supplied), and the temperature to ensure boiling occurs.\n\n Measuring volume is not required, as mass is sufficient for the calculation.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2015_g9u1_melmeja_4",
+      "examId": "p2015_g9_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "A bimetallic strip made up of iron and brass bonded together is used in a thermostat. The coefficient of linear expansion for iron and brass are 1.1 * 10⁻⁵k  and 1.9 * 10⁻⁵k respectively. Which of one the following phenomena occurs when the temperature changes?",
+      "options": [
+        "When the temperature decreases, the brass section of the bimetallic strip contracts slowly than the iron and the strip bends towards the brass section.",
+        "When the temperature increases, the iron section of the bimetallic strip expands faster than the brass and the strip bends towards the brass section.",
+        "When the temperature increases, the brass section of the bimetallic strip expands faster than the iron and the strip bends towards the iron section.",
+        "When the temperature decreases, the iron section of the bimetallic strip contracts faster than the brass and the strip bends towards the iron section."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Brass has a higher coefficient of linear expansion than iron.\n\n This means that for the same temperature increase, brass expands more than iron. Since the two metals are bonded together, the strip bends towards the metal that expands less, which is iron.\n\n Therefore, when the temperature increases, the strip bends towards the iron section.",
+      "topic": "Physics"
+    }
+  ]
+}

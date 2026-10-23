@@ -1,0 +1,68 @@
+[
+{
+  "question": "Kepler's second law of planetary motion states that",
+  "options": [
+    "the orbit of a planet around the Sun is an ellipse with the Sun at one focus.",
+    "the radius vector drawn from the Sun to any planet sweeps out equal areas in equal time intervals.",
+    "the square of the period of a planet is proportional to the cube of the average distance between the Sun and the planet.",
+    "a planet moves fastest when it is at the aphelion and slowest when it is at perihelion."
+  ],
+  "answer": 1,
+  "explanation": "Kepler's second law (Law of Equal Areas) states that a line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time."
+},
+{
+"question": "Suppose r⃗ is the position vector from an axis of rotation to the point of application of a force F⃗ and θ is the angle between r⃗ and F⃗, when joined tail to tail. The magnitude of the torque caused by the force is the product of the",
+"options": [
+"magnitude of the force and perpendicular distance from the axis of rotation to the line of action of the force.",
+"component of the force perpendicular to the position vector and the component of the position vector parallel to the force.",
+"magnitudes of the force and the position vector.",
+"component of the force parallel to the position vector and the magnitude of the position vector."
+],
+"answer": 0,
+"explanation": "Torque is defined as τ = r F sin(θ).\n\n Here, r sin(θ) represents the perpendicular distance from the axis of rotation to the line of action of the force (the moment arm).\n\n Thus, torque is the product of the magnitude of the force and this perpendicular distance."
+},
+{
+"question": "A ball is thrown from the top of a 7.2 m high building with a speed of 20 m/s at an angle of 53° above the horizontal. The magnitude of the vertical component of the ball's velocity just before hitting the ground is",
+"options": [
+"12 m/s.",
+"20 m/s.",
+"10 m/s.",
+"16 m/s."
+],
+"answer": 1,
+"explanation": "Initial vertical velocity vy0 = v₀ sin(53°) =\n\n 20 × 0.8 = 16 m/s (upward). \n\nUsing conservation of energy / kinematics equation vyf² = vy0² + 2gh (taking g = 10 m/s²):\n\n vyf² = (16)² + 2(10)(7.2) =\n\n 256 + 144 = 400.\n\n Taking the square root gives vyf = 20 m/s."
+},
+{
+"question": "A wheel of radius, r starts rotating about an axis passing through its center and accelerates with angular acceleration, α until its angular speed reaches ω. During this process, it rotates an angular displacement, θ. Which one of the following relations between linear components of a point at a rim of the wheel and its angular components is correct? (Assume all angular components are given in radian)",
+"options": [
+"The centripetal acceleration at the point is a_cent = α · r.",
+"The centripetal acceleration at the point is a_cent = ω² · r.",
+"The tangential acceleration of the point is aₜ = ω² · r.",
+"The tangential velocity of the point is vₜ = ω / r."
+],
+"answer": 1,
+"explanation": "Centripetal (radial) acceleration is given by a_cent = v²/r = ω² · r.\n\n Tangential acceleration is a_t = α ·\n\n r, and tangential velocity is v_t = ω · r."
+},
+{
+"question": " A satellite orbits around the Earth with a mean orbital radius of R. If the mass of the Earth is Mₑ, how long does the satellite take to orbit the earth?",
+"options": [
+"1/(2π) √(R³/GMₑ)",
+"2π √(R²/GMₑ)",
+"2π √(R³/GMₑ)",
+"1/(2π) √(R²/GMₑ)"
+],
+"answer": 2,
+"explanation": "The gravitational force provides the centripetal force needed for the satellite's circular orbit.\n\n Therefore, GMₑm/R² = mv²/R. \n\nSince the orbital speed is v = 2πR/T,\n\n substituting this into the equation gives\n\n T² = 4π²R³/(GMₑ).\n\n Taking the square root, T = 2π√(R³/GMₑ).\n\n Therefore, the correct answer is C."
+},
+{
+"question": " Which of the following statements correctly explains about the linear and angular quantities of a rotating body?",
+"options": [
+"At a given instant, all points of a rotating disk have the same tangential speed and different angular speed.",
+"At a given instant, a point on the edge of a rotating tire has larger tangential speed than a point closer to the center of the tire.",
+"A point closer to the center of a rotating disk travels larger linear distance than a point farther from the center.",
+"For a rotating disk, the radial and tangential accelerations are parallel."
+],
+"answer": 1,
+"explanation": "Tangential speed is given by v = rω.\n\n For a rotating rigid body, all points share the same angular speed (ω), but points farther from the axis (larger radius r) have a larger tangential speed."
+}
+]

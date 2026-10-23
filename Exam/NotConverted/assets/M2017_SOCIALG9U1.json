@@ -1,0 +1,46 @@
+[
+{
+  "question": "6) What is the result when $3\\sqrt{2} - 7\\sqrt{6}$ is subtracted from $2\\sqrt{2} - 4\\sqrt{3}$?",
+  "options": [
+    "A $\\sqrt{2} - 7\\sqrt{3}(7\\sqrt{3}+4)$",
+    "B $-\\sqrt{2} + 11\\sqrt{2}\\sqrt{3}$",
+    "C $-\\sqrt{2} + (4 + 7\\sqrt{2})\\sqrt{3}$",
+    "D $-\\sqrt{2} + (4 - 7\\sqrt{2})\\sqrt{3}$"
+  ],
+  "answer": 2,
+  "explanation": "The problem is to calculate $(2\\sqrt{2} - 4\\sqrt{3}) - (3\\sqrt{2} - 7\\sqrt{6})$. Distribute the negative sign: $2\\sqrt{2} - 4\\sqrt{3} - 3\\sqrt{2} + 7\\sqrt{6}$. Group like terms (only $2\\sqrt{2}$ and $-3\\sqrt{2}$ are like): $(2\\sqrt{2} - 3\\sqrt{2}) - 4\\sqrt{3} + 7\\sqrt{6}$. Simplify: $-\\sqrt{2} - 4\\sqrt{3} + 7\\sqrt{6}$. Factor out $\\sqrt{3}$ from the remaining terms, noting that $\\sqrt{6} = \\sqrt{2}\\sqrt{3}$: $-\\sqrt{2} - 4\\sqrt{3} + 7\\sqrt{2}\\sqrt{3} = -\\sqrt{2} + (-4 + 7\\sqrt{2})\\sqrt{3}$. This matches option C, as $-(4\\sqrt{3}) + 7\\sqrt{2}\\sqrt{3} = (-4 + 7\\sqrt{2})\\sqrt{3}$."
+},
+{
+"question": "11) What is the rationalizing factor of the number $\\frac{5\\sqrt{3}}{\\sqrt{3}-\\sqrt{2}}$?",
+"options": [
+"A $\\sqrt{3}+\\sqrt{2}$",
+"B $\\frac{\\sqrt{3}}{\\sqrt{2}}$",
+"C $\\sqrt{3}-\\sqrt{2}$",
+"D $\\frac{1}{\\sqrt{3}+\\sqrt{2}}$"
+],
+"answer": 0,
+"explanation": "The expression to be rationalized has a denominator $\\sqrt{3}-\\sqrt{2}$. To rationalize a denominator of the form $a-b$, we multiply by its conjugate $a+b$. Thus, the rationalizing factor is the conjugate of the denominator, which is $\\sqrt{3} + \\sqrt{2}$."
+},
+{
+"question": "26) A circle with radius $3 \\text{ cm}$ increases its radius at a rate of $0.2 \\text{ cm/sec}$. What is the area of the circle at the $5^{\\text{th}}$ second?",
+"options": [
+"A $9\\pi \\text{ cm}^2$",
+"B $4\\pi \\text{ cm}^2$",
+"C $16\\pi \\text{ cm}^2$",
+"D $9.64\\pi \\text{ cm}^2$"
+],
+"answer": 2,
+"explanation": "1. **Determine the radius $r(t)$ at time $t$:** The initial radius is $r_0 = 3 \\text{ cm}$. The rate of increase is $\\frac{dr}{dt} = 0.2 \\text{ cm/sec}$. The radius at time $t$ is $r(t) = r_0 + (\\text{rate} \\times t) = 3 + 0.2t$. 2. **Find the radius at $t = 5$ seconds:** $r(5) = 3 + 0.2(5) = 3 + 1.0 = 4 \\text{ cm}$. 3. **Calculate the Area ($A$):** The area of a circle is $A = \\pi r^2$. $A = \\pi (4)^2 = 16\\pi \\text{ cm}^2$."
+},
+{
+"question": "Let $S$ be a set given by ${x \\in \\mathbb{N} : 1 < x \\le 100}$. Then which one of the following statement is true?",
+"options": [
+"A $S$ is equivalent to ${101, 102, ..., 198}$.",
+"B $S$ is equivalent to ${1, 2, 3, ..., 100}$.",
+"C $S$ is equal to ${2, 3, 4, ..., 99}$.",
+"D $S$ is equal to ${2, 3, 4, ..., 99, 100}$. "
+],
+"answer": 3,
+"explanation": "The set $S$ is defined as the set of natural numbers ($mathbb{N} = {1, 2, 3, ...}$) such that $x$ is strictly greater than 1 ($x > 1$) and less than or equal to 100 ($x \\le 100$).\n\n- The integers that satisfy $1 < x \\le 100$ are $2, 3, 4, ..., 100$.\n- Therefore, $S = {2, 3, 4, ..., 100}$.\n\n- **Check Options:**\n  - Option C: ${2, 3, 4, ..., 99}$ is missing the element $100$. This is not equal to $S$.\n  - Option D: ${2, 3, 4, ..., 99, 100}$ **is equal to $S$**.\n\n- **Equivalence (Options A and B):** Two sets are equivalent if they have the same number of elements (cardinality).\n  - The cardinality of $S$ is $100 - 2 + 1 = 99$.\n  - Cardinality of ${1, 2, 3, ..., 100}$ (Option B) is $100$. Not equivalent.\n  - Cardinality of ${101, 102, ..., 198}$ (Option A) is $198 - 101 + 1 = 98$. Not equivalent."
+}
+]

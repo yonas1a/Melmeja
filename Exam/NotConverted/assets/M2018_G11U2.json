@@ -1,0 +1,25 @@
+[
+{
+
+  "question": " What is the simplified form of the expression, ((x + 3) / x ÷ (x - 2) / (x - 3)) * ((x² - 2x) / (x² - 9)) over its domain?",
+  "options": [
+    "(x - 2) / x",
+    "(x² - 2) / (x² - 9)",
+    "((x - 2)(x + 3)) / (x² - 3x)",
+    "1"
+  ],
+  "answer": 3,
+  "explanation": "((x+3)/x) ÷ ((x-2)/(x-3)) × ((x²-2x)/(x²-9)) \n\n=>  ((x+3)/x) × ((x-3)/(x-2)) × (x(x-2)/((x-3)(x+3))) = 1"
+},
+{
+"question": " Which one of the following is true about the function f defined by f(x) = (3x² + 3x - 6) / (x² - 1)?",
+"options": [
+"Its x-intercept is (-2, 0) and its y-intercept is (0, 6).",
+"Its x-intercept is (1, 0) and its y-intercept is (0, -6).",
+"Its x-intercepts are (-2, 0) and (1, 0), and its y-intercept is (0, -6).",
+"Its x-intercepts are (-2, 0) and (1, 0), and its y-intercept is (0, 6)."
+],
+"answer": 3,
+"explanation": "f(x)=(3x²+3x-6)/(x²-1)\n\n=> 3(x+2)(x-1)/((x-1)(x+1))\n\n=> 3(x+2)/(x+1), x≠±1.\n\n=> x-intercepts: 3(x+2)=0 \n⇒ x=-2 \n⇒ (-2,0).\n\n=> y-intercept: f(0)=(-6)/(-1)=\n6 \n⇒ (0,6)."
+}
+]

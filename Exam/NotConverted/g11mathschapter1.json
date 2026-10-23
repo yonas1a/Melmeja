@@ -1,0 +1,1217 @@
+[
+  {
+    "question": "Let R be a relation on ℝ defined by R = {(x, y) | y = 2x + 3}. Determine whether R is a function and identify its inverse relation.",
+    "options": [
+      "Yes, inverse is y = (x - 3)/2",
+      "No, inverse is y = 2x - 3",
+      "Yes, inverse is y = 2x - 3",
+      "No, inverse is y = (x + 3)/2"
+    ],
+    "answer": 0,
+    "explanation": "Each x gives a unique y, so it is a function.\n\n Solving x = 2y + 3 for y gives y = (x - 3)/2."
+  },
+  {
+    "question": "Consider the relation R defined by x² + y² = 16. Determine whether this relation represents a function and justify.",
+    "options": [
+      "Yes, because every x has exactly one y",
+      "No, because some x values correspond to two y values",
+      "Yes, because it is symmetric",
+      "No, because it is not continuous"
+    ],
+    "answer": 1,
+    "explanation": "For a given x, there are generally two y-values (positive and negative), so it fails the vertical line test."
+  },
+  {
+    "question": "Let f(x) = 3x - 5 and g(x) = x² + 1. Find (f ∘ g)(x).",
+    "options": [
+
+      "3x² + 3x - 4",
+      "3x² + 3x - 5",
+      "3x² - 5",
+      "3x² - 2"
+    ],
+    "answer": 3,
+    "explanation": "(f ∘ g)(x) = f(g(x)) = \n3(x² + 1) - 5 = \n3x² + 3 - 5 = \n3x² - 2."
+  },
+  {
+    "question": "Given f(x) = (x - 1)/(x + 2), find the inverse function f⁻¹(x).",
+    "options": [
+
+      "(x + 2)/(x - 1)",
+      "(2x + 1)/(1 - x)",
+      "(2x - 1)/(1 + x)",
+      "(x - 2)/(x + 1)"
+    ],
+    "answer": 1,
+    "explanation": "Let y = (x - 1)/(x + 2).\n Solving for x gives x = (2y + 1)/(1 - y).\n Replace y with x."
+  },
+  {
+    "question": "Determine the domain of the inverse of f(x) = √(x - 4).",
+    "options": [
+
+      "[4, ∞)",
+      "(-∞, ∞)",
+      "[0, ∞)",
+      "(0, ∞)"
+    ],
+    "answer": 2,
+    "explanation": "The range of f is [0, ∞), so this becomes the domain of its inverse."
+  },
+  {
+    "question": "If f(x) = x³ + 1, verify whether f is invertible on ℝ.",
+    "options": [
+      "Yes, because it is one-to-one",
+      "No, because it is not continuous",
+      "No, because it is not onto",
+      "Yes, because it is periodic"
+    ],
+    "answer": 0,
+    "explanation": "The function is strictly increasing, hence one-to-one and invertible."
+  },
+  {
+    "question": "Let f(x) = |x|. Determine if the inverse exists over ℝ.",
+    "options": [
+      "Yes, inverse exists",
+      "No, because it is not one-to-one",
+      "Yes, because it is continuous",
+      "No, because it is undefined at 0"
+    ],
+    "answer": 1,
+    "explanation": "f(x) = |x| is not one-to-one since f(-x) = f(x)."
+  },
+  {
+    "question": "Find (g ∘ f)(x) if f(x) = x + 2 and g(x) = x² - 1.",
+    "options": [
+      "x² + 4x + 3",
+      "x² + 2x - 1",
+      "x² + 4x - 1",
+      "x² + 2x + 3"
+    ],
+    "answer": 0,
+    "explanation": "g(f(x)) = (x + 2)² - 1 =\n x² + 4x + 4 - 1 =\n x² + 4x + 3."
+  },
+  {
+    "question": "Which of the following relations is reflexive?",
+    "options": [
+      "R = {(x, y) | x < y}",
+      "R = {(x, y) | x = y}",
+      "R = {(x, y) | x > y}",
+      "R = {(x, y) | x ≠ y}"
+    ],
+    "answer": 1,
+    "explanation": "Reflexive means (x, x) ∈ R for all x, which holds only for equality."
+  },
+  {
+    "question": "If f(x) = 2x + 3, find f⁻¹(7).",
+    "options": [
+
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Solve 7 = 2x + 3 → x = 2."
+  },
+
+  {
+    "question": "Determine whether the function f(x) = x³ - x is one-to-one on ℝ.",
+    "options": [
+      "Yes, strictly increasing",
+      "No, fails horizontal line test",
+      "Yes, continuous",
+      "No, not defined everywhere"
+    ],
+    "answer": 1,
+    "explanation": "It has turning points, so it is not one-to-one."
+  },
+  {
+    "question": "Find the inverse of f(x) = (x + 1)², given domain x ≥ -1.",
+    "options": [
+
+      "±√x - 1",
+      "√(x - 1)",
+      "x² - 1",
+      "√x - 1"
+    ],
+    "answer": 3,
+    "explanation": "Restricted domain ensures one-to-one, so inverse is √x - 1."
+  },
+  {
+    "question": "Which transformation reflects a graph across the line y = x?",
+    "options": [
+      "Inverse function",
+      "Translation",
+      "Rotation",
+      "Scaling"
+    ],
+    "answer": 0,
+    "explanation": "Inverse swaps x and y, reflecting across y = x."
+  },
+  {
+    "question": "Let f(x) = 1/x. Find f(f(x)).",
+    "options": [
+      "x",
+      "1/x²",
+      "x²",
+      "-x"
+    ],
+    "answer": 0,
+    "explanation": "f(f(x)) = f(1/x) = x."
+  },
+  {
+    "question": "Which function is not invertible?",
+    "options": [
+      "f(x) = x³",
+      "f(x) = x + 1",
+      "f(x) = x²",
+      "f(x) = 2x - 3"
+    ],
+    "answer": 2,
+    "explanation": "x² is not one-to-one on ℝ."
+  },
+
+  {
+    "question": "Find the domain of f(x) = √(5 - x²).",
+    "options": [
+
+      "(−∞, ∞)",
+      "[0, √5]",
+      "[-√5, √5]",
+      "(-√5, √5)"
+    ],
+    "answer": 2,
+    "explanation": "5 - x² ≥ 0 → x² ≤ 5."
+  },
+  {
+    "question": "If f(x) = ln(x - 1), find its domain.",
+    "options": [
+
+      "(0, ∞)",
+      "(-∞, 1)",
+      "(−∞, ∞)",
+      "(1, ∞)"
+    ],
+    "answer": 3,
+    "explanation": "Argument must be positive: x - 1 > 0."
+  },
+  {
+    "question": "Find f⁻¹(x) if f(x) = e^(2x).",
+    "options": [
+      "(1/2)ln(x)",
+      "ln(2x)",
+      "2ln(x)",
+      "ln(x)/2"
+    ],
+    "answer": 0,
+    "explanation": "Take ln: ln(y) = 2x → x = (1/2)ln(y)."
+  },
+
+  {
+    "question": "If f and g are inverses, what is f(g(x))?",
+    "options": [
+
+      "f(x)",
+      "x",
+      "g(x)",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Inverse functions cancel out."
+  },
+
+  {
+    "question": "Which of the following represents a bijection?",
+    "options": [
+      "f(x) = x² on ℝ",
+      "f(x) = x³",
+      "f(x) = |x|",
+      "f(x) = sin(x)"
+    ],
+    "answer": 1,
+    "explanation": "x³ is one-to-one and onto ℝ."
+  },
+
+  {
+    "question": "Find the range of f(x) = x² for x ≥ 0.",
+    "options": [
+      "[0, ∞)",
+      "(−∞, ∞)",
+      "(0, ∞)",
+      "(-∞, 0]"
+    ],
+    "answer": 0,
+    "explanation": "Square of non-negative numbers is non-negative."
+  },
+
+  {
+    "question": "Which relation is symmetric?",
+    "options": [
+      "If (a,b) ∈ R then (b,a) ∈ R",
+      "If (a,b) ∈ R then (a,a) ∈ R",
+      "If (a,b) ∈ R then (b,c) ∈ R",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Definition of symmetric relation."
+  },
+
+  {
+    "question": "Which of the following is transitive?",
+    "options": [
+
+      "If (a,b), then (b,a)",
+      "If (a,a), then (a,b)",
+      "If (a,b) and (b,c), then (a,c)",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Definition of transitive relation."
+  },
+
+  {
+    "question": "Find f(g(f(x))) if f(x)=x+1, g(x)=2x.",
+    "options": [
+
+      "2x+2",
+      "2x+1",
+      "2x+3",
+      "2x+4"
+    ],
+    "answer": 2,
+    "explanation": "f(x)=x+1 → \ng(f(x))=\n2(x+1)=\n2x+2 → \nf(...) =2x+3."
+  },
+
+  {
+    "question": "Let f(x) = (2x - 3)/(x + 4). Find the inverse function f⁻¹(x) ",
+    "options": [
+      "(4x + 3)/(2 - x)",
+      "(3 - 4x)/(x - 2)",
+      "(4x - 3)/(2 + x)",
+      "(3 + 4x)/(x - 2)"
+    ],
+    "answer": 0,
+    "explanation": "Let y = (2x - 3)/(x + 4).\n Solve for x: y(x + 4) = 2x - 3 \n→ yx + 4y = 2x - 3 \n→ yx - 2x = -3 - 4y\n → x(y - 2) = -3 - 4y \n→ x = (4y + 3)/(2 - y). \nReplace y with x."
+  },
+  {
+    "question": "Consider the function f(x) = √(3x - 6). Determine the domain of f.",
+    "options": [
+
+      "Domain: (−∞, ∞), inverse domain: [2, ∞)",
+      "Domain: [0, ∞), inverse domain: [2, ∞)",
+      "Domain: (2, ∞), inverse domain: (0, ∞)",
+      "Domain: [2, ∞), inverse domain: [0, ∞)"
+    ],
+    "answer": 3,
+    "explanation": "3x - 6 ≥ 0 → x ≥ 2.\n So domain is [2, ∞).\n Range is [0, ∞), which becomes the domain of the inverse."
+  },
+  {
+    "question": "Let f(x) = x² - 4x + 5, restricted to x ≥ 2. Find f⁻¹(x).",
+    "options": [
+      "2 + √(x - 1)",
+      "2 - √(x - 1)",
+      "√(x - 1)",
+      "2 + √(x + 1)"
+    ],
+    "answer": 0,
+    "explanation": "Complete the square: f(x) = (x - 2)² + 1.\n So y = (x - 2)² + 1 \n→ x - 2 = √(y - 1)\n → x = 2 + √(y - 1)."
+  },
+
+  {
+    "question": "Determine whether the function f(x) = x³ - 3x is invertible on ℝ and justify using monotonicity.",
+    "options": [
+      "Yes, strictly increasing",
+      "No, not one-to-one due to turning points",
+      "Yes, continuous",
+      "No, not defined everywhere"
+    ],
+    "answer": 1,
+    "explanation": "The derivative changes sign, so the function is not monotonic and fails the horizontal line test."
+  },
+  {
+    "question": "Let f(x) = 1/(x - 2). Find f(f(x)) .",
+    "options": [
+
+      "x",
+      "(x - 2)/(5 - 2x)",
+      "1/(x - 4)",
+      "(x - 3)/(x - 2)"
+    ],
+    "answer": 1,
+    "explanation": "f(f(x)) = 1/[(1/(x-2)) - 2] =\n 1/[(1 - 2(x-2))/(x-2)] =\n (x-2)/(1 - 2x + 4) =\n (x-2)/(5 - 2x)."
+  },
+  {
+    "question": "Which of the following functions is bijective over ℝ?",
+    "options": [
+      "f(x) = x³ + x",
+      "f(x) = x²",
+      "f(x) = |x|",
+      "f(x) = sin(x)"
+    ],
+    "answer": 0,
+    "explanation": "x³ + x is strictly increasing, hence one-to-one and onto ℝ."
+  },
+  {
+    "question": "If f(x) = √x and g(x) = x² for x ≥ 0, determine whether f and g are inverses.",
+    "options": [
+      "Yes, both compositions equal x",
+      "No, because domains differ",
+      "Yes, because both are continuous",
+      "No, because they are not functions"
+    ],
+    "answer": 0,
+    "explanation": "f(g(x)) = √(x²) = x\n and g(f(x)) =\n (√x)² = x for x ≥ 0."
+  },
+  {
+    "question": "Find the domain of the composition (f ∘ g)(x) if f(x) = √x and g(x) = x² - 4.",
+    "options": [
+
+      "(-2, 2)",
+      "(0, ∞)",
+      "(-∞, -2] ∪ [2, ∞)",
+      "(-∞, ∞)"
+    ],
+    "answer": 2,
+    "explanation": "f(g(x)) = √(x² - 4) requires x² - 4 ≥ 0 → |x| ≥ 2."
+  },
+  {
+    "question": "Which condition guarantees that a function has an inverse?",
+    "options": [
+      "Continuity",
+      "Differentiability",
+      "One-to-one property",
+      "Boundedness"
+    ],
+    "answer": 2,
+    "explanation": "A function must be one-to-one (injective) to have an inverse."
+  },
+  {
+    "question": "Let R be defined on ℝ by (x, y) ∈ R if x - y is even. Identify the type of relation.",
+    "options": [
+      "Equivalence relation",
+      "Symmetric only",
+      "Transitive only",
+      "Reflexive only"
+    ],
+    "answer": 0,
+    "explanation": "It is reflexive, symmetric, and transitive, hence an equivalence relation."
+  },
+  {
+    "question": "Find the inverse of f(x) = (x + 2)/(x - 1).",
+    "options": [
+
+      "(x + 1)/(x - 2)",
+      "(2 + x)/(x - 1)",
+      "(x - 2)/(x + 1)",
+      "(x + 2)/(x - 1)"
+    ],
+    "answer": 3,
+    "explanation": "Solving shows the function is self-inverse."
+  },
+  {
+    "question": "If f(x) = x² restricted to x ≥ 0, evaluate f⁻¹(16).",
+    "options": [
+      "4",
+      "-4",
+      "±4",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Inverse is √x, so √16 = 4."
+  },
+  {
+    "question": "Determine whether the relation R = {(x, y) | y = |x - 3|} is a function.",
+    "options": [
+      "Yes, each x gives exactly one y",
+      "No, multiple y for one x",
+      "No, not continuous",
+      "Yes, symmetric"
+    ],
+    "answer": 0,
+    "explanation": "Absolute value gives a unique output for each input."
+  },
+  {
+    "question": "Find (f ∘ g ∘ f)(x) if f(x) = x + 1 and g(x) = x².",
+    "options": [
+      "(x + 1)² + 1",
+      "x² + 2x + 2",
+      "(x + 2)²",
+      "x² + 1"
+    ],
+    "answer": 1,
+    "explanation": "f(x)=x+1 \n→ g(f(x))=(x+1)² \n→ f(...)=(x+1)²+1\n = x²+2x+2."
+  },
+  {
+    "question": "Which graph represents the inverse of a function geometrically?",
+    "options": [
+
+      "Reflection over x-axis",
+      "Rotation 90°",
+      "Reflection over y = x",
+      "Translation"
+    ],
+    "answer": 2,
+    "explanation": "Inverse reflects across y = x."
+  },
+  {
+    "question": "Find the range of f(x) = 1/(x² + 1).",
+    "options": [
+      "(0, 1]",
+      "[0, 1)",
+      "(−∞, ∞)",
+      "[1, ∞)"
+    ],
+    "answer": 0,
+    "explanation": "Denominator ≥1, so range is (0,1]."
+  },
+  {
+    "question": "If f(x) = 2x + 5 and f⁻¹(x) exists, find f⁻¹(f(3)).",
+    "options": [
+      "3",
+      "11",
+      "1",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Inverse cancels function: result is 3."
+  },
+  {
+    "question": "Determine if f(x) = tan(x) is invertible on ℝ.",
+    "options": [
+      "Yes, everywhere",
+      "No, not one-to-one on ℝ",
+      "Yes, periodic",
+      "No, undefined"
+    ],
+    "answer": 1,
+    "explanation": "tan(x) is periodic, so not one-to-one on ℝ."
+  },
+  {
+    "question": "Let f(x) = (x - 2)/(x + 3). Find the inverse function f⁻¹(x) .",
+    "options": [
+      "(2 + 3x)/(1 - x)",
+      "(3x - 2)/(x + 1)",
+      "(2 - 3x)/(x - 1)",
+      "(3 + 2x)/(1 - x)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Consider f(x) = x² - 6x + 10 restricted to x ≥ 3. Find f⁻¹(x) and explain how restriction ensures invertibility.",
+    "options": [
+
+      "3 - √(x - 1)",
+      "√(x - 1)",
+      "3 + √(x - 1)",
+      "x² + 3"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "If f(x) = 1/(x - 1) and g(x) = 1/(x + 1), compute (f ∘ g)(x) and simplify fully.",
+    "options": [
+
+      "(x - 2)/(x + 1)",
+      "(x + 1)/(x - 2)",
+      "(x + 2)/(x - 1)",
+      "(x - 1)/(x + 2)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+    {
+      "question": "Determine which of the following functions is both injective and surjective over ℝ.",
+      "options": [
+        "f(x) = x³ - x",
+        "f(x) = x³ + x",
+        "f(x) = x²",
+        "f(x) = |x|"
+      ],
+      "answer": 1,
+      "explanation": "x³ + x is strictly increasing and covers all real values."
+    },
+
+    {
+      "question": "Let R be defined by (x, y) ∈ R if x² = y². Classify the relation.",
+      "options": [
+        "Reflexive, symmetric, transitive",
+        "Symmetric only",
+        "Reflexive and symmetric only",
+        "Not reflexive"
+      ],
+      "answer": 2,
+      "explanation": "It is reflexive and symmetric but not transitive."
+    },
+    {
+      "question": "Find the domain of (f ∘ g)(x) if f(x) = ln(x) and g(x) = x² - 9.",
+      "options": [
+        "(-∞, -3) ∪ (3, ∞)",
+        "(-3, 3)",
+        "(0, ∞)",
+        "ℝ"
+      ],
+      "answer": 0,
+      "explanation": "Require x² - 9 > 0 → |x| > 3."
+    },
+
+
+    {
+      "question": "Let f(x) = x² + 2x. Find f⁻¹(x) with appropriate restriction.",
+      "options": [
+
+        "-1 - √(x + 1)",
+        "√(x + 1)",
+        "-1 + √(x + 1)",
+        "x² - 1"
+      ],
+      "answer": 2,
+      "explanation": "Complete square: (x+1)² -1.\n Solve gives x = -1 + √(y+1)."
+    },
+    {
+      "question": "If f and g are inverses, evaluate g(f(5)).",
+      "options": [
+        "5",
+        "f(5)",
+        "g(5)",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Inverse functions cancel."
+    },
+
+
+    {
+      "question": "Find the range of f(x)=1/(x²+2).",
+      "options": [
+
+        "[0, 1/2)",
+        "(0, ∞)",
+        "(0, 1/2]",
+        "[1/2, ∞)"
+      ],
+      "answer": 2,
+      "explanation": "Minimum denominator is 2 → max value is 1/2."
+    },
+    {
+      "question": "If f(x)=3x-2, find f⁻¹(f(7)).",
+      "options": [
+        "7",
+        "19",
+        "5",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Inverse cancels function."
+    },
+
+
+    {
+      "question": "Find the inverse of f(x) = 5x - 7.",
+      "options": [
+
+        "(x - 7)/5",
+        "5x + 7",
+        "7x - 5",
+        "(x + 7)/5"
+      ],
+      "answer": 3,
+      "explanation": "Solve y = 5x - 7\n → x = (y + 7)/5."
+    },
+
+    {
+      "question": "Let f(x) = √(x - 1). Find the domain of f.",
+      "options": [
+        "[1, ∞)",
+        "(−∞, 1]",
+        "(1, ∞)",
+        "(−∞, ∞)"
+      ],
+      "answer": 0,
+      "explanation": "x - 1 ≥ 0 \n→ x ≥ 1."
+    },
+    {
+      "question": "Find (f ∘ g)(x) if f(x) = x + 3 and g(x) = 2x - 1.",
+      "options": [
+
+        "2x + 3",
+        "x + 5",
+        "2x + 2",
+        "2x - 2"
+      ],
+      "answer": 2,
+      "explanation": "f(g(x)) = (2x - 1) + 3 =\n 2x + 2."
+    },
+    {
+      "question": "If f(x) = x² restricted to x ≥ 0, find f⁻¹(9).",
+      "options": [
+
+        "-3",
+        "3",
+        "±3",
+        "81"
+      ],
+      "answer": 1,
+      "explanation": "Inverse is √x, so √9 = 3."
+    },
+    {
+      "question": "Determine whether R = {(x, y) | x + y = 5} is a function.",
+      "options": [
+        "Yes",
+        "No",
+        "Only for integers",
+        "Only for positive values"
+      ],
+      "answer": 0,
+      "explanation": "Solve y = 5 - x, which gives one y for each x."
+    },
+    {
+      "question": "Find the domain of f(x) = 1/(x - 4).",
+      "options": [
+        "x ≠ 4",
+        "x > 4",
+        "x < 4",
+        "All real numbers"
+      ],
+      "answer": 0,
+      "explanation": "Denominator cannot be zero."
+    },
+    {
+      "question": "Find f(f(x)) if f(x) = 2x + 1.",
+      "options": [
+
+        "2x + 2",
+        "4x + 3",
+        "4x + 1",
+        "2x + 3"
+      ],
+      "answer": 1,
+      "explanation": "f(f(x)) = 2(2x + 1) + 1 = \n4x + 3."
+    },
+    {
+      "question": "Which of the following is injective?",
+      "options": [
+        "x³",
+        "x²",
+        "|x|",
+        "sin x"
+      ],
+      "answer": 0,
+      "explanation": "x³ is strictly increasing."
+    },
+
+
+    {
+      "question": "Find the range of f(x) = x² for x ≥ 2.",
+      "options": [
+
+        "[0, ∞)",
+        "(2, ∞)",
+        "(4, ∞)",
+        "[4, ∞)"
+      ],
+      "answer": 3,
+      "explanation": "Minimum at x=2 gives 4."
+    },
+    {
+      "question": "If f and g are inverses, what is g(f(x))?",
+      "options": [
+
+        "f(x)",
+        "g(x)",
+        "x",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Inverse functions cancel."
+    },
+
+    {
+      "question": "Find (g ∘ f)(x) if f(x)=x² and g(x)=x+1.",
+      "options": [
+        "x² + 1",
+        "x² - 1",
+        "(x+1)²",
+        "x+2"
+      ],
+      "answer": 0,
+      "explanation": "g(f(x)) = \nx² + 1."
+    },
+
+
+
+    {
+      "question": "Which function is not bijective?",
+      "options": [
+        "x³",
+        "x²",
+        "x+1",
+        "2x"
+      ],
+      "answer": 1,
+      "explanation": "x² is not one-to-one."
+    },
+    {
+      "question": "Find domain of √(5 - x).",
+      "options": [
+        "x ≤ 5",
+        "x ≥ 5",
+        "All real",
+        "x > 5"
+      ],
+      "answer": 0,
+      "explanation": "5 - x ≥ 0."
+    },
+    {
+      "question": "Find f⁻¹(x) if f(x)=2x.",
+      "options": [
+
+        "2x",
+        "x²",
+        "1/x",
+        "x/2"
+      ],
+      "answer": 3,
+      "explanation": "Solve y=2x → x=y/2."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Find (f∘f)(x) if f(x)=x-1.",
+      "options": [
+
+        "x-1",
+        "x+1",
+        "x-2",
+        "x"
+      ],
+      "answer": 2,
+      "explanation": "Apply twice: x-1-1 = x-2."
+    },
+    {
+      "question": "Determine if |x| is invertible.",
+      "options": [
+
+        "Yes",
+        "No",
+        "Only for x>0",
+        "Only for x<0"
+      ],
+      "answer": 1,
+      "explanation": "Not one-to-one."
+    },
+    {
+      "question": "Find range of 1/x.",
+      "options": [
+
+        "y = 0",
+        "All real",
+        "y ≥ 0",
+        "y ≠ 0"
+      ],
+      "answer": 3,
+      "explanation": "1/x never equals 0."
+    },
+    {
+      "question": "Find inverse of f(x)=x³.",
+      "options": [
+
+        "x²",
+        "1/x",
+        "x³",
+        "∛x"
+      ],
+      "answer": 3,
+      "explanation": "Cube root is inverse."
+    },
+
+
+
+    {
+      "question": "Find (g∘f)(x) if f(x)=x+1, g(x)=x².",
+      "options": [
+        "(x+1)²",
+        "x²+1",
+        "x²+x",
+        "x²-1"
+      ],
+      "answer": 0,
+      "explanation": "Square after adding 1."
+    },
+    {
+      "question": "Find inverse of f(x)=1/x.",
+      "options": [
+        "1/x",
+        "x²",
+        "-x",
+        "ln x"
+      ],
+      "answer": 0,
+      "explanation": "Self-inverse."
+    },
+
+    {
+      "question": "Find range of x²+1.",
+      "options": [
+
+        "[0,∞)",
+        "(1,∞)",
+        "[1,∞)",
+        "All real"
+      ],
+      "answer": 2,
+      "explanation": "Minimum is 1."
+    },
+
+    {
+      "question": "Find f⁻¹(f(10)) if f(x)=x+5.",
+      "options": [
+
+        "15",
+        "5",
+        "10",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Inverse cancels."
+    },
+    {
+      "question": "Find domain of √(x+2).",
+      "options": [
+
+        "x>-2",
+        "x≤-2",
+        "x≥-2",
+        "All real"
+      ],
+      "answer": 2,
+      "explanation": "Inside root ≥0."
+    },
+    {
+      "question": "Find (f∘g)(x) if f(x)=2x, g(x)=x+3.",
+      "options": [
+
+        "2x+3",
+        "x+6",
+        "2x",
+        "2x+6"
+      ],
+      "answer": 3,
+      "explanation": "Multiply result of g."
+    },
+    {
+      "question": "Find inverse of f(x)=3x+1.",
+      "options": [
+
+        "3x-1",
+        "x/3",
+        "(x-1)/3",
+        "(x+1)/3"
+      ],
+      "answer": 2,
+      "explanation": "Solve linear equation."
+    },
+    {
+      "question": "Find domain of 1/(x²-4).",
+      "options": [
+        "x≠±2",
+        "x>2",
+        "x<2",
+        "All real"
+      ],
+      "answer": 0,
+      "explanation": "Denominator ≠0."
+    },
+
+      {
+        "question": "Let R = {(x, y) | y = x³ - 1}. Determine whether R defines a function and explain whether it is one-to-one.",
+        "options": [
+          "Yes, and it is one-to-one",
+          "Yes, but not one-to-one",
+          "No, not a function",
+          "No, not defined for all x"
+        ],
+        "answer": 0,
+        "explanation": "Each x gives one y, and x³ - 1 is strictly increasing, so it is one-to-one."
+      },
+      {
+        "question": "Find the inverse of f(x) = 4x + 9.",
+        "options": [
+
+          "(x + 9)/4",
+          "(x - 9)/4",
+          "4x - 9",
+          "x/4 + 9"
+        ],
+        "answer": 1,
+        "explanation": "Solve y = 4x + 9 → x = (y - 9)/4."
+      },
+      {
+        "question": "Determine whether f(x) = x² - 4 is invertible on ℝ.",
+        "options": [
+          "Yes",
+          "No",
+          "Only for x ≥ 0",
+          "Only for x ≤ 0"
+        ],
+        "answer": 1,
+        "explanation": "f(-x) = f(x), so not one-to-one."
+      },
+      {
+        "question": "Find the domain of f(x) = √(2x - 6).",
+        "options": [
+
+          "(−∞, 3]",
+          "[3, ∞)",
+          "(3, ∞)",
+          "All real numbers"
+        ],
+        "answer": 1,
+        "explanation": "2x - 6 ≥ 0 → x ≥ 3."
+      },
+      {
+        "question": "Find (f ∘ g)(x) if f(x) = x² and g(x) = x + 2.",
+        "options": [
+          "(x + 2)²",
+          "x² + 2",
+          "x² + 4x",
+          "x² + 2x"
+        ],
+        "answer": 0,
+        "explanation": "Substitute g into f: (x+2)²."
+      },
+      {
+        "question": "If f(x) = x³, find f⁻¹(8).",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "Inverse is cube root: ∛8 = 2."
+      },
+
+      {
+        "question": "Find the domain of f(x) = 1/(x + 5).",
+        "options": [
+
+          "x > -5",
+          "x < -5",
+          "x ≠ -5",
+          "All real"
+        ],
+        "answer": 2,
+        "explanation": "Denominator cannot be zero."
+      },
+      {
+        "question": "Find f(f(x)) if f(x) = x + 4.",
+        "options": [
+
+          "x + 4",
+          "x² + 4",
+          "2x + 4",
+          "x + 8"
+        ],
+        "answer": 3,
+        "explanation": "Apply twice: x+4+4."
+      },
+      {
+        "question": "Which function is bijective on ℝ?",
+        "options": [
+
+          "x²",
+          "|x|",
+          "x³",
+          "sin x"
+        ],
+        "answer": 2,
+        "explanation": "x³ is strictly increasing and onto ℝ."
+      },
+
+
+      {
+        "question": "Find the range of f(x) = x² + 3.",
+        "options": [
+          "[3, ∞)",
+          "[0, ∞)",
+          "(3, ∞)",
+          "All real"
+        ],
+        "answer": 0,
+        "explanation": "Minimum is 3."
+      },
+      {
+        "question": "If f and g are inverses, find f(g(2)).",
+        "options": [
+
+          "f(2)",
+          "g(2)",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "Inverse cancels."
+      },
+
+
+
+
+      {
+        "question": "Find (g ∘ f)(x) if f(x)=x+1, g(x)=2x.",
+        "options": [
+
+          "2x + 1",
+          "x + 2",
+          "2x + 2",
+          "2x"
+        ],
+        "answer": 2,
+        "explanation": "g(f(x)) = 2(x+1)."
+      },
+
+
+  {
+    "question": "Find the domain of f(x) = √(5 - x²).",
+    "options": [
+      "[-√5, √5]",
+      "(−∞, ∞)",
+      "[0, √5]",
+      "(-√5, √5)"
+    ],
+    "answer": 0,
+    "explanation": "5 - x² ≥ 0 → x² ≤ 5."
+  },
+  {
+    "question": "If f(x) = ln(x - 1), find its domain.",
+    "options": [
+      "(1, ∞)",
+      "(0, ∞)",
+      "(-∞, 1)",
+      "(−∞, ∞)"
+    ],
+    "answer": 0,
+    "explanation": "Argument must be positive: x - 1 > 0."
+  },
+  {
+    "question": "Find f⁻¹(x) if f(x) = e^(2x).",
+    "options": [
+
+      "ln(2x)",
+      "(1/2)ln(x)",
+      "2ln(x)",
+      "ln(x)/2"
+    ],
+    "answer": 1,
+    "explanation": "Take ln: ln(y) = 2x → x = (1/2)ln(y)."
+  },
+
+      {
+        "question": "Find domain of √(7 - x²).",
+        "options": [
+
+          "(−∞, ∞)",
+          "[-√7, √7]",
+          "[0, √7]",
+          "(-√7, √7)"
+        ],
+        "answer": 1,
+        "explanation": "7 - x² ≥ 0."
+      },
+      {
+        "question": "Find f⁻¹(x) if f(x)=x/3.",
+        "options": [
+          "3x",
+          "x/3",
+          "x²",
+          "1/x"
+        ],
+        "answer": 0,
+        "explanation": "Solve y=x/3 → x=3y."
+      },
+
+
+
+      {
+        "question": "Find range of 1/(x²+3).",
+        "options": [
+
+          "[0, 1/3)",
+          "(0, ∞)",
+          "(0, 1/3]",
+          "[1/3, ∞)"
+        ],
+        "answer": 2,
+        "explanation": "Minimum denominator 3."
+      },
+      {
+        "question": "Find inverse of f(x)=x⁵.",
+        "options": [
+
+          "x³",
+          "1/x",
+          "x⁵",
+          "⁵√x"
+        ],
+        "answer": 3,
+        "explanation": "Inverse is fifth root."
+      },
+
+
+
+      {
+        "question": "Find (g∘f)(x) if f(x)=x-2, g(x)=x².",
+        "options": [
+
+          "x²-2",
+          "(x-2)²",
+          "x²-4",
+          "x²+2"
+        ],
+        "answer": 1,
+        "explanation": "Square after subtracting 2."
+      },
+      {
+        "question": "Find inverse of f(x)=1/(x+1).",
+        "options": [
+          "1/x - 1",
+          "1/(x-1)",
+          "x+1",
+          "x-1"
+        ],
+        "answer": 0,
+        "explanation": "Solve y=1/(x+1)."
+      },
+
+      {
+        "question": "Find range of x²+5.",
+        "options": [
+
+          "[0, ∞)",
+          "(5, ∞)",
+          "[5, ∞)",
+          "All real"
+        ],
+        "answer": 2,
+        "explanation": "Minimum value 5."
+      }
+    ]

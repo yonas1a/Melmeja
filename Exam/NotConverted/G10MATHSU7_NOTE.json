@@ -1,0 +1,159 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 7: COORDINATE GEOMETRY",
+"notes": "✓ Coordinate Geometry → connects algebra and geometry using coordinates, equations, lines and curves.\n\n✓ Cartesian plane → consists of the x-axis and y-axis, which are perpendicular and intersect at the origin (0,0).\n\n✓ A point is represented by an ordered pair (x,y).\n\n◆ The plane is divided into four quadrants.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.1 DISTANCE BETWEEN TWO POINTS",
+"notes": "For two points P(x₁,y₁) and Q(x₂,y₂), the distance is obtained using the Pythagorean theorem.\n\n✓ Distance formula:\nd = √[(x₂ − x₁)² + (y₂ − y₁)²]\n\n✓ The distance is always positive or zero.\n\n◆ Horizontal points:\nd = |x₂ − x₁|\n\n◆ Vertical points:\nd = |y₂ − y₁|.",
+"image": null
+},
+{
+"type": "note",
+"title": "DISTANCE EXAMPLE",
+"notes": "Example: Find the distance between A(2,1) and B(8,9).\n\nd = √[(8−2)² + (9−1)²]\n  = √(6² + 8²)\n  = √100\n  = 10 units.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.2 DIVISION OF A LINE SEGMENT",
+"notes": "✓ A line segment can be divided into equal parts or into a given ratio.\n\nExample: A 15 cm segment is divided in the ratio 2:1.\n\n✓ Total parts = 2 + 1 = 3\n✓ Each part = 15/3 = 5 cm\n\nTherefore:\n✓ First part = 2 × 5 = 10 cm\n✓ Second part = 1 × 5 = 5 cm.",
+"image": null
+},
+{
+"type": "note",
+"title": "SECTION FORMULA",
+"notes": "If R(x,y) divides P(x₁,y₁) and Q(x₂,y₂) internally in the ratio p:q, where PR:RQ = p:q, then:\n\n✓ x = (px₂ + qx₁)/(p + q)\n✓ y = (py₂ + qy₁)/(p + q)\n\nTherefore:\n✓ R = ((px₂ + qx₁)/(p+q), (py₂ + qy₁)/(p+q)).\n\nUse the coordinates of the opposite endpoints with the corresponding ratio.",
+"image": null
+},
+{
+"type": "note",
+"title": "MIDPOINT FORMULA",
+"notes": "✓ The midpoint is the point that divides a line segment into two equal parts.\n\nFor P(x₁,y₁) and Q(x₂,y₂):\n\n✓ M = ((x₁+x₂)/2, (y₁+y₂)/2)\n\nExample: A(−1,−2), B(3,2)\n\nM = ((−1+3)/2, (−2+2)/2)\n  = (1,0).",
+"image": null
+},
+{
+"type": "note",
+"title": "7.3 EQUATION OF A LINE",
+"notes": "✓ A straight-line equation can be determined when the slope and a point are known, or when two points are known.\n\n✓ Slope (gradient) measures the steepness of a line.\n\nFor P(x₁,y₁) and Q(x₂,y₂):\n\n✓ m = (y₂ − y₁)/(x₂ − x₁),  x₁ ≠ x₂.\n\n✓ A positive slope means the line rises from left to right.\n\n✓ A negative slope means it falls from left to right.\n✓ A zero slope gives a horizontal line.\n✓ A vertical line has no slope.",
+"image": null
+},
+{
+"type": "note",
+"title": "ANGLE OF INCLINATION",
+"notes": "✓ The angle of inclination θ is the anticlockwise angle between the positive x-axis and a non-vertical line.\n\nFor a non-vertical line:\n\n✓ m = tan θ\n\nTherefore:\n✓ θ = tan⁻¹(m), when an appropriate angle is required.\n\n◆ Acute angle of inclination → positive slope.\n\n◆ Obtuse angle of inclination → negative slope.",
+"image": null
+},
+{
+"type": "note",
+"title": "POINT-SLOPE FORM",
+"notes": "If a line has slope m and passes through P(x₁,y₁), its point-slope equation is:\n\n✓ 𝒚 − 𝒚₁ = 𝒎(𝒙 − 𝒙₁)\n\nExample: A line with slope 2 passing through (5,4):\n\ny − 4 = 2(x − 5)\n\ny = 2x − 6.",
+"image": null
+},
+{
+"type": "note",
+"title": "SLOPE-INTERCEPT FORM",
+"notes": "✓ The slope-intercept form is:\n\n𝒚 = 𝒎𝒙 + 𝒃\n\nm → slope\nb → y-intercept\n\nExample:\ny = 2x + 2\n\nHere:\n✓ Slope = 2\n✓ Y-intercept = 2.",
+"image": null
+},
+{
+"type": "note",
+"title": "TWO-POINT FORM",
+"notes": "For a line passing through P₁(x₁,y₁) and P₂(x₂,y₂):\n\n✓ 𝒚 − 𝒚₁ = [(𝒚₂ − 𝒚₁)/(𝒙₂ − 𝒙₁)](𝒙 − 𝒙₁)\n\n✓ This form is useful when two points on a line are given.\n\nFirst calculate the slope:\n✓ m = (y₂−y₁)/(x₂−x₁)\n\nThen substitute into the point-slope equation.",
+"image": null
+},
+{
+"type": "note",
+"title": "GENERAL EQUATION OF A LINE",
+"notes": "✓ The general form of a straight line is:\n\n𝑨𝒙 + 𝑩𝒚 + 𝑪 = 𝟎\n\nwhere A, B and C are real numbers.\n\nExample:\n5x + 2y + 10 = 0\n\nTo find the slope, rearrange into y = mx + b form when possible.",
+"image": null
+},
+{
+"type": "note",
+"title": "INTERCEPT FORM",
+"notes": "✓ If a line has x-intercept p and y-intercept q, where p and q are non-zero, its equation is:\n\nx/p + y/q = 1.\n\n✓ x-intercept → point where the line crosses the x-axis.\n\n✓ y-intercept → point where the line crosses the y-axis.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.4 PARALLEL LINES",
+"notes": "✓ Two non-vertical lines are parallel when they have the same slope.\n\nIf slopes are m₁ and m₂:\n\n✓ m₁ = m₂\n\nExample:\nLine 1: y = 2x + 1\nLine 2: y = 2x − 6\n\nBoth have slope 2, so they are parallel.\n\n✓ Parallel lines do not meet.",
+"image": null
+},
+{
+"type": "note",
+"title": "PERPENDICULAR LINES",
+"notes": "✓ Two non-vertical lines are perpendicular if the product of their slopes is −1.\n\n✓ 𝒎₁ × 𝒎₂ = −𝟏\n\nTherefore:\n✓ m₂ = −1/m₁\n\nExample:\nIf m₁ = 2,\nthen m₂ = −1/2.\n\nThus a line with slope 2 is perpendicular to a line with slope −1/2.",
+"image": null
+},
+{
+"type": "note",
+"title": "PARALLEL/PERPENDICULAR EXAMPLE",
+"notes": "Find the equation of the line through (5,4) parallel to y = 2x + 1.\n\nGiven slope = 2.\n\nUsing point-slope form:\ny − 4 = 2(x − 5)\n\ny = 2x − 6.\n\nFor a perpendicular line:\n✓ Slope = −1/2\n\ny − 4 = −1/2(x − 5)\n\ny = −1/2x + 13/2.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.5 EQUATION OF A CIRCLE",
+"notes": "✓ A circle in coordinate geometry is the set of all points that are at a fixed distance from a fixed center.\n\n✓ Standard equation:\n\n(𝒙 − 𝒉)² + (𝒚 − 𝒌)² = 𝒓²\n\n(h,k) → center\nr → radius.\n\n✓ This equation represents all points on the circumference of the circle.",
+"image": null
+},
+{
+"type": "note",
+"title": "CIRCLE WITH CENTER AT ORIGIN",
+"notes": "If the center is the origin (0,0), the standard equation becomes:\n\n✓ 𝒙² + 𝒚² = 𝒓²\n\nExample: A circle centered at the origin with radius 6:\n\nx² + y² = 36.",
+"image": null
+},
+{
+"type": "note",
+"title": "CIRCLE EXAMPLE",
+"notes": "Find the equation of a circle with center C(3,4) and radius 2.\n\nUse:\n(x−h)² + (y−k)² = r²\n\nTherefore:\n✓ (x−3)² + (y−4)² = 4.",
+"image": null
+},
+{
+"type": "note",
+"title": "CIRCLE THROUGH A GIVEN POINT",
+"notes": "If the center (h,k) is known and the circle passes through P(x₁,y₁), first find the radius using the distance formula:\n\n✓ r² = (x₁−h)² + (y₁−k)².\n\nThen substitute r² into:\n\n✓ (x−h)² + (y−k)² = r².\n\nExample: Center (3,4), point (5,6):\n\nr² = (5−3)² + (6−4)² = 8\n\nEquation:\n(x−3)² + (y−4)² = 8.",
+"image": null
+},
+{
+"type": "note",
+"title": "GENERAL EQUATION OF A CIRCLE",
+"notes": "✓ The general equation of a circle is:\n\n𝒙² + 𝒚² + 𝒍𝒙 + 𝒎𝒚 + 𝒏 = 𝟎\n\nwhere l, m and n are real numbers.\n\nTo find the center and radius, use completing the square.\n\n✓ Center:\n(−l/2, −m/2)\n\n✓ Radius:\nr = 1/2√(l² + m² − 4n)\n\n✓ For a real non-point circle:\nl² + m² − 4n > 0.",
+"image": null
+},
+{
+"type": "note",
+"title": "COMPLETING THE SQUARE FOR A CIRCLE",
+"notes": "Example:\nx² + y² − 12x − 16y + 19 = 0\n\nGroup terms:\n(x²−12x) + (y²−16y) = −19\n\nComplete squares:\n(x−6)² + (y−8)² = 81\n\nTherefore:\n✓ Center = (6,8)\n✓ Radius = 9 units.",
+"image": null
+},
+{
+"type": "note",
+"title": "7.6 AREA OF A TRIANGLE IN COORDINATE GEOMETRY",
+"notes": "For a triangle with vertices:\n(x₁,y₁), (x₂,y₂), (x₃,y₃),\n\n✓ Area is:\n\nA = 1/2 |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|\n\n✓ The absolute value ensures that the area is positive.",
+"image": null
+},
+{
+"type": "note",
+"title": "AREA EXAMPLE",
+"notes": "Find the area of the triangle with vertices A(−3,4), B(0,1), C(−3,−2).\n\nA = 1/2 |(−3)(1−(−2)) + 0(−2−4) + (−3)(4−1)|\n\n= 1/2 |−9 + 0 − 9|\n\n= 9 square units.",
+"image": null
+},
+{
+"type": "note",
+"title": "USING COORDINATES TO CLASSIFY TRIANGLES",
+"notes": "✓ Coordinates can be used to determine the type of a triangle.\n\n✓ Use the distance formula to compare side lengths.\n✓ Use slopes to test perpendicular sides.\n\n✓ If two sides have equal lengths → isosceles triangle.\n\n✓ If m₁ × m₂ = −1 → the two sides are perpendicular → right angle.\n\n✓ If all three side lengths are equal → equilateral triangle.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 7 QUICK FORMULA SHEET",
+"notes": "◆ Distance:\n✓ d = √[(x₂−x₁)² + (y₂−y₁)²]\n\n◆ Midpoint:\n✓ M = ((x₁+x₂)/2, (y₁+y₂)/2)\n\n◆ Section formula:\n✓ R = ((px₂+qx₁)/(p+q), (py₂+qy₁)/(p+q))\n\n◆ Slope:\n✓ m = (y₂−y₁)/(x₂−x₁)\n\n◆ Point-slope:\n✓ y−y₁ = m(x−x₁)\n\n◆ Slope-intercept:\n✓ y = mx+b\n\n◆ Two-point:\n✓ y−y₁ = [(y₂−y₁)/(x₂−x₁)](x−x₁)\n\n◆ General line:\n✓ Ax + By + C = 0\n\n◆ Parallel:\n✓ m₁ = m₂\n\n◆ Perpendicular:\n✓ m₁m₂ = −1\n\n◆ Circle:\n✓ (x−h)² + (y−k)² = r²\n\n◆ Circle at origin:\n✓ x² + y² = r²\n\n◆ General circle:\n✓ x² + y² + lx + my + n = 0\n\n◆ Triangle area:\n✓ A = 1/2|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|.",
+"image": null
+}
+]

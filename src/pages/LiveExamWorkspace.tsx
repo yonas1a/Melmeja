@@ -177,15 +177,15 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
   };
 
   return (
-    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 text-slate-900 flex flex-col">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
       {/* 1. TOP NAVBAR */}
-      <header className="sticky top-0 z-30 bg-white border-b border-slate-200 px-4 sm:px-6 py-2.5 shadow-xs">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <header className="sticky top-0 z-30 bg-white border-b border-slate-200 px-3 sm:px-6 py-2.5 shadow-xs">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-4">
           {/* Exam Title & Category */}
-          <div className="flex items-center gap-3 min-w-0">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <button
               onClick={() => setShowExitConfirmModal(true)}
-              className="p-1.5 rounded-lg text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+              className="shrink-0 p-1.5 rounded-lg text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-colors"
               title="Exit Exam to Hub"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -193,7 +193,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
 
             <div className="min-w-0">
               <div className="flex items-center gap-2">
-                <span className="text-[10px] uppercase font-extrabold tracking-wider px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
+                <span className="hidden sm:inline text-[10px] uppercase font-extrabold tracking-wider px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
                   {currentExam.category}
                 </span>
                 <h2 className="text-xs sm:text-sm font-bold text-slate-900 truncate">
@@ -207,10 +207,10 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
           </div>
 
           {/* Right Action Items: Live Countdown Timer & Submit Button */}
-          <div className="flex items-center gap-2.5 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             {/* Live Countdown Timer */}
             <div
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg font-mono text-xs font-bold border transition-all ${
+              className={`flex items-center gap-1 px-2 sm:px-3 py-1 rounded-lg font-mono text-xs font-bold border transition-all ${
                 isTimeCritical
                   ? 'bg-red-50 text-red-700 border-red-300 animate-pulse shadow-xs'
                   : 'bg-slate-100 text-slate-800 border-slate-200'
@@ -232,23 +232,23 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
             {/* Submit Exam Button */}
             <button
               onClick={() => setShowSubmitConfirmModal(true)}
-              className="px-4 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-xs transition-all flex items-center gap-1.5 active:scale-95"
+              className="px-2.5 sm:px-4 py-2 sm:py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-xs transition-all flex items-center gap-1.5 active:scale-95"
             >
               <Send className="w-3.5 h-3.5" />
-              <span>Submit Exam</span>
+              <span className="hidden sm:inline">Submit</span>
             </button>
           </div>
         </div>
       </header>
 
       {/* 2. SPLIT WORKSPACE: Main Panel (Left) + Right Question Palette Panel (Sticky Grid) */}
-      <div className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-5 grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+      <div className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-5 grid grid-cols-1 lg:grid-cols-12 gap-3 sm:gap-5 items-start">
         
         {/* LEFT QUESTION PANEL (8 cols on lg) */}
-        <main className="lg:col-span-8 bg-white border border-slate-200 rounded-xl shadow-xs flex flex-col justify-between overflow-hidden min-h-[520px]">
+        <main className="lg:col-span-8 bg-white border border-slate-200 rounded-xl shadow-xs flex flex-col justify-between overflow-hidden min-h-[min(520px,calc(100dvh-90px))] sm:min-h-[520px]">
           {/* Question Header */}
           <div className="p-4 sm:p-5 border-b border-slate-100 flex items-center justify-between">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 min-w-0">
               <span className="text-xs font-extrabold px-2.5 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200">
                 Question {currentQuestionIndex + 1}
               </span>
@@ -256,7 +256,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-[11px] text-slate-600 bg-slate-50 border border-slate-200 px-2.5 py-0.5 rounded">
+              <span className="hidden sm:inline-block text-[11px] text-slate-600 bg-slate-50 border border-slate-200 px-2.5 py-0.5 rounded truncate max-w-[40%]">
                 Topic: {currentQ?.topic}
               </span>
             </div>
@@ -277,13 +277,13 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
           </div>
 
           {/* BOTTOM ACTION BAR */}
-          <div className="p-3.5 sm:p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
+          <div className="p-3 sm:p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2 sm:gap-3">
             {/* Left Controls: Flag & Clear Selection */}
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-1.5">
               <button
                 type="button"
                 onClick={toggleFlagCurrentQuestion}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all flex items-center gap-1.5 ${
+                className={`px-2.5 py-2 sm:py-1.5 rounded-lg text-xs font-semibold border transition-all flex items-center gap-1.5 ${
                   isFlagged
                     ? 'bg-red-600 text-white border-red-600 shadow-xs'
                     : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-100 hover:text-slate-900'
@@ -297,7 +297,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
                 <button
                   type="button"
                   onClick={clearCurrentAnswer}
-                  className="px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-500 hover:text-slate-800 hover:bg-slate-200 transition-colors flex items-center gap-1"
+                  className="px-2 py-2 sm:py-1.5 rounded-lg text-xs font-medium text-slate-500 hover:text-slate-800 hover:bg-slate-200 transition-colors flex items-center gap-1"
                 >
                   <RotateCcw className="w-3 h-3" />
                   <span>Clear Selection</span>
@@ -306,12 +306,12 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
             </div>
 
             {/* Right Controls: Previous & Next Buttons */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2">
               <button
                 type="button"
                 onClick={prevQuestion}
                 disabled={currentQuestionIndex === 0}
-                className="px-3.5 py-1.5 rounded-lg bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 disabled:opacity-40 disabled:pointer-events-none text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs"
+                className="px-2.5 sm:px-3.5 py-2 sm:py-1.5 rounded-lg bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 disabled:opacity-40 disabled:pointer-events-none text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
                 <span>Previous</span>
@@ -321,7 +321,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
                 type="button"
                 onClick={nextQuestion}
                 disabled={currentQuestionIndex === totalQuestions - 1}
-                className="px-4 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white disabled:opacity-40 disabled:pointer-events-none text-xs font-bold shadow-xs transition-all flex items-center gap-1.5"
+                className="px-3 sm:px-4 py-2 sm:py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white disabled:opacity-40 disabled:pointer-events-none text-xs font-bold shadow-xs transition-all flex items-center gap-1.5"
               >
                 <span>Next</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -331,7 +331,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
         </main>
 
         {/* RIGHT QUESTION PALETTE PANEL (4 cols on lg, sticky) */}
-        <aside className="lg:col-span-4 bg-white border border-slate-200 rounded-xl shadow-xs p-4 sm:p-5 lg:sticky lg:top-20 space-y-4">
+        <aside className="lg:col-span-4 bg-white border border-slate-200 rounded-xl shadow-xs p-3 sm:p-5 lg:sticky lg:top-20 space-y-3 sm:space-y-4">
           {/* Palette Header */}
           <div className="flex items-center justify-between border-b border-slate-100 pb-2.5">
             <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
@@ -348,7 +348,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
               - Unanswered/Skipped Question: Solid Gray/Slate background.
               - Flagged Question: Solid Red background.
           */}
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-8 sm:grid-cols-10 lg:grid-cols-5 gap-1.5 sm:gap-2 max-h-56 sm:max-h-none overflow-y-auto">
             {currentExam.questions.map((_, index) => {
               const status: QuestionPaletteStatus = getQuestionStatus(index);
               const isActive = index === currentQuestionIndex;
@@ -374,7 +374,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
                   key={index}
                   type="button"
                   onClick={() => goToQuestion(index)}
-                  className={`h-9 rounded-lg text-xs transition-all flex items-center justify-center relative active:scale-95 ${btnClass}`}
+                  className={`h-10 sm:h-9 rounded-lg text-xs transition-all flex items-center justify-center relative active:scale-95 ${btnClass}`}
                   title={`Question ${index + 1} (${status})`}
                 >
                   <span>{index + 1}</span>
@@ -387,7 +387,7 @@ export const LiveExamWorkspace: React.FC<LiveExamWorkspaceProps> = ({ onNavigate
           </div>
 
           {/* Dynamic Color Coding Rules Legend */}
-          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 space-y-1.5 text-xs">
+          <div className="hidden sm:block bg-slate-50 border border-slate-200 rounded-lg p-3 space-y-1.5 text-xs">
             <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">
               Color Coding Legend:
             </div>

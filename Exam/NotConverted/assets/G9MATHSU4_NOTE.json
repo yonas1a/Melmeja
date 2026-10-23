@@ -1,0 +1,147 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 4: SOLVING INEQUALITIES",
+"notes": "✓ Inequality → a mathematical sentence comparing two expressions using <, ≤, >, or ≥.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.1 LINEAR INEQUALITIES IN ONE VARIABLE",
+"notes": "✓ Linear inequality → an inequality containing a variable with power 1.\n\nExamples → x − 5 > 2, 2x > 4, x/3 < 1.\n\n✓ Addition/Subtraction → adding or subtracting the same number on both sides does not change the inequality sign.\n\n✓ Multiplication/Division → multiplying or dividing by a positive number keeps the sign; multiplying or dividing by a negative number reverses the sign.",
+"image": null
+},
+{
+"type": "note",
+"title": "REVERSING THE INEQUALITY SIGN",
+"notes": "✓ If a > b and m > 0 → ma > mb.\n\n✓ If a > b and m < 0 → ma < mb.\n\n✓ The same rule applies to division.\n\nExample:\n−4x ≤ 12.\nDivide by −4 and reverse the sign → x ≥ −3.",
+"image": null
+},
+{
+"type": "note",
+"title": "SOLVING LINEAR INEQUALITIES",
+"notes": "✓ Solve inequalities like equations, but remember to reverse the sign when multiplying or dividing by a negative number.\n\nExample:\nx + 2 < −x + 6\n2x < 4\n✓ x < 2.\n\n◆ Interval notation → (−∞, 2).\n\n◆ Set notation → {x | x < 2}.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPHING SOLUTIONS ON A NUMBER LINE",
+"notes": "✓ Open dot → endpoint is NOT included; used for < or >.\n\n✓ Closed/filled dot → endpoint IS included; used for ≤ or ≥.\n\nExample:\nx > −3 → open dot at −3 and shade to the right.\n\nExample:\nx ≥ 1 → closed dot at 1 and shade to the right.",
+"image": null
+},
+{
+"type": "note",
+"title": "INTERVAL NOTATION",
+"notes": "✓ Open interval → (a, b) means a < x < b.\n\n✓ Closed interval → [a, b] means a ≤ x ≤ b.\n\n✓ Half-open intervals → [a, b) means a ≤ x < b; (a, b] means a < x ≤ b.\n\nExample:\nx ≥ 1 → [1, ∞).\n\nExample:\nx < 2 → (−∞, 2).",
+"image": null
+},
+{
+"type": "note",
+"title": "COMPOUND INEQUALITIES",
+"notes": "✓ A compound inequality combines two inequalities.\n\nExample:\n−3 < x < 5 means x is greater than −3 and less than 5.\n\n✓ For 'between' situations, use AND.\n\nExample:\n45 ≤ v ≤ 55 means the speed is at least 45 km/h and at most 55 km/h.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.2 SYSTEMS OF LINEAR INEQUALITIES IN TWO VARIABLES",
+"notes": "✓ A system of linear inequalities contains two or more inequalities in the same variables.\n\n✓ The solution is the set of ordered pairs that satisfy ALL inequalities simultaneously.\n\n✓ Graphical method → graph each boundary line, shade the appropriate half-plane, then identify the common shaded region.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPHING A LINEAR INEQUALITY",
+"notes": "✓ Replace the inequality sign with = to obtain the boundary line.\n\n✓ ≤ or ≥ → use a solid boundary line because points on the line are included.\n\n✓ < or > → use a dashed boundary line because points on the line are excluded.\n\n✓ Choose a test point, usually (0,0), to determine which side of the line should be shaded.",
+"image": null
+},
+{
+"type": "note",
+"title": "SYSTEM SOLUTION REGION",
+"notes": "✓ Graph the solution region for every inequality.\n\n✓ The intersection of all shaded regions is the solution of the system.\n\nExample:\ny ≤ x − 2\ny > −3x + 5.\n\n✓ Graph both inequalities and shade the region satisfying both conditions.",
+"image": null
+},
+{
+"type": "note",
+"title": "SYSTEMS WITH THREE OR MORE INEQUALITIES",
+"notes": "✓ A system may contain three or more inequalities.\n\nExample:\n2x + 3y ≥ 12\nx − 4y > 1\nx < 4.\n\n✓ Rewrite inequalities when useful, graph each boundary, shade the correct region, and take the common intersection.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.3 ABSOLUTE VALUE INEQUALITIES",
+"notes": "✓ Absolute value represents distance from zero and is always non-negative.\n\n✓ For c > 0:\n|k| < c ↔ −c < k < c.\n\n|k| ≤ c ↔ −c ≤ k ≤ c.\n\n|k| > c ↔ k > c or k < −c.\n\n|k| ≥ c ↔ k ≥ c or k ≤ −c.",
+"image": null
+},
+{
+"type": "note",
+"title": "GRAPHING ABSOLUTE VALUE INEQUALITIES",
+"notes": "✓ Use open dots for endpoints that are not included.\n\n✓ Use closed dots for endpoints that are included.\n\nExample:\n|x| ≤ 1 means −1 ≤ x ≤ 1.\n\nExample:\n|x| > 1 means x < −1 or x > 1.",
+"image": null
+},
+{
+"type": "note",
+"title": "ABSOLUTE VALUE EXAMPLE",
+"notes": "Example:\n|x + 2| < 4.\n\nUse −4 < x + 2 < 4.\n\nSubtract 2 → −6 < x < 2.\n\n✓ Solution → (−6, 2).\n\nFor |x − 5| ≤ 2 → −2 ≤ x − 5 ≤ 2 → ✓ 3 ≤ x ≤ 7.",
+"image": null
+},
+{
+"type": "note",
+"title": "SPECIAL ABSOLUTE VALUE CASES",
+"notes": "✓ Since |k| ≥ 0:\n\n|k| < 0 → no solution.\n\n|k| = 0 → k = 0 only.\n\n|k| > a negative number → all real numbers.\n\nExample:\n✓ |4x − 5| ≥ −2 is true for every real x.",
+"image": null
+},
+{
+"type": "note",
+"title": "4.4 QUADRATIC INEQUALITIES",
+"notes": "✓ Quadratic inequality → an inequality involving a quadratic expression.\n\n◆ General forms:\nax² + bx + c < 0\nax² + bx + c ≤ 0\nax² + bx + c > 0\nax² + bx + c ≥ 0,\nwhere a ≠ 0.",
+"image": null
+},
+{
+"type": "note",
+"title": "PRODUCT PROPERTIES",
+"notes": "✓ If mn > 0 → m and n have the same sign.\n\n✓ If mn < 0 → m and n have opposite signs.\n\n✓ If mn = 0 → at least one factor is zero.\n\n✓ These properties are used to solve factorized quadratic inequalities.",
+"image": null
+},
+{
+"type": "note",
+"title": "QUADRATIC INEQUALITY BY PRODUCT METHOD",
+"notes": "Example:\n(x − 3)(x − 1) < 0.\n\n✓ The critical values are x = 1 and x = 3.\n\n✓ For the product to be negative, the factors must have opposite signs.\n\n✓ The solution is → 1 < x < 3.\n\n◆ Interval notation → (1, 3).",
+"image": null
+},
+{
+"type": "note",
+"title": "QUADRATIC INEQUALITY BY SIGN CHART",
+"notes": "✓ Sign chart → a table or number line showing the signs of factors over different intervals.\n\n◆ Steps:\n1. Move everything to one side so the other side is 0.\n2. Factor the expression if possible.\n3. Find the roots of the factors.\n4. Use the roots as key points.\n5. Determine the sign in each interval.\n6. Select intervals satisfying the inequality.",
+"image": null
+},
+{
+"type": "note",
+"title": "SIGN CHART EXAMPLE",
+"notes": "Example:\n(x − 4)(x + 3) < 0.\n\n✓ Critical points → −3 and 4.\n\n◆ Sign pattern:\nPositive for x < −3.\nNegative for −3 < x < 4.\nPositive for x > 4.\n\n✓ Therefore → −3 < x < 4.\n\n◆ Interval notation → (−3, 4).",
+"image": null
+},
+{
+"type": "note",
+"title": "QUADRATIC INEQUALITY EXAMPLE",
+"notes": "Example:\nx² − x ≥ 12.\n\nMove everything to one side → x² − x − 12 ≥ 0.\n\nFactor → (x − 4)(x + 3) ≥ 0.\n\n✓ The product is non-negative outside the roots.\n\n✓ Solution → x ≤ −3 or x ≥ 4.\n\n◆ Interval notation → (−∞, −3] ∪ [4, ∞).",
+"image": null
+},
+{
+"type": "note",
+"title": "4.5 APPLICATIONS OF INEQUALITIES",
+"notes": "✓ Inequalities are used to model real-life conditions involving limits, minimums, maximums, ranges, money, speed, measurements, work and geometry.\n\n◆ Key words:\nat least → ≥\nat most → ≤\nmore than → >\nless than → <\nbetween → compound inequality.",
+"image": null
+},
+{
+"type": "note",
+"title": "WORD PROBLEM EXAMPLE",
+"notes": "Example:\nA phone account has Birr 50. Each message costs Birr 0.20. The bill can be at most Birr 80.\n\nLet m = number of messages.\n\n0.20m + 50 ≤ 80.\n0.20m ≤ 30.\n✓ m ≤ 150.\n\n✓ Therefore, the maximum number of messages is 150.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 4 QUICK FORMULA SHEET",
+"notes": "◆ Positive multiplication/division:\n✓ Inequality sign stays the same.\n\n◆ Negative multiplication/division:\n✓ Reverse the inequality sign.\n\n◆ Absolute value:\n✓ |k| < c → −c < k < c.\n✓ |k| ≤ c → −c ≤ k ≤ c.\n✓ |k| > c → k < −c or k > c.\n✓ |k| ≥ c → k ≤ −c or k ≥ c.\n\n◆ Quadratic inequality:\n✓ Move everything to one side, factor, find critical points, then analyze signs.\n\n◆ System of inequalities:\n✓ Common shaded region.\n\n◆ Solid boundary:\n✓ ≤ or ≥.\n\n◆ Dashed boundary:\n✓ < or >."
+,"image": null
+}
+]

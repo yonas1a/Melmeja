@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Given the objective function Z = -x + 2y that is subjected to the constraints:\n{x ≥ 3 , x + y ≥ 5, x + 2y ≤ 6, y ≥ 0\nWhat are the maximum and the minimum values of Z respectively?",
+    "options": [
+      "A 1 and -2",
+      "B -2 and -6",
+      "C -6 and -2",
+      "D 2 and 1"
+    ],
+    "answer": 1,
+    "explanation": "First identify the feasible region using x ≥ 3, x + y ≥ 5, x + 2y ≤ 6, and y ≥ 0.\n\n The corner points are (4,1), (5,0), and (6,0).\n\n Evaluate Z = -x + 2y at each point: Z(4,1) = -2,\n Z(5,0) = -5,\n Z(6,0) = -6. \n\nTherefore, the maximum value is -2 and the minimum value is -6,\n\n so the correct answer is B"
+  },
+  {
+    "question": "A television company assembles flat screen and curved screen televisions. The company has to invest Birr 15,000 to assemble one flat screen and Birr 20,000 to assemble one curved screen television. The company allocates a maximum of Birr 900,000 in a week for assembling. The company gets Birr 1800 profit from a sale of one flat screen television and Birr 2000 profit from a sale of one curved screen television. Moreover, the company has a store capacity of storing 50 televisions. Let x be the number of flat screens and y be the number of curved screens. Then which one of the following inequalities should model the profit for the objective function Z = 1800x + 2000y ?",
+    "options": [
+      "A { 15,000x + 20,000y ≤ 900,000,  x + y ≤ 50,  x,y ≥ 0",
+      "B { 15,000x + 20,000y ≤ 360,000,  x + y ≤ 50,  x,y ≥ 0",
+      "C {20,000x +  15,000y +  ≤ 900,000,  x + y ≤ 50,  x,y ≥ 0",
+      "D {20,000x +  15,000y +  ≤ 360,000, x + y ≤ 50,  x,y ≥ 0"
+    ],
+    "answer": 0,
+    "explanation": "Each flat screen costs 15,000 so 15,000x, \nand each curved screen costs 20,000 so 20,000y.\n\n The total budget is at most 900,000, so the correct constraint is 15,000x + 20,000y ≤ 900,000.\n\n The storage limit is x + y ≤ 50 and x, y ≥ 0.\n Therefore the correct model matches option A."
+  }
+]

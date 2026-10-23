@@ -1,0 +1,285 @@
+{
+  "id": "p2014_g12_merged_melmeja",
+  "title": "Physics Grade 12 Practice Questions 2014 (8 chapters combined)",
+  "category": "ENTRANCE",
+  "subCategory": "Physics",
+  "description": "Combined 8 chapter files (P2014_G12U1.json, P2014_G12U2.json, P2014_G12U3.json, P2014_G12U4.json, P2014_G12U5.json, P2014_G12U6.json, P2014_G12U7.json, P2014_G12U8.json) into one exam. 16 total questions.",
+  "durationMinutes": 30,
+  "totalQuestions": 16,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Physics",
+    "ENTRANCE",
+    "2014",
+    "Grade 12",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_p2014_g12u1_melmeja_1",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "A 100 J of work is done on a system and 418.6 J of heat is extracted from it. According to the first law of thermodynamics, the change in the internal energy of the system is ",
+      "options": [
+        "-518.6 J",
+        "-318.6 J",
+        "318.6 J",
+        "518.6 J"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The first law of thermodynamics states: ΔU = Q - W, where ΔU is the change in internal energy, Q is heat added to the system, W is work done by the system. \n\nHere, Q = -418.6 J (heat extracted from the system), W = 100 J (work done on the system is positive for work done on system? careful). \n\nUsing the sign convention where work done on the system is positive: ΔU = Q + W = -418.6 + 100 = -318.6 J. \n\nHence, the internal energy decreases by 318.6 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_2",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements describe the difference between reversible and irreversible processes?",
+      "options": [
+        "In an irreversible process, a system can move from one thermodynamic state to another and back to its initial state; whereas a system in a reversible process cannot move back to its initial state.",
+        "system undergoing a reversible process is always close to thermodynamic equilibrium; whereas a system undergoing irreversible process is not in thermal equilibrium.",
+        "Ice at 0°C placed in a metallic can at 40°C undergoes a reversible process; whereas ice at 0°C placed in a metal can at 0°C undergoes an irreversible process.",
+        "process is reversible if its entropy increases, but irreversible if its entropy is constant."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A reversible process is one in which the system remains infinitesimally close to thermodynamic equilibrium at all times, allowing it to be reversed without leaving any change in the surroundings.\n\n In contrast, an irreversible process is far from equilibrium and cannot be reversed without leaving changes in the surroundings.\n\n Therefore, the correct statement is: 'A system undergoing a reversible process is always close to thermodynamic equilibrium; whereas a system undergoing an irreversible process is not in thermal equilibrium.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_3",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Standing wave is formed when two identical waves travelling in opposite directions in the same medium interfere with each other. If y1 and y2 are the interfering waves and y = y1 + y2 is the resulting standing wave, which of the following is a correct combination?",
+      "options": [
+        "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = Asin(kx)cos(2ωt)",
+        "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = 2Asin(kx)cos(ωt)",
+        "y1 = Asin(kx - ωt), y2 = Asin(kx -  ωt), y = 2Asin(kx)sin(ωt)",
+        "y1 = Asin(kx - ωt), y2 = Acos(kx +  ωt), y = 2Asin(kx -ωt)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "{Two identical waves traveling in opposite directions are y1 = Asin(kx − ωt) and y2 = Asin(kx + ωt).\n\n Adding them using sinA + sinB = 2sin((A+B)/2)cos((A−B)/2) gives y = 2Asin(kx)cos(ωt), which matches option 2.}",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_4",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about resonance in an oscillating object? ",
+      "options": [
+        "At resonance, the driving frequency is equal to the natural frequency and the amplitude becomes maximum.",
+        "Damping increases the amplitude and natural frequency of the oscillator.",
+        "Resonance occurs when the frequency of a periodic driving force is greater than the natural frequency of the oscillator.",
+        "Resonance occurs when the oscillator is subject to a constant driving force."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Resonance in an oscillating system occurs when the frequency of the external periodic driving force matches the natural frequency of the system.\n\n At this point, the amplitude of oscillation becomes maximum. \n\nDamping actually reduces the amplitude and slightly lowers the natural frequency.\n\n Therefore, the correct statement is: 'At resonance, the driving frequency is equal to the natural frequency and the amplitude becomes maximum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_5",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "A Young double slit experiment consists of two narrow slits separated by 0.06 mm and 1.2m away from a screen. If the slits are illuminated with a light of wavelength 563 nm, the location of the fourth bright fringe on the screen is ______.",
+      "options": [
+        "0.394 cm",
+        "0.45 cm",
+        "3.94 cm",
+        "4.5 cm"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use y = nλD/d.\n Substituting n = 4, λ = 563 nm, D = 1.2 m, and d = 0.06 mm gives \n\ny = 0.045 m = 4.5 cm.\"\n}",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_6",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "An electric dipole consists of a negative charge -q placed at a point with x and y coordinates (-2, -2) and a positive charge +q at (2, 2). The dipole is placed in a uniform electric field E directed in the positive x direction. If the dipole axis makes an angle θ with the field, which of the following is true about the dipole?",
+      "options": [
+        "The field rotates the dipole in the direction of decreasing the angle θ, until the dipole becomes parallel to the field.",
+        "The field rotates it in the direction of increasing the angle θ, until the dipole is perpendicular to the field.",
+        "It is in both translational and rotational equilibrium.",
+        "It travels in the direction of the electric field."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A dipole in a uniform electric field experiences a torque τ = p × E, where p is the dipole moment.\n\n The torque acts to rotate the dipole such that the dipole moment aligns with the field (θ decreases).\n\n Once parallel, the torque becomes zero.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_7",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "A parallel plate capacitor is charged with a battery. The battery is then disconnected, and a dielectric material is inserted between the plates of the capacitor. Which of the following is correct about the effect of the dielectric?",
+      "options": [
+        "The potential difference between the plates remains the same and the charge increases.",
+        "The charge on the plates decreases and the energy stored decreases.",
+        "The electric field between the plates and the energy stored decrease.",
+        "The capacitance remains the same and the electric field between the plates increases."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "When the battery is disconnected, the charge on the capacitor remains constant.\n\n Inserting a dielectric increases the capacitance (C → κC), so the voltage V = Q/C decreases.\n\n As a result, the electric field E = V/d decreases and the energy stored U = ½ Q²/C also decreases.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_8",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "The electric potential at a distance of 2cm from a -1.6 * 10⁻⁹ C point charge is ______.",
+      "options": [
+        "-14.4 V",
+        "720 V",
+        "4.4 V",
+        "-720 V"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The electric potential due to a point charge is given by V = kQ / r,\n\n where k = 9 × 10⁹ N·m²/C², Q = -1.6 × 10⁻⁹ C, and r = 0.02 m.\n\nV = (9 × 10⁹ × -1.6 × 10⁻⁹) / 0.02 = -720 V.\n\nSince the charge is negative, the potential is also negative.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_9",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Two resistors R1 = 1Ω and R2 = 4Ω are connected in parallel to each other and their combination is connected in series with a third resistor R3 = 2Ω. The whole combination is connected to a voltage source of Potential difference 14V. The potential difference across R1 is ______.",
+      "imageUrl": "images/P2014_15.png",
+      "diagramUrl": "images/P2014_15.png",
+      "options": [
+        "10 V",
+        "14 V",
+        "5 V",
+        "4 V"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "First, find the equivalent resistance of R1 and R2 in parallel:\n\n 1/Rp = 1/1 + 1/4 = 5/4,\n\n so Rp = 4/5 = 0.8 Ω.\n Then add R3 in series: Rtotal = 0.8 + 2 = 2.8 Ω.\n\n Next, calculate total current: I = V/R = 14 / 2.8 = 5 A.\n\n The voltage across the parallel combination is Vp = I × Rp = 5 × 0.8 = 4 V.\n\n Since R1 is in parallel with R2, the voltage across R1 is the same as Vp, which is 4 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_10",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A resistor R, a capacitor C, and an inductor L are connected in series to an AC voltage source that generates a sinusoidal voltage V(t) = Vpsin(Ωt), with Vp and Ω being the peak voltage and angular frequency of the source. If XL, XC, and Z are capacitive reactance, inductive reactance, and impedance, respectively, Irms and Vrms are the root-mean-square (rms) values of the current and voltage, the average power dissipated in series RLC circuit is given by ______.",
+      "options": [
+        "2IpVp R/√R²+(Xl-Xc)²",
+        "Irms.Vrms",
+        "Irms.Vrms R/√R²+(Xl-Xc)²",
+        "I²rms.Z"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Only the resistor dissipates power.\n\n Average power P = Irms × Vrms × cosφ, and \n\ncosφ = R/Z = R/√(R² + (XL − XC)²).\n\n So, P = Irms × Vrms × R/√(R² + (XL − XC)²).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_11",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "A student wants to investigate Ohm's law using an ammeter (A) and a voltmeter (V) to measure current through and potential difference across a resistor (R). Moreover, she employs a rheostat to vary the potential difference across the resistor. Which of the following connections is the correct set up of the circuit to perform the experiment?",
+      "imageUrl": "images/P2014_27.png",
+      "diagramUrl": "images/P2014_27.png",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ammeter must be in series to measure current, voltmeter must be in parallel across the resistor, and rheostat in series to vary current.\n\n Only option B satisfies all.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_12",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Circular paths followed by two charges q1 and q2 moving with the same speed in a uniform magnetic field directed into the page (times) are shown in the figure below. If the two charges have the same mass, which of the following is correct about the sign and the magnitude of charges?",
+      "imageUrl": "images/P2014_28.png",
+      "diagramUrl": "images/P2014_28.png",
+      "options": [
+        "q1 is negative, q2 is positive and |q1| < |q2|.",
+        "q1 is negative, q2 is positive and |q1| > |q2|.",
+        "q1 is positive, q2 is negative and |q1| > |q2|.",
+        "q1 is positive, q2 is negative and |q1| < |q2|."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using right-hand rule: in a magnetic field into the page, clockwise motion means positive charge and anticlockwise means negative.\n\n So q1 is positive and q2 is negative.\n\n Also, larger radius means smaller charge (r = mv / |q|B).\n\n Since q1 has larger radius, |q1| < |q2|.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_13",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Consider a long and tightly wound solenoid carrying current I, having length L and N turns of winding. If n is the number of turns per unit length, which of the following describes the magnetic field produced by the solenoid?",
+      "options": [
+        "The magnetic field inside the solenoid is zero, whereas the field outside is perpendicular to the length of the solenoid.",
+        "The magnetic field inside the solenoid is constant and is parallel to the solenoid's axis, whereas the field outside is negligible.",
+        "The magnetic field inside the solenoid is uniform and perpendicular to the axis of the solenoid.",
+        "The magnetic field outside the solenoid is as strong as the field inside it."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a long solenoid, the magnetic field inside is uniform, strong, and parallel to the solenoid's axis, given by B = μ₀ n I, where n = N/L.\n\n The field outside is very weak and often considered negligible.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_14",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "According to the law of electromagnetic induction, ______.",
+      "options": [
+        "the magnitude of emf induced in a circuit is directly proportional to the rate of change the magnetic flux crossing any surface bounded by the circuit.",
+        "changing magnetic field parallel to the plane of a circuit induces an emf in it.",
+        "constant magnetic flux crossing the surface of a circuit induced an emf in the circuit.",
+        "an emf is induced in a circuit when a constant magnetic field crosses its surface."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Faraday's law of electromagnetic induction states that the induced emf in a closed circuit is equal to the negative rate of change of magnetic flux through the circuit: emf = -dΦB/dt.\n\n Only a changing magnetic flux produces an emf.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_15",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "According to the Heisenberg's uncertainty principle,",
+      "options": [
+        "the faster the position uncertainty, the larger the momentum uncertainty.",
+        "if the uncertainty in position decreases, the momentum uncertainty decreases, too.",
+        "the more precisely we measure the position of a particle; we become less precise of its momentum and vice versa.",
+        "we can measure both the position and momentum of a particle simultaneously with unlimited precision."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Heisenberg's uncertainty principle states that the product of the uncertainties in position (Δx) and momentum (Δp) of a particle satisfies Δx·Δp ≥ ħ/2.\n\n Therefore, increasing precision in measuring position increases the uncertainty in momentum, and vice versa",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12u1_melmeja_16",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "The graph of nuclear binding energy per nucleon(BE/A) versus mass number (A) has its peak near an atomic weight A = 56. Which of the following statements is true about the graph?",
+      "options": [
+        "Uranium (A = 235), which has larger binding energy than iron (A=56), is more stable than iron.",
+        "Nucleus with larger number of neutron is more stable than nucleus of the same atom with smaller number of neutron.",
+        "For heavier nuclei (A > 56), the binding energy per nucleon decreases with the increase of mass number; implying that heavier atoms can increase their stability by increasing their protons' number.",
+        "For smaller atoms (A < 56), the binding energy per nucleon generally increases with the increase of mass number; indicating that lighter atoms can increase stability through *nuclear fission*."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The binding energy per nucleon graph peaks around iron (A ≈ 56).\n\n Lighter nuclei (A < 56) have lower binding energy per nucleon and can release energy through nuclear fusion, while heavier nuclei (A > 56) can release energy through fission.\n\n Iron and nearby nuclei are the most stable",
+      "topic": "Physics"
+    }
+  ]
+}

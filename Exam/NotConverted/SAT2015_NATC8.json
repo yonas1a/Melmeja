@@ -1,0 +1,191 @@
+[
+{
+  "question": "DIRECTIONS: Solve each of the problems given in questions 36-60 and select the best answer provided. Write the letter of your choice on the separate answer sheet provided.\n\nSuppose you want to select a 3-person committee from a group of 7 teachers. How many ways are there to do this?",
+  "options": [
+    "60",
+    "120",
+    "35",
+    "210"
+  ],
+  "answer": 2,
+  "explanation": "Since the order does not matter, we use combinations: C(7,3) = 7! / (3! * 4!) = (7*6*5)/(3*2*1) = 35."
+},
+{
+"question": "A box contains 12 pieces of paper, each of which has the name of one of the 12 students in a class consisting of 7 male and 5 female students, all with different names. What is the probability of a randomly selected piece of paper has a female student name??",
+"options": [
+"7/12",
+"7/5",
+"5/12",
+"5/7"
+],
+"answer": 2,
+"explanation": "Probability = Number of favorable outcomes / Total outcomes = 5 / 12."
+},
+{
+"question": "According to a survey in an area, 25% of the trees planted did not grow in the year 2011 E.C. and 35% of the trees  planted did not grow in the year 2014 E.C. What was the percentage increase in the fraction of trees planted that did not grow from the year 2011 E.C. to the year 2014 E.C.?",
+"options": [
+"30%",
+"40%",
+"60%",
+"50%"
+],
+"answer": 1,
+"explanation": "Percentage Increase = ((35 - 25)/25) * 100 = (10/25) * 100 = 40%."
+},
+{
+"question": "A lake was 30m deep. Two months later, its depth decreased by 20%. If the depth of the lake increased from where it was after two months by 15% in three months time, what was the cumulative percentage change in the depth of the lake during the five months?",
+"options": [
+"8%",
+"10%",
+"6%",
+"5%"
+],
+"answer": 2,
+"explanation": "Initial depth = 30m. After a 20% decrease: 30 − (0.20 × 30) = 24m.\n\n Then a 15% increase from 24m: 24 + (0.15 × 24) = 27.6m. \n\nNet change = 30 − 27.6 = 2.4m decrease. Percentage change = (2.4 / 30) × 100 = 8% decrease."
+},
+{
+"question": "Which one of the following is true for every natural number n?",
+"options": [
+"(n+1)² ≤ n² - 2n + 1",
+"n² ≥ n!",
+"(n+1)³ ≥ n³ + 1",
+"6ⁿ - 1 ≤  625"
+],
+"answer": 2,
+"explanation": "(n+1)³ = n³ + 3n² + 3n + 1. \n\n- Since 3n² + 3n ≥ 0 for every natural number n, we have (n+1)³ ≥ n³ + 1 for all natural numbers.\n\n-  The other statements are not true for all natural numbers."
+},
+{
+"question": "If your total income is 12,000 Birr per month and you can't spend more than 60% on housing, what is the maximum amount of your total income that can be spent on housing?",
+"options": [
+"6,000 Birr",
+"9,000 Birr",
+"7,200 Birr",
+"5,600 Birr"
+],
+"answer": 2,
+"explanation": "Maximum allowed spending = 60% of 12,000 Birr.\n\n 0.60 × 12,000 = 7,200 Birr. \n\nTherefore, the maximum amount that can be spent on housing is 7,200 Birr."
+},
+{
+"question": "Suppose that the perimeter of a rectangular farm is 80 meter. If the farm is y meter long and x meter wide then which one of the following functions of x will model the total area of the farm in square meter?",
+"options": [
+"h(x) = -2x² + 80x",
+"k(x) = 2x² + 80x",
+"f(x) = -x² + 40x",
+"g(x) = x² - 40x"
+],
+"answer": 2,
+"explanation": "Perimeter = 2x + 2y = 80, so x + y = 40 and y = 40 − x.\n\n Area = x × y = x(40 − x) = 40x − x² = -x² + 40x. \n\nTherefore, the correct function is f(x) = -x² + 40x."
+},
+{
+"question": "Which one of the following is the coefficient of x³y in the expansion of the algebraic expression (x+y)⁴?",
+"options": [
+"4",
+"2",
+"3",
+"6"
+],
+"answer": 0,
+"explanation": "Using the binomial theorem: (x+y)⁴ = x⁴ + 4x³y + 6x²y² + 4xy³ + y⁴.\n\n The term with x³y has the coefficient 4."
+},
+{
+"question": "Which one of the following is the degree of the polynomial function f(x) = (2x + 7)⁵ (3x - 1)²?",
+"options": [
+"7",
+"2",
+"6",
+"5"
+],
+"answer": 0,
+"explanation": "The degree of a polynomial product is the sum of the degrees of its factors.\n\n (2x + 7)⁵ has degree 5 and (3x - 1)² has degree 2. Total degree = 5 + 2 = 7."
+},
+{
+"question": "Which one of the following is necessarily true about any real numbers x and y?",
+"options": [
+"|x + y|  ≥ |x - y|",
+"|x + y| = |-x - y|",
+"(x - y)² ≤ (x + y)²",
+"(x + y)² ≤ (x - y)²"
+],
+"answer": 1,
+"explanation": "For any real numbers x and y, |-x - y| = |-(x + y)| = |x + y| because the absolute value of a number is equal to the absolute value of its negative. This is always true."
+},
+{
+"question": "Which one of the following is the solution set of the system of linear equations given by x + y = 1 and 3x - y = 7?",
+"options": [
+"{(2, 1)}",
+"{(-2, 1)}",
+"{(-1, 2)}",
+"{(2, -1)}"
+],
+"answer": 3,
+"explanation": "Solve the system:\n\n1) x + y = 1 → y = 1 - x\n\n2) 3x - y = 7 → 3x - (1 - x) = 7 → 3x - 1 + x = 7 → 4x - 1 = 7 → 4x = 8 → x = 2\n\nThen y = 1 - 2 = -1\n\nSolution set: {(2, -1)}"
+},
+{
+"question": "Which one of the following ordered pair of numbers is not in the solution of the system of linear inequalities x + y  ≥ 1 and x - 2y ≤ 2?",
+"options": [
+"(-1, 2)",
+"(2, -1)",
+"(1, 2)",
+"(2, 1)"
+],
+"answer": 0,
+"explanation": "For (2, -1): x - 2y = 2 - 2(-1) = 4 > 2, so it does not satisfy the inequalities"
+},
+{
+"question": "Given the system of linear inequalities  {(ax + by ≥ c)  (ax + by ≤ c)}  for arbitrary constants a, b and c in ℝ with c≠ 0, then which one of the following is true about the solution set of the system?",
+"options": [
+"{(x, y): ax + by = c}",
+"{(x, y): ax + by ≠ c }",
+"{(x, y): ax + by ≥ c}",
+"{(x, y): ax + by ≤ c}"
+],
+"answer": 2,
+"explanation": "For any real numbers, the only way ax + by can be both ≥ c and ≤ c is if ax + by = c exactly."
+},
+{
+"question": "A woman spent one fifth of her salary for clothing, two fifth her salary for different bills and 100 Birr for transport. After covering all these costs she is left with 4,500 Birr. What was the salary she received?",
+"options": [
+"13,500 Birr",
+"11,500 Birr",
+"10,500 Birr",
+"12,500 Birr"
+],
+"answer": 1,
+"explanation": ""
+},
+{
+"question": "During the sunshine, an upright building 16 meters tall is casting a shadow of 12 meters long. At the same time, a nearby upright building is casting a shadow of 18 meters long. If the lengths of the shadows are proportional to the heights of the buildings, what is the height, in meter, of the taller building?",
+"options": [
+"17",
+"32",
+"24",
+"36"
+],
+"answer": 2,
+"explanation": "Let height of taller building = H.\n\nShadows are proportional to heights: 16 / 12 = H / 18 → 16 × 18 = 12 × H → 288 = 12H → H = 24 meters."
+},
+
+{
+"question": "Which one of the following is the $100^{\\text{th}}$ term of the geometric sequence ${G_n}_{n=1}^{\\infty}$, where $\\frac{G_n}{G_{n-1}} = -1$ and $G_3 = 5$?",
+"options": [
+"5",
+"-1",
+"1",
+"-5"
+],
+"answer": 0,
+"explanation": ""
+},
+
+{
+"question": "Consider the system of linear equations x - 2y = 3 and -3x + 2y = 1. Then which one of the following is true about the system?",
+"options": [
+"The system has two different solutions.",
+"The system has unique solution.",
+"The system has no solution.",
+"The system has infinite solutions."
+],
+"answer": 1,
+"explanation": "Add the equations: (x - 2y) + (-3x + 2y) = 3 + 1 → -2x = 4 → x = -2.\n\n Substitute into x - 2y = 3 → -2 - 2y = 3 → -2y = 5 → y = -5/2. \n\nSince there is exactly one solution, the system has a unique solution."
+}
+]

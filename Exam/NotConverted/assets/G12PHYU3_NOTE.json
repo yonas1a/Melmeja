@@ -1,0 +1,45 @@
+
+[
+{
+"type": "note",
+"title": "UNIT 3: FLUID MECHANICS",
+"notes": "✓ Fluid mechanics → Deals with the behavior of liquids and gases, both at rest and in motion.\n\n✓ A fluid cannot resist a sideways/shearing force continuously, so it flows.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.1 FLUID STATICS",
+"notes": "✓ Fluid statics → The study of fluids at rest. There is no relative motion between adjacent fluid layers and no shear stress; pressure is the main normal stress.\n\n◆ FLUIDS\n✓ Liquids and gases are fluids.\n\n◆ Liquids → Have nearly fixed volume but take the shape of their container.\n\n◆ Gases → Have neither fixed shape nor fixed volume and are highly compressible.\n\n✓ Liquids and solids are nearly incompressible compared with gases.\n\n◆ DENSITY (ρ)\n✓ Density → Mass per unit volume:\nρ = m/V\n\n✓ SI unit: kg/m³\n\n✓ Density is important in determining whether objects float or sink and affects fluid pressure.\n\n◆ PRESSURE (P)\n✓ Pressure → The normal force acting per unit area:\nP = F/A\n\n✓ SI unit: pascal (Pa)\n1 Pa = 1 N/m²\n\n✓ A smaller area produces greater pressure for the same force.\n\n◆ Applications of fluid statics:\nHydraulic presses\nCar jacks\nDams\nWater tanks\nFloating/submerged objects",
+"image": null
+},
+{
+"type": "note",
+"title": "3.2 PRESSURE IN FLUIDS AT REST",
+"notes": "✓ A fluid at rest exerts pressure on surfaces in contact with it.\n\n✓ Pressure increases with depth because deeper points support a greater column of fluid.\n\n◆ PRESSURE DUE TO A LIQUID\n✓ P = ρgh\n\n◆ Where:\nρ → Fluid density\nh → Depth/height of fluid\ng → Gravitational acceleration\n\n✓ Pressure at the same depth in the same fluid is equal.\n\n✓ Pressure depends on depth, density and gravity, not on the container's shape.\n\n◆ ATMOSPHERIC PRESSURE\n✓ Atmospheric pressure → The pressure exerted by Earth's atmosphere.\n\n✓ Standard atmospheric pressure:\n1 atm = 760 mmHg = 760 torr ≈ 101.3 kPa\n\n◆ GAUGE PRESSURE\n✓ Pressure measured relative to atmospheric pressure:\nPgauge = Pabsolute − Patm\n\n◆ ABSOLUTE PRESSURE\n✓ Total pressure relative to a perfect vacuum:\nPabsolute = Patm + Pgauge\n\n◆ PASCAL'S LAW\n✓ A pressure change applied to an enclosed fluid is transmitted undiminished to all parts of the fluid and the walls of its container.\n\n◆ HYDRAULIC SYSTEM\n✓ Hydraulic machines use Pascal's law to transmit and multiply forces.\n\nF₁/A₁ = F₂/A₂\n\n◆ PRESSURE-MEASURING DEVICES\nManometer → Measures pressure using liquid columns.\nMercury barometer → Measures atmospheric pressure.\n\n✓ Key idea: Pressure in a stationary fluid acts normally to surfaces.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.3 ARCHIMEDES' PRINCIPLE",
+"notes": "✓ When an object is placed in a fluid, the fluid exerts an upward force called buoyant force.\n\n✓ This occurs because fluid pressure is greater at greater depth.\n\n◆ BUOYANT FORCE (Fᵦ)\n✓ Buoyant force → The net upward force exerted by a fluid on an immersed object.\n\n◆ ARCHIMEDES' PRINCIPLE\n✓ The buoyant force on an object equals the weight of the fluid displaced by the object.\n\nFᵦ = ρfluidVdisplacedg\n\n◆ FLOATING AND SINKING\n✓ Fᵦ > W → Object rises.\n✓ Fᵦ < W → Object sinks.\n✓ Fᵦ = W → Object remains suspended or floats in equilibrium.\n\n✓ An object floats when its average density is less than the density of the fluid.\n\n◆ SPECIFIC GRAVITY\n✓ Specific gravity → Compares the density of a substance with the density of a reference fluid, usually water:\n\nSG = ρobject/ρwater\n\n✓ It has no unit.\n\n◆ APPLICATIONS\nArchimedes' principle is used in ships, submarines, hydrometers and determining the density of irregular objects.\n\n✓ Apparent weight in a fluid is reduced because the buoyant force acts upward.",
+"image": null
+},
+{
+"type": "note",
+"title": "3.4 FLUID FLOW",
+"notes": "✓ Fluid flow occurs because of pressure differences.\n\n✓ A fluid generally moves from a region of higher pressure toward a region of lower pressure.\n\n◆ Examples:\nWind\nBlood circulation\nWater flowing through pipes\n\n◆ STEADY FLOW\n✓ Each fluid particle follows a smooth path, and particles arriving at the same point have the same velocity.\n\n✓ Streamlines do not cross.\n\n◆ TURBULENT FLOW\n✓ Irregular and disorderly flow containing whirlpool-like regions.\n\n✓ It commonly occurs at high fluid speeds.\n\n◆ VISCOSITY\n✓ Viscosity → The internal friction between adjacent layers of a moving fluid.\n\n✓ It opposes relative motion and converts some kinetic energy into internal energy.\n\n◆ FLOW RATE (Q)\n✓ Flow rate → The volume of fluid passing through a cross-section per unit time:\nQ = V/t\n\n✓ For a fluid moving through a pipe:\nQ = Av\n\n◆ Where:\nA → Cross-sectional area\nv → Average fluid velocity\n\n◆ EQUATION OF CONTINUITY\n✓ For steady flow of an incompressible fluid:\nA₁v₁ = A₂v₂\n\n✓ Therefore, when a pipe becomes narrower, the fluid moves faster.\n\n✓ If A₂ < A₁ → v₂ > v₁\n\n◆ BERNOULLI'S PRINCIPLE\n✓ As the speed of a moving fluid increases, the pressure it exerts on a surface decreases.\n\n✓ P + ½ρv² + ρgh = constant\n\n◆ Where:\np → Pressure\nρ → Fluid density\nv → Fluid velocity\ng → Acceleration due to gravity\nh → Height above a reference level\n\n✓ P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂\n\n✓ This principle helps explain effects such as airflow over an airplane wing, pressure changes in pipes and some biological fluid-flow phenomena.\n\n◆ Applications:\nBlood flow\nWater pipes\nAirflow\nAirplane wings\nSpray devices\nWind and atmospheric flow",
+"image": null
+},
+{
+"type": "note",
+"title": "3.5 SAFETY AND HIGH PRESSURE",
+"notes": "✓ High pressure → Pressure much greater than atmospheric pressure; the textbook generally considers pressures above about 50 atm as high pressure.\n\n◆ HIGH-PRESSURE APPLICATIONS\nPressure cookers\nGas cylinders\nTire inflators\nHigh-pressure washers\nIndustrial and laboratory systems\nFood preservation by pascalization\n\n◆ HIGH-PRESSURE EQUIPMENT\nCompressors/pumps\nHigh-pressure pipes, fittings and valves\nPressure vessels\nSteam generators\nSafety valves\nBursting discs\nPressure instruments\n\n◆ COMPRESSOR\n✓ A mechanical device that increases gas pressure, commonly by reducing its volume.\n\n◆ PASCALIZATION\n✓ Using very high pressure to reduce or eliminate microorganism activity in food, helping extend the shelf life of products such as juice, fish, meat and dairy products.\n\n◆ SAFETY MEASURES\nWear safety glasses/goggles.\nWear gloves and enclosed shoes.\nUse appropriate protective equipment.\nNever point a pressure washer at people or animals.\nMaintain proper working position.\nTurn off the machine and water before removing hoses.\nHandle gas cylinders carefully and prevent accidental leakage.\n\n✓ High-pressure systems can be extremely useful but can cause serious injury if improperly designed or operated.",
+"image": null
+},
+{
+"type": "note",
+"title": "UNIT 3: QUICK FORMULA SHEET",
+"notes": "◆ DENSITY\n✓ ρ = m/V\n\n◆ PRESSURE\n✓ P = F/A\n\n◆ LIQUID PRESSURE\n✓ P = ρgh\n\n◆ PASCAL'S LAW\n✓ F₁/A₁ = F₂/A₂\n\n◆ ABSOLUTE & GAUGE PRESSURE\n✓ Pabsolute = Patm + Pgauge\n✓ Pgauge = Pabsolute − Patm\n\n◆ BUOYANT FORCE\n✓ Fᵦ = ρfluidVdisplacedg\n\n◆ FLOW RATE\n✓ Q = V/t\n✓ Q = Av\n\n◆ CONTINUITY\n✓ A₁v₁ = A₂v₂\n\n◆ BERNOULLI IDEA\n✓ Higher fluid speed → lower pressure.",
+"image": null
+}
+]

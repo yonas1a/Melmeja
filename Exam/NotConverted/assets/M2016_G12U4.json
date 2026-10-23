@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Given that a graph of system of linear inequalities as shown below. Which one of the following system of linear inequalities is represented by the shaded region in the graph? ",
+    "options": [
+      "A. {(2x + y ≥ 4), (3x-y ≥ 6)}",
+      "B. {(2x + y ≤ 4), (3x - y ≥ 6)}",
+      "C. {(2x + y ≤ 4), (3x - y ≤ 6)}",
+      "D. {(2x + y ≥ 4), (3x -y ≤ 6)}"
+    ],
+    "answer": 2,
+    "image": "images/M2016_56.png",
+    "explanation": ""
+  },
+  {
+    "question": "What is the maximum value of z = 2x + 3y subjected to the constraints:\n{x + y ≤ 6 \n{2x-y ≤ 6 \n{ x ≥ 0 \n{ y ≥ 0",
+    "options": [
+      "A. 12",
+      "B. 14",
+      "C. 18",
+      "D. 22"
+    ],
+    "answer": 2,
+    "explanation": "Corner points: (0,0), (3,0), (4,2), (0,6).\n\n Evaluate z: 0, 6, 14, 18 \n→ maximum is 18."
+  },
+
+  {
+    "question": "A company produces shirts of black and white colors from polyester and cotton. The company has 6000 units of polyester and 3000 units of cotton in its stock. A black shirt requires 3 units of polyester and 4 units of cotton, whereas a white shirt requires 2 units of polyester and 3 units of cotton. If the factory gets a profit of Birr 120 from each black shirt and Birr 200 from each white shirt, what is the maximum profit of the company?",
+    "options": [
+      "A. Birr 344,000",
+      "B. Birr 200,000",
+      "C. Birr 140,000",
+      "D. Birr 120,000"
+    ],
+    "answer": 1,
+    "explanation": "Constraint 4x + 3y ≤ 3000 is limiting.\n\n Checking corner points: (0,1000) gives profit 200×1000 = \n200,000, which is maximum."
+  }
+]

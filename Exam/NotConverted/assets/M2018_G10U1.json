@@ -1,0 +1,13 @@
+[
+{
+  "question": " Let f(x) = 6x⁶ + 4x⁴ + 3x² + 2 and g(x) = 3x² + 2. Then which one of the following is equal to f(x) / g(x)?",
+  "options": [
+    "3x² + 2",
+    "2x⁴ + 1",
+    "2x⁴ + 3x² + 2",
+    "2x⁴ + 3x² + 1"
+  ],
+  "answer": 1,
+  "explanation": "Factor f(x) by grouping:\n 6x⁶ + 4x⁴ + 3x² + 2 =\n 2x⁴(3x² + 2) + 1(3x² + 2).\n\n Therefore, f(x) = (3x² + 2)(2x⁴ + 1). \n\nDividing by g(x) = 3x² + 2 \ngives f(x)/g(x) = 2x⁴ + 1. "
+}
+]

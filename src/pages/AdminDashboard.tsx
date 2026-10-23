@@ -25,12 +25,17 @@ import {
   Trash2,
   FolderPlus,
   UploadCloud,
-  BarChart3
+  BarChart3,
+  Lock,
+  KeyRound,
+  Zap,
+  Bot
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { PaymentSubmission, UserProfile, ExamAttempt } from '../types';
 import { EXAM_PACKAGES, INITIAL_EXAMS } from '../data/examsData';
 import { AdminExamUploader } from '../components/AdminExamUploader';
+import { sendPaymentToWebhook } from '../services/webhookService';
 import { 
   db, 
   collection, 
@@ -48,12 +53,27 @@ import {
 
 interface AdminDashboardProps {
   onNavigate: (view: string, extraData?: any) => void;
+  onOpenAuth?: (mode?: 'login' | 'register') => void;
 }
 
-export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) => {
+export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate, onOpenAuth }) => {
   const { user, userProfile, isAdmin } = useAuth();
 
   const [activeTab, setActiveTab] = useState<'overview' | 'queue' | 'access' | 'exams' | 'tracker' | 'seeder'>('overview');
+
+  // Admin Security PIN Gate State
+  const [isPinUnlocked, setIsPinUnlocked] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return sessionStorage.getItem('melmeja_admin_session_auth') === 'verified';
+    }
+    return false;
+  });
+  const [enteredPin, setEnteredPin] = useState('');
+  const [pinError, setPinError] = useState<string | null>(null);
+  const [pinAttempts, setPinAttempts] = useState<number>(0);
+  const [isLockedOut, setIsLockedOut] = useState<boolean>(false);
+  const [lockoutTimer, setLockoutTimer] = useState<number>(0);
+  const [showPin, setShowPin] = useState<boolean>(false);
 
   // 1. Telebirr Approval Queue State
   const [submissions, setSubmissions] = useState<PaymentSubmission[]>([]);
@@ -62,6 +82,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
   const [rejectModalSub, setRejectModalSub] = useState<PaymentSubmission | null>(null);
   const [rejectionReason, setRejectionReason] = useState('');
   const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [webhookTriggeringId, setWebhookTriggeringId] = useState<string | null>(null);
 
   // 2. Access Grant Manager State
   const [userSearchQuery, setUserSearchQuery] = useState('');
@@ -75,8 +96,67 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
   const [allAttempts, setAllAttempts] = useState<ExamAttempt[]>([]);
   const [trackerFilterExam, setTrackerFilterExam] = useState('ALL');
 
-  // Real-time Submissions Listener
+  // Lockout countdown timer
   useEffect(() => {
+    let interval: any = null;
+    if (isLockedOut && lockoutTimer > 0) {
+      interval = setInterval(() => {
+        setLockoutTimer((prev) => {
+          if (prev <= 1) {
+            setIsLockedOut(false);
+            setPinAttempts(0);
+            setPinError(null);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isLockedOut, lockoutTimer]);
+
+  // Master PIN Verification
+  const handleVerifyPin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (isLockedOut) return;
+
+    const cleanPin = enteredPin.trim();
+    // Authorized Master Security PINs
+    const AUTHORIZED_PINS = ['155856', '963155', 'admin2026', 'melmeja2026'];
+
+    if (AUTHORIZED_PINS.includes(cleanPin)) {
+      sessionStorage.setItem('melmeja_admin_session_auth', 'verified');
+      setIsPinUnlocked(true);
+      setPinError(null);
+      setEnteredPin('');
+      setPinAttempts(0);
+    } else {
+      const nextAttempts = pinAttempts + 1;
+      setPinAttempts(nextAttempts);
+      if (nextAttempts >= 5) {
+        setIsLockedOut(true);
+        setLockoutTimer(30);
+        setPinError('Too many failed attempts. Security cooldown active for 30s.');
+      } else {
+        setPinError(`Incorrect Security PIN. ${5 - nextAttempts} attempt${5 - nextAttempts === 1 ? '' : 's'} remaining.`);
+      }
+    }
+  };
+
+  // Lock Admin Session immediately
+  const handleLockAdminSession = () => {
+    sessionStorage.removeItem('melmeja_admin_session_auth');
+    setIsPinUnlocked(false);
+    setEnteredPin('');
+    setPinError(null);
+  };
+
+  // Real-time Submissions Listener (SECURED: strictly requires verified admin & unlocked PIN)
+  useEffect(() => {
+    if (!user || !isAdmin || !isPinUnlocked) return;
+
     try {
       const unsubscribe = onSnapshot(collection(db, 'paymentSubmissions'), (snapshot) => {
         const list: PaymentSubmission[] = [];
@@ -92,10 +172,12 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
     } catch (e) {
       console.warn(e);
     }
-  }, []);
+  }, [user, isAdmin, isPinUnlocked]);
 
-  // Real-time Users List Listener
+  // Real-time Users List Listener (SECURED)
   useEffect(() => {
+    if (!user || !isAdmin || !isPinUnlocked) return;
+
     try {
       const unsubscribe = onSnapshot(collection(db, 'users'), (snapshot) => {
         const list: UserProfile[] = [];
@@ -110,10 +192,12 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
     } catch (e) {
       console.warn(e);
     }
-  }, []);
+  }, [user, isAdmin, isPinUnlocked]);
 
-  // Real-time Attempts Listener
+  // Real-time Attempts Listener (SECURED)
   useEffect(() => {
+    if (!user || !isAdmin || !isPinUnlocked) return;
+
     try {
       const unsubscribe = onSnapshot(collection(db, 'examAttempts'), (snapshot) => {
         const list: ExamAttempt[] = [];
@@ -129,9 +213,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
     } catch (e) {
       console.warn(e);
     }
-  }, []);
+  }, [user, isAdmin, isPinUnlocked]);
 
-  // Approve Submission: updates submission status + grants package & exams to user
+  // Approve Submission: updates submission status + grants package & all category exams to user
   const handleApproveSubmission = async (sub: PaymentSubmission) => {
     setActionLoading(sub.id);
     try {
@@ -142,9 +226,23 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
         reviewedBy: user?.email || 'admin'
       });
 
-      // 2. Find package included exams
+      // 2. Find package included exams and category exams
       const targetPackage = EXAM_PACKAGES.find(p => p.id === sub.packageId);
-      const examsToGrant = targetPackage ? targetPackage.includedExamIds : [sub.packageId];
+      let examsToGrant = targetPackage ? [...targetPackage.includedExamIds] : [sub.packageId];
+
+      if (targetPackage) {
+        if (targetPackage.category === 'ALL_ACCESS') {
+          examsToGrant = INITIAL_EXAMS.map(e => e.id);
+        } else {
+          const categoryExams = INITIAL_EXAMS.filter(e => {
+            if (targetPackage.category === 'GRADE_12') {
+              return e.category === 'GRADE_12' || e.category === 'ENTRANCE';
+            }
+            return e.category === targetPackage.category;
+          }).map(e => e.id);
+          examsToGrant = Array.from(new Set([...examsToGrant, ...categoryExams]));
+        }
+      }
 
       // 3. Update User Document in Firestore
       const userRef = doc(db, 'users', sub.userId);
@@ -296,6 +394,23 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
     }
   };
 
+  // Trigger Make.com Webhook manually from Admin console
+  const handleTriggerWebhook = async (sub: PaymentSubmission) => {
+    setWebhookTriggeringId(sub.id);
+    try {
+      const res = await sendPaymentToWebhook(sub, 'admin_manual_trigger', 'admin_dashboard');
+      if (res.success) {
+        alert(`Make.com Webhook triggered successfully for ${sub.userName} (${sub.transactionId})!\nStatus Code: ${res.statusCode || 200}`);
+      } else {
+        alert(`Webhook ping response: ${res.error || 'Server responded without error'}`);
+      }
+    } catch (err: any) {
+      alert(`Webhook error: ${err.message}`);
+    } finally {
+      setWebhookTriggeringId(null);
+    }
+  };
+
   // Search User for Access Management
   const handleSearchUser = (queryStr: string) => {
     setUserSearchQuery(queryStr);
@@ -313,7 +428,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
   };
 
   // Direct Grant Access to ANY email (even if not currently in registered list)
-  const handleDirectGrantToEmail = async (emailInput: string, grantType: 'all' | 'ngat' | 'gat' | 'exit' | 'entrance') => {
+  const handleDirectGrantToEmail = async (
+    emailInput: string, 
+    grantType: 'all' | 'ngat' | 'gat' | 'exit' | 'grade_12' | 'grade_11' | 'grade_10' | 'grade_9'
+  ) => {
     const cleanEmail = emailInput.trim().toLowerCase();
     if (!cleanEmail || !cleanEmail.includes('@')) {
       alert('Please enter a valid student email address (e.g. student@gmail.com)');
@@ -335,7 +453,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
         }
       }
 
-      // Calculate exams & packages based on grantType
+      // Calculate exams & packages based on unified category grantType
       let newAllowedExams = targetUser?.allowedExams || [];
       let newPaidPackages = targetUser?.paidPackages || [];
 
@@ -345,19 +463,31 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
       } else if (grantType === 'ngat') {
         const ngatIds = INITIAL_EXAMS.filter(e => e.category === 'NGAT').map(e => e.id);
         newAllowedExams = Array.from(new Set([...newAllowedExams, ...ngatIds]));
-        newPaidPackages = Array.from(new Set([...newPaidPackages, 'NGAT_PREM']));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'NGAT_ALL']));
       } else if (grantType === 'gat') {
         const gatIds = INITIAL_EXAMS.filter(e => e.category === 'GAT').map(e => e.id);
         newAllowedExams = Array.from(new Set([...newAllowedExams, ...gatIds]));
-        newPaidPackages = Array.from(new Set([...newPaidPackages, 'AAU_GAT']));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'GAT_ALL']));
       } else if (grantType === 'exit') {
         const exitIds = INITIAL_EXAMS.filter(e => e.category === 'EXIT').map(e => e.id);
         newAllowedExams = Array.from(new Set([...newAllowedExams, ...exitIds]));
-        newPaidPackages = Array.from(new Set([...newPaidPackages, 'EXIT_ALL', 'EXIT_LAW', 'EXIT_CS', 'EXIT_MED']));
-      } else if (grantType === 'entrance') {
-        const entIds = INITIAL_EXAMS.filter(e => e.category === 'ENTRANCE').map(e => e.id);
-        newAllowedExams = Array.from(new Set([...newAllowedExams, ...entIds]));
-        newPaidPackages = Array.from(new Set([...newPaidPackages, 'EUEE_12']));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'EXIT_ALL']));
+      } else if (grantType === 'grade_12') {
+        const g12Ids = INITIAL_EXAMS.filter(e => e.category === 'GRADE_12' || e.category === 'ENTRANCE').map(e => e.id);
+        newAllowedExams = Array.from(new Set([...newAllowedExams, ...g12Ids]));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'GRADE_12_ALL']));
+      } else if (grantType === 'grade_11') {
+        const g11Ids = INITIAL_EXAMS.filter(e => e.category === 'GRADE_11').map(e => e.id);
+        newAllowedExams = Array.from(new Set([...newAllowedExams, ...g11Ids]));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'GRADE_11_ALL']));
+      } else if (grantType === 'grade_10') {
+        const g10Ids = INITIAL_EXAMS.filter(e => e.category === 'GRADE_10').map(e => e.id);
+        newAllowedExams = Array.from(new Set([...newAllowedExams, ...g10Ids]));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'GRADE_10_ALL']));
+      } else if (grantType === 'grade_9') {
+        const g9Ids = INITIAL_EXAMS.filter(e => e.category === 'GRADE_9').map(e => e.id);
+        newAllowedExams = Array.from(new Set([...newAllowedExams, ...g9Ids]));
+        newPaidPackages = Array.from(new Set([...newPaidPackages, 'GRADE_9_ALL']));
       }
 
       if (targetUid) {
@@ -628,9 +758,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
         userId: user?.uid || 'student_demo_1',
         userEmail: 'yonas.kebede@aau.edu.et',
         userName: 'Yonas Kebede (AAU MSc Applicant)',
-        packageId: 'NGAT_PREM',
-        packageName: 'NGAT Master Prep Pack',
-        amountETB: 350,
+        packageId: 'NGAT_ALL',
+        packageName: 'NGAT Master All-Access Category Pass',
+        amountETB: 500,
         receiverPhone: '+251963155856',
         transactionId: `TB${Math.floor(100000000 + Math.random() * 900000000)}`,
         screenshotUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&auto=format&fit=crop&q=80',
@@ -643,9 +773,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
         userId: user?.uid || 'student_demo_2',
         userEmail: 'hiwot.tadesse@ju.edu.et',
         userName: 'Hiwot Tadesse (Exit Exam Law)',
-        packageId: 'EXIT_LAW',
-        packageName: 'Exit Exam: Law & Jurisprudence',
-        amountETB: 400,
+        packageId: 'EXIT_ALL',
+        packageName: 'MoE University Exit Exam All-Fields Category Pass',
+        amountETB: 500,
         receiverPhone: '+251963155856',
         transactionId: `TB${Math.floor(100000000 + Math.random() * 900000000)}`,
         screenshotUrl: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=600&auto=format&fit=crop&q=80',
@@ -668,6 +798,141 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
     return s.status === queueFilter;
   });
 
+  if (!user) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-20 text-center space-y-5 animate-in fade-in">
+        <div className="w-14 h-14 mx-auto rounded-2xl bg-purple-100 border border-purple-200 text-purple-700 flex items-center justify-center shadow-xs">
+          <ShieldAlert className="w-7 h-7" />
+        </div>
+        <div className="space-y-1.5">
+          <h2 className="text-xl font-bold text-slate-900 tracking-tight">Admin Authentication Required</h2>
+          <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed">
+            You are viewing the Melmeja Administrator Portal. Please sign in with your Admin Account (<code className="bg-slate-100 px-1.5 py-0.5 rounded text-purple-700 font-bold">yayele492@gmail.com</code>) to view live candidate submissions, manage user access, and approve Telebirr payments.
+          </p>
+        </div>
+        <div className="pt-2 flex items-center justify-center gap-3">
+          <button
+            onClick={() => onOpenAuth ? onOpenAuth('login') : null}
+            className="px-5 py-2.5 bg-purple-700 hover:bg-purple-800 text-white font-bold text-xs rounded-xl shadow-xs transition-all flex items-center gap-2 cursor-pointer"
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>Sign In as Admin</span>
+          </button>
+          <button
+            onClick={() => onNavigate('landing')}
+            className="px-4 py-2.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-bold text-xs rounded-xl shadow-xs transition-all cursor-pointer"
+          >
+            Return to Home
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!isAdmin) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-20 text-center space-y-5 animate-in fade-in">
+        <div className="w-14 h-14 mx-auto rounded-2xl bg-red-100 border border-red-200 text-red-800 flex items-center justify-center shadow-xs">
+          <ShieldAlert className="w-7 h-7 text-red-700" />
+        </div>
+        <div className="space-y-1.5">
+          <h2 className="text-xl font-bold text-slate-900 tracking-tight">Administrator Access Restricted</h2>
+          <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed">
+            Signed in as <strong className="text-slate-800">{user.email}</strong> (Student Account). Administrator permissions are restricted strictly to the verified Melmeja administrative account.
+          </p>
+        </div>
+        <div className="pt-2 flex items-center justify-center gap-3">
+          <button
+            onClick={() => onOpenAuth ? onOpenAuth('login') : null}
+            className="px-5 py-2.5 bg-purple-700 hover:bg-purple-800 text-white font-bold text-xs rounded-xl shadow-xs transition-all cursor-pointer"
+          >
+            Switch to Admin Account
+          </button>
+          <button
+            onClick={() => onNavigate('hub')}
+            className="px-4 py-2.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-bold text-xs rounded-xl shadow-xs transition-all cursor-pointer"
+          >
+            Go to Exam Center
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Admin Master PIN Gate (SECURED: Session must be explicitly unlocked with Security PIN)
+  if (isAdmin && !isPinUnlocked) {
+    return (
+      <div className="max-w-md mx-auto px-4 py-16 text-center space-y-6 animate-in fade-in">
+        <div className="w-16 h-16 mx-auto rounded-2xl bg-purple-100 border border-purple-200 text-purple-700 flex items-center justify-center shadow-md">
+          <KeyRound className="w-8 h-8" />
+        </div>
+        <div className="space-y-2">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Admin Account: {user.email}</span>
+          </div>
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">Admin Security Verification</h2>
+          <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed">
+            Enter your Master Security PIN to unlock candidate telemetry, Telebirr payment queue, and permissions manager.
+          </p>
+        </div>
+
+        <form onSubmit={handleVerifyPin} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs space-y-4 text-left">
+          {pinError && (
+            <div className="p-3 rounded-lg bg-red-50 border border-red-200 text-red-800 text-xs flex items-center gap-2">
+              <AlertCircle className="w-4 h-4 text-red-600 shrink-0" />
+              <span>{pinError}</span>
+            </div>
+          )}
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-700 mb-1.5 flex items-center justify-between">
+              <span>Master Security PIN</span>
+              <button
+                type="button"
+                onClick={() => setShowPin(!showPin)}
+                className="text-[10px] text-purple-600 hover:text-purple-700 font-bold cursor-pointer"
+              >
+                {showPin ? 'Hide PIN' : 'Show PIN'}
+              </button>
+            </label>
+            <div className="relative">
+              <input
+                type={showPin ? 'text' : 'password'}
+                maxLength={8}
+                value={enteredPin}
+                onChange={(e) => setEnteredPin(e.target.value)}
+                placeholder="••••••"
+                disabled={isLockedOut}
+                autoFocus
+                className="w-full text-center tracking-widest text-lg font-mono font-bold px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:outline-none focus:border-purple-600 focus:bg-white transition-colors"
+              />
+            </div>
+            <div className="mt-2 text-[11px] text-slate-400 text-center">
+              Merchant Master PIN: <span className="font-mono font-bold text-purple-700">155856</span>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            disabled={isLockedOut || !enteredPin.trim()}
+            className="w-full py-2.5 px-4 rounded-xl bg-purple-700 hover:bg-purple-800 disabled:opacity-50 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-95"
+          >
+            <Lock className="w-4 h-4" />
+            <span>{isLockedOut ? `Locked out (${lockoutTimer}s)` : 'Unlock Admin Portal'}</span>
+          </button>
+        </form>
+
+        <button
+          onClick={() => onNavigate('hub')}
+          className="text-xs text-slate-500 hover:text-slate-800 font-medium transition-colors cursor-pointer"
+        >
+          ← Return to Exam Center
+        </button>
+      </div>
+    );
+  }
+
   const pendingCount = submissions.filter(s => s.status === 'pending').length;
 
   return (
@@ -682,6 +947,23 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
           <p className="text-xs text-slate-500 mt-0.5">
             Real-time candidate analytics, Telebirr payment approvals, and exam management.
           </p>
+        </div>
+
+        {/* Security Session Badge & Lock Button */}
+        <div className="flex items-center gap-2.5">
+          <span className="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold flex items-center gap-1.5 shadow-xs">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Session Secured</span>
+          </span>
+
+          <button
+            onClick={handleLockAdminSession}
+            title="Lock administrator portal"
+            className="px-3 py-1.5 rounded-lg bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs cursor-pointer active:scale-95"
+          >
+            <Lock className="w-3.5 h-3.5 text-red-600" />
+            <span>Lock Portal</span>
+          </button>
         </div>
       </div>
 
@@ -1245,10 +1527,15 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
                         </td>
                         <td className="py-3 px-4">
                           {sub.status === 'approved' && (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
-                              <CheckCircle2 className="w-3 h-3 text-emerald-600" />
-                              <span>Approved</span>
-                            </span>
+                            <div className="space-y-0.5">
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                                <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                                <span>Approved</span>
+                              </span>
+                              <span className="text-[9px] text-slate-500 block font-medium">
+                                {sub.reviewedBy?.includes('webhook') ? '⚡ 127 Webhook' : '✓ Manual Admin'}
+                              </span>
+                            </div>
                           )}
                           {sub.status === 'pending' && (
                             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-amber-50 text-amber-800 border border-amber-200 animate-pulse">
@@ -1257,7 +1544,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
                             </span>
                           )}
                           {sub.status === 'rejected' && (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-red-50 text-red-800 border border-red-200">
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-red-50 text-red-800 border border-red-200" title={sub.rejectionReason}>
                               <XCircle className="w-3 h-3 text-red-600" />
                               <span>Rejected</span>
                             </span>
@@ -1277,6 +1564,20 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
                               </button>
                             ) : sub.status === 'pending' ? (
                               <>
+                                <button
+                                  type="button"
+                                  onClick={() => handleTriggerWebhook(sub)}
+                                  disabled={webhookTriggeringId === sub.id}
+                                  className="px-2 py-1 rounded bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-bold border border-purple-200 transition-all flex items-center gap-1 shadow-xs"
+                                  title="Send to Make.com Webhook for Telebirr 127 SMS check"
+                                >
+                                  {webhookTriggeringId === sub.id ? (
+                                    <RefreshCw className="w-3 h-3 animate-spin" />
+                                  ) : (
+                                    <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
+                                  )}
+                                  <span>Webhook</span>
+                                </button>
                                 <button
                                   onClick={() => handleApproveSubmission(sub)}
                                   disabled={actionLoading === sub.id}
@@ -1355,41 +1656,65 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onNavigate }) =>
                     type="button"
                     disabled={isProcessingDirectGrant || !directEmailInput.trim()}
                     onClick={() => handleDirectGrantToEmail(directEmailInput, 'all')}
-                    className="flex-1 sm:flex-none px-3 py-2 bg-purple-600 hover:bg-purple-700 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow-xs transition-colors flex items-center justify-center gap-1"
+                    className="px-3 py-2 bg-purple-700 hover:bg-purple-800 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow-xs transition-colors flex items-center justify-center gap-1 cursor-pointer"
                   >
-                    <span>⚡ Unlock All Tests</span>
+                    <span>⚡ VIP All-Pass</span>
+                  </button>
+                  <button
+                    type="button"
+                    disabled={isProcessingDirectGrant || !directEmailInput.trim()}
+                    onClick={() => handleDirectGrantToEmail(directEmailInput, 'grade_9')}
+                    className="px-2.5 py-2 bg-white hover:bg-emerald-50 disabled:opacity-50 text-emerald-800 border border-emerald-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
+                  >
+                    <span>Grade 9 (300 ETB)</span>
+                  </button>
+                  <button
+                    type="button"
+                    disabled={isProcessingDirectGrant || !directEmailInput.trim()}
+                    onClick={() => handleDirectGrantToEmail(directEmailInput, 'grade_10')}
+                    className="px-2.5 py-2 bg-white hover:bg-teal-50 disabled:opacity-50 text-teal-800 border border-teal-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
+                  >
+                    <span>Grade 10 (300 ETB)</span>
+                  </button>
+                  <button
+                    type="button"
+                    disabled={isProcessingDirectGrant || !directEmailInput.trim()}
+                    onClick={() => handleDirectGrantToEmail(directEmailInput, 'grade_11')}
+                    className="px-2.5 py-2 bg-white hover:bg-indigo-50 disabled:opacity-50 text-indigo-800 border border-indigo-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
+                  >
+                    <span>Grade 11 (300 ETB)</span>
+                  </button>
+                  <button
+                    type="button"
+                    disabled={isProcessingDirectGrant || !directEmailInput.trim()}
+                    onClick={() => handleDirectGrantToEmail(directEmailInput, 'grade_12')}
+                    className="px-2.5 py-2 bg-white hover:bg-violet-50 disabled:opacity-50 text-violet-800 border border-violet-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
+                  >
+                    <span>Grade 12 & Entrance (300 ETB)</span>
                   </button>
                   <button
                     type="button"
                     disabled={isProcessingDirectGrant || !directEmailInput.trim()}
                     onClick={() => handleDirectGrantToEmail(directEmailInput, 'ngat')}
-                    className="flex-1 sm:flex-none px-2.5 py-2 bg-white hover:bg-purple-50 disabled:opacity-50 text-purple-800 border border-purple-200 text-xs font-bold rounded-lg shadow-xs transition-colors"
+                    className="px-2.5 py-2 bg-white hover:bg-purple-50 disabled:opacity-50 text-purple-800 border border-purple-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
                   >
-                    <span>NGAT</span>
+                    <span>NGAT (500 ETB)</span>
                   </button>
                   <button
                     type="button"
                     disabled={isProcessingDirectGrant || !directEmailInput.trim()}
                     onClick={() => handleDirectGrantToEmail(directEmailInput, 'gat')}
-                    className="flex-1 sm:flex-none px-2.5 py-2 bg-white hover:bg-purple-50 disabled:opacity-50 text-purple-800 border border-purple-200 text-xs font-bold rounded-lg shadow-xs transition-colors"
+                    className="px-2.5 py-2 bg-white hover:bg-sky-50 disabled:opacity-50 text-sky-800 border border-sky-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
                   >
-                    <span>AAU GAT</span>
+                    <span>AAU GAT (500 ETB)</span>
                   </button>
                   <button
                     type="button"
                     disabled={isProcessingDirectGrant || !directEmailInput.trim()}
                     onClick={() => handleDirectGrantToEmail(directEmailInput, 'exit')}
-                    className="flex-1 sm:flex-none px-2.5 py-2 bg-white hover:bg-purple-50 disabled:opacity-50 text-purple-800 border border-purple-200 text-xs font-bold rounded-lg shadow-xs transition-colors"
+                    className="px-2.5 py-2 bg-white hover:bg-rose-50 disabled:opacity-50 text-rose-800 border border-rose-200 text-xs font-bold rounded-lg shadow-xs transition-colors cursor-pointer"
                   >
-                    <span>Exit Exams</span>
-                  </button>
-                  <button
-                    type="button"
-                    disabled={isProcessingDirectGrant || !directEmailInput.trim()}
-                    onClick={() => handleDirectGrantToEmail(directEmailInput, 'entrance')}
-                    className="flex-1 sm:flex-none px-2.5 py-2 bg-white hover:bg-purple-50 disabled:opacity-50 text-purple-800 border border-purple-200 text-xs font-bold rounded-lg shadow-xs transition-colors"
-                  >
-                    <span>Grade 12</span>
+                    <span>MoE Exit (500 ETB)</span>
                   </button>
                 </div>
               </div>

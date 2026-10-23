@@ -1,0 +1,13 @@
+[
+  {
+    "question": "If f(x) = x² + px + 1 where f(0) and f(1) have opposite signs so that f has a root in (0, 1), then which one of the following number is a possible value p?",
+    "options": [
+      "3",
+      "2",
+      "-3",
+      "-2"
+    ],
+    "answer": 2,
+    "explanation": "If f(0) and f(1) have opposite signs, their product must be negative: f(0) * f(1) < 0.\n\n1. Find f(0): f(0) = (0)² + p(0) + 1 = 1.\n\n2. Find f(1): f(1) = (1)² + p(1) + 1 = 1 + p + 1 = p + 2.\n\n3. Set up the inequality: 1 * (p + 2) < 0.\n\n4. Solve for p: p + 2 < 0, which means p < -2.\n\n5. Check the options: The only value less than -2 is -3."
+  }
+]

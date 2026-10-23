@@ -1,0 +1,1297 @@
+[
+    {
+      "question": "Which of the following collections represents a well-defined set?",
+      "options": [
+        "Collection of tall students in Grade 9",
+        "Collection of interesting books in the library",
+        "Collection of natural numbers less than 10",
+        "Collection of beautiful flowers in a garden"
+      ],
+      "answer": 2,
+   "explanation": "A set must be well-defined, meaning it's clear whether an object belongs to the set or not.\n\n 'Tall', 'interesting', and 'beautiful' are subjective. \n\n'Natural numbers less than 10' ({1, 2, 3, 4, 5, 6, 7, 8, 9}) is clearly defined. "
+    },
+
+
+
+
+
+    {
+      "question": "If A = {a, b, c} and B = {1, 2, 3}, which statement is true?",
+      "options": [
+        "A = B",
+        "A ↔ B",
+        "A ⊆ B",
+        "B ⊂ A"
+      ],
+      "answer": 1,
+      "explanation": "Equal sets (=) have exactly the same elements.\n\n Equivalent sets (↔ or ~) have the same number of elements (cardinality). \n\nSet A and Set B have the same number of elements (n(A)=3, n(B)=3) but not the same elements.Therefore, they are equivalent but not equal."
+    },
+    {
+      "question": "Let U = {1, 2, 3, 4, 5, 6, 7, 8}, A = {2, 4, 6, 8}, B = {1, 3, 5}. Which statement is false?",
+      "options": [
+        "A ⊆ U",
+        "B ⊂ U",
+        "∅ ⊂ A",
+        "U ⊆ A"
+      ],
+      "answer": 3,
+      "explanation": "A is a subset (⊆) of U because all elements of A are in U.\n B is a proper subset (⊂) of U because all elements of B are in U, and B is not equal to U.\n\n The empty set (∅) is a proper subset of any non-empty set.\n\n U is not a subset of A because U contains elements (like 1, 3, 5, 7) that are not in A."
+    },
+    {
+      "question": "How many subsets does the set M = {x, y} have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "A set with n elements has 2ⁿ subsets.\n Set M has 2 elements (n=2).\n\n Therefore, it has 2² = 4 subsets.The subsets are {}, {x}, {y}, {x, y}."
+    },
+    {
+      "question": "How many proper subsets does the set M = {x, y} have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "A proper subset is a subset that is not equal to the original set.\n\n A set with n elements has 2ⁿ - 1 proper subsets.\n Set M has 2 elements, so it has 2² - 1 = 4 - 1 = 3 proper subsets.\n These are {}, {x}, {y}."
+    },
+
+
+    {
+      "question": "Let U = {1, 2, 3, 4, 5, 6, 7} and A = {1, 3, 5, 7}. What is A'?",
+      "options": [
+        "{1, 3, 5, 7}",
+        "{2, 4, 6}",
+        "{}",
+        "{1, 2, 3, 4, 5, 6, 7}"
+      ],
+      "answer": 1,
+    "explanation": "The complement (A') of a set A with respect to a universal set U contains all elements in U that are NOT in A.\n\n A' = {2, 4, 6}."
+    },
+    {
+      "question": "If A = {a, b, c, d} and B = {c, d, e, f}, what is A - B?",
+      "options": [
+        "{a, b}",
+        "{e, f}",
+        "{c, d}",
+        "{a, b, c, d, e, f}"
+      ],
+      "answer": 0,
+    "explanation": "The difference (A - B or A\\B) contains all elements that are in set A but NOT in set B.\n\n A - B = {a, b}."
+    },
+    {
+      "question": "If A = {a, b, c, d} and B = {c, d, e, f}, what is B - A?",
+      "options": [
+        "{a, b}",
+        "{e, f}",
+        "{c, d}",
+        "{a, b, c, d, e, f}"
+      ],
+      "answer": 1,
+   "explanation": "The difference (B - A or B\\A) contains all elements that are in set B but NOT in set A. \n\nB - A = {e, f}. "
+    },
+    {
+      "question": "If A = {1, 2} and B = {a, b}, what is A × B?",
+      "options": [
+        "{(1, a), (2, b)}",
+        "{(a, 1), (b, 2)}",
+        "{(1, a), (1, b), (2, a), (2, b)}",
+        "{(a, 1), (a, 2), (b, 1), (b, 2)}"
+      ],
+      "answer": 2,
+    "explanation": "The Cartesian product (A × B) is the set of all ordered pairs (x, y) where x ∈ A and y ∈ B.\n\n A × B = {(1, a), (1, b), (2, a), (2, b)}."
+    },
+    {
+      "question": "If n(A) = 10, n(B) = 15, and n(A ∩ B) = 4, find n(A ∪ B).",
+      "options": [
+        "25",
+        "21",
+        "29",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "The formula for the cardinality of the union of two sets is n(A ∪ B) = n(A) + n(B) - n(A ∩ B).\n\nSo, n(A ∪ B) = 10 + 15 - 4 = 21."
+    },
+    {
+      "question": "If A and B are disjoint sets, what is A ∩ B?",
+      "options": [
+        "A",
+        "B",
+        "U",
+        "∅"
+      ],
+      "answer": 3,
+      "explanation": "Disjoint sets are sets that have no elements in common.\n\nTheir intersection is the empty set (∅). "
+    },
+    {
+      "question": "Which of the following represents De Morgan's First Law?",
+      "options": [
+        "(A ∪ B)' = A' ∪ B'",
+        "(A ∪ B)' = A' ∩ B'",
+        "(A ∩ B)' = A' ∩ B'",
+        "(A ∩ B)' = A ∪ B"
+      ],
+      "answer": 1,
+    "explanation": "De Morgan's First Law states that the complement of the union of two sets is the intersection of their complements: (A ∪ B)' = A' ∩ B'."
+    },
+    {
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∆ B?",
+      "options": [
+        "{1, 2, 4, 5}",
+        "{3}",
+        "{1, 2, 3, 4, 5}",
+        "{1, 2}"
+      ],
+      "answer": 0,
+      "explanation": "The symmetric difference (A ∆ B) is the set of elements which are in either of the sets, but not in their intersection. A ∆ B = (A ∪ B) - (A ∩ B) =\n {1, 2, 3, 4, 5} - {3} = {1, 2, 4, 5}.\n\nAlternatively, A ∆ B = (A - B) ∪ (B - A) =\n {1, 2} ∪ {4, 5} = {1, 2, 4, 5}. "
+    },
+    {
+      "question": "Which method uses words to describe the elements of a set?",
+      "options": [
+        "Roster method",
+        "Set builder method",
+        "Verbal method",
+        "Partial listing method"
+      ],
+      "answer": 2,
+    "explanation": "The verbal method describes the set using an ordinary language statement."
+    },
+    {
+      "question": "The notation {x | x ∈ ℕ and x < 5} is an example of which set description method?",
+      "options": [
+        "Roster method",
+        "Set builder method",
+        "Verbal method",
+        "Complete listing method"
+      ],
+      "answer": 1,
+      "explanation": "The set builder method describes the elements by stating the property they must satisfy.\n\nThis notation reads 'the set of all x such that x is a natural number and x is less than 5'."
+    },
+
+
+    {
+      "question": "What is the difference between A ⊆ B and A ⊂ B?",
+      "options": [
+        "No difference",
+        "⊆ means subset, ⊂ means proper subset",
+        "⊆ means proper subset, ⊂ means subset",
+        "⊆ means belongs to, ⊂ means subset"
+      ],
+      "answer": 1,
+      "explanation": "⊆ denotes a subset (A can be equal to B).\n\n⊂ denotes a proper subset (A must not be equal to B, meaning B must have at least one element not in A)."
+    },
+    {
+      "question": "If n(A) = 5, how many subsets does A have?",
+      "options": [
+        "5",
+        "10",
+        "25",
+        "32"
+      ],
+      "answer": 3,
+      "explanation": "A set with n elements has 2ⁿ subsets.\n\nIf n(A) = 5, the number of subsets is 2⁵ = 32. "
+    },
+    {
+      "question": "Which of the following statements about the empty set (∅) is false?",
+      "options": [
+        "∅ is a subset of every set",
+        "∅ is a proper subset of every non-empty set",
+        "∅ ∪ A = A for any set A",
+        "∅ ∩ A = A for any set A"
+      ],
+      "answer": 3,
+      "explanation": "The empty set is a subset of every set and a proper subset of any non-empty set.\n\nThe union of the empty set and any set A is A.\n\n The intersection of the empty set and any set A is the empty set (∅ ∩ A = ∅). "
+    },
+    {
+      "question": "In a Venn diagram, the rectangle usually represents the:",
+      "options": [
+        "Intersection of sets",
+        "Union of sets",
+        "Complement of a set",
+        "Universal set"
+      ],
+      "answer": 3,
+    "explanation": "The universal set (U) is typically represented by a rectangle in a Venn diagram, enclosing all other sets under consideration (usually shown as circles). [cite: 361, 366]"
+    },
+    {
+      "question": "In the Venn diagram shown [Image needed: Venn Diagram with U, A, B, A∩B shaded], what does the shaded region represent?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A - B",
+        "A'"
+      ],
+      "answer": 1,
+  "explanation": "The shaded region shows the elements that are common to both set A and set B, which represents the intersection A ∩ B."
+    },
+    {
+      "question": "The expression A - B is equivalent to:",
+      "options": [
+        "A ∩ B'",
+        "A ∪ B'",
+        "A' ∩ B",
+        "A' ∪ B"
+      ],
+      "answer": 0,
+      "explanation": "The set difference A - B contains elements that are in A and not in B.\n\n This is equivalent to finding elements that are in A AND in the complement of B (B').\nTherefore, A - B = A ∩ B'."
+    },
+    {
+      "question": "If A = {x | x is a factor of 12} and B = {x | x is a prime number less than 10}, find A ∩ B.",
+      "options": [
+        "{1, 2, 3}",
+        "{2, 3}",
+        "{2, 3, 5, 7}",
+        "{1, 2, 3, 4, 6, 12}"
+      ],
+      "answer": 1,
+      "explanation": "First, list the sets: A = {1, 2, 3, 4, 6, 12} and B = {2, 3, 5, 7}.\n\n The intersection contains elements common to both sets.A ∩ B = {2, 3}."
+    },
+    {
+      "question": "If A = {x | x ∈ 𝕎, x < 4} and B = {x | x ∈ ℕ, x ≤ 2}, find A ∪ B.",
+      "options": [
+        "{0, 1, 2}",
+        "{1, 2}",
+        "{0, 1, 2, 3}",
+        "{0, 1, 2, 3, ...}"
+      ],
+      "answer": 2,
+      "explanation": "First, list the sets: A = {0, 1, 2, 3} (Whole numbers less than 4) and B = {1, 2} (Natural numbers less than or equal to 2).\n\n The union contains all elements from both sets without repetition.\nA ∪ B = {0, 1, 2, 3}."
+    },
+    {
+      "question": "Given U = {a, b, c, d, e}, A = {a, c, e}, B = {b, d}. What is (A ∪ B)'?",
+      "options": [
+        "{a, b, c, d, e}",
+        "{}",
+        "{a, c, e}",
+        "{b, d}"
+      ],
+      "answer": 1,
+      "explanation": "First, find A ∪ B = {a, b, c, d, e}.\n Then find the complement with respect to U.\n\n Since A ∪ B = U, the complement (A ∪ B)' is the set of elements in U but not in (A ∪ B), which is the empty set {}. "
+    },
+
+    {
+      "question": "If n(A) = 8 and n(B) = 5, what is the maximum possible value for n(A ∪ B)?",
+      "options": [
+        "5",
+        "8",
+        "13",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B). \n\nThe union is maximized when the intersection is minimized.\n\nThe minimum intersection occurs when the sets are disjoint, meaning n(A ∩ B) = 0.\n In this case, n(A ∪ B) = 8 + 5 - 0 = 13."
+    },
+    {
+      "question": "If n(A) = 8 and n(B) = 5, what is the minimum possible value for n(A ∪ B)?",
+      "options": [
+        "0",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B).\n\n The union is minimized when the intersection is maximized.\n\n The maximum intersection occurs when the smaller set is a subset of the larger set (B ⊆ A).\n\nIn this case, n(A ∩ B) = n(B) = 5. So, n(A ∪ B) = 8 + 5 - 5 = 8."
+    },
+    {
+      "question": "If A ⊆ B, which of the following is always true?",
+      "options": [
+        "A ∩ B = A",
+        "A ∪ B = A",
+        "A - B = A",
+        "B - A = B"
+      ],
+      "answer": 0,
+      "explanation": "If A is a subset of B, all elements of A are also in B. \n\nThe intersection (common elements) is therefore all of A. \nThe union is B. A - B (elements in A but not B) is empty. \nB - A (elements in B but not A) may or may not be empty."
+    },
+    {
+      "question": "If A ∪ B = A, which of the following must be true?",
+      "options": [
+        "A = B",
+        "B = ∅",
+        "B ⊆ A",
+        "A ⊆ B"
+      ],
+      "answer": 2,
+  "explanation": "If the union of A and B is just A, it means that B does not contribute any new elements to A.\n\n This happens if and only if all elements of B are already in A, meaning B is a subset of A (B ⊆ A)."
+    },
+    {
+      "question": "In a class of 30 students, 18 play football, 15 play volleyball, and 5 play both. How many students play neither sport?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Let F be the set of students who play football and V be the set who play volleyball.\n\n We are given n(U)=30, n(F)=18, n(V)=15, n(F ∩ V)=5.\n\nThe number playing at least one sport is n(F ∪ V) = n(F) + n(V) - n(F ∩ V) = 18 + 15 - 5 = 28.\n\n The number playing neither sport is n(U) - n(F ∪ V) = 30 - 28 = 2. "
+    },
+    {
+      "question": "The symmetric difference A ∆ B is defined as:",
+      "options": [
+        "(A - B) ∩ (B - A)",
+        "(A ∪ B) - (A ∩ B)",
+        "(A ∩ B) - (A ∪ B)",
+        "A' ∪ B'"
+      ],
+      "answer": 1,
+      "explanation": "A ∆ B contains elements that are in A or B, but not in both.\n\nThis is equivalent to the union minus the intersection, (A ∪ B) - (A ∩ B), or equivalently (A - B) ∪ (B - A)."
+    },
+    {
+      "question": "If A × B = {(a, 1), (a, 2), (b, 1), (b, 2)}, what is set A?",
+      "options": [
+        "{a, b}",
+        "{1, 2}",
+        "{a, 1}",
+        "{b, 2}"
+      ],
+      "answer": 0,
+      "explanation": "In the Cartesian product A × B, the first component of each ordered pair comes from set A.\n\n The first components appearing are 'a' and 'b'.\n\nSo, A = {a, b}."
+    },
+    {
+      "question": "If n(A) = 3 and n(B) = 4, what is n(A × B)?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "12"
+      ],
+      "answer": 3,
+   "explanation": "The number of elements in the Cartesian product A × B is the product of the number of elements in A and the number of elements in B.\n\n n(A × B) = n(A) × n(B) = 3 × 4 = 12."
+    },
+
+
+    {
+      "question": "Consider U = {1, 2, ..., 10}, A = {even numbers in U}, B = {multiples of 3 in U}. Find (A - B)'.",
+      "options": [
+        "{2, 4, 8, 10}",
+        "{1, 3, 5, 6, 7, 9}",
+        "{6}",
+        "{1, 3, 5, 7, 9}"
+      ],
+      "answer": 1,
+      "explanation": "A = {2, 4, 6, 8, 10}, B = {3, 6, 9}. A - B = {elements in A but not in B} = {2, 4, 8, 10}. \n\nThe complement (A - B)' = {elements in U but not in A - B} = {1, 3, 5, 6, 7, 9}. "
+    },
+    {
+      "question": "If two sets A and B are equivalent but not equal, what must be true?",
+      "options": [
+        "n(A) = n(B) and A = B",
+        "n(A) ≠ n(B) and A ≠ B",
+        "n(A) = n(B) and A ≠ B",
+        "n(A) ≠ n(B) and A = B"
+      ],
+      "answer": 2,
+      "explanation": "Equivalent sets have the same number of elements (n(A) = n(B)).\n\n Equal sets have exactly the same elements (A = B).\n\nIf they are equivalent but not equal, they must have the same number of elements but different elements. "
+    },
+
+
+    {
+      "question": "If n(U) = 50, n(A) = 25, n(B) = 30, and n(A ∪ B) = 45, find n(A' ∩ B').",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "First, find n(A ∩ B) using n(A ∪ B) = n(A) + n(B) - n(A ∩ B).\n\n So, 45 = 25 + 30 - n(A ∩ B), which gives n(A ∩ B) = 55 - 45 = 10.\n\n By De Morgan's Law, A' ∩ B' = (A ∪ B)'.\nThe number of elements not in A ∪ B is n(U) - n(A ∪ B) = 50 - 45 = 5.\n\n Therefore, n(A' ∩ B') = 5."
+    },
+    {
+      "question": "If A = {a,b} and B = {1,2,3}, how many elements are in the Cartesian product BxA?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 3,
+    "explanation": "The number of elements in BxA is n(B) * n(A). \n\nn(B) = 3 and n(A) = 2. So, n(BxA) = 3 * 2 = 6. "
+    },
+
+    {
+      "question": "If X = {1, 3, 5} and Y = {1, 2, 3, 4, 5}, which symbol correctly describes the relationship?",
+      "options": [
+        "X = Y",
+        "X ⊂ Y",
+        "Y ⊂ X",
+        "X ↔ Y"
+      ],
+      "answer": 1,
+      "explanation": "All elements of X ({1, 3, 5}) are also elements of Y. \n\nSince X is not equal to Y (Y has elements 2 and 4 which are not in X), X is a proper subset of Y (X ⊂ Y).\n\n They are not equivalent because n(X)=3 and n(Y)=5."
+    },
+
+    {
+      "question": "If A = {1, 2}, B = {2, 3}, C = {3, 4}. Find (A ∪ B) ∩ C.",
+      "options": [
+        "{1, 2, 3, 4}",
+        "{2, 3}",
+        "{3}",
+        "{}"
+      ],
+      "answer": 2,
+      "explanation": "First, find A ∪ B = {1, 2, 3}.\n\nThen, find the intersection of this result with C. \n\n(A ∪ B) ∩ C = {1, 2, 3} ∩ {3, 4} = {3}. "
+    },
+
+
+    {
+      "question": "Let U = {1, 2, 3, 4, 5}, A = {1, 2}, B = {2, 3}. Find A' ∪ B'.",
+      "options": [
+        "{4, 5}",
+        "{1, 3, 4, 5}",
+        "{2}",
+        "{1, 3}"
+      ],
+      "answer": 1,
+      "explanation": "First find the complements: A' = {3, 4, 5} and B' = {1, 4, 5}.\n\n Then find their union: A' ∪ B' = {1, 3, 4, 5}. \nNote this is also (A ∩ B)' by De Morgan's Law."
+    },
+
+
+
+
+
+    {
+      "question": "If n(A - B) = 10, n(B - A) = 7, and n(A ∩ B) = 5, what is n(A ∪ B)?",
+      "options": [
+        "15",
+        "12",
+        "17",
+        "22"
+      ],
+      "answer": 3,
+      "explanation": "The union A ∪ B can be seen as the sum of elements only in A (A-B), elements only in B (B-A), and elements in both (A∩B).\n\n So, n(A ∪ B) = n(A - B) + n(B - A) + n(A ∩ B) =\n\n 10 + 7 + 5 = 22. "
+    },
+    {
+      "question": "Which statement is true if A ∆ B = ∅?",
+      "options": [
+        "A = ∅",
+        "B = ∅",
+        "A = B",
+        "A and B are disjoint"
+      ],
+      "answer": 2,
+      "explanation": "A ∆ B = (A - B) ∪ (B - A).\n For this union to be empty, both (A - B) and (B - A) must be empty. \nA - B = ∅ means A ⊆ B.\n B - A = ∅ means B ⊆ A. \nIf A ⊆ B and B ⊆ A, then A must be equal to B. "
+    },
+
+
+
+    {
+      "question": "If n(A) = 4, how many non-empty proper subsets does A have?",
+      "options": [
+        "16",
+        "15",
+        "14",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Total number of subsets is 2⁴ = 16.\n\n The number of proper subsets is 2⁴ - 1 = 15. \n\nNon-empty proper subsets exclude the empty set.\nSo, the number is 15 - 1 = 14."
+    },
+
+    {
+      "question": "If A ∩ B = A, which of the following must be true?",
+      "options": [
+        "A = B",
+        "B = ∅",
+        "A ⊆ B",
+        "B ⊆ A"
+      ],
+      "answer": 2,
+   "explanation": "If the intersection of A and B is A itself, it means all elements of A are also common to B.\n\n This implies that A must be a subset of B (A ⊆ B). "
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "If n(A)=7, n(B)=10, and A and B are disjoint, find n(A ∪ B).",
+      "options": [
+        "3",
+        "7",
+        "10",
+        "17"
+      ],
+      "answer": 3,
+   "explanation": "For disjoint sets, n(A ∩ B) = 0.\n\n Therefore, n(A ∪ B) = n(A) + n(B) - n(A ∩ B) =\n\n 7 + 10 - 0 = 17. "
+    },
+
+
+
+
+    {
+      "question": "Which statement represents the identity law for union?",
+      "options": [
+        "A ∪ A = A",
+        "A ∪ U = U",
+        "A ∪ ∅ = A",
+        "A ∪ A' = U"
+      ],
+      "answer": 2,
+      "explanation": "The identity element for union is the empty set (∅), because uniting any set A with the empty set results in A itself (A ∪ ∅ = A)."
+    },
+    {
+      "question": "Which statement represents the domination law for intersection?",
+      "options": [
+        "A ∩ A = A",
+        "A ∩ U = A",
+        "A ∩ ∅ = ∅",
+        "A ∩ A' = ∅"
+      ],
+      "answer": 2,
+   "explanation": "The empty set (∅) dominates intersection, because intersecting any set A with the empty set results in the empty set (A ∩ ∅ = ∅). "
+    },
+
+
+    {
+      "question": "Using the survey data from the previous question, how many like tea but not coffee?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "We want to find n(T - C). \n\nWe know n(T) = 50 and n(C ∩ T) = 30. \n\nThe number who like only tea is n(T) - n(C ∩ T) = 50 - 30 = 20."
+    },
+
+
+
+    {
+      "question": "If n(A ∆ B) = 15 and n(A ∪ B) = 20, what is n(A ∩ B)?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "Cannot be determined"
+      ],
+      "answer": 0,
+      "explanation": "We know that A ∆ B = (A ∪ B) - (A ∩ B). \n\nTherefore, n(A ∆ B) = n(A ∪ B) - n(A ∩ B). \n\nSubstituting the given values: 15 = 20 - n(A ∩ B).\nSolving for n(A ∩ B), we get n(A ∩ B) = 20 - 15 = 5. "
+    },
+
+    {
+      "question": "The set {..., -3, -2, -1} can be described using set builder notation as:",
+      "options": [
+        "{x | x ∈ ℤ and x > -1}",
+        "{x | x ∈ ℤ and x ≤ -1}",
+        "{x | x ∈ ℕ and x < 0}",
+        "{x | x ∈ 𝕎 and x < 0}"
+      ],
+      "answer": 1,
+      "explanation": "The set includes all integers that are less than or equal to -1. \n\nThis is represented by {x | x ∈ ℤ and x ≤ -1}."
+    },
+    {
+      "question": "How many elements are in the set A = {x | x² = -1, x ∈ ℝ}?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "There is no real number (x ∈ ℝ) whose square is -1. \n\nTherefore, the set A is the empty set, and it has 0 elements."
+    },
+
+
+    {
+      "question": "If A = {1, 2, 3}, B = {3, 4, 5}, C = {5, 6, 7}. What is (A ∪ B) - C?",
+      "options": [
+        "{1, 2, 3, 4}",
+        "{1, 2, 4}",
+        "{5}",
+        "{6, 7}"
+      ],
+      "answer": 1,
+      "explanation": "First, find A ∪ B = {1, 2, 3, 4, 5}.\n\n Then, subtract the elements of C from this result.\n\n (A ∪ B) - C = {1, 2, 3, 4, 5} - {5, 6, 7} = {1, 2, 3, 4}. Element 5 is removed."
+    },
+    {
+      "question": "If A = {1, 2, 3}, B = {3, 4, 5}, C = {5, 6, 7}. What is A ∪ (B - C)?",
+      "options": [
+        "{1, 2, 3, 4}",
+        "{1, 2, 3, 4, 5}",
+        "{3, 4}",
+        "{1, 2, 3}"
+      ],
+      "answer": 0,
+      "explanation": "First, find B - C = {3, 4}. Then, find the union of A with this result.\n\nA ∪ (B - C) = {1, 2, 3} ∪ {3, 4} = {1, 2, 3, 4}."
+    },
+    {
+      "question": "In a school, 20 teachers teach Math or Physics. 12 teach Math, 5 teach both. How many teach Physics?",
+      "options": [
+        "8",
+        "13",
+        "15",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Let M be the set of Math teachers and P be the set of Physics teachers. \n\nn(M ∪ P) = 20, n(M) = 12, n(M ∩ P) = 5.\n\n Using the formula n(M ∪ P) = n(M) + n(P) - n(M ∩ P), we have 20 = 12 + n(P) - 5. So, 20 = 7 + n(P). \nTherefore, n(P) = 20 - 7 = 13."
+    },
+
+
+
+
+    {
+      "question": "If n(A) = 10, n(B) = 15, and n(A ∩ B) = 5, what is n(A Δ B), the cardinality of the symmetric difference?",
+      "options": [
+        "30",
+        "20",
+        "15",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "n(A Δ B) = n(A ∪ B) - n(A ∩ B). \n\nFirst, n(A ∪ B) = 10 + 15 - 5 = 20.\n Then, n(A Δ B) = 20 - 5 = 15.\n\n The symmetric difference n(A Δ B) = n(A) + n(B) - 2n(A ∩ B) = 10 + 15 - 2(5) = 25 - 10 = 15."
+    },
+    {
+      "question": "If A has 5 elements, how many subsets of A have exactly 3 elements?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "This is a combination problem: C(n, k) = C(5, 3) = 5! / (3! * 2!) = (5 * 4) / 2 = 10."
+    },
+    {
+      "question": "Let U = {1, 2, 3, 4, 5, 6}. If A = {1, 3, 5} and B = {4, 5, 6}, find A' ∩ B.",
+      "options": [
+        "{4, 6}",
+        "{1, 3}",
+        "{2, 4, 6}",
+        "{2}"
+      ],
+      "answer": 0,
+      "explanation": "A' = U - A = {2, 4, 6}.\n\n A' ∩ B = {2, 4, 6} ∩ {4, 5, 6} = \n{4, 6}."
+    },
+    {
+      "question": "Which of the following is an equivalent form of A - B (Set Difference)?",
+      "options": [
+        "A ∪ B'",
+        "A' ∩ B",
+        "A ∩ B'",
+        "(A ∪ B) - B"
+      ],
+      "answer": 2,
+      "explanation": "The set difference A - B is the set of elements in A that are not in B.\n\n 'Not in B' is represented by B', so A - B is equivalent to A ∩ B'."
+    },
+    {
+      "question": "If A = {x, y} and B = {1, 2, 3}, which of the following is an element of the Cartesian Product B × A?",
+      "options": [
+        "(x, 2)",
+        "(2, y)",
+        "(3, 1)",
+        "(y, 1)"
+      ],
+      "answer": 1,
+      "explanation": "The elements of B × A are ordered pairs (b, a) where b ∈ B and a ∈ A.\n\n (2, y) fits this requirement as 2 ∈ B and y ∈ A."
+    },
+
+    {
+      "question": "In a survey of 60 students, 40 play football and 30 play basketball. If 5 play neither, how many play both?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Total playing at least one sport: 60 - 5 = 55. n(F ∪ B) = 55.\n n(F ∩ B) = n(F) + n(B) - n(F ∪ B) =\n 40 + 30 - 55 = 70 - 55 = 15."
+    },
+    {
+      "question": "If P(A) is the power set of A and n(P(A)) = 128, what is n(A)?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "The number of elements in the power set is 2ⁿ(ᴬ).\n\n Since 2ⁿ(ᴬ) = 128, and 2⁷ = 128, n(A) = 7."
+    },
+
+
+    {
+      "question": "For any non-empty set A, what is A Δ ∅ (symmetric difference with the empty set)?",
+      "options": [
+        "∅",
+        "A",
+        "A'",
+        "U"
+      ],
+      "answer": 1,
+      "explanation": "A Δ ∅ = (A - ∅) ∪ (∅ - A).\n\n A - ∅ = A (elements in A but not in ∅).\n\n ∅ - A = ∅ (elements in ∅ but not in A).\n So, A ∪ ∅ = A."
+    },
+
+    {
+      "question": "Let A = {a, b, c} and B = {c, d}. Find the number of elements in the power set of A ∩ B.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "A ∩ B = {c}. n(A ∩ B) = 1.\n\n The number of elements in the power set is 2ⁿ, so 2¹ = 2. \nThe power set is P(A ∩ B) = {∅, {c}}."
+    },
+
+    {
+      "question": "If n(A) = 4 and n(B) = 3, what is the number of elements in A × B?",
+      "options": [
+        "7",
+        "12",
+        "64",
+        "81"
+      ],
+      "answer": 1,
+      "explanation": "The cardinality of the Cartesian product \n\nn(A × B) = n(A) * n(B) = 4 * 3 = 12."
+    },
+    {
+      "question": "Which property states that A ∩ (B ∩ C) = (A ∩ B) ∩ C?",
+      "options": [
+        "Commutative Law",
+        "Identity Law",
+        "Associative Law",
+        "Distributive Law"
+      ],
+      "answer": 2,
+      "explanation": "The Associative Law for sets states that the grouping of the sets in an operation (Union or Intersection) does not change the result."
+    },
+    {
+      "question": "If A is a proper subset of B (A ⊂ B) and n(B) = 5, what is the maximum possible value for n(A)?",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "A is a proper subset of B means A ⊆ B and A ≠ B. If n(B) = 5, the largest possible number of elements in A is n(B) - 1, which is 5 - 1 = 4."
+    },
+
+    {
+      "question": "If A Δ B = {3, 5, 8, 9} and A ∩ B = {4, 7}, find n(A ∪ B).",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "The union A ∪ B is the combination of the symmetric difference and the intersection: A ∪ B = (A Δ B) ∪ (A ∩ B). \n\nSince these two sets are disjoint, n(A ∪ B) = n(A Δ B) + n(A ∩ B) =\n 4 + 2 = 6."
+    },
+
+
+
+
+
+
+    {
+      "question": "If n(A) = 15, n(B) = 12, and A ∩ B = ∅, what is n(A ∪ B)?",
+      "options": [
+        "3",
+        "27",
+        "15",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Since A and B are disjoint (A ∩ B = ∅), n(A ∪ B) = n(A) + n(B) = 15 + 12 = 27."
+    },
+    {
+      "question": "In a group of 80 people, 50 read newspaper A, 30 read newspaper B, and 10 read neither. How many people read only newspaper A?",
+      "options": [
+        "40",
+        "20",
+        "30",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Total reading at least one: 80 - 10 = 70.\n\n n(A ∪ B) = 70. n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 50 + 30 - 70 = 10. \n\nOnly A = n(A) - n(A ∩ B) = 50 - 10 = 40."
+    },
+
+    {
+      "question": "Which set equality is guaranteed to be true for any sets A and B?",
+      "options": [
+        "A ∪ B = B ∪ A",
+        "A - B = B - A",
+        "A ∩ A' = U",
+        "A Δ A = A"
+      ],
+      "answer": 0,
+      "explanation": "The Commutative Law states that the order of the sets in the Union operation does not affect the result: A ∪ B = B ∪ A."
+    },
+    {
+      "question": "If A has 3 elements and B has 2 elements, how many subsets does the Cartesian product A × B have?",
+      "options": [
+        "6",
+        "12",
+        "32",
+        "64"
+      ],
+      "answer": 3,
+      "explanation": "n(A × B) = 3 * 2 = 6.\n\n The number of subsets (Power Set) is 2⁶ = 64."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "If A ∪ B = A ∩ B, then what can be concluded about A and B?",
+      "options": [
+        "A = ∅ or B = ∅",
+        "A and B are disjoint",
+        "A = B",
+        "A ⊆ B"
+      ],
+      "answer": 2,
+      "explanation": "The equality A ∪ B = A ∩ B holds true if and only if every element in the union is also in the intersection, which implies that the two sets must be equal: A = B."
+    },
+    {
+      "question": "In a class of 50 students, 30 are male (M) and 20 are female (F). If 15 males wear glasses (G) and 10 females wear glasses, find the number of students who are male or wear glasses, n(M ∪ G).",
+      "options": [
+        "45",
+        "35",
+        "30",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "We need n(M ∪ G) = n(M) + n(G) - n(M ∩ G). n(M) = 30. \n\nn(M ∩ G) = 15 (males who wear glasses).\n n(G) = 15 (male G) + 10 (female G) = 25.\n\n n(M ∪ G) = 30 + 25 - 15 = 40."
+    },
+
+
+
+    {
+      "question": "The set expression (A' ∪ B)' is equivalent to:",
+      "options": [
+        "A ∩ B'",
+        "A' ∩ B",
+        "A ∪ B'",
+        "A ∩ B"
+      ],
+      "answer": 0,
+      "explanation": "Using De Morgan's Law: (A' ∪ B)' = (A')' ∩ B' = A ∩ B'."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "If n(U) = 100, n(A') = 60, and n(B) = 50, and n(A ∩ B) = 10, find n(A ∪ B).",
+      "options": [
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "n(A) = n(U) - n(A') = 100 - 60 = 40.\n\n n(A ∪ B) = n(A) + n(B) - n(A ∩ B) =\n 40 + 50 - 10 = 80."
+    },
+    {
+      "question": "If A = {1, 2} and B = {a, b}, which of the following is NOT an element of A × B?",
+      "options": [
+        "(1, a)",
+        "(2, b)",
+        "(a, 1)",
+        "(1, b)"
+      ],
+      "answer": 2,
+      "explanation": "Elements of A × B are ordered pairs (x, y) where x ∈ A and y ∈ B. \n\n(a, 1) has a ∈ B and 1 ∈ A, making it an element of B × A, but not A × B."
+    },
+    {
+      "question": "What is the relationship between A - B and A ∩ B'?",
+      "options": [
+        "A - B is a subset of A ∩ B'",
+        "A - B and A ∩ B' are disjoint",
+        "A - B is the complement of A ∩ B'",
+        "A - B = A ∩ B'"
+      ],
+      "answer": 3,
+      "explanation": "The set difference A - B (elements in A but not in B) is defined as being equal to the intersection of A with the complement of B (A ∩ B')."
+    },
+    {
+      "question": "If n(A) = 3, how many non-empty subsets does A have?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Total number of subsets is 2ⁿ = 2³ = 8.\n\n The number of non-empty subsets is the total number minus the empty set: 8 - 1 = 7."
+    },
+    {
+      "question": "If A ⊆ B, then the set A' ∩ B is equal to:",
+      "options": [
+        "A",
+        "B",
+        "B - A",
+        "∅"
+      ],
+      "answer": 2,
+      "explanation": "A' ∩ B is equivalent to B ∩ A', which is the definition of the set difference B - A (elements in B but not in A)."
+    },
+
+    {
+      "question": "The expression (A Δ B) ∩ (A ∩ B) simplifies to:",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A",
+        "∅"
+      ],
+      "answer": 3,
+      "explanation": "The symmetric difference A Δ B consists of elements in A or B but not in their intersection.\n\n Therefore, A Δ B and A ∩ B are disjoint sets.\n Their intersection must be the empty set, ∅."
+    },
+
+
+
+
+
+    {
+      "question": "Which of the following is equivalent to A Δ B Δ C?",
+      "options": [
+        "(A ∪ B ∪ C) - (A ∩ B ∩ C)",
+        "Elements that belong to an odd number of the three sets",
+        "Elements that belong to only one of the three sets",
+        "A ∪ (B Δ C)"
+      ],
+      "answer": 1,
+      "explanation": "The symmetric difference of three sets, A Δ B Δ C, consists of elements that belong to exactly one of the sets or all three of the sets.\n\n That is, elements that belong to an odd number of the three sets."
+    },
+    {
+      "question": "Let U be the universal set. What is the value of (A ∪ A') ∩ (B ∩ B')?",
+      "options": [
+        "A ∩ B",
+        "U",
+        "∅",
+        "B"
+      ],
+      "answer": 2,
+      "explanation": "A ∪ A' = U (The Universal Set, by the Complement Law). B ∩ B' = ∅ (The Empty Set, by the Complement Law). So the expression is U ∩ ∅, which simplifies to ∅ (The Identity Law)."
+    },
+    {
+      "question": "If n(A ∪ B) = 17, n(A) = 12, and n(B) = 9, what is the number of elements in A only?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "First find the intersection: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 9 - 17 = 4.\n\n The number of elements in A only is n(A - B) = n(A) - n(A ∩ B) = 12 - 4 = 8."
+    },
+
+
+
+
+
+    {
+      "question": "Which of the following is equivalent to (A Δ B)'?",
+      "options": [
+        "(A ∩ B) ∪ (A' ∩ B')",
+        "(A ∪ B) ∩ (A' ∪ B')",
+        "(A' ∪ B) ∩ (A ∪ B')",
+        "A' Δ B'"
+      ],
+      "answer": 0,
+      "explanation": "A Δ B is the set of elements in A or B, but not both. \n\n(A Δ B)' is the set of elements in both A and B, or in neither A nor B. 'In both' is A ∩ B.\n\n 'In neither' is A' ∩ B'. The union is (A ∩ B) ∪ (A' ∩ B')."
+    },
+    {
+      "question": "If A ∩ B = A and A ∪ B = B, then what is the relationship between A and B?",
+      "options": [
+        "A = B",
+        "A and B are disjoint",
+        "A ⊆ B",
+        "B ⊆ A"
+      ],
+      "answer": 2,
+      "explanation": "A ∩ B = A means all elements of A are in B (A ⊆ B).\n\n A ∪ B = B also means all elements of A are in B (A ⊆ B).\n Both conditions are equivalent to A ⊆ B."
+    },
+
+    {
+      "question": "The identity A - (B ∪ C) is equivalent to:",
+      "options": [
+        "(A - B) ∪ C",
+        "(A - B) ∩ (A - C)",
+        "A ∩ B' ∩ C'",
+        "(A ∪ B) ∩ C'"
+      ],
+      "answer": 2,
+      "explanation": "Using A - X = A ∩ X' and De Morgan's Law: A - (B ∪ C) = A ∩ (B ∪ C)' = A ∩ (B' ∩ C'). \n\nSince intersection is associative, this is A ∩ B' ∩ C'."
+    },
+    {
+      "question": "If n(A) = 3, n(B) = 4, and A ∩ B = ∅, find the number of subsets of A ∪ B.",
+      "options": [
+        "12",
+        "32",
+        "64",
+        "128"
+      ],
+      "answer": 3,
+      "explanation": "Since A and B are disjoint, n(A ∪ B) = n(A) + n(B) = 3 + 4 = 7.\n The number of subsets is 2⁷ = 128."
+    },
+
+
+    {
+      "question": "Which of the following describes the set operation (A ∪ B) - (A ∩ B)?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A Δ B",
+        "A'"
+      ],
+      "answer": 2,
+      "explanation": "The set difference (A ∪ B) - (A ∩ B) is the set of elements in the union that are not in the intersection.\n\n This is the definition of the symmetric difference, A Δ B."
+    },
+    {
+      "question": "If A = {1, 2} and B = {a, b, c}. Find the number of subsets of B × A.",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "n(B × A) = n(B) * n(A) = 3 * 2 = 6.\n\n The number of subsets is 2⁶ = 64."
+    },
+
+
+
+
+
+    {
+      "question": "If A ∩ B = ∅ and A ∪ B = U (Universal Set), what is B equivalent to?",
+      "options": [
+        "A",
+        "A'",
+        "∅",
+        "U"
+      ],
+      "answer": 1,
+      "explanation": "Since A ∩ B = ∅, A and B are disjoint.\n Since A ∪ B = U, their union covers the entire universal set.\n\n Therefore, B must be exactly the complement of A (B = A')."
+    },
+
+
+    {
+      "question": "If A and B are two sets, which of the following is always true?",
+      "options": [
+        "(A - B) ∪ (B - A) = A ∪ B",
+        "A Δ B = (A ∪ B) - (A ∩ B)",
+        "A ∪ (A ∩ B) = A ∪ B",
+        "(A ∩ B)' = A' ∩ B'"
+      ],
+      "answer": 1,
+      "explanation": "The symmetric difference A Δ B is defined as (A - B) ∪ (B - A), which is also equivalent to (A ∪ B) - (A ∩ B).\n\n The other options are incorrect identities (A ∪ (A ∩ B) = A, and the last is wrong form of De Morgan's Law)."
+    },
+
+    {
+      "question": "Which of the following is equivalent to (A ∩ B') ∪ (A ∩ B)?",
+      "options": [
+        "A ∩ (B' ∪ B)",
+        "A",
+        "B",
+        "A ∪ B"
+      ],
+      "answer": 1,
+      "explanation": "Using the Distributive Law in reverse: (A ∩ B') ∪ (A ∩ B) = A ∩ (B' ∪ B).\n\n Since B' ∪ B = U (the universal set), the expression simplifies to A ∩ U = A."
+    },
+
+
+
+
+
+    {
+      "question": "If n(A) = 2 and n(B) = 3, what is the maximum possible value for n(A ∩ B)?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "The maximum cardinality of the intersection n(A ∩ B) is limited by the cardinality of the smaller set.\n\n Since n(A) = 2 and n(B) = 3, n(A ∩ B)max = 2."
+    },
+    {
+      "question": "The shaded region in the Venn diagram representing (A ∩ B') ∪ (B ∩ A') is equivalent to:",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A Δ B",
+        "∅"
+      ],
+      "answer": 2,
+      "explanation": "A ∩ B' is A - B (only A). B ∩ A' is B - A (only B).\n\n The union of 'only A' and 'only B' is the symmetric difference, A Δ B."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "If n(A) = 4, n(B) = 3, and A ∩ B = ∅, find the number of subsets of the Cartesian product B × A.",
+      "options": [
+        "256",
+        "64",
+        "1024",
+        "4096"
+      ],
+      "answer": 3,
+      "explanation": "n(B × A) = n(B) * n(A) = 3 * 4 = 12. \nThe number of subsets is 2ⁿ(ᴮˣᴬ) = 2¹² = 4096.\n\n The fact that A ∩ B = ∅ is irrelevant for the Cartesian product's cardinality."
+    },
+
+
+
+
+
+    {
+      "question": "The identity (A Δ B) Δ C is equivalent to:",
+      "options": [
+        "A ∪ B ∪ C",
+        "A Δ (B Δ C)",
+        "A ∩ B ∩ C",
+        "A ∪ (B ∩ C)"
+      ],
+      "answer": 1,
+      "explanation": "The symmetric difference operation is associative, meaning A Δ (B Δ C) = (A Δ B) Δ C.\n\n It contains elements that belong to an odd number of the sets."
+    },
+    {
+      "question": "If n(A ∪ B) = 50, n(A) = 35, and n(B) = 25, find n(A Δ B).",
+      "options": [
+        "10",
+        "25",
+        "30",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "First find the intersection: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 35 + 25 - 50 = 10.\n\n The symmetric difference is n(A Δ B) = n(A ∪ B) - n(A ∩ B) = \n50 - 10 = 40."
+    },
+
+    {
+      "question": "If A and B are any two sets, A Δ A is equivalent to:",
+      "options": [
+        "A",
+        "A'",
+        "U",
+        "∅"
+      ],
+      "answer": 3,
+      "explanation": "A Δ A = (A ∪ A) - (A ∩ A) = A - A = ∅.\n\n The symmetric difference of a set with itself is always the empty set."
+    },
+    {
+      "question": "The set of points (x, y) defined by the Cartesian product {1} × R (where R is the set of real numbers) represents:",
+      "options": [
+        "The x-axis",
+        "The y-axis",
+        "A horizontal line at y = 1",
+        "A vertical line at x = 1"
+      ],
+      "answer": 3,
+      "explanation": "The set is {(x, y) | x = 1 and y ∈ R}. \n\nThis is the set of all points where the x-coordinate is fixed at 1 and the y-coordinate can be any real number, which is a vertical line at x = 1."
+    },
+    {
+      "question": "If A ∩ B = ∅, which of the following is always true?",
+      "options": [
+        "n(A × B) = 0",
+        "A ∪ B = U",
+        "A - B = A",
+        "A = ∅"
+      ],
+      "answer": 2,
+      "explanation": "If A ∩ B = ∅ (disjoint), then A - B (elements in A but not in B) is simply A, because there are no elements in B to remove from A."
+    },
+
+
+
+
+    {
+      "question": "If n(U) = 70, n(A) = 40, n(B) = 30, and n(A ∪ B)' = 15, what is the number of elements in B only?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "n(A ∪ B) = n(U) - n(A ∪ B)' = 70 - 15 = 55.\n\n n(A ∩ B) = n(A) + n(B) - n(A ∪ B) =\n\n 40 + 30 - 55 = 15. B only = n(B - A) = n(B) - n(A ∩ B) = 30 - 15 = 15."
+    }
+
+    ]
+

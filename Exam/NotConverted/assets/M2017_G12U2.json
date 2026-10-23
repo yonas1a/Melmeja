@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What is the average rate of change of g(x) = x³ - 2x over the interval 1 ≤ x ≤ 6?",
+    "options": [
+      "41",
+      "37/5",
+      "46",
+      "203/3"
+    ],
+    "answer": 0,
+    "explanation": "The average rate of change of a function g(x) over [a, b] is given by:\n\n[g(b) - g(a)] / (b - a)\n\nStep 1: Compute g(6) = 6³ - 2*6 = 216 - 12 = 204\n\nStep 2: Compute g(1) = 1³ - 2*1 = 1 - 2 = -1\n\nStep 3: Average rate = (204 - (-1)) / (6 - 1) = 205 / 5 = 41 ✅"
+  },
+  {
+    "question": "Suppose f(x) = 3√x and g(x) = 1/3x⁴ + 2x be given two functions. Then which of the following is equal to (f+g)'(x)?",
+    "options": [
+      "2/3x^(-1/3) + 4x³ + 2x",
+      "2/3x^(-1/3) + 4x³ + 2x",
+      "3/2x^(-1/2) + 4/3 x³ + 2",
+      "3x^(-1/2) + 4x³ + 2"
+    ],
+    "answer": 2,
+    "explanation": "Differentiate each function separately and then add.\n f(x)=3x^(1/2) so f'(x)=3×(1/2)x^(-1/2)=\n3/2 x^(-1/2).\n\n g(x)=(1/3)x⁴+2x so \ng'(x)=(4/3)x³+2.\n Therefore (f+g)'(x)=3/2 x^(-1/2)+4/3 x³+2, which matches option C."
+  },
+
+  {
+    "question": "Let f(x) = (1-2x)^1/2. Then what is the values of f'(x)?",
+    "options": [
+      "-1/2√(1-2x)",
+      "1/2√(1-2x)",
+      "-1/√(1-2x)",
+      "1/√(1-2x)"
+    ],
+    "answer": 2,
+    "explanation": "Use the chain rule.\n f(x) = (1 - 2x)^(1/2). \n\nBring down 1/2 and reduce power: (1/2)(1 - 2x)^(-1/2), then multiply by derivative of inside (1 - 2x) which is -2.\n\n This gives f'(x) = - (1 - 2x)^(-1/2) = \n-1/√(1 - 2x), so the correct answer is option C."
+  },
+  {
+    "question": "Consider the function f(x) = x³-3x² +3 on ( -2, 3 ), then which of the following point is local minimum and local maximum of f(x) respectively?",
+    "options": [
+      "A (0, 3) and (2, -1)",
+      "B (3, 3) and (-2, -27)",
+      "C (2, -1) and (0, 3)",
+      "D (-2, -27) and (0, 3)"
+    ],
+    "answer": 2,
+    "explanation": " Step 1: Find the derivative: f'(x) = 3x² - 6x = 3x(x - 2)\n\nStep 2: Solve f'(x) = 0 → x = 0, x = 2\n\nStep 3: Use second derivative test: f''(x) = 6x - 6\n\n- At x = 0: f''(0) = -6 < 0 → local maximum\n\n- At x = 2: f''(2) = 6 > 0 → local minimum\n\nStep 4: Evaluate function values:\n\n- f(0) = 0³ - 3*0² + 3 = 3 → local maximum\n\n- f(2) = 2³ - 3*2² + 3 = 8 - 12 + 3 = -1 → local minimum\n\nTherefore, local minimum is (2, -1) and local maximum is (0, 3), which corresponds to option c."
+  }
+]

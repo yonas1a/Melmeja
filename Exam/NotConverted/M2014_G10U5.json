@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Which of the following is true about the trigonometric values of the given pairs of angles?",
+    "options": [
+      "sin(75°) = cos(105°)",
+      "tan(75°) = tan(105°)",
+      "sin(120°) = sin(60°)",
+      "cos(120°) = cos(60°)"
+    ],
+    "answer": 2,
+    "explanation": "Using trigonometric identities: sin(180° - θ) = sin θ and cos(180° - θ) = -cos θ.\n\n Option 1: sin(75°) ≠ cos(105°).\n\n Option 2: tan(75°) ≠ tan(105°) because tan(180° - θ) = -tan θ. \n\nOption 3: sin(120°) = sin(180° - 60°) = sin(60°), which is true.\n\n Option 4: cos(120°) = cos(180° - 60°) = -cos(60°), not equal to cos(60°).\n\n Therefore, the correct statement is sin(120°) = sin(60°)."
+  }
+]

@@ -1,0 +1,411 @@
+{
+  "id": "m2014_g11_merged_melmeja",
+  "title": "Grade 11 Mathematics National Exam & Practice 2014 (9 Chapters Combined)",
+  "category": "GRADE_11",
+  "subCategory": "Mathematics",
+  "department": "Mathematics",
+  "grade": "Grade 11",
+  "description": "Comprehensive examination bank combining 9 chapters (24 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 36,
+  "totalQuestions": 24,
+  "passMarkPercent": 60,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "Mathematics",
+    "GRADE_11",
+    "2014",
+    "Grade 11",
+    "Ethiopian National Exam"
+  ],
+  "yearOrSession": "2014",
+  "questions": [
+    {
+      "id": "q_m2014_g11u1_melmeja_1",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Let R = {(x, y) | y >= x^2 + 1 and y <= 5} be a relation. Then which one of the following defines the inverse of R?",
+      "options": [
+        "{(x, y) | x <= y^2 + 1, x <= 5}",
+        "{(x, y) | x >= y^2 - 1, x <= 5}",
+        "{(x, y) | x >= y^2 + 1, x <= 5}",
+        "{(x, y) | y >= x^2 + 1, x <= 5}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To find the inverse relation (R-inverse), you swap the x and y variables in the definition of the original relation R.\n1. Original relation R: y >= x^2 + 1 AND y <= 5.\n2. Swap x and y: x >= y^2 + 1 AND x <= 5.\n3. The inverse relation is {(x, y) | x >= y^2 + 1 and x <= 5}. This matches option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_2",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an onto function from ℝ onto the interval [0, ∞)?",
+      "options": [
+        "f(x) = |x| + 2",
+        "f(x) = √x²",
+        "f(x) = 2ˣ",
+        "f(x) = x² + 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_3",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the simplified form of (4x⁴ - 64) / (2 - x) for x ≠ 2?",
+      "options": [
+        "4(x - 2)(x² - 4)",
+        "4(x + 2)(x² + 4)",
+        "-4(x - 2)(x² + 4)",
+        "-4(x + 2)(x² + 4)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " Factor the numerator: 4x⁴ - 64 = 4(x⁴ - 16) = 4(x⁴ - 4)(x² + 4) = 4(x - 2)(x + 2)(x² + 4). \n\nThe denominator is 2 - x = -(x - 2).\n\n Simplify the fraction: (4(x - 2)(x + 2)(x² + 4)) / (-(x - 2)) = \n\n-4(x + 2)(x² + 4).\n\n Therefore, the simplified form is -4(x + 2)(x² + 4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_4",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is NOT true about the graph of f(x) = 5 + {|x| / x+1} ?",
+      "options": [
+        "y = 4 is its horizontal asymptote.",
+        "x = -1 is its vertical asymptote of f.",
+        "y = 5 + x is its oblique asymptote.",
+        "y = 6 is its horizontal asymptote of f."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vertical asymptote occurs where denominator = 0 \n x+1=0 → x=-1. \n\nHorizontal asymptotes: as x→+∞, f(x)→5 + 1 = 6; as x→-∞, f(x)→5 - 1 = 4.\n\n Oblique asymptote occurs only if no horizontal asymptote exists.\n\n Since horizontal asymptotes exist, f(x) has no oblique asymptote.\n\n Therefore, the statement 'y = 5 + x is its oblique asymptote' is NOT true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_5",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "What is the locus all points in the plane in which the sum of the distances from two fixed points is constant?",
+      "options": [
+        "Ellipse",
+        "Circle",
+        "Hyperbola",
+        "Parabola"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By definition, an ellipse is the set of all points in a plane such that the sum of the distances from two fixed points (called the foci) is a constant value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_6",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A line segment chord in an ellipse which passes through the center and perpendicular to the major axis is called:",
+      "options": [
+        "Minor axis",
+        "Semi-major axis",
+        "Latus rectum",
+        "Eccentricity"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The minor axis of an ellipse is the chord that passes through the center, is perpendicular to the major axis, and has its endpoints on the ellipse.\n\n The length of the minor axis is 2b, where b is the semi-minor axis.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_7",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "The distance from the point P(3, 4) to the line L with equation: 3x + 4y - 5 = 0 is ______.",
+      "options": [
+        "6 units",
+        "5 units",
+        "7 units",
+        "4 units"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The distance from a point (x0, y0) to a line Ax + By + C = 0 is given by:-\n\n d = |Ax0 + By0 + C| / √(A² + B²). \n\nHere, the line is 3x + 4y - 5 = 0 and the point is P(3,4).\n\n Compute the numerator: |3*3 + 4*4 - 5| = |9 + 16 - 5| = 20. \n\nCompute the denominator: √(3² + 4²) = √(9 +16) = 5. \n\nTherefore, the distance d = 20 / 5 = 4 units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_8",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Let p and q be propositions. Which of the following compound statement is a tautology?",
+      "options": [
+        "(p ∧ q) ↔ p",
+        "(p → q) ↔ (¬p ∨ q)",
+        "(p∨q) ↔ p",
+        "(p → q) ↔ p"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A tautology is a statement that is always true regardless of the truth values of its components. \n\nWe know that p → q is logically equivalent to ¬p ∨ q.\n\n Therefore, (p → q) ↔ (¬p ∨ q) is always true for all truth values of p and q, making it a tautology.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_9",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT true about argument and validity?",
+      "options": [
+        "An argument which is not valid is fallacy.",
+        "The validity of an argument can be checked by using a truth table.",
+        "In a valid argument, the conclusion may be true or false whenever all the premises are true.",
+        "In a valid argument if all the premises are true then the conclusion must also be true."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A valid argument is one where if all the premises are true, the conclusion must also be true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_10",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "In rolling a fair die, what is the probability of obtaining 3 or 5?",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "1/6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A fair die has 6 sides, so the total number of possible outcomes is 6. \n\nThese outcomes are {1, 2, 3, 4, 5, 6}.\n\nThe 'favorable' outcomes (the ones we want) are '3' or '5'.\n\n There are 2 favorable outcomes.\n\nProbability is calculated as (Favorable Outcomes) / (Total Outcomes), which is 2 / 6.\n\n This fraction simplifies to 1/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_11",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which of the following pairs of events are dependent?",
+      "options": [
+        "Drawing two balls successively from a box containing balls having the same size and shape with replacement.",
+        "Any events obtaining from tossing a coin and rolling a die at the same time.",
+        "Tossing two coins simultaneously and obtaining head from one and tail from the other.",
+        "Drawing two cards one after the other from a well shuffled pack of cards **without replacement**."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Events are dependent if the outcome of the first event affects the probability of the second event.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_12",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the variance of the data given as: 2, 3, 4, 5, 7?",
+      "options": [
+        "2.96",
+        "2.46",
+        "3.70",
+        "3.06"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Variance formula: σ² = Σ(xi - x̄)² / n.\n\n Mean x̄ = (2+3+4+5+7)/5 = 4.2.\n\n Squared deviations: (2-4.2)²=4.84, (3-4.2)²=1.44, (4-4.2)²=0.04, (5-4.2)²=0.64, (7-4.2)²=7.84.\n Sum = 14.8. \nDivide by n = 5: 14.8/5 = 2.96.\n\n Therefore, variance = 2.96.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_13",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "The following is the distribution of the marks of students obtained in Mathematics test out of 50. What is the first quartile of the distribution?",
+      "imageUrl": "images/M2014_64.png",
+      "diagramUrl": "images/M2014_64.png",
+      "options": [
+        "26.5",
+        "27.5",
+        "28",
+        "26"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_14",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Given matrices A = [[2, 0, 5,3, 1, 4,0, 6, -2]] and B = [[1, 3, 0,6, 5, 2,9, 7, 0]], which one of the following is A - B?",
+      "options": [
+        "[[1, 3, 5,-3, -4, 2,-9, 1, 2]]",
+        "[[1, -3, 5,-3, -4, 2,-9, -1, -2]]",
+        "[[1, 3, 5,-3, -4, 2,9, 1, 2]]",
+        "[[1, -3, -5,-3, -4, 2,9, 1, 2]]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_15",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the augmented matrix associated to the system of equations: 2x + y + 3z = 4; x - z = 1; -4x + y - 3 = 0?",
+      "options": [
+        "[[2, 1, 4, 1,1, -1, 4, 3,-1, 1, -4, 3]]",
+        "[[2, 1, 3, 4,1, 0, -1, 1,-4, 1, 0, 3]]",
+        "[[3, 2, 1, 1,-1, 1, -4, 3,-1, 1, 3, 2]]",
+        "[[1, 3, 2, 4,1, 0, 1, 1,-4, 1, -3, 0]]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_16",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "If A is a 3 x 3 matrix with det(A) = 5, then what is the determinant of 2A transpose (2A^T)?",
+      "options": [
+        "40",
+        "30",
+        "10",
+        "2/5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_17",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about the matrix A = ?",
+      "options": [
+        "The minor of the entry 8 is 14.",
+        "The cofactor of the entry 1 is -14.",
+        "The minor of the entry 3 is 18.",
+        "The cofactor of the entry 5 is -6."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_18",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "What is the product of the two complex number z = 2 - 3i and w = 5 + 2i?",
+      "options": [
+        "16 - 11i",
+        "29",
+        "16 + 11i",
+        "4 - 11i"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "To find the product z*w, we multiply the two complex numbers using the distributive property , remembering that i² = -1.\n\n z*w = (2 - 3i)(5 + 2i) \n= 2(5) + 2(2i) - 3i(5) - 3i(2i) \n= 10 + 4i - 15i - 6i²\n= 10 - 11i - 6(-1) \n= 10 - 11i + 6 \n= (10 + 6) - 11i \n= 16 - 11i \nThe product is 16 - 11i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_19",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following gives the polar form of the complex number z = 2 - 2√3i?",
+      "options": [
+        "4 (cos 1π/4 + isin 1π/4)",
+        "4 (cos 5π/3 + isin 5π/3)",
+        "4 (cos 1π/3 + isin 1π/3)",
+        "4 (cos 3π/4 + isin 3π/4)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " Compute modulus: r = √(2² + (-2√3)²) = √(4 + 12) = 4.\n\n Compute argument: θ = arctan(y/x) = arctan(-2√3/2) = arctan(-√3) = -π/3.\n\n Since z is in the fourth quadrant, θ = 2π - π/3 = 5π/3.\n\n Therefore, the polar form is z = 4 (cos 5π/3 + i sin 5π/3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_20",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Consider the points A(-2, 1), B(3, 0), C(3, -1) and D(1, 1) in xy-plane. If u = vector AB and v = vector CD, then which one of the following is equal to u - v?",
+      "options": [
+        "(3, 1)",
+        "(-7, 3)",
+        "(-3, 1)",
+        "(7, -3)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "1. Find vector u = vector AB: u = B - A = (3 - (-2), 0 - 1) = (5, -1).\n\n2. Find vector v = vector CD: v = D - C = (1 - 3, 1 - (-1)) = (-2, 2).\n\n3. Calculate u - v: u - v = (5 - (-2), -1 - 2) = (5 + 2, -3) = (7, -3).\n\nThe resulting vector is (7, -3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_21",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "What is the dot (scalar) product of the vectors u = i + 2j and v = -2i + 4j ?",
+      "options": [
+        "-8",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The dot product of two vectors u = (u1, u2) and v = (v1, v2) is calculated as (u1 * v1) + (u2 * v2).\n\nHere, u = (1, 2) and v = (-2, 4).\n\nDot product = (1 * -2) + (2 * 4) =\n -2 + 8 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_22",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the image of the circle with equation (x + 2)² + (y - 2)² = 1, when it is rotated through π/6 about the origin?",
+      "options": [
+        "(x + (√3 - 1))² + (y - (√3 + 1))² = 1",
+        "(x - (√3 + 1))² + (y + (√3 - 1))² = 1",
+        "(x + (√3 + 1))² + (y - (√3 - 1))² = 1",
+        "(x - (√3 - 1))² + (y + (√3 + 1))² = 1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Center is (-2, 2).\n After rotation by π/6: x' = -2(√3/2) - 2(1/2) =\n -√3 - 1, \n\ny' = -2(1/2) + 2(√3/2) = √3 - 1.\n\n So center = (-√3 - 1, √3 - 1).\n\n Equation becomes (x + (√3 + 1))² + (y - (√3 - 1))² = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_23",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true?",
+      "options": [
+        "The range of arctangent function is [-π, π].",
+        "The range of arcsine function is (-∞, ∞).",
+        "The domain of arcsine function is [-1, 1].",
+        "The domain of arcsine function is [0, π]."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let's check each statement:\n- A is false. The range of arctangent (arctan) is (-π/2, π/2).\n\n- B is false. The range of arcsine (arcsin) is [-π/2, π/2].\n\n- C is true. The domain of arcsine (the allowed input values) is all numbers between -1 and 1, inclusive.\n\n- D is false. [0, π] is the range of the arccosine (arccos) function.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g11u1_melmeja_24",
+      "examId": "m2014_g11_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "The angle of depression of the top of a flag pole from the top of a building that is 40√3 m away from the flag pole is 30 degrees. If the height of the flag pole is 10m, what is the height of the building?",
+      "options": [
+        "20√3 m",
+        "10(4√3 + 1) m",
+        "50 m",
+        "40 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let the height of the building be H.\n\n The horizontal distance between the building and the flagpole is 40√3 m.\n\n The height of the flagpole is 10 m.\n\n The angle of depression from the top of the building to the top of the flagpole is 30°.\n\n Using the tangent formula: tan(angle) = vertical difference / horizontal distance.\n\n So, tan 30° = (H - 10) / (40√3). \n\nSince tan 30° = 1/√3, we have (H - 10) / (40√3) = 1/√3.\n\n Multiply both sides by 40√3: H - 10 = 40.\n\n Therefore, H = 50 m.",
+      "topic": "Mathematics"
+    }
+  ]
+}

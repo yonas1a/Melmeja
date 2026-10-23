@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which one of the following is the derivative of f(x) = tanx + 3ˣ  ?",
+    "options": [
+      "-tan x + 3ˣ lnx",
+      "sec²x + 3ˣ",
+      "sec²x + 3ˣ ln3",
+      "-csc²x + 3ˣ lnx"
+    ],
+    "answer": 2,
+    "explanation": "The function is f(x) = tan x + 3ˣ. The derivative of tan x is sec²x. The derivative of an exponential function aˣ is aˣ ln a, so the derivative of 3ˣ is 3ˣ ln 3. Therefore, f′(x) = sec²x + 3ˣ ln 3. Among the given options, option 3 matches this result ."
+  },
+  {
+    "question": "Let f be a continuous function on ℝ and c be a number in the domain of f. Which one of the following must be true about the function?",
+    "options": [
+      "If f(c) is a local minimum value of f, then f'(c) = 0.",
+      "An absolute maximum value of f which is attained at a critical number is also a local maximum value of f.",
+      "If c is a critical number of f, then f(c) is a local extreme value of f.",
+      "If f''(c) = 0, then (c, f(c)) is an inflection point of f."
+    ],
+    "answer": 1,
+    "explanation": "Option 1 is false because a local minimum may occur where the derivative does not exist (e.g., f(x) = |x| at x = 0). Option 3 is false because not all critical points correspond to local extrema (e.g., f(x) = x³ at x = 0). Option 4 is false because f''(c) = 0 does not guarantee an inflection point (e.g., f(x) = x^4 at x = 0). Option 2 is true: if an absolute maximum occurs at a critical number, it is also a local maximum because in a small neighborhood, the function cannot exceed this value."
+  },
+  {
+    "question": "Suppose f is a twice continuously differentiable function and f''(3) = 5. If g(x) = f(2x + 3), then the second derivative of g at 0 is equal to:",
+    "options": [
+      "5",
+      "10",
+      "40",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "Given g(x) = f(2x + 3), we use the chain rule. First derivative: g'(x) = f'(2x + 3) * 2. Second derivative: g''(x) = 2 * f''(2x + 3) * 2 = 4 f''(2x + 3). Evaluate at x = 0: g''(0) = 4 f''(3) = 4 * 5 = 20."
+  },
+  {
+    "question": "What is the derivative of the function f(x) = xeˣ / cosx at x = 0?",
+    "options": [
+      "-1",
+      "2",
+      "0",
+      "1"
+    ],
+
+    "answer": "1",
+    "explanation": "Given f(x) = x e^x / cos x. Use the quotient rule: f'(x) = (u'v - uv')/v^2, where u = x e^x, v = cos x. Then u' = e^x (1+x), v' = -sin x. So f'(x) = [e^x (1+x) cos x + x e^x sin x] / cos^2 x. Evaluate at x = 0: f'(0) = [1*(1+0)*1 + 0*1*0]/1^2 = 1. Therefore, the derivative at x=0 is 1."
+  }
+]
