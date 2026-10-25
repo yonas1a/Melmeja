@@ -1,0 +1,1625 @@
+{
+  "id": "exit_computer_science_2015_regular_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Computer Science (2015)",
+  "category": "EXIT",
+  "subCategory": "Computer Science",
+  "department": "Computer Science",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Computer Science (2015). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Computer Science",
+    "2015",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_1",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "A process is terminated by the operating system due to a reference to non-existing memory. Which one of the following best explains the process termination?",
+      "options": [
+        "Error exit",
+        "Fatal exit",
+        "Normal exit",
+        "Terminated by another process"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A fatal exit occurs when a process attempts to access memory that doesn't exist (segmentation fault). This is a severe error that forces the OS to terminate the process.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_2",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Size of large data files can be reduced to save storage disk space. Which algorithm is appropriate to reduce size of large files?",
+      "options": [
+        "Merge sort algorithm",
+        "Huffman encoding algorithm",
+        "Heap sort algorithm",
+        "Prim's algorithm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Huffman encoding is a lossless data compression algorithm that uses variable-length codes to represent data, with more frequent data items getting shorter codes, thus reducing overall file size.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_3",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is asynchronous in message communication?",
+      "options": [
+        "Blocking send",
+        "Blocking receive",
+        "Direct message",
+        "Non-block receive"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Non-blocking receive is asynchronous because the receiver doesn't wait for the message to arrive - it can continue processing and check for messages later.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_4",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about functions in JavaScript?",
+      "options": [
+        "Function names can begin with digits",
+        "There is no limit to the number of function parameters that a function may contain",
+        "Function names can contain spaces",
+        "Function names are not case-sensitive"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "JavaScript functions can technically accept any number of parameters (though practical limits exist based on implementation).\nFunction names cannot begin with digits (a), cannot contain spaces (c), and are case-sensitive (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_5",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Consider the following fragment of C++ code:\n\n\n\nconst int x = 8;\n\nconst int y = 16;\n\nif(x > y)\n\n{\n\n    int z = x + y;\n\n}\n\n\n\nFor codes like the above one, which technique of code optimization is appropriate?",
+      "options": [
+        "Arithmetic simplification",
+        "Compile time evaluation",
+        "Code motion",
+        "Dead code elimination"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Dead code elimination would remove the entire if block since the condition (8 > 16) is always false at compile time, making the code inside unreachable.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_6",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Suppose you have received a message from your friend but the message is scrambled for the sake of security. Your friend has used a program to encode messages into scrambled text. In order to read the message which program would you use?",
+      "options": [
+        "Secret key",
+        "Decryption program",
+        "Encryption program",
+        "Ciphertext"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A decryption program is needed to reverse the encryption process and convert the scrambled message (ciphertext) back to its original form.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_7",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "In a tree data structure, if a node has no parent node, then the node is ______.",
+      "options": [
+        "External node",
+        "Root node",
+        "Internal node",
+        "Parent node"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The root node is the only node in a tree that has no parent. All other nodes have exactly one parent (except in graphs).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_8",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true about pop() operation of Stack data structures?",
+      "options": [
+        "pop() inserts new element at the middle of stack",
+        "pop() returns the end/top element but it doesn't delete that element",
+        "pop() removes the end/top element from stack",
+        "pop() inserts new element at the beginning/bottom of stack"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The pop() operation in a stack removes and returns the top element (LIFO principle). It doesn't insert elements (that's push()) and it does remove the element.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_9",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Given the schemas:\n\nBOOK (Book_id, Title, Publisher_name)\n\nBOOK_AUTHOR (Book_id, Author_name)\n\nPUBLISHER (Name, Address, Phone)\n\n\n\nWhich one of the following SQL is correct to delete the publisher named as 'XWZ' from the PUBLISHER table",
+      "options": [
+        "DELETE FROM PUBLISHER WHERE Address = 'XWZ'",
+        "DELETE FROM PUBLISHER WHERE Name = 'XWZ'",
+        "DELETE FROM BOOK_AUTHOR WHERE Address = 'XWZ'",
+        "DELETE FROM BOOK WHERE Name = 'XWZ'"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The correct SQL deletes from the PUBLISHER table where the Name column matches 'XWZ'. The other options either delete from wrong tables or use incorrect conditions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_10",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not correct about transaction failure?",
+      "options": [
+        "Concurrency control enforcement avoids transaction failure",
+        "Transactions fail if logical errors are detected",
+        "Transactions fail if disk blocks lose their data",
+        "Catastrophes can be cause of transaction failure"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Concurrency control prevents interference between transactions but doesn't prevent all types of failures.\nTransactions can fail due to logical errors (b), disk failures (c), and catastrophes (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_11",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which asymptotic notation describes average case analysis?",
+      "options": [
+        "f(n) = Big-Oh",
+        "f(n) = Ω (Big omega)",
+        "f(n) = little-ω(little omega)",
+        "f(n) = θ (thetha)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Theta (θ) notation provides tight bounds (both upper and lower), making it suitable for precise analysis when the average case matches the worst case. For average case analysis, we typically use expected value notation E[f(n)], though θ notation can represent average case when the bounds are tight.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_12",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not an example of scripting languages?",
+      "options": [
+        "Python",
+        "Perl",
+        "C++",
+        "PHP"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "C++ is a compiled language, not a scripting language. Scripting languages like Python, Perl, and PHP are typically interpreted and used for automating tasks.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_13",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "What will be the output of the following JavaScript statement? Math.sqrt(36)",
+      "options": [
+        "1",
+        "6",
+        "36",
+        "30"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Math.sqrt() calculates the square root, so Math.sqrt(36) returns 6 (since 6 × 6 = 36).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_14",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is false about project planning stage?",
+      "options": [
+        "Project planning is a one-time task in software development life cycle",
+        "Risk analysis is done during project planning",
+        "Cost estimation is done during project planning",
+        "Preparing time schedule is done during project planning"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Project planning is an ongoing activity throughout the SDLC, not a one-time task. The other options correctly describe activities in project planning.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_15",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is different from the other based on its role in computer network?",
+      "options": [
+        "Routers",
+        "Network printer",
+        "Hubs",
+        "Wireless access point"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Network printer is an end device that uses the network, while routers, hubs, and WAPs are all network infrastructure devices that facilitate communication.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_16",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Advancement of operating system is closely tied to computer architectures, therefore, has passed through different generations. Which one of the following generation and advancement is wrongly coupled?",
+      "options": [
+        "Fourth generation -> real time systems",
+        "Third generation -> batch system",
+        "First generation -> single user",
+        "Second generation -> multiprogramming"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Third generation saw time-sharing systems, not batch systems (which were first generation).\nOther couplings are correct: 4th-gen had real-time, 1st-gen was single user, 2nd-gen introduced multiprogramming.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_17",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "______ is a network architecture characteristic that states a network can expand quickly to address needs of new users and application without having impact on the services delivered to existing users.",
+      "options": [
+        "Scalability",
+        "Fault tolerance",
+        "Security",
+        "Quality of service"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Scalability refers to a system's ability to handle growth by adding resources without degrading performance for existing users.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_18",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Look at the following PHP line: $list = array(20, 12, 23, 19, 18); What is the index of data value 19?",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "PHP arrays are zero-indexed. The value 19 is at index 3 (positions: 0=20, 1=12, 2=23, 3=19, 4=18).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_19",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following algorithms can be used to extract Minimum Spanning Tree from an input graph?",
+      "options": [
+        "Dijkstra's algorithm",
+        "Merge sort algorithm",
+        "Huffman encoding algorithm",
+        "Prim's algorithm"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Prim's algorithm is specifically designed to find a minimum spanning tree (MST).\nDijkstra's finds shortest paths, Merge sort is for sorting, and Huffman encoding is for compression.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_20",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "______ is set of attributes that can be seen by a program and can have direct impact on the logical execution of a program.",
+      "options": [
+        "Arrangement",
+        "Architecture",
+        "Organization",
+        "Flow control"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Architecture refers to the programmer-visible aspects of a system that affect program execution (instruction set, registers, etc.).\nOrganization refers to internal implementation details not visible to programmers.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_21",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Which quantifier can be used for some portion of the universe?",
+      "options": [
+        "→",
+        "↓",
+        "∃",
+        "^"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The existential quantifier (∃) means \"there exists\" or \"for some\", while universal quantifier (∀) means \"for all\".\nThe other symbols are not standard quantifiers.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_22",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following C++ fragment code?\n\nint a = 6, b = 8;\nint x = 2, y = 4;\nint c = (x > y ? (a--, x) : (b--, y));\ncout << \"a=\" << a;\ncout << \"    b=\" << b;\ncout << \"    c=\" << c;",
+      "options": [
+        "= 6    b = 7    c = 4",
+        "= 5    b = 7    c = 2",
+        "= 5    b = 8    c = 4",
+        "= 6    b = 8    c = 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Since x(2) > y(4) is false, the else part executes: b-- (b becomes 7) and y(4) is assigned to c.\na remains 6 as the a-- operation wasn't executed.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_23",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not true about fan trap in Entity Relationship Diagram?",
+      "options": [
+        "It can be resolved by readjusting the model so that no one-to-many relationships fan out from an entity",
+        "It occurs when there is no pathway between related entities",
+        "When there is ambiguous pathway between some entity occurrences in related entity types",
+        "Highly likely exit when more than two one-to-many relationships fan out from an entity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A fan trap occurs when there ARE pathways but they're ambiguous (not when there's no pathway).\nIt happens when multiple 1:M relationships fan out from a single entity, potentially causing misinterpretation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_24",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Assume you have a universe of Key U. Which one is false statement regarding Direct Address table and Hash Table data structures?",
+      "options": [
+        "If universe U is very large, Hash table is better than Direct Address table",
+        "Hash table allocates one separate memory slot for each key in the universe U",
+        "There is one to one correspondence between keys in the universe U and memory slots in the Direct Address table",
+        "Direct Address table doesn't use hash function to map keys"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Hash tables DON'T allocate slots for all possible keys - they use hashing to map keys to a smaller table size.\nOther options are true: hash tables are better for large U (a), direct address has 1:1 mapping (c), and doesn't use hashing (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_25",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a two-level cache having an internal and external caches?",
+      "options": [
+        "Multilevel cache",
+        "Single level cache",
+        "Split cache",
+        "Unified cache"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multilevel cache hierarchy includes L1 (internal) and L2 (external) caches.\nSplit cache divides L1 into instruction and data caches, while unified cache combines them.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_26",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "For an input graph, Depth First Traversal algorithm uses ______ data structure to traverse.",
+      "options": [
+        "Tree",
+        "Stack",
+        "Priority queue",
+        "Queue"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "DFS uses a stack (either explicitly or via recursion) to keep track of vertices to visit.\nBFS uses a queue, while priority queues are used in algorithms like Dijkstra's.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_27",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Suppose you are administering a network and would like to know whether a computer in the upstairs is connected to the network or not. Therefore, which command would you use?",
+      "options": [
+        "nslookup",
+        "traceroute",
+        "ping",
+        "DHCP discover"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "ping tests basic connectivity by sending ICMP echo requests.\nnslookup queries DNS, traceroute shows path, and DHCP discover is for obtaining IP addresses.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_28",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about java and javascript?",
+      "options": [
+        "Both are object oriented languages",
+        "There are more features in javascript than java",
+        "Javascript can be used in extremely sophisticated applications",
+        "Javascript is compiled and interpreted in source code form"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Modern JavaScript can power complex applications (e.g., Node.js, React).\nJava is OOP but JavaScript is prototype-based (a), Java has more features (b), and JavaScript is interpreted (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_29",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Given input Alphabet Σ = {a, b, c, d} and empty string λ. Then, which one of the following is equivalent to Σ^0?",
+      "options": [
+        "Σ^+",
+        "Σ^*",
+        "Σ",
+        "{λ}"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Σ^0 represents the set of all strings of length 0 from Σ, which is just the empty string {λ}.\nΣ^+ is all non-empty strings, Σ^* includes empty string, and Σ is just the alphabet itself.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_30",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not a single level ordered index?",
+      "options": [
+        "Secondary index",
+        "Multilevel index",
+        "Clustering index",
+        "Primary index"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multilevel index is hierarchical with multiple levels (not single level).\nPrimary, secondary, and clustering indexes are all single-level index types.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_31",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Suppose you have developed a self-driving car equipped with relevant sensors and camera that helps it to see the road and drive sensing traffic lights, pedestrians and signs. Its sensors are able to detect the environment but not all the aspects. Hence, in which environment is your car acting?",
+      "options": [
+        "Discrete",
+        "Fully observable",
+        "Partially observable",
+        "Stochastic"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since sensors can't detect all aspects (e.g., occluded objects), it's partially observable.\nIf all information was available, it would be fully observable. Stochastic refers to unpredictability.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_32",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which network security issue shows the level of weakness in networks and devices?",
+      "options": [
+        "Vulnerability",
+        "Threat",
+        "Attack",
+        "Availability"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vulnerability refers to weaknesses that could be exploited.\nThreat is potential danger, attack is the actual exploitation, and availability is a security goal.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_33",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Assume there is a line of patients waiting for a service from a clinic. Seriously sick patients should get service first. Which data structure is the most appropriate for the given type of real world problem?",
+      "options": [
+        "Priority Queue",
+        "Stack",
+        "Tree",
+        "Queue"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Priority queue handles items with different priorities (serious patients first).\nRegular queue is FIFO, stack is LIFO, and tree isn't suitable for this ordering scenario.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_34",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a measure taken, to ensure information and information systems' availability, integrity, authentication and confidentiality?",
+      "options": [
+        "Wiretapping",
+        "Interception",
+        "Information security",
+        "Information assurance"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Information assurance is a comprehensive approach that encompasses all aspects of information security (confidentiality, integrity, availability) plus additional measures like authentication, non-repudiation, and system reliability. Wiretapping and interception are threats, not protective measures.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_35",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which type of Turing machine has two tapes, one tape read-only and the other read-write tape?",
+      "options": [
+        "Multi-head Turing machine",
+        "Multi-dimensional Turing machine",
+        "Off-line Turing machine",
+        "Non-deterministic Turing machine"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An off-line Turing machine has a read-only input tape and a read-write work tape.\nOther types don't necessarily have this specific tape configuration.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_36",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is false about arrays in C++?",
+      "options": [
+        "Size of an array should be constant at the time of array declaration",
+        "We use [ ] square bracket at the time of array declaration",
+        "We can access elements of arrays without using index number",
+        "An array is a collection of similar data objects"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Array elements MUST be accessed using indices in C++.\nOther statements are true: size must be constant (a), [ ] is used (b), and arrays store similar types (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_37",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which branch of study deals with whether a problem can be solved at all or not, regardless of the resources required?",
+      "options": [
+        "Automata theory",
+        "Set theory",
+        "Computability theory",
+        "Complexity theory"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Computability theory determines what problems can be solved.\nComplexity theory studies resources needed, automata theory models computation, and set theory is mathematical foundation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_38",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "At which layer of the OSI model devices such as bridges, switches and Network interface cards are used?",
+      "options": [
+        "Physical layer",
+        "Network layer",
+        "Application layer",
+        "Data link layer"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bridges, switches, and NICs operate at Layer 2 (Data Link).\nRouters are Layer 3 (Network), while hubs are Layer 1 (Physical).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_39",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "When two transactions that access the same database items have their operations interleaved in a way that makes the value of some database item incorrect",
+      "options": [
+        "It is an incorrect summary problem",
+        "It is a dirty read problem",
+        "It is a lost update problem",
+        "It is a temporary read problem"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Lost update occurs when two transactions read the same data and then update it, with one update overwriting the other.\nDirty read is reading uncommitted data, incorrect summary involves aggregate calculations.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_40",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Which one of data updates best describes the following statement? \"All modified data items in the cache is written either after transaction ends its execution or after a pre-determined number of transactions have concluded their execution\"",
+      "options": [
+        "In-place update",
+        "Immediate update",
+        "Deferred update",
+        "Shadow update"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Deferred update delays writing changes until transaction commit or batch point.\nImmediate update writes changes as they occur, while shadowing maintains old versions until commit.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_41",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following Java fragment code?\n\nint[] list = new int[4];\nint sum = 0;\nfor(int i = 0; i < list.length; i++)\n{\n    list[i] = i^3;\n    sum += list[i];\n}\nSystem.out.print(sum);",
+      "options": [
+        "3",
+        "36",
+        "18",
+        "6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The ^ operator in Java is bitwise XOR (not exponentiation).\nCalculations: 0^3=3, 1^3=2, 2^3=1, 3^3=0 → sum=3+2+1+0=6.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_42",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Which statement is false about programming language generations?",
+      "options": [
+        "Assembly language should be translated to machine language before execution",
+        "Assembly language is machine independent",
+        "Fifth generation programming languages need very powerful hardware and software",
+        "Machine language can be executed without translation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Assembly language is machine-dependent (specific to processor architecture).\nOther statements are true: assembly needs translation (a), 5GL needs power (c), machine code runs directly (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_43",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the smallest heading tag?",
+      "options": [
+        "<H4>",
+        "<H6>",
+        "<H1>",
+        "<H3>"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "HTML heading tags range from <h1> (largest) to <h6> (smallest).\nThe numbers indicate hierarchy level, with higher numbers being smaller/subordinate headings.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_44",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following does not show non-functional requirement of software systems?",
+      "options": [
+        "Response time",
+        "Displaying information",
+        "Reliability",
+        "Memory requirement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Displaying information is a functional requirement (what the system does).\nThe others are non-functional: performance (a), quality (c), and constraints (d).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_45",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "If you plan a software test to be done by clients to demonstrate that the system satisfies their requirements, which phase of software testing is appropriate?",
+      "options": [
+        "Unit testing",
+        "System testing",
+        "Acceptance testing",
+        "Integration testing"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Acceptance testing is performed by clients to verify requirements.\nUnit tests individual components, integration tests interactions, and system tests the complete system.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_46",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Which concept refers to extending specialized classes from generalized classes in object-oriented programming?",
+      "options": [
+        "Overloading",
+        "Data field Encapsulation",
+        "Overridding",
+        "Inheritance"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Inheritance allows creating specialized (child) classes from generalized (parent) classes.\nOverloading is same name different parameters, overriding is redefining parent methods, encapsulation is data hiding.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_47",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "What does the program data independence in the database approach entails for?",
+      "options": [
+        "Both program and data are defined together",
+        "The application may be affected when data changes",
+        "Programs can create redundant data independently",
+        "Data and applications are defined separately"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Program-data independence means that the data and applications are defined separately, allowing changes to data definitions without affecting application programs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_48",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Let a Grammar G = ({S}, {a, b}, S, P), where {S} is set of variables, {a, b} is set of terminal symbols, S is start variable and P is set of productions. Then which one of the following is not an element of the language: (L) which is generated from G. Given:\n\nP : S → aSD, S → λ",
+      "options": [
+        "λ",
+        "a",
+        "aabb",
+        "ab"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The grammar produces strings with equal numbers of 'a's and 'b's (including λ). 'a' alone cannot be generated as it would require an equal number of 'b's.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_49",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following fragment C++ code?\nfor(int n = 1; n <= 18; n = n + 2)\n{\n    if(n % 7 != 0)\n    cout << n << \" \";\n    else\n    break;\n}",
+      "options": [
+        "1 2 3 4 5 6",
+        "3 5 7",
+        "1 3 5 7 9 11 13 15 17",
+        "1 3 5"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The loop prints odd numbers from 1 to 18 but breaks when n=7 (since 7%7=0). So it prints 1, 3, 5 before the loop would reach 7.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_50",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "______ is the whole thing that an agent has observed so far concerning the existing scenario in the environment.",
+      "options": [
+        "Knowledge",
+        "Performance measure",
+        "Action",
+        "Perception"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Perception refers to all the observations an agent has made about its environment up to the current moment.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_51",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is valid statement regarding PHP variables?",
+      "options": [
+        "$$test = \"Computer;",
+        "test = 5;",
+        "$$test = \"This is 'Computer science'\";",
+        "$$test = 9.5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Option C is the only syntactically correct PHP variable assignment with proper string delimiters and variable prefix ($).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_52",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a security service enforced to protect discloser of information, which can be stored in file or being on transmission, from unauthorized entities?",
+      "options": [
+        "Authentication",
+        "Integrity",
+        "Availability",
+        "Confidentiality"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Confidentiality ensures that information is not disclosed to unauthorized individuals, entities, or processes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_53",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following computers can be most secured compared to the rest?",
+      "options": [
+        "computer connected to the Internet and the latest anti-virus installed on it",
+        "computer connected to the Internet with the latest firewall system",
+        "computer connected to the Internet having strong intrusion detection",
+        "computer that is not connected to the Internet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A computer not connected to the Internet has the least exposure to external threats, making it the most secure option.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_54",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Given input Alphabet Σ = {a, b, c, d} and empty string λ. Then, which one of the following is true about Σ*?",
+      "options": [
+        "Σ* = Σ+U{λ}",
+        "Σ* = Σ+UΣ2UΣ3UΣ4",
+        "Σ* = {λ}",
+        "Σ* = Σ+"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Σ* (Kleene star) includes all possible strings over Σ including the empty string λ, while Σ+ excludes λ.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_55",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Assume you make modification to your software. Then you want to make sure that the modification has not had introduced new errors. Which software testing level is required?",
+      "options": [
+        "Static testing",
+        "Beta testing",
+        "Regression testing",
+        "Dynamic testing"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Regression testing is performed to ensure that changes (like modifications) haven't introduced new bugs in existing functionality.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_56",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which type of variable can be accessed through out our C++ program scope?",
+      "options": [
+        "Global",
+        "Static",
+        "Automatic",
+        "Local"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Global variables have program-wide scope and can be accessed from any function or block in the program.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_57",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not correct about computer architecture and organization?",
+      "options": [
+        "An architecture can be used for long time encompassing different computer models",
+        "Manufacturers offer computer with same architecture but different organization",
+        "An organization can last for long time as an architecture does",
+        "An architecture can remain for long time but its organization can change"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Computer organization is more likely to change frequently compared to architecture, which tends to remain stable for longer periods.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_58",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is correct for the statement below? A problem that occurs when one transaction updates a database item and then the transaction fails for some reason and the updated item is accessed by another transaction before it is changed back to its original value?",
+      "options": [
+        "It is a lost update problem",
+        "It is an incorrect summary problem",
+        "It is a temporary read problem",
+        "It is dirty read"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A dirty read occurs when a transaction reads data that has been modified by another transaction that hasn't yet committed.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_59",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Among phases of compiling process, in which phase a sequence of characters are converted into a sequence or tokens?",
+      "options": [
+        "Code optimization",
+        "Syntax analysis",
+        "Semantic analysis",
+        "Lexical analysis"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Lexical analysis is the first phase where the compiler converts character sequences into tokens (lexemes).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_60",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "If you want to allow subclasses to access data fields or methods defined in the super-class, but not to allow non-subclasses to access these data fields and methods, which access modifier is appropriate?",
+      "options": [
+        "protected",
+        "default",
+        "public",
+        "private"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The protected modifier allows access by subclasses while restricting access from non-subclasses in other packages.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_61",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "What is the time complexity order of binary searching algorithm?",
+      "options": [
+        "O(log₂n)",
+        "O(n)",
+        "O(1)",
+        "O(n³)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Binary search has logarithmic time complexity O(log n) as it halves the search space with each comparison.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_62",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Which one is a method used to obtain the meaning of encrypted information without access to secret key?",
+      "options": [
+        "Encryption",
+        "Decryption",
+        "Crypto-analysis",
+        "Cryptography"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Cryptanalysis is the study of analyzing information systems to study the hidden aspects of the systems, often to break cryptographic security without knowledge of the key.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_63",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is evaluating the degrees of success of an agent?",
+      "options": [
+        "Performance measure",
+        "Action",
+        "Perception",
+        "Knowledge"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A performance measure evaluates how successful an agent is in achieving its objectives.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_64",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following lists of environments is the hardest for an agent?",
+      "options": [
+        "Deterministic, fully observable, static",
+        "Partially observable, static, continuous",
+        "Sequential, non-deterministic, dynamic",
+        "Fully observable, sequential, deterministic"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sequential, non-deterministic, dynamic environments are the hardest as they require complex decision-making with incomplete information in changing conditions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_65",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following registers hold the address of the next pair of instructions to be fetched from memory?",
+      "options": [
+        "Program counter",
+        "Memory address register",
+        "Memory buffer register",
+        "Instruction buffer register"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The program counter (PC) holds the memory address of the next instruction to be fetched from memory.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_66",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is correct way creating String object?",
+      "options": [
+        "String m = new String(\"Exit Exam\");",
+        "String m = \"Computer Science\";",
+        "String m = new String(\"Technology\");",
+        "String m = 'H', 'e', 'I', 'I', 'o';"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Option B shows the most common and efficient way to create a String object using string literals in Java.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_67",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is false about String in Java?",
+      "options": [
+        "We can create a String object using array of characters",
+        "In Java a string is treated as object",
+        "Content of a string can be changed once the string is created",
+        "We can create a String object using String literal"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Strings in Java are immutable - their content cannot be changed after creation (though you can create new String objects).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_68",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Which asymptotic notation describes worst case analysis?",
+      "options": [
+        "f(n) = θ (theta)",
+        "f(n) = little-ω (little omega)",
+        "f(n) = Ω (Big omega)",
+        "f(n) = little-oh"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "While Big-O (O) notation is typically used for worst-case analysis, Theta (θ) notation is more precise as it provides both upper and lower bounds. When we know the exact growth rate of the worst case (not just an upper bound), θ notation is appropriate.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_69",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "In which situation that using database management system (DBMS) becomes costly and not recommended to use it?",
+      "options": [
+        "In embedded systems having too small storage space",
+        "In situation where more than one users should access the database",
+        "To control redundancy",
+        "To deny access to unauthorized users"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "DBMS overhead makes it unsuitable for embedded systems with very limited resources where simpler storage solutions are preferred.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_70",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "What is the time complexity order of Quick sort algorithm?",
+      "options": [
+        "O(n log₂n)",
+        "O(2ⁿ)",
+        "O(n²)",
+        "O(n)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Quicksort has average-case time complexity of O(n log n), though it can degrade to O(n²) in worst-case scenarios with poor pivot choices.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_71",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not delimiter of PHP code?",
+      "options": [
+        "<? ...... ?>",
+        "<?php ...... ?>",
+        "<script language=\"PHP\"> ...... </script>",
+        "<caption> ...... </caption>"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "<caption> tags are HTML table caption tags, not PHP delimiters. The other options are all valid PHP code delimiters.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_72",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following Java fragment code?\n\nint n = 6, m = 15, p = 3;\n\nn -= m;\n\nn *= p;\n\nSystem.out.print(n);",
+      "options": [
+        "3",
+        "-27",
+        "24",
+        "27"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First operation: n = 6 - 15 = -9\nSecond operation: n = -9 * 3 = -27",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_73",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true about frames in HTML?",
+      "options": [
+        "Frames are not difficult to handle for search engines",
+        "Load on the server is not affected, if there are a large number of frames in a page",
+        "Frames allow parts of the page to remain stationary while other parts scroll",
+        "All browsers support frames"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Frames can create stationary sections while other sections scroll, though they have many drawbacks including SEO and accessibility issues.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_74",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A database management system (DBMS) has ______ to control locks.",
+      "options": [
+        "Query optimizer",
+        "Lock manager",
+        "Lock table",
+        "Query processor"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The lock manager is the DBMS component responsible for controlling locks to ensure proper concurrency control.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_75",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not correct for the figure shown in Question 27?",
+      "options": [
+        "P2 cannot be executed until P1 finishes",
+        "P1 is waiting for a resource held by P2",
+        "P0 is waiting for a resource held by P1",
+        "P3 cannot be executed until P4 finishes"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Without seeing Figure 27, based on typical process dependency graphs, option D is likely incorrect as it reverses the usual dependency direction.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_76",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A university owns a number of private local area and wide area networks, which are designed for an access by its academic staff, students and administrative workers. Which term best describes the University's network?",
+      "options": [
+        "Local Area Network",
+        "Metropolitan Area Network",
+        "The Internet",
+        "Wide Area Network"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A university network typically spans multiple locations (campuses) making it a Wide Area Network (WAN), though it may contain many LANs within it.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_77",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is correct about human role in system administration?",
+      "options": [
+        "System administrator is not expected to have skills and confidence",
+        "It doesn't need organizational skills",
+        "It requires patience, understanding and knowledge",
+        "Ethics is not a requirement to manage computers"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "System administration requires technical knowledge, patience, understanding of user needs, and strong organizational skills.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_78",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Among the following, which one best describes a database management system (DBMS)?",
+      "options": [
+        "It can help users to manage computer's activity",
+        "It is responsible for creating and maintaining a database",
+        "It can assist process images",
+        "It can assist you to process document"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A DBMS is specifically designed for creating, maintaining, and providing controlled access to databases.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_79",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "What will be the output of the following JavaScript statement? Math.floor(5.9)",
+      "options": [
+        "11.8",
+        "5",
+        "9",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Math.floor() returns the largest integer less than or equal to a given number, so floor(5.9) = 5.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_80",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is responsible for separating some machines from the rest to shield them from possible attacks?",
+      "options": [
+        "Firewall",
+        "Router",
+        "Network operating system",
+        "Switch"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Firewalls are specifically designed to create security boundaries between networks or machines.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_81",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following C++ fragment code?\nint a, b;\na = 13;\nb = 9;\nwhile ((20 && 0) && (a > b))\n{\n    cout<<\"Plants are our life\";\n}",
+      "options": [
+        "It displays message \"Plants are our life\" 20 times",
+        "It displays message \"Plants are Our Life\" 4 times",
+        "It displays message \"Plants are our life\" infinitely",
+        "No message will be displayed"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The condition (20 && 0) evaluates to 0 (false), so the loop body never executes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_82",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not correct about threads?",
+      "options": [
+        "It is a group of processes",
+        "Threads are the entities schedule for execution on the CPU",
+        "Threads have program counters",
+        "Threads have registers to hold its working memory"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Threads are not groups of processes - they are lightweight processes within a process that share the same memory space.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_83",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "A computer expert would like to know the number of processes that are completed per hour to assess the performance of a machine. Therefore, which one of the following best describes the expert's assessment?",
+      "options": [
+        "Turnaround time",
+        "System throughput",
+        "Response time",
+        "Waiting time"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Throughput measures the number of processes completed per unit time, making it the appropriate metric here.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_84",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which network type is the largest as compared to the rest?",
+      "options": [
+        "Local Area Network",
+        "Wide Area Network",
+        "Metropolitan Area Network",
+        "The Internet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Internet is the largest network, being a global network of networks that includes WANs, MANs, and LANs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_85",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following phases is done before semantic analysis phase of compiling process?",
+      "options": [
+        "Code generation",
+        "Syntax analysis",
+        "Code optimization",
+        "Intermediate code generation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The standard compilation phases order is: Lexical Analysis → Syntax Analysis → Semantic Analysis → Intermediate Code Generation → Code Optimization → Code Generation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_86",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Assume you have a weighted graph G with a set of vertices V and set of edges E. Which one of the following problem is an optimization problem on the graph?",
+      "options": [
+        "Traverse all vertices in graph G",
+        "Is vertex p∈V reachable from vertex q∈V in graph G",
+        "Find minimum spanning tree from graph G",
+        "How many cycles are there in graph G"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Finding a minimum spanning tree is an optimization problem as it seeks the spanning tree with minimum possible weight.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_87",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "An interface that has multiple lines connecting input/output module and peripheral device and assures multiple bits to be transferred at the same time is:",
+      "options": [
+        "Serial interface",
+        "One line interface",
+        "Bus interface",
+        "Parallel interface"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Parallel interfaces transfer multiple bits simultaneously over multiple wires, unlike serial interfaces which send bits one at a time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_88",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Which statement is false about universal hashing technique?",
+      "options": [
+        "Single fixed hash function technique is better than universal hashing technique in terms of collision reduction",
+        "In universal hashing a hash function is selected randomly from set of hash functions for each key",
+        "In universal hashing a hash function is selected from set of hash functions independent of keys.",
+        "Universal hashing reduces the chance of data collision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Universal hashing is specifically designed to reduce collisions by randomly selecting hash functions, making it superior to fixed hash functions for collision reduction.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_89",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a step in problem solving that lists the actions and states that the agent has to consider provided a goal?",
+      "options": [
+        "Problem formulation",
+        "Execute",
+        "Goal formulation",
+        "Search"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Problem formulation involves defining the states, actions, and transition model needed to solve a problem given a goal.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_90",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not correct about packet and circuit switching?",
+      "options": [
+        "In packets switching messages are sent in small blocks",
+        "Packet switching is more efficient than circuit switching",
+        "In Packet switching and end-to-end connection has to be established",
+        "In circuit switching a channel is dedicatedly used"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Packet switching doesn't require establishing an end-to-end connection beforehand (that's circuit switching). Packets are routed independently.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_91",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Linked list data structure is ______ type of data structure.",
+      "options": [
+        "Non-linear data structure",
+        "Dynamic data structure",
+        "Fixed size data structure",
+        "Static data structure"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Linked lists are dynamic data structures as their size can grow or shrink during program execution by allocating/deallocating memory.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_92",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which deadlock prevention mechanisms don't require timestamp?",
+      "options": [
+        "No-wait",
+        "Wound-wait",
+        "Wait-wait",
+        "Wait-die"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "No-wait is the only mechanism listed that doesn't use timestamps. It simply aborts if a resource isn't immediately available.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_93",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "In a system susceptible to deadlock, what does the 'no preemption' condition imply?",
+      "options": [
+        "Resources can be preempted and assigned to other processes.",
+        "Processes cannot request additional resources while holding others.",
+        "Resources cannot be preempted while they are in use.",
+        "Processes must release all resources when blocked."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The 'no preemption' condition means that resources cannot be forcibly taken from a process.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_94",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "A PC obtains its IP address from a DHCP server. If the PC is taken off the network for repair, what happens to the IP address configuration?",
+      "options": [
+        "The address is returned to the pool for reuse when the lease expires.",
+        "The address lease is automatically renewed until the PC is returned.",
+        "The configuration is held by the server to be reissued when the PC is returned.",
+        "The configuration is permanent and nothing changes."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The IP address is returned to the pool for reuse when the lease expires.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_95",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which class of languages is most suited to be represented by pushdown automata?",
+      "options": [
+        "Context free language",
+        "Regular language",
+        "Recursively enumerable language",
+        "Unrestricted language"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Pushdown automata are specifically designed to recognize context-free languages.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_96",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not an I/O command?",
+      "options": [
+        "Status command",
+        "Output data command",
+        "Control command",
+        "Issue command"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Issue command is not typically classified as an I/O command.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_97",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the output of the syntax analysis phase?",
+      "options": [
+        "Syntax tree",
+        "Annotated parse tree",
+        "Abstract syntax tree",
+        "Pattern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The output of the syntax analysis phase is typically an abstract syntax tree.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_98",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "The first step in access control is ____.",
+      "options": [
+        "Audit",
+        "Authorization",
+        "Accreditation",
+        "Authentication"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Authentication is the first step in access control.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_99",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "In computer networking, _____ refers to how various nodes, devices, and connections on your network are physically or logically arranged in relation to each other.",
+      "options": [
+        "Network layer",
+        "Network installation",
+        "Network protocol",
+        "Network topology"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Network topology describes the arrangement of nodes and connections in a network.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2015_regular_melmeja_100",
+      "examId": "exit_computer_science_2015_regular_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not true about Reasoning?",
+      "options": [
+        "Knowledge system to do something.",
+        "A process of thinking, logically arguing, and drawing inference.",
+        "Theory of blind searching.",
+        "The act of deriving a conclusion from certain premises using a given methodology."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Reasoning is not a theory of blind searching; it involves logical processes.",
+      "topic": "Computer Science"
+    }
+  ]
+}

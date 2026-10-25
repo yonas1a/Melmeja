@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12",
-  "description": "Grade 12 Mathematics Comprehensive Exam 2014 featuring 4 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 4,
-  "passMarkPercent": 60,
+  "description": "Grade 12 Mathematics Comprehensive Exam 2014 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -83,6 +83,1542 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "This is the statement of the **Fundamental Theorem of Calculus, Part Two (Evaluation Theorem)**. It states that if $f$ is continuous on $[a, b]$, and $F$ is any antiderivative of $f$ (meaning $F'(x) = f(x)$), then the definite integral of $f$ from $a$ to $b$ is found by evaluating the antiderivative at the limits of integration and subtracting:\n$$\\\\int_{a}^{b} f(x) dx = F(x)|_{a}^{b} = F(b) - F(a)$$\nTherefore, option B is the correct statement.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_5",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "A frequency curve is drawn for a distribution of marks. The curve is symmetric about the mean. What does this indicate about the skewness of the distribution?",
+      "options": [
+        "Positively skewed",
+        "Negatively skewed",
+        "Symmetrical distribution",
+        "Uniform distribution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Symmetry indicates zero skewness.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_6",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Find the maximum value of y = 4x − x².",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Vertex x=2 → y=4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_7",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Find turning point of y = x² + 6x + 10.",
+      "options": [
+        "(−3,1)",
+        "(3,1)",
+        "(−3,−1)",
+        "(1,3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vertex.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_8",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "A particle moves such that its displacement is given by s(t) = t³  - 6t² + 9t. Find the time at which velocity becomes zero.",
+      "options": [
+        "t = 1 and t = 3",
+        "t = 2 and t = 3",
+        "t = 1 only",
+        "t = 3 only"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Velocity v = s'(t) = 3t² - 12t + 9 =\n 3(t-1)(t-3).\n So t=1,3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_9",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Find the equation of tangent to y = x² at x = 3.",
+      "options": [
+        "y = 3x - 9",
+        "y = 6x + 9",
+        "y = 6x - 9",
+        "y = x²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Slope = 2x = 6.\n Point (3,9).\n Equation y-9=6(x-3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_10",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (x² + 2x + 1) dx.",
+      "options": [
+        "x³ + x² + C",
+        "x³/3 + x² + C",
+        "x³/3 + x² + x + C",
+        "x³ + 2x² + x + C"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Integrate term by term.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_11",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "If f'(x) = 6x² - 4x and f(0) = 1, find f(x).",
+      "options": [
+        "2x³ - 2x² + 1",
+        "3x³ - 2x² + 1",
+        "2x³ - x² + 1",
+        "3x³ - x² + 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrate: 2x^3 - 2x² + C.\n Using f(0)=1 → C=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_12",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Find area under y = 2x from x=1 to x=3.",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "∫2x dx = x² → 9−1=8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_13",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Find derivative of y = √(x+1).",
+      "options": [
+        "√x",
+        "1/x",
+        "2√x",
+        "1/(2√(x+1))"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Power rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_14",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/(1+x²)) dx from 0 to 1.",
+      "options": [
+        "π/2",
+        "1",
+        "π/4",
+        "2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "tan⁻¹1 − tan⁻¹0 = π/4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_15",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Determine the intervals where f(x) = x³ - 3x² is increasing.",
+      "options": [
+        "(0,2)",
+        "(-∞,2)",
+        "(-∞,0) and (2,∞)",
+        "(2,∞)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f'(x)=3x²-6x=3x(x-2).\n Positive when x<0 or x>2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_16",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/(x²+1)) dx.",
+      "options": [
+        "tan⁻¹x + C",
+        "ln x",
+        "sec x",
+        "cot x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard integral.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_17",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∫(3x² - 4x + 2) dx.",
+      "options": [
+        "3x³ - 2x² + x + C",
+        "x³ - 2x² + 2x + C",
+        "x³ - 4x² + 2x + C",
+        "x³ - 2x² + C"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Integrate term by term: x^3 -2x² +2x + C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_18",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Find the slope of the normal to y = x³ at x = 1.",
+      "options": [
+        "−1",
+        "1/3",
+        "−1/3",
+        "3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Slope tangent=3 → normal=−1/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_19",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "A researcher uses a sample of 50 students selected by choosing every 5th student from a complete list of 250 students. What is the sampling interval and why is this method efficient for large populations?",
+      "options": [
+        "5; because it ensures systematic coverage",
+        "10; because it reduces bias",
+        "50; because it increases accuracy",
+        "250; because it uses full population"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sampling interval k = 250/50 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_20",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "In a negatively skewed distribution, which of the following relationships is correct?",
+      "options": [
+        "Mean > Median > Mode",
+        "Mean < Median < Mode",
+        "Mean = Median = Mode",
+        "Mean > Mode > Median"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Negative skew: Mean < Median < Mode.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_21",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The sum of first n terms of a sequence is Sₙ = 3n² + 2n. Find the nth term.",
+      "options": [
+        "6n−1",
+        "6n+1",
+        "3n²",
+        "2n+3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "aₙ = Sₙ − Sₙ₋₁ = \n3n²+2n − [3(n−1)²+2(n−1)] \n= 6n−1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_22",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(k=3 to 7)(k³).",
+      "options": [
+        "850",
+        "855",
+        "860",
+        "865"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total cubes minus first two: (784−9)=775 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_23",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(x⁴) dx from 0 to 2.",
+      "options": [
+        "32/5",
+        "16/5",
+        "8",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "x⁵/5 → 32/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_24",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Bank interest grows yearly. This is:",
+      "options": [
+        "Arithmetic",
+        "Geometric",
+        "Constant",
+        "Linear"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest → geometric.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_25",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "A savings plan gives 6% compound interest annually. If 5,000 birr is invested for 4 years, find the final amount.",
+      "options": [
+        "6,200 birr",
+        "6,500 birr",
+        "6,300 birr",
+        "6,100 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A ≈ 5000(1.06)^4 ≈ 6300 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_26",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "A borrower takes a loan of 12000 birr at 15% simple interest per year for 2 years. Determine total repayment and explain why simple interest grows linearly.",
+      "options": [
+        "15000 birr",
+        "16000 birr",
+        "15800 birr",
+        "15600 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = 12000×0.15×2 = 3600;\n total = 15600 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_27",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 5)(2^k).",
+      "options": [
+        "62",
+        "64",
+        "66",
+        "68"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "2+4+8+16+32=62.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_28",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Find S∞ for 3+1+1/3+...",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "S=3/(1-1/3)=4.5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_29",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "A borrower compares 6% simple interest and 5% compound interest over 10 years. Which is correct?",
+      "options": [
+        "Simple interest is better",
+        "Compound interest is better",
+        "Both are equal",
+        "Cannot be compared"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest grows faster over long periods.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_30",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A loan of 11000 birr at 10% simple interest for 3 years. Compute total repayment.",
+      "options": [
+        "14000 birr",
+        "14300 birr",
+        "14500 birr",
+        "14600 birr"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "I = 11000×0.1×3 = 3300;\n total = 14300 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_31",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "A bank offers 11% compound interest annually. A deposit grows to 10,000 birr in 2 years. Find the original amount.",
+      "options": [
+        "8,200 birr",
+        "8,300 birr",
+        "8,000 birr",
+        "8,100 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "P = 10000/(1.11)² ≈ 8100 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_32",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "A linear program has constraints x ≥ 0, y ≥ 0, x + 3y ≤ 24, and 2x + y ≤ 18. Maximize Z = 6x + 7y.",
+      "options": [
+        "Z = 84 at (6,6)",
+        "Z = 90 at (9,3)",
+        "Z = 96 at (12,0)",
+        "Z = 80 at (4,8)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Intersection and corner evaluation gives maximum at (6,6): Z = 84.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_33",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "A dataset has mean 70 and standard deviation 14. Another dataset has mean 35 and standard deviation 10. Which has higher relative variability?",
+      "options": [
+        "First dataset",
+        "Second dataset",
+        "Both equal",
+        "Cannot be compared"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "CV1 = 20%, CV2 ≈ 28.6%, so second is higher.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_34",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 3x + 12y subject to x + y ≤ 16.",
+      "options": [
+        "Z = 48 at (16,0)",
+        "Z = 120 at (8,8)",
+        "Z = 192 at (0,16)",
+        "Z = 150 at (10,6)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y dominates objective.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_35",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "A borrower repays 6000 birr loan with 15% simple interest for 2 years. Find total repayment.",
+      "options": [
+        "7800 birr",
+        "8000 birr",
+        "7500 birr",
+        "7700 birr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "I = 6000×0.15×2 = 1800; \ntotal = 7800 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_36",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "An investment grows from 4,000 birr to 5,120 birr in 2 years under compound interest. Find the rate.",
+      "options": [
+        "12%",
+        "10%",
+        "8%",
+        "15%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "5120 = 4000(1+r)² \n→ (1+r)²=1.28\n → r≈12%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_37",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Find derivative of y = x ln x.",
+      "options": [
+        "ln x + 1",
+        "ln x",
+        "1/x",
+        "x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_38",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Find 8th term of 7,10,13...",
+      "options": [
+        "28",
+        "31",
+        "34",
+        "37"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "7+(7×3)=28 (intentional trick).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_39",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (1/(2x+1)) dx.",
+      "options": [
+        "(1/2)ln|2x+1|+C",
+        "ln|2x+1|+C",
+        "1/(2x+1)",
+        "x/(2x+1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Substitution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_40",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "A financial institution offers 7% compound interest annually. If an investment grows to 22,000 birr in 3 years, determine the initial deposit and interpret the reverse compounding process.",
+      "options": [
+        "18,000 birr",
+        "16,800 birr",
+        "17,500 birr",
+        "17,000 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "P = 22000 / (1.07)³ \n≈ 17000 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_41",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "A production system satisfies x + 2y ≤ 20, x ≥ 0, y ≥ 0. Maximize Z = 3x + 8y.",
+      "options": [
+        "Z = 80 at (0,10)",
+        "Z = 60 at (10,0)",
+        "Z = 70 at (4,8)",
+        "Z = 75 at (5,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "At (0,10), Z = 80 maximum.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_42",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "A bank offers 5% compound interest compounded quarterly. If 12,000 birr is invested for 2 years, determine the approximate maturity value.",
+      "options": [
+        "13,100 birr",
+        "13,300 birr",
+        "13,200 birr",
+        "13,000 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 12000(1+0.05/4)^8 ≈ 13200 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_43",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Find the derivative of the function f(x) = (2x³ + 3x)(x² - 1) using the product rule.",
+      "options": [
+        "10x⁴ + 6x² - 2x² - 3",
+        "10x⁴ + 4x² - 3",
+        "10x⁴ + 6x² - 3",
+        "10x⁴ + 2x² - 3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using product rule: f' = (6x²+3)(x²-1)+(2x³+3x)(2x).\n Simplifying gives 10x⁴ + 4x² - 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_44",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Given that y = (x² + 1)/(x - 1), find dy/dx using the quotient rule.",
+      "options": [
+        "(x² - 2x -1)/(x-1)²",
+        "(x² -1)/(x-1)²",
+        "(x² +2x -1)/(x-1)²",
+        "(x² -2x +1)/(x-1)²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using quotient rule: (2x(x-1)-(x²+1)(1))/(x-1)² \n\n= (2x²-2x-x²-1)/(x-1)².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_45",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 2x + 2y subject to x + y ≤ 8.",
+      "options": [
+        "Z = 12 at (6,2)",
+        "Z = 10 at (5,3)",
+        "Z = 14 at (7,1)",
+        "Z = 16 at any boundary point"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Equal coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_46",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "A systematic sampling method selects every 8th student from a list of 800 students after randomly selecting a starting point. What is the sampling interval and why is this method efficient?",
+      "options": [
+        "Interval = 100; reduces variance significantly",
+        "Interval = 8; ensures evenly spread selection across population",
+        "Interval = 10; ensures stratification automatically",
+        "Interval = 80; reduces population bias completely"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "k = 800/100 = 8 ensures evenly spread sampling.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_47",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "A business invests 25,000 birr at 8% compound interest for 2 years. Find maturity value.",
+      "options": [
+        "30,000 birr",
+        "28,000 birr",
+        "29,400 birr",
+        "31,000 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A=25000(1.08)^2≈29400 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_48",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Find the maximum value of f(x) = -2x² + 8x + 3.",
+      "options": [
+        "10",
+        "9",
+        "12",
+        "11"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vertex at x=2 → f(2)= -8+16+3=11.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_49",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "A feasible region is defined by x + 2y ≥ 12 and x ≥ 0, y ≥ 0. The cost function is C = 3x + 4y. Find the minimum cost.",
+      "options": [
+        "= 24 at (0,6)",
+        "= 18 at (6,3)",
+        "= 30 at (4,4)",
+        "= 28 at (2,5)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Minimum occurs at (0,6): C = 24.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_50",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 3x + 3y subject to x + y ≥ 25.",
+      "options": [
+        "= 75 at any boundary point",
+        "= 60 at (20,5)",
+        "= 50 at (15,10)",
+        "= 80 at (18,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Equal coefficients → constant cost on boundary.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_51",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "A financial planner compares inflation rate of 6% with an investment yielding 10% compound interest annually over 5 years. The planner wants to determine whether the investor is truly gaining purchasing power and how real return should be interpreted in economic terms.",
+      "options": [
+        "The investor is losing purchasing power",
+        "The investor breaks even",
+        "The result depends only on principal",
+        "The investor gains real purchasing power"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Since return > inflation, real purchasing power increases.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_52",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Two datasets A and B have identical means of 40. Dataset A has variance 16 while dataset B has variance 64. What can be concluded about their relative dispersion and consistency?",
+      "options": [
+        "is more dispersed and less consistent",
+        "is more consistent than A",
+        "Both have equal dispersion",
+        "has higher variability than B"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Lower variance means higher consistency; A is more consistent.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_53",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = 5x³ + 2x - sin(x) + e^x. What is the value of f'(0)?",
+      "options": [
+        "4",
+        "-1",
+        "1",
+        "2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Differentiate f(x): f'(x) = 15x² + 2 - cos(x) + e^x.\n\n Evaluate at x = 0: \n\nf'(0) = 15*0² + 2 - cos(0) + e^0 =\n\n 0 + 2 - 1 + 1 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_54",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "The standard deviation of a data set is zero. What conclusion can be drawn?",
+      "options": [
+        "All values are equal",
+        "Values are widely spread",
+        "Mean is zero",
+        "Data is skewed"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "No variation means all values are identical.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_55",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "In a large population of 5000 individuals, a statistician divides the population into age groups (0–20, 20–40, 40–60, 60+) and then randomly selects proportional samples from each group. Identify the sampling method and explain its statistical advantage in reducing bias.",
+      "options": [
+        "Systematic sampling; ensures every kth element is selected evenly",
+        "Cluster sampling; reduces cost but increases sampling error",
+        "Stratified sampling; ensures representation from all subgroups",
+        "Convenience sampling; based on accessibility of subjects"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Stratified sampling ensures proportional representation from each subgroup, reducing bias.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_56",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "A bank compares simple vs compound interest. Which statement is always true?",
+      "options": [
+        "Simple always higher",
+        "Compound always higher long-term",
+        "Both equal always",
+        "No relationship"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound grows faster over time.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_57",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A savings plan shows that money doubles in approximately 8 years at a certain compound interest rate. The investor wants to estimate the interest rate and understand the relationship between doubling time and exponential growth.",
+      "options": [
+        "Approximately 6%",
+        "Approximately 7%",
+        "Approximately 9%",
+        "Approximately 12%"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_58",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Find n such that the nth term of the arithmetic sequence 6, 11, 16, ... is 201.",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "6+(n−1)5=201 → 5n+1=201 → n=40 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_59",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/x) dx.",
+      "options": [
+        "1/x² + C",
+        "x ln x",
+        "ln x²",
+        "ln|x| + C"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Basic integral.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_60",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "If the fifth and the tenth terms of a geometric sequence are 640 and 20 respectively, then which of the following numbers are the first term and the common ratio of the given geometric sequence, respectively?",
+      "options": [
+        "10240 and 2",
+        "10240 and 1/2",
+        "1024 and 2",
+        "1024 and 1/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a5 = ar⁴ and a10 = ar⁹.\n Dividing gives r^5 = 20/640 =\n 1/32, so r = 1/2.\n Then a = 640 × 16 = 10240.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_61",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements best describes convenience sampling in real-life situations?",
+      "options": [
+        "All individuals are equally likely to be selected",
+        "Selection is based on ease of access",
+        "Population is divided into strata",
+        "Clusters are randomly selected"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Convenience sampling depends on accessibility.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_62",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = 1 / √x and g(x) = 2 - (1 / 6x³) be two functions. For what values of x do the graphs of f and g have tangent lines of the same slope?",
+      "options": [
+        "1 / 4",
+        "4",
+        "1",
+        "√3 / 2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f(x)=x^(-1/2) ⇒ f'(x)=(-1/2)x^(-3/2)\ng(x)=2-(1/6)x^3 ⇒ g'(x)=-(1/2)x^2\nSet slopes equal: (-1/2)x^(-3/2)=-(1/2)x^2\nCancel -1/2: x^(-3/2)=x^2\nSolve: x^(7/2)=1 ⇒ x=1",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_63",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A deposit of 7,000 birr at 10% compound interest grows for 2 years. Find value.",
+      "options": [
+        "8,470 birr",
+        "8,000 birr",
+        "8,500 birr",
+        "8,200 birr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A=7000(1.1)^2≈8470 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_64",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "A company borrows 25,000 birr at 9% compound interest per annum. The loan is not repaid for 5 years due to financial restructuring. The management wants to understand the effect of delayed repayment on total debt accumulation and compare it with simple interest expectations. Determine the approximate total repayment and interpret the financial risk.",
+      "options": [
+        "About 38,500 birr, showing moderate growth",
+        "About 39,000 birr, showing controlled debt growth",
+        "About 38,500 birr, showing exponential debt increase",
+        "About 40,000 birr, showing linear growth behavior"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 25000(1.09)^5 ≈ 25000(1.5386) ≈\n 38465 birr, showing exponential growth due to compounding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_65",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "26) A circle with radius $3 \\text{ cm}$ increases its radius at a rate of $0.2 \\text{ cm/sec}$. What is the area of the circle at the $5^{\\text{th}}$ second?",
+      "options": [
+        "$9\\pi \\text{ cm}^2$",
+        "$4\\pi \\text{ cm}^2$",
+        "$16\\pi \\text{ cm}^2$",
+        "$9.64\\pi \\text{ cm}^2$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1. **Determine the radius $r(t)$ at time $t$:** The initial radius is $r_0 = 3 \\text{ cm}$. The rate of increase is $\\frac{dr}{dt} = 0.2 \\text{ cm/sec}$. The radius at time $t$ is $r(t) = r_0 + (\\text{rate} \\times t) = 3 + 0.2t$. 2. **Find the radius at $t = 5$ seconds:** $r(5) = 3 + 0.2(5) = 3 + 1.0 = 4 \\text{ cm}$. 3. **Calculate the Area ($A$):** The area of a circle is $A = \\pi r^2$. $A = \\pi (4)^2 = 16\\pi \\text{ cm}^2$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_66",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Given the sequence 3, 6, 12, 24, .... Then what is the 10th partial sum of the sequence?",
+      "options": [
+        "3075",
+        "1023",
+        "1027",
+        "3069"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step 1: Identify the sequence type. The sequence is geometric with first term a = 3 and common ratio r = 2.\n\nStep 2: Use the formula for the sum of first n terms of a geometric sequence: S_n = a(r^n - 1)/(r - 1)\n\nStep 3: Substitute values for n = 10:\n\nS_10 = 3(2^10 - 1)/(2 - 1) = 3(1024 - 1)/1 = 3 × 1023 = 3069.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_67",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Find derivative of y = 1/x.",
+      "options": [
+        "1/x²",
+        "−x²",
+        "−1/x²",
+        "x²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rewrite as x⁻¹.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_68",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Dibabe was hired in an elementary school with a monthly salary of Birr 30,000. The agreement was to raise her salary every year by Birr 3,000. What is the total amount of money that Dibabe will earn at the end of the 8th year in Birr?",
+      "options": [
+        "324,000",
+        "3,888,000",
+        "2,976,000",
+        "2,964,000"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is an arithmetic progression (AP) problem, where the salary increases by a constant amount each year.\n\n- **Initial monthly salary:** $a = 30,000$.\n- **Annual difference (common difference):** $d = 3,000 \times 12 = 36,000$ (since the raise is per year, but the initial amount is given monthly, the common difference must be based on annual salary).\n\nLet $S_n$ be the total amount earned after $n$ years.\n\n1. **Calculate the annual salary for Year 1:** $A_1 = 30,000 \times 12 = 360,000$.\n2. **Calculate the annual salary for Year 8 ($A_8$):** The raise is added *every year*, so the annual salaries form an AP with $A_1 = 360,000$ and $d = 3,000 \times 12 = 36,000$. The $n$-th term formula is $A_n = A_1 + (n-1)d$.\n$$A_8 = 360,000 + (8-1) \times 36,000$$ \n$$A_8 = 360,000 + 7 \times 36,000$$ \n$$A_8 = 360,000 + 252,000 = 612,000$$\n\n3. **Calculate the total amount earned in 8 years ($S_8$):** Use the sum of an AP formula $S_n = \frac{n}{2}(A_1 + A_n)$.\n$$S_8 = \frac{8}{2}(360,000 + 612,000)$$\n$$S_8 = 4(972,000)$$\n$$S_8 = 3,888,000$$\n\n**Note:** Given the options, there might be a misinterpretation of the problem or options provided in the source material, as the calculated answer $3,888,000$ matches **Option B**. However, the provided options C and D are $2,976,000$ and $2,964,000$ which are closer to the values if the initial salary was used directly. Let's re-examine the correct options and the calculation based on the provided list where **C** is likely the intended answer. Assuming the intended answer C ($2,976,000$) is correct, there is an error in the question's premise or the intended calculation (perhaps the raise is monthly and the total is calculated incorrectly).\n\n**Re-evaluation (Using standard interpretation):** \nThe total amount earned in 8 years is $S_8 = 3,888,000$. This matches **Option B**.\n\n*Since the question likely expects a solution from the provided options, and $3,888,000$ is a clear result, we will select B.*",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_69",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 6x + 8y subject to x + y ≤ 14. Explain optimal allocation strategy.",
+      "options": [
+        "Z = 112 at (0,14)",
+        "Z = 84 at (14,0)",
+        "Z = 96 at (6,8)",
+        "Z = 100 at (7,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "y has higher coefficient so maximize y.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_70",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A system x + y ≤ 6, x ≥ 0, y ≥ 0, 2x + 3y ≤ 12 is given. If Z = 3x + 4y, find maximum.",
+      "options": [
+        "Z = 18 at (2,3)",
+        "Z = 20 at (3,2)",
+        "Z = 22 at (4,1)",
+        "Z = 16 at (0,4)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "At (0,4), Z = 16 maximum.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_71",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Let f be a continuous function on ℝ and c be a number in the domain of f. Which one of the following must be true about the function?",
+      "options": [
+        "If f(c) is a local minimum value of f, then f'(c) = 0.",
+        "An absolute maximum value of f which is attained at a critical number is also a local maximum value of f.",
+        "If c is a critical number of f, then f(c) is a local extreme value of f.",
+        "If f''(c) = 0, then (c, f(c)) is an inflection point of f."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Option 1 is false because a local minimum may occur where the derivative does not exist (e.g., f(x) = |x| at x = 0). Option 3 is false because not all critical points correspond to local extrema (e.g., f(x) = x³ at x = 0). Option 4 is false because f''(c) = 0 does not guarantee an inflection point (e.g., f(x) = x^4 at x = 0). Option 2 is true: if an absolute maximum occurs at a critical number, it is also a local maximum because in a small neighborhood, the function cannot exceed this value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_72",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "A rectangular field is to be fenced on three sides with 120 m of wire. Find the maximum area that can be enclosed using calculus.",
+      "options": [
+        "1200 m²",
+        "1800 m²",
+        "2400 m²",
+        "3600 m²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let width=x, length=120−2x. Area=x(120−2x). A'=120−4x=0 → x=30 → A=30×60=1800.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_73",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": " Let f(x) = x / (x² + 3x + 1). Then, f'(x) is equal to",
+      "options": [
+        "(1 - x²) / (x² + 3x + 1)²",
+        "1 / (2x + 3)",
+        "(3x² + 6x + 1) / (x² + 3x + 1)²",
+        "(-x³ - 3x) / (x² + 3x + 1)²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f'(x) = [(x²+3x+1)−x(2x+3)]/(x²+3x+1)² =\n\n (x²+3x+1−2x²−3x)/(x²+3x+1)² =\n\n (1−x²)/(x²+3x+1)²",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_74",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Find slope of normal to y = x² at x = 1.",
+      "options": [
+        "−1/2",
+        "2",
+        "−2",
+        "1/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Tangent slope=2 → normal = −1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_75",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about bounded sequence?",
+      "options": [
+        "Every decreasing bounded sequence converges to the least upper bound of the sequence.",
+        "Every monotone bounded sequence converges.",
+        "Every bounded sequence is convergent.",
+        "Every increasing bounded sequence converges to the greatest lower bound of the sequence."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Monotone Convergence Theorem states that **every monotone (either increasing or decreasing) and bounded sequence converges.\n\n This eliminates options A, C, and D. Option A and D describe how specific monotone bounded sequences converge, but option B is a direct statement of the Monotone Convergence Theorem itself, making it the most general and directly true statement about bounded sequences among the choices.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_76",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Suppose f is a continuous function on an interval [a, b] and differentiable on (a, b) with the property f(a) = f(b). Which one of the following must be true?",
+      "options": [
+        "The function has maximum value in (a, b).",
+        "The graph of f has horizontal tangent line at (c, (f(c)) for some c ∈ (a, b).",
+        "The function has a zero in (a, b).",
+        "The function has minimum value in (a, b)."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This question refers to Rolle's Theorem, which is a special case of the Mean Value Theorem.\n\n Rolle's Theorem states that if a function f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b), then there exists at least one number c in (a, b) such that the derivative f'(c) = 0. A derivative of zero means the tangent line at that point is horizontal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_77",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "What is the area of the region bounded by the graph of f(x) = x³ and the x-axis on the interval [-4, 2]?",
+      "options": [
+        "60 Square units",
+        "68 Square units",
+        "120 Square units",
+        "136 Square units"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The function f(x) = x³ is negative on [-4,0] and positive on [0,2].\n\n The area is given by ∫ [4,0] -x³ dx + ∫ [0,2] x³ dx =\n 64 + 4 = 68.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_78",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Consider the function f(x) = x³-3x² +3 on ( -2, 3 ), then which of the following point is local minimum and local maximum of f(x) respectively?",
+      "options": [
+        "(0, 3) and (2, -1)",
+        "(3, 3) and (-2, -27)",
+        "(2, -1) and (0, 3)",
+        "(-2, -27) and (0, 3)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": " Step 1: Find the derivative: f'(x) = 3x² - 6x = 3x(x - 2)\n\nStep 2: Solve f'(x) = 0 → x = 0, x = 2\n\nStep 3: Use second derivative test: f''(x) = 6x - 6\n\n- At x = 0: f''(0) = -6 < 0 → local maximum\n\n- At x = 2: f''(2) = 6 > 0 → local minimum\n\nStep 4: Evaluate function values:\n\n- f(0) = 0³ - 3*0² + 3 = 3 → local maximum\n\n- f(2) = 2³ - 3*2² + 3 = 8 - 12 + 3 = -1 → local minimum\n\nTherefore, local minimum is (2, -1) and local maximum is (0, 3), which corresponds to option c.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_79",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∫(2x e^(x²)) dx.",
+      "options": [
+        "e^(x²)+C",
+        "2e^(x²)+C",
+        "x e^(x²)",
+        "ln(x²)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Substitution u=x².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_80",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "A savings account offers 5% compound interest annually. If 10000 birr is invested for 4 years, compute the maturity value and interpret the compounding effect over multiple periods.",
+      "options": [
+        "12000 birr",
+        "12250 birr",
+        "12500 birr",
+        "12155 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A = 10000(1.05)⁴ \n≈ 12155 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_81",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Let F be the anti-derivative of f. Then which of the following is NOT true about F and f?",
+      "options": [
+        "∫ [ d/dx f(x) dx ] = f(x) + c",
+        "∫ [ F(x) dx ] = f(x) + c",
+        "F'(x) = f(x)",
+        "d/dx ∫F(x)dx = F(x)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By definition, if F is an anti-derivative of f, then F' = f.\n\n- Option 1: ∫[d/dx f(x) dx] = f(x) + C ✅ True, since integration reverses differentiation.\n\n- Option 2: ∫[F(x) dx] = f(x) + C ❌ False, because the integral of F(x) is not f(x), it would be ∫F(x) dx = some new function + C.\n\n- Option 3: F'(x) = f(x) ✅ True by definition.\n\n- Option 4: d/dx ∫ F(x) dx = F(x) ✅ True by the Fundamental Theorem of Calculus.\n\n Hence, option 2 is NOT true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_82",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 5x + 2y subject to x + y ≥ 20.",
+      "options": [
+        "= 100 at (20,0)",
+        "= 40 at (0,20)",
+        "= 60 at (10,10)",
+        "= 70 at (12,8)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "y is cheaper so choose (0,20).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_83",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "A bank offers two accounts: Account A gives 6% simple interest, Account B gives 5% compound interest. Over a long-term investment of 10 years, which account is more beneficial and why?",
+      "options": [
+        "Account A",
+        "Account B",
+        "Both equal",
+        "Depends on principal only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest grows exponentially and overtakes simple interest.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_84",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Find maximum value of y = −x² + 4x + 1.",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vertex at x=2 → y=5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_85",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 6x + 10y subject to x + y ≤ 15, x ≥ 0, y ≥ 0, and interpret how the slope of the objective function affects the optimal vertex choice.",
+      "options": [
+        "Z = 90 at (15,0)",
+        "Z = 120 at (10,5)",
+        "Z = 150 at (0,15)",
+        "Z = 100 at (5,10)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since coefficient of y is larger, maximum occurs at (0,15): Z = 150.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_86",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A borrower takes two loans of equal amount. Loan A is at 12% simple interest for 3 years, and Loan B is at 10% compound interest for 3 years. Determine which loan is more expensive and justify using total repayment comparison.",
+      "options": [
+        "Loan A is more expensive",
+        "Loan B is more expensive",
+        "Both cost the same",
+        "Cannot be determined"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest on Loan B exceeds simple interest growth over 3 years.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_87",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 10x + 10y subject to x + y ≤ 5.",
+      "options": [
+        "Z = 50 at any boundary point",
+        "Z = 40 at (4,1)",
+        "Z = 30 at (3,2)",
+        "Z = 20 at (2,3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Equal coefficients → constant objective on boundary.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_88",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "In order to find point P in space one can start from the origin O(0, 0, 0); move 5 units in the direction of negative x-axis, then move 5 units in the direction of positive y-axis and finally move 5 units in the direction of negative z-axis. Which one of the following is the ordered triple of numbers represented by point P?",
+      "options": [
+        "(5, 5, -5)",
+        "(-5, 5, -5)",
+        "(5, -5, 5)",
+        "(-5, -5, 5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Start at the origin (0, 0, 0) and track the changes in the x, y, and z coordinates:\n\n1. Negative x-axis: Move 5 units in the negative x direction. New x-coordinate: 0 - 5 = -5.\n\n2. Positive y-axis: Move 5 units in the positive y direction. New y-coordinate: 0 + 5 = 5.\n\n3. Negative z-axis: Move 5 units in the negative z direction. New z-coordinate: 0 - 5 = -5.\n\nThe final coordinates of point P are (-5, 5, -5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_89",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A loan doubles in 6 years. Estimate the interest rate.",
+      "options": [
+        "12%",
+        "10%",
+        "8%",
+        "15%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rule of 72: 72/6=12%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_90",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 5x + 2y subject to x + y ≤ 20.",
+      "options": [
+        "Z = 100 at (20,0)",
+        "Z = 40 at (0,20)",
+        "Z = 60 at (10,10)",
+        "Z = 80 at (15,5)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Maximum at (20,0): Z = 100.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_91",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 3x + 7y subject to x + y ≤ 12.",
+      "options": [
+        "Z = 84 at (0,12)",
+        "Z = 36 at (12,0)",
+        "Z = 60 at (6,6)",
+        "Z = 70 at (7,5)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Maximum at (0,12): Z = 84.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_92",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Given the data set: 10, 20, 30, 40, 50, calculate the mean deviation about the mean and determine how much the observations deviate on average.",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = 30.\n Deviations = 20,10,0,10,20 → average = 60/5 = 12, but absolute deviation sum is 60 so mean deviation = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_93",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "A loan of 8000 birr is taken at simple interest of 6% per year for 5 years. Calculate the total repayment and identify the interest portion clearly.",
+      "options": [
+        "10600 birr",
+        "10800 birr",
+        "10400 birr",
+        "10200 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "I = 8000×0.06×5 = 2400. \nTotal = 10400 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_94",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "A deposit of 10,000 birr becomes 14,641 birr after 4 years. The bank uses compound interest. The financial analyst needs to determine whether the implied interest rate is reasonable and consistent with standard banking rates.",
+      "options": [
+        "Approximately 8%, consistent with normal banking rates",
+        "Approximately 12%, unusually high",
+        "Approximately 5%, unusually low",
+        "Cannot be determined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "14641 = 10000(1.1)^4 → rate ≈ 10%, closest option 8–10% range.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_95",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Find the area between the curve y = x² and the x-axis from x = 0 to x = 3.",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "∫x² dx = x³/3 → 27/3=9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_96",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(i=1 to 4)(i²+1).",
+      "options": [
+        "30",
+        "34",
+        "40",
+        "50"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(1+4+9+16)+4=34.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_97",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "A deposit of 2,000 birr grows to 2,420 birr in 2 years. Find the compound rate.",
+      "options": [
+        "10%",
+        "8%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "2420/2000=1.21 \n→ r≈10%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_98",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Find the derivative of y = ln(x² + 1).",
+      "options": [
+        "1/(x²+1)",
+        "2x/(x²+1)",
+        "2/(x²+1)",
+        "x/(x²+1)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Chain rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_99",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1 + x²) dx from 0 to 1.",
+      "options": [
+        "4/3",
+        "3/2",
+        "5/3",
+        "2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1 + 1/3 = 4/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg12u2_melmeja_100",
+      "examId": "m2014_socialg12u2_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(3x² + 4x) dx.",
+      "options": [
+        "x³ + 4x² + C",
+        "3x³ + 2x² + C",
+        "x³ + 2x² + C",
+        "x³ + x² + C"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Integrate term by term.",
       "topic": "Mathematics"
     }
   ]

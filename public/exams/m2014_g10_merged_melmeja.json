@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 10",
-  "description": "Comprehensive examination bank combining 6 chapters (8 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 8,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 6 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -147,6 +147,1482 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "1. The formula for the surface area of a sphere is A = 4πr².\n\n2. The radius (r) is given as 6 cm.\n\n3. Substitute the radius into the formula: A = 4 * π * 6².\n\n4. Calculate 6²: A = 4 * π * 36.\n\n5. Multiply 4 by 36: A = 144π.\n\n6. The surface area is 144π cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_9",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "What is the result of (x + 2)² - (x² + 4)?",
+      "options": [
+        "4x",
+        "4",
+        "2x² + 4x + 8",
+        "2x² + 8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(x + 2)² - (x² + 4) =\n (x² + 4x + 4) - (x² + 4) =\n x² - x² + 4x + 4 - 4 =\n 4x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_10",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "According to the Remainder Theorem, when the polynomial P(x) is divided by (x - c), the remainder is:",
+      "options": [
+        "P(c)",
+        "P(-c)",
+        "0",
+        "x - c"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The Remainder Theorem states that when a polynomial P(x) is divided by the linear factor (x - c), the remainder is equal to P(c).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_11",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which term determines the end behavior of the polynomial P(x) = 3x⁵ - 4x³ + 7x - 2?",
+      "options": [
+        "-2",
+        "7x",
+        "-4x³",
+        "3x⁵"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The end behavior of a polynomial is determined by its leading term, which is the term with the highest degree, 3x⁵.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_12",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which transformation maps the graph of f(x) = log x to the graph of g(x) = log (-x)?",
+      "options": [
+        "Reflection across the x-axis",
+        "Reflection across the y-axis",
+        "Shift 1 unit left",
+        "Shift 1 unit right"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a function f(x), the graph of f(-x) is a reflection of f(x) across the y-axis.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_13",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Consider the equation log x + log (x - 3) = 1. Then what is its solution set?",
+      "options": [
+        "{2, -5}",
+        "{-2, 5}",
+        "{6}",
+        "{5}"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Combine the logarithms: log x + log(x - 3) = log[x(x - 3)] = 1.\n\nConvert to exponential form: x(x - 3) = 10.\n\nSolve the quadratic: x² - 3x - 10 = 0 → (x - 5)(x + 2) = 0.\n\nSo x = 5 or x = -2.\n\nCheck the domain: x > 0 and x - 3 > 0 ⇒ x > 3.\n\nOnly x = 5 satisfies the domain.\n\nTherefore, the solution set is {5}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_14",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "The graph of f(x) = -log x is a reflection of f(x) = log x across the:",
+      "options": [
+        "x-axis",
+        "y-axis",
+        "line y = x",
+        "origin"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For a function f(x), the graph of -f(x) is a reflection of f(x) across the x-axis.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_15",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "The minimum value of the quadratic function f(x) = x² - 6x + 10 is:",
+      "options": [
+        "1",
+        "-1",
+        "3",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The x-coordinate of the minimum is x = -b / (2a) = -(-6) / (2 * 1) = 3.\n\n The minimum value is f(3) = 3² - 6(3) + 10 = \n\n9 - 18 + 10 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_16",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "The range of the function f(x) = log₃ (x + 4) is:",
+      "options": [
+        "y > 0",
+        "x > -4",
+        "y > -4",
+        "All real numbers"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Horizontal shifts do not affect the range of a logarithmic function.\n\n The range of the basic function log₃ x is all real numbers (–∞, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_17",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "The horizontal asymptote of f(x) = (1/3)ˣ + 4 is:",
+      "options": [
+        "y = 1/3",
+        "y = 4",
+        "y = 0",
+        "x = 0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The basic function (1/3)ˣ has a horizontal asymptote at y = 0.\n The vertical shift of '+ 4' moves the asymptote to y = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_18",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Convert 2π radians to degree measure.",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "2π * (180°/π) = 360°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_19",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "What is the range of the function f(x) = 5x - 3 for the domain [-1, 2]?",
+      "options": [
+        "[-8, 7]",
+        "[-5, 7]",
+        "[-1, 2]",
+        "R"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-1) = 5(-1) - 3 = -8.\n f(2) = 5(2) - 3 = 7.\n The range is [-8, 7].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_20",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If P(x) = x² + 5x - 6, find the value of (P(3) - P(1)).",
+      "options": [
+        "18",
+        "10",
+        "28",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "P(3) = 3² + 5(3) - 6 = 9 + 15 - 6 = 18.\n P(1) = 1² + 5(1) - 6 = 1 + 5 - 6 = 0.\n P(3) - P(1) = 18 - 0 =\n 18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_21",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The domain of the function f(x) = eˣ is:",
+      "options": [
+        "x > 0",
+        "x ≥ 0",
+        "All real numbers (–∞, ∞)",
+        "y > 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The domain of any basic exponential function, including the natural exponential function f(x) = eˣ, is the set of all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_22",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the remainder when P(x) = x¹⁰⁰ - 1 is divided by (x + 1)?",
+      "options": [
+        "-2",
+        "0",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = P(-1) =\n (-1)¹⁰⁰ - 1 =\n 1 - 1 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_23",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which of the following properties is true for the graph of f(x) = log₂ x?",
+      "options": [
+        "The y-intercept is (0, 1).",
+        "The domain is all real numbers.",
+        "The graph has a vertical asymptote at x = 0.",
+        "The function is decreasing."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For the logarithmic function f(x) = logₐ x (a > 1),\n the domain is x > 0,\n the range is all real numbers,\n the x-intercept is (1, 0), and it has a vertical asymptote at x = 0 (the y-axis).\n It is also an increasing function.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_24",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Find the value of log₃ (1/81).",
+      "options": [
+        "4",
+        "1/4",
+        "-4",
+        "81"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let log₃ (1/81) = y. \nIn exponential form, 3ʸ = 1/81.\n\n Since 81 = 3⁴, we have 3ʸ = 1/3⁴ = 3⁻⁴.\n Therefore, y = -4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_25",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "The zero x = 3 has a multiplicity of 2 in the polynomial P(x). What does this imply about the graph of P(x) at x = 3?",
+      "options": [
+        "The graph crosses the x-axis.",
+        "The graph is undefined.",
+        "The graph touches the x-axis and turns around.",
+        "The graph has a vertical asymptote."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If a zero has an even multiplicity, the graph touches the x-axis at that point and then turns back in the same direction.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_26",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Which angle is co-terminal with -150°?",
+      "options": [
+        "210°",
+        "30°",
+        "150°",
+        "-30°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "-150° + 360° = 210°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_27",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "The lateral surface area of a frustum of a regular square pyramid is 240 cm². The slant height is 8 cm, and the perimeter of the lower base is 40 cm. Find the perimeter of the upper base.",
+      "options": [
+        "10 cm",
+        "15 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "LSA = (1/2)l(p + p'). 240 = (1/2)(8)(40 + p') = 4(40 + p') ⇒ 60 = 40 + p' ⇒ p' = 20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_28",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "A circle has a radius of 8 cm. Find the length of the arc subtended by a central angle of 3π/4 radians.",
+      "options": [
+        "8π cm",
+        "3π/2 cm",
+        "6π cm",
+        "12π cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Arc length L = rθ = \n8 * (3π/4) = 6π cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_29",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equivalent to 10 log (x) - log (y)?",
+      "options": [
+        "log (10x / y)",
+        "log (x¹⁰ / y)",
+        "log (x - y)",
+        "log (x / 10y)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Use the Power Law: 10 log (x) = log (x¹⁰). \nUse the Quotient Law: log (x¹⁰) - log (y) =\n log (x¹⁰ / y).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_30",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A tangent segment PT and a secant PAB are drawn from an external point P. If PT = 8 and PB = 16, what is the length of the external secant segment PA?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By the Tangent-Secant Theorem, PT² = PA × PB.\n 8² = PA × 16.\n 64 = PA × 16. \nPA = 64/16 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_31",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "If 3ˣ = 5, then 3ˣ⁺² is:",
+      "options": [
+        "7",
+        "10",
+        "45",
+        "35"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using the Product Law of exponents: 3ˣ⁺² = 3ˣ × 3².\n Since 3ˣ = 5 and 3² = 9, the value is 5 × 9 = 45.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_32",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "The graph of y = |x - 4| + 1 is the graph of y = |x| shifted:",
+      "options": [
+        "4 units left, 1 unit up",
+        "4 units right, 1 unit down",
+        "4 units right, 1 unit up",
+        "4 units left, 1 unit down"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The (x - 4) shifts 4 units right.\n The + 1 shifts 1 unit up.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_33",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "What is the remainder when x¹⁰⁰ - 1 is divided by (x - 1)?",
+      "options": [
+        "100",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "By the Remainder Theorem, R = P(1) = (1)¹⁰⁰ - 1 = 1 - 1 = 0. \nSince the remainder is 0, (x - 1) is a factor.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_34",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "If two secants intersect outside a circle and the measures of the intercepted arcs are (4x)° and (x)°, and the external angle is 30°, find the measure of the smaller intercepted arc.",
+      "options": [
+        "20°",
+        "30°",
+        "40°",
+        "60°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_35",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "The diameter of a circular path is 50 meters. If a runner completes one lap, what is the distance covered (use π ≈ 3.14)?",
+      "options": [
+        "157 m",
+        "78.5 m",
+        "314 m",
+        "250 m"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The distance covered is the circumference (C).\n C = πd = 3.14 × 50 m = 157 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_36",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "If the inscribed angle of a circle is represented by (5x)° and its intercepted arc is 180°, what is the value of x?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "20"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Inscribed angle = (1/2) × Intercepted arc. \n\n5x = (1/2) × 180. \n5x = 90.\n x = 90/5 = 18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_37",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "If the terminal side of an angle θ passes through the point (0, -2), find the value of cot(θ).",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This point is on the negative y-axis (270°).\n cot(θ) = x/y = 0/-2 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_38",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "What is the length of a major arc of 270° in a circle with a radius of 7 cm? (Use π ≈ 22/7)",
+      "options": [
+        "33 cm",
+        "22 cm",
+        "11 cm",
+        "44 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Arc length (l) = (θ/360) × 2πr.\n\n l = (270/360) × 2 × (22/7) × 7 = (3/4) × 44 = 3 × 11 = 33 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_39",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "In a circle, two chords AB and CD are equidistant from the center. If AB = 4x + 1 and CD = 2x + 15, find the value of x.",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "14"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_40",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 2x + 1 and g(x) = 5x, find the value of (f - g)(0).",
+      "options": [
+        "-1",
+        "1",
+        "0",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f(0) = 2(0) + 1 = 1.\n g(0) = 5(0) = 0. \n(f - g)(0) = 1 - 0 \n= 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_41",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Convert the angle 30° to radian measure. Express your answer using π.",
+      "options": [
+        "π/4",
+        "π/3",
+        "π/2",
+        "π/6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "30° * (π/180°) \n= π/6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_42",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum number of real roots a polynomial of degree 4 can have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree n has exactly n roots (real or complex). \nTherefore, a degree 4 polynomial can have a maximum of 4 real roots.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_43",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "If the polynomial P(x) has 3 turning points, which of the following could be its degree?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A polynomial of degree n can have at most n - 1 turning points.\n Since n - 1 = 3, the degree n must be 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_44",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Two secants, PAB and PCD, intersect outside a circle at point P. If PA = 4, AB = 6, and PC = 5, what is the length of PD?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_45",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "A central angle of a circle is 135°. If the radius is 4 cm, find the area of the minor segment cut off by the chord.",
+      "options": [
+        "2π - 4√2 cm²",
+        "6π - 8 cm²",
+        "6π - 4√2 cm²",
+        "12π - 8√2 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_46",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Two chords AB and CD intersect at E. If AE = 2, EB = 10, CE = 5, and ED = x, what is the length of chord CD?",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_47",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "A chord is 21 cm long in a circle. The radius is 10.5 cm. What must be true about the chord?",
+      "options": [
+        "It is a minor chord.",
+        "It is a secant.",
+        "It must be a diameter.",
+        "It is a tangent."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_48",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "The area of a horizontal cross-section of a pyramid is 16 cm² at a distance of 3 cm from the base. If the area of the base is 36 cm², find the altitude of the pyramid.",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using similarity: 16/36 = (h−3)²/h². √(16/36) = (h−3)/h ⇒ 2/3 = (h−3)/h ⇒ 2h = 3h − 9 ⇒ h = 9 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_49",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "The reciprocal of the cosecant function is:",
+      "options": [
+        "sine",
+        "cosine",
+        "secant",
+        "tangent"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The reciprocal of the cosecant function (csc) is the sine function (sin).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_50",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Convert 5π/3 radians to degree measure.",
+      "options": [
+        "300°",
+        "150°",
+        "240°",
+        "330°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(5π/3) * (180°/π) = 300°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_51",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "If the terminal side of an angle θ passes through the point (√2, -√2), find the value of csc(θ).",
+      "options": [
+        "√2",
+        "-√2",
+        "1/√2",
+        "-1/√2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "r = √((√2)² + (-√2)²) = √4 = 2.\n sin(θ) = y/r = -√2/2 = -1/√2. \ncsc(θ) = -√2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_52",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The result of (2x³ - 5) + (x³ + 2x - 1) is:",
+      "options": [
+        "3x³ + 2x - 6",
+        "2x⁶ - 5",
+        "3x³ - 2x - 6",
+        "3x³ + 2x + 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Combine like terms: (2x³ + x³) + 2x + (-5 - 1) =\n 3x³ + 2x - 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_53",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "The volume of a cube is 125 cm³. What is its total surface area?",
+      "options": [
+        "100 cm²",
+        "125 cm²",
+        "150 cm²",
+        "250 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a = 5 cm. TSA = 6a² = 150 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_54",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "In a circle with center O, a chord AB is 10 cm long and is 12 cm from the center. What is the length of the radius of the circle?",
+      "options": [
+        "13 cm",
+        "17 cm",
+        "√119 cm",
+        "10 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_55",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "A right prism has a volume of 480 cm³. Its base is a right triangle with legs of length 6 cm and 8 cm. What is the altitude of the prism?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "12 cm",
+        "16 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Base area = (1/2)(6)(8) = 24. Volume = 24h = 480 ⇒ h = 20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_56",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "A sector of a circle has a radius of 2 cm. If the area of the sector is 4 cm², what is the central angle in radians?",
+      "options": [
+        "1 radian",
+        "2 radians",
+        "4 radians",
+        "8 radians"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Area A = (1/2)r²θ.\n 4 = (1/2)(2²)θ.\n 4 = 2θ.\n θ = 2 radians.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_57",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The function f(x) = 5ˣ + 1 has a y-intercept at:",
+      "options": [
+        "(0, 5)",
+        "(0, 6)",
+        "(1, 0)",
+        "(0, 1)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The y-intercept is f(0). \nf(0) = 5⁰ + 1 = 1 + 1 = 2. \nThe intercept is (0, 2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_58",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "A bicycle tire has a diameter of 60 cm. How far does it travel when it rotates 5π/6 radians?",
+      "options": [
+        "25π cm",
+        "30π cm",
+        "50π cm",
+        "15π cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Radius r = 30 cm. \nL = rθ = \n30 * (5π/6) = \n25π cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_59",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "The x-intercept of f(x) = log₃ (x) is:",
+      "options": [
+        "(3, 0)",
+        "(0, 1)",
+        "(1, 0)",
+        "No x-intercept"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The x-intercept is (1, 0) for all basic logarithmic functions f(x) = logₐ x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_60",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "For a quadratic function f(x) = ax² + bx + c, the graph has exactly one real zero if:",
+      "options": [
+        "b² - 4ac > 0",
+        "b² - 4ac < 0",
+        "b² - 4ac = 0",
+        "> 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "One real zero (a repeated root) occurs when the discriminant is zero: b² - 4ac = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_61",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The object shown is made of a hemisphere on top of a cylinder of radius 3 cm and height 12 cm. A cone of height 8 cm is cut out from the bottom. What is the volume of the solid?",
+      "options": [
+        "126π",
+        "96π",
+        "72π",
+        "102π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_62",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum value of the function f(x) = -x² + 6x - 2?",
+      "options": [
+        "7",
+        "6",
+        "-2",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The x-coordinate of the maximum is x = -b / (2a) = \n-6 / (2 * -1) = 3. \nThe maximum value is f(3) = -(3)² + 6(3) - 2 = \n-9 + 18 - 2 = 7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_63",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "How many distinct real roots does the polynomial P(x) = x³ - 3x² + 3x - 1 have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "P(x) = x³ - 3x² + 3x - 1 is the expansion of (x - 1)³.\n It has one distinct real root, x = 1, with a multiplicity of 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_64",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "In a circle with radius 15 cm, a chord has a length of 24 cm. How far is the chord from the center of the circle?",
+      "options": [
+        "9 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_65",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "A right circular cylinder has a radius of 4 cm and an altitude of 6 cm. Find its total surface area.",
+      "options": [
+        "80π cm²",
+        "96π cm²",
+        "88π cm²",
+        "104π cm²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total surface area of a cylinder is given by the formula 2πr² + 2πrh.\n\n Substituting r = 4 cm and h = 6 cm:\n\n 2π(4²) + 2π(4)(6) =\n 2π(16) + 48π = \n32π + 48π = \n80π cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_66",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "The result of dividing x³ - 1 by (x - 1) is:",
+      "options": [
+        "x² - 1",
+        "x² + x + 1",
+        "x² + 1",
+        "x² - x + 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is the difference of cubes factorization: x³ - 1 =\n (x - 1)(x² + x + 1).\n Dividing by (x - 1) gives x² + x + 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_67",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If the surface area of a sphere is numerically equal to its volume, what is the radius of the sphere?",
+      "options": [
+        "1 unit",
+        "2 units",
+        "3 units",
+        "4 units"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Set 4πr² = (4/3)πr³. Divide by 4πr² to get 1 = r/3, so r = 3 units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_68",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Find the range of the function f(x) = 7 - |x + 2|.",
+      "options": [
+        "[7, ∞)",
+        "(-∞, 7]",
+        "(-∞, 2]",
+        "[2, ∞)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since |x + 2| is always greater than or equal to 0, -|x + 2| is always less than or equal to 0.\n\n Therefore, f(x) = 7 - |x + 2| is always less than or equal to 7.\n The range is (-∞, 7].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_69",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A prism with a base area of 20 cm² and height 5 cm is joined to a pyramid with the same base and height. Find the total volume.",
+      "options": [
+        "100 cm³",
+        "120 cm³",
+        "133.33 cm³",
+        "140 cm³"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Prism = 100, pyramid = 100/3. Total = 400/3 ≈ 133.33 cm³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_70",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": " Consider the circle centered at O, and a quadrilateral ABCD in the circle as shown in the figure below. Then, which one of the following is value of y?",
+      "imageUrl": "images/M2018_24.png",
+      "diagramUrl": "images/M2018_24.png",
+      "options": [
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "< A + < C = 180\n\n(x + 40) + (2x - 10) = 180\n\n3x + 30 = 180\n\n3x = 150\nx = 50\n\n< B + < D = 180\n\n2x + y = 180\n\n2(50) + y = 180\n\n100 + y = 180\n\ny = 80",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_71",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Given tan(θ) = -1 and cos(θ) is positive, find the value of sin(θ).",
+      "options": [
+        "1/√2",
+        "-1/√2",
+        "√2",
+        "-√2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "tan is negative and cos is positive implies Quadrant IV.\n sin(45°) is 1/√2, so sin(315°) is -1/√2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_72",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "The altitude of a regular hexagonal prism is 10 cm and the perimeter of its base is 36 cm. Find the lateral surface area.",
+      "options": [
+        "360 cm²",
+        "180 cm²",
+        "240 cm²",
+        "420 cm²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "LSA = perimeter × height = 36 × 10 = 360 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_73",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "The angle -π/4 is in which quadrant?",
+      "options": [
+        "Quadrant I",
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "-π/4 is -45°, which is in Quadrant IV.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_74",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A cyclic quadrilateral has a pair of adjacent angles that are equal. If the measure of one of these equal angles is 75°, what is the measure of the angle opposite to it?",
+      "options": [
+        "75°",
+        "90°",
+        "105°",
+        "115°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let A and B be the equal adjacent angles, A = B = 75°. The angle opposite to A is C. In a cyclic quadrilateral, A + C = 180°. 75° + C = 180°. C = 105°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_75",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "If ln x = 2 ln 3 - ln 9, then x equals:",
+      "options": [
+        "3",
+        "1",
+        "9",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Use the Power Law: ln x = ln 3² - ln 9 = ln 9 - ln 9.\n Since ln 9 - ln 9 = 0, ln x = 0.\n Convert to exponential form: x = e⁰.\n Thus, x = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_76",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If a cylinder, a cone, and a sphere all have the same radius 'r' and height 'h', and h = 2r, what is the ratio of their volumes?",
+      "options": [
+        "3:1:2",
+        "6:2:4",
+        "3:1:4",
+        "2:1:4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Volumes: 2πr³ : (2/3)πr³ : (4/3)πr³ ⇒ multiply gives 3:1:2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_77",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The base of a right prism is an isosceles trapezoid whose parallel sides are 10 cm and 4 cm, and whose height is 3 cm. If the altitude of the prism is 8 cm, find its volume.",
+      "options": [
+        "168 cm³",
+        "144 cm³",
+        "192 cm³",
+        "96 cm³"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Base area = (1/2)(10 + 4)(3) = 21 cm². Volume = 21 × 8 = 168 cm³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_78",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "The reference angle for 120° is:",
+      "options": [
+        "30°",
+        "45°",
+        "120°",
+        "60°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "120° is in QII.\n Reference angle = 180° - 120°\n = 60°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_79",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "What is the slant height of a right cone whose height is 24 cm and lateral surface area is 260π cm²?",
+      "options": [
+        "10 cm",
+        "13 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "LSA = πrl ⇒ rl = 260. Try l = 26 ⇒ r = 10. Check: 10² + 24² = 100 + 576 = 676 = 26², so l = 26 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_80",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "If log₅ M = log₅ 8 - log₅ 2, then M equals:",
+      "options": [
+        "6",
+        "4",
+        "16",
+        "10"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the Quotient Law of logarithms: log₅ 8 - log₅ 2 = log₅ (8/2) = log₅ 4.\n Since log₅ M = log₅ 4, and the bases are the same, M must equal 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_81",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The product of the roots of the cubic polynomial P(x) = 4x³ + x - 5 is:",
+      "options": [
+        "5 / 4",
+        "-5 / 4",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product of roots = -d/a. \nP(x) = 4x³ + 0x² + x - 5. \na = 4, d = -5. \nProduct = -(-5) / 4 = \n5 / 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_82",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The area of a sector of a circle is 36π cm² and its central angle is 90°. What is the radius of the circle?",
+      "options": [
+        "6 cm",
+        "12 cm",
+        "18 cm",
+        "24 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Area of Sector A = (θ/360) × πr².\n 36π = (90/360) × πr².\n 36π = (1/4) × πr². \n36 = r²/4.\n r² = 144.\n r = 12 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_83",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is the value of sin(-600°)?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "-1/2",
+        "-√3/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Add 720° to -600° to get a positive coterminal angle:\n\n -600° + 720° = 120°.\n\n Therefore, sin(-600°) = sin(120°) = sin(60°) = √3/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_84",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Given the polynomial function $p(x)=5x^5 - x^3 - \\sqrt{2}$. Then what are the degree, leading coefficient and constant term of the polynomial, function $p(x)$ respectively?",
+      "options": [
+        "3, 1, \\sqrt{2}",
+        "3, 1, -\\sqrt{2}",
+        "5, 5, -\\sqrt{2}",
+        "3, 5, -\\sqrt{2}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The polynomial is $p(x)=5x^5 - x^3 - \\sqrt{2}$. The degree is the highest power of $x$, which is 5. The leading coefficient is the coefficient of the term with the highest power, which is 5. The constant term is the term without $x$, which is $-\\sqrt{2}$. The correct order is degree (5), leading coefficient (5), and constant term $(-\\sqrt{2})$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_85",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The graph of the polynomial P(x) = x³ - 4x must pass through:",
+      "options": [
+        "(-4, 0)",
+        "(0, 4)",
+        "(1, -3)",
+        "(2, 0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "P(2) = 2³ - 4(2) = 8 - 8 = 0.\n The point (2, 0) is on the graph.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_86",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": " The solid figure shown below is formed by composing a hemisphere of radius 3 cm on the top of a cylinder with base radius 3 cm and height 5 cm.\n\nWhat is the volume of the solid figure (in cm³)?",
+      "imageUrl": "images/M2018_26.png",
+      "diagramUrl": "images/M2018_26.png",
+      "options": [
+        "45π",
+        "60π",
+        "63π",
+        "81π"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Given r = 3 and h = 5,\n\n the volume of the cylinder is V_cylinder = πr²h \n\n= π(3)²(5) = 45π.\n\n The volume of the hemisphere is V_hemisphere = (2/3)πr³ = \n\n(2/3)π(3)³ = 18π.\n\n Therefore, V_total = V_cylinder + V_hemisphere =\n\n 45π + 18π = 63π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_87",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Convert the angle 10° to radian measure. Express your answer using π.",
+      "options": [
+        "π/18",
+        "π/9",
+        "π/6",
+        "π/36"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "10° * (π/180°) = π/18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_88",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "The lateral faces of a right pyramid are always:",
+      "options": [
+        "Congruent triangles",
+        "Isosceles triangles",
+        "Right triangles",
+        "Equilateral triangles"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a right pyramid, all lateral faces are congruent isosceles triangles.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_89",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A regular tetrahedron with edge length 's' has a total surface area of:",
+      "options": [
+        "s²√3",
+        "s²√3/4",
+        "s²√3/2",
+        "2s²√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Each face area = (√3/4)s².\n\n Total = 4 × (√3/4)s² = s²√3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_90",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "What is the result of log₂ (x²) + log₂ (x³)?",
+      "options": [
+        "log₂ (x⁶)",
+        "5 log₂ x",
+        "log₂ (x⁵)",
+        "log₂ (x² + x³)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Method 1: Use the Product Law: log₂ (x²x³) = log₂ x⁵.\n Use the Power Law: 5 log₂ x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_91",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "A metal cube with edge 10 cm is recast into a prism with base area 50 cm². Find the height.",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "5 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Volume = 1000.\n 1000 = 50h \n⇒ h = 20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_92",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of f(x) = √(3 - x)?",
+      "options": [
+        "[3, ∞)",
+        "(-∞, 3]",
+        "R \\ {3}",
+        "(-3, 3)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The radicand must be non-negative: 3 - x ≥ 0.\n Thus, x ≤ 3. \nThe domain is (-∞, 3].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_93",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The total surface area of a right cone is 96π m². If the slant height is 10 m, find the radius.",
+      "options": [
+        "6 m",
+        "8 m",
+        "9 m",
+        "12 m"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "96 = r(r + 10)\n\n ⇒ r² + 10r − 96 =\n 0 ⇒ r = 6 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_94",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "The number of non-real roots of a polynomial with real coefficients is always:",
+      "options": [
+        "Odd",
+        "Even",
+        "Prime",
+        "Non-zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Conjugate Root Theorem states that for a polynomial with real coefficients, non-real complex roots must occur in conjugate pairs.\n Therefore, their number must always be even.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_95",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "A metallic spherical ball of radius 3 cm is melted and recast into a right circular cone of height 3 cm. What is the radius of the base of the cone?",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Volume conserved: (4/3)π(27) = 36π. Cone: (1/3)πr²(3) = πr². So r² = 36 ⇒ r = 6 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_96",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The measure of a major arc is 3x. The measure of the corresponding minor arc is x. Find the measure of the central angle that subtends the minor arc.",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_97",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "The lateral surface area of a pyramid is 1/2 pl. If the base is a square with side 10 cm and slant height 13 cm, find total surface area.",
+      "options": [
+        "260 cm²",
+        "360 cm²",
+        "160 cm²",
+        "460 cm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Perimeter = 40. LSA = (1/2)(40)(13) = 260. Base area = 100. TSA = 360 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_98",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which is true about the function f(x) = 5x³?",
+      "options": [
+        "It is an even function.",
+        "It is neither even nor odd.",
+        "It is an odd function.",
+        "It is a constant function."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f(-x) = 5(-x)³ = -5x³ = -f(x).\n It is an odd function.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_99",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "If P(x) = x⁴ - 16, then the zeros of P(x) are:",
+      "options": [
+        "{2}",
+        "{-2, 2}",
+        "{-2, 2, -2i, 2i}",
+        "{-4, 4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "x⁴ - 16 = (x² - 4)(x² + 4) = \n(x - 2)(x + 2)(x - 2i)(x + 2i).\n The four roots (zeros) are -2, 2, -2i, and 2i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g10_merged_melmeja_100",
+      "examId": "m2014_g10_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "A cylinder is circumscribed about a sphere. If the radius is r, find the lateral surface area.",
+      "options": [
+        "πr²",
+        "2πr²",
+        "3πr²",
+        "4πr²"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Height = 2r. LSA = 2πr(2r) = 4πr².",
       "topic": "Mathematics"
     }
   ]

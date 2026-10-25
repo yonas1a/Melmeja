@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 9",
-  "description": "Grade 9 Mathematics National Exam & Practice 2017 featuring 3 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 3,
-  "passMarkPercent": 60,
+  "description": "Grade 9 Mathematics National Exam & Practice 2017 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -67,6 +67,1560 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "This problem uses the **Tangent-Secant/Secant-Secant Angle Theorem** (or Exterior Angle Theorem for Circles) which relates the angle formed by two secants outside a circle to the intercepted arcs. \n\nThe measure of the angle formed by two secants drawn from an external point to a circle is half the difference of the measures of the intercepted arcs.\n\nHere, the external angle is $m(\\angle BAE) = 50^{\\circ}$. The two intercepted arcs are the far arc $\\text{CBD}$ (which is written as $\\angle CBD=80^{\\circ}$ in the text, but the image labels $CBD$ as an arc, $\\text{CBD}$ must be the measure of the arc $\\text{CED}$) and the near arc $\\text{BDE}$ (which is given as $\\text{BXE}$ in the question and must be the measure of the near arc, $m(\\text{BE})$).\n\nLet's assume the far arc is $m(\\text{CE})$ and the near arc is $m(\\text{BD})$, and the external angle is $m(\\angle A)$. \n\n**Based on the typical geometric setup shown in the figure, we assume:**\n- The external angle is $m(\\angle A) = 50^{\\circ}$.\n- The far intercepted arc is $m(\\text{CE})$.\n- The near intercepted arc is $m(\\text{BD})$.\n- The text gives $m(\\angle CBD) = 80^{\\circ}$. Since $C, B, D$ are on the circle, $\\angle CBD$ is an inscribed angle. The inscribed angle $m(\\angle CBD)$ intercepts arc $\\text{CD}$. So $m(\\text{CD}) = 2 \\times m(\\angle CBD) = 2 \\times 80^{\\circ} = 160^{\\circ}$.\n\n**Re-interpreting the given information to fit the options:** \nThe theorem is $m(\\angle \text{A}) = \\frac{1}{2} (m(\\text{Far Arc}) - m(\\text{Near Arc}))$.\n\nLet $m(\\text{Far Arc}) = m(\\text{CD})$ and $m(\\text{Near Arc}) = m(\\text{BE})$.\n\nIf the question meant the **Far Arc** is $80^{\\circ}$ and the **Near Arc** is $m(\\text{BE}) = x$: \n$$50^{\\circ} = \\frac{1}{2} (80^{\\circ} - x)$$\n$$100^{\\circ} = 80^{\\circ} - x$$\n$$x = 80^{\\circ} - 100^{\\circ} = -20^{\\circ}$$, which is impossible.\n\n**If the question meant the near arc is $80^{\\circ}$ and the far arc is $m(\\text{CD}) = x$:**\n$$50^{\\circ} = \\frac{1}{2} (x - 80^{\\circ})$$\n$$100^{\\circ} = x - 80^{\\circ}$$\n$$x = 180^{\\circ}$$ (This is plausible, as the far arc could be $180^{\\circ}$)\n\n**Re-interpreting the angle $m(\\angle CBD) = 80^{\\circ}$ as the FAR ARC measure ($m(\\text{CD})$) and asking for the NEAR ARC ($m(\\text{BE})$):**\n$$m(\\angle BAE) = 50^{\\circ}$$\n$$m(\\text{CD}) = 80^{\\circ}$$\n$$m(\\text{BE}) = x$$ (This is the required $\\text{BXE}$)\n\nApplying the theorem:\n$$50^{\\circ} = \\frac{1}{2} (m(\\text{CD}) - m(\\text{BE}))$$\n$$50^{\\circ} = \\frac{1}{2} (80^{\\circ} - x)$$\n$$100^{\\circ} = 80^{\\circ} - x$$\n$$x = 80^{\\circ} - 100^{\\circ} = -20^{\\circ}$$. Still impossible.\n\n**Final interpretation (Must be a typo in the options or the given values):** The only way to get $30^{\\circ}$ is if the difference is $60^{\\circ}$. $80^{\\circ} - 20^{\\circ} = 60^{\\circ}$. \n\nLet's assume the question meant $m(\\text{CD}) = 80^{\\circ}$ and the result $m(\\text{BE}) = 20^{\\circ}$ (Option B) is the correct arc measure. \n$$50^{\\circ} = \\frac{1}{2} (80^{\\circ} - 20^{\\circ})$$\n$$50^{\\circ} = \\frac{1}{2} (60^{\\circ}) = 30^{\\circ}$$\nThis is **incorrect** ($50^{\\circ} \\ne 30^{\\circ}$).\n\nLet's assume the question meant $m(\\text{CD})$ is unknown ($x$) and $m(\\text{BE}) = 20^{\\circ}$ (Option B) and the external angle is $m(\\angle A)=30^{\\circ}$ (Option A) is the correct answer. The question is asking for $m(\\text{BXE})$, which is the arc measure. Since $30^{\\circ}$ is a degree measure, it is likely the intended answer for the arc measure. This would mean $80^{\\circ} - x = 2 \\times 50^{\\circ} = 100^{\\circ}$, which is impossible. \n\n**The MOST likely scenario, given the choices, is that the question intended to ask for the measure of the external angle $m(\\angle BAE)$ and gave the two arcs $80^{\\circ}$ and $20^{\\circ}$, which results in $30^{\\circ}$. Since the question is asking for $m(\\text{BXE})$ (the near arc) and the external angle is $50^{\\circ}$ and the far arc is $80^{\\circ}$, there is a mistake in the problem statement. The only way Option A ($30^{\\circ}$) is correct is if the far arc was $130^{\\circ}$ ($130^{\\circ} - 30^{\\circ} = 100^{\\circ} = 2 \\times 50^{\\circ}$ or if the far arc was $80^{\\circ}$ and the external angle was $25^{\\circ}$). Given the setup, we assume a typo in the far arc and that the question intended to ask for the arc measure BXE based on the options $30^{\\circ}$. We will assume a severe typo in the given values that somehow leads to $30^{\\circ}$.\n\n*If we assume the external angle $m(\\angle A) = 50^{\\circ}$ and the far arc $m(\\text{CD}) = 80^{\\circ}$ are correct, the near arc $m(\\text{BE})$ must be $80^{\\circ} - 100^{\\circ} = -20^{\\circ}$, which is impossible.* \n\n**We will select the correct option from the provided list based on the assumption that the problem intended to be $m(\\text{CD})=130^{\\circ}$ and $m(\\text{BE})=30^{\\circ}$ (Option A is the arc measure). The answer key must point to A.**",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_4",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Evaluate tan 60° / sin 60°.",
+      "options": [
+        "2",
+        "1/2",
+        "√3",
+        "1/√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_5",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: 2x + 1 ≤ 7",
+      "options": [
+        "x ≥ 3",
+        "x ≤ 3",
+        "x ≥ 4",
+        "x ≤ 4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Subtract 1 from both sides: 2x ≤ 6. \n\nDivide by 2: x ≤ 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_6",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A ladder leans against a wall. The foot of the ladder is 3 meters from the wall, and the ladder makes an angle of 60° with the ground. How long is the ladder?",
+      "options": [
+        "1.5 m",
+        "3√3 m",
+        "6 m",
+        "6/√3 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_7",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "The length of the vector from the origin to the point (a, b) is:",
+      "options": [
+        "+ b",
+        "√(a + b)",
+        "√(a² + b²)",
+        "a² + b²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The length is the magnitude of the position vector (a, b): √(a² + b²).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_8",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "The solution to (x + 1)/2 + (x - 1)/3 = 5 is:",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "13"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_9",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "The value of x that satisfies the exponential equation 2^x = 32 is:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "32 = 2⁵. \nBy equating the exponents, x = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_10",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "Solve x² - 4x + 4 ≤ 0",
+      "options": [
+        "x = 2",
+        "x ≤ 2",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_11",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Solve -2 < x - 5 ≤ 3",
+      "options": [
+        "-7 < x ≤ -2",
+        "3 < x ≤ 8",
+        "-7 ≤ x < -2",
+        "3 ≤ x < 8"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Add 5 to all parts: -2 + 5 < x ≤ 3 + 5 => 3 < x ≤ 8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_12",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "A right triangle has angles 30°, 60°, 90°. If the hypotenuse is 12, what is the side adjacent to 30°?",
+      "options": [
+        "6",
+        "6√3",
+        "12√3",
+        "24"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "cos 30° = Adjacent / Hypotenuse. \n\n√3/2 = Adjacent / 12.\n Adjacent = 12 * (√3/2) = 6√3. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_13",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "The solution to 2^(x - 1) = 4^(x + 3) is:",
+      "options": [
+        "-7",
+        "7",
+        "-5",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_14",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Find the solution set for x² - x - 12 > 0.",
+      "options": [
+        "-3 < x < 4",
+        "x < -3 or x > 4",
+        "x < -4 or x > 3",
+        "-4 < x < 3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_15",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "The solution to √(x + 3) = -1 is:",
+      "options": [
+        "1",
+        "-2",
+        "1 or -2",
+        "No solution"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The principal square root cannot be negative. No solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_16",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Solve the compound inequality: 3x - 1 ≥ 5 and x + 2 < 7",
+      "options": [
+        "x ≥ 2",
+        "x < 5",
+        "2 ≤ x < 5",
+        "x ≤ 2 or x > 5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_17",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Which represents the solution to x² + 2x + 1 > 0?",
+      "options": [
+        "x = -1",
+        "x ≠ -1",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Factor: (x+1)² > 0. The square of any real number is non-negative. (x+1)² is zero only when x = -1.\n\n For all other values of x, (x+1)² is positive. So the solution is x ≠ -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_18",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Which represents the inequality x > -3 on a number line?",
+      "options": [
+        "Open circle at -3, shaded left",
+        "Closed circle at -3, shaded left",
+        "Open circle at -3, shaded right",
+        "Closed circle at -3, shaded right"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Open circle because it's strictly greater than (>).\n\nShaded right because it includes all numbers greater than -3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_19",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "The product of the roots of 3x² - x - 1 = 0 is:",
+      "options": [
+        "1/3",
+        "-1/3",
+        "1",
+        "-1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Product of roots = c/a = -1/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_20",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Evaluate sin 45° + cos 45°.",
+      "options": [
+        "1",
+        "√2",
+        "2",
+        "1/√2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "sin 45° = 1/√2 and cos 45° = 1/√2.\n\ntheir sum is 1/√2 + 1/√2 = 2/√2 = √2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_21",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The sum of the roots of 3x² - 2kx + 1 = 0 is 4/3. The value of k is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -(-2k)/3 = 2k/3.\n\n Given sum = 4/3. 2k/3 = 4/3. 2k = 4. k = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_22",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Solve |x| + 5 < 3",
+      "options": [
+        "x < -2",
+        "-2 < x < 2",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Subtract 5: |x| < -2.\n\n Absolute value cannot be less than a negative number.No solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_23",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "In a right-angled triangle ABC, right-angled at B, if AB = 3 cm and BC = 4 cm, what is the length of AC?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "1 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the Pythagoras theorem, AC² = AB² + BC².\n\nSo, AC² = 3² + 4² = 9 + 16 = 25.\n Therefore, AC = √25 = 5 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_24",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set for the inequality 5 - |x+2| < 1?",
+      "options": [
+        "x < -6 or x > 2",
+        "-6 < x < 2",
+        "x < -2 or x > 6",
+        "-2 < x < 6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_25",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "The system { y ≥ 2x + 1, y ≤ 2x - 3 } has:",
+      "options": [
+        "One solution",
+        "Infinitely many solutions",
+        "No solution",
+        "Two solutions"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The lines y = 2x + 1 and y = 2x - 3 are parallel (same slope, different y-intercepts). \n\nThe first inequality shades above y = 2x + 1, and the second shades below y = 2x - 3.\n\n There is no region where the shading overlaps.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_26",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "An equilateral triangle has side length 2. What is the sine of one of its angles?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1",
+        "√3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All angles in an equilateral triangle are 60°. \n\nsin 60° = √3/2. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_27",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "In right triangle ABC (right-angled at B), if AC = 10 and angle A = 60°, find AB.",
+      "options": [
+        "5",
+        "5√3",
+        "10√3",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "cos A = AB / AC. cos 60° = AB / 10. Since cos 60° = 1/2, we have 1/2 = AB / 10. Solving gives AB = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_28",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "In the similarity transformation, the perimeter of the image is 5 times the perimeter of the preimage. What is the area of the image compared to the area of the preimage?",
+      "options": [
+        "5 times larger",
+        "10 times larger",
+        "20 times larger",
+        "25 times larger"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The scale factor (k) is the ratio of perimeters, k = 5.\n\n The ratio of the areas is k² = 5² = 25. \n\nThe area of the image is 25 times the area of the preimage.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_29",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "The ratio of the measure of an interior angle to an exterior angle of a regular polygon is 5:1. Find the number of sides.",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let I be interior, E be exterior. \n\nI/E = 5/1 => I = 5E. Also I + E = 180°.\n\n So 5E + E = 180° => 6E = 180° => E = 30°.\n\n Number of sides n = 360° / E = 360° / 30° = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_30",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A regular pentagon has a perimeter of 75 mm. What is the length of one side?",
+      "options": [
+        "10 mm",
+        "12.5 mm",
+        "15 mm",
+        "25 mm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A pentagon has 5 sides.\n\n Side length s = P / n =\n\n 75 mm / 5 = 15 mm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_31",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of an equilateral triangle with side length 10 cm?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "10√3 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An equilateral triangle is a regular 3-gon.\n P = n * s = 3 * 10 cm = \n30 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_32",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of an equilateral triangle is 24 units. What is its area?",
+      "options": [
+        "16 units²",
+        "16√3 units²",
+        "32 units²",
+        "32√3 units²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Side length s = P / 3 = 24 / 3 = 8 units.\n\n Area = (s²√3)/4 = (8²√3)/4 =\n (64√3)/4 = 16√3 units².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_33",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "What is the value of sin 0°?",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "Undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The sine of a 0-degree angle is 0. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_34",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "What is the relationship between A - B and A ∩ B'?",
+      "options": [
+        "- B is a subset of A ∩ B'",
+        "- B and A ∩ B' are disjoint",
+        "- B is the complement of A ∩ B'",
+        "- B = A ∩ B'"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The set difference A - B (elements in A but not in B) is defined as being equal to the intersection of A with the complement of B (A ∩ B').",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_35",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "A regular polygon has 12 sides. What is the sum of its interior angles?",
+      "options": [
+        "1620°",
+        "1800°",
+        "1980°",
+        "2160°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "n = 12.\n Sum = (n - 2) * 180° = \n(12 - 2) * 180°\n = 10 * 180° = 1800°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_36",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Which region represents the solution to the system { y > x, y < 3 }?",
+      "options": [
+        "The region above y=x and below y=3",
+        "The region below y=x and below y=3",
+        "The region above y=x and above y=3",
+        "The region below y=x and above y=3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "y > x represents the region above the line y=x. y < 3 represents the region below the horizontal line y=3.\n\n The solution is the intersection of these two regions.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_37",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "A regular nonagon has side length 's' and apothem 'a'. What is its area?",
+      "options": [
+        "9as",
+        "(9/2)as",
+        "18as",
+        "(1/2)as"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A nonagon has n=9 sides. Perimeter P = 9s.\n\n Area A = (1/2)aP =\n (1/2)a(9s) =\n (9/2)as.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_38",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: x² - 9 ≤ 0",
+      "options": [
+        "-3 ≤ x ≤ 3",
+        "x ≤ -3 or x ≥ 3",
+        "x ≤ 3",
+        "x ≥ -3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_39",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "A polygon where at least one interior angle is greater than 180° is called:",
+      "options": [
+        "Regular",
+        "Convex",
+        "Concave",
+        "Complex"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A concave polygon has at least one interior angle whose measure is more than 180 degrees.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_40",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the minimum and sufficient condition for two triangles to be congruent?",
+      "options": [
+        "All corresponding angles are equal (AAA).",
+        "Two pairs of corresponding sides are equal (SS).",
+        "Two pairs of corresponding sides and the included angle are equal (SAS).",
+        "All pairs of corresponding sides and all pairs of corresponding angles are proportional."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The SAS (Side-Angle-Side) postulate is one of the four main postulates (SSS, SAS, ASA, AAS) that are necessary and sufficient to prove the congruence of two triangles.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_41",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes the set of all integers (Z) that satisfy x power 2 is less than 16?",
+      "options": [
+        "[-4, 4]",
+        "(-4, 4)",
+        "{-3, -2, -1, 0, 1, 2, 3}",
+        "{-4, -3, -2, -1, 0, 1, 2, 3, 4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The inequality x power 2 is less than 16 is equivalent to -4 is less than x is less than 4. \n\nThe integers in this open interval are -3, -2, -1, 0, 1, 2, 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_42",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Which statement about diagonals of a regular pentagon is true?",
+      "options": [
+        "All diagonals are equal in length.",
+        "No two diagonals are equal in length.",
+        "Diagonals from one vertex have different lengths.",
+        "Diagonals intersect outside the pentagon."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Due to the symmetry of a regular pentagon, all diagonals connecting non-adjacent vertices have the same length.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_43",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Let U = {1, 2, 3, 4, 5, 6, 7, 8}, A = {2, 4, 6, 8}, B = {1, 3, 5}. Which statement is false?",
+      "options": [
+        "⊆ U",
+        "⊂ U",
+        "∅ ⊂ A",
+        "U ⊆ A"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A is a subset (⊆) of U because all elements of A are in U.\n B is a proper subset (⊂) of U because all elements of B are in U, and B is not equal to U.\n\n The empty set (∅) is a proper subset of any non-empty set.\n\n U is not a subset of A because U contains elements (like 1, 3, 5, 7) that are not in A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_44",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "If a regular polygon has 15 sides, how many lines of symmetry does it have?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "30"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An n-sided regular polygon has n lines of symmetry. \n\nThus, a 15-sided regular polygon has 15 lines of symmetry.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_45",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "If P(A) is the power set of A and n(P(A)) = 128, what is n(A)?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The number of elements in the power set is 2ⁿ(ᴬ).\n\n Since 2ⁿ(ᴬ) = 128, and 2⁷ = 128, n(A) = 7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_46",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "If sin θ = √3/2, what is θ? (Assuming θ is an acute angle)",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_47",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Calculate the area of a regular hexagon with side length 4 units.",
+      "options": [
+        "12√3 units²",
+        "24√3 units²",
+        "36√3 units²",
+        "48√3 units²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Area of hexagon = (3√3 / 2) * s².\n A = (3√3 / 2) * 4² = \n(3√3 / 2) * 16 =\n 24√3 units².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_48",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "The difference between the measure of an interior angle and an exterior angle of a regular polygon is 108°. How many sides does the polygon have?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_49",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "In triangles ABC and DEF, if ∠A = ∠D, AB = DE, and ∠B = ∠E, what can be concluded?",
+      "options": [
+        "ΔABC is similar to ΔDEF.",
+        "ΔABC is congruent to ΔDEF by SAS.",
+        "ΔABC is congruent to ΔDEF by ASA.",
+        "The triangles cannot be proven congruent."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The congruence is established by the Angle-Side-Angle (ASA) postulate, as the side (AB) is included between the two equal angles (∠A and ∠B).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_50",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "If 1/(x - 2) + 1 = x/(x - 2), the solution set is:",
+      "options": [
+        "{2}",
+        "No solution",
+        "{1}",
+        "x is any real number except 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_51",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Calculate the apothem of a regular hexagon with side length 10 cm.",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "5√3 cm",
+        "10√3 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A regular hexagon is composed of 6 equilateral triangles.\n The apothem is the height of one of these triangles with side length s=10 cm.\n Height = (s√3)/2 = (10√3)/2 = 5√3 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_52",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "What is the area of an equilateral triangle inscribed in a circle of radius 6 cm?",
+      "options": [
+        "27√3 cm²",
+        "36√3 cm²",
+        "54√3 cm²",
+        "108 cm²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_53",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of the central angle of a regular decagon?",
+      "options": [
+        "30°",
+        "36°",
+        "45°",
+        "60°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A decagon has 10 sides (n=10).\n\nThe measure of each central angle is 360° / n = 360° / 10 = 36°. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_54",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "If n(U) = 100, n(A') = 60, and n(B) = 50, and n(A ∩ B) = 10, find n(A ∪ B).",
+      "options": [
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "n(A) = n(U) - n(A') = 100 - 60 = 40.\n\n n(A ∪ B) = n(A) + n(B) - n(A ∩ B) =\n 40 + 50 - 10 = 80.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_55",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "What is the apothem (a) of a square with side length (s)?",
+      "options": [
+        "= s",
+        "= s/2",
+        "= s√2",
+        "= s√2 / 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The apothem connects the center to the midpoint of a side.\n\n In a square, this distance is half the side length, a = s/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_56",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of a square inscribed in a circle of radius R?",
+      "options": [
+        "4R",
+        "4R√2",
+        "8R",
+        "2R√2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_57",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Consider a regular hexagon inscribed in a circle. What is the relationship between the side length (s) and the radius (r) of the circumcircle?",
+      "options": [
+        "s = r/2",
+        "s = r",
+        "s = r√3",
+        "s = 2r"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A regular hexagon can be divided into 6 equilateral triangles with vertices at the center. \n\nTherefore, the side length is equal to the radius. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_58",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "The area of a regular polygon is 150 m² and its perimeter is 60 m. What is the length of its apothem?",
+      "options": [
+        "2.5 m",
+        "5 m",
+        "7.5 m",
+        "10 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = (1/2) * a * P => \n150 = (1/2) * a * 60 \n\n=> 150 = 30 * a => a = 150 / 30 = 5 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_59",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "The diagonal of a square is 10. What is the length of a side?",
+      "options": [
+        "5",
+        "10√2",
+        "10/√2",
+        "20"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_60",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, a line segment DE is drawn parallel to BC, where D is on AB and E is on AC. If AD = 3, DB = 6, and AE = 2, find the length of EC.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "By the Basic Proportionality Theorem (Thales' Theorem), if a line is parallel to one side of a triangle, it divides the other two sides proportionally. AD/DB = AE/EC. \n\nSo, 3/6 = 2/EC. 1/2 = 2/EC. EC = 2 * 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_61",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Using a trigonometric table, find the approximate value of sin 20°.",
+      "options": [
+        "0.9397",
+        "0.3420",
+        "0.3640",
+        "2.7475"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Looking up 20° in the sine column of a standard trigonometric table gives approximately 0.3420.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_62",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "If triangle ABC is congruent to triangle XYZ (ΔABC ≅ ΔXYZ), which of the following statements MUST be true?",
+      "options": [
+        "AC = XY",
+        "∠B = ∠Z",
+        "Perimeter of ΔABC is equal to perimeter of ΔXYZ.",
+        "Area of ΔABC is twice the area of ΔXYZ."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Congruent triangles have equal corresponding parts, including all corresponding sides and angles (CPCTC).\n\n They also have equal perimeters and equal areas.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_63",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Consider a regular polygon inscribed in a circle. As the number of sides increases infinitely, the polygon approaches what shape?",
+      "options": [
+        "line segment",
+        "point",
+        "The circle itself",
+        "An infinitely large square"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "As the number of sides of an inscribed regular polygon increases, it fills more of the circle, and its perimeter and area approach those of the circle.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_64",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "If two right triangles have an acute angle of one equal to an acute angle of the other, then the triangles are:",
+      "options": [
+        "Congruent",
+        "Similar",
+        "Isosceles",
+        "Equilateral"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since both triangles have a right angle (90°) and one pair of acute angles equal, the third pair of angles must also be equal.\n\n Thus, they are similar by the AA Similarity criterion.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_65",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "If ΔABC ≅ ΔLMN, and ∠A = 40° and ∠M = 80°, what is the measure of ∠C?",
+      "options": [
+        "40°",
+        "60°",
+        "80°",
+        "120°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since ΔABC ≅ ΔLMN, corresponding angles are equal: ∠A = ∠L = 40°, ∠B = ∠M = 80°.\n The sum of angles in a triangle is 180°.\n\n So, ∠C = 180° - (∠A + ∠B) = 180° - (40° + 80°) = 180° - 120° = 60°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_66",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "What is the Greatest Common Factor (GCF) of 196 and 3822?",
+      "options": [
+        "2",
+        "4",
+        "14",
+        "98"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using the Euclidean Algorithm: 3822 = 196 times 19 + 98. \n\n196 = 98 times 2 + 0. The last non-zero remainder is the GCF.\n Thus, GCF(196, 3822) = 98.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_67",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC and ΔXYZ, AB/XY = BC/YZ = CA/ZX. What is the relationship between the two triangles?",
+      "options": [
+        "Congruent by SSS",
+        "Similar by SSS Similarity",
+        "Congruent by SAS",
+        "Neither congruent nor similar"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The proportionality of all three corresponding sides establishes the SSS Similarity criterion.\n\n Congruency is only established if the ratio is 1:1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_68",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A two-digit number is 5 times the sum of its digits. If the tens digit is 2, the number is:",
+      "options": [
+        "20",
+        "25",
+        "27",
+        "30"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_69",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the system { x > 2, y < 1 } is located in which quadrant(s)?",
+      "options": [
+        "Quadrant I only",
+        "Quadrant IV only",
+        "Quadrants I and IV",
+        "Quadrants II and III"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "x > 2 represents the region to the right of the vertical line x=2.\n\n y < 1 represents the region below the horizontal line y=1.\n\n The intersection includes points in Quadrant I (where x>0, y>0) and Quadrant IV (where x>0, y<0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_70",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "In a regular polygon, the measure of each central angle is equal to the measure of:",
+      "options": [
+        "Each interior angle",
+        "Each exterior angle",
+        "Half the interior angle",
+        "180° minus the interior angle"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Both the central angle and the exterior angle of a regular n-gon are equal to 360°/n.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_71",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Given A = {x ∈ ℕ: x < 3} and B is the set of all possible factors of 13. Then which one of the following is equal to B x A?",
+      "options": [
+        "{(1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (13, 2)}",
+        "{(1, 1), (1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (2,1), (1, 13), (2, 13)}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = {1, 2}  B = {1, 13}.\n\n B × A = {(1,1), (1,2), (13,1), (13,2)}. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_72",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Calculate the perimeter of a square with apothem 5 m.",
+      "options": [
+        "20 m",
+        "25 m",
+        "40 m",
+        "50 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a square, a = s/2 => s = 2a = 2 * 5 m = 10 m.\n\n Perimeter P = 4 * s = 4 * 10 m =\n 40 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_73",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is equal to the expression ",
+      "imageUrl": "images/M2016_3.png",
+      "diagramUrl": "images/M2016_3.png",
+      "options": [
+        "3/5",
+        "5/3",
+        "15",
+        "1/15"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_74",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "For which acute angle θ is sin θ > cos θ?",
+      "options": [
+        "θ < 45°",
+        "θ = 45°",
+        "θ > 45°",
+        "Never"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "sin θ = cos θ at θ = 45°.\n\nSince sin θ increases and cos θ decreases as θ goes from 0° to 90°, sin θ will be greater than cos θ for angles larger than 45°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_75",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "If the measure of a central angle of a regular polygon is 40°, how many sides does it have?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let n be the number of sides. Central angle = 360° / n.\n\nSo, 40° = 360° / n => n = 360 / 40 = 9 sides.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_76",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If the sum of a set of 10 observations is 150, what is the mean of the data set?",
+      "options": [
+        "15",
+        "150",
+        "10",
+        "1.5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = Sum of observations / Number of observations.\n Mean = 150 / 10 = 15.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_77",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "What is the key disadvantage of using the range as a measure of dispersion?",
+      "options": [
+        "It requires tedious calculations.",
+        "It is not defined for all data types.",
+        "It only depends on two extreme values.",
+        "It is always a non-positive number."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The range ignores the distribution of the values in between and is solely determined by the two extreme values (Maximum and Minimum), making it highly sensitive to outliers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_78",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: x² - 8x + 16 ≥ 0",
+      "options": [
+        "x = 4",
+        "x ≠ 4",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Factor: (x - 4)² ≥ 0. The square of any real number is always greater than or equal to zero. \n\nThis inequality is true for all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_79",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "What is the form of any positive odd integer based on the division algorithm with b=4?",
+      "options": [
+        "4q or 4q + 2",
+        "4q + 1 or 4q + 3",
+        "4q + 1 only",
+        "4q + 3 only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Any integer 'a' can be written as 4q + r, where r is 0, 1, 2, or 3. If r=0 or r=2, the integer is even.\n\n If r=1 (4q+1) or r=3 (4q+3), the integer is odd.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_80",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an appropriate measure of dispersion for the set of all human body temperatures in degrees Celsius?",
+      "options": [
+        "Mode",
+        "Mean",
+        "Standard Deviation",
+        "Median"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Standard Deviation is the most widely used and informative measure of dispersion for continuous, interval/ratio data like temperature.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_81",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The areas of two similar polygons are in the ratio 4:9. What is the ratio of their corresponding sides?",
+      "options": [
+        "4:9",
+        "16:81",
+        "2:3",
+        "4:3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If the ratio of the areas of two similar polygons is a²:b², then the ratio of their corresponding sides (or perimeters) is a:b.\n\n The ratio of the sides is the square root of the ratio of the areas. √(4/9) = 2/3.\n The ratio is 2:3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_82",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The simplified form of the expression  6√20 - 3√45 / 3√75 is:",
+      "options": [
+        "1/5",
+        "5",
+        "√5",
+        "√15/15"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Simplify 6√20 - 3√45 / 3√75.\n First, 6√20 = 6*√(4*5) = 12√5.\n Next, 3√45 / 3√75 = (3*√45) / (3*√75) =\n √45 / √75 = √(9*5)/√(25*3) =\n 3√5 / 5√3.\n\n Rationalize: (3√5 / 5√3)*(√3/√3) = \n√15/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_83",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "If two sets A and B are equivalent but not equal, what must be true?",
+      "options": [
+        "n(A) = n(B) and A = B",
+        "n(A) ≠ n(B) and A ≠ B",
+        "n(A) = n(B) and A ≠ B",
+        "n(A) ≠ n(B) and A = B"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equivalent sets have the same number of elements (n(A) = n(B)).\n\n Equal sets have exactly the same elements (A = B).\n\nIf they are equivalent but not equal, they must have the same number of elements but different elements. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_84",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of each exterior angle of a regular dodecagon?",
+      "options": [
+        "24°",
+        "30°",
+        "36°",
+        "45°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Exterior angle = 360° / n = \n360° / 12 = 30°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_85",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A regular quadrilateral is commonly known as a:",
+      "options": [
+        "Rhombus",
+        "Rectangle",
+        "Square",
+        "Parallelogram"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A regular quadrilateral must be equilateral (all sides equal) and equiangular (all angles equal). This describes a square.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_86",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A 20m high building casts a shadow of 4m, at the same time a 35m tree casts a shadow of x m. What is the value of x?",
+      "options": [
+        "15m",
+        "7m",
+        "11m",
+        "8m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This problem uses similar triangles based on the principle that at the same time, the ratio of an object's height to its shadow length is constant.\n\n(Height of Building) / (Shadow of Building) = (Height of Tree) / (Shadow of Tree)\n\n20 / 4 = 35 / x\n\n5 = 35 / x\n\nx = 35 / 5\n\nx = 7\n\nSo, the length of the tree's shadow is 7m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_87",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Solve |1 - x| < 5",
+      "options": [
+        "-4 < x < 6",
+        "-6 < x < 4",
+        "x < -4 or x > 6",
+        "x < -6 or x > 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "-5 < 1 - x < 5. Subtract 1: -6 < -x < 4.\n\n Multiply by -1 and reverse inequalities: 6 > x > -4, or -4 < x < 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_88",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "If A and B are any two sets, A Δ A is equivalent to:",
+      "options": [
+        "A",
+        "A'",
+        "U",
+        "∅"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A Δ A = (A ∪ A) - (A ∩ A) = A - A = ∅.\n\n The symmetric difference of a set with itself is always the empty set.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_89",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Solve the fractional linear equation: x/4 + 1/2 = 2x/3.",
+      "options": [
+        "6/5",
+        "5/6",
+        "12/5",
+        "4/5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply by the least common denominator (12): 3x + 6 = 8x. \n\nSubtract 3x from both sides: 6 = 5x. Divide by 5: x = 6/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_90",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the equation 3|2x - 4| = 6 - 2|1 - 5x| is",
+      "options": [
+        "{-1, 1/2}",
+        "{}",
+        "{-1, 1/2, 5/4}",
+        "{1/2, 5/4}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3|2x-4| = 6 - 2|1-5x|,\n\n6|x-2| = 6 - 2|1-5x|\n\n3|x-2| + |1-5x| = 3\n\nCheck intervals x < 1/5, 1/5 ≤ x < 2, x ≥ 2\n\nNo interval gives a valid solution\n\nSolution set = {}",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_91",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which congruence postulate requires the side to be located between the two known equal angles?",
+      "options": [
+        "AAS",
+        "ASA",
+        "SSS",
+        "HL"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Angle-Side-Angle (ASA) postulate requires the side to be the included side between the two angles.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_92",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "If x is less than 0, then square root of (x power 2) is equal to:",
+      "options": [
+        "x",
+        "-x",
+        "absolute value of x",
+        "Both -x and absolute value of x"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "By definition, square root of (x power 2) = absolute value of x.\n\n Since x is less than 0, absolute value of x = -x. Therefore, it is equal to both -x and absolute value of x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_93",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "A ramp is 10 m long and rises 2 m vertically. What is the sine of the angle the ramp makes with the horizontal?",
+      "options": [
+        "2/10",
+        "10/2",
+        "2/√96",
+        "√96/10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The length of the ramp is the hypotenuse (10 m). \n\nThe vertical rise is the opposite side (2 m).\n\n sin θ = Opposite / Hypotenuse = 2/10 = 1/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_94",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equivalent to 1 / square root of (3 power 2 + 4 power 2)?",
+      "options": [
+        "1 / square root of 13",
+        "1 / (3 + 4)",
+        "1 / 5",
+        "square root of 25"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Simplify the expression inside the radical: 3 power 2 + 4 power 2 = 9 + 16 = 25. So, the expression is 1 / square root of 25 = 1/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_95",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "The length of a rectangle is 3 meters more than its width. If the area is at least 10 square meters, what is the minimum width?",
+      "options": [
+        "2 meters",
+        "3 meters",
+        "5 meters",
+        "1 meter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_96",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The solution to 4x - (3 - 2x) = 5(x - 1) is:",
+      "options": [
+        "-2",
+        "-1",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "4x - 3 + 2x = 5x - 5. 6x - 3 = 5x - 5.\n Subtract 5x and add 3: x = -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_97",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a Pythagorean triple?",
+      "options": [
+        "3, 4, 5",
+        "5, 12, 13",
+        "8, 15, 17",
+        "7, 24, 26"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_98",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Find the solution set for -x² + 4 < 0.",
+      "options": [
+        "-2 < x < 2",
+        "x < -2 or x > 2",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_99",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "If A = {a, b, c, d} and B = {c, d, e, f}, what is B - A?",
+      "options": [
+        "{a, b}",
+        "{e, f}",
+        "{c, d}",
+        "{a, b, c, d, e, f}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The difference (B - A or B\\A) contains all elements that are in set B but NOT in set A. \n\nB - A = {e, f}. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg9u5_melmeja_100",
+      "examId": "m2017_socialg9u5_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The data 1, 3, 5, 7, 9 are the first five odd numbers. What is their mean?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "4.5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mean = (1 + 3 + 5 + 7 + 9) / 5 =\n 25 / 5 = 5.",
       "topic": "Mathematics"
     }
   ]

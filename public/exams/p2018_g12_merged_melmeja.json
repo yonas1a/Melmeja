@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12",
-  "description": "Comprehensive examination bank combining 10 chapters (36 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 54,
-  "totalQuestions": 36,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 10 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -613,6 +613,1030 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Doping silicon (Group IV) with a Group III element like boron introduces electron deficiencies, which are called holes, resulting in a P-type (positive-type) semiconductor.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_37",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "In an NPN transistor, the movement of charge carriers is primarily due to:",
+      "options": [
+        "Holes diffusing from the Base to the Emitter.",
+        "Electrons diffusing from the Emitter to the Collector.",
+        "Electrons drifting from the Collector to the Emitter.",
+        "Holes drifting from the Base to the Collector."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In an NPN transistor, the Emitter is heavily doped with electrons.\n\n Under forward bias, electrons are injected (diffuse) from the Emitter (N-type) through the thin Base (P-type) and into the Collector (N-type).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_38",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "The angular speed of the minute hand of a clock, in rad/s, is:",
+      "options": [
+        "π/30 rad/s",
+        "π/60 rad/s",
+        "π/1800 rad/s",
+        "π/3600 rad/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The minute hand completes one revolution (2π radians) in 60 minutes, or 3600 seconds. \n\nAngular speed ω = 2π / T = \n2π / 3600 s = \nπ/1800 rad/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_39",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "If the depth of a fluid in a container is quadrupled, how does the gauge pressure at the bottom change?",
+      "options": [
+        "It is halved.",
+        "It remains the same.",
+        "It is doubled.",
+        "It is quadrupled."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Gauge pressure P_g = ρgh. \n\nSince P_g is directly proportional to depth h, quadrupling the depth quadruples the gauge pressure.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_40",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Water flows into a cylindrical tank with a radius of 0.5m at a rate of 0.1m³/s. How fast is the water level rising (v)?",
+      "options": [
+        "0.127m/s",
+        "0.0127m/s",
+        "1.27m/s",
+        "12.7m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Flow Rate Q = Area A * Speed v. \nThe area of the tank is A = πr² = π(0.5m)² = 0.25π m².\n Speed v = Q/A =\n 0.1m³/s / (0.25π m²) ≈ \n0.127m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_41",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Which physical law ensures that the total momentum of the Earth and a launched rocket remains zero, assuming they are an isolated system?",
+      "options": [
+        "Law of conservation of energy",
+        "Law of conservation of mass",
+        "Law of conservation of momentum",
+        "Newton's law of gravitation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The law of conservation of momentum governs collisions, explosions, and rocket propulsion, stating that the total momentum of a closed system remains constant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_42",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "According to Pascal's Principle, if an external pressure is applied to an enclosed incompressible fluid, that pressure is:",
+      "options": [
+        "Transmitted to the container walls only.",
+        "Uniformly transmitted to all parts of the fluid and the enclosing walls.",
+        "Transmitted only to the lowest points of the fluid.",
+        "Reduced by the time it reaches the container walls."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Pascal's Principle states that pressure applied to an enclosed fluid is transmitted undiminished to every portion of the fluid and the walls of the containing vessel.\n\n This principle is the basis for hydraulic systems.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_43",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "If the angle of inclination of a surface is increased, the stability of a uniform block resting on it will:",
+      "options": [
+        "Increase indefinitely",
+        "Decrease, because the center of mass moves outside the base sooner",
+        "Remain unchanged, as mass is conserved",
+        "Become zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "As the surface angle increases, the vertical projection of the center of mass moves closer to the edge of the base.\n\n Stability decreases because a smaller rotational perturbation is needed to move the center of mass outside the base, causing the block to tip.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_44",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Which planet moves fastest in its elliptical orbit around the Sun?",
+      "options": [
+        "The one closest to the Sun (Mercury).",
+        "The one farthest from the Sun (Neptune).",
+        "The largest one (Jupiter).",
+        "They all move at the same speed."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Kepler's Second Law (Law of Areas) implies that a planet moves faster when it is closer to the Sun (at perihelion) and slower when farther away (at aphelion). \n\nTherefore, the planet closest to the Sun (Mercury) has the highest average orbital speed.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_45",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "In projectile motion, the minimum kinetic energy occurs at:",
+      "options": [
+        "Launch point.",
+        "Landing point.",
+        "Maximum height.",
+        "Half the time of flight."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kinetic energy KE = 1/2 mv². \n\nSince speed is minimum at the maximum height, the kinetic energy is also minimum at the maximum height.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_46",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "The study of the Earth's magnetic field and its role in protecting the planet from solar wind is an application of:",
+      "options": [
+        "Gravitational physics",
+        "Fluid dynamics",
+        "Nuclear fusion",
+        "Electromagnetism"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Earth's magnetic field is generated by the motion of molten iron in the outer core (a process called the geodynamo) and is governed by the laws of **electromagnetism**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_47",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "If a body of mass 'm' is traveling at a constant velocity on a frictionless surface, the net force required to keep it moving at that constant velocity is:",
+      "options": [
+        "Equal to its weight (mg)",
+        "Equal to m times the acceleration due to gravity (ma)",
+        "Zero",
+        "The body's kinetic energy"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Newton's first law (Law of Inertia) states that an object moving at a constant velocity (zero acceleration) requires zero net force to maintain that state, especially on a frictionless surface.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_48",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "In the absence of air resistance, the horizontal acceleration of a projectile is:",
+      "options": [
+        "Equal to the acceleration due to gravity (g)",
+        "Opposite to the initial velocity",
+        "Zero",
+        "Maximum at the highest point"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The only force acting on a projectile (neglecting air resistance) is gravity, which acts purely in the vertical direction.\n\n Thus, there is no force, and hence no acceleration, in the horizontal direction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_49",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "Which application of physics is directly involved when using an optical microscope to view a bacterial cell?",
+      "options": [
+        "Nuclear Physics (radioactivity)",
+        "Thermodynamics (heat transfer)",
+        "Optics (refraction and magnification)",
+        "Electromagnetism (magnetic fields)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An optical microscope uses multiple lenses (an application of optics) to refract light and magnify the image of a small object like a bacterial cell.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_50",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Manometer",
+        "Hydrometer",
+        "Barometer",
+        "Anemometer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A barometer is an instrument specifically designed to measure atmospheric pressure.\n\n A manometer measures the pressure of a gas relative to atmospheric pressure.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_51",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "The change in the orbital speed of a planet is maximum when it moves from:",
+      "options": [
+        "Aphelion to perihelion.",
+        "Perihelion to aphelion.",
+        "The mean distance to the Sun.",
+        "The change in speed is constant."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The planet is moving slowest at aphelion and fastest at perihelion.\n\n The change from a lower speed to a higher speed (Aphelion to perihelion) involves the greatest positive acceleration (change in speed).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_52",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The concept of **wave-particle duality**, where light and matter can exhibit both wave-like and particle-like properties, is a central tenet of:",
+      "options": [
+        "Classical Mechanics",
+        "Quantum Mechanics",
+        "Relativity",
+        "Electrodynamics"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wave-particle duality, introduced by Max Planck and Louis de Broglie, is one of the most fundamental and counter-intuitive ideas in **Quantum Mechanics**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_53",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "The physical process of a liquid changing into a gas (e.g., boiling) is governed by the principles of:",
+      "options": [
+        "Nuclear physics",
+        "Electromagnetic wave theory",
+        "Thermodynamics and phase transitions",
+        "Special relativity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Phase transitions, such as vaporization, fusion, and sublimation, involve energy exchange (latent heat) and are analyzed using the laws and concepts of thermodynamics.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_54",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "If an object is submerged in a fluid, the upward buoyant force acting on it is equal to the weight of the fluid displaced by the object. This is known as:",
+      "options": [
+        "Pascal's principle",
+        "Bernoulli's principle",
+        "Archimedes' principle",
+        "Newton's third law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Archimedes' principle explains the buoyant force, which is essential in marine biology and naval engineering.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_55",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "The direction of the centripetal force changes continuously in uniform circular motion. Therefore, centripetal force is a:",
+      "options": [
+        "Conservative force.",
+        "Non-conservative force.",
+        "Constant force.",
+        "Variable force."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Although the magnitude F_c = mv²/r is constant, the direction of the force is continuously changing (towards the center).\n\n A force that changes direction is a variable force.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_56",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "If a projectile's launch speed is doubled, but the angle remains the same, the horizontal range is increased by a factor of:",
+      "options": [
+        "2",
+        "4",
+        "sqrt(2)",
+        "1/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The range formula is R ∝ v₀².\n If v₀ is doubled, R' ∝ (2v₀)² = 4v₀².\n The range increases by a factor of **4**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_57",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "If the flow speed of water in a pipe is doubled, how does the flow rate (volume per unit time) change?",
+      "options": [
+        "It is halved.",
+        "It remains the same.",
+        "It is doubled.",
+        "It is quadrupled."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Flow rate (Q) is defined as Q = Av, where A is the area and v is the speed.\n\n If the area A is constant and the speed v is doubled, the flow rate Q must also be doubled.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_58",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements best defines an ideal fluid in the study of fluid dynamics?",
+      "options": [
+        "fluid that is viscous and compressible.",
+        "fluid that is non-viscous and incompressible.",
+        "fluid that exhibits laminar flow only.",
+        "fluid with a very high surface tension."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An ideal fluid is a theoretical concept used to simplify fluid dynamics problems.\n\n It is defined as a fluid that is incompressible (density is constant) and non-viscous (no internal friction).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_59",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "A ball is thrown at 45° and hits a target 100 m away. What is the required initial speed (v₀)? (Take g = 10m/s²)",
+      "options": [
+        "31.6 m/s",
+        "10 m/s",
+        "50 m/s",
+        "20 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Range R = (v₀² sin(2θ))/g. \n100 m = (v₀² sin(90°))/10m/s².\n 100 = v₀²/10. \nv₀² = 1000.\n v₀ = √(1000) ≈ 31.6 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_60",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A balloon filled with helium rises in the air. This is an example of:",
+      "options": [
+        "Pascal's Principle",
+        "Archimedes' Principle (Buoyancy)",
+        "Surface Tension",
+        "Bernoulli's Principle"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The balloon rises because the buoyant force exerted by the displaced air is greater than the total weight of the balloon and the helium. \n\nThis is an application of Archimedes' Principle.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_61",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The principle of **conservation of mass** in the flow of a fluid is mathematically expressed in the study of blood flow as:",
+      "options": [
+        "Bernoulli's equation",
+        "The continuity equation",
+        "Poiseuille's law",
+        "Fick's law of diffusion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The continuity equation (A₁v₁ = A₂v₂) states that the total mass of fluid entering a tube must equal the mass leaving, which is the application of mass conservation to fluid flow.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_62",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "The time of flight of a projectile depends entirely on its initial:",
+      "options": [
+        "Horizontal velocity.",
+        "Vertical velocity.",
+        "Horizontal displacement.",
+        "Maximum range."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The vertical motion (governed by v₀ᵧ) determines how long the projectile stays in the air (Time of Flight T = 2v₀ᵧ/g).\n\n The horizontal motion is independent of this.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_63",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "The formula for the orbital period (T) of a satellite in a circular orbit of radius r around a planet of mass M is:",
+      "options": [
+        "T = 2πr/vₒ",
+        "T = 2π √(r³/GM)",
+        "T = 2πr² / (GM)",
+        "Both A and B"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "T = distance/speed = 2πr/vₒ, which is option A.\n\n Also, from Kepler's third law T² = (4π²/GM)r³, \nso T = 2π √(r³/GM), which is option B. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_64",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "The net force on a projectile is always in the direction of its:",
+      "options": [
+        "Acceleration (g)",
+        "Velocity",
+        "Displacement",
+        "Initial velocity"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By Newton's second law, F_net = ma.\n For a projectile (ignoring air resistance), the net force is the gravitational force, F_g = mg.\n\n Thus, the net force is always in the direction of the acceleration (g), which is vertically downwards.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_65",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "In the human ear, the air vibrations (sound waves) are first converted into mechanical vibrations by which part?",
+      "options": [
+        "The cochlea",
+        "The auditory nerve",
+        "The eardrum",
+        "The semicircular canals"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "When sound waves reach the ear, they cause the eardrum to vibrate.\n\n This mechanical vibration is then transmitted through the small bones of the middle ear.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_66",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "The escape velocity from a planet is independent of the mass of the:",
+      "options": [
+        "Planet.",
+        "Object being launched.",
+        "Distance of the launch.",
+        "Planet's radius."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Escape velocity vₑ = √(2GM/R). \n\nThe formula only depends on the mass (M) and radius (R) of the planet and the gravitational constant (G), but is independent of the mass of the object being launched.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_67",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "To increase the stability of a tripod (base of support is triangular), a designer should primarily aim to:",
+      "options": [
+        "Increase the mass of the objects placed on it.",
+        "Decrease the size of the contact area between the feet and the ground.",
+        "Decrease the angle between the legs, making the base narrower.",
+        "Increase the distance between the legs, making the base wider."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Stability is maximized by having a wide base of support and a low center of gravity.\n Increasing the distance between the legs makes the base wider.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_68",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is the total angular displacement of an object that completes 5 revolutions?",
+      "options": [
+        "5 rad",
+        "10 rad",
+        "5π rad",
+        "10π rad"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "One revolution is 2π radians.\n 5 revolutions is 5 * 2π =\n 10π radians.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_69",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "The stability of an upright object is highest when the torque due to gravity about the tipping edge is:",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Negative",
+        "Minimizing the total kinetic energy"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For maximum stability, the gravitational torque that resists tipping should be maximized. This happens when the center of mass is as low as possible and as far from the tipping edge as possible.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_70",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A projectile has the same horizontal range for two angles of projection, 40° and another angle. What is the other angle?",
+      "options": [
+        "10°",
+        "20°",
+        "50°",
+        "60°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Two launch angles that are complementary, meaning they add up to 90°, will produce the same range.\n\n 90° - 40° = 50°.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_71",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The operation of an electric motor is a direct application of the relationship between which two physical phenomena?",
+      "options": [
+        "Magnetism and electricity (Electromagnetic forces)",
+        "Heat and work (Thermodynamics)",
+        "Light and matter (Photoelectric effect)",
+        "Gravity and inertia (Mechanics)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Electric motors operate based on the principle that a current-carrying wire placed in a magnetic field experiences a force (Lorentz force), which is the core concept of electromagnetism.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_72",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "The tendency of two different molecules (e.g., water-glass) to attract each other is called:",
+      "options": [
+        "Cohesion",
+        "Adhesion",
+        "Tension",
+        "Viscosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Adhesion is the attractive force between unlike molecules.\n\n This is why water sticks to glass, leading to a concave meniscus.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_73",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "A particle is moving in a circle of radius r. The time period (T) is the time required for one revolution. The linear speed (v) of the particle is given by:",
+      "options": [
+        "rT",
+        "2πr/T",
+        "T/(2πr)",
+        "2πT/r"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Linear speed (v) is distance divided by time. \nThe distance for one revolution is the circumference (2πr), and the time is the period (T). \nSo, v = 2πr/T.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_74",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A wheel rotates 60 times in 1 minute. Its angular speed is:",
+      "options": [
+        "1 rad/s",
+        "π rad/s",
+        "2π rad/s",
+        "60 rad/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Frequency f = 60 revolutions / 60 seconds = 1 Hz.\n\n Angular speed ω = 2πf = 2π * 1 =\n 2π rad/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_75",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements does NOT describe coherent light or interference of coherent light?",
+      "options": [
+        "Two waves which maintain constant phase relationship can produce sustained interference.",
+        "Sustainable interference pattern can be formed by two waves with variable phase difference.",
+        "In order for two waves to be coherent, they must be the same type of waves.",
+        "Coherent light waves have the same frequency and wavelength."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Coherent light requires waves to have a constant phase difference, the same frequency, and preferably the same type of waves.\n\n If the phase difference is variable, sustained interference cannot occur.\n\n Therefore, the statement about forming sustainable interference with variable phase difference is NOT true.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_76",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "13. Consider two balls A and B are projected with the same velocity, $v_0$ at angles $\\theta_1$ and $\\theta_2$, respectively, $0^{\\circ} < \\theta_1 < 45^{\\circ}$ and $45^{\\circ} < \\theta_2 < 90^{\\circ}$. Which one of the following statements is correct about the motion of the balls?",
+      "options": [
+        "Ball A takes longer time than ball B to reach its maximum height.",
+        "The range of ball A is smaller than its maximum height.",
+        "The two balls cover equal ranges when $\\theta_1 + \\theta_2 = 90^{\\circ}$.",
+        "Both balls have equal speed at their respective maximum height."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a projectile launched with initial velocity $v_0$, the **range ($R$)** is given by $R = \\frac{v_0^2 \\sin(2\\theta)}{g}$. The ranges will be equal if the launch angles are **complementary**, meaning they sum to $90^{\\circ}$ (i.e., $\\theta_1 + \\theta_2 = 90^{\\circ}$), because $\\sin(2\\theta_1) = \\sin(2(90^{\\circ} - \\theta_2)) = \\sin(180^{\\circ} - 2\\theta_2) = \\sin(2\\theta_2)$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_77",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The rotational kinetic energy of a body with moment of inertia I and angular velocity ω is:",
+      "options": [
+        "Iω",
+        "(1/2)Iω²",
+        "Iω²",
+        "(1/2)I²ω"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The formula for rotational kinetic energy is KE_rot = (1/2)Iω².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_78",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "11. The gauge pressure at a point in a fluid at rest is defined as",
+      "options": [
+        "the sum of absolute pressure and atmospheric pressure.",
+        "the actual pressure at a given point relative to absolute pressure.",
+        "the atmospheric pressure difference between sea level and the local area at which the fluid exists.",
+        "the pressure difference between the absolute pressure and the atmospheric pressure."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The **gauge pressure** ($P_g$) is the pressure measured relative to the surrounding atmospheric pressure ($P_{atm}$). It is the difference between the absolute pressure ($P_{abs}$) and the atmospheric pressure: $P_g = P_{abs} - P_{atm}$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_79",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "The current I_E (Emitter current) in a transistor is related to the Base current I_B and Collector current I_C by the formula:",
+      "options": [
+        "I_E = I_C - I_B",
+        "I_E = I_B + I_C",
+        "I_E = I_C / I_B",
+        "I_E = I_C · I_B"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kirchhoff's Current Law applied to the transistor states that the Emitter current (total input current) must equal the sum of the Base and Collector currents:\n\n I_E = I_B + I_C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_80",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "39. In an experiment to determine the direction of the magnetic field around a long straight current-carrying wire, a student placed a small compass at point P, as shown in the diagram. If the direction of the current in the wire is directed **out-of-the page**, then the magnetic needle of the compass will point",
+      "options": [
+        "downward.",
+        "to the right.",
+        "upward.",
+        "to the left."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use the **Right-Hand Rule (RHR)** for a straight wire: Point the thumb of your right hand in the direction of the current (out-of-the page, or towards you). Curl your fingers; they indicate the direction of the magnetic field ($\\mathbf{B}$) lines, which form counter-clockwise circles around the wire . Since point **P** is directly **above** the wire, the tangent to the counter-clockwise field line at P points **to the left**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_81",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "An object in uniform circular motion experiences a change in:",
+      "options": [
+        "Kinetic energy.",
+        "Speed.",
+        "Direction of velocity.",
+        "Angular speed."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In uniform circular motion, speed and angular speed are constant, as is kinetic energy.\n\n However, the direction of velocity is continuously changing, which is why there is acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_82",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A positive point charge of 2µC is placed on the x-axis, at the origin and a positive charge of 6µC and a negative point charge of -4µC are placed, respectively at x = -3cm and x = +3cm on the x-axis. What is the net electric force on the 2µC charge?",
+      "options": [
+        "200 N toward the negative x-axis",
+        "200 N toward the positive x-axis",
+        "40 N toward the positive x-axis",
+        "40 N toward the negative x-axis"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Force between two point charges: F = k * |q1 * q2| / r². \n\nF12 (due to 6 µC at -3cm) = 9 × 10^9 * 2×10^-6 * 6×10^-6 / (0.03)^2 ≈ 120 N, directed toward negative x-axis (repulsion from +6µC).\n\nF13 (due to -4 µC at +3cm) = 9 × 10^9 * 2×10^-6 * 4×10^-6 / (0.03)^2 ≈ 80 N, directed toward positive x-axis (attraction to -4µC).\n\nNet force F_net = F12 - F13 = 120 N - 80 N = 40 N, toward the negative x-axis.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_83",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "A half-wave rectified voltage V_dc is to be smoothed using a capacitor (C). For better smoothing (less ripple), the value of C should be:",
+      "options": [
+        "Smaller.",
+        "Larger.",
+        "Zero.",
+        "Independent of the ripple."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A larger capacitor (C) stores more charge and discharges more slowly between the voltage peaks, which results in a smaller ripple voltage and a smoother DC output.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_84",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The principle that determines the energetic possibility of a chemical reaction and the resulting composition at equilibrium is primarily derived from which area of physics?",
+      "options": [
+        "Kinetic theory of gasses",
+        "Physics of heat energy (Thermodynamics)",
+        "Wave optics",
+        "Nuclear fusion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Thermodynamics, the physics of heat and energy transfer, provides the concepts (like Gibbs Free Energy and Entropy) necessary to predict whether a reaction is energetically possible and its equilibrium state.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_85",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The ripple factor (γ) for a rectifier circuit is a measure of the:",
+      "options": [
+        "Rectification efficiency.",
+        "AC component in the DC output.",
+        "PIV of the diodes.",
+        "Ratio of DC to AC voltage."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The ripple factor is defined as the ratio of the RMS value of the AC components of the output voltage to the DC (average) component of the output voltage.\n\n A lower ripple factor indicates a smoother DC output.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_86",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "The mechanism by which the human body cools itself by sweating involves the phase change of water from liquid to gas. This is a process of:",
+      "options": [
+        "Evaporative cooling",
+        "Sublimation",
+        "Condensation",
+        "Convective heating"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "When sweat (liquid water) evaporates (turns into gas), it absorbs a large amount of latent heat from the skin, which is the process of **evaporative cooling**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_87",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "The **voltage gain** of an amplifier is 200. The power gain (A_p) of the amplifier if the input and output impedances are equal is:",
+      "options": [
+        "200",
+        "400",
+        "20,000",
+        "40,000"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Power gain A_p = (V_out/V_in)² × (R_in/R_out).\n\n If R_in = R_out, \nA_p = (V_out/V_in)² = (A_v)².\n A_p = 200² = 40,000.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_88",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "The most effective method to obtain extremely high gain from a transistor is to use a configuration known as:",
+      "options": [
+        "Common Base.",
+        "Single-stage Common Emitter.",
+        "Emitter Follower.",
+        "Cascaded Common Emitter stages."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "By connecting multiple Common Emitter amplifier stages in cascade (the output of one feeding the input of the next), the total gain becomes the product of the individual stage gains, yielding extremely high overall gain.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_89",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A transformer that decreases the voltage from the primary coil to the secondary coil is called a:",
+      "options": [
+        "Step-up transformer",
+        "Step-down transformer",
+        "Current transformer",
+        "Isolation transformer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A step-down transformer has fewer turns in its secondary coil than in its primary coil, resulting in a lower output voltage.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_90",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "A wheel starts from rest and rotates with a constant angular acceleration of 2 rad/s². The angular speed after 5 seconds is:",
+      "options": [
+        "10 rad/s",
+        "5 rad/s",
+        "2 rad/s",
+        "25 rad/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the kinematic equation: ω_f = ω_i + αt.\n ω_f = 0 + (2 rad/s²)(5 s)\n = 10 rad/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_91",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "If a step-up transformer has an output voltage of 100 V and an input voltage of 10 V, and the primary current is 5 A, what is the secondary current?",
+      "options": [
+        "50 A",
+        "5 A",
+        "0.5 A",
+        "10 A"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For an ideal transformer, V primary I primary = V secondary I secondary.\n I secondary = I primary x (V primary / V secondary).\n I secondary = 5 A x (10 V / 100 V) =\n 5 A x 0.1 = 0.5 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_92",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "If the number of turns in a solenoid is doubled while keeping the length and current constant, the magnetic field strength inside the solenoid:",
+      "options": [
+        "Remains the same",
+        "Is halved",
+        "Is doubled",
+        "Is quadrupled"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic field inside a solenoid is directly proportional to the number of turns per unit length (B is proportional to N/L).\n\n If N is doubled and L is constant, the field B is doubled.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_93",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The main component of the total energy per unit volume of a moving fluid that relates to its motion is the:",
+      "options": [
+        "Potential energy head (ρgh)",
+        "Pressure energy head (P)",
+        "Kinetic energy head (1/2ρv²)",
+        "Thermal energy"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Bernoulli's equation P + ρgh + 1/2ρv² = constant. \n\nThe term 1/2ρv² represents the kinetic energy per unit volume, which is directly dependent on the fluid's speed (v).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_94",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "A mass of 2 kg is whirled in a horizontal circle of radius 1.5 m by a string. If the angular speed is 4 rad/s, what is the tension in the string?",
+      "options": [
+        "12 N",
+        "24 N",
+        "32 N",
+        "48 N"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The tension (T) provides the centripetal force (F_c). \nF_c = mrω².\n T = (2 kg) * (1.5 m) * (4 rad/s)² =\n 2 * 1.5 * 16 =\n 48 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_95",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "27. Which one of the following is a correct relation of physics with medicine?",
+      "options": [
+        "Medicine is a branch of physics dealing with nuclear reaction.",
+        "Modern medical imaging instrument are developed with knowledge of medicine and later used by physics.",
+        "discipline called medical physics deals with principles of physics in medical diagnosis.",
+        "Physics is a branch of medicine that sets standards during medical diagnosis."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The discipline of **Medical Physics** (or Biomedical Physics) is specifically concerned with applying the principles and methods of physics (like nuclear, wave, and quantum mechanics) to the prevention, diagnosis, and treatment of human diseases. This includes the technology behind X-rays, MRI, ultrasound, and radiation therapy .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_96",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "If a river flows East at 3 m/s and a boat attempts to cross the river North at 4 m/s relative to the water, the speed of the boat relative to the ground is:",
+      "options": [
+        "1 m/s",
+        "5 m/s",
+        "7 m/s",
+        "12 m/s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_97",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "The output of an OR gate with inputs A=1 and B=1 is:",
+      "options": [
+        "0",
+        "1",
+        "Indeterminate",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For an OR gate, the output is high (1) if at least one input is high.\n\n Y = 1 + 1 = 1.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_98",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an example of laminar flow?",
+      "options": [
+        "Smoke rising from a fire.",
+        "Water rushing over a waterfall.",
+        "Blood flowing in a small capillary.",
+        "Rapids in a river."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Laminar flow is smooth and orderly.\n Blood flow in narrow capillaries is typically laminar. \nThe other options describe turbulent or highly complex flows.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_99",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Which law relates the integral of the magnetic field around a closed loop to the current passing through the loop?",
+      "options": [
+        "Faraday's Law",
+        "Lenz's Law",
+        "Ampere's Law",
+        "Biot-Savart Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ampere's Law relates the line integral of the magnetic field around a closed path to the total current passing through the enclosed area.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g12_merged_melmeja_100",
+      "examId": "p2018_g12_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "If the distance between the Earth and Moon is halved, the gravitational force between them will be:",
+      "options": [
+        "Halved.",
+        "Doubled.",
+        "Quadrupled (four times).",
+        "Quartered (one-fourth)."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Gravitational force F ∝ 1/r². \n\nIf r is halved (r/2), F' ∝ 1/(r/2)² = \n1/(r²/4) = 4/r².\n The force will be quadrupled.",
       "topic": "Physics"
     }
   ]

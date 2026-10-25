@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 9",
-  "description": "Grade 9 Mathematics National Exam & Practice 2014 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 2,
-  "passMarkPercent": 60,
+  "description": "Grade 9 Mathematics National Exam & Practice 2014 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -51,6 +51,1576 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "To simplify the expression, we **rationalize the denominator** by multiplying the numerator and the denominator by the conjugate of the denominator, which is $\\sqrt{3} + \\sqrt{2}$.\n$$\\frac{\\sqrt{3} + \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} \\times \\frac{\\sqrt{3} + \\sqrt{2}}{\\sqrt{3} + \\sqrt{2}}$$\n\n**Denominator (Difference of Squares):**\n$$(\\sqrt{3})^2 - (\\sqrt{2})^2 = 3 - 2 = 1$$\n\n**Numerator (Square of a Sum):**\n$$(\\sqrt{3} + \\sqrt{2})^2 = (\\sqrt{3})^2 + 2(\\sqrt{3})(\\sqrt{2}) + (\\sqrt{2})^2$$\n$$= 3 + 2\\sqrt{6} + 2$$\n$$= 5 + 2\\sqrt{6}$$\n\n**Result:**\n$$\\frac{5 + 2\\sqrt{6}}{1} = 5 + 2\\sqrt{6}$$\n\n**Note: The calculated answer is $5 + 2\\sqrt{6}$. Comparing this to the options, Option B is $5 + 2\\sqrt{3}$.** This suggests a typo where $\\sqrt{6}$ was incorrectly written as $\\sqrt{3}$ in the option, or the original expression was intended to be $\\frac{\\sqrt{5} + \\sqrt{3}}{\\sqrt{5} - \\sqrt{3}}$ (which gives $4 + \\sqrt{15}$) or similar. Given the close structure, we will assume Option B is the intended answer despite the typo $\\sqrt{6} \\to \\sqrt{3}$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_3",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "If n(A) = 3 and n(B) = 4, what is n(A × B)?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The number of elements in the Cartesian product A × B is the product of the number of elements in A and the number of elements in B.\n\n n(A × B) = n(A) × n(B) = 3 × 4 = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_4",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "In triangle ABC, right-angled at B, AC = 25, BC = 7. Find sin A.",
+      "options": [
+        "7/24",
+        "24/25",
+        "7/25",
+        "25/7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Relative to angle A, BC is the opposite side and AC is the hypotenuse.\n\n sin A = Opposite / Hypotenuse = BC / AC = 7/25.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_5",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set for |x - 4| < 0?",
+      "options": [
+        "x = 4",
+        "x < 4",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The absolute value of any expression is always greater than or equal to zero.\n\nIt can never be less than zero. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_6",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "In a right-angled triangle ABC, right-angled at B, if AB = 3 cm and BC = 4 cm, what is the length of AC?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "1 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the Pythagoras theorem, AC² = AB² + BC².\n\nSo, AC² = 3² + 4² = 9 + 16 = 25.\n Therefore, AC = √25 = 5 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_7",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "The set expression (A' ∪ B)' is equivalent to:",
+      "options": [
+        "∩ B'",
+        "A' ∩ B",
+        "∪ B'",
+        "∩ B"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using De Morgan's Law: (A' ∪ B)' = (A')' ∩ B' = A ∩ B'.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_8",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set for |x| < 3?",
+      "options": [
+        "x < 3",
+        "x > -3",
+        "-3 < x < 3",
+        "x < -3 or x > 3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The inequality |k| < c is equivalent to -c < k < c.\n\n So, |x| < 3 means -3 < x < 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_9",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the position vector of the point (a, b)?",
+      "options": [
+        "+ b",
+        "a/i + b/j",
+        "ai + bj",
+        "(b, a)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The position vector of a point (a, b) is the vector from the origin (0, 0) to (a, b), which is a i + b j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_10",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A rectangle has sides 8 cm and 6 cm. What is the sine of the angle the diagonal makes with the 8 cm side?",
+      "options": [
+        "6/10",
+        "8/10",
+        "6/8",
+        "8/6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_11",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which statement represents the domination law for intersection?",
+      "options": [
+        "∩ A = A",
+        "∩ U = A",
+        "∩ ∅ = ∅",
+        "∩ A' = ∅"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The empty set (∅) dominates intersection, because intersecting any set A with the empty set results in the empty set (A ∩ ∅ = ∅). ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_12",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "How many subsets does the set M = {x, y} have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A set with n elements has 2ⁿ subsets.\n Set M has 2 elements (n=2).\n\n Therefore, it has 2² = 4 subsets.The subsets are {}, {x}, {y}, {x, y}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_13",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "The solution to x² - 3x + 2 < 0 is:",
+      "options": [
+        "1 < x < 2",
+        "x < 1 or x > 2",
+        "x < -2 or x > -1",
+        "-2 < x < -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Factor: (x - 1)(x - 2) < 0. \nCritical points x=1, x=2. \nTesting intervals gives 1 < x < 2 as the solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_14",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "The solution to √(x + 3) = -1 is:",
+      "options": [
+        "1",
+        "-2",
+        "1 or -2",
+        "No solution"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The principal square root cannot be negative. No solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_15",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "If A and B are disjoint sets, what is A ∩ B?",
+      "options": [
+        "A",
+        "B",
+        "U",
+        "∅"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Disjoint sets are sets that have no elements in common.\n\nTheir intersection is the empty set (∅). ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_16",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "If 3^(2x - 1) = 1, then x is:",
+      "options": [
+        "1/2",
+        "1",
+        "0",
+        "-1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1 = 3⁰. 3^(2x - 1) = 3⁰.\n\n 2x - 1 = 0. 2x = 1. x = 1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_17",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "The notation {x | x ∈ ℕ and x < 5} is an example of which set description method?",
+      "options": [
+        "Roster method",
+        "Set builder method",
+        "Verbal method",
+        "Complete listing method"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The set builder method describes the elements by stating the property they must satisfy.\n\nThis notation reads 'the set of all x such that x is a natural number and x is less than 5'.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_18",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "The product of the roots of x² - (k + 1)x + 1 = 0 is 1. The sum of the roots is 3. What is k?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -(-(k + 1))/1 = k + 1.\n\n Given sum is 3. \nk + 1 = 3. \nk = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_19",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "If n(A) = 8 and n(B) = 5, what is the maximum possible value for n(A ∪ B)?",
+      "options": [
+        "5",
+        "8",
+        "13",
+        "40"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B). \n\nThe union is maximized when the intersection is minimized.\n\nThe minimum intersection occurs when the sets are disjoint, meaning n(A ∩ B) = 0.\n In this case, n(A ∪ B) = 8 + 5 - 0 = 13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_20",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If n(A) = 4, how many non-empty proper subsets does A have?",
+      "options": [
+        "16",
+        "15",
+        "14",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Total number of subsets is 2⁴ = 16.\n\n The number of proper subsets is 2⁴ - 1 = 15. \n\nNon-empty proper subsets exclude the empty set.\nSo, the number is 15 - 1 = 14.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_21",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "In a Venn diagram, the rectangle usually represents the:",
+      "options": [
+        "Intersection of sets",
+        "Union of sets",
+        "Complement of a set",
+        "Universal set"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The universal set (U) is typically represented by a rectangle in a Venn diagram, enclosing all other sets under consideration (usually shown as circles). [cite: 361, 366]",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_22",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Using the survey data from the previous question, how many like tea but not coffee?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "We want to find n(T - C). \n\nWe know n(T) = 50 and n(C ∩ T) = 30. \n\nThe number who like only tea is n(T) - n(C ∩ T) = 50 - 30 = 20.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_23",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Solve x² - 7x ≤ -6",
+      "options": [
+        "1 ≤ x ≤ 6",
+        "x ≤ 1 or x ≥ 6",
+        "-6 ≤ x ≤ -1",
+        "x ≤ -6 or x ≥ -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rearrange: x² - 7x + 6 ≤ 0. Factor: (x - 1)(x - 6) ≤ 0. Critical points are x=1, x=6.\nTesting intervals gives 1 ≤ x ≤ 6. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_24",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "The sign chart for the expression (x+1)(x-4) shows the expression is positive for x < -1, zero at x = -1, negative for -1 < x < 4, zero at x = 4, and positive for x > 4. What is the solution set for the inequality (x+1)(x-4) ≤ 0?",
+      "options": [
+        "[-1, 4]",
+        "(-∞, -1] U [4, ∞)",
+        "(-1, 4)",
+        "(-∞, -1) U (4, ∞)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_25",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Let U = {1, 2, 3, 4, 5, 6}. If A = {1, 3, 5} and B = {4, 5, 6}, find A' ∩ B.",
+      "options": [
+        "{4, 6}",
+        "{1, 3}",
+        "{2, 4, 6}",
+        "{2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A' = U - A = {2, 4, 6}.\n\n A' ∩ B = {2, 4, 6} ∩ {4, 5, 6} = \n{4, 6}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_26",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "If 7^(x - 3) = 7^(2x), the value of x is:",
+      "options": [
+        "3",
+        "-3",
+        "1",
+        "-1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equate the exponents: x - 3 = 2x.\n\n -3 = x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_27",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Let U = {1, 2, 3, 4, 5, 6, 7, 8}, A = {2, 4, 6, 8}, B = {1, 3, 5}. Which statement is false?",
+      "options": [
+        "⊆ U",
+        "⊂ U",
+        "∅ ⊂ A",
+        "U ⊆ A"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A is a subset (⊆) of U because all elements of A are in U.\n B is a proper subset (⊂) of U because all elements of B are in U, and B is not equal to U.\n\n The empty set (∅) is a proper subset of any non-empty set.\n\n U is not a subset of A because U contains elements (like 1, 3, 5, 7) that are not in A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_28",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which expression represents 'the sum of x and 2 is at least 9'?",
+      "options": [
+        "x + 2 > 9",
+        "x + 2 < 9",
+        "x + 2 ≥ 9",
+        "x + 2 ≤ 9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'At least' translates to 'greater than or equal to' (≥).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_29",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "If A = {1, 2} and B = {a, b}, what is A × B?",
+      "options": [
+        "{(1, a), (2, b)}",
+        "{(a, 1), (b, 2)}",
+        "{(1, a), (1, b), (2, a), (2, b)}",
+        "{(a, 1), (a, 2), (b, 1), (b, 2)}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Cartesian product (A × B) is the set of all ordered pairs (x, y) where x ∈ A and y ∈ B.\n\n A × B = {(1, a), (1, b), (2, a), (2, b)}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_30",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which number line correctly represents the solution x < 2?",
+      "options": [
+        "An open circle at 2, shaded to the right",
+        "closed circle at 2, shaded to the right",
+        "An open circle at 2, shaded to the left",
+        "closed circle at 2, shaded to the left"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The open circle indicates that 2 is not included, and the shading to the left represents all numbers less than 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_31",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: x² - 8x + 16 ≥ 0",
+      "options": [
+        "x = 4",
+        "x ≠ 4",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Factor: (x - 4)² ≥ 0. The square of any real number is always greater than or equal to zero. \n\nThis inequality is true for all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_32",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true if A ∆ B = ∅?",
+      "options": [
+        "= ∅",
+        "= ∅",
+        "= B",
+        "and B are disjoint"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A ∆ B = (A - B) ∪ (B - A).\n For this union to be empty, both (A - B) and (B - A) must be empty. \nA - B = ∅ means A ⊆ B.\n B - A = ∅ means B ⊆ A. \nIf A ⊆ B and B ⊆ A, then A must be equal to B. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_33",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "If A = {a, b, c} and B = {1, 2, 3}, which statement is true?",
+      "options": [
+        "= B",
+        "↔ B",
+        "⊆ B",
+        "⊂ A"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equal sets (=) have exactly the same elements.\n\n Equivalent sets (↔ or ~) have the same number of elements (cardinality). \n\nSet A and Set B have the same number of elements (n(A)=3, n(B)=3) but not the same elements.Therefore, they are equivalent but not equal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_34",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "What is the solution to 3x + 4(x - 1) = 3x - 10?",
+      "options": [
+        "-3/2",
+        "-3",
+        "3/2",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "3x + 4x - 4 = 3x - 10. 7x - 4 = 3x - 10.\n\n Subtract 3x and add 4: 4x = -6. x = -6/4 = -3/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_35",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "If tan A = 3/4, find sin A.",
+      "options": [
+        "3/5",
+        "4/5",
+        "4/3",
+        "5/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "If tan A = Opp/Adj = 3/4. \n\nHypotenuse = √(3²+4²) = 5.\n\n sin A = Opp/Hyp = 3/5. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_36",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Solve |x| = |x+1|",
+      "options": [
+        "x = -1/2",
+        "x = 1/2",
+        "No solution",
+        "All real numbers"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_37",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "A data set has a mean of 45. If each value in the set is increased by 5 and then multiplied by 2, what is the new mean?",
+      "options": [
+        "95",
+        "100",
+        "90",
+        "50"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The new mean is calculated by applying the transformation to the original mean: New Mean = (Original Mean + 5) times 2. \nNew Mean = (45 + 5) times 2 = 50 * 2 = 100.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_38",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "If u = (a, b) and v = (-a, -b), then u + v is:",
+      "options": [
+        "2u",
+        "The zero vector",
+        "(a² + b², 0)",
+        "(2a, 2b)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "u + v = (a + (-a), b + (-b)) =\n (0, 0), which is the zero vector.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_39",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": " Consider the following congruent triangles.\n\nWhich one of the following is true about the triangles?",
+      "imageUrl": "images/M2018_9.png",
+      "diagramUrl": "images/M2018_9.png",
+      "options": [
+        "‾BC ≡ ‾EF",
+        "‾AB ≡ ‾DE",
+        "‾EF ≡ ‾AC",
+        "‾DE ≡ ‾CB"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The angle markings show A ↔ F and B ↔ E, so the remaining vertices correspond as C ↔ D.\n\n Therefore, the corresponding sides are AB ↔ EF, BC ↔ ED, and AC ↔ FD.\n\n Hence, DE ≡ CB, which is option D.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_40",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Solve x² ≥ 9",
+      "options": [
+        "-3 ≤ x ≤ 3",
+        "x ≤ -3 or x ≥ 3",
+        "x ≥ 3",
+        "x ≤ -3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_41",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "The solution set of √(x² + 5) = 3 is:",
+      "options": [
+        "{2}",
+        "{-2}",
+        "{-2, 2}",
+        "{4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Square both sides: x² + 5 = 9.\n\n x² = 4. x = ±2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_42",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "The inequality absolute value of x - 1 is less than or equal to 3 is equivalent to the interval:",
+      "options": [
+        "(-infinity, 4]",
+        "[-2, 4]",
+        "[-4, 2]",
+        "(-2, 4)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The inequality is equivalent to -3 is less than or equal to x - 1 is less than or equal to 3.\n\n Adding 1 to all parts gives -2 is less than or equal to x is less than or equal to 4. In interval notation, this is [-2, 4].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_43",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "If x power 5 = 32, what is the value of x?",
+      "options": [
+        "2",
+        "5th root of 32",
+        "4",
+        "-2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Since 2 power 5 = 32, the value of x is 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_44",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "If √(x² - 3) = 1, the product of the solutions is:",
+      "options": [
+        "4",
+        "2",
+        "-4",
+        "-2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Square both sides: x² - 3 = 1. x² = 4. x = ±2.\n\n The solutions are 2 and -2.\n Product is 2 × (-2) = -4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_45",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "In a school, 20 teachers teach Math or Physics. 12 teach Math, 5 teach both. How many teach Physics?",
+      "options": [
+        "8",
+        "13",
+        "15",
+        "7"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let M be the set of Math teachers and P be the set of Physics teachers. \n\nn(M ∪ P) = 20, n(M) = 12, n(M ∩ P) = 5.\n\n Using the formula n(M ∪ P) = n(M) + n(P) - n(M ∩ P), we have 20 = 12 + n(P) - 5. So, 20 = 7 + n(P). \nTherefore, n(P) = 20 - 7 = 13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_46",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "A regular octagon has an apothem of 10 cm and a perimeter of 64 cm. Calculate its area.",
+      "options": [
+        "160 cm²",
+        "320 cm²",
+        "640 cm²",
+        "1280 cm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Area A = (1/2) * a * P = (1/2) * (10 cm) * (64 cm) =\n 320 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_47",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "What is the sum of the exterior angles of any convex polygon, taking one at each vertex?",
+      "options": [
+        "180°",
+        "(n - 2) * 180°",
+        "n * 180°",
+        "360°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For any n-sided convex polygon, the sum of the measure of exterior angles (one at each vertex) is always 360°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_48",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of an equilateral triangle is 24 units. What is its area?",
+      "options": [
+        "16 units²",
+        "16√3 units²",
+        "32 units²",
+        "32√3 units²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Side length s = P / 3 = 24 / 3 = 8 units.\n\n Area = (s²√3)/4 = (8²√3)/4 =\n (64√3)/4 = 16√3 units².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_49",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "If tan C ≈ 1.0000 according to a trigonometric table, what is the approximate value of angle C (to the nearest degree)?",
+      "options": [
+        "0°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Looking in the tangent column of a standard trigonometric table, the value 1.0000 corresponds to an angle of 45°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_50",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "The solution to 3x - [2x - 4(x - 1)] = 0 is:",
+      "options": [
+        "4/5",
+        "4/3",
+        "-4/5",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Simplify the inner bracket: 3x - [2x - 4x + 4] = 0. \n\n3x - [-2x + 4] = 0.\n 3x + 2x - 4 = 0. 5x = 4. \nx = 4/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_51",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which trigonometric ratio is undefined for 90°?",
+      "options": [
+        "sin 90°",
+        "cos 90°",
+        "tan 90°",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "tan θ = sin θ / cos θ. \n\nSince cos 90° = 0, division by zero occurs, making tan 90° undefined.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_52",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true regarding the sides of congruent triangles?",
+      "options": [
+        "The sides must be perpendicular.",
+        "The sides must be parallel.",
+        "The corresponding sides must be equal in length.",
+        "The corresponding sides must be proportional with a ratio of 2:1."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "By the definition of congruence, corresponding parts (including sides) must be equal in length.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_53",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If cos B = 0.8, find tan B.",
+      "options": [
+        "0.6",
+        "0.75",
+        "1.25",
+        "1.33"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_54",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "In right triangle ABC (right-angled at B), if AC = 10 and angle A = 60°, find AB.",
+      "options": [
+        "5",
+        "5√3",
+        "10√3",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "cos A = AB / AC. cos 60° = AB / 10. Since cos 60° = 1/2, we have 1/2 = AB / 10. Solving gives AB = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_55",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Calculate the sum of the interior angles of a convex hexagon.",
+      "options": [
+        "540°",
+        "720°",
+        "900°",
+        "1080°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A hexagon has 6 sides (n=6). \n\nUsing the formula (n - 2) * 180°, the sum is (6 - 2) * 180° = 4 * 180° = 720°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_56",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Consider U = {1, 2, ..., 10}, A = {even numbers in U}, B = {multiples of 3 in U}. Find (A - B)'.",
+      "options": [
+        "{2, 4, 8, 10}",
+        "{1, 3, 5, 6, 7, 9}",
+        "{6}",
+        "{1, 3, 5, 7, 9}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = {2, 4, 6, 8, 10}, B = {3, 6, 9}. A - B = {elements in A but not in B} = {2, 4, 8, 10}. \n\nThe complement (A - B)' = {elements in U but not in A - B} = {1, 3, 5, 6, 7, 9}. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_57",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The scalar value of a . a for a vector a = (-5, 12) is:",
+      "options": [
+        "13",
+        "169",
+        "144",
+        "25"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a . a = ||a||². ||a||² =\n (-5)² + 12² = \n25 + 144 =\n 169.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_58",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "If u = (1, 2), then the component of u in the direction of i is:",
+      "options": [
+        "i",
+        "j",
+        "2i",
+        "2j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The component of u in the direction of i is the projection of u onto i, which is its x-component (1, 0) or i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_59",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "A circle that is tangent to all sides of a polygon is called:",
+      "options": [
+        "Incircle",
+        "Circumcircle",
+        "Secant circle",
+        "Vertex circle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A circle tangent to all sides of a polygon is called an incircle.\n\nThe polygon is circumscribed about the circle.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_60",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "What is the remainder when 2 power 100 is divided by 3?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "100"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Consider the pattern of 2 power n divided by 3: 2 power 1 remainder 2, 2 power 2 remainder 1, 2 power 3 remainder 2, etc.\n\n Since 100 is an even exponent, the remainder is 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_61",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "If x = 1, y = -2 is the solution to ax + y = 0 and x + by = 5, the values of a and b are:",
+      "options": [
+        "a=2, b=2",
+        "a=2, b=-2",
+        "a=-2, b=2",
+        "a=-2, b=-2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Substitute (1, -2) into ax + y = 0: a(1) + (-2) = 0, so a = 2.\n\n Substitute (1, -2) into x + by = 5: 1 + b(-2) = 5, so 1 - 2b = 5, -2b = 4, b = -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_62",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the area of a square with side length 8 units?",
+      "options": [
+        "16 units²",
+        "32 units²",
+        "64 units²",
+        "128 units²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Area of a square = side * side = s² = 8² = 64 units².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_63",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: (x-1)/2 - (x+3)/4 > 1",
+      "options": [
+        "x > 9",
+        "x < 9",
+        "x > 5",
+        "x < 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_64",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Can a concave polygon be regular?",
+      "options": [
+        "Yes, always",
+        "Yes, if it has equal sides",
+        "Yes, if it has equal angles",
+        "No, never"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A regular polygon must be convex because all interior angles must be equal and less than 180°.\n\nConcave polygons have at least one interior angle greater than 180°. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_65",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which inequality represents 'x is at least 5'?",
+      "options": [
+        "x < 5",
+        "x ≤ 5",
+        "x > 5",
+        "x ≥ 5"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'At least' means greater than or equal to.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_66",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If a regular polygon has 15 sides, how many lines of symmetry does it have?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "30"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An n-sided regular polygon has n lines of symmetry. \n\nThus, a 15-sided regular polygon has 15 lines of symmetry.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_67",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Calculate the perimeter of a square with apothem 5 m.",
+      "options": [
+        "20 m",
+        "25 m",
+        "40 m",
+        "50 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a square, a = s/2 => s = 2a = 2 * 5 m = 10 m.\n\n Perimeter P = 4 * s = 4 * 10 m =\n 40 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_68",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Evaluate (sin 30°)² + (cos 30°)².",
+      "options": [
+        "1/2",
+        "1",
+        "2",
+        "3/4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_69",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A vector that is 3 times the length of u = (-1, 2) and in the opposite direction is:",
+      "options": [
+        "(3, -6)",
+        "(-3, 6)",
+        "(-3, -6)",
+        "(1/3, -2/3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The vector is -3u.\n -3u = -3(-1, 2) = \n(3, -6).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_70",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "The linear equation 2(x - 1) = 2x + k has no solution if k is:",
+      "options": [
+        "2",
+        "-2",
+        "Any real number except -2",
+        "0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Expand: 2x - 2 = 2x + k. Subtract 2x: -2 = k. If k = -2, there are infinitely many solutions. \n\nFor no solution, k must be any value other than -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_71",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The property a times b = b times a is called:",
+      "options": [
+        "Distributive Law",
+        "Associative Law",
+        "Commutative Law",
+        "Inverse Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is the commutative law of multiplication, which states that the order of the factors does not change the product.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_72",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "In the Venn diagram shown [Image needed: Venn Diagram with U, A, B, A∩B shaded], what does the shaded region represent?",
+      "options": [
+        "∪ B",
+        "∩ B",
+        "- B",
+        "A'"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The shaded region shows the elements that are common to both set A and set B, which represents the intersection A ∩ B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_73",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the minimum and sufficient condition for two triangles to be congruent?",
+      "options": [
+        "All corresponding angles are equal (AAA).",
+        "Two pairs of corresponding sides are equal (SS).",
+        "Two pairs of corresponding sides and the included angle are equal (SAS).",
+        "All pairs of corresponding sides and all pairs of corresponding angles are proportional."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The SAS (Side-Angle-Side) postulate is one of the four main postulates (SSS, SAS, ASA, AAS) that are necessary and sufficient to prove the congruence of two triangles.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_74",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "The solution to 2^(x - 1) = 4^(x + 3) is:",
+      "options": [
+        "-7",
+        "7",
+        "-5",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_75",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Given ΔPQR and ΔSTU. If PQ = ST, QR = TU, and PR = SU, what congruence postulate proves ΔPQR ≅ ΔSTU?",
+      "options": [
+        "SAS",
+        "ASA",
+        "AAS",
+        "SSS"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "When all three pairs of corresponding sides are equal, the triangles are congruent by the Side-Side-Side (SSS) postulate.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_76",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If a vector v has a magnitude of 1 and an x-component of 1, what must be its y-component?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "square root(2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "||v||² = x² + y². \n1² = 1² + y². \n1 = 1 + y². y² = 0.\n y = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_77",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The vector that is perpendicular to u = (2, 5) is:",
+      "options": [
+        "(5, 2)",
+        "(-5, 2)",
+        "(2, -5)",
+        "(-2, -5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For orthogonality, the dot product must be zero. (2, 5) .\n (x, y) = 2x + 5y = 0.\n Option (-5, 2): 2(-5) + 5(2) =\n -10 + 10 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_78",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of each interior angle of a regular 12-sided polygon (dodecagon)?",
+      "options": [
+        "140°",
+        "144°",
+        "150°",
+        "160°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sum = 1800°. \nEach angle = Sum / n =\n 1800° / 12 = 150°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_79",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "The graph of y ≤ -x + 2 would have:",
+      "options": [
+        "dashed line, shaded above",
+        "solid line, shaded above",
+        "dashed line, shaded below",
+        "solid line, shaded below"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The '≤' sign means the line y = -x + 2 is solid (included), and the 'less than' part means the region below the line is shaded. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_80",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "The sum of 7 and three times a number is less than or equal to 1. Which inequality represents this?",
+      "options": [
+        "7 + 3x ≤ 1",
+        "7 + 3x ≥ 1",
+        "3(7 + x) ≤ 1",
+        "7(3 + x) ≤ 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_81",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "If A = {a,b} and B = {1,2,3}, how many elements are in the Cartesian product BxA?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The number of elements in BxA is n(B) * n(A). \n\nn(B) = 3 and n(A) = 2. So, n(BxA) = 3 * 2 = 6. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_82",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "In right triangle PQR, right angled at R, if sin P = 5/13, find tan Q.",
+      "options": [
+        "5/12",
+        "12/13",
+        "12/5",
+        "13/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If sin P = Opp/Hyp = QR/PQ = 5/13. \n\nAdj side PR = √(13²-5²) = √144 = 12.\n Angle Q is complementary to P.\n\n tan Q = Opposite side (PR) / Adjacent side (QR) = 12/5. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_83",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Which vector is a unit vector orthogonal to u = (1, 1)?",
+      "options": [
+        "(1, 1)",
+        "(-1, 1)",
+        "(1/square root(2), -1/square root(2))",
+        "(1/2, -1/2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_84",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "If x/3 = 1/(x - 2), the sum of the roots is:",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "-3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cross-multiply: x(x - 2) = 3.\n\n x² - 2x - 3 = 0.\n\n Sum of roots = -b/a = -(-2)/1 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_85",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "If each interior angle of a regular polygon measures 144°, how many sides does it have?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let n be the number of sides. Each interior angle = [(n-2) * 180°] / n.\n\n So, 144 = (n-2)*180 / n => 144n = 180n - 360 => 360 = 36n => n = 10.\n\n Alternatively, each exterior angle = 180° - 144° = 36°.\n n = 360° / 36° = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_86",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A vertical pole is 8 m high. A wire is stretched from the top of the pole to a point on the ground 6 m from the base. What is the cosine of the angle the wire makes with the ground?",
+      "options": [
+        "6/8",
+        "8/10",
+        "6/10",
+        "8/6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_87",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Evaluate 1 / (2 power -2) + 2 power 2.",
+      "options": [
+        "4",
+        "8",
+        "1/8",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the negative exponent rule 1 / (a power -n) = a power n: 1 / (2 power -2) = 2 power 2 = 4. \n\nThe expression is 4 + 2 power 2 = 4 + 4 = 8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_88",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of a regular octagon is 96 meters. What is the length of each side?",
+      "options": [
+        "8 m",
+        "10 m",
+        "12 m",
+        "16 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An octagon has 8 sides. \n\nSide length s = Perimeter / n = 96 m / 8 = 12 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_89",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "If x² + 4x + 4 = 0, the product of the roots is:",
+      "options": [
+        "4",
+        "-4",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product of roots = c/a = 4/1 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_90",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The scalar k such that the vectors u = (3, -2) and v = (k, 4) are parallel is:",
+      "options": [
+        "-6",
+        "6",
+        "2/3",
+        "-2/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For parallel vectors, the components are proportional: 3/k = -2/4.\n  3/k = -1/2. \n -k = 6. \n k = -6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_91",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which of the following angle measures cannot be an interior angle of a regular polygon?",
+      "options": [
+        "60°",
+        "108°",
+        "150°",
+        "155°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "If Interior = 155°, Exterior = 180° - 155° = 25°.\n\n n = 360° / 25° = 14.4, which is not an integer. \n\nThe others correspond to n=3, n=5, n=12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_92",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The simplified form of square root of 45 - 2 square root of 5 is:",
+      "options": [
+        "square root of 5",
+        "3 square root of 5",
+        "5 square root of 5",
+        "- square root of 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Simplify square root of 45: square root of 45 = square root of (9 times 5) = 3 square root of 5. \n\nThe expression becomes 3 square root of 5 - 2 square root of 5 = (3 - 2) square root of 5 = square root of 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_93",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Solve |x+1| = |x-3|",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = -1",
+        "x = -2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_94",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Solve the exponential equation 3^(x + 1) = 1/9.",
+      "options": [
+        "-3",
+        "3",
+        "1",
+        "-1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1/9 = 3⁻². 3^(x + 1) = 3⁻².\n\n Set exponents equal: x + 1 = -2. x = -3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_95",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "For a regular polygon with an even number of sides, lines of symmetry connect:",
+      "options": [
+        "Vertex to vertex only",
+        "Midpoint of side to midpoint of opposite side only",
+        "Both vertex to opposite vertex AND midpoint of side to midpoint of opposite side",
+        "Vertex to midpoint of adjacent side"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If n is even, the lines of symmetry connect opposite vertices and the midpoints of opposite sides.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_96",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "What is the name of the line segment from the center of a regular polygon perpendicular to one of its sides?",
+      "options": [
+        "Radius",
+        "Diagonal",
+        "Apothem",
+        "Altitude"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The line segment from the center perpendicular to the sides of a regular polygon is called an apothem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_97",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "If A = {x | x ∈ 𝕎, x < 4} and B = {x | x ∈ ℕ, x ≤ 2}, find A ∪ B.",
+      "options": [
+        "{0, 1, 2}",
+        "{1, 2}",
+        "{0, 1, 2, 3}",
+        "{0, 1, 2, 3, ...}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "First, list the sets: A = {0, 1, 2, 3} (Whole numbers less than 4) and B = {1, 2} (Natural numbers less than or equal to 2).\n\n The union contains all elements from both sets without repetition.\nA ∪ B = {0, 1, 2, 3}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_98",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "If vector u = (3, 4) and v = (4, -3), then u . v is:",
+      "options": [
+        "25",
+        "0",
+        "7",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "u . v = \n(3)(4) + (4)(-3) = 12 - 12 = 0.\n The vectors are orthogonal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_99",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The solution set of √x + √4 = 5 is:",
+      "options": [
+        "{3}",
+        "{9}",
+        "{1}",
+        "{25}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "√x + 2 = 5. √x = 3. \n\nSquare both sides: x = 3² = 9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg9u1_melmeja_100",
+      "examId": "m2014_socialg9u1_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The number 1 times 10 power 0 is:",
+      "options": [
+        "10",
+        "1",
+        "0",
+        "Not a real number"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Any non-zero real number raised to the power of 0 is 1.\n Thus, 1 times 10 power 0 = 1 times 1 = 1.",
       "topic": "Mathematics"
     }
   ]

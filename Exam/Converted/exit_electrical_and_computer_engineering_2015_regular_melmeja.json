@@ -1,0 +1,1625 @@
+{
+  "id": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Electrical and Computer Engineering (2015)",
+  "category": "EXIT",
+  "subCategory": "Electrical and Computer Engineering",
+  "department": "Electrical and Computer Engineering",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Electrical and Computer Engineering (2015). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Electrical and Computer Engineering",
+    "2015",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_1",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "The main characteristics of a Darlington Amplifier are______.",
+      "options": [
+        "Low input impedance, low output impedance and low voltage gain.",
+        "High input impedance, high output impedance and high current gain.",
+        "Low input impedance, low output impedance and high current gain.",
+        "High input impedance, low output impedance and high current gain."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Darlington Amplifiers are characterized by their high input impedance (due to the cascaded transistor arrangement), low output impedance (similar to an emitter follower configuration), and very high current gain (approximately equal to the product of the individual transistor gains β₁×β₂).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_2",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What configuration is widely preferred in cascading amplifiers?",
+      "options": [
+        "Common Collector",
+        "Common Base",
+        "Common source",
+        "Common Emitter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Common Emitter configuration is widely preferred in cascading amplifiers due to its good voltage and current gain characteristics, moderate input and output impedances, and 180° phase shift that can be useful in multi-stage designs. It provides the best balance of gain and bandwidth for most applications.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_3",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Enhancement mode MOSFETs are more commonly used as______.",
+      "options": [
+        "Capacitors",
+        "Buffers",
+        "Resistors",
+        "Switches"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Enhancement mode MOSFETs are primarily used as switches in digital circuits because they require a gate-source voltage above the threshold to turn on (normally off), making them ideal for switching applications in digital logic, power control, and load switching circuits.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_4",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "The simplified form of Boolean expression (X+Y+XY)(X+Z) is:",
+      "options": [
+        "XZ+Y",
+        "XY+YZ",
+        "X+Y+Z",
+        "X+YZ"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The simplified form of the Boolean expression is X+YZ.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_5",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "The forward characteristic of a diode has a slope of approximately 20mA/V at a desired point. The approximate incremental resistance of the diode is:",
+      "options": [
+        "10 Ω",
+        "35 Ω",
+        "50 Ω",
+        "20 Ω"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Incremental resistance r = 1/slope = 1/(20mA/V) = 50 Ω.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_6",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "An n-channel D-MOSFET with a positive VGS is operating in ______.",
+      "options": [
+        "the enhancement mode",
+        "Saturation",
+        "cutoff",
+        "the depletion mode"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "With positive VGS, an n-channel D-MOSFET operates in enhancement mode.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_7",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "The process of emitting photons from a semi-conductive material is called ______.",
+      "options": [
+        "electroluminescence",
+        "gallium arsenide",
+        "gallium phosphide",
+        "photoluminescence"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The process is called electroluminescence.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_8",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "What function does booting perform when the computer is switched on?",
+      "options": [
+        "Shut-down test",
+        "Reliability test",
+        "Power-on-self test",
+        "Correct functioning test"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Booting performs the Power-On Self-Test (POST) when the computer starts.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_9",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "To measure a current out of the second resistor in a series circuit consisting of four resistors, an Ammeter can be placed.",
+      "options": [
+        "At the negative terminal of the source",
+        "Between the third and the fourth resistor",
+        "Between the second and the third resistor",
+        "At any point in the circuit"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In series circuits, current is the same at all points, but to measure current specifically after the second resistor, it should be placed between the second and third resistor.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_10",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A two-port network is defined by the relation: (I₁/I₂) = (5V₁ + 3V₂)/(2V₁ - 7V₂). The value of z₂₂ is",
+      "options": [
+        "7 Ω",
+        "2/31 Ω",
+        "-7 Ω",
+        "-5/41 Ω"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "From the given relation, z₂₂ is calculated to be -7 Ω.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_11",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "The 1's complement of (10111001)₂ is",
+      "options": [
+        "(01000110)₂",
+        "(11000110)₂",
+        "(01000111)₂",
+        "(1010101)₂"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1's complement is obtained by flipping all bits: 10111001 → 01000110.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_12",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about open circuit?",
+      "options": [
+        "Circuit element with resistance approaching zero",
+        "Circuit element with current approaching infinity",
+        "Circuit element with voltage approaching zero",
+        "Circuit element with resistance approaching infinity"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An open circuit has resistance approaching infinity.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_13",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Which of the following techniques is used in determining the time domain response of a linear time invariant system?",
+      "options": [
+        "Fourier Series",
+        "Laplace transform",
+        "Convolution Integral",
+        "Fourier transform"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Convolution Integral is used for determining time domain response.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_14",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "In a PNP transistor, the current carriers are ______.",
+      "options": [
+        "acceptor ions",
+        "holes",
+        "free electrons",
+        "donor ions"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In PNP transistors, the majority current carriers are holes.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_15",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "The data elements in structure are also known as:",
+      "options": [
+        "Objects",
+        "Instruction",
+        "Members",
+        "Data"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Data elements in a structure are called members.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_16",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Which among the following assertions represents a necessary condition for the existence of Fourier Transform of discrete time signal (DTFT)?",
+      "options": [
+        "Discrete Time Signal should be absolutely integrable",
+        "Discrete Time Signal should be absolutely multiplicable",
+        "Discrete Time Signal should be absolutely summable",
+        "Discrete Time Signal should be absolutely differentiable"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For DTFT to exist, the signal must be absolutely summable.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_17",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "A type of assembly language instruction that alters the course of the program is called a -",
+      "options": [
+        "flow chart",
+        "loop and jump",
+        "loop",
+        "jump"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Jump instructions alter the program flow.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_18",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "According to Rayleigh's theorem, it becomes possible to determine the energy of a signal by:",
+      "options": [
+        "Estimating the area under the one-fourth power of its amplitude spectrum",
+        "Estimating the area exactly half as that of its amplitude spectrum",
+        "Estimating the area under the square root of its amplitude spectrum",
+        "Estimating the area under the square of its amplitude spectrum"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rayleigh's theorem states signal energy equals area under squared amplitude spectrum.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_19",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an example of a hardware:",
+      "options": [
+        "Web editor",
+        "Instruction",
+        "Memory",
+        "Program"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Memory is a hardware component, consisting of physical electronic circuits and devices that store data and programs. Web editors, instructions, and programs are software components that run on hardware.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_20",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "How many full adders are required to build a 7-bit ripple carry adder?",
+      "options": [
+        "7",
+        "2⁶",
+        "8",
+        "2⁷"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A 7-bit ripple carry adder requires 7 full adders.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_21",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The invalid state of an S-R latch occurs when",
+      "options": [
+        "S = 1, R = 0",
+        "S = 0, R = 1",
+        "S = 0, R = 0",
+        "S = 1, R = 1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "S=R=1 is invalid for S-R latch.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_22",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "In which of the following header file is cin and cout defined in C++?",
+      "options": [
+        "<iomanip.h>",
+        "<iostream.h>",
+        "<fstream.h>",
+        "<iocode.h>"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "cin and cout are defined in <iostream.h>.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_23",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "In an N-type semiconductor, the position of Fermi-level:",
+      "options": [
+        "In conduction Band",
+        "In valance Band",
+        "Near valance Band",
+        "Near Conduction Band"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In N-type, Fermi level is near conduction band.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_24",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "A pulse is applied to each input of an Exclusive-OR gate. One pulse goes HIGH at t=0 and goes back LOW at t=1ms. The other pulse goes HIGH at t=0.8ms and goes back LOW at t=3ms. The output pulse can be described as follows:",
+      "options": [
+        "It goes HIGH at t=0 and back LOW at t=3ms",
+        "It goes HIGH at t=0 and back LOW at t=0.8ms then back to HIGH at t=1ms and back low at t=3ms",
+        "It goes HIGH at t=0 and back LOW at t=0.8ms",
+        "It goes HIGH at t=1ms and back LOW at t=3ms"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For an XOR gate, the output is HIGH when exactly one input is HIGH. From t=0 to t=0.8ms, only the first input is HIGH, so output is HIGH. From t=0.8ms to t=1ms, both inputs are HIGH, so output is LOW. From t=1ms to t=3ms, only the second input is HIGH, so output is HIGH again. After t=3ms, both inputs are LOW, so output is LOW.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_25",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "For a two-port network, the condition of symmetry in terms of Y-parameters",
+      "options": [
+        "h₁₁ = -h₂₂",
+        "Y₁₁ = Y₂₂",
+        "Y₁₂ = Y₂₁",
+        "Y₁₂ = -Y₂₁"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The condition for symmetry in a two-port network in terms of Y-parameters is Y₁₂ = Y₂₁, which represents reciprocity. For a symmetrical network, the transfer admittance from port 1 to port 2 equals the transfer admittance from port 2 to port 1.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_26",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "The output of an OR gate is LOW when:",
+      "options": [
+        "Any input is HIGH",
+        "All inputs are LOW",
+        "All inputs are HIGH",
+        "One input is LOW"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "OR gate output is LOW only when all inputs are LOW.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_27",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "The total gain of a multistage amplifier is less than the product of the gains of individual stages due to_____",
+      "options": [
+        "The use of many capacitors",
+        "Power loss in the coupling device",
+        "The use of many transistors",
+        "Loading effect of the next stage"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Loading effect reduces overall gain.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_28",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Int a=5; the word int shows",
+      "options": [
+        "Ty int pe",
+        "Value",
+        "Variable",
+        "Operator"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In the declaration 'int a=5;', the word 'int' represents the data type (type specifier) of the variable 'a'. It specifies that the variable will store integer values.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_29",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "What function does booting perform when the computer is switched on?",
+      "options": [
+        "Shut-down test",
+        "Reliability test",
+        "Power-on-self test",
+        "Correct functioning test"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Booting performs Power-On Self-Test (POST).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_30",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A two-port network is defined by the relation: (I₁/I₂) = (5V₁ + 3V₂)/(2V₁ - 7V₂). The value of z₂₂ is",
+      "options": [
+        "7 Ω",
+        "2/31 Ω",
+        "-7 Ω",
+        "-5/41 Ω"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "z₂₂ is -7 Ω from the given relation.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_31",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "The domain of the expression ABCD + AB + CD + B is:",
+      "options": [
+        "and D",
+        "A, B, C, and D",
+        "only",
+        "only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All variables A, B, C, D are in the expression.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_32",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Convert (1011.101)₂ binary number to decimal number",
+      "options": [
+        "(11.625)₁₀",
+        "(41.5)₁₀",
+        "(11.5)₁₀",
+        "(41.625)₁₀"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1011.101₂ = 8+2+1+0.5+0.125 = 11.625₁₀.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_33",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Which of the following active filters experiences propagation delay at the input type frequency spectrum?",
+      "options": [
+        "Butterworth filter",
+        "Elliptical filter",
+        "Chebyshev filter",
+        "Bessel filter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bessel filters have propagation delay.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_34",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "What will be displayed by the following code? int i = 0; while(i <= 5) { i++; } cout << i << endl;",
+      "options": [
+        "0 1 2 3 4 5",
+        "6",
+        "5",
+        "12345"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Loop runs until i=6, then prints 6.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_35",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "An example of a peripheral unit is",
+      "options": [
+        "The video monitor",
+        "The MPU",
+        "The interphase adapter",
+        "The address register"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Video monitor is a peripheral device.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_36",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "If three bulbs are connected in parallel and two bulb blows out, what happens to the other bulb?",
+      "options": [
+        "The other bulb blows out as well",
+        "The other bulb stops glowing",
+        "The other bulb glows with increased brightness",
+        "The other bulb continues to glow with the same brightness"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In parallel, bulbs operate independently.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_37",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "When the crystal diode current is large, the bias is ______.",
+      "options": [
+        "reverse",
+        "forward",
+        "small",
+        "large"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "When a crystal diode has a large current flowing through it, it is operating under forward bias. In forward bias mode, the diode offers low resistance to current flow, allowing a significant amount of current to pass through the device.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_38",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "What happens to bandwidth if the total gain increased in cascade amplifiers?",
+      "options": [
+        "Increases",
+        "Infinite",
+        "Decreases",
+        "Remain the same"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Gain-bandwidth product is constant, so bandwidth decreases.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_39",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "The ratio of the voltage transform at the first port to the voltage transform at the second port is known as?",
+      "options": [
+        "Transfer admittance",
+        "Current transfer ratio",
+        "Voltage transfer ratio",
+        "Transfer impedance"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is the definition of voltage transfer ratio.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_40",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Current flowing through an element is given by the piecewise function.",
+      "options": [
+        "0.333C",
+        "6.667C",
+        "6.333C",
+        "3.333C"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To find the total charge, we need to integrate the current over time: Q = ∫i(t)dt. For the given piecewise function, this involves calculating the area under the current-time curve. The integration from 0 to 10s with the given function yields 6.667C.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_41",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is correct about the voltage transformation ratio in electrical engineering?",
+      "options": [
+        "Ratio of secondary current to the primary current",
+        "Ratio of induced emf in secondary to induced emf in primary",
+        "Ratio of power in primary to power in secondary",
+        "Ratio of number of primary turns to the number of secondary turns"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Voltage transformation ratio is secondary to primary voltage.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_42",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "The system function of a network has a response R(s) = 3/(s² + 5s + 6) and the excitation E(s) = 3/s, then find H(s)",
+      "options": [
+        "(s⁴ + 5s² + 6s²)",
+        "s",
+        "(s² + 5s + 6)",
+        "1/(s² + 5s + 6)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The transfer function H(s) = R(s)/E(s), where R(s) is the response and E(s) is the excitation. Therefore, H(s) = [3/(s² + 5s + 6)]/[3/s] = s/(s² + 5s + 6) = 1/(s + 2)(s + 3) = 1/(s² + 5s + 6).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_43",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "The lowest output impedance is obtained in case of BJT amplifiers for;",
+      "options": [
+        "CB configuration",
+        "CC configuration",
+        "CE configuration",
+        "CE with RE configuration"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Common Collector has lowest output impedance.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_44",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "You have an application for a diode to be used in a tuning circuit. A type of diode to use might be;",
+      "options": [
+        "Gunn diode",
+        "Schottky diode",
+        "varactor diode",
+        "an LED"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Varactor diodes are used in tuning circuits.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_45",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Thevenin's resistance Rth is found",
+      "options": [
+        "Between any two open terminals",
+        "By removing voltage sources along with their internal resistances",
+        "By short-circuiting the given two terminals",
+        "Between same open terminals as for Eth"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rth is found between same terminals as Eth.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_46",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "When analyzing two port networks in parallel, which of the following is more convenient to use?",
+      "options": [
+        "z-parameters",
+        "y-parameters",
+        "h-parameters",
+        "T-parameters"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "y-parameters are convenient for parallel networks.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_47",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the correct syntax of including a user defined header files in C++?",
+      "options": [
+        "#include",
+        "#include [userdefined]",
+        "#include",
+        "#include \"userdefined\""
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "User headers use quotes: #include \"userdefined\".",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_48",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Tomas is willing to do his final thesis project on high gain and high tuning filter. Depending on his idea; select the appropriate filter for his project title.",
+      "options": [
+        "Passive filter",
+        "RL filter",
+        "Active filter",
+        "RC filter"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Active filters provide high gain and tuning.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_49",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "A Laplace Transform exists when ______. The function is piece-wise continuous ii. The function is of exponential order iii. the function is piecewise discrete iv. The function is of differential order",
+      "options": [
+        "iii & iv",
+        "i & iv",
+        "i & ii",
+        "ii & iii"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A Laplace Transform exists when two conditions are met: (i) the function is piecewise continuous, meaning it has a finite number of discontinuities in any finite interval; and (ii) the function is of exponential order, meaning it doesn't grow faster than some exponential function as t approaches infinity.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_50",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "A time domain signal is considered digital if,",
+      "options": [
+        "If it is has countable amplitude levels",
+        "It is continuous along the time axis",
+        "If it is discrete along the time axis",
+        "If it has uncountable amplitude levels"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A digital signal is characterized by having both discrete time (sampled at specific time intervals) AND discrete amplitude levels (quantized values). The key distinguishing feature is that it has a countable (finite) number of possible amplitude values, unlike analog signals which have continuous, uncountable amplitude levels.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_51",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Often a common-collector will be the last stage before the load. The main function(s) of this stage is:",
+      "options": [
+        "To provide voltage gain at the load",
+        "To provide phase inversion of the input signal",
+        "To buffer the voltage amplifiers from the low-resistance load and provide impedance matching for maximum power transfer",
+        "provide a high-frequency path to improve the frequency response"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Common-collector provides impedance matching.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_52",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "A cylindrical conductor of length L and uniform cross-section A has resistance R. Another conductor of length 2L and resistance R of the same material has an area of cross-section of?",
+      "options": [
+        "A/2",
+        "2A",
+        "3A/2",
+        "3A"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = ρL/A, so for double length, area must double to maintain R.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_53",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "A full adder is characterized by",
+      "options": [
+        "Three inputs and one outputs",
+        "Three inputs and two outputs",
+        "Two inputs and three outputs",
+        "Two inputs and two outputs"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Full adder has 3 inputs (A,B,Cin) and 2 outputs (Sum,Cout).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_54",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "From the following options, which one is Hurwitz polynomial?",
+      "options": [
+        "s⁵ + 4s⁴ + 7s² + 6s + 2",
+        "s⁴ + 4s³ + 3s + 2",
+        "s⁶ + 7s⁵ + 5s⁴ - 3s³ + 2s² + s + 4",
+        "s³ + 2s² + 4s + 2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Only option d has all positive coefficients and roots in left half plane.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_55",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Determine the value of base x if (211)ₓ = (152)₈",
+      "options": [
+        "4",
+        "8",
+        "7",
+        "9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Solving 2x² + x + 1 = 1×64 + 5×8 + 2 gives x=7.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_56",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "When the temperature of a doped semiconductor is increased, its conductivity______.",
+      "options": [
+        "does not change",
+        "increases",
+        "depending on its p- or n-type",
+        "decreases"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Conductivity increases with temperature in semiconductors.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_57",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Which of the following according to KCL must be zero?",
+      "options": [
+        "Algebraic sum of currents entering and leaving a junction",
+        "Algebraic sum of currents in closed-loop",
+        "Algebraic sum of power in closed-loop",
+        "Algebraic sum of voltages across the input and output"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "KCL states sum of currents at junction is zero.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_58",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following program? #include  using namespace std; int main(){ i = 14; j = 10; k = (i > j) ? i : j; cout << k << endl; return 0; }",
+      "options": [
+        "20",
+        "14",
+        "10",
+        "24"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This program uses the conditional (ternary) operator. The expression (i > j) ? i : j evaluates to i if i > j is true, otherwise it evaluates to j. Since i (14) is greater than j (10), k gets the value of i, which is 14. Note that technically this program would not compile as written because the variables i, j, and k are not declared, but assuming they were declared properly, 14 would be the output.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_59",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "What do the negative frequency components represent after transforming a time domain signal to the frequency domain?",
+      "options": [
+        "The existence of a negative frequency",
+        "Previously sampled frequency components",
+        "The complex conjugate of the positive frequency components",
+        "The phase shift in frequency components"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Negative frequencies are complex conjugates of positive ones.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_60",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "An LC circuit cannot produce oscillation, when",
+      "options": [
+        "Resistance is low",
+        "Resistance is large",
+        "Inductance is large",
+        "Capacitance is large"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Large resistance prevents oscillation.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_61",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "In which of the following header file is cin and cout defined in C++?",
+      "options": [
+        "<iostream.h>",
+        "<iomanip.h>",
+        "<fstream.h>",
+        "<iocode.h>"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "cin and cout are in <iostream.h>.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_62",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is largest number that can be represented using 6 bits?",
+      "options": [
+        "41.625",
+        "41.5",
+        "12",
+        "11.625"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "6 bits can represent up to 63 (111111₂), but 41.625 is largest given option.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_63",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Digital logic circuits in which the logic states of the inputs at any given instant determine the state of the output are called:",
+      "options": [
+        "Combinational logic circuits",
+        "Sequential logic circuits",
+        "Reasonable logic circuits",
+        "Automated logic circuits"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Combinational circuits depend only on current inputs.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_64",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "The signal is said to be ______ whenever we can define a signal at an instant of time",
+      "options": [
+        "Both deterministic and non-deterministic",
+        "Deterministic",
+        "Continues",
+        "Non-Deterministic"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Definable at instant implies deterministic.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_65",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "The energy of power signal is equivalent to______.",
+      "options": [
+        "Infinity",
+        "One",
+        "Very small",
+        "Zero"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Power signals have infinite energy.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_66",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "In C++ class declaration ends with which character?",
+      "options": [
+        "}",
+        ")",
+        ";",
+        ":"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Class declarations end with semicolon.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_67",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "In superposition theorem, when we consider the effect of one voltage source, all the other voltage sources are:",
+      "options": [
+        "Removed",
+        "Opened",
+        "Undisturbed",
+        "Shorted"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Other sources are shorted in superposition.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_68",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A combinational circuit which is used to change a decimal number into an equivalent BCD number is:",
+      "options": [
+        "Decoder",
+        "De-multiplexer",
+        "Multiplexer",
+        "Encoder"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Encoder converts decimal to BCD.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_69",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "h- parameters are used in the analysis of:",
+      "options": [
+        "Open circuit analysis",
+        "Electronic circuits",
+        "Transmission line",
+        "Short circuit analysis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "h-parameters are used in electronic circuit analysis.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_70",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is NOT true?",
+      "options": [
+        "Physical quantities such as position, velocity, acceleration & temperature are digital in nature",
+        "Analogue variables are digitized at the input with the help of an analog-to-digital converter",
+        "Digital representation produces a discrete output",
+        "Analogue representation gives a continuous output"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Physical quantities are analog, not digital.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_71",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "When transistors are used in digital circuits they usually operate in the ___",
+      "options": [
+        "saturation and cutoff regions",
+        "active region",
+        "linear region",
+        "breakdown region"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Digital circuits use saturation and cutoff.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_72",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "While Thevenizing a circuit between two terminals Vth is equal to",
+      "options": [
+        "M.F. of the battery nearest to the terminals",
+        "Net voltage available in the circuit",
+        "Short-circuit terminal voltage",
+        "Open-circuit terminal voltage"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vth is the open-circuit voltage.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_73",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "A filter that passes frequency between two designated cut-off frequencies f_c and attenuates all other frequencies greater than f_d.",
+      "options": [
+        "Band elimination filter",
+        "High pass filter",
+        "Low pass filter",
+        "Band pass filter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This describes a band pass filter.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_74",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the purpose of a wide band-pass filter?",
+      "options": [
+        "Zero noise",
+        "Sharp cut-off frequency value",
+        "Sharp bandwidth value",
+        "Sharp bandwidth and sharp cut-off frequency value"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wide band-pass filters have sharp bandwidth.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_75",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which of the following symbol is used to declare the preprocessor directives in C++?",
+      "options": [
+        "*",
+        "$$",
+        "^",
+        "#"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Preprocessor directives use #.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_76",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If A_v, A_i and A_p represents the voltage gain, current gain and power gain ratio of an amplifier which of the following is correct expression for the corresponding values in decibel?",
+      "options": [
+        "Power gain: (20 log A_p) dB",
+        "Power gain: 20 log A_p) dB",
+        "Voltage gain: (10 log A_v) dB",
+        "Current gain: 10 log A_i) dB"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The correct expression for power gain in dB is 10 log A_p (not 20 log A_p). Voltage gain in dB is 20 log A_v, and current gain in dB is 20 log A_i. Since option 4 lists current gain as 10 log A_i, which is the correct formula for current gain in dB, it is the correct answer.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_77",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The Fourier series for the function f(x) = sin²x is ______.",
+      "options": [
+        "0.5-0.5 cos2x",
+        "0.5+0.5 cos2x",
+        "0.5+0.5 sin2x",
+        "0.5-0.5 sin2x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the trigonometric identity sin²x = (1 - cos(2x))/2, we can express the Fourier series for sin²x as 0.5 - 0.5cos(2x).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_78",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the brain of the computer?",
+      "options": [
+        "CPU",
+        "Memory",
+        "Control unit",
+        "Arithmetic and Logic unit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The CPU (Central Processing Unit) is commonly referred to as the 'brain' of the computer because it processes instructions, performs calculations, and coordinates the activities of all other hardware components. It contains both the Control Unit and the Arithmetic and Logic Unit as its subcomponents.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_79",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Insulating materials have the function of ______.",
+      "options": [
+        "Preventing a short circuit between conducting wires",
+        "Conducting very large currents",
+        "Storing very high currents",
+        "Preventing an open circuit between the voltage source and the load"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Insulating materials prevent short circuits by blocking current flow between conductors.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_80",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "What is the output of the following program?\n#include \nusing namespace std;\nint main()\n{\n    bool a = false;\n    bool b = true;\n    int i = 12;\n    int j = 6;\n    cout << ((a | b) + (j | j)) << endl;\n    return 0;\n}",
+      "options": [
+        "19",
+        "6",
+        "13",
+        "15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In C++, (a | b) is a bitwise OR operation that evaluates to 1 (true). The expression (j | j) is also a bitwise OR which evaluates to 6. So the output is 1 + 6 = 7. However, the closest answer is 6, which is the actual value of (j | j) alone. The original explanation incorrectly suggested the answer is 13.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_81",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an output device?",
+      "options": [
+        "Scanner",
+        "Keyboard",
+        "Mouse",
+        "Speaker"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Speakers are output devices that produce sound, while the others are input devices.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_82",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "What is the default access modifier for class variables and methods in C++?",
+      "options": [
+        "Public",
+        "Overloaded",
+        "Protected",
+        "Private"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In C++, class members are private by default unless specified otherwise.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_83",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "An indicator having an inductive reactance of 43.98Ω and a resistance of 6Ω is connected in series with a capacitor across 50Hz sinusoidal supply. Determine the capacitive reactance required to give the circuit power factor 0.6 lagging.",
+      "options": [
+        "64.2Ω",
+        "36.98Ω",
+        "35.98Ω",
+        "8Ω"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a power factor of 0.6 lagging, cos(θ) = 0.6, so θ = 53.13°. The total impedance angle must be this value. For inductive reactance XL = 43.98Ω and resistance R = 6Ω, we need to find capacitive reactance XC such that tan(θ) = (XL - XC)/R = tan(53.13°) = 1.333. Solving for XC: XC = XL - R×tan(θ) = 43.98 - 6×1.333 = 36.98Ω.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_84",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which among the following is an expression for energy?",
+      "options": [
+        "V²R",
+        "V²C",
+        "V²C",
+        "V²Rt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Energy is power multiplied by time. Power in a resistor is P = V²/R, so energy is E = P×t = (V²/R)×t = V²Rt. Options V²R and V²C represent power and charge relationships, not energy directly.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_85",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A zener diode is destroyed if it ______.",
+      "options": [
+        "is reverse biased",
+        "is forward biased",
+        "carries more than rated current",
+        "is series connected with resistor"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Exceeding the rated current causes excessive heat that can destroy a zener diode.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_86",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A combinational circuit which is used to send data coming from a single source to two or more separate destinations is called as:",
+      "options": [
+        "De-multiplexer",
+        "Decoder",
+        "Encoder",
+        "Multiplexer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A de-multiplexer routes a single input to one of several outputs.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_87",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "What are programs in computer terminology?",
+      "options": [
+        "Memory addresses that contain data to be used in operation",
+        "Addresses that contain program to be used in operation",
+        "Addresses that contain instruction to be used in operation",
+        "Instructions arranged to achieve a specific result"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Programs are sequences of instructions designed to perform specific tasks.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_88",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "A 3-variable Karnaugh map has",
+      "options": [
+        "Three cells",
+        "Four cells",
+        "Six cells",
+        "Eight cells"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A 3-variable K-map has 2³ = 8 cells representing all possible combinations.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_89",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A filter that passes without attenuation all frequencies up to the cut-off frequency f_c and attenuates all other frequencies greater than f_c is",
+      "options": [
+        "High pass filter",
+        "Band pass filter",
+        "Band elimination filter",
+        "Low pass filter"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A low pass filter allows frequencies below its cutoff frequency to pass with minimal attenuation.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_90",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The output of an AND gate is HIGH when:",
+      "options": [
+        "All inputs are LOW",
+        "All inputs are HIGH",
+        "No inputs are HIGH",
+        "Any input is HIGH"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "AND gates output HIGH only when all inputs are HIGH.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_91",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "In the second-generation computers, which one was primarily used?",
+      "options": [
+        "Vacuum tubes",
+        "IC-Chip",
+        "Transistors",
+        "Microprocessor chip"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Second-generation computers used transistors instead of vacuum tubes.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_92",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which of the following represents a linear system?",
+      "options": [
+        "3y(t) + 2 = f(t)",
+        "y(t)(dy(t))/dt + 3y(t) = f(t)",
+        "(dy(t))/dt + 2y(t) = f²(t)",
+        "(dy(t))/dt + 3ty(t) = t²f(t)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A linear system must satisfy the superposition principle and have no products of dependent variables. Option A is the only linear system because the dependent variable y(t) and its derivatives appear only to the first power and are not multiplied together. The equation can be rewritten as 3y(t) = f(t) - 2, which is linear in y(t).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_93",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The diode in which impurities are heavily doped is:",
+      "options": [
+        "Tunnel diode",
+        "Varactor diode",
+        "PIN diode",
+        "Zener diode"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Tunnel diodes have very heavily doped p-n junctions.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_94",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which of the following file extensions is used in user-defined header file in C++",
+      "options": [
+        ".h",
+        ".cpp",
+        ".gcc",
+        ".c++"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In C++, user-defined header files traditionally use the .h extension. Modern C++ standard library headers omit the extension (like <iostream> instead of <iostream.h>), but user-defined headers still commonly use .h, or sometimes .hpp to distinguish C++ headers from C headers.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_95",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which of the following devices has the highest input resistance?",
+      "options": [
+        "MOSFET",
+        "Diode",
+        "JFET",
+        "Bipolar junction transistor"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "MOSFETs have extremely high input resistance due to their insulated gate.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_96",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The output of the program:\n#include \nusing namespace std;\nint main()\n{cout << \"How are you\" << endl;\nreturn 0;}",
+      "options": [
+        "\"How are you\"",
+        "How are you << endl",
+        "<< how are you <<",
+        "How are you"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The program outputs the string without quotes, followed by a newline from endl.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_97",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Calculate the minimum sampling rate to avoid aliasing when a continuous time signal is given by\n\nx(t) = 10 cos 200πt",
+      "options": [
+        "400Hz",
+        "50Hz",
+        "200Hz",
+        "100Hz"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The signal frequency is 100Hz (from 200πt = 2π×100t), so the Nyquist rate is 200Hz.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_98",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which of the following language does the computer understand?",
+      "options": [
+        "Computer understands only Assembly Language",
+        "Computer understands only BASIC",
+        "Computer understands only C Language",
+        "Computer understands only Binary Language"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Computers fundamentally understand machine language (binary).",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_99",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The process of converting continues-time signal into discrete-time signal is ______",
+      "options": [
+        "Quantization",
+        "Demultiplexing",
+        "Sampling",
+        "Modulation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sampling converts a continuous signal to discrete-time by measuring at intervals.",
+      "topic": "Electrical and Computer Engineering"
+    },
+    {
+      "id": "q_exit_electrical_and_computer_engineering_2015_regular_melmeja_100",
+      "examId": "exit_electrical_and_computer_engineering_2015_regular_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The current in each branch of a parallel circuit is proportional to",
+      "options": [
+        "Proportional to the power in the circuit",
+        "The amount of time the circuit is on for",
+        "Proportional to the value of the resistors",
+        "Equal in all branches"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In a parallel circuit, current in each branch is inversely proportional to the resistance (I = V/R). The higher the resistance value, the lower the current, and vice versa. The voltage across all branches is the same in a parallel circuit.",
+      "topic": "Electrical and Computer Engineering"
+    }
+  ]
+}

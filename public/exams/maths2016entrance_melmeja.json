@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Mathematics University Entrance Exam 2016 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Mathematics University Entrance Exam 2016 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -999,6 +999,652 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Saving is meant for useful future needs like retirement, emergencies, or goals, not for risky activities like betting.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_61",
+      "examId": "maths2016entrance_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which constraint is linear?",
+      "options": [
+        "x²+y≤5",
+        "2x+3y≤5",
+        "xy≤5",
+        "x/y≤2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Only first is linear.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_62",
+      "examId": "maths2016entrance_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the simplified form of ∛32/16²ᐟ³?",
+      "options": [
+        "8",
+        "1/8",
+        "2",
+        "1/2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rewrite ∛32 / 16²ᐟ³ as 32¹/³ / 16²/³.\n\n- Expressing as powers of 2: 32¹/³ = 2⁵/³, 16²/³ = 2⁸/³.\n\n- Subtract exponents: 2⁵/³ ÷ 2⁸/³ = 2⁻¹ = 1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_63",
+      "examId": "maths2016entrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "4. Which one of the following statements defines a composite number?",
+      "options": [
+        "natural number that has exactly two distinct factors.",
+        "natural number that has more than two distinct factors.",
+        "natural number that has less than two distinct factors.",
+        "natural number that has exactly two divisible."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A composite number is defined as a positive integer greater than 1 that has more than two distinct positive divisors (factors), unlike prime numbers which have exactly two.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_64",
+      "examId": "maths2016entrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Consider the sequence {an} n=1 to n=∞ where an = 1 + (-1)ⁿ/n for n≥1. Which one of the following is true?",
+      "options": [
+        "a10 = 11/10",
+        "a11= 12/10",
+        "an < 1 for all n",
+        "an ≥ an+1 for all n"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Given an = 1 + (-1)ⁿ / n.\n For n = 10 (even), a10 = 1 + 1/10 = 11/10, so A is true.\n\n For n = 11 (odd), a11 = 1 - 1/11 = 10/11 ≠ 12/10, ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_65",
+      "examId": "maths2016entrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following quantities represents scalar?",
+      "options": [
+        "The direction of a wind, measured by wind vane.",
+        "Speed of a car observed on speedometer.",
+        "The direction and distance moved by a bullet.",
+        "Force applied to lift damaged car from main road."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Speed is a scalar quantity because it has magnitude only and no direction.\n\n Therefore, the speed of a car observed on a speedometer is scalar.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_66",
+      "examId": "maths2016entrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is equal to lim x->0 x/1-√(x+1)?",
+      "options": [
+        "1",
+        "1/2",
+        "0",
+        "-2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "We evaluate lim x→0 of x / (1 - √(x+1)).\n\n This is an indeterminate form 0/0, so we rationalize the denominator by multiplying by (1 + √(x+1)).\n\n This gives x(1 + √(x+1)) / (1 - (x+1)) =\n x(1 + √(x+1)) / (-x).\n Cancel x to get -(1 + √(x+1)).\n Now substitute x = 0: -(1 + 1) =\n -2, \nso the answer is D.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_67",
+      "examId": "maths2016entrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If the number of bacteria in a certain laboratory colony grows at the rate of 5% per day and assuming that there are 1000 bacteria present initially, then what would be the approximate number of bacteria present after 3 days?",
+      "options": [
+        "1102",
+        "1158",
+        "1050",
+        "1105"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = P(1 + r)^t, where P is the initial amount, r is the growth rate, and t is the time.\n P = 1000\n r = 5% = 0.05\n t = 3 days\nA = 1000(1 + 0.05)³\nA = 1000(1.05)³\nA = 1000(1.157625)\nA = 1157.625 = 1158.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_68",
+      "examId": "maths2016entrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "If (x² + 14) / ( (x+2)(x-1)²) = A/(x+2) + B/(x-1) + C/((x-1)²), then what are the values of A, B, and C respectively?",
+      "options": [
+        "2, -1, 5",
+        "2, -2, -5",
+        "3, -2, 6",
+        "1, -1, 3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply both sides by (x+2)(x-1)² and expand: x²+14 = A(x-1)² + B(x+2)(x-1) + C(x+2).\n\n Compare coefficients to get equations: A+B=1, -2A+B+C=0, A-2B+2C=14.\n\n Solving gives A=2, B=-1, C=5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_69",
+      "examId": "maths2016entrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "What is the equation of the tangent line to the graph of the function f(x) = eˣ at (1, e)?",
+      "options": [
+        "y= ex + e",
+        "y= ex",
+        "y = x+1/e",
+        "y = 1x/e + 1/e"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The slope of the tangent at x=1 is e.\n\n Using point-slope form: y - e = e(x - 1) simplifies to y = ex.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_70",
+      "examId": "maths2016entrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": " Which of the following statement is true about the given system of linear equations?",
+      "options": [
+        "{2x + y = 0, x - 4y = 0 } is a homogeneous system.",
+        "{x + 3y = 2, 2x - 5y = 1} is a non-homogeneous system.",
+        "{3x - y = 1, x + 3y = 0} is a homogeneous system.",
+        "{x + 3y = 6 , 2x - 5y = 2} is a homogeneous system."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A homogeneous system must have all constant terms equal to 0",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_71",
+      "examId": "maths2016entrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Given the objective function Z = -x + 2y that is subjected to the constraints:\n{x ≥ 3 , x + y ≥ 5, x + 2y ≤ 6, y ≥ 0\nWhat are the maximum and the minimum values of Z respectively?",
+      "options": [
+        "1 and -2",
+        "-2 and -6",
+        "-6 and -2",
+        "2 and 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First identify the feasible region using x ≥ 3, x + y ≥ 5, x + 2y ≤ 6, and y ≥ 0.\n\n The corner points are (4,1), (5,0), and (6,0).\n\n Evaluate Z = -x + 2y at each point: Z(4,1) = -2,\n Z(5,0) = -5,\n Z(6,0) = -6. \n\nTherefore, the maximum value is -2 and the minimum value is -6,\n\n so the correct answer is B",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_72",
+      "examId": "maths2016entrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Consider the following grouped frequency distribution table: \n\nThen what is the class midpoint of the fourth class?",
+      "imageUrl": "images/M2017_N41.png",
+      "diagramUrl": "images/M2017_N41.png",
+      "options": [
+        "34.5",
+        "35.5",
+        "24.5",
+        "55.5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_73",
+      "examId": "maths2016entrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an irrational number?",
+      "options": [
+        "√0.04",
+        "1.162222 ...",
+        "√29",
+        "3.4000"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An irrational number is a number that cannot be expressed as a fraction of two integers. \n\n- √0.04 = 0.2, which is rational. \n\n- 1.162222 ... appears to be repeating or terminating, so it is rational. \n\n- √29 is not a perfect square, so it cannot be expressed as a fraction → irrational. \n\n- 3.4000 is a terminating decimal → rational. Therefore, √29 is the irrational number.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_74",
+      "examId": "maths2016entrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "44) The following table shows the test scores of 20 students in a class.\n\n What is the variance of the given data?",
+      "imageUrl": "images/M2014_S44.png",
+      "diagramUrl": "images/M2014_S44.png",
+      "options": [
+        "18.45",
+        "19.45",
+        "16.2",
+        "17.2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_75",
+      "examId": "maths2016entrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following distribution is multimodal?",
+      "options": [
+        "6, 10, 9, 6, 10, 4",
+        "8, 7, 11, 13, 17, 9, 8, 7, 6, 11",
+        "12, 13, 26, 15, 25, 38, 28, 27, 32",
+        "18, 14, 15, 10, 11, 3, 18, 12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A multimodal distribution has more than one value with the highest frequency. \n\nIn option B, 7, 8, and 11 each appear twice, so it has multiple modes.\n\n Therefore, B is multimodal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_76",
+      "examId": "maths2016entrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If A is a 3 x 3 matrix with det(A) = 5, then what is the determinant  2Aᵀ)?",
+      "options": [
+        "40",
+        "30",
+        "10",
+        "2/5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This uses two properties of determinants:\n1. Determinant of a scalar multiple: det(kA) = kⁿ * det(A), where n is the dimension of the matrix.\n\n2. Determinant of a transpose: det(Aᵀ) = det(A).\n\nHere, the matrix A is 3x3 (so n=3) and the scalar is k=2. \ndet(2Aᵀ) = 2³ * det(Aᵀ)\ndet(2Aᵀ) = 8 * det(A) (since det(Aᵀ) = det(A))\ndet(2Aᵀ) = 8 * 5 = 40.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_77",
+      "examId": "maths2016entrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The distance from the point P(3, 4) to the line L with equation: 3x + 4y - 5 = 0 is ______.",
+      "options": [
+        "6 units",
+        "5 units",
+        "7 units",
+        "4 units"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The distance from a point (x0, y0) to a line Ax + By + C = 0 is given by:-\n\n d = |Ax0 + By0 + C| / √(A² + B²). \n\nHere, the line is 3x + 4y - 5 = 0 and the point is P(3,4).\n\n Compute the numerator: |3*3 + 4*4 - 5| = |9 + 16 - 5| = 20. \n\nCompute the denominator: √(3² + 4²) = √(9 +16) = 5. \n\nTherefore, the distance d = 20 / 5 = 4 units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_78",
+      "examId": "maths2016entrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": " What is the total surface area (in cm²) of the cylinder whose radius is 2 cm and height is 7 cm?",
+      "options": [
+        "28π",
+        "36π",
+        "98π",
+        "49π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The total surface area of a cylinder is given by TSA = 2πr(r + h).\n\nHere, r = 2 cm and h = 7 cm.\n\nSo, TSA = 2π × 2 × (2 + 7) = 4π × 9 = 36π cm².\n\nTherefore, the correct answer is 36π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_79",
+      "examId": "maths2016entrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": " Consider a circle that has diameter ‾AB of length 8 cm. If you fold the circle over ‾AB, then what is the area of the part of the circle on one part of the diameter (in cm²)?",
+      "options": [
+        "64π",
+        "32π",
+        "16π",
+        "8π"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Given diameter d = 8 cm. \n\nTherefore, radius r = d/2 = 4 cm.\n\n The area of the circle is A = πr² = π(4)² = 16π cm².\n\n Folding along the diameter AB divides the circle into two equal semicircles.\n\n->  A/2 = 16π/2 = 8π cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_80",
+      "examId": "maths2016entrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements describes the dispersion of the data values.",
+      "options": [
+        "It measures the variability in terms of different units of data.",
+        "The degree to which numerical data tends to distribute about an average.",
+        "It helps to describe the degree of similarity of data values.",
+        "It compares the variability of two or more data that are independent of the units of measurement."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Dispersion refers to how data values are spread out or vary around a central value (like the mean).\n\n Option B correctly describes this as the degree to which numerical data tends to distribute about an average.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_81",
+      "examId": "maths2016entrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": " When the circle (x - 3)² + (y - 1)² = 1 is reflected on a line y = 2x, then the image of the circle is",
+      "options": [
+        "(x + 1)² + (y - 3)² = 1",
+        "(x + 3)² + (y - 1)² = 1",
+        "(x + 3)² + (y + 2)² = 1",
+        "(x - 1)² + (y - 2)² = 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Center = (3,1).\n Reflect (3,1) across y=2x \n⇒ (-1,3).\n\n Radius remains 1.\n\n Therefore, (x+1)²+(y-3)²=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_82",
+      "examId": "maths2016entrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = (1-2x)^1/2. Then what is the values of f'(x)?",
+      "options": [
+        "-1/2√(1-2x)",
+        "1/2√(1-2x)",
+        "-1/√(1-2x)",
+        "1/√(1-2x)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Use the chain rule.\n f(x) = (1 - 2x)^(1/2). \n\nBring down 1/2 and reduce power: (1/2)(1 - 2x)^(-1/2), then multiply by derivative of inside (1 - 2x) which is -2.\n\n This gives f'(x) = - (1 - 2x)^(-1/2) = \n-1/√(1 - 2x), so the correct answer is option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_83",
+      "examId": "maths2016entrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Consider the line segment PQ with P=(1, -1) and Q=(4, 2). Then which of the following point divides PQ internally in the ratio of 2:1?",
+      "options": [
+        "(2, 0)",
+        "(2, 1)",
+        "(3, 0)",
+        "(3, 1)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Section formula: (x, y) = ((m x2 + n x1)/(m + n), (m y2 + n y1)/(m + n))\n\n((2×4 + 1×1)/(2+1), (2×2 + 1×(-1))/(2+1)) =\n (9/3, 3/3) =\n (3, 1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_84",
+      "examId": "maths2016entrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Solve the quadratic: x² – 7x + 12 = 0.",
+      "options": [
+        "3 and 4",
+        "2 and 6",
+        "1 and 12",
+        "–3 and –4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Factors to (x–3)(x–4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_85",
+      "examId": "maths2016entrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Let R = {(x, y) | y ≥ x² + 1 and y ≤ 5} be a relation. Then which one of the following defines the inverse of R?",
+      "options": [
+        "{(x, y) | x ≤ y² + 1, x ≤ 5}",
+        "{(x, y) | x ≥ y² - 1, x ≤ 5}",
+        "{(x, y) | x ≥ y² + 1, x ≤ 5}",
+        "{(x, y) | y ≥ x² + 1, x ≤ 5}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To find the inverse relation (R-inverse), you swap the x and y variables in the definition of the original relation R.\n\n1. Original relation R: y ≥ x² + 1 AND y ≤ 5.\n\n2. Swap x and y: x ≥ y² + 1 AND x ≤ 5.\n\n3. The inverse relation is {(x, y) | x ≥  y² + 1 and x ≤ 5}.\n This matches option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_86",
+      "examId": "maths2016entrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "What are the quotient and remainder respectively, when 75 is divided by 20?",
+      "options": [
+        "15 and 3",
+        "2 and 19",
+        "3 and 15",
+        "4 and 5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "75/20 = 3 + 15/20",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_87",
+      "examId": "maths2016entrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (x² + 2x + 1) dx.",
+      "options": [
+        "x³/3 + x² + x + C",
+        "x³ + x² + x",
+        "x² + 2x + 1",
+        "x³/3 + x² + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrate term-wise.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_88",
+      "examId": "maths2016entrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": " In how many different ways can 6 people be seated at a round table?",
+      "options": [
+        "720",
+        "120",
+        "310",
+        "130"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For n people seated at a round table:\n\n (n−1)! =\n (6−1)! =\n 5! =\n 120.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_89",
+      "examId": "maths2016entrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "The table given below shows the ages distribution of children in a small village in years. \nThen what is the mean age of the children's (in years)?",
+      "imageUrl": "images/M2017_N42.png",
+      "diagramUrl": "images/M2017_N42.png",
+      "options": [
+        "6.9",
+        "7.5",
+        "7.2",
+        "5.8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_90",
+      "examId": "maths2016entrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Let a, b ∈ R such that a < b and f be a polynomial function. Then which one of the following statements states the location theorem?",
+      "options": [
+        "If f(a) and f(b) have the same signs, then there is at least one zero of f between a and b.",
+        "If f(a) and f(b) have the same signs, then there exists a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is at least one zero of f between a and b."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "If f(a) and f(b) have opposite signs, the function must cross the x-axis somewhere between them. \n\nTherefore, there is at least one zero in (a, b). Option D is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_91",
+      "examId": "maths2016entrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The angle of depression of the top of a flag pole from the top of a building that is 40√3 m away from the flag pole is 30 degrees. If the height of the flag pole is 10m, what is the height of the building?",
+      "options": [
+        "20√3 m",
+        "10(4√3 + 1) m",
+        "50 m",
+        "40 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let the height of the building be H.\n\n The horizontal distance between the building and the flagpole is 40√3 m.\n\n The height of the flagpole is 10 m.\n\n The angle of depression from the top of the building to the top of the flagpole is 30°.\n\n Using the tangent formula: tan(angle) = vertical difference / horizontal distance.\n\n So, tan 30° = (H - 10) / (40√3). \n\nSince tan 30° = 1/√3, we have (H - 10) / (40√3) = 1/√3.\n\n Multiply both sides by 40√3: H - 10 = 40.\n\n Therefore, H = 50 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_92",
+      "examId": "maths2016entrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "A car manufacturing company produces both diesel (x) and electrical cars (y). Each diesel car requires 12 labour hours for manufacturing and 1 labour hour for assembling. On the other hand, each electrical car requires 15 labour hours for manufacturing and 2 labour hours for assembling. In a week the company has a maximum of 240 labour hours for manufacturing and 26 labour hours for assembling. The company makes a profit of 180,000 Birr on each diesel car and 230,000 Birr on each electrical car. Which of the following inequalities describes the profit of the company in a week?",
+      "options": [
+        "Z = 180,000x + 230,000y subject to 12x + 15y <= 240, x + 2y >= 26, x, y >= 0",
+        "Z = 180,000x + 230,000y subject to 12x + 15y <= 240, x + 2y <= 26, x, y >= 0",
+        "Z = 230,000x + 180,000y subject to 12x + 15y <= 240, x + 2y >= 26, x, y >= 0",
+        "Z = 230,000x + 180,000y subject to 12x + 15y <= 240, x + 2y <= 26, x, y >= 0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The objective function maximizes profit Z = 180,000x + 230,000y. Manufacturing hours constraint: 12x + 15y <= 240. Assembling hours constraint: x + 2y <= 26. Non-negativity constraints: x >= 0, y >= 0. This matches option B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_93",
+      "examId": "maths2016entrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Let A = { x ∈ ℤ : -2 ≤ x ≤ 2 }and B = {x ∈ N : 2ˣ ≤ 3x + 1}  are given two sets. Then what is n(A ∪ B)?",
+      "options": [
+        "2",
+        "6",
+        "5",
+        "10"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " Step 1: Find set A:\n\nA = { x ∈ ℤ : -2 ≤ x ≤ 2 } → A = { -2, -1, 0, 1, 2 }\n\nStep 2: Find set B:\n\nB = { x ∈ ℕ : 2^x ≤ 3x + 1 }\n\n- For x = 1: 2¹ = 2 ≤ 3*1 + 1 = 4 ✅\n\n- For x = 2: 2² = 4 ≤ 3*2 + 1 = 7 ✅\n\n- For x = 3: 2³ = 8 ≤ 3*3 + 1 = 10 ✅\n\n- For x = 4: 2⁴ = 16 ≤ 3*4 + 1 = 13 ❌\n\nSo B = { 1, 2, 3 }\n\nStep 3: Find A ∪ B:\n\nA ∪ B = { -2, -1, 0, 1, 2, 3 } , n(A ∪ B) = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_94",
+      "examId": "maths2016entrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": " Two events are mutually exclusive if:",
+      "options": [
+        "P(A ∩ B) = 0",
+        "P(A ∪ B) = 1",
+        "P(A) = P(B)",
+        "P(A) + P(B) = 0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mutually exclusive → cannot happen together → P(A ∩ B) = 0",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_95",
+      "examId": "maths2016entrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "26) Which one of the following statements is NOT TRUE about the graph of the given linear inequality?",
+      "options": [
+        "The graph of the linear inequality y ≤ x - 1 is above the line y = 2x on the interval (-∞, -1)",
+        "The graph of the linear inequality y > 2x + 1 contains no points of the line y = 2x - 3",
+        "The graph of the linear inequality y ≤ 2x + 1 is below the line y = y on the interval (-∞, -1)",
+        "The graph of the linear inequality y > 2x - 1 contains all points of the line y = 2x"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For y > 2x - 1, the graph does NOT include points on the line y = 2x because inequalities with > or < exclude the boundary line.\n\n Only ≤ or ≥ would include points on the line.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_96",
+      "examId": "maths2016entrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "11. If u·v = |u||v|cosθ, cosθ = ?",
+      "options": [
+        "|u×v|",
+        "u·v×w",
+        "(u·v)/(|u||v|)",
+        "|u|+|v|"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "cosθ = (u·v)/(|u||v|).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_97",
+      "examId": "maths2016entrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Two triangles have sides in ratio 3:5. If the smaller triangle area is 27 cm², find the larger area.",
+      "options": [
+        "45",
+        "75",
+        "125",
+        "225"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Area ratio = scale² = 9:25 → 27*(25/9)=75.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_98",
+      "examId": "maths2016entrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "3. Simplify: (x²−4)/(x²−2x).",
+      "options": [
+        "(x−2)/x",
+        "(x+2)/(x−2)",
+        "(x+2)/x",
+        "x/(x−2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Factor: (x−2)(x+2)/x(x−2)= (x+2)/x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_99",
+      "examId": "maths2016entrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Find equation of line through (1,2) with slope -3.",
+      "options": [
+        "y=3x-1",
+        "y=-3x+1",
+        "y=-3x+5",
+        "y=3x+5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y-2=-3(x-1) ⇒ y=-3x+5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016entrance_melmeja_100",
+      "examId": "maths2016entrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "What is the average rate of change of g(x) = x³ - 2x over the interval 1 ≤ x ≤ 6?",
+      "options": [
+        "41",
+        "37/5",
+        "46",
+        "203/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The average rate of change of a function g(x) over [a, b] is given by:\n\n[g(b) - g(a)] / (b - a)\n\nStep 1: Compute g(6) = 6³ - 2*6 = 216 - 12 = 204\n\nStep 2: Compute g(1) = 1³ - 2*1 = 1 - 2 = -1\n\nStep 3: Average rate = (204 - (-1)) / (6 - 1) = 205 / 5 = 41 ✅",
       "topic": "Mathematics"
     }
   ]

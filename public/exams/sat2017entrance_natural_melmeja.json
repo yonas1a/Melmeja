@@ -5,10 +5,10 @@
   "subCategory": "General Aptitude",
   "department": "General Aptitude",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian General Aptitude Natural Stream Entrance 2017 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian General Aptitude Natural Stream Entrance 2017 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -987,6 +987,648 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Sequence blocks: (-1, 0, 1, 2), (-1, 8, 1, 26), (-1, x, 1, 242). \n\nPattern: 4th term = 3 × 2nd term + 2. \n\nSolve 242 = 3x + 2 → x = 80.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_61",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "45) Which one of the following is equal to $\\sum_{n=1}^{48} \\frac{5}{(n+1)(n+2)}$?",
+      "options": [
+        "2.4",
+        "1.5",
+        "2.5",
+        "1.2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This sum can be evaluated using partial fraction decomposition, which results in a **telescoping series**:\n1.  **Partial Fractions:** $\\frac{5}{(n+1)(n+2)} = 5 \\left( \\frac{1}{n+1} - \\frac{1}{n+2} \\right)$\n2.  **Telescoping Sum:** When the sum is expanded, all internal terms cancel out, leaving only the first term and the last term:\n$$\\sum_{n=1}^{48} 5 \\left( \\frac{1}{n+1} - \\frac{1}{n+2} \\right) = 5 \\left[ \\left( \\frac{1}{1+1} \\right) - \\left( \\frac{1}{48+2} \\right) \\right]$$\n$$= 5 \\left[ \\frac{1}{2} - \\frac{1}{50} \\right]$$\n3.  **Calculation:** \n$$= 5 \\left[ \\frac{25}{50} - \\frac{1}{50} \\right] = 5 \\left[ \\frac{24}{50} \\right]$$\n$$= 5 \\left[ \\frac{12}{25} \\right] = \\frac{60}{25} = \\frac{12}{5} = 2.4$$",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_62",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the meaning of the idiom 'To break the ice'?",
+      "options": [
+        "To start a fight",
+        "To end a relationship",
+        "To start a conversation",
+        "To be cold to someone"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Breaking the ice means to initiate social interaction or conversation in a tense or quiet setting.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_63",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "SECTION TWO: Quantitative Reasoning (Questions 36 - 60) below and select the best answer from the given alternatives.\n\nItem of expenditure table:\n\n36) The total expenditure of the firm over these items during the year 2007 is",
+      "imageUrl": "images/SAT2014_N36.png",
+      "diagramUrl": "images/SAT2014_N36.png",
+      "options": [
+        "467.5",
+        "476.5",
+        "447.5",
+        "474.5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_64",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "PERSEVERANCE (Choose the synonym):",
+      "options": [
+        "Lack of energy",
+        "Frequent suffering",
+        "Continuity of effort",
+        "Severity of disease"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "PERSEVERANCE means persistence in doing something despite difficulty or delay in achieving success, which is 'Continuity of effort'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_65",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the sum of all even natural numbers less than 99?",
+      "options": [
+        "5050",
+        "2450",
+        "5100",
+        "2550"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The sequence is $2, 4, 6, \\dots, 98$. The last term is $a_n = 98$, and the common difference $d=2$.\n\nThe number of terms $n$ is found by $98 = 2n$, so $n=49$.\n\nThe sum $S_n$ is calculated using the arithmetic sum formula $S_n = \\frac{n}{2}(a_1 + a_n)$:\n$$S_{49} = \\frac{49}{2}(2 + 98) = \\frac{49}{2}(100) = 49 \\times 50 = 2450$$\n",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_66",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an irrational number?",
+      "options": [
+        "√16",
+        "0.333...",
+        "pi",
+        "4/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An irrational number cannot be expressed as a simple fraction.\n\n pi is approximately 3.14159... and is irrational.\n\n √16=4 (rational), 0.333...=1/3 (rational), and 4/5 (rational).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_67",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": " What is the meaning of the world debilitating?",
+      "options": [
+        "Strengthen",
+        "Fatten",
+        "Enfeeble",
+        "Debase"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The word 'debilitating' means weakening or making someone feeble. Therefore, the correct meaning is 'Enfeeble.'",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_68",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "39) A lady wants to surprise her boyfriend on his birthday by inviting him and their friends to a buffet dinner at a hotel. The maximum budget for the dinner was Birr 8,000. The hotel charges Birr 300 per person for the buffet including tax. If the lady wants to give a tip of Birr 50, then which of the following models the situation assuming that $x$ is the total number of people to be invited for the dinner?",
+      "options": [
+        "300x + 50 \\le 8000",
+        "300x - 50 \\le 8000",
+        "300x - 50 \\ge 8000",
+        "300x - 50 \\ge 8000"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total cost is the sum of the buffet cost ($300x$) and the tip ($50), which must be less than or equal to the maximum budget ($8,000$). The correct model is **$300x + 50 \\le 8000$**.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_69",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "10) DAUNTING",
+      "options": [
+        "Intimidating",
+        "Discouraging",
+        "Entertaining",
+        "Frightening"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "**'Daunting'** means seeming difficult to deal with in anticipation; intimidating or discouraging. Therefore, 'Intimidating,' 'Discouraging,' and 'Frightening' are synonyms. The word that is most nearly opposite (Antonym) in meaning is **'Entertaining'**, which means providing amusement or enjoyment.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_70",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct synonym for: 'resilient'.",
+      "options": [
+        "Fragile",
+        "Flexible",
+        "Rigid",
+        "Weak"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Resilient means able to recover quickly; flexible is closest.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_71",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Solve for x: 4^(x+1) = 64",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 1",
+        "x = 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "64 = 4³ → x+1 = 3 → x = 2.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_72",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": " You could infer from this passage that these flowers are called day-lilies because",
+      "options": [
+        "The blooms last for one day.",
+        "Charles Day developed the hybrid.",
+        "They only bloom in the daytime.",
+        "They look like real lilies, but aren’t"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The passage states that individual flowers last only one day. \n\nFrom this information, we can infer that they are called daylilies because each bloom lasts for just one day.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_73",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "If the ratio of two numbers is 3:4 and their sum is 84, what is the greater number?",
+      "options": [
+        "36",
+        "48",
+        "42",
+        "40"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let the numbers be $3k$ and 4k.\n 3k + 4k = 7k = 84.\n k = 12.\n\n The greater number is 4k = 4(12) = 48.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_74",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Choose the word that is MOST similar in meaning to: ABERRATION",
+      "options": [
+        "Deviation",
+        "Harmony",
+        "Routine",
+        "Precision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Aberration means a departure from the norm; deviation is closest.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_75",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A statement that is taken to be true without proof is a/an ______.",
+      "options": [
+        "Theorem",
+        "Hypothesis",
+        "Axiom",
+        "Corollary"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An **Axiom** is a statement or proposition that is regarded as being established, accepted, or self-evidently true.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_76",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "The archaeologist unearthed a piece of pottery that was truly ______.",
+      "options": [
+        "contemporary",
+        "modern",
+        "ancient",
+        "novel"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Archaeologists typically find 'ancient' objects.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_77",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Directions: To answer th : items 27 - 31 read each of the following words carefully and choose the word that correctly complete the analogy. Then blacken the letter of your choice on the separate answer sheet provided.\n\n27) EXERCISE is to GYM as EATING is to:",
+      "options": [
+        "Drink",
+        "Restaurant",
+        "Food",
+        "Dieting"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The analogy compares an activity to the place where it is commonly done.\n\n Exercise is done in a gym, similarly, eating is commonly done in a restaurant.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_78",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "26) Statement: Thomas Edison failed so many times before he invented the light bulb. Instead of quitting, however, Edison tried again and again until he finally achieved success. His achievement was applauded as an extraordinary determination.\n\nConclusion I: A problem can be a chance to be one's best. Conclusion II: It is advisable to have perseverance in the face of challenges. Conclusion III: One has to always indulge in a problem whatever the consequences may be.\n\nA most valid conclusion for the above statement is:",
+      "options": [
+        "Conclusion I.",
+        "Conclusion II",
+        "Conclusions II and III",
+        "Conclusions I and II"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The statement's key elements are repeated **failure** followed by persistent effort (trying 'again and again') leading to **success** and being praised for **determination**. Conclusion II, 'It is advisable to have perseverance in the face of challenges,' directly reflects this central theme of the narrative. Conclusion III is an extreme and unsound generalization, making option C and D less valid.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_79",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": " Suppose a chain letter is started by sending a letter to five people and the letter requires each person who receives the letter to send it on to five additional people. Assuming that no person receives more than one letter. How many letters are sent all together if the chain reaches the eighth stage?",
+      "options": [
+        "490,625",
+        "390,625",
+        "488,280",
+        "480,280"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "If we interpret the first stage as the initial 5 letters, then the total number of letters sent in 8 stages is calculated as the sum of the geometric series:\n\nS₈ = 5 + 5² + 5³ + ... + 5⁸ = 5(5⁸ − 1)/(5 − 1) = 5 × (390,625 − 1)/4 = 488,280.\n\nHence, the total letters sent is 488,280.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_80",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "SCISSORS : CLOTH ::",
+      "options": [
+        "Axe : Wood",
+        "Hammer : Nail",
+        "Needle : Thread",
+        "Knife : Fork"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "SCISSORS are used to cut CLOTH. An AXE is used to cut WOOD (Tool : Object Cut).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_81",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct synonym of 'Rapid'",
+      "options": [
+        "Slow",
+        "Fast",
+        "Lazy",
+        "Late"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Rapid means fast.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_82",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct antonym of 'Success'",
+      "options": [
+        "Victory",
+        "Achievement",
+        "Failure",
+        "Progress"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Success is opposite of failure.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_83",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "21) Based on the information given in the passage, which one of the following statements is correct?",
+      "options": [
+        "Both the government and the community are responsible for controlling population.",
+        "It is the sole responsibility of the government to control population growth",
+        "Having the requisite understanding about population is what matters most.",
+        "The role of the community is highly constrained."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The passage explicitly states, 'To manage population growth, **governments and communities implement various strategies**,' which supports the idea that both are responsible.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_84",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "54) A box contains 4 black, 5 white and 3 red balls of the same size. If a ball is drawn at random, what is the probability that the ball is neither black nor red.",
+      "options": [
+        "7/12",
+        "5/12",
+        "3/4",
+        "2/3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1.  **Total Number of Balls:** $4 + 5 + 3 = 12$.\n2.  **Favorable Event:** 'Neither black nor red' is equivalent to the ball being **white**.\n3.  **Number of Favorable Outcomes:** There are 5 white balls.\n4.  **Probability:** $P(\\text{White}) = \\frac{\\text{Number of White Balls}}{\\text{Total Balls}} = \\frac{5}{12}$.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_85",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The capital of Ethiopia is ______.",
+      "options": [
+        "Mekele",
+        "Addis Ababa",
+        "Adama",
+        "Hawassa"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Addis Ababa is the capital city of Ethiopia. (General Knowledge question type).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_86",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "If f(x)=x³, find f'(2).",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f'(x)=3x² → 3(4)=12.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_87",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Sentence correction\nInstruction: Questions 29 - 32 consist of grammatically incorrect sentences. Choose the letter that contains the correct option.\n\n29) ______",
+      "options": [
+        "What are the things you enjoy doing in your spare time?",
+        "What things you enjoy doing in your spare time?",
+        "What things are you enjoy doing in your spare time?",
+        "What things you are enjoy doing in your spare time?"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Option A is the only grammatically correct interrogative sentence (question). It follows the proper structure: **Wh-word** ('What') + **Auxiliary Verb** ('are') + **Subject/Object** ('the things') + **Clause** ('you enjoy doing in your spare time'). Options B, C, and D contain errors in verb usage or word order.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_88",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Reading Comprehension\nInstruction: Read the following passage carefully and answer questions 19-22. Each question is based on the information in the passage. Then, blacken the letter of your choice on the separate answer sheet provided.\n\nReading Passage II\nPopulation, which means the total number of people living in a certain area, is a critical aspect of our world. However, this simple number has far-reaching effects on our world. It greatly influences our societies, economies, and environment. When population grows too rapidly, it can create problems like shortages of food, clean water, and housing. On the flip side, a declining population can lead to workforce shortages and economic difficulties.\nDuring a balance is essential.\n\nTo manage population growth, governments and communities implement various strategies. They promote family planning, educate people about birth control, and create job opportunities to reduce the pressure on resources. Education is a key tool here as it empowers individuals to make informed decisions about family size. In essence, understanding and managing population is crucial for ensuring a better quality of life for everyone and a sustainable future for our planet.\n(Source: slightly adapted from...)\n\n\n19) what does the word \"far-reaching\" mean according to the context of the passage?",
+      "options": [
+        "impacting economic development",
+        "going to faraway places",
+        "facilitating resource allocation",
+        "affecting certain areas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The passage states that the effects of population are 'far-reaching' because they influence 'societies, economies, and environment.' The subsequent discussion details problems like 'workforce shortages and economic difficulties.' Therefore, **impacting economic development** (A) is a key contextual meaning and the most specific relevant option provided in the choices.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_89",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "6) Many health professionals believe that laughter has ____ effects on the human body as it enhances both physical and emotional health.",
+      "options": [
+        "harmful",
+        "detrimental",
+        "adverse",
+        "therapeutic"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The sentence states that laughter **'enhances'** both physical and emotional health, which implies a positive effect. **'Therapeutic'** means relating to the healing of disease; beneficial to health. 'Harmful', 'detrimental', and 'adverse' all mean causing harm or being negative, which contradicts the enhancement of health.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_90",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": " A student earns 13 birr per hour working for the computer center's help desk and 9.50 birr per hour working at the copy center. Because of her course load, she limits her work to 25 hours per week. She wants to earn at least 275 birr each week. Which of the following system of linear inequalities represent this information?",
+      "options": [
+        "{(13x + 9.5y ≥ 275) ,(x+y ≤ 25) , (x≥ 0,y≥ 0 )}",
+        "{(13x + 9.5y ≤ 275) , (x+y ≥ 25)  , (x≥ 0,y≥ 0)}",
+        "{(13x + 9.5y >275) , (x+y≤ 25), (x≥ 0,y≥ 0)}",
+        "{(13x + 9.5y < 275), (x+y ≤ 25) , (x≥ 0,y≥ 0)}"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Let x = hours at computer center, y = hours at copy center.\n\nEarnings constraint: 13x + 9.5y ≥ 275 (she wants at least 275 birr).\n\nTime constraint: x + y ≤ 25 (total hours ≤ 25).\n\nNon-negativity: x ≥ 0, y ≥ 0.\n\nHence, the correct system is option A.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_91",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The explorer's notes were so ______ that it took weeks to translate his strange symbols.",
+      "options": [
+        "pellucid",
+        "decipherable",
+        "cryptic",
+        "transparent"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Symbols that are strange and difficult to translate are 'cryptic' (having a meaning that is mysterious or obscure).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_92",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "JUSTICE: FAIRNESS :: ______ : Bias",
+      "options": [
+        "Prejudice",
+        "Rational",
+        "Just",
+        "Compassion"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The relationship is **[Synonym] : [Synonym] :: [Antonym] : [Antonym]**. 'Justice' and 'Fairness' are synonyms. **'Just'** (C), meaning fair or righteous, is the direct opposite (antonym) of 'Bias' (prejudice in favor of or against one thing, person, or group).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_93",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "SHEEP : FLOCK ::",
+      "options": [
+        "Fish : School",
+        "Cow : Herd",
+        "Lion : Pride",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All options represent a correct animal-group relationship: SHEEP are in a FLOCK, FISH in a SCHOOL, COW in a HERD, and LION in a PRIDE.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_94",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "The _________ of power causes considerable constraints on the operation of manufacturing industries.",
+      "options": [
+        "disruption",
+        "supply",
+        "erosion",
+        "discharge"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Manufacturing industries rely on steady power. A 'disruption' (interruption) of power would cause constraints or problems in operation.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_95",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "The main goal of the scientist was to ______ the complex process into simple steps.",
+      "options": [
+        "complicate",
+        "simplify",
+        "convolute",
+        "obscure"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The goal would be to 'simplify' (make simple or easy to understand) a complex process.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_96",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct antonym of 'Conceal'",
+      "options": [
+        "Hide",
+        "Cover",
+        "Mask",
+        "Reveal"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Conceal means to hide; opposite is reveal.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_97",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "If sinθ = 1/2, what is θ in degrees?",
+      "options": [
+        "60°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "sin 30° = 1/2.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_98",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "GREGARIOUS (Choose the synonym):",
+      "options": [
+        "Solitary",
+        "Sociable",
+        "Shy",
+        "Reserved"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "GREGARIOUS means fond of company; 'Sociable'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_99",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Choose the word that is OPPOSITE in meaning to: TRANSIENT",
+      "options": [
+        "Temporary",
+        "Fleeting",
+        "Enduring",
+        "Passing"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Transient means short-lived; enduring is the opposite.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2017entrance_natural_melmeja_100",
+      "examId": "sat2017entrance_natural_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Fill in the blank: He ____ never been there.",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "having"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "He takes 'has'.",
       "topic": "General Aptitude"
     }
   ]

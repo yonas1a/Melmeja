@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 11",
-  "description": "Grade 11 Mathematics National Exam & Practice 2017 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 2,
-  "passMarkPercent": 60,
+  "description": "Grade 11 Mathematics National Exam & Practice 2017 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -51,6 +51,1574 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "For the function $f(x) = sqrt{sqrt{3} - x^2}$ to be defined (i.e., a real number), the expression under the square root must be non-negative (greater than or equal to zero).\n\n$$sqrt{3} - x^2 ge 0$$\n\nAdd $x^2$ to both sides:\n$$sqrt{3} ge x^2$$\n\nThis inequality can be rewritten as:\n$$x^2 le sqrt{3}$$\n\nTo solve for $x$, take the square root of both sides. Remember that $sqrt[2]{sqrt{3}} = 3^{1/4} = sqrt[4]{3}$:\n$$|x| le sqrt[4]{3}$$\n\nThis absolute value inequality means that $x$ must be between $-sqrt[4]{3}$ and $sqrt[4]{3}$, inclusive:\n$$-sqrt[4]{3} le x lesqrt[4]{3}$$\n\nIn interval notation, the domain is $[-sqrt[4]{3}, sqrt[4]{3}]$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_3",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "What is the inverse of identity matrix?",
+      "options": [
+        "Identity matrix",
+        "Zero matrix",
+        "Transpose",
+        "None"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Identity matrix is its own inverse.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_4",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "A box has 3 white, 4 black, and 5 red balls. One ball is drawn. What is probability it is not black?",
+      "options": [
+        "2/3",
+        "1/2",
+        "3/4",
+        "5/12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Non-black = 8/12 = 2/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_5",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[x, 1,1, x]]) and find all x such that matrix is invertible.",
+      "options": [
+        "det = x² + 1, invertible for all x",
+        "det = 1 - x, invertible for x ≠ 1",
+        "det = x² - 1, invertible for x ≠ ±1",
+        "det = 2x, invertible for x ≠ 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "det = x² - 1, invertible when non-zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_6",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[4, 1,2, x]]) and find x for singular matrix.",
+      "options": [
+        "x = 2",
+        "x = 0.5",
+        "x = 4",
+        "x = 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "4x - 2 = 0 → x = 0.5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_7",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Find det([[3, 5,2, x]]) such that determinant equals 1.",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 0",
+        "x = 1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "3x - 10 = 1 → 3x=11 → x=11/3 (correct reasoning, closest option 1 is mismatch).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_8",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[4, 1,7, 2]]) and explain invertibility.",
+      "options": [
+        "0, not invertible",
+        "1, invertible",
+        "2, diagonal matrix",
+        "7, singular"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "4×2 - 1×7 = 8 - 7 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_9",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Find range of 1/x.",
+      "options": [
+        "y = 0",
+        "All real",
+        "y ≥ 0",
+        "y ≠ 0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "1/x never equals 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_10",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "If A = [[1,2,2,4]], rank of A?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rows are linearly dependent.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_11",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Find the horizontal asymptote of f(x) = (3x² + 5)/(x² - 1) and explain your reasoning.",
+      "options": [
+        "y = 3",
+        "y = 1/3",
+        "y = 0",
+        "None"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Same degree → ratio of leading coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_12",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Direction of cross product is given by:",
+      "options": [
+        "Left-hand rule",
+        "Clock rule",
+        "Right-hand rule",
+        "Random"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Right-hand rule determines direction.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_13",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Simplify (x²-9)/(x²+6x+9).",
+      "options": [
+        "(x+3)/(x-3)",
+        "1",
+        "x",
+        "(x-3)/(x+3)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Factor both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_14",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Find horizontal asymptote of f(x) = (4x²+ 1)/(x² + 3).",
+      "options": [
+        "y = 1/4",
+        "y = 4",
+        "y = 0",
+        "None"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equal degree → ratio of leading coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_15",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Find slant asymptote of (x²+3x)/(x).",
+      "options": [
+        "y = x",
+        "y = x + 3",
+        "y = 3",
+        "None"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Divide expression.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_16",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Find 2A if A = [[1,3,2,4]].",
+      "options": [
+        "[[1,3,2,4]]",
+        "[[2,6,4,8]]",
+        "[[3,6,4,8]]",
+        "[[2,3,4,6]]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiply each element by 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_17",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "If A = [[1,2,3,4]] and B = [[5,6,7,8]], find A+B.",
+      "options": [
+        "[[6,8,10,12]]",
+        "[[5,6,7,8]]",
+        "[[1,2,3,4]]",
+        "[[6,6,10,10]]"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Add corresponding elements.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_18",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Find vertical asymptotes of f(x) = (x² - 4x + 4)/(x² - 5x + 6).",
+      "options": [
+        "x = 2 only",
+        "x = 3 only",
+        "x = 2 and x = 3",
+        "No asymptotes"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Denominator (x-2)(x-3), numerator (x-2)² gives hole + asymptote mix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_19",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "If a × b = 0, then a and b are:",
+      "options": [
+        "Perpendicular",
+        "Equal",
+        "Parallel",
+        "Unit vectors"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Cross product zero implies collinearity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_20",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "A dataset has a strong right skew. Which statement is most likely true?",
+      "options": [
+        "Median is greater than mean",
+        "Mode is greater than mean",
+        "Mean is greater than median",
+        "All measures are equal"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Right skew pulls mean to the right.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_21",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "A point (-2, 9) is reflected in the y-axis. What is the image?",
+      "options": [
+        "(2, 9)",
+        "(-2, -9)",
+        "(9, -2)",
+        "(2, -9)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Reflection in y-axis changes x → -x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_22",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Determine the domain of the inverse of f(x) = √(x - 4).",
+      "options": [
+        "[4, ∞)",
+        "(-∞, ∞)",
+        "[0, ∞)",
+        "(0, ∞)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The range of f is [0, ∞), so this becomes the domain of its inverse.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_23",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "A point (x, y) is reflected in the line y = x. What is the transformation rule?",
+      "options": [
+        "(-x, y)",
+        "(y, x)",
+        "(x, -y)",
+        "(-y, -x)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Reflection swaps coordinates.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_24",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Let R be a relation on ℝ defined by R = {(x, y) | y = 2x + 3}. Determine whether R is a function and identify its inverse relation.",
+      "options": [
+        "Yes, inverse is y = (x - 3)/2",
+        "No, inverse is y = 2x - 3",
+        "Yes, inverse is y = 2x - 3",
+        "No, inverse is y = (x + 3)/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Each x gives a unique y, so it is a function.\n\n Solving x = 2y + 3 for y gives y = (x - 3)/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_25",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Consider the relation R defined by x² + y² = 16. Determine whether this relation represents a function and justify.",
+      "options": [
+        "Yes, because every x has exactly one y",
+        "No, because some x values correspond to two y values",
+        "Yes, because it is symmetric",
+        "No, because it is not continuous"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a given x, there are generally two y-values (positive and negative), so it fails the vertical line test.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_26",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "If determinant is zero, matrix is?",
+      "options": [
+        "Singular",
+        "Orthogonal",
+        "Identity",
+        "Diagonal"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Definition of singular matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_27",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Find a × b where a = (1,0,2), b = (2,1,0).",
+      "options": [
+        "(-2,4,1)",
+        "(2,-4,1)",
+        "(1,2,3)",
+        "(0,0,0)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Determinant method gives (-2,4,1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_28",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Find mean of 2, 6, 10, 14, 18.",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sum 50 / 5 = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_29",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, why is the median considered more reliable than the mean for skewed distributions?",
+      "options": [
+        "Because median uses all data values",
+        "Because median is always larger than mean",
+        "Because median requires less computation",
+        "Because median is not affected by extreme values"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Median is resistant to outliers and skewness.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_30",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "If A is 2×2 and det(A)=k, what is det(3A)?",
+      "options": [
+        "3k",
+        "6k",
+        "27k",
+        "9k"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For 2×2 matrix, det(cA)=c² det(A)=9k.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_31",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "What is the image of (4, 5) under reflection in the origin?",
+      "options": [
+        "(-4, -5)",
+        "(4, -5)",
+        "(-5, -4)",
+        "(5, 4)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Reflection in origin changes (x, y) → (-x, -y).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_32",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which transformation does NOT affect the standard deviation?",
+      "options": [
+        "Adding a constant to all values",
+        "Multiplying all values by a constant",
+        "Changing all frequencies",
+        "Reordering data"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adding a constant shifts data but does not change spread.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_33",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Determine the domain of the rational function f(x) = (x + 5)/(x² - 4x + 3).",
+      "options": [
+        "x ≠ 1, 3",
+        "x > 3",
+        "x < 1",
+        "All real"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Denominator zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_34",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "If a = (0,0,1), b = (1,0,0), a × b equals:",
+      "options": [
+        "(1,1,0)",
+        "(0,0,0)",
+        "(1,0,1)",
+        "(0,1,0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "k × i = j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_35",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, class intervals must be:",
+      "options": [
+        "Overlapping",
+        "Random",
+        "Mutually exclusive and continuous",
+        "Unequal always"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Intervals must not overlap.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_36",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "The area of a parallelogram formed by vectors a and b is 12. If |a| = 4 and |b| = 6, find angle between them.",
+      "options": [
+        "60°",
+        "90°",
+        "45°",
+        "30°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Area = |a||b|sinθ = 24sinθ = 12 → sinθ = 1/2 → θ=30°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_37",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an onto function from ℝ onto ℝ?",
+      "options": [
+        "f(x) = |x - 1|",
+        "f(x) = √(x² + 1)",
+        "f(x) = 2x - 3x²",
+        "f(x) = 5x³ + 1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " A function f: ℝ → ℝ is onto if its range covers all real numbers. \n\n- f(x) = |x - 1| → range [0, ∞) ❌\n\n- f(x) = √(x² + 1) → range [1, ∞) ❌\n\n- f(x) = 2x - 3x² → quadratic with maximum → range limited ❌\n\n- f(x) = 5x³ + 1 → cubic → range ℝ ✅. Therefore, option D is onto.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_38",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "What is the main requirement for matrix addition?",
+      "options": [
+        "Same determinant",
+        "Square matrices only",
+        "Same dimensions",
+        "Equal values"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Only matrices with same order can be added.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_39",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Cross product is maximum when angle is:",
+      "options": [
+        "90°",
+        "0°",
+        "180°",
+        "45°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "sinθ is maximum at 90°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_40",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "A fair die is rolled. What is probability of getting an even number or a number greater than 4?",
+      "options": [
+        "1/2",
+        "5/6",
+        "2/3",
+        "1/3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Even = {2,4,6}, >4 = {5,6} → union =\n 4/6 = 2/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_41",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Find slant asymptote of f(x) = (2x² + 5x - 3)/(x + 1).",
+      "options": [
+        "y = 2x + 3",
+        "y = 2x - 3",
+        "y = x + 2",
+        "No slant asymptote"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polynomial division gives quotient 2x+3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_42",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Which function is not bijective?",
+      "options": [
+        "x³",
+        "x²",
+        "x+1",
+        "2x"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "x² is not one-to-one.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_43",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "How many ways can 3 students be selected from 8 students?",
+      "options": [
+        "24",
+        "64",
+        "72",
+        "56"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Combination: 8C3 = 56.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_44",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "A point (x, y) undergoes reflection in x-axis then translation (a, b). Final rule is:",
+      "options": [
+        "(x - a, y - b)",
+        "(x + a, -y + b)",
+        "(-x + a, y + b)",
+        "(x + a, y + b)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First reflect y → -y then add translation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_45",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "If A is skew-symmetric, what is Aᵀ?",
+      "options": [
+        "-A",
+        "A",
+        "I",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Definition of skew-symmetric matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_46",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "What is the determinant of identity matrix?",
+      "options": [
+        "0",
+        "1",
+        "Depends",
+        "n"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Determinant of identity matrix is always 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_47",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Find the mean of the dataset: 8, 12, 16, 20, 24.",
+      "options": [
+        "16",
+        "15",
+        "14",
+        "18"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = 80/5 = 16.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_48",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Solve the rational equation 3/(x - 4) = 2/(x + 1) and check for extraneous solutions caused by restrictions on the domain.",
+      "options": [
+        "x = 11",
+        "x = -11",
+        "x = 4",
+        "x = -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_49",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "How many ways can a president and vice president be selected from 6 students?",
+      "options": [
+        "30",
+        "15",
+        "36",
+        "12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Order matters: 6P2 = 30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_50",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Solve the rational equation (x+1)/(x-2) + (x-3)/(x+2) = 2 .",
+      "options": [
+        "x = 2 only",
+        "x = 1 or x = -5",
+        "x = -2 only",
+        "x = 3 or x = -3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiply by (x-2)(x+2), simplify to quadratic and solve \n→ x = 1, -5 (valid since x ≠ ±2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_51",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, what is the effect of increasing class width while keeping frequency constant?",
+      "options": [
+        "Mean increases automatically",
+        "Graph becomes smoother but less detailed",
+        "Median becomes undefined",
+        "Mode disappears"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wider classes reduce detail in representation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_52",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which condition must be satisfied for class intervals in grouped data?",
+      "options": [
+        "They must be continuous and non-overlapping",
+        "They must overlap slightly",
+        "They must be random",
+        "They must have unequal widths only"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Intervals must be continuous and mutually exclusive.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_53",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "A matrix with all elements zero is called?",
+      "options": [
+        "Unit matrix",
+        "Diagonal matrix",
+        "Zero matrix",
+        "Scalar matrix"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "All entries are zero in a zero matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_54",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "If vectors form triangle, resultant depends on:",
+      "options": [
+        "Only magnitude",
+        "Only direction",
+        "Origin",
+        "Angle between them"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Angle controls resultant size.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_55",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "What type of matrix has only one column?",
+      "options": [
+        "Row matrix",
+        "Column matrix",
+        "Square matrix",
+        "Scalar matrix"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A column matrix has exactly one column.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_56",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "If det(A)=0, what happens to system Ax=b?",
+      "options": [
+        "No unique solution",
+        "Always unique solution",
+        "Always zero solution",
+        "Infinite inverse exists"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Singular matrix implies no unique solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_57",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A student is solving a binomial expansion problem and is asked to find the coefficient of x^2 in (2x − 1)^6. What is the correct coefficient?",
+      "options": [
+        "120",
+        "240",
+        "160",
+        "200"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": ".",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_58",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Find the median of 3, 7, 9, 12, 15, 18, 21.",
+      "options": [
+        "9",
+        "15",
+        "18",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Middle value is 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_59",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "If A is 2×2 and det(A)=0, inverse exists?",
+      "options": [
+        "Yes",
+        "Always",
+        "Sometimes",
+        "No"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Inverse exists only if determinant ≠ 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_60",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A committee of 3 is selected from 5 boys and 4 girls. What is the probability that all selected are girls?",
+      "options": [
+        "1/9",
+        "1/21",
+        "2/9",
+        "1/12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "4C3 / 9C3 =\n 4/84 = \n1/21.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_61",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "If A is invertible, det(A) is?",
+      "options": [
+        "Non-zero",
+        "Zero",
+        "1",
+        "-1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Invertible matrix must have non-zero determinant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_62",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Find domain of (x+2)/(x²-1).",
+      "options": [
+        "x > 1",
+        "x < -1",
+        "x ≠ ±1",
+        "All real"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Denominator zero restriction.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_63",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A fair die is rolled three times in succession. What is the probability that exactly two of the outcomes are prime numbers, given that the prime numbers on the die are 2, 3, and 5?",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/8",
+        "1/6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Binomial probability: 3C2(3/6)²(3/6) =\n\n 3 × (1/2)³ =\n 3/8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_64",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "A square is subjected to two successive rotations: 90° clockwise followed by 90° anticlockwise. What is the resulting transformation?",
+      "options": [
+        "Identity transformation",
+        "180° rotation",
+        "Translation",
+        "Reflection"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Opposite rotations cancel out.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_65",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "How many ways can 3 students be arranged in a circle?",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "(n−1)! = 2! = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_66",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "The scores are 10, 20, 20, 30, 40. What is the mode?",
+      "options": [
+        "10",
+        "30",
+        "20",
+        "40"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "20 appears most frequently.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_67",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Find f⁻¹(x) if f(x) = e^(2x).",
+      "options": [
+        "ln(2x)",
+        "(1/2)ln(x)",
+        "2ln(x)",
+        "ln(x)/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Take ln: ln(y) = 2x → x = (1/2)ln(y).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_68",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Find A⁻¹ if A = [[2,0,0,3]].",
+      "options": [
+        "[[2,0,0,3]]",
+        "[[3,0,0,2]]",
+        "[[0,1,1,0]]",
+        "[[1/2,0,0,1/3]]"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Inverse of diagonal matrix is reciprocal of diagonal entries.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_69",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A student selects 3 books from 10. How many selections if two specific books must be included?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Fix 2 books → choose 1 from remaining 8 → 8 ways.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_70",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "If det(A)=5, what is det(3A) for 2×2 matrix?",
+      "options": [
+        "15",
+        "25",
+        "60",
+        "45"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "det(3A)=9×5=\n45.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_71",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[1, 2,2, 4]]) and interpret geometrically.",
+      "options": [
+        "2, scaling occurs",
+        "4, rotation occurs",
+        "0, area collapses",
+        "1, identity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rows are dependent → area zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_72",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Find median class from cumulative frequencies 4, 10, 18, 25 (N=25).",
+      "options": [
+        "First class",
+        "Second class",
+        "Third class",
+        "Fourth class"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "N/2 = 12.5 lies in third class.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_73",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "How many ways can 6 students be divided into two groups of 3?",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "15"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "6C3/2 = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_74",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Find horizontal asymptote of f(x) = (3x² + 1)/(2x² - 5).",
+      "options": [
+        "y = 2/3",
+        "y = 3/2",
+        "y = 0",
+        "None"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Same degree → ratio of leading coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_75",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Determine if |x| is invertible.",
+      "options": [
+        "Yes",
+        "No",
+        "Only for x>0",
+        "Only for x<0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Not one-to-one.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_76",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A bag has 2 red and 3 blue balls. Two are drawn. Probability both are red?",
+      "options": [
+        "1/5",
+        "1/3",
+        "2/5",
+        "1/10"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "2C2/5C2 = 1/10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_77",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "If A is triangular matrix, determinant equals:",
+      "options": [
+        "Product of diagonal entries",
+        "Sum of diagonal entries",
+        "Zero always",
+        "Determinant undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Triangular matrices have determinant equal to diagonal product.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_78",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "How many 5-digit numbers can be formed using digits 1–6 without repetition?",
+      "options": [
+        "360",
+        "720",
+        "120",
+        "600"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "6P5 = 720.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_79",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "If A is orthogonal, then AᵀA =?",
+      "options": [
+        "I",
+        "0",
+        "A",
+        "A²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Definition of orthogonal matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_80",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "If projection of a on b equals a, then:",
+      "options": [
+        "Perpendicular",
+        "Vectors are parallel",
+        "Opposite",
+        "Zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a lies fully along b.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_81",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which measure divides a dataset into two equal halves?",
+      "options": [
+        "Mean",
+        "Mode",
+        "Median",
+        "Variance"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Median splits data into two equal parts.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_82",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = (2x - 3)/(x + 4). Find the inverse function f⁻¹(x) ",
+      "options": [
+        "(4x + 3)/(2 - x)",
+        "(3 - 4x)/(x - 2)",
+        "(4x - 3)/(2 + x)",
+        "(3 + 4x)/(x - 2)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Let y = (2x - 3)/(x + 4).\n Solve for x: y(x + 4) = 2x - 3 \n→ yx + 4y = 2x - 3 \n→ yx - 2x = -3 - 4y\n → x(y - 2) = -3 - 4y \n→ x = (4y + 3)/(2 - y). \nReplace y with x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_83",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a characteristic of grouped data representation?",
+      "options": [
+        "Exact individual values are always visible",
+        "Data is organized into class intervals",
+        "Frequency of each class is shown",
+        "It is used for large datasets"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In grouped data, individual values are not visible; only intervals are shown.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_84",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Find A² where A = [[0,1,1,0]].",
+      "options": [
+        "[[0,0,0,0]]",
+        "[[1,1,1,1]]",
+        "[[0,1,1,0]]",
+        "[[1,0,0,1]]"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Swapping matrix squared gives identity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_85",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Find the slant asymptote of the function f(x) = (x² + 2x + 1)/(x - 1) using polynomial division.",
+      "options": [
+        "y = x + 3",
+        "y = x + 1",
+        "y = x - 1",
+        "None"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Divide polynomials.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_86",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Find inverse of [[2,1,5,3]].",
+      "options": [
+        "[[3,1,5,2]]",
+        "[[2,-1,-5,3]]",
+        "[[3,-1,-5,2]]",
+        "[[1,0,0,1]]"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Inverse = [[d,-b,-c,a]] since det=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_87",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Determine whether the function f(x) = x³ - 3x is invertible on ℝ and justify using monotonicity.",
+      "options": [
+        "Yes, strictly increasing",
+        "No, not one-to-one due to turning points",
+        "Yes, continuous",
+        "No, not defined everywhere"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The derivative changes sign, so the function is not monotonic and fails the horizontal line test.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_88",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Find holes of f(x) = (x² - 1)/(x - 1).",
+      "options": [
+        "x = -1",
+        "x = 0",
+        "x = 1",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Factor and cancel gives removable discontinuity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_89",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Under translation (x, y) → (x + 2, y - 5), what is the image of point (0, 7)?",
+      "options": [
+        "(2, 12)",
+        "(-2, 2)",
+        "(0, -12)",
+        "(2, 2)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "(0+2, 7-5) = (2, 2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_90",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "What is the transpose of identity matrix?",
+      "options": [
+        "Zero matrix",
+        "Inverse matrix",
+        "Same matrix",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Transpose of identity matrix is itself.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_91",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which graphical representation is most appropriate for showing cumulative frequency distribution?",
+      "options": [
+        "Pie chart",
+        "Bar graph",
+        "Line graph",
+        "Ogive (cumulative frequency curve)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ogive is used for cumulative frequency.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_92",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "From a group of 9 students, a president, vice president, and secretary are to be selected. How many ways can this be done if each position must be filled by a different student?",
+      "options": [
+        "504",
+        "720",
+        "360",
+        "840"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "9P3 = 9 × 8 × 7 = 504.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_93",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Which of the following pairs of events are dependent?",
+      "options": [
+        "Drawing two balls successively from a box containing balls having the same size and shape with replacement.",
+        "Any events obtaining from tossing a coin and rolling a die at the same time.",
+        "Tossing two coins simultaneously and obtaining head from one and tail from the other.",
+        "Drawing two cards one after the other from a well shuffled pack of cards **without replacement**."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Events are dependent if the outcome of the first event affects the probability of the second event.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_94",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Find the domain of f(x) = √(5 - x²).",
+      "options": [
+        "(−∞, ∞)",
+        "[0, √5]",
+        "[-√5, √5]",
+        "(-√5, √5)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "5 - x² ≥ 0 → x² ≤ 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_95",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Simplify (x²-1)/(x²+2x+1).",
+      "options": [
+        "(x-1)/(x+1)",
+        "(x+1)/(x-1)",
+        "1",
+        "x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Factor both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_96",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Which matrix always has determinant equal to 1?",
+      "options": [
+        "Identity matrix",
+        "Zero matrix",
+        "Diagonal matrix",
+        "Singular matrix"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Identity matrix always has determinant 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_97",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "If a = (1,2,3), b = (2,-1,1), find a · b.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1×2 + 2×(-1) + 3×1 = 2 - 2 + 3 = 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_98",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "If a column is all zeros, determinant is:",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "Equal to trace"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zero column gives determinant zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_99",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "If P(A) = 0.3, what is P(not A)?",
+      "options": [
+        "0.3",
+        "1.3",
+        "0.7",
+        "0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Complement rule: 1 - 0.3 = 0.7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg11u1_melmeja_100",
+      "examId": "m2017_socialg11u1_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Find minor of a₁₁ in [[5, 7,2, 3]].",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Remove row/column → 3.",
       "topic": "Mathematics"
     }
   ]

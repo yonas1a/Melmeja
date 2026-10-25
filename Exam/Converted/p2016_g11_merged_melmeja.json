@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 11",
-  "description": "Comprehensive examination bank combining 8 chapters (17 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 17,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 8 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -291,6 +291,1338 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "The capillary rise ($h$) is given by Jurin's Law: $h = \\frac{2\\gamma \\cos\\theta}{\\rho g r}$.\n\n1.  **Convert to SI units:**\n    * Radius $r = 30 \\text{ mm} = 0.030 \\text{ m}$.\n    * Density $\\rho = 2.28 \\text{ g/cm}^3 = 2280 \\text{ kg/m}^3$.\n\n2.  **Calculate $h$ (using stated values):**\n    $$h = \\frac{2(0.26 \\text{ N/m}) \\cos(30^{\\circ})}{(2280 \\text{ kg/m}^3)(9.8 \\text{ m/s}^2)(0.030 \\text{ m})}$$ \n    $$h \\approx \\frac{0.4503}{670.32} \\approx 0.000672 \\text{ m}$$\n\n*Note: The calculated value is $0.672 \\text{ mm}$, which does not match the options. The closest plausible result that matches an option (C) is obtained if we assume the radius was mistyped and should have been $r = 0.3 \\text{ mm}$ ($0.0003 \\text{ m}$), which yields $h \\approx 0.067 \\text{ m}$ (or $6.7 \\text{ cm}$) a better fit for $0.066 \\text{ m}$*.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_18",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "The design of modern military weapons, including nuclear weapons, directly involves which group of professionals?",
+      "options": [
+        "Chemists.",
+        "Biologists.",
+        "Economists.",
+        "Physicists."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Physics is useful for military purposes, and today physicists are involved in the creation of nuclear weapons.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_19",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Instantaneous velocity of a particle is defined as:",
+      "options": [
+        "Average velocity over a finite time interval",
+        "Rate of change of displacement at a specific instant",
+        "Total displacement divided by total time",
+        "Speed at maximum height"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Instantaneous velocity is the derivative of displacement with respect to time at a specific instant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_20",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Centripetal acceleration formula is:",
+      "options": [
+        "vr",
+        "v/r",
+        "r/v²",
+        "v²/r"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "a_c = v²/r",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_21",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Angle of vector R = 4i + 6j with x-axis is:",
+      "options": [
+        "tan⁻¹(6/4)",
+        "tan⁻¹(4/6)",
+        "cos⁻¹(4/6)",
+        "sin⁻¹(6/4)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "θ = tan⁻¹(Ry/Rx) =\n tan⁻¹(6/4).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_22",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "The reliance of modern transportation methods (like aircraft) on physics principles demonstrates the influence of physics on which of the following?",
+      "options": [
+        "Local governance.",
+        "Global interconnectedness.",
+        "Traditional agriculture.",
+        "Literary criticism."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Modern means of transportation... have drawn people across the world closer together, demonstrating global interconnectedness.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_23",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": " Free fall is defined as the downward motion of an object",
+      "options": [
+        "near the surface of the Earth under the influence of air resistance.",
+        "with acceleration that depends on the mass of the object.",
+        "in free space on which no force is acting.",
+        "with acceleration which is the same as acceleration due to gravity."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Free fall is the motion of an object where gravity is the only force acting upon it, resulting in an acceleration equal to the acceleration due to gravity (g), independent of the object's mass.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_24",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "In a parallel circuit containing two resistors, R1 and R2, the current I1 through R1 is 2.0 A and the current I2 through R2 is 3.0 A. What is the total current leaving the source, according to Kirchhoff's Junction Rule?",
+      "options": [
+        "5.0 A",
+        "1.0 A",
+        "6.0 A",
+        "0.6 A"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total current I is the sum of the currents in the parallel branches: I = I1 + I2 = \n2.0 A + 3.0 A = 5.0 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_25",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following factors does NOT affect the resistance of a wire?",
+      "options": [
+        "The length of the wire.",
+        "The cross-sectional area of the wire.",
+        "The type of material (resistivity).",
+        "The voltage applied across the wire."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Resistance R is a property of the conductor's geometry and material (R = rho L/A).\n\n Applied voltage changes the current, but not the resistance itself (for an ohmic conductor).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_26",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Which component in a car engine uses the principle of high specific heat capacity to prevent overheating?",
+      "options": [
+        "The piston",
+        "The oil filter",
+        "The radiator water",
+        "The spark plug"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The water (or coolant mixture) in the car's radiator absorbs a large amount of heat from the engine without a dangerously high rise in its own temperature, a property afforded by its high specific heat capacity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_27",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "The melting point of ice decreases as the applied external pressure:",
+      "options": [
+        "Increases.",
+        "Decreases.",
+        "Remains constant.",
+        "Is independent of pressure."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For substances like water that expand upon freezing (ice is less dense than liquid water), increased pressure makes the solid phase unstable, thus lowering the melting point. \nThis is unique to water.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_28",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about transformation of mechanical energy into other forms and the law of conservation of total energy?",
+      "options": [
+        "Due to dissipative force, the mechanical energy of a wooden block sliding on a rough horizontal surface is not conserved.",
+        "Mechanical energy of a wooden block sliding on a rough horizontal surface is conserved.",
+        "Neglecting air resistance, an object moving vertically downward gains potential energy and loses an equal amount of kinetic energy.",
+        "Neglecting air resistance, an object moving vertically upward gains kinetic energy and loses an equal amount of gravitational potential energy."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mechanical energy (ME) is the sum of kinetic and potential energy.\n\n It is not conserved when non-conservative (dissipative) forces like friction are present, as friction converts ME into internal energy (heat).\n\n The total energy of the system, however, remains conserved.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_29",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "What is the primary biological concern with alpha particles, despite their low penetrating power?",
+      "options": [
+        "Their long half-life",
+        "Their high penetrating power",
+        "Their low kinetic energy",
+        "Their high ionizing power when internalized"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "While harmless externally, if an alpha emitter is ingested or inhaled, the highly ionizing alpha particles cause intense damage to nearby cells, posing a severe internal hazard.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_30",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A potentiometer is mainly used for:",
+      "options": [
+        "Measuring high currents.",
+        "Comparing the EMFs of two cells.",
+        "Measuring the resistance of a conductor.",
+        "Measuring the power dissipated in a circuit."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The potentiometer is a device used to measure and compare unknown EMFs or potential differences accurately without drawing any current from the source being measured.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_31",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Two capacitors, C1 = 2 microFarad and C2 = 4 microFarad, are connected in parallel. What is the equivalent capacitance?",
+      "options": [
+        "6 microFarad",
+        "1.33 microFarad",
+        "0.67 microFarad",
+        "8 microFarad"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In parallel: C_eq = C1 + C2 = \n2 microFarad + 4 microFarad = 6 microFarad.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_32",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "If the activity of a radioactive sample drops from 1000 Bq to 125 Bq in 9 hours, what is its half-life?",
+      "options": [
+        "1.5 hours",
+        "3 hours",
+        "4.5 hours",
+        "9 hours"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1000 Bq to 125 Bq is a reduction by a factor of 8 (1000 divided by 8 equals 125). Since 2 cubed equals 8, this is 3 half-lives. 3 half-lives equals 9 hours, so one half-life equals 3 hours.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_33",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "The cloud chamber uses which principle to visualize the paths of ionizing radiation?",
+      "options": [
+        "Ionization of gas causing precipitation of droplets",
+        "Scintillation of a crystal",
+        "Electromagnetic deflection",
+        "Absorption of a neutron"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In a cloud chamber, charged particles ionize the supersaturated vapor, which causes droplets to condense along the particle's path, making the path visible.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_34",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "The rate of conductive heat transfer through a slab of material is directly proportional to the:",
+      "options": [
+        "Thickness of the slab.",
+        "Temperature difference across the slab.",
+        "Thermal conductivity of the slab.",
+        "All of the above, except A."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The rate of heat conduction is proportional to the cross-sectional area (A), the temperature difference (delta T), and the thermal conductivity (k), and inversely proportional to the thickness (L). Thus, B and C are correct, making D the best answer.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_35",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "A block of mass m is placed on horizontal surface. The coefficient of static friction between the block and the surface is μ. A force of magnitude F acts on the block at an angle θ as shown in the figure below.\n\nThe minimum magnitude of the force F required to slide the block on the surface is _______.",
+      "imageUrl": "images/P2014_8.png",
+      "diagramUrl": "images/P2014_8.png",
+      "options": [
+        "μmg  / cosθ - μsinθ",
+        "μmg / cosθ + μsinθ",
+        "μmg / cosθ-sinθ",
+        "μmg / cosθ + sinθ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Resolve the applied force F into components: horizontal = Fcosθ, vertical = Fsinθ (downward).\n\n The normal force becomes N = mg + Fsinθ.\n\n- Maximum static friction = μN = μ(mg + Fsinθ).\n\n At the point of motion: Fcosθ = μ(mg + Fsinθ).\n\n Rearranging gives F(cosθ − μsinθ) = \nμmg, so F = μmg / (cosθ − μsinθ).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_36",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "The latent heat of vaporization of alcohol is 8.54 x 10 power 5 J/kg. How much alcohol can be vaporized by 85,400 Joule of heat at its boiling point?",
+      "options": [
+        "0.1 kg",
+        "1.0 kg",
+        "10 kg",
+        "0.01 kg"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mass (m) = Heat (Q) / Latent heat of vaporization (L_v).\n m = 85,400 J / (8.54 x 10 power 5 J/kg) \n= 0.1 kg.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_37",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which isotopes are primarily used as fuel in commercial nuclear fission reactors?",
+      "options": [
+        "Hydrogen-1 and Deuterium",
+        "Uranium-235 and Plutonium-239",
+        "Carbon-14 and Oxygen-16",
+        "Iron-56 and Nickel-62"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Uranium-235 is the only naturally occurring fissile isotope.\n\n Plutonium-239 is another important fissile material produced in the reactor.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_38",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Which property is described by the linear coefficient of thermal expansion (alpha)?",
+      "options": [
+        "The fractional change in length per unit mass.",
+        "The fractional change in volume per unit temperature change.",
+        "The fractional change in length per unit temperature change.",
+        "The total change in length per unit temperature change."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_39",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "If 100 Joule of heat is required to raise the temperature of a body by 5 K, what is the heat required to raise its temperature by 20 K?",
+      "options": [
+        "400 Joule",
+        "500 Joule",
+        "1,000 Joule",
+        "2,000 Joule"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The heat capacity of the body is C = 100 J / 5 K = \n20 J/K. \nThe new heat required is Q = C * Delta T =\n 20 J/K * 20 K = 400 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_40",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "The electric flux through a closed surface depends only on the net charge enclosed. This is a statement of:",
+      "options": [
+        "Coulomb's Law",
+        "Gauss's Law",
+        "Ohm's Law",
+        "Kirchhoff's Junction Rule"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Gauss's Law states that the total electric flux through any closed surface is equal to Q_enclosed / epsilon_naught.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_41",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Three forces of equal magnitude F are exerted at the center of a uniform beam of length L and negligible mass. The net torques on the beam about an axis parallel to the z-axis and passing through point A, B, and O, respectively, which one of the following expressions is correct?",
+      "imageUrl": "images/P2014_44.png",
+      "diagramUrl": "images/P2014_44.png",
+      "options": [
+        "τA = τB = τO = 0",
+        "τA > τB > τO",
+        "τA < τB < τO",
+        "τO = 0, τA > τB"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "τ_net = r × Fnet = r × 0 = 0",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_42",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "A 0.5 kg sample of metal is heated with a 20 W heater for 10 minutes. If the temperature rise is 40 K, what is the specific heat capacity of the metal?",
+      "options": [
+        "60 J/(kg K)",
+        "600 J/(kg K)",
+        "120 J/(kg K)",
+        "1,200 J/(kg K)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_43",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Vector A = 4i + 3j, B = -3i + 4j. Find A·B.",
+      "options": [
+        "0",
+        "25",
+        "-25",
+        "7"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A·B = 4*(-3) + 3*4 =\n -12+12=0",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_44",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "A 100 Watt light bulb operates on a 220 Volt line. What is the resistance of the bulb?",
+      "options": [
+        "484 Ohm",
+        "2.2 Ohm",
+        "22000 Ohm",
+        "48.4 Ohm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Power P = V² / R. \n\nR = V² / P.\n\n R = (220 V)² / 100 W = \n\n48400 / 100 = 484 Ohm.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_45",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "The term used to describe two nuclides that have the same mass number A but different atomic numbers Z is:",
+      "options": [
+        "Isomers",
+        "Isotopes",
+        "Isobars",
+        "Isotones"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Isobars have the same mass number (A), meaning the total number of nucleons is the same, but the mix of protons and neutrons (Z) is different.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_46",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Vector A = 7i + 24j. Find magnitude.",
+      "options": [
+        "25",
+        "26",
+        "24",
+        "31"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "|A| =\n √(7² + 24²) =\n √(49+576)=\n√625=25",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_47",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "A 5 kg object is moving at 4 m/s. Its momentum is:",
+      "options": [
+        "20 kg·m/s",
+        "9 kg·m/s",
+        "10 kg·m/s",
+        "5 kg·m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Momentum p = mv = 5*4 = 20 kg·m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_48",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "At the critical point on a phase diagram, which of the following occurs?",
+      "options": [
+        "The solid and liquid phases merge.",
+        "All three phases coexist in equilibrium.",
+        "The liquid and gaseous phases merge into a single phase.",
+        "The substance undergoes sublimation."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The critical point is the temperature and pressure where the liquid and gaseous phases of a substance become indistinguishable, merging into a single fluid phase.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_49",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "How does an increase in the length of a parallel plate capacitor's wires affect its capacitance?",
+      "options": [
+        "It increases the capacitance.",
+        "It decreases the capacitance.",
+        "It has no effect on the capacitance.",
+        "It depends on the wire material."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Capacitance C = epsilon_naught k A / d depends only on the geometry of the plates and the dielectric.\n\n The connecting wires are external and do not affect the capacitance value.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_50",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Which of the following expressions is NOT equivalent to electric power P?",
+      "options": [
+        "P = I V",
+        "P = I^2 R",
+        "P = V^2 / R",
+        "P = R / I^2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The standard power formulas are P = I V, P = I² R, and P = V² / R.\n\n The expression P = R / I² is incorrect.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_51",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "The time required for half of the nuclei in a radioactive sample to decay is called the:",
+      "options": [
+        "Mean lifetime",
+        "Decay constant",
+        "Half-life",
+        "Activity time"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Half-life (T one half) is the characteristic time taken for the activity of a radioactive sample to fall to half its initial value.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_52",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The work done in moving a body along a circular path with constant speed is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Infinite",
+        "Zero"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Force (centripetal) is perpendicular to displacement → Work = 0.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_53",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "A 2 kg object moves with velocity 3 m/s. Find its momentum.",
+      "options": [
+        "5 kg·m/s",
+        "3 kg·m/s",
+        "6 kg·m/s",
+        "2 kg·m/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Momentum p = mv =\n 2*3 =\n 6 kg·m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_54",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "If an object has a heat capacity of 500 Joule per Kelvin, how much heat is required to raise its temperature by 10 Kelvin?",
+      "options": [
+        "50 Joule",
+        "500 Joule",
+        "5,000 Joule",
+        "50,000 Joule"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Heat required (Q) = Heat Capacity (C) multiplied by temperature change (Delta T).\n\n Q = 500 J/K * 10 K = 5000 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_55",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "The force that opposes relative motion between surfaces is called:",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Normal force",
+        "Tension"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Friction is the resistive force between surfaces in contact.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_56",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which quantity relates the heat required (Q) to the mass (m) and the temperature change (Delta T)?",
+      "options": [
+        "Heat capacity",
+        "Thermal conductivity",
+        "Latent heat",
+        "Specific heat capacity"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The defining equation is Q = m * c * Delta T, where c is the specific heat capacity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_57",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The mission of the African Association of Physics Students (aaps) focuses on encouraging students in their scientific and professional work in an African context, as well as:",
+      "options": [
+        "purely local context.",
+        "An ancient, historical context.",
+        "An African and an international context.",
+        "purely economic context."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The purpose of aaps is to encourage physics students in their scientific and professional work in an African and an international context.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_58",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the result when a nucleus undergoes beta minus decay, followed immediately by an alpha decay?",
+      "options": [
+        "The final Z is decreased by 1 and A is decreased by 4.",
+        "The final Z is decreased by 3 and A is decreased by 4.",
+        "The final Z is increased by 1 and A is decreased by 4.",
+        "The final Z is decreased by 2 and A is decreased by 4."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Beta minus: Z increases by 1, A is unchanged. Alpha decay: Z decreases by 2, A decreases by 4. Net change: Z goes from Z to Z plus 1 minus 2 equals Z minus 1. A goes from A to A minus 4.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_59",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "An ideal calorimeter should have a specific heat capacity that is:",
+      "options": [
+        "High, to prevent temperature changes.",
+        "Zero, to avoid absorbing any heat.",
+        "Equal to the specific heat of water.",
+        "Dependent on the experiment's duration."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An ideal calorimeter should absorb no heat, which means its own heat capacity (and thus its specific heat capacity) should be zero, so all heat exchanged is between the bodies being measured.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_60",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A body of 2 kg moves at 5 m/s and collides elastically with a 3 kg stationary body. Total momentum before collision?",
+      "options": [
+        "10 kg·m/s",
+        "5 kg·m/s",
+        "15 kg·m/s",
+        "20 kg·m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "p_total = 2*5 + 3*0 = 10 kg·m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_61",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "In a perfectly inelastic collision:",
+      "options": [
+        "Kinetic energy is conserved",
+        "Bodies stick together",
+        "Momentum is lost",
+        "Friction is high"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Inelastic collisions involve bodies sticking together; momentum is conserved but kinetic energy is not.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_62",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A 10 kg object is sliding on a horizontal surface with μ = 0.2. Find the frictional force. (g = 10 m/s²)",
+      "options": [
+        "10 N",
+        "20 N",
+        "15 N",
+        "25 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Friction f = μN = μmg = \n0.2*10*10 = \n20 N  .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_63",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Resultant magnitude of A = i + 2j, B = 3i + j using parallelogram law is:",
+      "options": [
+        "√25",
+        "5",
+        "√10",
+        "√26"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_64",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Work done by a constant force is proportional to:",
+      "options": [
+        "Time",
+        "Displacement in the direction of force",
+        "Mass",
+        "Acceleration"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Work = F·d·cosθ, depends on displacement along force direction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_65",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "The magnitude of kinetic friction is usually:",
+      "options": [
+        "Greater than static friction",
+        "Equal to static friction",
+        "Zero always",
+        "Less than static friction"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Kinetic friction is generally less than the maximum static friction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_66",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Why does a metal spoon placed in hot tea quickly become hot?",
+      "options": [
+        "The tea radiates heat to the spoon.",
+        "The tea transfers heat by convection through the fluid.",
+        "The spoon conducts heat efficiently due to free electrons.",
+        "The spoon's high specific heat allows rapid temperature change."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Metals are good thermal conductors because they have free electrons that can rapidly transport thermal energy through the material's structure.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_67",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Which area of physics career awareness is most concerned with the study of the Earth's physical properties, using principles like seismology, gravity, and magnetism?",
+      "options": [
+        "Nuclear Physics.",
+        "Geophysics.",
+        "Medical Physics.",
+        "Astro-Physics."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Geophysics is explicitly listed as a career area, which is the field dedicated to the physics of the Earth, including seismology and related phenomena.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_68",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Two vectors of magnitude 8 units each at 90° angle. Resultant magnitude is:",
+      "options": [
+        "16",
+        "8",
+        "8√2",
+        "0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "R = √(8² + 8²) = 8√2.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_69",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements distinguishes between random and systematic errors?",
+      "options": [
+        "Systematic error can be minimized by taking several readings and averaging; whereas random error cannot be minimized.",
+        "Systematic error makes measured values to be always above or always below the true value; whereas random error causes measured values to be sometimes above and sometimes below the true value.",
+        "Random error makes measured values to be always above or always below the true value; whereas systematic error causes measured values to be sometimes above and sometimes below the true value.",
+        "Random error is biased, whereas systematic error does not show bias."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Systematic errors introduce a consistent bias, always shifting measurements in the same direction.\n\n Random errors cause unpredictable scattering of measurements around the true value, being sometimes above and sometimes below.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_70",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "The total binding energy of a nucleus is defined as the energy required to:",
+      "options": [
+        "Remove a single proton from the nucleus",
+        "Separate the nucleus into its individual protons and neutrons",
+        "Initiate nuclear fission",
+        "Remove all orbital electrons"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Binding energy is the energy equivalent of the mass defect, representing the energy needed to disassemble the nucleus into its constituent nucleons.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_71",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "A 3 kg mass falls from 5 m height. Find its velocity just before hitting the ground. (g = 10 m/s²)",
+      "options": [
+        "5 m/s",
+        "√50 m/s",
+        "√100 m/s",
+        "10 m/s"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "v = √(2gh) = \n√(2*10*5) = \n√100 =\n 10 m/s .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_72",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "In a series connection of capacitors, which quantity is the same for all capacitors?",
+      "options": [
+        "Potential difference.",
+        "Charge.",
+        "Energy stored.",
+        "Capacitance."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a series connection, the charge Q that flows from the battery is stored on every plate of every capacitor: Q_1 = Q_2 = Q_total.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_73",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Instantaneous speed differs from average speed because:",
+      "options": [
+        "It is measured over a long interval",
+        "It is measured at a specific instant",
+        "It is always zero",
+        "It ignores displacement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Instantaneous speed is the magnitude of instantaneous velocity at a given instant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_74",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "s-t graph for uniform acceleration is:",
+      "options": [
+        "Straight line",
+        "Hyperbola",
+        "Parabola",
+        "Circle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Displacement-time graph is parabolic for uniform acceleration",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_75",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Vector A = 4i + 3j. Angle with x-axis is:",
+      "options": [
+        "53.13°",
+        "45°",
+        "60°",
+        "36.87°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "θ = tan⁻¹(3/4) ≈ 36.87°",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_76",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A 3 kg object moves at 4 m/s. Find kinetic energy.",
+      "options": [
+        "24 J",
+        "12 J",
+        "36 J",
+        "48 J"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "KE = 1/2*3*16 =\n 24 J .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_77",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Time to reach maximum height is half of:",
+      "options": [
+        "Initial velocity",
+        "Acceleration",
+        "Total time of flight",
+        "Displacement"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Total flight time = 2u/g, time to max height = u/g.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_78",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Centripetal acceleration in uniform circular motion is:",
+      "options": [
+        "Directed along tangent",
+        "Directed towards center",
+        "Directed away from center",
+        "Zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Acceleration in uniform circular motion always points to center.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_79",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an accurate description of beta plus (positron) decay?",
+      "options": [
+        "neutron becomes a proton",
+        "proton becomes a neutron",
+        "An electron is captured by the nucleus",
+        "The nucleus emits a helium nucleus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In beta plus decay, a proton converts into a neutron, releasing a positron and a neutrino.\n\n The atomic number Z decreases by 1, and the mass number A remains the same.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_80",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "The existence of modern conveniences such as computers, television, and phones is fundamentally dependent on early discoveries in physics, particularly in the areas of:",
+      "options": [
+        "Gravity and thermodynamics.",
+        "Fluid dynamics and optics.",
+        "Magnetism, electricity, and conductors.",
+        "Nuclear physics and quantum theory."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Discoveries such as magnetism, electricity, and conductors laid the foundation on which current technologies like television, computers, and phones were developed, making these modern conveniences possible.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_81",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Two vectors A = 5i + 2j, B = 3i + 4j. Resultant R = ?",
+      "options": [
+        "8i + 6j",
+        "2i - 2j",
+        "5i + 6j",
+        "8i - 2j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "R = A + B = (5+3)i + (2+4)j = 8i + 6j.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_82",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A cell with an EMF of 1.5 V and internal resistance of 0.5 Ohm is connected to an external resistance of 2.5 Ohm. What is the current flowing in the circuit?",
+      "options": [
+        "0.5 A",
+        "0.6 A",
+        "3.0 A",
+        "5.0 A"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Total resistance R_total = R_ext + r =\n 2.5 Ohm + 0.5 Ohm = 3.0 Ohm.\n\\n Current I = EMF / R_total =\n 1.5 V / 3.0 Ohm = 0.5 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_83",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Uniform circular motion implies:",
+      "options": [
+        "Constant speed and constant acceleration",
+        "Constant speed and acceleration directed to center",
+        "Changing speed",
+        "No acceleration"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In uniform circular motion, speed is constant but acceleration (centripetal) is towards center.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_84",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The mission of the Ethiopian Physics Society in North America (EPSNA) includes donating educational materials, field equipment, and computing facilities. This is primarily aimed at supporting the education and training of Ethiopian Physics:",
+      "options": [
+        "High school students.",
+        "Amateurs and hobbyists.",
+        "Professionals.",
+        "Retired faculty members."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The mission of EPSNA was to promote and support the education and training of Ethiopian Physics professionals by donating educational materials, field equipment, computing facilities, and providing scholarships.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_85",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A substance's heat capacity is defined as the amount of heat energy required to raise the temperature of the substance by:",
+      "options": [
+        "One degree Celsius only.",
+        "One Kelvin only.",
+        "One degree Celsius or one Kelvin.",
+        "Ten degrees Celsius."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since the size of one degree Celsius is the same as the size of one Kelvin (Delta T in Celsius equals Delta T in Kelvin), the heat capacity unit can be Joules per degree Celsius (J/degree C) or Joules per Kelvin (J/K).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_86",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Dot product is distributive. Which is correct?",
+      "options": [
+        "A·(B + C) = A·B + A·C",
+        "A·(B + C) = 0",
+        "A·(B + C) = A×B + C",
+        "A·(B + C) = B + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dot product satisfies distributive property over addition.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_87",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Dot product of vector with itself is:",
+      "options": [
+        "Zero",
+        "Magnitude squared",
+        "Twice magnitude",
+        "Magnitude"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A·A = |A||A|cos0 = |A|².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_88",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Kinetic energy of a 2 kg mass moving at 3 m/s is:",
+      "options": [
+        "9 J",
+        "6 J",
+        "18 J",
+        "3 J"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "KE = 1/2 mv² =\n 0.5*2*3² =\n 9 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_89",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Physics is described as a major driver of innovation and economic growth in sectors ranging from energy, security, advanced manufacturing, and communication. This list implies that physics' impact is:",
+      "options": [
+        "Restricted to academic research.",
+        "Narrowly focused on a few core areas.",
+        "Limited to non-developed countries.",
+        "Broad-ranging across many key societal sectors."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The list of sectors (energy, security, advanced manufacturing, data analysis, healthcare, finance, communication) shows a very broad and pervasive impact on many key societal sectors.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_90",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "What is the minimum energy a photon must have to undergo pair production (creating an electron-positron pair)?",
+      "options": [
+        "0.511 MeV",
+        "1.02 MeV",
+        "2.04 MeV",
+        "938 MeV"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The minimum energy is the rest mass energy of the two particles created: 2 times 0.511 MeV (rest mass of one electron or positron) equals 1.02 MeV.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_91",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The coefficient of area expansion (beta) for an anisotropic solid is:",
+      "options": [
+        "2 * alpha",
+        "alpha_x + alpha_y",
+        "alpha_x * alpha_y",
+        "alpha_x + alpha_y + alpha_z"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_92",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an explicitly mentioned benefit of physics communities like the African Association of Physics Students (aaps)?",
+      "options": [
+        "To supplement physics education with an international scientific experience.",
+        "To promote relations between physics students worldwide.",
+        "To lobby governments for increased science funding.",
+        "To encourage physics students in their scientific and professional work."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "While physics communities likely engage in lobbying, the explicitly stated purpose of aaps includes supplementing education, promoting relations between students worldwide, and encouraging professional work, but not government lobbying.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_93",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The first condition of equilibrium deals with:",
+      "options": [
+        "Sum of moments",
+        "Sum of forces",
+        "Sum of velocities",
+        "Sum of accelerations"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First condition: translational equilibrium → ΣF = 0.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_94",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "For a substance that expands upon freezing (like water), increasing the pressure will make the boiling point:",
+      "options": [
+        "Increase.",
+        "Decrease.",
+        "Remain the same.",
+        "First decrease, then increase."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The boiling point occurs when the vapor pressure equals the external pressure. \n\nIncreasing the external pressure always requires a higher temperature to reach that pressure, thus increasing the boiling point.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_95",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Why is the specific heat capacity of a gas generally higher than that of a solid?",
+      "options": [
+        "Gases have weaker intermolecular forces.",
+        "Gases have a defined volume.",
+        "Gases can do work (expand) while being heated.",
+        "Gases have higher density."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_96",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Curvature of s-t graph represents:",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Displacement",
+        "Speed"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Curvature (concavity) of displacement-time graph indicates acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_97",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "A wire of resistance R is cut into three equal pieces. The three pieces are then connected in parallel. What is the equivalent resistance of the parallel combination?",
+      "options": [
+        "R / 3",
+        "3 R",
+        "R / 9",
+        "9 R"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Each piece has a resistance R' = R/3. \n\nIn parallel: 1/R_eq = 3 / R'.\n R_eq = R' / 3.\n\n R_eq = (R/3) / 3 = R/9.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_98",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Centripetal acceleration formula:",
+      "options": [
+        "vr",
+        "r/v²",
+        "v/r",
+        "v²/r"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "a_c = v²/r",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_99",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "A dipole is placed in a uniform electric field. The net force on the dipole is zero, but the net torque is non-zero. This condition occurs when:",
+      "options": [
+        "The dipole moment is parallel to the electric field.",
+        "The dipole moment is perpendicular to the electric field.",
+        "The electric field is non-uniform.",
+        "The electric field is zero."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The net force on a dipole in a uniform E-field is always zero. \n\nThe torque (Torque = p E sin(theta)) is maximum (non-zero) when the dipole moment p is perpendicular to the electric field E (theta = 90 degrees).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2016_g11_merged_melmeja_100",
+      "examId": "p2016_g11_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Distance covered in 5th second of motion with a = 2 m/s², u = 0:",
+      "options": [
+        "10 m",
+        "12 m",
+        "15 m",
+        "9 m"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "s_n = u + ½ a(2n-1) =\n 0 + ½*2*(9)=9 m.",
       "topic": "Physics"
     }
   ]

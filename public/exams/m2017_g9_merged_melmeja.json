@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 9",
-  "description": "Comprehensive examination bank combining 7 chapters (14 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 14,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -245,6 +245,1382 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_15",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "The rational equation (x² - 4)/(x + 2) = 3 has a solution set of:",
+      "options": [
+        "{5}",
+        "{1}",
+        "{-1, 5}",
+        "{-2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The non-permissible value is x = -2.\n Factor the numerator: (x - 2)(x + 2)/(x + 2) = 3. \n\nSimplify (for x ≠ -2): x - 2 = 3. x = 5. Since 5 ≠ -2, it is the solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_16",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Using a trigonometric table, find the angle B (to the nearest degree) if sin B ≈ 0.8660.",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "75°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Looking in the sine column of a trigonometric table, 0.8660 corresponds to 60°. \n\nThis is also the exact value of sin 60° (√3/2). ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_17",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following sets is the symmetric difference, A Δ B, of the sets A = {1, 3, 5, 6, 8, 10} and B = {2, 5, 8, 11}?",
+      "options": [
+        "{1, 2, 3, 6, 10, 11}",
+        "{1, 3, 6, 10}",
+        "{1, 2, 3, 5, 6, 8, 10, 11}",
+        "{2, 11}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": " Given A = {1, 3, 5, 6, 8, 10} and B = {2, 5, 8, 11},\n A Δ B = (A u B) - (A n B) \n\nA n B = {5, 8}   A u B ={1,2,3,5,6,8,10} \n\n A Δ B = {1, 2, 3, 6, 10, 11}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_18",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "If tan X = 1/√3, find sin X.",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1/√2",
+        "√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "If tan X = 1/√3, then X = 30°.\n\n sin 30° = 1/2. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_19",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "What is the component of u = (4, -2) perpendicular to the vector v = (1, 0)?",
+      "options": [
+        "(-2, 0)",
+        "(4, 0)",
+        "(0, -2)",
+        "(4, -2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The component of u parallel to v (x-axis) is (4, 0). \n\nThe component perpendicular to v is u - (4, 0) = \n(4 - 4, -2 - 0) = (0, -2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_20",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "The vector projection of a = (3, 4) onto b = (1, 0) is:",
+      "options": [
+        "(0, 4)",
+        "(3, 0)",
+        "(1, 0)",
+        "(3/5, 4/5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The projection of a onto the x-axis (b = i) is simply the x-component of a, which is (3, 0). \nThe formula confirms: proj_b a = ((3)(1) + (4)(0) / 1²) * (1, 0) =\n 3 * (1, 0) \n= (3, 0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_21",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The concept of congruence is a special case of similarity where the scale factor is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Greater than 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If the scale factor (ratio of corresponding sides) is 1, the figures are similar and have equal size, making them congruent.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_22",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "If two geometric figures can be mapped onto each other by a sequence of rigid motions and a dilation, they are:",
+      "options": [
+        "Congruent",
+        "Equilateral",
+        "Similar",
+        "Parallel"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A sequence of rigid motions preserves size and shape (congruence). \n\nA dilation changes size but preserves shape (similarity).\n\n A figure is similar to another if and only if it can be mapped onto the other by a similarity transformation (rigid motion followed by dilation or vice versa).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_23",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true about the relationship between the radius (r) and apothem (a) of a regular polygon (n>2)?",
+      "options": [
+        "> r",
+        "= r",
+        "< r",
+        "It depends on the number of sides."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The apothem is the perpendicular distance from the center to a side, while the radius goes to a vertex. \n\nIn the right triangle formed by the apothem, half a side, and the radius (hypotenuse), the apothem is always shorter than the radius. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_24",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, D and E are points on AB and AC respectively such that DE || BC. If AD/AB = 1/4 and DE = 5 cm, find BC.",
+      "options": [
+        "10 cm",
+        "15 cm",
+        "20 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since DE || BC, ΔADE ~ ΔABC. \n\nThe ratio of corresponding sides is AD/AB = DE/BC. \n\n1/4 = 5 / BC. \nBC = 4 * 5 = 20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_25",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "The area of a regular polygon is 150 m² and its perimeter is 60 m. What is the length of its apothem?",
+      "options": [
+        "2.5 m",
+        "5 m",
+        "7.5 m",
+        "10 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = (1/2) * a * P => \n150 = (1/2) * a * 60 \n\n=> 150 = 30 * a => a = 150 / 30 = 5 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_26",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC and ΔXYZ, AB/XY = BC/YZ = CA/ZX. What is the relationship between the two triangles?",
+      "options": [
+        "Congruent by SSS",
+        "Similar by SSS Similarity",
+        "Congruent by SAS",
+        "Neither congruent nor similar"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The proportionality of all three corresponding sides establishes the SSS Similarity criterion.\n\n Congruency is only established if the ratio is 1:1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_27",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "If vector a and vector b are orthogonal, which statement is always true?",
+      "options": [
+        "+ b = 0",
+        "b = 1",
+        "is a multiple of b",
+        "b = 0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Orthogonal vectors have an angle of 90 degrees, and cos(90°) = 0.\n\n Therefore, their dot product a . b = ||a|| ||b|| cos(90°) must be zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_28",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the legs. This is the:",
+      "options": [
+        "Angle Bisector Theorem",
+        "Pythagorean Theorem",
+        "Thales' Theorem",
+        "Geometric Mean Theorem"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is the precise statement of the Pythagorean Theorem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_29",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "In a triangle, a line parallel to a side divides the other two sides:",
+      "options": [
+        "Equally",
+        "Proportionally",
+        "Perpendicularly",
+        "Congruently"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is the statement of the Basic Proportionality Theorem (BPT).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_30",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "The probability that event A occurs is P(A) = 0.6. What is the probability that event A does NOT occur, P(A prime)?",
+      "options": [
+        "0.4",
+        "0.6",
+        "0.2",
+        "1.0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The probability of the complement event is P(A prime) \n\n= 1 - P(A) = 1 - 0.6 = 0.4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_31",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Two rectangles are always similar if:",
+      "options": [
+        "Their corresponding diagonals are equal.",
+        "Their corresponding sides are proportional.",
+        "They are squares.",
+        "They have the same area."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Two rectangles are similar if their corresponding sides are proportional, meaning the ratio of the length to the width is the same for both. \n\nOption C, if they are squares, they are always similar because the ratio of length to width is 1:1 for both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_32",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is always TRUE about the sum of the deviations of each value of a population from the mean?",
+      "options": [
+        "It is always positive.",
+        "It is always negative.",
+        "It is always zero.",
+        "It depends on the data set."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A fundamental property of the arithmetic mean is that the sum of the deviations of all observations from the mean is always zero: Summation of (xᵢ - x̄) = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_33",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "If P = (a, b) and Q = (b, a), the vector PQ is:",
+      "options": [
+        "(a - b, b - a)",
+        "(b - a, a - b)",
+        "(a + b, a + b)",
+        "(b, a)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Vector PQ = \nQ - P = \n(b - a, a - b).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_34",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "In an isosceles triangle ABC with base BC, the altitude AD is drawn. Which postulate proves that ΔABD ≅ ΔACD?",
+      "options": [
+        "SAS",
+        "ASA",
+        "HL",
+        "AAS"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since it is isosceles, AB=AC (Hypotenuse). AD is common (Leg).\n Both triangles are right-angled at D.\n\n Thus, the triangles are congruent by the Hypotenuse-Leg (HL) theorem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_35",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "If two polygons are similar, the ratio of their corresponding heights is k. The ratio of their corresponding diagonals is:",
+      "options": [
+        "k²",
+        "k",
+        "√k",
+        "2k"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The ratio of all corresponding linear elements (sides, heights, medians, diagonals, perimeters) is the scale factor k.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_36",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "What is the primary difference between congruency and similarity in geometric figures?",
+      "options": [
+        "Congruent figures must be triangles, similar figures can be any polygon.",
+        "Congruent figures have equal sides; similar figures have proportional sides.",
+        "Congruent figures must have the same orientation, similar figures do not.",
+        "Similar figures are always congruent, but congruent figures are not always similar."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Congruent figures have the same size and shape (equal sides and equal angles). \n\nSimilar figures have the same shape but possibly different sizes (proportional sides and equal angles).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_37",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "In a card game, what is the probability of drawing a 'Jack' or a '7' from a deck of 52 cards?",
+      "options": [
+        "4/52",
+        "8/52",
+        "1/26",
+        "1/13"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "There are 4 Jacks and 4 Sevens.\n The events are mutually exclusive.\n P(Jack or 7) = 4/52 + 4/52 = \n8/52 (or 2/13).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_38",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Two fair dice are rolled. What is the probability that the product of the numbers on the upper faces is 1?",
+      "options": [
+        "1/36",
+        "2/36",
+        "1/18",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total number of outcomes is 36. \nThe only pair whose product is 1 is (1, 1).\n Probability = 1/36.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_39",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "The three angles of a triangle are 30°, 60°, and 90°. Another triangle has angles 30°, 60°, and 90°. The two triangles are:",
+      "options": [
+        "Congruent",
+        "Similar",
+        "Neither similar nor congruent",
+        "Only if they have the same perimeter"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since all corresponding angles are equal (AAA), the triangles are similar.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_40",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "In a right triangle, the two legs are 6 and 8. What is the length of the median to the hypotenuse?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "First find the hypotenuse c: c² = 6² + 8² = 36 + 64 = 100, so c = 10.\n\n The length of the median to the hypotenuse is half the length of the hypotenuse. \nMedian = c / 2 = 10 / 2 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_41",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "The position vector of a point on the y-axis, 4 units away from the origin, is:",
+      "options": [
+        "(4, 0)",
+        "(0, 4) or (0, -4)",
+        "(4, 4)",
+        "(4, 4)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A point on the y-axis has an x-coordinate of 0. If the distance from the origin is 4, the coordinates are (0, 4) or (0, -4).\n\n The position vector is (0, 4) or (0, -4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_42",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of an equilateral triangle with side length 10 cm?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "10√3 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An equilateral triangle is a regular 3-gon.\n P = n * s = 3 * 10 cm = \n30 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_43",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "The projection of vector v = (2, 5) onto the y-axis is:",
+      "options": [
+        "(2, 0)",
+        "(5, 0)",
+        "(0, 5)",
+        "(0, 2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The projection onto the y-axis (vector j = (0, 1)) is the vector formed by the y-component and a zero x-component: (0, 5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_44",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "If the dot product of u and v is equal to ||u|| ||v||, what is the angle between them?",
+      "options": [
+        "0 degrees",
+        "90 degrees",
+        "180 degrees",
+        "45 degrees"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "u . v = ||u|| ||v|| cos(theta). \nIf u . v = ||u|| ||v||, then cos(theta) = 1, which means theta = 0 degrees.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_45",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "If u = 3i - 4j, find the unit vector orthogonal to u.",
+      "options": [
+        "(-3/5, 4/5)",
+        "(4/5, 3/5)",
+        "(3/5, 4/5)",
+        "(-4/5, 3/5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A vector orthogonal to (a, b) is (b, -a) or (-b, a).\n An orthogonal vector is (4, 3) or (-4, -3). ||(4, 3)|| = 5. \nThe unit vector is (4/5, 3/5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_46",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "If vector a = 3i - 2j and vector b = 2i + 3j, then the vector a + 2b is:",
+      "options": [
+        "7i + 4j",
+        "5i + j",
+        "4i + 7j",
+        "i + 8j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "2b = 2(2i + 3j) = 4i + 6j.\n a + 2b = (3i - 2j) + (4i + 6j) = \n(3 + 4)i + (-2 + 6)j =\n 7i + 4j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_47",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "If 2u - 3v = (12, -18) and v = (0, 4), what is the vector u?",
+      "options": [
+        "(6, -3)",
+        "(6, -15)",
+        "(2, -5)",
+        "(12, -6)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "2u - 3(0, 4) = (12, -18).\n  2u - (0, 12) = (12, -18).\n  2u = (12, -18) + (0, 12) = (12, -6). \n u = (1/2)(12, -6) =\n (6, -3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_48",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "To prove ΔABC ≅ ΔDEF using the ASA postulate, given that ∠A = ∠D and AC = DF, what additional condition is needed?",
+      "options": [
+        "BC = EF",
+        "AB = DE",
+        "∠C = ∠F",
+        "∠B = ∠E"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "ASA requires the side to be included between the two angles.\n\n Given ∠A and side AC, the other angle must be ∠C to make the side included (ASA). Thus, we need ∠C = ∠F.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_49",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "Consider a regular polygon inscribed in a circle. As the number of sides increases infinitely, the polygon approaches what shape?",
+      "options": [
+        "line segment",
+        "point",
+        "The circle itself",
+        "An infinitely large square"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "As the number of sides of an inscribed regular polygon increases, it fills more of the circle, and its perimeter and area approach those of the circle.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_50",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of a regular decagon is 120 units. Find the side length.",
+      "options": [
+        "10 units",
+        "12 units",
+        "15 units",
+        "20 units"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A decagon has 10 sides. \ns = P / n = \n120 / 10 = 12 units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_51",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes a convex polygon?",
+      "options": [
+        "At least one interior angle is greater than 180°.",
+        "All interior angles are less than 180°.",
+        "It must have exactly four sides.",
+        "All sides must be equal."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A polygon is convex when the measure of each interior angle is less than 180 degrees. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_52",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "If u = (a, b) and v = (-a, -b), then u + v is:",
+      "options": [
+        "2u",
+        "The zero vector",
+        "(a² + b², 0)",
+        "(2a, 2b)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "u + v = (a + (-a), b + (-b)) =\n (0, 0), which is the zero vector.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_53",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If vector v has magnitude 5 and direction opposite to u = (-3, 4), then v is:",
+      "options": [
+        "(-3, 4)",
+        "(3, -4)",
+        "(4, 3)",
+        "(3/5, -4/5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The unit vector of u is u/||u|| = (-3/5, 4/5). \nThe vector v has magnitude 5 and direction -u/||u||.\n v = 5 * (-u/||u||) =\n 5 * (3/5, -4/5) = \n(3, -4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_54",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "In a quadrilateral ABCD, if ΔABC ≅ ΔCDA, which property of the quadrilateral is guaranteed?",
+      "options": [
+        "All sides are equal.",
+        "It is a kite.",
+        "It is a parallelogram.",
+        "It is a trapezoid."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If ΔABC ≅ ΔCDA, then by CPCTC, AB = CD and BC = DA (opposite sides are equal), and ∠BAC = ∠DCA (alternate interior angles are equal, implying AB || CD).\n\n A quadrilateral with both pairs of opposite sides equal (or one pair equal and parallel) is a parallelogram.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_55",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "If ΔPQR is a right triangle at Q, and QS is the altitude to PR. If PS = 16 and SR = 9, what is the length of the altitude QS?",
+      "options": [
+        "5",
+        "12",
+        "12.5",
+        "15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By the Altitude Rule: QS² = PS * SR.\n QS² = 16 * 9 = 144.\n QS = √144 = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_56",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Given two similar triangles, the ratio of their corresponding medians is equal to:",
+      "options": [
+        "The square of the ratio of their sides.",
+        "The ratio of their areas.",
+        "The ratio of their sides.",
+        "The cube of the ratio of their sides."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The ratio of corresponding medians (and altitudes, and angle bisectors) is equal to the ratio of their corresponding sides (scale factor k).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_57",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about the Arithmetic Mean of a given data?",
+      "options": [
+        "It can also be used for qualitative data.",
+        "It can be obtained even in the absence of some of the values in the data.",
+        "It is affected by extreme values.",
+        "There can be two means for a given data."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Arithmetic Mean (average) affected by extreme values (outliers), which pull the mean toward them.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_58",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Let $A = {1, 2}$ and $B = {1, 3}$ be sets. Then which one of the following Cartesian products is correct?",
+      "options": [
+        "$A \times A = {(1, 1), (2, 2), (2, 1), (3, 2)}$",
+        "$B \times B = {(1, 1), (1, 3), (3, 3), (2, 3)}$",
+        "$A \times B = {(1, 1), (1, 3), (2, 1), (2, 3), (3, 2)}$",
+        "$B \times A = {(1, 1), (3, 1), (1, 2), (3, 2), (2, 3)}$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The **Cartesian product** of two sets $X$ and $Y$, denoted $X \times Y$, is the set of all ordered pairs $(x, y)$ where $x$ is in $X$ and $y$ is in $Y$.\n\nGiven $A = {1, 2}$ and $B = {1, 3}$.\n\n- **$A \times A$ (Option A):** Pairs $(a, a')$ where $a in A$ and $a' in A$.\n$$A \times A = {(1, 1), (1, 2), (2, 1), (2, 2)}$$ Option A is incorrect.\n\n- **$B \times B$ (Option B):** Pairs $(b, b')$ where $b in B$ and $b' in B$.\n$$B \times B = {(1, 1), (1, 3), (3, 1), (3, 3)}$$ Option B is incorrect.\n\n- **$A \times B$ (Option C):** Pairs $(a, b)$ where $a in A$ and $b in B$.\n$$A \times B = {(1, 1), (1, 3), (2, 1), (2, 3)}$$ Option C is **correct** (Note: The option lists $(3, 2)$ which is from $B \times A$. Assuming the option is meant to be the set of correct pairs for $A \times B$, which is ${(1, 1), (1, 3), (2, 1), (2, 3)}$. Since this is the only option that is mostly correct for $A \times B$ and $A \times A$ and $B \times B$ are clearly wrong, we assume the extra element $(3, 2)$ in Option C is a typo and select C as the intended answer for $A \times B$. If we strictly follow the text, none are 100% correct, but C is the most likely intended answer).\n\n- **$B \times A$ (Option D):** Pairs $(b, a)$ where $b in B$ and $a in A$.\n$$B \times A = {(1, 1), (1, 2), (3, 1), (3, 2)}$$ Option D is incorrect.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_59",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "What is the formula for the sum of the interior angles of an n-sided convex polygon?",
+      "options": [
+        "n * 180°",
+        "(n - 1) * 180°",
+        "(n - 2) * 180°",
+        "360°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The sum of the measure of interior angles of an n-sided polygon is equal to (n - 2) * 180°. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_60",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "6) What is solution set of equation $3^x = 1/9$?",
+      "options": [
+        "{$1, -2$}",
+        "{$ -1, 2$}",
+        "{$0, 1$}",
+        "{$ -1, 0$}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The equation is $3^x = 1/9$. To solve for $x$, express $1/9$ as a power of $3$. Since $9 = 3^2$, we have $1/9 = 1/3^2$. Using the rule $1/a^n = a^{-n}$, we get $1/9 = 3^{-2}$. Now substitute this back into the equation: $3^x = 3^{-2}$. Since the bases are the same, the exponents must be equal: $x = -2$. The solution set is $\\{-2\\}$. **Note:** The given options A, B, C, and D all contain two elements, none of which is $\\{-2\\}$ alone. Assuming there is a typo and the options are meant to include single-element sets or that one of the provided options is the closest match, none is technically correct as written. However, if option A or B were meant to be $\\{-2\\}$, the explanation remains valid. Let's assume the correct answer should be $x = -2$, and since it's not a multiple-choice option, the answer index is set to $-2$ to indicate the calculated answer.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_61",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Let u = (x, y). If u is a unit vector, then:",
+      "options": [
+        "x + y = 1",
+        "x² + y² = 1",
+        "x² = y²",
+        "x = y"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A vector is a unit vector if its magnitude is 1. \n||u|| = √(x² + y²) = 1.\n Squaring both sides gives x² + y² = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_62",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "If the data set is {1, 2, 3}, and a constant 'c' is added to each value, resulting in {1+c, 2+c, 3+c}, how does the standard deviation change?",
+      "options": [
+        "It changes by 'c'.",
+        "It changes by c squared.",
+        "It remains the same.",
+        "It is multiplied by 'c'."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Adding a constant to every data point does not change the spread, thus the standard deviation remains the same.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_63",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "The graph of a certain relation R is represented by the shaded region shown on the figure below. Which one of the following pairs of sets respectively gives the domain and range of this relation?",
+      "options": [
+        "{x / x <= 2} and R",
+        "{x / x <= 2} and {y / y <= 6}",
+        "R and R",
+        "R and {y / y <= 2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_64",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Find the length y. (Right triangle, angle 30°, adjacent side 15, hypotenuse y)",
+      "options": [
+        "30",
+        "7.5",
+        "15√3",
+        "30/√3"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "cos 30° = Adjacent / Hypotenuse = 15 / y.\n\n Since cos 30° = √3/2, we have √3/2 = 15 / y. \n\nSolving gives y = 30/√3 = 10√3. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_65",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Find the length of the vector 3i - j - (2i - 4j).",
+      "options": [
+        "√(10)",
+        "5",
+        "√(26)",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_66",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If a polygon P is similar to a polygon Q, and polygon Q is similar to a polygon R, then polygon P is similar to polygon R. This property is called:",
+      "options": [
+        "Reflexive property",
+        "Symmetric property",
+        "Transitive property",
+        "Closure property"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Transitive property of similarity states that if one figure is similar to a second, and the second is similar to a third, then the first is similar to the third.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_67",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "The sum of interior angles of a polygon is 1800°. How many vertices does it have?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sum = (n-2)*180 = 1800 => n-2 = 10 => n = 12. \n\nThe number of vertices equals the number of sides.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_68",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is the unit vector in the direction of v = -10i?",
+      "options": [
+        "i",
+        "-i",
+        "1/10 i",
+        "-10"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The vector v is (-10, 0). \nIts magnitude is 10. \nThe unit vector is v/||v|| = \n(-10, 0)/10 =\n (-1, 0) = -i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_69",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "The histogram below shows the recorded temperature (in degrees C) of a certain town in Ethiopia for the first 12 days of March 2023. Then which one of the following statement is true about the data represented by the histogram?",
+      "options": [
+        "For 45 percent of the days, the temperature was more than 19 degrees C.",
+        "The highest frequency is 3.",
+        "The mode of the data is 22 degrees C.",
+        "The temperature was 24 degrees C for two days."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_70",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "If the sum of the interior angles of a convex polygon is 900°, what is the name of the polygon?",
+      "options": [
+        "Pentagon",
+        "Hexagon",
+        "Heptagon",
+        "Octagon"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "(n - 2) * 180° = 900° => n - 2 = 900 / 180 = 5 => n = 7.\n\n A 7-sided polygon is a heptagon. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_71",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "What is the result of the vector operation (i + j) + (i - j)?",
+      "options": [
+        "0",
+        "2i",
+        "2j",
+        "i + j"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(i + j) + (i - j) =\n (1 + 1)i + (1 - 1)j =\n 2i + 0j = 2i.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_72",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "In the previous question, what is the measure of the largest interior angle?",
+      "options": [
+        "60°",
+        "108°",
+        "120°",
+        "156°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The largest exterior angle is 5x = 5 * 24° = 120°.\n\n The corresponding interior angle is 180° - 120° = 60°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_73",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "A flagpole casts a shadow of 15 m. At the same time, a 2 m person casts a shadow of 3 m. How tall is the flagpole?",
+      "options": [
+        "7.5 m",
+        "10 m",
+        "12 m",
+        "22.5 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is solved using similar right triangles (one formed by the flagpole and its shadow, the other by the person and their shadow).\n\n Height_pole / Shadow_pole = Height_person / Shadow_person.\n\n H / 15 = 2 / 3.\n H = 15 * (2/3) = \n5 * 2 = 10 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_74",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, the angle bisector of ∠A meets BC at D. If AB = 6, AC = 9, and BC = 10, find the length of BD.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By the Angle Bisector Theorem, BD/DC = AB/AC.\n BD/DC = 6/9 = 2/3. Let BD = 2x and DC = 3x.\n\n Since BC = BD + DC, 10 = 2x + 3x => 10 = 5x => x = 2.\n Therefore, BD = 2x = 2 * 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_75",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of the central angle of an equilateral triangle?",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An equilateral triangle is a regular 3-gon.\n\n Central angle = 360° / n \n= 360° / 3 =\n 120°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_76",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the position vector of the point (a, b)?",
+      "options": [
+        "+ b",
+        "a/i + b/j",
+        "ai + bj",
+        "(b, a)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The position vector of a point (a, b) is the vector from the origin (0, 0) to (a, b), which is a i + b j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_77",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "If u = (a, b) and v = (c, d), the dot product u . v is:",
+      "options": [
+        "(ac, bd)",
+        "ac + bd",
+        "a/c + b/d",
+        "ac - bd"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The dot product (scalar product) is defined as u . v = ac + bd.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_78",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Given A = {x ∈ ℕ: x < 3} and B is the set of all possible factors of 13. Then which one of the following is equal to B x A?",
+      "options": [
+        "{(1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (13, 2)}",
+        "{(1, 1), (1, 2), (13, 1), (13, 2)}",
+        "{(1, 1), (2,1), (1, 13), (2, 13)}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = {1, 2}  B = {1, 13}.\n\n B × A = {(1,1), (1,2), (13,1), (13,2)}. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_79",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which of the following represents the vector from point A(1, -3) to point B(4, 5)?",
+      "options": [
+        "(5, 2)",
+        "(-3, -8)",
+        "(3, 8)",
+        "(4, -15)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The vector AB is calculated by subtracting the coordinates of the initial point A from the terminal point B:\n\n  B - A = (4 - 1, 5 - (-3)) = (3, 8).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_80",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which of these is always a regular polygon?",
+      "options": [
+        "Rhombus",
+        "Rectangle",
+        "Square",
+        "Isosceles Triangle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A square has all sides equal (equilateral) and all angles equal to 90° (equiangular), making it a regular polygon.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_81",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "In the previous question, if p=4 and q=9, what is the length of the altitude h?",
+      "options": [
+        "5",
+        "6",
+        "6.5",
+        "13"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the Altitude Rule: h² = p * q = 4 * 9 = 36.\n\n h = √36 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_82",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": " What is the value of x in the equation 3 ⁵√(3x)⁵ = 18?",
+      "options": [
+        "9",
+        "2",
+        "6",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the rule ⁵√(a⁵) = a:\n\n 3⁵√(3x)⁵ = 3(3x) = 9x.\n Therefore, 9x = 18, \nso x = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_83",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "If P is the point (2, 5) and the position vector OP = u, find the magnitude of u.",
+      "options": [
+        "25",
+        "square root(7)",
+        "square root(29)",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The position vector u = (2, 5).\n The magnitude is ||u|| = √(2² + 5²) = \n√(4 + 25) = \n√(29).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_84",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The unit vector in the direction of v = (0, -2) is:",
+      "options": [
+        "(0, 1)",
+        "i",
+        "(0, -1)",
+        "-i"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "||v|| = 2.\n The unit vector is v/||v|| =\n (0, -2)/2 =\n (0, -1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_85",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The ratio of the measure of an interior angle to an exterior angle of a regular polygon is 5:1. Find the number of sides.",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let I be interior, E be exterior. \n\nI/E = 5/1 => I = 5E. Also I + E = 180°.\n\n So 5E + E = 180° => 6E = 180° => E = 30°.\n\n Number of sides n = 360° / E = 360° / 30° = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_86",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "The vector projection of a onto b is a vector parallel to:",
+      "options": [
+        "vector a",
+        "vector b",
+        "The zero vector",
+        "The perpendicular component"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The vector projection of a onto b is defined as the component of a that lies along the direction of b, meaning it is parallel to b.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_87",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "The median of the data set {1, 10, 20} is 10. If the value 1 is replaced by 0, what is the new median?",
+      "options": [
+        "10",
+        "1",
+        "0",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The new set is {0, 10, 20}.\n The sorted order remains the same, and the middle value is still 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_88",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of a regular nonagon with side length 5 cm?",
+      "options": [
+        "35 cm",
+        "40 cm",
+        "45 cm",
+        "50 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A nonagon has 9 sides. \nP = n * s = 9 * 5 cm = 45 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_89",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Calculate the apothem of a regular hexagon with side length 10 cm.",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "5√3 cm",
+        "10√3 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A regular hexagon is composed of 6 equilateral triangles.\n The apothem is the height of one of these triangles with side length s=10 cm.\n Height = (s√3)/2 = (10√3)/2 = 5√3 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_90",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The difference between the measure of an interior angle and an exterior angle of a regular polygon is 108°. How many sides does the polygon have?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_91",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The identity element for multiplication in the set of real numbers (R) is:",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "The empty set"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The multiplicative identity is 1, as a times 1 = a for any real number a.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_92",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The apothem of a square is 4 cm. What is the radius of its circumscribed circle?",
+      "options": [
+        "4 cm",
+        "4√2 cm",
+        "8 cm",
+        "8√2 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_93",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "If tan X = 5/12, what is cos X? (Assuming X is an acute angle)",
+      "options": [
+        "5/13",
+        "12/13",
+        "12/5",
+        "13/12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If tan X = Opposite / Adjacent = 5/12, we can imagine a right triangle. \nUsing Pythagoras, Hypotenuse² = 5² + 12² = 25 + 144 = 169.\n\n So Hypotenuse = 13. Then cos X = Adjacent / Hypotenuse = 12/13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_94",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "What is the resultant vector of (-2, 4) + 3(1, -1)?",
+      "options": [
+        "(1, 3)",
+        "(1, 1)",
+        "(-5, 7)",
+        "(1, 7)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(-2, 4) + 3(1, -1) = \n(-2, 4) + (3, -3) =\n (-2 + 3, 4 - 3) = \n(1, 1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_95",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "The number 2 power (4/2) is equal to:",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Simplify the exponent first: 4/2 = 2.\n So, 2 power (4/2) = 2 power 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_96",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "In a right-angled triangle ABC, right-angled at B, if AB = 3 cm and BC = 4 cm, what is the length of AC?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "1 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the Pythagoras theorem, AC² = AB² + BC².\n\nSo, AC² = 3² + 4² = 9 + 16 = 25.\n Therefore, AC = √25 = 5 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_97",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "7) Consider the diagram below: ABCD is a parallelogram with length of base $7 \\text{ cm}$ and $\\triangle APB$ is an isosceles right angled triangle with right angle at P and hypotenuse $4 \\text{ cm}$. What is the area of ABCD in $\\text{cm}^2$?",
+      "options": [
+        "$7\\sqrt{2}$",
+        "8",
+        "28",
+        "$14\\sqrt{2}$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The area of a parallelogram is $A = \\text{base} \\times \\text{height}$. The base is given as $7 \\text{ cm}$. The height of the parallelogram is the length of $\\overline{AP}$. Since $\\triangle APB$ is an **isosceles right-angled triangle** with the right angle at P, the legs must be equal: $\\overline{AP} = \\overline{PB}$. Let $h = \\overline{AP}$. By the Pythagorean theorem, $h^2 + h^2 = 4^2 \\implies 2h^2 = 16 \\implies h^2 = 8 \\implies h = \\sqrt{8} = 2\\sqrt{2} \\text{ cm}$. The height of the parallelogram is $h = 2\\sqrt{2} \\text{ cm}$. The area is $A = \\text{base} \\times h = 7 \\text{ cm} \\times 2\\sqrt{2} \\text{ cm} = 14\\sqrt{2} \\text{ cm}^2$. The options listed in the image seem to have an error, as none of them match $14\\sqrt{2}$. **Assuming option D is the correct answer based on the calculation**, the area is $14\\sqrt{2} \\text{ cm}^2$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_98",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of a regular octagon is 96 meters. What is the length of each side?",
+      "options": [
+        "8 m",
+        "10 m",
+        "12 m",
+        "16 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An octagon has 8 sides. \n\nSide length s = Perimeter / n = 96 m / 8 = 12 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_99",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "If A ⊆ B, which of the following is always true?",
+      "options": [
+        "∩ B = A",
+        "∪ B = A",
+        "- B = A",
+        "- A = B"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "If A is a subset of B, all elements of A are also in B. \n\nThe intersection (common elements) is therefore all of A. \nThe union is B. A - B (elements in A but not B) is empty. \nB - A (elements in B but not A) may or may not be empty.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_g9_merged_melmeja_100",
+      "examId": "m2017_g9_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which property states that A ∩ (B ∩ C) = (A ∩ B) ∩ C?",
+      "options": [
+        "Commutative Law",
+        "Identity Law",
+        "Associative Law",
+        "Distributive Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Associative Law for sets states that the grouping of the sets in an operation (Union or Intersection) does not change the result.",
       "topic": "Mathematics"
     }
   ]

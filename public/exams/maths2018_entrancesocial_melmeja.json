@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Mathematics Social Stream Entrance 2018 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Mathematics Social Stream Entrance 2018 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -985,6 +985,646 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Scalar multiplication is associative with matrix multiplication, so 2(AB) = A(2B). Transpose rule is (AB)^t = B^t A^t (making B incorrect), matrix multiplication is not generally commutative (making D incorrect), and (A + B)A = A² + BA (making C incorrect). Therefore, option A is true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_61",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "If one of the roots of the equation 2x² - 8x + k = 0 exceeds the other by 2, then what is the value of k?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Let the roots be α and β. According to the problem, α = β + 2.\n\nFor a quadratic equation ax² + bx + c = 0:\n\n- Sum of roots: α + β = -b/a = 8/2 = 4\n\n- Product of roots: α * β = c/a = k/2\n\nSubstitute α = β + 2 into the sum of roots:\n\nβ + (β + 2) = 4 → 2β + 2 = 4 → 2β = 2 → β = 1\n\nThen α = β + 2 = 3\n\nNow use the product of roots to find k:\n\nα * β = 3 * 1 = 3 = k/2 → k = 6\n\nTherefore, k = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_62",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "10. Translate the point P(0,0) by vector v = (-5,7).",
+      "options": [
+        "(5,-7)",
+        "(-7,5)",
+        "(-5,7)",
+        "(7,-5)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Translation: (0+(-5),0+7) = (-5,7).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_63",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "An item marked Birr 4,000 is sold after successive discounts of 10% and 20%. What is its final price?",
+      "options": [
+        "Birr 2,800",
+        "Birr 2,880",
+        "Birr 3,000",
+        "Birr 3,200"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "After 10% discount: 4000(0.9)=3600. After 20% discount: 3600(0.8)=2880.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_64",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "ABCD is a cyclic quadrilateral. If ∠A = 3x + 10° and ∠C = 2x + 20°, what is x?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: (3x + 10) + (2x + 20) = 180. Thus 5x + 30 = 180 and x = 30. Therefore the listed answer should be option C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_65",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following sets is empty?",
+      "options": [
+        "{x | x ∈ ℤ and -2 ≤ x ≤ 2}",
+        "{x | x ∈ ℕ and x² = 4}",
+        "{x | x ∈ ℝ and x² + 1 = 0}",
+        "{x | x ∈ ℝ and x² = 9}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For every real number x, x² ≥ 0. Therefore x² + 1 is always positive and can never equal zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_66",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is always true for a natural number n > 1?",
+      "options": [
+        "If n is odd, then n is prime.",
+        "If n has exactly two positive factors, then n is prime.",
+        "If n is even, then n has exactly two factors.",
+        "If n is composite, then n has exactly three factors."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A prime number has exactly two distinct positive factors: 1 and itself. Therefore, a natural number with exactly two positive factors is prime.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_67",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 4x⁸ + 6x⁶ + 5x² + 3 and g(x) = 2x² + 1, which expression is equal to f(x)/g(x)?",
+      "options": [
+        "2x⁶ + 2x⁴ + 3",
+        "2x⁶ + x⁴ + 3",
+        "2x⁶ + 3x⁴ + 5",
+        "4x⁶ + 3x⁴ + 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiplying (2x² + 1)(2x⁶ + x⁴ + 3) gives 4x⁸ + 4x⁶ + 6x² + 3, so the proposed division does not match. Thus the options do not contain the correct quotient.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_68",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A regular polygon has 20 sides. What is the measure of each interior angle?",
+      "options": [
+        "162°",
+        "168°",
+        "170°",
+        "172°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Each interior angle = [(n - 2)180°]/n = (18 × 180°)/20 = 162°. Therefore the correct answer is A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_69",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A regular triangular pyramid has base area 36 cm² and three lateral triangular faces each with area 20 cm². What is its total surface area?",
+      "options": [
+        "56 cm²",
+        "76 cm²",
+        "96 cm²",
+        "108 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Total surface area = base area + lateral area = 36 + 3(20) = 96 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_70",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "What is the value of sin(-750°)?",
+      "options": [
+        "1/2",
+        "-1/2",
+        "√3/2",
+        "-√3/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "-750° + 720° = -30°. Therefore sin(-750°) = sin(-30°) = -1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_71",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following infinite geometric series converges?",
+      "options": [
+        "∑ₙ₌₁∞ (5/2)ⁿ",
+        "∑ₙ₌₁∞ (-3/2)ⁿ",
+        "∑ₙ₌₁∞ (2/3)ⁿ",
+        "∑ₙ₌₁∞ 3ⁿ"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An infinite geometric series converges when |r| < 1. Only r = 2/3 satisfies this condition.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_72",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "If x < 0, which expression is equal to √(x²)?",
+      "options": [
+        "x",
+        "-x",
+        "x²",
+        "1/x"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The principal square root is nonnegative. Since x < 0, √(x²) = |x| = -x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_73",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "What is the degree of the polynomial f(x) = (x³ - 2)(x⁴ + x)(x² - 5x + 1)?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The degree of a product equals the sum of the degrees of its nonzero polynomial factors: 3 + 4 + 2 = 9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_74",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x if 2 ³√(4x)³ = 32?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since ³√(4x)³ = 4x, we get 2(4x) = 32. Thus 8x = 32 and x = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_75",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "If a = 4√5 - 3√2 + 7 and b = -4√5 + 5√2 - 2, then a + b is equal to",
+      "options": [
+        "2√2 + 5",
+        "8√5 + 2√2 + 5",
+        "2√2 + 9",
+        "-2√2 + 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adding like terms gives 4√5 - 4√5 = 0, -3√2 + 5√2 = 2√2, and 7 - 2 = 5. Therefore, a + b = 2√2 + 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_76",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A distribution is negatively skewed. Which relationship is generally expected?",
+      "options": [
+        "Mean > Median > Mode",
+        "Mode > Median > Mean",
+        "Mean = Median = Mode",
+        "Median > Mode > Mean"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a negatively skewed distribution, the long tail extends toward smaller values, pulling the mean leftward. Thus Mean < Median < Mode.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_77",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "If u = 3i - 4j, what is the magnitude of u?",
+      "options": [
+        "5",
+        "7",
+        "√7",
+        "25"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "|u| = √(3² + (-4)²) = √25 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_78",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "A school divides students according to grade level and randomly selects students from every grade. Which sampling method is being used?",
+      "options": [
+        "Cluster sampling",
+        "Simple random sampling",
+        "Stratified sampling",
+        "Systematic sampling"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The population is divided into strata based on grade level, and samples are taken from each stratum. This is stratified sampling.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_79",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "An investment of Birr 10,000 earns 8% simple interest annually. What is the total amount after 5 years?",
+      "options": [
+        "Birr 12,000",
+        "Birr 13,000",
+        "Birr 14,000",
+        "Birr 14,800"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Simple interest = Prt = 10000(0.08)(5) = 4000. Total amount = 10000 + 4000 = Birr 14,000. Therefore option C is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_80",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which expression is an antiderivative of 6x⁵ - 4x³ + 2x?",
+      "options": [
+        "x⁶ - x⁴ + x² + C",
+        "6x⁶ - 4x⁴ + 2x² + C",
+        "x⁶ - 4x⁴ + x² + C",
+        "x⁵ - x³ + x + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrating term by term gives x⁶ - x⁴ + x² + C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_81",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": " Skewness of perfectly symmetrical distribution is:",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "Cannot determine"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Symmetrical distribution → skewness = 0",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_82",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = (2 - 3x)/5, which statement about its graph is correct?",
+      "options": [
+        "It is increasing with slope 3/5.",
+        "It is decreasing with slope -3/5.",
+        "It is horizontal with y-intercept 2.",
+        "It is increasing with slope -5/3."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Writing f(x) = -3/5x + 2/5 shows that the slope is -3/5. Hence the graph is decreasing.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_83",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Two angles of a triangle are 2x + 10° and 3x - 20°. If the third angle is 70°, what is x?",
+      "options": [
+        "20",
+        "24",
+        "28",
+        "30"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "(2x+10)+(3x-20)+70=180. Therefore 5x+60=180, giving x=24. Thus option B is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_84",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "25. Domain of f(x)=√(4−x) is:",
+      "options": [
+        "x ≤ 4",
+        "x ≥ 4",
+        "x=4",
+        "All real"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Inside ≥ 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_85",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A cylinder of radius 4 cm and height 9 cm has a hemisphere of the same radius attached to its top. What is the volume of the resulting solid?",
+      "options": [
+        "128π cm³",
+        "144π cm³",
+        "176π cm³",
+        "208π cm³"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Cylinder volume = π(4²)(9) = 144π. Hemisphere volume = (2/3)π(4³) = 128π/3. Total = 560π/3 cm³, so none of the listed options is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_86",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "The slope of a line perpendicular to 2x + 5y = 10 is",
+      "options": [
+        "2/5",
+        "-2/5",
+        "5/2",
+        "-5/2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "2x+5y=10 gives y=-2/5x+2/5. Its slope is -2/5. The perpendicular slope is the negative reciprocal, 5/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_87",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following quantities is a vector?",
+      "options": [
+        "Temperature of a room",
+        "Mass of an object",
+        "Displacement of a moving particle",
+        "Energy consumed by a machine"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Displacement has both magnitude and direction, so it is a vector quantity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_88",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "The minimum value of x² - 4x + 7 is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Complete the square: x²-4x+7=(x-2)²+3. The minimum value is 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_89",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "10. Find u·u for u = [3,-2,1].",
+      "options": [
+        "14",
+        "9",
+        "4",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "u·u = 3²+(-2)²+1²=9+4+1=14.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_90",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "1. A trader purchased a commodity for 800 birr and sold it for 920 birr. What is the percentage profit?",
+      "options": [
+        "15%",
+        "10%",
+        "20%",
+        "12%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Profit = 120 → (120/800)×100 = 15%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_91",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "A circle has radius 10 cm. What is the area of the semicircle formed by folding it along a diameter?",
+      "options": [
+        "25π cm²",
+        "50π cm²",
+        "100π cm²",
+        "200π cm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The full circle has area π(10)² = 100π. Half of this is 50π cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_92",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Solve: 3x - 2 < 2x + 5 ≤ 11",
+      "options": [
+        "x≤6 and x>7",
+        "7<x≤6",
+        "x≤6 and x>7",
+        "x>7"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Solve separately: 3x-2<2x+5 ⇒ x<7; 2x+5≤11 ⇒ x≤3 ⇒ combined: x≤3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_93",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": " Solve: (x+2)/(x−1) = 3.",
+      "options": [
+        "x=2",
+        "x=5/2",
+        "x=3",
+        "x=1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "x+2=3x−3 → 2x=5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_94",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Find the slope of the tangent line to f(x) = x² at x = 3.",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The derivative f'(x) = 2x. At x = 3, f'(3) = 2(3) = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_95",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "3. Find the amount after 2 years if 1500 birr is invested at 10% compound interest annually.",
+      "options": [
+        "1800 birr",
+        "1750 birr",
+        "1815 birr",
+        "1700 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 1500(1.1)^2 = 1815.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_96",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Find the number of subsets of a set with 4 elements.",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "2⁴ = 16 subsets.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_97",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of the first 6 terms of a geometric sequence: 3, 6, 12, ...",
+      "options": [
+        "180",
+        "192",
+        "189",
+        "200"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a=3, r=2.\n\n S₆=3(2⁶−1)=3(64−1)=189.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_98",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": " If u·v = 0, then |u×v| = ?",
+      "options": [
+        "0",
+        "1",
+        "|u||v|",
+        "Cannot determine"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Perpendicular → sinθ=1 →\n |u×v|=|u||v|.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_99",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "3. Simplify: (x²−4)/(x²−2x).",
+      "options": [
+        "(x−2)/x",
+        "(x+2)/(x−2)",
+        "(x+2)/x",
+        "x/(x−2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Factor: (x−2)(x+2)/x(x−2)= (x+2)/x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018_entrancesocial_melmeja_100",
+      "examId": "maths2018_entrancesocial_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Insert 3 arithmetic means between 2 and 18. Find the middle inserted number.",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sequence: 2, 6, 10, 14, 18 → middle = 10.",
       "topic": "Mathematics"
     }
   ]

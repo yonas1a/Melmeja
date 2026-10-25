@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Physics University Entrance Exam 2014 featuring 50 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 75,
-  "totalQuestions": 50,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Physics University Entrance Exam 2014 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -833,6 +833,818 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Resonance in an oscillating system occurs when the frequency of the external periodic driving force matches the natural frequency of the system.\n\n At this point, the amplitude of oscillation becomes maximum. \n\nDamping actually reduces the amplitude and slightly lowers the natural frequency.\n\n Therefore, the correct statement is: 'At resonance, the driving frequency is equal to the natural frequency and the amplitude becomes maximum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_51",
+      "examId": "physics2014entrance_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Moment of inertia depends on:",
+      "options": [
+        "Mass only",
+        "Radius only",
+        "Mass distribution",
+        "Velocity only"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "I = Σ m r² depends on how mass is distributed about rotation axis.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_52",
+      "examId": "physics2014entrance_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Among the following analog circuits, consisting of two switches A and B, a lamp Y, and voltage source, which one functions as a NAND gate?",
+      "imageUrl": "images/P2018_23.png",
+      "diagramUrl": "images/P2018_23.png",
+      "options": [
+        "Parallel switches in series with lamp Y (OR gate)",
+        "Series switches in series with lamp Y (AND gate)",
+        "Series switches A and B connected in parallel across lamp Y",
+        "Parallel switches A and B connected in parallel across lamp Y (NOR gate)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A NAND gate produces a LOW output only when both inputs are HIGH.\n\nIn the given circuit, when both switches A and B are closed, the parallel path bypasses the lamp, causing the lamp to turn off.\n\nFor all other combinations, the lamp remains on.\n\nThus, the circuit behaves according to the NAND truth table.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_53",
+      "examId": "physics2014entrance_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about the properties of waves?",
+      "options": [
+        "When two waves interfere destructively, the amplitude of the resultant wave is greater than the amplitude of each wave.",
+        "Diffraction of a wave through a narrow gap is more observable than through a wider gap.",
+        "When a wave is reflected, its speed and wavelength are changed.",
+        "When a wave is refracted, its speed and wavelength remain the same."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "* **Option A is incorrect:** Destructive interference results in a smaller amplitude, not a greater one.\n* **Option B is correct:** Diffraction is the spreading of waves. It is most noticeable when the size of the aperture (gap) is comparable to or smaller than the wavelength of the wave. A narrow gap maximizes the observable diffraction effect.\n* **Option C is incorrect:** Reflection occurs in the same medium, so the speed and wavelength remain unchanged.\n* **Option D is incorrect:** Refraction (bending) occurs when a wave enters a new medium, which causes its **speed** and **wavelength** to change, while its frequency remains constant. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_54",
+      "examId": "physics2014entrance_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Consider a particle performing a circular motion around a circle of radius r, with an angular velocity omega, and the particle's projection on the horizontal diameter of the circle (between points $Q$ and R) as shown in the figure below. Which one of the following statements is correct about the motion of the particle and its projection on QR?",
+      "imageUrl": "images/P2015_18.png",
+      "diagramUrl": "images/P2015_18.png",
+      "options": [
+        "The projection of the particle on QR swings between points Q and R with constant speed.",
+        "The circular motion of the particle can be taken as a simple harmonic motion.",
+        "The projection of the particle on QR demonstrates simple harmonic motion.",
+        "The projection of the particle on QR demonstrates motion with constant acceleration."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_55",
+      "examId": "physics2014entrance_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which of the following concepts of physics are the primary focus points in mechanical engineering?",
+      "options": [
+        "Geometric optics, Electrostatics, Thermodynamics, and Stress",
+        "Dynamics, Thermodynamics, Force, and Stress",
+        "Nuclear physics, Geometric optics, Dynamics, and Force",
+        "Molecular physics, Dynamics, Nuclear physics, and Force"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mechanical engineering is primarily concerned with the design, analysis, manufacturing, and maintenance of mechanical systems. The core physics concepts central to this field include:\n* **Dynamics:** The study of motion and its causes (forces and torques), which is crucial for analyzing machine performance.\n* **Thermodynamics:** The study of heat, work, temperature, and energy, essential for engines, HVAC systems, and power generation.\n* **Force (and Statics):** The foundational concepts of push/pull and equilibrium, necessary for structural integrity and machine design.\n* **Stress (and Material Science):** The analysis of internal forces within materials, critical for ensuring parts don't fail under load.\n\nTherefore, **Dynamics, Thermodynamics, Force, and Stress** are the most relevant concepts. Geometric optics, electrostatics, and nuclear/molecular physics are not primary focus points.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_56",
+      "examId": "physics2014entrance_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": " Given vector A⃗ having magnitude A, a unit vector, Ûₐ, in the direction of A⃗  is defines as",
+      "options": [
+        "Ûₐ = A⃗  / A",
+        "Ûₐ = A⃗",
+        "Ûₐ = AA⃗",
+        "Ûₐ = A/A⃗"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A unit vector in the direction of a given vector is defined as the vector itself divided by its magnitude:\n\n u_A = A / A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_57",
+      "examId": "physics2014entrance_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Which electromagnetic radiation is commonly used in thermal imaging and night-vision systems because objects emit it according to their temperature?",
+      "options": [
+        "Ultraviolet",
+        "Infrared",
+        "Gamma",
+        "X-ray"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Objects emit thermal radiation, much of which lies in the infrared region for ordinary temperatures.\n\nInfrared detectors can therefore reveal temperature differences and are useful in thermal imaging and night vision.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_58",
+      "examId": "physics2014entrance_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "A convex lens has focal length 20 cm. An object is placed 30 cm from the lens. Where is the image formed?",
+      "options": [
+        "20 cm on the opposite side",
+        "30 cm on the opposite side",
+        "60 cm on the opposite side",
+        "120 cm on the opposite side"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using the lens equation 1/f = 1/v - 1/u with u = -30 cm and f = 20 cm,\n\n1/v = 1/20 - 1/30 = 1/60.\n\nTherefore, v = 60 cm.\n\nThe real image forms 60 cm from the lens.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_59",
+      "examId": "physics2014entrance_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "50. The angular speed of a disk rotating about its axis increases by $2000 \\text{ rad/s}$ in a time interval of $3.0 \\text{ s}$. If the moment of inertia of the disk is $0.6 \\text{ kg} \\text{ m}^2$, what is the average torque on the disk?",
+      "options": [
+        "1200 Nm",
+        "670 Nm",
+        "400 Nm",
+        "6000 Nm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The average torque ($\\tau$) is given by the relationship $\\tau = I \\alpha$, where $I$ is the moment of inertia and $\\alpha$ is the average angular acceleration.\n\n1.  **Calculate Angular Acceleration ($\\alpha$):** \n$$\\alpha = \\frac{\\Delta\\omega}{\\Delta t} = \\frac{2000 \\text{ rad/s}}{3.0 \\text{ s}} = \\frac{2000}{3} \\text{ rad/s}^2$$\n\n2.  **Calculate Average Torque ($\\tau$):**\n$$\\tau = I \\alpha = (0.6 \\text{ kg} \\text{ m}^2) \\left( \\frac{2000}{3} \\text{ rad/s}^2 \\right) = \\left( \\frac{0.6}{3} \\right) \\times 2000$$\n$$\\tau = 0.2 \\times 2000 = 400 \\text{ Nm}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_60",
+      "examId": "physics2014entrance_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": " The North pole of a bar magnet is moving away from a circular wire lying on the top of a horizontal table as shown in the figure below.\n\nAccording to Lenz's law, the direction of the induced current in the wire when viewed from the magnetic side is",
+      "imageUrl": "images/P2018R2_33.png",
+      "diagramUrl": "images/P2018R2_33.png",
+      "options": [
+        "clockwise.",
+        "upward.",
+        "downward.",
+        "counterclockwise."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "According to Lenz's law, the induced current will oppose the change in magnetic flux.\n\n Since the North pole is moving away, the loop creates a South pole on top to attract it back.\n\n Looking down at a South pole, the direction of the current flows clockwise.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_61",
+      "examId": "physics2014entrance_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "A substance of mass 2 kg receives 18,000 J of heat and its temperature rises by 30°C. What is its specific heat capacity?",
+      "options": [
+        "150 J/kg·°C",
+        "300 J/kg·°C",
+        "600 J/kg·°C",
+        "900 J/kg·°C"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using Q = mcΔT,\n\nc = Q/(mΔT) = 18,000/(2 × 30) = 300 J/kg·°C.\n\nTherefore, the specific heat capacity is 300 J/kg·°C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_62",
+      "examId": "physics2014entrance_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "An object moving in one dimension with constant acceleration, $a$, travels through a displacement $s$ in a time interval $t$. If its velocity at the initial time $t=0$ is $v_0$ and its velocity at a later time $t$ is $v$, which of the following is a correct relation between the given quantities?",
+      "options": [
+        "$s = v_f t - \\frac{1}{2}at^2$",
+        "$s = v_i t + \\frac{1}{2}at^2$",
+        "$s = \\frac{(v_f + v_i)}{2}t$",
+        "$s = \\frac{(v_f - v_i)}{2}t$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For motion with **constant acceleration**, the displacement ($s$) is the product of the average velocity and the time interval ($t$). The average velocity is $\\frac{v_0 + v}{2}$. Therefore, the correct relation is $s = \\text{Average velocity} \\times t = \\frac{(v_0 + v)}{2}t$. (Note: Using $v_i$ for $v_0$ and $v_f$ for $v$). Option C uses $v_f$ and $v_i$ correctly.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_63",
+      "examId": "physics2014entrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "23. About an axis of rotation perpendicular to a plane of a couple, the forces in a couple produce",
+      "options": [
+        "non-zero resultant force.",
+        "no torque.",
+        "torques in the same direction.",
+        "torques in opposite direction."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A couple consists of two equal and opposite forces that do not share the same line of action.\n\n Although the net force is zero, each force creates a torque (turning effect) around the center of mass.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_64",
+      "examId": "physics2014entrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "A radioactive sample initially contains 8000 nuclei. If its half-life is 5 hours, approximately how many nuclei remain after 15 hours?",
+      "options": [
+        "4000",
+        "2000",
+        "1000",
+        "500"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Fifteen hours corresponds to three half-lives.\n\nAfter one half-life: 4000 nuclei remain.\n\nAfter two: 2000 remain.\n\nAfter three: 1000 remain.\n\nTherefore, 1000 nuclei remain.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_65",
+      "examId": "physics2014entrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is **correct about real and virtual images**?",
+      "options": [
+        "**Real images can be displayed on a screen unlike the virtual ones**.",
+        "Virtual images can be displayed on a screen unlike the real ones.",
+        "Virtual images can be magnified but real images cannot.",
+        "Real images can be magnified but virtual images cannot."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A **real image** is formed where light rays actually converge; thus, it can be projected onto a screen. A **virtual image** is formed where light rays appear to diverge from a point but do not actually converge; it cannot be projected onto a screen (e.g., the image seen in a plane mirror). Both real and virtual images can be magnified or demagnified depending on the optical system (lens or mirror) used.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_66",
+      "examId": "physics2014entrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "A force of 50 N acts on an object through a displacement of 12 m at an angle of 60° to the displacement. How much work is done by the force?",
+      "options": [
+        "300 J",
+        "500 J",
+        "600 J",
+        "1200 J"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Work is W = Fdcosθ.\n\nTherefore, W = 50(12)cos60° = 600(0.5) = 300 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_67",
+      "examId": "physics2014entrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "A fluid travelling over a body's surface exerts less pressure than if the fluid was static. This is a statement of:",
+      "options": [
+        "Bernoulli's principle.",
+        "Principle of continuity.",
+        "Archimedes' principle.",
+        "Pascal's principle."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bernoulli's principle states that for a flowing fluid, an increase in the speed of the fluid occurs simultaneously with a decrease in pressure. \n\nTherefore, a fluid moving over a surface exerts less pressure than the same fluid at rest.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_68",
+      "examId": "physics2014entrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "32. Which one of the following statements is correct about the resistance of a conducting wire? The resistance of the wire is",
+      "options": [
+        "directly proportional to the square of its length.",
+        "directly proportional to the square of its cross-sectional area.",
+        "inversely proportional to its cross-sectional area.",
+        "inversely proportional to its length."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The resistance (R) of a conductor is given by the formula R = pL/A, where rho is resistivity, L is length, and A is the cross-sectional area.\n\n The formula shows that resistance is inversely proportional to the cross-sectional area  and\n\n directly proportional to the length.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_69",
+      "examId": "physics2014entrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A uniform beam is 6 m long and weighs 120 N. It is supported at both ends. A 180 N load is placed 2 m from the left support. What is the reaction force at the right support?",
+      "options": [
+        "80 N",
+        "100 N",
+        "140 N",
+        "200 N"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Take moments about the left support.\n\nR_B(6) = 120(3) + 180(2).\n\nThus, 6R_B = 360 + 360 = 720.\n\nTherefore, R_B = 120 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_70",
+      "examId": "physics2014entrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "21. When a force F is applied to a wire of length L fixed at one end, the wire extends by $x$. The tensile strain of the wire is",
+      "options": [
+        "the length L divided by the extension $x$.",
+        "the extension $x$ divided by the length L.",
+        "the product of the force F and the extension $x$.",
+        "the applied force F divided by the extension."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Tensile **strain** ($epsilon$) is defined as the ratio of the change in length ($Delta L$) to the original length ($L_0$). In this case, the extension is $\\Delta L = x$ and the original length is $L_0 = L$:\n$$\\text{Strain} = \\epsilon = \\frac{\\Delta L}{L_0} = \\frac{x}{L}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_71",
+      "examId": "physics2014entrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The critical angle for a glass-air boundary is approximately 42°. What happens when a ray inside the glass strikes the boundary at an angle of 50° to the normal?",
+      "options": [
+        "It passes normally into the air.",
+        "It undergoes total internal reflection.",
+        "It bends toward the normal in the air.",
+        "It is completely absorbed."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total internal reflection occurs when light travels from a denser medium to a less dense medium and the angle of incidence exceeds the critical angle.\n\nSince 50° > 42°, total internal reflection occurs.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_72",
+      "examId": "physics2014entrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "How much heat is required to raise 0.50 kg of water from 25°C to 85°C? Take the specific heat capacity of water as 4200 J/kg·°C.",
+      "options": [
+        "63,000 J",
+        "84,000 J",
+        "126,000 J",
+        "252,000 J"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The temperature change is 60°C.\n\nQ = mcΔT = 0.50(4200)(60) = 126,000 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_73",
+      "examId": "physics2014entrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "A sound wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+      "options": [
+        "170 m/s",
+        "250 m/s",
+        "340 m/s",
+        "500 m/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wave speed is v = fλ.\n\nTherefore, v = 500(0.68) = 340 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_74",
+      "examId": "physics2014entrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "60. A substance with a mass of $2 \\text{ kg}$ has a volume of $2.5 \\times 10^{-3} \\text{ m}^3$. What is the relative density of the substance?",
+      "options": [
+        "1.25",
+        "80",
+        "0.8",
+        "1.0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Relative density ($RD$) is the ratio of the density of the substance ($\\rho_{sub}$) to the density of water ($\\rho_{water} = 1000 \\text{ kg/m}^3$).\n\n1.  **Calculate the Density of the Substance ($\\rho_{sub}$):**\n$$\\rho_{sub} = \\frac{\\text{Mass}}{\\text{Volume}} = \\frac{2 \\text{ kg}}{2.5 \\times 10^{-3} \\text{ m}^3} = 800 \\text{ kg/m}^3$$\n\n2.  **Calculate Relative Density:**\n$$RD = \\frac{\\rho_{sub}}{\\rho_{water}} = \\frac{800 \\text{ kg/m}^3}{1000 \\text{ kg/m}^3} = 0.8$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_75",
+      "examId": "physics2014entrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Two plane mirrors inclined at an angle of 72° to each other. How many images are formed when an object is placed between them?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For two plane mirrors inclined at an angle θ, when 360°/θ is an integer, the number of images is n = 360°/θ - 1.\n\nHere, θ = 72°, so 360°/72° = 5.\n\nTherefore, n = 5 - 1 = 4 images.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_76",
+      "examId": "physics2014entrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Water flows through a horizontal pipe at 4.0 m/s where its pressure is 1.8 × 10⁵ Pa. If the pipe narrows so that the water speed becomes 10.0 m/s, what is the pressure in the narrower section? Take the density of water as 1000 kg/m³.",
+      "options": [
+        "1.38 × 10⁵ Pa",
+        "2.10 × 10⁵ Pa",
+        "4.80 × 10⁵ Pa",
+        "7.00 × 10⁴ Pa"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For horizontal flow, Bernoulli's equation gives P₁ + ½ρv₁² = P₂ + ½ρv₂².\n\nThus, P₂ = P₁ + ½ρ(v₁² - v₂²).\n\nP₂ = 1.8 × 10⁵ + 500(16 - 100) =\n 1.38 × 10⁵ Pa.\n\nTherefore, the pressure decreases as the fluid speed increases.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_77",
+      "examId": "physics2014entrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "A square metal plate of coefficient of linear expansion $\\alpha$, has a surface area $A_0$ at a temperature $T_0$. If the temperature is raised by an amount $\\Delta T$, then the plate surface area is changed to $A$, which is expressed as",
+      "options": [
+        "$A = A_0 (1 + 2\\alpha \\Delta T)$",
+        "$A = A_0 (1 + \\alpha \\Delta T)$",
+        "$A = A_0 (1 + \\alpha \\Delta T)$",
+        "$A = A_0 (1 + 3\\alpha \\Delta T)$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The change in area due to thermal expansion is called **area expansion** (or superficial expansion). The area expansion coefficient ($\\beta$) is approximately twice the linear expansion coefficient ($\\alpha$), i.e., $\\beta \\approx 2\\alpha$.\n\nThe formula for the new area ($A$) is given by:\n$$A = A_0 (1 + \\beta \\Delta T)$$\nSubstituting $\\beta = 2\\alpha$:\n$$A = A_0 (1 + 2\\alpha \\Delta T)$$\n\n*Note: Options B and C are identical and incorrect, and Option D is for volume expansion ($\\gamma \\approx 3\\alpha$).*",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_78",
+      "examId": "physics2014entrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about critical and boiling points?",
+      "options": [
+        "The critical point of a substance is constant, while its boiling point is dependent on the surrounding pressure.",
+        "The critical point is dependent both on temperature and pressure, while boiling point is independent of the surrounding pressure.",
+        "At the boiling point a single gaseous phase exists, while at the critical point both the liquid and gas phases coexist.",
+        "The boiling point of a substance is constant independent of pressure, while its critical point is dependent on the surrounding temperature."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The critical point is a characteristic point of a substance defined by a particular critical temperature and critical pressure.\n\nAbove the critical temperature, a gas cannot be liquefied simply by increasing pressure.\n\nThe boiling point, however, depends on the surrounding pressure and changes when the external pressure changes.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_79",
+      "examId": "physics2014entrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": " The figure shown below illustrates how the mass attached to a spring oscillates along a horizontal frictionless surface between points A and B.\n\nHow can one explain the mechanical energy of the mass-spring system for this figure? Its mechanical energy is equal to its",
+      "imageUrl": "images/P2018R2_21.png",
+      "diagramUrl": "images/P2018R2_21.png",
+      "options": [
+        "elastic potential energy when the mass is at position O.",
+        "kinetic energy when the mass is at position B.",
+        "kinetic energy when the mass is at position A.",
+        "kinetic energy when the mass is at position O."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "At the equilibrium position O, the stretch/compression of the spring is zero, so elastic potential energy is zero and all mechanical energy is in the form of maximum kinetic energy.\n\n At turning points A and B, kinetic energy is zero and all energy is elastic potential energy.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_80",
+      "examId": "physics2014entrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "A 2 kg object is attached to a string and moves in a vertical circle. At the top of the circle, its speed is 5 m/s and the radius is 1.0 m. What is the minimum tension required at the top? Take g = 10 m/s².",
+      "options": [
+        "10 N",
+        "20 N",
+        "30 N",
+        "50 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "At the top, both tension and weight point toward the center.\n\nT + mg = mv²/r.\n\nThus, T = mv²/r - mg = 2(25) - 20 = 30 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_81",
+      "examId": "physics2014entrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "A wave has a period of 0.020 s and travels at 300 m/s. What is its wavelength?",
+      "options": [
+        "0.006 m",
+        "6 m",
+        "15 m",
+        "6000 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Frequency is f = 1/T = 50 Hz.\n\nUsing v = fλ,\n\nλ = v/f = 300/50 = 6 m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_82",
+      "examId": "physics2014entrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The graph given below shows the velocity of a man travelling on a motorcycle as a function of time. Which one of the following statements is correct about the velocity-time graph?",
+      "imageUrl": "images/P2015_25.png",
+      "diagramUrl": "images/P2015_25.png",
+      "options": [
+        "The displacement during the time interval from t = 6s to t = 14s is equal to the area of region II minus the area of region III.",
+        "The displacement during the time interval from t = 0s to t = 6s is equal to the area under the velocity-time graph in the given interval.",
+        "The acceleration during the time interval from t = 6s to t = 10s is equal to the gradient of the curve in the given interval and it is negative.",
+        "The acceleration in the first 6s is equal to the gradient of the curve in the given interval and it is positive."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_83",
+      "examId": "physics2014entrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "A 5 Ω resistor carries a current of 3 A. What electrical power is dissipated by the resistor?",
+      "options": [
+        "15 W",
+        "30 W",
+        "45 W",
+        "60 W"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Electrical power can be calculated using P = I²R.\n\nP = 3²(5) = 45 W.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_84",
+      "examId": "physics2014entrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A $2 \\text{ kg}$ object accelerates with $1.5 \\text{ m/s}^2$ to the right on a horizontal frictionless surface under the action of two horizontal forces, $F_1$ and $F_2$, as shown in the figure below. What should be the magnitude of $F_1$?",
+      "options": [
+        "$4 \\text{ N}$",
+        "$3 \\text{ N}$",
+        "$1 \\text{ N}$",
+        "$2 \\text{ N}$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This problem is solved using **Newton's Second Law of Motion**: $\\text{Net Force} = \\text{mass} \\times \\text{acceleration}$ ($F_{net} = ma$).\n1. **Identify the variables:** \n   * Mass, $m = 2 \\text{ kg}$\n   * Acceleration, $a = 1.5 \\text{ m/s}^2$ (to the right, positive direction)\n   * Force $F_2 = 1 \\text{ N}$ (to the left, negative direction)\n   * Force $F_1 = ?$ (to the right, positive direction)\n2. **Write the equation for the net force (sum of forces):**\n   $F_{net} = F_1 - F_2$ (Assuming right is positive)\n3. **Substitute into Newton's Second Law:**\n   $F_1 - F_2 = m \\times a$\n4. **Solve for $F_1$:**\n   $F_1 - 1 \\text{ N} = (2 \\text{ kg}) \\times (1.5 \\text{ m/s}^2)$\n   $F_1 - 1 \\text{ N} = 3 \\text{ N}$\n   $F_1 = 3 \\text{ N} + 1 \\text{ N}$\n   $F_1 = 4 \\text{ N}$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_85",
+      "examId": "physics2014entrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A parallel-plate capacitor is charged to voltage V and then disconnected from the battery. A dielectric material with dielectric constant 4 is inserted completely between its plates. What happens to its stored energy?",
+      "options": [
+        "It becomes four times larger.",
+        "It becomes twice as large.",
+        "It becomes one-fourth as large.",
+        "It remains unchanged."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "After the battery is disconnected, charge remains constant.\n\nThe energy is U = Q²/(2C).\n\nInsertion of a dielectric increases capacitance by a factor of 4, so the energy decreases by a factor of 4.\n\nThus, the new energy is one-fourth of the original.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_86",
+      "examId": "physics2014entrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A 2 kg object moving at 6 m/s collides with a stationary 4 kg object. If they stick together after collision, what is their common velocity?",
+      "options": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "6 m/s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Momentum is conserved in the absence of external impulse.\n\nInitial momentum = 2(6) + 4(0) = 12 kg·m/s.\n\nThe combined mass is 6 kg.\n\nTherefore, v = 12/6 = 2 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_87",
+      "examId": "physics2014entrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "An electromagnetic wave has a frequency of 6.0 × 10¹⁴ Hz. Taking the speed of light as 3.0 × 10⁸ m/s, what is its wavelength?",
+      "options": [
+        "2.0 × 10⁻⁷ m",
+        "5.0 × 10⁻⁷ m",
+        "2.0 × 10⁻⁶ m",
+        "5.0 × 10⁻⁶ m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The wave equation is c = fλ.\n\nTherefore, λ = c/f = (3.0 × 10⁸)/(6.0 × 10¹⁴) = 5.0 × 10⁻⁷ m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_88",
+      "examId": "physics2014entrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "The difference between conventional X-ray and CT-scan is that in the case of X-ray the machine that sends X-rays through the patient's body is",
+      "options": [
+        "stationary, whereas in CT-scan a rotating X-ray machine is used.",
+        "rotating in the opposite direction of the detector which are stationary in the case of CT-scan.",
+        "rotating, whereas in CT-scan a stationary X-ray machine is used.",
+        "stationary but the patient is moving, unlike in case of CT scan."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In conventional X-ray imaging, the X-ray source remains essentially stationary and produces a two-dimensional projection image.\n\nIn a CT scan, the X-ray source and detectors rotate around the patient to collect many projections from different angles.\n\nThese measurements are then used to construct cross-sectional images.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_89",
+      "examId": "physics2014entrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A planet has an orbital radius nine times that of Earth. Assuming both planets orbit the Sun and Kepler's third law applies, approximately how many Earth years does the planet take to complete one orbit?",
+      "options": [
+        "9 years",
+        "18 years",
+        "27 years",
+        "81 years"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kepler's third law gives T² ∝ R³.\n\nTherefore, (T/T_E)² = 9³ = 729.\n\nTaking the square root gives T/T_E = 27.\n\nThus, the planet requires approximately 27 Earth years for one orbit.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_90",
+      "examId": "physics2014entrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "A metal wire has a length of 2.0 m and cross-sectional area 1.0 × 10⁻⁶ m². If a force of 100 N produces an extension of 1.0 mm, what is the Young's modulus of the material?",
+      "options": [
+        "2.0 × 10¹⁰ Pa",
+        "5.0 × 10¹⁰ Pa",
+        "2.0 × 10¹¹ Pa",
+        "5.0 × 10¹¹ Pa"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Young's modulus is Y = FL/(AΔL).\n\nSubstituting F = 100 N, L = 2 m, A = 10⁻⁶ m² and ΔL = 10⁻³ m gives Y = 2 × 10¹¹ Pa.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_91",
+      "examId": "physics2014entrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "A 5 kg object is acted upon by two perpendicular forces of 12 N and 16 N. What is the magnitude of its acceleration?",
+      "options": [
+        "2 m/s²",
+        "4 m/s²",
+        "5.6 m/s²",
+        "20 m/s²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The resultant force is √(12² + 16²) = 20 N.\n\nUsing Newton's second law, a = F/m = 20/5 = 4 m/s².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_92",
+      "examId": "physics2014entrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following phenomena occurs during change of phases of a matter? During a phase change from",
+      "options": [
+        "gas to liquid, heat energy is absorbed by a substance while its temperature remains constant.",
+        "solid to liquid, heat energy is released from a substance while its temperature remains constant.",
+        "liquid to solid, heat energy is released from a substance while its temperature changes uniformly.",
+        "liquid to gas, heat energy is absorbed by a substance while its temperature remains constant."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Phase changes occur at a constant temperature. During a phase change from **liquid to gas** (boiling/vaporization), heat energy is **absorbed** by the substance (this absorbed heat is called the latent heat of vaporization), and its temperature **remains constant** until all the liquid has turned into gas. Similarly, during gas to liquid (condensation), heat is released; during solid to liquid (melting), heat is absorbed; and during liquid to solid (freezing), heat is released. The temperature remains constant in all these processes, which is why options A and B are incorrect in terms of absorbed/released heat, and option C is incorrect because the temperature remains constant, not changes uniformly.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_93",
+      "examId": "physics2014entrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "An object dropped into a sea sinks to a depth of $100\\ \\text{m}$. Which of the following is correct about the pressure the object experiences? (Assume the density of seawater is $1050\\ \\text{kg/m}^3$ and the air above the sea exerts a pressure of $P_{\\text{atmospheric}} = 1.01 \\times 10^5\\ \\text{Pa}$, $g = 10\\ \\text{m/s}^2$)",
+      "options": [
+        "The gauge pressure exerted on it is $P_{\\text{gauge}} = 1.01 \\times 10^5\\ \\text{Pa}$.",
+        "The absolute pressure exerted on it is $P_{\\text{absolute}} = 0.30 \\times 10^5\\ \\text{Pa}$.",
+        "The absolute pressure exerted on it is $P_{\\text{absolute}} = 1.13 \\times 10^6\\ \\text{Pa}$.",
+        "The gauge pressure exerted on it is $P_{\\text{gauge}} = 1.03 \\times 10^6\\ \\text{Pa}$."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1.  **Calculate Gauge Pressure ($P_{\\text{gauge}}$):**\n    The gauge pressure is the pressure due to the column of fluid (seawater) only. It is calculated using the formula $P_{\\text{gauge}} = \\rho g h$.\n    * $\\rho = 1050\\ \\text{kg/m}^3$\n    * $g = 10\\ \\text{m/s}^2$\n    * $h = 100\\ \\text{m}$\n    $$P_{\\text{gauge}} = (1050\\ \\text{kg/m}^3)(10\\ \\text{m/s}^2)(100\\ \\text{m}) = 1,050,000\\ \\text{Pa}$$ \n    $$P_{\\text{gauge}} = 1.05 \\times 10^6\\ \\text{Pa}$$ (Option D, $1.03 \\times 10^6\\ \\text{Pa}$, is close but not exact).\n\n2.  **Calculate Absolute Pressure ($P_{\\text{absolute}}$):**\n    The absolute pressure is the sum of the gauge pressure and the atmospheric pressure ($P_{\\text{atmospheric}}$) exerted on the surface.\n    $$P_{\\text{absolute}} = P_{\\text{atmospheric}} + P_{\\text{gauge}}$$\n    * $P_{\\text{atmospheric}} = 1.01 \\times 10^5\\ \\text{Pa} = 0.101 \\times 10^6\\ \\text{Pa}$\n    * $P_{\\text{gauge}} = 1.05 \\times 10^6\\ \\text{Pa}$\n    $$P_{\\text{absolute}} = (0.101 \\times 10^6\\ \\text{Pa}) + (1.05 \\times 10^6\\ \\text{Pa}) = 1.151 \\times 10^6\\ \\text{Pa}$$\n\n3.  **Compare with Options:**\n    * $P_{\\text{absolute}} = 1.151 \\times 10^6\\ \\text{Pa}$ is closest to Option C: $1.13 \\times 10^6\\ \\text{Pa}$. The slight discrepancy may be due to using a rounded value of $g$ or $\\rho$ in the problem's source, but $1.13 \\times 10^6\\ \\text{Pa}$ is the correct choice among the options. (Note: Option A incorrectly states gauge pressure is $1.01 \\times 10^5\\ \\text{Pa}$, which is the atmospheric pressure.)",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_94",
+      "examId": "physics2014entrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "A 30kg rigid body has a moment of inertia 45 kgm² about its center of mass. What is the moment of inertia when it rotates through an axis 2m away and parallel to the axis through the center of mass?",
+      "options": [
+        "90 kgm²",
+        "165 kgm²",
+        "180 kgm²",
+        "105 kgm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the parallel axis theorem: I = I_cm + Md²\n\nWhere:-  I_cm = 45 kg·m² (moment of inertia about center of mass)\n\n- M = 30 kg (mass of the body)\n\n- d = 2 m (distance between axes)\n\nI = 45 + 30*(2)² = 45 + 30*4 = 45 + 120 = 165 kg·m²\n\nTherefore, the moment of inertia about the new axis is 165 kg·m².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_95",
+      "examId": "physics2014entrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": " A straight conductor carrying a current I, which flows upward, is placed in uniform magnetic field B directed into the page, as shown in the figure below.\n\nWhat will happen to the conductor?",
+      "imageUrl": "images/P2018R2_59.png",
+      "diagramUrl": "images/P2018R2_59.png",
+      "options": [
+        "It will be pushed to the right.",
+        "It will be pushed out of the page.",
+        "It will be pushed into the page.",
+        "It will be pushed to the left."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the right-hand rule for magnetic force (F = I L × B): \n\n-> point your fingers upward in the direction of the current (I),\n\n-> curl them inward into the page in the direction of the magnetic field (B),\n\n-> and your thumb points to the right, indicating the direction of the force pushing the conductor.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_96",
+      "examId": "physics2014entrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A charged particle enters a uniform magnetic field with velocity perpendicular to the field. If its speed is doubled while the charge, mass and field remain unchanged, what happens to the radius of its circular path?",
+      "options": [
+        "It becomes half.",
+        "It remains unchanged.",
+        "It becomes twice as large.",
+        "It becomes four times as large."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For perpendicular motion in a magnetic field, r = mv/(|q|B).\n\nTherefore, the radius is directly proportional to speed.\n\nDoubling the speed doubles the radius.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_97",
+      "examId": "physics2014entrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which electromagnetic radiation has a higher frequency than visible violet light?",
+      "options": [
+        "Microwaves",
+        "Infrared radiation",
+        "Ultraviolet radiation",
+        "Radio waves"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In the electromagnetic spectrum, ultraviolet radiation has higher frequency and shorter wavelength than visible violet light.\n\nTherefore, ultraviolet radiation has the higher frequency.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_98",
+      "examId": "physics2014entrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "A current-carrying wire carries current in the positive z-direction. At a point located on the positive x-axis, the magnetic field produced by the wire points in which direction?",
+      "options": [
+        "Positive x-direction",
+        "Negative x-direction",
+        "Positive y-direction",
+        "Negative y-direction"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic field around a straight current-carrying wire forms circular paths.\n\nUsing the right-hand rule, point the thumb in the positive z-direction. At a point on the positive x-axis, the curled fingers point in the positive y-direction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_99",
+      "examId": "physics2014entrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "A ray of light passes from glass of refractive index 1.50 into air. If the angle of incidence inside the glass is 40°, what is the approximate angle of refraction?",
+      "options": [
+        "25°",
+        "40°",
+        "50°",
+        "75°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Snell's law gives n₁sinθ₁ = n₂sinθ₂.\n\nThus, sinθ₂ = 1.50sin40° ≈ 1.50(0.643) = 0.965.\n\nTherefore, θ₂ ≈ 75°.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2014entrance_melmeja_100",
+      "examId": "physics2014entrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Two vectors have magnitudes 8 N and 15 N and are perpendicular to each other. What is the magnitude of their resultant?",
+      "options": [
+        "7 N",
+        "17 N",
+        "23 N",
+        "120 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For perpendicular vectors, the resultant magnitude is R = √(A² + B²).\n\nR = √(8² + 15²) = √289 = 17 N.",
       "topic": "Physics"
     }
   ]

@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12",
-  "description": "Comprehensive examination bank combining 7 chapters (19 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 19,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -325,6 +325,1304 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": " Mx = (-1 + (-1)) / 2 = \n-2 / 2 = \n-1. \n\nMy = (-3 + 5) / 2 = \n2 / 2 = \n1.\n\n Mz = (3 + (-7)) / 2 =\n -4 / 2 =\n -2.\n\n The midpoint is (-1, 1, -2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_20",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Find dy/dx if y = x sin x.",
+      "options": [
+        "cos x + x sin x",
+        "x cos x",
+        "sin x",
+        "sin x + x cos x"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Product rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_21",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (1/(x²+1)) dx.",
+      "options": [
+        "tan⁻¹(x)+C",
+        "ln(x)+C",
+        "1/x+C",
+        "sec(x)+C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard inverse trig.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_22",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Which is real-life GP?",
+      "options": [
+        "Salary increase fixed",
+        "Population growth",
+        "Linear motion",
+        "Temperature change"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Exponential growth.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_23",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "A geometric sequence has sum to infinity 12 and first term 3. Find the common ratio.",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "S = a/(1−r) → 12 = 3/(1−r)\n → 1−r = 1/4 \n→ r = 3/4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_24",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "A ball is dropped from height 100 m and rebounds to 3/4 of its height each time. Find total distance traveled.",
+      "options": [
+        "650 m",
+        "700 m",
+        "750 m",
+        "800 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total distance = 100 + 2(75+56.25+...) \n= 100 + 2[75/(1−3/4)]\n = 100 + 2×300 = 700.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_25",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "The 4th term of a geometric sequence is 54 and the 7th term is 1458. Find the first term.",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "a₄=ar³=54, a₇=ar⁶=1458.\n Divide → r³=27 → r=3.\n Then a×27=54 → a=2 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_26",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "An arithmetic sequence has first term 7 and common difference 5. If the sum of the first n terms is 407, find n.",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sₙ = n/2[2a+(n−1)d] =\n n/2[14+5(n−1)] = \nn/2(5n+9).\n Set =407 → \nn(5n+9)=814 → \n5n²+9n−814=0 → n=11.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_27",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "If a geometric series has sum 10 and a=5, find r.",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "3/4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "10 = 5/(1-r) \n→ r=1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_28",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(k=2 to 6)(k²+2k).",
+      "options": [
+        "130",
+        "140",
+        "150",
+        "160"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Compute directly: \n(4+4)+(9+6)+(16+8)+(25+10)+(36+12)=8+15+24+35+48\n=130 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_29",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Find S₅ of geometric sequence: 1, 2, 4, ...",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sₙ = a(rⁿ−1)/(r−1) =\n (2⁵−1)=31.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_30",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Find n such that the nth term of arithmetic sequence 3,7,11,... is 99.",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "aₙ=3+(n−1)4=99 \n→ 4n−1=99 \n→ n=25.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_31",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Find the 6th term of a geometric sequence with a = 2 and r = 3.",
+      "options": [
+        "486",
+        "162",
+        "243",
+        "324"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "aₙ = arⁿ⁻¹ = 2×3⁵ = 2×243 = 486",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_32",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(i=1 to 4) i².",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "1+4+9+16 = 30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_33",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Find S∞ for 8 − 4 + 2 − 1 + ...",
+      "options": [
+        "5.33",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "a=8,r=−1/2 \n→ S=8/(1+1/2)=8/(3/2)=16/3≈5.33 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_34",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(i=1 to 6) 2i.",
+      "options": [
+        "36",
+        "42",
+        "48",
+        "56"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "2(1+2+...+6)=2×21=42.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_35",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of the first 15 terms of the sequence where aₙ = 2n² + 3n.",
+      "options": [
+        "2700",
+        "2840",
+        "3000",
+        "3150"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum = 2∑n² + 3∑n \n= 2×1240 + 3×120\n = 2480+360=2840.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_36",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(i=1 to 10) i².",
+      "options": [
+        "385",
+        "400",
+        "405",
+        "415"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Formula n(n+1)(2n+1)/6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_37",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(k=1 to 10)(2k+3)².",
+      "options": [
+        "1775",
+        "1825",
+        "2290",
+        "1925"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Expand: (2k+3)² = 4k²+12k+9 \n→ sum = 4∑k² + 12∑k + 9×10 =\n 4×385 + 12×55 + 90 =\n 1540+660+90 \n= 2290 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_38",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 5)(k² + 2).",
+      "options": [
+        "65",
+        "70",
+        "75",
+        "80"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "55+10=65 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_39",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Find a₁ if aₙ=2n+1.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "n=1 → 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_40",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Find S₈ of sequence aₙ = 3n.",
+      "options": [
+        "96",
+        "108",
+        "120",
+        "132"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3∑n=3×36=108.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_41",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Find the equation of the tangent to y = x² at x = 2.",
+      "options": [
+        "y = 4x − 4",
+        "y = 2x − 2",
+        "y = 4x − 8",
+        "y = 2x + 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Slope = 2x=4. Point(2,4). Equation: y−4=4(x−2) → y=4x−4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_42",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Find S₁₀ of arithmetic sequence with a=1,d=3.",
+      "options": [
+        "145",
+        "150",
+        "155",
+        "160"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "S=10/2(2+27)=5×29=145 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_43",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Find the area under y = x from x = 0 to x = 2.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "∫x dx = x²/2 → 4/2=2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_44",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of the first 10 terms of the sequence defined by aₙ = n² − n.",
+      "options": [
+        "300",
+        "310",
+        "320",
+        "330"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "∑(n²−n)=∑n² − ∑n = 385 − 55 = 330 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_45",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Find turning points of y = x² − 4x + 5.",
+      "options": [
+        "(2,1)",
+        "(1,2)",
+        "(2,5)",
+        "(−2,1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Derivative=2x−4=0 → x=2 → y=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_46",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "The sum of first n terms of a sequence is Sₙ = 3n² + 2n. Find the nth term.",
+      "options": [
+        "6n−1",
+        "6n+1",
+        "3n²",
+        "2n+3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "aₙ = Sₙ − Sₙ₋₁ = \n3n²+2n − [3(n−1)²+2(n−1)] \n= 6n−1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_47",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Find nth term of geometric sequence a=3,r=2.",
+      "options": [
+        "3×2ⁿ",
+        "3×2ⁿ⁻¹",
+        "2×3ⁿ",
+        "3+2n"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "aₙ=arⁿ⁻¹.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_48",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Infinite GP converges if:",
+      "options": [
+        "r>1",
+        "|r|<1",
+        "r=1",
+        "r>0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Condition for convergence.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_49",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of first 10 natural numbers.",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "S = n(n+1)/2\n = 10×11/2 = 55.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_50",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∫(2x + 5) dx.",
+      "options": [
+        "2x² + 5x + C",
+        "x² + 10x + C",
+        "x² + 2x + C",
+        "x² + 5x + C"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Basic integration.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_51",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which series converges?",
+      "options": [
+        "1+2+3+...",
+        "1+1/2+1/4+...",
+        "1+3+9+...",
+        "2+4+8+..."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "|r|<1 so convergent.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_52",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Find S∞ if a=6,r=1/3.",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "6/(1-1/3)=9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_53",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of infinite geometric series: 4 + 2 + 1 + ...",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "S = a/(1-r) \n= 4/(1-1/2) = 8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_54",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Find the common difference if a₅ = 20 and a₁ = 4.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "20 = 4 + 4d → d = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_55",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Find number of terms if S=100, a=2, d=2.",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Solve quadratic.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_56",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 5)(3k² − k).",
+      "options": [
+        "200",
+        "210",
+        "220",
+        "230"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3×55 −15 =165−15=150 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_57",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Find the stationary points of y = x³ − 3x² + 2.",
+      "options": [
+        "x=1,2",
+        "x=0,1",
+        "x=0,2",
+        "x=1,3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Derivative=3x²−6x=3x(x−2)=0 → x=0,2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_58",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "If the sum to infinity of a geometric sequence is 18 and r=2/3, find the first term.",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "18 = a/(1−2/3)=a/(1/3) → a=6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_59",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 4)(k³+1).",
+      "options": [
+        "105",
+        "110",
+        "115",
+        "120"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "100+4=104 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_60",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Given the data set: 10, 20, 30, 40, 50, calculate the mean deviation about the mean and determine how much the observations deviate on average.",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = 30.\n Deviations = 20,10,0,10,20 → average = 60/5 = 12, but absolute deviation sum is 60 so mean deviation = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_61",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Find derivative of y = x ln x.",
+      "options": [
+        "ln x + 1",
+        "ln x",
+        "1/x",
+        "x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_62",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Given two data sets with the same mean, the one with higher standard deviation indicates:",
+      "options": [
+        "More dispersion",
+        "Less dispersion",
+        "No dispersion",
+        "Equal dispersion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Higher SD means data are more spread out.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_63",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "If a distribution has a long tail to the right, how will the mean compare to the median?",
+      "options": [
+        "Mean < Median",
+        "Mean > Median",
+        "Mean = Median",
+        "Cannot be determined"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Positive skew: mean > median.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_64",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Find the variance of the data set: 2, 4, 6, 8.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = 5. \nSquared deviations: 9,1,1,9 →\n average = 20/4 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_65",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Find the derivative of y = (x² + 2x + 1)/(x + 1) and simplify the result.",
+      "options": [
+        "1",
+        "2x+1",
+        "x+1",
+        "2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Simplify: (x+1)²/(x+1)=x+1 → derivative=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_66",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which series diverges?",
+      "options": [
+        "1+1/2+1/4",
+        "1+1/3+1/9",
+        "1+2+4+8",
+        "1+1/5+1/25"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "r>1 diverges.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_67",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of series: 3 + 6 + 12 + ... + 3×2⁹.",
+      "options": [
+        "3069",
+        "3072",
+        "3075",
+        "3080"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "GP sum: a=3,r=2,n=10 → S=3(2¹⁰−1)=3×1023=3069 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_68",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A savings plan gives 4% compound interest monthly. A deposit of 12,000 birr is made for 1 year. Determine the maturity value and explain compounding frequency impact.",
+      "options": [
+        "12,500 birr",
+        "12,600 birr",
+        "12,700 birr",
+        "12,480 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Monthly compounding increases effective yield slightly.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_69",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 9x + 3y subject to x + y ≥ 15.",
+      "options": [
+        "= 135 at (15,0)",
+        "= 80 at (10,5)",
+        "= 45 at (0,15)",
+        "= 90 at (8,7)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "y is cheaper so choose (0,15).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_70",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A business loan of 20000 birr is taken at 10% compound interest for 1 year. Determine the repayment amount and explain compounding impact.",
+      "options": [
+        "21000 birr",
+        "22000 birr",
+        "20000 birr",
+        "23000 birr"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A = 20000×1.1 = 22000 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_71",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Find the rate of change of y = 5x² − 3x + 2 at x = 4.",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Derivative=10x−3 → at 4 → 40−3=37 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_72",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 6x + 10y subject to x + y ≥ 15.",
+      "options": [
+        "= 60 at (15,0)",
+        "= 80 at (10,5)",
+        "= 90 at (0,15)",
+        "= 70 at (8,7)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y is cheaper so choose (0,15).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_73",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(i=1 to 3)(i+2).",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(3+4+5)=12 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_74",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Determine where f(x) = x² - 4x + 5 is decreasing.",
+      "options": [
+        "(2,∞)",
+        "(-∞,2)",
+        "(-∞,∞)",
+        "(0,2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f'(x)=2x-4. \nNegative when x<2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_75",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "If all observations are equal, the standard deviation is:",
+      "options": [
+        "0",
+        "1",
+        "Mean",
+        "Undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "No variation → SD = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_76",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Find the number of terms in the arithmetic sequence 4, 9, 14, ... whose last term is 199.",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "aₙ=4+(n−1)5=199 → 5n−1=199 → n=40.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_77",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Find the sum to infinity of the geometric series 5 − 2.5 + 1.25 − ...",
+      "options": [
+        "3.33",
+        "3.5",
+        "4",
+        "4.5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "a=5, r=−1/2 → S=5/(1+1/2)=5/(3/2)=10/3≈3.33.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_78",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 5x + 2y subject to x + y ≥ 20.",
+      "options": [
+        "= 100 at (20,0)",
+        "= 40 at (0,20)",
+        "= 60 at (10,10)",
+        "= 70 at (12,8)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "y is cheaper so choose (0,20).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_79",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Find area under y = 2x from x=1 to x=3.",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "∫2x dx = x² → 9−1=8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_80",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "A car worth 80,000 birr depreciates by 15% annually. Find value after 2 years.",
+      "options": [
+        "57800",
+        "58000",
+        "60000",
+        "62000"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "80000×0.85² = 80000×0.7225 = 57800.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_81",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Find the derivative of f(x) = (3x³ − 2x² + 4x − 7).",
+      "options": [
+        "9x² − 4x − 7",
+        "6x² − 4x + 4",
+        "9x² − 4x + 4",
+        "9x² − 2x + 4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Apply power rule: 9x² − 4x + 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_82",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A borrower repays 5,000 birr loan with 8% simple interest for 3 years. Calculate total repayment.",
+      "options": [
+        "6,000 birr",
+        "6,500 birr",
+        "6,400 birr",
+        "6,200 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = 5000×0.08×3 = 1200; \ntotal = 6200 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_83",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "A company borrows 50,000 birr at 10% compound interest. If no payments are made for 2 years, calculate the total debt?.",
+      "options": [
+        "60,000 birr",
+        "61,000 birr",
+        "60,500 birr",
+        "62,000 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 50000(1.1)² = 60500 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_84",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A borrower compares 6% simple interest and 5% compound interest over 10 years. Which is correct?",
+      "options": [
+        "Simple interest is better",
+        "Compound interest is better",
+        "Both are equal",
+        "Cannot be compared"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest grows faster over long periods.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_85",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A bank offers monthly compounding at 12% annual rate. What happens compared to annual compounding?",
+      "options": [
+        "Lower return",
+        "Higher return",
+        "Same return",
+        "No interest"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "More frequent compounding increases effective return.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_86",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A business invests 1000 birr at 25% compound interest for 2 years. Determine the final amount.",
+      "options": [
+        "1562.5 birr",
+        "1500 birr",
+        "1600 birr",
+        "1550 birr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A = 1000(1.25)² = 1562.5 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_87",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "∫ (x³+x²-x)/(x²+x-2) dx is equal to",
+      "imageUrl": "images/M2014_63.png",
+      "diagramUrl": "images/M2014_63.png",
+      "options": [
+        "x²/2 - 1/3 ln|x-1| - 2/3 ln|x+2| + c",
+        "x²/2 + 1/3 ln|x-1| + 2/3 ln|x+2| + c",
+        "x²/2 + 1/3 ln|x-1| - 2/3 ln|x+2| + c",
+        "x²/2 - 1/3 ln|x-1| + 2/3 ln|x+2| + c"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_88",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Find dy/dx if y = e^(2x).",
+      "options": [
+        "2e^(2x)",
+        "e^(2x)",
+        "x e^(2x)",
+        "ln(2x)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Chain rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_89",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 3x + 12y subject to x + y ≤ 16.",
+      "options": [
+        "Z = 48 at (16,0)",
+        "Z = 120 at (8,8)",
+        "Z = 192 at (0,16)",
+        "Z = 150 at (10,6)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y dominates objective.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_90",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/√x) dx.",
+      "options": [
+        "√x + C",
+        "1/x + C",
+        "2√x + C",
+        "ln x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Power rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_91",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 10x + y subject to x + y ≥ 9.",
+      "options": [
+        "= 90 at (9,0)",
+        "= 50 at (5,4)",
+        "= 9 at (0,9)",
+        "= 70 at (7,2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y is cheapest so choose (0,9).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_92",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Let $f$ be a function that is continuous at $x_0$. Which of the following is true about $f$?",
+      "options": [
+        "$x_0$ does not belong to the domain of $f$",
+        "$\\lim_{x\\to x_0} f(x)$ does not exists",
+        "$\\lim_{x\\to x_0} f(x) \\neq f(x_0)$",
+        "$\\lim_{x\\to x_0} f(x) = f(x_0)$"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The definition of a function $f$ being **continuous** at a point $x_0$ requires three conditions, which are summarized by the single equality: \n$$\\lim_{x\\to x_0} f(x) = f(x_0)$$\nThis condition implies:\n1. $f(x_0)$ is defined (so $x_0$ is in the domain of $f$).\n2. The limit $\\lim_{x\\to x_0} f(x)$ exists.\n3. The limit value equals the function value.\n\nTherefore, **Option D** is the correct statement.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_93",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "A production system satisfies x + 2y ≤ 20, x ≥ 0, y ≥ 0. Maximize Z = 3x + 8y.",
+      "options": [
+        "Z = 80 at (0,10)",
+        "Z = 60 at (10,0)",
+        "Z = 70 at (4,8)",
+        "Z = 75 at (5,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "At (0,10), Z = 80 maximum.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_94",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Find n if 2+4+6+...+2n=210.",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "n(n+1)=210 → n=14.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_95",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Find slope of normal to y = x² at x = 1.",
+      "options": [
+        "−1/2",
+        "2",
+        "−2",
+        "1/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Tangent slope=2 → normal = −1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_96",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A system x + y ≥ 15, x ≥ 0, y ≥ 0 defines a feasible region. The cost function is C = 9x + y. Find the minimum cost.",
+      "options": [
+        "= 135 at (15,0)",
+        "= 60 at (10,5)",
+        "= 15 at (0,15)",
+        "= 80 at (8,7)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "y is cheaper so minimize x: (0,15).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_97",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "A bank offers two accounts: Account A gives 6% simple interest, Account B gives 5% compound interest. Over a long-term investment of 10 years, which account is more beneficial and why?",
+      "options": [
+        "Account A",
+        "Account B",
+        "Both equal",
+        "Depends on principal only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest grows exponentially and overtakes simple interest.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_98",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "A borrower repays 5000 birr loan with 10% simple interest in 6 years. Calculate total repayment.",
+      "options": [
+        "7500 birr",
+        "8200 birr",
+        "8000 birr",
+        "7800 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = 5000×0.1×6 = 3000; \ntotal = 8000 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_99",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Let f be a continuous function on [a, b]. Then which of the following is NOT true?",
+      "options": [
+        "∫ₐᵇkf(x)dx - k∫f(x)dx for any constant k",
+        "∫ₐᵇf(x)dx = -∫f(x)dx",
+        "∫ₐᵇf(x)dx = 0 for any c in(a,b)",
+        "∫ₐᵇf(x)dx - ∫f(x)dx - ∫f(x)dx for any c in(a,b)."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2015_g12_merged_melmeja_100",
+      "examId": "m2015_g12_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "A particle moves along a straight line with displacement s(t)=t³−3t²−9t+5. Find the time at which the particle changes direction.",
+      "options": [
+        "t=1 and t=3",
+        "t=−1 and t=3",
+        "t=3 only",
+        "t=−3 only"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Velocity=3t²−6t−9=3(t−3)(t+1). Changes direction at roots.",
       "topic": "Mathematics"
     }
   ]

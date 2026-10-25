@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 10",
-  "description": "Grade 10 Mathematics National Exam & Practice 2017 featuring 1 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 1,
-  "passMarkPercent": 60,
+  "description": "Grade 10 Mathematics National Exam & Practice 2017 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -35,6 +35,1592 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "First, move all terms to one side: $1 - \\frac{3}{x} - \\frac{4}{x - 2} \\le 0$. Find a common denominator, $x(x-2)$: $\\frac{x(x-2) - 3(x-2) - 4x}{x(x-2)} \\le 0$. Simplify the numerator: $\\frac{(x^2 - 2x) - (3x - 6) - 4x}{x(x-2)} = \\frac{x^2 - 2x - 3x + 6 - 4x}{x(x-2)} = \\frac{x^2 - 9x + 6}{x(x-2)} \\le 0$. \\n**Re-evaluating based on typical inequality problems and options:** The given options suggest simpler roots for the numerator. Let's assume the question meant $1 - \\frac{3}{x} \\le \\frac{4}{x-1}$. Let's solve the original problem with the provided options. The critical points from the denominator are $x=0$ and $x=2$. The roots of the numerator ($x^2-9x+6=0$) are $x = \\frac{9 \\pm \\sqrt{81 - 24}}{2} = \\frac{9 \\pm \\sqrt{57}}{2} \\approx 0.72$ and $8.28$, which do not align well with the integer/simple endpoints in the options. \\n**Let's assume the original question was $1 - \\frac{3}{x} \\le \\frac{4}{x+2}$ (a common type):** $\\frac{(x)(x+2) - 3(x+2) - 4x}{x(x+2)} \\le 0 \\implies \\frac{x^2 + 2x - 3x - 6 - 4x}{x(x+2)} \\le 0 \\implies \\frac{x^2 - 5x - 6}{x(x+2)} \\le 0 \\implies \\frac{(x-6)(x+1)}{x(x+2)} \\le 0$. Critical points: $-2, -1, 0, 6$. Testing intervals gives: $(-\\infty, -2)\\cup[-1, 0)\\cup[6, \\infty)$, which still doesn't match the options. \\n**Let's assume the intended answer is D and work backwards for the simplest case:** The set $[-1, 0)\\cup(1, 4]$ is a possible solution set for $\\frac{(x+1)(x-4)}{x(x-1)} \\le 0$. This would mean the original inequality was $\\frac{x^2-3x-4}{x^2-x} \\le 0$. Without the correct question, we select the option that most likely corresponds to a solvable quadratic rational inequality where the roots are simple integers. **Assuming Option D is the intended answer:** $[-1, 0)\\cup(1, 4]$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_2",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a factor of P(x) = x³ + x² - 10x + 8?",
+      "options": [
+        "(x + 1)",
+        "(x - 2)",
+        "(x + 4)",
+        "(x - 4)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "According to the Factor Theorem, if (x - c) is a factor, P(c) = 0.\n Check x = 2: P(2) = 2³ + 2² - 10(2) + 8 = 8 + 4 - 20 + 8 = 0.\n Thus, (x - 2) is a factor.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_3",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "If the volume of a right circular cone is 100π cm³ and its height is 12 cm, what is its radius?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Use V = (1/3)πr²h. Substituting: 100π = (1/3)πr²(12) = 4πr². Divide by 4π to get r² = 25, so r = 5 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_4",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "If x⁴ - 8x² + 16 = 0, the distinct real roots are:",
+      "options": [
+        "{-4, 4}",
+        "{-2, 2}",
+        "{-4, -2, 2, 4}",
+        "{2, 4}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let u = x². \nThe equation is u² - 8u + 16 = 0, or (u - 4)² = 0.\n So, u = 4 (multiplicity 2). x² = 4, which gives x = -2 and 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_5",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "For a quadratic function f(x) = ax² + bx + c, the graph has exactly one real zero if:",
+      "options": [
+        "b² - 4ac > 0",
+        "b² - 4ac < 0",
+        "b² - 4ac = 0",
+        "> 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "One real zero (a repeated root) occurs when the discriminant is zero: b² - 4ac = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_6",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "The leading term of a polynomial is 3x⁸. What is the approximate value of P(x) when x is a very large positive number?",
+      "options": [
+        "Close to 0",
+        "very large positive number",
+        "very large negative number",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since the leading term has an even degree (8) and a positive coefficient (3), as x → ∞, P(x) → ∞ (a very large positive number).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_7",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Which function is an even function?",
+      "options": [
+        "f(x) = x³",
+        "f(x) = x⁴ - 2x² + 1",
+        "f(x) = x + 1",
+        "f(x) = 2x³ + x"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A function is even if f(-x) = f(x).\n For f(x) = x⁴ - 2x² + 1, \nf(-x) = (-x)⁴ - 2(-x)² + 1 =\n x⁴ - 2x² + 1 = f(x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_8",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "If log (x + 3) = log (5) - log (x - 1), then x equals:",
+      "options": [
+        "2",
+        "3",
+        "-2",
+        "5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_9",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Using the Remainder Theorem, what must the remainder be when P(x) = x³ - a³ is divided by (x - a)?",
+      "options": [
+        "2a³",
+        "0",
+        "-2a³",
+        "a³"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = P(a) = a³ - a³ = 0.\n\n This confirms (x - a) is a factor of (x³ - a³).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_10",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = x + 1 and g(x) = 3x, find the value of (f ⋅ g)(1).",
+      "options": [
+        "-6",
+        "6",
+        "12",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f(1) = 1 + 1 = 2. g(1) = 3(1) = 3. So, (f ⋅ g)(1) = 2 ⋅ 3 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_11",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "If log₂ (x + 1) - log₂ (x) = 1, then x equals:",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Use the Quotient Law: log₂ ((x + 1)/x) = 1.\n Convert to exponential form: (x + 1)/x = 2¹. \nMultiply by x: x + 1 = 2x. Subtract x: 1 = x.\n (Check: x = 1 > 0, so logs are defined).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_12",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a key characteristic of an onto (surjective) function from R to R?",
+      "options": [
+        "It must be strictly increasing.",
+        "It passes the horizontal line test.",
+        "Its graph must pass through the origin.",
+        "Its range must be R."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A function f: R → R is onto if its range covers the entire codomain R.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_13",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "The horizontal asymptote of f(x) = eˣ - 1 is:",
+      "options": [
+        "y = -1",
+        "x = 0",
+        "y = 0",
+        "x = -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The basic function eˣ has an asymptote at y = 0.\n\n The vertical shift of '- 1' moves the asymptote to y = -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_14",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "The smallest number of real roots a polynomial of degree 4 must have is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Even degree polynomials do not need to cross the x-axis.\n For example, P(x) = x⁴ + 1 has no real roots.\n The minimum number is 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_15",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "For a quadratic function f(x) = ax² + bx + c, the graph is a parabola that opens downward if:",
+      "options": [
+        "> 0",
+        "< 0",
+        "< 0",
+        "b² - 4ac > 0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The direction a parabola opens is determined by the sign of the leading coefficient, a.\n If a < 0, the parabola opens downward.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_16",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 5x + 3 and g(x) = 2, find the value of (f + g)(-1).",
+      "options": [
+        "0",
+        "-2",
+        "10",
+        "-5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-1) = 5(-1) + 3 = -2. \ng(-1) = 2.\n (f + g)(-1) =\n -2 + 2 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_17",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "If a is a positive real number and a ≠ 1, then logₐ a is equal to:",
+      "options": [
+        "a",
+        "1",
+        "0",
+        "a²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By the definition of a logarithm, logₐ a = 1, because a¹ = a.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_18",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "What is the solution to the equation log₅ (x) = log₅ (15) - log₅ (3)?",
+      "options": [
+        "12",
+        "5",
+        "3",
+        "1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Use the Quotient Law: log₅ (15) - log₅ (3) = \nlog₅ (15/3) = log₅ 5.\n So, log₅ x = log₅ 5.\n Equating the arguments: x = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_19",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Given f(x) = x² and g(x) = x + 5. Find the expression for (f - g)(x).",
+      "options": [
+        "x² - x - 5",
+        "x² + x + 5",
+        "x² - x + 5",
+        "x² + x - 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(f - g)(x) = f(x) - g(x) =\n x² - (x + 5) = \nx² - x - 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_20",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 7x + 3 and g(x) = 7x - 3, find the expression for (f - g)(x).",
+      "options": [
+        "14x",
+        "6",
+        "-6",
+        "49x² - 9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(f - g)(x) =\n (7x + 3) - (7x - 3) \n= 7x + 3 - 7x + 3 \n= 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_21",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of f(x) = 1 / (x - 2) + √(x + 3)?",
+      "options": [
+        "[-3, ∞)",
+        "[-3, 2) ∪ (2, ∞)",
+        "R \\ {2}",
+        "(-3, 2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Domain of 1 / (x - 2) is R \\ {2}.\n Domain of √(x + 3) is x ≥ -3.\n The intersection is [-3, 2) ∪ (2, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_22",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the smallest number of faces a prism can have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The smallest base polygon is a triangle (3 sides).\n\n A triangular prism has 2 bases and 3 lateral faces, totaling 5 faces.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_23",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "From a point 10 meters away from a wall, a boy observes a bird on the top of the wall with an angle of elevation of 30°. How high is the wall?",
+      "options": [
+        "10√3 meters",
+        "10 meters",
+        "10/√3 meters",
+        "5 meters"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "tan(30°) = h/10.\n h = 10 * tan(30°) = \n10 * (1/√3) = \n10/√3 meters.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_24",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "The base of a right pyramid is a square with an area of 100 m². If the volume of the pyramid is 400 m³, what is its height?",
+      "options": [
+        "12 m",
+        "8 m",
+        "6 m",
+        "4 m"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The volume (V) of a pyramid is V = (1/3)Bh. \nGiven V = 400 m³ and B = 100 m².\n 400 = (1/3)(100)h. 1200 = 100h. h = 12 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_25",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "What is the total surface area of a cuboid with length 5 cm, width 4 cm, and height 3 cm?",
+      "options": [
+        "60 cm²",
+        "74 cm²",
+        "94 cm²",
+        "118 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "TSA = 2(lw + lh + wh) = 2(20 + 15 + 12) = 2(47) = 94 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_26",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = x - 2, and the domain is {0, 1, 2, 3}, what is the range?",
+      "options": [
+        "{-2, -1, 0, 1}",
+        "{-2, -1, 0, 3}",
+        "{-2, -1, 1, 2}",
+        "{-2, 0, 1, 3}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(0) = -2, f(1) = -1, f(2) = 0, f(3) = 1.\n The range is {-2, -1, 0, 1}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_27",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = x² + 1 and g(x) = 3, find the expression for (f ⋅ g)(x).",
+      "options": [
+        "3x² + 3",
+        "3x² + 1",
+        "x² + 4",
+        "x² + 3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(f ⋅ g)(x) =\n (x² + 1) ⋅ 3 =\n 3x² + 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_28",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Simplify log₂ 16 + log₂ 4.",
+      "options": [
+        "6",
+        "log₂ 20",
+        "8",
+        "log₄ 64"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Method 1: Use the Product Law: log₂ 16 + log₂ 4 =\n log₂ (16 × 4) = log₂ 64.\n Since 2⁶ = 64, log₂ 64 = 6. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_29",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "According to the Remainder Theorem, when the polynomial P(x) is divided by (x - c), the remainder is:",
+      "options": [
+        "P(c)",
+        "P(-c)",
+        "0",
+        "x - c"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The Remainder Theorem states that when a polynomial P(x) is divided by the linear factor (x - c), the remainder is equal to P(c).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_30",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which set of ordered pairs represents a function?",
+      "options": [
+        "{(1, 2), (2, 3), (1, 4)}",
+        "{(2, 1), (3, 2), (4, 3)}",
+        "{(5, 6), (5, 7), (6, 8)}",
+        "{(x, y) | x = 5}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The set {(2, 1), (3, 2), (4, 3)} is a function because each input (x-value) is associated with exactly one output (y-value).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_31",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is correct about trigonometric values of angles?",
+      "options": [
+        "cos(157°) = cos(23°)",
+        "cos(157°) = sin(23°)",
+        "sin(157°) = sin(23°)",
+        "tan(157°) = tan(23°)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since 157° = 180° - 23°, we use the identity sin(180° - θ) = sin(θ).\n\n Therefore, sin(157°) = sin(23°).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_32",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "If sin(θ) = -3/5 and theta is a 4th quadrant angle, then what is the value of sec(θ)?",
+      "options": [
+        "-5/4",
+        "5/3",
+        "5/4",
+        "-5/3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In the 4th quadrant, sin is negative and cos is positive.\n\n sin(θ) = -3/5 implies opposite = -3, hypotenuse = 5, so adjacent = 4.\n\n Thus cos(θ) = 4/5 and sec(θ) = 1/cos(θ) = 5/4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_33",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "The function f(x) = 5ˣ + 1 has a y-intercept at:",
+      "options": [
+        "(0, 5)",
+        "(0, 6)",
+        "(1, 0)",
+        "(0, 1)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The y-intercept is f(0). \nf(0) = 5⁰ + 1 = 1 + 1 = 2. \nThe intercept is (0, 2).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_34",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "If ABCD is a parallelogram with P the midpoint of AB and Q the midpoint of CD, which statement is NOT necessarily true?",
+      "options": [
+        "APCQ is a rhombus",
+        "APCD is a trapezium",
+        "AQ = PC",
+        "ΔADQ ≡ ΔCBP"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Connecting midpoints does not in general form a rhombus.\n\n The segment between midpoints is parallel and half the opposite side but does not guarantee equal side lengths.\n\n The other statements follow from midpoint and parallelogram properties.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_35",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "The product of the roots of the cubic polynomial P(x) = 4x³ + x - 5 is:",
+      "options": [
+        "5 / 4",
+        "-5 / 4",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product of roots = -d/a. \nP(x) = 4x³ + 0x² + x - 5. \na = 4, d = -5. \nProduct = -(-5) / 4 = \n5 / 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_36",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Given that log 4.8 = 0.6812, log 6.93 = 0.8406 and log 6.84 = 0.8351. Then what is the value of √48 ?",
+      "options": [
+        "6.71",
+        "6.93",
+        "6.84",
+        "6.83"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step 1: Express 48 as 48 = 4.8 × 10.\n\nStep 2: Take logarithm: log48 = log4.8 + log10 = 0.6812 + 1 = 1.6812.\n\nStep 3: Use √48 = 48^(1/2): log(√48) = 1/2 * log48 = 1/2 * 1.6812 = 0.8406.\n\nStep 4: Compare with the given log values: log6.93 = 0.8406 → √48 = 6.93",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_37",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the inequality (2x - 3)(x + 5) ≤ 0 is",
+      "options": [
+        "[-5, 3/2]",
+        "(-∞ , -3/2] ∪ [5, ∞)",
+        "(-5, 3/2)",
+        "(-∞, -5) ∪ [3/2, ∞)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": " (2x - 3)(x + 5) ≤ 0\nFind zeros: x = -5, x = 3/2\nCheck intervals: (-∞, -5), [-5, 3/2], (3/2, ∞)\nProduct ≤ 0 between roots\nSolution = [-5, 3/2]",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_38",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "If x³ - 6x² + 11x - 6 = (x - 1)(x - 2)(x - k), what is the value of k?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The product of the roots is -d/a = -(-6)/1 = 6.\n The roots are 1, 2, and k.\n So, 1 * 2 * k = 6.\n 2k = 6, \nk = 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_39",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of f(x) = 1 / √(x - 3)?",
+      "options": [
+        "[3, ∞)",
+        "(-∞, 3)",
+        "(3, ∞)",
+        "R \\ {3}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For the function to be defined, the term under the square root must be strictly positive: x - 3 > 0. \nThus, x > 3. The domain is (3, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_40",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "The graph of an even degree polynomial with a positive leading coefficient must have a minimum value that is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Absolute (or global)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An even degree polynomial with a positive leading coefficient opens upwards, meaning both ends go to infinity.\n It must therefore have an absolute minimum value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_41",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": " Let θ be an angle in standard position and (x, y) be a point on the terminal side of θ, which is different from the origin. Let r be the distance from (x, y) to the origin. Then which of the following defines cosθ?",
+      "options": [
+        "y/r",
+        "r/x",
+        "x/r",
+        "r/y"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For an angle θ in standard position, the trigonometric ratios are defined using a point (x, y) on its terminal side.\n\n The distance from the origin to the point is r = √(x² + y²).\n\n By definition, cosθ is the ratio of the adjacent side to the hypotenuse. \n\nHere, the adjacent side is x and the hypotenuse is r.\n\n Therefore, cosθ = x/r",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_42",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "The graph of y = |x - 2| is the graph of y = |x| shifted:",
+      "options": [
+        "2 units down",
+        "2 units up",
+        "2 units left",
+        "2 units right"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A transformation of the form f(x - c) shifts the graph horizontally to the right by c units.\n Here, c = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_43",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Which is the correct graph transformation of y = f(x) to y = f(x) + 2?",
+      "options": [
+        "Shift 2 units up",
+        "Shift 2 units down",
+        "Shift 2 units right",
+        "Shift 2 units left"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The transformation y = f(x) + c shifts the graph vertically by c units.\n Adding 2 shifts the graph 2 units up.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_44",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "The polynomial P(x) = x³ - 8 has a real root at x = 2. The other two roots are:",
+      "options": [
+        "Real and distinct",
+        "Real and repeated",
+        "Non-real and complex conjugates",
+        "Real and negative"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The factorization is (x - 2)(x² + 2x + 4).\n\n The quadratic factor has a negative discriminant (-12), yielding two non-real complex conjugate roots.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_45",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is the solution of the equation (243)^{2x-3} = (81)^{-3x+2} in the set of real numbers?",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "243 = 3^5 and 81 = 3⁴.\n\n So 5(2x-3) = 4(-3x+2).\n\n Solving gives x = -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_46",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "When the polynomial P(x) = 3x⁶+ 5x⁴ - 7x³ + 2kx² + 3 is divided by x + 1 the remainder is 4. What is the value of k?",
+      "options": [
+        "6",
+        "3",
+        "-7",
+        "-5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "By the Remainder Theorem, when a polynomial is divided by (x + 1), the remainder is P(-1).\n\n Substituting x = -1 into P(x) gives\n\n P(-1) = 3(-1)⁶ + 5(-1)⁴ − 7(-1)³ + 2k(-1)² + 3 =\n\n 3 + 5 + 7 + 2k + 3 = \n18 + 2k.\n\n Since the remainder is 4, we set 18 + 2k = 4.\n\n Solving this equation gives 2k = -14,\n so k = -7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_47",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "What is the equation of a line that passes through (-2, 5) and has a slope 1/2?",
+      "options": [
+        "y = 2x + 12",
+        "2y + x = 5",
+        "y = x/2 + 5",
+        "2y - x - 12 = 0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use the point-slope form y - y1 = m(x - x1), where m = 1/2 and (x1, y1) = (-2, 5).\ny - 5 = 1/2 (x - (-2))\ny - 5 = 1/2*(x + 2)\nMultiply the entire equation by 2 to clear the fraction:\n2(y - 5) = 1(x + 2)\n2y - 10 = x + 2\n2y - x - 12 ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_48",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "The expression sec²x - tan²x is equal to:",
+      "options": [
+        "0",
+        "csc²x",
+        "cot²x",
+        "1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This is a rearrangement of the identity 1 + tan²x = sec²x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_49",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "If sec(B) = √2, what is the exact value of tan(B)? (B is in Quadrant I)",
+      "options": [
+        "1/√2",
+        "1",
+        "√2",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "sec(B) = 1/cos(B) = √2/1.\n cos(B)=1/√2. \nThis is a 45° angle. tan(45°) = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_50",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x that satisfies ",
+      "imageUrl": "images/M2015_36.png",
+      "diagramUrl": "images/M2015_36.png",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_51",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "If log x + 2 = 5, then x equals:",
+      "options": [
+        "1000",
+        "100",
+        "3",
+        "e³"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Isolate the log term: log x = 5 - 2 = 3 (base 10 is implied).\n Convert to exponential form: x = 10³.\n Thus, x = 1000.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_52",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "If P(x) = x² + 5x - 6, find the value of (P(3) - P(1)).",
+      "options": [
+        "18",
+        "10",
+        "28",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "P(3) = 3² + 5(3) - 6 = 9 + 15 - 6 = 18.\n P(1) = 1² + 5(1) - 6 = 1 + 5 - 6 = 0.\n P(3) - P(1) = 18 - 0 =\n 18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_53",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If a square pyramid has a base side of 6 cm long and its lateral faces are equilateral triangles, then what is its volume (in cm³)?",
+      "options": [
+        "3√2",
+        "48",
+        "36√2",
+        "72"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Base side = 6.\n Distance from center to vertex = 3√2.\n Slant edge = 6,\n so height = √(6² − (3√2)²) = \n√(36 − 18) = √18 = 3√2.\n\n Volume = (1/3) × 36 × 3√2 =\n 36√2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_54",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "What is the remainder when P(x) = x¹⁰⁰ - 1 is divided by (x + 1)?",
+      "options": [
+        "-2",
+        "0",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = P(-1) =\n (-1)¹⁰⁰ - 1 =\n 1 - 1 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_55",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Convert π/3 radians to degree measure.",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(π/3) * (180°/π) = 60°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_56",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "What is the range of the function f(x) = 4 + x²?",
+      "options": [
+        "[4, ∞)",
+        "(-∞, 4]",
+        "[0, ∞)",
+        "R"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Since x² ≥ 0, the minimum value of f(x) occurs when x² = 0, which is f(0) = 4.\n\n The range is [4, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_57",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The expression (csc²θ - cot²θ) is equal to:",
+      "options": [
+        "sin²θ",
+        "1",
+        "sec²θ",
+        "tan²θ"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is a rearrangement of the Pythagorean Identity: 1 + cot²θ = csc²θ, \nso csc²θ - cot²θ = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_58",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "If the ratio of the radii of two similar cylinders is 2:3, what is the ratio of their volumes?",
+      "options": [
+        "4:9",
+        "2:3",
+        "8:27",
+        "1:3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Volume ratio = (2/3)³ = 8/27.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_59",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "If ln (x) = -2, then x equals:",
+      "options": [
+        "2/e",
+        "1/e²",
+        "e²",
+        "-2e"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Convert to exponential form (base e): x = e⁻².\n Use the Negative Exponent Rule: x = 1/e².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_60",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is equal to cot(1755°) ?",
+      "options": [
+        "1",
+        "-1",
+        "√3",
+        "-√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step 1: Reduce the angle to within 0° to 360°  : 1755 ÷ 360 = 4 remainder 315, so 1755° ≡ 315°.\n\nStep 2: Identify the quadrant: 315° is in the fourth quadrant (270° < 315° < 360°).\n\nStep 3: Find the reference angle: Reference angle = 360° - 315° = 45°.\n\nStep 4: Determine the sign of cotangent in Quadrant IV: cot(θ) = cos(θ)/sin(θ). In Quadrant IV, cos > 0 and sin < 0, so cotangent is positive.\n\nStep 5: Use the reference angle: cot(315°) = cot(45°) = 1.\n\nTherefore, cot(1755°) = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_61",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The total surface area of a regular tetrahedron with edge length 'a' is given by the formula:",
+      "options": [
+        "a³",
+        "4a²",
+        "√3 a²",
+        "a²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A tetrahedron has 4 equilateral faces. \nArea of one face = (√3/4)a². \n\nTotal Surface Area = 4 * (√3/4)a² = √3 a².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_62",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "The graph of y = -f(x) is the graph of y = f(x) reflected across the:",
+      "options": [
+        "y-axis",
+        "x-axis",
+        "origin",
+        "line y = x"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiplying the entire function by -1, i.e., y = -f(x), results in a reflection of the graph across the x-axis.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_63",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A right cone of height 6 cm is cut by a plane parallel to its base. The radius of the small cone at the top is 2 cm, and the radius of the large cone is 6 cm. What is the height of the small cone?",
+      "options": [
+        "3 cm",
+        "2 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By similarity, r/R = h/H. 2/6 = h/6. h = (2/6) * 6 = 2 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_64",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "If csc(θ) = 5/3, what is the exact value of sin(θ)?",
+      "options": [
+        "5/3",
+        "4/5",
+        "3/4",
+        "3/5"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "sin(θ) is the reciprocal of csc(θ).\n 1 / (5/3) = 3/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_65",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "20) A closed right circular cone has a base radius $2$ cm and slant height $3\\sqrt{2}$ cm. What is the total surface area of the cone?",
+      "options": [
+        "$6\\pi\\sqrt{14} \\text{ cm}^2$",
+        "$2\\pi\\sqrt{14} \\text{ cm}^2$",
+        "$2\\pi(2+3\\sqrt{2}) \\text{ cm}^2$",
+        "$2\\pi(2+3\\sqrt{2})/\\text{cm}^2$"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The total surface area ($TSA$) of a closed right circular cone is the sum of the base area ($B$) and the lateral surface area ($LSA$): $TSA = B + LSA$. The base is a circle with radius $r = 2$ cm. The slant height is $l = 3\\sqrt{2}$ cm.\\nBase Area $B = \\pi r^2 = \\pi (2^2) = 4\\pi \\text{ cm}^2$.\\nLateral Surface Area $LSA = \\pi r l = \\pi (2) (3\\sqrt{2}) = 6\\pi\\sqrt{2} \\text{ cm}^2$.\\n$TSA = 4\\pi + 6\\pi\\sqrt{2} = 2\\pi(2 + 3\\sqrt{2}) \\text{ cm}^2$. (Option C is correct.)",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_66",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If P(x) has a zero at x = 5 with multiplicity 3, which of the following is true?",
+      "options": [
+        "(x + 5)³ is a factor of P(x).",
+        "P(5) is the remainder when divided by (x + 5).",
+        "(x - 5)³ is a factor of P(x).",
+        "The graph touches the x-axis at x = 5."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A zero at x = 5 means (x - 5) is a factor.\n\n Multiplicity 3 means the factor is raised to the power of 3: (x - 5)³ is a factor.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_67",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "A right circular cone is inscribed in a sphere of radius 10 cm, such that its vertex is at the surface of the sphere and its base is a great circle of the sphere. Find the volume of the cone.",
+      "options": [
+        "1000π/3 cm³",
+        "2000π/3 cm³",
+        "3000π/3 cm³",
+        "4000π/3 cm³"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The base radius and height are both equal to the sphere radius (10 cm). So V = (1/3)πr²h = (1/3)π(10²)(10) = 1000π/3 cm³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_68",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "The polynomial P(x) = x² + 2x + 1 can be rewritten as:",
+      "options": [
+        "(x + 1)(x - 1)",
+        "(x + 1)²",
+        "(x² + 1)(x + 1)",
+        "(x² - 1)(x - 1)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is a perfect square trinomial: x² + 2x + 1 = \n(x + 1)(x + 1) = (x + 1)².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_69",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": " A point (5, 2) is on a circle, where the center of the circle is (1, -1). Then what is the standard form of equation of the circle?",
+      "options": [
+        "(x - 1)² + (y + 1)² = 25",
+        "(x - 5)² + (y - 2)² = 25",
+        "(x - 2)² + (y - 5)² = 37",
+        "(x + 1)² + (y - 1)² = 25"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The standard form of a circle is (x - h)² + (y - k)² = r²,\n where (h, k) is the center.\n\n The center is (1, -1), so (x - 1)² + (y + 1)² = r². \n\nUsing the point (5, 2),\n r² = (5 - 1)² + (2 - (-1))² = \n\n4² + 3² = 16 + 9 = 25.\n\n Therefore, the equation of the circle is (x - 1)² + (y + 1)² = 25. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_70",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equivalent to 1/(a⁻³)?",
+      "options": [
+        "1/a³",
+        "a³",
+        "-a³",
+        "a⁻³"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the negative exponent rule twice: 1/(a⁻³) =\n 1/(1/a³) =\n a³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_71",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Convert the angle -45° to radian measure. Express your answer using π.",
+      "options": [
+        "-π/4",
+        "π/4",
+        "-π/2",
+        "3π/4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "-45° * (π/180°) =\n -π/4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_72",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "A ramp is 8 meters long and makes an angle of 30° with the ground. How high is the ramp at its highest point?",
+      "options": [
+        "8√3 meters",
+        "4 meters",
+        "8/√3 meters",
+        "4√3 meters"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "sin(30°) = Opposite/Hypotenuse = h/8.\n h = 8 * sin(30°) =\n 8 * (1/2) =\n 4 meters.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_73",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 9x + 2 and g(x) = 5x - 7, find the expression for (f - g)(x).",
+      "options": [
+        "4x - 5",
+        "4x + 9",
+        "14x - 5",
+        "14x + 9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(f - g)(x) =\n (9x + 2) - (5x - 7) =\n 9x + 2 - 5x + 7 = \n4x + 9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_74",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "In a circle, two inscribed angles, ∠ABC and ∠ADC, subtend the same arc AC. If m(∠ABC) = 7x + 5° and m(∠ADC) = 5x + 15°, find x.",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Inscribed angles subtended by the same arc are equal . 7x + 5 = 5x + 15. 2x = 10. x = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_75",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A bicycle tire has a diameter of 60 cm. How far does it travel when it rotates 5π/6 radians?",
+      "options": [
+        "25π cm",
+        "30π cm",
+        "50π cm",
+        "15π cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Radius r = 30 cm. \nL = rθ = \n30 * (5π/6) = \n25π cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_76",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If log (x) = 2, then log (x/10) is:",
+      "options": [
+        "1",
+        "20",
+        "1/5",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Use the Quotient Law: log (x/10) = log x - log 10.\n Since log x = 2 and log 10 = 1, the value is 2 - 1 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_77",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The sum of the roots of the cubic polynomial P(x) = 2x³ - 4x² + 5x - 1 is:",
+      "options": [
+        "-2",
+        "2",
+        "5 / 2",
+        "-5 / 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a cubic polynomial ax³ + bx² + cx + d, the sum of the roots is -b/a.\n Here, a = 2, b = -4.\n Sum = -(-4) / 2 = \n4 / 2 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_78",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "What is the range of the function f(x) = 5x - 3 for the domain [-1, 2]?",
+      "options": [
+        "[-8, 7]",
+        "[-5, 7]",
+        "[-1, 2]",
+        "R"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-1) = 5(-1) - 3 = -8.\n f(2) = 5(2) - 3 = 7.\n The range is [-8, 7].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_79",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions is neither even nor odd?",
+      "options": [
+        "f(x) = x² + 4",
+        "f(x) = x³ - x",
+        "f(x) = x³ + x²",
+        "f(x) = 5x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f(-x) = (-x)³ + (-x)² = -x³ + x².\n Since f(-x) ≠ f(x) and f(-x) ≠ -f(x), the function is neither.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_80",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": " What is the perimeter of a regular hexagon of radius 6cm?",
+      "options": [
+        "36 cm",
+        "36√3 cm",
+        "18√3 cm",
+        "18 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Formula: P = 2nR sin(180°/n).\n For hexagon, n = 6 and R = 6.\n So P = 2×6×6×sin(30°) =\n 72×1/2 =\n 36 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_81",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The range of the function f(x) = 2x - 5 for the domain [0, 3] is:",
+      "options": [
+        "[0, 3]",
+        "[-5, 1]",
+        "[-5, 0]",
+        "[1, 5]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f(x) is linear, so the range is determined by the endpoints.\n f(0) = 2(0) - 5 = -5. \nf(3) = 2(3) - 5 = 1.\n The range is [-5, 1].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_82",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "What is the range of the function f(x) = 2 - x²?",
+      "options": [
+        "[2, ∞)",
+        "(-∞, 2]",
+        "R",
+        "[0, ∞)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since -x² ≤ 0, f(x) = 2 - x² ≤ 2.\n The maximum value is 2.\n The range is (-∞, 2].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_83",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "What is the slant height of a right cone whose height is 24 cm and lateral surface area is 260π cm²?",
+      "options": [
+        "10 cm",
+        "13 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "LSA = πrl ⇒ rl = 260. Try l = 26 ⇒ r = 10. Check: 10² + 24² = 100 + 576 = 676 = 26², so l = 26 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_84",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the equation given by log(x² - 3) = 2log(x - 1) is:",
+      "options": [
+        "{2}",
+        "{1/2}",
+        "∅",
+        "{4}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "log(x²−3)=2log(x−1) \n\n x²−3=(x−1)² ⇒ x=2,\n\n but domain: x>1 and x²−3>0 ⇒ x>√3.\n\n Though x=2 satisfies both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_85",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following intervals is the solution set of the inequality |3 - 1x/2| < 5 ?",
+      "options": [
+        "(-8, 2)",
+        "(-2, 8)",
+        "(-16, 4)",
+        "(-4, 16)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Start with |3 - x/2| < 5, which gives -5 < 3 - x/2 < 5.\n Subtract 3: -8 < -x/2 < 2.\n Multiply by -2 (reverse inequality): 16 > x > -4, or -4 < x < 16. \n\nTherefore, the solution set is (-4, 16).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_86",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "If cos(θ) is negative and tan(θ) is positive, in which quadrant is θ?",
+      "options": [
+        "Quadrant I",
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "cos is negative in QII and QIII. \ntan is positive in QI and QIII.\n Both are true in Quadrant III.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_87",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "A right pyramid has a square base with side length 10 cm and a height of 12 cm. Find its slant height.",
+      "options": [
+        "12 cm",
+        "13 cm",
+        "√119 cm",
+        "10 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The slant height is found using the right triangle formed by half the base (5 cm) and the height (12 cm).\n\n Using Pythagoras: l² = 5² + 12² =\n 25 + 144 = 169, \nso l = 13 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_88",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "If log₄ (x) = 1/2, then x equals:",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Convert to exponential form: x = 4¹ᐟ².\n The expression 4¹ᐟ² is equal to √4, which is 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_89",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "If the diameter of a sphere is 6 cm, what is the ratio of its surface area to its volume?",
+      "options": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "2:1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Radius (r) = 3 cm. Surface Area (A) = 4πr² = 36π.\n Volume (V) = (4/3)πr³ = 36π.\n The ratio A:V is 36π:36π, which is 1:1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_90",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "If log₄ x = 3, then the value of x is:",
+      "options": [
+        "12",
+        "4/3",
+        "64",
+        "81"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The logarithmic equation logₐ x = y is equivalent to the exponential equation x = aʸ.\n\n Therefore, log₄ x = 3 is equivalent to x = 4³, and 4³ = 4 × 4 × 4 = 64.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_91",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 4x - 5 and the codomain is R, the function is:",
+      "options": [
+        "Onto (surjective)",
+        "Not onto",
+        "An odd function",
+        "An even function"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The range of the linear function f(x) = 4x - 5 is R. \nSince the range equals the codomain R, the function is onto.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_92",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The vertical asymptote of the function f(x) = log (x) + 2 is:",
+      "options": [
+        "y = 2",
+        "x = 2",
+        "x = 0",
+        "y = 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The basic function f(x) = log x has a vertical asymptote at x = 0 (the y-axis).\n Adding '+ 2' is a vertical shift, which does not change the vertical asymptote.\n The asymptote remains x = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_93",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "A ship is 500 meters away from the base of a lighthouse. The angle of elevation to the top is 45°. What is the height of the lighthouse?",
+      "options": [
+        "500 meters",
+        "500√2 meters",
+        "250 meters",
+        "500/√2 meters"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "tan(45°) = h/500.\n 1 = h/500.\n h = 500 meters.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_94",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Convert the angle 270° to radian measure. Express your answer using π.",
+      "options": [
+        "π",
+        "3π/4",
+        "3π/2",
+        "2π"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "270° * (π/180°) =\n 3π/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_95",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which trigonometric function is negative in Quadrant II?",
+      "options": [
+        "sin(θ)",
+        "tan(θ)",
+        "csc(θ)",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In QII, sin and csc are positive. cos, sec, tan, and cot are negative.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_96",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Two secants, PAB and PCD, intersect outside a circle at point P. If PA = 4, AB = 6, and PC = 5, what is the length of PD?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_97",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": " What is the total surface area (in cm²) of the cylinder whose radius is 2 cm and height is 7 cm?",
+      "options": [
+        "28π",
+        "36π",
+        "98π",
+        "49π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The total surface area of a cylinder is given by TSA = 2πr(r + h).\n\nHere, r = 2 cm and h = 7 cm.\n\nSo, TSA = 2π × 2 × (2 + 7) = 4π × 9 = 36π cm².\n\nTherefore, the correct answer is 36π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_98",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "If the terminal side of an angle θ passes through the point (0, -2), find the value of cot(θ).",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This point is on the negative y-axis (270°).\n cot(θ) = x/y = 0/-2 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_99",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "A regular tetrahedron with edge length 's' has a total surface area of:",
+      "options": [
+        "s²√3",
+        "s²√3/4",
+        "s²√3/2",
+        "2s²√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Each face area = (√3/4)s².\n\n Total = 4 × (√3/4)s² = s²√3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2017_socialg10u3_melmeja_100",
+      "examId": "m2017_socialg10u3_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 3x² - 2 and g(x) = x + 1, find the value of (f + g)(0).",
+      "options": [
+        "-1",
+        "1",
+        "-3",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(0) = 3(0)² - 2 = -2. \ng(0) = 0 + 1 = 1. \n(f + g)(0) = \n-2 + 1 = -1.",
       "topic": "Mathematics"
     }
   ]

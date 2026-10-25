@@ -1,0 +1,1625 @@
+{
+  "id": "exit_software_engineering_2015_regular_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Software Engineering (2015)",
+  "category": "EXIT",
+  "subCategory": "Software Engineering",
+  "department": "Software Engineering",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Software Engineering (2015). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Software Engineering",
+    "2015",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_1",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which parameter is used to assess and evaluate software architectures?",
+      "options": [
+        "Responsiveness of Architectures",
+        "Durability of Architectures",
+        "Architectural quality in attribute",
+        "Number of components in the Architecture"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Architectural quality attributes (like maintainability, performance, security) are the standard parameters used to evaluate software architectures, not just component count or responsiveness alone.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_2",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What we use to pass the data between activities in Android?",
+      "options": [
+        "Broadcast receiver",
+        "PostgreSQL Database",
+        "Intent",
+        "Content provider"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Intents are the Android mechanism for passing data between activities. Broadcast receivers handle system-wide events, content providers manage data sharing between apps, and databases are for persistent storage.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_3",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "What will be the output of the following code snippet?\n\n\n\nvar a =       \"exitexam\";\n\nvar result = \"a.substring(2,6)\";\n\ndocument.write(result);",
+      "options": [
+        "texam",
+        "xite",
+        "itex",
+        "xitex"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The substring(2,6) extracts characters from index 2 to 5 (6 exclusive) of \"exitexam\":\n'e','x','i','t','e','x','a','m'\nIndices 2-5: 'i','t','e','x' → \"itex\"\nNote: The code actually outputs the string literal \"a.substring(2,6)\" because of the extra quotes, but assuming that's a typo, the correct substring would be \"itex\".",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_4",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is wrong regarding to interface?",
+      "options": [
+        "Like a class, an interface is reference data type.",
+        "Interface abstract method are accessed using interface instances.",
+        "Interface includes abstract methods.",
+        "One class can implement multiple interfaces."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Interface methods are accessed through class instances that implement the interface, not through interface instances directly (as interfaces cannot be instantiated). All other statements are correct about interfaces.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_5",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "For the schema Hotel (Hotel_id:integer, Hotel_name: String, Sub_city: string) which SQL statement correctly inserts Tuples to Hotel relation. (Assume Hotel_id is primary key).",
+      "options": [
+        "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES ('Hilton','Yeka')",
+        "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,'Hilton','Yeka')",
+        "Insert INTO HOTEL (1,'Hilton','Yeka')",
+        "Insert Values INTO HOTEL(Hotel_id, Hotel_name, Sub_city)VALUES (1,'Hilton','Yeka')"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Option B is correct SQL syntax:\n1. Specifies column names and values in matching order\n2. Provides all required fields (including primary key)\n3. Correct data types (integer for Hotel_id)\nOthers fail due to:\nA - Missing Hotel_id value\nC - Missing column names\nD - Incorrect 'Insert Values' syntax",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_6",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "Which of the following shows the five stages in Tuckman's model of team development, in sequential order?",
+      "options": [
+        "forming, storming, performing, norming and adjourning",
+        "norming ,forming, storming, performing and adjourning",
+        "storming, forming, norming, performing and adjourning",
+        "forming, storming, norming, performing and adjourning"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The correct sequence is:\n1. Forming (team comes together)\n2. Storming (conflict emerges)\n3. Norming (establish roles/rules)\n4. Performing (productive work)\n5. Adjourning (team disbands)\nThis is a fundamental model in team management.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_7",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Which Statement is correct about the difference between functional and nonfunctional requirement?",
+      "options": [
+        "Unlike functional requirement, nonfunctional requirement is stable.",
+        "Both are the same most of the time and only vary under certain contexts.",
+        "Functional requirements are decided by the customer while nonfunctional requirements are decided by developers",
+        "Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Key differences:\nFunctional: WHAT the system does (features/services)\nNon-functional: HOW WELL the system performs (constraints/quality attributes)\nOther options are incorrect because:\nA - Both can change\nB - They're fundamentally different\nC - Both involve stakeholders",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_8",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "If the estimate the total discounted benefits for a project is birr 120,000 and total discounted cost is birr 100,000 what is the estimated return on investment (ROI) percentage?",
+      "options": [
+        "20%",
+        "12%",
+        "30%",
+        "10%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "ROI = ((Benefits - Costs)/Costs) × 100\n= ((120,000 - 100,000)/100,000) × 100\n= (20,000/100,000) × 100\n= 20%",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_9",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "A queue in which the item most recently added is always the first one out refers to:",
+      "options": [
+        "LIFO queue",
+        "FIFO queue",
+        "Real time queue",
+        "Priority queue"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "LIFO (Last-In-First-Out) describes stack behavior where the newest item is processed first. While the term 'LIFO queue' is sometimes used, this structure is more commonly called a stack. A traditional queue follows FIFO (First-In-First-Out) where the oldest item is processed first. Priority queues order by priority values, not insertion time.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_10",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "A firewall is used in a system connected to a wide area network to",
+      "options": [
+        "Fire spreading via network through cables",
+        "Avoid Spreading of fire in the network",
+        "Stop Unauthorized access by hackers",
+        "Scanning for viruses in various files"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Firewalls are network security devices that monitor and control incoming/outgoing traffic based on security rules, primarily to prevent unauthorized access. While some firewalls include virus scanning, their core purpose is access control.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_11",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "The permission --rwxr-r- represented in octal expression will be:",
+      "options": [
+        "766",
+        "700",
+        "744",
+        "755"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Permission breakdown:\n- rwx (owner) = 4+2+1 = 7\n- r-- (group) = 4+0+0 = 4\n- r-- (others) = 4+0+0 = 4\nCombined: 744\nThis represents read/write/execute for owner, read-only for group and others.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_12",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top?",
+      "options": [
+        "Segment, Packet, Frame, Bit",
+        "Segment, Frame, Packet, Bit",
+        "Bit, Frame, Packet, Segment",
+        "Bit, Packet, Frame, Segment"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "OSI layer PDU progression (Physical to Application):\n1. Physical: Bits\n2. Data Link: Frames\n3. Network: Packets\n4. Transport: Segments\nThis represents how data gets encapsulated moving up the stack.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_13",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true regarding triple DES?",
+      "options": [
+        "192-bit keys on 64-bit blocks of plain text.",
+        "Uses 128-bit blocks of plain text and 92-bit keys and apply DES algorithm thrice.",
+        "Work with 192-bit blocks of plain text and applies DES algorithm once.",
+        "Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "3DES:\n- Uses 64-bit blocks (same as DES)\n- Applies DES algorithm 3 times\n- Effective key length is 168 bits (3×56-bit keys)\n- More secure than DES but slower due to triple processing",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_14",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "An HTTP request message always contains_________?",
+      "options": [
+        "status line, a header, and a body",
+        "header only",
+        "header and a body",
+        "request line and a header"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "HTTP request components:\n1. Request line (method, URI, version)\n2. Headers (metadata)\n3. Optional body (for POST/PUT)\nThe only required parts are request line and headers. Status line appears in responses, not requests.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_15",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is refers to unauthorized disclosure of information?",
+      "options": [
+        "authorization",
+        "authentication",
+        "integrity",
+        "confidentiality"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "CIA triad components:\n- Confidentiality: Preventing unauthorized disclosure\n- Integrity: Preventing unauthorized modification\n- Authentication: Verifying identity\n- Authorization: Granting access rights",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_16",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Anything that can perceive its environment through sensory and act as upon environment through effectors",
+      "options": [
+        "Agent",
+        "Expert System",
+        "Intelligence",
+        "API"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This is the definition of an intelligent agent in AI:\n- Perceives environment via sensors\n- Acts via effectors\n- May have goals/intelligence\nExpert systems are a type of AI system, APIs are interfaces, and intelligence is a property.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_17",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Assume that there is a pet family from which Pets like Dog and Cat share behavior from every Pet family has a name. However, the pet families have some specific behaviors that are exhibited by only particular pets. For instance, only Dogs can fetch something while both cats and dogs can speak which of the following object oriented design principle would be suitable for this case?",
+      "options": [
+        "Information hiding",
+        "Encapsulation",
+        "Polymorphism",
+        "Inheritance"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Inheritance is correct because:\n- Base class (Pet) contains common attributes/behaviors\n- Derived classes (Dog, Cat) extend with specific behaviors\nPolymorphism handles method overriding, but the question describes a class hierarchy relationship.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_18",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is not addressing the banker's algorithm?",
+      "options": [
+        "The banker's algorithm considers each request before it occurs.",
+        "It is an extension of the deadlock detection algorithm.",
+        "It is a modeled on the way a small-town banker might deal with a group of customers to whom he/she has granted lines of credit",
+        "It is scheduling algorithm."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Banker's algorithm:\n- Deadlock avoidance (not detection)\n- Resource allocation (not scheduling)\n- Models credit allocation metaphor\n- Checks safety before granting requests",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_19",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "An informed search algorithm that provides exponential time complexity in the worst-case scenarios and guarantees optimality when searching a solution refers to:",
+      "options": [
+        "A* search",
+        "greedy best-first search",
+        "uniform cost search",
+        "Iterative deepening A*search"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A* search:\n- Uses heuristic + path cost (f(n)=g(n)+h(n))\n- Optimal if heuristic is admissible\n- Complete\n- Exponential time/space in worst case\nGreedy is not optimal, uniform cost has no heuristic, IDA* is memory-efficient variant.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_20",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Which principles state that 80% of the problem can be fixed with 20% of the entire effort?",
+      "options": [
+        "Pareto principle",
+        "Parametric principle",
+        "Pairwise principle",
+        "Partition principle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Pareto principle (80/20 rule) observes that:\n- 80% of effects come from 20% of causes\n- 80% of bugs from 20% of code\n- 80% of usage from 20% of features\nWidely applied in business and software engineering.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_21",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an appropriate sequence that depicts the model development process in data mining?",
+      "options": [
+        "Model training, Model Testing, Model Evaluation, Model Deployment",
+        "Model Evaluation, Model training, Model Testing, Model Deployment",
+        "Model training, Model Testing, Model Deployment, Model Evaluation",
+        "Model training, Model Evaluation, Model Testing, Model Deployment"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard data mining workflow:\n1. Train model on training data\n2. Test on unseen test data\n3. Evaluate performance metrics\n4. Deploy if satisfactory\nEvaluation must precede deployment to ensure quality.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_22",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Which method has the same name as that of its class?",
+      "options": [
+        "delete",
+        "class",
+        "constructor",
+        "finalize"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Constructors:\n- Special methods that initialize objects\n- Same name as class\n- No return type\n- Called when object is created\nOther options are regular methods/keywords.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_23",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Within OAuth, what component validates the user's identity?",
+      "options": [
+        "Authorization server",
+        "resource server",
+        "browser",
+        "client"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "OAuth components:\n- Authorization server: Authenticates user & issues tokens\n- Resource server: Hosts protected resources\n- Client: Requests access\n- Browser: User agent\nOnly the authorization server validates identity.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_24",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "The result of the following program after running will be\n\nClass PrintResult {\nPublic static void main (String arg []) {\nint arr{ }={3,4,5,6,7};\nfor(int i=0; i<=arr.length-2; ++i){\nsystem.out.println(arr[i]+\",\")\n}\n}}",
+      "options": [
+        "3,4",
+        "3,4,5",
+        "3,4,5,6,7",
+        "3,4,5,6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This code has several syntax errors that would prevent compilation:\n- 'Class' should be lowercase 'class'\n- 'Public' should be lowercase 'public'\n- 'system' should be capitalized as 'System'\n- Missing semicolon after println statement\n- Incorrect array initialization syntax\n\nIf we correct these errors, the analysis would be:\n- Array has 5 elements (indices 0-4)\n- Loop runs while i <= (5-2) = 3\n- Loop prints elements at indices 0,1,2,3 → 3,4,5,6\n- Element 7 at index 4 is excluded by the condition",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_25",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "While optimizing our relation, if we found that no multivalued attributes and partial dependencies exist in a relation then the relation is in what normal form?",
+      "options": [
+        "1NF",
+        "3NF",
+        "4NF",
+        "2NF"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Normal form progression:\n1NF: No repeating groups\n2NF: 1NF + no partial dependencies\n3NF: 2NF + no transitive dependencies\n4NF: 3NF + no multivalued dependencies\nSince no partial dependencies → at least 2NF\nNo transitive dependencies → 3NF",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_26",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "A Techniques for generating plans with conditionals and loops are almost identical to those for generating programs from logical specification is called:",
+      "options": [
+        "Automatic programming",
+        "Automatic monitoring",
+        "Automatic recursive",
+        "Automatic learning"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Automatic programming:\n- Generates executable code from high-level specs\n- Handles control structures like conditionals/loops\n- Used in AI planning and program synthesis\nDifferent from machine learning which derives patterns from data.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_27",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the correct identifier in c++?",
+      "options": [
+        "7variable",
+        "7VARIABLE",
+        "$$variable",
+        "variable_1234"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "C++ identifier rules:\n- Must start with letter or underscore\n- Can contain letters, digits, underscores\n- Case sensitive\n- No special symbols except _\nOnly 'variable_1234' meets all requirements.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_28",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about the abstract class?",
+      "options": [
+        "cannot be inherited",
+        "mechanism of encapsulation",
+        "cannot be instantiated",
+        "can contain both abstract and non-abstract methods"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Abstract classes:\n- Cannot be instantiated directly\n- Can be inherited (often are)\n- May contain abstract (unimplemented) and concrete methods\n- Different from interfaces which can't have implementations\n\nOption D is also correct, but the question asks for one answer. In most languages, the defining characteristic of abstract classes is that they cannot be instantiated directly.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_29",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "In software risk management, accepting risk happening but do not do anything is known as",
+      "options": [
+        "risk transfer",
+        "risk retention",
+        "risk avoidance",
+        "risk reduction"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Risk strategies:\n- Avoidance: Eliminate risk source\n- Transfer: Shift to third party (e.g., insurance)\n- Mitigation: Reduce probability/impact\n- Retention: Accept without action\nQuestion describes retention approach.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_30",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "When a process is in a \"Blocked\" state waiting for some input-output services and after the service is completed it will goes to a state known as:",
+      "options": [
+        "Suspended",
+        "Terminated",
+        "Running",
+        "Ready"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Process state transitions:\nBlocked → Ready when I/O completes\nReady → Running when scheduled\nRunning → Blocked when needs I/O\nRunning → Terminated when finishes\nSuspended is additional state when swapped out.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_31",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "\"The system architecture should be designed using fine-grain, self-contained components. Producers of data should be separated from consumers and shared data structures should be avoided.\" For which requirement this architecture description applies?",
+      "options": [
+        "Availability",
+        "maintainability",
+        "performance",
+        "security"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "These principles support maintainability:\n- Fine-grained components: Easier to modify\n- Separation of concerns: Changes localized\n- Avoid shared state: Reduces side effects\nAlso helps with testing and debugging.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_32",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which slogan is against agile method philosophy?",
+      "options": [
+        "Following a plan over responding to changes",
+        "Individuals and interactions over processes and tools",
+        "Customer collaboration over contract negotiation",
+        "working software over comprehensive documentation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Agile values (from Manifesto):\n- Responding to change over following a plan\n- Individuals/interactions over processes/tools\n- Customer collaboration over contract negotiation\n- Working software over comprehensive documentation\nOption A contradicts agile principles.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_33",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "APK stands for",
+      "options": [
+        "Android Package Kit",
+        "Android Platform Kit",
+        "Android Phone Kit",
+        "Android Page Kit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "APK = Android Package Kit:\n- File format for distributing Android apps\n- Contains compiled code, resources, manifest\n- Analogous to .exe in Windows\nInstalled via Google Play or sideloading.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_34",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Which statement describe the main goal of software testing as a part of the quality assurance process?",
+      "options": [
+        "to achieve project timelines and deadlines",
+        "to generate software requirement and design documentation",
+        "to guarantee that the software meets the specified requirement",
+        "to monitor the entire SDLC"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Primary testing objectives:\n- Verify requirements fulfillment\n- Identify defects\n- Assess quality attributes\nNot primarily about documentation or scheduling (though these may be secondary benefits).",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_35",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "The correct structure of the for loop statement is:",
+      "options": [
+        "for(initialization; condition)",
+        "for(increment/decrement; initialization; condition)",
+        "for(condition, initialization, increment/decrement)",
+        "for(initialization; condition; increment/decrement)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Standard for loop syntax in C-style languages:\nfor(init; condition; increment) { ... }\n- Initialization: Executes once at start\n- Condition: Checked before each iteration\n- Increment: Executes after each iteration\nOther formats are invalid.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_36",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not true regarding algorithm development during problem solving?",
+      "options": [
+        "should be developed by considering the platforms on which it runs",
+        "Is step wise logical description of how to solve the problem",
+        "Is developing considering the details of the programming language",
+        "Is equivalent to the programming language code"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Key algorithm characteristics:\n- Language-independent logical steps\n- Abstract solution (not code)\n- May consider platform constraints\n- Precursor to implementation\nAlgorithms exist independently of their code implementations.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_37",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "What would be the most likely consequence if every software stakeholders were rushing to be approved for their requirement without discussing with other stakeholders?",
+      "options": [
+        "Attains the project schedule",
+        "Results in excess requirements",
+        "leads to conflict requirement",
+        "Requirement become unambiguous"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Uncoordinated requirements lead to:\n- Conflicts between stakeholder needs\n- Inconsistent system behavior\n- Integration challenges\n- Scope creep\nRequirements engineering requires negotiation and prioritization.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_38",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true regarding model development in machine learning?",
+      "options": [
+        "Much focus should be given to test data than training data",
+        "Training with large dataset boosts model performance",
+        "Test set and Training set should have fifty-fifty overlap",
+        "proportion of data set for training should be less than the test set"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "ML model best practices:\n- More training data generally improves performance\n- Test/train sets should be distinct (no overlap)\n- Typical split: 70-80% training, 20-30% testing\n- Test data is for evaluation only (not focused on)",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_39",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "All layout classes are subclasses of which of the following?",
+      "options": [
+        "android.view.Relativelayout",
+        "android.view.Layout",
+        "android.view.ViewGroup",
+        "android.view.Widget"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Android UI hierarchy:\nView (basic UI element)\n↑\nViewGroup (container for views)\n↑\nLayouts (LinearLayout, RelativeLayout, etc.)\nAll layouts extend ViewGroup which handles child view arrangement.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_40",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "What will be the output for the following code if you enter 4 and 3 for b and e respectively\n\n#include\nUsing namespace std;\nint main(){\nint b, e, r=1, f;\ncout>b>>e;\nfor (int i=1; i<=e; i++){\nf=r*b;\n}\ncout<<f;\nreturn 0;\n}",
+      "options": [
+        "81",
+        "12",
+        "4",
+        "256"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Code analysis with b=4, e=3:\n- The loop iterates 3 times (i=1,2,3)\n- In each iteration: f = r*b = 1*4 = 4\n- r remains 1 throughout since it's never updated\n- f is repeatedly set to 4 (overwriting previous values)\n- After the loop exits, cout<<f; prints 4\n\nNote: This code has a bug. If calculating b^e was intended, the loop should have included 'r = f;' to update r with each iteration.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_41",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a valid host address within the network 172.17.128.0/21?",
+      "options": [
+        "172.17.128.1/21",
+        "172.17.135.255/21",
+        "172.17.128.255/21",
+        "172.17.135.0/21"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "/21 network details:\n- Network: 172.17.128.0\n- Mask: 255.255.248.0\n- Broadcast: 172.17.135.255\n- Host range: 172.17.128.1 - 172.17.135.254\n172.17.135.255 is broadcast address (invalid for hosts)",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_42",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the correct sequence that will be followed during software evolution process?",
+      "options": [
+        "change request, release planning, change implementation, impact analysis, system release",
+        "impact analysis, change request, change implementation, release planning, system release",
+        "change request, impact analysis, change implementation, release planning, system release",
+        "change request, impact analysis, release planning, change implementation, system release"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Software evolution workflow:\n1. Change request submitted\n2. Impact analysis assesses effects\n3. Release planning schedules change\n4. Implementation makes changes\n5. System release deploys changes\nMust analyze before planning implementation.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_43",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Identify the lowest layer of android architecture",
+      "options": [
+        "Linux kernel",
+        "Database",
+        "Application Framework",
+        "Application"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Android architecture layers (bottom-up):\n1. Linux kernel (hardware abstraction)\n2. Libraries + Android Runtime\n3. Application Framework\n4. Applications\nLinux kernel handles core system services like memory, drivers, security.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_44",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true regarding the use of switches and hubs for network connectivity in the network?",
+      "options": [
+        "Switches do not forward broadcasts",
+        "Switches increase the number of collision domains in the network",
+        "Switches take less time to process frames than hubs take",
+        "Hubs can filter frames"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Switch vs Hub:\n- Switches: Create separate collision domain per port, filter based on MAC, store-and-forward\n- Hubs: Single collision domain, broadcast all traffic, no filtering\nSwitches improve performance by isolating traffic.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_45",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Select the one that is not correct related to generalization in system modeling.",
+      "options": [
+        "In generalization, the attribute and operation associated with the highest-level classes are also associated with lowest level classes.",
+        "Common information will be maintained in one place",
+        "Facilitate easy modification of data",
+        "The higher level classes are more specific than the lower-level classes by adding specific attributes and operation"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Generalization hierarchy:\n- Higher levels are more general/abstract\n- Lower levels inherit and specialize\n- \"Is-a\" relationships\n- Promotes code reuse\nOption D reverses the generalization/specialization relationship.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_46",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "A of process management which is waiting for a resource that is owned by another process refers to:",
+      "options": [
+        "deadlock",
+        "preemption",
+        "overloading",
+        "queueing"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Deadlock conditions:\n1. Mutual exclusion\n2. Hold and wait\n3. No preemption\n4. Circular wait\nWhen processes wait for resources held by others in a cycle, deadlock occurs.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_47",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "\"Database is a logically coherent collection of data with some inherent meaning \" describes that",
+      "options": [
+        "All attributes of the entity should be related",
+        "there should be one primary key attribute",
+        "the entity should be physical object",
+        "number of attributes should be limited"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Database characteristics:\n- Logically related data\n- Represents some aspect of reality\n- Designed for specific purpose\n- Not just random data collection\nPrimary keys and physicality are implementation details.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_48",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a resource optimization techniques in which start and finish dates are adjusted based on resource constraints with the goal of balancing the demand resources with the available supply?",
+      "options": [
+        "Responsibility assignment matrix",
+        "Resource smoothing",
+        "Resource leveling",
+        "Resource grouping"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Resource optimization:\n- Leveling: Adjust schedule to avoid over-allocation (may change critical path)\n- Smoothing: Adjust within float to balance resources\nRAM shows who does what, grouping organizes resources.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_49",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "Business people always remodel their business by closely studying their customers purchasing habits over the course of their purchase history. Accordingly, a salesperson at Markato shop noticed that people who always buy shoes will also buy socks with probability of 0.75 and hence decided to put shoes and socks side by side for ease of accessibility. Which big data analytics technique could this salesperson could employ?",
+      "options": [
+        "Regression Modeling",
+        "Clustering algorithm",
+        "Predictive modeling",
+        "Association rule"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Association rule learning:\n- Discovers co-occurrence relationships\n- Example: Market basket analysis\n- Measures like support, confidence, lift\n- Used for product placement recommendations\nDifferent from clustering (grouping) or regression (numeric prediction).",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_50",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is among benefits provided with access control lists (ACLS) implementation for software security based application?",
+      "options": [
+        "ACLs monitor the number of bytes and packets",
+        "ACLs provide high network availability",
+        "Virus detection",
+        "ACLs classify and organize network traffic"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "ACL functions:\n- Permit/deny traffic based on rules\n- Filter by IP, port, protocol, etc.\n- Implement security policies\n- Traffic classification and organization\nACLs don't directly monitor throughput, provide high availability, or detect viruses - those require specialized tools.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_51",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Default method while Submitting a form is",
+      "options": [
+        "Post method",
+        "Get Method",
+        "Put Method",
+        "Set Method"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "HTML form methods:\n- GET: Default, appends data to URL\n- POST: Sends data in request body\n- PUT: Updates resources (REST)\nGET is default but often POST is preferred for security with sensitive data.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_52",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is described as:",
+      "options": [
+        "Project Initiating",
+        "Project Executing",
+        "Project Closing",
+        "Project Planning"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Project phases:\n- Initiating: Charter, stakeholders\n- Planning: Schedule, budget, WBS\n- Executing: Deliver work\n- Monitoring: Track progress\n- Closing: Finalize\nPlanning creates the project roadmap.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_53",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is among benefits provided with access control lists (ACLs) implementation for software security based application?",
+      "options": [
+        "ACLs monitor the number of bytes and packets",
+        "ACLs provide high network availability",
+        "Virus detection",
+        "ACLs classify and organize network traffic"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "ACLs primarily classify and filter network traffic based on defined rules.\nThey don't directly:\n- Monitor bytes/packets (network monitoring tools)\n- Provide high availability (redundancy protocols)\n- Detect viruses (antivirus software)",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_54",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Default method while submitting a form is",
+      "options": [
+        "Post method",
+        "Get Method",
+        "Put Method",
+        "Set Method"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "GET is the default form submission method:\n- Appends data to URL\n- Less secure for sensitive data\n- Limited data length\nPOST must be explicitly declared for:\n- Secure data transmission\n- Larger data volumes\n- File uploads",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_55",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is described as:",
+      "options": [
+        "Project Initiating",
+        "Project Executing",
+        "Project Closing",
+        "Project Planning"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Planning phase includes:\n- WBS decomposition\n- Schedule development (Gantt/PERT)\n- Cost estimation techniques\n- Resource allocation\nInitiating: Charter creation\nExecuting: Deliverable production\nClosing: Formal project termination",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_56",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Given the following fragment of code, how many tests are required for 100% decision coverage?\n\n\n\nif width > length\n\nthen biggest_dimension = width\n\nif height > width\n\nthen biggest_dimension = height\n\nend_if\n\nelse biggest_dimension = length\n\nif height > length\n\nthen biggest_dimension = height\n\nend_if\n\nend_if",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Decision coverage requires testing all possible outcomes:\n1. width > length AND height > width\n2. width > length AND height ≤ width\n3. width ≤ length AND height > length\n4. width ≤ length AND height ≤ length\nEach condition must evaluate to both true and false.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_57",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "How can we select an element with a specific class in CSS?",
+      "options": [
+        "^",
+        "--",
+        "#",
+        "."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "CSS selectors:\n- '.' selects by class (e.g., .menu)\n- '#' selects by ID\n- '^' is not a standard selector\n- '--' is used for CSS custom properties\nExample: .className { color: red; }",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_58",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requirement and system?",
+      "options": [
+        "Test analysis and design",
+        "Test analysis and requirements",
+        "Test analysis and implementation",
+        "Test analysis and planning"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Test Analysis and Design phase includes:\n- Reviewing test basis (requirements)\n- Evaluating testability\n- Identifying test conditions\n- Designing test cases\nOther options mix incorrect phase activities",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_59",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an appropriate sequence of database design processes?",
+      "options": [
+        "Logical design database, Enterprise data modeling, Physical database design, Database implementation",
+        "Enterprise data modeling, Logical design database, Database implementation, Physical database design",
+        "Enterprise data modeling, Logical design database, Physical database design, Database implementation",
+        "Logical design database, Enterprise data modeling, Physical database design, Database implementation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct database design sequence:\n1. Enterprise modeling (conceptual ER diagrams)\n2. Logical design (schema normalization)\n3. Physical design (indexes, storage)\n4. Implementation (DDL, population)\nReverse engineering skips modeling stages",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_60",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not among the purposes of software testing?",
+      "options": [
+        "Identify shortcomings",
+        "Improving product acceptance",
+        "Enhancing reliability",
+        "Requesting more design and implementation time"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Testing objectives:\n- Find defects (shortcomings)\n- Increase quality (reliability)\n- Validate requirements (acceptance)\nTesting doesn't directly request more time - that's a project management concern",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_61",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which software process model will you use if you want to deliver different functionalities (modules) of the software product that have different priority at different time?",
+      "options": [
+        "Incremental model",
+        "Spiral model",
+        "Waterfall model",
+        "Linear model"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Incremental model:\n- Delivers prioritized modules in iterations\n- Allows partial releases\n- Accommodates changing priorities\nContrast with:\n- Waterfall: Full system at once\n- Spiral: Risk-driven cycles\n- Linear: Waterfall variant",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_62",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the time complexity for the following code snippets?\n\nfunction someFunction(n)\nfor(var i=0; i<n*10; i++){\nconsole.log(n);\n}}",
+      "options": [
+        "O(n^2)",
+        "O(logn)",
+        "O(log2n)",
+        "O(n)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Time complexity analysis:\n- Loop runs 10n times (i < n*10)\n- console.log is O(1)\n- Total: O(10n) → Simplified to O(n)\nConstants are dropped in Big-O notation",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_63",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Select the wrong statement regarding traceability in software development projects",
+      "options": [
+        "Traceability shows the dependency among two or more requirements if any",
+        "Requirements should be linked to the respective stakeholders who generated them",
+        "Every design element (component) should be linked back to the requirement",
+        "Traceability traces the overall cost and schedule of every activity in the requirements"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Traceability matrices track:\n- Requirement sources\n- Design/test coverage\n- Change impacts\nThey don't track:\n- Project costs\n- Schedules\nThose are managed via project management tools",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_64",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which activity comes last in fundamental program development in c++?",
+      "options": [
+        "Memory allocation for variables",
+        "Linking",
+        "Compiling program",
+        "Writing program"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "C++ build process:\n1. Write source code\n2. Compile to object files\n3. Link object files & libraries\nMemory allocation occurs during execution (runtime)",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_65",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which design pattern is used to restore the state of an object to its previous state?",
+      "options": [
+        "Visitor pattern",
+        "Memento pattern",
+        "Observer pattern",
+        "Iterator pattern"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Design patterns:\n- Memento: State restoration (Originator/Caretaker)\n- Visitor: Operations on object structures\n- Observer: Publish-subscribe mechanism\n- Iterator: Sequential access to collections",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_66",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes a set of standards and an associated network protocol that allow establishing a secure channel between a local and a remote computer?",
+      "options": [
+        "Secure socket layer(SSL)",
+        "Secure shell(SSH)",
+        "Authentication, Authorization and Accounting(AAA)",
+        "Simple network management protocol(SNMP)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Protocol comparison:\n- SSH: Secure remote access (encrypted channel)\n- SSL/TLS: Secure web communications\n- AAA: Security framework (RADIUS/TACACS+)\n- SNMP: Network device monitoring",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_67",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "What components hides the distinctions or boundaries between various micro services from end client application?",
+      "options": [
+        "Layered system",
+        "API gateway",
+        "API proxy",
+        "API logging"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "API Gateway in microservices:\n- Single entry point\n- Routes requests\n- Aggregates responses\n- Handles cross-cutting concerns (auth, logging)\nHides service topology from clients",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_68",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Select a fundamental issue that may not be considered by the software architects during the architectural design process?",
+      "options": [
+        "Which architectural organization is best for delivering the functional requirements",
+        "How to decompose structural components in to sub components",
+        "How the system will be distributed across a number of cores or processes",
+        "Which architectural patterns or styles to use"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Core/process distribution is:\n- Implementation detail\n- Handled during detailed design\nArchitects focus on:\n- Patterns/styles\n- Component decomposition\n- Requirement fulfillment",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_69",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is not correct statement regarding of project life cycle?",
+      "options": [
+        "In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified",
+        "In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle.",
+        "In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.",
+        "In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Agile projects:\n- Have high-level scope definition\n- Refine details iteratively\n- Can establish initial agreements\nWaterfall: Fixed scope/cost/time\nIncremental: Phased functionality",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_70",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not among the characterizing features of database approach?",
+      "options": [
+        "Application-data dependency",
+        "Sharing of data",
+        "Self-describing",
+        "Data abstraction"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Database approach features:\n- Data independence (reduces app-data coupling)\n- Multi-user access\n- Metadata (self-describing)\n- Abstract views\nFile systems exhibit application-data dependency",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_71",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "What is an activity in android?",
+      "options": [
+        "android class used to configure the android application",
+        "It is an intent",
+        "android package file holding all the package used",
+        "single screen in an application with supporting java code"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Android Activity:\n- Represents single UI screen\n- Manages user interactions\n- Has lifecycle methods\n- Contains Java/Kotlin code\nIntents are messaging objects between components",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_72",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not an approach used by IT security specialists to enhance the security level of the network?",
+      "options": [
+        "Use of Intrusion detection system",
+        "Use of Wana cry protocol",
+        "Use of physical security",
+        "Use of intrusion prevention system"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "WannaCry is:\n- Ransomware malware\n- Security threat, not protection\nSecurity approaches:\n- IDS/IPS: Threat detection/prevention\n- Physical security: Access control",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_73",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "As a software tester, when do you implement configuration management procedures?",
+      "options": [
+        "During test planning",
+        "During test closing",
+        "During test execution",
+        "During test initiation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Configuration management:\n- Established during planning\n- Tracks test artifacts\n- Manages versions\n- Maintains traceability\nApplied throughout but initiated in planning",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_74",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Identify the one that comes first in data mining process",
+      "options": [
+        "Data cleaning",
+        "Data integration",
+        "Business understanding",
+        "Data selection"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "CRISP-DM process order:\n1. Business understanding\n2. Data understanding\n3. Data preparation (cleaning/integration)\n4. Modeling\n5. Evaluation\n6. Deployment",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_75",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A TCP/IP layer which is responsible for addressing, path selection and routing refers:",
+      "options": [
+        "Application layer",
+        "Internet layer",
+        "Transport layer",
+        "Network Access layer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "TCP/IP layers:\n- Internet (IP): Routing/addressing\n- Transport (TCP/UDP): End-to-end delivery\n- Application: User protocols\n- Network Access: Physical transmission",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_76",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Which of the following analysis mechanism defines the input for which the algorithm takes the least time (fastest time to complete)?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Standard case",
+        "Average case"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Algorithm analysis cases:\n- Best: Optimal input scenario\n- Worst: Most unfavorable input\n- Average: Expected performance\nStandard case isn't a formal analysis term",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_77",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which learning algorithm is usually applied to data that does not contain any label information, so we do not know what the right output should be?",
+      "options": [
+        "Transfer learning",
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Learning types:\n- Unsupervised: No labels (clustering)\n- Supervised: Labeled data\n- Reinforcement: Reward-based\n- Transfer: Knowledge reuse",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_78",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Depending on the organization of the elements which of the following approach is a non-linear data structure?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Linked list"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Non-linear structures:\n- Trees: Hierarchical\n- Graphs: Networked\nLinear structures:\n- Queues: FIFO\n- Stacks: LIFO\n- Linked lists: Sequential",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_79",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following can be among possible source of unstructured data?",
+      "options": [
+        "Apple employee database",
+        "RDBMS systems",
+        "Registrar student database",
+        "Google search engine"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Unstructured data sources:\n- Search engine results\n- Social media\n- Emails\n- Multimedia\nStructured data:\n- RDBMS\n- Formatted databases",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_80",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Select the one that is not related with the purpose of properly documenting software architecture",
+      "options": [
+        "For Stakeholder communication",
+        "To easily figure out the source code flow",
+        "For critical system design decisions",
+        "To know how the system is organized and interoperate"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Architecture documentation focuses on:\n- High-level design\n- Component interactions\n- Design rationale\nSource code flow is implementation detail (low-level)",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_81",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "One of the following statement is correct about Artificial Intelligence (AI)?",
+      "options": [
+        "It refers to the development of machine that can only perform physical tasks.",
+        "It refers to the development of machine that can only perform simple, repetitive tasks.",
+        "It refers to the development of machine that can perform tasks only in a controlled laboratory setting.",
+        "It refers to the development of machine that can perform tasks that typically require human intelligence."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "AI encompasses:\n- Reasoning\n- Learning\n- Problem-solving\n- Perception\nNot limited to physical/simple tasks or lab environments",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_82",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edges of nodes) of a control flow graph are covered by the execution of those paths?",
+      "options": [
+        "Branch coverage",
+        "Branch expansion",
+        "Branch control",
+        "Branch boundary"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Code coverage types:\n- Branch: All decision outcomes\n- Statement: All lines\n- Path: All possible routes\nOther options are not standard testing terms",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_83",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Give a situation two hosts attempt on half-duplex Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do?",
+      "options": [
+        "The jam signal indicates that the collision has been cleared",
+        "An electrical pulse indicates that the collision has cleared",
+        "The hosts will attempt to resume transmission after a time delay has expired",
+        "The router on the segment will signal that the collision has cleared"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "CSMA/CD process:\n1. Detect collision\n2. Send jam signal\n3. Wait random backoff time\n4. Retransmit\nNo router involvement in LAN collisions",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_84",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "What is the time complexity of below function?\n\nPublic void function (int n){\nfor(int i=0; i<n; i++)\nfor(int j=0; j<i*i; j++)\nif(j%i==0){\nfor(int k=0; k<j; k++)\nprint(\"*\");\n}\n}",
+      "options": [
+        "O(n^2)",
+        "O(nlogn)",
+        "O(n^7)",
+        "O(n^5)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Complexity analysis:\n- Outer loop runs O(n) times\n- Middle loop runs up to i² times, which is O(n²) at maximum\n- The condition j%i==0 is true when j is divisible by i, which happens O(i) times in the range [0,i²)\n- Inner loop runs j iterations each time the condition is met, where j can be up to O(n²)\n- Therefore, the total complexity is: O(n) × O(i) × O(n²) = O(n⁴)\n\nTechnically the answer should be O(n⁴), but in the given options, O(n⁵) is the closest valid answer.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_85",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Identify the design principle that does not apply to software system",
+      "options": [
+        "design should be traceable to the analysis model",
+        "design should be structured to accommodate change",
+        "design should exhibit uniformity and integration",
+        "design should be reinventing the wheel from scratch"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Good design principles:\n- Traceability\n- Maintainability\n- Consistency\nAnti-patterns:\n- Reinventing solutions\n- Ignoring existing patterns\nDRY (Don't Repeat Yourself) principle",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_86",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "You are required to write a program that iteratively takes 50 numbers from user input and adds them up only if the numbers are positive and skips if not. Which control structure best fits this scenario?",
+      "options": [
+        "break",
+        "continue",
+        "for",
+        "jump"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Control structures:\n- continue: Skips current iteration\n- break: Exits loop entirely\n- for: Loop structure\n- jump: Not standard in high-level languages\nBest fits conditional skipping requirement",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_87",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which of the following UML elements is wrongly applied?",
+      "options": [
+        "Class diagram shows the object classes in a system and their relation",
+        "Activity diagram shows how the system reacts to internal and external events",
+        "Use case diagram represents an interaction with a system",
+        "Sequence diagram shows the sequence of interactions required to complete some operation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "UML diagram purposes:\n- Activity: Workflows (not event reaction)\n- Statechart: Event response\n- Use case: User-system interactions\n- Sequence: Message ordering\n- Class: Static structure",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_88",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "A memory management policy that that decisions must be made as to which page or pages are to be supplanted when a memory is full is known as:",
+      "options": [
+        "Cleaning policy",
+        "Load policy",
+        "Replacement policy",
+        "Fetch policy"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Page replacement policies:\n- FIFO, LRU, OPT algorithms\n- Decide victim pages\nOther policies:\n- Fetch: When to load pages\n- Cleaning: When to write dirty pages",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_89",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which software model would you apply for business operating in a changing environment where the initial requirements in inevitably change due to some internal and external factors?",
+      "options": [
+        "Agile development method",
+        "Spiral model",
+        "Water fall model",
+        "Code and run"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Model selection criteria:\n- Agile: Changing requirements\n- Spiral: High risk projects\n- Waterfall: Stable requirements\n- Code-and-run: No formal process",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_90",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and has attributes specified as DORM (DormId, floornumber) and a DormId is primary key based on university's rule, six students can be assigned to one dorm. Students can be tracked with attributes STUDENT (IdNo, Name, Departement) and IdNo is a primary key. Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming DorId is foreign key?",
+      "options": [
+        "FOREIGN KEY (DorID) REFERENCES DORM(DormID)",
+        "STUDENT table is a reference relation",
+        "FOREIGN KEY (DorID) REFERENCEd by DORM(DormID)",
+        "DORM table is a referencing relation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Foreign key syntax:\n- Parent: DORM (DormID PK)\n- Child: STUDENT (DorID FK)\nCorrect constraint:\nFOREIGN KEY (DorID) REFERENCES DORM(DormID)\nEstablishes 1-to-many relationship",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_91",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is wrong regarding try...catch construct?",
+      "options": [
+        "When exception occurs, the execution of try block is interrupted",
+        "The execution control is moved to catch block after exception occur in try block.",
+        "The catch block is used to handle exceptions that occur in try block.",
+        "The catch block is executed once regardless of exceptions in try block"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "try-catch behavior:\n- Catch only executes on exception\n- Multiple catches possible\n- Uncaught exceptions propagate\nCorrect flow:\n1. Try executes normally if no exception\n2. On exception: jump to matching catch",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_92",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not the function of Cross-over UTP cable?",
+      "options": [
+        "To connect switch to switch",
+        "To connect pc to pc",
+        "To connect router to pc",
+        "To connect switch to pc"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Crossover cable uses:\n- Like devices (switch-switch, PC-PC)\n- Router-PC (similar to PC-PC)\nStandard straight-through for:\n- Switch-PC\n- Router-switch\nPin configurations differ",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_93",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Who is responsible for documenting faults found during the software development process?",
+      "options": [
+        "Tester",
+        "Developer",
+        "Scrum master",
+        "Requirement engineer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Fault documentation:\n- Testers: Log defects\n- Developers: Fix defects\n- Scrum master: Facilitates process\n- RE: Manages requirements\nDefect tracking systems standardize reporting",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_94",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following principles of cyber security refers that the security mechanism must be as small and simple as possible?",
+      "options": [
+        "Fail-safe Defaults",
+        "Least privilege",
+        "Economy of the Mechanism",
+        "Open-Design"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Economy of Mechanism principle states that security mechanisms should be as simple and small as possible to reduce potential vulnerabilities and make verification easier. This principle is crucial because complex security mechanisms are more likely to contain flaws and are harder to verify for correctness.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_95",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum number of swaps that can be performed in the Selection Sort algorithm?",
+      "options": [
+        "n-2",
+        "n-1",
+        "1",
+        "n"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In Selection Sort, the maximum number of swaps is n-1 because after sorting n-1 elements, the last element is automatically in its correct position. This is because Selection Sort works by repeatedly finding the minimum element from the unsorted part and putting it at the beginning. After n-1 iterations, the last element is already in its correct position.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_96",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements is NOT correct?",
+      "options": [
+        "C++ is an object-oriented programming language;",
+        "Java is an object-oriented programming language;",
+        "the object-oriented approach does not separate the behavior of a system from the data;",
+        "Java is the only object-oriented programming language;"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Java is not the only object-oriented programming language. There are many others like C++, Python, C#, Ruby, and Smalltalk. Object-oriented programming is a paradigm supported by numerous languages, each with their own features and implementations of OOP concepts.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_97",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Why is it important to maintain a good relationship between software testers and developers?",
+      "options": [
+        "To ensure that the project is completed on time",
+        "To foster collaboration and communication between the two teams",
+        "To make sure that the software is defect-free",
+        "To reduce the cost of the project"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Good relationships foster better collaboration and communication, which leads to more effective testing and higher quality software. This collaboration helps in early defect detection, better understanding of requirements, and more efficient problem-solving, ultimately improving the overall software quality and development process.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_98",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which layer is responsible for wireless signal encoding and frequency band definition?",
+      "options": [
+        "Application Layer",
+        "Logical Link Control Layer",
+        "Medium Access Layer",
+        "None of the mentioned"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Medium Access Control (MAC) layer handles wireless signal encoding and frequency band definition in wireless networks. It manages how devices access the shared wireless medium, controls data transmission, and handles collision avoidance, making it crucial for wireless communication.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_99",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Which of the following qualities can most likely be improved by using a layered architecture?",
+      "options": [
+        "Flexibility in modifying or changing the system",
+        "Runtime efficiency (performance)",
+        "Flexibility at runtime (configurability)",
+        "Non-repudiability"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Layered architecture improves modifiability and flexibility in changing the system as layers can be modified independently. This separation of concerns allows for easier maintenance, testing, and evolution of the system, as changes in one layer typically don't affect other layers.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_regular_melmeja_100",
+      "examId": "exit_software_engineering_2015_regular_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The software requirement specification(SRS) is said to be ______ if and only if no subset of individual requirements described in it conflict with each other",
+      "options": [
+        "consistent",
+        "verifiable",
+        "unambiguous",
+        "correct"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Consistency in SRS means there are no conflicts between requirements. This is crucial because inconsistent requirements can lead to implementation conflicts, increased development time, and potential system failures. A consistent SRS ensures that all requirements can be implemented together without contradictions.",
+      "topic": "Software Engineering"
+    }
+  ]
+}

@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12",
-  "description": "Comprehensive examination bank combining 8 chapters (16 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 16,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 8 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -281,6 +281,1350 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "The binding energy per nucleon graph peaks around iron (A ≈ 56).\n\n Lighter nuclei (A < 56) have lower binding energy per nucleon and can release energy through nuclear fusion, while heavier nuclei (A > 56) can release energy through fission.\n\n Iron and nearby nuclei are the most stable",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_17",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Air molecules vibrate in a pipe of length L closed at one end but open at the other. If the speed of sound through the pipe is V. Which one of the following statements is correct about the resonance effects of vibration of air molecules in the pipe?",
+      "options": [
+        "The fundamental resonance frequency is v/4l.",
+        "The fundamental wave length of resonance is equal to 2L.",
+        "The resonance frequency of the first harmonics is v/l.",
+        "The wavelength of the third harmonic is equal to L."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For a pipe closed at one end and open at the other:\n\n- The fundamental mode has a node at the closed end and an antinode at the open end.\n\n- The length of the pipe corresponds to one-quarter of the wavelength.\n\nThus: L = λ₁ / 4  ⇒  λ₁ = 4L\n\nThe fundamental frequency is:\n\n f₁ = v / λ₁ = v / 4L\n\nOnly odd harmonics (1st, 3rd, 5th, …) are present in a closed pipe.\n\n Therefore, the correct statement is that the fundamental resonance frequency is v/4L",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_18",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "A Photodiode is typically operated in which bias condition?",
+      "options": [
+        "Zero bias",
+        "Forward bias",
+        "Reverse bias",
+        "Breakdown region"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Photodiodes are usually operated in reverse bias because the reverse current is very sensitive and proportional to the intensity of the incident light, allowing for fast and accurate light detection.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_19",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "The SI unit for magnetic flux is the:",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Farad"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Magnetic flux is defined as the product of the magnetic field strength and the area perpendicular to the field.\n\n Its SI unit is the Weber (Wb), which is equivalent to Tesla times meter².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_20",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "The distance covered by a projectile in the horizontal direction is called the:",
+      "options": [
+        "Maximum height",
+        "Trajectory",
+        "Range",
+        "Time of flight"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The maximum horizontal distance traveled by a projectile is called the range.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_21",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "If a step-up transformer has an output voltage of 240 V and an input voltage of 12 V, the ratio of primary to secondary turns (primary turns / secondary turns) is:",
+      "options": [
+        "20 to 1",
+        "1 to 20",
+        "12 to 240",
+        "240 to 12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The turns ratio is the same as the voltage ratio: Primary turns / Secondary turns = Primary voltage / Secondary voltage.\n\n Ratio = 12 V / 240 V = 1/20 (or 1 to 20).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_22",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "According to Kepler's third law, the square of the orbital period (T²) of a planet is proportional to the cube of the average distance (r³) from the Sun. This relationship is:",
+      "options": [
+        "T² ∝ r",
+        "T² ∝ r²",
+        "T² ∝ r³",
+        "T ∝ r³"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Kepler's Third Law (Law of Periods) states T² is directly proportional to r³, or T² = kr³.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_23",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "The rate of flow of a fluid through a pipe is constant. If the pipe narrows, how must the fluid's speed change to satisfy the **Equation of Continuity**?",
+      "options": [
+        "The speed must decrease.",
+        "The speed must remain constant.",
+        "The speed must increase.",
+        "The speed's change depends on the fluid's density."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_24",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "The unit of the quantity 'permeability of free space' (mu nought) is:",
+      "options": [
+        "Tesla meter per Ampere",
+        "Tesla meter squared",
+        "Ampere per meter",
+        "Weber per meter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "From the formula for the magnetic field around a straight wire (B proportional to mu nought I divided by r), rearranging gives mu nought is proportional to B r / I.\n\n The units are Tesla meter per Ampere (T m/A).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_25",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "If a charged particle moves through a magnetic field B. If the particle's velocity v is parallel to B, the magnetic force on the particle is:",
+      "options": [
+        "Maximum",
+        "Half of maximum",
+        "Zero",
+        "Perpendicular to B"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The magnetic force is F = q v B sin(angle). \n\nIf the velocity is parallel to the magnetic field, the angle is 0 degrees, and sin(0 degrees) is 0. \nThus, the force is zero.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_26",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "The maximum torque on a current loop in a uniform magnetic field occurs when the plane of the loop is:",
+      "options": [
+        "Parallel to the magnetic field",
+        "Perpendicular to the magnetic field",
+        "At a 45-degree angle to the magnetic field",
+        "Always zero, as the net force is zero"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The torque is maximum when the magnetic moment vector (which is perpendicular to the loop's plane) is perpendicular to the magnetic field, which means the plane of the loop itself is parallel to the magnetic field lines.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_27",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "A transformer that decreases the voltage from the primary coil to the secondary coil is called a:",
+      "options": [
+        "Step-up transformer",
+        "Step-down transformer",
+        "Current transformer",
+        "Isolation transformer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A step-down transformer has fewer turns in its secondary coil than in its primary coil, resulting in a lower output voltage.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_28",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes the microscopic physical origin of the macroscopic property of **viscosity** in a fluid like blood?",
+      "options": [
+        "The electromagnetic repulsion between vessel walls and the blood plasma.",
+        "The internal friction and cohesive forces between the fluid's layers as they move relative to each other.",
+        "The gravitational attraction between the blood cells.",
+        "The pressure difference between the start and end of the vessel."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Viscosity is the measure of a fluid's resistance to flow (internal friction), which originates from the cohesive forces and momentum exchange between the fluid layers in motion.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_29",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "In the context of material science and chemistry, the crystalline structure of metals and semiconductors, which determines their electrical and mechanical properties, is studied using which type of physics?",
+      "options": [
+        "Solid-state physics",
+        "Acoustics",
+        "Plasma physics",
+        "Fluid dynamics"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Solid-state physics is the branch of physics that studies the rigid matter, or solids, through methods such as quantum mechanics, crystallography, electromagnetism, and metallurgy, to understand their properties.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_30",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which of the following forces does no work on a moving charge?",
+      "options": [
+        "Electric force",
+        "Gravitational force",
+        "Tension force",
+        "Magnetic force"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_31",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Which of the following physical laws is most essential for calculating the force required for an athlete to achieve a maximum forward stride during a run?",
+      "options": [
+        "Bernoulli's principle",
+        "Newton's second law of motion",
+        "Law of conservation of energy",
+        "Huygens' principle"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The mechanics of motion, including force, mass, and acceleration (F = ma), are governed by Newton's second law, which is the key physical principle applied to analyze athletic movement and locomotion.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_32",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "A current-carrying conductor is placed in a magnetic field. To maximize the magnetic force on the conductor, the angle between the conductor and the field should be:",
+      "options": [
+        "0 degrees",
+        "30 degrees",
+        "90 degrees",
+        "180 degrees"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The force on a current-carrying wire is F = I L B sin(angle).\n\n The sine function is maximum at 90 degrees, where sin(90 degrees) = 1.\n\n Therefore, the force is maximum when the wire is perpendicular to the field.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_33",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "The physical process of heat transfer that relies on the movement of a fluid (liquid or gas) is called:",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection",
+        "Diffusion"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Convection is the transfer of heat by the movement of heated fluid itself.\n\n This principle explains heat distribution in weather systems and is essential in biology (e.g., cooling the skin).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_34",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "The doping level in the Base region of a BJT is typically:",
+      "options": [
+        "Very heavy.",
+        "Moderate.",
+        "Zero.",
+        "Very light."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Base is very lightly doped to minimize the number of majority carriers available for recombination with the injected Emitter carriers, maximizing current transfer.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_35",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "What is the primary function of a commutator in a DC motor?",
+      "options": [
+        "To increase the speed of rotation",
+        "To reverse the direction of the current in the coil every half-turn",
+        "To reduce friction",
+        "To convert magnetic energy into electrical energy"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The commutator (split-ring) acts as a mechanical switch that reverses the direction of the current in the armature coil every time the coil passes the vertical position, ensuring the torque always acts to continue the rotation in the same direction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_36",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "When sound waves are transmitted from air to the fluid-filled inner ear, a mechanism called **impedance matching** is crucial. This is a function of the:",
+      "options": [
+        "Auditory nerve",
+        "Eustachian tube",
+        "Ossicles (bones in the middle ear)",
+        "Pinna (outer ear)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The three small bones (ossicles) in the middle ear act as a lever system to amplify the force and reduce the displacement from the eardrum to the inner ear fluid, effectively matching the acoustic impedance between air and liquid.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_37",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "The study of the behavior of electrons in atoms and molecules, which is crucial for understanding chemical bonding and reaction mechanisms, is achieved primarily through which theoretical physics framework?",
+      "options": [
+        "Classical Mechanics",
+        "Quantum Mechanics",
+        "Electrodynamics",
+        "General Relativity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Quantum Mechanics provides the mathematical framework for describing the wave-particle duality and the probabilistic location of electrons in atoms and molecules, which is the foundation of modern chemistry.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_38",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "A generator converts mechanical energy into electrical energy based on which electromagnetic principle?",
+      "options": [
+        "Ohm's Law",
+        "Capacitance",
+        "Electromagnetic Induction",
+        "The photoelectric effect"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A generator works by rotating a coil within a magnetic field, causing a change in magnetic flux through the coil, which in turn induces an electromotive force (EMF) and current, as described by the principle of Electromagnetic Induction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_39",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "When a magnet is moved toward a coil, the induced current creates a magnetic field that is directed:",
+      "options": [
+        "In the same direction as the magnet's field",
+        "To attract the magnet",
+        "To repel the magnet",
+        "Perpendicular to the magnet's motion"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "According to Lenz's Law, the induced current's magnetic field opposes the change in flux.\n\n Moving the magnet toward the coil increases the flux, so the induced field creates a force that repels the approaching magnet, opposing its motion.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_40",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "At absolute zero temperature (0 K), a pure semiconductor behaves electrically most like a(n):",
+      "options": [
+        "Conductor",
+        "Insulator",
+        "Superconductor",
+        "Amphoteric material"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "At absolute zero, all valence electrons are tightly bound in covalent bonds, and there are no free charge carriers, making the semiconductor act as a perfect insulator.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_41",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Eddy currents induced in a solid conductor, like the core of a transformer, are undesirable because they primarily cause:",
+      "options": [
+        "Increased voltage output",
+        "Reduction in magnetic flux",
+        "Energy loss as heat",
+        "Increased primary current"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Eddy currents flow through the resistance of the core material, dissipating electrical energy as heat (I²R loss), which lowers the efficiency of the device.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_42",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "An Extrinsic semiconductor at room temperature has an electrical conductivity that is primarily dependent on the:",
+      "options": [
+        "Intrinsic carrier concentration.",
+        "Concentration of the doping impurity.",
+        "Density of the crystal material.",
+        "Current flowing through it."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In an extrinsic semiconductor, the added dopants create a vast excess of majority carriers (electrons or holes), making the conductivity heavily dependent on the doping concentration, largely overriding the intrinsic carriers generated by temperature.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_43",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Sound produced by human vocal cords is physically described as a:",
+      "options": [
+        "Transverse electromagnetic wave",
+        "Longitudinal electromagnetic wave",
+        "Mechanical wave produced by vibration",
+        "Standing wave within a cavity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sound is a mechanical wave created by the vibration of the vocal cords, which causes a longitudinal disturbance in the surrounding air molecules.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_44",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "In the human body, the flow of blood and the maintenance of blood pressure are best explained and modeled using the physics principles of:",
+      "options": [
+        "Special relativity",
+        "Simple harmonic motion",
+        "Nuclear magnetic resonance",
+        "Fluid dynamics (viscosity, continuity equation)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Blood circulation involves the flow of a viscous fluid (blood) through a network of vessels (arteries and veins), making fluid dynamics principles such as viscosity and the equation of continuity essential for its study.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_45",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "For a person standing erect to be in **stable equilibrium**, the vertical line passing through their center of mass must fall directly over which region?",
+      "options": [
+        "The chest cavity",
+        "The base of support (area of the feet)",
+        "The point of maximum potential energy",
+        "The center of the Earth"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Stability in Newtonian mechanics requires that the center of mass remains directly over the base of support.\n\n If it moves outside this area, the torque from gravity causes the body to fall.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_46",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "A Light Dependent Resistor (LDR) uses semiconductor properties to change its resistance in response to:",
+      "options": [
+        "Temperature change.",
+        "Voltage change.",
+        "Magnetic field strength.",
+        "Light intensity."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An LDR's resistance decreases as the intensity of light falling on its semiconductor material increases, due to the light generating more electron-hole pairs.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_47",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "For a floating object, the buoyant force is:",
+      "options": [
+        "Greater than its weight.",
+        "Less than its weight.",
+        "Equal to its weight.",
+        "Dependent on the density of the object, not the fluid."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An object that is floating (in equilibrium) must have a net force of zero. \n\nTherefore, the upward buoyant force must be exactly equal to the downward force of gravity (its weight).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_48",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "The principle that determines the energetic possibility of a chemical reaction and the resulting composition at equilibrium is primarily derived from which area of physics?",
+      "options": [
+        "Kinetic theory of gasses",
+        "Physics of heat energy (Thermodynamics)",
+        "Wave optics",
+        "Nuclear fusion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Thermodynamics, the physics of heat and energy transfer, provides the concepts (like Gibbs Free Energy and Entropy) necessary to predict whether a reaction is energetically possible and its equilibrium state.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_49",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "What is the result of the Boolean operation (A + A) · B?",
+      "options": [
+        "+ B",
+        "· B",
+        "0",
+        "1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the Idempotent Law, A + A = A.\n\n Therefore, the expression simplifies to A · B.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_50",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Which component is often used in conjunction with a rectifier to convert pulsating DC into smoother DC?",
+      "options": [
+        "Transformer",
+        "Inductor or Capacitor (Filter)",
+        "Zener diode (Regulator)",
+        "LED"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Inductors and capacitors (filter circuits) are used to reduce the ripple in the pulsating DC output of a rectifier.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_51",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "The minimum number of NOR gates required to construct a simple AND gate is:",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To construct an AND gate using NOR gates, you use the De Morgan's Law for AND: A · B = (A' + B')' = NOR(NOT A, NOT B). This requires three NOR gates (one for NOT A, one for NOT B, and one for the final NOR operation).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_52",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The type of rectification that utilizes a center-tapped transformer and two diodes is the:",
+      "options": [
+        "Half-wave rectifier",
+        "Full-wave bridge rectifier",
+        "Full-wave center-tapped rectifier",
+        "Diode clamper"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The full-wave center-tapped rectifier uses a center-tapped transformer to provide two equal but opposite voltage signals and uses two diodes to rectify both cycles.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_53",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "In a P-N junction, the minority charge carriers current under reverse bias is mainly due to:",
+      "options": [
+        "Diffusion current.",
+        "Drift current.",
+        "Avalanche effect.",
+        "Forward current."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The minority carriers (electrons in P-region, holes in N-region) are swept across the junction by the electric field in the depletion region.\n\n This is a drift current.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_54",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "An object moves in uniform circular motion. The kinetic energy of the object:",
+      "options": [
+        "Increases linearly with time.",
+        "Is constant.",
+        "Decreases as it moves.",
+        "Changes direction continuously."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In uniform circular motion, the speed (v) is constant. \n\nKinetic energy (KE = 1/2 mv²) depends only on mass and speed, so it remains constant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_55",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "The physical process of a liquid changing into a gas (e.g., boiling) is governed by the principles of:",
+      "options": [
+        "Nuclear physics",
+        "Electromagnetic wave theory",
+        "Thermodynamics and phase transitions",
+        "Special relativity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Phase transitions, such as vaporization, fusion, and sublimation, involve energy exchange (latent heat) and are analyzed using the laws and concepts of thermodynamics.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_56",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which relationship best describes the nature of Physics, Technology, and Engineering?",
+      "options": [
+        "Physics is the goal, Technology is the method, and Engineering is the result.",
+        "Physics provides the fundamental laws, while Technology and Engineering are applications that mutually reinforce Physics.",
+        "Technology is an independent field, occasionally borrowing concepts from Physics and Engineering.",
+        "Engineering studies the universe at the smallest scale, which is then applied by Physics and Technology."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics establishes the basic principles and laws that are then utilized, reinforced, and advanced by the practical applications developed through Technology and Engineering.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_57",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The field of **quantum chemistry** uses the principles of quantum mechanics to calculate what specific properties of molecules?",
+      "options": [
+        "Electronic structure and bond energy",
+        "Macroscopic volume and density",
+        "Heat capacity and entropy",
+        "Melting point and boiling point"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Quantum chemistry applies quantum mechanical calculations (like the Schrödinger equation) to determine the precise electronic structure, stability, and energy of chemical bonds within molecules.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_58",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "An ideal monoatomic gas expands adiabatically from an initial volume of 2 liters at a temperature of 300 K to 16 liters of volume. What is the final temperature of the gas? (Use the ratio of specific heat capacity at constant pressure to that at constant volume to be  = 5/3.)",
+      "options": [
+        "37.5 k",
+        "75 k",
+        "2400 k",
+        "1200 k"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For an adiabatic process of an ideal gas, the relation between temperature and volume is:\n\nT₁ V₁^(γ−1) = T₂ V₂^(γ−1)\n\nGiven:\\nT₁ = 300 K, V₁ = 2 L, V₂ = 16 L, γ = 5/3\n\nγ − 1 = 5/3 − 1 = 2/3\n\nSo T₂ = T₁ (V₁ / V₂)^(2/3)\n\nT₂ = 300 × (2 / 16)^(2/3) = 300 × (1/8)^(2/3)\n\n(1/8)^(2/3) = (1/2)² = 1/4\n\nT₂ = 300 × 1/4 = 75 K\n\nTherefore, the final temperature of the gas is 75 K.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_59",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "If the separation distance between two parallel wires carrying currents in opposite directions is halved, the repulsive force between them will:",
+      "options": [
+        "Double",
+        "Halve",
+        "Quadruple",
+        "Quarter"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The force is proportional to 1/d.\n\n Halving the distance (1/2 d) will double the force (F is proportional to 1/(1/2 d) = 2/d).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_60",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "The concept of **wave-particle duality**, where light and matter can exhibit both wave-like and particle-like properties, is a central tenet of:",
+      "options": [
+        "Classical Mechanics",
+        "Quantum Mechanics",
+        "Relativity",
+        "Electrodynamics"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wave-particle duality, introduced by Max Planck and Louis de Broglie, is one of the most fundamental and counter-intuitive ideas in **Quantum Mechanics**.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_61",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The current gain in a common-emitter (CE) configuration is denoted by Beta (β), which is the ratio of:",
+      "options": [
+        "I_E / I_B",
+        "I_C / I_E",
+        "I_C / I_B",
+        "I_B / I_C"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The current gain Beta (β) for the common-emitter configuration is defined as the ratio of the collector current (I_C) to the base current (I_B), i.e.,\n β = I_C / I_B.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_62",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A solid object weighs 50N in air and 30N when fully submerged in water. What is the magnitude of the buoyant force acting on the object?",
+      "options": [
+        "20N",
+        "30N",
+        "50N",
+        "80N"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Buoyant Force (Fb) = Weight in Air (Wair) - Apparent Weight in Water (Wwater).\n F_b = 50N - 30N =\n 20N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_63",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "The law of conservation of mass, a foundational principle in chemistry, is a special case of which overarching physics law?",
+      "options": [
+        "Law of definite proportions",
+        "The conservation of mass-energy (E = mc²)",
+        "The law of multiple proportions",
+        "The first law of thermodynamics (Conservation of Energy)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In most chemical reactions, mass and energy are conserved separately. \n\nHowever, Einstein's mass-energy equivalence shows that mass conservation is part of the more general principle of conservation of total mass-energy.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_64",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which branch of physics is most directly involved in designing and understanding the flight dynamics of airplanes and the lift generated by a wing?",
+      "options": [
+        "Acoustics",
+        "Thermodynamics",
+        "Aerodynamics (Fluid Dynamics)",
+        "Solid-state physics"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "**Aerodynamics**, a specialized part of fluid dynamics, studies the motion of air and the forces (like lift and drag) acting on objects moving through it.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_65",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "In uniform circular motion, the acceleration is directed:",
+      "options": [
+        "Along the tangent to the circle.",
+        "Away from the center of the circle.",
+        "Towards the center of the circle.",
+        "Zero, because the speed is constant."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In uniform circular motion, the speed is constant, but the velocity direction is continuously changing. \n\nThis change in velocity means there is an acceleration, called centripetal acceleration, which is always directed towards the center of the circle.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_66",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If the acceleration due to gravity on the Earth's surface is 10m/s², what is the acceleration due to gravity at a height equal to the Earth's radius (R) above the surface?",
+      "options": [
+        "10m/s²",
+        "5m/s²",
+        "2.5m/s²",
+        "1.25m/s²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The distance from the center is r' = R + R = 2R.\n g' = GM/r'² = GM/(2R)² = \n(1/4) * (GM/R²) = (1/4)g.\n g' = (1/4)(10m/s²) \n= 2.5m/s².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_67",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "The angular speed of the minute hand of a clock, in rad/s, is:",
+      "options": [
+        "π/30 rad/s",
+        "π/60 rad/s",
+        "π/1800 rad/s",
+        "π/3600 rad/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The minute hand completes one revolution (2π radians) in 60 minutes, or 3600 seconds. \n\nAngular speed ω = 2π / T = \n2π / 3600 s = \nπ/1800 rad/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_68",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "The study of X-ray diffraction is an essential tool for determining what characteristic of crystalline chemical compounds?",
+      "options": [
+        "Their reaction rate",
+        "Their electrical conductivity",
+        "Their elemental composition",
+        "Their molecular and crystal structure"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "X-ray diffraction uses the wave nature of X-rays and their interaction with atomic lattices (a physics phenomenon) to map the precise three-dimensional structure of molecules and crystals in chemistry and biology.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_69",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "In the context of the human voice box (larynx), the component that vibrates to produce sound waves is known as the:",
+      "options": [
+        "Trachea",
+        "Pharynx",
+        "Vocal Cords",
+        "Epiglottis"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Vocal Cords are located inside the larynx. \n\nThey are flexible tissues that are set into vibrational motion when air is exhaled past them, generating the initial sound wave.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_70",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "When a person carries a heavy, unbalanced load, they often lean away from the load. This action is taken to ensure:",
+      "options": [
+        "The torque on their body is maximized.",
+        "The center of mass of the person-load system is kept over their base of support.",
+        "The force of gravity on the load is reduced.",
+        "The total mass of the system is minimized."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Leaning shifts the combined center of mass of the person and the load, ensuring the center of mass remains vertically above the area of the feet (base of support) to maintain stability.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_71",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which physical quantity, when minimized, increases the stability of a body, assuming the base of support remains constant?",
+      "options": [
+        "The total mass of the body",
+        "The height of the center of gravity",
+        "The coefficient of friction",
+        "The magnitude of the gravitational force"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The stability of a body increases as the base is wider and the height of the center of gravity is closer to the base (minimized), making it harder for the torque from gravity to tip the object.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_72",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "The physical process of a liquid spontaneously rising in a narrow tube, which is important in plant biology (capillary action), is caused by the interplay of:",
+      "options": [
+        "Cohesive and adhesive forces",
+        "Buoyant force and gravity",
+        "Viscosity and pressure",
+        "Thermal expansion and contraction"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Capillary action is caused by the surface tension of the liquid, which results from the balance between **cohesive** forces (liquid-liquid) and **adhesive** forces (liquid-tube wall).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_73",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "In an N-type semiconductor, the level of the donor impurity energy state lies:",
+      "options": [
+        "Near the valence band edge",
+        "Near the middle of the gap",
+        "Just below the conduction band edge",
+        "Just above the valence band edge"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The donor level is very close to the conduction band, meaning only a very small amount of energy is required to excite the donor electron into the conduction band.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_74",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Which component is necessary to convert the AC output of a generator into a smooth DC voltage?",
+      "options": [
+        "Split-ring commutator",
+        "Capacitor and Diode circuit (Rectifier)",
+        "Transformer",
+        "Simple switch"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "While a split-ring commutator produces a pulsing DC, a full rectifier circuit (diodes) combined with a smoothing capacitor is required to convert AC voltage into a smooth DC voltage typically used by electronics.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_75",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "The Newtonian principle applied to explain the rapid change in momentum and high acceleration achieved by the cheetah during a sprint is the relation between:",
+      "options": [
+        "Momentum and impulse (Impulse = FΔt)",
+        "Kinetic energy and gravitational potential energy",
+        "Angular momentum and moment of inertia",
+        "Buoyancy and fluid resistance"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The cheetah's speed and rapid acceleration are applications of mechanics, specifically the Impulse-Momentum theorem, which relates the force and time of contact with the ground to the change in momentum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_76",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "The centripetal force acting on a body of mass m moving in a circle of radius r with tangential velocity v is given by:",
+      "options": [
+        "mv/r",
+        "mv²r",
+        "mr/v",
+        "mv²/r"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Centripetal force is the force required to keep an object in uniform circular motion, and its magnitude is F_c = mv²/r.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_77",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "If a sample of radioactive Iodine-131 has a half-life of 8 days, what fraction of the original sample will remain after 16 days?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "16 days is two half-lives (16 days / 8 days/half-life = 2). After 1 half-life, 1/2 remains. After 2 half-lives, 1/2 * 1/2 = 1/4 remains.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_78",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "In the structure of a PNP transistor, the majority carriers are:",
+      "options": [
+        "Free electrons.",
+        "Holes.",
+        "Ions.",
+        "Both electrons and holes equally."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a PNP transistor, the Emitter and Collector are P-type, and the Base is N-type.\n\n The majority charge carriers injected from the P-type Emitter are holes.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_79",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which type of BJT is created by sandwiching a thin layer of P-type material between two N-type materials?",
+      "options": [
+        "PNP transistor",
+        "NPN transistor",
+        "PNN transistor",
+        "NPNP transistor"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An NPN transistor consists of two N-type regions (Emitter and Collector) separated by a thin P-type region (Base).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_80",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Spectroscopy, the study of the interaction between matter and electromagnetic radiation, provides the most information regarding what characteristic of atoms and molecules?",
+      "options": [
+        "Their molar mass and density",
+        "Their physical size and volume",
+        "Their electrical charge and magnetism",
+        "Their structure, energy levels, and composition"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Spectroscopy analyzes the unique patterns of light absorption and emission (as a function of wavelength/frequency), which are direct fingerprints of the energy levels and structure of atoms and molecules.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_81",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Geophysics utilizes which specific wave phenomenon from physics to study the Earth's internal structure (like the core and mantle)?",
+      "options": [
+        "Electromagnetic waves (radio waves)",
+        "Surface water waves",
+        "Seismic waves (P and S waves)",
+        "Sound waves in air"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Geophysicists analyze how seismic waves (P-waves and S-waves) generated by earthquakes or controlled sources travel through and reflect off different layers of the Earth's interior, determining its structure.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_82",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The concept of **chemical potential energy** stored in molecular bonds is an application of which fundamental physics concept?",
+      "options": [
+        "Kinetic Energy (energy of motion)",
+        "Pressure Energy (energy per volume)",
+        "Electromagnetic Induction",
+        "Potential Energy (stored energy due to position or state)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Chemical potential energy is the energy stored within the chemical bonds of a substance. \n\nIt is a form of potential energy resulting from the relative positions and electrostatic forces between charged particles (electrons and nuclei).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_83",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "The characteristic property of a wave that determines the **intensity** or loudness of a sound is its:",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Amplitude",
+        "Speed"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The **amplitude** of a wave is related to the energy it carries. For sound waves, greater amplitude corresponds to greater intensity and thus greater perceived loudness.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_84",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The **centre of mass** of a system is defined as the single point at which the entire:",
+      "options": [
+        "Volume is concentrated.",
+        "Momentum is zero.",
+        "Mass of the system can be considered to be concentrated.",
+        "Potential energy is zero."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The centre of mass is the average position of all parts of the system, weighted by their mass, and is the point where the net force effectively acts.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_85",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "What is the correct SI unit for **Kinetic Energy**?",
+      "options": [
+        "Newton (N)",
+        "Watt (W)",
+        "Joule (J)",
+        "Pascal (Pa)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Energy, regardless of its form (kinetic, potential, or internal), is measured in Joules (J).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_86",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Which law relates the integral of the magnetic field around a closed loop to the current passing through the loop?",
+      "options": [
+        "Faraday's Law",
+        "Lenz's Law",
+        "Ampere's Law",
+        "Biot-Savart Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ampere's Law relates the line integral of the magnetic field around a closed path to the total current passing through the enclosed area.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_87",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "The minimum number of XOR gates required to construct a simple two-input Half Adder circuit is:",
+      "options": [
+        "Zero.",
+        "One.",
+        "Two.",
+        "Three."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A Half Adder requires one XOR gate for the Sum output (S = A ⊕ B) and one AND gate for the Carry output (C = A · B).\n Therefore, one XOR gate is required.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_88",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Lenz's Law is a direct consequence of the physical principle of conservation of:",
+      "options": [
+        "Momentum",
+        "Charge",
+        "Energy",
+        "Mass"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Lenz's Law states that the induced current flows in a direction that opposes the change in magnetic flux that produced it. \n\nThis opposition requires work to be done, which is then converted into the induced electrical energy, thus conserving the total energy of the system.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_89",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "What is the primary physical phenomenon that causes a star to be stable against its own powerful gravitational collapse?",
+      "options": [
+        "Electromagnetic attraction",
+        "Buoyancy in space",
+        "Outward pressure from nuclear fusion and gas heating",
+        "Atmospheric pressure"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A star is held in hydrostatic equilibrium by a balance between the inward gravitational force and the immense **outward pressure** generated by the heat from nuclear fusion in its core.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_90",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The total time of flight of a projectile launched at 30° from the ground is 4 s. What is the time it takes to go from its maximum height back to the ground?",
+      "options": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_91",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "What is the total angular displacement of an object that completes 5 revolutions?",
+      "options": [
+        "5 rad",
+        "10 rad",
+        "5π rad",
+        "10π rad"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "One revolution is 2π radians.\n 5 revolutions is 5 * 2π =\n 10π radians.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_92",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "In the human ear, the air vibrations (sound waves) are first converted into mechanical vibrations by which part?",
+      "options": [
+        "The cochlea",
+        "The auditory nerve",
+        "The eardrum",
+        "The semicircular canals"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "When sound waves reach the ear, they cause the eardrum to vibrate.\n\n This mechanical vibration is then transmitted through the small bones of the middle ear.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_93",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The magnetic field lines are closest together at the poles of a magnet. This indicates that the magnetic field is:",
+      "options": [
+        "Weaker at the poles",
+        "Stronger at the poles",
+        "Non-existent at the poles",
+        "Uniform throughout the magnet"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The density of magnetic field lines represents the strength of the magnetic field.\n\n Where the lines are closer together, the field is stronger, which is the case at the poles.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_94",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an advantage of semiconductor electronic devices over vacuum tubes?",
+      "options": [
+        "Smaller size and weight.",
+        "Lower operating voltage.",
+        "Lower power consumption.",
+        "Higher maximum operating temperature."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Semiconductor devices, particularly silicon, have a much lower maximum operating temperature (junction temperature) compared to vacuum tubes, which operate at high heat.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_95",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "If a pentavalent dopant atom is placed in a silicon crystal, its extra electron is said to be in the:",
+      "options": [
+        "Acceptor level.",
+        "Donor level.",
+        "Valence band.",
+        "Conduction band."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The extra electron from the pentavalent donor atom occupies an energy level (the donor level) just below the conduction band.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_96",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The direction of the centripetal force changes continuously in uniform circular motion. Therefore, centripetal force is a:",
+      "options": [
+        "Conservative force.",
+        "Non-conservative force.",
+        "Constant force.",
+        "Variable force."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Although the magnitude F_c = mv²/r is constant, the direction of the force is continuously changing (towards the center).\n\n A force that changes direction is a variable force.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_97",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "If a step-down transformer has 100 turns in the primary coil and 25 turns in the secondary coil. If the primary voltage is 200 V, what is the secondary voltage?",
+      "options": [
+        "800 V",
+        "50 V",
+        "100 V",
+        "25 V"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The voltage ratio is V secondary / V primary = N secondary / N primary.\n\n V secondary = V primary x (N secondary / N primary). \nV secondary = 200 V x (25 / 100) =\n 200 V x (1/4) =\n 50 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_98",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "When a P-N junction is formed, an electric field is created in the depletion region. The direction of this field is from:",
+      "options": [
+        "P-side to N-side.",
+        "N-side to P-side.",
+        "Parallel to the junction.",
+        "It is a zero field."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The depletion region contains fixed positive ions on the N-side and fixed negative ions on the P-side.\n\n The electric field lines run from the positive ions (N-side) to the negative ions (P-side).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_99",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The angular acceleration (α) of a rigid body rotating about a fixed axis is defined as the time rate of change of:",
+      "options": [
+        "Angular displacement",
+        "Angular velocity",
+        "Tangential velocity",
+        "Centripetal acceleration"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Angular acceleration is the time derivative of angular velocity, just as linear acceleration is the time derivative of linear velocity.\n α = dω/dt.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g12_merged_melmeja_100",
+      "examId": "p2014_g12_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "A body is in unstable equilibrium when a slight displacement results in its center of mass:",
+      "options": [
+        "Moving to a lower position, increasing stability.",
+        "Moving to a higher position, causing it to continue to fall away from the original position.",
+        "Remaining at the same position.",
+        "Having its kinetic energy conserved."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In unstable equilibrium, any small perturbation raises the center of mass, causing the torque due to gravity to act to further increase the displacement, making the body tip over.",
       "topic": "Physics"
     }
   ]

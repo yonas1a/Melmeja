@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 11",
-  "description": "Comprehensive examination bank combining 13 chapters (49 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 74,
-  "totalQuestions": 49,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 13 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -821,6 +821,830 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "CT scans take multiple successive cross-sectional X-ray images from different angles to construct 3D cross-sectional views, whereas a conventional X-ray produces a single 2D shadow image.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_50",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "A substance's phase diagram shows three lines intersecting at a single point. This point represents the:",
+      "options": [
+        "Boiling point at standard pressure.",
+        "Critical point.",
+        "Triple point.",
+        "Fusion curve."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The intersection of the solid-liquid, liquid-vapor, and solid-vapor phase boundaries defines the triple point, where all three phases coexist.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_51",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "If friction is zero, mechanical energy:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Is conserved",
+        "Becomes zero"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Without non-conservative forces, total mechanical energy remains constant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_52",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "A particle starts from rest with uniform acceleration a = 5 m/s². Distance covered in 3 s:",
+      "options": [
+        "15 m",
+        "22.5 m",
+        "25 m",
+        "30 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "s = 0 + ½*5*9 = 22.5 m",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_53",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Instantaneous speed differs from average speed because:",
+      "options": [
+        "It is measured over a long interval",
+        "It is measured at a specific instant",
+        "It is always zero",
+        "It ignores displacement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Instantaneous speed is the magnitude of instantaneous velocity at a given instant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_54",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Linear momentum has units of:",
+      "options": [
+        "kg·m/s",
+        "N·s",
+        "Both kg·m/s and N·s",
+        "Joule"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Momentum = mass × velocity; kg·m/s = N·s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_55",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Velocity in uniform circular motion is:",
+      "options": [
+        "Constant magnitude, changing direction",
+        "Zero",
+        "Constant direction",
+        "Increasing magnitude"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Speed constant, velocity direction changes",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_56",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "If two vectors are parallel but opposite in direction, resultant is:",
+      "options": [
+        "Sum of magnitudes",
+        "Difference of magnitudes",
+        "Zero",
+        "Equal to either vector"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Resultant = |A - B| for opposite direction vectors.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_57",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A ball thrown up at 15 m/s. Velocity at 1 s (g =10 m/s²):",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "v = u - gt = \n15 - 10*1 = 5 m/s. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_58",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Vector A = 5i + 12j, B = 12i - 5j. Find |A × B|.",
+      "options": [
+        "169",
+        "144",
+        "125",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A × B = 5*(-5) - 12*12 =\n -25-144=-169, magnitude=169",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_59",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "A particle accelerates from 10 m/s to 30 m/s in 5 s. Acceleration is:",
+      "options": [
+        "5 m/s²",
+        "6 m/s²",
+        "4 m/s²",
+        "8 m/s²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a = (v-u)/t = (30-10)/5 = 4 m/s²",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_60",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A 1 kg object is lifted 10 m vertically. Find work done by gravity.",
+      "options": [
+        "10 J",
+        "-100 J",
+        "0 J",
+        "100 J"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Work done by gravity W = -mgh = \n-1*10*10 =\n -100 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_61",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Equation s = ut + ½ at² is derived using:",
+      "options": [
+        "Integration of velocity",
+        "Differentiation of displacement",
+        "Graphical method",
+        "Circular motion principles"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrating velocity v = u + at over time gives s = ut + ½ at².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_62",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "29. A glass tube of radius $30 \\text{ mm}$ is inserted in a bowl which contains methyl iodide of density $2.28 \\text{ g/cm}^3$. If the contact angle of the methyl iodide in the tube is $30^{\\circ}$ and the surface tension is $0.26 \\text{ N/m}$, how much height does the methyl iodide rises through the tube?",
+      "options": [
+        "0.66 m",
+        "0.52 m",
+        "0.066 m",
+        "6.6 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The capillary rise ($h$) is given by Jurin's Law: $h = \\frac{2\\gamma \\cos\\theta}{\\rho g r}$.\n\n1.  **Convert to SI units:**\n    * Radius $r = 30 \\text{ mm} = 0.030 \\text{ m}$.\n    * Density $\\rho = 2.28 \\text{ g/cm}^3 = 2280 \\text{ kg/m}^3$.\n\n2.  **Calculate $h$ (using stated values):**\n    $$h = \\frac{2(0.26 \\text{ N/m}) \\cos(30^{\\circ})}{(2280 \\text{ kg/m}^3)(9.8 \\text{ m/s}^2)(0.030 \\text{ m})}$$ \n    $$h \\approx \\frac{0.4503}{670.32} \\approx 0.000672 \\text{ m}$$\n\n*Note: The calculated value is $0.672 \\text{ mm}$, which does not match the options. The closest plausible result that matches an option (C) is obtained if we assume the radius was mistyped and should have been $r = 0.3 \\text{ mm}$ ($0.0003 \\text{ m}$), which yields $h \\approx 0.067 \\text{ m}$ (or $6.7 \\text{ cm}$) a better fit for $0.066 \\text{ m}$*.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_63",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Two coplanar forces act on a uniform beam as shown in the figure below. The moment of force on the beam is",
+      "imageUrl": "images/P2015_15.png",
+      "diagramUrl": "images/P2015_15.png",
+      "options": [
+        "48.0 N.m",
+        "12.0 N.m",
+        "30.0 N.m",
+        "24.0 N.m"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_64",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "The momentum of a body is:",
+      "options": [
+        "m × v",
+        "m × a",
+        "F × t",
+        "1/2 m v²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Momentum p = mass × velocity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_65",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of an electric fuse in a household circuit?",
+      "options": [
+        "To increase the overall voltage.",
+        "To decrease the total power consumption.",
+        "To prevent excessive current flow.",
+        "To change AC to DC."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A fuse is a safety device that melts and breaks the circuit when the current exceeds a predetermined safe value, thus preventing damage from overheating.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_66",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Time to reach maximum height is half of:",
+      "options": [
+        "Total time of flight",
+        "Displacement",
+        "Initial velocity",
+        "Acceleration"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "t_max = total flight time /2",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_67",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "42. Which of the following is correct about impulse?",
+      "options": [
+        "During momentum change final momentum of an object is along the impulse on the object.",
+        "The direction of the impulse is in the same direction to change in the momentum of the object.",
+        "The impulse is smaller than change of momentum which caused by the applied force.",
+        "Impulse due to a force exerted for short time is equal to impulse due to the same force exerted for a long time."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "According to the **Impulse-Momentum Theorem**, the **Impulse** ($\\mathbf{J}$) exerted on an object is equal to the **change in its momentum** ($\\Delta\\mathbf{p}$). Since both are vector quantities, their directions must be the same: $\\mathbf{J} = \\Delta\\mathbf{p}$. .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_68",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A body of mass 4 kg moves at 6 m/s. Calculate its kinetic energy.",
+      "options": [
+        "72 J",
+        "36 J",
+        "144 J",
+        "12 J"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "KE = 1/2 m v² =\n 0.5*4*6² =\n 72 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_69",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "In a series connection of capacitors, which quantity is the same for all capacitors?",
+      "options": [
+        "Potential difference.",
+        "Charge.",
+        "Energy stored.",
+        "Capacitance."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a series connection, the charge Q that flows from the battery is stored on every plate of every capacitor: Q_1 = Q_2 = Q_total.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_70",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Water flows at the rate of 500.0 cm³/s at small cross-section 5 cm². The larger cross-section is 25 cm². What is the ratio of the speed of the water at A1 (v1) to A2 (v2)?",
+      "imageUrl": "images/P2015_16.png",
+      "diagramUrl": "images/P2015_16.png",
+      "options": [
+        "5",
+        "100",
+        "0.2",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_71",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Two vectors of magnitudes 6 and 8 units are perpendicular. Resultant magnitude is:",
+      "options": [
+        "14",
+        "10",
+        "2",
+        "48"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = √(6² + 8²) = √(36+64) =\n √100 = 10.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_72",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "A uniform electric field of 500 N/C exists between two parallel plates separated by 2.0 cm. What is the potential difference between the plates?",
+      "options": [
+        "10000 Volt",
+        "1000 Volt",
+        "100 Volt",
+        "10 Volt"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The relationship between uniform electric field and potential difference is V = E d. \n\nV = (500 N/C) x (0.02 m) = 10 Volt.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_73",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "What is the SI unit of thermal conductivity (k)?",
+      "options": [
+        "Joule per kilogram Kelvin (J/(kg K))",
+        "Watt per meter Kelvin (W/(m K))",
+        "Joule per second (J/s)",
+        "Watt per square meter Kelvin (W/(m squared K))"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_74",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A 10 kg object is sliding on a horizontal surface with μ = 0.2. Find the frictional force. (g = 10 m/s²)",
+      "options": [
+        "10 N",
+        "20 N",
+        "15 N",
+        "25 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Friction f = μN = μmg = \n0.2*10*10 = \n20 N  .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_75",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an explicitly mentioned benefit of physics communities like the African Association of Physics Students (aaps)?",
+      "options": [
+        "To supplement physics education with an international scientific experience.",
+        "To promote relations between physics students worldwide.",
+        "To lobby governments for increased science funding.",
+        "To encourage physics students in their scientific and professional work."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "While physics communities likely engage in lobbying, the explicitly stated purpose of aaps includes supplementing education, promoting relations between students worldwide, and encouraging professional work, but not government lobbying.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_76",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "In v-t graph, slope represents:",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Velocity",
+        "Time"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Slope of velocity-time graph = acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_77",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "In the equation E = V/d, for a uniform electric field, the unit of V/d is:",
+      "options": [
+        "Volt meter (V m)",
+        "Newton (N)",
+        "Volt per meter (V/m)",
+        "Joule (J)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The electric field E is measured in Newton per Coulomb (N/C), which is dimensionally equivalent to Volt per meter (V/m).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_78",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "A 20 microFarad capacitor is charged to 100 Volt. How much energy is stored in the capacitor?",
+      "options": [
+        "0.1 Joule",
+        "0.2 Joule",
+        "1.0 Joule",
+        "2.0 Joule"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Energy U = 1/2 C V². \n\nU = 1/2 (20 x 10^-6 F) (100 V)^2 \n= 0.1 Joule.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_79",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "The specific heat capacity of a material measured in J/(g degree C) is numerically the same as when measured in:",
+      "options": [
+        "J/(kg K)",
+        "J/(g K)",
+        "kJ/(kg K)",
+        "kJ/(g K)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since 1 degree C temperature change is equal to 1 Kelvin temperature change, J/(g degree C) is numerically the same as J/(g K).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_80",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Three forces of equal magnitude F are exerted at the center of a uniform beam of length L and negligible mass. The net torques on the beam about an axis parallel to the z-axis and passing through point A, B, and O, respectively, which one of the following expressions is correct?",
+      "imageUrl": "images/P2014_44.png",
+      "diagramUrl": "images/P2014_44.png",
+      "options": [
+        "τA = τB = τO = 0",
+        "τA > τB > τO",
+        "τA < τB < τO",
+        "τO = 0, τA > τB"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "τ_net = r × Fnet = r × 0 = 0",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_81",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "What is a beta minus particle?",
+      "options": [
+        "positron",
+        "An anti-neutrino",
+        "An electron",
+        "proton"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A beta minus particle is a high-speed electron emitted from the nucleus when a neutron decays into a proton.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_82",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The first condition of equilibrium ensures:",
+      "options": [
+        "Zero power",
+        "Translational equilibrium",
+        "Constant speed",
+        "Rotational equilibrium"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First condition guarantees that ΣF = 0; body does not translate.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_83",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "The ability of a country to develop infrastructure for trade and industry is directly linked to the development of its human capital in science and engineering by:",
+      "options": [
+        "Religious leaders.",
+        "Accountants.",
+        "Scientists and engineers.",
+        "Political scientists."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Through its scientists and engineers, a country is able to develop infrastructure for trade and industry.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_84",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which law states that the heat energy lost from the hot body will equal the heat gained by the cold body in an isolated system?",
+      "options": [
+        "Newton's Law of Cooling",
+        "Law of Conservation of Momentum",
+        "Law of Calorimetry",
+        "Wien's Displacement Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Law of Calorimetry is the application of the principle of conservation of energy to heat exchange problems.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_85",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The process where a nucleus captures an orbital electron, turning a proton into a neutron, is called:",
+      "options": [
+        "Alpha decay",
+        "Gamma decay",
+        "Electron capture",
+        "Nuclear fission"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Electron capture is a mode of decay where an inner orbital electron is captured by the nucleus, resulting in the atomic number Z decreasing by 1 and the mass number A remaining the same.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_86",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Consider a system of two point masses M1 and M2 with M2 = 0.5 M1. The two masses are located on the x-y plane as shown in the figure below. Which one of the following alternatives indicates the position of **center of mass** of the system? (Q5)",
+      "imageUrl": "images/P2015_5.png",
+      "diagramUrl": "images/P2015_5.png",
+      "options": [
+        "(5, 4) cm",
+        "(5/3, 4) cm",
+        "(16/3,11/3) cm",
+        "(5/3, 6/3) cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_87",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "In free fall, time of descent from height h is independent of:",
+      "options": [
+        "Gravity",
+        "Height",
+        "Air resistance",
+        "Mass"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All bodies fall with same g irrespective of mass.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_88",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "A 30kg rigid body has a moment of inertia 45 kgm² about its center of mass. What is the moment of inertia when it rotates through an axis 2m away and parallel to the axis through the center of mass?",
+      "options": [
+        "90 kgm²",
+        "165 kgm²",
+        "180 kgm²",
+        "105 kgm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the parallel axis theorem: I = I_cm + Md²\n\nWhere:-  I_cm = 45 kg·m² (moment of inertia about center of mass)\n\n- M = 30 kg (mass of the body)\n\n- d = 2 m (distance between axes)\n\nI = 45 + 30*(2)² = 45 + 30*4 = 45 + 120 = 165 kg·m²\n\nTherefore, the moment of inertia about the new axis is 165 kg·m².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_89",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "The existence of modern conveniences such as computers, television, and phones is fundamentally dependent on early discoveries in physics, particularly in the areas of:",
+      "options": [
+        "Gravity and thermodynamics.",
+        "Fluid dynamics and optics.",
+        "Magnetism, electricity, and conductors.",
+        "Nuclear physics and quantum theory."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Discoveries such as magnetism, electricity, and conductors laid the foundation on which current technologies like television, computers, and phones were developed, making these modern conveniences possible.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_90",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "The primary interaction mechanism between gamma rays and matter at low energy is:",
+      "options": [
+        "Compton scattering",
+        "Pair production",
+        "Photoelectric effect",
+        "Nuclear capture"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The photoelectric effect, where a gamma ray transfers all its energy to an atomic electron, is the dominant interaction at low gamma ray energies.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_91",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "What happens to the total number of nucleons (mass number A) during gamma decay?",
+      "options": [
+        "It increases by 1",
+        "It decreases by 2",
+        "It decreases by 1",
+        "It remains the same"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Gamma decay involves the emission of a photon to release excess energy.\n\n It does not change the composition (protons or neutrons) of the nucleus, so A and Z remain the same.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_92",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Tensile stress is the ",
+      "options": [
+        "parallel component of the applied force divided by the cross sectional area on an object.",
+        "ratio of change in length of an object to the original length.",
+        "perpendicular component of the applied force divided by the cross sectional area of an object.",
+        "ratio of original length to the change in length of the object."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Tensile stress is defined as the force applied perpendicular to the cross-sectional area of an object divided by that area.\n\n It measures how much internal resisting force per unit area develops when the object is subjected to stretching. \n\nHence, it is the perpendicular component of the applied force divided by the cross-sectional area.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_93",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "What is the physical quantity that is conserved during a phase change?",
+      "options": [
+        "Temperature",
+        "Density",
+        "Pressure",
+        "Specific heat capacity"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "During a phase change, the temperature remains constant, even though heat energy is being continuously added or removed.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_94",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "The electric flux through a closed surface depends only on the net charge enclosed. This is a statement of:",
+      "options": [
+        "Coulomb's Law",
+        "Gauss's Law",
+        "Ohm's Law",
+        "Kirchhoff's Junction Rule"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Gauss's Law states that the total electric flux through any closed surface is equal to Q_enclosed / epsilon_naught.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_95",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Two capacitors, C1 = 2 microFarad and C2 = 4 microFarad, are connected in series. What is the equivalent capacitance?",
+      "options": [
+        "6 microFarad",
+        "1.33 microFarad",
+        "0.67 microFarad",
+        "8 microFarad"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In series: 1/C_eq = 1/C1 + 1/C2 = \n1/2 + 1/4 = 3/4.\n\n C_eq = 4/3 microFarad approx 1.33 microFarad.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_96",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A 5 kg object is moving at 4 m/s. Its momentum is:",
+      "options": [
+        "20 kg·m/s",
+        "9 kg·m/s",
+        "10 kg·m/s",
+        "5 kg·m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Momentum p = mv = 5*4 = 20 kg·m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_97",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Vector A = 1i + 2j, B = 2i + 1j. Find A·B.",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A·B = 1*2 + 2*1 =\n 2 + 2 =\n 4",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_98",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Mechanical energy is conserved when:",
+      "options": [
+        "Friction is present",
+        "Only conservative forces act",
+        "External forces act",
+        "Power is applied"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mechanical energy is conserved in the absence of non-conservative forces like friction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_99",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The scientific method requires that experimental results be reproducible and verifiable. This directly addresses the potential unreliability of which source of experiential knowledge?",
+      "options": [
+        "Sensory perception (due to observer bias).",
+        "Memory (due to its recording function).",
+        "Introspection (due to personal description).",
+        "Testimony (due to author integrity)."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The scientific method provides a rigorous structure to test observations. Sensory perception is susceptible to individual error ('critical question' is raised immediately after its mention), which the scientific method attempts to correct through structured, repeatable experiments.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g11_merged_melmeja_100",
+      "examId": "p2018_g11_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "58. A block of mass $20 \\text{ kg}$ is pushed horizontally, at constant speed, along a rough horizontal floor over a distance of $5 \\text{ m}$. If coefficient of kinetic friction between the block and the surface is $0.4$, what is the amount of work done by friction?",
+      "options": [
+        "-40 J",
+        "-400 J",
+        "-1000 J",
+        "-100 J"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Work done by friction ($W_f$) is given by $W_f = F_f d \\cos(\\theta)$. Since friction opposes motion, $\\theta = 180^{\\circ}$, so $W_f = -F_f d$. \n\n1.  **Friction Force ($F_f$):** $F_f = \\mu_k N = \\mu_k m g$ (since $N=mg$ on a horizontal surface). \n$$F_f = (0.4) \\times (20 \\text{ kg}) \\times (10 \\text{ m/s}^2) = 80 \\text{ N}$$\n2.  **Work Done:**\n$$W_f = -(80 \\text{ N}) \\times (5 \\text{ m}) = -400 \\text{ J}$$",
       "topic": "Physics"
     }
   ]

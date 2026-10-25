@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 11",
-  "description": "Comprehensive examination bank combining 8 chapters (17 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 17,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 8 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -297,6 +297,1336 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Given: ρ = 1080 kg/m³, h = 2.1 cm = 0.021 m, r = 1.0 mm / 2 = 0.0005 m, g = 9.8 m/s², contact angle θ = 0°. \n\nCapillary rise formula: h = 2T cosθ / (ρ g r) → T = (h ρ g r) / (2 cosθ).\n\n Substituting: T = (0.021 * 1080 * 9.8 * 0.0005) / 2 ≈ 0.0557 ≈ 0.0567 N/m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_18",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "A person sitting next to a fireplace receives the most heat by which mechanism?",
+      "options": [
+        "Conduction through the floor.",
+        "Convection from the heated air.",
+        "Radiation from the flames.",
+        "Conduction and convection equally."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since the person is in the line of sight of the fire and the heated air tends to rise, the largest amount of heat received directly from the flames is through thermal radiation.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_19",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "A particle in free fall for 4 s (g = 10 m/s²) reaches velocity:",
+      "options": [
+        "20 m/s",
+        "30 m/s",
+        "40 m/s",
+        "50 m/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "v = gt = 10*4 = 40 m/s",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_20",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If a government seeks to improve its global economic standing, it should prioritize investments in human capital development in science and engineering because:",
+      "options": [
+        "These fields are the cheapest to fund.",
+        "Only science graduates can work in finance.",
+        "These fields have no link to the global economy.",
+        "These fields directly lead to infrastructure development for trade and industry."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The future of any country and its contribution to the global economy is linked to its ability to develop its human capital in the field of science and engineering, which enables infrastructure development for trade and industry.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_21",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Time of flight for vertical motion depends on:",
+      "options": [
+        "Initial velocity and gravity",
+        "Mass of particle",
+        "Radius of motion",
+        "Air pressure"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Time of flight t = 2u/g, depends only on initial velocity and g.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_22",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Maximum height in vertical motion depends on:",
+      "options": [
+        "Acceleration only",
+        "Initial velocity only",
+        "Initial velocity and acceleration",
+        "Mass of particle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "h = u²/(2g), depends on initial velocity u and acceleration g.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_23",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Vertical motion upward with initial velocity u. Time to reach ground:",
+      "options": [
+        "u/g",
+        "2u/g",
+        "u/2g",
+        "u/4g"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Time of flight = 2u/g",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_24",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "In the construction of physics knowledge, which of the following is considered a source of experiential knowledge?",
+      "options": [
+        "Developing a mathematical model from first principles.",
+        "Recalling the outcome of a past laboratory experiment.",
+        "Formulating a new hypothesis based on a logical deduction.",
+        "Deriving a physical law from an axiom."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Memory is one of the four types of experimental knowledge (along with Sensory Perception, Introspection, and Testimony).\n\n A memory is like a recording device that captures events that one can experience.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_25",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Graphical representation of acceleration-time graph for uniform acceleration is:",
+      "options": [
+        "Horizontal line",
+        "Sloped line",
+        "Parabola",
+        "Hyperbola"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For uniform acceleration, a-t graph is a horizontal line.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_26",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Maximum height of above ball:",
+      "options": [
+        "25 m",
+        "20 m",
+        "10 m",
+        "15 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "h = u²/2g = 400/20 = 20 m",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_27",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "What is the most direct application of physics principles in the medical field of Laser Surgery?",
+      "options": [
+        "The physics of light and optics.",
+        "Nuclear fusion.",
+        "Newton's laws of motion.",
+        "Thermodynamics."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Laser surgery is a medical application of physics. Lasers are devices that use the principles of quantum mechanics and optics (the physics of light) to produce highly concentrated light beams.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_28",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which area of physics career awareness is most concerned with the study of the Earth's physical properties, using principles like seismology, gravity, and magnetism?",
+      "options": [
+        "Nuclear Physics.",
+        "Geophysics.",
+        "Medical Physics.",
+        "Astro-Physics."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Geophysics is explicitly listed as a career area, which is the field dedicated to the physics of the Earth, including seismology and related phenomena.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_29",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "The first condition of equilibrium deals with:",
+      "options": [
+        "Sum of torques is zero",
+        "Velocity is constant",
+        "Power is zero",
+        "Sum of forces is zero"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "First condition: ΣF = 0 for translational equilibrium.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_30",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": " A 50 kg box placed on a smooth horizontal x-y plane is acted up on by two forces, which have magnitudes F₁ = 25 N and F₂ = 120 N. F₁ acts on the box in the direction of negative x-axis and F₂ acts on the box in the direction of 53° above the positive x-axis. What are the magnitudes of x and y components of the resultant force acting on the box, respectively?",
+      "options": [
+        "72 N, 96 N",
+        "47 N, 96 N",
+        "145 N, 72 N",
+        "96 N, 47 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "F₁ acts along the negative x-axis, so its components are F₁x = -25 N and F₁y = 0 N.\n\n F₂ acts at 53° above the positive x-axis, so its components are F₂x = 120 cos(53°) ≈ 120(0.6) = 72 N and F₂y = 120 sin(53°) ≈ 120(0.8) = 96 N.\n\n The resultant force components are the sums of these individual components:\n\n Rx = F₁x + F₂x =\n\n -25 + 72 = 47 N, \n\nand Ry = F₁y + F₂y =\n\n 0 + 96 =\n\n 96 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_31",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a primary way that physics contributes to the technological infrastructure of a country?",
+      "options": [
+        "Providing funding for new business ventures.",
+        "Collecting and analyzing global financial data.",
+        "Enforcing international trade agreements.",
+        "Training personnel needed to utilize scientific advances."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Physics contributes to the technological infrastructure and provides trained personnel needed to take advantage of scientific advances and discoveries.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_32",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "In a series connection of capacitors, which quantity is the same for all capacitors?",
+      "options": [
+        "Potential difference.",
+        "Charge.",
+        "Energy stored.",
+        "Capacitance."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a series connection, the charge Q that flows from the battery is stored on every plate of every capacitor: Q_1 = Q_2 = Q_total.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_33",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Which physics career area is primarily concerned with the observation and understanding of stars and other celestial bodies?",
+      "options": [
+        "Engineering.",
+        "Geophysics.",
+        "Astronomy.",
+        "Meteorology."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The text mentions 'Physics careers in space and astronomy', indicating that astronomy is a career path for physicists involving the observation of stars through telescopes.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_34",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "If an object has a heat capacity of 500 Joule per Kelvin, how much heat is required to raise its temperature by 10 Kelvin?",
+      "options": [
+        "50 Joule",
+        "500 Joule",
+        "5,000 Joule",
+        "50,000 Joule"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Heat required (Q) = Heat Capacity (C) multiplied by temperature change (Delta T).\n\n Q = 500 J/K * 10 K = 5000 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_35",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which of the following best describes the fundamental role of physics in driving a country's economic growth?",
+      "options": [
+        "Providing skilled labor for agricultural production.",
+        "Generating fundamental knowledge necessary for future technological advances.",
+        "Directly managing financial and communication sectors.",
+        "Developing sophisticated weaponry for national security."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics is a key driver of economic growth by generating the fundamental knowledge that forms the basis for future technological advances and innovations, which subsequently power economic engines worldwide.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_36",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "A key role of physics is providing fundamental knowledge for understanding nature. What kind of knowledge is provided for the development of technology?",
+      "options": [
+        "Theoretical knowledge.",
+        "Applied knowledge.",
+        "Hypothetical knowledge.",
+        "Philosophical knowledge."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics is important in providing fundamental knowledge for understanding nature, and in providing applied knowledge for the development of technology.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_37",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "A charged particle with charge 2e is accelerated from rest through a potential difference of V. What is its final kinetic energy?",
+      "options": [
+        "eV / 2",
+        "2e V",
+        "V",
+        "V / 2e"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The change in kinetic energy equals the work done by the electric field, which is W = qV. Here, the charge q = 2e, so the kinetic energy gained is KE = 2e V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_38",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "In a parallel plate capacitor, a dielectric is inserted while the battery is disconnected. Which quantity remains unchanged?",
+      "options": [
+        "Capacitance",
+        "Voltage",
+        "Charge",
+        "Electric Field"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since the capacitor is disconnected from the battery, it is isolated, and the charge Q on the plates must be conserved (remain unchanged).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_39",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "A force of 50 N is applied at angle 60° to move 4 m. Find work done.",
+      "options": [
+        "200 J",
+        "50 J",
+        "25 J",
+        "100 J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Work = F cosθ * d = \n50*0.5*4 =\n 100 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_40",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true for the internal energy of a system?",
+      "options": [
+        "It is a state function (depends only on the state of the system).",
+        "It is energy in transit.",
+        "It only depends on the kinetic energy of the molecules.",
+        "It is always positive."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Internal energy is a property of the system's state (a state function), independent of how the system reached that state.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_41",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "What is the work done by the electric field when a charge is moved along an equipotential surface?",
+      "options": [
+        "Non-zero and positive.",
+        "Non-zero and negative.",
+        "Zero.",
+        "Depends on the magnitude of the charge."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Work done W = -q Delta V.\n\n Since the potential difference (Delta V) between any two points on an equipotential surface is zero, the work done is zero.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_42",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Equation for circular motion relating speed, radius, and acceleration:",
+      "options": [
+        "= v²/r",
+        "= vr",
+        "v = a/r",
+        "= r/v²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Centripetal acceleration a_c = v²/r",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_43",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "Equation s = ut + ½ at² is valid for:",
+      "options": [
+        "Uniform acceleration",
+        "Variable acceleration",
+        "Circular motion",
+        "Oscillatory motion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Equation valid only for uniform acceleration",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_44",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Velocity at maximum height in vertical motion is:",
+      "options": [
+        "u",
+        "g",
+        "0",
+        "v"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vertical velocity = 0 at max height",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_45",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "The use of physics in the development of technological advancements to decrease damage to the planet relates most directly to which global challenge?",
+      "options": [
+        "International security.",
+        "Climate change.",
+        "Data extraction.",
+        "Financial instability."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics and technology work together to resolve the need for new technologies that will decrease the damage to our planet, directly relating to environmental concerns and climate change.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_46",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "A 100 W electrical heater runs for 5 minutes (300 seconds). How much heat energy is supplied to a metal block in Joules?",
+      "options": [
+        "3,000 Joule",
+        "5,000 Joule",
+        "15,000 Joule",
+        "30,000 Joule"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Heat Supplied (Q) = Power (P) multiplied by time (t).\n Time in seconds is 5 min * 60 s/min = 300 s.\n Q = 100 W * 300 s = \n30,000 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_47",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Centripetal force is required because:",
+      "options": [
+        "To increase speed",
+        "To change direction",
+        "To stop motion",
+        "To reduce radius"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Centripetal force changes direction of velocity vector",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_48",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "At the critical point on a phase diagram, which of the following occurs?",
+      "options": [
+        "The solid and liquid phases merge.",
+        "All three phases coexist in equilibrium.",
+        "The liquid and gaseous phases merge into a single phase.",
+        "The substance undergoes sublimation."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The critical point is the temperature and pressure where the liquid and gaseous phases of a substance become indistinguishable, merging into a single fluid phase.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_49",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "The coefficient of area expansion (beta) for an anisotropic solid is:",
+      "options": [
+        "2 * alpha",
+        "alpha_x + alpha_y",
+        "alpha_x * alpha_y",
+        "alpha_x + alpha_y + alpha_z"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_50",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Physics is a major driver of innovation and economic growth in sectors ranging from energy and security to data extraction and analysis. This broad influence makes physics a key element in the global:",
+      "options": [
+        "Legal framework.",
+        "Cultural history.",
+        "Economic engines.",
+        "Political systems."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Physics generates fundamental knowledge needed for future technological advances that will continue to drive the economic engines of the world.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_51",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Energy stored due to position is called:",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Mechanical energy",
+        "Work"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Potential energy depends on position or configuration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_52",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements about 'Non-Experiential Knowledge' is most accurate in the context of physics knowledge creation?",
+      "options": [
+        "It is always less reliable than sensory perception.",
+        "It is derived purely from mathematical calculation and logical reasoning.",
+        "It is primarily gained through memory and testimony.",
+        "It can only be generated through introspection."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The text lists Non-Experiential Knowledge separately from the four sources of Experimental Knowledge (Sensory Perception, Introspection, Memory, Testimony), implying it relates to concepts or reasoning not directly perceived, such as logical or mathematical deduction, which is a key part of physics theory. (It refers to knowledge gained by reasoning rather than observation).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_53",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "The learning of physics is stated to play a role in providing intellectual satisfaction to the individual. This relates most closely to which aspect of the 'Making of Physics Knowledge'?",
+      "options": [
+        "The commercial applications of discoveries.",
+        "The role of human curiosity and understanding nature.",
+        "The process of memory and testimony.",
+        "The organizational structure of physics communities."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "One of the learning objectives of the 'Making of Physics Knowledge' section is to discuss the roles that the learning of physics plays to the individual intellectual satisfaction, which is intrinsically linked to the quest for understanding nature and the universe.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_54",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "The resistivity of a conductor is:",
+      "options": [
+        "Dependent on its length and cross-sectional area.",
+        "Independent of its temperature.",
+        "constant for a given material and temperature.",
+        "The reciprocal of resistance."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Resistivity (rho) is an intrinsic property of the material.\n\n It depends on the type of material and temperature, but not on the geometry (length or area) of the sample.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_55",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is considered the dominant source of experiential knowledge?",
+      "options": [
+        "Introspection.",
+        "Memory.",
+        "Testimony.",
+        "Sensory perception."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Sensory perception (seeing, touching, hearing, etc.) is described as perhaps the dominant source of experiential knowledge.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_56",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "A 0.5 kg sample of metal is heated with a 20 W heater for 10 minutes. If the temperature rise is 40 K, what is the specific heat capacity of the metal?",
+      "options": [
+        "60 J/(kg K)",
+        "600 J/(kg K)",
+        "120 J/(kg K)",
+        "1,200 J/(kg K)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_57",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A 100 Watt light bulb operates on a 220 Volt line. What is the resistance of the bulb?",
+      "options": [
+        "484 Ohm",
+        "2.2 Ohm",
+        "22000 Ohm",
+        "48.4 Ohm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Power P = V² / R. \n\nR = V² / P.\n\n R = (220 V)² / 100 W = \n\n48400 / 100 = 484 Ohm.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_58",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "If two bodies are in thermal equilibrium, which of the following statements is true?",
+      "options": [
+        "They must have the same internal energy.",
+        "They must have the same heat content.",
+        "They must have the same mass and temperature.",
+        "They must have the same temperature."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Two bodies are in thermal equilibrium if they are in thermal contact and there is no net exchange of heat between them, which requires them to have the same temperature.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_59",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Which of the following materials is typically used as a dielectric in a capacitor?",
+      "options": [
+        "Copper",
+        "Air",
+        "Graphite",
+        "Iron"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A dielectric is an electrical insulator. \n\nAir, paper, or plastic are common dielectrics.\n\n Copper, graphite, and iron are conductors.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_60",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Physics is necessary for understanding the Earth and its systems. Which related science is mentioned as being enhanced by physics?",
+      "options": [
+        "Earth sciences.",
+        "Animal husbandry.",
+        "Music theory.",
+        "Theology."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Physics extends and enhances our understanding of Earth sciences.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_61",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "What is the temperature and pressure combination at which the solid, liquid, and vapor phases of a substance can coexist in equilibrium?",
+      "options": [
+        "Critical Point",
+        "Boiling Point",
+        "Triple Point",
+        "Melting Point"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The triple point is the unique condition of temperature and pressure where the solid, liquid, and gaseous phases of a substance exist in thermodynamic equilibrium.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_62",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "If a physical theory cannot be tested through observation or experiment, its validity is primarily based on:",
+      "options": [
+        "Sensory perception.",
+        "Testimony from reliable sources.",
+        "Mathematical consistency and logical coherence (Non-experiential knowledge).",
+        "Historical precedent only."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Non-experiential knowledge is a category of knowledge gained through logical deduction and mathematical reasoning, which is necessary when direct observation (experiential knowledge) is not possible. (This distinction is a key conceptual point of section 1.3).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_63",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "The electric field inside a non-conducting charged sphere of radius R varies with the distance r from the center as:",
+      "options": [
+        "is proportional to 1 / r²",
+        "is proportional to r",
+        "is proportional to r²",
+        "is zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a uniformly charged non-conducting sphere, Gauss's law shows that E is proportional to r inside the sphere (r < R).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_64",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an objective of the Ethiopian Physical Society (EPS)?",
+      "options": [
+        "To promote physics education and research.",
+        "To organize conferences on physics education.",
+        "To create means for disseminating scientific information.",
+        "To regulate the practice of medicine in the country."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The objectives include promoting education/research, organizing conferences, and disseminating scientific information, but regulating medicine is not listed and falls outside the scope of a physics society.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_65",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Velocity at any time t in free fall starting from rest:",
+      "options": [
+        "v = g/t",
+        "v = g+t",
+        "v = gt",
+        "v = √(2gt)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "v = u + gt; u=0 → v=gt",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_66",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Kirchhoff's Junction Rule is a consequence of the conservation of:",
+      "options": [
+        "Energy",
+        "Momentum",
+        "Charge",
+        "Mass"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Junction Rule (sum of currents in equals sum of currents out) is a statement of the conservation of electric charge.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_67",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Which of the following quantities is scalar in 1D motion?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Speed",
+        "Acceleration"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Speed is scalar; it has magnitude only.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_68",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "In the process of gaining knowledge, which of the following is an example of Sensory Perception?",
+      "options": [
+        "Calculating the velocity of an electron.",
+        "Remembering the formula for kinetic energy.",
+        "Describing a complex internal thought process.",
+        "Feeling the heat radiating from a fire."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Sensory perception involves gathering knowledge by seeing, touching, hearing, etc. Feeling the heat is a form of 'touching' or sensation, fitting this category.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_69",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an explicitly mentioned benefit of physics communities like the African Association of Physics Students (aaps)?",
+      "options": [
+        "To supplement physics education with an international scientific experience.",
+        "To promote relations between physics students worldwide.",
+        "To lobby governments for increased science funding.",
+        "To encourage physics students in their scientific and professional work."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "While physics communities likely engage in lobbying, the explicitly stated purpose of aaps includes supplementing education, promoting relations between students worldwide, and encouraging professional work, but not government lobbying.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_70",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "The importance of physics is linked to a country's ability to develop its human capital in which two related fields?",
+      "options": [
+        "Arts and humanities.",
+        "Trade and commerce.",
+        "Science and engineering.",
+        "Finance and administration."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The future of any country is linked to its ability to develop its human capital in the field of science and engineering, with physics scientists and engineers developing infrastructure for trade and industry.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_71",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "In the context of the importance of physics to society, which of the following is considered a major contemporary global concern where physics can play a role?",
+      "options": [
+        "Solving political disputes.",
+        "Development of cleaner energies.",
+        "Promoting ancient languages.",
+        "Analyzing historical documents."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics can play an important role in the development of cleaner energies.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_72",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "During collision between two objects, the impulse imparted on each object is equal to the",
+      "options": [
+        "net force acting on the object divided by the time for collision.",
+        "change in momentum of the object.",
+        "product of change in momentum and time for collision.",
+        "change of momentum of the object divided by the time for collision."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Impulse is defined as the product of force and the time interval over which the force acts.\n\nAccording to the impulse-momentum theorem, impulse is equal to the change in momentum.\n\nTherefore, J = Δp.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_73",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": " A student represents a force vector graphically by drawing a 12 cm line using a scale of 1 cm for 12.5 N force as shown in the figure below.\n\nWhat are the magnitude and direction of the force represented by the figure?",
+      "imageUrl": "images/P2018R2_29.png",
+      "diagramUrl": "images/P2018R2_29.png",
+      "options": [
+        "150 N at 50° west of south",
+        "150 N at 50° south of west",
+        "125 N at 50° west of south",
+        "125 N at 50° south of west"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The magnitude of the force is the length of the line multiplied by the given scale factor:\n\n 12 cm × 12.5 N/cm = 150 N.\n\n The diagram shows the vector in the third quadrant, making an angle of 50° starting from the South axis and sweeping towards the West, which corresponds to the direction '50° west of south'.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_74",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A unit vector is defined as",
+      "options": [
+        "vector of magnitude zero, with arbitrary direction.",
+        "small vector in the direction of a given vector.",
+        "vector of magnitude one, with no unit.",
+        "vector of magnitude one, with specified unit."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A unit vector is a vector whose magnitude is exactly 1.\n\nIt has no physical unit and is mainly used to specify direction.\n\nFor example, î, ĵ, and k̂ are unit vectors along the x, y, and z axes respectively.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_75",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A force of 10 N acts on a 2 kg mass for 3 s. Calculate the impulse.",
+      "options": [
+        "20 N·s",
+        "30 N·s",
+        "15 N·s",
+        "10 N·s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Impulse = F Δt = \n10*3 =\n 30 N·s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_76",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Distance covered in above motion:",
+      "options": [
+        "100 m",
+        "90 m",
+        "80 m",
+        "70 m"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "s = ut + ½ at² = 10*5 + 0.5*4*25 = 50+50=100 m",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_77",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "A 5 kg mass is acted on by a 20 N force. What is its acceleration?",
+      "options": [
+        "2 m/s²",
+        "4 m/s²",
+        "5 m/s²",
+        "10 m/s²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using F = ma, \na = F/m =\n 20/5 = 4 m/s².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_78",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "3. The angular momentum of a rotating object is defined as the product of its",
+      "options": [
+        "moment of inertia and angular velocity.",
+        "mass and one-half of the square of the angular velocity.",
+        "mass and the angular velocity.",
+        "moment of inertia and the square of the angular velocity."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Angular momentum ($L$) is mathematically defined as the product of the **moment of inertia ($I$)** and the **angular velocity ($omega$)**: $L = I\\omega$.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_79",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which of the following concepts in physics is most directly applied in the design and function of a Global Positioning System (GPS) device?",
+      "options": [
+        "Frictional force.",
+        "Uniform circular motion.",
+        "Electromagnetic wave propagation.",
+        "Conservation of mechanical energy."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "GPS devices rely on the principles of electromagnetic wave propagation and relativity for accurate time and distance measurements from satellites, linking to the physics of telecommunications.\n\n They are listed as an object that relies on physics to function.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_80",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "What is the primary reason that electric appliances in a household are connected in parallel?",
+      "options": [
+        "To reduce the overall power consumption.",
+        "To ensure the same current flows through all appliances.",
+        "To provide the same operating voltage to all appliances.",
+        "To increase the total resistance of the circuit."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Parallel connection ensures all appliances receive the full potential difference (voltage) of the power source and operate independently.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_81",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "A body moving in a circle at constant speed has:",
+      "options": [
+        "Tangential acceleration",
+        "No force acting",
+        "Zero acceleration",
+        "Centripetal acceleration"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Acceleration towards the center is centripetal acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_82",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A potentiometer works on the principle that the potential drop across any length of a uniform wire carrying a constant current is:",
+      "options": [
+        "Inversely proportional to its resistance.",
+        "Directly proportional to the resistance of the wire.",
+        "Independent of the length of the wire.",
+        "Independent of the current."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "From Ohm's Law, V = I R.\n\n Since R is proportional to length L (R = rho L/A) and I is constant, the potential drop V is directly proportional to the resistance, and thus the length, of the wire.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_83",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Uniformly accelerated motion means:",
+      "options": [
+        "Velocity is zero",
+        "Acceleration is constant",
+        "Velocity changes randomly",
+        "Distance is constant"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Acceleration remains constant",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_84",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Two point charges, +4 microcoulomb and -8 microcoulomb, are placed 20 centimeters apart. What is the magnitude of the electrostatic force between them? (Use k = 9.0 x 10⁹ N m²/C²)",
+      "options": [
+        "72.0 Newton",
+        "3.6 Newton",
+        "7.2 Newton",
+        "0.72 Newton"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Coulomb's Law: F = k |q1 q2| / r². \n\nF = (9.0 x 10⁹) x (4 x 10⁻⁶) x (8 x 10⁻⁶) / (0.20)².\n\n F = (288 x 10^-3) / 0.04 =\n\n 7.2 Newton.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_85",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "23. About an axis of rotation perpendicular to a plane of a couple, the forces in a couple produce",
+      "options": [
+        "non-zero resultant force.",
+        "no torque.",
+        "torques in the same direction.",
+        "torques in opposite direction."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A **couple** consists of two equal and opposite forces that do not share the same line of action. Although the net force is zero, each force creates a torque (turning effect) around the center of mass. Since the forces are applied in opposite directions at a distance from the center, the individual torques add up, resulting in a **net torque** where both torques are effectively acting **in the same direction** (i.e., both are clockwise or both are counter-clockwise) .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_86",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "What happens to the electric potential energy of a system of two opposite charges if the distance between them is increased?",
+      "options": [
+        "It increases (becomes less negative).",
+        "It decreases (becomes more negative).",
+        "It remains the same.",
+        "It becomes zero."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The electric potential energy for opposite charges is negative: PE = -k |q1 q2| / r.\n\n As r increases, the magnitude of the negative energy decreases, which means the energy *increases* (moves closer to zero).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_87",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an example of the impact of physics in developing strategies to combat climate change?",
+      "options": [
+        "Development of new financial algorithms.",
+        "Development of cleaner energies.",
+        "Improvement of laser surgery techniques.",
+        "Advancements in quantum computing."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics plays an important role in developing strategies to combat climate change, specifically through the development of cleaner energies and technological advancements.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_88",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Which career field requires physics knowledge to design, construct, and manage vehicles such as automobiles, airplanes, and space shuttles?",
+      "options": [
+        "Geophysics.",
+        "Engineering.",
+        "Astrophysics.",
+        "Medical Physics."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics careers in engineering involve the design and development of modern transportation vehicles like automobiles, airplanes, and space shuttles.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_89",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "45. A ball is thrown vertically upward with $12 \\text{ m/s}$ from the ground. Its speed when the ball is $4.0 \\text{ m}$ above the ground is",
+      "options": [
+        "15 m/s",
+        "8 m/s",
+        "12 m/s",
+        "10 m/s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "We use the kinematic equation $v^2 = v_0^2 + 2a\\Delta y$. Taking acceleration due to gravity $a = -g \\approx -10 \\text{ m/s}^2$, $v_0 = 12 \\text{ m/s}$, and $\\Delta y = 4.0 \\text{ m}$:\n$$v^2 = (12 \\text{ m/s})^2 + 2(-10 \\text{ m/s}^2)(4.0 \\text{ m})$$ \n$$v^2 = 144 - 80 = 64$$ \n$$v = \\sqrt{64} = 8 \\text{ m/s}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_90",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "58. A block of mass $20 \\text{ kg}$ is pushed horizontally, at constant speed, along a rough horizontal floor over a distance of $5 \\text{ m}$. If coefficient of kinetic friction between the block and the surface is $0.4$, what is the amount of work done by friction?",
+      "options": [
+        "-40 J",
+        "-400 J",
+        "-1000 J",
+        "-100 J"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Work done by friction ($W_f$) is given by $W_f = F_f d \\cos(\\theta)$. Since friction opposes motion, $\\theta = 180^{\\circ}$, so $W_f = -F_f d$. \n\n1.  **Friction Force ($F_f$):** $F_f = \\mu_k N = \\mu_k m g$ (since $N=mg$ on a horizontal surface). \n$$F_f = (0.4) \\times (20 \\text{ kg}) \\times (10 \\text{ m/s}^2) = 80 \\text{ N}$$\n2.  **Work Done:**\n$$W_f = -(80 \\text{ N}) \\times (5 \\text{ m}) = -400 \\text{ J}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_91",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "An isolated positive point charge is surrounded by a spherical Gaussian surface. If the radius of the sphere is doubled, the electric flux through the surface will:",
+      "options": [
+        "Be halved.",
+        "Be doubled.",
+        "Remain the same.",
+        "Be quadrupled."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "According to Gauss's Law, the electric flux depends only on the net charge enclosed, not on the size or shape of the Gaussian surface.\n The flux remains the same.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_92",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The radius of a nucleus is proportional to the mass number A raised to the power of:",
+      "options": [
+        "1 divided by 3",
+        "1 divided by 2",
+        "1",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The nuclear radius R is related to the mass number A by the formula R is approximately R naught A raised to the power of 1 divided by 3, where R naught is a constant.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_93",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "An airplane takes-off at airport A and travels 500 km due east within one hour and then turning to south it flies for 20 minutes to land on airport B which is 100 km away from the turning point. The magnitude average velocity of the plane during its flight between the two airports is",
+      "options": [
+        "75√24 km/hr",
+        "100√34 km/hr",
+        "450 km/hr",
+        "75√26 km/hr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Average velocity magnitude = total displacement / total time.\n\nDisplacement vector: east 500 km, south 100 km → magnitude = √(500² + 100²) = √(250000 + 10000) = √260000 = 510 km approx.\n\nTotal time = 1 + 1/3 = 4/3 hr.\n\nAverage velocity = 510 / (4/3) ≈ 382.5 km/hr ≈ 75√26 km/hr.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_94",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Velocity in uniform circular motion is:",
+      "options": [
+        "Constant magnitude, changing direction",
+        "Zero",
+        "Constant direction",
+        "Increasing magnitude"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Speed constant, velocity direction changes",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_95",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Equation v² = u² + 2as is valid when:",
+      "options": [
+        "Acceleration is variable",
+        "Velocity is zero",
+        "Time is zero",
+        "Acceleration is uniform"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This equation applies only for uniform acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_96",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A particle accelerates from 10 m/s to 30 m/s in 5 s. Acceleration is:",
+      "options": [
+        "5 m/s²",
+        "6 m/s²",
+        "4 m/s²",
+        "8 m/s²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a = (v-u)/t = (30-10)/5 = 4 m/s²",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_97",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an example of the broad impact of physics on the 'Finance and Communication' sectors?",
+      "options": [
+        "The invention of the printing press.",
+        "The creation of fiber optic networks.",
+        "The theory of plate tectonics.",
+        "The discovery of the electron."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Physics is a major driver of innovation in sectors including finance and communication.\n\n Fiber optic networks, which rely on the physics of light and optics, are crucial for modern high-speed communication and global financial transactions.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_98",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "If an object is positively charged, it has:",
+      "options": [
+        "Gained protons.",
+        "Lost electrons.",
+        "Gained electrons.",
+        "Lost protons."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A positive charge results from a deficit of electrons, as protons are tightly bound in the nucleus and are not easily transferred during charging.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_99",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "How does an increase in the length of a parallel plate capacitor's wires affect its capacitance?",
+      "options": [
+        "It increases the capacitance.",
+        "It decreases the capacitance.",
+        "It has no effect on the capacitance.",
+        "It depends on the wire material."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Capacitance C = epsilon_naught k A / d depends only on the geometry of the plates and the dielectric.\n\n The connecting wires are external and do not affect the capacitance value.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2014_g11_merged_melmeja_100",
+      "examId": "p2014_g11_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "What is a primary goal of the African Association of Physics Students (aaps) in an international context?",
+      "options": [
+        "To enforce physics research standards globally.",
+        "To promote relations between physics students from all over the world.",
+        "To recruit new students for African universities.",
+        "To write a unified African physics curriculum."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The purpose of aaps is to promote relations between physics students from all over the world, as well as to encourage their scientific and professional work.",
       "topic": "Physics"
     }
   ]

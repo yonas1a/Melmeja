@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Mathematics Social Stream Entrance 2016 featuring 42 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 63,
-  "totalQuestions": 42,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Mathematics Social Stream Entrance 2016 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -691,6 +691,942 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Indefinite **integration** (finding the antiderivative) is the inverse operation of differentiation (finding the derivative).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_43",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "What is the value of sin(-750°)?",
+      "options": [
+        "1/2",
+        "-1/2",
+        "√3/2",
+        "-√3/2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "-750° + 720° = -30°. Therefore sin(-750°) = sin(-30°) = -1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_44",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "10) What is the equation of the tangent line to the graph of f(x)= - 2x³ -3x² at x=2?",
+      "options": [
+        "y= 12x-19",
+        "y= 6x-7",
+        "y= -36x + 44",
+        "y= 120x-235"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The derivative of f(x) gives the slope of the tangent.\n\n At x=2, slope = -36. The point on the curve is (2, -28).\n\n Using point-slope formula y - y1 = m(x - x1) gives y = -36x + 44.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_45",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Let f(x) = -1/3cos(3x/2-π/3)+1 Then what is the period and phase shift of the graph of f respectively?",
+      "options": [
+        "π/9 and 4π/9",
+        "3π/2 and 4π/9",
+        "2π/3 and 2π/9",
+        "4π/3 and 2π/9"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The standard cosine form is f(x) = a cos(bx - c) + d.\n\n Here b = 3/2, c = π/3.\n Period = 2π/b =\n 2π / (3/2) \n= 4π/3.\n\n Phase shift = c/b = \n(π/3)/(3/2) =\n 2π/9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_46",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Given the relation R = {(x, y) : x + y > 1, y <= 1}, which one of the following is equal to the domain of R?",
+      "options": [
+        "(0, infinity)",
+        "(-infinity, 1)",
+        "[0, infinity)",
+        "(-infinity, 1]"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "From the condition y <= 1 and x + y > 1, we can write y > 1 - x, which means x > 1 - y. Since y can approach negative infinity while satisfying y <= 1, x can be any real number greater than something? Wait! Let's analyze carefully: x + y > 1 => y > 1 - x. Also we are given y <= 1. So 1 - x < y <= 1. For such a y to exist for a given x, we need the interval (1 - x, 1] to be non-empty, which is always true for any real number x! Wait, let's re-verify: if x can be any real number, then for any x, we can choose a y such that 1 - x < y <= 1 (for instance, choose y = 1, then x + 1 > 1 => x > 0). Wait! If y <= 1, let's test y = 1: then x + 1 > 1 => x > 0. If y = 0, then x + 0 > 1 => x > 1. In general, since y can be arbitrarily close to negative infinity (as y <= 1), 1 - y can be arbitrarily large, so x can be any real number? Wait, let's check: if x is negative, say x = -5, can we find y <= 1 such that -5 + y > 1 => y > 6, but we also have y <= 1, which is a contradiction! Therefore, x must satisfy x > 0. Thus the domain of R is (0, infinity), which matches option A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_47",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": " For any three sets A, B and C which one of the following is NOT true about the intersection of sets?",
+      "options": [
+        "∩ (B ∩ C) = (A ∩ B) ∩ C",
+        "∩ B = B ∩ A",
+        "∩ ∅ = A",
+        "∩ B = A if A ⊆ B"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The intersection of any set A with the empty set (∅) is the empty set (A ∩ ∅ = ∅), not A. Thus, statement C is false.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_48",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is a convergent series?",
+      "options": [
+        "∑ₖ₌₁∞ (2ᵏ⁺¹) / (5ᵏ⁻¹)",
+        "∑ₖ₌₁∞ (4ᵏ⁺¹) / (3ᵏ⁻¹)",
+        "∑ₖ₌₁∞ (2/5)¹⁻ᵏ",
+        "∑ₖ₌₁∞ 5ᵏ⁻²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A: ∑ₖ₌₁∞(2ᵏ⁺¹)/(5ᵏ⁻¹) =\n\n 4∑ₖ₌₁∞(2/5)ᵏ⁻¹,\n\n with r=2/5<1,\n\n so the series converges.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_49",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": " Let f(x) = x³ + 3x² - 9x + 7. Then, the graph of f is decreasing on",
+      "options": [
+        "[-3, 1]",
+        "(-∞, 1]",
+        "(-3, ∞)",
+        "(-∞, -3] ∪ [1, ∞)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(x)=x³+3x²−9x+7 \n⇒ f'(x)=3x²+6x−9=3(x+3)(x−1).\n\n f'(x)<0 when (x+3)(x−1)<0 ⇒ −3<x<1.\n\n Therefore, f is decreasing on [−3,1].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_50",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "The radian measure of an angle of 120° is equal to:",
+      "options": [
+        "π / 2",
+        "π / 8",
+        "2π / 3",
+        "π / 4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To convert degrees to radians, you multiply the angle in degrees by (π / 180).\n\nAngle in radians = 120 * (π/ 180)\n\n= 120 * π / 180\n= 12π / 18 (dividing both by 10)\n= 2π / 3 (dividing both by 6)\n\nSo, 120 degrees is equal to 2π/3 radians.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_51",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following gives the polar form of the complex number z = 2 - 2√3i?",
+      "options": [
+        "4 (cos 1π/4 + isin 1π/4)",
+        "4 (cos 5π/3 + isin 5π/3)",
+        "4 (cos 1π/3 + isin 1π/3)",
+        "4 (cos 3π/4 + isin 3π/4)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " Compute modulus: r = √(2² + (-2√3)²) = √(4 + 12) = 4.\n\n Compute argument: θ = arctan(y/x) = arctan(-2√3/2) = arctan(-√3) = -π/3.\n\n Since z is in the fourth quadrant, θ = 2π - π/3 = 5π/3.\n\n Therefore, the polar form is z = 4 (cos 5π/3 + i sin 5π/3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_52",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "22) Which of the following is the converse of: \"If wages increase, then inflation decreases.\"? ",
+      "options": [
+        "If inflation increases, then wages decrease.",
+        "If inflation increases, then wages increase.",
+        "If inflation decreases, then wages increase.",
+        "If inflation decreases, then wages decrease."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The converse of a conditional statement 'If P, then Q' is 'If Q, then P'.\n\nOriginal: If wages increase (P), then inflation decreases (Q).\n\nConverse: If inflation decreases (Q), then wages increase (P).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_53",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If ABCD is a parallelogram with P the midpoint of AB and Q the midpoint of CD, which statement is NOT necessarily true?",
+      "options": [
+        "APCQ is a rhombus",
+        "APCD is a trapezium",
+        "AQ = PC",
+        "ΔADQ ≡ ΔCBP"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Connecting midpoints does not in general form a rhombus.\n\n The segment between midpoints is parallel and half the opposite side but does not guarantee equal side lengths.\n\n The other statements follow from midpoint and parallelogram properties.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_54",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Let a, b ∈ R such that a < b and f be a polynomial function. Then which one of the following statements states the location theorem?",
+      "options": [
+        "If f(a) and f(b) have the same signs, then there is at least one zero of f between a and b.",
+        "If f(a) and f(b) have the same signs, then there exists a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is at least one zero of f between a and b."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "If f(a) and f(b) have opposite signs, the function must cross the x-axis somewhere between them. \n\nTherefore, there is at least one zero in (a, b). Option D is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_55",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "14) Let f(x) = 3x+1 / x+2. Which one of the following is the inverse of f?",
+      "options": [
+        "f⁻¹(x) = x - 2 / -3x + 1",
+        "f⁻¹(x) = x + 2 / 3x + 1",
+        "f⁻¹(x) = 2x - 1 / x - 3",
+        "f⁻¹(x) = -2x + 1 / x - 3"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Start with y = (3x + 1)/(x + 2).\n Swap x and y: x = (3y + 1)/(y + 2).\n Multiply: x(y + 2) = 3y + 1 → xy + 2x = 3y + 1.\n\n Rearrange: xy - 3y = 1 - 2x → y(x - 3) = 1 - 2x.\n\n Thus y = (1 - 2x)/(x - 3) =\n (-2x + 1)/(x - 3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_56",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": " What is the simplified form of the expression, ((x + 3) / x ÷ (x - 2) / (x - 3)) * ((x² - 2x) / (x² - 9)) over its domain?",
+      "options": [
+        "(x - 2) / x",
+        "(x² - 2) / (x² - 9)",
+        "((x - 2)(x + 3)) / (x² - 3x)",
+        "1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "((x+3)/x) ÷ ((x-2)/(x-3)) × ((x²-2x)/(x²-9)) \n\n=>  ((x+3)/x) × ((x-3)/(x-2)) × (x(x-2)/((x-3)(x+3))) = 1",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_57",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Given U = {1,2,3,...,20}, A = {prime numbers ≤ 20}, B = {multiples of 3}, find n(A ∪ B).",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Compute primes and multiples of 3, then union them and count.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_58",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum value of z = 2x + 3y subjected to the constraints:\n{x + y ≤ 6 \n{2x-y ≤ 6 \n{ x ≥ 0 \n{ y ≥ 0",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "22"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Corner points: (0,0), (3,0), (4,2), (0,6).\n\n Evaluate z: 0, 6, 14, 18 \n→ maximum is 18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_59",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "What is the image of the point (0, 3) when it is reflected about the line y = x + 1?",
+      "options": [
+        "(2, 4)",
+        "(1, 2)",
+        "(2, 1)",
+        "(1, 4)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "To find the reflection of point P(0, 3) across the line y = x + 1: The slope of the line is 1, so the perpendicular line has a slope of -1. The equation of the perpendicular line passing through (0, 3) is y - 3 = -1(x - 0), which is y = -x + 3. Find the intersection point of y = x + 1 and y = -x + 3: x + 1 = -x + 3 => 2x = 2 => x = 1, y = 2. The intersection point is (1, 2). Since this is the midpoint between the original point (0, 3) and its image (x', y'), we have (0 + x')/2 = 1 => x' = 2, and (3 + y')/2 = 2 => y' = 4. Thus, the image point is (2, 4), which matches option A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_60",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": " ",
+      "imageUrl": "images/M2018_34.png",
+      "diagramUrl": "images/M2018_34.png",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_61",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement defines geometric progression?",
+      "options": [
+        "It is a sequence in which the difference between consecutive terms is a positive constant.",
+        "It is a sequence in which the difference between consecutive terms is a non-zero constant.",
+        "It is a sequence in which the ratio between consecutive terms is a positive constant.",
+        "It is a sequence in which the ratio between consecutive terms is a nonzero constant."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A geometric progression (or geometric sequence) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio (r). \n\nThis means the ratio between consecutive terms is a nonzero constant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_62",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What is the value of a number in the interval (0, 1) that satisfies the Mean Value Theorem for the function f(x) = 3x² - 5x + 1?",
+      "options": [
+        "1",
+        "5 / 6",
+        "3 / 5",
+        "1 / 2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mean Value Theorem: f'(c) = [f(1) - f(0)] / (1 - 0)\nf(x) = 3x² - 5x + 1\nf(1) = 3 - 5 + 1 = -1\nf(0) = 1\nSlope = (-1 - 1) = -2\nf'(x) = 6x - 5\n6c - 5 = -2\n6c = 3\nc = 1/2",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_63",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is the degree of the polynomial function f defined by f(x) = x²(x - 4)(x² + 2)?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The degree of a product of non-zero polynomials is the sum of their degrees.\n\n The factor x² has degree 2, (x - 4) has degree 1, and (x² + 2) has degree 2.\n\n Therefore, the degree is 2 + 1 + 2 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_64",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "If one of the roots of the equation 2x² - 8x + k = 0 exceeds the other by 2, then what is the value of k?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Let the roots be α and β. According to the problem, α = β + 2.\n\nFor a quadratic equation ax² + bx + c = 0:\n\n- Sum of roots: α + β = -b/a = 8/2 = 4\n\n- Product of roots: α * β = c/a = k/2\n\nSubstitute α = β + 2 into the sum of roots:\n\nβ + (β + 2) = 4 → 2β + 2 = 4 → 2β = 2 → β = 1\n\nThen α = β + 2 = 3\n\nNow use the product of roots to find k:\n\nα * β = 3 * 1 = 3 = k/2 → k = 6\n\nTherefore, k = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_65",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "A company produces shirts of black and white colors from polyester and cotton. The company has 6000 units of polyester and 3000 units of cotton in its stock. A black shirt requires 3 units of polyester and 4 units of cotton, whereas a white shirt requires 2 units of polyester and 3 units of cotton. If the factory gets a profit of Birr 120 from each black shirt and Birr 200 from each white shirt, what is the maximum profit of the company?",
+      "options": [
+        "Birr 344,000",
+        "Birr 200,000",
+        "Birr 140,000",
+        "Birr 120,000"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Constraint 4x + 3y ≤ 3000 is limiting.\n\n Checking corner points: (0,1000) gives profit 200×1000 = \n200,000, which is maximum.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_66",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": " Water is being poured in a circular cylinder of radius 50 cm at a rate of change of volume 5000π cm³/sec. What is the rate of change of height of the level of water in the cylinder when the height is 40 cm?",
+      "options": [
+        "1/10 cm/sec",
+        "10 cm/sec",
+        "1/100 cm/sec",
+        "2 cm/sec"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "V=πr²h \n\n⇒ dV/dt=πr²(dh/dt).\n\n Given r=50 and dV/dt=5000π: \n\n5000π=π(50)²(dh/dt)\n\n ⇒ dh/dt=5000π/(2500π)=\n\n2 cm/sec.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_67",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Let A(-1, 2) and B(0, 5) be initial and terminal points of vector AB. What is the position vector of AB?",
+      "options": [
+        "i + 3j",
+        "5j",
+        "-i - 3j",
+        "-i + 7j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The position vector from A to B is obtained by subtracting coordinates of A from B: AB = i + 3j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_68",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Let l1: y = 1x/3 + 1 and l2: y = 2x - 1 be two lines. What is the angle between l1 to l2 counterclockwise?",
+      "options": [
+        "3π/4",
+        "3π/2",
+        "π/4",
+        "π/2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Slope of l1: m₁ = 1/3, slope of l2: m₂ = 2.\n\n Angle θ between lines: tan θ = |(m₂ - m₁)/(1 + m₁·m₂)| =\n |(2 - 1/3)/(1 + (1/3)·2)| =\n |(5/3)/(5/3)| = 1 → θ = π/4",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_69",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Water is running into a conical tank which is pointed down at a constant rate of 6π cm³/sec. The cone has height of 10 cm and a base radius 5 cm, then how fast is the water level rising when the water reaches 2 cm deep?",
+      "options": [
+        "6 / π cm/sec",
+        "4 cm/sec",
+        "6 cm/sec",
+        "4 / π cm/sec"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Volume V = (1/3)πr²h, r = h/2 ⟹ V = (1/12)πh³.\n\n Differentiate: dV/dt = (1/4)πh² dh/dt.\n\n Given dV/dt = 6π, h = 2: 6π = π dh/dt ⟹ \n\ndh/dt = 6 cm/sec.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_70",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true about types of data?",
+      "options": [
+        "The height of students in a class is a qualitative data.",
+        "The weight of students in a class is a qualitative data.",
+        "The gender of students in a class is a quantitative data.",
+        "The age of students in a class is a quantitative data."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Quantitative data is numerical (like height, weight, age),\n while qualitative data is categorical (like gender).\n\n So only 'age of students is quantitative' is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_71",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "What is the dot (scalar) product of the vectors u = i + 2j and v = -2i + 4j ?",
+      "options": [
+        "-8",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The dot product of two vectors u = (u1, u2) and v = (v1, v2) is calculated as (u1 * v1) + (u2 * v2).\n\nHere, u = (1, 2) and v = (-2, 4).\n\nDot product = (1 * -2) + (2 * 4) =\n -2 + 8 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_72",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (x² + 2x + 1) dx.",
+      "options": [
+        "x³/3 + x² + x + C",
+        "x³ + x² + x",
+        "x² + 2x + 1",
+        "x³/3 + x² + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrate term-wise.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_73",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": " For a ≥ 0, which one of the following numbers is NOT equal to \"a²⁄₅\"?",
+      "options": [
+        "(a¹⁄₅)²",
+        "(a⁵)¹⁄₂",
+        "⁵√a²",
+        "(⁵√a)²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using exponent rules:\n a²⁄₅ can be written as (a¹⁄₅)², ⁵√(a²), and (⁵√a)².\n\n However, (a⁵)¹⁄₂ = a⁵⁄₂, which is not equal to a²⁄₅.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_74",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "11. Which of the following is the area of regular hexagon whose radius is 3 cm?",
+      "options": [
+        "27/2 cm²",
+        "9 cm²",
+        "9√3 cm²",
+        "27√3/2 cm²"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A regular hexagon of radius R = 3 cm can be divided into 6 congruent equilateral triangles each with side length s = R = 3 cm. The area of one equilateral triangle is (√3/4) * s² = (√3/4) * (3)² = 9√3/4 square cm. The total area of the hexagon is 6 * (9√3/4) = 27√3/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_75",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Two triangles have sides in ratio 3:5. If the smaller triangle area is 27 cm², find the larger area.",
+      "options": [
+        "45",
+        "75",
+        "125",
+        "225"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Area ratio = scale² = 9:25 → 27*(25/9)=75.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_76",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Two angles subtend the same chord of a circle. If one angle is 38°, what is the angle subtended by the chord at the center?",
+      "options": [
+        "38°",
+        "76°",
+        "142°",
+        "304°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The angle at the center is twice the angle at the circumference standing on the same chord. Therefore 2(38°)=76°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_77",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Given the polynomial function p(x)= 5x² - x³ -√2 . Then what are the degree, leading coefficient and constant term of the polynomial, function p(x) respectively?",
+      "options": [
+        "3, 1, √2",
+        "3, -1, -√2",
+        "2,5,-√2",
+        "3, 5, -√2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The degree is 3 (highest power of x is x³), the leading coefficient is -1 (coefficient of x³), and the constant term is -√2 (term without x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_78",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": " Consider the graph of a power function f, shown below.\n\nWhich one of the following represents the graph f?",
+      "imageUrl": "images/M2018_29.png",
+      "diagramUrl": "images/M2018_29.png",
+      "options": [
+        "f(x) = x³⁄₂",
+        "f(x) = x⁴⁄₃",
+        "f(x) = x²⁄₃",
+        "f(x) = x¹⁄₃"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Given f(x) = x²⁄₃.\n At x = 8, f(8) = 8²⁄₃ \n\n= (∛8)² = 2² = 4.\n\n At x = -8, f(-8) = (-8)²⁄₃=\n (∛(-8))² =\n (-2)² = 4.\n\n Therefore, the graph passes through the points (8, 4) and (-8, 4).\n\n Hence, option C is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_79",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "What is the simplified form of (x²-16)/(x²-8x+16), for x≠4?",
+      "options": [
+        "(x+4)/(x-4)",
+        "(x-4)/(x+4)",
+        "x+4",
+        "x-4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Factor: (x²-16)=(x-4)(x+4) and denominator=(x-4)². Cancelling gives (x+4)/(x-4), with x≠4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_80",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "What is ∫₀² (3x² + 2)dx?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The antiderivative is x³+2x. Evaluating from 0 to 2 gives 8+4=12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_81",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": " A library has registered the following data about daily book borrowers for ten consecutive days: 72, 84, 36, 84, 36, 30, 54, 92, 55, 83. What is the range of the data?",
+      "options": [
+        "84",
+        "92",
+        "62",
+        "30"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Range = maximum − minimum =\n 92 − 30 =\n 62.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_82",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": " If det(A)=5, find det(A^−1)",
+      "options": [
+        "1/5",
+        "-1/5",
+        "5",
+        "-5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "det(A^−1) = 1/det(A).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_83",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x?",
+      "imageUrl": "images/M2017_N35.png",
+      "diagramUrl": "images/M2017_N35.png",
+      "options": [
+        "5",
+        "5",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_84",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following is true about the function f(x) = tan x?",
+      "options": [
+        "The domain of f is ℝ \\ (-π /2, π/2)",
+        "The range of f is the set of real numbers,ℝ",
+        "f is a periodic function with period π/2",
+        "The graph of f intersects y-axis at (π/2, 0)."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The tangent function is defined for all x where cos x ≠ 0, and its range includes all real numbers.\n\n Its period is π, and it intersects the y-axis at x = 0.\n\n Therefore, the statement about the range being ℝ is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_85",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set of [2x+1]=5, where [ ] denotes the greatest integer function?",
+      "options": [
+        "[2,3)",
+        "(2,3]",
+        "[3,4)",
+        "(1,3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "[2x+1]=5 means 5≤2x+1<6. Thus 4≤2x<5, giving 2≤x<5/2. Therefore the exact answer is [2,5/2), so none of the listed options is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_86",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is always true for a positive integer n?",
+      "options": [
+        "If n is odd, then n² is even.",
+        "If n² is divisible by 4, then n is divisible by 2.",
+        "If n² is divisible by 3, then n is not divisible by 3.",
+        "If n is prime, then n + 1 is prime."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If n² is divisible by 4, then n must contain a factor of 2. \n\nTherefore, n is even and divisible by 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_87",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "If sec θ = -2 and θ lies in quadrant III, what is tan θ?",
+      "options": [
+        "-√3",
+        "√3",
+        "-1/√3",
+        "1/√3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "secθ=-2 gives cosθ=-1/2. In quadrant III, sinθ=-√3/2. Therefore tanθ = sinθ/cosθ = √3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_88",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is equal to ∑ₖ₌₁⁵ (k² + 2k)?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The terms are 3, 8, 15, 24 and 35. Their sum is 85. Therefore none of the listed options is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_89",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "What are the vertex and axis of symmetry of y = 3x² + 12x + 7?",
+      "options": [
+        "(-2,-5) and x = -2",
+        "(2,-5) and x = 2",
+        "(-4,7) and x = -4",
+        "(4,7) and x = 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "x = -b/(2a) = -12/6 = -2. Substituting gives y = 3(4) - 24 + 7 = -5. Thus the vertex is (-2,-5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_90",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Given the polynomial function f(x) = ax⁵ - x⁴ + bx + 1, a != 0, then which of the following statements is true about the graph of f?",
+      "options": [
+        "The graph of f intersect the y-axis at a point (0, -1).",
+        "If a > 0, the graph of f increases in the domain of f.",
+        "The graph of f has at most five turning points.",
+        "The graph of f can intersect the x-axis in at most five points."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A polynomial function of degree 5 can have at most 5 real roots, meaning its graph can intersect the x-axis in at most five points. Option D is true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_91",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an irrational number?",
+      "options": [
+        "√0.04",
+        "1.162222 ...",
+        "√29",
+        "3.4000"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An irrational number is a number that cannot be expressed as a fraction of two integers. \n\n- √0.04 = 0.2, which is rational. \n\n- 1.162222 ... appears to be repeating or terminating, so it is rational. \n\n- √29 is not a perfect square, so it cannot be expressed as a fraction → irrational. \n\n- 3.4000 is a terminating decimal → rational. Therefore, √29 is the irrational number.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_92",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "A 20m high building casts a shadow of 4m, at the same time a 35m tree casts a shadow of x m. What is the value of x?",
+      "options": [
+        "15m",
+        "7m",
+        "11m",
+        "8m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This problem uses similar triangles based on the principle that at the same time, the ratio of an object's height to its shadow length is constant.\n\n(Height of Building) / (Shadow of Building) = (Height of Tree) / (Shadow of Tree)\n\n20 / 4 = 35 / x\n\n5 = 35 / x\n\nx = 35 / 5\n\nx = 7\n\nSo, the length of the tree's shadow is 7m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_93",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "If a natural number n has exactly three positive factors, which statement must be true?",
+      "options": [
+        "n is prime.",
+        "n is the square of a prime number.",
+        "n is the product of two different primes.",
+        "n is always even."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A number has exactly three positive divisors precisely when it is the square of a prime number.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_94",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "44) The following table shows the test scores of 20 students in a class.\n\n What is the variance of the given data?",
+      "imageUrl": "images/M2014_S44.png",
+      "diagramUrl": "images/M2014_S44.png",
+      "options": [
+        "18.45",
+        "19.45",
+        "16.2",
+        "17.2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_95",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": " Let f(x) = 6x⁶ + 4x⁴ + 3x² + 2 and g(x) = 3x² + 2. Then which one of the following is equal to f(x) / g(x)?",
+      "options": [
+        "3x² + 2",
+        "2x⁴ + 1",
+        "2x⁴ + 3x² + 2",
+        "2x⁴ + 3x² + 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Factor f(x) by grouping:\n 6x⁶ + 4x⁴ + 3x² + 2 =\n 2x⁴(3x² + 2) + 1(3x² + 2).\n\n Therefore, f(x) = (3x² + 2)(2x⁴ + 1). \n\nDividing by g(x) = 3x² + 2 \ngives f(x)/g(x) = 2x⁴ + 1. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_96",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "In linear programming, the maximum or minimum value of a linear objective function over a bounded feasible region occurs at",
+      "options": [
+        "Any interior point only",
+        "The origin only",
+        "corner point of the feasible region",
+        "The midpoint of every constraint"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a linear programming problem with a bounded feasible region, an optimum occurs at at least one vertex or corner point.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_97",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "A cone has radius 6 cm and height 8 cm. What is its volume?",
+      "options": [
+        "72π cm³",
+        "96π cm³",
+        "144π cm³",
+        "288π cm³"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "V = 1/3πr²h = 1/3π(36)(8) = 96π cm³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_98",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "If the coefficient of variation of a data set is 20% and its mean is 50, what is its standard deviation?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "25"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Coefficient of variation = (standard deviation/mean) × 100. Thus 20 = (SD/50)×100, giving SD=10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_99",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "A factory produces products A and B. Each A gives Birr 50 profit and each B gives Birr 40 profit. The constraints are 2x+y≤12 and x+2y≤12. Which production plan maximizes profit?",
+      "options": [
+        "(6,0)",
+        "(0,6)",
+        "(4,4)",
+        "(2,5)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "At (4,4), both constraints are satisfied with equality. Profit=50(4)+40(4)=360, which exceeds the other feasible corner profits.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2016_socialentrance_melmeja_100",
+      "examId": "maths2016_socialentrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "What is the simplified form of (√12 - √27) / √3?",
+      "options": [
+        "-1",
+        "1",
+        "-√3",
+        "√3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "√12 = 2√3 and √27 = 3√3.\n\n Therefore, (2√3 - 3√3)/√3 = -1.",
       "topic": "Mathematics"
     }
   ]

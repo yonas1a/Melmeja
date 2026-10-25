@@ -74,12 +74,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
               }
             }
 
-            // STRICT ROLE NORMALIZATION:
-            // Only yayele492@gmail.com is ever granted the 'admin' role.
-            // Any other account is strictly normalized to 'student'.
+            // ADMIN ROLE CHECK:
+            // yayele492@gmail.com is master admin, plus any account assigned role: 'admin' by an administrator
             const isMasterAdmin = (currentUser.email && currentUser.email.toLowerCase() === 'yayele492@gmail.com') ||
                                   (data.email && data.email.toLowerCase() === 'yayele492@gmail.com');
-            if (isMasterAdmin) {
+            if (isMasterAdmin || data.role === 'admin') {
               data.role = 'admin';
             } else {
               data.role = 'student';
@@ -336,10 +335,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     userProfile?.authProvider === 'google'
   );
 
-  // Strict Admin identity verification: only yayele492@gmail.com
+  // Admin identity verification: yayele492@gmail.com OR any account with role === 'admin'
   const isAdmin = Boolean(
     (user?.email && user.email.toLowerCase() === 'yayele492@gmail.com') ||
-    (userProfile?.email && userProfile.email.toLowerCase() === 'yayele492@gmail.com')
+    (userProfile?.email && userProfile.email.toLowerCase() === 'yayele492@gmail.com') ||
+    (userProfile?.role === 'admin')
   );
 
   return (

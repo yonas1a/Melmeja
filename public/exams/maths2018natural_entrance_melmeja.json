@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Mathematics Natural Stream Entrance 2018 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Mathematics Natural Stream Entrance 2018 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -1001,6 +1001,652 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "The future value of an ordinary annuity is given by ->\n\n FV = PMT * [((1 + r)ⁿ - 1) / r].\n\nHere, PMT = 6000, r = 0.10, and n = 3 years.\n\n-> FV = 6000 * [((1 + 0.10)³ - 1) / 0.10] =\n\n->  6000 * [((1.1)³ - 1) / 0.10] =\n\n ->  6000 * [(1.331 - 1) / 0.10] \n\n ->  6000 * [0.331 / 0.10] =\n\n->  6000 * 3.31 = 19,860, which matches Option A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_61",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "A data set has mean 18. If every observation is increased by 7, what is the new mean?",
+      "options": [
+        "18",
+        "21",
+        "25",
+        "126"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Adding a constant to every observation increases the mean by the same constant. New mean = 18 + 7 = 25.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_62",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A couple own a house that value Birr 2,000,000. The house added Birr 10,000 in the first year, Birr 10,400 in the second year, Birr 10,800 the third year and so on. What is the value of the house at the end of 7 years?",
+      "options": [
+        "Birr 2,012,000",
+        "Birr 2,054,000",
+        "Birr 2,060,000",
+        "Birr 2,078,400"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The house value increases each year in an arithmetic progression with first term 10,000 and common difference 400.\n\n Sum of 7 years' increases = 7/2 * [2*10,000 + (7-1)*400] = 78,400.\n\n Adding this to the initial value 2,000,000 gives 2,078,400.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_63",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the solution set of the equation (2x-1)² + 2 ≤ 6x² - 3x ?",
+      "options": [
+        "[-1.5,1]",
+        "[1.5,∞)",
+        "(-∞,1.5) ∪ [1,∞)",
+        "$(-∞,-1.5] ∪ [1,∞)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Expand the left: (2x-1)² + 2 = 4x² -4x +3.\n Inequality: 4x² -4x +3 ≤ 6x² -3x → 2x² + x -3 ≥ 0. Solve quadratic: 2x² + x -3=0 → x = 1, x = -1.5. \n\nSince parabola opens upwards, inequality holds outside roots: (-∞,-1.5] ∪ [1,∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_64",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the derivative of f(x) = tanx + 3ˣ  ?",
+      "options": [
+        "-tan x + 3ˣ lnx",
+        "sec²x + 3ˣ",
+        "sec²x + 3ˣ ln3",
+        "-csc²x + 3ˣ lnx"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The function is f(x) = tan x + 3ˣ.\n\n The derivative of tan x is sec²x.\n\n The derivative of an exponential function aˣ is aˣ ln a, so the derivative of 3ˣ is 3ˣ ln 3.\n\n Therefore, f′(x) = sec²x + 3ˣ ln 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_65",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements describes the dispersion of the data values.",
+      "options": [
+        "It measures the variability in terms of different units of data.",
+        "The degree to which numerical data tends to distribute about an average.",
+        "It helps to describe the degree of similarity of data values.",
+        "It compares the variability of two or more data that are independent of the units of measurement."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Dispersion refers to how data values are spread out or vary around a central value (like the mean).\n\n Option B correctly describes this as the degree to which numerical data tends to distribute about an average.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_66",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "What are the quotient and remainder respectively, when 75 is divided by 20?",
+      "options": [
+        "15 and 3",
+        "2 and 19",
+        "3 and 15",
+        "4 and 5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "75/20 = 3 + 15/20",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_67",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Let A be a square matrix of order n and let B be a matrix obtained by multiplying one row of A by 2 and C be a matrix found by adding one row of A to another row of A. If det(A) = 10, what are det(B) and det(C) respectively?",
+      "options": [
+        "10 and 10",
+        "10 and 20",
+        "20 and 0",
+        "20 and 10"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " multiplying a row by k multiplies the determinant by k,\n adding one row to another does not change the determinant.\n\n Here, det(B) = 2 * det(A) = 20,\n det(C) = det(A) = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_68",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is the locus all points in the plane in which the sum of the distances from two fixed points is constant?",
+      "options": [
+        "Ellipse",
+        "Circle",
+        "Hyperbola",
+        "Parabola"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By definition, an ellipse is the set of all points in a plane such that the sum of the distances from two fixed points (called the foci) is a constant value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_69",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "10. Let f(x) = p(x) / q(x) where q(x) != 0 be given. Then for which one of the following conditions does f be a rational function?",
+      "options": [
+        "p(x) and q(x) are radicals.",
+        "p(x) and q(x) are trigonometric.",
+        "p(x) and q(x) are polynomials.",
+        "p(x) and q(x) are exponentials."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A rational function is defined as a ratio of two polynomial functions where the polynomial in the denominator is not identically zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_70",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "9. Given the system 2x + y = k1 and 5x + 3y = k2, if (x0, y0) is the solution of the system, then which one of the following is equal to y0?",
+      "options": [
+        "|1 k1 / 3 k2|",
+        "|k1 2 / k2 5|",
+        "|2 k1 / 5 k2|",
+        "|k1 1 / k2 3|"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using Cramer's Rule, the coefficient determinant is D = |2 1 / 5 3| = (2)(3) - (5)(1) = 6 - 5 = 1. For y0, the numerator determinant Dy is formed by replacing the second column with the constants [k1, k2]: Dy = |2 k1 / 5 k2|. Thus, y0 = Dy / D = |2 k1 / 5 k2|.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_71",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "19. Let u = (-1, 1), v = (3, -2) and w = (4, 3). Then what is (u + v) + w?",
+      "options": [
+        "(2, -1)",
+        "(7, 1)",
+        "(6, 2)",
+        "(4, 4)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "First find u + v = (-1 + 3, 1 + (-2)) = (2, -1). Then add w: (2 + 4, -1 + 3) = (4, 4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_72",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "5) What is the solution set of the equation |2x - 3| - 1 = 0?",
+      "options": [
+        "{}",
+        "{2}",
+        "{1, 2}",
+        "[3/2 ,∞)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Solve |2x - 3| - 1 = 0 by isolating the absolute value: |2x - 3| = 1.\n\n Then solve the two cases: 2x - 3 = 1 → x = 2, and\n\n-  2x - 3 = -1 → x = 1. \nSo the solution set is {1, 2}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_73",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of the function f(x) = √(3-x²)?",
+      "options": [
+        "(-∞,√3]∪[√3,∞)",
+        "[-√3,√3]",
+        "[-3, 3]",
+        "[3, ∞)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a square root, the radicand must be non-negative.\n\n Solving 3 - x² ≥ 0 gives x ∈ [-√3, √3].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_74",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following sets is the symmetric difference, A Δ B, of the sets A = {1, 3, 5, 6, 8, 10} and B = {2, 5, 8, 11}?",
+      "options": [
+        "{1, 2, 3, 6, 10, 11}",
+        "{1, 3, 6, 10}",
+        "{1, 2, 3, 5, 6, 8, 10, 11}",
+        "{2, 11}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": " Given A = {1, 3, 5, 6, 8, 10} and B = {2, 5, 8, 11},\n A Δ B = (A u B) - (A n B) \n\nA n B = {5, 8}   A u B ={1,2,3,5,6,8,10} \n\n A Δ B = {1, 2, 3, 6, 10, 11}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_75",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "27) A school has 6,000 students. The ratio of female students to the total number of students is 2:3. Which one of the following is true about the students at the school?",
+      "options": [
+        "About 33% of the students in the school are female.",
+        "The ratio of male students to female students is 1:3.",
+        "The number of male students is greater than that of female student",
+        "The number of female students is twice the number of male student"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Female students = 2/3 of 6000 = 4000,\n male students = 6000 - 4000 = 2000.\n\n Female students are twice the male students, so option D is correct",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_76",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "The graph of a certain relation R is represented by the shaded region shown on the figure below. Which one of the following pairs of sets respectively gives the domain and range of this relation?",
+      "imageUrl": "images/M2014_35.png",
+      "diagramUrl": "images/M2014_35.png",
+      "options": [
+        "{x / x <= 2} and R",
+        "{x / x <= 2} and {y / y <= 6}",
+        "R and R",
+        "R and {y / y <= 2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_77",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true about f(x) = x² - 6x + 10?",
+      "options": [
+        "The vertex of the graph of f is (3, 1).",
+        "The graph of f opens downward.",
+        "The line x = 1 is the axis of symmetry of the graph of f.",
+        "f(x) ≥ 2 for all x in the domain of f."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The function f(x) = x² − 6x + 10 is a quadratic with a positive coefficient of x², so its graph opens upward.\n\n The vertex of a quadratic function f(x) = ax² + bx + c occurs at x = −b/(2a).\n\n Here, a = 1 and b = −6, so x = 6/2 = 3.\n\n Substituting x = 3 into f(x) gives f(3) = 9 − 18 + 10 = 1, so the vertex is (3, 1).\n\n Therefore, the statement that the vertex of the graph is (3, 1) is true.\n\n ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_78",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Let A(-1, 2) and B(0, 5) be initial and terminal points of vector AB. What is the position vector of AB?",
+      "options": [
+        "i + 3j",
+        "5j",
+        "-i - 3j",
+        "-i + 7j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The position vector from A to B is obtained by subtracting coordinates of A from B: AB = i + 3j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_79",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Consider the points A(-2, 1), B(3, 0), C(3, -1) and D(1, 1) in xy-plane. If u = vector AB and v = vector CD, then which one of the following is equal to u - v?",
+      "options": [
+        "(3, 1)",
+        "(-7, 3)",
+        "(-3, 1)",
+        "(7, -3)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "1. Find vector u = vector AB: u = B - A = (3 - (-2), 0 - 1) = (5, -1).\n\n2. Find vector v = vector CD: v = D - C = (1 - 3, 1 - (-1)) = (-2, 2).\n\n3. Calculate u - v: u - v = (5 - (-2), -1 - 2) = (5 + 2, -3) = (7, -3).\n\nThe resulting vector is (7, -3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_80",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "What is the average rate of change of g(x) = x³ - 2x over the interval 1 ≤ x ≤ 6?",
+      "options": [
+        "41",
+        "37/5",
+        "46",
+        "203/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The average rate of change of a function g(x) over [a, b] is given by:\n\n[g(b) - g(a)] / (b - a)\n\nStep 1: Compute g(6) = 6³ - 2*6 = 216 - 12 = 204\n\nStep 2: Compute g(1) = 1³ - 2*1 = 1 - 2 = -1\n\nStep 3: Average rate = (204 - (-1)) / (6 - 1) = 205 / 5 = 41 ✅",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_81",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "What is the dot (scalar) product of the vectors u = i + 2j and v = -2i + 4j ?",
+      "options": [
+        "-8",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The dot product of two vectors u = (u1, u2) and v = (v1, v2) is calculated as (u1 * v1) + (u2 * v2).\n\nHere, u = (1, 2) and v = (-2, 4).\n\nDot product = (1 * -2) + (2 * 4) =\n -2 + 8 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_82",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "16. A solid figure is formed from a frustum of a right circular cone and a hemisphere at the top. The top and bottom radii of the circular cone are 6 cm and 8 cm, respectively and its height is 9 cm. Then what is the volume of the solid figure (in cm³)?",
+      "options": [
+        "616π",
+        "688π",
+        "516π",
+        "588π"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The volume of a frustum of a cone is given by V_f = (1/3) * π * h * (R² + r² + R * r), where R = 8, r = 6, and h = 9. Thus, V_f = (1/3) * π * 9 * (8² + 6² + 8 * 6) = 3π * (64 + 36 + 48) = 3π * 148 = 444π. The hemisphere at the top has radius r = 6 cm, so its volume is V_h = (2/3) * π * r³ = (2/3) * π * 6³ = (2/3) * π * 216 = 144π. Total volume = 444π + 144π = 588π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_83",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": " What is the determinant of the matrix?",
+      "imageUrl": "images/M2017_N37.png",
+      "diagramUrl": "images/M2017_N37.png",
+      "options": [
+        "0",
+        "1/2",
+        "1/8",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_84",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A group of students 5 from grade 10, 8 from grade 11 and 2 from grade 12 is to be formed. If a student is to be formed by randomly choosing one student equally from this group, what is the probability that the chosen student is either from grade 10 or grade 12?",
+      "options": [
+        "1/7",
+        "7/15",
+        "5/15",
+        "7/15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total students = 5 + 8 + 2 = 15.\n\n Favorable students (grade 10 or 12) = 5 + 2 = 7.\n\n Probability = Favorable / Total =\n 7/15.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_85",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Suppose f is a continuous function on an interval [a, b] and differentiable on (a, b) with the property f(a) = f(b). Which one of the following must be true?",
+      "options": [
+        "The function has maximum value in (a, b).",
+        "The graph of f has horizontal tangent line at (c, (f(c)) for some c ∈ (a, b).",
+        "The function has a zero in (a, b).",
+        "The function has minimum value in (a, b)."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This question refers to Rolle's Theorem, which is a special case of the Mean Value Theorem.\n\n Rolle's Theorem states that if a function f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b), then there exists at least one number c in (a, b) such that the derivative f'(c) = 0.\n\n A derivative of zero means the tangent line at that point is horizontal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_86",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Suppose that we have 4 objects chosen 3 at a time. Then which of the following statement is true?",
+      "options": [
+        "The number of combinations is 24.",
+        "The number of permutations is 24.",
+        "The number of permutations is 6.",
+        "The number of combinations is 6."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "We have n = 4 objects and we choose r = 3 at a time.\n\n- Number of permutations (order matters): P(4, 3) = 4 × 3 × 2 = 24\n\n- Number of combinations (order doesn't matter): C(4, 3) = 4\n\nTherefore, the correct statement is: 'The number of permutations is 24.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_87",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about the trigonometric values of the given pairs of angles?",
+      "options": [
+        "sin(75°) = cos(105°)",
+        "tan(75°) = tan(105°)",
+        "sin(120°) = sin(60°)",
+        "cos(120°) = cos(60°)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using trigonometric identities: sin(180° - θ) = sin θ and cos(180° - θ) = -cos θ.\n\n Option 1: sin(75°) ≠ cos(105°).\n\n Option 2: tan(75°) ≠ tan(105°) because tan(180° - θ) = -tan θ. \n\nOption 3: sin(120°) = sin(180° - 60°) = sin(60°), which is true.\n\n Option 4: cos(120°) = cos(180° - 60°) = -cos(60°), not equal to cos(60°).\n\n Therefore, the correct statement is sin(120°) = sin(60°).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_88",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "In rolling a fair die, what is the probability of obtaining 3 or 5?",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "1/6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A fair die has 6 sides, so the total number of possible outcomes is 6. \n\nThese outcomes are {1, 2, 3, 4, 5, 6}.\n\nThe 'favorable' outcomes (the ones we want) are '3' or '5'.\n\n There are 2 favorable outcomes.\n\nProbability is calculated as (Favorable Outcomes) / (Total Outcomes), which is 2 / 6.\n\n This fraction simplifies to 1/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_89",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the simplified form of (4x⁴ - 64) / (2 - x) for x ≠ 2?",
+      "options": [
+        "4(x - 2)(x² - 4)",
+        "4(x + 2)(x² + 4)",
+        "-4(x - 2)(x² + 4)",
+        "-4(x + 2)(x² + 4)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " Factor the numerator: 4x⁴ - 64 = 4(x⁴ - 16) = 4(x⁴ - 4)(x² + 4) = 4(x - 2)(x + 2)(x² + 4). \n\nThe denominator is 2 - x = -(x - 2).\n\n Simplify the fraction: (4(x - 2)(x + 2)(x² + 4)) / (-(x - 2)) = \n\n-4(x + 2)(x² + 4).\n\n Therefore, the simplified form is -4(x + 2)(x² + 4).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_90",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following intervals is the solution set of the inequality x² - 5x + 6 ≤ 0?",
+      "options": [
+        "[3, ∞)",
+        "(-∞, 2]",
+        "(0, 2]",
+        "[2,3]"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The inequality is x² - 5x + 6 ≤ 0.\n\n Factor the quadratic: x² - 5x + 6 = (x - 2)(x - 3). \n\nSo the inequality becomes (x - 2)(x - 3) ≤ 0.\n\n For a product of two factors to be ≤ 0, x must lie between the roots 2 and 3, inclusive.\n\n Therefore, the solution set is [2,3].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_91",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Consider the following mid-semester examination results of students: 15, 18, 9, 14, 16, 12, 19, 11, 15, 16. Which one of the following is the quartile deviation of the data?",
+      "options": [
+        "1.8",
+        "2.0",
+        "2.5",
+        "3.0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First, sort the data in ascending order: 9, 11, 12, 14, 15, 15, 16, 16, 18, 19 (total n = 10 values). Find the first quartile Q₁ (at position 0.25*(10+1) = 2.75th value, which is 11.75 or average of 11 and 12 = 11.5) and third quartile Q₃ (at position 0.75*(11) = 8.25th value, which is average of 16 and 18 = 16 or depending on convention: let's compute precisely: Q₁ = 12, Q₃ = 16. Quartile deviation = (Q₃ - Q₁) / 2 = (16 - 12) / 2 = 4 / 2 = 2.0, which matches option B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_92",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the measure of an exterior angle of a 10 sided regular polygons?",
+      "options": [
+        "180°",
+        "36°",
+        "72°",
+        "144°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " To find the measure of one exterior angle, you divide 360° by the number of sides (n).\n\n In this case, n = 10.\n\n The calculation is 360° / 10 = 36°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_93",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": " Which of the following statement is true about the given system of linear equations?",
+      "options": [
+        "{2x + y = 0, x - 4y = 0 } is a homogeneous system.",
+        "{x + 3y = 2, 2x - 5y = 1} is a non-homogeneous system.",
+        "{3x - y = 1, x + 3y = 0} is a homogeneous system.",
+        "{x + 3y = 6 , 2x - 5y = 2} is a homogeneous system."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A homogeneous system must have all constant terms equal to 0",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_94",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x that satisfies ",
+      "imageUrl": "images/M2015_36.png",
+      "diagramUrl": "images/M2015_36.png",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_95",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "6) What is the result when 3√2- 7√6 is subtracted from 2√2 + 4√3 ?",
+      "options": [
+        "√2-√3(7√2+4)",
+        "-√2+11√2√3",
+        "-√2+(4+7√2)√3",
+        "√2+(4-7√2)√3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "(2√2 + 4√3) - (3√2 - 7√6)\nRemove parentheses: 2√2 + 4√3 - 3√2 + 7√6\n\nCombine like terms: -√2 + 4√3 + 7√6\nRewrite 7√6 as 7√2√3: -√2 + (4 + 7√2)√3\n",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_96",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Let f be a continuous function on ℝ and c be a number in the domain of f. Which one of the following must be true about the function?",
+      "options": [
+        "If f(c) is a local minimum value of f, then f'(c) = 0.",
+        "An absolute maximum value of f which is attained at a critical number is also a local maximum value of f.",
+        "If c is a critical number of f, then f(c) is a local extreme value of f.",
+        "If f''(c) = 0, then (c, f(c)) is an inflection point of f."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Option 1 is false because a local minimum may occur where the derivative does not exist (e.g., f(x) = |x| at x = 0).\n\n Option 3 is false because not all critical points correspond to local extrema (e.g., f(x) = x³ at x = 0).\n\n Option 4 is false because f''(c) = 0 does not guarantee an inflection point (e.g., f(x) = x⁴ at x = 0).\n\n Option 2 is true: if an absolute maximum occurs at a critical number, it is also a local maximum because in a small neighborhood, the function cannot exceed this value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_97",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "The sum of the first 8 terms of a geometric sequence with first term 0.3 and common ratio 1/10 is equal to:",
+      "options": [
+        "(1/3) * ((10^8 - 1) / 10^8)",
+        "(3/10) * ((10^8 - 1) / 10^8)",
+        "(3/10) * ((10⁹ - 1) / 10⁹)",
+        "(1/3) * ((10^8 - 1) / 10^7)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The sum of the first n terms of a geometric sequence is Sn = a(1 - rⁿ)/(1 - r).\n\n Here, a = 0.3, r = 1/10, n = 8.\n\n Plugging in values: S8 = 0.3 * (1 - (1/10)⁸) / (1 - 1/10) =\n 0.3 * (1 - 10^-8) / 0.9 =\n (1/3) * (1 - 10^-8) =\n (1/3) * ((10⁸ - 1)/10⁸). \n\nTherefore, the sum of the first 8 terms is (1/3) * ((10⁸ - 1)/10⁸).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_98",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the solution set of 5ˣ = 11.2 ? [Use log 5 = 0.6990 and log 1.12 = 0.0485]",
+      "options": [
+        "1.5",
+        "1.2",
+        "1.69",
+        "1.12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Take log on both sides: log5ˣ = log11.2 \n→ x*log5 = log10 + log1.12 = 1 + 0.0485 = 1.0485 \n→ x = 1.0485/0.6990 ≈ 1.5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_99",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Let the sequence {an} converges to 3 while {bn} converges to -1. Then the sequence {an - bn} converges to",
+      "options": [
+        "1/3",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If lim an = 3 and lim bn = -1,\n then lim (an - bn) =\n lim an - lim bn =\n 3 - (-1) = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2018natural_entrance_melmeja_100",
+      "examId": "maths2018natural_entrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The radian measure of an angle of 120° is equal to:",
+      "options": [
+        "π / 2",
+        "π / 8",
+        "2π / 3",
+        "π / 4"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To convert degrees to radians, you multiply the angle in degrees by (π / 180).\n\nAngle in radians = 120 * (π/ 180)\n\n= 120 * π / 180\n= 12π / 18 (dividing both by 10)\n= 2π / 3 (dividing both by 6)\n\nSo, 120 degrees is equal to 2π/3 radians.",
       "topic": "Mathematics"
     }
   ]

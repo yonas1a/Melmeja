@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Mathematics University Entrance Exam 2014 featuring 62 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 93,
-  "totalQuestions": 62,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Mathematics University Entrance Exam 2014 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -1019,6 +1019,618 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "A valid argument is one where if all the premises are true, the conclusion must also be true.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_63",
+      "examId": "maths2014entrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A distribution is negatively skewed. Which relationship is generally expected?",
+      "options": [
+        "Mean > Median > Mode",
+        "Mode > Median > Mean",
+        "Mean = Median = Mode",
+        "Median > Mode > Mean"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a negatively skewed distribution, the tail extends toward smaller values, giving Mean < Median < Mode.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_64",
+      "examId": "maths2014entrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": " Which of the following pairs of lines with the given equations are parallel?",
+      "options": [
+        "L1: 2x + 3y = 5 and L2: 3x + 2y = 4",
+        "L1: x - 2y + 1 = 0 and L2: x + 2y - 1 = 0",
+        "L1: x - y + 3 = 0  and L2: -x + y - 9 = 0",
+        "L1: 4x - y = 2 and L2: -x + 4y = 3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Two lines are parallel if they have the same slope. Using slope formula m = -A/B: \n\nOption 1: slopes -2/3 and -3/2 ❌\n\nOption 2: slopes 1/2 and -1/2 ❌\n\nOption 3: slopes 1 and 1 ✅\n\nOption 4: slopes 4 and 1/4 ❌\n\nOnly option 3 has equal slopes, so the lines are parallel.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_65",
+      "examId": "maths2014entrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "11) What is the rationalizing factor of the number ?",
+      "options": [
+        "√3 + √2 / √3 + √2",
+        "√3 / √3 + √2",
+        "√3 - √2 / √3-√2",
+        "1 / √3 + √2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The rationalizing factor of 1/(√3 - √2) is √3 + √2, the conjugate of the denominator.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_66",
+      "examId": "maths2014entrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "The mean of five numbers is 12. If four numbers are 10, 9, 15, 14, find the fifth number.",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "14"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sum = 60; known sum = 48 → missing = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_67",
+      "examId": "maths2014entrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "What is the value of x in the equation √(125ˣ5²ˣ⁻¹)= 25³ˣ⁺¹?",
+      "options": [
+        "5/7",
+        "5",
+        "-5/7",
+        "-5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Combine under the square root: √(125ˣ × 5²ˣ⁻¹) = (125ˣ × 5²ˣ⁻¹)^(1/2) \n\n= 5^((3x + 4x - 2)/2) = 5^(7x/2 - 1).\n\n Right-hand side: 25^(3x+1) = 5^(6x + 2).\n\n Equate exponents: 7x/2 - 1 = 6x + 2 \n→ x = 5/7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_68",
+      "examId": "maths2014entrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is the value of a number in the interval (0, 1) that satisfies the Mean Value Theorem for the function f(x) = 3x² - 5x + 1?",
+      "options": [
+        "1",
+        "5 / 6",
+        "3 / 5",
+        "1 / 2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mean Value Theorem: f'(c) = [f(1) - f(0)] / (1 - 0)\nf(x) = 3x² - 5x + 1\nf(1) = 3 - 5 + 1 = -1\nf(0) = 1\nSlope = (-1 - 1) = -2\nf'(x) = 6x - 5\n6c - 5 = -2\n6c = 3\nc = 1/2",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_69",
+      "examId": "maths2014entrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set of the equation 6 - 4x - 2x²  = 0?",
+      "options": [
+        "{-3,1}",
+        "{-1,3}",
+        "{-6,2}",
+        "{-2,-6}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The quadratic factors as (x-1)(x+3)=0, giving solution set {-3,1}",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_70",
+      "examId": "maths2014entrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "What is the simplified form of the expression (32^sqrt(2) * 4^sqrt(2)) / (8^sqrt(2))?",
+      "options": [
+        "2^sqrt(2)",
+        "2^(-sqrt(2))",
+        "2",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Express base numbers in terms of powers of 2: 32 = 2⁵, 4 = 2², and 8 = 2³. Substitute these into the expression: ((2⁵)^sqrt(2) * (2²)^sqrt(2)) / ((2³)^sqrt(2)) = (2^(5*sqrt(2)) * 2^(2*sqrt(2))) / (2^(3*sqrt(2))) = 2^(7*sqrt(2)) / 2^(3*sqrt(2)) = 2^(7*sqrt(2) - 3*sqrt(2)) = 2^(4*sqrt(2)). Wait, let's recheck the options or exponents: 32 = 2^5, 4 = 2^2, 8 = 2^3. Numerator is 2^(5*sqrt(2)) * 2^(2*sqrt(2)) = 2^(7*sqrt(2)). Denominator is 2^(3*sqrt(2)). Division gives 2^(4*sqrt(2)). Wait, is 4*sqrt(2) an option? Options are A) 2^sqrt(2), B) 2^(-sqrt(2)), C) 2, D) 1. Let's re-read the exponents in the image: numerator is 32^sqrt(8) * 4^sqrt(2) over 8^sqrt(32)? Ah, let's look closely at the image: 32^(sqrt(8)) * 4^(sqrt(2)) / 8^(sqrt(32)). Let's simplify sqrt(8) = 2*sqrt(2) and sqrt(32) = 4*sqrt(2). Then 32^(2*sqrt(2)) = (2⁵)^(2*sqrt(2)) = 2^(10*sqrt(2)). 4^(sqrt(2)) = (2²)^(sqrt(2)) = 2^(2*sqrt(2)). Numerator = 2^(10*sqrt(2) + 2*sqrt(2)) = 2^(12*sqrt(2)). Denominator = 8^(4*sqrt(2)) = (2³)^(4*sqrt(2)) = 2^(12*sqrt(2)). Thus, numerator / denominator = 2^(12*sqrt(2)) / 2^(12*sqrt(2)) = 1! This matches option D.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_71",
+      "examId": "maths2014entrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions is one to one?",
+      "options": [
+        "f = {(x, y): y is the mother of x}",
+        "f: R → R, f(x) = x² − 1",
+        "f: (0, ∞) → R, f(x) = |x| − 1",
+        "f = {(1,5), (2,3), (5,4), (6,5)}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A one to one function assigns different outputs for different inputs.\n\n Option A represents the relation 'y is the mother of x', which is one to one because each person has exactly one biological mother, and one mother cannot be the mother of two different people in the function sense.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_72",
+      "examId": "maths2014entrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Two triangles have sides in ratio 3:5. If the smaller triangle area is 27 cm², find the larger area.",
+      "options": [
+        "45",
+        "75",
+        "125",
+        "225"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Area ratio = scale² = 9:25 → 27*(25/9)=75.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_73",
+      "examId": "maths2014entrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Find standard deviation of data: 1, 3, 5, 7.",
+      "options": [
+        "2.24",
+        "2",
+        "3",
+        "2.5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Variance = 5 → SD = √5 ≈ 2.24.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_74",
+      "examId": "maths2014entrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "What is the equation of the hyperbola with foci F1(-2, 1), F2(8, 1) and the length of the conjugate axis is 8 units?",
+      "options": [
+        "((x-3)² / 25) - ((y-1)² / 15) = 1",
+        "((x-5)² / 9) - ((y-1)² / 16) = 1",
+        "((x-3)² / 16) - ((y-1)² / 25) = 1",
+        "((y+1)² / 16) - ((x-3)² / 9) = 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The hyperbola is horizontal because foci lie on y=1. \n\nCenter: midpoint of foci C=(3,1). \n\nDistance between center and focus: c=5. Conjugate axis length 8 → b=4.\n\n Equation: (x-3)²/a² - (y-1)²/b²=1 with a²=c²-b²=25-16=9.\n\n So equation: (x-3)²/25 - (y-1)²/16 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_75",
+      "examId": "maths2014entrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Solve the system: 2x + y = 7 and 3x – y = 8.",
+      "options": [
+        "(3,1)",
+        "(2,3)",
+        "(1,5)",
+        "(4,1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adding equations gives 5x = 15 → x = 3; substitute to get y = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_76",
+      "examId": "maths2014entrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the solution set of 5ˣ = 11.2 ? [Use log 5 = 0.6990 and log 1.12 = 0.0485]",
+      "options": [
+        "1.5",
+        "1.2",
+        "1.69",
+        "1.12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Take log on both sides: log5ˣ = log11.2 \n→ x*log5 = log10 + log1.12 = 1 + 0.0485 = 1.0485 \n→ x = 1.0485/0.6990 ≈ 1.5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_77",
+      "examId": "maths2014entrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following numbers is the upper bounds of the sequence",
+      "imageUrl": "images/M2015_43.png",
+      "diagramUrl": "images/M2015_43.png",
+      "options": [
+        "4",
+        "1",
+        "0",
+        "3/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_78",
+      "examId": "maths2014entrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Consider the line segment PQ with P=(1, -1) and Q=(4, 2). Then which of the following point divides PQ internally in the ratio of 2:1?",
+      "options": [
+        "(2, 0)",
+        "(2, 1)",
+        "(3, 0)",
+        "(3, 1)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Section formula: (x, y) = ((m x2 + n x1)/(m + n), (m y2 + n y1)/(m + n))\n\n((2×4 + 1×1)/(2+1), (2×2 + 1×(-1))/(2+1)) =\n (9/3, 3/3) =\n (3, 1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_79",
+      "examId": "maths2014entrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (x² + 2x + 1) dx.",
+      "options": [
+        "x³/3 + x² + x + C",
+        "x³ + x² + x",
+        "x² + 2x + 1",
+        "x³/3 + x² + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrate term-wise.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_80",
+      "examId": "maths2014entrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following function is NOT a power function?",
+      "options": [
+        "f(x) = √2x³",
+        "f(x) = πx⁵",
+        "f(x) = (√3)^(x/2)",
+        "f(x) = x^(-3/5)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A power function has the form f(x) = kx^a, where k and a are constants and the variable x appears only as a power.\n\nOption A: f(x) = √2x³ = (√2)x³ → power function.\n\nOption B: f(x) = πx⁵ → power function.\n\nOption D: f(x) = x^(-3/5) → power function.\n\nOption C: f(x) = (√3)^(x/2) has the variable x in the exponent, so it is an exponential function, not a power function.\n\nTherefore, the correct answer is C.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_81",
+      "examId": "maths2014entrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the equation 5log₉ x -  2log₉(x²) - log₄8= -1 is",
+      "options": [
+        "{3/2}",
+        "{9}",
+        "{3}",
+        "{4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "5log₉x - 2log₉(x²) - log₄8 = -1\n\n    log₉(x²) = 2log₉x\n\n5log₉x - 4log₉x = log₉x\n\nEquation becomes: log₉x - log₄8 = -1\n\nlog₄8 = 3/2\n\nlog₉x - 3/2 = -1 → log₉x = 1/2\n\nx = 9^(1/2) = 3",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_82",
+      "examId": "maths2014entrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "If (x² + 14) / ( (x+2)(x-1)²) = A/(x+2) + B/(x-1) + C/((x-1)²), then what are the values of A, B, and C respectively?",
+      "options": [
+        "2, -1, 5",
+        "2, -2, -5",
+        "3, -2, 6",
+        "1, -1, 3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply both sides by (x+2)(x-1)² and expand: x²+14 = A(x-1)² + B(x+2)(x-1) + C(x+2).\n\n Compare coefficients to get equations: A+B=1, -2A+B+C=0, A-2B+2C=14.\n\n Solving gives A=2, B=-1, C=5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_83",
+      "examId": "maths2014entrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Which of the following sets does NOT describe the set of all natural numbers?",
+      "options": [
+        "{1, 2, 3, 4, ...}",
+        "{1, 2, 3, ..., 1000}",
+        "{x ∈ ℤ : x > 0}",
+        "The set of all positive integers"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The set of all natural numbers is an infinite set starting from 1 (or 0, depending on convention, but in standard contexts positive integers {1, 2, 3, ...}). Option B represents a finite set containing only numbers up to 1000, so it does NOT describe the infinite set of all natural numbers. This matches option B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_84",
+      "examId": "maths2014entrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "What are the values of a and b respectively?",
+      "imageUrl": "images/M2015_30.png",
+      "diagramUrl": "images/M2015_30.png",
+      "options": [
+        "0, -1",
+        "3, 2",
+        "1, 3",
+        "2, 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_85",
+      "examId": "maths2014entrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "What is the area of an equilateral triangle inscribed in a circle radius 4 units?",
+      "options": [
+        "12 sq.units",
+        "36 sq.units",
+        "6√3 sq. units",
+        "12√3 sq. units"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For an equilateral triangle inscribed in a circle of radius R: side a  Area = (√3/4) * a² =\n\n (√3/4) * (8²) = 12√3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_86",
+      "examId": "maths2014entrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A person borrowed Birr 804,000 to buy a car. He strictly agreed to pay Birr 300,000 a down payment and the rest in two years with equal payment on a regular monthly basis. What should be his monthly payment?",
+      "options": [
+        "Birr 20,500",
+        "Birr 21,000",
+        "Birr 22,500",
+        "Birr 24,000"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The remaining loan amount to be paid is 804,000 - 300,000 = 504,000 Birr. The repayment period is two years, which is 2 * 12 = 24 months. The monthly payment is 504,000 / 24 = 21,000? Wait, let's divide: 504000 / 24 = 21,000 Birr! Let's recheck the options: A) Birr 20,500, B) Birr 21,000, C) Birr 22,500, D) Birr 24,000. Since 504000 / 24 = 21000, the correct answer is option B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_87",
+      "examId": "maths2014entrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": " Which one of the following statements is the polynomial division theorem?",
+      "options": [
+        "If f is a non-constant polynomial and c is a real number, then x-c is a factor of f(x) if and only if f(c)=0.",
+        "If f is a non-constant polynomial and c is a real number, then x-c is a factor of f(x) if and only if f(c)=0.",
+        "Let f be a non-constant polynomial with integer coefficients. If the rational number c/d in its lowest terms is a root of f, then r is a factor of the constant term of f and s is a factor of the leading coefficient.",
+        "If f(x) and d(x) are polynomials such that d(x) ≠ 0 and degree d(x) ≤ degree f(x), then there exist unique polynomials q(x) and r(x) such that f(x) = d(x)q(x) + r(x), where r(x) = 0 or degree r(x) < degree(d(x))."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The polynomial division theorem states that for any polynomials f(x) and d(x) with d(x) ≠ 0 and degree d(x) ≤ degree f(x), there exist unique polynomials q(x) (quotient) and r(x) (remainder) such that f(x) = d(x)q(x) + r(x), where r(x) = 0 or the degree of r(x) is less than the degree of d(x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_88",
+      "examId": "maths2014entrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "What is the minimum value of the function defined by f(x)=-3+4x+x² ?",
+      "options": [
+        "1",
+        "0",
+        "-2",
+        "-7"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "f(x)=x²+4x−3 = (x+2)²−7.\n Since (x+2)² ≥ 0, the minimum value occurs at x = -2 and is -7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_89",
+      "examId": "maths2014entrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an irrational number?",
+      "options": [
+        "√0.04",
+        "1.162222 ...",
+        "√29",
+        "3.4000"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An irrational number is a number that cannot be expressed as a fraction of two integers. \n\n- √0.04 = 0.2, which is rational. \n\n- 1.162222 ... appears to be repeating or terminating, so it is rational. \n\n- √29 is not a perfect square, so it cannot be expressed as a fraction → irrational. \n\n- 3.4000 is a terminating decimal → rational. Therefore, √29 is the irrational number.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_90",
+      "examId": "maths2014entrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": " If the measure of each interior angle of a regular polygon is 135°, then which one of the following is the number of lines of symmetry of the polygon?",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": " interior angle = ((n-2) × 180)/n.\n  ((n-2) × 180)/n = 135, \nsolving gives n = 8.\n\n A regular polygon has as many lines of symmetry as sides, so it has 8 lines of symmetry.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_91",
+      "examId": "maths2014entrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a direct tax?",
+      "options": [
+        "Value added tax (VAT).",
+        "Turnover tax (TOT).",
+        "Income tax.",
+        "Excise tax."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Income tax is levied directly on the income of a person or organization, making it a direct tax, whereas VAT, TOT, and excise taxes are indirect taxes.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_92",
+      "examId": "maths2014entrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": " What is the total surface area (in cm²) of the cylinder whose radius is 2 cm and height is 7 cm?",
+      "options": [
+        "28π",
+        "36π",
+        "98π",
+        "49π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The total surface area of a cylinder is given by TSA = 2πr(r + h).\n\nHere, r = 2 cm and h = 7 cm.\n\nSo, TSA = 2π × 2 × (2 + 7) = 4π × 9 = 36π cm².\n\nTherefore, the correct answer is 36π.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_93",
+      "examId": "maths2014entrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (1/(2x+1)) dx.",
+      "options": [
+        "(1/2)ln|2x+1|+C",
+        "ln|2x+1|+C",
+        "1/(2x+1)",
+        "x/(2x+1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Substitution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_94",
+      "examId": "maths2014entrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": " Let θ be an angle in standard position and P(-3, 4) be a point on the terminal side of θ. Which one of the following is true about the corresponding trigonometric functions?",
+      "options": [
+        "sinθ = 3/5",
+        "cosθ= 4/5",
+        "cosθ = -3/5",
+        "sinθ = -4/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a point P(x, y) on the terminal side of θ, r = √(x² + y²).\n Here, r = √((-3)² + 4²) = 5. \nThen sinθ = y/r = 4/5, cosθ = x/r = -3/5.\n Since x < 0 and y > 0 (Quadrant II), cosine is negative and sine is positive.\n Therefore, cosθ = -3/5 is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_95",
+      "examId": "maths2014entrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "A fair die is rolled. Probability of getting a composite number?",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "5/6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Composite: 4,6 → 2/6 = 1/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_96",
+      "examId": "maths2014entrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following numbers is equal to √3 + √2 / √3-√2 ?",
+      "options": [
+        "6 + 2√2",
+        "5 + 2√2",
+        "1 + 2√3",
+        "3 - 2√3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiply numerator and denominator by (√3 + √2) to rationalize: ((√3 + √2)² )/(3 - 2) =\n\n- (3 + 2√6 + 2)/1 = 5 + 2√2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_97",
+      "examId": "maths2014entrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Find sinθ if a right triangle has opposite = 8 and hypotenuse = 17.",
+      "options": [
+        "8/17",
+        "15/17",
+        "17/8",
+        "√(15)/17"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "sinθ = opposite/hypotenuse = 8/17.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_98",
+      "examId": "maths2014entrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Let a, b ∈ R such that a < b and f be a polynomial function. Then which one of the following statements states the location theorem?",
+      "options": [
+        "If f(a) and f(b) have the same signs, then there is at least one zero of f between a and b.",
+        "If f(a) and f(b) have the same signs, then there exists a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is a unique zero of f between a and b.",
+        "If f(a) and f(b) have opposite signs, then there is at least one zero of f between a and b."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "If f(a) and f(b) have opposite signs, the function must cross the x-axis somewhere between them. \n\nTherefore, there is at least one zero in (a, b). Option D is correct.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_99",
+      "examId": "maths2014entrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Water is flowing into a cylindrical water tank of radius 2 m and height 10 m at a rate of 5 m³/min. What is the rate change of the height when the water level is 6 m?",
+      "options": [
+        "5/4π m/min",
+        "5π/4 m/min",
+        "2 m/min",
+        "2πm/min"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "- Volume of cylinder V = π r² h.\n - Differentiate: dV/dt = π r² dh/dt.\n- Given dV/dt=5, r=2, solving gives dh/dt = 5/(4π) m/min.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_maths2014entrance_melmeja_100",
+      "examId": "maths2014entrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "26) Which one of the following statements is NOT TRUE about the graph of the given linear inequality?",
+      "options": [
+        "The graph of the linear inequality y ≤ x - 1 is above the line y = 2x on the interval (-∞, -1)",
+        "The graph of the linear inequality y > 2x + 1 contains no points of the line y = 2x - 3",
+        "The graph of the linear inequality y ≤ 2x + 1 is below the line y = y on the interval (-∞, -1)",
+        "The graph of the linear inequality y > 2x - 1 contains all points of the line y = 2x"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For y > 2x - 1, the graph does NOT include points on the line y = 2x because inequalities with > or < exclude the boundary line.\n\n Only ≤ or ≥ would include points on the line.",
       "topic": "Mathematics"
     }
   ]

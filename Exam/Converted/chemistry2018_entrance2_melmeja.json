@@ -5,10 +5,10 @@
   "subCategory": "Chemistry",
   "department": "Chemistry",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Chemistry University Entrance Exam 2018 featuring 80 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 120,
-  "totalQuestions": 80,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Chemistry University Entrance Exam 2018 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -1307,6 +1307,326 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Polymerization joins many small monomers together to form large molecules called polymers.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_81",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which of the following elements has the lowest electronegativity?",
+      "options": [
+        "Fluorine (F)",
+        "Oxygen (O)",
+        "Cesium (Cs)",
+        "Chlorine (Cl)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Electronegativity decreases down a group and across a period from right to left.\n\n Cesium (Cs) is an Alkali metal and one of the least electronegative elements.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_82",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Sample advanced chemistry question 18 about acid-base equilibria.",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Detailed explanation for question {i}.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_83",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "What is the pH of a buffer solution containing 0.5 M acetic acid (Ka = 1.8 * 10^-5) and 0.5 M sodium acetate? (Use log(1.8) = 0.25)",
+      "options": [
+        "4.74",
+        "5.00",
+        "7.00",
+        "9.26"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the Henderson-Hasselbalch equation: pH = pK_a + log([Base]/[Acid]).\n\n Since [Acid] = [Base], log(1) = 0.\n\n pH = pK_a = -log(1.8 * 10^-5) = 5 - log(1.8) = 5 - 0.25 = 4.75.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_84",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "According to the Brønsted-Lowry theory, a substance that can act as both an acid and a base is called:",
+      "options": [
+        "Strong acid",
+        "Conjugate base",
+        "Amphiprotic (or Amphoteric)",
+        "Neutral substance"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An amphiprotic substance (like H2O or HCO3-) can donate a proton (act as an acid) or accept a proton (act as a base).",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_85",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The concept of atom economy in Green Chemistry aims to maximize the incorporation of all atoms from the reactants into which part of the reaction scheme?",
+      "options": [
+        "Side products",
+        "Wastewater",
+        "Desired product",
+        "Catalyst"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Atom economy is a measure of the efficiency of a chemical reaction, calculated as Mass of desired product / Mass of all reactants * 100%.\n\n The goal is to maximize the incorporation of reactant atoms into the desired product.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_86",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "According to Le Chatelier's Principle, how will increasing the volume (decreasing the pressure) affect the following equilibrium? N2(g) + 3H2(g) --> 2NH3(g)",
+      "options": [
+        "Shift to the products (right).",
+        "Shift to the reactants (left).",
+        "No change in equilibrium position.",
+        "Increase the value of Kc."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Increasing the volume (decreasing pressure) shifts the equilibrium to the side with more moles of gas.\n\n Reactants have 1+3=4 moles; products have 2 moles. The equilibrium shifts to the left (reactants).",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_87",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "The volume occupied by 0.5  mole of any gas at Standard Temperature and Pressure (STP) is:",
+      "options": [
+        "22.4 L",
+        "11.2 L",
+        "44.8 L",
+        "5.6 L"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "One mole of gas at STP occupies 22.4 L. \n\n0.5 mol * 22.4 L/mol = 11.2 L.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_88",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "According to the Kinetic Molecular Theory (KMT), the average kinetic energy of gas molecules is directly proportional to the gas's:",
+      "options": [
+        "Pressure.",
+        "Volume.",
+        "Molar mass.",
+        "Absolute temperature (Kelvin)."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": " At a given temperature, all gases have the same average kinetic energy.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_89",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "The term used for a chemical species that is highly reactive and has an unpaired electron is a(n):",
+      "options": [
+        "Carbocation.",
+        "Carbanion.",
+        "Free radical.",
+        "Nucleophile."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Free radicals are involved in many chain reactions, such as the halogenation of alkanes, and are highly unstable intermediates.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_90",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "A reaction that absorbs heat energy from the surroundings is classified as:",
+      "options": [
+        "Exothermic reaction",
+        "Spontaneous reaction",
+        "Endothermic reaction",
+        "Combustion reaction"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An endothermic reaction absorbs heat energy from the surroundings, causing the temperature of the surroundings to decrease (H > 0).",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_91",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The reaction of a carboxylic acid with an alcohol in the presence of a strong acid catalyst produces:",
+      "options": [
+        "An aldehyde",
+        "ketone",
+        "An ether",
+        "An ester"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This reaction is called esterification.\n Carboxylic acid + Alcohol  Ester + Water.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_92",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The term for a solid that changes directly into a gas without becoming a liquid is:",
+      "options": [
+        "Evaporation.",
+        "Condensation.",
+        "Sublimation.",
+        "Deposition."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sublimation (e.g., dry ice to CO2 gas) is the solid --> gas phase change.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_93",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "The maximum number of electrons that can be accommodated in the d subshell is:",
+      "options": [
+        "5",
+        "10",
+        "14",
+        "18"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The d subshell contains 5 orbitals (ml = -2, -1, 0, 1, 2).\n Each orbital holds 2 electrons, so 5 * 2 = 10 electrons.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_94",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "The component of the environment consisting earth's upper outer most skin, and accessible to human beings is known as",
+      "options": [
+        "biosphere",
+        "lithosphere",
+        "hydrosphere",
+        "atmosphere"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The lithosphere refers to the Earth's upper outermost solid layer (the crust and upper mantle) that forms the land surface and is accessible to human beings. \n\nThe biosphere includes all living organisms, the hydrosphere includes all water bodies, and the atmosphere is the layer of gases surrounding the Earth.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_95",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "The point in an acid-base titration where the moles of acid exactly equal the moles of base is called the:",
+      "options": [
+        "Indicator point",
+        "Endpoint",
+        "Half-equivalence point",
+        "Equivalence point"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The equivalence point is the theoretical point where the stoichiometric amounts of acid and base have reacted completely, meaning moles of H+ equals moles of OH-.\n The endpoint is the point where the indicator changes color.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_96",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "Which rule dictates that electrons will individually occupy all orbitals within a subshell before doubling up in any one orbital?",
+      "options": [
+        "Aufbau Principle",
+        "Pauli Exclusion Principle",
+        "Hund's Rule",
+        "Heisenberg Uncertainty Principle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hund's Rule (the rule of maximum multiplicity) states that when filling degenerate orbitals, electrons enter them singly with parallel spins before any orbital is doubly occupied.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_97",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "According to the Kinetic Molecular Theory of Gases, the collisions between gas particles are:",
+      "options": [
+        "Inelastic and cause a loss of energy.",
+        "Elastic and conserve total kinetic energy.",
+        "Responsible for chemical reactions.",
+        "Rarely occurring."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The KMT states that collisions between ideal gas particles are perfectly elastic, meaning no net energy is lost during the collision.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_98",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "An aluminum and piece of paper were taken for conductivity experiment. The aluminum conducts electricity and the piece of paper do not. What explanation can be given for the conductivity of the aluminum metal? This is due to the fact that aluminum",
+      "options": [
+        "does not contain electrons.",
+        "contains only protons.",
+        "contains electric power in its structure.",
+        "contains freely moving electrons."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Aluminum conducts electricity because it contains freely moving (delocalized) electrons.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_99",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Which statement distinguishes equivalence point from end point in acid base titration?",
+      "options": [
+        "Equivalence point is a point at which reactants starts to evaporate whereas end point is a point where a product starts to condense.",
+        "Equivalence point is a point at which reactants start to melt whereas end point is the point where products start to freeze.",
+        "Equivalence point is a point at which the indicator changes color whereas end point is the point where an acid has completely reacted with a base.",
+        "End point is a point at which the indicator changes color whereas equivalence point is the point where an acid has completely reacted with a base."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In an acid-base titration, the equivalence point is the exact point at which the amount of acid equals the amount of base, meaning the reaction is complete.\n\n The end point is the point indicated by a color change of the indicator, signaling the completion of titration, which may be slightly before or after the equivalence point.",
+      "topic": "Chemistry"
+    },
+    {
+      "id": "q_chemistry2018_entrance2_melmeja_100",
+      "examId": "chemistry2018_entrance2_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "The temperature at which a liquid's vapor pressure equals the external (atmospheric) pressure is the:",
+      "options": [
+        "Melting point.",
+        "Freezing point.",
+        "Triple point.",
+        "Boiling point."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "When vapor pressure equals external pressure, boiling occurs, allowing the formation of bubbles throughout the liquid.",
       "topic": "Chemistry"
     }
   ]

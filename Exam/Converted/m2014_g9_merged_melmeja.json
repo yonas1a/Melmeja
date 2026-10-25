@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 9",
-  "description": "Comprehensive examination bank combining 7 chapters (11 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 11,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -195,6 +195,1432 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "A vector quantity has both magnitude (size) and direction.\n\n A scalar quantity has only magnitude.\n\n- Volume and width are scalars (magnitude only).\n\n- Speed is a scalar (magnitude only).\n\n- Weight is a force (due to gravity) that has both magnitude and a direction (downwards towards the center of the Earth).\n Therefore, weight is a vector.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_12",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "If n(A)=7, n(B)=10, and A and B are disjoint, find n(A ∪ B).",
+      "options": [
+        "3",
+        "7",
+        "10",
+        "17"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For disjoint sets, n(A ∩ B) = 0.\n\n Therefore, n(A ∪ B) = n(A) + n(B) - n(A ∩ B) =\n\n 7 + 10 - 0 = 17. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_13",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "A bag contains 4 red and 6 blue marbles. Two marbles are drawn without replacement. What is the probability that the second marble drawn is blue, GIVEN that the first one was red?",
+      "options": [
+        "6/10",
+        "6/9",
+        "4/10",
+        "4/9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If the first marble was red, the bag now contains 3 red and 6 blue marbles, for a total of 9 marbles.\n\n The probability of the second being blue is 6 (blue marbles left) / 9 (total marbles left) = \n6/9 (or 2/3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_14",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": " The shaded region in the following figure is the graph of a relation R. Which one of the following is the domain and range of R respectively? ",
+      "imageUrl": "images/M2016_8.png",
+      "diagramUrl": "images/M2016_8.png",
+      "options": [
+        "ℝ and (-∞,-1/2]",
+        "(-∞,-1/2) and ℝ",
+        "(-∞,-1/2] and ℝ",
+        "ℝ  and (-∞,-1/2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_15",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "What is the sample space when a coin is tossed and a die is rolled simultaneously?",
+      "options": [
+        "12 outcomes",
+        "8 outcomes",
+        "6 outcomes",
+        "2 outcomes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total number of outcomes is the product of the individual outcomes: 2 (for the coin) * 6 (for the die) =\n 12 outcomes.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_16",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "If u = 2i + 3j and v = 4i + 6j, then u . v is:",
+      "options": [
+        "10",
+        "18",
+        "26",
+        "1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "u . v = (2)(4) + (3)(6) = \n8 + 18 = 26.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_17",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "If u = (a, b) and v = (c, d), the dot product u . v is:",
+      "options": [
+        "(ac, bd)",
+        "ac + bd",
+        "a/c + b/d",
+        "ac - bd"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The dot product (scalar product) is defined as u . v = ac + bd.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_18",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Find the vector that has magnitude 2 and direction opposite to i.",
+      "options": [
+        "(-2, 0)",
+        "(2, 0)",
+        "(0, -2)",
+        "(-1, 0)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The direction opposite to i = (1, 0) is -i = (-1, 0).\n\n The vector with magnitude 2 in this direction is 2 * (-1, 0) = (-2, 0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_19",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "If vector a = 3i - 2j and vector b = 2i + 3j, then the vector a + 2b is:",
+      "options": [
+        "7i + 4j",
+        "5i + j",
+        "4i + 7j",
+        "i + 8j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "2b = 2(2i + 3j) = 4i + 6j.\n a + 2b = (3i - 2j) + (4i + 6j) = \n(3 + 4)i + (-2 + 6)j =\n 7i + 4j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_20",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "The vector component of a = (4, 3) along the unit vector j is:",
+      "options": [
+        "(4, 0)",
+        "(0, 3)",
+        "(3, 0)",
+        "(4, 3)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The unit vector j is (0, 1) (the y-axis direction). \n\nThe component of a along j is (0, 3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_21",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Find the union of the intervals (-infinity, 4) and [4, 7].",
+      "options": [
+        "The empty set",
+        "(-infinity, 7)",
+        "(-infinity, 7]",
+        "[4, 4]"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The union includes all elements in either set. Since the first set goes up to (but excludes) 4, and the second starts at (and includes) 4, their union is all real numbers up to and including 7: (-infinity, 7].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_22",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "The result of the vector operation 2(i + 3j) - 4i is:",
+      "options": [
+        "6i + 6j",
+        "-2i + 6j",
+        "2i + 3j",
+        "6j - 2i"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "2(i + 3j) - 4i = \n(2i + 6j) - 4i =\n (2 - 4)i + 6j =\n -2i + 6j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_23",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which of the following collections represents a well-defined set?",
+      "options": [
+        "Collection of tall students in Grade 9",
+        "Collection of interesting books in the library",
+        "Collection of natural numbers less than 10",
+        "Collection of beautiful flowers in a garden"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A set must be well-defined, meaning it's clear whether an object belongs to the set or not.\n\n 'Tall', 'interesting', and 'beautiful' are subjective. \n\n'Natural numbers less than 10' ({1, 2, 3, 4, 5, 6, 7, 8, 9}) is clearly defined. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_24",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "What is the definition of a polygon?",
+      "options": [
+        "simple closed plane figure formed by three or more curved lines.",
+        "simple closed plane figure formed by three or more line segments.",
+        "An open plane figure formed by line segments.",
+        "solid figure with flat faces."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A polygon is a simple closed plane figure formed by three or more line segments joined end to end. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_25",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Given ΔABC with AB = 7, BC = 9, and AC = 12. Which set of side lengths corresponds to a triangle similar to ΔABC?",
+      "options": [
+        "14, 18, 20",
+        "3.5, 4.5, 6",
+        "10, 12, 15",
+        "6, 8, 10"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A similar triangle must have side lengths proportional to 7, 9, 12.\n Checking option B: 3.5/7 = 0.5, 4.5/9 = 0.5, 6/12 = 0.5. \n\nThe scale factor is 0.5 (or 1/2), so the triangles are similar.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_26",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "In a right-angled triangle, the side adjacent to angle θ is 5 and the hypotenuse is 13. What is cos θ?",
+      "options": [
+        "5/12",
+        "12/13",
+        "5/13",
+        "13/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The cosine ratio is defined as adjacent side divided by hypotenuse.\n\n cos θ = Adjacent / Hypotenuse = 5/13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_27",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Which represents the solution to x² + 2x + 1 > 0?",
+      "options": [
+        "x = -1",
+        "x ≠ -1",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Factor: (x+1)² > 0. The square of any real number is non-negative. (x+1)² is zero only when x = -1.\n\n For all other values of x, (x+1)² is positive. So the solution is x ≠ -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_28",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "If 7^(x - 3) = 7^(2x), the value of x is:",
+      "options": [
+        "3",
+        "-3",
+        "1",
+        "-1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equate the exponents: x - 3 = 2x.\n\n -3 = x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_29",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Can the sum of interior angles of a convex polygon be 1000°?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if it's regular",
+        "Only if it has 7 sides"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The sum must be a multiple of 180° of the form (n-2)*180°. \n\n1000 / 180 is not an integer, so 1000° cannot be the sum of interior angles for any polygon.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_30",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "If u = (1, 2), then the vector 2u is graphically represented by a vector with:",
+      "options": [
+        "Half the length of u, same direction.",
+        "Twice the length of u, opposite direction.",
+        "Twice the length of u, same direction.",
+        "The same length, same direction."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Multiplying by a positive scalar (2) maintains the direction and scales the magnitude by the scalar value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_31",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: 5x - (x + 2) ≥ 0",
+      "options": [
+        "x ≥ 1/2",
+        "x ≤ 1/2",
+        "x ≥ -1/2",
+        "x ≤ -1/2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Simplify: 5x - x - 2 ≥ 0 => 4x - 2 ≥ 0.\n\n Add 2: 4x ≥ 2. Divide by 4: x ≥ 1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_32",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Solve -1 ≤ x + 3 < 5",
+      "options": [
+        "-4 ≤ x < 2",
+        "-2 ≤ x < 8",
+        "-4 < x ≤ 2",
+        "-2 < x ≤ 8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Subtract 3 from all parts: -1 - 3 ≤ x < 5 - 3 => -4 ≤ x < 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_33",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "The solution set of 1/x + 1/(2x) = 3 is:",
+      "options": [
+        "{1/2}",
+        "{2}",
+        "{3/2}",
+        "{1/3}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply by the LCD (2x): 2 + 1 = 6x.\n\n 3 = 6x. x = 3/6 = 1/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_34",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "To prove ΔABC ≅ ΔDEF using the ASA postulate, given that ∠A = ∠D and AC = DF, what additional condition is needed?",
+      "options": [
+        "BC = EF",
+        "AB = DE",
+        "∠C = ∠F",
+        "∠B = ∠E"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "ASA requires the side to be included between the two angles.\n\n Given ∠A and side AC, the other angle must be ∠C to make the side included (ASA). Thus, we need ∠C = ∠F.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_35",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Solve x² + x + 1 > 0",
+      "options": [
+        "x > 0",
+        "x < 0",
+        "All real numbers",
+        "No solution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_36",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "For any event E in a sample space S, which of the following is always true?",
+      "options": [
+        "P(E) greater than 1",
+        "P(E) = 0",
+        "0 less than or equal to P(E) less than or equal to 1",
+        "P(E) less than 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The probability of any event must be a number between 0 and 1, inclusive.\n\n This is one of the fundamental axioms of probability.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_37",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "If the roots of x² - kx + 16 = 0 are equal, then k is:",
+      "options": [
+        "4",
+        "±8",
+        "8",
+        "±4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For equal roots, D = 0.\n\n (-k)² - 4(1)(16) = 0.\n k² - 64 = 0. k² = 64. k = ±8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_38",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Which method uses words to describe the elements of a set?",
+      "options": [
+        "Roster method",
+        "Set builder method",
+        "Verbal method",
+        "Partial listing method"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The verbal method describes the set using an ordinary language statement.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_39",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "cos 80° is equal to:",
+      "options": [
+        "sin 10°",
+        "cos 10°",
+        "sin 80°",
+        "tan 80°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_40",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "If P(A) is the power set of A and n(P(A)) = 128, what is n(A)?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The number of elements in the power set is 2ⁿ(ᴬ).\n\n Since 2ⁿ(ᴬ) = 128, and 2⁷ = 128, n(A) = 7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_41",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "If vector u = (3, -2) and v = (k, 4) are collinear (parallel), what is the value of k?",
+      "options": [
+        "-6",
+        "6",
+        "-3/2",
+        "2/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For collinear vectors, the components must be proportional: 3/k = -2/4.\n  3/k = -1/2. \n Cross-multiplying gives -k = 6, so k = -6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_42",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "If A ∩ B = ∅, which of the following is always true?",
+      "options": [
+        "n(A × B) = 0",
+        "∪ B = U",
+        "- B = A",
+        "= ∅"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If A ∩ B = ∅ (disjoint), then A - B (elements in A but not in B) is simply A, because there are no elements in B to remove from A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_43",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "The property a times b = b times a is called:",
+      "options": [
+        "Distributive Law",
+        "Associative Law",
+        "Commutative Law",
+        "Inverse Law"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is the commutative law of multiplication, which states that the order of the factors does not change the product.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_44",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC and ΔXYZ, AB/XY = BC/YZ = CA/ZX. What is the relationship between the two triangles?",
+      "options": [
+        "Congruent by SSS",
+        "Similar by SSS Similarity",
+        "Congruent by SAS",
+        "Neither congruent nor similar"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The proportionality of all three corresponding sides establishes the SSS Similarity criterion.\n\n Congruency is only established if the ratio is 1:1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_45",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "What is the solution for z in the system: x + y + z = 10, x = 3, y = 2x?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Given x = 3. y = 2x = 2(3) = 6. \n\nSubstitute into the first equation: 3 + 6 + z = 10.\n 9 + z = 10. z = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_46",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Given two line segments AB and CD, if AB is congruent to CD, what is the relationship between their lengths?",
+      "options": [
+        "AB > CD",
+        "AB < CD",
+        "AB = CD",
+        "AB is proportional to CD"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Congruent segments have the same length.\n\n The lengths are equal (AB = CD).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_47",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "How many elements are in the set A = {x | x² = -1, x ∈ ℝ}?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "There is no real number (x ∈ ℝ) whose square is -1. \n\nTherefore, the set A is the empty set, and it has 0 elements.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_48",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes the characteristic of the mean?",
+      "options": [
+        "It is the middle value when data is ordered.",
+        "It is the most frequently occurring value.",
+        "It is sensitive to extreme values.",
+        "It can be used for nominal data."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The arithmetic **Mean** uses all values in its calculation and is, therefore, heavily sensitive to extreme values (outliers).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_49",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "If A = {x | x is a factor of 12} and B = {x | x is a prime number less than 10}, find A ∩ B.",
+      "options": [
+        "{1, 2, 3}",
+        "{2, 3}",
+        "{2, 3, 5, 7}",
+        "{1, 2, 3, 4, 6, 12}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First, list the sets: A = {1, 2, 3, 4, 6, 12} and B = {2, 3, 5, 7}.\n\n The intersection contains elements common to both sets.A ∩ B = {2, 3}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_50",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Two rectangles are always similar if:",
+      "options": [
+        "Their corresponding diagonals are equal.",
+        "Their corresponding sides are proportional.",
+        "They are squares.",
+        "They have the same area."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Two rectangles are similar if their corresponding sides are proportional, meaning the ratio of the length to the width is the same for both. \n\nOption C, if they are squares, they are always similar because the ratio of length to width is 1:1 for both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_51",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which inequality describes the graph with a solid line through (0,1) and (1,3), shaded below?",
+      "options": [
+        "y < 2x + 1",
+        "y ≤ 2x + 1",
+        "y > 2x + 1",
+        "y ≥ 2x + 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The slope is (3-1)/(1-0) = 2. The y-intercept is 1. The equation is y = 2x + 1.\n\n Solid line means ≤ or ≥. Shaded below means ≤. So, y ≤ 2x + 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_52",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "What is the value of y in the solution to the system: 3x - 2y = 1 and x = y + 1?",
+      "options": [
+        "2",
+        "1",
+        "-2",
+        "-1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Substitute x = y + 1 into the first equation: 3(y + 1) - 2y = 1.\n\n 3y + 3 - 2y = 1.\n y + 3 = 1. y = -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_53",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If cos θ = 4/5, what is sin θ? (Assuming θ is an acute angle)",
+      "options": [
+        "3/5",
+        "5/4",
+        "3/4",
+        "4/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_54",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "What is the formula for the sum of the interior angles of an n-sided convex polygon?",
+      "options": [
+        "n * 180°",
+        "(n - 1) * 180°",
+        "(n - 2) * 180°",
+        "360°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The sum of the measure of interior angles of an n-sided polygon is equal to (n - 2) * 180°. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_55",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a measure of dispersion?",
+      "options": [
+        "Range",
+        "Variance",
+        "Median",
+        "Standard Deviation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Median is a measure of central tendency, while the others measure dispersion (spread).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_56",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of an equilateral triangle with side length 10 cm?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "10√3 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An equilateral triangle is a regular 3-gon.\n P = n * s = 3 * 10 cm = \n30 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_57",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Solve x² - 7x ≤ -6",
+      "options": [
+        "1 ≤ x ≤ 6",
+        "x ≤ 1 or x ≥ 6",
+        "-6 ≤ x ≤ -1",
+        "x ≤ -6 or x ≥ -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rearrange: x² - 7x + 6 ≤ 0. Factor: (x - 1)(x - 6) ≤ 0. Critical points are x=1, x=6.\nTesting intervals gives 1 ≤ x ≤ 6. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_58",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the Greatest Common Factor (GCF) of 196 and 3822?",
+      "options": [
+        "2",
+        "4",
+        "14",
+        "98"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using the Euclidean Algorithm: 3822 = 196 times 19 + 98. \n\n196 = 98 times 2 + 0. The last non-zero remainder is the GCF.\n Thus, GCF(196, 3822) = 98.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_59",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "If a vector v has a magnitude of 1 and an x-component of 1, what must be its y-component?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "square root(2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "||v||² = x² + y². \n1² = 1² + y². \n1 = 1 + y². y² = 0.\n y = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_60",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Solve |x+1| = |x-3|",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = -1",
+        "x = -2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_61",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, the angle bisector of ∠A meets BC at D. If AB = 6, AC = 9, and BC = 10, find the length of BD.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By the Angle Bisector Theorem, BD/DC = AB/AC.\n BD/DC = 6/9 = 2/3. Let BD = 2x and DC = 3x.\n\n Since BC = BD + DC, 10 = 2x + 3x => 10 = 5x => x = 2.\n Therefore, BD = 2x = 2 * 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_62",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Let U = {1, 2, 3, 4, 5, 6}. If A = {1, 3, 5} and B = {4, 5, 6}, find A' ∩ B.",
+      "options": [
+        "{4, 6}",
+        "{1, 3}",
+        "{2, 4, 6}",
+        "{2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A' = U - A = {2, 4, 6}.\n\n A' ∩ B = {2, 4, 6} ∩ {4, 5, 6} = \n{4, 6}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_63",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "If a number is divisible by 11, the alternating sum of its digits must be divisible by 11. Which number is divisible by 11?",
+      "options": [
+        "1232",
+        "1342",
+        "1431",
+        "2342"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For 1342, the alternating sum is 2 - 4 + 3 - 1 = 0.\n\n Since 0 is divisible by 11, 1342 is divisible by 11.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_64",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "The sum of the roots of 2x² + 6x - 1 = 0 is:",
+      "options": [
+        "3",
+        "-3",
+        "6",
+        "-6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -6/2 = -3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_65",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "The vector that is perpendicular to u = (2, 5) is:",
+      "options": [
+        "(5, 2)",
+        "(-5, 2)",
+        "(2, -5)",
+        "(-2, -5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For orthogonality, the dot product must be zero. (2, 5) .\n (x, y) = 2x + 5y = 0.\n Option (-5, 2): 2(-5) + 5(2) =\n -10 + 10 = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_66",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "The solution to √x - 2 = √(x - 16) is:",
+      "options": [
+        "25",
+        "16",
+        "20",
+        "No solution"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_67",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "The solution to (x + 1)/2 + (x - 1)/3 = 5 is:",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "13"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_68",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a unitless measure of dispersion?",
+      "options": [
+        "Variance",
+        "Standard Deviation",
+        "Range",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Variance is in units squared. Standard Deviation and Range are in the same units as the data.\n\n None of the listed measures are unitless in a general sense.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_69",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "If x = 1, y = -2 is the solution to ax + y = 0 and x + by = 5, the values of a and b are:",
+      "options": [
+        "a=2, b=2",
+        "a=2, b=-2",
+        "a=-2, b=2",
+        "a=-2, b=-2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Substitute (1, -2) into ax + y = 0: a(1) + (-2) = 0, so a = 2.\n\n Substitute (1, -2) into x + by = 5: 1 + b(-2) = 5, so 1 - 2b = 5, -2b = 4, b = -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_70",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "If vector u and v have the same direction, then the angle between them is:",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "0 degrees",
+        "270 degrees"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Same direction means the angle is 0 degrees.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_71",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The displacement vector from P(1, 1) to Q(1, 1) is:",
+      "options": [
+        "(1, 1)",
+        "(0, 0)",
+        "(2, 2)",
+        "(1, 0)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Displacement PQ = Q - P \n= (1 - 1, 1 - 1) \n= (0, 0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_72",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "If n(U) = 100, n(A') = 60, and n(B) = 50, and n(A ∩ B) = 10, find n(A ∪ B).",
+      "options": [
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "n(A) = n(U) - n(A') = 100 - 60 = 40.\n\n n(A ∪ B) = n(A) + n(B) - n(A ∩ B) =\n 40 + 50 - 10 = 80.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_73",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "If A is a proper subset of B (A ⊂ B) and n(B) = 5, what is the maximum possible value for n(A)?",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A is a proper subset of B means A ⊆ B and A ≠ B. If n(B) = 5, the largest possible number of elements in A is n(B) - 1, which is 5 - 1 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_74",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: 2x² + x - 15 ≤ 0",
+      "options": [
+        "-5/2 ≤ x ≤ 3",
+        "-3 ≤ x ≤ 5/2",
+        "x ≤ -3 or x ≥ 5/2",
+        "x ≤ -5/2 or x ≥ 3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_75",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "The expression cube root of (square root of x) is equivalent to:",
+      "options": [
+        "5th root of x",
+        "6th root of x",
+        "cube root of (x power 2)",
+        "x power (1/5)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Rewrite with fractional exponents: cube root of (square root of x) = (x power (1/2)) power (1/3).\n\n Using the power of a power rule: x power ((1/2) times (1/3)) = x power (1/6). This is the 6th root of x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_76",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the position vector of the point (a, b)?",
+      "options": [
+        "+ b",
+        "a/i + b/j",
+        "ai + bj",
+        "(b, a)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The position vector of a point (a, b) is the vector from the origin (0, 0) to (a, b), which is a i + b j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_77",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Solve |1 - x| < 5",
+      "options": [
+        "-4 < x < 6",
+        "-6 < x < 4",
+        "x < -4 or x > 6",
+        "x < -6 or x > 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "-5 < 1 - x < 5. Subtract 1: -6 < -x < 4.\n\n Multiply by -1 and reverse inequalities: 6 > x > -4, or -4 < x < 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_78",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "If the conditional probability P(A|B) is equal to P(A), then events A and B are considered to be:",
+      "options": [
+        "Mutually Exclusive",
+        "Dependent",
+        "Independent",
+        "Complementary"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The definition of independent events is that the occurrence of one event does not affect the probability of the other, i.e., P(A|B) = P(A).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_79",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which of the following pairs of numbers is relatively prime (co-prime)?",
+      "options": [
+        "(15, 21)",
+        "(14, 35)",
+        "(16, 27)",
+        "(24, 30)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Two numbers are relatively prime if their GCF is 1. GCF(15, 21)=3. \n\nGCF(14, 35)=7. GCF(16, 27)=1 (since 16=2 power 4 and 27=3 power 3). GCF(24, 30)=6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_80",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Find the value of k for which u = (1, 2) and v = (k, -2) are orthogonal.",
+      "options": [
+        "4",
+        "-4",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "u . v = 0.\n (1)(k) + (2)(-2) = 0.\n k - 4 = 0. k = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_81",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The length of the vector from the origin to the point (a, b) is:",
+      "options": [
+        "+ b",
+        "√(a + b)",
+        "√(a² + b²)",
+        "a² + b²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The length is the magnitude of the position vector (a, b): √(a² + b²).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_82",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The similarity ratio of two similar triangles is 1/3. If the area of the larger triangle is 72 cm², what is the area of the smaller triangle?",
+      "options": [
+        "8 cm²",
+        "18 cm²",
+        "24 cm²",
+        "216 cm²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Scale factor k = Side_small / Side_large = 1/3.\n Ratio of Areas = k² = (1/3)² = 1/9.\n Area_small / Area_large = 1/9. \nArea_small / 72 = 1/9. \nArea_small = 72 / 9 = 8 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_83",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "In an isosceles triangle ABC with base BC, the altitude AD is drawn. Which postulate proves that ΔABD ≅ ΔACD?",
+      "options": [
+        "SAS",
+        "ASA",
+        "HL",
+        "AAS"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since it is isosceles, AB=AC (Hypotenuse). AD is common (Leg).\n Both triangles are right-angled at D.\n\n Thus, the triangles are congruent by the Hypotenuse-Leg (HL) theorem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_84",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, D is the midpoint of AB and E is the midpoint of AC. Which similarity theorem proves that ΔADE ~ ΔABC?",
+      "options": [
+        "AA Similarity",
+        "SSS Similarity",
+        "SAS Similarity",
+        "HL Theorem"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "By the Midpoint Theorem, AD = 1/2 AB and AE = 1/2 AC, so AD/AB = AE/AC = 1/2.\n Also, ∠DAE = ∠BAC (common angle).\n\n Therefore, ΔADE ~ ΔABC by SAS Similarity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_85",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "A data set has a mean of 45. If each value in the set is increased by 5 and then multiplied by 2, what is the new mean?",
+      "options": [
+        "95",
+        "100",
+        "90",
+        "50"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The new mean is calculated by applying the transformation to the original mean: New Mean = (Original Mean + 5) times 2. \nNew Mean = (45 + 5) times 2 = 50 * 2 = 100.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_86",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "If the areas of two similar triangles are 100 cm² and 49 cm², and a side of the larger triangle is 20 cm, what is the corresponding side of the smaller triangle?",
+      "options": [
+        "7 cm",
+        "10 cm",
+        "14 cm",
+        "16 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ratio of sides = √(Ratio of areas) = √(100/49) = 10/7.\n\n Let s_small be the side of the smaller triangle.\n\n s_small / s_large = 7/10. s_small / 20 = 7/10.\n\n s_small = 20 * (7/10) = 2 * 7 = 14 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_87",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "The graph of y ≤ -x + 2 would have:",
+      "options": [
+        "dashed line, shaded above",
+        "solid line, shaded above",
+        "dashed line, shaded below",
+        "solid line, shaded below"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The '≤' sign means the line y = -x + 2 is solid (included), and the 'less than' part means the region below the line is shaded. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_88",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "For which value of k does the equation x² - 6x + k = 0 have equal roots?",
+      "options": [
+        "3",
+        "9",
+        "-3",
+        "-9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For equal roots, D = 0. (-6)² - 4(1)(k) = 0.\n\n 36 - 4k = 0. 4k = 36. k = 9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_89",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A regular nonagon has side length 's' and apothem 'a'. What is its area?",
+      "options": [
+        "9as",
+        "(9/2)as",
+        "18as",
+        "(1/2)as"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A nonagon has n=9 sides. Perimeter P = 9s.\n\n Area A = (1/2)aP =\n (1/2)a(9s) =\n (9/2)as.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_90",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Two circles have radii 3 cm and 9 cm. What is the ratio of their circumferences?",
+      "options": [
+        "1:3",
+        "1:9",
+        "3:1",
+        "9:1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Circles are similar, and the ratio of their circumferences (which is equivalent to their perimeters) is equal to the ratio of their radii (scale factor).\n\n Ratio = 3/9 = 1/3.\n The ratio is 1:3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_91",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of each interior angle of a regular decagon?",
+      "options": [
+        "135°",
+        "140°",
+        "144°",
+        "150°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A decagon has 10 sides (n=10).\n\n Angle = [(10-2) * 180°] / 10 =\n [8 * 180°] / 10 = \n1440° / 10 = 144°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_92",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "What is the formula for the area of a regular n-gon with apothem 'a' and perimeter 'P'?",
+      "options": [
+        "= a * P",
+        "= (1/2) * a * P",
+        "= a² * P",
+        "= a * P²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The area of a regular n-gon is given by A = (1/2) * apothem * Perimeter = (1/2) * a * P.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_93",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "If tan θ = √3, what is θ? (Assuming θ is an acute angle)",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "From the special angles, we know that tan 60° = √3. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_94",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Find the number of integers that satisfy the inequality 4 is less than x is less than or equal to 10.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The integers are {5, 6, 7, 8, 9, 10}.\n Counting them gives 6 integers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_95",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "What is the value of i . i?",
+      "options": [
+        "i",
+        "1",
+        "0",
+        "2i"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "i = (1, 0). i . i = (1)(1) + (0)(0) = 1.\n The dot product of a unit vector with itself is its magnitude squared, which is 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_96",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "In two similar parallelograms, the ratio of their areas is 4:25. If the length of a diagonal in the smaller parallelogram is 8 cm, what is the length of the corresponding diagonal in the larger parallelogram?",
+      "options": [
+        "10 cm",
+        "16 cm",
+        "20 cm",
+        "25 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ratio of sides (scale factor) = √(Ratio of areas) = √(4/25) = 2/5.\n\n The ratio of corresponding diagonals is also equal to the scale factor.\n\n Diagonal_smaller / Diagonal_larger = 2/5. 8 / Diagonal_larger = 2/5.\n Diagonal_larger = 8 * (5/2) = 4 * 5 = 20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_97",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "For a regular polygon with an odd number of sides, each line of symmetry connects a vertex to:",
+      "options": [
+        "Another vertex",
+        "The midpoint of the opposite side",
+        "The midpoint of an adjacent side",
+        "The center only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If n is odd, the line of symmetry connects a vertex to the midpoint of the opposite side. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_98",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is true about f(x) = x² - 6x + 10?",
+      "options": [
+        "The vertex of the graph of f is (3, 1).",
+        "The graph of f opens downward.",
+        "The line x = 1 is the axis of symmetry of the graph of f.",
+        "f(x) ≥ 2 for all x in the domain of f."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The function f(x) = x² − 6x + 10 is a quadratic with a positive coefficient of x², so its graph opens upward.\n\n The vertex of a quadratic function f(x) = ax² + bx + c occurs at x = −b/(2a).\n\n Here, a = 1 and b = −6, so x = 6/2 = 3.\n\n Substituting x = 3 into f(x) gives f(3) = 9 − 18 + 10 = 1, so the vertex is (3, 1).\n\n Therefore, the statement that the vertex of the graph is (3, 1) is true.\n\n ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_99",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "If a non-zero integer n is a factor of a and a factor of b, then n is also a factor of:",
+      "options": [
+        "/ b",
+        "+ b",
+        "times b / (a + b)",
+        "LCM(a, b)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If n divides a and n divides b, then n divides any linear combination of a and b, including a + b.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g9_merged_melmeja_100",
+      "examId": "m2014_g9_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true for two similar polygons with scale factor k?",
+      "options": [
+        "Area_1 / Area_2 = k",
+        "Perimeter_1 / Perimeter_2 = k²",
+        "Diagonal_1 / Diagonal_2 = k",
+        "Angle_1 / Angle_2 = k"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The ratio of corresponding linear segments (sides, perimeters, diagonals, altitudes, medians) is equal to the scale factor k.",
       "topic": "Mathematics"
     }
   ]

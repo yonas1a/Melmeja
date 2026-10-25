@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 10",
-  "description": "Comprehensive examination bank combining 7 chapters (16 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 16,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -281,6 +281,1350 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Volume of a frustum of a square pyramid: V = h/3 × (A1 + A2 + √(A1*A2)), \n\nwhere h = 9, A1 = 10² = 100, A2 = 6² = 36.\n\n √(A1*A2) = √(100*36) = 60.\n\n V = 3 × (100 + 36 + 60) = \n3 × 196 =\n 588 cm³",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_17",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "27) Consider a line with equation $y = mx + b$. Which of the following is true?",
+      "options": [
+        "The line passes through the origin.",
+        "The line has no slope.",
+        "The line intersects the $x$ axis, if $m = 0$ and $b > 0$.",
+        "The line intersects the $y$ axis, if $m \\ne 0$ and $b > 0$."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Let's analyze the properties of the line $y = mx + b$:\\n**A. Passes through the origin:** A line passes through the origin $(0, 0)$ if $0 = m(0) + b$, which means $b = 0$. The statement is only true when $b=0$.\\n**B. Has no slope:** A line with no slope (undefined slope) is a vertical line with equation $x = c$. The equation $y = mx + b$ represents lines with a defined slope $m$. (Only vertical lines have undefined slope.)\\n**C. Intersects the $x$-axis if $m = 0$ and $b > 0$:** If $m=0$, the equation is $y = b$. If $b > 0$, the line is a horizontal line (e.g., $y=5$) that is parallel to the $x$-axis and never intersects it. (Unless $b=0$, but the condition is $b>0$.)\\n**D. Intersects the $y$-axis if $m \\ne 0$ and $b > 0$:** The $y$-intercept is the point where the line crosses the $y$-axis, which occurs when $x=0$. Substituting $x=0$ gives $y = m(0) + b = b$. The $y$-intercept is $(0, b)$. Since $b$ is a real number, the line *always* intersects the $y$-axis at $y=b$, regardless of the value of $m$ (as long as the line is not vertical). The condition $b > 0$ ensures the intersection is above the $x$-axis, and the condition $m \\ne 0$ (not horizontal) is unnecessary but does not invalidate the fact that it intersects the $y$-axis at $b$. This statement is the most fundamentally **TRUE** statement regarding the $y$-intercept $b$.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_18",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "If x⁴ - 8x² + 16 = 0, the distinct real roots are:",
+      "options": [
+        "{-4, 4}",
+        "{-2, 2}",
+        "{-4, -2, 2, 4}",
+        "{2, 4}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let u = x². \nThe equation is u² - 8u + 16 = 0, or (u - 4)² = 0.\n So, u = 4 (multiplicity 2). x² = 4, which gives x = -2 and 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_19",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "If cot(A) = 4/3, what is the exact value of csc(A)? (A is in Quadrant I)",
+      "options": [
+        "5/3",
+        "3/5",
+        "4/5",
+        "5/4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adjacent=4, Opposite=3, Hypotenuse=5.\n csc(A) = Hypotenuse/Opposite =\n 5/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_20",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 2x and g(x) = 3x + 1, find the expression for (f ⋅ g)(x).",
+      "options": [
+        "6x + 1",
+        "5x + 1",
+        "6x² + 2x",
+        "3x² + 2x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "(f ⋅ g)(x) = \nf(x) ⋅ g(x) = \n(2x) ⋅ (3x + 1) =\n 6x² + 2x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_21",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = x² and g(x) = x + 1, find the value of (f ⋅ g)(-2).",
+      "options": [
+        "-2",
+        "-4",
+        "4",
+        "2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f(-2) = (-2)² = 4. \ng(-2) = -2 + 1 = -1. \nTherefore, (f ⋅ g)(-2) = 4 ⋅ (-1) = -4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_22",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of f(x) = log (x²)?",
+      "options": [
+        "x > 0",
+        "All real numbers",
+        "x ≠ 0",
+        "x ≥ 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The argument of the logarithm must be positive: x² > 0. \nSince x² is always non-negative, it is only zero when x = 0.\n Therefore, the domain is all real numbers except 0, or x ≠ 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_23",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "A function whose graph is symmetric with respect to the y-axis is called:",
+      "options": [
+        "An odd function",
+        "An even function",
+        "one-to-one function",
+        "An absolute function"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Symmetry with respect to the y-axis is the graphical property of an even function, satisfying f(-x) = f(x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_24",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Which transformation shifts the graph of P(x) = x³ - 5 to P(x) = (x - 2)³ - 5?",
+      "options": [
+        "2 units up",
+        "2 units down",
+        "2 units left",
+        "2 units right"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The change from x to (x - 2) is a horizontal shift of 2 units right.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_25",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "What is the value of log₃ 9 - log₃ 1?",
+      "options": [
+        "9",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Evaluate each term: log₃ 9 = 2 (since 3² = 9).\n log₃ 1 = 0 (since 3⁰ = 1).\n The difference is 2 - 0 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_26",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "The graph of y = (x - 5)² is the graph of y = x² shifted:",
+      "options": [
+        "5 units up",
+        "5 units down",
+        "5 units to the left",
+        "5 units to the right"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A transformation of the form f(x - c) shifts the graph of f(x) by c units to the right. Here, c = 5, so the shift is 5 units to the right.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_27",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "The polynomial P(x) = x² + 4 has no real zeros. This is because:",
+      "options": [
+        "It is an odd function.",
+        "It is a constant function.",
+        "Its discriminant (b² - 4ac) is negative.",
+        "Its degree is even."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For P(x) = x² + 4 (a=1, b=0, c=4), the discriminant is 0² - 4(1)(4) = -16.\n A negative discriminant indicates no real roots.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_28",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "When P(x) = 2x³ + x² - 7x + 3 is divided by (x - 1), the remainder is:",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = P(1) = 2(1)³ + (1)² - 7(1) + 3 = \n\n2 + 1 - 7 + 3 = -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_29",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Find the remainder when P(x) = 5x³ - 2x² + 1 is divided by (x + 1).",
+      "options": [
+        "-2",
+        "4",
+        "-6",
+        "-8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "R = P(-1) = 5(-1)³ - 2(-1)² + 1 =\n 5(-1) - 2(1) + 1 = \n-5 - 2 + 1 =\n -6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_30",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Using the Remainder Theorem, what must the remainder be when P(x) = x³ - a³ is divided by (x - a)?",
+      "options": [
+        "2a³",
+        "0",
+        "-2a³",
+        "a³"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "R = P(a) = a³ - a³ = 0.\n\n This confirms (x - a) is a factor of (x³ - a³).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_31",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 10x and g(x) = x + 3, find the expression for (f / g)(x) and its domain.",
+      "options": [
+        "10x / (x + 3), Domain R \\ {3}",
+        "10x / (x + 3), Domain R \\ {-3}",
+        "(x + 3) / 10x, Domain R \\ {0}",
+        "10x + 3, Domain R"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(f / g)(x) = 10x / (x + 3).\n The domain is R excluding values where the denominator is zero, x = -3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_32",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "If the graph of f(x) is symmetric with respect to the origin, what can be concluded about f(x)?",
+      "options": [
+        "f(x) is an even function.",
+        "f(x) is an odd function.",
+        "f(x) is a constant function.",
+        "f(x) is neither even nor odd."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Symmetry with respect to the origin is the graphical definition of an odd function, where f(-x) = -f(x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_33",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Find the value of log₃ (1/81).",
+      "options": [
+        "4",
+        "1/4",
+        "-4",
+        "81"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Let log₃ (1/81) = y. \nIn exponential form, 3ʸ = 1/81.\n\n Since 81 = 3⁴, we have 3ʸ = 1/3⁴ = 3⁻⁴.\n Therefore, y = -4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_34",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "If log (x + 1) = 1, then x equals:",
+      "options": [
+        "9",
+        "11",
+        "10",
+        "1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The base is 10.\n Convert to exponential form: x + 1 = 10¹.\n Solve for x: x + 1 = 10,\n so x = 9.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_35",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions is neither even nor odd?",
+      "options": [
+        "f(x) = x³ - 1",
+        "f(x) = x⁶ - 1",
+        "f(x) = x⁵ + x",
+        "f(x) = 10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-x) = -x³ - 1.\n This is not f(x) and not -f(x).\n The function is neither even nor odd.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_36",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Given f(x) = x² and g(x) = x + 5. Find the expression for (f - g)(x).",
+      "options": [
+        "x² - x - 5",
+        "x² + x + 5",
+        "x² - x + 5",
+        "x² + x - 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(f - g)(x) = f(x) - g(x) =\n x² - (x + 5) = \nx² - x - 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_37",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = x - 3 and g(x) = 5, find the domain of (f / g)(x).",
+      "options": [
+        "R \\ {3}",
+        "R \\ {5}",
+        "R \\ {0}",
+        "R"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The domain is R excluding values where g(x) = 0.\n Since g(x) = 5 is never zero, the domain is R.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_38",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Find the range of the function f(x) = 7 - |x + 2|.",
+      "options": [
+        "[7, ∞)",
+        "(-∞, 7]",
+        "(-∞, 2]",
+        "[2, ∞)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since |x + 2| is always greater than or equal to 0, -|x + 2| is always less than or equal to 0.\n\n Therefore, f(x) = 7 - |x + 2| is always less than or equal to 7.\n The range is (-∞, 7].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_39",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following expressions is a polynomial function?",
+      "options": [
+        "f(x) = 3x² + 5x - 1 / x",
+        "g(x) = 4x^(1/2) + 2x + 7",
+        "h(x) = (x³ - 8) / (x + 2)",
+        "p(x) = 2x⁴ - x³ + 5x - 1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A polynomial function must have non-negative integer exponents.\n Options 0 and 2 are rational functions, and Option 1 has a non-integer exponent (1/2).\n Option 3 satisfies the definition.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_40",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Which function is an even function?",
+      "options": [
+        "f(x) = x³",
+        "f(x) = x⁴ - 2x² + 1",
+        "f(x) = x + 1",
+        "f(x) = 2x³ + x"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A function is even if f(-x) = f(x).\n For f(x) = x⁴ - 2x² + 1, \nf(-x) = (-x)⁴ - 2(-x)² + 1 =\n x⁴ - 2x² + 1 = f(x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_41",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "The smallest number of real roots a polynomial of degree 4 must have is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Even degree polynomials do not need to cross the x-axis.\n For example, P(x) = x⁴ + 1 has no real roots.\n The minimum number is 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_42",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "If 2³ˣ⁺¹ = 16, what is the value of x?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4/3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since 16 = 2⁴, the equation is 2³ˣ⁺¹ = 2⁴. \nEquating the exponents: 3x + 1 = 4.\n Subtract 1: 3x = 3.\n Divide by 3: x = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_43",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "A polynomial has a local maximum at x = a and a local minimum at x = b. The number of turning points in the interval (a, b) is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Local maximum and local minimum are themselves turning points.\n\n The function is monotonic (strictly decreasing) between a local maximum and the next local minimum, meaning there are no more turning points in the interval (a, b).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_44",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 6, find the domain of f(x).",
+      "options": [
+        "{6}",
+        "[0, ∞)",
+        "R \\ {6}",
+        "R"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A constant function is defined for all real numbers.\n The domain is R.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_45",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Find the x-intercept of the function f(x) = log₃ (x - 8).",
+      "options": [
+        "(8, 0)",
+        "(9, 0)",
+        "(11, 0)",
+        "No x-intercept"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To find the x-intercept, set f(x) = 0: log₃ (x - 8) = 0.\n Convert to exponential form: x - 8 = 3⁰.\n Since 3⁰ = 1, we have x - 8 = 1.\n Solve for x: x = 9. The intercept is (9, 0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_46",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a possible rational root of P(x) = 2x³ + x² - 4x + 3?",
+      "options": [
+        "1 / 2",
+        "3 / 2",
+        "2",
+        "-1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The possible rational roots are ±(factors of 3) / (factors of 2) =\n ±{1, 3} / {1, 2} = ±{1, 3, 1/2, 3/2}. \nThe value 2 is not in this set.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_47",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "The range of the function f(x) = 2x - 5 for the domain [0, 3] is:",
+      "options": [
+        "[0, 3]",
+        "[-5, 1]",
+        "[-5, 0]",
+        "[1, 5]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "f(x) is linear, so the range is determined by the endpoints.\n f(0) = 2(0) - 5 = -5. \nf(3) = 2(3) - 5 = 1.\n The range is [-5, 1].",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_48",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "A function that is one-to-one (injective) from its domain to its range must satisfy which condition?",
+      "options": [
+        "f(-x) = f(x)",
+        "f(x) must be continuous",
+        "It passes the vertical line test",
+        "It passes the horizontal line test"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A function is one-to-one if distinct inputs map to distinct outputs. \nGraphically, this is verified by the horizontal line test.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_49",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 4x - 1 and g(x) = 2x - 5, find the value of (f - g)(2).",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "f(2) = 4(2) - 1 = 7.\n g(2) = 2(2) - 5 = -1. \n(f - g)(2) = 7 - (-1) = \n8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_50",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of the function f(x) = (x + 1) / (x² - 16)?",
+      "options": [
+        "R \\ {4}",
+        "R \\ {-4, 4}",
+        "R \\ {-1}",
+        "R \\ {16}"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The domain excludes values that make the denominator zero.\n\n x² - 16 = 0 implies x² = 16, so x = 4 or x = -4. \n\nThe domain is the set of all real numbers (R) excluding -4 and 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_51",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "The graphs of f(x) = logₐ x and g(x) = aˣ are reflections of each other across which line?",
+      "options": [
+        "The x-axis",
+        "The y-axis",
+        "The line y = x",
+        "The line y = -x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Logarithmic and exponential functions with the same base are inverse functions.\n\n The graph of a function and its inverse are always reflections of each other across the line y = x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_52",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The range of f(x) = 4ˣ + 1 is:",
+      "options": [
+        "y > 1",
+        "y > 0",
+        "y ≥ 1",
+        "All real numbers"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The range of the basic function 4ˣ is y > 0. The '+ 1' shifts the graph one unit up, so the horizontal asymptote is y = 1, and the range becomes y > 1, or (1, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_53",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 3x² - 2 and g(x) = x + 1, find the value of (f + g)(0).",
+      "options": [
+        "-1",
+        "1",
+        "-3",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(0) = 3(0)² - 2 = -2. \ng(0) = 0 + 1 = 1. \n(f + g)(0) = \n-2 + 1 = -1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_54",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "The graph of the polynomial P(x) = x³ - 4x must pass through:",
+      "options": [
+        "(-4, 0)",
+        "(0, 4)",
+        "(1, -3)",
+        "(2, 0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "P(2) = 2³ - 4(2) = 8 - 8 = 0.\n The point (2, 0) is on the graph.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_55",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Find the range of the function f(x) = 3ˣ - 5.",
+      "options": [
+        "y > -5",
+        "y > 0",
+        "y ≥ -5",
+        "All real numbers"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The horizontal asymptote is y = -5 (due to the -5 vertical shift). \nThe graph approaches y = -5 but never touches it. \nSince the base is 3 > 1, the graph is above the asymptote.\n The range is y > -5, or (-5, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_56",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "The domain of the function f(x) = eˣ is:",
+      "options": [
+        "x > 0",
+        "x ≥ 0",
+        "All real numbers (–∞, ∞)",
+        "y > 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The domain of any basic exponential function, including the natural exponential function f(x) = eˣ, is the set of all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_57",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "If 2x³ + kx² + 4x - 1 is divided by (x - 1), the remainder is 6. What is the value of k?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "-1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "By the Remainder Theorem, P(1) = 6.\n 2(1)³ + k(1)² + 4(1) - 1 = 6. 2 + k + 4 - 1 = 6.\n k + 5 = 6. k = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_58",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Find the remainder when P(x) = x⁴ - 2x² + 3 is divided by (x - 2).",
+      "options": [
+        "11",
+        "7",
+        "3",
+        "0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the Remainder Theorem: R = P(2) = (2)⁴ - 2(2)² + 3 = 16 - 2(4) + 3 = \n16 - 8 + 3 = 11.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_59",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Which relation is NOT a function?",
+      "options": [
+        "y = x",
+        "y = x³",
+        "y = |x|",
+        "x = 9"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The equation x = 9 represents a vertical line, which fails the vertical line test, so it is not a function.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_60",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Which of the following functions is a quadratic function?",
+      "options": [
+        "f(x) = 2x - 1",
+        "f(x) = x³ + x",
+        "f(x) = 5x² + 3x - 1",
+        "f(x) = |x|"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A quadratic function is a polynomial of degree 2, \nf(x) = ax² + bx + c.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_61",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The natural logarithmic function is represented by:",
+      "options": [
+        "log₁₀ x",
+        "log x",
+        "logₑ x",
+        "log₂ x"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The logarithm of a number to the base e is called the natural logarithm and is written as logₑ x or ln x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_62",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "If e²ˣ = 5, what is x in terms of natural logarithm (ln)?",
+      "options": [
+        "x = ln 5",
+        "x = 5 ln 2",
+        "x = (1/2) ln 5",
+        "x = ln 5 - 2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Take the natural logarithm (ln) of both sides: ln (e²ˣ) = ln 5.\n Use the Power Law: 2x ln e = ln 5. \nSince ln e = 1, we have 2x = ln 5. Solve for x: x = (1/2) ln 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_63",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "The domain of f(x) = 2ˣ - 5 is:",
+      "options": [
+        "x > 0",
+        "x > 5",
+        "All real numbers (–∞, ∞)",
+        "y > -5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The domain of all basic exponential functions and their vertical translations is the set of all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_64",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "The polynomial P(x) = x³ - 8 has a real root at x = 2. The other two roots are:",
+      "options": [
+        "Real and distinct",
+        "Real and repeated",
+        "Non-real and complex conjugates",
+        "Real and negative"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The factorization is (x - 2)(x² + 2x + 4).\n\n The quadratic factor has a negative discriminant (-12), yielding two non-real complex conjugate roots.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_65",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "If 4ˣ = 8ʸ, and x = 3, then y equals:",
+      "options": [
+        "2",
+        "4",
+        "3/2",
+        "1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Substitute x = 3 into the first equation: 4³ = 8ʸ.\n Calculate 4³ = 64.\n So, 64 = 8ʸ.\n Since 8² = 64, y = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_66",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If f(x) is an even function and f(2) = 5, what is f(-2)?",
+      "options": [
+        "5",
+        "-5",
+        "0",
+        "2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For an even function, f(-x) = f(x).\n Since f(2) = 5, then f(-2) = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_67",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If log₂ (x) = log₂ (3) + 2, then x equals:",
+      "options": [
+        "12",
+        "6",
+        "5",
+        "32"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Use the property 2 = log₂ 2² = log₂ 4.\n The equation becomes: log₂ x = log₂ 3 + log₂ 4.\n Use the Product Law: log₂ x = log₂ (3 × 4) = log₂ 12.\n Thus, x = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_68",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equivalent to 10 log (x) - log (y)?",
+      "options": [
+        "log (10x / y)",
+        "log (x¹⁰ / y)",
+        "log (x - y)",
+        "log (x / 10y)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Use the Power Law: 10 log (x) = log (x¹⁰). \nUse the Quotient Law: log (x¹⁰) - log (y) =\n log (x¹⁰ / y).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_69",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of the function f(x) = √((x + 1) / (x - 4))?",
+      "options": [
+        "[-1, 4)",
+        "(-1, 4)",
+        "(-∞, -1] ∪ (4, ∞)",
+        "R \\ {4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The fraction must be non-negative: (x + 1) / (x - 4) ≥ 0, and the denominator cannot be zero (x ≠ 4). \n\nThis occurs when x ≤ -1 or x > 4.\n The domain is (-∞, -1] ∪ (4, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_70",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Given f(x) = x / (x + 3) and g(x) = 2x. Find the domain of (f / g)(x).",
+      "options": [
+        "R \\ {-3}",
+        "R \\ {0}",
+        "R \\ {0, -3}",
+        "R"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Domain(f) is R \\ {-3}. \ng(x) = 0 when x = 0.\n The combined restriction is R \\ {0, -3}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_71",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The range of f(x) = 2 log x is:",
+      "options": [
+        "y > 0",
+        "x > 0",
+        "All real numbers",
+        "y ≥ 0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Multiplying the logarithm by a constant only stretches the graph vertically, but does not change the range, which remains all real numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_72",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "The x-intercept of f(x) = log₃ (x) is:",
+      "options": [
+        "(3, 0)",
+        "(0, 1)",
+        "(1, 0)",
+        "No x-intercept"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The x-intercept is (1, 0) for all basic logarithmic functions f(x) = logₐ x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_73",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "If logₐ (1/x) = -1, then 'a' equals:",
+      "options": [
+        "1/x",
+        "x",
+        "10",
+        "e"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Convert to exponential form: a⁻¹ = 1/x.\n Since a⁻¹ = 1/a, we have 1/a = 1/x. \nTherefore, a = x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_74",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "The polynomial P(x) = x⁴ + 1 is reducible over the set of:",
+      "options": [
+        "Real numbers",
+        "Rational numbers",
+        "Integers",
+        "Complex numbers"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "While x⁴ + 1 has no real roots, it can always be factored into two real quadratic factors.\n\n However, any polynomial of degree n can be completely factored into n linear factors over the complex numbers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_75",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of f(x) = √(x² - 25)?",
+      "options": [
+        "[-5, 5]",
+        "(-5, 5)",
+        "(-∞, -5] ∪ [5, ∞)",
+        "R"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For the function to be real, the radicand must be non-negative: x² - 25 ≥ 0. \nThis inequality holds when x ≤ -5 or x ≥ 5.\n The domain is (-∞, -5] ∪ [5, ∞).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_76",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "What is the degree of the zero polynomial P(x) = 0?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Negative infinity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The degree of the zero polynomial is typically considered **undefined** or, in some contexts, negative infinity, but 'Undefined' is the most common answer in a multiple-choice setting.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_77",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The object shown is made of a hemisphere on top of a cylinder of radius 3 cm and height 12 cm. A cone of height 8 cm is cut out from the bottom. What is the volume of the solid?",
+      "options": [
+        "126π",
+        "96π",
+        "72π",
+        "102π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_78",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about the trigonometric values of the given pairs of angles?",
+      "options": [
+        "sin(75°) = cos(105°)",
+        "tan(75°) = tan(105°)",
+        "sin(120°) = sin(60°)",
+        "cos(120°) = cos(60°)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using trigonometric identities: sin(180° - θ) = sin θ and cos(180° - θ) = -cos θ.\n\n Option 1: sin(75°) ≠ cos(105°).\n\n Option 2: tan(75°) ≠ tan(105°) because tan(180° - θ) = -tan θ. \n\nOption 3: sin(120°) = sin(180° - 60°) = sin(60°), which is true.\n\n Option 4: cos(120°) = cos(180° - 60°) = -cos(60°), not equal to cos(60°).\n\n Therefore, the correct statement is sin(120°) = sin(60°).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_79",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "The solution set of the equation given by log(x² - 3) = 2log(x - 1) is:",
+      "options": [
+        "{2}",
+        "{1/2}",
+        "∅",
+        "{4}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "log(x²−3)=2log(x−1) \n\n x²−3=(x−1)² ⇒ x=2,\n\n but domain: x>1 and x²−3>0 ⇒ x>√3.\n\n Though x=2 satisfies both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_80",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "19) The solution set of inequality $3x^2 - 35x - 12 < 0$ is",
+      "options": [
+        "$(-\\frac{1}{3}, 12)$",
+        "$(-\\infty, -\\frac{1}{3})$",
+        "$(12, \\infty)$",
+        "$(-\\infty, -12)$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "To solve the quadratic inequality $3x^2 - 35x - 12 < 0$, first find the roots of the corresponding equation $3x^2 - 35x - 12 = 0$. Using factoring or the quadratic formula:\\n$3x^2 - 35x - 12 = 0$\\n$(3x + 1)(x - 12) = 0$\\nThe roots are $x_1 = -\\frac{1}{3}$ and $x_2 = 12$. Since the inequality is strictly less than $0$ ($< 0$), and the leading coefficient ($3$) is positive (the parabola opens upward), the function is negative (below the $x$-axis) between the roots. Therefore, the solution set is the open interval between the roots: $(-\\frac{1}{3}, 12)$. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_81",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "What is the domain of the exponential function f(x) = 3ˣ?",
+      "options": [
+        "The set of all positive real numbers (0, ∞)",
+        "The set of all real numbers (–∞, ∞)",
+        "The set of all non-negative real numbers [0, ∞)",
+        "The set of all integers"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The domain of any basic exponential function of the form f(x) = aˣ (where a > 0 and a ≠ 1) is the set of all real numbers, denoted as (–∞, ∞) or ℝ.\n\n This means the input x can be any real number (rational, irrational, or integer).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_82",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "The volume of a cube is 125 cm³. What is its total surface area?",
+      "options": [
+        "100 cm²",
+        "125 cm²",
+        "150 cm²",
+        "250 cm²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a = 5 cm. TSA = 6a² = 150 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_83",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "What is the area of an equilateral triangle inscribed in a circle radius 4 units?",
+      "options": [
+        "$12\\sqrt{3}$ sq. units",
+        "$36$ sq. units",
+        "$6\\sqrt{3}$ sq. units",
+        "$12\\sqrt{3}$ sq. units"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For an equilateral triangle inscribed in a circle of radius $R$, the side length $s$ is given by $s = R\\sqrt{3}$.\nGiven $R = 4$ units, the side length is $s = 4\\sqrt{3}$ units.\n\nThe area $A$ of an equilateral triangle with side length $s$ is given by the formula $A = \\frac{\\sqrt{3}}{4}s^2$.\n$A = \\frac{\\sqrt{3}}{4}(4\\sqrt{3})^2$\n$A = \\frac{\\sqrt{3}}{4}(16 \\times 3)$\n$A = \\frac{\\sqrt{3}}{4}(48)$\n$A = 12\\sqrt{3}$ sq. units.\n\nNote that Option A and Option D are identical. The correct answer is $12\\sqrt{3}$ sq. units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_84",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "What are the coordinates of a point that divides the line segment with end points P(0, 1) and Q(5, 6) in the ratio 2:3 from P?",
+      "options": [
+        "(3, 2)",
+        "(0, 3)",
+        "(2, 3)",
+        "(0, 2)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Use the section formula for a point R(x, y) dividing a segment P(x1, y1) and Q(x2, y2) in the ratio m:n from P (m=2, n=3):\n\nx = (nx1 + mx2) / (m + n) and y = (ny1 + my2) / (m + n)\n\n1. x-coordinate: x = (3*0 + 2*5) / (2 + 3) = 10 / 5 = 2.\n\n2. y-coordinate: y = (3*1 + 2*6) / (2 + 3) = (3 + 12) / 5 = 15 / 5 = 3.\n\n The coordinates of the point are (2, 3).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_85",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "The total surface area of a cube is 294 m². What is the length of its main diagonal?",
+      "options": [
+        "7√3 m",
+        "7√2 m",
+        "7 m",
+        "14 m"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Total Surface Area (A) = 6a². 294 = 6a². a² = 49, so edge length (a) = 7 m. The main diagonal (d) of a cube is d = a√3. d = 7√3 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_86",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Simplify the trigonometric expression: (1 - sin²θ) / cosθ.",
+      "options": [
+        "sinθ",
+        "cosθ",
+        "tanθ",
+        "secθ"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "1 - sin²θ = cos²θ.\n So, cos²θ / cosθ = cosθ.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_87",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "If the ratio of the radii of two similar cylinders is 2:3, what is the ratio of their volumes?",
+      "options": [
+        "4:9",
+        "2:3",
+        "8:27",
+        "1:3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Volume ratio = (2/3)³ = 8/27.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_88",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 2x and g(x) = x, find the domain of (f / g)(x).",
+      "options": [
+        "R \\ {0}",
+        "R",
+        "[0, ∞)",
+        "(-∞, 0)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The domain of (f / g)(x) is R excluding values where g(x) = 0.\n Since g(x) = x, the domain is R \\ {0}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_89",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A right circular cylinder is inscribed in a cube of side length 8 cm. Find the volume of the cylinder.",
+      "options": [
+        "64π cm³",
+        "128π cm³",
+        "512π cm³",
+        "256π cm³"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Radius = 4, height = 8. Volume = π(4²)(8) = 128π cm³.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_90",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "A circle has a radius of 8 cm. Find the length of the arc subtended by a central angle of 3π/4 radians.",
+      "options": [
+        "8π cm",
+        "3π/2 cm",
+        "6π cm",
+        "12π cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Arc length L = rθ = \n8 * (3π/4) = 6π cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_91",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "If cos(θ) is negative and tan(θ) is positive, in which quadrant is θ?",
+      "options": [
+        "Quadrant I",
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "cos is negative in QII and QIII. \ntan is positive in QI and QIII.\n Both are true in Quadrant III.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_92",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = 3x² + 1, what is the value of f(-x)?",
+      "options": [
+        "3x² + 1",
+        "-3x² + 1",
+        "3x² - 1",
+        "-3x² - 1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "f(-x) = 3(-x)² + 1 = 3x² + 1.\n Since f(-x) = f(x), the function is even.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_93",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "In a circle with center O, a chord AB is 10 cm long and is 12 cm from the center. What is the length of the radius of the circle?",
+      "options": [
+        "13 cm",
+        "17 cm",
+        "√119 cm",
+        "10 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_94",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Convert π/3 radians to degree measure.",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "(π/3) * (180°/π) = 60°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_95",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "A line makes an angle of $145^{\\circ}$ with the positive $x$-axis. What is the slope of the line? (Given $\\tan 35^{\\circ} = 0.7$)",
+      "options": [
+        "-0.7",
+        "0.7",
+        "$\\frac{10}{7}$",
+        "$-\\frac{10}{7}$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The **slope ($m$)** of a line is defined as the tangent of the angle $(\\theta)$ the line makes with the positive $x$-axis: $m = \\tan(\\theta)$.\n\nGiven $\\theta = 145^{\\circ}$, which is in the second quadrant.\n$$m = \\tan(145^{\\circ})$$\nWe use the identity $\\tan(180^{\\circ} - \\alpha) = -\\tan(\\alpha)$:\n$$m = \\tan(180^{\\circ} - 35^{\\circ}) = -\\tan(35^{\\circ})$$\n\nSubstituting the given value $\\tan 35^{\\circ} = 0.7$:\n$$m = -0.7$$\nOption A is the correct slope.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_96",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The angle -π/2 is co-terminal with:",
+      "options": [
+        "π/2",
+        "3π/2",
+        "π",
+        "2π"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "-π/2 + 2π = 3π/2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_97",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which transformation maps the graph of f(x) = log₂ x to the graph of g(x) = log₂ (x + 3)?",
+      "options": [
+        "Shift 3 units down",
+        "Shift 3 units up",
+        "Shift 3 units to the right",
+        "Shift 3 units to the left"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A transformation of the form f(x + c) shifts the graph c units to the left.\n\n Here, g(x) = f(x + 3), which is a horizontal shift of 3 units to the left.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_98",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "The altitude of a regular hexagonal prism is 10 cm and the perimeter of its base is 36 cm. Find the lateral surface area.",
+      "options": [
+        "360 cm²",
+        "180 cm²",
+        "240 cm²",
+        "420 cm²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "LSA = perimeter × height = 36 × 10 = 360 cm².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_99",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "What is the perimeter of a sector with radius 5 cm and a central angle of 2 radians?",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "20 cm",
+        "15 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Arc length L = rθ = 5 * 2 = 10 cm.\n Perimeter = L + 2r = 10 + 2(5) = \n20 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2016_g10_merged_melmeja_100",
+      "examId": "m2016_g10_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is equivalent to (x - 1)(x + 1)(x² + 1)?",
+      "options": [
+        "x³ - 1",
+        "x⁴ - 1",
+        "x³ + x² - x - 1",
+        "x⁴ + x² - 2x + 1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "First, (x - 1)(x + 1) = x² - 1. \nThen (x² - 1)(x² + 1) = (x²)² - 1² \n= x⁴ - 1 (difference of squares).",
       "topic": "Mathematics"
     }
   ]

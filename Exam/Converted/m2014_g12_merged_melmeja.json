@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 12",
-  "description": "Comprehensive examination bank combining 7 chapters (20 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 20,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -341,6 +341,1286 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "The sphere has equation x² + y² + z² = 5.\n\n A point (x, y, z) is inside the sphere if x² + y² + z² < 5.\n\n Check each point: (1,-2,2): 1+4+4=9>5 (outside), \n\n(1,1,1): 1+1+1=3<5 (inside), \n\n(1,2,3): 1+4+9=14>5 (outside),\n\n (0,-2,3): 0+4+9=13>5 (outside).\n\n Therefore, (1,1,1) is inside the sphere.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_21",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "A population is divided into geographical regions, and from each region one entire school is selected randomly for study. Identify the sampling method and evaluate its possible limitation.",
+      "options": [
+        "Stratified sampling; reduces bias completely",
+        "Systematic sampling; ensures randomness",
+        "Random sampling; eliminates variability",
+        "Cluster sampling; may increase sampling error"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Cluster sampling selects entire groups; may increase sampling error.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_22",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "The mean deviation of a data set about the mean is required. Given the data: 4, 6, 8, 10, 12, find the mean deviation.",
+      "options": [
+        "2",
+        "2.4",
+        "3",
+        "1.6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mean = 8.\n Deviations: 4,2,0,2,4 → \naverage = 12/5 = 2.4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_23",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "A data set has mean 50, median 45, and mode 40. Based on this information, determine the skewness of the distribution and justify your reasoning using the relationship between measures of central tendency.",
+      "options": [
+        "Positively skewed",
+        "Negatively skewed",
+        "Symmetric",
+        "Uniform"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean > median > mode indicates positive skewness.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_24",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "A cumulative frequency curve (ogive) shows that the median class lies between 30–40. What does this imply about the distribution of data in relation to central tendency?",
+      "options": [
+        "Half of the data lies below 30",
+        "50% of observations lie below the median class",
+        "Mean equals median exactly",
+        "Data is uniformly distributed"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Median divides data into two equal halves.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_25",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∫ (0 to 2) (x + 1) dx.",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integral = [x²/2 + x] from 0 to 2 =\n 2 + 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_26",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Find dy/dx if y = e^(2x).",
+      "options": [
+        "2e^(2x)",
+        "e^(2x)",
+        "x e^(2x)",
+        "ln(2x)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Chain rule.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_27",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "If f'(x) = 2x and f(1)=3, find f(x).",
+      "options": [
+        "x² +3",
+        "2x² +1",
+        "x² +2",
+        "x² +1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Integrate: x² +C.\n Using f(1)=3 → 1+C=3 → C=2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_28",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "A data set has range 50 and mean 100. Another has range 30 and mean 40. Which has greater relative dispersion?",
+      "options": [
+        "First data set",
+        "Second data set",
+        "Both equal",
+        "Cannot be determined"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Relative dispersion depends on mean; second has larger relative spread.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_29",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "In a symmetric frequency curve, what relationship holds among mean, median, and mode?",
+      "options": [
+        "Mean > Median > Mode",
+        "Mean = Median = Mode",
+        "Mean < Median < Mode",
+        "Mean = Mode > Median"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All three are equal in symmetry.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_30",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/(2√x)) dx.",
+      "options": [
+        "√x + C",
+        "x + C",
+        "ln x",
+        "2x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Reverse derivative.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_31",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 10x + y subject to x + y ≤ 9.",
+      "options": [
+        "Z = 90 at (9,0)",
+        "Z = 9 at (0,9)",
+        "Z = 50 at (5,4)",
+        "Z = 70 at (7,2)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Best at (9,0): Z = 90.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_32",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 2x + 9y subject to x + y ≤ 15.",
+      "options": [
+        "Z = 30 at (15,0)",
+        "Z = 90 at (10,5)",
+        "Z = 100 at (8,7)",
+        "Z = 135 at (0,15)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "y dominates.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_33",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "A loan doubles in 12 years under compound interest. Estimate the interest rate and explain the relationship between doubling time and rate.",
+      "options": [
+        "About 6%",
+        "About 8%",
+        "About 10%",
+        "About 12%"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rule of 72 → 72/12 = 6%, .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_34",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 6x + 8y subject to x + y ≤ 14. Explain optimal allocation strategy.",
+      "options": [
+        "Z = 112 at (0,14)",
+        "Z = 84 at (14,0)",
+        "Z = 96 at (6,8)",
+        "Z = 100 at (7,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "y has higher coefficient so maximize y.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_35",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "The main advantage of stratified sampling is that it:",
+      "options": [
+        "Reduces bias",
+        "Increases error",
+        "Ignores population structure",
+        "Uses fewer samples always"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Stratified sampling ensures representation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_36",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "A dataset has Q1 = 25, Q3 = 75. If an extreme outlier is added far above Q3, which measure remains least affected?",
+      "options": [
+        "Range",
+        "Mean",
+        "Interquartile range",
+        "Variance"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "IQR is resistant to outliers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_37",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Minimize C = 4x + 9y subject to x + y ≥ 18.",
+      "options": [
+        "= 162 at (0,18)",
+        "= 72 at (18,0)",
+        "= 100 at (10,8)",
+        "= 80 at (12,6)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "x is cheaper so choose (18,0).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_38",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "A linear program has constraints x + 3y ≤ 30, x ≥ 0, y ≥ 0. Maximize Z = 12x + 3y and interpret sensitivity to x.",
+      "options": [
+        "Z = 90 at (0,10)",
+        "Z = 200 at (10,10)",
+        "Z = 360 at (30,0)",
+        "Z = 150 at (15,5)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "x heavily weighted so maximize x.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_39",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "A frequency curve that is flat at the top indicates:",
+      "options": [
+        "Uniform distribution",
+        "Normal distribution",
+        "Skewed distribution",
+        "No distribution"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Flat top indicates uniform spread.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_40",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Given that y = (x² + 1)/(x - 1), find dy/dx using the quotient rule.",
+      "options": [
+        "(x² - 2x -1)/(x-1)²",
+        "(x² -1)/(x-1)²",
+        "(x² +2x -1)/(x-1)²",
+        "(x² -2x +1)/(x-1)²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using quotient rule: (2x(x-1)-(x²+1)(1))/(x-1)² \n\n= (2x²-2x-x²-1)/(x-1)².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_41",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "A bank offers 3% monthly compound interest. A deposit doubles in less than 3 years. What does this show about compounding?",
+      "options": [
+        "It slows growth",
+        "It accelerates exponential growth",
+        "It eliminates risk",
+        "It becomes linear"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "High-frequency compounding accelerates growth.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_42",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "If all observations are equal, the standard deviation is:",
+      "options": [
+        "0",
+        "1",
+        "Mean",
+        "Undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "No variation → SD = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_43",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "A researcher collects the following grouped frequency distribution of marks: Class intervals 0–10, 10–20, 20–30, 30–40, 40–50 with frequencies 5, 9, 12, 8, 6 respectively. Without constructing a full table of deviations, determine the approximate mean using the assumed mean method and interpret how it relates to the distribution's central tendency.",
+      "options": [
+        "27.8",
+        "25.6",
+        "28.2",
+        "26.4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using midpoints (5,15,25,35,45) and assumed mean method, the mean is approximately 26.4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_44",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Two distributions have the same range but different interquartile ranges. What conclusion can be drawn about their variability?",
+      "options": [
+        "They have different central values",
+        "They differ in middle 50% spread",
+        "They are identical distributions",
+        "They have same variance"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "IQR measures spread of middle 50%, so they differ in variability.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_45",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 4x + 6y subject to x + y ≤ 18.",
+      "options": [
+        "Z = 72 at (18,0)",
+        "Z = 90 at (10,8)",
+        "Z = 100 at (9,9)",
+        "Z = 108 at (0,18)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "y dominates.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_46",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 9x + 9y subject to x + y ≤ 6.",
+      "options": [
+        "Z = 54 at any boundary point",
+        "Z = 36 at (4,2)",
+        "Z = 45 at (5,1)",
+        "Z = 30 at (3,3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Equal coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_47",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "A feasible region is given by x + y ≤ 14, x ≥ 0, y ≥ 0. Maximize Z = 6x + 6y.",
+      "options": [
+        "Z = 84 at (14,0)",
+        "Z = 84 at (0,14)",
+        "Z = 84 at any point on boundary",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Z = 6(x+y), constant on boundary x+y=14.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_48",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "A company borrows 25000 birr at 12% simple interest for 3 years. Determine total repayment.",
+      "options": [
+        "34000 birr",
+        "33000 birr",
+        "35000 birr",
+        "36000 birr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "I = 25000×0.12×3 = 9000;\n total = 34000 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_49",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "A data set has mean 40 and standard deviation 8. Calculate the coefficient of variation and interpret whether the data is highly consistent or not.",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "15%"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "CV = (8/40) × 100 = 20%, indicating moderate variability.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_50",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Cluster sampling involves:",
+      "options": [
+        "Selecting individuals randomly",
+        "Ignoring variation",
+        "Selecting groups",
+        "Taking all data"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Clusters are selected instead of individuals.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_51",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "In a bell-shaped frequency curve, approximately what percentage of data lies within one standard deviation from the mean?",
+      "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99%"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Empirical rule: about 68%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_52",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "In a large population, a sample of 120 students is selected such that the population is first divided into five equal subgroups based on performance levels, and then random samples are taken from each subgroup proportional to its size. Identify the sampling technique and explain its statistical advantage.",
+      "options": [
+        "Systematic sampling",
+        "Stratified sampling",
+        "Cluster sampling",
+        "Convenience sampling"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This is stratified sampling because population is divided into strata and sampled proportionally.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_53",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "A bank offers two accounts: Account A gives 6% simple interest, Account B gives 5% compound interest. Over a long-term investment of 10 years, which account is more beneficial and why?",
+      "options": [
+        "Account A",
+        "Account B",
+        "Both equal",
+        "Depends on principal only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest grows exponentially and overtakes simple interest.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_54",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Find the area under the curve y = x from x = 0 to x = 2.",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Integral ∫0² x dx = [x²/2]=2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_55",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Find derivative of xˣ.",
+      "options": [
+        "xˣ ln x",
+        "xˣ",
+        "ln x",
+        "xˣ(1+ln x)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Use logarithmic differentiation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_56",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "A researcher uses a sample of 50 students selected by choosing every 5th student from a complete list of 250 students. What is the sampling interval and why is this method efficient for large populations?",
+      "options": [
+        "5; because it ensures systematic coverage",
+        "10; because it reduces bias",
+        "50; because it increases accuracy",
+        "250; because it uses full population"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sampling interval k = 250/50 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_57",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 6x + 10y subject to x + y ≤ 10.",
+      "options": [
+        "Z = 60 at (10,0)",
+        "Z = 80 at (5,5)",
+        "Z = 100 at (0,10)",
+        "Z = 90 at (6,4)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Maximum at (0,10): Z = 100.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_58",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Find nth term if Sₙ= n² + n.",
+      "options": [
+        "2n",
+        "2n+1",
+        "n+1",
+        "n²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "aₙ=Sₙ−Sₙ₋₁=2n.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_59",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "A grouped frequency distribution shows a heavily right-skewed curve. If the mean is 60, which of the following is the most likely value of the median?",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In right skew, median < mean.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_60",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A loan of 7000 birr at 6% simple interest for 5 years. Find total repayment.",
+      "options": [
+        "9100 birr",
+        "9200 birr",
+        "9000 birr",
+        "9300 birr"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "I = 7000×0.06×5 = 2100; \ntotal = 9100 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_61",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "A savings account offers 5% compound interest annually. If 10000 birr is invested for 4 years, compute the maturity value and interpret the compounding effect over multiple periods.",
+      "options": [
+        "12000 birr",
+        "12250 birr",
+        "12500 birr",
+        "12155 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A = 10000(1.05)⁴ \n≈ 12155 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_62",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Maximize Z = 2x + 12y subject to x + y ≤ 12.",
+      "options": [
+        "Z = 24 at (12,0)",
+        "Z = 60 at (6,6)",
+        "Z = 144 at (0,12)",
+        "Z = 100 at (8,4)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Maximum at (0,12): Z = 144.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_63",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Find minimum value of y = x² + 2x + 3.",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vertex at x=-1 → y=2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_64",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Find the value of ∑(k=1 to 5)(k³ + 2k).",
+      "options": [
+        "255",
+        "265",
+        "275",
+        "285"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "∑k³=225, ∑k=15 → total = 225+30=255 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_65",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Find S∞ if a=10,r=−1/2.",
+      "options": [
+        "6.67",
+        "7.5",
+        "8",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "10/(1+1/2)=6.67.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_66",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1 + x²) dx from 0 to 1.",
+      "options": [
+        "4/3",
+        "3/2",
+        "5/3",
+        "2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1 + 1/3 = 4/3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_67",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Find turning points of y = x² − 4x + 5.",
+      "options": [
+        "(2,1)",
+        "(1,2)",
+        "(2,5)",
+        "(−2,1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Derivative=2x−4=0 → x=2 → y=1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_68",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Find ∫(1/(x²+1)) dx.",
+      "options": [
+        "tan⁻¹x + C",
+        "ln x",
+        "sec x",
+        "cot x"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard integral.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_69",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Given a frequency distribution where the class intervals are unequal and frequencies are highly concentrated in the middle classes, what shape is the most appropriate description of the frequency curve?",
+      "options": [
+        "Highly skewed left curve",
+        "Highly skewed right curve",
+        "Bimodal irregular curve",
+        "Symmetric bell-shaped curve"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Concentration in middle classes indicates a normal (bell-shaped) distribution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_70",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A particle moves along a straight line with displacement s(t)=t³−3t²−9t+5. Find the time at which the particle changes direction.",
+      "options": [
+        "t=1 and t=3",
+        "t=−1 and t=3",
+        "t=3 only",
+        "t=−3 only"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Velocity=3t²−6t−9=3(t−3)(t+1). Changes direction at roots.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_71",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "A car worth 80,000 birr depreciates by 15% annually. Find value after 2 years.",
+      "options": [
+        "57800",
+        "58000",
+        "60000",
+        "62000"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "80000×0.85² = 80000×0.7225 = 57800.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_72",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "A company borrows 50,000 birr at 10% compound interest. If no payments are made for 2 years, calculate the total debt?.",
+      "options": [
+        "60,000 birr",
+        "61,000 birr",
+        "60,500 birr",
+        "62,000 birr"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 50000(1.1)² = 60500 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_73",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Find total of 1 + 3 + 9 + ... + 3⁶.",
+      "options": [
+        "1093",
+        "1092",
+        "1090",
+        "1080"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "S=(3⁷−1)/2=1093 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_74",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A student evaluates a savings plan where 5,000 birr is invested monthly for 2 years at an annual compound interest rate of 9%. The student is trying to understand the concept of annuities and how regular contributions combined with compound interest lead to future value accumulation.",
+      "options": [
+        "lump-sum investment model",
+        "depreciation model",
+        "An annuity growth model with periodic contributions",
+        "simple interest model"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Regular monthly deposits with interest = annuity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_75",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Range is an example of:",
+      "options": [
+        "Absolute dispersion",
+        "Relative dispersion",
+        "Central tendency",
+        "Correlation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Range measures absolute spread.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_76",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Find the gradient of the curve y = x³ at x = −1.",
+      "options": [
+        "3",
+        "−3",
+        "1",
+        "−1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "dy/dx=3x² → at −1 → 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_77",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 4)(k³+1).",
+      "options": [
+        "105",
+        "110",
+        "115",
+        "120"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "100+4=104 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_78",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Find the sum of the first 10 terms of the sequence defined by aₙ = n² − n.",
+      "options": [
+        "300",
+        "310",
+        "320",
+        "330"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "∑(n²−n)=∑n² − ∑n = 385 − 55 = 330 .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_79",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "A bank compares simple vs compound interest. Which statement is always true?",
+      "options": [
+        "Simple always higher",
+        "Compound always higher long-term",
+        "Both equal always",
+        "No relationship"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound grows faster over time.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_80",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∑(k=3 to 8)(k² + 1).",
+      "options": [
+        "199",
+        "205",
+        "210",
+        "220"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum squares 3→8 = (204−5)=199 + 6 =205.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_81",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Find aₙ if arithmetic sequence has a₅=25 and d=4.",
+      "options": [
+        "4n+5",
+        "4n+1",
+        "4n+3",
+        "4n+9"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a=25−16=9 → aₙ=4n+5 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_82",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A bacteria culture doubles every hour. If initially there are 200 bacteria, how many after 6 hours?",
+      "options": [
+        "6400",
+        "12800",
+        "10000",
+        "12000"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "200×2⁶ = 200×64 = 12800.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_83",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Two data sets have identical means and ranges, but one has a much higher standard deviation. What can be inferred?",
+      "options": [
+        "Both are identical",
+        "One has more extreme deviations from the mean",
+        "Both have same variance",
+        "Mean is incorrect"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Higher SD means greater spread around mean.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_84",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A savings plan uses 6% compound interest monthly. What is the main advantage?",
+      "options": [
+        "Lower returns",
+        "No compounding",
+        "Fixed loss",
+        "Higher effective interest"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Monthly compounding increases effective yield.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_85",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Find ∫ (x² + 2x + 1) dx.",
+      "options": [
+        "x³/3 + x² + x + C",
+        "x³ + x² + x",
+        "x² + 2x + 1",
+        "x³/3 + x² + C"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Integrate term-wise.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_86",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A company borrows 25,000 birr at 9% compound interest per annum. The loan is not repaid for 5 years due to financial restructuring. The management wants to understand the effect of delayed repayment on total debt accumulation and compare it with simple interest expectations. Determine the approximate total repayment and interpret the financial risk.",
+      "options": [
+        "About 38,500 birr, showing moderate growth",
+        "About 39,000 birr, showing controlled debt growth",
+        "About 38,500 birr, showing exponential debt increase",
+        "About 40,000 birr, showing linear growth behavior"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A = 25000(1.09)^5 ≈ 25000(1.5386) ≈ 38465 birr, showing exponential growth due to compounding.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_87",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "A borrower takes a loan of 12000 birr at 15% simple interest per year for 2 years. Determine total repayment and explain why simple interest grows linearly.",
+      "options": [
+        "15000 birr",
+        "16000 birr",
+        "15800 birr",
+        "15600 birr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = 12000×0.15×2 = 3600;\n total = 15600 birr.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_88",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(k=1 to 5)(3k² − k).",
+      "options": [
+        "200",
+        "210",
+        "220",
+        "230"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3×55 −15 =165−15=150 (trap).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_89",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A savings account earns 3% compound interest. Growth type is:",
+      "options": [
+        "Linear",
+        "Exponential",
+        "Constant",
+        "Random"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Compound interest is exponential.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_90",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "An investment of 3000 birr grows to 3645 birr in 3 years. Find compound rate.",
+      "options": [
+        "8%",
+        "7%",
+        "6%",
+        "10%"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3645 = 3000(1+r)³\n → r=7%.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_91",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "A linear programming problem has constraints x ≥ 0, y ≥ 0, x + 3y ≥ 15, and 2x + y ≥ 10. The cost function is C = 4x + 6y. Find the minimum cost.",
+      "options": [
+        "= 30 at (0,5)",
+        "= 40 at (5,2)",
+        "= 36 at (3,4)",
+        "= 42 at (4,3)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Feasible lowest cost occurs at boundary (0,5): C = 30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_92",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The sum of the first n terms is Sₙ = 2n² + 5n. Find the nth term.",
+      "options": [
+        "4n+3",
+        "4n+5",
+        "2n+5",
+        "3n+2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "aₙ = Sₙ − Sₙ₋₁ = 2n²+5n − [2(n−1)²+5(n−1)] = 4n+3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_93",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Evaluate ∫(2x + 5) dx.",
+      "options": [
+        "2x² + 5x + C",
+        "x² + 10x + C",
+        "x² + 2x + C",
+        "x² + 5x + C"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Basic integration.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_94",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Find ∑(i=1 to 4)(3i).",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "40"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3(1+2+3+4)=3×10=30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_95",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "A linear program has constraints x + y ≥ 12, x ≥ 0, y ≥ 0. Cost function is C = 6x + 6y. Find minimum cost.",
+      "options": [
+        "= 60 at (10,2)",
+        "= 50 at (8,4)",
+        "= 72 at any boundary point",
+        "= 80 at (9,3)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equal coefficients → constant cost on boundary.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_96",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The quartiles of a distribution are Q1 = 12, Q2 = 20, and Q3 = 32. Calculate the interquartile range and explain what it indicates.",
+      "options": [
+        "20",
+        "12",
+        "32",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "IQR = Q3 - Q1 =\n 32 - 12 = 20.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_97",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements best describes convenience sampling in real-life situations?",
+      "options": [
+        "All individuals are equally likely to be selected",
+        "Selection is based on ease of access",
+        "Population is divided into strata",
+        "Clusters are randomly selected"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Convenience sampling depends on accessibility.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_98",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Given the data set: 10, 20, 30, 40, 50, calculate the mean deviation about the mean and determine how much the observations deviate on average.",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Mean = 30.\n Deviations = 20,10,0,10,20 → average = 60/5 = 12, but absolute deviation sum is 60 so mean deviation = 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_99",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "In constructing a frequency curve, why are class midpoints used instead of class boundaries?",
+      "options": [
+        "To simplify calculation of mean and smooth curve",
+        "To increase frequency values",
+        "To reduce class intervals",
+        "To eliminate variance"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Midpoints approximate data values for smooth curve.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_g12_merged_melmeja_100",
+      "examId": "m2014_g12_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "A company must satisfy x + y ≥ 20 with x ≥ 0, y ≥ 0. The cost function is C = 8x + 2y. Determine the minimum cost and interpret which variable should be increased to reduce cost.",
+      "options": [
+        "= 20 at (0,10)",
+        "= 60 at (10,10)",
+        "= 30 at (5,15)",
+        "= 40 at (20,0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Since x is more expensive, minimize y: (0,20) gives C = 40.",
       "topic": "Mathematics"
     }
   ]

@@ -375,7 +375,7 @@ function convertFile(filePath) {
       description: `${title} featuring ${questions.length} authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.`,
       durationMinutes: Math.max(20, Math.round(questions.length * 1.5)),
       totalQuestions: questions.length,
-      passMarkPercent: 60,
+      passMarkPercent: 50,
       isFree: false,
       packageRequired: 'ALL_IN_ONE',
       difficulty: 'Standard National',

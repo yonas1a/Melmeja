@@ -1,0 +1,1625 @@
+{
+  "id": "exit_information_technology_2016_model_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Information Technology (2016)",
+  "category": "EXIT",
+  "subCategory": "Information Technology",
+  "department": "Information Technology",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Information Technology (2016). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Information Technology",
+    "2016",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2016",
+  "questions": [
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_1",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "Which of the following PHP functions is used to connect to a MySQL database?",
+      "options": [
+        "mysql_con()",
+        "mysqli_connect()",
+        "pg_connect()",
+        "db_connect()"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The correct function is mysqli_connect() which is the modern PHP function for connecting to MySQL databases. mysql_con() is deprecated, pg_connect() is for PostgreSQL, and db_connect() is not a standard PHP function.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_2",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is NOT the components of frames?",
+      "options": [
+        "MAC address of the source",
+        "IP address of the destination",
+        "Control options",
+        "Data"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Frames operate at Layer 2 (Data Link Layer) and contain MAC addresses, not IP addresses. The components of a frame typically include: source/destination MAC addresses, control information, data/payload, and error checking (FCS). IP addresses are Layer 3 (Network Layer) addresses used in packets, not frames.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_3",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which PHP superglobal is used to collect form data sent via the HTTP POST method?",
+      "options": [
+        "$$_POST",
+        "$$_GET",
+        "$$_REQUEST",
+        "$$_FORM"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "$$_POST is specifically designed to collect data sent via POST method. $_GET is for GET method data, $_REQUEST combines POST/GET/COOKIE data, and $_FORM doesn't exist in PHP.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_4",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "In PHP, which function is used to fetch the next row from a result set as an associative array?",
+      "options": [
+        "mysqli_fetch_row()",
+        "mysqli_fetch_array()",
+        "mysqli_fetch_assoc()",
+        "mysqli_fetch_object()"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "mysqli_fetch_assoc() returns a row as an associative array where column names are keys. \nmysqli_fetch_row() returns indexed array, \nmysqli_fetch_array() can return both, and \nmysqli_fetch_object() returns an object.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_5",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a network-level security control?",
+      "options": [
+        "Firewalls",
+        "Antivirus software",
+        "Security awareness training",
+        "Vulnerability scanning"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Firewalls operate at the network level to filter traffic. Antivirus is host-level, security training is administrative control, and vulnerability scanning is an assessment tool.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_6",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "_____ is money that has been spent in the past.",
+      "options": [
+        "Direct cost",
+        "Indirect cost",
+        "Sunk cost",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Sunk costs are expenditures that have already occurred and cannot be recovered. They should not factor into future business decisions.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_7",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "The insulation of data from direct access by the program is called as ___________",
+      "options": [
+        "Data hiding",
+        "Inheritance",
+        "Abstraction",
+        "Interface"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Data hiding is an OOP principle where internal object data is not directly accessible, preventing unauthorized access and modification.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_8",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Which method is used to retrieve a value from SharedPreferences?",
+      "options": [
+        "getInt(\"key\")",
+        "getString(\"key\",null)",
+        "getBoolean(0,\"key\")",
+        "getAll()"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "getString(\"key\",null) is the correct format where the first parameter is the key and the second parameter is the default value to return if the key doesn't exist. Similar methods exist for other data types (getInt, getBoolean, etc.) following the same parameter pattern.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_9",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "A transaction A holds shared lock X. If transaction B also requests for shared lock on X_____",
+      "options": [
+        "It will result in a deadlock situation",
+        "It will immediately be rejected",
+        "It will immediately be granted",
+        "It'll be granted as soon as released by A"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Shared locks are compatible - multiple transactions can hold shared locks on the same resource simultaneously. Only exclusive locks cause blocking.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_10",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "What is the main purpose of the Domain Name System (DNS)?",
+      "options": [
+        "To store website files",
+        "To resolve domain names to IP addresses",
+        "To encrypt web traffic",
+        "To manage web hosting services"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "DNS translates human-readable domain names (like example.com) to machine-readable IP addresses (like 192.0.2.1), functioning as the internet's phonebook.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_11",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "_____ is a block of Recovery Manager (RMAN) job commands that is stored in the recovery catalog.",
+      "options": [
+        "Recovery procedure",
+        "Recovery block",
+        "Stored block",
+        "Stored script"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Stored scripts in RMAN are named sets of RMAN commands stored in the recovery catalog that can be executed like macros for repetitive tasks.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_12",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which programming languages are primarily used for creating client-side web applications?",
+      "options": [
+        "Java and C++",
+        "PHP and Python",
+        "HTML, CSS, and JavaScript",
+        "SQL and Ruby"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Client-side web development primarily uses:\n- HTML for structure\n- CSS for presentation\n- JavaScript for behavior\nOther options are either server-side languages or not web-focused.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_13",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "An entity in A is associated with at least one entity in B, and an entity in B is associated with at most one entity in A. This is called as_______?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-many",
+        "Many-to-one"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "This describes a many-to-one relationship:\n- Many in A to one in B\nExample: Many employees (A) work in one department (B)",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_14",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of a computer's device drivers?",
+      "options": [
+        "To manage the computer's power",
+        "To provide a user interface",
+        "To allow the OS to communicate with hardware",
+        "To control the computer's input/output"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Device drivers act as translators between the operating system and hardware devices, enabling the OS to control and communicate with hardware components.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_15",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a common technique used for software requirement validation?",
+      "options": [
+        "Reviews with stakeholders",
+        "Unit testing",
+        "User interface mockups",
+        "Prototyping"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Unit testing verifies code implementation, not requirements. Requirement validation techniques include:\n- Reviews\n- Prototyping\n- Use cases\n- UI mockups\n- Checklists",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_16",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Which operator is used to increment a variable by a specific value in C++?",
+      "options": [
+        "=",
+        "++",
+        "+=",
+        "*="
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The += operator adds a value to a variable:\nx += 5; // equivalent to x = x + 5\n++ is only for incrementing by 1, others are assignment or multiplication assignment.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_17",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Why would a Layer 2 switch need an IP address?",
+      "options": [
+        "To enable the switch to be managed remotely",
+        "To enable the switch to receive frames from attached PCs",
+        "To enable the switch to send broadcast frames to attached PCs",
+        "To enable the switch to function as a default gateway"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Layer 2 switches operate at MAC layer and don't need IP for switching. An IP is only needed for:\n- Remote management (SSH/HTTP)\n- SNMP monitoring\n- Other management purposes",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_18",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "________________displays the configuration of run-time processing elements and the software components, processes, and objects that live on them",
+      "options": [
+        "Activity Diagram",
+        "Deployment Diagram",
+        "Class Diagram",
+        "Component Diagram"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Deployment diagrams in UML show:\n- Physical hardware nodes\n- Software components deployed on them\n- Communication paths\nThey model the system's physical architecture.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_19",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Which of the following tags is used to create a hyperlink in HTML?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The <a> (anchor) tag creates hyperlinks:\n<a href=\"url\">link text</a>\n<link> is for external resources, others are not valid HTML tags.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_20",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "One of the following is an object created from a class and represents current state?",
+      "options": [
+        "Class",
+        "Instance",
+        "Property",
+        "Method"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An instance is a concrete object created from a class blueprint, containing:\n- Current property values (state)\n- Ability to execute methods\nClass is the template, properties/methods are components.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_21",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Which is not the Classification of user interface prototyping?",
+      "options": [
+        "Presentation Prototypes",
+        "Bread board",
+        "Selecting Prototypes",
+        "Pilot systems"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "UI prototyping classifications include:\n1. Presentation prototypes (visual mockups)\n2. Breadboard (functional but not visual)\n3. Pilot systems (fully functional)\n'Selecting Prototypes' is not a standard category.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_22",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "The section of the project management plan that describes management and technical approaches should include the following information:",
+      "options": [
+        "The project names",
+        "Project control",
+        "The sponsor names",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The management/technical approaches section typically includes:\n- Project identification (names)\n- Control procedures\n- Stakeholder information\n- Technical methodologies\n- Resource plans",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_23",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a common use of server-side scripting?",
+      "options": [
+        "Validating user input on the client side",
+        "Generating dynamic content based on user input",
+        "Styling HTML documents",
+        "Managing browser cookies"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Server-side scripting primarily:\n- Processes user input\n- Generates dynamic pages\n- Accesses databases\n- Performs business logic\nClient-side handles validation, styling, and cookie management.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_24",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a protocol used for transferring web pages on the Internet?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "SSH"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "HTTP (Hypertext Transfer Protocol) is the foundation of web page transfer. Others:\n- FTP: File transfer\n- SMTP: Email\n- SSH: Secure remote access",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_25",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a built-in data type in C++?",
+      "options": [
+        "Int",
+        "Float",
+        "String",
+        "Char"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "C++ built-in types include:\n- Fundamental: int, float, char, bool\n- Compound: arrays, pointers\n'string' is a class in the Standard Library, not a built-in type.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_26",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "A relationship in which the \"from\" activity or predecessor must finish before the \"to\" activity or successor can start is called ----------------------------.",
+      "options": [
+        "Finish to start dependency",
+        "Start to finish dependency",
+        "Finish to finish dependency",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Finish-to-Start (FS) is the most common dependency:\n- Activity A must finish before Activity B can start\nOther types:\n- Start-to-Start (SS)\n- Finish-to-Finish (FF)\n- Start-to-Finish (SF)",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_27",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Among the provided options,the layout that arranges its views in a stack order is",
+      "options": [
+        "Relative Layout",
+        "Card Layout",
+        "Frame Layout",
+        "Constraint Layout"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "FrameLayout stacks child views on top of each other, with later items appearing above earlier ones. It's useful for overlapping views or single-item containers.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_28",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "In component level design, the functionality that is delivered by a component should be ______________________ that is ,it should focus on one and only one function.",
+      "options": [
+        "Coupling",
+        "Cohesive",
+        "Information domain",
+        "None"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Cohesion refers to how closely related and focused a component's responsibilities are. High cohesion means a component performs one well-defined function.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_29",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Which JavaScript method is used to write content into an HTML document?",
+      "options": [
+        "document.write()",
+        "document.createElement()",
+        "document.appendChild()",
+        "document.innerHTML()"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "document.write() writes content directly to the document stream. However, it's important to note that in modern JavaScript development, this method is generally avoided because: 1) It replaces all existing content if used after page load, 2) It doesn't work well with asynchronous code, and 3) Modern developers prefer DOM manipulation methods like createElement(), appendChild(), and element.innerHTML property (not a method) for better control and compatibility.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_30",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is correct about Broadcast Receivers?",
+      "options": [
+        "Broadcast classes are created by extending the super class BroadcastReceiver",
+        "Broadcast classes are created by extending the super class BroadcastReceiver and overriding the onReceive method",
+        "Broadcast Receivers actively listen for button clicks and respond in GUI",
+        "Broadcast receivers are used to handle the GUI events"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To create a BroadcastReceiver in Android:\n1. Extend BroadcastReceiver class\n2. Override onReceive() method\n3. Register in manifest or dynamically\nThey respond to system-wide broadcasts, not UI events.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_31",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Consider two tuples X and Y, the operation whose result includes tuples that are only in X but not in Y is classified as",
+      "options": [
+        "Union of relation X and Y",
+        "Intersection of relation X and Y",
+        "Difference of relation X and Y",
+        "Square of relation X and Y"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Relational algebra operations:\n- Union (X ∪ Y): All distinct tuples\n- Intersection (X ∩ Y): Common tuples\n- Difference (X - Y): Tuples only in X\n- Cartesian Product (X × Y): All combinations",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_32",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Given three classes A, B and C, where class C is derived from class B, which is derived from class A. If those classes are public classes and found in different package, then a class C object can access",
+      "options": [
+        "Any data in C and Only Protected and public data in A and B.",
+        "Protected, default and public data only in C and B.",
+        "Any data in C and only public data in A and B.",
+        "Protected, default and public data only in C."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Access across packages in Java:\n- Public: accessible everywhere\n- Protected: only within package or subclasses\n- Default: only within package\n- Private: only within class\nSince in different packages, only public members are accessible.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_33",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "In log-based recovery, the log is a sequence of _______",
+      "options": [
+        "Filter",
+        "Records",
+        "Blocks",
+        "Numbers"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The recovery log contains records of:\n- Transaction start/end\n- Data modifications (before/after values)\n- Checkpoints\nUsed for rollback/rollforward recovery.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_34",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of thermal paste between a CPU and its heatsink?",
+      "options": [
+        "To improve heat transfer",
+        "To protect the CPU from damage",
+        "To enhance electrical conductivity",
+        "To prevent dust buildup"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Thermal paste:\n- Fills microscopic gaps between CPU and heatsink\n- Conducts heat better than air\n- Prevents overheating\nNon-conductive pastes don't conduct electricity.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_35",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "The deadlock state can be changed back to stable state by using _______________ statement.",
+      "options": [
+        "Commit",
+        "Rollback",
+        "Savepoint",
+        "Deadlock"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Rollback resolves deadlocks by:\n- Aborting one transaction\n- Undoing its changes\n- Releasing all locks\nAllowing other transactions to proceed.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_36",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "The primary function of an information security risk assessment is to_____",
+      "options": [
+        "Identify and evaluate potential threats and vulnerabilities",
+        "Implement security controls",
+        "Ensure compliance with regulations",
+        "Reduce IT operational costs"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Risk assessment involves:\n1. Identifying assets\n2. Identifying threats\n3. Assessing vulnerabilities\n4. Determining risk levels\nImplementation and compliance come later.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_37",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "How does the service password-encryption command enhance password security on Cisco routers and switches?",
+      "options": [
+        "It requires encrypted passwords to be used when connecting remotely to a router or switch with Telnet.",
+        "It encrypts passwords that are stored in router or switch configuration files.",
+        "It requires that a user type encrypted passwords to gain console access to a router or switch.",
+        "It encrypts passwords as they are sent across the network."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "service password-encryption:\n- Encrypts all plaintext passwords in config\n- Uses reversible (weak) encryption\n- Prevents casual viewing of passwords\nDifferent from SSH which encrypts network traffic.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_38",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Which command is used in order to see interface descriptions and speed and duplex settings?",
+      "options": [
+        "Show ip interface brief",
+        "Show vlan brief",
+        "Show running-config interface",
+        "Show ip route"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This question has an incorrect answer. 'show ip interface brief' provides a summary of interfaces with their IP addresses and status, but does NOT show speed, duplex, or descriptions. For detailed interface information including speed and duplex settings, use 'show interfaces' or 'show interfaces status'. For interface descriptions, use 'show interfaces description'.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_39",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "_____ is set of components that mediates interaction between the program and the database",
+      "options": [
+        "Data Set",
+        "Data Table",
+        "Data Provider",
+        "Data Relation"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A Data Provider:\n- Acts as bridge between application and DB\n- Implements interfaces like:\n  - Connection\n  - Command\n  - DataReader\n  - DataAdapter",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_40",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "A ________________ is the application of knowledge, skills, tools, and techniques to project activities to meet project requirements.",
+      "options": [
+        "Operation",
+        "Project",
+        "Project Management",
+        "IT project Management"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Project Management (PMI definition):\n- Temporary endeavor\n- Creates unique product/service\n- Uses specialized knowledge/skills\nIT PM is a subset focusing on technology projects.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_41",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "How do you identify a faulty RAM module in a computer?",
+      "options": [
+        "Run a memory testing utility",
+        "Check the computer's BIOS settings",
+        "Inspect the physical RAM modules",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "RAM troubleshooting steps:\n1. Visual inspection (damage, seating)\n2. BIOS check (recognized capacity)\n3. Memory diagnostics (Windows Memory Diagnostic/MemTest86)\n4. Swap testing (replace modules)",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_42",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Runtime polymorphism feature in java is",
+      "options": [
+        "Method overriding",
+        "Method overloading",
+        "Operator overloading",
+        "Constructor overloading"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Runtime polymorphism (dynamic binding) is achieved through:\n- Method overriding\n- Late binding at runtime\nMethod overloading is compile-time polymorphism.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_43",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "One of the following is a network interface to application functionality based on standard internet technology?",
+      "options": [
+        "ADO.NET",
+        "ASP.NET",
+        "Web services",
+        "Winforms"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Web services provide:\n- Standardized (SOAP/REST) interfaces\n- Platform-independent access\n- Internet protocols (HTTP/HTTPS)\nOthers are Microsoft-specific technologies.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_44",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "What is a transaction log in DBMS?",
+      "options": [
+        "log of all the queries executed on the database",
+        "log of all the locks acquired during transactions",
+        "log of all the database schema changes",
+        "log of all the transactions executed on the database"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Transaction logs record:\n- Transaction boundaries (start/commit/rollback)\n- Data modifications\n- Enough information for recovery\nCritical for ACID properties.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_45",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is False about when to use RAD application?",
+      "options": [
+        "Reasonably well-known requirements",
+        "User involved throughout the life cycle",
+        "Functionality delivered in increments",
+        "High performance required"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "RAD (Rapid Application Development) is suitable when:\n- Requirements are somewhat flexible\n- Fast delivery is crucial\n- Users can participate actively\nPerformance-critical systems often need more rigorous engineering.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_46",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "_______________________tie together data and behavior into a single unit know as Class.",
+      "options": [
+        "Data hiding",
+        "Inheritance",
+        "Abstraction",
+        "Encapsulation"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Encapsulation bundles:\n- Data (attributes)\n- Methods (behavior)\nInto cohesive classes while hiding implementation details.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_47",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Checkpoints are a part of _____ measures.",
+      "options": [
+        "Authorization",
+        "Concurrency",
+        "Recovery",
+        "Security"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Checkpoints in DBMS:\n- Periodically save database state\n- Reduce recovery time\n- Mark which transactions are committed\nEssential for efficient crash recovery.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_48",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "________________is the number of tuples participating in a relationship.",
+      "options": [
+        "Cardinality",
+        "Degree",
+        "Domain",
+        "Set"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cardinality describes relationship participation:\n- One-to-One\n- One-to-Many\n- Many-to-Many\nDegree refers to number of entities in a relationship.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_49",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "What is the function of a computer's BIOS (Basic Input/Output System)?",
+      "options": [
+        "To manage the operating system",
+        "To provide a user interface",
+        "To perform hardware initialization",
+        "To control the computer's power"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "BIOS responsibilities:\n- POST (Power-On Self-Test)\n- Hardware initialization\n- Bootloader execution\n- Low-level system settings\nNow largely replaced by UEFI.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_50",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "How can you retrieve a value from a URL parameter in PHP?",
+      "options": [
+        "$$_POST['param']",
+        "$$_GET['param']",
+        "$$_REQUEST['param']",
+        "$$_URL['param']"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "URL parameters (after ? in URL) are accessed via:\n$_GET array in PHP\n$_REQUEST combines GET/POST/COOKIE data\n$_POST is for form data sent via POST method",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_51",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Three or more devices share a link in ________ connection.",
+      "options": [
+        "Unipoint",
+        "Multipoint",
+        "Point to point",
+        "Simplex"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Network connection types:\n- Point-to-point: Direct between two nodes\n- Multipoint: Shared by multiple devices\n- Simplex/Half-duplex/Full-duplex: Directionality",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_52",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which two features of object-oriented programming are the same?",
+      "options": [
+        "Abstraction and Polymorphism features are the same",
+        "Inheritance and Encapsulation features are the same",
+        "Encapsulation and Polymorphism features are the same",
+        "Encapsulation and Abstraction"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Encapsulation and abstraction are closely related concepts that both deal with information hiding. Abstraction focuses on hiding complexity by showing only essential features of an object, while encapsulation is the mechanism that binds data and methods together within a class and restricts direct access to some components. They're not identical but are considered similar because both serve to hide details, manage complexity, and expose only what's necessary to the outside world.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_53",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "The selection condition of SELECT operator is considered as",
+      "options": [
+        "Row expression",
+        "Column expression",
+        "String expression",
+        "Boolean expression"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "SELECT operation in relational algebra:\nσ<condition>(R)\nWhere condition is a Boolean expression evaluating to true/false for each tuple.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_54",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the IT project integration management processes that involves carrying out the project management plan by performing the activities included in it?",
+      "options": [
+        "Developing the project charter",
+        "Developing the project management plan",
+        "Directing and controlling the project",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Project Integration Management processes:\n1. Develop Project Charter\n2. Develop Project Management Plan\n3. Direct and Manage Project Work\n4. Monitor and Control Project Work\n5. Perform Integrated Change Control\n6. Close Project or Phase",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_55",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "_____ prototyping is generally limited function, limited interaction prototyping effort.",
+      "options": [
+        "High-fidelity",
+        "Low-fidelity",
+        "Throw-away",
+        "Evolutionary prototyping"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Prototyping types:\n- Low-fidelity: Simple, quick (paper mockups)\n- High-fidelity: Closer to final product\n- Throw-away: Discarded after validation\n- Evolutionary: Becomes final system",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_56",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which SQLiteOpenHelper method is used for writing, updating or deleting data?",
+      "options": [
+        "getReadableDatabase()",
+        "update()",
+        "insert()",
+        "getWritableDatabase()"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "SQLiteOpenHelper methods:\n- getWritableDatabase(): For write operations\n- getReadableDatabase(): For read-only\nCRUD operations are performed on the returned SQLiteDatabase object.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_57",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A process that helps switch to remove old entries and free memory of MAC address table to add new entries is called?",
+      "options": [
+        "Formating",
+        "Learning",
+        "Aging",
+        "Flooding"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "MAC address table aging:\n- Removes unused entries after aging timer expires\n- Prevents table overflow\n- Default aging time typically 300 seconds\nLearning is the process of adding new entries.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_58",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the term for an endpoint of an inter-process communication flow across a computer network?",
+      "options": [
+        "port",
+        "machine",
+        "socket",
+        "pipe"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A socket is an endpoint for communication consisting of:\n- IP address\n- Port number\nPipes are for local inter-process communication.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_59",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Most backup and recovery commands in _____ are executed by server sessions.",
+      "options": [
+        "Backup Manager",
+        "Recovery Manager",
+        "Backup and Recovery Manager",
+        "Database Manager"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Oracle's Recovery Manager (RMAN):\n- Centralized backup/recovery tool\n- Server-managed operations\n- Maintains metadata in control file/catalog",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_60",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Which among the following methods is suitable for displaying notifications?",
+      "options": [
+        "NotificationChannel",
+        "NotificationManager",
+        "NotificationCompat.Builder",
+        "notify(id,b.build())"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "NotificationManager is the system service responsible for displaying notifications to the user. The complete process involves:\n1. Get the NotificationManager using context.getSystemService()\n2. Create a notification with NotificationCompat.Builder\n3. Create a NotificationChannel (for Android 8.0+)\n4. Finally call notificationManager.notify(id, notification) to display the notification\n\nWhile NotificationCompat.Builder builds the notification object and NotificationChannel defines the notification's behavior, NotificationManager is the component that actually displays the notification on screen.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_61",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which statements accurately describe an advantage when deploying NAT for IPv4 in a network?",
+      "options": [
+        "NAT will impact negatively on switch performance.",
+        "NAT causes routing tables to include more information.",
+        "NAT adds authentication capability to IPv4.",
+        "NAT provides a solution to slow down the IPv4 address depletion."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "NAT (Network Address Translation) benefits:\n- Conserves public IPv4 addresses\n- Allows many devices to share single public IP\n- Adds basic security through hiding internal addresses\nDoesn't provide authentication or affect switching.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_62",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Projection of columns in relational algebra operation creates",
+      "options": [
+        "horizontal partitioning",
+        "vertical partitioning",
+        "combination of attributes",
+        "All except C"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Projection (π):\n- Vertical operation\n- Selects specific columns\n- Eliminates duplicate tuples\nSelection (σ) performs horizontal partitioning.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_63",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "One of the following is FALSE about form?",
+      "options": [
+        "Form is control placed in user interface element of a windows application.",
+        "Form is an area on the screen (usually rectangular) over which you design the user interface of a Windows application.",
+        "Form is a control, but it is a special type of control that is both scrollable and capable of acting as a container control.",
+        "Windows forms controls are reusable components that encapsulate graphical user interface (GUI) functionality."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Forms are not controls placed on other UI elements; rather, forms are container objects that host controls. In Windows Forms, a Form is a special type of container that represents a window and provides the foundation for creating the user interface. Controls are placed on forms, not the other way around. Options B, C, and D correctly describe aspects of Windows Forms.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_64",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which layer does the data link layer take packets from and encapsulate them into frames for transmission?",
+      "options": [
+        "transport layer",
+        "application layer",
+        "network layer",
+        "physical layer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "OSI model data flow:\n1. Network layer passes packets to data link layer\n2. Data link adds header/trailer to create frames\n3. Physical layer converts to bits\nOpposite process when receiving.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_65",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "A key principle of secure system architecture is:",
+      "options": [
+        "Centralization",
+        "Modularity",
+        "Openness",
+        "Complexity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Modularity is a key principle of secure system architecture because it allows for separation of concerns, easier maintenance, and better security through compartmentalization. Breaking systems into discrete modules limits the impact of potential breaches.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_66",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "What is a constant in C++?",
+      "options": [
+        "fixed value that cannot be changed",
+        "reserved word with predefined meaning",
+        "named storage location that can hold a value",
+        "An output produced by a program"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In C++, a constant is a fixed value that cannot be altered during program execution. Constants are declared using the 'const' keyword and provide safety by preventing accidental modifications.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_67",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of curly braces ({}) in a C++ program?",
+      "options": [
+        "To define a function",
+        "To indicate the beginning and end of a block of code",
+        "To declare variables",
+        "To provide input to the program"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Curly braces {} in C++ are used to define the scope of code blocks. They mark where a block starts and ends, which is essential for control structures (if, loops), functions, and namespace definitions.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_68",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
+      "options": [
+        "Added",
+        "Removed",
+        "Rearranged",
+        "Randomized"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "As data moves up the OSI model layers, each layer removes its own header before passing the data to the next higher layer. This is part of the encapsulation/decapsulation process in network communication.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_69",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "What is the primary difference between include() and require() in PHP?",
+      "options": [
+        "include() will include a file only once, while require() will include it every time it is called",
+        "require() will produce a fatal error and stop the script if the file is not found, while include() will only produce a warning",
+        "require() is used for including files, include() is used for importing libraries",
+        "There is no difference between include() and require()"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The key difference is error handling:\n- require() causes a fatal error if file is missing (stops script)\n- include() produces a warning but continues execution\nBoth functions insert file contents, but require() is stricter for critical dependencies.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_70",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of the address operator (&) in C++?",
+      "options": [
+        "To declare a variable",
+        "To access the value of a variable",
+        "To assign a value to a variable",
+        "To obtain the memory address of a variable"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The & operator in C++ returns the memory address of a variable (pointer). For example: \nint x = 5;\nint* ptr = &x; // ptr now holds memory address of x",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_71",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Course (Course_Id, Section, Semester), here the Course_Id, Section and Semester are _______ and course is a _______.",
+      "options": [
+        "Relations, Attribute",
+        "Attributes, Relation",
+        "Attribute, Tuple",
+        "Tuple, Attributes"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In database terminology:\n- Course_Id, Section, Semester are attributes (columns)\n- Course is the relation (table)\nThis represents a table structure in relational databases.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_72",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Which of the following best describes a static website?",
+      "options": [
+        "website that changes its content based on user interactions",
+        "website that does not change its content unless manually updated",
+        "website that uses server-side scripting to generate dynamic content",
+        "website that requires user authentication to access content"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Static websites:\n- Serve pre-built HTML files\n- Content remains same for all users\n- Changes require manual file updates\n- No server-side processing or databases\n- Faster loading than dynamic sites",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_73",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following block used to add any code that is always executed regardless of whether or not an exception is thrown?",
+      "options": [
+        "Finally",
+        "Catch",
+        "Try",
+        "Thrown"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The finally block in exception handling:\n- Executes after try/catch blocks\n- Always runs whether exception occurs or not\n- Used for cleanup code (closing files, DB connections)\n- Syntax: try {...} catch {...} finally {...}",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_74",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "_______ is a device that converts the digital signals generated by a computer into analog signals that can travel over conventional phone lines.",
+      "options": [
+        "Modem",
+        "Firewall",
+        "Gateway",
+        "Repeater"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A modem (MOdulator-DEModulator):\n- Converts digital to analog for transmission\n- Converts analog back to digital on reception\n- Essential for dial-up internet connections\n- Different types include DSL, cable modems",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_75",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Among the provided options,the layout that arranges its views in a stack order is",
+      "options": [
+        "Relative Layout",
+        "Card Layout",
+        "Frame Layout",
+        "Constraint Layout"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Frame Layout in Android:\n- Stacks child views on top of each other\n- Last added view appears on top\n- Useful for overlapping UI elements\n- Simple layout for single items or overlapping components",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_76",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A network administrator is adding a new LAN to a branch office. The new LAN must support 25 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+      "options": [
+        "255.255.255.224",
+        "255.255.255.192",
+        "255.255.255.240",
+        "255.255.255.128"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For 25 hosts, we need at least 25 usable IP addresses (plus network and broadcast addresses). The subnet masks correspond to these values:\n- 255.255.255.224 = /27 (32 addresses, 30 usable)\n- 255.255.255.192 = /26 (64 addresses, 62 usable)\n- 255.255.255.240 = /28 (16 addresses, 14 usable)\n- 255.255.255.128 = /25 (128 addresses, 126 usable)\n\nSince we need at least 25+2=27 addresses, 255.255.255.240 (/28) is too small (only 16 addresses). 255.255.255.224 (/27) provides 32 addresses (30 usable), which is the smallest subnet that meets the requirement.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_77",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which information does the show startup-config command display?",
+      "options": [
+        "The IOS image copied into RAM",
+        "The bootstrap program in the ROM",
+        "The contents of the saved configuration file in the NVRAM",
+        "The contents of the current running configuration file in the RAM"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Cisco router commands:\n- 'show startup-config': Displays saved config in NVRAM\n- 'show running-config': Current config in RAM\n- Startup-config loads when device boots\n- Running-config is active configuration",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_78",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "When handling form data in PHP, which attribute of the HTML  tag specifies how the form data should be sent to the server?",
+      "options": [
+        "action",
+        "method",
+        "enctype",
+        "target"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The method attribute:\n- Specifies HTTP request method (GET or POST)\n- GET: Data in URL (limited size, visible)\n- POST: Data in body (larger size, more secure)\n- Example: <form method=\"post\" action=\"process.php\">",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_79",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which control statement is used for executing different blocks of code based on multiple conditions?",
+      "options": [
+        "If...else statement",
+        "Switch statement",
+        "For loop statement",
+        "While loop statement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Switch statement:\n- Evaluates expression once\n- Compares value with case labels\n- Executes matching case block\n- More efficient than multiple if-else for many conditions\n- Syntax: switch(expr) { case val1: ... break; default: ... }",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_80",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements not true?",
+      "options": [
+        "private member of a class cannot be accessed by the methods of the same class",
+        "public member of a class can be accessed in all the packages",
+        "private member of a class cannot be accessed from its derived class",
+        "protected member of a class can be accessed from its derived class."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The statement 'A private member of a class cannot be accessed by the methods of the same class' is false. Private members can indeed be accessed by methods within the same class - that's the fundamental purpose of encapsulation. Methods of a class have full access to all members (including private ones) of that class. The other statements are true: public members are accessible everywhere, private members cannot be accessed from derived classes, and protected members are accessible from derived classes.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_81",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is correct, when an overridden method is called from within a subclass?",
+      "options": [
+        "The Compiler will choose randomly the method to be executed",
+        "It will always refer to the version of that method defined by the subclass",
+        "Compile time error will occur",
+        "It will always refer to the version of that method defined by the superclass"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Method overriding behavior:\n- Subclass version is called when overridden\n- Runtime polymorphism determines method version\n- Superclass method is hidden (unless called via super)\n- Example: Animal.sound() vs Dog.sound() - Dog version runs",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_82",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which of the following can be a multivalued attribute?",
+      "options": [
+        "Email Address",
+        "Gender",
+        "Date-of-birth",
+        "Age"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multivalued attributes:\n- Can have multiple values for single entity\n- Email: person may have multiple addresses\n- Others are single-valued (one gender, one DOB, one age)\n- In databases, multivalued attributes often require separate tables",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_83",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "If a link transmits 4000 frames per second, and each slot has 8 bits, what is the transmission rate of the circuit using Time Division Multiplexing (TDM)?",
+      "options": [
+        "500kbps",
+        "32kbps",
+        "32bps",
+        "500bps"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Calculation:\n- Frames/sec × bits/frame = bits/sec\n- 4000 frames/sec × 8 bits/frame = 32,000 bits/sec\n- Convert to kbps: 32,000 ÷ 1000 = 32 kbps\n- TDM divides channel into fixed time slots",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_84",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not an OOPS concept?",
+      "options": [
+        "Encapsulation",
+        "Polymorphism",
+        "Exception",
+        "Abstraction"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Core OOP concepts:\n1. Encapsulation (data hiding)\n2. Inheritance\n3. Polymorphism\n4. Abstraction\nException handling is a programming feature but not an OOP fundamental concept",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_85",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Which method is used to stop a bound service?",
+      "options": [
+        "System.exit(0)",
+        "selfStop()",
+        "stopService()",
+        "None"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "None of the options are correct for stopping a bound service in Android. A bound service is stopped when all clients unbind from it by calling unbindService(). When all bindings are released, the system destroys the service unless it was also started with startService(). The stopService() method is used for started services, not specifically for bound services. System.exit(0) forcibly terminates the entire application, and selfStop() is not a standard Android method.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_86",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "_______ is an essential part of any backup system.",
+      "options": [
+        "Filter",
+        "Recovery",
+        "Security",
+        "Scalability"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Backup systems require:\n- Recovery mechanism to restore data\n- Without recovery, backups are useless\n- Should regularly test recovery process\n- Includes both data and system recovery",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_87",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which attribute of the HTML  tag specifies the URL of the page that will process the form data?",
+      "options": [
+        "action",
+        "method",
+        "enctype",
+        "target"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The action attribute:\n- Specifies where to send form data\n- Typically a server-side script (PHP, ASP, etc.)\n- Can be relative or absolute URL\n- Example: <form action=\"process.php\" method=\"post\">",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_88",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "_______ is sequence of bytes traveling from a source to a destination over a communication path?",
+      "options": [
+        "File",
+        "Stream",
+        "Record",
+        "Field"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Stream characteristics:\n- Continuous flow of data bytes\n- Can represent various data types\n- Supports sequential access\n- Used in networking, file I/O operations\n- Can be input or output streams",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_89",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A USB port can connect upto_______different peripherals together with single connector?",
+      "options": [
+        "125",
+        "126",
+        "127",
+        "128"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "USB specifications:\n- Theoretical limit of 127 devices per host controller\n- Achieved through USB hubs\n- Address range is 1-127 (0 reserved for host)\n- Practical limits may be lower due to power constraints",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_90",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "How do you troubleshoot a computer that fails to boot up?",
+      "options": [
+        "Check the monitor and keyboard",
+        "Run a virus scan",
+        "Check the power supply, RAM, and boot device",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Boot failure troubleshooting steps:\n1. Verify power supply and connections\n2. Check display and input devices\n3. Test RAM modules\n4. Verify boot device (HDD/SSD)\n5. Listen for beep codes\n6. Check BIOS settings\n7. Run hardware diagnostics",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_91",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which loop statement is guaranteed to execute its body at least once?",
+      "options": [
+        "If...else statement",
+        "Switch statement",
+        "For loop statement",
+        "Do...while statement"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Do...while loop:\n- Executes body before checking condition\n- Always runs at least once\n- Syntax: do { ... } while (condition);\n- Contrast with while loop which may never execute",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_92",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "What is the correct way to start a PHP block of code?",
+      "options": [
+        "<?php ?>",
+        "<php ?>",
+        "<% %>",
+        "<script php>"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "PHP code blocks:\n- Standard opening tag: <?php\n- Short tags: <? (needs configuration)\n- ASP-style: <% (deprecated)\n- Always use full <?php for compatibility\n- Closing tag: ?> (optional in pure PHP files)",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_93",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "What does the CSS property margin do?",
+      "options": [
+        "Sets the space inside the border of an element",
+        "Sets the space outside the border of an element",
+        "Sets the thickness of an element's border",
+        "Sets the background color of an element"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "CSS box model components:\n- Margin: Space outside border (between elements)\n- Border: Line around padding\n- Padding: Space inside border (around content)\n- Content: Actual element content\nMargin creates space between elements",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_94",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which among the following methods is suitable for storing an integer data in a shared preference file?",
+      "options": [
+        "put(key,2)",
+        "put(key,\"2\")",
+        "putInt(key,2)",
+        "putInt(key,\"2\")"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Android SharedPreferences methods:\n- putInt() stores integer values\n- putString() for text\n- putBoolean() for true/false\n- Example: editor.putInt(\"count\", 5).apply()\n- Retrieval: getInt(\"count\", defaultValue)",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_95",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which of the following processes that is not involved in project scope management?",
+      "options": [
+        "Resource estimation",
+        "Expert judgment",
+        "Product analysis",
+        "Facilitated workshops"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Project scope management processes:\n1. Plan Scope Management\n2. Collect Requirements\n3. Define Scope\n4. Create WBS\n5. Validate Scope\n6. Control Scope\nResource estimation is part of cost/time management",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_96",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of a function in programming?",
+      "options": [
+        "To declare variables",
+        "To perform arithmetic operations",
+        "To define the program's structure",
+        "To encapsulate a set of instructions for reuse"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Functions provide:\n- Code reuse (call multiple times)\n- Modularity (break into logical units)\n- Abstraction (hide implementation)\n- Parameterization (accept inputs)\n- Return values (provide outputs)\n- Easier debugging and maintenance",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_97",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which of the following layers is an addition to OSI model when compared with TCP IP model?",
+      "options": [
+        "Application layer",
+        "Network layer",
+        "Transport layer",
+        "Session and Presentation layer"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "OSI (7 layers) vs TCP/IP (4 layers):\nOSI adds:\n- Session layer (manages connections)\n- Presentation layer (data translation/encryption)\nTCP/IP combines these into Application layer\nBoth have: Network, Transport, Application concepts",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_98",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Objects that contain the same types of values and the same methods are grouped into _______.",
+      "options": [
+        "One tuples from one relation",
+        "Zero tuples and empty relation",
+        "Zero tuples from two relation",
+        "Two tuples from empty relation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "This question appears to have a mismatch between the question stem and the options. The question asks about grouping objects with similar properties (which would be classes in OOP), while the options refer to relational database concepts. If interpreting in the context of relational databases, an empty relation (with zero tuples) is a valid relation that has a defined schema but contains no data rows. However, the fundamental answer to the original question would be 'classes' in object-oriented programming.",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_99",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "_______ is the total direct and indirect costs incurred in accomplishing work on an activity during a given period.",
+      "options": [
+        "The actual cost",
+        "The earned value",
+        "Planned value",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Project cost terms:\n- Actual Cost (AC): Real money spent\n- Earned Value (EV): Value of work completed\n- Planned Value (PV): Budgeted cost of work\n- AC measures actual expenditure regardless of progress",
+      "topic": "Information Technology"
+    },
+    {
+      "id": "q_exit_information_technology_2016_model_melmeja_100",
+      "examId": "exit_information_technology_2016_model_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "What is the primary purpose of a computer power supply?",
+      "options": [
+        "To convert AC to DC",
+        "To provide storage for the computer",
+        "To cool the internal components",
+        "To manage the computer's input/output"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Power Supply Unit (PSU) functions:\n- Converts AC wall power to DC voltages\n- Provides +3.3V, +5V, +12V etc.\n- Regulates power to components\n- Includes safety features (overvoltage protection)\n- Cooling is handled by fans/heat sinks",
+      "topic": "Information Technology"
+    }
+  ]
+}

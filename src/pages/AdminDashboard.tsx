@@ -29,7 +29,8 @@ import {
   Lock,
   KeyRound,
   Zap,
-  Bot
+  Bot,
+  ShieldCheck
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { PaymentSubmission, UserProfile, ExamAttempt } from '../types';

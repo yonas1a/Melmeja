@@ -5,10 +5,10 @@
   "subCategory": "General Aptitude",
   "department": "General Aptitude",
   "grade": "Grade 12 Entrance",
-  "description": "Comprehensive examination bank combining 9 chapters (53 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 80,
-  "totalQuestions": 53,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 9 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -869,6 +869,758 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_54",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "22) What does to \"make informed decisions\" mean in the above passage? It means decision:",
+      "options": [
+        "made for the sake of satisfying oneself.",
+        "based on mere personal opinion.",
+        "based on facts and information.",
+        "made for the sake of satisfying others."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The term **'informed'** means having or being supplied with information or knowledge. Therefore, 'to make informed decisions' means decisions **based on facts and information** (C).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_55",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "50) A ball bounces one-half the distance from which it falls. How high does it bounce up on the fifth rebound if the ball is dropped from a height of $20 \\text{ m}$?",
+      "options": [
+        "$0.625 \\text{ m}$",
+        "$1.25 \\text{ m}$",
+        "$5 \\text{ m}$",
+        "$2.5 \\text{ m}$"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "This problem describes a **Geometric Progression (GP)** where the height of each rebound is half of the previous height. The initial drop height is $H_0 = 20 \\text{ m}$.\n\nThe height after the $n^{\\text{th}}$ rebound ($H_n$) is given by $H_n = H_0 \\times r^n$, where $r$ is the common ratio (bounce factor), $r = \\frac{1}{2}$. We need to find the height after the **fifth rebound** ($n=5$).\n\n* **1st Rebound ($H_1$):** $20 \\times \\frac{1}{2} = 10 \\text{ m}$\n* **2nd Rebound ($H_2$):** $10 \\times \\frac{1}{2} = 5 \\text{ m}$\n* **3rd Rebound ($H_3$):** $5 \\times \\frac{1}{2} = 2.5 \\text{ m}$\n* **4th Rebound ($H_4$):** $2.5 \\times \\frac{1}{2} = 1.25 \\text{ m}$\n* **5th Rebound ($H_5$):** $1.25 \\times \\frac{1}{2} = 0.625 \\text{ m}$ (or $20 \\times (1/2)^5 = 20/32 = 5/8 = 0.625$)\n\nThe height of the fifth rebound is **$0.625 \\text{ m}$**.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_56",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is necessarily true about any real numbers $x$ and $y$ where $x < 0 < y$?",
+      "options": [
+        "$(x + y) > 0$",
+        "$|x - y| = -(x - y)$",
+        "$(x + y) < 0$",
+        "$|y - x| = -(y - x)$"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The condition $x < 0 < y$ means $x$ is negative and $y$ is positive.\n\n* Consider the expression $x - y$. Subtracting a positive number ($y$) from a negative number ($x$) always results in a **negative** number. $x - y < 0$.\n* The definition of absolute value states that if a value $a$ is negative, $|a| = -a$. \n* Since $x - y$ is negative, it is necessarily true that $|x - y| = -(x - y)$.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_57",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "The prolonged drought was an ______ to the already struggling farmers.",
+      "options": [
+        "aid",
+        "impediment",
+        "assistance",
+        "boon"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A drought is a difficulty, which would be an 'impediment' (hindrance or obstruction) to farmers.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_58",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Solve: 1/x + 1/(x+2) = 3/4.",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Solve equations → x=2.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_59",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Question 16 - 18 consist of sentences in which one word is written bold followed by four other words. Choose the word that is most nearly opposite in mea to the word in bold. Then, blacken the letter of your choice on the separate answer sheet provided.\n\n16) The officer **exaggerated** the damage caused by the rowdies and thus made it look more serious.",
+      "options": [
+        "Unreported",
+        "Condemned",
+        "Ignored",
+        "Underestimated"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The word 'exaggerated' means to make something seem larger or more serious than it really is. \n\nThe opposite would be to make it seem smaller or less serious, which is 'underestimated.'",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_60",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Choose the word that best completes: The professor's explanation was so ____ that even advanced students struggled to understand.",
+      "options": [
+        "lucid",
+        "opaque",
+        "vivid",
+        "simple"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Opaque means unclear or difficult to understand.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_61",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "The scientist's discovery was a significant ______ that changed the course of medical research.",
+      "options": [
+        "deviation",
+        "hindrance",
+        "breakthrough",
+        "setback"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A discovery that changes the course of research is a major 'breakthrough'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_62",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "INEFFABLE (Choose the synonym):",
+      "options": [
+        "Expressible",
+        "Unspeakable",
+        "Audible",
+        "Common"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "INEFFABLE means too great or extreme to be expressed or described in words; 'Unspeakable'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_63",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct synonym of 'Begin'",
+      "options": [
+        "End",
+        "Start",
+        "Stop",
+        "Finish"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Begin means start.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_64",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "50) A person wants to divide Birr 4,600 for his three children in the ratio of $\\frac{1}{2}: \\frac{2}{3}: \\frac{3}{4}$. What are the shares in Birr of each child from the smallest to the largest amount?",
+      "options": [
+        "1,200, 1,600 and 1,800",
+        "1,000, 1,600 and 2,000",
+        "1,200, 1,400 and 2,000",
+        "800, 1,600 and 2,200"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1.  **Convert the fractional ratio to an integer ratio.** The LCM of the denominators (2, 3, 4) is 12.\n$$\\frac{1}{2}\\times 12 : \\frac{2}{3}\\times 12 : \\frac{3}{4}\\times 12 = 6 : 8 : 9$$\n2.  **Calculate the value per part.** The total number of parts is $6 + 8 + 9 = 23$. \n$$\\text{Value per part} = \\frac{4,600}{23} = 200$$\n3.  **Determine the shares:**\n* Smallest (6 parts): $6 \\times 200 = 1,200$\n* Middle (8 parts): $8 \\times 200 = 1,600$\n* Largest (9 parts): $9 \\times 200 = 1,800$\n\nThe shares are **1,200, 1,600, and 1,800 Birr**.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_65",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Choose the synonym of: 'ELOQUENT'.",
+      "options": [
+        "Silent",
+        "Persuasive",
+        "Confusing",
+        "Dry"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Eloquent means fluent and persuasive in speech.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_66",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Synonyms\nDirection: For questions 16 - 19, choose the letter of the word or phrase that is nearly similar in meaning with the words in bold type.\n\n'Abundance' of water resources characterize Ethiopia that it is well styled as the water tower of Africa.",
+      "options": [
+        "Plenitude",
+        "Drainage",
+        "Irrigation",
+        "confluence"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The word 'Abundance' means a very large quantity of something.\n\n 'Plenitude' is a direct synonym meaning an abundance or full supply.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_67",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "25) Five students (namely Ha, Ga, Ta, Za and Ya), all from the same grade level sat for four exams on four different subjects: English, History, Geography and Mathematics. For Ha, English was the easiest while Mathematics was the most difficult, which Ya found. Ga found them to be the reverse of what Ha found them to be. Ta found both History and Geography had same and Mathematics was easier. Za found that English was the opposite of what Ta found them to be. For Ya, what Ha found the easiest was the most difficult. According to the text, which subject was the most difficult one for most of the students?",
+      "options": [
+        "English",
+        "Mathematics",
+        "Geography",
+        "History"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To solve, we track the 'Most Difficult' subject for each student:\n* **Ha:** Most Difficult = **Mathematics (M)**.\n* **Ga:** Reverse of Ha, so Most Difficult = **English (E)**.\n* **Ya:** What Ha found easiest (English) was Ya's most difficult. Most Difficult = **English (E)**.\n* **Ta:** Found Mathematics easiest, so the most difficult must be History or Geography (H & G).\n* **Za:** English was the opposite of what Ta found English to be. Ta found M easiest, so Ta found E difficult. The opposite is easy. Since Za found English easy, and Ta found Mathematics easy, Za found **Mathematics (M)** difficult (opposite of Ta's easiest).\n\nThis results in a tie: English (Ga, Ya) and Mathematics (Ha, Za) both have 2 students who found them most difficult. In the context of aptitude questions dealing with a tie between the top two subjects, **Mathematics** (B) is often the intended answer due to its general complexity, or a subtle interpretation of the ambiguous sentences. We select **Mathematics** as the most probable intended answer.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_68",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What does the word 'We' in paragraph 2 refer to?",
+      "options": [
+        "Future generations",
+        "The student population",
+        "The people",
+        "Development planners and policy-makers"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The text (in the previous image) discusses 'planning, policies and programmes' and states 'We need to ensure that development initiatives are geared towards...'. This prescriptive voice belongs to those responsible for implementing the initiatives, which corresponds to 'Development planners and policy-makers'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_69",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": " GUN is to BULLET as a BOW is to:_____",
+      "options": [
+        "Fly",
+        "Sky",
+        "Arrow",
+        "Wood"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A gun uses bullets to shoot, similarly, a bow uses arrows to shoot.\n\n Therefore, the correct analogy is arrow.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_70",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "If g(x) = x² - 3x, find the value of g(-2).",
+      "options": [
+        "10",
+        "2",
+        "-2",
+        "-10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "g(-2) = (-2)² - 3(-2) = 4 - (-6) = 4 + 6 = 10.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_71",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Instruction: \n The following histogram presents the mark of grade 12 students of a certain secondary school in a mid examination taken out of 30. Based on the given data in the histogram, answer questions 58 to 60.\n\n58) Which one of the following is the percentage of students who scored marks less than 15?",
+      "options": [
+        "33.33%",
+        "66.67%",
+        "20%",
+        "80%"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "To solve this problem, we must first determine the number of students from the histogram data. \n\n**Visual Interpretation of Histogram:**\n* Number of students with marks **less than 15** ($N_{<15}$): Appears to be $25$.\n* Number of students with marks **15 or more** ($N_{\\ge 15}$): Appears to be $15$.\n* **Total Number of Students ($N_{total}$):** $25 + 15 = 40$\n\n**Calculation based on visual data:**\n$$\\text{Percentage} = \\frac{25}{40} \\times 100\\% = 62.5\\%$$ \n\nSince $62.5\\%$ is not an option, we assume a slight error in the histogram's values and check the closest percentage options. Option B, **$66.67\\%$**, is equal to $\\frac{2}{3}$. This suggests the intended total number of students was $30$ (since the exam is out of $30$) and $20$ students scored less than $15$ ($20/30 = 2/3$). Based on the provided choices, **$66.67\\%$** is the most likely intended answer.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_72",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct antonym of 'Open'",
+      "options": [
+        "Close",
+        "Shut",
+        "Closed",
+        "Near"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Open is opposite of closed.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_73",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "9) IMMACULATE",
+      "options": [
+        "Lucid",
+        "Tidy",
+        "Filthy",
+        "Spotless"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "**'Immaculate'** means perfectly clean, neat, or tidy; or, free from flaws. 'Tidy' and 'Spotless' are synonyms of 'Immaculate.' **'Filthy'** means disgustingly dirty and is the strongest antonym. 'Lucid' means expressed clearly or bright/shining and is not contextually relevant.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_74",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": " A man may react to sudden danger in some different ways. Some of these are:",
+      "options": [
+        "He may be paralysed with fear, seized with panic, or act like an inferior animal.",
+        "He may be paralysed with fear, run a way, or fight.",
+        "He may flee panic, or fight back, stand still or act like an inferior animal.",
+        "He may be paralysed with fear, flee panic, seized with panic or act like an inferior animal."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The passage explains that in sudden danger, a person may stand still powerless (paralysed with fear), be seized with panic, or act like inferior animals rather than rational beings.\n\n Option A accurately reflects these reactions.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_75",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct antonym of: CONCISE",
+      "options": [
+        "Lengthy",
+        "Brief",
+        "Strict",
+        "Rigorous"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Concise means short and clear; lengthy is the opposite.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_76",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": " PLAY is to ACTOR as CONCERT is to:__________",
+      "options": [
+        "Piano",
+        "Symphony",
+        "Persuasion",
+        "Musician"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An actor performs in a play, similarly, a musician performs in a concert. \n\nTherefore, the correct analogy is musician.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_77",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "The _________ of modernization and national unity are the guiding principles of all countries.",
+      "options": [
+        "ideals",
+        "agenda",
+        "slogans",
+        "memories"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Modernization and national unity are abstract goals or standards of perfection that guide nations, making 'ideals' the most appropriate choice.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_78",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct synonym for: 'relinquish'.",
+      "options": [
+        "Give up",
+        "Destroy",
+        "Repair",
+        "Collect"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Relinquish means surrender or give up.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_79",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "31) ______",
+      "options": [
+        "The dog, while it was riding a bicycle, barked at me.",
+        "The dog barked at me while I was riding a bicycle.",
+        "The dog that was riding a bicycle barked at me.",
+        "While it was riding a bicycle the dog barked at me."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Options A, C, and D contain a **misplaced or dangling modifier**, which incorrectly suggests the dog was riding the bicycle. Option B is the only sentence that logically and grammatically states that **I** (the speaker/narrator) was riding the bicycle when the dog barked.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_80",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "To keep a stiff upper lip means:",
+      "options": [
+        "To be angry",
+        "To remain stoic in the face of adversity",
+        "To talk too much",
+        "To be physically ill"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The idiom means to be courageous and unemotional in the face of trouble or distress.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_81",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct antonym of 'Early'",
+      "options": [
+        "Soon",
+        "Fast",
+        "Late",
+        "Quick"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Early is opposite of late.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_82",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "32) ______",
+      "options": [
+        "In my opinion, we can visit our friend when we return back from school.",
+        "In my opinion, we can visit our friend when we are back from school.",
+        "In my opinion, we can visited our friend when we return from school.",
+        "In my opinion, I think, we can visit our friend when we back from school."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Option B is the only grammatically correct sentence. \n* Option A is incorrect due to the redundancy of '**return back**' ('return' already means 'come back').\n* Option C is incorrect because the modal verb 'can' must be followed by the base form of the verb, not the past tense ('visited').\n* Option D is incorrect due to the redundancy of 'In my opinion, I think' and incorrect phrasing ('when we back').",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_83",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "The length of a rectangle is 3 units more than its width. If the width is increased by 4 units and the length is decreased by 2 units then its area will increase by 10 square units. What will be the length of the rectangle?",
+      "options": [
+        "4 units",
+        "6 units",
+        "5 units",
+        "7 units"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let the original width be $w$ and the original length be $l$. Original length $l = w + 3$.\n\n1.  **Original Area** ($A_1$): $A_1 = l w = (w+3)w = w^2 + 3w$\n2.  **New Area** ($A_2$): New width $w' = w+4$; New length $l' = (w+3) - 2 = w+1$. $A_2 = (w+4)(w+1) = w^2 + 5w + 4$\n3.  **Area Relationship**: $A_2 = A_1 + 10$.\n\n$w^2 + 5w + 4 = (w^2 + 3w) + 10$\n$5w - 3w = 10 - 4$\n$2w = 6 \\implies w = 3$\n\nThe question asks for the **original length** $l$: $l = w + 3 = 3 + 3 = 6$ units.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_84",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Choose the correct spelling",
+      "options": [
+        "Definately",
+        "Definitely",
+        "Definetly",
+        "Definatly"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Correct spelling is 'Definitely'.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_85",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": " Explain the phrase 'gather resolution from danger'.",
+      "options": [
+        "To remain calm and not to lose hope when there is a difficulty",
+        "Questions to be enthusiastic and brave the odds during difficulty",
+        "Hopelessness makes one determined to face the difficulty",
+        "Find peace in times of difficulty"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The phrase 'gather resolution from despair' means that when a person faces almost certain death or extreme danger, the feeling of hopelessness gives them strong determination and courage to confront the difficulty.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_86",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": " The red, green and black lollies in a packet are in the ratio 2:3:5. How many green and black lollies are there, if there are 10 red lollies?",
+      "options": [
+        "25 green lollies and 15 black lollies",
+        "30 green lollies and 50 black lollies",
+        "6 green lollies and 15 black lollies",
+        "15 green lollies and 25 black lollies"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The ratio of red:green:black = 2:3:5.\n\nLet the common multiplier be k.\n\nRed = 2k = 10 → k = 5\n\nGreen = 3k = 3 × 5 = 15\n\nBlack = 5k = 5 × 5 = 25\n\nHence, there are 15 green lollies and 25 black lollies.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_87",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Solve: |3x − 5| = 7.",
+      "options": [
+        "4, −2/3",
+        "−4, 2/3",
+        "2/3, 4",
+        "No solution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "3x−5=7 → x=4; 3x−5=−7 → x=−2/3.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_88",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "If two days after tomorrow is four days before Saturday, what day is it today?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Four days before Saturday is Tuesday.\n If 'two days after tomorrow' is Tuesday, then 'tomorrow' is Sunday.\n Therefore, 'today' is Sunday.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_89",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Fill in the blank: I ____ my friend last week.",
+      "options": [
+        "meet",
+        "met",
+        "meeting",
+        "meeted"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Past tense of meet is met.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_90",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Find the radius of a circle whose area is 64π.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "πr² = 64π → r²=64 → r=8.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_91",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Fill in the blank: Her ____ attitude won her many friends.",
+      "options": [
+        "hostile",
+        "amiable",
+        "rude",
+        "mean"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Amiable means friendly and pleasant.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_92",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The phrase to burn the midnight oil means:",
+      "options": [
+        "To go to sleep early",
+        "To work late into the night",
+        "To waste money",
+        "To take a break"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The idiom means to work hard, especially late at night.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_93",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": " Four friends in the sixth grade were sharing a pizza. They decided that the oldest friend would get the extra piece. Haawi is two months older than Geremew, who is three months younger than Nardos. Kemal is one month older than Geremew. Who should get the extra piece of pizza?",
+      "options": [
+        "Nardos",
+        "Geremew",
+        "Kemal",
+        "Hawi"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Nardos is the oldest among the four friends, so according to the agreement, she should get the extra piece of pizza.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_94",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "The editor, preferring a more ______ writing style, cut 500 words from the 2,000-word article.",
+      "options": [
+        "elegant",
+        "factual",
+        "descriptive",
+        "concise"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Cutting words suggests a preference for a 'concise' (brief but comprehensive) style.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_95",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": " Sara lives in Adama. Her younger cousin Martha lives in a small town in the eastern part of Ethiopia Martha has visited Sara several times during the past five Years. In the same period of time, Sara has visited Martha only once\n\nWhich of the following statements is a reasonable assumption or inference?",
+      "options": [
+        "Sara is older than Martha",
+        "Martha wants to move to another town",
+        "Martha likes Sara better than Sara likes Martha.",
+        "Sara thinks small towns are boring."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Given that Martha has visited Sara multiple times while Sara has visited Martha only once, a reasonable inference is that Sara, being older, may have more responsibilities or less flexibility to travel.\n\n Therefore, option A is the most logical assumption.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_96",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "ARCHITECT : BUILDING ::",
+      "options": [
+        "Law : Judge",
+        "Writer : Book",
+        "Sculptor : Hammer",
+        "Musician : Piano"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An ARCHITECT designs a BUILDING; a WRITER creates a BOOK (Creator : Product).",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_97",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Reading Comprehension\nInstruction: Read the following passage carefully and answer questions 19-22. Each question is based on the information in the passage. Then, blacken the letter of your choice on the separate answer sheet provided.\n\nReading Passage II\nPopulation, which means the total number of people living in a certain area, is a critical aspect of our world. However, this simple number has far-reaching effects on our world. It greatly influences our societies, economies, and environment. When population grows too rapidly, it can create problems like shortages of food, clean water, and housing. On the flip side, a declining population can lead to workforce shortages and economic difficulties.\nDuring a balance is essential.\n\nTo manage population growth, governments and communities implement various strategies. They promote family planning, educate people about birth control, and create job opportunities to reduce the pressure on resources. Education is a key tool here as it empowers individuals to make informed decisions about family size. In essence, understanding and managing population is crucial for ensuring a better quality of life for everyone and a sustainable future for our planet.\n(Source: slightly adapted from...)\n\n\n19) what does the word \"far-reaching\" mean according to the context of the passage?",
+      "options": [
+        "impacting economic development",
+        "going to faraway places",
+        "facilitating resource allocation",
+        "affecting certain areas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The passage states that the effects of population are 'far-reaching' because they influence 'societies, economies, and environment.' The subsequent discussion details problems like 'workforce shortages and economic difficulties.' Therefore, **impacting economic development** (A) is a key contextual meaning and the most specific relevant option provided in the choices.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_98",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Solve for x: 4^(x+1) = 64",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 1",
+        "x = 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "64 = 4³ → x+1 = 3 → x = 2.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_99",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": " PEN is to POET as NEDDLE is to:_______",
+      "options": [
+        "Sewing",
+        "Tailor",
+        "Thread",
+        "Button"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A pen is the tool used by a poet, similarly, a needle is the tool used by a tailor.\n\n Therefore, the correct analogy is tailor.",
+      "topic": "General Aptitude"
+    },
+    {
+      "id": "q_sat2015_nat_merged_melmeja_100",
+      "examId": "sat2015_nat_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Instruction: Read the following passage carefully and answer questions 11-14. Each question is based on the information in the passage. Then, Passage I:\n Air pollution, one of the most pressing environmental concerns, is posing significant risks to human health and the planet's well-being. It is characterized by the presence of pollutants in the air. It’s not just about breathing problems; it also harms the heart and makes life less enjoyable. Particulate matter, consisting of tiny particles suspended in the air, is a major contributor to air pollution. These particles can penetrate deep into the lungs, causing respiratory diseases and aggravating existing health conditions. Ground-level ozone, another common air pollutant, can lead to respiratory problems and the formation of smog. \n To combat air pollution, it is imperative to adopt sustainable practices and reduce dependence on fossil fuels. Governments play a crucial role in enforcing stringent emission standards for industries and promoting public transportation. Additionally, individuals can contribute by using energy-efficient appliances, carpooling, and planting trees to improve air quality. By collectively addressing the root causes of air pollution, we can create a healthier environment for current and future generations. Planting trees and participating in community clean-up efforts further contributes to the improvement of air quality at the local level. 11) Which one of the following is NOT an air pollutant?",
+      "options": [
+        "car pooling",
+        "particulate matter",
+        "smog",
+        "ground level Ozone"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Car pooling is not an air pollutant; it is a sustainable practice to reduce pollution. The other choices are actual pollutants mentioned in the passage.",
       "topic": "General Aptitude"
     }
   ]

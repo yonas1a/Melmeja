@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 11",
-  "description": "Grade 11 Mathematics National Exam & Practice 2014 featuring 2 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 20,
-  "totalQuestions": 2,
-  "passMarkPercent": 60,
+  "description": "Grade 11 Mathematics National Exam & Practice 2014 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -51,6 +51,1574 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "The original statement is $p \\to q$ ('If $2$ is a prime number, then $3$ is an odd number.').\\n1. **Determine the truth value of $p$ and $q$:** $p$ is True (2 is prime). $q$ is True (3 is odd). The statement $p \\to q$ (True $\\to$ True) is True.\\n2. **Find the contrapositive:** The contrapositive of $p \\to q$ is $\\neg q \\to \\neg p$.\\n3. **Determine the truth value of the contrapositive:** The contrapositive is logically equivalent to the original statement, so its truth value is the same as $p \\to q$, which is **True**.\\n$\\\\neg q$: $3$ is not an odd number (False).\\n$\\neg p$: $2$ is not a prime number (False).\\nContrapositive: $\\neg q \\to \\neg p$ (False $\\to$ False) is **True**.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_3",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "If a column is all zeros, determinant is:",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "Equal to trace"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Zero column gives determinant zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_4",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "If all values in a dataset are multiplied by a constant k, what happens to the variance?",
+      "options": [
+        "Variance is multiplied by k",
+        "Variance remains unchanged",
+        "Variance becomes zero",
+        "Variance is multiplied by k²"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Variance scales by the square of the constant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_5",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Find all values of x such that the determinant of the matrix A = [[x, 4,1, x]] equals zero, and explain what this implies about the system.",
+      "options": [
+        "x = ±2, matrix is singular",
+        "x = 2 only, matrix is invertible",
+        "x = -2 only, matrix is invertible",
+        "x = 0 only, matrix is singular"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ".",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_6",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "A particle moves from point A(1,2,3) to B(4,6,8). What is its displacement vector?",
+      "options": [
+        "(5,4,3)",
+        "(3,5,4)",
+        "(4,3,5)",
+        "(3,4,5)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Displacement = B - A = \n(4-1, 6-2, 8-3) = \n(3,4,5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_7",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "If a determinant has two equal columns, its value is:",
+      "options": [
+        "1",
+        "Depends on entries",
+        "0",
+        "Negative"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equal columns → linear dependence → zero determinant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_8",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[2, x,x, 2]]) and find when matrix is positive definite.",
+      "options": [
+        "4 - x², positive when |x| < 2",
+        "x² - 4, positive when |x| > 2",
+        "2x always positive",
+        "4 + x² always positive"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "det = 4 - x².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_9",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "If det(A) = -2, what is det(3A) for 2×2 matrix?",
+      "options": [
+        "-18",
+        "-6",
+        "-12",
+        "6"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "det(kA)=k^n det(A); here n=2 \n→ 3²×(-2) = -18.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_10",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "If a column is multiplied by k, determinant becomes:",
+      "options": [
+        "k² times original",
+        "k times original",
+        "unchanged",
+        "zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Column scaling multiplies determinant by k.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_11",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which measure divides a dataset into two equal halves?",
+      "options": [
+        "Mean",
+        "Mode",
+        "Median",
+        "Variance"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Median splits data into two equal parts.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_12",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[7, 0,0, 9]]) and explain why diagonal matrices are easy to evaluate.",
+      "options": [
+        "16",
+        "0",
+        "7",
+        "63"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Product of diagonal entries: 7×9=63.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_13",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "What is the median class in grouped data?",
+      "options": [
+        "Class with highest frequency",
+        "First class interval",
+        "Class containing the median value",
+        "Last class interval"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Median class contains the median position.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_14",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "If A = [[a,b,c,d]], determinant is:",
+      "options": [
+        "ab - cd",
+        "ac - bd",
+        "ad - bc",
+        "+ d"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Standard formula.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_15",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "A frequency distribution table has class intervals 10–20, 20–30, 30–40. What is the class width of each interval?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Class width = upper limit − lower limit = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_16",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "If A is 2×2, det(A)=ad-bc, where?",
+      "options": [
+        "A=[[a,c,b,d]]",
+        "A=[[d,c,b,a]]",
+        "A=[[a,b,c,d]]",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Standard determinant form.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_17",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "A transformation preserves orientation and distance. It must be:",
+      "options": [
+        "Reflection",
+        "Translation or rotation",
+        "Dilation",
+        "Shear"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Only translations and rotations preserve orientation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_18",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Find mean of grouped data: midpoints 10, 20, 30 with frequencies 1, 2, 3.",
+      "options": [
+        "23.33",
+        "20",
+        "22",
+        "25"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(10+40+90)/6 = 140/6 ≈ 23.33.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_19",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, why is the median considered more reliable than the mean for skewed distributions?",
+      "options": [
+        "Because median uses all data values",
+        "Because median is always larger than mean",
+        "Because median requires less computation",
+        "Because median is not affected by extreme values"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Median is resistant to outliers and skewness.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_20",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "If A is 3×3, maximum rank?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rank ≤ min(rows, columns).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_21",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "If A is a 3 x 3 matrix with det(A) = 5, then what is the determinant of 2A transpose (2A^T)?",
+      "options": [
+        "40",
+        "30",
+        "10",
+        "2/5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_22",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "Compute det([[3, 9,1, 3]]) and explain structure.",
+      "options": [
+        "3, independent rows",
+        "6, invertible",
+        "0, proportional rows",
+        "9, identity matrix"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rows proportional → determinant zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_23",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "What is the transpose of identity matrix?",
+      "options": [
+        "Identity matrix itself",
+        "Zero matrix",
+        "Scalar matrix",
+        "Inverse matrix"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Identity matrix remains unchanged after transpose.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_24",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "If the median and mean of a dataset are equal, what can be inferred about the distribution?",
+      "options": [
+        "It is highly skewed",
+        "It is approximately symmetric",
+        "It is categorical",
+        "It has no mode"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equality suggests symmetry in distribution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_25",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Find determinant of [[8, 3,2, 1]].",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "8×1 - 3×2 =\n 8 - 6 = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_26",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Which is NOT a type of data?",
+      "options": [
+        "Discrete data",
+        "Continuous data",
+        "Geometric data",
+        "Qualitative data"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Geometric data is not a statistical type.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_27",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Find mean of 5, 10, 15, 20, 25.",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sum 75 / 5 = 15.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_28",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Find det([[2, 3,4, 6]]) and interpret result.",
+      "options": [
+        "6, independent rows",
+        "0, dependent rows",
+        "2, invertible",
+        "3, identity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Rows proportional → determinant zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_29",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "A point (x,y) is mapped by T1: (x,y) → (-x,y), then T2: (x,y) → (y,x). What is the equivalent single transformation?",
+      "options": [
+        "(-y,x)",
+        "(x,-y)",
+        "(y,-x)",
+        "(-x,-y)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Compose reflection in y-axis then swap gives (y,-x), equivalent to 90° clockwise rotation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_30",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Find mode of 1, 2, 2, 3, 3, 3, 4.",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "3 occurs most often.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_31",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "If A is invertible, det(A) ≠?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "n"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Non-zero determinant required.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_32",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Find the median of 3, 7, 9, 12, 15, 18, 21.",
+      "options": [
+        "9",
+        "15",
+        "18",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Middle value is 12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_33",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Find det([[3, 1,5, 2]]) and classify transformation.",
+      "options": [
+        "0, collapse",
+        "2, rotation only",
+        "3, identity",
+        "1, area preserved scaling"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "3×2 - 1×5 =\n 6 - 5 = 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_34",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, class intervals must be:",
+      "options": [
+        "Overlapping",
+        "Random",
+        "Mutually exclusive and continuous",
+        "Unequal always"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Intervals must not overlap.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_35",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "If a row is multiplied by k in a 2×2 determinant, how does it affect the determinant?",
+      "options": [
+        "Multiplies by k",
+        "Multiplies by k²",
+        "No change",
+        "Becomes zero"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "One row scaling multiplies determinant by k.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_36",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "If two rows of a determinant are equal, the determinant is:",
+      "options": [
+        "1",
+        "Undefined",
+        "0",
+        "Equal to trace"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equal rows make determinant zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_37",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "If det(A)=0, what happens to system Ax=b?",
+      "options": [
+        "No unique solution",
+        "Always unique solution",
+        "Always zero solution",
+        "Infinite inverse exists"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Singular matrix implies no unique solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_38",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Find det([[3x, 2,x, 1]]) and determine when the matrix is singular.",
+      "options": [
+        "x = 3/2",
+        "x = 0",
+        "x = 2/3",
+        "x = 1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "det = 3x - 2x = x .",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_39",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Compute the determinant of A = [[4, 6,3, 8]] and determine whether the matrix represents a singular or non-singular transformation.",
+      "options": [
+        "det(A)=-14, singular",
+        "det(A)=10, non-singular",
+        "det(A)=0, singular",
+        "det(A)=14, non-singular"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "det=4×8 - 6×3 =\n 32 - 18 = 14 ≠ 0 so non-singular.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_40",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "What does a diagonal matrix contain outside the diagonal?",
+      "options": [
+        "Only ones",
+        "Only zeros",
+        "Random values",
+        "Equal values"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All non-diagonal elements are zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_41",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "A point P(2,5) is rotated 180° about the point (1,2). Find the image of P.",
+      "options": [
+        "(0,-1)",
+        "(-2,-5)",
+        "(1,-2)",
+        "(3,7)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Translate: (1,3) → rotate → (-1,-3) → translate back → (0,-1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_42",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "A frequency distribution has open-ended classes such as 'below 10' and 'above 50'. What is the major limitation when computing the mean of this distribution?",
+      "options": [
+        "Class midpoints cannot be determined for open-ended intervals",
+        "Frequencies cannot be used",
+        "Median cannot be found",
+        "Mode becomes undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Open-ended intervals lack boundaries, so midpoints (needed for mean) cannot be accurately computed.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_43",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "If det(A)=3 and det(B)=4, what is det(AB)?",
+      "options": [
+        "7",
+        "1",
+        "0",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "det(AB)=det(A)det(B)=12.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_44",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Solve the rational equation 1/(x - 1) + 1/(x + 1) = 1, carefully considering excluded values.",
+      "options": [
+        "x = 2 or x = -2",
+        "x = 1",
+        "x = -1",
+        "x = 0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Solve gives x = ±2, excluding ±1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_45",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "If a = (1,2,3) and b = (2,1,0), compute a · b.",
+      "options": [
+        "6",
+        "5",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "1×2 + 2×1 + 3×0 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_46",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a correct interpretation of cumulative frequency?",
+      "options": [
+        "Number of observations less than or equal to a given class boundary",
+        "Average of frequencies",
+        "Difference between highest and lowest frequency",
+        "Total number of classes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cumulative frequency counts running totals.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_47",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "In grouped data, what is the effect of increasing class width while keeping frequency constant?",
+      "options": [
+        "Mean increases automatically",
+        "Graph becomes smoother but less detailed",
+        "Median becomes undefined",
+        "Mode disappears"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Wider classes reduce detail in representation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_48",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Find range of x²+1.",
+      "options": [
+        "[0,∞)",
+        "(1,∞)",
+        "[1,∞)",
+        "All real"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Minimum is 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_49",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "If A is invertible, which is true?",
+      "options": [
+        "AA⁻¹ = I",
+        "+ A⁻¹ = I",
+        "A² = I",
+        "det(A)=0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Definition of inverse matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_50",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "If mean is 20 and all values are increased by 5, what is new mean?",
+      "options": [
+        "20",
+        "30",
+        "15",
+        "25"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mean increases by 5 → 25.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_51",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "If a = (0,0,1), b = (1,0,0), a × b equals:",
+      "options": [
+        "(1,1,0)",
+        "(0,0,0)",
+        "(1,0,1)",
+        "(0,1,0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "k × i = j.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_52",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Find holes of f(x) = (x² - 4)/(x - 2).",
+      "options": [
+        "x = 2",
+        "x = -2",
+        "x = 0",
+        "None"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cancel factor gives removable discontinuity.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_53",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "What does a steep ogive indicate about a dataset?",
+      "options": [
+        "Uniform distribution",
+        "No variation",
+        "Large concentration of values in a small interval",
+        "Symmetric distribution"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Steep slope indicates clustered data.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_54",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "In a dataset with grouped frequencies, why is interpolation used in finding the median?",
+      "options": [
+        "Because data is discrete only",
+        "Because exact values inside classes are unknown",
+        "Because mean cannot be calculated",
+        "Because classes overlap"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Grouped data hides exact values, requiring interpolation.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_55",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Find probability of getting at least one head in 3 coin tosses.",
+      "options": [
+        "1/2",
+        "3/8",
+        "5/8",
+        "7/8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "1 − (1/8) = 7/8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_56",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Find median class from cumulative frequencies 4, 10, 18, 25 (N=25).",
+      "options": [
+        "First class",
+        "Second class",
+        "Third class",
+        "Fourth class"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "N/2 = 12.5 lies in third class.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_57",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "If a · b = 0 and both are non-zero vectors, they are:",
+      "options": [
+        "Parallel",
+        "Collinear",
+        "Equal",
+        "Orthogonal"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Zero dot product means perpendicular vectors.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_58",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "If A is invertible, then det(A) is:",
+      "options": [
+        "Zero",
+        "Negative",
+        "Non-zero",
+        "Positive only"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Invertible matrices have non-zero determinant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_59",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "A dataset: 3, 6, 9, 12, 15. What is variance trend when each value is doubled?",
+      "options": [
+        "Variance becomes 4 times",
+        "Variance doubles",
+        "Variance unchanged",
+        "Variance halves"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Variance scales by square of constant → 2² = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_60",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "A student selects 3 books from 10. How many selections if two specific books must be included?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Fix 2 books → choose 1 from remaining 8 → 8 ways.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_61",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Find determinant of [[0,2,3,0]].",
+      "options": [
+        "6",
+        "0",
+        "3",
+        "-6"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "(0×0)-(2×3)= -6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_62",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Simplify (2/x) ÷ (4/x²).",
+      "options": [
+        "2/x",
+        "x^2/2",
+        "4/x",
+        "x/2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Multiply by reciprocal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_63",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Find median of 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Middle value = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_64",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Determine the domain of the function f(x) = √((x - 3)/(x + 1)) by solving the inequality inside the square root.",
+      "options": [
+        "x ≥ 3 or x < -1",
+        "-1 < x < 3",
+        "x > 3",
+        "x < -1"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Expression inside root must be ≥ 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_65",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "In binomial expansion of (x + y)⁴, how many terms are there?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Number of terms = n+1 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_66",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Find median of 11, 13, 15, 17, 19.",
+      "options": [
+        "15",
+        "13",
+        "17",
+        "19"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Middle value = 15.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_67",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If two vectors are parallel, cross product is:",
+      "options": [
+        "0",
+        "1",
+        "Maximum",
+        "Negative"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "sin0° = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_68",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is the middle term in expansion of (a + b)⁶?",
+      "options": [
+        "4th term",
+        "3rd term",
+        "5th term",
+        "2nd term"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Middle term = (n/2 + 1) = 4th term.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_69",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Find range of 1/x.",
+      "options": [
+        "y = 0",
+        "y ≠ 0",
+        "All real",
+        "y > 0"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Never equals zero.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_70",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A fair die is rolled three times in succession. What is the probability that exactly two of the outcomes are prime numbers, given that the prime numbers on the die are 2, 3, and 5?",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/8",
+        "1/6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Binomial probability: 3C2(3/6)²(3/6) =\n\n 3 × (1/2)³ =\n 3/8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_71",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which statement is always true?",
+      "options": [
+        "= A⁻¹ always",
+        "+ A = I",
+        "(Aᵀ)ᵀ = A",
+        "A² = 0 always"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Double transpose returns original matrix.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_72",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "If a dataset has a single value that appears most frequently, that value is called:",
+      "options": [
+        "Mean",
+        "Mode",
+        "Median",
+        "Range"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mode is the most frequent value.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_73",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "In the expansion of (2x − 3)^5, a student is asked to find the coefficient of x^3 and identify which term in the expansion contains it. What is the correct coefficient and term position?",
+      "options": [
+        "720, 4th term",
+        "-360, 2nd term",
+        "-720, 3rd term",
+        "180, 5th term"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using binomial theorem, T3 gives coefficient -720.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_74",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A square is rotated 90° about origin. What happens to its area?",
+      "options": [
+        "Area remains unchanged",
+        "Area doubles",
+        "Area becomes zero",
+        "Area decreases"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rotation preserves area.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_75",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Find domain of (x+2)/(x²-1).",
+      "options": [
+        "x > 1",
+        "x < -1",
+        "x ≠ ±1",
+        "All real"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Denominator zero restriction.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_76",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "How many ways can 5 students choose a leader?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "25"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Each student can be leader → 5 ways.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_77",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Cross product measures:",
+      "options": [
+        "Scalar projection",
+        "Perpendicular area effect",
+        "Magnitude only",
+        "Distance"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Represents area + perpendicular direction.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_78",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Find vertical asymptotes of f(x) = (x+1)/(x² - 1).",
+      "options": [
+        "x = 1",
+        "x = -1",
+        "x = 1, -1",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Denominator zero at ±1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_79",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "If vectors are parallel, their cross product is:",
+      "options": [
+        "1",
+        "Maximum",
+        "Negative",
+        "0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "sin0° = 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_80",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "A triangle with vertices A(1,2), B(3,4), C(5,6) is translated by vector (-2, 3). What is the image of the centroid?",
+      "options": [
+        "(2, 5)",
+        "(3, 4)",
+        "(1, 3)",
+        "(0, 0)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_81",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Simplify (x²-9)/(x²+6x+9).",
+      "options": [
+        "(x+3)/(x-3)",
+        "1",
+        "x",
+        "(x-3)/(x+3)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Factor both.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_82",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "If A is square, det(A²) =?",
+      "options": [
+        "(det A)²",
+        "det A",
+        "2det A",
+        "0"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Property of determinant.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_83",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "If two identical rows exist in a matrix, the determinant is:",
+      "options": [
+        "1",
+        "Depends on values",
+        "Negative",
+        "0"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Identical rows imply linear dependence.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_84",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Find (g ∘ f)(x) if f(x)=x² and g(x)=x+1.",
+      "options": [
+        "x² + 1",
+        "x² - 1",
+        "(x+1)²",
+        "x+2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "g(f(x)) = \nx² + 1.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_85",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "How many ways can 2 people be selected from 5?",
+      "options": [
+        "20",
+        "10",
+        "5",
+        "15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "5C2 = 10.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_86",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "If a = (3,4,0), b = (4,-3,0), dot product is:",
+      "options": [
+        "25",
+        "0",
+        "7",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3×4 + 4×(-3)=12-12=0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_87",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "A point (3, -6) is reflected in y = -x. What is the image?",
+      "options": [
+        "(-6, 3)",
+        "(6, -3)",
+        "(3, 6)",
+        "(-3, -6)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Rule: (x, y) → (-y, -x).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_88",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Find horizontal asymptote of f(x) = (4x²+ 1)/(x² + 3).",
+      "options": [
+        "y = 1/4",
+        "y = 4",
+        "y = 0",
+        "None"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Equal degree → ratio of leading coefficients.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_89",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A box has 4 white and 6 black balls. Probability of black ball is:",
+      "options": [
+        "3/5",
+        "2/5",
+        "1/2",
+        "6/10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "6/10 = 3/5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_90",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "If projection of a on b equals a, then:",
+      "options": [
+        "Perpendicular",
+        "Opposite",
+        "Vectors are parallel",
+        "Zero"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "a lies fully along b.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_91",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "How many ways can a president and vice president be selected from 6 students?",
+      "options": [
+        "30",
+        "15",
+        "36",
+        "12"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Order matters: 6P2 = 30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_92",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "If f(x) = ln(x - 1), find its domain.",
+      "options": [
+        "(1, ∞)",
+        "(0, ∞)",
+        "(-∞, 1)",
+        "(−∞, ∞)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Argument must be positive: x - 1 > 0.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_93",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Find (g∘f)(x) if f(x)=x-2, g(x)=x².",
+      "options": [
+        "x²-2",
+        "(x-2)²",
+        "x²-4",
+        "x²+2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Square after subtracting 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_94",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "What is the image of (0, -3) after reflection in x-axis?",
+      "options": [
+        "(0, 3)",
+        "(0, -3)",
+        "(3, 0)",
+        "(-3, 0)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "y changes sign.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_95",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "What type of matrix has only one row?",
+      "options": [
+        "Row matrix",
+        "Column matrix",
+        "Square matrix",
+        "Diagonal matrix"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A row matrix has exactly one row.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_96",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The following data represents the ages of students grouped into intervals. What is the meaning of frequency in this context?",
+      "options": [
+        "Average age of students",
+        "Difference between highest and lowest age",
+        "Number of students in each age group",
+        "Total sum of ages"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Frequency is the number of observations in each class.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_97",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Which measure of central tendency is most appropriate for qualitative data such as blood groups?",
+      "options": [
+        "Mean",
+        "Median",
+        "Standard deviation",
+        "Mode"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Mode is used for categorical data.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_98",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "A bag contains 5 red balls, 4 blue balls, and 3 green balls. Two balls are drawn at random without replacement. What is the probability that both balls drawn are of different colors?",
+      "options": [
+        "1/2",
+        "2/3",
+        "47/66",
+        "5/11"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Compute total pairs and subtract same-color pairs → probability = 47/66.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_99",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality (x - 2)/(x + 5) ≥ 0 and express the solution set in interval notation.",
+      "options": [
+        "-5 < x < 2",
+        "x > -5",
+        "x ≥ 2 or x < -5",
+        "x < 2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Expression positive when numerator and denominator have same sign; include zero at x=2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2014_socialg11u4_melmeja_100",
+      "examId": "m2014_socialg11u4_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "If A = [[1,2,2,4]], rank of A?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Undefined"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rows are linearly dependent.",
       "topic": "Mathematics"
     }
   ]

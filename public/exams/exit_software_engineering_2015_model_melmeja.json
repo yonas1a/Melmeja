@@ -1,0 +1,1625 @@
+{
+  "id": "exit_software_engineering_2015_model_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Software Engineering (2015)",
+  "category": "EXIT",
+  "subCategory": "Software Engineering",
+  "department": "Software Engineering",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Software Engineering (2015). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Software Engineering",
+    "2015",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2015",
+  "questions": [
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_1",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "_____ is type of software architecture in which subsystems can act both as a client or as servers that each subsystem can request and provide services.",
+      "options": [
+        "Pipe and Filter Architecture",
+        "Client/ Server Architecture",
+        "Central Repository Architecture",
+        "Peer to Peer Architecture"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The correct answer is 'Pipe and Filter Architecture' because it allows subsystems to act as both clients and servers, facilitating service requests and provision.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_2",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "What kind of linked list is best to answer question like “What is the item at position n?”",
+      "options": [
+        "Array implementation of linked list",
+        "Singly linked list",
+        "Doubly linked list",
+        "Circular linked list"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The 'Array implementation of linked list' is best for accessing elements at specific positions due to its direct indexing capability.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_3",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which of the following sorting compares adjacent elements in a list and switches whenever necessary?",
+      "options": [
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Bubble sort is characterized by comparing adjacent elements and swapping them if they are in the wrong order, making it a simple sorting algorithm.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_4",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which of the following data structures is best suited for implementing a hash table?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Linked list",
+        "Array"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An 'Array' is best suited for implementing a hash table because it allows for efficient indexing and storage of key-value pairs.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_5",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "In database state update operation, INSERT operation may violate________ constraints.",
+      "options": [
+        "Domain constraint",
+        "Key constraint",
+        "Entity integrity constraint",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "INSERT operations can violate all types of constraints - domain constraints (if value doesn't match data type), key constraints (if primary key is violated), and entity integrity constraints (if required fields are missing).",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_6",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of responsive web design?",
+      "options": [
+        "To improve search engine optimization",
+        "To enhance user experience across different devices",
+        "To prevent cross-site scripting attacks",
+        "To optimize website performance"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Responsive web design aims to enhance user experience by ensuring that web pages render well on a variety of devices and window or screen sizes.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_7",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is Not an example of embedded software product?",
+      "options": [
+        "Keypad control of a security system",
+        "Digital function of dashboard display in a car",
+        "Pattern recognition",
+        "Fire alarm System"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Pattern recognition is not typically considered an embedded software product, as it often involves more complex algorithms and processing capabilities.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_8",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not the output of the resource estimation process in project time management?",
+      "options": [
+        "Activity cost estimates",
+        "Resource breakdown structure",
+        "Activity resource requirements",
+        "Project documents updates"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Activity cost estimates are not an output of the resource estimation process; they are typically part of the budgeting process.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_9",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following tool is commonly used in almost all project KA management processes?",
+      "options": [
+        "Expert judgment",
+        "Project management information systems",
+        "Brainstorming",
+        "Management meeting"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Expert judgment is a widely used tool in project management, providing insights based on experience and knowledge.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_10",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "For registration use case in the User Name field the system accepts 8 to 15 alpha characters. Using BVA technique ________ will be the possible input values for the test case.",
+      "options": [
+        "8,9,15,16",
+        "7,8,14,15",
+        "8,9,10,15,16,17",
+        "7,8,9,14,15,16"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using Boundary Value Analysis (BVA), the possible input values include the boundaries and just outside the boundaries: 7, 8, 9, 14, 15, 16.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_11",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which web development technology is used for creating dynamic and interactive web pages?",
+      "options": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "JavaScript is the primary technology used for creating dynamic and interactive web pages, allowing for client-side scripting.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_12",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which HTML element is used to display an image?",
+      "options": [
+        "<image>",
+        "<img>",
+        "<picture>",
+        "<figure>"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The <img> tag is used in HTML to embed images in a web page, allowing for the display of visual content.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_13",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "_____ is software design describing how the software elements, hardware elements, and end-users communicate with one another.",
+      "options": [
+        "Architectural Design",
+        "Component level Design",
+        "Interface Design",
+        "Detailed Design"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Interface Design focuses on the interactions between software components, hardware, and users, ensuring effective communication.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_14",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "How is time complexity measured?",
+      "options": [
+        "By counting number of operations on a given input size",
+        "By counting the input data size",
+        "By counting the number of algorithm",
+        "All of the above mentioned"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Time complexity is primarily measured by counting the number of operations required as a function of the input size, which helps in analyzing algorithm efficiency.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_15",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following best defines Artificial Intelligence (AI)?",
+      "options": [
+        "AI is a field of study that aims to solve repetitive tasks.",
+        "AI is a field of study that aims to make humans more intelligent.",
+        "AI is a field of study that aims to make intelligent machines and systems.",
+        "AI is a field of study that aims to enhance machine performance."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "AI is defined as the study of creating systems that can perform tasks that typically require human intelligence, such as understanding natural language and recognizing patterns.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_16",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "In a graph of n nodes and n edges, how many cycles will be present?",
+      "options": [
+        "At most 1",
+        "At most 2",
+        "Depends on the graph",
+        "Exactly 1"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The number of cycles in a graph with n nodes and n edges depends on the graph's structure. A graph could have multiple cycles or just one, depending on how the edges are connected.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_17",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "Requirement approval and customer sign-off must be conducted before the project starts, this type of relationship is?",
+      "options": [
+        "External dependency",
+        "Discretional dependency",
+        "Mandatory dependency",
+        "All"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is a 'Mandatory dependency' because it is essential for the project to proceed, ensuring that requirements are agreed upon before development begins.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_18",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a basic data type in C++?",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "decimal"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In C++, 'decimal' is not a basic data type; the basic types include int, float, and char.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_19",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Routers and core switch can be used for delivering routing services. According to the OSI reference model to which layer do you categorize this network devices?",
+      "options": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Routers operate at the Network Layer of the OSI model, facilitating data routing between different networks.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_20",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a good practice during requirement change management process?",
+      "options": [
+        "Communicate changes only for requirement designer, because next step is software design",
+        "Remove inconsistent requirements from a system",
+        "Documenting and Tracking changes to requirement",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Documenting and tracking changes is crucial in requirement change management to maintain clarity and ensure all stakeholders are informed.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_21",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "_____________ states primary key value must not be null value.",
+      "options": [
+        "Entity integrity",
+        "Domain integrity",
+        "Unique",
+        "All"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Entity integrity ensures that the primary key in a database must always have a value, preventing null entries.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_22",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "What is the maximum number of return values that can be returned from a C++ function?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Unlimited"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A C++ function can return only one value directly; however, multiple values can be returned using pointers or references.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_23",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "In which HTML element, we put the JavaScript code?",
+      "options": [
+        "<javascript>...<javascript>",
+        "<js>...<js>",
+        "<script>...<script>",
+        "<css>...<css>"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The <script> tag is used to include JavaScript code in an HTML document, allowing for dynamic content.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_24",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Which of the following are not the concerns of AI that confront society?",
+      "options": [
+        "Inequality",
+        "Bias",
+        "Security and privacy",
+        "None of these"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All listed options are concerns of AI; thus, 'None of these' is the correct answer.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_25",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "What is a common method for preventing buffer overflow vulnerabilities in software?",
+      "options": [
+        "Implementing proper input validation",
+        "Allowing unlimited input",
+        "Using weak encryption",
+        "Ignoring security patches"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Implementing proper input validation is essential to prevent buffer overflow vulnerabilities by ensuring that inputs are within expected limits.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_26",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "In case of a large search space, which search strategy would be preferred?",
+      "options": [
+        "Adversarial search",
+        "Informed search",
+        "Uninformed search",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Informed search strategies use heuristics to guide the search process, making them more efficient in large search spaces.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_27",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Which of the following data structures is best suited for implementing a priority queue?",
+      "options": [
+        "Heap",
+        "Array",
+        "Stack",
+        "Linked list"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A Heap is the most efficient data structure for implementing a priority queue, allowing for quick access to the highest (or lowest) priority element.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_28",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Among the event handling mechanisms in android, which option is better to handle more complex kinds of events?",
+      "options": [
+        "Using the xml onclick attribute",
+        "Using event listener interfaces",
+        "Using the java onclick listener",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using event listener interfaces provides a more flexible and powerful way to handle complex events in Android applications.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_29",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "Which of the following can be a multivalued attribute?",
+      "options": [
+        "Phone-number",
+        "Name",
+        "Date-of-birth",
+        "Age"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A Phone-number can be a multivalued attribute as a person may have multiple phone numbers.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_30",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a C++ operator used for multiplication?",
+      "options": [
+        "*",
+        ".",
+        "/",
+        "+"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The '*' operator is used in C++ for multiplication operations.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_31",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "The structural evolutionary prototyping model of software development process is",
+      "options": [
+        "The best approach to use for projects with large development teams",
+        "It is not important for creating awareness of additional needed functionality",
+        "reasonable approach when requirement is well defined",
+        "useful approach when a customer cannot define requirements clearly"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The structural evolutionary prototyping model is particularly useful when customers have difficulty defining their requirements clearly, allowing for iterative development.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_32",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Among the following, one is the scope of product development life cycle (PDLC)?",
+      "options": [
+        "Project resource",
+        "Cost",
+        "Schedule",
+        "System design"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "System design is a critical aspect of the product development life cycle, focusing on how the system will be structured and function.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_33",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statement is false about round robin scheduling algorithm?",
+      "options": [
+        "Characterized by using quantum number for the scheduling",
+        "Characterized by its non-preemptive nature.",
+        "Have higher Context switch overhead.",
+        "It's the fairest algorithm and most widely used algorithm."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The statement about round robin scheduling being non-preemptive is false; it is actually a preemptive scheduling algorithm.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_34",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "In a system using virtual memory, the physical memory is divided into ________ and the virtual address space is divided into equally-sized partitions called_______.",
+      "options": [
+        "Pages, Page frames",
+        "Page frames, pages",
+        "Segment, page",
+        "Page, Segment"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In virtual memory systems, physical memory is divided into 'Page frames' while the virtual address space is divided into 'pages'.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_35",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which one of the followings is/are Incorrect about first normal forms?",
+      "options": [
+        "It is used to disallow the multivalued attributes",
+        "Composite attributes cannot be used in 1NF",
+        "Relations can be created in a relation",
+        "The only attribute values allowed are atomic values"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The statement 'Relations can be created in a relation' is incorrect as first normal form (1NF) requires that all attributes contain only atomic values.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_36",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "What is the role of back-end technology in web development?",
+      "options": [
+        "To handle client-side operations and user interactions",
+        "To implement the visual design of a website",
+        "To ensure compatibility across different web browsers",
+        "To manage server-side operations and database interactions"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Back-end technology is responsible for managing server-side operations, including database interactions and application logic.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_37",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which class does the IP address 172.16 1.20 belongs to?",
+      "options": [
+        "Class C",
+        "Class D",
+        "Class A",
+        "Class B"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The IP address 172.16.1.20 belongs to Class B, which is characterized by a default subnet mask of 255.255.0.0.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_38",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "Alpha testing is:",
+      "options": [
+        "Post-release testing by end user representatives at the developer's site",
+        "Post-release testing by testing team at the developer's site",
+        "Pre-release testing by end user representatives at their sites",
+        "Pre-release testing by testing team at the developer's site"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Alpha testing is conducted by the testing team at the developer's site before the software is released to end users.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_39",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "A started service will in a running state when one of the following service life cycle method is invoked",
+      "options": [
+        "onStartCommand()",
+        "onBind()",
+        "startService()",
+        "bindService()"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The method 'onStartCommand()' is invoked to start a service and put it into a running state in Android.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_40",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is Not True?",
+      "options": [
+        "Coupling is the level of inter-dependability among modules.",
+        "Cohesive module focuses on a single function.",
+        "If two modules are tightly coupled, one can function completely without the presence of other.",
+        "Abstraction is the process of creating a detailed design specification for each component of a system."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The statement is false; tightly coupled modules cannot function independently, as they rely on each other.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_41",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements is Not correct?",
+      "options": [
+        "test set that achieves 100% branch coverage will also achieve 100% statement coverage.",
+        "minimal test set that achieves 100% branch coverage will generally detect more faults than one that achieves 100% statement coverage.",
+        "minimal test set that achieves 100% statement coverage will generally detect more faults than one that achieves 100% branch coverage.",
+        "None"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The statement is incorrect; achieving 100% statement coverage does not guarantee that all branches have been tested.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_42",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of threat modeling in software security?",
+      "options": [
+        "To identify potential threats and vulnerabilities in software",
+        "To test the functionality of the software",
+        "To validate the software against industry standards",
+        "To document the software for future reference"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Threat modeling is a proactive approach to identify and mitigate potential security threats and vulnerabilities in software.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_43",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "For some relations, changing the data can have undesirable consequences called",
+      "options": [
+        "Referential integrity constraints",
+        "Modification anomalies",
+        "Normal forms",
+        "Transitive dependencies"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Modification anomalies occur when changes to data lead to inconsistencies or unintended consequences in a database.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_44",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "The ___________ operation, allows us to find tuples that are in one relation but are not in another.",
+      "options": [
+        "Union",
+        "Set-difference",
+        "Difference",
+        "Intersection"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The 'Set-difference' operation retrieves tuples that exist in one relation but not in another, effectively filtering out common entries.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_45",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "What is a typical threat to software security?",
+      "options": [
+        "User  error",
+        "Hardware failure",
+        "Power outage",
+        "Malware"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Malware is a significant threat to software security, as it can compromise systems, steal data, and disrupt operations.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_46",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "What does the following relational algebra expression do? σ amount > 1200 (Loan)",
+      "options": [
+        "Finds all the tuples in Loan",
+        "Retrieve the amount attribute in Loan where the amount is greater than 1200",
+        "Finds all the tuples in Loan where the amount is greater than 1200",
+        "All are answer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The expression σ amount > 1200 (Loan) selects all tuples from the Loan relation where the amount exceeds 1200.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_47",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "Variables defined inside methods, constructors or blocks are called _____.",
+      "options": [
+        "Local variables",
+        "Instance variables",
+        "Class variables",
+        "All"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Local variables are defined within methods or blocks and are only accessible within that scope.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_48",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "____________ is a process in which an overridden method is called through the reference variable of super class.",
+      "options": [
+        "Method overloading",
+        "Method overriding",
+        "Inheritance",
+        "Applet"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_49",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of the << operator in C++?",
+      "options": [
+        "To input data from the keyboard",
+        "To output data to the console",
+        "To perform a logical AND operation",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The << operator is used in C++ for outputting data to the console, commonly used with streams.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_50",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "________ is a description of a kind of object.",
+      "options": [
+        "Class",
+        "String",
+        "Inheritance",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A Class in programming is a blueprint for creating objects, defining their properties and behaviors.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_51",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Open System Interconnection model is an example of________ architecture.",
+      "options": [
+        "MVC",
+        "Pipe and filter",
+        "Layered",
+        "Client-server"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The OSI model is a layered architecture that standardizes the functions of a telecommunication or computing system.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_52",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Which protocol is commonly used in the client-server architecture for web-based applications?",
+      "options": [
+        "Simple Mail Transfer Protocol (SMTP)",
+        "Hyper Text Transfer Protocol (HTTP)",
+        "File Transfer Protocol (FTP)",
+        "Network News Transfer Protocol (NNTP)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "HTTP is the foundational protocol used for transmitting data over the web, enabling communication between clients and servers.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_53",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Which of the following cable can be used to interconnect two computers for formulating peer to peer network?",
+      "options": [
+        "Straight through cable",
+        "Console cable",
+        "Coaxial cable",
+        "Cross over cable"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A Cross over cable is used to connect two computers directly, allowing for peer-to-peer networking.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_54",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is used to execute a specific block of code based on the value of a variable or expression in C++?",
+      "options": [
+        "if statement",
+        "switch statement",
+        "else statement",
+        "for loop"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The switch statement allows for executing different blocks of code based on the value of a variable, providing a cleaner alternative to multiple if statements.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_55",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an example of stakeholder in requirement engineering?",
+      "options": [
+        "software Developer",
+        "project Manager",
+        "An end user of system",
+        "All"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All listed options are stakeholders in requirement engineering, as they all have a vested interest in the project's outcome.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_56",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a type of loop in C++?",
+      "options": [
+        "while loop",
+        "for loop",
+        "repeat loop",
+        "do-while loop"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The 'repeat loop' is not a recognized loop type in C++; the valid types are while, for, and do-while loops.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_57",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "Which design pattern is commonly used in the client-server architecture to decouple the client application from server-specific implementation details?",
+      "options": [
+        "Factory Method Pattern",
+        "Decorator Pattern",
+        "Adapter Pattern",
+        "Facade Pattern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Adapter Pattern is used to allow incompatible interfaces to work together, decoupling the client from the server's implementation.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_58",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "The part of operating system that is responsible for managing the memory hierarchy in computer system is called _____________.",
+      "options": [
+        "Memory Management Unit",
+        "Memory Manager",
+        "Translation Look aside Buffer",
+        "Memory abstraction unit"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Memory Manager is responsible for handling memory allocation and deallocation, ensuring efficient use of memory resources.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_59",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "The android.graphics package has support for",
+      "options": [
+        "Canvas",
+        "Bitmap",
+        "Paints",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The android.graphics package provides classes for drawing and manipulating graphics, including Canvas, Bitmap, and Paint.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_60",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Which component in the Model-View-Controller (MVC) architectural pattern is responsible for interacting with the data source?",
+      "options": [
+        "Model",
+        "View",
+        "Controller",
+        "Middleware"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The Model component in MVC is responsible for managing the data and business logic, interacting with the data source.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_61",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "If a class has multiple methods having the same name but different parameters, it is called ______________.",
+      "options": [
+        "Inheritance",
+        "Applet",
+        "Method overriding",
+        "Method overloading"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Method overloading allows a class to have multiple methods with the same name but different parameter lists, enhancing flexibility.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_62",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A diagramming analysis technique used to select the best course of action when future outcomes are uncertain is?",
+      "options": [
+        "Impact matrix",
+        "Critical chain scheduling",
+        "Decision tree",
+        "Gant chart"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A Decision tree is a visual representation of decisions and their possible consequences, helping to analyze potential outcomes.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_63",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "As ______________________ operating system is responsible for allocating resources to the various applications so that access to the resources is synchronized and operations are correct and consistent.",
+      "options": [
+        "An extended machine",
+        "resource manager",
+        "virtual Machine",
+        "multiplexer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A resource manager in an operating system allocates resources to applications, ensuring synchronized access and correct operations.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_64",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is limitations of the manual approach?",
+      "options": [
+        "Data dependency on the application",
+        "Lengthy development and maintenance time",
+        "Duplication or redundancy of data",
+        "All"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The manual approach has several limitations, including data dependency, lengthy development times, and data redundancy.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_65",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "An entity that does not have a key attribute and that is identification-dependent on another entity type:",
+      "options": [
+        "Entity type",
+        "Weak entity type",
+        "Relationship type",
+        "Relation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A Weak entity type is one that cannot be uniquely identified by its own attributes alone and relies on a related entity.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_66",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which design pattern is used to provide a way of handling a request by passing it through a series of handlers until it is handled or rejected?",
+      "options": [
+        "Bridge Pattern",
+        "Chain of Responsibility Pattern",
+        "Command Pattern",
+        "Builder Pattern"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Chain of Responsibility Pattern allows multiple handlers to process a request, passing it along the chain until one handles it.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_67",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "The main concern of performance quality attributes is_____.",
+      "options": [
+        "Fault recovery",
+        "Latency",
+        "Resource management",
+        "Reducing coupling"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Latency is a critical performance quality attribute, referring to the delay before a transfer of data begins following an instruction.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_68",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a type of function that is expanded in place at the point of call in C++?",
+      "options": [
+        "Static function",
+        "Inline function",
+        "Virtual function",
+        "External function"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An Inline function is expanded in place at the point of call, which can improve performance by eliminating function call overhead.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_69",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an example of a back-end technology?",
+      "options": [
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Bootstrap"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "PHP is a server-side scripting language used for back-end development, allowing for dynamic content generation and database interaction.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_70",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "During a software testing process, what happened if an expected result is not specified?",
+      "options": [
+        "It may be difficult to run the test",
+        "It may be difficult to determine if the test has passed or failed",
+        "We cannot automate the user input values",
+        "We cannot determine the actual result"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Without an expected result, it becomes challenging to assess the outcome of a test, making it hard to determine if the test has passed or failed.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_71",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is true?",
+      "options": [
+        "Manual testing uses automation tools to execute test cases.",
+        "No need for programming skills in automation testing.",
+        "Manual testing is suitable for exploratory testing",
+        "The initial investment in Automation testing is lower than in manual testing."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Manual testing is indeed suitable for exploratory testing, where testers actively explore the application to identify issues.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_72",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "_____________ states primary key value must not be null value.",
+      "options": [
+        "Entity integrity",
+        "Domain integrity",
+        "Unique",
+        "All"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Entity integrity ensures that every primary key in a database must have a value, preventing null entries.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_73",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "The TCP port number 23 describes about the _________.",
+      "options": [
+        "Transmission of file from one client to the other one at the presence of FTP service",
+        "Hyper Text Transfer Protocol service",
+        "The mailing service delivered by using the SMTP",
+        "Remote login capability which can be achieved by using the telnet"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "TCP port number 23 is associated with Telnet, which provides remote login capabilities to networked devices.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_74",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Unsupervised learning methods can be used in which one of the following scenarios?",
+      "options": [
+        "Given a set of news articles found on the web, group them into a set of articles about the same story.",
+        "Given a dataset of reviews of Netflix movie series marked as positive, negative and neutral, classify reviews of a new Netflix movie series.",
+        "Given a dataset of emails labeled as spam or not spam, and classify new incoming emails to their right classes.",
+        "Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Unsupervised learning is suitable for grouping data without predefined labels, such as clustering news articles based on content.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_75",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Among the reasons that lead to deadlock in operating system which one is used to be solution for the inter process communication problem?",
+      "options": [
+        "Hold and Wait Condition",
+        "Mutual exclusion",
+        "No preemption",
+        "Circular wait"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Mutual exclusion is a condition that can lead to deadlock; however, it is also a necessary condition for resource allocation in many systems.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_76",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "The TCP/IP Host to Host network layer corresponds to the ___________ layer of the OSI reference model.",
+      "options": [
+        "Physical",
+        "Physical and Data Link",
+        "Network",
+        "Transport"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Transport layer in the OSI model corresponds to the Host to Host layer in the TCP/IP model, responsible for end-to-end communication.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_77",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Identify the slowest sorting technique among the following?",
+      "options": [
+        "Merge sort",
+        "Selection sort",
+        "Quick sort",
+        "Bubble sort"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Bubble sort is generally considered the slowest sorting algorithm due to its O(n^2) time complexity, making it inefficient for large datasets.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_78",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "What is the primary goal of software security?",
+      "options": [
+        "To make software faster",
+        "To make software more user-friendly",
+        "To prevent unauthorized access and protect against attacks",
+        "To make software cheaper"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The primary goal of software security is to prevent unauthorized access and protect systems from attacks, ensuring data integrity and confidentiality.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_79",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not true about an intelligent agent?",
+      "options": [
+        "The intelligent agent needs user input for solving any problem.",
+        "The intelligent agent can be an autonomous entity.",
+        "The intelligent agent is the rational agent.",
+        "The intelligent agents can solve a problem on its own without any human intervention."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "An intelligent agent can operate autonomously and solve problems without user input, making the first statement incorrect.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_80",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of a security policy?",
+      "options": [
+        "To prevent all security breaches from occurring",
+        "To provide guidance on how to protect information assets",
+        "To guarantee complete security of all information assets",
+        "To restrict access to all information assets"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A security policy provides a framework for protecting information assets by outlining procedures and guidelines for security practices.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_81",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Suppose you have a function that takes in a list of integers and returns the maximum value in the list. The function also prints a message to the console with the maximum value. How many test cases do you need to achieve 100% statement coverage?",
+      "options": [
+        "at least two test cases",
+        "1",
+        "at least three test cases",
+        "Maximum of 3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "To achieve 100% statement coverage, at least two test cases are needed: one for a list with multiple integers and one for an empty list.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_82",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not the application of data structure?",
+      "options": [
+        "Numerical analysis",
+        "Operating system",
+        "Compiler design",
+        "None of the above mentioned"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All listed options are applications of data structures; hence, 'None of the above mentioned' is the correct answer.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_83",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "When the switch statement matches the expression with the given labels, how is the comparison done?",
+      "options": [
+        "Both the datatype and the result of the expression are compared.",
+        "Only the datatype of the expression is compared",
+        "Only the value of the expression is compared",
+        "None of the above"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In a switch statement, both the datatype and the value of the expression are compared to the case labels to determine which block of code to execute.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_84",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not an application of AI?",
+      "options": [
+        "Computer Vision",
+        "Expert System",
+        "Database Management System",
+        "Natural Language Processing"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Database Management Systems are not considered applications of AI; they are systems for managing data, while the other options involve AI techniques.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_85",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Which design principle suggests that software should be designed in such a way that the different components can be easily changed without affecting other components?",
+      "options": [
+        "Abstraction",
+        "Low coupling",
+        "Separation of concerns",
+        "High cohesion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Low coupling is a design principle that promotes minimal dependencies between components, allowing for easier changes and maintenance.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_86",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a Not a characteristic of good design?",
+      "options": [
+        "Software engineer must design the modules with the goal of high cohesion and low coupling",
+        "software engineer must design the modules with the goal of low cohesion and high coupling",
+        "design must implement all explicit requirements from the analysis model and accommodate all implicit requirements desired by the user",
+        "good design should be modular"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Designing modules with low cohesion and high coupling is not a characteristic of good design; good design aims for high cohesion and low coupling.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_87",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Among the following which one is not reasons for introducing the concepts of EER model?",
+      "options": [
+        "It avoids describing similar concepts more than once.",
+        "It adds more semantic information to the design.",
+        "Handle complex systems",
+        "None"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All listed reasons are valid for introducing EER models; thus, 'None' is the correct answer.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_88",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "One of the following is not true about project risk management, which one is it?",
+      "options": [
+        "Positive risks are known as threats",
+        "Risk management can have positive impact on selecting projects",
+        "Risk management can often result in significant improvements in the ultimate success of projects",
+        "All"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Positive risks are not threats; they represent opportunities that can benefit the project if managed correctly.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_89",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "The string _______ method compares values lexicographically and returns an integer value.",
+      "options": [
+        "compareTo()",
+        "==",
+        "Equals()",
+        "All"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The compareTo() method in Java compares two strings lexicographically and returns an integer indicating their relative order.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_90",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is time multiplexed resource?",
+      "options": [
+        "Memory",
+        "CPU",
+        "Network",
+        "Compact Disk"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The CPU is a time-multiplexed resource, allowing multiple processes to share the CPU by rapidly switching between them.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_91",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which one of the followings is/are Incorrect about first normal forms?",
+      "options": [
+        "It is used to disallow the multivalued attributes",
+        "Composite attributes cannot be used in 1NF",
+        "Relations can be created in a relation",
+        "The only attribute values allowed are atomic values"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The statement 'Relations can be created in a relation' is incorrect as first normal form (1NF) requires that all attributes contain only atomic values.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_92",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is Not categorized under Product Operation of McCall's Software Quality Factors?",
+      "options": [
+        "Efficiency",
+        "Reliability",
+        "Reusability",
+        "Integrity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Reusability is not categorized under Product Operation in McCall's Software Quality Factors; it focuses on how well software can be reused in different contexts.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_93",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "In android studio, the file which contains list of application permissions and configuration is",
+      "options": [
+        "Layout",
+        "strings",
+        "android manifest",
+        "Gradle"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The android manifest file contains essential information about the application, including permissions and configuration settings.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_94",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "In android studio file structure, the file which is used to register minSdk, targetSdk and app dependencies is",
+      "options": [
+        "Settings.gradle",
+        "Build.gradle",
+        "Strings",
+        "Android manifest"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Build.gradle file is used to specify the minimum SDK version, target SDK version, and dependencies for the Android application.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_95",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of vulnerability scanning in software security?",
+      "options": [
+        "To identify potential vulnerabilities in software",
+        "To test the functionality of the software",
+        "To validate the software against industry standards",
+        "To document the software for future reference"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vulnerability scanning is conducted to identify potential security weaknesses in software, allowing for proactive remediation.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_96",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "With use of extends keyword the subclasses will be able to inherit all the properties of the super class except _____.",
+      "options": [
+        "Private",
+        "Protected",
+        "Public",
+        "Default"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Subclasses inherit all properties of the superclass except for private members, which are not accessible outside the superclass.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_97",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "The model which would use the divide and conquer approach is _____________.",
+      "options": [
+        "Evolutionary Development Model",
+        "Waterfall Model",
+        "Incremental Development Model",
+        "Prototyping"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The Incremental Development Model uses a divide and conquer approach by breaking down the project into smaller, manageable increments.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_98",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Which of the following network topology is referenced as an active network topology?",
+      "options": [
+        "Bus Topology",
+        "Star Topology",
+        "Mesh Topology",
+        "Ring Topology"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Ring Topology is considered an active topology because each device is connected in a circular fashion, and data travels in one direction, requiring active devices to manage the data flow.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_99",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "An android component which listens to android system wide events and notifies the arrival of a new message can be",
+      "options": [
+        "Content provider",
+        "Service",
+        "Broadcast receiver",
+        "Activity"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A Broadcast receiver is an Android component that listens for system-wide broadcast announcements and can respond to them, such as receiving new messages.",
+      "topic": "Software Engineering"
+    },
+    {
+      "id": "q_exit_software_engineering_2015_model_melmeja_100",
+      "examId": "exit_software_engineering_2015_model_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a requirement for a C++ function to be recursive?",
+      "options": [
+        "Base case",
+        "Recursive case",
+        "Functions that call themselves",
+        "Dynamic variables"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Dynamic variables are not a requirement for recursion; a recursive function must have a base case and a recursive case to function correctly.",
+      "topic": "Software Engineering"
+    }
+  ]
+}

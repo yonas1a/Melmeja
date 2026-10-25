@@ -5,10 +5,10 @@
   "subCategory": "Mathematics",
   "department": "Mathematics",
   "grade": "Grade 9",
-  "description": "Comprehensive examination bank combining 7 chapters (12 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 30,
-  "totalQuestions": 12,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 7 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -217,6 +217,1414 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Standard deviation is a measure of dispersion or spread.\n\n It tells us how far the data values tend to be from their mean.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_13",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "Which of the following describes the set of all integers (Z) that satisfy x power 2 is less than 16?",
+      "options": [
+        "[-4, 4]",
+        "(-4, 4)",
+        "{-3, -2, -1, 0, 1, 2, 3}",
+        "{-4, -3, -2, -1, 0, 1, 2, 3, 4}"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The inequality x power 2 is less than 16 is equivalent to -4 is less than x is less than 4. \n\nThe integers in this open interval are -3, -2, -1, 0, 1, 2, 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_14",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "What is the minimum value of the function defined by f(x)=-3+4x+x² ?",
+      "options": [
+        "1",
+        "0",
+        "-2",
+        "-7"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "f(x)=x²+4x−3 = (x+2)²−7.\n Since (x+2)² ≥ 0, the minimum value occurs at x = -2 and is -7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_15",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "Which expression represents the distance between x and 5 is greater than 2?",
+      "options": [
+        "|x - 5| > 2",
+        "|x + 5| > 2",
+        "|x - 2| > 5",
+        "|x + 2| > 5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The distance between two numbers a and b on the number line is given by |a - b|.\n\n So the distance between x and 5 is |x - 5|. \n\nThe inequality is |x - 5| > 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_16",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "A number whose decimal expansion is non-terminating and non-repeating is classified as:",
+      "options": [
+        "Rational",
+        "Integer",
+        "Irrational",
+        "Whole"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Irrational numbers (I) are defined as decimals that are non-terminating and non-repeating.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_17",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "A circle that passes through all vertices of a polygon is called:",
+      "options": [
+        "Incircle",
+        "Circumcircle",
+        "Tangent circle",
+        "Central circle"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A circle passing through all vertices of a polygon is called a circumcircle.\n\nThe polygon is inscribed in the circle.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_18",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Using the survey data from the previous question, how many like tea but not coffee?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "We want to find n(T - C). \n\nWe know n(T) = 50 and n(C ∩ T) = 30. \n\nThe number who like only tea is n(T) - n(C ∩ T) = 50 - 30 = 20.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_19",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "In a regular polygon, the measure of each central angle is equal to the measure of:",
+      "options": [
+        "Each interior angle",
+        "Each exterior angle",
+        "Half the interior angle",
+        "180° minus the interior angle"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Both the central angle and the exterior angle of a regular n-gon are equal to 360°/n.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_20",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "The system { y ≥ 2x + 1, y ≤ 2x - 3 } has:",
+      "options": [
+        "One solution",
+        "Infinitely many solutions",
+        "No solution",
+        "Two solutions"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The lines y = 2x + 1 and y = 2x - 3 are parallel (same slope, different y-intercepts). \n\nThe first inequality shades above y = 2x + 1, and the second shades below y = 2x - 3.\n\n There is no region where the shading overlaps.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_21",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of a regular octagon is 96 meters. What is the length of each side?",
+      "options": [
+        "8 m",
+        "10 m",
+        "12 m",
+        "16 m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An octagon has 8 sides. \n\nSide length s = Perimeter / n = 96 m / 8 = 12 m.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_22",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "In right triangle PQR, right angled at R, if sin P = 5/13, find tan Q.",
+      "options": [
+        "5/12",
+        "12/13",
+        "12/5",
+        "13/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If sin P = Opp/Hyp = QR/PQ = 5/13. \n\nAdj side PR = √(13²-5²) = √144 = 12.\n Angle Q is complementary to P.\n\n tan Q = Opposite side (PR) / Adjacent side (QR) = 12/5. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_23",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Find the number of integers that satisfy the inequality 4 is less than x is less than or equal to 10.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The integers are {5, 6, 7, 8, 9, 10}.\n Counting them gives 6 integers.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_24",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "In right triangle ABC (right-angled at B), if AC = 10 and angle A = 60°, find AB.",
+      "options": [
+        "5",
+        "5√3",
+        "10√3",
+        "20"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "cos A = AB / AC. cos 60° = AB / 10. Since cos 60° = 1/2, we have 1/2 = AB / 10. Solving gives AB = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_25",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "The system 2x + 4y = 6 and x + 2y = 3 has:",
+      "options": [
+        "unique solution",
+        "No solution",
+        "Infinitely many solutions",
+        "The solution (1, 1)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The first equation is 2 times the second equation.\n\n The lines are coincident, leading to infinitely many solutions.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_26",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Solve the rational equation: x/(x - 1) = 2/(x - 1).",
+      "options": [
+        "{2}",
+        "{1}",
+        "No solution",
+        "{-1, 2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply by x - 1: x = 2. Check the non-permissible value: x ≠ 1.\n\n Since the solution x = 2 is permissible, the solution set is {2}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_27",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "What is the Greatest Common Factor (GCF) of 196 and 3822?",
+      "options": [
+        "2",
+        "4",
+        "14",
+        "98"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using the Euclidean Algorithm: 3822 = 196 times 19 + 98. \n\n196 = 98 times 2 + 0. The last non-zero remainder is the GCF.\n Thus, GCF(196, 3822) = 98.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_28",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "The smallest solution to (x - 4)(x + 2) = 0 is:",
+      "options": [
+        "4",
+        "-4",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The solutions are x = 4 and x = -2.\n The smallest is -2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_29",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "If A and B are acute angles in a right triangle, then sin A = ?",
+      "options": [
+        "sin B",
+        "cos B",
+        "tan B",
+        "cos A"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A and B are complementary angles (A+B=90°).\n\nTherefore, sin A = cos B. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_30",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "What is the sum of the exterior angles of any convex polygon, taking one at each vertex?",
+      "options": [
+        "180°",
+        "(n - 2) * 180°",
+        "n * 180°",
+        "360°"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For any n-sided convex polygon, the sum of the measure of exterior angles (one at each vertex) is always 360°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_31",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "A regular polygon has 12 sides. What is the sum of its interior angles?",
+      "options": [
+        "1620°",
+        "1800°",
+        "1980°",
+        "2160°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "n = 12.\n Sum = (n - 2) * 180° = \n(12 - 2) * 180°\n = 10 * 180° = 1800°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_32",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "If each interior angle of a regular polygon is 11 times its exterior angle, how many sides does it have?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_33",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "What is the name of a polygon with 9 sides?",
+      "options": [
+        "Heptagon",
+        "Octagon",
+        "Nonagon",
+        "Decagon"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A polygon with 9 sides is called a nonagon.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_34",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is a terminating decimal?",
+      "options": [
+        "1/3",
+        "2/7",
+        "3/8",
+        "5/11"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A fraction p/q (in simplest form) results in a terminating decimal if and only if the prime factors of the denominator q are only 2s and 5s. \n\n3/8 = 3/(2 power 3), so it is terminating (0.375).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_35",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is an irrational number?",
+      "options": [
+        "square root of 16",
+        "1.732",
+        "cube root of 27",
+        "square root of 20"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "square root of 16=4 (rational). 1.732 (rational). cube root of 27=3 (rational).\n\n square root of 20 cannot be written as a simple fraction and is a non-terminating, non-repeating decimal, making it irrational.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_36",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Solve |x/2 - 1| ≥ 3",
+      "options": [
+        "-4 ≤ x ≤ 8",
+        "x ≤ -4 or x ≥ 8",
+        "x ≤ -8 or x ≥ 4",
+        "-8 ≤ x ≤ 4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "x/2 - 1 ≤ -3 or x/2 - 1 ≥ 3. Solve first: x/2 ≤ -2 => x ≤ -4. \n\nSolve second: x/2 ≥ 4 => x ≥ 8. Solution: x ≤ -4 or x ≥ 8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_37",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of the central angle of an equilateral triangle?",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An equilateral triangle is a regular 3-gon.\n\n Central angle = 360° / n \n= 360° / 3 =\n 120°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_38",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "The solution to √(x² + 9) = 5 is:",
+      "options": [
+        "4",
+        "3",
+        "±4",
+        "±3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Square both sides: x² + 9 = 25.\n x² = 16.\n x = ±4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_39",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Consider a regular hexagon inscribed in a circle. What is the relationship between the side length (s) and the radius (r) of the circumcircle?",
+      "options": [
+        "s = r/2",
+        "s = r",
+        "s = r√3",
+        "s = 2r"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A regular hexagon can be divided into 6 equilateral triangles with vertices at the center. \n\nTherefore, the side length is equal to the radius. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_40",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "If P is the point (2, 5) and the position vector OP = u, find the magnitude of u.",
+      "options": [
+        "25",
+        "square root(7)",
+        "square root(29)",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The position vector u = (2, 5).\n The magnitude is ||u|| = √(2² + 5²) = \n√(4 + 25) = \n√(29).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_41",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "The product of the roots of x² - (k + 1)x + 1 = 0 is 1. The sum of the roots is 3. What is k?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -(-(k + 1))/1 = k + 1.\n\n Given sum is 3. \nk + 1 = 3. \nk = 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_42",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "Which condition is sufficient to prove that two triangles are similar?",
+      "options": [
+        "Corresponding sides are congruent (SSS).",
+        "Corresponding angles are equal (AAA).",
+        "Corresponding perimeters are equal.",
+        "Corresponding areas are equal."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If the three pairs of corresponding angles are equal (AAA), the triangles are similar.\n\n If all three sides are congruent (SSS), the triangles are congruent, which is a special case of similarity (ratio 1:1).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_43",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "If each exterior angle of a regular polygon measures 24°, how many sides does it have?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "n = 360° / (Exterior Angle) =\n 360° / 24° = 15 sides.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_44",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: (x+2)/5 ≥ 2x/3",
+      "options": [
+        "x ≥ 6/7",
+        "x ≤ 6/7",
+        "x ≥ -6/7",
+        "x ≤ -6/7"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Multiply by LCM (15): 3(x+2) ≥ 5(2x) => 3x + 6 ≥ 10x. \n\nSubtract 3x: 6 ≥ 7x. Divide by 7: 6/7 ≥ x or x ≤ 6/7. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_45",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true about the relationship between the radius (r) and apothem (a) of a regular polygon (n>2)?",
+      "options": [
+        "> r",
+        "= r",
+        "< r",
+        "It depends on the number of sides."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The apothem is the perpendicular distance from the center to a side, while the radius goes to a vertex. \n\nIn the right triangle formed by the apothem, half a side, and the radius (hypotenuse), the apothem is always shorter than the radius. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_46",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true about the addition of rational numbers?",
+      "options": [
+        "The set of Rational numbers (Q) is not closed under addition.",
+        "The commutative law does not apply to addition in Q.",
+        "The sum of any two rational numbers is always rational.",
+        "The additive inverse of a rational number is always irrational."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The set of rational numbers (Q) is closed under addition, meaning the sum of any two rational numbers is always another rational number.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_47",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "What is the largest prime factor of 105?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "21"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Prime factorization of 105: 105 = 3 times 5 times 7.\n The largest prime factor is 7.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_48",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "If two right triangles have an acute angle of one equal to an acute angle of the other, then the triangles are:",
+      "options": [
+        "Congruent",
+        "Similar",
+        "Isosceles",
+        "Equilateral"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Since both triangles have a right angle (90°) and one pair of acute angles equal, the third pair of angles must also be equal.\n\n Thus, they are similar by the AA Similarity criterion.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_49",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "What is the name of the line segment from the center of a regular polygon perpendicular to one of its sides?",
+      "options": [
+        "Radius",
+        "Diagonal",
+        "Apothem",
+        "Altitude"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The line segment from the center perpendicular to the sides of a regular polygon is called an apothem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_50",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "What is the measure of each exterior angle of a regular dodecagon?",
+      "options": [
+        "24°",
+        "30°",
+        "36°",
+        "45°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Exterior angle = 360° / n = \n360° / 12 = 30°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_51",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Two similar pentagons have a ratio of corresponding side lengths 4:5. If the perimeter of the larger pentagon is 30 units, what is the perimeter of the smaller pentagon?",
+      "options": [
+        "20 units",
+        "24 units",
+        "37.5 units",
+        "40 units"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ratio of perimeters = Ratio of sides = 4/5.\n\n P_small / P_large = 4/5.\n P_small / 30 = 4/5.\n P_small = 30 * (4/5) =\n 6 * 4 = 24 units.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_52",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The sum of the roots of 2x² + 6x - 1 = 0 is:",
+      "options": [
+        "3",
+        "-3",
+        "6",
+        "-6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -6/2 = -3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_53",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "In the similarity transformation, the perimeter of the image is 5 times the perimeter of the preimage. What is the area of the image compared to the area of the preimage?",
+      "options": [
+        "5 times larger",
+        "10 times larger",
+        "20 times larger",
+        "25 times larger"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The scale factor (k) is the ratio of perimeters, k = 5.\n\n The ratio of the areas is k² = 5² = 25. \n\nThe area of the image is 25 times the area of the preimage.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_54",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "Which number is to the right of -2/3 on the number line?",
+      "options": [
+        "-1",
+        "-0.75",
+        "-0.5",
+        "-1/2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "To be to the right means the number is greater.\n\n -2/3 is approximately -0.666... . -0.5 is equal to -1/2 and is greater than -2/3, so it lies to the right.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_55",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Solve the inequality: 1 < 2x - 3 ≤ 7",
+      "options": [
+        "2 < x ≤ 5",
+        "1 < x ≤ 4",
+        "2 ≤ x < 5",
+        "1 ≤ x < 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_56",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "What is the solution set for |x| < 3?",
+      "options": [
+        "x < 3",
+        "x > -3",
+        "-3 < x < 3",
+        "x < -3 or x > 3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The inequality |k| < c is equivalent to -c < k < c.\n\n So, |x| < 3 means -3 < x < 3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_57",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "If A = {a, b, c, d} and B = {c, d, e, f}, what is A - B?",
+      "options": [
+        "{a, b}",
+        "{e, f}",
+        "{c, d}",
+        "{a, b, c, d, e, f}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The difference (A - B or A\\B) contains all elements that are in set A but NOT in set B.\n\n A - B = {a, b}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_58",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "What is the sum of an exterior angle and a central angle of a regular octagon?",
+      "options": [
+        "45°",
+        "90°",
+        "135°",
+        "180°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a regular octagon (n=8): Exterior angle = 360/8 = 45°. \n\nCentral angle = 360/8 = 45°. Sum = 45° + 45° = 90°.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_59",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "What is the interval notation for -2 ≤ x < 5?",
+      "options": [
+        "(-2, 5]",
+        "[-2, 5)",
+        "(-2, 5)",
+        "[-2, 5]"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Square bracket means inclusive (≤ or ≥), parenthesis means exclusive (< or >).So, [-2, 5).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_60",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "If x² + 4x + 4 = 0, the product of the roots is:",
+      "options": [
+        "4",
+        "-4",
+        "2",
+        "-2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Product of roots = c/a = 4/1 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_61",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which set equality is guaranteed to be true for any sets A and B?",
+      "options": [
+        "∪ B = B ∪ A",
+        "- B = B - A",
+        "∩ A' = U",
+        "Δ A = A"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The Commutative Law states that the order of the sets in the Union operation does not affect the result: A ∪ B = B ∪ A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_62",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "Which statement correctly compares square root of 8 and 3 square root of 2?",
+      "options": [
+        "square root of 8 is greater than 3 square root of 2",
+        "square root of 8 is equal to 3 square root of 2",
+        "square root of 8 is less than 3 square root of 2",
+        "Comparison is impossible"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Simplify: square root of 8 = square root of (4 times 2) = 2 square root of 2. Since 2 square root of 2 is less than 3 square root of 2, square root of 8 is less than 3 square root of 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_63",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "If x power 5 = 32, what is the value of x?",
+      "options": [
+        "2",
+        "5th root of 32",
+        "4",
+        "-2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Since 2 power 5 = 32, the value of x is 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_64",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "What is the simplest form of 4th root of (16x power 8) where x is greater than or equal to 0?",
+      "options": [
+        "4x power 4",
+        "2x power 2",
+        "2x power 4",
+        "4x power 2"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "4th root of (16x power 8) = 4th root of 16 times 4th root of (x power 8). 4th root of 16 = 2.\n 4th root of (x power 8) = x power (8/4) = x power 2. The result is 2x power 2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_65",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Two circles are always:",
+      "options": [
+        "Congruent",
+        "Similar",
+        "Both congruent and similar",
+        "Neither congruent nor similar"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All circles have the same shape.\n\n They are similar because the ratio of their radii (or diameters) is always a constant, which is the scale factor.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_66",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "If ΔABC ~ ΔPQR, and the ratio of their areas is 25:4, what is the ratio of the altitude from A to BC to the altitude from P to QR?",
+      "options": [
+        "5:2",
+        "25:4",
+        "625:16",
+        "2:5"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The ratio of corresponding altitudes is equal to the ratio of the corresponding sides (scale factor), which is the square root of the ratio of the areas. \n\nRatio of altitudes = √(25/4) = 5/2. \nThe ratio is 5:2.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_67",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "If A Δ B = {3, 5, 8, 9} and A ∩ B = {4, 7}, find n(A ∪ B).",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The union A ∪ B is the combination of the symmetric difference and the intersection: A ∪ B = (A Δ B) ∪ (A ∩ B). \n\nSince these two sets are disjoint, n(A ∪ B) = n(A Δ B) + n(A ∩ B) =\n 4 + 2 = 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_68",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "If A ∩ B = ∅, which of the following is always true?",
+      "options": [
+        "n(A × B) = 0",
+        "∪ B = U",
+        "- B = A",
+        "= ∅"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If A ∩ B = ∅ (disjoint), then A - B (elements in A but not in B) is simply A, because there are no elements in B to remove from A.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_69",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "If ΔPQR is enlarged by a scale factor of 3 to form ΔSTU. If the area of ΔPQR is 10 m², what is the area of ΔSTU?",
+      "options": [
+        "30 m²",
+        "60 m²",
+        "90 m²",
+        "100 m²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Ratio of areas = (Scale factor)² = 3² = 9. Area_STU / Area_PQR = 9. Area_STU = 9 * Area_PQR = 9 * 10 m² = 90 m².",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_70",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "The perimeter of two similar octagons are 40 cm and 60 cm. What is the ratio of their corresponding sides?",
+      "options": [
+        "2:3",
+        "4:9",
+        "1:2",
+        "3:4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The ratio of the perimeters is equal to the ratio of their corresponding sides.\n\n Ratio = P1 / P2 =\n 40 / 60 = 4 / 6 = 2/3. \nThe ratio is 2:3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_71",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "In a school, 20 teachers teach Math or Physics. 12 teach Math, 5 teach both. How many teach Physics?",
+      "options": [
+        "8",
+        "13",
+        "15",
+        "7"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let M be the set of Math teachers and P be the set of Physics teachers. \n\nn(M ∪ P) = 20, n(M) = 12, n(M ∩ P) = 5.\n\n Using the formula n(M ∪ P) = n(M) + n(P) - n(M ∩ P), we have 20 = 12 + n(P) - 5. So, 20 = 7 + n(P). \nTherefore, n(P) = 20 - 7 = 13.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_72",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "The value of x that satisfies the exponential equation 2^x = 32 is:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "32 = 2⁵. \nBy equating the exponents, x = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_73",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "The solution to 2^(x - 1) = 4^(x + 3) is:",
+      "options": [
+        "-7",
+        "7",
+        "-5",
+        "5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_74",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "The decimal 1.4 repeating 3 can be expressed as which fraction in simplest form?",
+      "options": [
+        "143/100",
+        "129/90",
+        "13/9",
+        "43/30"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Let x = 1.4 repeating 3. 10x = 14.\n repeating 3 and 100x = 143. repeating 3. Subtracting 10x from 100x: 90x = 129. x = 129/90. Simplifying by dividing by 3: 43/30.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_75",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "If A × B = {(a, 1), (a, 2), (b, 1), (b, 2)}, what is set A?",
+      "options": [
+        "{a, b}",
+        "{1, 2}",
+        "{a, 1}",
+        "{b, 2}"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In the Cartesian product A × B, the first component of each ordered pair comes from set A.\n\n The first components appearing are 'a' and 'b'.\n\nSo, A = {a, b}.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_76",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "If cos Y = 1/2, find tan Y.",
+      "options": [
+        "1/√3",
+        "1",
+        "√3",
+        "2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If cos Y = 1/2, then Y = 60°. \ntan 60° = √3. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_77",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Find the value of y in the diagram. (Right triangle with angle 30°, opposite side y, adjacent side 9)",
+      "options": [
+        "9√3",
+        "9/√3",
+        "18",
+        "4.5"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "tan 30° = Opposite / Adjacent = y / 9. \nSince tan 30° = 1/√3, we have 1/√3 = y / 9. \n\nSolving gives y = 9/√3 = 3√3. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_78",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "A number is 3 times another number, and their difference is 12. The smaller number is:",
+      "options": [
+        "4",
+        "6",
+        "18",
+        "3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Let the numbers be x and y. x = 3y. x - y = 12.\n\n Substitute 3y for x: 3y - y = 12. 2y = 12. y = 6. The smaller is 6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_79",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "If a number is divisible by 11, the alternating sum of its digits must be divisible by 11. Which number is divisible by 11?",
+      "options": [
+        "1232",
+        "1342",
+        "1431",
+        "2342"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For 1342, the alternating sum is 2 - 4 + 3 - 1 = 0.\n\n Since 0 is divisible by 11, 1342 is divisible by 11.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_80",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "If the ratio of the side lengths of two similar squares is 1:k, what is the ratio of their perimeters?",
+      "options": [
+        "1:k",
+        "1:k²",
+        "k:1",
+        "1:4k"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The ratio of perimeters is always equal to the ratio of corresponding sides (scale factor).\n\n If the side ratio is 1:k, the perimeter ratio is also 1:k.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_81",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "If A and B are two sets, which of the following is always true?",
+      "options": [
+        "(A - B) ∪ (B - A) = A ∪ B",
+        "Δ B = (A ∪ B) - (A ∩ B)",
+        "∪ (A ∩ B) = A ∪ B",
+        "(A ∩ B)' = A' ∩ B'"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The symmetric difference A Δ B is defined as (A - B) ∪ (B - A), which is also equivalent to (A ∪ B) - (A ∩ B).\n\n The other options are incorrect identities (A ∪ (A ∩ B) = A, and the last is wrong form of De Morgan's Law).",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_82",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "An equilateral triangle has side length 2. What is the sine of one of its angles?",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1",
+        "√3"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All angles in an equilateral triangle are 60°. \n\nsin 60° = √3/2. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_83",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "The radius of the incircle of a regular polygon is equal to the:",
+      "options": [
+        "Side length",
+        "Radius of the circumcircle",
+        "Apothem",
+        "Diameter"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The radius of the incircle is the apothem of the regular polygon.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_84",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A regular dodecagon has side length 5. Its perimeter is:",
+      "options": [
+        "50",
+        "60",
+        "75",
+        "120"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A dodecagon has 12 sides.\n P = n * s = 12 * 5 = 60.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_85",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "If tan A = 3/4, find sin A.",
+      "options": [
+        "3/5",
+        "4/5",
+        "4/3",
+        "5/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "If tan A = Opp/Adj = 3/4. \n\nHypotenuse = √(3²+4²) = 5.\n\n sin A = Opp/Hyp = 3/5. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_86",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "In a right triangle, the two legs are 6 and 8. What is the length of the median to the hypotenuse?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "First find the hypotenuse c: c² = 6² + 8² = 36 + 64 = 100, so c = 10.\n\n The length of the median to the hypotenuse is half the length of the hypotenuse. \nMedian = c / 2 = 10 / 2 = 5.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_87",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "If A ∩ B = A and A ∪ B = B, then what is the relationship between A and B?",
+      "options": [
+        "= B",
+        "and B are disjoint",
+        "⊆ B",
+        "⊆ A"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A ∩ B = A means all elements of A are in B (A ⊆ B).\n\n A ∪ B = B also means all elements of A are in B (A ⊆ B).\n Both conditions are equivalent to A ⊆ B.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_88",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "A regular nonagon has side length 's' and apothem 'a'. What is its area?",
+      "options": [
+        "9as",
+        "(9/2)as",
+        "18as",
+        "(1/2)as"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A nonagon has n=9 sides. Perimeter P = 9s.\n\n Area A = (1/2)aP =\n (1/2)a(9s) =\n (9/2)as.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_89",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "The nature of the roots of 4x² + 12x + 9 = 0 is:",
+      "options": [
+        "Real and distinct",
+        "Real and equal",
+        "Non-real (Imaginary)",
+        "Real and irrational"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "D = 12² - 4(4)(9) = 144 - 144 = 0. \n\nSince D = 0, the roots are real and equal.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_90",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "If n(A ∪ B) = 17, n(A) = 12, and n(B) = 9, what is the number of elements in A only?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "First find the intersection: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 9 - 17 = 4.\n\n The number of elements in A only is n(A - B) = n(A) - n(A ∩ B) = 12 - 4 = 8.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_91",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "In ΔABC, the angle bisector of ∠A meets BC at D. If AB = 6, AC = 9, and BC = 10, find the length of BD.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "By the Angle Bisector Theorem, BD/DC = AB/AC.\n BD/DC = 6/9 = 2/3. Let BD = 2x and DC = 3x.\n\n Since BC = BD + DC, 10 = 2x + 3x => 10 = 5x => x = 2.\n Therefore, BD = 2x = 2 * 2 = 4.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_92",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "The areas of two similar polygons are in the ratio 4:9. What is the ratio of their corresponding sides?",
+      "options": [
+        "4:9",
+        "16:81",
+        "2:3",
+        "4:3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "If the ratio of the areas of two similar polygons is a²:b², then the ratio of their corresponding sides (or perimeters) is a:b.\n\n The ratio of the sides is the square root of the ratio of the areas. √(4/9) = 2/3.\n The ratio is 2:3.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_93",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Which equation has no solution in the set of real numbers (R)?",
+      "options": [
+        "x² = 4",
+        "x³ = -8",
+        "x² = -9",
+        "√x = 3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The square of any real number (x²) must be non-negative (greater than or equal to 0).\n\n Therefore, x² = -9 has no real solution.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_94",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Solve |x|/3 ≤ 2",
+      "options": [
+        "-6 ≤ x ≤ 6",
+        "x ≤ -6 or x ≥ 6",
+        "-2/3 ≤ x ≤ 2/3",
+        "x ≤ -2/3 or x ≥ 2/3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Multiply by 3: |x|≤ 6.\n This is equivalent to -6 ≤ x ≤ 6. ",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_95",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which of the following correctly orders the rational numbers from least to greatest: 3/4, 5/6, 2/3?",
+      "options": [
+        "2/3, 3/4, 5/6",
+        "3/4, 5/6, 2/3",
+        "5/6, 3/4, 2/3",
+        "2/3, 5/6, 3/4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Convert to common denominator (12): 2/3 = 8/12, 3/4 = 9/12, 5/6 = 10/12.\n\n Ordering the numerators: 8, 9, 10. Thus, 2/3 is less than 3/4 is less than 5/6.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_96",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The area of a regular pentagon is 50 cm² and its apothem is 4 cm. What is its perimeter?",
+      "options": [
+        "12.5 cm",
+        "25 cm",
+        "50 cm",
+        "100 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Area A = (1/2) * a * P.\n\n So, 50 cm² = (1/2) * (4 cm) * P => 50 cm² = (2 cm) * P => \nP = 50 cm² / 2 cm = 25 cm.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_97",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "cos 80° is equal to:",
+      "options": [
+        "sin 10°",
+        "cos 10°",
+        "sin 80°",
+        "tan 80°"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Step-by-step conceptual review for this question.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_98",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Two pentagons are congruent. Their corresponding diagonals are:",
+      "options": [
+        "Proportional in a ratio other than 1:1.",
+        "Equal in length.",
+        "Neither proportional nor equal.",
+        "Proportional only if the pentagons are regular."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If two figures are congruent, all corresponding segments, including diagonals, are equal in length.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_99",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "In an isosceles triangle ABC with base BC, the altitude AD is drawn. Which postulate proves that ΔABD ≅ ΔACD?",
+      "options": [
+        "SAS",
+        "ASA",
+        "HL",
+        "AAS"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since it is isosceles, AB=AC (Hypotenuse). AD is common (Leg).\n Both triangles are right-angled at D.\n\n Thus, the triangles are congruent by the Hypotenuse-Leg (HL) theorem.",
+      "topic": "Mathematics"
+    },
+    {
+      "id": "q_m2018_g9_merged_melmeja_100",
+      "examId": "m2018_g9_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which inequality is equivalent to -4 < x < 4?",
+      "options": [
+        "|x| < 4",
+        "|x| ≤ 4",
+        "|x| > 4",
+        "|x| ≥ 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The inequality -c < k < c is equivalent to |k| < c.\n\n Here, k=x and c=4. ",
       "topic": "Mathematics"
     }
   ]

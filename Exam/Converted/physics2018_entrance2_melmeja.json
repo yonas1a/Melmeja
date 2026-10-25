@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Physics University Entrance Exam 2018 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Physics University Entrance Exam 2018 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -1005,6 +1005,648 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "The angle of incidence is measured between the incident ray and the normal (perpendicular) to the mirror surface.\n\n Since the mirror is horizontal, the angle between the mirror surface and the normal is 90°.\n\n Given that the angle between the incident ray and the mirror surface is 40°,\n\n the angle of incidence is 90° - 40° = 50°.\n\n By the law of reflection, the angle of reflection θ_r is equal to the angle of incidence, so θ_r = 50°.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_61",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about satellite motion?",
+      "options": [
+        "satellite moving closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+        "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one.",
+        "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about Moon.",
+        "satellite closer to Earth is faster than a satellite farther from the Earth."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "According to orbital mechanics, the orbital speed of a satellite is given by:- \n\nv = √(GM/r), where r is the distance from the center of the Earth.\n\n Therefore, a satellite closer to Earth (smaller r) moves faster than one farther away.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_62",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "An ideal voltmeter has ________ resistance.",
+      "options": [
+        "Zero",
+        "Low",
+        "Infinite",
+        "100Ω"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "An ideal voltmeter should not draw any current from the circuit it is measuring, which requires an infinite internal resistance.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_63",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A machine performs 900 J of useful work in 30 seconds. What is its average power output?",
+      "options": [
+        "15 W",
+        "30 W",
+        "300 W",
+        "27,000 W"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Average power is P = W/t.\n\nTherefore, P = 900/30 = 30 W.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_64",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which phenomenon allows radio waves to bend around obstacles?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Interference"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Diffraction bends waves around obstacles.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_65",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Scalar product of two perpendicular vectors is:",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Minimum",
+        "Depends on magnitude"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A·B = |A||B|cosθ, cos90°=0.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_66",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "A spring is stretched by an external force. If the elastic limit is not exceeded, the restoring force is proportional to the",
+      "options": [
+        "square of the extension.",
+        "extension.",
+        "mass of the spring only.",
+        "temperature only."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Hooke's law states that, within the elastic limit, the restoring force is proportional to the extension or compression.\n\nThe relationship is F = kx.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_67",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "Kirchhoff’s second law is based on:",
+      "options": [
+        "Conservation of energy",
+        "Charge conservation",
+        "Momentum",
+        "Force equilibrium"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sum of potential differences around a closed loop equals zero.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_68",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Two discs, one solid and one hollow, same mass M and radius R, roll down same incline. Which reaches bottom first?",
+      "options": [
+        "Solid disc",
+        "Hollow disc",
+        "Both same",
+        "Depends on incline"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Moment of inertia I solid = 0.5 MR², hollow = MR² → a = g*sinθ/(1+k²/R²). \n\nSolid has smaller k²/R² → higher acceleration.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_69",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "Voltage across series resistors:",
+      "options": [
+        "Same across all",
+        "Zero",
+        "Divides according to resistance",
+        "Depends on current only"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "V = IR; current same → voltage proportional to resistance.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_70",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "A concave mirror forms a real, inverted image of the same size as the object when the object is placed",
+      "options": [
+        "at the focal point.",
+        "between the pole and focal point.",
+        "at the center of curvature.",
+        "beyond the center of curvature."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a concave mirror, an object placed at the center of curvature produces a real, inverted image at the center of curvature.\n\nThe image has the same size as the object.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_71",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "In a calorimetry experiment, why is the water stirred?",
+      "options": [
+        "To increase the temperature",
+        "To ensure uniform temperature throughout the liquid",
+        "To prevent evaporation",
+        "To speed up the reaction"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Stirring ensures that the heat is distributed evenly so that the thermometer gives an accurate reading of the average temperature.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_72",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "A 3 kg block slides down a 30° frictionless incline of 5 m. Speed at bottom?",
+      "options": [
+        "5.42 m/s",
+        "7 m/s",
+        "10 m/s",
+        "6 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "v² = 2 g h = \n\n2*9.8*5*sin30 ≈ 29.4 → v ≈ 5.42 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_73",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Two resistors 8 Ω and 12 Ω in parallel. Equivalent resistance?",
+      "options": [
+        "4.8 Ω",
+        "5 Ω",
+        "10 Ω",
+        "20 Ω"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1/Req = 1/8 + 1/12 =\n\n 5/24 → Req = 24/5 = 4.8 Ω.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_74",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "A body is raised vertically through a height of 5 m. If its mass is 6 kg and g = 10 m/s², what is the increase in gravitational potential energy?",
+      "options": [
+        "30 J",
+        "60 J",
+        "150 J",
+        "300 J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The change in gravitational potential energy is ΔPE = mgh.\n\nTherefore, ΔPE = 6 × 10 × 5 = 300 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_75",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A metal rod of length 3.0 m has a linear expansion coefficient of 1.2 × 10⁻⁵ °C⁻¹. If its temperature increases by 200°C, what is its increase in length?",
+      "options": [
+        "0.72 mm",
+        "3.6 mm",
+        "7.2 mm",
+        "72 mm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Linear expansion is ΔL = αLΔT.\n\nΔL = (1.2 × 10⁻⁵)(3)(200) = 0.0072 m = 7.2 mm.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_76",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A sphere radius 0.05 m, mass 0.5 kg submerged 1/5 volume in liquid. Buoyant force?",
+      "options": [
+        "0.123 N",
+        "0.25 N",
+        "0.5 N",
+        "0.523 N"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "F_b = ρV_sub*g =\n\n 1000*(1/5)*(4/3)π0.05³*9.8 ≈ 0.123 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_77",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "A force F = (i -3k) N acts on a wooden bar and drags the bar through a displacement of r = 4i m. What is the torque due to the force in N.m?",
+      "options": [
+        "4i + 12j",
+        "-12j",
+        "12j",
+        "12k"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Torque τ = r × F (cross product of position vector and force vector). \n\nGiven r = 4i, F = i - 3k.\n\nCompute determinant: τ = 12j N·m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_78",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "In 2D motion, vertical velocity changes due to:",
+      "options": [
+        "Gravity",
+        "Air resistance",
+        "Centrifugal force",
+        "Torque"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Gravity accelerates projectile downward.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_79",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "A person runs 30m North and then 40m East. What is the magnitude of their displacement?",
+      "options": [
+        "70m",
+        "10m",
+        "50m",
+        "35m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using the Pythagorean theorem for 2D motion: √(30² + 40²) = √(900 + 1600) = √2500 = 50m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_80",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "A radio wave and a gamma ray travel through vacuum. Which statement is correct?",
+      "options": [
+        "The gamma ray travels faster.",
+        "The radio wave travels faster.",
+        "They travel at the same speed but have different frequencies and wavelengths.",
+        "They have the same frequency but different speeds."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "All electromagnetic waves travel at the same speed in vacuum, approximately 3.0 × 10⁸ m/s.\n\nHowever, their frequencies and wavelengths differ.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_81",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Two point charges of 2 μC and 3 μC are separated by 0.3 m in vacuum. What is the approximate electrostatic force between them? Take k = 9 × 10⁹ N·m²/C².",
+      "options": [
+        "0.06 N",
+        "0.6 N",
+        "0.9 N",
+        "6 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using Coulomb's law,\n\nF = kq₁q₂/r².\n\nF = (9 × 10⁹)(2 × 10⁻⁶)(3 × 10⁻⁶)/(0.3)².\n\nTherefore, F = 0.6 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_82",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A radioactive sample initially contains 8000 nuclei. If its half-life is 5 hours, approximately how many nuclei remain after 15 hours?",
+      "options": [
+        "4000",
+        "2000",
+        "1000",
+        "500"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Fifteen hours corresponds to three half-lives.\n\nAfter one half-life: 4000 nuclei remain.\n\nAfter two: 2000 remain.\n\nAfter three: 1000 remain.\n\nTherefore, 1000 nuclei remain.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_83",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "33. Consider an ideal transformer having Np and Ns turns, and voltages Vp and Vs in its primary and secondary coils, respectively. Which one of the following is the correct ideal transformer equation?",
+      "options": [
+        "Vp = \\left( \\frac{N_s}{N_p} \\right)^2 V_s$",
+        "Vs/Vp = Np/Ns",
+        "Ns/Np = \\left( \\frac{V_s}{V_p} \\right)^2$",
+        "Vs/Vp = Ns/Np"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For an ideal transformer, the voltage ratio is directly proportional to the turns ratio:\n$$\\frac{\\text{Secondary Voltage}}{\\text{Primary Voltage}} = \\frac{\\text{Secondary Turns}}{\\text{Primary Turns}}$$ \n$$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_84",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "A wooden block of volume 5.00 *10⁻⁴ m³ floats partially submerged in water, and a small steel object of mass m is placed on top of the block. When m = 0.25 kg, the system is in equilibrium and the top of the wooden block is at the level of the water. What is the density of the wood?",
+      "options": [
+        "1000 kg.m³",
+        "1500 kg.m³",
+        "500 kg.m³",
+        "800 kg.m³"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "When the block is fully submerged, the buoyant force equals the total weight: ρ_water * V = ρ_wood * V + m. \n\nSolve for the density of wood: ρ_wood = (ρ_water * V - m) / V. \n\nSubstituting the numbers: ρ_wood = (1000 * 5.00 × 10⁻⁴ - 0.25) / (5.00 × 10⁻⁴) = (0.5 - 0.25) / 0.0005 = 0.25 / 0.0005 = 500 kg/m³.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_85",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "According to the Heisenberg's uncertainty principle,",
+      "options": [
+        "the faster the position uncertainty, the larger the momentum uncertainty.",
+        "if the uncertainty in position decreases, the momentum uncertainty decreases, too.",
+        "the more precisely we measure the position of a particle; we become less precise of its momentum and vice versa.",
+        "we can measure both the position and momentum of a particle simultaneously with unlimited precision."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Heisenberg's uncertainty principle states that the product of the uncertainties in position (Δx) and momentum (Δp) of a particle satisfies Δx·Δp ≥ ħ/2.\n\n Therefore, increasing precision in measuring position increases the uncertainty in momentum, and vice versa",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_86",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A fluid travelling over a body's surface exerts less pressure than if the fluid was static. This is a statement of:",
+      "options": [
+        "Bernoulli's principle.",
+        "Principle of continuity.",
+        "Archimedes' principle.",
+        "Pascal's principle."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bernoulli's principle states that for a flowing fluid, an increase in the speed of the fluid occurs simultaneously with a decrease in pressure. \n\nTherefore, a fluid moving over a surface exerts less pressure than the same fluid at rest.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_87",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "A transformer has more turns in its secondary coil than in its primary coil. Such a transformer is generally called a",
+      "options": [
+        "step-down transformer.",
+        "step-up transformer.",
+        "rectifier.",
+        "capacitor."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For an ideal transformer, voltage is proportional to the number of turns.\n\nIf the secondary has more turns than the primary, the secondary voltage is greater.\n\nTherefore, it is a step-up transformer.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_88",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "A light ray enters glass from air at an angle of incidence of 30°. If the refractive index of glass is 1.5, which expression gives the sine of the refracted angle?",
+      "options": [
+        "sinθ = 1.5",
+        "sinθ = 0.5",
+        "sinθ = 0.33",
+        "sinθ = 3.0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using Snell's law, n₁sinθ₁ = n₂sinθ₂.\n\nFor air, n₁ ≈ 1, so\n\nsinθ₂ = sin30°/1.5 = 0.5/1.5 ≈ 0.33.\n\nTherefore, sinθ is approximately 0.33.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_89",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which of the following correctly describes the difference between distance and displacement?",
+      "options": [
+        "Distance depends on the initial and final points, while displacement depends on the path followed by a moving body.",
+        "Distance can be described both in magnitude and direction, while displacement is described only by magnitude.",
+        "Distance has either positive or negative values, while displacement has only positive value.",
+        "Distance is always greater than or equal to the magnitude of displacement, while the magnitude of the displacement is always less than or equal to distance."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "**Distance** is a scalar quantity defined as the total length of the path traveled. **Displacement** is a vector quantity defined as the shortest straight-line distance between the initial and final positions.\n\n* Option B is incorrect: Distance is scalar; Displacement is vector (needs magnitude and direction).\n* Option C is incorrect: Distance is always positive; Displacement can be positive, negative, or zero.\n* **Option D** is correct because the shortest path (displacement magnitude) can never be longer than the actual path traveled (distance), meaning $|\\text{displacement}| \\le \\text{distance}$. [Image comparing path taken (distance) and straight line (displacement)]",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_90",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "40. A combination of logic gate is constructed from an NAND gate and an OR gate, as shown in the diagram below. The truth table for the logic circuit shown above is",
+      "options": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The logical expression for the circuit is $Y = P + (\\overline{P \\cdot Q})$, where the NAND gate output is $\\overline{P \\cdot Q}$, and the OR gate combines $P$ and the NAND output.\n\nApplying the truth table:\n* **P=0, Q=0:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=0, Q=1:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=1, Q=0:** NAND output is 1. OR output is $1 + 1 = 1$.\n* **P=1, Q=1:** NAND output is 0. OR output is $1 + 0 = 1$.\n\nThe final output is always **1** (True), which corresponds to the truth table in **Option C** .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_91",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which type of electromagnetic radiation has a shorter wavelength than visible violet light?",
+      "options": [
+        "Infrared",
+        "Microwave",
+        "Ultraviolet",
+        "Radio"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In the electromagnetic spectrum, ultraviolet radiation has a shorter wavelength and higher frequency than visible violet light.\n\nInfrared, microwave, and radio waves have longer wavelengths than visible light.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_92",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "42. Which of the following is correct about impulse?",
+      "options": [
+        "During momentum change final momentum of an object is along the impulse on the object.",
+        "The direction of the impulse is in the same direction to change in the momentum of the object.",
+        "The impulse is smaller than change of momentum which caused by the applied force.",
+        "Impulse due to a force exerted for short time is equal to impulse due to the same force exerted for a long time."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "According to the **Impulse-Momentum Theorem**, the **Impulse** ($\\mathbf{J}$) exerted on an object is equal to the **change in its momentum** ($\\Delta\\mathbf{p}$). Since both are vector quantities, their directions must be the same: $\\mathbf{J} = \\Delta\\mathbf{p}$. .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_93",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Latent heat is:",
+      "options": [
+        "Energy for phase change at constant temperature",
+        "Energy raising temperature",
+        "Potential energy",
+        "Kinetic energy"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Latent heat does not change temperature but changes phase.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_94",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "A light ray travels from air into a transparent material with refractive index 1.25. If the angle of incidence is 30°, what is sin of the angle of refraction?",
+      "options": [
+        "0.20",
+        "0.40",
+        "0.50",
+        "0.625"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Snell's law gives n₁sinθ₁ = n₂sinθ₂.\n\nThus, sinθ₂ = (1)(sin30°)/1.25 = 0.5/1.25 = 0.40.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_95",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "A transformer has 2000 primary turns and 100 secondary turns. If the secondary voltage is 12 V, what is the primary voltage?",
+      "options": [
+        "24 V",
+        "120 V",
+        "240 V",
+        "480 V"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using Vₚ/Vₛ = Nₚ/Nₛ,\n\nVₚ = 12(2000/100) = 240 V.\n\nThe transformer is therefore a step-down transformer.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_96",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A 12 V battery is connected to a resistor of resistance 4 Ω. What current flows through the resistor?",
+      "options": [
+        "0.33 A",
+        "3 A",
+        "8 A",
+        "48 A"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ohm's law states V = IR.\n\nTherefore, I = V/R = 12/4 = 3 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_97",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "52. Which of the following statement describes uniform motion?",
+      "options": [
+        "An object moving with constant speed of 30 m/s in a straight line",
+        "An object, starting from rest, moving on a straight line to attain a velocity of 30 m/s",
+        "An object moving at 30 m/s toward East and then 30 m/s toward North",
+        "An object moving around a circular track with constant speed of 30 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Uniform motion is defined as motion with constant velocity.\n\n Velocity is a vector quantity, meaning it requires both constant speed and constant direction (a straight line).\n\n Option A is the only one satisfying both conditions. .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_98",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "In parallel resistors, voltage across each:",
+      "options": [
+        "Same",
+        "Different",
+        "Zero",
+        "Proportional to resistance"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All branches share same voltage in parallel.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_99",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The figure shown below represents the position-time graph of uniformly accelerated ball in a straight line.\n\nThe instantaneous velocity of the ball at point x is equal to",
+      "imageUrl": "images/P2018_37.png",
+      "diagramUrl": "images/P2018_37.png",
+      "options": [
+        "the slope of the tangent line at point x.",
+        "the total distance travelled to the total time, t₃ - t₁.",
+        "the ratio of the position at x (s₂) to the time t₂.",
+        "the average velocity during the time interval between t₁ and t₃."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Instantaneous velocity is the velocity of an object at a particular instant of time.\n\nOn a position-time graph, instantaneous velocity is equal to the slope of the tangent at the point representing that instant.\n\nTherefore, at point x, the instantaneous velocity is the slope of the tangent line at x.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance2_melmeja_100",
+      "examId": "physics2018_entrance2_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "36. Which of the following statements about the nature electromagnetic waves is correct? Electromagnetic waves are transverse waves produced when",
+      "options": [
+        "charges are placed at rest in an electric and magnetic fields that are perpendicular to each other.",
+        "electric and magnetic fields are oscillating perpendicular to each other.",
+        "charges are placed at rest in an electric and magnetic fields that are parallel to each other.",
+        "electric and magnetic fields are oscillating parallel to each other."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Electromagnetic waves are transverse waves created by accelerating charges.\n\n They consist of an oscillating electric field and a magnetic field that are perpendicular to each other and perpendicular to the direction the wave is moving .",
       "topic": "Physics"
     }
   ]

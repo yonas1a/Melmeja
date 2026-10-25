@@ -1,0 +1,1625 @@
+{
+  "id": "exit_computer_science_2016_regular_melmeja",
+  "title": "MoE Ethiopian Exit Exam: Computer Science (2016)",
+  "category": "EXIT",
+  "subCategory": "Computer Science",
+  "department": "Computer Science",
+  "grade": "University Exit",
+  "description": "Official Ministry of Education (MoE) Ethiopian University Exit Examination for Computer Science (2016). Complete with detailed explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
+  "isFree": false,
+  "packageRequired": "ALL_IN_ONE",
+  "difficulty": "Standard National",
+  "tags": [
+    "EXIT",
+    "MoE Exit Exam",
+    "Computer Science",
+    "2016",
+    "University Exit Exam"
+  ],
+  "yearOrSession": "2016",
+  "questions": [
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_1",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 1,
+      "questionType": "single_choice",
+      "questionText": "In a system susceptible to deadlock, what does the 'no preemption' condition imply?",
+      "options": [
+        "Resources can be preempted and assigned to other processes.",
+        "Processes cannot request additional resources while holding others.",
+        "Resources cannot be preempted while they are in use.",
+        "Processes must release all resources when blocked."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The 'no preemption' condition means that resources cannot be forcibly taken from a process.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_2",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 2,
+      "questionType": "single_choice",
+      "questionText": "A PC obtains its IP address from a DHCP server. If the PC is taken off the network for repair, what happens to the IP address configuration?",
+      "options": [
+        "The address is returned to the pool for reuse when the lease expires.",
+        "The address lease is automatically renewed until the PC is returned.",
+        "The configuration is held by the server to be reissued when the PC is returned.",
+        "The configuration is permanent and nothing changes."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The IP address is returned to the pool for reuse when the lease expires.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_3",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 3,
+      "questionType": "single_choice",
+      "questionText": "Which class of languages is most suited to be represented by pushdown automata?",
+      "options": [
+        "Context free language",
+        "Regular language",
+        "Recursively enumerable language",
+        "Unrestricted language"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Pushdown automata are specifically designed to recognize context-free languages.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_4",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 4,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not an I/O command?",
+      "options": [
+        "Status command",
+        "Output data command",
+        "Control command",
+        "Issue command"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Issue command is not typically classified as an I/O command.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_5",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 5,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the output of the syntax analysis phase?",
+      "options": [
+        "Syntax tree",
+        "Annotated parse tree",
+        "Abstract syntax tree",
+        "Pattern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The output of the syntax analysis phase is typically an abstract syntax tree.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_6",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 6,
+      "questionType": "single_choice",
+      "questionText": "The first step in access control is ____.",
+      "options": [
+        "Audit",
+        "Authorization",
+        "Accreditation",
+        "Authentication"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Authentication is the first step in access control.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_7",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 7,
+      "questionType": "single_choice",
+      "questionText": "In computer networking, _____ refers to how various nodes, devices, and connections on your network are physically or logically arranged in relation to each other.",
+      "options": [
+        "Network layer",
+        "Network installation",
+        "Network protocol",
+        "Network topology"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Network topology describes the arrangement of nodes and connections in a network.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_8",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 8,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not true about Reasoning?",
+      "options": [
+        "Knowledge system to do something.",
+        "A process of thinking, logically arguing, and drawing inference.",
+        "Theory of blind searching.",
+        "The act of deriving a conclusion from certain premises using a given methodology."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Reasoning is not a theory of blind searching; it involves logical processes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_9",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 9,
+      "questionType": "single_choice",
+      "questionText": "Which bus is bidirectional?",
+      "options": [
+        "Control bus",
+        "Data bus",
+        "Uni-bus",
+        "Address bus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The data bus is bidirectional, allowing data to flow in both directions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_10",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 10,
+      "questionType": "single_choice",
+      "questionText": "When encountering a syntax error in code, what is the first step you should take to resolve it?",
+      "options": [
+        "Rewrite the entire code",
+        "Ignore the error and continue execution",
+        "Use a debugger tool",
+        "Check the code for typos or incorrect syntax"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The first step should be to check for typos or incorrect syntax.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_11",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 11,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is false in Data structures and Algorithms?",
+      "options": [
+        "A tree contains a cycle.",
+        "Tree is a non-linear data structure.",
+        "A tree is a connected graph.",
+        "A tree with n nodes contains (n - 1) edges."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A tree cannot contain a cycle; it is a connected acyclic graph.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_12",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 12,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following terms refers to the machine on which the requested resource is stored?",
+      "options": [
+        "Port",
+        "Query",
+        "Host",
+        "Protocol"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The term 'host' refers to the machine that stores the requested resources.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_13",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 13,
+      "questionType": "single_choice",
+      "questionText": "a → b, L state transition in a Turing Machine means,",
+      "options": [
+        "read a, write b and move left",
+        "delete a, read b and move left",
+        "write a, read b and move left",
+        "replace b by a and move left"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The transition indicates reading 'a', writing 'b', and moving left.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_14",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 14,
+      "questionType": "single_choice",
+      "questionText": "Which reasoning technique in artificial intelligence is based on a set of rules and logical inference to derive conclusions?",
+      "options": [
+        "Abductive reasoning",
+        "Analogical reasoning",
+        "Deductive reasoning",
+        "Inductive reasoning"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Deductive reasoning uses rules and logical inference to derive conclusions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_15",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 15,
+      "questionType": "single_choice",
+      "questionText": "In MySQL architecture, the function of the ____ is to keep copies of data for retrieval later, in case of a loss of data.",
+      "options": [
+        "Buffer Manager",
+        "Transaction Manager",
+        "Query Engine",
+        "Recovery Manager"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Recovery Manager is responsible for maintaining data copies for recovery.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_16",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 16,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not a characteristic of an algorithm?",
+      "options": [
+        "Definiteness",
+        "Output",
+        "Finiteness",
+        "Efficiency"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "While efficiency is desirable, it is not a defining characteristic of an algorithm. The essential characteristics are definiteness (clear and unambiguous steps), finiteness (terminates after finite number of steps), input, output, and effectiveness (feasible operations).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_17",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 17,
+      "questionType": "single_choice",
+      "questionText": "In which network topology consists of a single line cable - called a backbone connecting all nodes on a network without intervening connected devices?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A bus topology uses a single backbone cable to connect all nodes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_18",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 18,
+      "questionType": "single_choice",
+      "questionText": "Which analysis case calculates the upper bound on running time of an algorithm?",
+      "options": [
+        "Optimal case",
+        "Best case",
+        "Average case",
+        "Worst case"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The worst-case analysis provides the upper bound on running time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_19",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 19,
+      "questionType": "single_choice",
+      "questionText": "Which OOP concept allows objects of different classes to be treated as objects of a common superclass?",
+      "options": [
+        "Polymorphism",
+        "Inheritance",
+        "Abstraction",
+        "Encapsulation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polymorphism allows different class objects to be treated as instances of a common superclass.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_20",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 20,
+      "questionType": "single_choice",
+      "questionText": "When to use the Spiral Model?",
+      "options": [
+        "Where business modeling is clearly understood and in use.",
+        "When it is too risky to develop the overall system as one block.",
+        "When requirements are understood in the early stages but can change during the project's life cycle.",
+        "When requirements are unstable and constantly changing."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Spiral Model is suitable for projects with high risk.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_21",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 21,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not a component of communication?",
+      "options": [
+        "Distance",
+        "Source",
+        "Destination",
+        "Medium"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Distance is not considered a component of communication.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_22",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 22,
+      "questionType": "single_choice",
+      "questionText": "If a queue is implemented using arrays, what would be the worst run time complexity of queue and dequeue operations?",
+      "options": [
+        "O(n), O(1)",
+        "O(1), O(n)",
+        "O(1), O(1)",
+        "O(n), O(n)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In a properly implemented circular array-based queue, both enqueue and dequeue operations have O(1) time complexity. The answer should be option C, not B.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_23",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which scheduling algorithm is commonly associated with the concept of aging, where the priority of a task increases the longer it waits in the ready queue?",
+      "options": [
+        "Round Robin (RR)",
+        "Shortest Job Next (SJN)",
+        "Priority Scheduling",
+        "Shortest Remaining Time First (SRTF)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Priority Scheduling uses aging to prevent starvation of waiting tasks.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_24",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "In computers, subtraction is carried out generally by",
+      "options": [
+        "1's complement method",
+        "2's complement method",
+        "signed magnitude method",
+        "BCD subtraction method"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Subtraction in computers is typically performed using the 2's complement method.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_25",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Which layer of the OSI model ensures that the whole message (group of packets) arrives to the destination intact and in order?",
+      "options": [
+        "Session layer",
+        "Transport layer",
+        "Data link layer",
+        "Network layer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Transport layer is responsible for ensuring complete and ordered delivery of messages.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_26",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is a false statement?",
+      "options": [
+        "A web browser is software that runs on a server",
+        "A website is a collection of resources in various forms",
+        "A web page is the basic unit of information storage on the www",
+        "A user agent renders resources for a user to view"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A web browser runs on a client, not on a server.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_27",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Which C++ statement is used to terminate a loop prematurely and transfer control to the next iteration of the loop?",
+      "options": [
+        "break;",
+        "exit;",
+        "return;",
+        "continue;"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The 'continue' statement is used to skip the current iteration and continue with the next.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_28",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following has the fastest access time and the highest cost?",
+      "options": [
+        "Register",
+        "Magnetic disc",
+        "Main memory",
+        "Cache memory"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Registers have the fastest access time and are the most expensive per bit.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_29",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "When can we say two grammars are equivalent?",
+      "options": [
+        "When the language derived from one of the grammars becomes the subset of the other",
+        "When the alphabets of the two grammars are the same",
+        "When the languages represented by both grammars are the same",
+        "When a single string is a member of the language represented by both grammars"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Two grammars are equivalent if they generate the same language.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_30",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "What is the primary key in a relational database?",
+      "options": [
+        "A unique identifier for each row in a table.",
+        "A foreign key from another table.",
+        "A key used for encryption.",
+        "An index on a non-unique column."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The primary key uniquely identifies each row in a table.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_31",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not a static check?",
+      "options": [
+        "Type checking for compatibility",
+        "Uniqueness checks like redefined variables",
+        "A break instruction that is not in enclosing statement",
+        "Memory access errors"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Memory access errors such as null pointer dereferences, buffer overflows, and use-after-free are generally detected at runtime, not during static analysis, as they often depend on execution flow and runtime values.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_32",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "Which database design concept is commonly used in online gaming platforms to handle real-time interactions between players?",
+      "options": [
+        "Replication",
+        "NoSQL databases",
+        "Distributed databases",
+        "Partitioning"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "NoSQL databases are often used for real-time interactions in online gaming.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_33",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Which tool is used to collect codes separately compiled or assembled in different object files into a file that is directly executable?",
+      "options": [
+        "Linker",
+        "Loader",
+        "Assembler",
+        "Resolver"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A linker combines multiple object files into a single executable.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_34",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a component of Turing Machine?",
+      "options": [
+        "Read-write head",
+        "Control Unit",
+        "Stack",
+        "Tape"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A Turing Machine does not have a stack; it has a tape and a read-write head.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_35",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following disk interfaces is used as a standard interface for PCs?",
+      "options": [
+        "SCSI",
+        "ISCSI",
+        "IDE",
+        "USB"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "IDE (Integrated Drive Electronics) is a standard interface for PCs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_36",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "In C++, what does the cout object typically represent?",
+      "options": [
+        "Standard input stream",
+        "Keyboard input buffer",
+        "Error output stream",
+        "Standard output stream"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The cout object is used for standard output in C++.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_37",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an efficient top-down parser?",
+      "options": [
+        "Recursive-descent parser",
+        "Shift-reduce parser",
+        "Non-recursive predictive parser",
+        "LR parser"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Non-recursive predictive parsers (like LL parsers with parse tables) are the most efficient top-down parsers. Recursive-descent parsers, while top-down, are not as efficient due to function call overhead and potential backtracking.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_38",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "When is the appropriate time to shut down a system?",
+      "options": [
+        "Using regular schedules",
+        "For maintenance and upgrade",
+        "To check for security alerts",
+        "When there is a failure"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Systems should be shut down for maintenance and upgrades.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_39",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "Which data structure is used to store information about the source program constructs?",
+      "options": [
+        "2D-array",
+        "Stack",
+        "Tree",
+        "Queue"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A tree structure is commonly used to represent source program constructs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_40",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "If a sequence of operations - push(1), push(2), pop, push(1), push(2), pop, pop, push(2), pop are performed on a stack, the sequence of popped out values are, _____.",
+      "options": [
+        "21, 2, 2, 1",
+        "22, 1, 1, 2",
+        "21, 2, 2, 2",
+        "22, 1, 2, 2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The sequence of operations results in the specified popped values.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_41",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "How are the objects organized in the HTML DOM?",
+      "options": [
+        "Hierarchy",
+        "Queue",
+        "Stack",
+        "Class-wise"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The HTML DOM organizes objects in a hierarchical structure.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_42",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "What is the role of a database administrator (DBA)?",
+      "options": [
+        "Designing user interfaces for database applications.",
+        "Developing front-end applications",
+        "Writing complex SQL queries.",
+        "Managing and maintaining databases."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The DBA is responsible for managing and maintaining databases.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_43",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "The user who programs a computer in machine or assembly language must be aware of the following except _____.",
+      "options": [
+        "The register set",
+        "The type of data supported by the instructions",
+        "The analysis model",
+        "The memory structure"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The analysis model is not typically a concern for low-level programming.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_44",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "A module is said to have logical cohesion if:",
+      "options": [
+        "All the functions of the module are executed within the same time span.",
+        "All elements of the module depend on their interface complexity.",
+        "It performs a set of tasks that relate to each other very loosely.",
+        "All elements of the module perform similar operations."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Logical cohesion occurs when elements perform similar operations.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_45",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "What does the if-else statement allow you to do in C++?",
+      "options": [
+        "Declare and define functions",
+        "Allocate memory dynamically",
+        "Execute a block of code only if a condition is true, otherwise execute another block of code",
+        "Repeat a block of code multiple times"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The if-else statement controls the flow of execution based on conditions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_46",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "What is the term for a named block of code that performs a specific task?",
+      "options": [
+        "Condition",
+        "Variable",
+        "Function",
+        "Loop"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A function is a named block of code that performs a specific task.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_47",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "The elements must be in sorted order in case of:",
+      "options": [
+        "Quick search",
+        "Selection search",
+        "Binary search",
+        "Linear search"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Binary search requires the elements to be sorted.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_48",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "Which OOP concept allows a class to implement multiple interfaces in Java?",
+      "options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Inheritance",
+        "Interface"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polymorphism is the concept that allows a class to implement multiple interfaces in Java. It enables objects to take on multiple forms through interface implementation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_49",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "In asymmetric cryptography, the message is decrypted using _____.",
+      "options": [
+        "Receiver's public key",
+        "Receiver's private key",
+        "Sender's private key",
+        "Sender's public key"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In asymmetric cryptography, the receiver's private key is used for decryption.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_50",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "In which phase of the compilation process does the source program get broken into its constituent parts?",
+      "options": [
+        "Semantic analysis",
+        "Syntax analysis",
+        "Synthesis",
+        "Lexical analysis"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Lexical analysis breaks the source program into tokens.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_51",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of normalization in database design?",
+      "options": [
+        "To reduce redundancy and improve data integrity.",
+        "To speed up query performance.",
+        "To create complex relationships between tables.",
+        "To encrypt sensitive data."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Normalization aims to reduce redundancy and enhance data integrity.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_52",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "What is the purpose of interfaces in Java?",
+      "options": [
+        "To create multiple constructors for a class",
+        "To define the state and behavior of an object",
+        "To define a blueprint of a class",
+        "To achieve multiple inheritance"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Interfaces in Java are primarily used to achieve a form of multiple inheritance, allowing a class to implement multiple interfaces. They provide a contract for classes to follow without dictating implementation details.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_53",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is the correct syntax for document type declaration in HTML5?",
+      "options": [
+        "</doctype html>",
+        "<!doctype! html>",
+        "<doctype! html>",
+        "<!doctype html>"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The correct syntax for HTML5 document type declaration is <!doctype html>.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_54",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "All of the following are scheduling criteria except?",
+      "options": [
+        "CPU utilization",
+        "Min Turnaround time",
+        "Max Throughput",
+        "Max Response time"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Maximum response time is not a scheduling criterion. Scheduling algorithms typically aim to minimize response time, not maximize it. The other options are valid scheduling criteria.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_55",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which string from the following is a member of the language represented by the regular expression, a*(b+c)?",
+      "options": [
+        "aab",
+        "bc",
+        "aaa",
+        "aaabc"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The string 'aab' matches the regular expression a*(b+c).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_56",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is the top-level object?",
+      "options": [
+        "Root object",
+        "Document Object",
+        "JavaScript Object",
+        "Window Object"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The Window Object is the top-level object in JavaScript.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_57",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "One of the following is not Characteristics of Java?",
+      "options": [
+        "Java is Object-Oriented",
+        "Java is Platform Independent",
+        "Java is difficult to Learn",
+        "Java is architecture neutral."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Java is designed to be easy to learn, contrary to the statement.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_58",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Which learning technique in AI involves the use of labeled examples to train a model to make predictions or decisions?",
+      "options": [
+        "Semi-supervised learning",
+        "Unsupervised learning",
+        "Supervised learning",
+        "Reinforcement learning"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Supervised learning uses labeled examples for training.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_59",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not an I/O command?",
+      "options": [
+        "Status command",
+        "Output data command",
+        "Control command",
+        "Issue command"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Issue command is not typically classified as an I/O command.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_60",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following form attributes is used to assign the server-side script file that processes the form data?",
+      "options": [
+        "Action",
+        "Autocomplete",
+        "Method",
+        "Target"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The action attribute specifies the server-side script for processing form data.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_61",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Why heuristic (A*) search method?",
+      "options": [
+        "To speed up search and edge lengths to compute optimal paths.",
+        "To find the path with the maximum distance from the start node to the goal node.",
+        "To find the path with the Non-optimal searches from node to the goal node.",
+        "To find the path with the maximum cost from the start node to the goal node."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The A* search method is designed to find optimal paths efficiently.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_62",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "What would be the asymptotic time complexity to add a node at the end of a singly linked list, if the pointer is initially pointing to the head of the list?",
+      "options": [
+        "O(n)",
+        "θ(1)",
+        "θ(n)",
+        "O(1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adding a node at the end of a singly linked list requires O(n) time complexity.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_63",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is not a type of database model?",
+      "options": [
+        "Linear",
+        "Object-Oriented",
+        "Hierarchical",
+        "Relational"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Linear is not recognized as a type of database model.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_64",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "In a classical waterfall model, which phase precedes the design phase?",
+      "options": [
+        "Requirements analysis and specification",
+        "Maintenance",
+        "Feasibility study",
+        "Coding and unit testing"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Requirements analysis and specification precedes the design phase in the waterfall model.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_65",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Which normal form ensures that there are no repeating groups in a table?",
+      "options": [
+        "Second Normal Form (2NF)",
+        "Third Normal Form (3NF)",
+        "Boyce-Codd Normal Form (BCNF)",
+        "First Normal Form (1NF)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "First Normal Form (1NF) eliminates repeating groups in a table.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_66",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which System Requirement Specification includes human-computer interface issues from the system?",
+      "options": [
+        "Functional requirements of the system",
+        "Non-functional requirements of the system",
+        "Goals of implementation",
+        "System Testing"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Non-functional requirements include human-computer interface issues.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_67",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "In computer programming, what is the purpose of control structures such as loops and conditional statements?",
+      "options": [
+        "To control the flow of program execution",
+        "To perform mathematical operations",
+        "To define the data types used in a program",
+        "To allocate memory for variables"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Control structures manage the flow of execution in a program.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_68",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "What is a characteristic feature of round-robin scheduling in both preemptive and non-preemptive forms?",
+      "options": [
+        "It assigns priorities to tasks based on their relative importance.",
+        "It always selects the task with the shortest remaining time.",
+        "It favors short tasks over long tasks.",
+        "It guarantees fairness by providing each task with an equal time slice."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Round-robin scheduling ensures fairness by giving each task an equal time slice.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_69",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "In which network topology should every computer have N - 1 I/O ports when there are N number of computers in the network?",
+      "options": [
+        "Star",
+        "Mesh",
+        "Bus",
+        "Ring"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In a mesh topology, each computer is connected to every other computer.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_70",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "If an algorithm has a running time function of 3n² + 7n + 12, what will be the complexity class of the running time?",
+      "options": [
+        "Linear",
+        "Polynomial",
+        "Constant",
+        "Exponential"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The running time function 3n² + 7n + 12 is dominated by the n² term, making it a quadratic function, which falls under the polynomial complexity class O(n²).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_71",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which database design concept is commonly used in e-commerce platforms to efficiently store and retrieve customer order information?",
+      "options": [
+        "Normalization",
+        "Denormalization",
+        "Partitioning",
+        "Indexing"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Denormalization is often used in e-commerce for performance optimization.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_72",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "Which attribute of  tag is used when we want to display a text in place of an image when, due to any reason, the image is not displayed?",
+      "options": [
+        "rep",
+        "pla",
+        "alt",
+        "im"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The 'alt' attribute provides alternative text for an image.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_73",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "Among the following which kind of algorithm is used in the Game tree to make decisions of Win/Lose?",
+      "options": [
+        "Heuristic Search Algorithm",
+        "Min/Max Algorithm",
+        "Depth First Search algorithm",
+        "Greedy Search Algorithm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The Min/Max Algorithm is used in game trees to evaluate win/lose decisions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_74",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "In data communication, data rate refers to how fast we can send data and is measured in bits per second. Which one of the following is not a factor for data rate?",
+      "options": [
+        "Travel distance",
+        "Bandwidth available",
+        "Level of noise",
+        "Levels of the signals"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Travel distance is not a direct factor affecting data rate.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_75",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "_____ is a system that monitors traffic into and out of a network and automatically alerts personnel when suspicious traffic patterns occur, indicating a possible unauthorized intrusion attempt.",
+      "options": [
+        "Anti-Virus Software",
+        "IDS",
+        "Firewall",
+        "Router"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An Intrusion Detection System (IDS) monitors network traffic for suspicious activity.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_76",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following cryptography systems uses the same key for encryption and decryption?",
+      "options": [
+        "Public key cryptography",
+        "Parallel cryptography",
+        "Asymmetric cryptography",
+        "Symmetric cryptography"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Symmetric cryptography uses the same key for both encryption and decryption.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_77",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Given a binary search tree, which traversal type would print the values in the nodes in sorted order?",
+      "options": [
+        "Pre-order",
+        "Pre-order and Post-order",
+        "In-order",
+        "Post-order"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In-order traversal of a binary search tree results in sorted order of values.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_78",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "Which software engineering principles are used to help reduce the programming complexity?",
+      "options": [
+        "Structured and unstructured",
+        "Object-oriented Design",
+        "Abstraction and Decomposition",
+        "Functional and Non-functional"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Abstraction and decomposition are key principles for reducing complexity.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_79",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "Recursion is a method in which the solution of a problem depends on _____.",
+      "options": [
+        "Larger instances of the same problem",
+        "Smaller instances of the same problem",
+        "Larger instances of different problems",
+        "Smaller instances of different problems"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Recursion relies on solving smaller instances of the same problem.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_80",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which of the following concepts in OOP allows a class to inherit attributes and methods from another class?",
+      "options": [
+        "Inheritance",
+        "Abstraction",
+        "Encapsulation",
+        "Polymorphism"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Inheritance allows a class to inherit properties and methods from another class.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_81",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "The amount of memory needed to run to completion is known as ____.",
+      "options": [
+        "Space complexity",
+        "Time complexity",
+        "Worst case",
+        "Best case"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Space complexity refers to the amount of memory required by an algorithm.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_82",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which function of modern operating systems involves managing hardware resources such as CPU, memory, and I/O devices?",
+      "options": [
+        "File management",
+        "Device management",
+        "Process management",
+        "Security management"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Device management is responsible for managing hardware resources.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_83",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Person A sends a message to person B. While the message is transmitted; person C has gained access to the message. Which category of an attack is performed by person C?",
+      "options": [
+        "Modification",
+        "Interception",
+        "Interruption",
+        "Fabrication"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Interception refers to unauthorized access to a transmitted message.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_84",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is not a reason for the need for backups?",
+      "options": [
+        "Security incidents",
+        "Upgrades and migrations",
+        "Hardware failures",
+        "Authorization"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Authorization is not a reason for needing backups.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_85",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Indexes in database tables speed up the ______ operations.",
+      "options": [
+        "Read operations",
+        "Delete operations",
+        "Update operations",
+        "Write operations"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Indexes are primarily used to speed up read operations in databases.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_86",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "One of the following is not true about Inheritance?",
+      "options": [
+        "The subclass can add variables, but cannot redefine them.",
+        "The derived class (subclass) is allowed to add methods or redefine them.",
+        "A feature that allows us to derive a class from another class.",
+        "Allows programmers to customize without actually modifying the original class (the superclass)."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Subclasses can redefine variables inherited from the superclass.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_87",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following terms refers to the techniques used for deciphering a cipher text without any knowledge of the enciphering mechanism involved?",
+      "options": [
+        "Cryptography",
+        "Cryptology",
+        "Cryptanalysis",
+        "Decryption"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Cryptanalysis is the study of deciphering encrypted information without knowledge of the key.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_88",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "In C++, what does the cout object typically represent?",
+      "options": [
+        "Standard input stream",
+        "Keyboard input buffer",
+        "Error output stream",
+        "Standard output stream"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The cout object is used for standard output in C++.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_89",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is an efficient top-down parser?",
+      "options": [
+        "Recursive-descent parser",
+        "Shift-reduce parser",
+        "Non-recursive predictive parser",
+        "LR parser"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Non-recursive predictive parsers (like LL parsers with parse tables) are the most efficient top-down parsers. Recursive-descent parsers, while top-down, are not as efficient due to function call overhead and potential backtracking.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_90",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "When is the appropriate time to shut down a system?",
+      "options": [
+        "Using regular schedules",
+        "For maintenance and upgrade",
+        "To check for security alerts",
+        "When there is a failure"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Systems should be shut down for maintenance and upgrades.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_91",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "Which data structure is used to store information about the source program constructs?",
+      "options": [
+        "2D-array",
+        "Stack",
+        "Tree",
+        "Queue"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A tree structure is commonly used to represent source program constructs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_92",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "If a sequence of operations - push(1), push(2), pop, push(1), push(2), pop, pop, push(2), pop are performed on a stack, the sequence of popped out values are, _____.",
+      "options": [
+        "21, 2, 2, 1",
+        "22, 1, 1, 2",
+        "21, 2, 2, 2",
+        "22, 1, 2, 2"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The sequence of operations results in the specified popped values.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_93",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "How are the objects organized in the HTML DOM?",
+      "options": [
+        "Hierarchy",
+        "Queue",
+        "Stack",
+        "Class-wise"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The HTML DOM organizes objects in a hierarchical structure.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_94",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "What is the role of a database administrator (DBA)?",
+      "options": [
+        "Designing user interfaces for database applications.",
+        "Developing front-end applications",
+        "Writing complex SQL queries.",
+        "Managing and maintaining databases."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The DBA is responsible for managing and maintaining databases.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_95",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "The user who programs a computer in machine or assembly language must be aware of the following except _____.",
+      "options": [
+        "The register set",
+        "The type of data supported by the instructions",
+        "The analysis model",
+        "The memory structure"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The analysis model is not typically a concern for low-level programming.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_96",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A module is said to have logical cohesion if:",
+      "options": [
+        "All the functions of the module are executed within the same time span.",
+        "All elements of the module depend on their interface complexity.",
+        "It performs a set of tasks that relate to each other very loosely.",
+        "All elements of the module perform similar operations."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Logical cohesion occurs when elements perform similar operations.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_97",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "What does the if-else statement allow you to do in C++?",
+      "options": [
+        "Declare and define functions",
+        "Allocate memory dynamically",
+        "Execute a block of code only if a condition is true, otherwise execute another block of code",
+        "Repeat a block of code multiple times"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The if-else statement controls the flow of execution based on conditions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_98",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "What is the term for a named block of code that performs a specific task?",
+      "options": [
+        "Condition",
+        "Variable",
+        "Function",
+        "Loop"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A function is a named block of code that performs a specific task.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_99",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "The elements must be in sorted order in case of:",
+      "options": [
+        "Quick search",
+        "Selection search",
+        "Binary search",
+        "Linear search"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Binary search requires the elements to be sorted.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": "q_exit_computer_science_2016_regular_melmeja_100",
+      "examId": "exit_computer_science_2016_regular_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which OOP concept allows a class to implement multiple interfaces in Java?",
+      "options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Inheritance",
+        "Interface"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polymorphism is the concept that allows a class to implement multiple interfaces in Java. It enables objects to take on multiple forms through interface implementation.",
+      "topic": "Computer Science"
+    }
+  ]
+}

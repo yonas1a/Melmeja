@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Physics University Entrance Exam 2015 featuring 50 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 75,
-  "totalQuestions": 50,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Physics University Entrance Exam 2015 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -835,6 +835,812 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Torque τ = r × F (cross product of position vector and force vector). \n\nGiven r = 4i, F = i - 3k.\n\nCompute determinant: τ = 12j N·m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_51",
+      "examId": "physics2015entrance_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "A particle has initial velocity 5 m/s and constant acceleration -2 m/s². How far does it travel before coming momentarily to rest?",
+      "options": [
+        "4.25 m",
+        "6.25 m",
+        "8.25 m",
+        "12.5 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "At the stopping point, v = 0.\n\nUsing v² = u² + 2as,\n\n0 = 25 - 4s.\n\nTherefore, s = 25/4 = 6.25 m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_52",
+      "examId": "physics2015entrance_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "Two vectors have magnitudes 8 N and 15 N and are perpendicular to each other. What is the magnitude of their resultant?",
+      "options": [
+        "7 N",
+        "17 N",
+        "23 N",
+        "120 N"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For perpendicular vectors, the resultant magnitude is R = √(A² + B²).\n\nR = √(8² + 15²) = √289 = 17 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_53",
+      "examId": "physics2015entrance_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "According to Newtonian mechanics, a body is **more stable** if:",
+      "options": [
+        "Its center of gravity is higher and its base is narrow.",
+        "Its center of gravity is lower and its base is wider.",
+        "The body is in continuous rotation.",
+        "The reaction force at the base is zero."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The wider the base on which the body rests and the closer the center of gravity of it to the base, the more stable it is[cite: 137, 138].",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_54",
+      "examId": "physics2015entrance_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": " A beam of monochromatic light strikes the shiny side of a horizontal plane mirror as shown in the figure below.\n\nWhat is its angle of reflection θr?",
+      "imageUrl": "images/P2018R2_60.png",
+      "diagramUrl": "images/P2018R2_60.png",
+      "options": [
+        "60°",
+        "50°",
+        "30°",
+        "40°"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The angle of incidence is measured between the incident ray and the normal (perpendicular) to the mirror surface.\n\n Since the mirror is horizontal, the angle between the mirror surface and the normal is 90°.\n\n Given that the angle between the incident ray and the mirror surface is 40°,\n\n the angle of incidence is 90° - 40° = 50°.\n\n By the law of reflection, the angle of reflection θ_r is equal to the angle of incidence, so θ_r = 50°.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_55",
+      "examId": "physics2015entrance_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": " The figure shown below illustrates how the mass attached to a spring oscillates along a horizontal frictionless surface between points A and B.\n\nHow can one explain the mechanical energy of the mass-spring system for this figure? Its mechanical energy is equal to its",
+      "imageUrl": "images/P2018R2_21.png",
+      "diagramUrl": "images/P2018R2_21.png",
+      "options": [
+        "elastic potential energy when the mass is at position O.",
+        "kinetic energy when the mass is at position B.",
+        "kinetic energy when the mass is at position A.",
+        "kinetic energy when the mass is at position O."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "At the equilibrium position O, the stretch/compression of the spring is zero, so elastic potential energy is zero and all mechanical energy is in the form of maximum kinetic energy.\n\n At turning points A and B, kinetic energy is zero and all energy is elastic potential energy.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_56",
+      "examId": "physics2015entrance_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": " An object of mass m = 12 kg supported by two strings is in equilibrium as shown in the figure below.\n\nIf the angle a string with tension T₁ makes from the horizontal is θ = 37°, what is the tension T₂ in the horizontal string?",
+      "imageUrl": "images/P2018R2_22.png",
+      "diagramUrl": "images/P2018R2_22.png",
+      "options": [
+        "120 N",
+        "60 N",
+        "160 N",
+        "200 N"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For equilibrium in the vertical direction: T₁ sin(37°) = mg.\n\n Using g = 10 m/s², mg = 12 × 10 = 120 N. \n\nSince sin(37°) ≈ 0.6, T₁ = 120 / 0.6 = 200 N.\n\n For equilibrium in the horizontal direction: T₂ = T₁ cos(37°).\n\n Since cos(37°) ≈ 0.8, T₂ =\n\n 200 × 0.8 = 160 N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_57",
+      "examId": "physics2015entrance_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "A projectile is launched with speed 20 m/s at an angle of 30° above the horizontal. Taking g = 10 m/s², what is its initial vertical velocity component?",
+      "options": [
+        "10 m/s",
+        "17.3 m/s",
+        "20 m/s",
+        "5 m/s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The vertical component is vᵧ = v sinθ.\n\nTherefore, vᵧ = 20 sin30° = 20 × 0.5 = 10 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_58",
+      "examId": "physics2015entrance_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "Solid sphere rolls down incline. Mass = 2 kg, radius 0.1 m, v = 1 m/s. Rotational KE?",
+      "options": [
+        "0.02 J",
+        "0.01 J",
+        "0.05 J",
+        "0.4 J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = 2/5 mR² = 0.008, ω = v/R = 10 \n\n→ KErot = 0.5*0.008*100 = 0.4 J (scaled to options).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_59",
+      "examId": "physics2015entrance_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": " Given vector A⃗ having magnitude A, a unit vector, Ûₐ, in the direction of A⃗  is defines as",
+      "options": [
+        "Ûₐ = A⃗  / A",
+        "Ûₐ = A⃗",
+        "Ûₐ = AA⃗",
+        "Ûₐ = A/A⃗"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A unit vector in the direction of a given vector is defined as the vector itself divided by its magnitude:\n\n u_A = A / A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_60",
+      "examId": "physics2015entrance_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "19. Which one of the following statements differentiates emitter, collector and base of a transistor?",
+      "options": [
+        "The emitter region is heavily doped as compared with base and collector.",
+        "The collector region is heavily doped as compared with emitter and base.",
+        "The base region is heavily doped as compared with base and collector.",
+        "The three parts, emitter, base and collector are equally doped."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "In a bipolar junction transistor (BJT), the three regions are doped to different concentrations: \n\nthe emitter is the **most heavily doped** region to maximize the injection of charge carriers;\n\n the collector is moderately doped; \nand the base is very lightly doped.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_61",
+      "examId": "physics2015entrance_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "A person runs 30m North and then 40m East. What is the magnitude of their displacement?",
+      "options": [
+        "70m",
+        "10m",
+        "50m",
+        "35m"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using the Pythagorean theorem for 2D motion: √(30² + 40²) = √(900 + 1600) = √2500 = 50m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_62",
+      "examId": "physics2015entrance_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A particle moves in a circle of radius 0.5 m with angular acceleration 4 rad/s². Find tangential acceleration after 3 s if initial angular velocity is 2 rad/s.",
+      "options": [
+        "2 m/s²",
+        "3 m/s²",
+        "6 m/s²",
+        "8 m/s²"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Tangential acceleration at = r * α = 0.5 * 4 = 2 m/s²;\n velocity after t = ω*t + 0.5*α*t² \n→ v_t = r*ω = 0.5*(2 + 4*3) =\n 0.5*14 = 7 m/s, \nat = 6 m/s².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_63",
+      "examId": "physics2015entrance_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Scalar product of two perpendicular vectors is:",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Minimum",
+        "Depends on magnitude"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A·B = |A||B|cosθ, cos90°=0.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_64",
+      "examId": "physics2015entrance_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": " A 0.20 kg ball thrown from a point 1.0 m above the ground has a kinetic energy of 40.0 J. Neglecting air resistance, what will be the kinetic energy of the ball when it reaches a height of 15.0 m above the ground?",
+      "options": [
+        "30.0 J",
+        "8.0 J",
+        "10.0 J",
+        "12.0 J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Total mechanical energy is conserved: E_initial = E_final.\n\n E_initial = KE_i + mgh_i =\n\n 40.0 J + (0.20 kg × 10 m/s² × 1.0 m) =\n\n 40.0 + 2.0 = 42.0 J. \n\nAt h = 15.0 m, E_final = \n\nKE_f + mgh_f ⇒ \n\n42.0 J = KE_f + (0.20 kg × 10 m/s² × 15.0 m) ⇒ \n\n42.0 = KE_f + 30.0 J. \n\nTherefore, KE_f = 42.0 - 30.0 = 12.0 J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_65",
+      "examId": "physics2015entrance_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "What is the direction of current flow in a circuit according to 'conventional' current?",
+      "options": [
+        "Negative to Positive",
+        "Positive to Negative",
+        "North to South",
+        "In the direction of electron flow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Conventional current is defined as the flow of positive charge, which moves from the positive terminal to the negative terminal.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_66",
+      "examId": "physics2015entrance_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "A nucleus has a half-life of 6 hours. What fraction of the original nuclei have decayed after 18 hours?",
+      "options": [
+        "1/8",
+        "3/8",
+        "5/8",
+        "7/8"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eighteen hours corresponds to three half-lives.\n\nThe remaining fraction is (1/2)^3 = 1/8.\n\nTherefore, the decayed fraction is 1 - 1/8 = 7/8.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_67",
+      "examId": "physics2015entrance_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "A stone is thrown vertically upward with an initial speed of 20 m/s. Taking g = 10 m/s², what is the maximum height reached by the stone?",
+      "options": [
+        "10 m",
+        "20 m",
+        "30 m",
+        "40 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "At maximum height, the final velocity is zero.\n\nUsing v² = u² + 2as,\n\n0 = 20² - 2(10)h.\n\nTherefore, h = 400/20 = 20 m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_68",
+      "examId": "physics2015entrance_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "A liquid is contained in a vessel open to the atmosphere. Which factor directly determines the gauge pressure at a point below the liquid surface?",
+      "options": [
+        "Only the atmospheric pressure",
+        "The density of the liquid and its depth below the surface",
+        "Only the total volume of the liquid",
+        "The shape of the container and the surface area"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The gauge pressure in a liquid at rest is given by P = ρgh.\n\nTherefore, it depends on the density of the liquid, the acceleration due to gravity, and the depth below the liquid surface.\n\nIt does not depend on the shape of the container.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_69",
+      "examId": "physics2015entrance_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": " A 5 kg object is moving to the right at a speed of 20 m/s hits the wall and rebounds to the left at a speed of 10 m/s. What is the magnitude of an impulse applied on the object?",
+      "options": [
+        "150 Ns",
+        "200 Ns",
+        "100 Ns",
+        "50 Ns"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Impulse J = Δp = m(v_final - v_initial).\n\n Taking right as positive: v_initial = +20 m/s and v_final = -10 m/s.\n\n Thus, J = 5 × (-10 - 20) =\n\n 5 × (-30) = -150 Ns.\n\n The magnitude of the impulse is 150 Ns.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_70",
+      "examId": "physics2015entrance_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "47. A $0.5 \\text{ kg}$ block moving with an initial speed of $5.0 \\text{ m/s}$ slides $2.5 \\text{ m}$ on a rough horizontal surface before coming to rest. The coefficient of kinetic friction is",
+      "options": [
+        "0.3",
+        "0.5",
+        "0.4",
+        "0.1"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the **Work-Energy Theorem**, the work done by kinetic friction ($W_f$) equals the change in kinetic energy ($\\Delta K$): $W_f = K_f - K_i$. Since the block comes to rest, $K_f = 0$.\n$$W_f = -K_i = -\\frac{1}{2} m v_0^2 = -\\frac{1}{2}(0.5)(5.0)^2 = -6.25 \\text{ J}$$ \nAlso, $W_f = -F_f d = -\\mu_k m g d$. Equating the magnitudes (using $g = 10 \\text{ m/s}^2$):\n$$6.25 = \\mu_k (0.5 \\text{ kg})(10 \\text{ m/s}^2)(2.5 \\text{ m})$$ \n$$6.25 = \\mu_k (12.5) \\implies \\mu_k = \\frac{6.25}{12.5} = 0.5$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_71",
+      "examId": "physics2015entrance_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "The pitch of a musical sound is primarily determined by its",
+      "options": [
+        "amplitude.",
+        "frequency.",
+        "speed in air.",
+        "energy loss."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Pitch is the perception associated mainly with the frequency of a sound wave.\n\nHigher frequency corresponds to higher pitch, while lower frequency corresponds to lower pitch.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_72",
+      "examId": "physics2015entrance_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "11. The gauge pressure at a point in a fluid at rest is defined as",
+      "options": [
+        "the sum of absolute pressure and atmospheric pressure.",
+        "the actual pressure at a given point relative to absolute pressure.",
+        "the atmospheric pressure difference between sea level and the local area at which the fluid exists.",
+        "the pressure difference between the absolute pressure and the atmospheric pressure."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The gauge pressure (Pg) is the pressure measured relative to the surrounding atmospheric pressure (Patm).\n\n It is the difference between the absolute pressure (Pabs) and the atmospheric pressure:\n\n Pg = Pabs - Patm.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_73",
+      "examId": "physics2015entrance_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": " For constant mass, m, Newton's second law of motion states that the acceleration of an object is",
+      "options": [
+        "directly proportional to the net force acting on it and inversely proportional to its mass.",
+        "directly proportional to both the net force acting on it and the mass of the object.",
+        "inversely proportional to the net force acting on it and directly proportional to its mass.",
+        "inversely proportional to both the net force acting on it and the mass of the object."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "According to Newton's second law of motion, a = F_net / m. \n\nThus, acceleration is directly proportional to the net force acting on the object and inversely proportional to its mass.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_74",
+      "examId": "physics2015entrance_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "According to the law of floatation, an object displaces a volume of fluid ______.",
+      "options": [
+        "equal to the weight of undisplaced fluid.",
+        "equal to its apparent weight.",
+        "less than its own weight.",
+        "equals to its own weight."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "According to the law of floatation, a floating object displaces a volume of fluid whose weight is equal to the weight of the object.\n\n This is because, for a body to float, the buoyant force (which equals the weight of the displaced fluid) must balance the weight of the object.\n\n Hence, the correct statement is that the displaced fluid has weight equal to the weight of the object.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_75",
+      "examId": "physics2015entrance_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "Three forces, each having equal magnitudes of 10N, are applied to an object on a horizontal surface. A force F1 makes an angle of 30° above positive x-axis, F2 makes 30° above the negative x-axis, and the third force F3 is directed along the positive y-axis. The magnitude and direction of their resultant force are, respectively, ______.",
+      "options": [
+        "20N 45° above positive x-axis",
+        "14.1N in the positive y- axis",
+        "20N  in the positive y-axis",
+        "14.1N 45° above positive x-axis"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "{F1 and F2 have equal and opposite x-components, so they cancel.\n\n Their y-components (10sin30° each = 5N + 5N) add with F3 (10N), giving total 20N upward along +y-axis.\"\n}",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_76",
+      "examId": "physics2015entrance_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "22. Which one of the following factors does NOT affect the moment of inertia of an object?",
+      "options": [
+        "The size of the object",
+        "The axis about which the object is rotating",
+        "The mass of the object",
+        "The angular speed of the object"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The moment of inertia (I) is a property of an object that depends on its mass (m), \nsize/mass distribution, \nand the position of the axis of rotation.\n\n It does not depend on how fast the object is rotating (its angular speed (ω).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_77",
+      "examId": "physics2015entrance_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Charged particle moves perpendicular to uniform B. Radius formula?",
+      "options": [
+        "r = mv/qB",
+        "r = qB/mv",
+        "r = m/qBv",
+        "r = Bq/mv"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Centripetal force from Lorentz:\n\n qvB = mv²/r → r = mv/qB.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_78",
+      "examId": "physics2015entrance_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "35. Which one of the following statements distinguishes precision from accuracy?",
+      "options": [
+        "Accuracy measures how exact a value is to the true value, whereas precision indicates how close a measured value is to the true value.",
+        "Precision indicates how close a measured value is to the true value, whereas accuracy refers to the closeness of repeatedly measured values to each other.",
+        "Precision is a measure of the closeness of repeatedly measured values to each other, whereas accuracy refers to the closeness of measured values to the true value.",
+        "Precision is a measure of the closeness of repeatedly measured values to each other, whereas accuracy is related to the number of significant figures."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The correct distinction is:\nPrecision refers to the closeness of agreement among repeated measurements (reproducibility).\n\nAccuracy refers to the **closeness of agreement between a measured value and the true or accepted value .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_79",
+      "examId": "physics2015entrance_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "A student wants to raise an object of mass m through a height h using an inclined plane that makes an angle θ above the horizontal. If l is the length of the inclined surface, which one of the following is correct about the actual mechanical advantage (AMA) and ideal mechanical advantage (IMA) of the inclined plane?",
+      "options": [
+        "Neglecting friction, its AMA is 1/sinθ.",
+        "Neglecting friction, its IMA is 1/cosθ.",
+        "In the presence of friction, its AMA is 1/sinθ",
+        "In the absence of friction, AMA is sinθ and its IMA is cosθ."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For an inclined plane of length l and height h, sinθ = h / l.\n\n The ideal mechanical advantage (IMA) is defined as distance moved by effort divided by distance moved by load, so IMA = l / h = 1 / sinθ. \n\nIn the absence of friction, the actual mechanical advantage (AMA) equals the IMA, hence AMA = 1 / sinθ.\n\n In the presence of friction, AMA is always less than IMA, so it cannot be equal to 1 / sinθ. \n\nTherefore, the correct statement is that neglecting friction, the AMA of the inclined plane is 1 / sinθ.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_80",
+      "examId": "physics2015entrance_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Which electromagnetic radiation generally has the highest frequency among the following?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "Infrared radiation",
+        "Gamma rays"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Gamma rays occupy the highest-frequency, shortest-wavelength region of the electromagnetic spectrum.\n\nTherefore, gamma rays have the highest frequency among the choices.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_81",
+      "examId": "physics2015entrance_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "56. The velocity-time graph of an object moving along a straight line toward east is described by the figure shown below. What is the total displacement moved by the object?",
+      "options": [
+        "525 m East",
+        "600 m East",
+        "450 m East",
+        "375 m East"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The total displacement is the area under the velocity-time graph, which consists of a rectangle (0 to 15s) and a triangle (15s to 20s). .\n\n1.  Area of Rectangle (A1):  15s * 30m/s = 450m\n\n2.  Area of Triangle (A2): 1/2 * (20-15)s * 30 m/s = 1/2 * 5 * 30 = 75m\n\nTotal Displacement:450m + 75m = 525m East.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_82",
+      "examId": "physics2015entrance_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements describe the difference between reversible and irreversible processes?",
+      "options": [
+        "In an irreversible process, a system can move from one thermodynamic state to another and back to its initial state; whereas a system in a reversible process cannot move back to its initial state.",
+        "system undergoing a reversible process is always close to thermodynamic equilibrium; whereas a system undergoing irreversible process is not in thermal equilibrium.",
+        "Ice at 0°C placed in a metallic can at 40°C undergoes a reversible process; whereas ice at 0°C placed in a metal can at 0°C undergoes an irreversible process.",
+        "process is reversible if its entropy increases, but irreversible if its entropy is constant."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "A reversible process is one in which the system remains infinitesimally close to thermodynamic equilibrium at all times, allowing it to be reversed without leaving any change in the surroundings.\n\n In contrast, an irreversible process is far from equilibrium and cannot be reversed without leaving changes in the surroundings.\n\n Therefore, the correct statement is: 'A system undergoing a reversible process is always close to thermodynamic equilibrium; whereas a system undergoing an irreversible process is not in thermal equilibrium.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_83",
+      "examId": "physics2015entrance_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about satellite motion?",
+      "options": [
+        "satellite moving closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+        "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one.",
+        "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about Moon.",
+        "satellite closer to Earth is faster than a satellite farther from the Earth."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "According to orbital mechanics, the orbital speed of a satellite is given by:- \n\nv = √(GM/r), where r is the distance from the center of the Earth.\n\n Therefore, a satellite closer to Earth (smaller r) moves faster than one farther away.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_84",
+      "examId": "physics2015entrance_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Beta minus decay emits:",
+      "options": [
+        "Proton",
+        "Alpha particle",
+        "Electron and antineutrino",
+        "Photon"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A neutron transforms into a proton, emitting an electron and an antineutrino.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_85",
+      "examId": "physics2015entrance_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "7. What amount of heat energy is required to completely melt 200 g of ice at $0^{\\circ} C$? (Take specific latent heat of melting for ice, $L_f = 3.3\\times 10^5 J/kg$)",
+      "options": [
+        "Zero",
+        "1.65\\times 10^5 J",
+        "1.65\\times 10^3 J",
+        "6.60\\times 10^4 J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The heat energy ($Q$) required for a phase change (melting) is given by $Q = m L_f$.\n1. Convert mass to kg: $m = 200 \\text{ g} = 0.200 \\text{ kg}$.\n2. Calculate $Q$:\n$$Q = (0.200 \\text{ kg}) \\times (3.3 \\times 10^5 \\text{ J/kg}) = 0.66 \\times 10^5 \\text{ J} = 6.6 \\times 10^4 \\text{ J}$$",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_86",
+      "examId": "physics2015entrance_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A refracting telescope has an objective lens with a long focal length and an eyepiece with a short focal length. The main purpose of the objective lens is to",
+      "options": [
+        "produce sound from the distant object.",
+        "collect light and form the initial image.",
+        "reduce the wavelength of light to zero.",
+        "act as a plane mirror."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The objective lens of a refracting telescope collects light from a distant object and forms a real image near its focal plane.\n\nThe eyepiece then magnifies this image for observation.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_87",
+      "examId": "physics2015entrance_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "40. A combination of logic gate is constructed from an NAND gate and an OR gate, as shown in the diagram below. The truth table for the logic circuit shown above is",
+      "options": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The logical expression for the circuit is $Y = P + (\\overline{P \\cdot Q})$, where the NAND gate output is $\\overline{P \\cdot Q}$, and the OR gate combines $P$ and the NAND output.\n\nApplying the truth table:\n* **P=0, Q=0:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=0, Q=1:** NAND output is 1. OR output is $0 + 1 = 1$.\n* **P=1, Q=0:** NAND output is 1. OR output is $1 + 1 = 1$.\n* **P=1, Q=1:** NAND output is 0. OR output is $1 + 0 = 1$.\n\nThe final output is always **1** (True), which corresponds to the truth table in **Option C** .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_88",
+      "examId": "physics2015entrance_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": " Which of the following distinguishes between N-type and P-type semiconductors? In an N-type semiconductor,",
+      "options": [
+        "conduction is caused by the holes, whereas in a P-type semiconductor, conduction is caused by electrons.",
+        "group three element in the periodic table is added to an intrinsic semiconductor, whereas in a P-type, a group five element is added.",
+        "group five dopant provides extra electrons, whereas in a P-type semiconductor, a group three dopant creates holes.",
+        "the dopant has less number of valence electrons than the pure semiconductor, whereas in a P-type, the dopant has more number of valence electrons."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "N-type semiconductors are created by doping intrinsic semiconductors (Group IV) with pentavalent (Group V) impurities, providing free electrons.\n\n P-type semiconductors are created using trivalent (Group III) impurities, which create electron deficits (holes).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_89",
+      "examId": "physics2015entrance_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "An object that is partially or fully submerged in a fluid experiences an upward force from the fluid. The apparent weight of the object is the weight of the",
+      "options": [
+        "fluid it displaces.",
+        "object in air minus the buoyant force.",
+        "object in air.",
+        "fluid it displaces minus the buoyant force."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "According to **Archimedes' Principle**, the upward buoyant force on the submerged object is equal to the weight of the fluid displaced. The **apparent weight** of the object when submerged is its actual weight (weight in air) reduced by the buoyant force. Therefore, Apparent Weight = Weight in air - Buoyant Force.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_90",
+      "examId": "physics2015entrance_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "49. A small ball of mass $m$ tied to a rope of length $L$ is moving along a vertical circle about a point O as shown in the figure. If A, B, C, and D are points on the path, then which one of the following is correct about the force exert on the ball at these points?",
+      "options": [
+        "At point D, the radial force is equal to the tension on the rope.",
+        "At point C, the radial force and the tension on the rope are in opposite direction.",
+        "At point B, the radial force is equal to the gravitational force on the ball.",
+        "At point A, the radial force is in opposite direction to the gravitational force on a ball."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The **radial force** ($F_c$) is the net force component directed toward the center of the circle (O). At point D (level with O), the gravitational force ($mg$) is tangential (downward) and the tension ($T$) is radial (horizontal, towards O). Since the net radial force is the sum of all radial components, and $T$ is the only radial component, the radial force $F_c$ must be equal to the tension $T$. .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_91",
+      "examId": "physics2015entrance_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "In fluid at rest, pressure at a point is:",
+      "options": [
+        "Varies with direction",
+        "Same in all directions",
+        "Zero",
+        "Depends on velocity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Pascal’s principle: pressure transmitted equally.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_92",
+      "examId": "physics2015entrance_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Resistor 5 Ω connected across 20 V. Power dissipated?",
+      "options": [
+        "80 W",
+        "40 W",
+        "100 W",
+        "50 W"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "P=V²/R=400/5=80 W.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_93",
+      "examId": "physics2015entrance_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "54. Two objects, object A of mass m and object B of mass $2m$ are placed at heights h1 and h2, respectively, from the surface of the earth. Assuming that the gravitational field strength is constant, the potential energy of object A is twice of that of object B, if",
+      "options": [
+        "h1 = 1/4 h2.",
+        "h1 = 4h2.",
+        "h1 = 1/2h2.",
+        "h1 = 2h2."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The gravitational potential energy (PE) is given by PE = mgh. \n\nWe are given the condition: PEA = 2 *PEB. \n\nSubstituting the expressions:\nmAgh1 = 2 (mBgh2)\n(m)gh1 = 2(2m)gh2\n\nCancelling the common term mg from both sides:\nh1 = 4h2 .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_94",
+      "examId": "physics2015entrance_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Resistor 10 Ω, capacitor 2 μF in DC 12 V. Initial current?",
+      "options": [
+        "1.2 A",
+        "0.6 A",
+        "0 A",
+        "2 A"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "t=0 capacitor behaves as short → I = V/R = 12/10 = 1.2 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_95",
+      "examId": "physics2015entrance_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following statements is correct about transverse and longitudinal waves?",
+      "options": [
+        "The directions of wave motion and vibration of the particles are parallel for transverse waves and perpendicular for longitudinal waves.",
+        "Waves on a string are longitudinal whereas sound waves are transverse.",
+        "The directions of wave motion and vibration of particles are parallel for longitudinal waves but perpendicular for transverse waves.",
+        "longitudinal wave comprises a series of crests and troughs, whereas a transverse wave comprises a series of compressions and rarefactions."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "In a **longitudinal wave**, the particles vibrate **parallel** to the direction of wave motion (e.g., sound waves).  In a **transverse wave**, the particles vibrate **perpendicular** to the direction of wave motion (e.g., waves on a string, light waves).  Option C accurately states this relationship. Option D is incorrect; transverse waves have crests and troughs, and longitudinal waves have compressions and rarefactions.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_96",
+      "examId": "physics2015entrance_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A 100W light bulb is used for 10 hours. How much energy is consumed in kilowatt-hours (kWh)?",
+      "options": [
+        "1000 kWh",
+        "10 kWh",
+        "1 kWh",
+        "0.1 kWh"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Energy = Power * Time. 100W = 0.1 kW.\n\n Energy = 0.1 kW * 10 h = 1 kWh.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_97",
+      "examId": "physics2015entrance_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "Two resistors 8 Ω and 12 Ω in parallel. Equivalent resistance?",
+      "options": [
+        "4.8 Ω",
+        "5 Ω",
+        "10 Ω",
+        "20 Ω"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "1/Req = 1/8 + 1/12 =\n\n 5/24 → Req = 24/5 = 4.8 Ω.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_98",
+      "examId": "physics2015entrance_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Projectile fired horizontally at 50 m/s from 80 m height. Time to hit ground?",
+      "options": [
+        "3 s",
+        "4.04 s",
+        "5 s",
+        "6 s"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "t = √(2h/g) = √(160/9.8) ≈ 4.04 s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_99",
+      "examId": "physics2015entrance_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "53. Which of the following statement describes inertia of an object?",
+      "options": [
+        "It makes to change state of rest of the object.",
+        "is a physical quantity which has a unit of mass.",
+        "increases with increasing mass of the object.",
+        "increases with an increasing velocity of the object."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Inertia is the property of an object that resists any change in its state of motion (or rest).\n\n The quantitative measure of inertia is mass.\n\n Therefore, the inertia of an object increases proportionally with its mass.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2015entrance_melmeja_100",
+      "examId": "physics2015entrance_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which nuclear radiation is essentially a Helium nucleus?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Positron"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "An alpha particle consists of two protons and two neutrons, which is identical to a Helium-4 nucleus.",
       "topic": "Physics"
     }
   ]

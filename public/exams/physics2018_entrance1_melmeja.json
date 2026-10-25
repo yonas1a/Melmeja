@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 12 Entrance",
-  "description": "Ethiopian Physics University Entrance Exam 2018 featuring 60 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
-  "durationMinutes": 90,
-  "totalQuestions": 60,
-  "passMarkPercent": 60,
+  "description": "Ethiopian Physics University Entrance Exam 2018 featuring 100 authentic questions with step-by-step solutions. Designed for Ethiopian national exam mastery.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -1005,6 +1005,654 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "For a projectile launched and landing at the same level, the range is R = v²sin2θ/g.\n\nThe maximum height is h = v²sin²θ/(2g).\n\nDividing the range by the maximum height gives R/h = 4cotθ.\n\nFor θ = 45°, cot45° = 1, so R = 4h.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_61",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "A particle moves under a force F = (6i + 8j) N. Its mass is 2 kg. Find its acceleration vector.",
+      "options": [
+        "(3i + 4j) m/s²",
+        "(6i + 8j) m/s²",
+        "(1i + 1j) m/s²",
+        "(2i + 3j) m/s²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "a = F/m = \n\n(6/2)i + (8/2)j = 3i + 4j m/s².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_62",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": " A correct schematic symbol for a diode is",
+      "imageUrl": "images/P2018R2_32.png",
+      "diagramUrl": "images/P2018R2_32.png",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The standard schematic symbol for a semiconductor diode consists of a triangle pointing towards a vertical line. \n\nThe side with the flat base of the triangle is the Anode (positive side), and the side with the vertical line/bar is the Cathode (negative side).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_63",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "A wave has amplitude 0.20 m and frequency 5 Hz. Which statement is correct?",
+      "options": [
+        "Its period is 0.20 s.",
+        "Its wavelength must be 0.20 m regardless of its speed.",
+        "Its period is 5 s.",
+        "Its frequency is 0.20 Hz."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Period and frequency are related by T = 1/f.\n\nFor f = 5 Hz, T = 1/5 = 0.20 s.\n\nThe wavelength cannot be determined without knowing the wave speed.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_64",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "A 600 N load is lifted by an effort of 150 N using a simple machine whose velocity ratio is 5. What is the efficiency of the machine?",
+      "options": [
+        "60%",
+        "70%",
+        "80%",
+        "90%"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Mechanical advantage is MA = load/effort = 600/150 = 4.\n\nEfficiency is η = MA/VR = 4/5 = 0.80.\n\nTherefore, the efficiency is 80%.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_65",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "A parallel-plate capacitor is charged to voltage V and then disconnected from the battery. A dielectric material with dielectric constant 4 is inserted completely between its plates. What happens to its stored energy?",
+      "options": [
+        "It becomes four times larger.",
+        "It becomes twice as large.",
+        "It becomes one-fourth as large.",
+        "It remains unchanged."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "After the battery is disconnected, charge remains constant.\n\nThe energy is U = Q²/(2C).\n\nInsertion of a dielectric increases capacitance by a factor of 4, so the energy decreases by a factor of 4.\n\nThus, the new energy is one-fourth of the original.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_66",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "An FM radio signal is transmitted from a radio station at a frequency of 1.5 * 10⁸Hz. If the wavelength of the radio wave is 2.00 m, the speed of the FM signal is",
+      "options": [
+        "6.00 * 10⁸ m/s",
+        "1.33 * 10⁻⁸ m/s",
+        "3 * 10⁸ m/s",
+        "0.75 * 10⁸ m/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The speed of a wave is given by v = f * λ.\n\n Here, f = 1.5 × 10⁸ Hz and λ = 2.00 m.\n\n So, v = 1.5 ×10⁸ * 2 = 3 × 10⁸ m/s. \n\nHence, the speed of the FM signal is 3 ×10⁸ m/s",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_67",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "A 30 µF capacitor is charged to 18 V. How much energy does it contain?",
+      "options": [
+        "2.46 × 10⁻³ J",
+        "5.40 × 10⁻⁴ J",
+        "9.72 × 10⁻³ J",
+        "4.86 × 10⁻³ J"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Energy stored in a capacitor U = ½ C V² \n\n= ½ × (30 × 10⁻⁶ F) × (18 V)² \n\n= 15 × 10⁻⁶ × 324 \n\n= 4860 × 10⁻⁶ J \n\n= 4.86 × 10⁻³ J.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_68",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements is NOT correct about reflection and refraction of sound waves and their applications?",
+      "options": [
+        "In pre-natal scanning, reflection and refraction of sound allows doctors to monitor the progress of a developing baby.",
+        "Reflection of sound (echo) is formed when sound enters a medium of varying density.",
+        "Reflection and refraction of sound are used to detect flaws in metals and to help people park their cars.",
+        "Refraction of sound is the change in its direction as it travels through a medium having different densities."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An echo is formed due to the reflection of sound from a surface, not when it enters a medium of different density.\n\n Refraction involves bending due to changing medium, whereas reflection involves bouncing off a surface.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_69",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "A battery has emf 12 V and internal resistance 1 Ω. If it supplies a current of 2 A to an external circuit, what is the terminal voltage?",
+      "options": [
+        "8 V",
+        "10 V",
+        "12 V",
+        "14 V"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a discharging battery, terminal voltage is V = E - Ir.\n\nV = 12 - 2(1) = 10 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_70",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": " A 5 kg object is moving to the right at a speed of 20 m/s hits the wall and rebounds to the left at a speed of 10 m/s. What is the magnitude of an impulse applied on the object?",
+      "options": [
+        "150 Ns",
+        "200 Ns",
+        "100 Ns",
+        "50 Ns"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Impulse J = Δp = m(v_final - v_initial).\n\n Taking right as positive: v_initial = +20 m/s and v_final = -10 m/s.\n\n Thus, J = 5 × (-10 - 20) =\n\n 5 × (-30) = -150 Ns.\n\n The magnitude of the impulse is 150 Ns.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_71",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "An electromagnetic wave has a frequency of 6.0 × 10¹⁴ Hz. Taking the speed of light as 3.0 × 10⁸ m/s, what is its wavelength?",
+      "options": [
+        "2.0 × 10⁻⁷ m",
+        "5.0 × 10⁻⁷ m",
+        "2.0 × 10⁻⁶ m",
+        "5.0 × 10⁻⁶ m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The wave equation is c = fλ.\n\nTherefore, λ = c/f = (3.0 × 10⁸)/(6.0 × 10¹⁴) = 5.0 × 10⁻⁷ m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_72",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "An electron moving with a speed of 2.2 * 10⁷ m/s east enters in the region of magnetic field strength of 5.0 * 10⁻⁴ T directed north. What is the magnetic force experienced by the electron?",
+      "options": [
+        "1.76 * 10⁻¹⁵N, perpendicular to north and east directions",
+        "8 * 10⁻¹⁵ N, perpendicular to north and east directions",
+        "3.64 * 10⁻³⁰ N  towards east direction",
+        "1.76 * 10⁻¹⁵ N towards north direction"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Magnetic force on a moving charge: F = |q| * v * B * sinθ.\n\n Here, velocity is east and B is north → angle θ = 90°, sinθ = 1. \n\nF = 1.6 × 10⁻¹⁹ * 2.2 × 10⁷ * 5.0 × 10⁻⁴ ≈ 1.76 × 10⁻¹⁵ N. \n\nThe force is perpendicular to both velocity and magnetic field, i.e., perpendicular to east and north directions (upward or downward depending on electron's sign).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_73",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "1. What do you call the sound wave that is heard after reflection from a hard surface?",
+      "options": [
+        "Timber",
+        "Pitch",
+        "Loudness",
+        "Echo"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The term for a sound wave that is reflected back to the listener from a hard surface is an Echo.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_74",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "Suppose you are standing on a horizontal floor, in a room, with one of your feet and leaning the wall of the room with the other foot. The number of action reaction pair of forces you experience is",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "According to Newton’s third law, forces occur in action–reaction pairs acting on different bodies.\n\nThe forces involving you are:\n\n1. Gravitational force exerted by the Earth on you (reaction: you exert an equal force on the Earth).\n\n2. Normal force exerted by the floor on your foot (reaction: your foot exerts an equal force on the floor).\n\n3. Normal force exerted by the wall on your foot/body (reaction: you exert an equal force on the wall).\n\nThus, you experience 3 action–reaction pairs of forces.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_75",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "A 2 kg block of ice at 0°C absorbs 668,000 J of heat and melts completely. What is the approximate latent heat of fusion of ice?",
+      "options": [
+        "167,000 J/kg",
+        "334,000 J/kg",
+        "668,000 J/kg",
+        "1.34 × 10⁶ J/kg"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "During melting, Q = mL.\n\nTherefore, L = Q/m = 668,000/2 = 334,000 J/kg.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_76",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "A transistor has a collector current of 4.8 mA and a base current of 0.08 mA. What is its current gain β?",
+      "options": [
+        "6",
+        "20",
+        "60",
+        "600"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Current gain is β = I_C/I_B.\n\nTherefore, β = 4.8/0.08 = 60.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_77",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "A wheel of radius, r starts rotating about an axis passing through its center and accelerates with angular acceleration, α until its angular speed reaches ω. During this process, it rotates an angular displacement, θ. Which one of the following relations between linear components of a point at a rim of the wheel and its angular components is correct? (Assume all angular components are given in radian)",
+      "options": [
+        "The centripetal acceleration at the point is a_cent = α · r.",
+        "The centripetal acceleration at the point is a_cent = ω² · r.",
+        "The tangential acceleration of the point is aₜ = ω² · r.",
+        "The tangential velocity of the point is vₜ = ω / r."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Centripetal (radial) acceleration is given by a_cent = v²/r = ω² · r.\n\n Tangential acceleration is a_t = α ·\n\n r, and tangential velocity is v_t = ω · r.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_78",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "The unit vector in the direction of A = 3i+4j is ______.",
+      "options": [
+        "3i/5 +4j/5",
+        "2i-j",
+        "3i/2+4j/2",
+        "i+j"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "\"The unit vector in the direction of a vector A is given by u = A / |A|.\n\n Here, |A| = √(3² + 4²) = 5.\n\n Therefore, u = (3i + 4j) / 5 = 3i/5 + 4j/5.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_79",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": " In aviation technology, a logic gate is used to fit an automatic circuit to light up a display in an airplane if two toilets are in use. Which one of the following logic gates is used in designing a circuit?",
+      "options": [
+        "OR",
+        "NAND",
+        "NOT",
+        "AND"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "An AND gate outputs a HIGH signal (1) only when BOTH input conditions are met (i.e., toilet 1 AND toilet 2 are both in use).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_80",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "Two resistors of 6 Ω and 3 Ω are connected in parallel to a 12 V source. What is the total current supplied by the source?",
+      "options": [
+        "2 A",
+        "4 A",
+        "6 A",
+        "8 A"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The equivalent resistance is 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω.\n\nThe total current is I = V/R = 12/2 = 6 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_81",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which of the following statements describe the use of energy resources?",
+      "options": [
+        "Solar energy produced by photovoltaic cells is free of greenhouse gases and has a very low running cost.",
+        "Hydroelectric power generates a large amount of energy using small dams with little environmental impact and cheap initial cost of construction.",
+        "Geothermal energy is the most accessible, environmental friendly and inexpensive source of energy.",
+        "Wind energy, which is due to the pressure difference in space as the result of uneven sun heat, is a consistent and economical source of energy."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Solar PV produces no greenhouse gases during use and has low running cost; others are incorrect due to environmental impact, accessibility, or inconsistency.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_82",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "A wave has a period of 0.020 s and travels at 300 m/s. What is its wavelength?",
+      "options": [
+        "0.006 m",
+        "6 m",
+        "15 m",
+        "6000 m"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Frequency is f = 1/T = 50 Hz.\n\nUsing v = fλ,\n\nλ = v/f = 300/50 = 6 m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_83",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "One of the following statements is a correct description of the charging processes?",
+      "options": [
+        "During charging a neutral object by induction using a negatively charged rod, charge flows from the rod to the object.",
+        "When a neutral metallic sphere is charged by induction using a negatively charged rod, the sphere acquires a net negative charge.",
+        "When a positively charged object is momentarily brought into contact with a neutral metallic sphere, the sphere acquires a net positive charge.",
+        "When a plastic rod is rubbed with wool, the two objects acquire a net charge of the same sign."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Touching a neutral sphere with a positive object removes electrons, so the sphere becomes positive.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_84",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "Standing wave is formed when two identical waves travelling in opposite directions in the same medium interfere with each other. If y1 and y2 are the interfering waves and y = y1 + y2 is the resulting standing wave, which of the following is a correct combination?",
+      "options": [
+        "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = Asin(kx)cos(2ωt)",
+        "y1 = Asin(kx - ωt), y2 = Asin(kx +  ωt), y = 2Asin(kx)cos(ωt)",
+        "y1 = Asin(kx - ωt), y2 = Asin(kx -  ωt), y = 2Asin(kx)sin(ωt)",
+        "y1 = Asin(kx - ωt), y2 = Acos(kx +  ωt), y = 2Asin(kx -ωt)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "{Two identical waves traveling in opposite directions are y1 = Asin(kx − ωt) and y2 = Asin(kx + ωt).\n\n Adding them using sinA + sinB = 2sin((A+B)/2)cos((A−B)/2) gives y = 2Asin(kx)cos(ωt), which matches option 2.}",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_85",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "Two-point charges q₁ = 12 µC and q₂ = -6 µC placed on a horizontal surface along the x-axis at x = 0 and x = 4 cm respectively. The electric force on",
+      "options": [
+        "q₁ due to q₂ is 405 N, toward positive x-axis.",
+        "q₂ due to q₁ is 810 N, toward negative x-axis.",
+        "q₂ due to q₁ is 810 N, toward positive x-axis.",
+        "q₁ due to q₂ is 405 N, toward negative x-axis."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Coulomb's Law magnitude F = (k · |q₁ · q₂|) / r² \n\n= (8.99 × 10⁹ × 12 × 10⁻⁶ × 6 × 10⁻⁶) / (0.04)² \n\n= 0.64728 / 0.0016 =\n\n 404.55 N ≈ 405 N . \n\nSince charges are opposite (+12 µC and -6 µC), they attract each other. \n\nTherefore, q₁ is pulled towards positive x-axis (towards q₂),\n\n so force on q₁ due to q₂ is 405 N, toward positive x-axis.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_86",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "A nucleus emits an alpha particle. How does its atomic number and mass number change?",
+      "options": [
+        "Atomic number decreases by 2 and mass number decreases by 4.",
+        "Atomic number decreases by 4 and mass number decreases by 2.",
+        "Atomic number increases by 2 and mass number decreases by 4.",
+        "Atomic number decreases by 2 and mass number remains unchanged."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "An alpha particle contains two protons and two neutrons.\n\nTherefore, emission of an alpha particle decreases the atomic number by 2 and the mass number by 4.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_87",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "A car travels the first half of a journey at 30 km/h and the second half at 60 km/h. What is its average speed for the complete journey?",
+      "options": [
+        "40 km/h",
+        "45 km/h",
+        "50 km/h",
+        "90 km/h"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "For equal distances traveled at speeds v₁ and v₂, the average speed is the harmonic mean:\n\nv_avg = 2v₁v₂/(v₁ + v₂).\n\nTherefore, v_avg = 2(30)(60)/(30 + 60) = 40 km/h.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_88",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "Three resistors of 4 Ω, 6 Ω and 12 Ω are connected in parallel. What is their equivalent resistance?",
+      "options": [
+        "1 Ω",
+        "2 Ω",
+        "4 Ω",
+        "22 Ω"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For parallel resistors, 1/R = 1/4 + 1/6 + 1/12.\n\nThe common denominator gives 3/12 + 2/12 + 1/12 = 6/12 = 1/2.\n\nTherefore, R = 2 Ω.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_89",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "A 30kg rigid body has a moment of inertia 45 kgm² about its center of mass. What is the moment of inertia when it rotates through an axis 2m away and parallel to the axis through the center of mass?",
+      "options": [
+        "90 kgm²",
+        "165 kgm²",
+        "180 kgm²",
+        "105 kgm²"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the parallel axis theorem: I = I_cm + Md²\n\nWhere:-  I_cm = 45 kg·m² (moment of inertia about center of mass)\n\n- M = 30 kg (mass of the body)\n\n- d = 2 m (distance between axes)\n\nI = 45 + 30*(2)² = 45 + 30*4 = 45 + 120 = 165 kg·m²\n\nTherefore, the moment of inertia about the new axis is 165 kg·m².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_90",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "Circular paths followed by two charges q1 and q2 moving with the same speed in a uniform magnetic field directed into the page (times) are shown in the figure below. If the two charges have the same mass, which of the following is correct about the sign and the magnitude of charges?",
+      "imageUrl": "images/P2014_28.png",
+      "diagramUrl": "images/P2014_28.png",
+      "options": [
+        "q1 is negative, q2 is positive and |q1| < |q2|.",
+        "q1 is negative, q2 is positive and |q1| > |q2|.",
+        "q1 is positive, q2 is negative and |q1| > |q2|.",
+        "q1 is positive, q2 is negative and |q1| < |q2|."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using right-hand rule: in a magnetic field into the page, clockwise motion means positive charge and anticlockwise means negative.\n\n So q1 is positive and q2 is negative.\n\n Also, larger radius means smaller charge (r = mv / |q|B).\n\n Since q1 has larger radius, |q1| < |q2|.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_91",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "An airplane takes-off at airport A and travels 500 km due east within one hour and then turning to south it flies for 20 minutes to land on airport B which is 100 km away from the turning point. The magnitude average velocity of the plane during its flight between the two airports is",
+      "options": [
+        "75√24 km/hr",
+        "100√34 km/hr",
+        "450 km/hr",
+        "75√26 km/hr"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Average velocity magnitude = total displacement / total time.\n\nDisplacement vector: east 500 km, south 100 km → magnitude = √(500² + 100²) = √(250000 + 10000) = √260000 = 510 km approx.\n\nTotal time = 1 + 1/3 = 4/3 hr.\n\nAverage velocity = 510 / (4/3) ≈ 382.5 km/hr ≈ 75√26 km/hr.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_92",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": " Three open cylindrical containers, 1, 2, and 3, of the same height but different base areas are filled totally with the same liquid as shown in the figure below.\n\nIf P₁ is the pressure at the bottom of container 1, P₂ is the pressure at the bottom of container 2, and P₃ is the pressure at the bottom of container 3, then",
+      "imageUrl": "images/P2018R2_14.png",
+      "diagramUrl": "images/P2018R2_14.png",
+      "options": [
+        "P₃ > P₁ > P₂",
+        "P₂ > P₁ > P₃",
+        "P₁ = P₂ = P₃",
+        "P₁ > P₂ > P₃"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Hydrostatic pressure at depth h is given by P = ρgh. \n\nSince all three containers have the same liquid density (ρ) and equal height (h), the pressure at the bottom depends only on depth, not the base area or volume.\n\n Thus, P₁ = P₂ = P₃.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_93",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "Two resistors R1 = 1Ω and R2 = 4Ω are connected in parallel to each other and their combination is connected in series with a third resistor R3 = 2Ω. The whole combination is connected to a voltage source of Potential difference 14V. The potential difference across R1 is ______.",
+      "imageUrl": "images/P2014_15.png",
+      "diagramUrl": "images/P2014_15.png",
+      "options": [
+        "10 V",
+        "14 V",
+        "5 V",
+        "4 V"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "First, find the equivalent resistance of R1 and R2 in parallel:\n\n 1/Rp = 1/1 + 1/4 = 5/4,\n\n so Rp = 4/5 = 0.8 Ω.\n Then add R3 in series: Rtotal = 0.8 + 2 = 2.8 Ω.\n\n Next, calculate total current: I = V/R = 14 / 2.8 = 5 A.\n\n The voltage across the parallel combination is Vp = I × Rp = 5 × 0.8 = 4 V.\n\n Since R1 is in parallel with R2, the voltage across R1 is the same as Vp, which is 4 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_94",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": " One of the basic differences between conventional x-ray and CT scan is that in CT scan",
+      "options": [
+        "stationary x-ray source is used where as in conventional x-ray a rotating x-ray source is used.",
+        "rotating ultrasound source is used whereas in conventional x-ray a stationary x-ray source is used.",
+        "many successive images are gained whereas in conventional x-ray a single shadow image is gained.",
+        "the image provides inadequate information, whereas in conventional x-ray, the image provides more detailed information."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "CT scans take multiple successive cross-sectional X-ray images from different angles to construct 3D cross-sectional views, whereas a conventional X-ray produces a single 2D shadow image.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_95",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": " A satellite orbits around the Earth with a mean orbital radius of R. If the mass of the Earth is Mₑ, how long does the satellite take to orbit the earth?",
+      "options": [
+        "1/(2π) √(R³/GMₑ)",
+        "2π √(R²/GMₑ)",
+        "2π √(R³/GMₑ)",
+        "1/(2π) √(R²/GMₑ)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The gravitational force provides the centripetal force needed for the satellite's circular orbit.\n\n Therefore, GMₑm/R² = mv²/R. \n\nSince the orbital speed is v = 2πR/T,\n\n substituting this into the equation gives\n\n T² = 4π²R³/(GMₑ).\n\n Taking the square root, T = 2π√(R³/GMₑ).\n\n Therefore, the correct answer is C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_96",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "A satellite moves in a circular orbit around a planet with orbital radius 4R. Another satellite orbits the same planet at radius R. What is the ratio of their orbital speeds, v₄R/v_R?",
+      "options": [
+        "1/4",
+        "1/2",
+        "2",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "For a circular gravitational orbit, orbital speed is v = √(GM/R).\n\nTherefore, v ∝ 1/√R.\n\nHence, v₄R/v_R = √(R/4R) = 1/2.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_97",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "A 2 kg object falls freely from a height of 20 m. Neglecting air resistance and taking g = 10 m/s², what is its speed just before reaching the ground?",
+      "options": [
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "40 m/s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Using v² = u² + 2gh with u = 0,\n\nv² = 2(10)(20) = 400.\n\nTherefore, v = 20 m/s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_98",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "A force F = (i -3k) N acts on a wooden bar and drags the bar through a displacement of r = 4i m. What is the torque due to the force in N.m?",
+      "options": [
+        "4i + 12j",
+        "-12j",
+        "12j",
+        "12k"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Torque τ = r × F (cross product of position vector and force vector). \n\nGiven r = 4i, F = i - 3k.\n\nCompute determinant: τ = 12j N·m.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_99",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "An electron moves perpendicular to a magnetic field of 0.50 T at 4.0 × 10⁶ m/s. What is the magnitude of the magnetic force? Take e = 1.6 × 10⁻¹⁹ C.",
+      "options": [
+        "3.2 × 10⁻¹³ N",
+        "1.6 × 10⁻¹³ N",
+        "8.0 × 10⁻¹⁴ N",
+        "3.2 × 10⁻¹⁴ N"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The magnetic force magnitude is F = |q|vBsin90°.\n\nF = (1.6 × 10⁻¹⁹)(4.0 × 10⁶)(0.50).\n\nTherefore, F = 3.2 × 10⁻¹³ N.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_physics2018_entrance1_melmeja_100",
+      "examId": "physics2018_entrance1_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Assume that a ball is thrown horizontally from a building of height $h$ above the ground with initial speed $v_0$. Which one of the following statements is correct about the motion of the object?",
+      "options": [
+        "Its horizontal component acceleration is zero.",
+        "Its vertical component velocity remains constant.",
+        "Its vertical component acceleration is zero.",
+        "Its horizontal component velocity uniformly increases."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "When an object is thrown horizontally, its motion is a type of projectile motion. We analyze the motion in two perpendicular components:\n* **Horizontal Motion:** Assuming negligible air resistance, there are no horizontal forces acting on the ball, so the **horizontal acceleration is zero** ($a_x = 0$). This means the horizontal component of the velocity ($v_x$) remains constant ($v_x = v_0$). Thus, option A is correct and option D is incorrect.\n* **Vertical Motion:** The only force acting on the ball is gravity, which causes a constant downward acceleration $a_y = -g$ (where $g$ is the acceleration due to gravity). This means the **vertical velocity is *not* constant** (it increases in magnitude downward), and the **vertical acceleration is *not* zero**. Thus, options B and C are incorrect.",
       "topic": "Physics"
     }
   ]

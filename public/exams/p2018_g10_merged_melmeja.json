@@ -5,10 +5,10 @@
   "subCategory": "Physics",
   "department": "Physics",
   "grade": "Grade 10",
-  "description": "Comprehensive examination bank combining 9 chapters (22 questions). Official Ethiopian national curriculum.",
-  "durationMinutes": 33,
-  "totalQuestions": 22,
-  "passMarkPercent": 60,
+  "description": "Comprehensive examination bank combining 9 chapters (100 questions). Official Ethiopian national curriculum.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "passMarkPercent": 50,
   "isFree": false,
   "packageRequired": "ALL_IN_ONE",
   "difficulty": "Standard National",
@@ -383,6 +383,1254 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "The angle of incidence is measured between the incident ray and the normal (perpendicular) to the mirror surface.\n\n Since the mirror is horizontal, the angle between the mirror surface and the normal is 90°.\n\n Given that the angle between the incident ray and the mirror surface is 40°,\n\n the angle of incidence is 90° - 40° = 50°.\n\n By the law of reflection, the angle of reflection θ_r is equal to the angle of incidence, so θ_r = 50°.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_23",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 23,
+      "questionType": "single_choice",
+      "questionText": "Which of the following quantities is a vector quantity?",
+      "options": [
+        "Force",
+        "Mass",
+        "Speed",
+        "Time"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Force has both magnitude and direction, therefore it is a vector quantity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_24",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 24,
+      "questionType": "single_choice",
+      "questionText": "Which quantity represents rate of change of displacement?",
+      "options": [
+        "velocity",
+        "speed",
+        "distance",
+        "time"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Velocity measures rate of change of displacement.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_25",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 25,
+      "questionType": "single_choice",
+      "questionText": "Vectors along the same straight line are called:",
+      "options": [
+        "collinear vectors",
+        "random vectors",
+        "curved vectors",
+        "unit vectors"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Collinear vectors lie along the same line.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_26",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 26,
+      "questionType": "single_choice",
+      "questionText": "The y-component of a vector lies along:",
+      "options": [
+        "vertical axis",
+        "horizontal axis",
+        "diagonal axis",
+        "curved axis"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The y-component lies along the vertical axis.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_27",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 27,
+      "questionType": "single_choice",
+      "questionText": "Vectors that lie in the same plane are called:",
+      "options": [
+        "coplanar vectors",
+        "parallel vectors",
+        "collinear vectors",
+        "random vectors"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Coplanar vectors exist in the same plane.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_28",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 28,
+      "questionType": "single_choice",
+      "questionText": "Which of the following quantities is a scalar quantity?",
+      "options": [
+        "Velocity",
+        "Force",
+        "Temperature",
+        "Displacement"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Temperature has magnitude only and no direction, so it is a scalar quantity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_29",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 29,
+      "questionType": "single_choice",
+      "questionText": "A steel rod has a Young's modulus of 2.0 x 10¹¹ N/m². If it experiences a strain of 0.001, what is the stress in the rod?",
+      "options": [
+        "2.0 x 10⁸ N/m²",
+        "2.0 x 10¹⁴ N/m²",
+        "5.0 x 10⁻¹⁵ N/m²",
+        "2.0 x 10¹¹ N/m²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Young's Modulus (Y) = Stress / Strain.\n Therefore, Stress = Y × Strain.\n Stress = (2.0 x 10¹¹ N/m²) × 0.001 = \n2.0 x 10⁸ N/m².",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_30",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 30,
+      "questionType": "single_choice",
+      "questionText": "A blue object under a green light will appear:",
+      "options": [
+        "Blue.",
+        "Green.",
+        "Black.",
+        "Yellow."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A blue object absorbs green light and reflects blue light.\n\n Since no blue light is available (only green light is incident), the object absorbs the green light and appears black (or very dark).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_31",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 31,
+      "questionType": "single_choice",
+      "questionText": "If the number of turns in a solenoid is doubled while keeping the length and current constant, the magnetic field inside:",
+      "options": [
+        "Is halved.",
+        "Is quadrupled.",
+        "Remains the same.",
+        "Is doubled."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The magnetic field B in a solenoid is proportional to the number of turns per unit length (n = N / L). \nDoubling N doubles the field B.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_32",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 32,
+      "questionType": "single_choice",
+      "questionText": "For an ideal transformer, the power input to the primary coil is **equal** to the power output from the secondary coil. This is an application of the law of:",
+      "options": [
+        "Conservation of charge.",
+        "Conservation of energy.",
+        "Ohm's Law.",
+        "Lenz's Law."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Ideal transformers are assumed to be 100 percent efficient, meaning they conserve energy: P input = P output.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_33",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 33,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT a method of charging a body?",
+      "options": [
+        "Friction",
+        "Conduction",
+        "Induction",
+        "Polarization"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Polarization redistributes charge but does not create net charge on a body.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_34",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 34,
+      "questionType": "single_choice",
+      "questionText": "The operation of an electric motor is based on which principle?",
+      "options": [
+        "Electromagnetic induction.",
+        "Motor effect (force on a current-carrying conductor).",
+        "Ohm's Law.",
+        "Charging by friction."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "An electric motor uses the motor effect, which is the force exerted on a current-carrying wire when it is placed in a magnetic field, to produce torque and rotation.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_35",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 35,
+      "questionType": "single_choice",
+      "questionText": "If a 4 A current flows through a resistor of 5 Ω, what is the voltage across it?",
+      "options": [
+        "20 V",
+        "9 V",
+        "1.25 V",
+        "10 V"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "V = IR = 4 × 5 = 20 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_36",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 36,
+      "questionType": "single_choice",
+      "questionText": "Two resistors of 8 Ω and 12 Ω are connected in series across 24 V. What is the current in the circuit?",
+      "options": [
+        "2 A",
+        "3 A",
+        "4 A",
+        "1.2 A"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Total R = 8+12 = 20 Ω. \nI = V/R = 24/20 = 1.2 A ≈ 1 A.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_37",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 37,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is NOT an application of X-rays?",
+      "options": [
+        "Treating cancer (radiotherapy).",
+        "Checking welds in steel structures.",
+        "Sterilizing plastic containers.",
+        "Determining crystal structure (X-ray diffraction)."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "While X-rays are used in diagnosis, Gamma rays are more commonly used for deep-penetrating radiotherapy to treat cancer.\n\n X-rays are generally not used for sterilization.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_38",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 38,
+      "questionType": "single_choice",
+      "questionText": "In a simple AC generator, the rotating coil is connected to the external circuit via:",
+      "options": [
+        "commutator.",
+        "soft iron core.",
+        "Slip rings.",
+        "relay switch."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Slip rings maintain continuous contact and allow the AC current (which reverses direction every half cycle) to pass to the external circuit.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_39",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 39,
+      "questionType": "single_choice",
+      "questionText": "When a charged object is brought near an electroscope without touching it, the leaves diverge due to:",
+      "options": [
+        "Induction",
+        "Friction",
+        "Conduction",
+        "Neutralization"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Electrons redistribute in the electroscope due to induction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_40",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 40,
+      "questionType": "single_choice",
+      "questionText": "A coil with 100 turns has a magnetic flux of 0.05 Weber passing through it. What is the total magnetic flux linkage (N Phi)?",
+      "options": [
+        "5 Weber.",
+        "500 Weber.",
+        "0.005 Weber.",
+        "100 Weber."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Magnetic flux linkage is N times Phi.\n N Phi = 100 turns * 0.05 Wb = 5 Weber.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_41",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 41,
+      "questionType": "single_choice",
+      "questionText": "Electric current is defined as:",
+      "options": [
+        "Flow of energy",
+        "Flow of electric charge",
+        "Difference in voltage",
+        "Resistance to motion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Current is the rate of flow of charge.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_42",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 42,
+      "questionType": "single_choice",
+      "questionText": "The energy transfer mechanism that does not require a material medium and relies solely on electromagnetic waves is:",
+      "options": [
+        "Conduction.",
+        "Convection.",
+        "Radiation.",
+        "Evaporation."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Heat transfer by radiation (e.g., from the Sun) involves the emission and absorption of electromagnetic waves, primarily infrared, and can occur in a vacuum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_43",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 43,
+      "questionType": "single_choice",
+      "questionText": "The two main types of electrical energy generated and used are:",
+      "options": [
+        "Static and Dynamic Current.",
+        "Electromagnetic and Gravitational Current.",
+        "Series and Parallel Current.",
+        "Direct Current (DC) and Alternating Current (AC)."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The two main types of current are Direct Current (DC), where the charge flows in one direction, and Alternating Current (AC), where the current direction periodically reverses.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_44",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 44,
+      "questionType": "single_choice",
+      "questionText": "Which method of charging can create a permanent charge on an object without direct contact?",
+      "options": [
+        "Friction",
+        "Conduction",
+        "Induction",
+        "Polarization"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Induction can charge an object by bringing a charged object near it.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_45",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 45,
+      "questionType": "single_choice",
+      "questionText": "Which region of the EM spectrum is primarily used in TV remote controls for signal transmission?",
+      "options": [
+        "Radio waves.",
+        "Infrared radiation.",
+        "Microwaves.",
+        "Ultraviolet."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Most consumer remote controls use short-range infrared (IR) radiation to transmit signals.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_46",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 46,
+      "questionType": "single_choice",
+      "questionText": "To produce the maximum induced current in a coil by moving a bar magnet, the magnet should be moved:",
+      "options": [
+        "Slowly toward or away from the coil.",
+        "Quickly toward or away from the coil.",
+        "Parallel to the coil's axis.",
+        "Very slowly and kept stationary inside the coil."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Induced EMF is proportional to the **rate of change** of magnetic flux.\n\n Moving the magnet quickly increases this rate, maximizing the induced current.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_47",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 47,
+      "questionType": "single_choice",
+      "questionText": "The concept that light sometimes behaves as a stream of particles (photons) and sometimes as a wave is known as:",
+      "options": [
+        "The Doppler effect.",
+        "The photoelectric effect.",
+        "Wave-particle duality.",
+        "Huygens' Principle."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Wave-particle duality states that all matter exhibits both wave and particle properties.\n\n For light, this means it has wavelike properties (diffraction, interference) and particle-like properties (photons, photoelectric effect).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_48",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 48,
+      "questionType": "single_choice",
+      "questionText": "An ammeter measures:",
+      "options": [
+        "Current",
+        "Voltage",
+        "Resistance",
+        "Charge"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ammeters measure the flow of current.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_49",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 49,
+      "questionType": "single_choice",
+      "questionText": "The ability of light to pass through a material is called:",
+      "options": [
+        "Absorption.",
+        "Reflection.",
+        "Transmission.",
+        "Opaqueness."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Transmission is the passage of electromagnetic waves through a medium.\n\n Materials that transmit light are transparent or translucent.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_50",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 50,
+      "questionType": "single_choice",
+      "questionText": "Which scientist unified electricity and magnetism and predicted the existence of electromagnetic waves?",
+      "options": [
+        "James Clerk Maxwell.",
+        "Michael Faraday.",
+        "Hans Christian Oersted.",
+        "Heinrich Hertz."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "James Clerk Maxwell formulated the theory of electromagnetism and predicted that oscillating electric and magnetic fields propagate through space as electromagnetic waves.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_51",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 51,
+      "questionType": "single_choice",
+      "questionText": "Which EM wave is used in remote sensing and weather forecasting because it can pass through clouds and precipitation?",
+      "options": [
+        "Infrared.",
+        "X-rays.",
+        "Visible light.",
+        "Microwaves (Radar)."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Radar (Radio Detection and Ranging) systems use microwaves to detect weather patterns, as these waves can penetrate the atmosphere and clouds.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_52",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 52,
+      "questionType": "single_choice",
+      "questionText": "The primary cause of the heat we receive from the Sun is:",
+      "options": [
+        "Solar wind (charged particles).",
+        "Gamma rays.",
+        "Infrared and visible radiation.",
+        "Microwave radiation."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The majority of the Sun's energy reaching Earth is in the visible and infrared regions of the spectrum, which contributes to heating the Earth.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_53",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 53,
+      "questionType": "single_choice",
+      "questionText": "32. Which one of the following statements is correct about the resistance of a conducting wire? The resistance of the wire is",
+      "options": [
+        "directly proportional to the square of its length.",
+        "directly proportional to the square of its cross-sectional area.",
+        "inversely proportional to its cross-sectional area.",
+        "inversely proportional to its length."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The resistance ($R$) of a conductor is given by the formula $R = \\rho \\frac{L}{A}$, where $\\rho$ is resistivity, $L$ is length, and $A$ is the cross-sectional area. The formula shows that resistance is **inversely proportional to the cross-sectional area** ($R \\propto 1/A$) and directly proportional to the length ($R \\propto L$). .",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_54",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 54,
+      "questionType": "single_choice",
+      "questionText": "What is the physical quantity that links the electric and magnetic fields in Faraday's Law of Induction?",
+      "options": [
+        "Charge.",
+        "Current.",
+        "Magnetic flux (Phi).",
+        "Resistance."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Faraday's Law states that the induced EMF (electric effect) is proportional to the rate of change of magnetic flux (magnetic effect).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_55",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 55,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following is NOT a property of magnetic field lines?",
+      "options": [
+        "They form closed loops.",
+        "They are closest together where the magnetic field is strongest.",
+        "They never cross each other.",
+        "They originate at the North pole and terminate at the South pole inside the magnet."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Magnetic field lines go from North to South outside the magnet and from South to North **inside** the magnet, thus forming closed loops.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_56",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 56,
+      "questionType": "single_choice",
+      "questionText": "Which of the following is true about satellite motion?",
+      "options": [
+        "satellite moving closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+        "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one.",
+        "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about Moon.",
+        "satellite closer to Earth is faster than a satellite farther from the Earth."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "According to orbital mechanics, the orbital speed of a satellite is given by:- \n\nv = √(GM/r), where r is the distance from the center of the Earth.\n\n Therefore, a satellite closer to Earth (smaller r) moves faster than one farther away.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_57",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 57,
+      "questionType": "single_choice",
+      "questionText": "If a coil is moved through a uniform magnetic field at a constant velocity, the induced EMF will be:",
+      "options": [
+        "Constant and maximum.",
+        "Alternating.",
+        "Zero.",
+        "Increasing linearly."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Induced EMF is proportional to the rate of change of flux. \nMoving the coil through a uniform field at a constant velocity means the magnetic flux through the coil is not changing (as long as it remains entirely within the field), so the induced EMF is zero.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_58",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 58,
+      "questionType": "single_choice",
+      "questionText": "An object is placed 25.0 cm in front of a concave mirror having focal length of 10.0 cm. The magnification of the mirror is _________.",
+      "options": [
+        "2.5",
+        "16.7",
+        "0.67",
+        "1.5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The image distance (v) is found using the mirror formula: 1/v = 1/f - 1/u. \n\nWith f = -10.0 cm and u = -25.0 cm, 1/v = 1/(-10) - 1/(-25) = -1/10 + 1/25 = (-5 + 2)/50 = -3/50, so v = -50/3 cm.\n\n The magnification (M) is then M = -v/u = -(-50/3) / (-25) = -2/3 = -0.67. \n\nThe magnitude is 0.67, which corresponds to option C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_59",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 59,
+      "questionType": "single_choice",
+      "questionText": "An electron moving North enters a magnetic field directed East. The magnetic force on the electron is directed:",
+      "options": [
+        "Upward.",
+        "West.",
+        "South.",
+        "Downward."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Using the Right-Hand Palm Rule for a positive charge (or the three-finger rule), the force would be Upward.\n\n Since the electron is negatively charged, the force is in the opposite direction, which is Downward.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_60",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 60,
+      "questionType": "single_choice",
+      "questionText": "According to the convention, a positive focal length (f) corresponds to which type of mirror or lens?",
+      "options": [
+        "Concave mirror or concave lens.",
+        "Concave mirror or convex lens.",
+        "Convex mirror or convex lens.",
+        "Convex mirror or concave lens."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Converging optical components have positive focal lengths:\n Concave mirrors and Convex lenses.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_61",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 61,
+      "questionType": "single_choice",
+      "questionText": "Which of the following colors of visible light has the lowest energy?",
+      "options": [
+        "Blue.",
+        "Green.",
+        "Red.",
+        "Violet."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Energy is proportional to frequency (E is proportional to f). \n\nRed light has the lowest frequency (and longest wavelength) in the visible spectrum, meaning it has the lowest photon energy.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_62",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 62,
+      "questionType": "single_choice",
+      "questionText": "A current of 0.5 A flows for 2 minutes. How much charge passes through the circuit?",
+      "options": [
+        "30 C",
+        "60 C",
+        "120 C",
+        "15 C"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Q = I * t = 0.5 * 120 = 60 C. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_63",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 63,
+      "questionType": "single_choice",
+      "questionText": "Which application utilizes X-rays due to their ability to penetrate soft tissues but be absorbed by denser materials like bone?",
+      "options": [
+        "Remote control devices.",
+        "Fluorescent lamps.",
+        "Medical diagnostics (imaging).",
+        "Global Positioning System (GPS)."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "X-rays are widely used in medicine to take pictures of bones and teeth because of this differential absorption property.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_64",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 64,
+      "questionType": "single_choice",
+      "questionText": "Which color of light has the shortest wavelength?",
+      "options": [
+        "Red.",
+        "Green.",
+        "Violet.",
+        "Yellow."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Violet light (around 400 nm) has the shortest wavelength in the visible spectrum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_65",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 65,
+      "questionType": "single_choice",
+      "questionText": "Arrange the following in order of increasing wavelength: 1) Visible Light, 2) X-rays, 3) Microwaves.",
+      "options": [
+        "3, 1, 2.",
+        "2, 1, 3.",
+        "1, 3, 2.",
+        "2, 3, 1."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Increasing wavelength means decreasing frequency/energy. The order from shortest to longest wavelength is: X-rays, Visible Light, Microwaves (2, 1, 3).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_66",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 66,
+      "questionType": "single_choice",
+      "questionText": "Which component in a DC motor periodically reverses the direction of the current in the coil?",
+      "options": [
+        "Stator.",
+        "Rotor.",
+        "Commutator.",
+        "Brush."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The commutator is a split ring device that reverses the direction of the current in the armature coil every half-turn, ensuring the torque is always in the same direction, hence continuous rotation.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_67",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 67,
+      "questionType": "single_choice",
+      "questionText": "The energy of a single photon is directly proportional to its:",
+      "options": [
+        "Wavelength.",
+        "Amplitude.",
+        "Frequency.",
+        "Speed."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "According to Planck's equation, E = h times f (Energy equals Planck's constant times frequency).\n\n Therefore, energy is directly proportional to frequency.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_68",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 68,
+      "questionType": "single_choice",
+      "questionText": "The main component used in magnetic tape and hard drives for data storage is a:",
+      "options": [
+        "Hard magnetic material.",
+        "Soft magnetic material.",
+        "Diamagnetic material.",
+        "Paramagnetic material."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Data storage requires materials that can retain their magnetic state (magnetization) permanently, which are known as hard magnetic materials (high coercivity).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_69",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 69,
+      "questionType": "single_choice",
+      "questionText": "If resistance increases while voltage remains constant, the current:",
+      "options": [
+        "Increases",
+        "Remains the same",
+        "Oscillates",
+        "Decreases"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I = V/R; \nincreasing R reduces current.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_70",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 70,
+      "questionType": "single_choice",
+      "questionText": "Which type of electromagnetic wave is used to carry audio signals in a standard AM (Amplitude Modulation) radio broadcast?",
+      "options": [
+        "Visible light.",
+        "Radio waves.",
+        "Microwaves.",
+        "Gamma rays."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "AM radio uses the long-wavelength radio wave portion of the spectrum.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_71",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 71,
+      "questionType": "single_choice",
+      "questionText": "Which of the following properties is constant for all electromagnetic waves traveling in a vacuum?",
+      "options": [
+        "Wavelength.",
+        "Frequency.",
+        "Energy.",
+        "Speed."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The speed of light (c) in a vacuum is a universal constant for all electromagnetic waves, regardless of their frequency or wavelength.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_72",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 72,
+      "questionType": "single_choice",
+      "questionText": "In a transformer, why must the primary and secondary coils be wound on the same core?",
+      "options": [
+        "To ensure power is conserved.",
+        "To maximize the magnetic flux linkage between the coils.",
+        "To prevent heating.",
+        "To ensure a DC output."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The common soft iron core ensures that nearly all the magnetic flux produced by the primary coil passes through the secondary coil, maximizing the induced EMF and efficiency.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_73",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 73,
+      "questionType": "single_choice",
+      "questionText": "A satellite revolves around the Earth in a circular orbit of radius r = 4 * 10¹⁶m. The period of the satellite is ______.",
+      "options": [
+        "2.5 * 10¹⁹ s",
+        "3.7 * 10²⁷ s",
+        "3.7 * 10²⁶ s",
+        "2.5 * 10¹⁸ s"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The period T of a satellite in a circular orbit is given by:- \n\nT = 2π√(r³ / GM), \nwhere G = 6.67 × 10⁻¹¹ N·m²/kg² and M = 5.97 × 10²⁴ kg (mass of Earth).\n\n Substituting r = 4 × 10¹⁶ m gives T ≈ 2.5 × 10¹⁹ s.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_74",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 74,
+      "questionType": "single_choice",
+      "questionText": "For a given converging lens, where should an object be placed to obtain a real image of the same size as the object?",
+      "options": [
+        "At the focal point (F).",
+        "Between F and 2F.",
+        "At 2F (center of curvature).",
+        "Beyond 2F."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Placing the object at twice the focal length (2F, which is C for a mirror equivalent) yields a real, inverted, and same-size image.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_75",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 75,
+      "questionType": "single_choice",
+      "questionText": "The image formed by a convex lens is used as a magnifying glass when the object is placed:",
+      "options": [
+        "At 2F.",
+        "Beyond 2F.",
+        "Between F and 2F.",
+        "Between F and the lens."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A magnifying glass works by creating a virtual, upright, and magnified image, which occurs when the object is placed closer to the lens than the focal point (between F and the lens).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_76",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 76,
+      "questionType": "single_choice",
+      "questionText": "The electric utility grid in most countries uses AC power instead of DC power primarily because AC can:",
+      "options": [
+        "Travel faster in the cables.",
+        "Be stored in large batteries.",
+        "Be generated more cheaply.",
+        "Be easily stepped up and down using transformers."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The ability of AC to be easily transformed is the key reason for its use, as it allows for high-voltage, low-loss transmission over long distances.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_77",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 77,
+      "questionType": "single_choice",
+      "questionText": "Which device uses the principle of electromagnetic induction to convert mechanical energy into electrical energy?",
+      "options": [
+        "Electric motor.",
+        "Electromagnet.",
+        "Generator (Dynamo).",
+        "Transformer."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A generator (dynamo) converts mechanical energy (motion) into electrical energy based on Faraday's Law of Induction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_78",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 78,
+      "questionType": "single_choice",
+      "questionText": "The ratio of the speed of light in a vacuum (c) to the speed of light in a medium (v) is defined as the:",
+      "options": [
+        "Critical angle.",
+        "Refractive index (n).",
+        "Focal length (f).",
+        "Magnification (m)."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The refractive index n = c / v.\n\n It is a measure of how much the speed of light is reduced in a medium.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_79",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 79,
+      "questionType": "single_choice",
+      "questionText": "A converging lens is also known as a:",
+      "options": [
+        "Concave lens.",
+        "Diverging lens.",
+        "Convex lens.",
+        "Plano-concave lens."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A convex lens is thicker in the middle and causes parallel light rays to converge (meet) at a single point (the focal point).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_80",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 80,
+      "questionType": "single_choice",
+      "questionText": "The energy stored in a charged conductor is due to:",
+      "options": [
+        "Movement of electrons",
+        "Potential difference across it",
+        "Resistance only",
+        "Current flow only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Energy is stored as electric potential energy due to voltage.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_81",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 81,
+      "questionType": "single_choice",
+      "questionText": "Which phenomenon causes white light to split into its constituent colors when passing through a prism?",
+      "options": [
+        "Reflection.",
+        "Refraction.",
+        "Dispersion.",
+        "Interference."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Dispersion is the phenomenon where the speed (and thus the refractive index) of a medium varies with the wavelength of light, causing different colors to refract at different angles.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_82",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 82,
+      "questionType": "single_choice",
+      "questionText": "An EM wave travels from air (n=1.0) into glass (n=1.5). Which property of the wave remains unchanged?",
+      "options": [
+        "Wavelength.",
+        "Speed.",
+        "Direction.",
+        "Frequency."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "When a wave passes from one medium to another, its frequency (determined by the source) remains constant, while its speed and wavelength change.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_83",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 83,
+      "questionType": "single_choice",
+      "questionText": "Which characteristic of a DC motor is NOT improved by increasing the number of loops on the armature coil?",
+      "options": [
+        "The torque produced.",
+        "The strength of the magnetic field.",
+        "The speed of rotation.",
+        "The efficiency."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The magnetic field B is produced by the permanent magnets or electromagnets (field coils).\n\n Increasing the number of loops in the armature (rotor) increases the torque, speed, and efficiency, but not the field B itself.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_84",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 84,
+      "questionType": "single_choice",
+      "questionText": "The minimum distance between an object and its real image in a concave mirror is:",
+      "options": [
+        "Zero.",
+        "Twice the focal length (2f).",
+        "Four times the focal length (4f).",
+        "Zero only at the focal point."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The minimum distance is zero, which occurs when the object is placed at the center of curvature (C or 2F), as the image is also formed exactly at C.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_85",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 85,
+      "questionType": "single_choice",
+      "questionText": "If resistance increases with constant voltage, current will:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "Double"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "From I = V/R, current decreases.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_86",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 86,
+      "questionType": "single_choice",
+      "questionText": "The phenomenon of light that explains why a coin at the bottom of a container of water appears shallower than it really is, is:",
+      "options": [
+        "Reflection.",
+        "Total internal reflection.",
+        "Diffraction.",
+        "Refraction."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Light rays from the coin bend away from the normal when leaving the water (denser medium) into the air (less dense medium).\n\n This refraction makes the apparent depth smaller than the real depth.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_87",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 87,
+      "questionType": "single_choice",
+      "questionText": "If an object is placed at the center of curvature (C) of a concave mirror, the image is formed at:",
+      "options": [
+        "Between C and F.",
+        "The focal point (F).",
+        "The center of curvature (C).",
+        "Infinity."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a concave mirror, when the object distance is twice the focal length (at C), the image is also formed at C, is real, inverted, and the same size.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_88",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 88,
+      "questionType": "single_choice",
+      "questionText": "If displacement-time graph is a straight line, motion is:",
+      "options": [
+        "Accelerated",
+        "Uniform",
+        "Retarded",
+        "Circular"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Straight line in x–t graph means constant velocity.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_89",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 89,
+      "questionType": "single_choice",
+      "questionText": "If a transformer has 100 turns in the primary coil and 500 turns in the secondary coil, and the primary voltage is 12 V, the secondary voltage will be:",
+      "options": [
+        "2.4 V.",
+        "12 V.",
+        "60 V.",
+        "500 V."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The voltage ratio is Vp / Vs = Np / Ns.\n\n Vs = Vp * (Ns / Np) = \n12 V * (500 / 100) =\n 12 V * 5 = 60 V.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_90",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 90,
+      "questionType": "single_choice",
+      "questionText": "A light ray that passes through the center of curvature of a spherical mirror after reflection:",
+      "options": [
+        "Passes through the focal point.",
+        "Travels parallel to the principal axis.",
+        "Is completely absorbed.",
+        "Retraces its original path."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "A ray passing through the center of curvature (C) hits the mirror surface perpendicularly (along the normal) and thus is reflected back along the same path (retrace).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_91",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 91,
+      "questionType": "single_choice",
+      "questionText": "The arrow head of a vector represents:",
+      "options": [
+        "Direction",
+        "Magnitude",
+        "Origin",
+        "Length"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The arrow head indicates the direction of the vector.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_92",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 92,
+      "questionType": "single_choice",
+      "questionText": "Which statement is true regarding the propagation of EM waves in a vacuum?",
+      "options": [
+        "The electric field component is stronger than the magnetic field component.",
+        "The magnetic field component is stronger than the electric field component.",
+        "The electric and magnetic fields oscillate with the same amplitude.",
+        "The electric and magnetic fields are always in phase."
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In an EM wave, the oscillating electric field and magnetic field are always in phase (reach their maximum and minimum values simultaneously).",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_93",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 93,
+      "questionType": "single_choice",
+      "questionText": "A charged particle moves in a circle of radius R in a uniform magnetic field. If the speed of the particle is doubled, the new radius of the circle will be:",
+      "options": [
+        "R / 2.",
+        "R.",
+        "2 R.",
+        "4 R."
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The radius R of the circular path is proportional to the speed v (R = m v / q B).\n\n Doubling the speed v doubles the radius R.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_94",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 94,
+      "questionType": "single_choice",
+      "questionText": "Which equation represents the first equation of motion?",
+      "options": [
+        "v = u + at",
+        "s = ut",
+        "v² = u² + at",
+        "s = vt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The first equation of motion is v = u + at.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_95",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 95,
+      "questionType": "single_choice",
+      "questionText": "Which one of the following units is NOT a possible unit of electric field strength?",
+      "options": [
+        "Newton/Coulomb",
+        "Joule/Coulomb",
+        "Volt/meter",
+        "Joule/(Coulomb * meter)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Electric field strength (E) is defined as force per unit charge: E = F/q. \n\nIts SI unit is Newton per Coulomb (N/C).\n\n It can also be expressed as potential difference per unit distance: E = V/d, so Volt per meter (V/m) and Joule/(Coulomb * meter) are valid. \n\nJoule/Coulomb alone is just Volt, which is not a unit of electric field strength. ",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_96",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 96,
+      "questionType": "single_choice",
+      "questionText": "The first condition for equilibrium (ΣF = 0) ensures that the object has no:",
+      "options": [
+        "Rotational motion",
+        "Translational acceleration",
+        "Velocity",
+        "Potential energy"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The first condition, that the vector sum of all forces is zero, is a direct application of Newton's Second Law (F=ma).\n\n If ΣF=0, then the acceleration 'a' must be zero.\n This prevents any change in the object's linear motion.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_97",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 97,
+      "questionType": "single_choice",
+      "questionText": "If two equal vectors act in opposite directions, their resultant is:",
+      "options": [
+        "Equal to one vector",
+        "Twice one vector",
+        "Zero",
+        "Half a vector"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equal and opposite vectors cancel out.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_98",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 98,
+      "questionType": "single_choice",
+      "questionText": "Oersted's experiment showed that an electric current produces:",
+      "options": [
+        "magnetic field.",
+        "An electric field.",
+        "Gravitational force.",
+        "Electromagnetic waves."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Hans Christian Oersted discovered that a current-carrying wire deflected a nearby magnetic compass, demonstrating that an electric current creates a magnetic field.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_99",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 99,
+      "questionType": "single_choice",
+      "questionText": "Neutral objects can be attracted to a charged body due to:",
+      "options": [
+        "Conduction",
+        "Friction",
+        "Induction",
+        "Voltage"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Induced charges in a neutral object create attraction.",
+      "topic": "Physics"
+    },
+    {
+      "id": "q_p2018_g10_merged_melmeja_100",
+      "examId": "p2018_g10_merged_melmeja",
+      "number": 100,
+      "questionType": "single_choice",
+      "questionText": "Which statement is correct regarding electric discharge?",
+      "options": [
+        "Discharge occurs only in metals",
+        "Discharge is the movement of charges from high to low potential",
+        "Discharge creates charges",
+        "Discharge increases resistance"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Electrical discharge occurs as charges move to neutralize potential differences.",
       "topic": "Physics"
     }
   ]
