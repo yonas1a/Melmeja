@@ -25,3 +25,12 @@
   --color-green-900: #0a4605;
   --color-green-950: #032602;
 }
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

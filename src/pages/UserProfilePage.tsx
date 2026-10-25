@@ -110,21 +110,21 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6 animate-in fade-in">
+    <div className="w-full min-w-0 max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-5 sm:py-8 space-y-5 sm:space-y-6 animate-in fade-in overflow-x-clip">
       {/* Email verification notice */}
       <EmailVerificationNotice />
 
       {/* 1. Profile Header Card */}
-      <div className="bg-white border border-slate-200 rounded-xl p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
-          <div className="flex items-center gap-3.5">
+      <div className="min-w-0 bg-white border border-slate-200 rounded-xl p-4 sm:p-6 shadow-xs">
+        <div className="flex min-w-0 flex-col md:flex-row items-start md:items-center justify-between gap-4 sm:gap-5">
+          <div className="flex min-w-0 items-center gap-3.5">
             <div className="w-12 h-12 rounded-xl bg-purple-100 border border-purple-200 flex items-center justify-center font-bold text-lg text-purple-700 shrink-0">
               {userProfile?.name?.charAt(0).toUpperCase() || user.email?.charAt(0).toUpperCase()}
             </div>
 
-            <div className="space-y-0.5">
-              <div className="flex items-center gap-2">
-                <h1 className="text-lg sm:text-xl font-bold text-slate-900">
+            <div className="min-w-0 space-y-0.5">
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="break-words text-lg sm:text-xl font-bold text-slate-900">
                   {userProfile?.name || 'Ethiopian Student'}
                 </h1>
                 {isAdmin ? (
@@ -138,8 +138,8 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
                 )}
               </div>
 
-              <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
-                <span className="flex items-center gap-1">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500">
+                <span className="flex min-w-0 items-center gap-1 break-all">
                   <Mail className="w-3.5 h-3.5 text-slate-400" />
                   {user.email}
                 </span>
@@ -159,7 +159,7 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
             </div>
           </div>
 
-          <div className="flex items-center gap-2 self-start md:self-auto">
+          <div className="flex flex-wrap items-center gap-2 self-start md:self-auto">
             <button
               onClick={() => onNavigate('payment')}
               className="px-3 py-1.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 text-xs font-bold transition-all flex items-center gap-1.5 shadow-xs"
@@ -180,31 +180,31 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
       </div>
 
       {/* 2. Key Performance Metrics Bar */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div className="bg-white border border-slate-200 p-4 rounded-xl text-center space-y-0.5 shadow-xs">
+      <div className="grid min-w-0 grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+        <div className="min-w-0 bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center space-y-0.5 shadow-xs">
           <div className="text-[11px] font-medium text-slate-500">Exams Attempted</div>
           <div className="text-xl font-bold text-slate-900">{totalAttempts}</div>
         </div>
 
-        <div className="bg-white border border-slate-200 p-4 rounded-xl text-center space-y-0.5 shadow-xs">
+        <div className="min-w-0 bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center space-y-0.5 shadow-xs">
           <div className="text-[11px] font-medium text-slate-500">Average Score</div>
           <div className="text-xl font-bold text-emerald-700">{avgScore}%</div>
         </div>
 
-        <div className="bg-white border border-slate-200 p-4 rounded-xl text-center space-y-0.5 shadow-xs">
+        <div className="min-w-0 bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center space-y-0.5 shadow-xs">
           <div className="text-[11px] font-medium text-slate-500">Highest Score</div>
           <div className="text-xl font-bold text-purple-700">{highestScore}%</div>
         </div>
 
-        <div className="bg-white border border-slate-200 p-4 rounded-xl text-center space-y-0.5 shadow-xs">
+        <div className="min-w-0 bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center space-y-0.5 shadow-xs">
           <div className="text-[11px] font-medium text-slate-500">Tests Passed</div>
           <div className="text-xl font-bold text-blue-700">{passedCount}</div>
         </div>
       </div>
 
       {/* 3. Active Paid Packages & Unlocked Exams List */}
-      <div className="bg-white border border-slate-200 rounded-xl p-5 sm:p-6 space-y-3.5 shadow-xs">
-        <div className="flex items-center justify-between">
+      <div className="min-w-0 bg-white border border-slate-200 rounded-xl p-4 sm:p-6 space-y-3.5 shadow-xs">
+        <div className="flex items-start gap-2">
           <div>
             <h3 className="text-sm font-bold text-slate-900 flex items-center gap-1.5">
               <Award className="w-4 h-4 text-emerald-600" />
@@ -216,13 +216,13 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2 pt-1">
+        <div className="flex min-w-0 flex-wrap gap-2 pt-1">
           {userProfile?.paidPackages?.map((pkgId) => {
             const pkg = EXAM_PACKAGES.find(p => p.id === pkgId);
             return (
-              <span key={pkgId} className="px-2.5 py-1 rounded-md bg-purple-50 border border-purple-200 text-purple-900 text-xs font-medium flex items-center gap-1.5">
+              <span key={pkgId} className="min-w-0 max-w-full px-2.5 py-1 rounded-md bg-purple-50 border border-purple-200 text-purple-900 text-xs font-medium flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>{pkg ? pkg.name : pkgId}</span>
+                <span className="break-words">{pkg ? pkg.name : pkgId}</span>
               </span>
             );
           })}
@@ -231,9 +231,9 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
             const examObj = INITIAL_EXAMS.find(e => e.id === exId);
             if (!examObj) return null;
             return (
-              <span key={exId} className="px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-emerald-900 text-xs font-medium flex items-center gap-1.5">
+              <span key={exId} className="min-w-0 max-w-full px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-emerald-900 text-xs font-medium flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5 text-emerald-600" />
-                <span>{examObj.title}</span>
+                <span className="break-words">{examObj.title}</span>
               </span>
             );
           })}
@@ -250,16 +250,14 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
       </div>
 
       {/* 4. Exam Attempt History Table */}
-      <div className="bg-white border border-slate-200 rounded-xl p-5 sm:p-6 space-y-3.5 shadow-xs">
-        <div className="flex items-center justify-between">
+      <div className="min-w-0 bg-white border border-slate-200 rounded-xl p-4 sm:p-6 space-y-3.5 shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <h3 className="text-sm font-bold text-slate-900 flex items-center gap-1.5">
               <TrendingUp className="w-4 h-4 text-purple-600" />
               <span>Exam Attempt History</span>
             </h3>
-            <p className="text-xs text-slate-500">
-              Exam Title | Date Taken | Score (%) | Time Spent
-            </p>
+            <p className="text-xs text-slate-500">Your completed exams and scores</p>
           </div>
           <span className="text-[11px] px-2 py-0.5 bg-slate-100 rounded text-slate-600 font-mono font-medium">
             {attempts.length} Record{attempts.length === 1 ? '' : 's'}
@@ -280,8 +278,37 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
             </button>
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs">
+          <>
+          <div className="space-y-3 md:hidden">
+            {attempts.map((attempt) => (
+              <article key={attempt.id} className="min-w-0 rounded-lg border border-slate-200 bg-slate-50 p-3 space-y-3">
+                <div className="min-w-0">
+                  <h4 className="break-words text-sm font-semibold text-slate-900">{attempt.examTitle}</h4>
+                  <p className="mt-1 text-xs text-slate-500">
+                    {attempt.examCategory} · {new Date(attempt.completedAt).toLocaleDateString()} {new Date(attempt.completedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                  </p>
+                </div>
+                <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <span className="font-bold text-slate-900">{attempt.scorePercent}%</span>
+                    <span className={attempt.passed ? 'font-semibold text-emerald-700' : 'font-semibold text-red-700'}>
+                      {attempt.passed ? 'Passed' : 'Not passed'}
+                    </span>
+                    <span className="text-slate-500">{formatTime(attempt.timeTakenSeconds)}</span>
+                  </div>
+                  <button
+                    onClick={() => handleRetakeExam(attempt.examId)}
+                    className="inline-flex items-center gap-1 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 font-bold text-purple-700 shadow-xs"
+                  >
+                    <Play className="w-3 h-3" />
+                    <span>Retake</span>
+                  </button>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="hidden overflow-x-auto md:block">
+            <table className="w-full min-w-[760px] text-left text-xs">
               <thead className="bg-slate-50 text-slate-600 uppercase tracking-wider text-[10px] border-b border-slate-200">
                 <tr>
                   <th className="py-2.5 px-3 font-bold">Exam Title</th>
@@ -338,6 +365,7 @@ export const UserProfilePage: React.FC<UserProfilePageProps> = ({ onNavigate, on
               </tbody>
             </table>
           </div>
+          </>
         )}
       </div>
     </div>

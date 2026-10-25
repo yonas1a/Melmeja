@@ -119,59 +119,68 @@ export const PaymentPage: React.FC<PaymentPageProps> = ({ onNavigate, onOpenAuth
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Fast client-side image compressor: scales any high-res mobile screenshot to ~50-90KB
+  // Compress supported screenshots, but keep the original if the browser cannot decode them.
   const compressImage = (file: File): Promise<{ dataUrl: string; sizeKb: number }> => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = (e) => {
+        const originalDataUrl = e.target?.result;
+        if (typeof originalDataUrl !== 'string') {
+          reject(new Error('The selected file could not be read.'));
+          return;
+        }
+
+        const useOriginal = () => resolve({
+          dataUrl: originalDataUrl,
+          sizeKb: Math.round(file.size / 1024),
+        });
         const img = new Image();
         img.onload = () => {
-          const maxWidth = 900;
-          const maxHeight = 900;
-          let width = img.width;
-          let height = img.height;
-
-          if (width > maxWidth || height > maxHeight) {
-            if (width / height > maxWidth / maxHeight) {
-              height = Math.round((height * maxWidth) / width);
-              width = maxWidth;
-            } else {
-              width = Math.round((width * maxHeight) / height);
-              height = maxHeight;
+          try {
+            const maxWidth = 1200;
+            const maxHeight = 1600;
+            const scale = Math.min(1, maxWidth / img.naturalWidth, maxHeight / img.naturalHeight);
+            const width = Math.max(1, Math.round(img.naturalWidth * scale));
+            const height = Math.max(1, Math.round(img.naturalHeight * scale));
+            const canvas = document.createElement('canvas');
+            canvas.width = width;
+            canvas.height = height;
+            const ctx = canvas.getContext('2d');
+            if (!ctx) {
+              useOriginal();
+              return;
             }
-          }
 
-          const canvas = document.createElement('canvas');
-          canvas.width = width;
-          canvas.height = height;
-          const ctx = canvas.getContext('2d');
-          if (!ctx) {
-            const rawUrl = e.target?.result as string;
-            resolve({ dataUrl: rawUrl, sizeKb: Math.round(rawUrl.length / 1024) });
-            return;
+            ctx.fillStyle = '#FFFFFF';
+            ctx.fillRect(0, 0, width, height);
+            ctx.drawImage(img, 0, 0, width, height);
+            const compressed = canvas.toDataURL('image/jpeg', 0.8);
+            resolve({
+              dataUrl: compressed,
+              sizeKb: Math.round((compressed.length * 3) / 4 / 1024),
+            });
+          } catch (error) {
+            console.warn('Screenshot compression unavailable; using original image:', error);
+            useOriginal();
           }
-
-          ctx.fillStyle = '#FFFFFF';
-          ctx.fillRect(0, 0, width, height);
-          ctx.drawImage(img, 0, 0, width, height);
-          const compressed = canvas.toDataURL('image/jpeg', 0.75);
-          const sizeKb = Math.round((compressed.length * 3) / 4 / 1024);
-          resolve({ dataUrl: compressed, sizeKb });
         };
         img.onerror = () => {
-          const rawUrl = e.target?.result as string;
-          resolve({ dataUrl: rawUrl, sizeKb: Math.round(rawUrl.length / 1024) });
+          useOriginal();
         };
-        img.src = e.target?.result as string;
+        img.src = originalDataUrl;
       };
-      reader.onerror = () => reject(new Error('Failed to read image file'));
-      reader.readAsDataURL(file);
+      reader.onerror = () => reject(reader.error || new Error('Failed to read image file'));
+      try {
+        reader.readAsDataURL(file);
+      } catch (error) {
+        reject(error);
+      }
     });
   };
 
   // Image Upload handler (File picker & Drag and drop) — now includes OCR extraction
   const handleImageFile = async (file: File) => {
-    if (!file.type.startsWith('image/')) {
+    if (!file.type.startsWith('image/') && !/\.(jpe?g|png|webp|gif|bmp|heic|heif)$/i.test(file.name)) {
       setErrorMsg('Please select a valid image file (PNG, JPG, JPEG, WEBP).');
       return;
     }
@@ -212,7 +221,7 @@ export const PaymentPage: React.FC<PaymentPageProps> = ({ onNavigate, onOpenAuth
       }
     } catch (err: any) {
       console.error('Image compression error:', err);
-      setErrorMsg('Failed to process image. Please try a different screenshot.');
+      setErrorMsg('Could not read this screenshot. Try saving it as JPG or PNG and upload it again.');
     } finally {
       setIsProcessingImage(false);
     }
@@ -654,14 +663,16 @@ export const PaymentPage: React.FC<PaymentPageProps> = ({ onNavigate, onOpenAuth
                       accept="image/*"
                       className="hidden"
                       onChange={(e) => {
-                        if (e.target.files && e.target.files[0]) {
-                          handleImageFile(e.target.files[0]);
+                        const file = e.target.files?.[0];
+                        e.currentTarget.value = '';
+                        if (file) {
+                          handleImageFile(file);
                         }
                       }}
                     />
                     <Upload className="w-6 h-6 text-slate-400 group-hover:text-purple-600 mx-auto mb-1.5 transition-colors" />
                     <div className="text-xs font-semibold text-slate-700">Upload payment screenshot</div>
-                    <p className="text-[10px] text-slate-500 mt-0.5">JPG, PNG or WEBP</p>
+                    <p className="text-[10px] text-slate-500 mt-0.5">JPG, PNG or WEBP · Up to 10 MB</p>
                   </div>
                 )}
               </div>
